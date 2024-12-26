@@ -2,19 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X } from 'lucide-react';
+import { Tag, Plus, X, Download } from 'lucide-react';
 
 const ADMIN_USER = 'Mediaeater';
-const MAX_TITLE_LENGTH = 120;
 
 const LinkBlog = () => {
   const [links, setLinks] = useState([]);
   const [newLink, setNewLink] = useState({ url: '', source: '', tags: [] });
   const [currentTag, setCurrentTag] = useState('');
   const [isAdmin, setIsAdmin] = useState(false);
-  const [selectedTag, setSelectedTag] = useState('');
-  const [lastUpdated, setLastUpdated] = useState(null);
-  const [allTags, setAllTags] = useState([]);
 
   useEffect(() => {
     fetchLinks();
@@ -26,32 +22,20 @@ const LinkBlog = () => {
     try {
       const response = await fetch('/link-blog/data/links.json');
       const data = await response.json();
-      if (data && data.links) {
-        setLinks(data.links);
-        setLastUpdated(data.lastUpdated || new Date().toISOString());
-        
-        // Extract all unique tags
-        const tags = new Set();
-        data.links.forEach(link => {
-          link.tags.forEach(tag => tags.add(tag));
-        });
-        setAllTags([...tags]);
-      } else {
-        console.error('No links found in data');
-      }
+      setLinks(data.links);
     } catch (error) {
       console.error('Error fetching links:', error);
+      // If fetch fails, try loading from localStorage
+      const savedLinks = JSON.parse(localStorage.getItem('links') || '[]');
+      setLinks(savedLinks);
     }
   };
 
   const addLink = () => {
     if (newLink.url && newLink.source && isAdmin) {
-      if (newLink.source.length > MAX_TITLE_LENGTH) {
-        alert(`Title must be less than ${MAX_TITLE_LENGTH} characters`);
-        return;
-      }
-      const updatedLinks = [...links, { ...newLink, id: Date.now() }];
+      const updatedLinks = [...links, { ...newLink, id: Date.now().toString() }];
       setLinks(updatedLinks);
+      localStorage.setItem('links', JSON.stringify(updatedLinks));
       setNewLink({ url: '', source: '', tags: [] });
     }
   };
@@ -70,40 +54,32 @@ const LinkBlog = () => {
     });
   };
 
-  const filteredLinks = selectedTag 
-    ? links.filter(link => link.tags.includes(selectedTag))
-    : links;
-
-  const formatDate = (dateString) => {
-    return new Date(dateString).toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit'
-    });
-  };
-
-  const extractDomain = (url) => {
-    try {
-      const domain = new URL(url).hostname;
-      return domain.replace('www.', '');
-    } catch {
-      return url;
-    }
+  const downloadLinksJson = () => {
+    const data = {
+      links: links
+    };
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'links.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 font-mono">
-      {lastUpdated && (
-        <div className="mb-6 text-sm text-gray-600">
-          Last Updated: {formatDate(lastUpdated)}
-        </div>
-      )}
-
+    <div className="max-w-4xl mx-auto p-4">
       {isAdmin && (
         <div className="mb-8">
-          <h1 className="text-2xl font-bold mb-4">Add New Link</h1>
+          <div className="flex justify-between items-center mb-4">
+            <h1 className="text-2xl font-bold">Add New Link</h1>
+            <Button onClick={downloadLinksJson} className="flex items-center gap-2">
+              <Download size={16} />
+              Export Links
+            </Button>
+          </div>
           <Card>
             <CardContent className="pt-6">
               <div className="space-y-4">
@@ -118,14 +94,10 @@ const LinkBlog = () => {
                   <Input
                     type="text"
                     placeholder="Source Name"
-                    maxLength={MAX_TITLE_LENGTH}
                     value={newLink.source}
                     onChange={(e) => setNewLink({ ...newLink, source: e.target.value })}
                     className="mb-2"
                   />
-                  <div className="text-sm text-gray-500 mb-2">
-                    {newLink.source.length}/{MAX_TITLE_LENGTH} characters
-                  </div>
                   <div className="flex gap-2 mb-2">
                     <Input
                       type="text"
@@ -147,20 +119,20 @@ const LinkBlog = () => {
                     {newLink.tags.map(tag => (
                       <span
                         key={tag}
-                        className="bg-gray-100 text-gray-800 px-2 py-1 rounded-none flex items-center gap-1"
+                        className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full flex items-center gap-1"
                       >
                         <Tag size={14} />
                         {tag}
                         <button
                           onClick={() => removeTag(tag)}
-                          className="hover:text-gray-600"
+                          className="hover:text-blue-600"
                         >
                           <X size={14} />
                         </button>
                       </span>
                     ))}
                   </div>
-                  <Button onClick={addLink} className="w-full rounded-none">Add Link</Button>
+                  <Button onClick={addLink} className="w-full">Add Link</Button>
                 </div>
               </div>
             </CardContent>
@@ -169,43 +141,26 @@ const LinkBlog = () => {
       )}
 
       <div>
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold">Links</h2>
-          {allTags.length > 0 && (
-            <select
-              value={selectedTag}
-              onChange={(e) => setSelectedTag(e.target.value)}
-              className="border rounded-none p-2 font-mono"
-            >
-              <option value="">All Tags</option>
-              {allTags.map(tag => (
-                <option key={tag} value={tag}>{tag}</option>
-              ))}
-            </select>
-          )}
-        </div>
+        <h2 className="text-2xl font-bold mb-4">Links</h2>
         <div className="space-y-4">
-          {filteredLinks.map(link => (
-            <Card key={link.id} className="rounded-none border-gray-200">
+          {links.map(link => (
+            <Card key={link.id}>
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div>
-                    <div className="link-title">
-                      <a 
-                        href={link.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 no-underline hover:underline"
-                      >
-                        {link.source} [{extractDomain(link.url)}]
-                      </a>
-                    </div>
+                    <a 
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-lg font-medium text-blue-600 hover:text-blue-800"
+                    >
+                      {link.source}
+                    </a>
                     <div className="flex flex-wrap gap-2 mt-2">
                       {link.tags.map(tag => (
                         <span
                           key={tag}
-                          className="bg-gray-100 text-gray-800 px-2 py-1 rounded-none inline-flex items-center gap-1 cursor-pointer"
-                          onClick={() => setSelectedTag(tag)}
+                          className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full flex items-center gap-1"
                         >
                           <Tag size={14} />
                           {tag}
