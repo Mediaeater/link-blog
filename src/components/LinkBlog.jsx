@@ -3,6 +3,7 @@ import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { Tag, Plus, X, Pin, Edit, Trash2 } from 'lucide-react';
+import LinkPreview from './LinkPreview';
 
 const ADMIN_USER = 'Mediaeater';
 const MAX_TITLE_LENGTH = 120;
@@ -14,62 +15,71 @@ const LinkBlog = () => {
   const [isAdmin, setIsAdmin] = useState(false);
   const [selectedTag, setSelectedTag] = useState('');
   const [lastUpdated, setLastUpdated] = useState(null);
-  const [allTags, setAllTags] = useState([]);
-  const [fetchError, setFetchError] = useState(null);
   const [editingLink, setEditingLink] = useState(null);
+  const [fetchError, setFetchError] = useState(null);
 
   useEffect(() => {
-    const loadLinks = async () => {
-      try {
-        const url = window.location.hostname === 'localhost' 
-          ? '/data/links.json'
-          : '/link-blog/data/links.json';
-        
-        const response = await fetch(url, {
-          headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Cache-Control': 'no-cache'
-          }
-        });
-        
-        if (!response.ok) throw new Error(`Failed to fetch: ${response.status}`);
-
-        const text = await response.text();
-        const data = JSON.parse(text);
-
-        if (!data || !Array.isArray(data.links)) throw new Error('Invalid data format');
-
-        // Sort links by date and pinned status
-        const sortedLinks = data.links.sort((a, b) => {
-          if (a.isPinned && !b.isPinned) return -1;
-          if (!a.isPinned && b.isPinned) return 1;
-          return new Date(b.timestamp) - new Date(a.timestamp);
-        });
-
-        setLinks(sortedLinks);
-        setLastUpdated(data.lastUpdated);
-
-        const tags = new Set();
-        data.links.forEach(link => {
-          if (Array.isArray(link.tags)) {
-            link.tags.forEach(tag => tags.add(tag));
-          }
-        });
-        setAllTags([...tags]);
-        setFetchError(null);
-
-      } catch (error) {
-        console.error('Error loading links:', error);
-        setFetchError(error.message);
-        setLinks([]);
-      }
-    };
-
     loadLinks();
     const urlParams = new URLSearchParams(window.location.search);
     setIsAdmin(urlParams.get('admin') === ADMIN_USER);
   }, []);
+
+  const loadLinks = async () => {
+    try {
+      const url = window.location.hostname === 'localhost' 
+        ? '/data/links.json'
+        : '/link-blog/data/links.json';
+      
+      const response = await fetch(url, {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+          'Cache-Control': 'no-cache'
+        }
+      });
+      
+      if (!response.ok) throw new Error(`Failed to fetch: ${response.status}`);
+      const text = await response.text();
+      const data = JSON.parse(text);
+
+      if (!data || !Array.isArray(data.links)) throw new Error('Invalid data format');
+
+      const sortedLinks = [...data.links].sort((a, b) => {
+        if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
+        return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
+      });
+
+      setLinks(sortedLinks);
+      setLastUpdated(data.lastUpdated);
+      setFetchError(null);
+    } catch (error) {
+      console.error('Error loading links:', error);
+      setFetchError(error.message);
+      setLinks([]);
+    }
+  };
+
+  const saveToFile = async (updatedLinks) => {
+    try {
+      const sortedLinks = [...updatedLinks].sort((a, b) => {
+        if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
+        return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
+      });
+
+      const data = {
+        lastUpdated: new Date().toISOString(),
+        links: sortedLinks
+      };
+
+      setLinks(sortedLinks);
+      setLastUpdated(data.lastUpdated);
+      
+      // Log data for manual update
+      console.log('Updated data to save:', JSON.stringify(data, null, 2));
+    } catch (error) {
+      console.error('Error saving:', error);
+    }
+  };
 
   const addLink = () => {
     if (newLink.url && newLink.source && isAdmin) {
@@ -82,15 +92,17 @@ const LinkBlog = () => {
         id: Date.now(),
         timestamp: new Date().toISOString()
       }];
-      setLinks(updatedLinks);
+      saveToFile(updatedLinks);
       setNewLink({ url: '', source: '', tags: [], isPinned: false });
     }
   };
 
   const deleteLink = (id) => {
     if (!isAdmin) return;
-    const updatedLinks = links.filter(link => link.id !== id);
-    setLinks(updatedLinks);
+    if (window.confirm('Are you sure you want to delete this link?')) {
+      const updatedLinks = links.filter(link => link.id !== id);
+      saveToFile(updatedLinks);
+    }
   };
 
   const editLink = (link) => {
@@ -104,17 +116,20 @@ const LinkBlog = () => {
     const updatedLinks = links.map(link => 
       link.id === editingLink.id ? { ...newLink, timestamp: new Date().toISOString() } : link
     );
-    setLinks(updatedLinks);
+    saveToFile(updatedLinks);
     setEditingLink(null);
     setNewLink({ url: '', source: '', tags: [], isPinned: false });
   };
 
   const togglePin = (id) => {
     if (!isAdmin) return;
-    const updatedLinks = links.map(link => 
-      link.id === id ? { ...link, isPinned: !link.isPinned } : link
-    );
-    setLinks(updatedLinks);
+    const updatedLinks = links.map(link => {
+      if (link.id === id) {
+        return { ...link, isPinned: !link.isPinned };
+      }
+      return link;
+    });
+    saveToFile(updatedLinks);
   };
 
   const addTag = () => {
@@ -149,10 +164,6 @@ const LinkBlog = () => {
     }
   };
 
-  const filteredLinks = selectedTag 
-    ? links.filter(link => link.tags.includes(selectedTag))
-    : links;
-
   return (
     <div className="max-w-4xl mx-auto p-4 font-mono">
       <h1 className="text-3xl font-bold text-center mb-4">Mediaeater Digest</h1>
@@ -162,14 +173,6 @@ const LinkBlog = () => {
           <div className="text-sm text-gray-600">
             {formatDate(lastUpdated)}
           </div>
-        )}
-        {selectedTag && (
-          <Button
-            onClick={() => setSelectedTag('')}
-            className="text-sm"
-          >
-            Show All Links
-          </Button>
         )}
       </div>
 
@@ -249,6 +252,17 @@ const LinkBlog = () => {
                   >
                     {editingLink ? 'Update Link' : 'Add Link'}
                   </Button>
+                  {editingLink && (
+                    <Button 
+                      onClick={() => {
+                        setEditingLink(null);
+                        setNewLink({ url: '', source: '', tags: [], isPinned: false });
+                      }}
+                      className="w-full mt-2 rounded-none bg-gray-200 text-gray-800 hover:bg-gray-300"
+                    >
+                      Cancel Edit
+                    </Button>
+                  )}
                 </div>
               </div>
             </CardContent>
@@ -257,7 +271,7 @@ const LinkBlog = () => {
       )}
 
       <div className="space-y-4">
-        {filteredLinks.map(link => (
+        {links.map(link => (
           <Card key={link.id} className="rounded-none border-gray-200">
             <CardContent className="pt-6">
               <div className="flex justify-between items-start">
@@ -285,6 +299,7 @@ const LinkBlog = () => {
                       </span>
                     ))}
                   </div>
+                  <LinkPreview url={link.url} />
                 </div>
                 {isAdmin && (
                   <div className="flex gap-2 ml-4">
