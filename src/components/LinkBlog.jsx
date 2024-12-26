@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X, Pin, Edit, Trash2 } from 'lucide-react';
+import { Tag, Plus, X, Pin, Edit, Trash2, Rss } from 'lucide-react';
 import LinkPreview from './LinkPreview';
 import { updateLinks } from '../scripts/update-links';
 
@@ -14,19 +14,16 @@ const LinkBlog = () => {
   const [newLink, setNewLink] = useState({ url: '', source: '', tags: [], isPinned: false });
   const [currentTag, setCurrentTag] = useState('');
   const [isAdmin, setIsAdmin] = useState(false);
-  const [selectedTag, setSelectedTag] = useState('');
   const [lastUpdated, setLastUpdated] = useState(null);
   const [editingLink, setEditingLink] = useState(null);
-  const [fetchError, setFetchError] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  useEffect(() => {
-    loadLinks();
-    const urlParams = new URLSearchParams(window.location.search);
-    setIsAdmin(urlParams.get('admin') === ADMIN_USER);
-  }, []);
-
-  const loadLinks = async () => {
+  // Load links from JSON file
+  const loadLinks = useCallback(async () => {
     try {
+      setIsLoading(true);
+      setError(null);
       const url = window.location.hostname === 'localhost' 
         ? '/data/links.json'
         : '/link-blog/data/links.json';
@@ -40,11 +37,11 @@ const LinkBlog = () => {
       });
       
       if (!response.ok) throw new Error(`Failed to fetch: ${response.status}`);
-      const text = await response.text();
-      const data = JSON.parse(text);
-
+      
+      const data = await response.json();
       if (!data || !Array.isArray(data.links)) throw new Error('Invalid data format');
 
+      // Sort links: pinned first, then by date
       const sortedLinks = [...data.links].sort((a, b) => {
         if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
         return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
@@ -52,14 +49,22 @@ const LinkBlog = () => {
 
       setLinks(sortedLinks);
       setLastUpdated(data.lastUpdated);
-      setFetchError(null);
     } catch (error) {
       console.error('Error loading links:', error);
-      setFetchError(error.message);
+      setError(error.message);
       setLinks([]);
+    } finally {
+      setIsLoading(false);
     }
-  };
+  }, []);
 
+  useEffect(() => {
+    loadLinks();
+    const urlParams = new URLSearchParams(window.location.search);
+    setIsAdmin(urlParams.get('admin') === ADMIN_USER);
+  }, [loadLinks]);
+
+  // Save changes to file and push to GitHub
   const saveToFile = async (updatedLinks) => {
     try {
       const sortedLinks = [...updatedLinks].sort((a, b) => {
@@ -72,14 +77,12 @@ const LinkBlog = () => {
         links: sortedLinks
       };
 
-      // Use the update-links script to save and push changes
       const success = await updateLinks(data);
-      
       if (!success) throw new Error('Failed to save changes');
 
       setLinks(sortedLinks);
       setLastUpdated(data.lastUpdated);
-      await loadLinks(); // Refresh the display
+      await loadLinks();
     } catch (error) {
       console.error('Error saving:', error);
       alert('Failed to save changes. Please try again.');
@@ -137,6 +140,17 @@ const LinkBlog = () => {
     saveToFile(updatedLinks);
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter' && e.target.tagName.toLowerCase() !== 'textarea') {
+      e.preventDefault();
+      if (editingLink) {
+        updateLink();
+      } else {
+        addLink();
+      }
+    }
+  };
+
   const addTag = () => {
     if (currentTag && newLink.tags.length < 5 && !newLink.tags.includes(currentTag)) {
       setNewLink({ ...newLink, tags: [...newLink.tags, currentTag] });
@@ -169,31 +183,37 @@ const LinkBlog = () => {
     }
   };
 
-  return (
-  <div className="max-w-4xl mx-auto p-4 font-mono">
-  <h1 className="text-3xl font-bold text-center mb-4">Mediaeater Digest</h1>
-  
-  <div className="flex justify-between items-center mb-8">
-    {lastUpdated && (
-      <div className="text-sm text-gray-600 flex items-center">
-        {formatDate(lastUpdated)}
-        <a 
-          href="/link-blog/feed.xml" 
-          className="ml-4 text-blue-600 hover:text-blue-800 flex items-center"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <svg className="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M6.18 15.64a2.18 2.18 0 012.18 2.18C8.36 19 7.38 20 6.18 20 5 20 4 19 4 17.82a2.18 2.18 0 012.18-2.18M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
-          </svg>
-          RSS
-        </a>
+  if (error) {
+    return (
+      <div className="max-w-4xl mx-auto p-4 text-red-600">
+        Error loading links: {error}
       </div>
-    )}
-  </div>
-```
+    );
+  }
 
-Need the complete file?
+  return (
+    <div className="max-w-4xl mx-auto p-4 font-mono">
+      <h1 className="text-3xl font-bold text-center mb-4">Mediaeater Digest</h1>
+      
+      <div className="flex justify-between items-center mb-8">
+        <div className="flex items-center gap-4">
+          {lastUpdated && (
+            <div className="text-sm text-gray-600">
+              {formatDate(lastUpdated)}
+            </div>
+          )}
+          <a 
+            href="/link-blog/feed.xml"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1"
+            aria-label="RSS Feed"
+          >
+            <Rss size={16} />
+            RSS
+          </a>
+        </div>
+      </div>
 
       {isAdmin && (
         <div className="mb-8">
@@ -202,7 +222,7 @@ Need the complete file?
           </h2>
           <Card>
             <CardContent className="pt-6">
-              <div className="space-y-4">
+              <div className="space-y-4" onKeyPress={handleKeyPress}>
                 <div>
                   <Input
                     type="url"
@@ -289,69 +309,72 @@ Need the complete file?
         </div>
       )}
 
-      <div className="space-y-4">
-        {links.map(link => (
-          <Card key={link.id} className="rounded-none border-gray-200">
-            <CardContent className="pt-6">
-              <div className="flex justify-between items-start">
-                <div className="flex-grow">
-                  <div className="link-title flex items-center gap-2">
-                    {link.isPinned && <Pin size={16} className="text-blue-500" />}
-                    <a 
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:text-blue-800 no-underline hover:underline"
-                    >
-                      {link.source} [{extractDomain(link.url)}]
-                    </a>
-                  </div>
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    {link.tags.map(tag => (
-                      <span
-                        key={tag}
-                        className="bg-gray-100 text-gray-800 px-2 py-1 rounded-none inline-flex items-center gap-1 cursor-pointer"
-                        onClick={() => setSelectedTag(tag)}
+      {isLoading ? (
+        <div className="text-center py-4">Loading...</div>
+      ) : (
+        <div className="space-y-4">
+          {links.map(link => (
+            <Card key={link.id} className="rounded-none border-gray-200">
+              <CardContent className="pt-6">
+                <div className="flex justify-between items-start">
+                  <div className="flex-grow">
+                    <div className="link-title flex items-center gap-2">
+                      {link.isPinned && <Pin size={16} className="text-blue-500" />}
+                      <a 
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 no-underline hover:underline"
                       >
-                        <Tag size={14} />
-                        {tag}
-                      </span>
-                    ))}
+                        {link.source} [{extractDomain(link.url)}]
+                      </a>
+                    </div>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {link.tags.map(tag => (
+                        <span
+                          key={tag}
+                          className="bg-gray-100 text-gray-800 px-2 py-1 rounded-none inline-flex items-center gap-1"
+                        >
+                          <Tag size={14} />
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    <LinkPreview url={link.url} />
                   </div>
-                  <LinkPreview url={link.url} />
+                  {isAdmin && (
+                    <div className="flex gap-2 ml-4">
+                      <button
+                        onClick={() => togglePin(link.id)}
+                        className="p-1 hover:text-blue-600"
+                        title={link.isPinned ? "Unpin" : "Pin"}
+                      >
+                        <Pin size={16} className={link.isPinned ? "text-blue-500" : ""} />
+                      </button>
+                      <button
+                        onClick={() => editLink(link)}
+                        className="p-1 hover:text-blue-600"
+                        title="Edit"
+                      >
+                        <Edit size={16} />
+                      </button>
+                      <button
+                        onClick={() => deleteLink(link.id)}
+                        className="p-1 hover:text-red-600"
+                        title="Delete"
+                      >
+                        <Trash2 size={16} />
+                      </button>
+                    </div>
+                  )}
                 </div>
-                {isAdmin && (
-                  <div className="flex gap-2 ml-4">
-                    <button
-                      onClick={() => togglePin(link.id)}
-                      className="p-1 hover:text-blue-600"
-                      title={link.isPinned ? "Unpin" : "Pin"}
-                    >
-                      <Pin size={16} className={link.isPinned ? "text-blue-500" : ""} />
-                    </button>
-                    <button
-                      onClick={() => editLink(link)}
-                      className="p-1 hover:text-blue-600"
-                      title="Edit"
-                    >
-                      <Edit size={16} />
-                    </button>
-                    <button
-                      onClick={() => deleteLink(link.id)}
-                      className="p-1 hover:text-red-600"
-                      title="Delete"
-                    >
-                      <Trash2 size={16} />
-                    </button>
-                  </div>
-                )}
-              </div>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
 
-export default
+export default LinkBlog;
