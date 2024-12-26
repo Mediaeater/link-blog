@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X, Filter } from 'lucide-react';
+import { Tag, Plus, X } from 'lucide-react';
 
 const ADMIN_USER = 'Mediaeater';
 const MAX_TITLE_LENGTH = 120;
@@ -24,19 +24,21 @@ const LinkBlog = () => {
 
   const fetchLinks = async () => {
     try {
-      const response = await fetch('/data/links.json');
+      const response = await fetch('/link-blog/data/links.json');
       const data = await response.json();
-      setLinks(data.links);
-      
-      // Extract update date from the data
-      setLastUpdated(data.lastUpdated || new Date().toISOString());
-      
-      // Extract all unique tags
-      const tags = new Set();
-      data.links.forEach(link => {
-        link.tags.forEach(tag => tags.add(tag));
-      });
-      setAllTags([...tags]);
+      if (data && data.links) {
+        setLinks(data.links);
+        setLastUpdated(data.lastUpdated || new Date().toISOString());
+        
+        // Extract all unique tags
+        const tags = new Set();
+        data.links.forEach(link => {
+          link.tags.forEach(tag => tags.add(tag));
+        });
+        setAllTags([...tags]);
+      } else {
+        console.error('No links found in data');
+      }
     } catch (error) {
       console.error('Error fetching links:', error);
     }
@@ -169,16 +171,18 @@ const LinkBlog = () => {
       <div>
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold">Links</h2>
-          <select
-            value={selectedTag}
-            onChange={(e) => setSelectedTag(e.target.value)}
-            className="border rounded-none p-2 font-mono"
-          >
-            <option value="">All Tags</option>
-            {allTags.map(tag => (
-              <option key={tag} value={tag}>{tag}</option>
-            ))}
-          </select>
+          {allTags.length > 0 && (
+            <select
+              value={selectedTag}
+              onChange={(e) => setSelectedTag(e.target.value)}
+              className="border rounded-none p-2 font-mono"
+            >
+              <option value="">All Tags</option>
+              {allTags.map(tag => (
+                <option key={tag} value={tag}>{tag}</option>
+              ))}
+            </select>
+          )}
         </div>
         <div className="space-y-4">
           {filteredLinks.map(link => (
