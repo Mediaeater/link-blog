@@ -20,20 +20,48 @@ const LinkBlog = () => {
 
   const fetchLinks = async () => {
     try {
+      // Log the current base URL
+      console.log('Base URL:', window.location.origin);
+      
+      // Attempt to fetch the links file
       const response = await fetch('/link-blog/data/links.json');
+      console.log('Response status:', response.status);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
       const data = await response.json();
-      setLinks(data.links);
+      console.log('Fetched data:', data);
+      
+      if (data && Array.isArray(data.links)) {
+        setLinks(data.links);
+      } else {
+        console.error('Invalid data structure:', data);
+        setLinks([]);
+      }
     } catch (error) {
       console.error('Error fetching links:', error);
       // If fetch fails, try loading from localStorage
-      const savedLinks = JSON.parse(localStorage.getItem('links') || '[]');
-      setLinks(savedLinks);
+      try {
+        const savedLinks = JSON.parse(localStorage.getItem('links') || '[]');
+        setLinks(savedLinks);
+      } catch (localStorageError) {
+        console.error('Error loading from localStorage:', localStorageError);
+        setLinks([]);
+      }
     }
   };
 
   const addLink = () => {
     if (newLink.url && newLink.source && isAdmin) {
-      const updatedLinks = [...links, { ...newLink, id: Date.now().toString() }];
+      const newId = Date.now().toString();
+      const linkToAdd = {
+        ...newLink,
+        id: newId,
+      };
+      
+      const updatedLinks = [...links, linkToAdd];
       setLinks(updatedLinks);
       localStorage.setItem('links', JSON.stringify(updatedLinks));
       setNewLink({ url: '', source: '', tags: [] });
