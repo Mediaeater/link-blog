@@ -24,16 +24,20 @@ const LinkBlog = () => {
 
   const fetchLinks = async () => {
     try {
-      // First try the deployed path
-      let response = await fetch('/link-blog/data/links.json');
+      console.log('Fetching links...');
+      // Get the base URL dynamically
+      const basePath = import.meta.env.DEV ? '' : '/link-blog';
+      const response = await fetch(`${basePath}/data/links.json`);
       
-      // If that fails, try the development path
+      console.log('Fetch response:', response.status);
       if (!response.ok) {
-        response = await fetch('/data/links.json');
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
-
+      
       const data = await response.json();
-      if (data && data.links) {
+      console.log('Fetched data:', data);
+      
+      if (data && Array.isArray(data.links)) {
         setLinks(data.links);
         setLastUpdated(data.lastUpdated || new Date().toISOString());
         
@@ -44,15 +48,13 @@ const LinkBlog = () => {
         });
         setAllTags([...tags]);
       } else {
-        // If no valid data in JSON, try localStorage as fallback
-        const localLinks = JSON.parse(localStorage.getItem('links') || '[]');
-        setLinks(localLinks);
+        console.error('Invalid data structure:', data);
+        setLinks([]);
       }
     } catch (error) {
       console.error('Error fetching links:', error);
-      // Fallback to localStorage if fetch fails
-      const localLinks = JSON.parse(localStorage.getItem('links') || '[]');
-      setLinks(localLinks);
+      // Don't fallback to localStorage anymore, just set empty array
+      setLinks([]);
     }
   };
 
