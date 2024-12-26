@@ -3,8 +3,10 @@
 # Get current date in newspaper style format
 DATE=$(date +'%B %d, %Y')
 
-# Add and commit changes
-git add public/data/links.json
+# Force add the links.json file
+git add -f public/data/links.json
+
+# Commit changes
 git commit -m "Mediaeater Digest - $DATE"
 
 # Push to GitHub
