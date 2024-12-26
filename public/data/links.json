@@ -4,19 +4,46 @@
       "id": "1",
       "url": "https://events.ccc.de/congress/2023/infos/",
       "source": "38th Chaos Communication Congress",
-      "tags": ["congress", "ccc", "hacking", "knowledge", "de"]
+      "tags": [
+        "congress",
+        "ccc",
+        "hacking",
+        "knowledge",
+        "de"
+      ]
     },
     {
       "id": "2",
       "url": "https://unity.com/products/unity-showrunner",
       "source": "AISHOW - Unity Showrunner",
-      "tags": ["ai-video", "showrunner", "unity"]
+      "tags": [
+        "ai-video",
+        "showrunner",
+        "unity"
+      ]
     },
     {
       "id": "3",
       "url": "https://infinigen.org/",
       "source": "Infinigen",
-      "tags": ["procedural-generator", "#D", "vector", "ai-video", "open-source"]
+      "tags": [
+        "procedural-generator",
+        "#D",
+        "vector",
+        "ai-video",
+        "open-source"
+      ]
+    },
+    {
+      "url": "https://github.com/blackcandy-org/blackcandy",
+      "source": "A self hosted music streaming server",
+      "tags": [
+        "music",
+        "music-player",
+        "streaming",
+        "music-streaming"
+      ],
+      "id": "1735212808000"
     }
   ]
 }
