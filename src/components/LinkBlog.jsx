@@ -2,31 +2,29 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X } from 'lucide-react';
+import { Tag, Plus, X, Pin, Edit, Trash2 } from 'lucide-react';
 
 const ADMIN_USER = 'Mediaeater';
 const MAX_TITLE_LENGTH = 120;
 
 const LinkBlog = () => {
   const [links, setLinks] = useState([]);
-  const [newLink, setNewLink] = useState({ url: '', source: '', tags: [] });
+  const [newLink, setNewLink] = useState({ url: '', source: '', tags: [], isPinned: false });
   const [currentTag, setCurrentTag] = useState('');
   const [isAdmin, setIsAdmin] = useState(false);
   const [selectedTag, setSelectedTag] = useState('');
   const [lastUpdated, setLastUpdated] = useState(null);
   const [allTags, setAllTags] = useState([]);
   const [fetchError, setFetchError] = useState(null);
+  const [editingLink, setEditingLink] = useState(null);
 
   useEffect(() => {
     const loadLinks = async () => {
       try {
-        console.log('Starting fetch...');
-        // First try the GitHub Pages path
         const url = window.location.hostname === 'localhost' 
           ? '/data/links.json'
           : '/link-blog/data/links.json';
         
-        console.log('Fetching from:', url);
         const response = await fetch(url, {
           headers: {
             'Accept': 'application/json',
@@ -35,24 +33,23 @@ const LinkBlog = () => {
           }
         });
         
-        if (!response.ok) {
-          throw new Error(`Failed to fetch: ${response.status}`);
-        }
+        if (!response.ok) throw new Error(`Failed to fetch: ${response.status}`);
 
-        const text = await response.text(); // First get the raw text
-        console.log('Raw response:', text);
-        
-        const data = JSON.parse(text); // Then parse it
-        console.log('Parsed data:', data);
+        const text = await response.text();
+        const data = JSON.parse(text);
 
-        if (!data || !Array.isArray(data.links)) {
-          throw new Error('Invalid data format');
-        }
+        if (!data || !Array.isArray(data.links)) throw new Error('Invalid data format');
 
-        setLinks(data.links);
+        // Sort links by date and pinned status
+        const sortedLinks = data.links.sort((a, b) => {
+          if (a.isPinned && !b.isPinned) return -1;
+          if (!a.isPinned && b.isPinned) return 1;
+          return new Date(b.timestamp) - new Date(a.timestamp);
+        });
+
+        setLinks(sortedLinks);
         setLastUpdated(data.lastUpdated);
 
-        // Extract unique tags
         const tags = new Set();
         data.links.forEach(link => {
           if (Array.isArray(link.tags)) {
@@ -70,8 +67,6 @@ const LinkBlog = () => {
     };
 
     loadLinks();
-    
-    // Check admin status
     const urlParams = new URLSearchParams(window.location.search);
     setIsAdmin(urlParams.get('admin') === ADMIN_USER);
   }, []);
@@ -82,10 +77,44 @@ const LinkBlog = () => {
         alert(`Title must be less than ${MAX_TITLE_LENGTH} characters`);
         return;
       }
-      const updatedLinks = [...links, { ...newLink, id: Date.now() }];
+      const updatedLinks = [...links, { 
+        ...newLink, 
+        id: Date.now(),
+        timestamp: new Date().toISOString()
+      }];
       setLinks(updatedLinks);
-      setNewLink({ url: '', source: '', tags: [] });
+      setNewLink({ url: '', source: '', tags: [], isPinned: false });
     }
+  };
+
+  const deleteLink = (id) => {
+    if (!isAdmin) return;
+    const updatedLinks = links.filter(link => link.id !== id);
+    setLinks(updatedLinks);
+  };
+
+  const editLink = (link) => {
+    if (!isAdmin) return;
+    setEditingLink(link);
+    setNewLink({ ...link });
+  };
+
+  const updateLink = () => {
+    if (!editingLink || !isAdmin) return;
+    const updatedLinks = links.map(link => 
+      link.id === editingLink.id ? { ...newLink, timestamp: new Date().toISOString() } : link
+    );
+    setLinks(updatedLinks);
+    setEditingLink(null);
+    setNewLink({ url: '', source: '', tags: [], isPinned: false });
+  };
+
+  const togglePin = (id) => {
+    if (!isAdmin) return;
+    const updatedLinks = links.map(link => 
+      link.id === id ? { ...link, isPinned: !link.isPinned } : link
+    );
+    setLinks(updatedLinks);
   };
 
   const addTag = () => {
@@ -101,10 +130,6 @@ const LinkBlog = () => {
       tags: newLink.tags.filter(tag => tag !== tagToRemove)
     });
   };
-
-  const filteredLinks = selectedTag 
-    ? links.filter(link => link.tags.includes(selectedTag))
-    : links;
 
   const formatDate = (dateString) => {
     if (!dateString) return '';
@@ -124,18 +149,35 @@ const LinkBlog = () => {
     }
   };
 
+  const filteredLinks = selectedTag 
+    ? links.filter(link => link.tags.includes(selectedTag))
+    : links;
+
   return (
     <div className="max-w-4xl mx-auto p-4 font-mono">
       <h1 className="text-3xl font-bold text-center mb-4">Mediaeater Digest</h1>
-      {lastUpdated && (
-        <div className="text-sm text-gray-600 text-center mb-8">
-          {formatDate(lastUpdated)}
-        </div>
-      )}
+      
+      <div className="flex justify-between items-center mb-8">
+        {lastUpdated && (
+          <div className="text-sm text-gray-600">
+            {formatDate(lastUpdated)}
+          </div>
+        )}
+        {selectedTag && (
+          <Button
+            onClick={() => setSelectedTag('')}
+            className="text-sm"
+          >
+            Show All Links
+          </Button>
+        )}
+      </div>
 
       {isAdmin && (
         <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">Add New Link</h2>
+          <h2 className="text-2xl font-bold mb-4">
+            {editingLink ? 'Edit Link' : 'Add New Link'}
+          </h2>
           <Card>
             <CardContent className="pt-6">
               <div className="space-y-4">
@@ -157,6 +199,15 @@ const LinkBlog = () => {
                   />
                   <div className="text-sm text-gray-500 mb-2">
                     {newLink.source.length}/{MAX_TITLE_LENGTH} characters
+                  </div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <input
+                      type="checkbox"
+                      checked={newLink.isPinned}
+                      onChange={(e) => setNewLink({ ...newLink, isPinned: e.target.checked })}
+                      className="mr-2"
+                    />
+                    <span className="text-sm">Pin to top</span>
                   </div>
                   <div className="flex gap-2 mb-2">
                     <Input
@@ -192,7 +243,12 @@ const LinkBlog = () => {
                       </span>
                     ))}
                   </div>
-                  <Button onClick={addLink} className="w-full rounded-none">Add Link</Button>
+                  <Button 
+                    onClick={editingLink ? updateLink : addLink} 
+                    className="w-full rounded-none"
+                  >
+                    {editingLink ? 'Update Link' : 'Add Link'}
+                  </Button>
                 </div>
               </div>
             </CardContent>
@@ -200,62 +256,65 @@ const LinkBlog = () => {
         </div>
       )}
 
-      <div>
-        {fetchError ? (
-          <div className="text-red-600 mb-4">Error loading links: {fetchError}</div>
-        ) : (
-          <>
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-2xl font-bold">Links</h2>
-              {allTags.length > 0 && (
-                <select
-                  value={selectedTag}
-                  onChange={(e) => setSelectedTag(e.target.value)}
-                  className="border rounded-none p-2 font-mono"
-                >
-                  <option value="">All Tags</option>
-                  {allTags.map(tag => (
-                    <option key={tag} value={tag}>{tag}</option>
-                  ))}
-                </select>
-              )}
-            </div>
-            <div className="space-y-4">
-              {filteredLinks.map(link => (
-                <Card key={link.id} className="rounded-none border-gray-200">
-                  <CardContent className="pt-6">
-                    <div className="flex justify-between items-start">
-                      <div>
-                        <div className="link-title">
-                          <a 
-                            href={link.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:text-blue-800 no-underline hover:underline"
-                          >
-                            {link.source} [{extractDomain(link.url)}]
-                          </a>
-                        </div>
-                        <div className="flex flex-wrap gap-2 mt-2">
-                          {link.tags.map(tag => (
-                            <span
-                              key={tag}
-                              className="bg-gray-100 text-gray-800 px-2 py-1 rounded-none inline-flex items-center gap-1 cursor-pointer"
-                              onClick={() => setSelectedTag(tag)}
-                            >
-                              <Tag size={14} />
-                              {tag}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </>
-        )}
+      <div className="space-y-4">
+        {filteredLinks.map(link => (
+          <Card key={link.id} className="rounded-none border-gray-200">
+            <CardContent className="pt-6">
+              <div className="flex justify-between items-start">
+                <div className="flex-grow">
+                  <div className="link-title flex items-center gap-2">
+                    {link.isPinned && <Pin size={16} className="text-blue-500" />}
+                    <a 
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 no-underline hover:underline"
+                    >
+                      {link.source} [{extractDomain(link.url)}]
+                    </a>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mt-2">
+                    {link.tags.map(tag => (
+                      <span
+                        key={tag}
+                        className="bg-gray-100 text-gray-800 px-2 py-1 rounded-none inline-flex items-center gap-1 cursor-pointer"
+                        onClick={() => setSelectedTag(tag)}
+                      >
+                        <Tag size={14} />
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                {isAdmin && (
+                  <div className="flex gap-2 ml-4">
+                    <button
+                      onClick={() => togglePin(link.id)}
+                      className="p-1 hover:text-blue-600"
+                      title={link.isPinned ? "Unpin" : "Pin"}
+                    >
+                      <Pin size={16} className={link.isPinned ? "text-blue-500" : ""} />
+                    </button>
+                    <button
+                      onClick={() => editLink(link)}
+                      className="p-1 hover:text-blue-600"
+                      title="Edit"
+                    >
+                      <Edit size={16} />
+                    </button>
+                    <button
+                      onClick={() => deleteLink(link.id)}
+                      className="p-1 hover:text-red-600"
+                      title="Delete"
+                    >
+                      <Trash2 size={16} />
+                    </button>
+                  </div>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+        ))}
       </div>
     </div>
   );
