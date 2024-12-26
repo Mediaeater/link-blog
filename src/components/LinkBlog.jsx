@@ -59,27 +59,36 @@ const LinkBlog = () => {
     }
   };
 
-  const saveToFile = async (updatedLinks) => {
-    try {
-      const sortedLinks = [...updatedLinks].sort((a, b) => {
-        if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
-        return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
-      });
+const saveToFile = async (updatedLinks) => {
+  try {
+    const sortedLinks = [...updatedLinks].sort((a, b) => {
+      if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
+      return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
+    });
 
-      const data = {
-        lastUpdated: new Date().toISOString(),
-        links: sortedLinks
-      };
+    const data = {
+      lastUpdated: new Date().toISOString(),
+      links: sortedLinks
+    };
 
-      setLinks(sortedLinks);
-      setLastUpdated(data.lastUpdated);
-      
-      // Log data for manual update
-      console.log('Updated data to save:', JSON.stringify(data, null, 2));
-    } catch (error) {
-      console.error('Error saving:', error);
-    }
-  };
+    const response = await fetch('/api/update-links', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data)
+    });
+
+    if (!response.ok) throw new Error('Failed to save');
+    
+    setLinks(sortedLinks);
+    setLastUpdated(data.lastUpdated);
+    
+    await loadLinks(); // Refresh the display
+  } catch (error) {
+    console.error('Error saving:', error);
+  }
+};
 
   const addLink = () => {
     if (newLink.url && newLink.source && isAdmin) {
