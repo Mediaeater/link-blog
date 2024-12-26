@@ -1,10 +1,47 @@
-echo '{
-  "links": [
-    {
-      "id": "test1",
-      "url": "https://test.com",
-      "source": "Test Link",
-      "tags": ["test"]
-    }
-  ]
-}' > public/data/links.json
+	
+links	
+0	
+id	"1"
+url	"https://events.ccc.de/congress/2023/infos/"
+source	"38th Chaos Communication Congress"
+tags	
+0	"congress"
+1	"ccc"
+2	"hacking"
+3	"knowledge"
+4	"de"
+1	
+id	"2"
+url	"https://unity.com/products/unity-showrunner"
+source	"AISHOW - Unity Showrunner"
+tags	
+0	"ai-video"
+1	"showrunner"
+2	"unity"
+2	
+id	"3"
+url	"https://infinigen.org/"
+source	"Infinigen"
+tags	
+0	"procedural-generator"
+1	"#D"
+2	"vector"
+3	"ai-video"
+4	"open-source"
+3	
+url	"https://github.com/blackcandy-org/blackcandy"
+source	"A self hosted music streaming server"
+tags	
+0	"music"
+1	"music-player"
+2	"streaming"
+3	"music-streaming"
+id	"1735212808000"
+4	
+url	"https://www.unitree.com/go2"
+source	"New Creature of Embodied AI Unitree Go2"
+tags	
+0	"robots"
+1	"embodied-ai"
+2	"unitree"
+id	"1735213296793"
