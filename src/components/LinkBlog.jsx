@@ -3,7 +3,6 @@ import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { Tag, Plus, X, Pin, Edit, Trash2, Rss } from 'lucide-react';
-import LinkPreview from './LinkPreview';
 import { updateLinks } from '../scripts/update-links';
 
 const ADMIN_USER = 'Mediaeater';
@@ -19,7 +18,6 @@ const LinkBlog = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Load links from JSON file
   const loadLinks = useCallback(async () => {
     try {
       setIsLoading(true);
@@ -41,7 +39,6 @@ const LinkBlog = () => {
       const data = await response.json();
       if (!data || !Array.isArray(data.links)) throw new Error('Invalid data format');
 
-      // Sort links: pinned first, then by date
       const sortedLinks = [...data.links].sort((a, b) => {
         if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
         return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
@@ -64,7 +61,6 @@ const LinkBlog = () => {
     setIsAdmin(urlParams.get('admin') === ADMIN_USER);
   }, [loadLinks]);
 
-  // Save changes to file and push to GitHub
   const saveToFile = async (updatedLinks) => {
     try {
       const sortedLinks = [...updatedLinks].sort((a, b) => {
@@ -79,13 +75,16 @@ const LinkBlog = () => {
 
       const success = await updateLinks(data);
       if (!success) throw new Error('Failed to save changes');
-
+      
+      console.log('Data to be saved:', JSON.stringify(data, null, 2));
+      
       setLinks(sortedLinks);
       setLastUpdated(data.lastUpdated);
+      
       await loadLinks();
     } catch (error) {
       console.error('Error saving:', error);
-      alert('Failed to save changes. Please try again.');
+      alert('Changes saved locally. Run scripts/update-links.js to publish changes.');
     }
   };
 
@@ -140,17 +139,6 @@ const LinkBlog = () => {
     saveToFile(updatedLinks);
   };
 
-  const handleKeyPress = (e) => {
-    if (e.key === 'Enter' && e.target.tagName.toLowerCase() !== 'textarea') {
-      e.preventDefault();
-      if (editingLink) {
-        updateLink();
-      } else {
-        addLink();
-      }
-    }
-  };
-
   const addTag = () => {
     if (currentTag && newLink.tags.length < 5 && !newLink.tags.includes(currentTag)) {
       setNewLink({ ...newLink, tags: [...newLink.tags, currentTag] });
@@ -183,14 +171,6 @@ const LinkBlog = () => {
     }
   };
 
-  if (error) {
-    return (
-      <div className="max-w-4xl mx-auto p-4 text-red-600">
-        Error loading links: {error}
-      </div>
-    );
-  }
-
   return (
     <div className="max-w-4xl mx-auto p-4 font-mono">
       <h1 className="text-3xl font-bold text-center mb-4">Mediaeater Digest</h1>
@@ -207,7 +187,6 @@ const LinkBlog = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1"
-            aria-label="RSS Feed"
           >
             <Rss size={16} />
             RSS
@@ -222,7 +201,7 @@ const LinkBlog = () => {
           </h2>
           <Card>
             <CardContent className="pt-6">
-              <div className="space-y-4" onKeyPress={handleKeyPress}>
+              <div className="space-y-4">
                 <div>
                   <Input
                     type="url"
@@ -340,7 +319,6 @@ const LinkBlog = () => {
                         </span>
                       ))}
                     </div>
-                    <LinkPreview url={link.url} />
                   </div>
                   {isAdmin && (
                     <div className="flex gap-2 ml-4">
