@@ -170,16 +170,30 @@ const LinkBlog = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 font-mono">
-      <h1 className="text-3xl font-bold text-center mb-4">Mediaeater Digest</h1>
-      
-      <div className="flex justify-between items-center mb-8">
-        {lastUpdated && (
-          <div className="text-sm text-gray-600">
-            {formatDate(lastUpdated)}
-          </div>
-        )}
+  <div className="max-w-4xl mx-auto p-4 font-mono">
+  <h1 className="text-3xl font-bold text-center mb-4">Mediaeater Digest</h1>
+  
+  <div className="flex justify-between items-center mb-8">
+    {lastUpdated && (
+      <div className="text-sm text-gray-600 flex items-center">
+        {formatDate(lastUpdated)}
+        <a 
+          href="/link-blog/feed.xml" 
+          className="ml-4 text-blue-600 hover:text-blue-800 flex items-center"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg className="w-4 h-4 mr-1" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6.18 15.64a2.18 2.18 0 012.18 2.18C8.36 19 7.38 20 6.18 20 5 20 4 19 4 17.82a2.18 2.18 0 012.18-2.18M4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44m0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+          </svg>
+          RSS
+        </a>
       </div>
+    )}
+  </div>
+```
+
+Need the complete file?
 
       {isAdmin && (
         <div className="mb-8">
