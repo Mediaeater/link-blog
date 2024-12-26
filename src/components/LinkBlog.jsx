@@ -4,6 +4,7 @@ import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { Tag, Plus, X, Pin, Edit, Trash2 } from 'lucide-react';
 import LinkPreview from './LinkPreview';
+import { updateLinks } from '../scripts/update-links';
 
 const ADMIN_USER = 'Mediaeater';
 const MAX_TITLE_LENGTH = 120;
@@ -59,36 +60,31 @@ const LinkBlog = () => {
     }
   };
 
-const saveToFile = async (updatedLinks) => {
-  try {
-    const sortedLinks = [...updatedLinks].sort((a, b) => {
-      if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
-      return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
-    });
+  const saveToFile = async (updatedLinks) => {
+    try {
+      const sortedLinks = [...updatedLinks].sort((a, b) => {
+        if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
+        return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
+      });
 
-    const data = {
-      lastUpdated: new Date().toISOString(),
-      links: sortedLinks
-    };
+      const data = {
+        lastUpdated: new Date().toISOString(),
+        links: sortedLinks
+      };
 
-    const response = await fetch('/api/update-links', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data)
-    });
+      // Use the update-links script to save and push changes
+      const success = await updateLinks(data);
+      
+      if (!success) throw new Error('Failed to save changes');
 
-    if (!response.ok) throw new Error('Failed to save');
-    
-    setLinks(sortedLinks);
-    setLastUpdated(data.lastUpdated);
-    
-    await loadLinks(); // Refresh the display
-  } catch (error) {
-    console.error('Error saving:', error);
-  }
-};
+      setLinks(sortedLinks);
+      setLastUpdated(data.lastUpdated);
+      await loadLinks(); // Refresh the display
+    } catch (error) {
+      console.error('Error saving:', error);
+      alert('Failed to save changes. Please try again.');
+    }
+  };
 
   const addLink = () => {
     if (newLink.url && newLink.source && isAdmin) {
@@ -344,4 +340,4 @@ const saveToFile = async (updatedLinks) => {
   );
 };
 
-export default LinkBlog;
+export default

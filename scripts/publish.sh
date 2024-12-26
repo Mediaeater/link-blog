@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Get current date in newspaper style format
+# Get current date
 DATE=$(date +'%B %d, %Y')
 
-# Force add the links.json file
-git add -f public/data/links.json
+# Add all changed files
+git add public/data/links.json
 
 # Commit changes
 git commit -m "Mediaeater Digest - $DATE"
