@@ -1,11 +1,23 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+const defaultTheme = require('tailwindcss/defaultTheme');
+
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}', // Ensure all components are covered
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mono: ['Fira Code', ...defaultTheme.fontFamily.mono],
+      },
+      colors: {
+        primary: '#1DA1F2',
+        secondary: '#14171A',
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [
+    require('@tailwindcss/typography'), // Add Tailwind typography for better rendering of content
+    require('@tailwindcss/forms'), // Ensure form elements have better default styles
+  ],
+};

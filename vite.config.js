@@ -1,29 +1,28 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/link-blog/',
-  publicDir: 'public',
   server: {
     headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Content-Type': 'application/json'
+      'Cache-Control': 'no-store', // Ensure no stale assets
     },
-    middleware: [
-      (req, res, next) => {
-        if (req.url.endsWith('.json')) {
-          res.setHeader('Content-Type', 'application/json');
-        }
-        next();
-      }
-    ]
+    open: true, // Automatically open the browser on dev server start
   },
   build: {
+    outDir: 'dist',
+    sourcemap: true, // Easier debugging in production
     rollupOptions: {
       output: {
-        manualChunks: undefined
-      }
-    }
-  }
-})
+        manualChunks: {
+          vendor: ['react', 'react-dom'], // Code-splitting for vendor files
+        },
+      },
+    },
+  },
+  resolve: {
+    alias: {
+      '@': '/src', // Shorten import paths
+    },
+  },
+});
