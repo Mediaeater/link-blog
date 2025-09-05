@@ -10,7 +10,9 @@
     "lint": "eslint ./src",
     "format": "prettier --write .",
     "test": "vitest",
-    "serve": "serve -s dist"
+    "serve": "serve -s dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -27,6 +29,7 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.51.0",
     "feed": "^4.2.2",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.27",
     "prettier": "^3.0.0",
     "serve": "^14.2.5",
