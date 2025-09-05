@@ -287,7 +287,7 @@ const LinkBlog = () => {
         }
       }
     }
-  }, [isAdmin, filteredAndSortedLinks, focusedLinkIndex, showQuickAdd, trackLinkVisit]);
+  }, [isAdmin, focusedLinkIndex, showQuickAdd]);
 
   useEffect(() => {
     loadLinks();
