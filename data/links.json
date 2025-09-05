@@ -1,0 +1,29 @@
+{
+  "lastUpdated": "2024-12-05T01:33:00.000Z",
+  "links": [
+    {
+      "id": 1725501180000,
+      "url": "https://example.com",
+      "source": "Welcome to your Link Blog",
+      "tags": ["demo", "example"],
+      "isPinned": true,
+      "timestamp": "2024-12-05T01:33:00.000Z"
+    },
+    {
+      "id": 1725501160000,
+      "url": "https://github.com",
+      "source": "GitHub - Where the world builds software",
+      "tags": ["development", "git", "collaboration"],
+      "isPinned": false,
+      "timestamp": "2024-12-05T01:32:40.000Z"
+    },
+    {
+      "id": 1725501140000,
+      "url": "https://tailwindcss.com",
+      "source": "Tailwind CSS - A utility-first CSS framework",
+      "tags": ["css", "framework", "design"],
+      "isPinned": false,
+      "timestamp": "2024-12-05T01:32:20.000Z"
+    }
+  ]
+}
