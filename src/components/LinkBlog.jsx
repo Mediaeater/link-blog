@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Moon, Sun, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Clock } from 'lucide-react';
-import { suggestTagsFromUrl, COMMON_TAGS } from '../utils/tagSuggestions';
+import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 
 const ADMIN_USER = 'Mediaeater';
 const MAX_TITLE_LENGTH = 120;
@@ -81,7 +81,7 @@ const LinkBlog = () => {
     }
   };
 
-  const processUrlsFromPaste = async (urls) => {
+  const processUrlsFromPaste = useCallback(async (urls) => {
     const urlList = urls.split('\n')
       .map(url => url.trim())
       .filter(url => url && (url.startsWith('http://') || url.startsWith('https://')));
@@ -108,43 +108,75 @@ const LinkBlog = () => {
     
     setIsProcessingUrls(false);
     return processed;
-  };
+  }, []);
 
   // Load links from localStorage or JSON file
   const loadLinks = useCallback(async () => {
     try {
       setIsLoading(true);
+      setError(null);
+      
+      // Always check localStorage first
       const localData = localStorage.getItem('linkBlogData');
       if (localData) {
-        const parsedData = JSON.parse(localData);
-        console.log("Loading from localStorage:", parsedData);
-        setLinks(parsedData.links || []);
-        setLastUpdated(parsedData.lastUpdated || null);
-        return;
+        try {
+          const parsedData = JSON.parse(localData);
+          console.log("Loading from localStorage:", parsedData);
+          if (parsedData.links && Array.isArray(parsedData.links)) {
+            setLinks(parsedData.links);
+            setLastUpdated(parsedData.lastUpdated || null);
+            return;
+          }
+        } catch (parseError) {
+          console.warn('Invalid localStorage data, clearing...', parseError);
+          localStorage.removeItem('linkBlogData');
+        }
       }
 
-      const basePath = import.meta.env.BASE_URL || '/';
-      const url = `${basePath}data/links.json`;
-
-      const response = await fetch(url);
-      if (!response.ok) throw new Error('Failed to fetch links.json');
-
-      const data = await response.json();
-      console.log("Loaded from JSON file:", data);
-      setLinks(data.links || []);
-      setLastUpdated(data.lastUpdated || null);
+      // Fallback to JSON file
+      try {
+        const basePath = import.meta.env.BASE_URL || '/';
+        const url = `${basePath}data/links.json`;
+        
+        const response = await fetch(url);
+        if (response.ok) {
+          const data = await response.json();
+          console.log("Loaded from JSON file:", data);
+          if (data.links && Array.isArray(data.links)) {
+            setLinks(data.links);
+            setLastUpdated(data.lastUpdated || null);
+            
+            // Store in localStorage for future use
+            localStorage.setItem('linkBlogData', JSON.stringify(data));
+          } else {
+            throw new Error('Invalid data format in JSON file');
+          }
+        } else {
+          throw new Error(`Failed to fetch links.json: ${response.status}`);
+        }
+      } catch (fetchError) {
+        console.warn('Failed to load from JSON file:', fetchError);
+        // Initialize with empty state but don't throw error
+        setLinks([]);
+        setLastUpdated(null);
+      }
     } catch (error) {
       console.error('Error loading links:', error);
       setError(error.message);
       setLinks([]);
+      setLastUpdated(null);
     } finally {
       setIsLoading(false);
     }
   }, []);
 
   // Save links to localStorage
-  const saveToFile = async (updatedLinks) => {
+  const saveToFile = useCallback(async (updatedLinks) => {
     try {
+      if (!Array.isArray(updatedLinks)) {
+        throw new Error('Updated links must be an array');
+      }
+
       const sortedLinks = [...updatedLinks].sort((a, b) => {
         if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
         return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
@@ -153,18 +185,109 @@ const LinkBlog = () => {
       const data = {
         lastUpdated: new Date().toISOString(),
         links: sortedLinks,
+        version: '1.0',
       };
 
-      console.log("Saving data to localStorage:", data);
-      localStorage.setItem('linkBlogData', JSON.stringify(data));
+      console.log("Saving data to localStorage:", `${sortedLinks.length} links`);
+      
+      // Test localStorage availability and quota
+      const testData = JSON.stringify(data);
+      if (testData.length > 5000000) { // ~5MB limit check
+        throw new Error('Data size exceeds localStorage limit');
+      }
+      
+      localStorage.setItem('linkBlogData', testData);
 
+      // Update state only after successful save
       setLinks(sortedLinks);
       setLastUpdated(data.lastUpdated);
+      
+      console.log(`Successfully saved ${sortedLinks.length} links to localStorage`);
     } catch (error) {
       console.error('Error saving links:', error);
-      alert('Failed to save changes. Check console for details.');
+      
+      // Show user-friendly error message
+      let errorMessage = 'Failed to save changes. ';
+      if (error.name === 'QuotaExceededError') {
+        errorMessage += 'Storage quota exceeded. Consider removing some links.';
+      } else if (error.message.includes('localStorage')) {
+        errorMessage += 'localStorage is not available. Changes will not persist.';
+      } else {
+        errorMessage += 'Please try again. Check console for details.';
+      }
+      
+      alert(errorMessage);
+      throw error; // Re-throw so calling functions know it failed
     }
-  };
+  }, []);
+
+  // Memoize the keyboard handler to avoid creating new function on every render
+  const handleKeyDown = useCallback((e) => {
+    // Don't handle shortcuts when user is typing in form fields
+    const isTyping = e.target.matches('input, textarea, [contenteditable]');
+    
+    // Cmd/Ctrl+K to focus search (works everywhere)
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      searchRef.current?.focus();
+      searchRef.current?.select();
+      return;
+    }
+    
+    // Cmd/Ctrl+V to focus quick paste area (only when not typing)
+    if ((e.metaKey || e.ctrlKey) && e.key === 'v' && isAdmin && !isTyping) {
+      e.preventDefault();
+      setShowQuickAdd(true);
+      setTimeout(() => quickPasteRef.current?.focus(), 100);
+      return;
+    }
+    
+    // Escape to clear focus or close quick add
+    if (e.key === 'Escape') {
+      if (showQuickAdd) {
+        setShowQuickAdd(false);
+      } else if (focusedLinkIndex >= 0) {
+        setFocusedLinkIndex(-1);
+      } else if (document.activeElement !== document.body) {
+        document.activeElement.blur();
+      }
+      return;
+    }
+    
+    // J/K navigation when not in input fields
+    if (!isTyping) {
+      if (e.key === 'j' || e.key === 'J') {
+        e.preventDefault();
+        const maxIndex = filteredAndSortedLinks.length - 1;
+        setFocusedLinkIndex(prev => {
+          const newIndex = prev >= maxIndex ? 0 : prev + 1; // Wrap to beginning
+          // Scroll focused link into view
+          setTimeout(() => {
+            linkRefs.current[newIndex]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 50);
+          return newIndex;
+        });
+      } else if (e.key === 'k' || e.key === 'K') {
+        e.preventDefault();
+        const maxIndex = filteredAndSortedLinks.length - 1;
+        setFocusedLinkIndex(prev => {
+          const newIndex = prev <= 0 ? maxIndex : prev - 1; // Wrap to end
+          // Scroll focused link into view
+          setTimeout(() => {
+            linkRefs.current[newIndex]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }, 50);
+          return newIndex;
+        });
+      } else if (e.key === 'Enter' && focusedLinkIndex >= 0) {
+        e.preventDefault();
+        const link = filteredAndSortedLinks[focusedLinkIndex];
+        if (link) {
+          trackLinkVisit(link.id);
+          window.open(link.url, '_blank');
+        }
+      }
+    }
+  }, [isAdmin, filteredAndSortedLinks, focusedLinkIndex, showQuickAdd, trackLinkVisit]);
 
   useEffect(() => {
     loadLinks();
@@ -178,45 +301,15 @@ const LinkBlog = () => {
     } else {
       setDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
     }
-    
-    // Keyboard shortcuts
-    const handleKeyDown = (e) => {
-      // Cmd/Ctrl+V to focus quick paste area
-      if ((e.metaKey || e.ctrlKey) && e.key === 'v' && isAdmin && !e.target.matches('input, textarea')) {
-        e.preventDefault();
-        setShowQuickAdd(true);
-        setTimeout(() => quickPasteRef.current?.focus(), 100);
-      }
-      
-      // Cmd/Ctrl+K to focus search
-      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-        e.preventDefault();
-        searchRef.current?.focus();
-      }
-      
-      // J/K navigation when not in input fields
-      if (!e.target.matches('input, textarea')) {
-        if (e.key === 'j') {
-          e.preventDefault();
-          setFocusedLinkIndex(prev => Math.min(prev + 1, filteredAndSortedLinks.length - 1));
-        } else if (e.key === 'k') {
-          e.preventDefault();
-          setFocusedLinkIndex(prev => Math.max(prev - 1, -1));
-        } else if (e.key === 'Enter' && focusedLinkIndex >= 0) {
-          e.preventDefault();
-          const link = filteredAndSortedLinks[focusedLinkIndex];
-          if (link) {
-            window.open(link.url, '_blank');
-          }
-        }
-      }
-    };
-    
+  }, [loadLinks]);
+
+  // Handle keyboard shortcuts
+  useEffect(() => {
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [loadLinks, isAdmin, focusedLinkIndex]);
+  }, [handleKeyDown]);
 
-  const addLink = () => {
+  const addLink = async () => {
     if (newLink.url && newLink.source && isAdmin) {
       if (newLink.source.length > MAX_TITLE_LENGTH) {
         alert(`Title must be less than ${MAX_TITLE_LENGTH} characters`);
@@ -231,8 +324,14 @@ const LinkBlog = () => {
           visits: 0
         },
       ];
-      saveToFile(updatedLinks);
-      setNewLink({ url: '', source: '', tags: [], isPinned: false });
+      
+      try {
+        await saveToFile(updatedLinks);
+        setNewLink({ url: '', source: '', tags: [], isPinned: false });
+      } catch (error) {
+        // Error is already handled in saveToFile, just don't reset form
+        console.error('Failed to add link:', error);
+      }
     }
   };
   
@@ -253,13 +352,18 @@ const LinkBlog = () => {
     }));
     
     const updatedLinks = [...links, ...newLinks];
-    saveToFile(updatedLinks);
-    setQuickPasteUrls('');
-    setPreviewUrls([]);
-    setShowQuickAdd(false);
+    
+    try {
+      await saveToFile(updatedLinks);
+      setQuickPasteUrls('');
+      setPreviewUrls([]);
+      setShowQuickAdd(false);
+    } catch (error) {
+      console.error('Failed to add quick links:', error);
+    }
   };
   
-  const previewQuickUrls = async () => {
+  const previewQuickUrls = useCallback(async () => {
     if (!quickPasteUrls.trim()) {
       setPreviewUrls([]);
       return;
@@ -267,33 +371,42 @@ const LinkBlog = () => {
     
     const processed = await processUrlsFromPaste(quickPasteUrls);
     setPreviewUrls(processed);
-  };
+  }, [quickPasteUrls, processUrlsFromPaste]);
 
-  const deleteLink = (id) => {
+  const deleteLink = useCallback(async (id) => {
     if (!isAdmin) return;
     if (window.confirm('Are you sure you want to delete this link?')) {
       const updatedLinks = links.filter(link => link.id !== id);
-      saveToFile(updatedLinks);
+      try {
+        await saveToFile(updatedLinks);
+      } catch (error) {
+        console.error('Failed to delete link:', error);
+      }
     }
-  };
+  }, [isAdmin, links, saveToFile]);
 
-  const editLink = (link) => {
+  const editLink = useCallback((link) => {
     if (!isAdmin) return;
     setEditingLink(link);
     setNewLink({ ...link });
-  };
+  }, [isAdmin]);
 
-  const updateLink = () => {
+  const updateLink = async () => {
     if (!editingLink || !isAdmin) return;
     const updatedLinks = links.map(link => 
       link.id === editingLink.id ? { ...newLink, timestamp: new Date().toISOString() } : link
     );
-    saveToFile(updatedLinks);
-    setEditingLink(null);
-    setNewLink({ url: '', source: '', tags: [], isPinned: false });
+    
+    try {
+      await saveToFile(updatedLinks);
+      setEditingLink(null);
+      setNewLink({ url: '', source: '', tags: [], isPinned: false });
+    } catch (error) {
+      console.error('Failed to update link:', error);
+    }
   };
 
-  const togglePin = (id) => {
+  const togglePin = useCallback(async (id) => {
     if (!isAdmin) return;
     const updatedLinks = links.map(link => {
       if (link.id === id) {
@@ -301,8 +414,12 @@ const LinkBlog = () => {
       }
       return link;
     });
-    saveToFile(updatedLinks);
-  };
+    try {
+      await saveToFile(updatedLinks);
+    } catch (error) {
+      console.error('Failed to toggle pin:', error);
+    }
+  }, [isAdmin, links, saveToFile]);
 
   const addTag = () => {
     if (currentTag && newLink.tags.length < 5 && !newLink.tags.includes(currentTag)) {
@@ -318,13 +435,13 @@ const LinkBlog = () => {
     });
   };
   
-  const toggleTagFilter = (tag) => {
+  const toggleTagFilter = useCallback((tag) => {
     setSelectedTags(prev => 
       prev.includes(tag) 
         ? prev.filter(t => t !== tag)
         : [...prev, tag]
     );
-  };
+  }, []);
   
   const clearFilters = () => {
     setSelectedTags([]);
@@ -349,15 +466,21 @@ const LinkBlog = () => {
     if (!file) return;
     
     const reader = new FileReader();
-    reader.onload = (e) => {
+    reader.onload = async (e) => {
       try {
         const importedData = JSON.parse(e.target.result);
         if (importedData.links && Array.isArray(importedData.links)) {
           const confirmImport = window.confirm(`Import ${importedData.links.length} links? This will merge with existing links.`);
           if (confirmImport) {
             const mergedLinks = [...links, ...importedData.links.map(link => ({ ...link, id: Date.now() + Math.random() }))]; 
-            saveToFile(mergedLinks);
+            try {
+              await saveToFile(mergedLinks);
+            } catch (error) {
+              console.error('Failed to import links:', error);
+            }
           }
+        } else {
+          alert('Invalid file format. Expected JSON with links array.');
         }
       } catch (error) {
         alert('Invalid JSON file. Please check the format.');
@@ -367,7 +490,7 @@ const LinkBlog = () => {
     event.target.value = ''; // Reset file input
   };
   
-  const trackLinkVisit = (linkId) => {
+  const trackLinkVisit = useCallback(async (linkId) => {
     if (!isAdmin) return;
     
     const updatedLinks = links.map(link => 
@@ -375,8 +498,13 @@ const LinkBlog = () => {
         ? { ...link, visits: (link.visits || 0) + 1, lastVisited: new Date().toISOString() }
         : link
     );
-    saveToFile(updatedLinks);
-  };
+    try {
+      await saveToFile(updatedLinks);
+    } catch (error) {
+      console.error('Failed to track link visit:', error);
+      // Don't show alert for visit tracking failures as it would be annoying
+    }
+  }, [isAdmin, links, saveToFile]);
 
   const formatDate = (dateString) => {
     if (!dateString) return '';
@@ -421,10 +549,11 @@ const LinkBlog = () => {
           return a.source.localeCompare(b.source);
         case SORT_OPTIONS.POPULARITY:
           return (b.visits || 0) - (a.visits || 0);
-        case SORT_OPTIONS.TAG_RELEVANCE:
+        case SORT_OPTIONS.TAG_RELEVANCE: {
           const aTagCount = a.tags ? a.tags.length : 0;
           const bTagCount = b.tags ? b.tags.length : 0;
           return bTagCount - aTagCount;
+        }
         case SORT_OPTIONS.DATE_DESC:
         default:
           return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
@@ -451,7 +580,7 @@ const LinkBlog = () => {
   }, [links]);
   
   // Get related links for a given link
-  const getRelatedLinks = (currentLink) => {
+  const getRelatedLinks = useCallback((currentLink) => {
     if (!currentLink.tags || currentLink.tags.length === 0) return [];
     
     return links
@@ -466,7 +595,7 @@ const LinkBlog = () => {
       }))
       .sort((a, b) => b.sharedTags - a.sharedTags)
       .slice(0, 3);
-  };
+  }, [links]);
   
   // Dark mode effect
   useEffect(() => {
@@ -478,24 +607,40 @@ const LinkBlog = () => {
     }
   }, [darkMode]);
   
+  // Memoize the preview function to prevent dependency issues
+  const debouncedPreview = useCallback(() => {
+    if (quickPasteUrls.trim()) {
+      previewQuickUrls();
+    }
+  }, [quickPasteUrls, previewQuickUrls]);
+
   // Auto-preview on paste
   useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      if (quickPasteUrls.trim()) {
-        previewQuickUrls();
-      }
-    }, 500);
-    
+    const timeoutId = setTimeout(debouncedPreview, 500);
     return () => clearTimeout(timeoutId);
-  }, [quickPasteUrls]);
+  }, [debouncedPreview]);
+
+  // Reset focused link index when filtered links change
+  useEffect(() => {
+    if (focusedLinkIndex >= filteredAndSortedLinks.length) {
+      setFocusedLinkIndex(filteredAndSortedLinks.length > 0 ? 0 : -1);
+    } else if (focusedLinkIndex >= 0 && filteredAndSortedLinks.length === 0) {
+      setFocusedLinkIndex(-1);
+    }
+  }, [filteredAndSortedLinks, focusedLinkIndex]);
+
+  // Update linkRefs array size when filtered links change
+  useEffect(() => {
+    linkRefs.current = linkRefs.current.slice(0, filteredAndSortedLinks.length);
+  }, [filteredAndSortedLinks.length]);
 
   return (
     <div className={`min-h-screen transition-colors ${darkMode ? 'dark bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-    <div className="max-w-4xl mx-auto p-4 font-mono">
-      <header className="text-center mb-8">
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-4">
-            <h1 className="text-3xl font-bold">Mediaeater Digest</h1>
+    <div className="max-w-4xl mx-auto px-4 py-2 sm:p-4 font-mono">
+      <header className="text-center mb-4 sm:mb-8">
+        <div className="flex flex-col sm:flex-row items-center justify-between mb-4 gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
+            <h1 className="text-2xl sm:text-3xl font-bold">Mediaeater Digest</h1>
             <button
               onClick={() => setDarkMode(!darkMode)}
               className={`p-2 rounded-full transition-colors ${
@@ -510,23 +655,23 @@ const LinkBlog = () => {
           </div>
           
           {isAdmin && (
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
               <Button
                 onClick={() => setShowQuickAdd(!showQuickAdd)}
-                className="bg-green-600 hover:bg-green-700 text-sm"
+                className="bg-green-600 hover:bg-green-700 text-xs sm:text-sm px-2 sm:px-4"
                 title="Quick add URLs (Ctrl+V)"
               >
-                <Zap size={14} className="mr-1" />
-                Quick Add
+                <Zap size={12} className="sm:mr-1" />
+                <span className="hidden sm:inline">Quick Add</span>
               </Button>
               
               <Button
                 onClick={() => setShowFilters(!showFilters)}
-                className="bg-blue-600 hover:bg-blue-700 text-sm"
+                className="bg-blue-600 hover:bg-blue-700 text-xs sm:text-sm px-2 sm:px-4"
               >
-                <Filter size={14} className="mr-1" />
-                Filters
-                {showFilters ? <ChevronUp size={14} className="ml-1" /> : <ChevronDown size={14} className="ml-1" />}
+                <Filter size={12} className="sm:mr-1" />
+                <span className="hidden sm:inline">Filters</span>
+                {showFilters ? <ChevronUp size={12} className="ml-1" /> : <ChevronDown size={12} className="ml-1" />}
               </Button>
             </div>
           )}
@@ -671,8 +816,8 @@ const LinkBlog = () => {
       )}
       
       {/* Search and Filter Bar */}
-      <div className="mb-6 space-y-4">
-        <div className="flex gap-4 items-center">
+      <div className="mb-4 sm:mb-6 space-y-4">
+        <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 items-stretch sm:items-center">
           <div className="flex-1 relative">
             <Search size={16} className={`absolute left-3 top-1/2 transform -translate-y-1/2 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`} />
             <Input
@@ -685,12 +830,12 @@ const LinkBlog = () => {
             />
           </div>
           
-          <div className="flex items-center gap-2">
-            <ArrowUpDown size={16} className={darkMode ? 'text-gray-400' : 'text-gray-600'} />
+          <div className="flex items-center gap-2 min-w-0">
+            <ArrowUpDown size={14} className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} hidden sm:block`} />
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
-              className={`px-3 py-2 border rounded-md text-sm ${
+              className={`px-2 sm:px-3 py-2 border rounded-md text-xs sm:text-sm min-w-0 ${
                 darkMode 
                   ? 'bg-gray-800 border-gray-600 text-white' 
                   : 'bg-white border-gray-300 text-gray-900'
@@ -707,10 +852,10 @@ const LinkBlog = () => {
           {(searchTerm || selectedTags.length > 0) && (
             <Button
               onClick={clearFilters}
-              className="bg-red-500 hover:bg-red-600 text-sm"
+              className="bg-red-500 hover:bg-red-600 text-xs sm:text-sm px-2 sm:px-4"
             >
-              <X size={14} className="mr-1" />
-              Clear
+              <X size={12} className="sm:mr-1" />
+              <span className="hidden sm:inline">Clear</span>
             </Button>
           )}
         </div>
@@ -774,7 +919,7 @@ const LinkBlog = () => {
         
         {/* Keyboard shortcuts help */}
         <div className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-600'} text-center`}>
-          Tips: Ctrl+K to search, J/K to navigate, Enter to open, {isAdmin && 'Ctrl+V to quick add'}
+          Tips: ⌘/Ctrl+K to search, J/K to navigate, Enter to open, Esc to clear{isAdmin && ', ⌘/Ctrl+V to quick add'}
         </div>
       </div>
 
@@ -981,9 +1126,9 @@ const LinkBlog = () => {
                         : 'hover:shadow-md'
                   }`}
                 >
-                  <CardContent className="p-4">
-                    <div className="flex items-start justify-between">
-                      <div className="flex-1">
+                  <CardContent className="p-3 sm:p-4">
+                    <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-0">
+                      <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-2">
                           {link.isPinned && (
                             <Pin size={14} className="text-orange-500 fill-current" title="Pinned" />
@@ -1117,7 +1262,7 @@ const LinkBlog = () => {
                       </div>
                       
                       {/* Action Buttons */}
-                      <div className="flex items-start gap-2 ml-4">
+                      <div className="flex items-start gap-1 sm:gap-2 sm:ml-4 mt-2 sm:mt-0">
                         {/* Copy URL button */}
                         <button
                           onClick={async () => {
@@ -1135,11 +1280,11 @@ const LinkBlog = () => {
                           }`}
                           title="Copy URL"
                         >
-                          <Copy size={14} />
+                          <Copy size={12} />
                         </button>
                         
                         {isAdmin && (
-                          <div className="flex flex-col gap-1">
+                          <div className="flex flex-row sm:flex-col gap-1">
                             <button
                               onClick={() => togglePin(link.id)}
                               className={`p-1 rounded transition-colors ${
@@ -1151,7 +1296,7 @@ const LinkBlog = () => {
                               }`}
                               title={link.isPinned ? 'Unpin' : 'Pin to top'}
                             >
-                              <Pin size={14} className={link.isPinned ? 'fill-current' : ''} />
+                              <Pin size={12} className={link.isPinned ? 'fill-current' : ''} />
                             </button>
                             <button
                               onClick={() => editLink(link)}
@@ -1162,7 +1307,7 @@ const LinkBlog = () => {
                               }`}
                               title="Edit link"
                             >
-                              <Edit size={14} />
+                              <Edit size={12} />
                             </button>
                             <button
                               onClick={() => deleteLink(link.id)}
@@ -1173,7 +1318,7 @@ const LinkBlog = () => {
                               }`}
                               title="Delete link"
                             >
-                              <Trash2 size={14} />
+                              <Trash2 size={12} />
                             </button>
                           </div>
                         )}

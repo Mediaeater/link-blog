@@ -1,29 +1,45 @@
 {
-  "lastUpdated": "2024-12-05T01:33:00.000Z",
+  "lastUpdated": "2025-09-05T12:00:00.000Z",
   "links": [
     {
-      "id": 1725501180000,
-      "url": "https://example.com",
-      "source": "Welcome to your Link Blog",
-      "tags": ["demo", "example"],
-      "isPinned": true,
-      "timestamp": "2024-12-05T01:33:00.000Z"
+      "id": 1725540001,
+      "url": "https://dspy.ai/",
+      "source": "Programming—not prompting—LMs",
+      "tags": ["llm", "agent", "dspy"],
+      "isPinned": false,
+      "timestamp": "2025-09-05T11:00:00.000Z"
     },
     {
-      "id": 1725501160000,
-      "url": "https://github.com",
-      "source": "GitHub - Where the world builds software",
-      "tags": ["development", "git", "collaboration"],
+      "id": 1725540002,
+      "url": "https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html",
+      "source": "They're Famous. They're Everywhere. And They're Fake",
+      "tags": ["influencers", "brands", "character-ai"],
       "isPinned": false,
-      "timestamp": "2024-12-05T01:32:40.000Z"
+      "timestamp": "2025-09-05T10:30:00.000Z"
     },
     {
-      "id": 1725501140000,
-      "url": "https://tailwindcss.com",
-      "source": "Tailwind CSS - A utility-first CSS framework",
-      "tags": ["css", "framework", "design"],
+      "id": 1725540003,
+      "url": "https://www.derekthompson.org/p/the-evidence-that-ai-is-destroying",
+      "source": "The Evidence That AI Is Destroying Workflows",
+      "tags": ["ai-impact"],
       "isPinned": false,
-      "timestamp": "2024-12-05T01:32:20.000Z"
+      "timestamp": "2025-09-05T10:00:00.000Z"
+    },
+    {
+      "id": 1725540004,
+      "url": "https://github.com/nukeop/nuclear",
+      "source": "Nuclear – Open Source Music Player (GitHub)",
+      "tags": ["music", "player", "opensource"],
+      "isPinned": false,
+      "timestamp": "2025-09-05T09:30:00.000Z"
+    },
+    {
+      "id": 1725540005,
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
+      "source": "Apertus: Switzerland's First Open Multilingual LLM (EPFL/ETH/CSCS)",
+      "tags": ["llm", "opensource", "ch"],
+      "isPinned": false,
+      "timestamp": "2025-09-05T09:00:00.000Z"
     }
   ]
 }
