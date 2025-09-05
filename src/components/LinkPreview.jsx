@@ -25,9 +25,8 @@ const LinkBlog = () => {
     try {
       setIsLoading(true);
       setError(null);
-      const url = window.location.hostname === 'localhost' 
-        ? '/data/links.json'
-        : '/link-blog/data/links.json';
+      const basePath = import.meta.env.BASE_URL || '/';
+      const url = `${basePath}data/links.json`;
 
       const response = await fetch(url, {
         headers: {

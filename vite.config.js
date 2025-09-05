@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/link-blog/',
+  base: process.env.NODE_ENV === 'production' ? '/link-blog/' : '/',
   plugins: [react()],
   server: {
     headers: {

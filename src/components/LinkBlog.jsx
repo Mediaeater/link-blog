@@ -123,9 +123,8 @@ const LinkBlog = () => {
         return;
       }
 
-      const url = window.location.hostname === 'localhost' 
-        ? '/data/links.json'
-        : '/link-blog/data/links.json';
+      const basePath = import.meta.env.BASE_URL || '/';
+      const url = `${basePath}data/links.json`;
 
       const response = await fetch(url);
       if (!response.ok) throw new Error('Failed to fetch links.json');
