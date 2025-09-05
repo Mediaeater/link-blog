@@ -1,7 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
-  <circle cx="50" cy="50" r="45" fill="#1a1a1a"/>
-  <circle cx="35" cy="40" r="8" fill="#fbbf24"/>
-  <circle cx="65" cy="40" r="8" fill="#fbbf24"/>
-  <rect x="30" y="60" width="40" height="8" rx="4" fill="#fbbf24"/>
-  <path d="M25 25 Q50 10 75 25" stroke="#fbbf24" stroke-width="3" fill="none"/>
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#1a1a1a"/>
+  
+  <!-- Head silhouette -->
+  <path d="M35 70 Q30 50 32 35 Q34 20 45 15 Q55 10 65 15 Q75 20 77 35 Q79 50 74 70 Q65 75 50 75 Q35 75 35 70Z" fill="#2d5016"/>
+  
+  <!-- Camera lens eye -->
+  <circle cx="58" cy="35" r="12" fill="#1a1a1a"/>
+  <circle cx="58" cy="35" r="10" fill="#333"/>
+  <circle cx="58" cy="35" r="8" fill="#d4af37"/>
+  <circle cx="58" cy="35" r="6" fill="#1a1a1a"/>
+  <circle cx="58" cy="35" r="4" fill="#d4af37"/>
+  <circle cx="59" cy="34" r="1.5" fill="#fff" opacity="0.6"/>
+  
+  <!-- Lens detail lines -->
+  <rect x="70" y="33" width="8" height="4" rx="1" fill="#666"/>
+  <rect x="70" y="38" width="8" height="3" rx="1" fill="#666"/>
+  
+  <!-- Face features -->
+  <path d="M40 55 Q45 58 50 58 Q55 58 60 55" stroke="#d4af37" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Gold accent -->
+  <rect x="45" y="75" width="10" height="15" fill="#d4af37" opacity="0.8"/>
 </svg>
