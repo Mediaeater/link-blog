@@ -17,7 +17,7 @@ const SORT_OPTIONS = {
 
 const LinkBlog = () => {
   const [links, setLinks] = useState([]);
-  const [newLink, setNewLink] = useState({ url: '', source: '', tags: [], isPinned: false });
+  const [newLink, setNewLink] = useState({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
   const [currentTag, setCurrentTag] = useState('');
   const [isAdmin, setIsAdmin] = useState(false);
   const [lastUpdated, setLastUpdated] = useState(null);
@@ -100,6 +100,7 @@ const LinkBlog = () => {
         url,
         source: metadata.title.slice(0, MAX_TITLE_LENGTH),
         description: metadata.description,
+        pullQuote: '',
         image: metadata.image,
         favicon: metadata.favicon,
         tags: suggestedTags.slice(0, 5), // Auto-add top 5 suggested tags
@@ -358,7 +359,7 @@ const LinkBlog = () => {
       
       try {
         await saveToFile(updatedLinks);
-        setNewLink({ url: '', source: '', tags: [], isPinned: false });
+        setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
       } catch (error) {
         // Error is already handled in saveToFile, just don't reset form
         console.error('Failed to add link:', error);
@@ -574,6 +575,7 @@ const LinkBlog = () => {
         link.source.toLowerCase().includes(term) ||
         link.url.toLowerCase().includes(term) ||
         (link.description && link.description.toLowerCase().includes(term)) ||
+        (link.pullQuote && link.pullQuote.toLowerCase().includes(term)) ||
         (link.tags && link.tags.some(tag => tag.toLowerCase().includes(term)))
       );
     }
@@ -701,8 +703,8 @@ const LinkBlog = () => {
       <header className="text-center mb-6 sm:mb-10">
         <div className="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
           <div className="flex items-center gap-3 sm:gap-4">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
-              Mediaeater Digest
+            <h1 className="text-xl font-mono text-black dark:text-white">
+              newsfeeds.net
             </h1>
             <button
               onClick={() => setDarkMode(!darkMode)}
@@ -1033,6 +1035,36 @@ const LinkBlog = () => {
               </div>
               
               <div>
+                <label className="block text-sm font-medium mb-1">
+                  Pull Quote (optional)
+                </label>
+                <textarea
+                  placeholder="A memorable quote or key insight from the article..."
+                  value={newLink.pullQuote}
+                  onChange={(e) => {
+                    const pullQuote = e.target.value;
+                    setNewLink({ ...newLink, pullQuote });
+                    // Auto-suggest tags from pull quote if it's long enough and tags are empty
+                    if (pullQuote.length > 30 && newLink.tags.length === 0) {
+                      const suggestedTags = suggestTagsFromUrl(newLink.url, newLink.source, pullQuote);
+                      if (suggestedTags.length > 0) {
+                        setNewLink(prev => ({ ...prev, pullQuote, tags: suggestedTags.slice(0, 3) }));
+                      }
+                    }
+                  }}
+                  className={`w-full h-20 p-3 border rounded-md text-sm ${
+                    darkMode 
+                      ? 'bg-gray-800 border-gray-600 text-white' 
+                      : 'bg-white border-gray-300 text-gray-900'
+                  }`}
+                  maxLength={500}
+                />
+                <p className="text-xs text-gray-500 mt-1">
+                  {newLink.pullQuote.length}/500 characters - Tags can be inferred from the pull quote
+                </p>
+              </div>
+              
+              <div>
                 <label className="block text-sm font-medium mb-1">Tags</label>
                 <div className="flex gap-2 mb-2">
                   <Input
@@ -1127,7 +1159,7 @@ const LinkBlog = () => {
                     <Button 
                       onClick={() => {
                         setEditingLink(null);
-                        setNewLink({ url: '', source: '', tags: [], isPinned: false });
+                        setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
                       }}
                       className="bg-gray-500 hover:bg-gray-600"
                     >
@@ -1270,6 +1302,21 @@ const LinkBlog = () => {
                                 <Copy size={12} />
                               </button>
                             </div>
+                            
+                            {/* Pull Quote */}
+                            {link.pullQuote && (
+                              <div className={`my-3 p-3 border-l-4 ${
+                                darkMode 
+                                  ? 'border-blue-500 bg-gray-800' 
+                                  : 'border-blue-500 bg-blue-50'
+                              }`}>
+                                <blockquote className={`text-sm italic ${
+                                  darkMode ? 'text-gray-300' : 'text-gray-700'
+                                }`}>
+                                  "{link.pullQuote}"
+                                </blockquote>
+                              </div>
+                            )}
                             
                             {/* Related Links */}
                             {relatedLinks.length > 0 && (
