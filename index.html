@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Link Blog - Curate and share your favorite links">
+  <meta name="description" content="newsfeeds.net - Curate and share your favorite links">
   <meta name="author" content="Mediaeater">
-  <meta property="og:title" content="Link Blog">
+  <meta property="og:title" content="newsfeeds.net">
   <meta property="og:description" content="Curate and share your favorite links">
   <meta property="og:image" content="/mediaeater-logo.svg">
-  <meta property="og:url" content="https://mediaeater.github.io/link-blog/">
+  <meta property="og:url" content="https://newsfeeds.net/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/mediaeater-logo.svg">
   <link rel="alternate icon" type="image/png" href="/mediaeater.png">
   <link rel="apple-touch-icon" href="/mediaeater.png">
-  <title>Mediaeater Digest</title>
+  <title>newsfeeds.net</title>
+  <script>
+    // Force HTTPS redirect
+    if (location.protocol !== 'https:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+      location.replace('https:' + window.location.href.substring(window.location.protocol.length));
+    }
+  </script>
 </head>
 <body class="font-mono bg-gray-50">
   <div id="root"></div>

@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+https://mediaeater-link-blog.netlify.app/* https://newsfeeds.net/:splat 301!
+
+# Force HTTPS for non-secure requests
+http://newsfeeds.net/* https://newsfeeds.net/:splat 301!
