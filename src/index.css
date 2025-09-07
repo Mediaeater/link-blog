@@ -70,7 +70,7 @@ code, .font-mono {
   @apply hover:shadow-xl hover:-translate-y-1;
   @apply bg-white dark:bg-gray-800;
   @apply rounded-xl overflow-hidden;
-  @apply shadow-sm hover:shadow-2xl;
+  @apply shadow-none hover:shadow-2xl;
 }
 
 .link-card:hover {

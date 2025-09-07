@@ -36,6 +36,7 @@ const LinkBlog = () => {
   const [previewUrls, setPreviewUrls] = useState([]);
   const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
+  const [expandedLinks, setExpandedLinks] = useState(new Set());
   
   // Refs for keyboard navigation and quick paste
   const quickPasteRef = useRef(null);
@@ -110,56 +111,86 @@ const LinkBlog = () => {
     return processed;
   }, []);
 
-  // Load links from localStorage or JSON file
+  // Load links - Always check JSON file first for newer data
   const loadLinks = useCallback(async () => {
     try {
       setIsLoading(true);
       setError(null);
       
-      // Always check localStorage first
-      const localData = localStorage.getItem('linkBlogData');
-      if (localData) {
-        try {
-          const parsedData = JSON.parse(localData);
-          console.log("Loading from localStorage:", parsedData);
-          if (parsedData.links && Array.isArray(parsedData.links)) {
-            setLinks(parsedData.links);
-            setLastUpdated(parsedData.lastUpdated || null);
-            return;
-          }
-        } catch (parseError) {
-          console.warn('Invalid localStorage data, clearing...', parseError);
-          localStorage.removeItem('linkBlogData');
-        }
-      }
-
-      // Fallback to JSON file
+      // Always fetch JSON file first to check for updates
+      let jsonData = null;
+      let useJsonData = false;
+      
       try {
         const basePath = import.meta.env.BASE_URL || '/';
-        const url = `${basePath}data/links.json`;
+        const timestamp = new Date().getTime();
+        const url = `${basePath}data/links.json?t=${timestamp}`;
         
         const response = await fetch(url);
         if (response.ok) {
-          const data = await response.json();
-          console.log("Loaded from JSON file:", data);
-          if (data.links && Array.isArray(data.links)) {
-            setLinks(data.links);
-            setLastUpdated(data.lastUpdated || null);
-            
-            // Store in localStorage for future use
-            localStorage.setItem('linkBlogData', JSON.stringify(data));
-          } else {
-            throw new Error('Invalid data format in JSON file');
-          }
-        } else {
-          throw new Error(`Failed to fetch links.json: ${response.status}`);
+          jsonData = await response.json();
+          console.log("Fetched JSON file:", jsonData);
+          useJsonData = true; // Default to using JSON data
         }
       } catch (fetchError) {
-        console.warn('Failed to load from JSON file:', fetchError);
-        // Initialize with empty state but don't throw error
+        console.warn('Failed to fetch JSON file:', fetchError);
+      }
+      
+      // Check localStorage
+      let localData = null;
+      try {
+        const stored = localStorage.getItem('linkBlogData');
+        if (stored) {
+          localData = JSON.parse(stored);
+          console.log("Found localStorage data:", localData);
+        }
+      } catch (parseError) {
+        console.warn('Failed to parse localStorage:', parseError);
+      }
+      
+      // Determine which data source to use
+      let dataToUse = null;
+      
+      if (jsonData && jsonData.links && Array.isArray(jsonData.links)) {
+        if (localData && localData.lastUpdated && jsonData.lastUpdated) {
+          // Compare timestamps - use whichever is newer
+          const jsonTime = new Date(jsonData.lastUpdated).getTime();
+          const localTime = new Date(localData.lastUpdated).getTime();
+          
+          if (localTime > jsonTime) {
+            console.log("Using localStorage (newer):", localData.lastUpdated, "vs JSON:", jsonData.lastUpdated);
+            dataToUse = localData;
+          } else {
+            console.log("Using JSON file (newer):", jsonData.lastUpdated, "vs localStorage:", localData.lastUpdated);
+            dataToUse = jsonData;
+          }
+        } else {
+          // No localStorage or no timestamp - use JSON
+          console.log("Using JSON file (no comparison possible)");
+          dataToUse = jsonData;
+        }
+      } else if (localData && localData.links && Array.isArray(localData.links)) {
+        // JSON failed but localStorage exists
+        console.log("Using localStorage (JSON unavailable)");
+        dataToUse = localData;
+      }
+      
+      // Apply the chosen data
+      if (dataToUse) {
+        setLinks(dataToUse.links);
+        setLastUpdated(dataToUse.lastUpdated || null);
+        
+        // Update localStorage if we used JSON data
+        if (dataToUse === jsonData) {
+          localStorage.setItem('linkBlogData', JSON.stringify(jsonData));
+        }
+      } else {
+        // No data available from either source
+        console.log("No data available - initializing empty");
         setLinks([]);
         setLastUpdated(null);
       }
+      
     } catch (error) {
       console.error('Error loading links:', error);
       setError(error.message);
@@ -636,6 +667,19 @@ const LinkBlog = () => {
     const timeoutId = setTimeout(debouncedPreview, 500);
     return () => clearTimeout(timeoutId);
   }, [debouncedPreview]);
+
+  // Toggle link expansion
+  const toggleLinkExpanded = (linkId) => {
+    setExpandedLinks(prev => {
+      const newSet = new Set(prev);
+      if (newSet.has(linkId)) {
+        newSet.delete(linkId);
+      } else {
+        newSet.add(linkId);
+      }
+      return newSet;
+    });
+  };
 
   // Reset focused link index when filtered links change
   useEffect(() => {
@@ -1132,6 +1176,7 @@ const LinkBlog = () => {
             filteredAndSortedLinks.map((link, index) => {
               const isHighlighted = index === focusedLinkIndex;
               const relatedLinks = getRelatedLinks(link);
+              const isExpanded = expandedLinks.has(link.id);
               
               return (
                 <Card 
@@ -1147,6 +1192,15 @@ const LinkBlog = () => {
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 sm:gap-0">
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-2">
+                          {/* Blue Chevron Toggle */}
+                          <button
+                            onClick={() => toggleLinkExpanded(link.id)}
+                            className="text-blue-500 hover:text-blue-600 transition-colors"
+                            title={isExpanded ? 'Collapse' : 'Expand'}
+                          >
+                            {isExpanded ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
+                          </button>
+                          
                           {link.isPinned && (
                             <Pin size={14} className="text-orange-500 fill-current" title="Pinned" />
                           )}
@@ -1183,68 +1237,73 @@ const LinkBlog = () => {
                           )}
                         </div>
                         
-                        {link.description && (
-                          <p className={`text-sm mb-2 ${darkMode ? 'text-gray-300' : 'text-black'}`}>
-                            {link.description}
-                          </p>
-                        )}
-                        
-                        <div className={`text-xs mb-2 flex items-center gap-2 ${
-                          darkMode ? 'text-gray-500' : 'text-black'
-                        }`}>
-                          <span className="break-all">
-                            {link.url} {link.timestamp && `Added: ${formatDate(link.timestamp)}`}
-                          </span>
-                          <button
-                            onClick={async () => {
-                              try {
-                                await navigator.clipboard.writeText(link.url);
-                              } catch (err) {
-                                console.error('Failed to copy URL:', err);
-                              }
-                            }}
-                            className={`p-1 rounded transition-colors flex-shrink-0 ${
-                              darkMode 
-                                ? 'hover:bg-gray-700 text-gray-400 hover:text-gray-300' 
-                                : 'hover:bg-gray-100 text-black hover:text-gray-700'
-                            }`}
-                            title="Copy URL"
-                          >
-                            <Copy size={12} />
-                          </button>
-                        </div>
-                        
-                        {/* Related Links */}
-                        {relatedLinks.length > 0 && (
-                          <div className="mt-3 pt-3">
-                            <h4 className={`text-xs font-medium mb-2 ${
-                              darkMode ? 'text-gray-400' : 'text-black'
+                        {/* Expanded Content */}
+                        {isExpanded && (
+                          <>
+                            {link.description && (
+                              <p className={`text-sm mb-2 ${darkMode ? 'text-gray-300' : 'text-black'}`}>
+                                {link.description}
+                              </p>
+                            )}
+                            
+                            <div className={`text-xs mb-2 flex items-center gap-2 ${
+                              darkMode ? 'text-gray-500' : 'text-black'
                             }`}>
-                              Related reading:
-                            </h4>
-                            <div className="space-y-1">
-                              {relatedLinks.map(relatedLink => (
-                                <div key={relatedLink.id} className="flex items-center gap-2">
-                                  <div className="w-1 h-1 bg-blue-400 rounded-full"></div>
-                                  <a
-                                    href={relatedLink.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    onClick={() => trackLinkVisit(relatedLink.id)}
-                                    className={`text-xs hover:underline ${
-                                      darkMode ? 'text-blue-400' : 'text-black'
-                                    }`}
-                                  >
-                                    {relatedLink.source} ({formatShortDate(relatedLink.timestamp)})
-                                  </a>
-                                </div>
-                              ))}
+                              <span className="break-all">
+                                {link.url} {link.timestamp && `Added: ${formatDate(link.timestamp)}`}
+                              </span>
+                              <button
+                                onClick={async () => {
+                                  try {
+                                    await navigator.clipboard.writeText(link.url);
+                                  } catch (err) {
+                                    console.error('Failed to copy URL:', err);
+                                  }
+                                }}
+                                className={`p-1 rounded transition-colors flex-shrink-0 ${
+                                  darkMode 
+                                    ? 'hover:bg-gray-700 text-gray-400 hover:text-gray-300' 
+                                    : 'hover:bg-gray-100 text-black hover:text-gray-700'
+                                }`}
+                                title="Copy URL"
+                              >
+                                <Copy size={12} />
+                              </button>
                             </div>
-                          </div>
+                            
+                            {/* Related Links */}
+                            {relatedLinks.length > 0 && (
+                              <div className="mt-3 pt-3">
+                                <h4 className={`text-xs font-medium mb-2 ${
+                                  darkMode ? 'text-gray-400' : 'text-black'
+                                }`}>
+                                  Related reading:
+                                </h4>
+                                <div className="space-y-1">
+                                  {relatedLinks.map(relatedLink => (
+                                    <div key={relatedLink.id} className="flex items-center gap-2">
+                                      <div className="w-1 h-1 bg-blue-400 rounded-full"></div>
+                                      <a
+                                        href={relatedLink.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        onClick={() => trackLinkVisit(relatedLink.id)}
+                                        className={`text-xs hover:underline ${
+                                          darkMode ? 'text-blue-400' : 'text-black'
+                                        }`}
+                                      >
+                                        {relatedLink.source} ({formatShortDate(relatedLink.timestamp)})
+                                      </a>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+                          </>
                         )}
                         
-                        {/* Tags */}
-                        {link.tags && link.tags.length > 0 && (
+                        {/* Tags - Only visible when expanded */}
+                        {isExpanded && link.tags && link.tags.length > 0 && (
                           <div className="flex flex-wrap gap-1 mt-3">
                             {link.tags.map((tag, tagIndex) => (
                               <button
