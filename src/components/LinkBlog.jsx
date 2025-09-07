@@ -2,10 +2,10 @@ import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Moon, Sun, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Clock } from 'lucide-react';
+import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Moon, Sun, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Clock, Info } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 
-const ADMIN_USER = 'Mediaeater';
+const ADMIN_USER = 'YourNewPassword';
 const MAX_TITLE_LENGTH = 120;
 const SORT_OPTIONS = {
   DATE_DESC: 'date-desc',
@@ -101,7 +101,7 @@ const LinkBlog = () => {
         description: metadata.description,
         image: metadata.image,
         favicon: metadata.favicon,
-        tags: suggestedTags.slice(0, 3), // Auto-add top 3 suggested tags
+        tags: suggestedTags.slice(0, 5), // Auto-add top 5 suggested tags
         isPinned: false
       });
     }
@@ -422,7 +422,7 @@ const LinkBlog = () => {
   }, [isAdmin, links, saveToFile]);
 
   const addTag = () => {
-    if (currentTag && newLink.tags.length < 5 && !newLink.tags.includes(currentTag)) {
+    if (currentTag && newLink.tags.length < 10 && !newLink.tags.includes(currentTag)) {
       setNewLink({ ...newLink, tags: [...newLink.tags, currentTag] });
       setCurrentTag('');
     }
@@ -506,13 +506,30 @@ const LinkBlog = () => {
     }
   }, [isAdmin, links, saveToFile]);
 
-  const formatDate = (dateString) => {
+  const formatDate = (dateString, includeTime = false) => {
     if (!dateString) return '';
-    return new Date(dateString).toLocaleDateString('en-US', {
+    const date = new Date(dateString);
+    const options = {
       year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-    });
+      month: 'short',
+      day: 'numeric'
+    };
+    if (includeTime) {
+      options.hour = 'numeric';
+      options.minute = '2-digit';
+      options.timeZoneName = 'short';
+      options.timeZone = 'America/New_York';
+    }
+    return date.toLocaleString('en-US', options);
+  };
+  
+  const formatShortDate = (dateString) => {
+    if (!dateString) return '';
+    const date = new Date(dateString);
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    const year = date.getFullYear().toString().slice(-2);
+    return `${month}-${day}-${year}`;
   };
   
   // Compute filtered and sorted links
@@ -635,22 +652,20 @@ const LinkBlog = () => {
   }, [filteredAndSortedLinks.length]);
 
   return (
-    <div className={`min-h-screen transition-colors ${darkMode ? 'dark bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
+    <div className={`min-h-screen transition-colors ${darkMode ? 'dark bg-gray-900 text-white' : 'bg-white text-black'}`}>
     <div className="max-w-4xl mx-auto px-4 py-2 sm:p-4 font-mono">
-      <header className="text-center mb-4 sm:mb-8">
-        <div className="flex flex-col sm:flex-row items-center justify-between mb-4 gap-4">
-          <div className="flex items-center gap-2 sm:gap-4">
-            <h1 className="text-2xl sm:text-3xl font-bold">Mediaeater Digest</h1>
+      <header className="text-center mb-6 sm:mb-10">
+        <div className="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
+          <div className="flex items-center gap-3 sm:gap-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+              Mediaeater Digest
+            </h1>
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className={`p-2 rounded-full transition-colors ${
-                darkMode 
-                  ? 'bg-yellow-100 text-yellow-800 hover:bg-yellow-200' 
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-              }`}
+              className="text-2xl font-mono hover:opacity-70 transition-opacity cursor-pointer"
               title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
-              {darkMode ? <Sun size={16} /> : <Moon size={16} />}
+              {darkMode ? '☀' : '☾'}
             </button>
           </div>
           
@@ -658,7 +673,7 @@ const LinkBlog = () => {
             <div className="flex items-center gap-2 flex-wrap">
               <Button
                 onClick={() => setShowQuickAdd(!showQuickAdd)}
-                className="bg-green-600 hover:bg-green-700 text-xs sm:text-sm px-2 sm:px-4"
+                className="btn-primary bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-xs sm:text-sm"
                 title="Quick add URLs (Ctrl+V)"
               >
                 <Zap size={12} className="sm:mr-1" />
@@ -667,7 +682,7 @@ const LinkBlog = () => {
               
               <Button
                 onClick={() => setShowFilters(!showFilters)}
-                className="bg-blue-600 hover:bg-blue-700 text-xs sm:text-sm px-2 sm:px-4"
+                className="btn-primary text-xs sm:text-sm"
               >
                 <Filter size={12} className="sm:mr-1" />
                 <span className="hidden sm:inline">Filters</span>
@@ -678,8 +693,8 @@ const LinkBlog = () => {
         </div>
         
         {lastUpdated && (
-          <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-            Last updated: {formatDate(lastUpdated)}
+          <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-black'}`}>
+            Last updated: {formatDate(lastUpdated, true)}
           </p>
         )}
         
@@ -716,14 +731,6 @@ const LinkBlog = () => {
           </div>
         )}
         
-        {/* Stats */}
-        <div className={`mt-4 text-xs ${darkMode ? 'text-gray-400' : 'text-gray-600'} flex justify-center gap-4`}>
-          <span>{filteredAndSortedLinks.length} links</span>
-          <span>{allTagsWithFrequency.length} tags</span>
-          {searchTerm || selectedTags.length > 0 ? (
-            <span className="text-blue-600 dark:text-blue-400">filtered</span>
-          ) : null}
-        </div>
       </header>
       
       {error && (
@@ -734,7 +741,7 @@ const LinkBlog = () => {
       
       {/* Quick Add Section */}
       {isAdmin && showQuickAdd && (
-        <Card className="mb-6 border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900/20">
+        <Card className="mb-6 glass border-green-200/50 dark:border-green-800/50 bg-gradient-to-br from-green-50/90 to-emerald-50/90 dark:from-green-900/20 dark:to-emerald-900/20">
           <CardContent className="p-4">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold flex items-center gap-2">
@@ -769,8 +776,8 @@ const LinkBlog = () => {
               </div>
               
               {isProcessingUrls && (
-                <div className="flex items-center gap-2 text-sm text-blue-600">
-                  <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600"></div>
+                <div className="flex items-center gap-2 text-sm text-black">
+                  <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-black"></div>
                   Processing URLs...
                 </div>
               )}
@@ -819,19 +826,24 @@ const LinkBlog = () => {
       <div className="mb-4 sm:mb-6 space-y-4">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 items-stretch sm:items-center">
           <div className="flex-1 relative">
-            <Search size={16} className={`absolute left-3 top-1/2 transform -translate-y-1/2 ${darkMode ? 'text-gray-400' : 'text-gray-600'}`} />
+            <Search size={16} className={`absolute left-3 top-1/2 transform -translate-y-1/2 ${darkMode ? 'text-gray-400' : 'text-black'}`} />
             <Input
               ref={searchRef}
               type="text"
-              placeholder="Search links, titles, descriptions, or tags... (Ctrl+K)"
+              placeholder="Search..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="pl-10"
+              className="pl-10 pr-10"
+            />
+            <Info 
+              size={16} 
+              className={`absolute right-3 top-1/2 transform -translate-y-1/2 ${darkMode ? 'text-gray-400' : 'text-black'} cursor-help`}
+              title={`⌘/Ctrl+K to search, J/K to navigate, Enter to open, Esc to clear${isAdmin ? ', ⌘/Ctrl+V to quick add' : ''}`}
             />
           </div>
           
           <div className="flex items-center gap-2 min-w-0">
-            <ArrowUpDown size={14} className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} hidden sm:block`} />
+            <ArrowUpDown size={14} className={`${darkMode ? 'text-gray-400' : 'text-black'} hidden sm:block`} />
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
@@ -841,8 +853,8 @@ const LinkBlog = () => {
                   : 'bg-white border-gray-300 text-gray-900'
               }`}
             >
-              <option value={SORT_OPTIONS.DATE_DESC}>Newest First</option>
-              <option value={SORT_OPTIONS.DATE_ASC}>Oldest First</option>
+              <option value={SORT_OPTIONS.DATE_DESC}>↓</option>
+              <option value={SORT_OPTIONS.DATE_ASC}>↑</option>
               <option value={SORT_OPTIONS.TITLE}>Alphabetical</option>
               <option value={SORT_OPTIONS.TAG_RELEVANCE}>Most Tags</option>
               <option value={SORT_OPTIONS.POPULARITY}>Most Visited</option>
@@ -917,15 +929,12 @@ const LinkBlog = () => {
           </div>
         )}
         
-        {/* Keyboard shortcuts help */}
-        <div className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-600'} text-center`}>
-          Tips: ⌘/Ctrl+K to search, J/K to navigate, Enter to open, Esc to clear{isAdmin && ', ⌘/Ctrl+V to quick add'}
-        </div>
+        {/* Keyboard shortcuts help - moved to info icon */}
       </div>
 
       {/* Traditional Add Link Form - only show when editing or no quick add */}
       {isAdmin && (editingLink || !showQuickAdd) && (
-        <Card className={`mb-6 ${darkMode ? 'border-gray-600 bg-gray-800' : ''}`}>
+        <Card className="mb-6 glass">
           <CardContent className="p-4">
             <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
               {editingLink ? (
@@ -960,19 +969,21 @@ const LinkBlog = () => {
                   className="w-full"
                 />
                 
-                {newLink.url && !newLink.source && (
+                {newLink.url && (!newLink.source || newLink.tags.length === 0) && (
                   <Button
                     onClick={async () => {
                       const metadata = await fetchUrlMetadata(newLink.url);
+                      const suggestedTags = suggestTagsFromUrl(newLink.url, metadata.title, metadata.description);
                       setNewLink(prev => ({ 
                         ...prev, 
-                        source: metadata.title.slice(0, MAX_TITLE_LENGTH)
+                        source: prev.source || metadata.title.slice(0, MAX_TITLE_LENGTH),
+                        tags: prev.tags.length === 0 ? suggestedTags.slice(0, 5) : prev.tags
                       }));
                     }}
                     className="mt-2 text-xs bg-blue-500 hover:bg-blue-600"
                   >
                     <Link2 size={12} className="mr-1" />
-                    Auto-fetch title
+                    Auto-fetch title & tags
                   </Button>
                 )}
               </div>
@@ -989,7 +1000,7 @@ const LinkBlog = () => {
                     className="flex-1"
                     list="existing-tags"
                   />
-                  <Button onClick={addTag} disabled={!currentTag || newLink.tags.length >= 5}>
+                  <Button onClick={addTag} disabled={!currentTag || newLink.tags.length >= 10}>
                     <Plus size={16} />
                   </Button>
                 </div>
@@ -1010,7 +1021,7 @@ const LinkBlog = () => {
                       {tag}
                       <button
                         onClick={() => removeTag(tag)}
-                        className="text-blue-600 dark:text-blue-300 hover:text-blue-800 dark:hover:text-blue-100"
+                        className="text-black dark:text-blue-300 hover:text-gray-700 dark:hover:text-blue-100"
                       >
                         <X size={10} />
                       </button>
@@ -1038,7 +1049,7 @@ const LinkBlog = () => {
                                 ? 'bg-gray-700 border-gray-600 text-gray-300 hover:bg-gray-600'
                                 : 'bg-gray-100 border-gray-300 text-gray-700 hover:bg-gray-200'
                           }`}
-                          disabled={newLink.tags.includes(tag) || newLink.tags.length >= 5}
+                          disabled={newLink.tags.includes(tag) || newLink.tags.length >= 10}
                         >
                           {tag}
                         </button>
@@ -1092,16 +1103,24 @@ const LinkBlog = () => {
       )}
 
       {isLoading ? (
-        <div className="text-center py-8">
-          <div className={`inline-block animate-spin rounded-full h-8 w-8 border-b-2 ${
-            darkMode ? 'border-white' : 'border-gray-900'
-          }`}></div>
-          <p className="mt-2">Loading links...</p>
+        <div className="space-y-4">
+          {/* Loading skeleton cards */}
+          {[1, 2, 3].map((i) => (
+            <div key={i} className="link-card p-4">
+              <div className="skeleton h-6 w-3/4 mb-3"></div>
+              <div className="skeleton h-4 w-1/2 mb-3"></div>
+              <div className="flex gap-2">
+                <div className="skeleton h-6 w-16 rounded-full"></div>
+                <div className="skeleton h-6 w-20 rounded-full"></div>
+                <div className="skeleton h-6 w-18 rounded-full"></div>
+              </div>
+            </div>
+          ))}
         </div>
       ) : (
         <div className="space-y-4">
           {filteredAndSortedLinks.length === 0 ? (
-            <Card className={darkMode ? 'border-gray-600 bg-gray-800' : ''}>
+            <Card className="glass">
               <CardContent className="text-center py-8 text-gray-500 dark:text-gray-400">
                 {links.length === 0 
                   ? `No links yet. ${isAdmin ? 'Add some links above to get started!' : ''}` 
@@ -1118,12 +1137,10 @@ const LinkBlog = () => {
                 <Card 
                   key={link.id} 
                   ref={el => linkRefs.current[index] = el}
-                  className={`transition-all duration-200 hover:shadow-md ${
+                  className={`link-card ${
                     isHighlighted 
                       ? 'ring-2 ring-blue-500 shadow-lg' 
-                      : darkMode 
-                        ? 'border-gray-600 bg-gray-800 hover:border-gray-500' 
-                        : 'hover:shadow-md'
+                      : ''
                   }`}
                 >
                   <CardContent className="p-3 sm:p-4">
@@ -1145,7 +1162,7 @@ const LinkBlog = () => {
                               className={`hover:underline transition-colors ${
                                 darkMode 
                                   ? 'text-blue-400 hover:text-blue-300' 
-                                  : 'text-blue-600 hover:text-blue-800'
+                                  : 'text-black hover:text-gray-700'
                               }`}
                             >
                               {link.source}
@@ -1167,19 +1184,68 @@ const LinkBlog = () => {
                         </div>
                         
                         {link.description && (
-                          <p className={`text-sm mb-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                          <p className={`text-sm mb-2 ${darkMode ? 'text-gray-300' : 'text-black'}`}>
                             {link.description}
                           </p>
                         )}
                         
-                        <p className={`text-xs mb-2 break-all ${
-                          darkMode ? 'text-gray-500' : 'text-gray-600'
+                        <div className={`text-xs mb-2 flex items-center gap-2 ${
+                          darkMode ? 'text-gray-500' : 'text-black'
                         }`}>
-                          {link.url}
-                        </p>
+                          <span className="break-all">
+                            {link.url} {link.timestamp && `Added: ${formatDate(link.timestamp)}`}
+                          </span>
+                          <button
+                            onClick={async () => {
+                              try {
+                                await navigator.clipboard.writeText(link.url);
+                              } catch (err) {
+                                console.error('Failed to copy URL:', err);
+                              }
+                            }}
+                            className={`p-1 rounded transition-colors flex-shrink-0 ${
+                              darkMode 
+                                ? 'hover:bg-gray-700 text-gray-400 hover:text-gray-300' 
+                                : 'hover:bg-gray-100 text-black hover:text-gray-700'
+                            }`}
+                            title="Copy URL"
+                          >
+                            <Copy size={12} />
+                          </button>
+                        </div>
                         
+                        {/* Related Links */}
+                        {relatedLinks.length > 0 && (
+                          <div className="mt-3 pt-3">
+                            <h4 className={`text-xs font-medium mb-2 ${
+                              darkMode ? 'text-gray-400' : 'text-black'
+                            }`}>
+                              Related reading:
+                            </h4>
+                            <div className="space-y-1">
+                              {relatedLinks.map(relatedLink => (
+                                <div key={relatedLink.id} className="flex items-center gap-2">
+                                  <div className="w-1 h-1 bg-blue-400 rounded-full"></div>
+                                  <a
+                                    href={relatedLink.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    onClick={() => trackLinkVisit(relatedLink.id)}
+                                    className={`text-xs hover:underline ${
+                                      darkMode ? 'text-blue-400' : 'text-black'
+                                    }`}
+                                  >
+                                    {relatedLink.source} ({formatShortDate(relatedLink.timestamp)})
+                                  </a>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                        
+                        {/* Tags */}
                         {link.tags && link.tags.length > 0 && (
-                          <div className="flex flex-wrap gap-1 mb-2">
+                          <div className="flex flex-wrap gap-1 mt-3">
                             {link.tags.map((tag, tagIndex) => (
                               <button
                                 key={tagIndex}
@@ -1199,90 +1265,10 @@ const LinkBlog = () => {
                             ))}
                           </div>
                         )}
-                        
-                        <div className={`flex items-center gap-4 text-xs ${
-                          darkMode ? 'text-gray-500' : 'text-gray-600'
-                        }`}>
-                          {link.timestamp && (
-                            <span className="flex items-center gap-1">
-                              <Clock size={10} />
-                              {formatDate(link.timestamp)}
-                            </span>
-                          )}
-                          
-                          {link.lastVisited && isAdmin && (
-                            <span className="flex items-center gap-1" title="Last visited">
-                              <Eye size={10} />
-                              {formatDate(link.lastVisited)}
-                            </span>
-                          )}
-                          
-                          {relatedLinks.length > 0 && (
-                            <span className="flex items-center gap-1" title={`${relatedLinks.length} related links`}>
-                              <Link2 size={10} />
-                              {relatedLinks.length} related
-                            </span>
-                          )}
-                        </div>
-                        
-                        {/* Related Links */}
-                        {relatedLinks.length > 0 && (
-                          <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-700">
-                            <h4 className={`text-xs font-medium mb-2 flex items-center gap-1 ${
-                              darkMode ? 'text-gray-400' : 'text-gray-600'
-                            }`}>
-                              <Link2 size={10} />
-                              Related links:
-                            </h4>
-                            <div className="space-y-1">
-                              {relatedLinks.map(relatedLink => (
-                                <div key={relatedLink.id} className="flex items-center gap-2">
-                                  <div className="w-1 h-1 bg-blue-400 rounded-full"></div>
-                                  <a
-                                    href={relatedLink.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    onClick={() => trackLinkVisit(relatedLink.id)}
-                                    className={`text-xs hover:underline ${
-                                      darkMode ? 'text-blue-400' : 'text-blue-600'
-                                    }`}
-                                  >
-                                    {relatedLink.source}
-                                  </a>
-                                  <span className={`text-xs px-1 rounded ${
-                                    darkMode ? 'bg-gray-700 text-gray-400' : 'bg-gray-100 text-gray-600'
-                                  }`}>
-                                    {relatedLink.sharedTags} tag{relatedLink.sharedTags === 1 ? '' : 's'}
-                                  </span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        )}
                       </div>
                       
                       {/* Action Buttons */}
                       <div className="flex items-start gap-1 sm:gap-2 sm:ml-4 mt-2 sm:mt-0">
-                        {/* Copy URL button */}
-                        <button
-                          onClick={async () => {
-                            try {
-                              await navigator.clipboard.writeText(link.url);
-                              // You could add a toast notification here
-                            } catch (err) {
-                              console.error('Failed to copy URL:', err);
-                            }
-                          }}
-                          className={`p-1 rounded transition-colors ${
-                            darkMode 
-                              ? 'hover:bg-gray-700 text-gray-400 hover:text-gray-300' 
-                              : 'hover:bg-gray-100 text-gray-600 hover:text-gray-800'
-                          }`}
-                          title="Copy URL"
-                        >
-                          <Copy size={12} />
-                        </button>
-                        
                         {isAdmin && (
                           <div className="flex flex-row sm:flex-col gap-1">
                             <button
@@ -1303,7 +1289,7 @@ const LinkBlog = () => {
                               className={`p-1 rounded transition-colors ${
                                 darkMode
                                   ? 'text-blue-400 hover:text-blue-300 hover:bg-gray-700'
-                                  : 'text-blue-500 hover:text-blue-600 hover:bg-gray-100'
+                                  : 'text-black hover:text-gray-700 hover:bg-gray-100'
                               }`}
                               title="Edit link"
                             >
