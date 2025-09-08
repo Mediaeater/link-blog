@@ -325,13 +325,6 @@ const LinkBlog = () => {
     const urlParams = new URLSearchParams(window.location.search);
     setIsAdmin(urlParams.get('admin') === ADMIN_USER);
     
-    // Load dark mode preference
-    const savedDarkMode = localStorage.getItem('linkBlog-darkMode');
-    if (savedDarkMode !== null) {
-      setDarkMode(JSON.parse(savedDarkMode));
-    } else {
-      setDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
-    }
   }, [loadLinks]);
 
   // Handle keyboard shortcuts
@@ -646,15 +639,6 @@ const LinkBlog = () => {
       .slice(0, 3);
   }, [links]);
   
-  // Dark mode effect
-  useEffect(() => {
-    localStorage.setItem('linkBlog-darkMode', JSON.stringify(darkMode));
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
   
   // Memoize the preview function to prevent dependency issues
   const debouncedPreview = useCallback(() => {
@@ -820,11 +804,7 @@ const LinkBlog = () => {
                   value={quickPasteUrls}
                   onChange={(e) => setQuickPasteUrls(e.target.value)}
                   placeholder="https://example.com\nhttps://another-link.com\n..."
-                  className={`w-full h-24 p-3 border rounded-md font-mono text-sm ${
-                    darkMode 
-                      ? 'bg-gray-800 border-gray-600 text-white' 
-                      : 'bg-white border-gray-300 text-gray-900'
-                  }`}
+                  className="w-full h-24 p-3 border rounded-md font-mono text-sm bg-white border-gray-300 text-gray-900"
                 />
               </div>
               
@@ -840,11 +820,9 @@ const LinkBlog = () => {
                   <h3 className="text-sm font-medium mb-2">Preview ({previewUrls.length} links):</h3>
                   <div className="space-y-2 max-h-48 overflow-y-auto">
                     {previewUrls.map((preview, index) => (
-                      <div key={index} className={`p-2 border rounded text-xs ${
-                        darkMode ? 'border-gray-600 bg-gray-800' : 'border-gray-200 bg-gray-50'
-                      }`}>
+                      <div key={index} className="p-2 border rounded text-xs border-gray-200 bg-gray-50">
                         <div className="font-medium truncate">{preview.source || 'Loading...'}</div>
-                        <div className={`truncate ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>{preview.url}</div>
+                        <div className="truncate text-gray-600">{preview.url}</div>
                       </div>
                     ))}
                   </div>
@@ -879,7 +857,7 @@ const LinkBlog = () => {
       <div className="mb-4 sm:mb-6 space-y-4">
         <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 items-stretch sm:items-center">
           <div className="flex-1 relative">
-            <Search size={16} className={`absolute left-3 top-1/2 transform -translate-y-1/2 ${darkMode ? 'text-gray-400' : 'text-black'}`} />
+            <Search size={16} className="absolute left-3 top-1/2 transform -translate-y-1/2 text-black" />
             <Input
               ref={searchRef}
               type="text"
@@ -890,21 +868,17 @@ const LinkBlog = () => {
             />
             <Info 
               size={16} 
-              className={`absolute right-3 top-1/2 transform -translate-y-1/2 ${darkMode ? 'text-gray-400' : 'text-black'} cursor-help`}
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-black cursor-help"
               title={`⌘/Ctrl+K to search, J/K to navigate, Enter to open, Esc to clear${isAdmin ? ', ⌘/Ctrl+V to quick add' : ''}`}
             />
           </div>
           
           <div className="flex items-center gap-2 min-w-0">
-            <ArrowUpDown size={14} className={`${darkMode ? 'text-gray-400' : 'text-black'} hidden sm:block`} />
+            <ArrowUpDown size={14} className="text-black hidden sm:block" />
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
-              className={`px-2 sm:px-3 py-2 border rounded-md text-xs sm:text-sm min-w-0 ${
-                darkMode 
-                  ? 'bg-gray-800 border-gray-600 text-white' 
-                  : 'bg-white border-gray-300 text-gray-900'
-              }`}
+              className="px-2 sm:px-3 py-2 border rounded-md text-xs sm:text-sm min-w-0 bg-white border-gray-300 text-gray-900"
             >
               <option value={SORT_OPTIONS.DATE_DESC}>↓</option>
               <option value={SORT_OPTIONS.DATE_ASC}>↑</option>
@@ -927,9 +901,7 @@ const LinkBlog = () => {
         
         {/* Tag Cloud and Filters */}
         {(showFilters || selectedTags.length > 0) && (
-          <div className={`p-4 border rounded-lg ${
-            darkMode ? 'border-gray-600 bg-gray-800' : 'border-gray-200 bg-gray-50'
-          }`}>
+          <div className="p-4 border rounded-lg border-gray-200 bg-gray-50">
             <div className="mb-3">
               <h3 className="text-sm font-medium mb-2 flex items-center gap-2">
                 <Hash size={14} />
@@ -967,9 +939,7 @@ const LinkBlog = () => {
                     className={`px-2 py-1 text-xs rounded-full border transition-all hover:scale-105 ${
                       isSelected
                         ? 'bg-blue-500 text-white border-blue-500'
-                        : darkMode
-                          ? 'bg-gray-700 text-gray-300 border-gray-600 hover:bg-gray-600'
-                          : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'
+                        : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'
                     }`}
                     style={{ opacity: isSelected ? 1 : opacity }}
                     title={`${count} link${count === 1 ? '' : 's'}`}
@@ -1059,11 +1029,7 @@ const LinkBlog = () => {
                       }
                     }
                   }}
-                  className={`w-full h-20 p-3 border rounded-md text-sm ${
-                    darkMode 
-                      ? 'bg-gray-800 border-gray-600 text-white' 
-                      : 'bg-white border-gray-300 text-gray-900'
-                  }`}
+                  className="w-full h-20 p-3 border rounded-md text-sm bg-white border-gray-300 text-gray-900"
                   maxLength={500}
                 />
                 <p className="text-xs text-gray-500 mt-1">
@@ -1128,9 +1094,7 @@ const LinkBlog = () => {
                           className={`text-xs px-2 py-1 rounded border transition-colors ${
                             newLink.tags.includes(tag)
                               ? 'bg-blue-100 border-blue-300 text-blue-800'
-                              : darkMode
-                                ? 'bg-gray-700 border-gray-600 text-gray-300 hover:bg-gray-600'
-                                : 'bg-gray-100 border-gray-300 text-gray-700 hover:bg-gray-200'
+                              : 'bg-gray-100 border-gray-300 text-gray-700 hover:bg-gray-200'
                           }`}
                           disabled={newLink.tags.includes(tag) || newLink.tags.length >= 10}
                         >
@@ -1252,11 +1216,7 @@ const LinkBlog = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                               onClick={() => trackLinkVisit(link.id)}
-                              className={`hover:underline transition-colors ${
-                                darkMode 
-                                  ? 'text-blue-400 hover:text-blue-300' 
-                                  : 'text-black hover:text-gray-700'
-                              }`}
+                              className="hover:underline transition-colors text-black hover:text-gray-700"
                             >
                               {link.source}
                               <ExternalLink size={12} className="inline ml-1 opacity-50" />
@@ -1265,11 +1225,7 @@ const LinkBlog = () => {
                           
                           {/* Visit counter */}
                           {isAdmin && link.visits > 0 && (
-                            <span className={`text-xs px-2 py-1 rounded-full ${
-                              darkMode 
-                                ? 'bg-gray-700 text-gray-300'
-                                : 'bg-gray-100 text-gray-600'
-                            }`} title="Visit count">
+                            <span className="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-600" title="Visit count">
                               <Eye size={10} className="inline mr-1" />
                               {link.visits}
                             </span>
@@ -1280,14 +1236,12 @@ const LinkBlog = () => {
                         {isExpanded && (
                           <>
                             {link.description && (
-                              <p className={`text-sm mb-2 ${darkMode ? 'text-gray-300' : 'text-black'}`}>
+                              <p className="text-sm mb-2 text-black">
                                 {link.description}
                               </p>
                             )}
                             
-                            <div className={`text-xs mb-2 flex items-center gap-2 ${
-                              darkMode ? 'text-gray-500' : 'text-black'
-                            }`}>
+                            <div className="text-xs mb-2 flex items-center gap-2 text-black">
                               <span className="break-all">
                                 {link.url} {link.timestamp && `Added: ${formatDate(link.timestamp)}`}
                               </span>
@@ -1299,11 +1253,7 @@ const LinkBlog = () => {
                                     console.error('Failed to copy URL:', err);
                                   }
                                 }}
-                                className={`p-1 rounded transition-colors flex-shrink-0 ${
-                                  darkMode 
-                                    ? 'hover:bg-gray-700 text-gray-400 hover:text-gray-300' 
-                                    : 'hover:bg-gray-100 text-black hover:text-gray-700'
-                                }`}
+                                className="p-1 rounded transition-colors flex-shrink-0 hover:bg-gray-100 text-black hover:text-gray-700"
                                 title="Copy URL"
                               >
                                 <Copy size={12} />
@@ -1312,14 +1262,8 @@ const LinkBlog = () => {
                             
                             {/* Pull Quote */}
                             {link.pullQuote && (
-                              <div className={`my-3 p-3 border-l-4 ${
-                                darkMode 
-                                  ? 'border-blue-500 bg-gray-800' 
-                                  : 'border-blue-500 bg-blue-50'
-                              }`}>
-                                <blockquote className={`text-sm italic ${
-                                  darkMode ? 'text-gray-300' : 'text-gray-700'
-                                }`}>
+                              <div className="my-3 p-3 border-l-4 border-blue-500 bg-blue-50">
+                                <blockquote className="text-sm italic text-gray-700">
                                   "{link.pullQuote}"
                                 </blockquote>
                               </div>
@@ -1328,9 +1272,7 @@ const LinkBlog = () => {
                             {/* Related Links */}
                             {relatedLinks.length > 0 && (
                               <div className="mt-3 pt-3">
-                                <h4 className={`text-xs font-medium mb-2 ${
-                                  darkMode ? 'text-gray-400' : 'text-black'
-                                }`}>
+                                <h4 className="text-xs font-medium mb-2 text-black">
                                   Related reading:
                                 </h4>
                                 <div className="space-y-1">
@@ -1342,9 +1284,7 @@ const LinkBlog = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         onClick={() => trackLinkVisit(relatedLink.id)}
-                                        className={`text-xs hover:underline ${
-                                          darkMode ? 'text-blue-400' : 'text-black'
-                                        }`}
+                                        className="text-xs hover:underline text-black"
                                       >
                                         {relatedLink.source} ({formatShortDate(relatedLink.timestamp)})
                                       </a>
@@ -1366,9 +1306,7 @@ const LinkBlog = () => {
                                 className={`text-xs px-2 py-1 rounded-full flex items-center gap-1 transition-all hover:scale-105 ${
                                   selectedTags.includes(tag)
                                     ? 'bg-blue-500 text-white'
-                                    : darkMode
-                                      ? 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-                                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                 }`}
                                 title="Click to filter by this tag"
                               >
@@ -1389,9 +1327,7 @@ const LinkBlog = () => {
                               className={`p-1 rounded transition-colors ${
                                 link.isPinned 
                                   ? 'text-orange-500 hover:text-orange-600' 
-                                  : darkMode
-                                    ? 'text-gray-400 hover:text-gray-300 hover:bg-gray-700'
-                                    : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100'
+                                  : 'text-gray-400 hover:text-gray-600 hover:bg-gray-100'
                               }`}
                               title={link.isPinned ? 'Unpin' : 'Pin to top'}
                             >
@@ -1399,22 +1335,14 @@ const LinkBlog = () => {
                             </button>
                             <button
                               onClick={() => editLink(link)}
-                              className={`p-1 rounded transition-colors ${
-                                darkMode
-                                  ? 'text-blue-400 hover:text-blue-300 hover:bg-gray-700'
-                                  : 'text-black hover:text-gray-700 hover:bg-gray-100'
-                              }`}
+                              className="p-1 rounded transition-colors text-black hover:text-gray-700 hover:bg-gray-100"
                               title="Edit link"
                             >
                               <Edit size={12} />
                             </button>
                             <button
                               onClick={() => deleteLink(link.id)}
-                              className={`p-1 rounded transition-colors ${
-                                darkMode
-                                  ? 'text-red-400 hover:text-red-300 hover:bg-gray-700'
-                                  : 'text-red-500 hover:text-red-600 hover:bg-gray-100'
-                              }`}
+                              className="p-1 rounded transition-colors text-red-500 hover:text-red-600 hover:bg-gray-100"
                               title="Delete link"
                             >
                               <Trash2 size={12} />
