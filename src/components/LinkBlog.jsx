@@ -713,6 +713,21 @@ const LinkBlog = () => {
             >
               {darkMode ? '☀' : '☾'}
             </button>
+            <button
+              onClick={() => {
+                if (expandedLinks.size === 0) {
+                  // Expand all links
+                  setExpandedLinks(new Set(links.map(link => link.id)));
+                } else {
+                  // Collapse all links
+                  setExpandedLinks(new Set());
+                }
+              }}
+              className="text-xl font-mono hover:opacity-70 transition-opacity cursor-pointer pl-2"
+              title={expandedLinks.size === 0 ? 'Expand all links' : 'Collapse all links'}
+            >
+              {expandedLinks.size === 0 ? '+' : '−'}
+            </button>
           </div>
           
           {isAdmin && (
