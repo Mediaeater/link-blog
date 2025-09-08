@@ -412,7 +412,7 @@ const LinkBlog = () => {
   const editLink = useCallback((link) => {
     if (!isAdmin) return;
     setEditingLink(link);
-    setNewLink({ ...link });
+    setNewLink({ ...link, pullQuote: link.pullQuote || '' });
   }, [isAdmin]);
 
   const updateLink = async () => {
@@ -1043,7 +1043,7 @@ const LinkBlog = () => {
                   maxLength={500}
                 />
                 <p className="text-xs text-gray-500 mt-1">
-                  {newLink.pullQuote.length}/500 characters - Tags can be inferred from the pull quote
+                  {(newLink.pullQuote || '').length}/500 characters - Tags can be inferred from the pull quote
                 </p>
               </div>
               
