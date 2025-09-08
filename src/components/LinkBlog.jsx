@@ -5,7 +5,8 @@ import { Button } from './ui/button';
 import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Moon, Sun, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Clock, Info } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 
-const ADMIN_USER = 'YourNewPassword';
+// Use environment variable for admin password, fallback to demo password for public users
+const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
 const MAX_TITLE_LENGTH = 120;
 const SORT_OPTIONS = {
   DATE_DESC: 'date-desc',

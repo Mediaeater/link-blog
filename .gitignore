@@ -25,3 +25,9 @@ dist-ssr
 
 # Sensitive files
 README.md
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
