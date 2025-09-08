@@ -494,9 +494,19 @@ const LinkBlog = () => {
       try {
         const importedData = JSON.parse(e.target.result);
         if (importedData.links && Array.isArray(importedData.links)) {
-          const confirmImport = window.confirm(`Import ${importedData.links.length} links? This will merge with existing links.`);
+          // Create a set of existing URLs for quick lookup
+          const existingUrls = new Set(links.map(link => link.url));
+          
+          // Filter out duplicates based on URL
+          const newLinks = importedData.links.filter(link => !existingUrls.has(link.url));
+          
+          const message = newLinks.length === importedData.links.length 
+            ? `Import ${newLinks.length} new links?`
+            : `Import ${newLinks.length} new links? (${importedData.links.length - newLinks.length} duplicates will be skipped)`;
+          
+          const confirmImport = window.confirm(message);
           if (confirmImport) {
-            const mergedLinks = [...links, ...importedData.links.map(link => ({ ...link, id: Date.now() + Math.random() }))]; 
+            const mergedLinks = [...links, ...newLinks.map(link => ({ ...link, id: link.id || Date.now() + Math.random() }))]; 
             try {
               await saveToFile(mergedLinks);
             } catch (error) {
