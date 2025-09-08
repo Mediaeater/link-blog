@@ -30,7 +30,6 @@ const LinkBlog = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTags, setSelectedTags] = useState([]);
   const [sortBy, setSortBy] = useState(SORT_OPTIONS.DATE_DESC);
-  const [darkMode, setDarkMode] = useState(false);
   const [showQuickAdd, setShowQuickAdd] = useState(false);
   const [isProcessingUrls, setIsProcessingUrls] = useState(false);
   const [previewUrls, setPreviewUrls] = useState([]);
@@ -698,21 +697,14 @@ const LinkBlog = () => {
   }, [filteredAndSortedLinks.length]);
 
   return (
-    <div className={`min-h-screen transition-colors ${darkMode ? 'dark bg-gray-900 text-white' : 'bg-white text-black'}`}>
+    <div className="min-h-screen bg-white text-black">
     <div className="max-w-4xl mx-auto px-4 py-2 sm:p-4 font-mono">
       <header className="text-center mb-6 sm:mb-10">
         <div className="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
           <div className="flex items-center gap-3 sm:gap-4">
-            <h1 className="text-xl font-mono text-black dark:text-white">
+            <h1 className="text-xl font-mono text-black">
               newsfeeds.net
             </h1>
-            <button
-              onClick={() => setDarkMode(!darkMode)}
-              className="text-2xl font-mono hover:opacity-70 transition-opacity cursor-pointer"
-              title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
-            >
-              {darkMode ? '☀' : '☾'}
-            </button>
             <button
               onClick={() => {
                 if (expandedLinks.size === 0) {
@@ -754,32 +746,32 @@ const LinkBlog = () => {
         </div>
         
         {lastUpdated && (
-          <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-black'}`}>
+          <p className="text-sm text-black">
             Last updated: {formatDate(lastUpdated, true)}
           </p>
         )}
         
         {isAdmin && (
           <div className="mt-2 flex justify-center gap-2 flex-wrap">
-            <span className="text-xs bg-green-100 dark:bg-green-800 text-green-800 dark:text-green-100 px-2 py-1 rounded">
+            <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
               Admin Mode
             </span>
             <button
               onClick={() => window.open('/data/feed.xml', '_blank')}
-              className="text-xs bg-orange-100 dark:bg-orange-800 text-orange-800 dark:text-orange-100 px-2 py-1 rounded hover:bg-orange-200 dark:hover:bg-orange-700"
+              className="text-xs bg-orange-100 text-orange-800 px-2 py-1 rounded hover:bg-orange-200"
             >
               <Rss size={12} className="inline mr-1" />
               RSS Feed
             </button>
             <button
               onClick={exportLinks}
-              className="text-xs bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-100 px-2 py-1 rounded hover:bg-blue-200 dark:hover:bg-blue-700"
+              className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded hover:bg-blue-200"
               title="Export all links"
             >
               <Download size={12} className="inline mr-1" />
               Export
             </button>
-            <label className="text-xs bg-purple-100 dark:bg-purple-800 text-purple-800 dark:text-purple-100 px-2 py-1 rounded hover:bg-purple-200 dark:hover:bg-purple-700 cursor-pointer">
+            <label className="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded hover:bg-purple-200 cursor-pointer">
               <Upload size={12} className="inline mr-1" />
               Import
               <input
@@ -795,14 +787,14 @@ const LinkBlog = () => {
       </header>
       
       {error && (
-        <div className="bg-red-50 dark:bg-red-900 border border-red-200 dark:border-red-800 text-red-700 dark:text-red-200 px-4 py-3 rounded mb-4">
+        <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded mb-4">
           {error}
         </div>
       )}
       
       {/* Quick Add Section */}
       {isAdmin && showQuickAdd && (
-        <Card className="mb-6 glass border-green-200/50 dark:border-green-800/50 bg-gradient-to-br from-green-50/90 to-emerald-50/90 dark:from-green-900/20 dark:to-emerald-900/20">
+        <Card className="mb-6 glass border-green-200/50 bg-gradient-to-br from-green-50/90 to-emerald-50/90">
           <CardContent className="p-4">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold flex items-center gap-2">
@@ -1106,13 +1098,13 @@ const LinkBlog = () => {
                   {newLink.tags.map((tag, index) => (
                     <span
                       key={index}
-                      className="bg-blue-100 dark:bg-blue-800 text-blue-800 dark:text-blue-100 text-xs px-2 py-1 rounded-full flex items-center gap-1"
+                      className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full flex items-center gap-1"
                     >
                       <Tag size={10} />
                       {tag}
                       <button
                         onClick={() => removeTag(tag)}
-                        className="text-black dark:text-blue-300 hover:text-gray-700 dark:hover:text-blue-100"
+                        className="text-black hover:text-gray-700"
                       >
                         <X size={10} />
                       </button>
@@ -1212,7 +1204,7 @@ const LinkBlog = () => {
         <div className="space-y-4">
           {filteredAndSortedLinks.length === 0 ? (
             <Card className="glass">
-              <CardContent className="text-center py-8 text-gray-500 dark:text-gray-400">
+              <CardContent className="text-center py-8 text-gray-500">
                 {links.length === 0 
                   ? `No links yet. ${isAdmin ? 'Add some links above to get started!' : ''}` 
                   : 'No links match your current filters.'

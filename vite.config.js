@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/',
   plugins: [react()],
   server: {
+    port: 5174, // Use port 5174 instead of default 5173
     headers: {
       'Cache-Control': 'no-store', // Ensure no stale assets
     },
