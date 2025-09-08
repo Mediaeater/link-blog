@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "url": "https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&reflink=desktopwebshare_permalink",
+      "source": "OpenAI Backs AI-Made Animated Feature Film",
+      "pullQuote": "The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the voices of the characters will be made in the next few weeks. \n\nIt is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said.",
+      "tags": [
+        "ai",
+        "openai",
+        "hollywood-ai",
+        "animation"
+      ],
+      "isPinned": true,
+      "id": 1757335344138,
+      "timestamp": "2025-09-08T12:42:24.138Z",
+      "visits": 0
+    },
+    {
+      "url": "https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/",
+      "source": "C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well.",
+      "tags": [
+        "surveillance",
+        "harms",
+        "ai",
+        "c3ai",
+        "tom_siebel"
+      ],
+      "isPinned": false,
+      "id": 1757344635340.094,
+      "timestamp": "2025-09-08T18:28:59.254Z",
+      "visits": 0,
+      "pullQuote": ""
+    },
+    {
       "url": "https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce",
       "source": "Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’",
       "tags": [
@@ -79,21 +110,6 @@
       "visits": 0
     },
     {
-      "url": "https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/",
-      "source": "Billionaire Tom Siebel’s C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well.",
-      "tags": [
-        "surveillance",
-        "harms",
-        "ai",
-        "c3ai",
-        "tom_siebel"
-      ],
-      "isPinned": false,
-      "id": 1757203005480,
-      "timestamp": "2025-09-06T23:56:45.480Z",
-      "visits": 0
-    },
-    {
       "url": "https://simonwillison.net/2025/Sep/6/research-goblin/",
       "source": "GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search",
       "tags": [
@@ -155,6 +171,18 @@
       "timestamp": "2025-09-05T11:00:00.000Z"
     },
     {
+      "id": 1757344635340.7896,
+      "url": "https://dspy.ai/",
+      "source": "Programming—not prompting—LMs",
+      "tags": [
+        "llm",
+        "agent",
+        "dspy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-05T11:00:00.000Z"
+    },
+    {
       "id": 1725540002,
       "url": "https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html",
       "source": "They're Famous. They're Everywhere. And They're Fake",
@@ -189,7 +217,7 @@
       "timestamp": "2025-09-05T09:30:00.000Z"
     },
     {
-      "id": 1725540005,
+      "id": 1757344635340.3992,
       "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
       "source": "Apertus: Switzerland's First Open Multilingual LLM (EPFL/ETH/CSCS)",
       "tags": [
@@ -201,5 +229,5 @@
       "timestamp": "2025-09-05T09:00:00.000Z"
     }
   ],
-  "lastUpdated": "2025-09-07T00:10:53.589Z"
+  "lastUpdated": "2025-09-08T18:29:24.691Z"
 }
