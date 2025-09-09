@@ -2,8 +2,9 @@ import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Moon, Sun, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Clock, Info } from 'lucide-react';
+import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Moon, Sun, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Clock, Info, FileText } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
+import BookmarkImporter from './BookmarkImporter';
 
 // Use environment variable for admin password, fallback to demo password for public users
 const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
@@ -37,6 +38,7 @@ const LinkBlog = () => {
   const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
   const [showFilters, setShowFilters] = useState(false);
   const [expandedLinks, setExpandedLinks] = useState(new Set());
+  const [showBookmarkImporter, setShowBookmarkImporter] = useState(false);
   
   // Refs for keyboard navigation and quick paste
   const quickPasteRef = useRef(null);
@@ -202,7 +204,7 @@ const LinkBlog = () => {
     }
   }, []);
 
-  // Save links to localStorage
+  // Save links to localStorage and server
   const saveToFile = useCallback(async (updatedLinks) => {
     try {
       if (!Array.isArray(updatedLinks)) {
@@ -220,9 +222,9 @@ const LinkBlog = () => {
         version: '1.0',
       };
 
-      console.log("Saving data to localStorage:", `${sortedLinks.length} links`);
+      console.log("Saving data:", `${sortedLinks.length} links`);
       
-      // Test localStorage availability and quota
+      // Save to localStorage first
       const testData = JSON.stringify(data);
       if (testData.length > 5000000) { // ~5MB limit check
         throw new Error('Data size exceeds localStorage limit');
@@ -230,11 +232,32 @@ const LinkBlog = () => {
       
       localStorage.setItem('linkBlogData', testData);
 
+      // Try to save to server (for local development)
+      try {
+        const response = await fetch('http://localhost:3001/api/save-links', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: testData
+        });
+
+        if (response.ok) {
+          const result = await response.json();
+          console.log('✅ Saved to server:', result.message);
+        } else {
+          console.log('⚠️ Server save failed, but localStorage saved successfully');
+        }
+      } catch (serverError) {
+        // Server might not be running, that's okay - we still have localStorage
+        console.log('ℹ️ Server not available - saved to localStorage only');
+      }
+
       // Update state only after successful save
       setLinks(sortedLinks);
       setLastUpdated(data.lastUpdated);
       
-      console.log(`Successfully saved ${sortedLinks.length} links to localStorage`);
+      console.log(`Successfully saved ${sortedLinks.length} links`);
     } catch (error) {
       console.error('Error saving links:', error);
       
@@ -525,6 +548,12 @@ const LinkBlog = () => {
     event.target.value = ''; // Reset file input
   };
   
+  const handleBookmarkImport = useCallback((importedLinks) => {
+    setLinks(importedLinks);
+    saveLinks(importedLinks);
+    setShowBookmarkImporter(false);
+  }, []);
+  
   const trackLinkVisit = useCallback(async (linkId) => {
     if (!isAdmin) return;
     
@@ -768,7 +797,7 @@ const LinkBlog = () => {
             </button>
             <label className="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded hover:bg-purple-200 cursor-pointer">
               <Upload size={12} className="inline mr-1" />
-              Import
+              Import JSON
               <input
                 type="file"
                 accept=".json"
@@ -776,6 +805,14 @@ const LinkBlog = () => {
                 className="hidden"
               />
             </label>
+            <button
+              onClick={() => setShowBookmarkImporter(true)}
+              className="text-xs bg-indigo-100 text-indigo-800 px-2 py-1 rounded hover:bg-indigo-200"
+              title="Import browser bookmarks"
+            >
+              <FileText size={12} className="inline mr-1" />
+              Import Bookmarks
+            </button>
           </div>
         )}
         
@@ -1368,6 +1405,14 @@ const LinkBlog = () => {
             })
           )}
         </div>
+      )}
+      
+      {showBookmarkImporter && (
+        <BookmarkImporter
+          onImport={handleBookmarkImport}
+          existingLinks={links}
+          onClose={() => setShowBookmarkImporter(false)}
+        />
       )}
       </div>
     </div>

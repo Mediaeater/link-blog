@@ -1,0 +1,21 @@
+# Code Owners for Link Blog Repository
+# These owners will be automatically requested for review
+
+# Global owners
+* @Mediaeater
+
+# Core components
+/src/components/LinkBlog.jsx @Mediaeater
+/src/components/BookmarkImporter.jsx @Mediaeater
+
+# Data and configuration
+/data/ @Mediaeater
+*.json @Mediaeater
+
+# Scripts and automation
+/scripts/ @Mediaeater
+/.github/ @Mediaeater
+
+# Documentation
+*.md @Mediaeater
+/docs/ @Mediaeater
