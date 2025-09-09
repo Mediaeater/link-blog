@@ -1,18 +1,41 @@
 {
+  "lastUpdated": "2025-09-08T21:40:46.946Z",
   "links": [
     {
-      "url": "https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&reflink=desktopwebshare_permalink",
-      "source": "OpenAI Backs AI-Made Animated Feature Film",
-      "pullQuote": "The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the voices of the characters will be made in the next few weeks. \n\nIt is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said.",
+      "url": "https://community.spotify.com/t5/Content-Questions/How-can-I-disable-PFC-AI-generated-content/td-p/6956494",
+      "source": "How can I disable PFC (AI generated content)?",
+      "pullQuote": "",
       "tags": [
-        "ai",
-        "openai",
-        "hollywood-ai",
-        "animation"
+        "spotify",
+        "music"
       ],
       "isPinned": true,
-      "id": 1757335344138,
-      "timestamp": "2025-09-08T12:42:24.138Z",
+      "id": 1757367362331,
+      "timestamp": "2025-09-08T21:38:27.775Z",
+      "visits": 0
+    },
+    {
+      "url": "https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised",
+      "source": "npm debug and chalk packages compromised",
+      "tags": [
+        "malware",
+        "llm",
+        "npm"
+      ],
+      "isPinned": false,
+      "pullQuote": "Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages,",
+      "id": 1757367646946,
+      "timestamp": "2025-09-08T21:40:46.946Z",
+      "visits": 0
+    },
+    {
+      "url": "https://lobste.rs/active",
+      "source": "Active Discussions | Lobsters",
+      "pullQuote": "",
+      "tags": [],
+      "isPinned": false,
+      "id": 1757364929666,
+      "timestamp": "2025-09-08T20:55:29.666Z",
       "visits": 0
     },
     {
@@ -30,6 +53,21 @@
       "timestamp": "2025-09-08T18:28:59.254Z",
       "visits": 0,
       "pullQuote": ""
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&reflink=desktopwebshare_permalink",
+      "source": "OpenAI Backs AI-Made Animated Feature Film",
+      "pullQuote": "The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the voices of the characters will be made in the next few weeks. \n\nIt is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said.",
+      "tags": [
+        "ai",
+        "openai",
+        "hollywood-ai",
+        "animation"
+      ],
+      "isPinned": false,
+      "id": 1757335344138,
+      "timestamp": "2025-09-08T12:42:24.138Z",
+      "visits": 0
     },
     {
       "url": "https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce",
@@ -229,5 +267,5 @@
       "timestamp": "2025-09-05T09:00:00.000Z"
     }
   ],
-  "lastUpdated": "2025-09-08T18:29:24.691Z"
+  "version": "1.0"
 }
