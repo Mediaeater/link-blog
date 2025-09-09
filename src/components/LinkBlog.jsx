@@ -549,10 +549,9 @@ const LinkBlog = () => {
   };
   
   const handleBookmarkImport = useCallback((importedLinks) => {
-    setLinks(importedLinks);
-    saveLinks(importedLinks);
+    saveToFile(importedLinks);
     setShowBookmarkImporter(false);
-  }, []);
+  }, [saveToFile]);
   
   const trackLinkVisit = useCallback(async (linkId) => {
     if (!isAdmin) return;
