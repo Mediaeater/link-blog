@@ -1,17 +1,49 @@
 {
-  "lastUpdated": "2025-09-08T21:40:46.946Z",
+  "lastUpdated": "2025-09-09T12:24:47.354Z",
   "links": [
+    {
+      "url": "https://github.com/getzep/graphiti",
+      "source": "GitHub - getzep/graphiti: Build Real-Time Knowledge Graphs for AI Agents",
+      "pullQuote": "Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environments. Unlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph.",
+      "tags": [
+        "code",
+        "github",
+        "open-source",
+        "agent",
+        "knowledge-graph"
+      ],
+      "isPinned": false,
+      "id": 1757420687354,
+      "timestamp": "2025-09-09T12:24:47.354Z",
+      "visits": 0
+    },
+    {
+      "url": "https://www.reddit.com/r/truespotify/comments/1n5yod7/new_spotify_feature_is_doxxing/",
+      "source": "New Spotify feature is doxxing",
+      "tags": [
+        "reddit",
+        "spotify",
+        "privacy",
+        "music"
+      ],
+      "isPinned": false,
+      "pullQuote": "\"I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of “suggested friends”, most I recognized, but a few I couldn’t place. Based on the music shared (it shows every single link you’ve ever sent that someone has opened, as long as they have a Spotify account), I realized some of these were people I know from Discord.\"",
+      "id": 1757418298444,
+      "timestamp": "2025-09-09T11:44:58.444Z",
+      "visits": 0
+    },
     {
       "url": "https://community.spotify.com/t5/Content-Questions/How-can-I-disable-PFC-AI-generated-content/td-p/6956494",
       "source": "How can I disable PFC (AI generated content)?",
-      "pullQuote": "",
+      "pullQuote": "Thanks for posting in the Spotify Community, and welcome!\nUnfortunately, there isn’t a currently a way to prevent AI-generated \"music\" from showing up in playlists, such as those that are Made for you by Spotify.",
       "tags": [
         "spotify",
-        "music"
+        "music",
+        "ai-backlash"
       ],
-      "isPinned": true,
+      "isPinned": false,
       "id": 1757367362331,
-      "timestamp": "2025-09-08T21:38:27.775Z",
+      "timestamp": "2025-09-09T11:38:00.730Z",
       "visits": 0
     },
     {
