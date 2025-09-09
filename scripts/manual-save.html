@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manual Save Links</title>
+    <style>
+        body { font-family: monospace; padding: 20px; max-width: 800px; margin: 0 auto; }
+        button { padding: 10px 20px; font-size: 16px; margin: 10px; cursor: pointer; }
+        #status { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Manual Save Links to Server</h1>
+    <p>This page will save your localStorage data to the JSON files.</p>
+    
+    <button onclick="saveLinks()">Save Links to Server</button>
+    <button onclick="showData()">Show Current Data</button>
+    
+    <div id="status"></div>
+    <pre id="data"></pre>
+    
+    <script>
+        async function saveLinks() {
+            const status = document.getElementById('status');
+            
+            try {
+                // Get data from localStorage
+                const data = localStorage.getItem('linkBlogData');
+                if (!data) {
+                    status.innerHTML = '<span class="error">No data in localStorage!</span>';
+                    return;
+                }
+                
+                const parsed = JSON.parse(data);
+                status.innerHTML = `Found ${parsed.links?.length || 0} links. Saving...`;
+                
+                // Send to API
+                const response = await fetch('http://localhost:3001/api/save-links', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: data
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    status.innerHTML = `<span class="success">✅ Successfully saved ${result.count} links!</span><br>
+                    Now run in terminal:<br>
+                    <code>git add . && git commit -m "Update links" && git push && npm run deploy</code>`;
+                } else {
+                    status.innerHTML = `<span class="error">Error: ${result.message}</span>`;
+                }
+            } catch (error) {
+                status.innerHTML = `<span class="error">Error: ${error.message}</span>`;
+            }
+        }
+        
+        function showData() {
+            const data = localStorage.getItem('linkBlogData');
+            if (data) {
+                const parsed = JSON.parse(data);
+                document.getElementById('data').textContent = JSON.stringify(parsed, null, 2);
+            } else {
+                document.getElementById('data').textContent = 'No data in localStorage';
+            }
+        }
+    </script>
+</body>
+</html>

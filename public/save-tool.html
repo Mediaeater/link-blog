@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Save Links Tool</title>
+    <style>
+        body { font-family: monospace; padding: 20px; max-width: 800px; margin: 0 auto; background: #f5f5f5; }
+        .container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        button { padding: 10px 20px; font-size: 16px; margin: 10px; cursor: pointer; background: #4CAF50; color: white; border: none; border-radius: 4px; }
+        button:hover { background: #45a049; }
+        #status { margin: 20px 0; padding: 15px; border-radius: 4px; background: #f0f0f0; }
+        .success { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
+        code { background: #e0e0e0; padding: 2px 5px; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 Save Links Tool</h1>
+        <p>Use this tool to manually save your localStorage links to the server.</p>
+        
+        <button onclick="saveLinks()">💾 Save Links to Server</button>
+        <button onclick="showData()">👁️ Show Current Data</button>
+        <button onclick="location.href='/'">🏠 Back to Link Blog</button>
+        
+        <div id="status"></div>
+        <pre id="data"></pre>
+    </div>
+    
+    <script>
+        async function saveLinks() {
+            const status = document.getElementById('status');
+            
+            try {
+                // Get data from localStorage
+                const data = localStorage.getItem('linkBlogData');
+                if (!data) {
+                    status.innerHTML = '<span class="error">❌ No data in localStorage!</span><br>Make sure you have links saved in your Link Blog.';
+                    return;
+                }
+                
+                const parsed = JSON.parse(data);
+                const linkCount = parsed.links?.length || 0;
+                status.innerHTML = `📊 Found ${linkCount} links. Saving to server...`;
+                
+                // Send to API
+                const response = await fetch('http://localhost:3001/api/save-links', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: data
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok) {
+                    // Show first few links for confirmation
+                    const firstLinks = parsed.links.slice(0, 3).map(l => l.source).join('<br>• ');
+                    
+                    status.innerHTML = `
+                        <span class="success">✅ Successfully saved ${result.count} links to JSON files!</span><br><br>
+                        <strong>First few links:</strong><br>• ${firstLinks}<br><br>
+                        <strong>Next steps:</strong><br>
+                        Run these commands in terminal:<br>
+                        <code>git add .</code><br>
+                        <code>git commit -m "Update links - ${new Date().toLocaleDateString()}"</code><br>
+                        <code>git push</code><br>
+                        <code>npm run deploy</code>
+                    `;
+                } else {
+                    status.innerHTML = `<span class="error">❌ Error: ${result.message}</span>`;
+                }
+            } catch (error) {
+                status.innerHTML = `<span class="error">❌ Error: ${error.message}</span><br>
+                Make sure the API server is running with: <code>npm run dev:save</code>`;
+            }
+        }
+        
+        function showData() {
+            const dataEl = document.getElementById('data');
+            const statusEl = document.getElementById('status');
+            const data = localStorage.getItem('linkBlogData');
+            
+            if (data) {
+                const parsed = JSON.parse(data);
+                statusEl.innerHTML = `📊 Showing ${parsed.links?.length || 0} links from localStorage:`;
+                
+                // Show summary instead of full JSON
+                const summary = parsed.links.slice(0, 10).map((link, i) => 
+                    `${i + 1}. ${link.source}\n   URL: ${link.url}\n   Tags: ${link.tags.join(', ') || 'none'}`
+                ).join('\n\n');
+                
+                dataEl.textContent = summary + (parsed.links.length > 10 ? '\n\n... and ' + (parsed.links.length - 10) + ' more' : '');
+            } else {
+                statusEl.innerHTML = '<span class="error">No data in localStorage</span>';
+                dataEl.textContent = '';
+            }
+        }
+        
+        // Auto-check on load
+        window.onload = () => {
+            const data = localStorage.getItem('linkBlogData');
+            if (data) {
+                const parsed = JSON.parse(data);
+                document.getElementById('status').innerHTML = `💡 Ready to save ${parsed.links?.length || 0} links from localStorage`;
+            }
+        };
+    </script>
+</body>
+</html>
