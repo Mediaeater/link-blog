@@ -1,5 +1,59 @@
 {
+  "lastUpdated": "2025-09-08T21:40:46.946Z",
   "links": [
+    {
+      "url": "https://community.spotify.com/t5/Content-Questions/How-can-I-disable-PFC-AI-generated-content/td-p/6956494",
+      "source": "How can I disable PFC (AI generated content)?",
+      "pullQuote": "",
+      "tags": [
+        "spotify",
+        "music"
+      ],
+      "isPinned": true,
+      "id": 1757367362331,
+      "timestamp": "2025-09-08T21:38:27.775Z",
+      "visits": 0
+    },
+    {
+      "url": "https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised",
+      "source": "npm debug and chalk packages compromised",
+      "tags": [
+        "malware",
+        "llm",
+        "npm"
+      ],
+      "isPinned": false,
+      "pullQuote": "Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages,",
+      "id": 1757367646946,
+      "timestamp": "2025-09-08T21:40:46.946Z",
+      "visits": 0
+    },
+    {
+      "url": "https://lobste.rs/active",
+      "source": "Active Discussions | Lobsters",
+      "pullQuote": "",
+      "tags": [],
+      "isPinned": false,
+      "id": 1757364929666,
+      "timestamp": "2025-09-08T20:55:29.666Z",
+      "visits": 0
+    },
+    {
+      "url": "https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/",
+      "source": "C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well.",
+      "tags": [
+        "surveillance",
+        "harms",
+        "ai",
+        "c3ai",
+        "tom_siebel"
+      ],
+      "isPinned": false,
+      "id": 1757344635340.094,
+      "timestamp": "2025-09-08T18:28:59.254Z",
+      "visits": 0,
+      "pullQuote": ""
+    },
     {
       "url": "https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&reflink=desktopwebshare_permalink",
       "source": "OpenAI Backs AI-Made Animated Feature Film",
@@ -10,7 +64,7 @@
         "hollywood-ai",
         "animation"
       ],
-      "isPinned": true,
+      "isPinned": false,
       "id": 1757335344138,
       "timestamp": "2025-09-08T12:42:24.138Z",
       "visits": 0
@@ -94,21 +148,6 @@
       "visits": 0
     },
     {
-      "url": "https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/",
-      "source": "Billionaire Tom Siebel’s C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well.",
-      "tags": [
-        "surveillance",
-        "harms",
-        "ai",
-        "c3ai",
-        "tom_siebel"
-      ],
-      "isPinned": false,
-      "id": 1757203005480,
-      "timestamp": "2025-09-06T23:56:45.480Z",
-      "visits": 0
-    },
-    {
       "url": "https://simonwillison.net/2025/Sep/6/research-goblin/",
       "source": "GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search",
       "tags": [
@@ -170,6 +209,18 @@
       "timestamp": "2025-09-05T11:00:00.000Z"
     },
     {
+      "id": 1757344635340.7896,
+      "url": "https://dspy.ai/",
+      "source": "Programming—not prompting—LMs",
+      "tags": [
+        "llm",
+        "agent",
+        "dspy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-05T11:00:00.000Z"
+    },
+    {
       "id": 1725540002,
       "url": "https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html",
       "source": "They're Famous. They're Everywhere. And They're Fake",
@@ -204,7 +255,7 @@
       "timestamp": "2025-09-05T09:30:00.000Z"
     },
     {
-      "id": 1725540005,
+      "id": 1757344635340.3992,
       "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
       "source": "Apertus: Switzerland's First Open Multilingual LLM (EPFL/ETH/CSCS)",
       "tags": [
@@ -216,5 +267,5 @@
       "timestamp": "2025-09-05T09:00:00.000Z"
     }
   ],
-  "lastUpdated": "2025-09-08T12:42:24.139Z"
+  "version": "1.0"
 }
