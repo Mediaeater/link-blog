@@ -31,3 +31,11 @@ README.md
 .env.local
 .env.production
 .env.development
+
+# Test files
+test-*.html
+test-bookmarks.html
+
+# Temporary dev scripts (uncomment if you want to keep them)
+# scripts/dev-with-save.cjs
+# scripts/sync-from-browser.js
