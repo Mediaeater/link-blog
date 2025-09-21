@@ -275,6 +275,22 @@ const LinkBlog = () => {
     }
   }, []);
 
+  const trackLinkVisit = useCallback(async (linkId) => {
+    if (!isAdmin) return;
+
+    const updatedLinks = links.map(link =>
+      link.id === linkId
+        ? { ...link, visits: (link.visits || 0) + 1, lastVisited: new Date().toISOString() }
+        : link
+    );
+    try {
+      await saveToFile(updatedLinks);
+    } catch (error) {
+      console.error('Failed to track link visit:', error);
+      // Don't show alert for visit tracking failures as it would be annoying
+    }
+  }, [isAdmin, links, saveToFile]);
+
   // Memoize the keyboard handler to avoid creating new function on every render
   const handleKeyDown = useCallback((e) => {
     // Don't handle shortcuts when user is typing in form fields
@@ -552,21 +568,6 @@ const LinkBlog = () => {
     setShowBookmarkImporter(false);
   }, [saveToFile]);
   
-  const trackLinkVisit = useCallback(async (linkId) => {
-    if (!isAdmin) return;
-    
-    const updatedLinks = links.map(link => 
-      link.id === linkId 
-        ? { ...link, visits: (link.visits || 0) + 1, lastVisited: new Date().toISOString() }
-        : link
-    );
-    try {
-      await saveToFile(updatedLinks);
-    } catch (error) {
-      console.error('Failed to track link visit:', error);
-      // Don't show alert for visit tracking failures as it would be annoying
-    }
-  }, [isAdmin, links, saveToFile]);
 
   const formatDate = (dateString, includeTime = false) => {
     if (!dateString) return '';
