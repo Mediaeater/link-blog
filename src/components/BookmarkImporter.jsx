@@ -1,22 +1,20 @@
 import { useState, useCallback } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Button } from './ui/button';
-import { 
-  Upload, 
-  FileText, 
-  Folder, 
-  AlertTriangle, 
-  Check, 
-  X, 
+import {
+  Upload,
+  FileText,
+  Folder,
+  AlertTriangle,
+  Check,
+  X,
   ChevronRight,
   ChevronDown,
   Package,
-  Eye,
   FileWarning,
-  Hash
+  Info
 } from 'lucide-react';
 import {
-  parseBookmarkHTML,
   previewBookmarks,
   importFilteredBookmarks,
   analyzeDuplicates,
@@ -89,7 +87,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
     if (select) {
       // Select all non-warning folders
       const allPaths = Object.entries(preview.folders)
-        .filter(([_, folder]) => !folder.hasPrivateUrls)
+        .filter(([, folder]) => !folder.hasPrivateUrls)
         .map(([path]) => path);
       setSelectedFolders(new Set(allPaths));
     } else {

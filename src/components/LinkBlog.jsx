@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Moon, Sun, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Clock, Info, FileText } from 'lucide-react';
+import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Info, FileText } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 import BookmarkImporter from './BookmarkImporter';
 
@@ -122,7 +122,6 @@ const LinkBlog = () => {
       
       // Always fetch JSON file first to check for updates
       let jsonData = null;
-      let useJsonData = false;
       
       try {
         const basePath = import.meta.env.BASE_URL || '/';
@@ -133,7 +132,7 @@ const LinkBlog = () => {
         if (response.ok) {
           jsonData = await response.json();
           console.log("Fetched JSON file:", jsonData);
-          useJsonData = true; // Default to using JSON data
+          // Default to using JSON data
         }
       } catch (fetchError) {
         console.warn('Failed to fetch JSON file:', fetchError);
@@ -342,7 +341,7 @@ const LinkBlog = () => {
         }
       }
     }
-  }, [isAdmin, focusedLinkIndex, showQuickAdd]);
+  }, [isAdmin, focusedLinkIndex, showQuickAdd, filteredAndSortedLinks, trackLinkVisit]);
 
   useEffect(() => {
     loadLinks();
@@ -1311,7 +1310,7 @@ const LinkBlog = () => {
                             {link.pullQuote && (
                               <div className="my-3 p-3 border-l-4 border-blue-500 bg-blue-50">
                                 <blockquote className="text-sm italic text-gray-700">
-                                  "{link.pullQuote}"
+                                  &quot;{link.pullQuote}&quot;
                                 </blockquote>
                               </div>
                             )}

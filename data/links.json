@@ -1,6 +1,36 @@
 {
-  "lastUpdated": "2025-09-21T10:03:37.825Z",
+  "lastUpdated": "2025-09-21T10:36:40.932Z",
   "links": [
+    {
+      "url": "https://archive.is/2uVSl",
+      "source": "Artificial intelligence ushers in a golden age of hacking, experts say",
+      "pullQuote": "In many cases, the new techniques are stunningly powerful. On a recent assignment to test defenses, Dave Brauchler of the cybersecurity company NCC Group tricked a client’s AI program-writing assistant into executing programs that forked over the company’s databases and code repositories.\n“We have never been this foolish with security,” Brauchler said.",
+      "tags": [
+        "ai",
+        "security",
+        "important",
+        "opsec",
+        "ai-security"
+      ],
+      "isPinned": false,
+      "id": 1758451000932,
+      "timestamp": "2025-09-21T10:36:40.932Z",
+      "visits": 0
+    },
+    {
+      "url": "https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html",
+      "source": "TV Time Machine: A Raspberry Pi That Plays Random 90s TV",
+      "pullQuote": " Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup",
+      "tags": [
+        " tv",
+        "raspi",
+        "playlist"
+      ],
+      "isPinned": false,
+      "id": 1758450291142,
+      "timestamp": "2025-09-21T10:24:51.142Z",
+      "visits": 0
+    },
     {
       "url": "https://underpassapp.com/news/2025/9/8.html",
       "source": "macOS becomes iOS: Safari video controls",
