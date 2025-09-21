@@ -16,6 +16,7 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+**/.DS_Store
 .DS_Store
 *.suo
 *.ntvs*
@@ -35,6 +36,15 @@ README.md
 # Test files
 test-*.html
 test-bookmarks.html
+
+# Backup and temporary files
+*.bak
+*~
+*.swp
+*.tmp
+project-structure*.txt
+data/*export*.json
+data/*backup*.json
 
 # Temporary dev scripts (uncomment if you want to keep them)
 # scripts/dev-with-save.cjs
