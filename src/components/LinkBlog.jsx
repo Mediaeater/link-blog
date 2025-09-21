@@ -295,15 +295,20 @@ const LinkBlog = () => {
   const handleKeyDown = useCallback((e) => {
     // Don't handle shortcuts when user is typing in form fields
     const isTyping = e.target.matches('input, textarea, [contenteditable]');
-    
-    // Cmd/Ctrl+K to focus search (works everywhere)
+
+    // Always return early if typing - don't process any other keys
+    if (isTyping && !((e.metaKey || e.ctrlKey) && e.key === 'k')) {
+      return; // Let the input handle the key normally
+    }
+
+    // Cmd/Ctrl+K to focus search (works everywhere, even when typing)
     if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
       e.preventDefault();
       searchRef.current?.focus();
       searchRef.current?.select();
       return;
     }
-    
+
     // Cmd/Ctrl+V to focus quick paste area (only when not typing)
     if ((e.metaKey || e.ctrlKey) && e.key === 'v' && isAdmin && !isTyping) {
       e.preventDefault();
@@ -311,7 +316,7 @@ const LinkBlog = () => {
       setTimeout(() => quickPasteRef.current?.focus(), 100);
       return;
     }
-    
+
     // Escape to clear focus or close quick add
     if (e.key === 'Escape') {
       if (showQuickAdd) {
@@ -323,7 +328,7 @@ const LinkBlog = () => {
       }
       return;
     }
-    
+
     // J/K navigation when not in input fields
     if (!isTyping) {
       if (e.key === 'j' || e.key === 'J') {
@@ -962,7 +967,11 @@ const LinkBlog = () => {
                   {selectedTags.map(tag => (
                     <button
                       key={tag}
-                      onClick={() => toggleTagFilter(tag)}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        toggleTagFilter(tag);
+                      }}
                       className="bg-blue-500 text-white text-xs px-2 py-1 rounded-full flex items-center gap-1 hover:bg-blue-600"
                     >
                       {tag}
@@ -982,7 +991,11 @@ const LinkBlog = () => {
                 return (
                   <button
                     key={tag}
-                    onClick={() => toggleTagFilter(tag)}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      toggleTagFilter(tag);
+                    }}
                     className={`px-2 py-1 text-xs rounded-full border transition-all hover:scale-105 ${
                       isSelected
                         ? 'bg-blue-500 text-white border-blue-500'
@@ -1092,7 +1105,13 @@ const LinkBlog = () => {
                     placeholder="Add tag"
                     value={currentTag}
                     onChange={(e) => setCurrentTag(e.target.value)}
-                    onKeyDown={(e) => e.key === 'Enter' && (e.preventDefault(), addTag())}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        addTag();
+                      }
+                    }}
                     className="flex-1"
                     list="existing-tags"
                   />
@@ -1349,7 +1368,11 @@ const LinkBlog = () => {
                             {link.tags.map((tag, tagIndex) => (
                               <button
                                 key={tagIndex}
-                                onClick={() => toggleTagFilter(tag)}
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  e.stopPropagation();
+                                  toggleTagFilter(tag);
+                                }}
                                 className={`text-xs px-2 py-1 rounded-full flex items-center gap-1 transition-all hover:scale-105 ${
                                   selectedTags.includes(tag)
                                     ? 'bg-blue-500 text-white'
