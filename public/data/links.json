@@ -107,14 +107,14 @@
     {
       "url": "https://thebulletin.org/2025/08/how-ai-and-surveillance-capitalism-are-undermining-democracy/",
       "source": "How AI and surveillance capitalism are undermining democracy",
-      "pullQuote": "eople may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.",
+      "pullQuote": "People may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.",
       "tags": [
         "surveillance",
         "ai"
       ],
       "isPinned": false,
       "id": 1758419073450,
-      "timestamp": "2025-09-21T01:44:33.450Z",
+      "timestamp": "2025-09-21T13:42:56.559Z",
       "visits": 0
     },
     {
@@ -355,18 +355,6 @@
       "timestamp": "2025-09-05T11:00:00.000Z"
     },
     {
-      "id": 1757344635340.7896,
-      "url": "https://dspy.ai/",
-      "source": "Programming—not prompting—LMs",
-      "tags": [
-        "llm",
-        "agent",
-        "dspy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-05T11:00:00.000Z"
-    },
-    {
       "id": 1725540002,
       "url": "https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html",
       "source": "They're Famous. They're Everywhere. And They're Fake",
@@ -411,7 +399,21 @@
       ],
       "isPinned": false,
       "timestamp": "2025-09-05T09:00:00.000Z"
+    },
+    {
+      "id": 1758462039121,
+      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
+      "source": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
+      "pullQuote": "We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "harms",
+        "ai"
+      ],
+      "timestamp": "2025-09-21T13:40:39.121Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-21T13:35:04.343Z"
+  "lastUpdated": "2025-09-21T13:42:56.559Z"
 }

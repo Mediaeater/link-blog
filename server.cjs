@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs').promises;
 const path = require('path');
 const cors = require('cors');
+const { generateRSS } = require('./utils/rss-generator.cjs');
 
 const app = express();
 const PORT = 3001;
@@ -64,15 +65,54 @@ app.get('/api/links', async (req, res) => {
   }
 });
 
+// RSS Feed endpoints
+app.get('/feed.xml', async (req, res) => {
+  try {
+    const feeds = await generateRSS();
+    res.set('Content-Type', 'application/rss+xml; charset=utf-8');
+    res.send(feeds.rss);
+  } catch (error) {
+    console.error('Error generating RSS feed:', error);
+    res.status(500).send('Error generating RSS feed');
+  }
+});
+
+app.get('/atom.xml', async (req, res) => {
+  try {
+    const feeds = await generateRSS();
+    res.set('Content-Type', 'application/atom+xml; charset=utf-8');
+    res.send(feeds.atom);
+  } catch (error) {
+    console.error('Error generating Atom feed:', error);
+    res.status(500).send('Error generating Atom feed');
+  }
+});
+
+app.get('/feed.json', async (req, res) => {
+  try {
+    const feeds = await generateRSS();
+    res.set('Content-Type', 'application/feed+json; charset=utf-8');
+    res.send(feeds.json);
+  } catch (error) {
+    console.error('Error generating JSON feed:', error);
+    res.status(500).send('Error generating JSON feed');
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`
 🚀 Link Blog API Server running on http://localhost:${PORT}
-   
+
    This server handles saving your links to the JSON files.
    Keep this running alongside your Vite dev server.
-   
+
    Endpoints:
    - POST /api/save-links - Save links to JSON files
    - GET  /api/links      - Get current links
+
+   RSS Feed endpoints:
+   - GET  /feed.xml       - RSS 2.0 feed
+   - GET  /atom.xml       - Atom feed
+   - GET  /feed.json      - JSON feed
   `);
 });
