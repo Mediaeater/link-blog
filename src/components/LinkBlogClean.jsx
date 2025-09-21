@@ -1,0 +1,576 @@
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import {
+  Search,
+  Plus,
+  X,
+  ExternalLink,
+  Tag as TagIcon,
+  Pin,
+  Edit2,
+  Trash2,
+  Download,
+  Upload,
+  ChevronDown,
+  ChevronUp,
+  Copy,
+  Check,
+  Filter
+} from 'lucide-react';
+import { suggestTagsFromUrl } from '../utils/tagSuggestions';
+
+const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
+const STORAGE_KEY = 'linkBlogData';
+const MAX_TITLE_LENGTH = 120;
+
+const SORT_OPTIONS = {
+  DATE_DESC: 'date-desc',
+  DATE_ASC: 'date-asc',
+  TITLE: 'title',
+};
+
+export default function LinkBlogClean() {
+  const [links, setLinks] = useState([]);
+  const [newLink, setNewLink] = useState({ url: '', source: '', pullQuote: '', tags: [] });
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedTags, setSelectedTags] = useState([]);
+  const [sortBy, setSortBy] = useState(SORT_OPTIONS.DATE_DESC);
+  const [expandedLinks, setExpandedLinks] = useState(new Set());
+  const [editingLink, setEditingLink] = useState(null);
+  const [showQuickAdd, setShowQuickAdd] = useState(false);
+  const [quickAddUrls, setQuickAddUrls] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [copiedLinkId, setCopiedLinkId] = useState(null);
+  const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
+
+  const searchRef = useRef(null);
+  const quickPasteRef = useRef(null);
+  const linkRefs = useRef({});
+
+  // Load links from storage
+  const loadLinks = useCallback(async () => {
+    try {
+      // Try to load from JSON first
+      const response = await fetch('/data/links.json?t=' + Date.now());
+      if (response.ok) {
+        const jsonData = await response.json();
+
+        // Also check localStorage
+        const stored = localStorage.getItem(STORAGE_KEY);
+        let localData = null;
+        if (stored) {
+          localData = JSON.parse(stored);
+        }
+
+        // Use the most recent data
+        if (localData && localData.lastUpdated && jsonData.lastUpdated) {
+          const jsonTime = new Date(jsonData.lastUpdated).getTime();
+          const localTime = new Date(localData.lastUpdated).getTime();
+
+          if (localTime > jsonTime) {
+            setLinks(localData.links || []);
+          } else {
+            setLinks(jsonData.links || []);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+          }
+        } else {
+          setLinks(jsonData.links || []);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+        }
+        return;
+      }
+    } catch (error) {
+      console.warn('Could not load from JSON, falling back to localStorage:', error);
+    }
+
+    // Fallback to localStorage
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored) {
+      const data = JSON.parse(stored);
+      setLinks(data.links || []);
+    }
+  }, []);
+
+  // Save to file
+  const saveToFile = useCallback(async (updatedLinks) => {
+    const data = {
+      links: updatedLinks,
+      lastUpdated: new Date().toISOString()
+    };
+
+    // Save to localStorage first
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+
+    // Then try to save to file
+    try {
+      const response = await fetch('http://localhost:3001/api/save-links', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to save to server');
+      }
+    } catch (error) {
+      console.error('Could not save to server:', error);
+      alert('Changes saved locally. Server save failed.');
+      throw error;
+    }
+  }, []);
+
+  // Initialize
+  useEffect(() => {
+    loadLinks();
+    const urlParams = new URLSearchParams(window.location.search);
+    setIsAdmin(urlParams.get('admin') === ADMIN_USER);
+  }, [loadLinks]);
+
+  // Fetch URL metadata
+  const fetchUrlMetadata = async (url) => {
+    try {
+      const response = await fetch(`https://api.microlink.io/?url=${encodeURIComponent(url)}`);
+      if (!response.ok) throw new Error('Failed to fetch metadata');
+      const data = await response.json();
+
+      if (data.status === 'success') {
+        return {
+          title: data.data.title || '',
+          description: data.data.description || '',
+          image: data.data.image?.url || '',
+          favicon: data.data.logo?.url || ''
+        };
+      }
+    } catch (error) {
+      console.error('Error fetching metadata:', error);
+    }
+
+    // Fallback
+    const domain = new URL(url).hostname.replace('www.', '');
+    return { title: domain, description: '', image: '', favicon: '' };
+  };
+
+  // Add link
+  const addLink = async () => {
+    if (!newLink.url || !newLink.source) return;
+
+    const link = {
+      id: Date.now(),
+      ...newLink,
+      timestamp: new Date().toISOString(),
+      visits: 0
+    };
+
+    const updatedLinks = [link, ...links];
+    setLinks(updatedLinks);
+    setNewLink({ url: '', source: '', pullQuote: '', tags: [] });
+
+    await saveToFile(updatedLinks);
+  };
+
+  // Delete link
+  const deleteLink = async (id) => {
+    if (!confirm('Delete this link?')) return;
+    const updatedLinks = links.filter(l => l.id !== id);
+    setLinks(updatedLinks);
+    await saveToFile(updatedLinks);
+  };
+
+  // Toggle pin
+  const togglePin = async (id) => {
+    const updatedLinks = links.map(link =>
+      link.id === id ? { ...link, isPinned: !link.isPinned } : link
+    );
+    setLinks(updatedLinks);
+    await saveToFile(updatedLinks);
+  };
+
+  // Process multiple URLs
+  const processUrlsFromPaste = useCallback(async (urls) => {
+    const urlList = urls.split('\n').map(url => url.trim()).filter(url => url);
+    const processed = [];
+
+    for (const url of urlList) {
+      const metadata = await fetchUrlMetadata(url);
+      const suggestedTags = suggestTagsFromUrl(url, metadata.title, metadata.description);
+
+      processed.push({
+        url,
+        source: metadata.title.slice(0, MAX_TITLE_LENGTH),
+        pullQuote: '',
+        tags: suggestedTags.slice(0, 5),
+        metadata
+      });
+    }
+
+    return processed;
+  }, []);
+
+  // Add quick links
+  const addQuickLinks = async () => {
+    if (!quickAddUrls.trim()) return;
+
+    setIsLoading(true);
+    try {
+      const linksToAdd = await processUrlsFromPaste(quickAddUrls);
+
+      const newLinks = linksToAdd.map(link => ({
+        id: Date.now() + Math.random(),
+        url: link.url,
+        source: link.source,
+        pullQuote: link.pullQuote || '',
+        tags: link.tags,
+        timestamp: new Date().toISOString(),
+        visits: 0
+      }));
+
+      const updatedLinks = [...newLinks, ...links];
+      setLinks(updatedLinks);
+      await saveToFile(updatedLinks);
+
+      setQuickAddUrls('');
+      setShowQuickAdd(false);
+    } catch (error) {
+      console.error('Failed to add links:', error);
+      alert('Failed to add some links');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Copy link
+  const copyLink = async (link) => {
+    try {
+      await navigator.clipboard.writeText(link.url);
+      setCopiedLinkId(link.id);
+      setTimeout(() => setCopiedLinkId(null), 2000);
+    } catch (error) {
+      console.error('Failed to copy:', error);
+    }
+  };
+
+  // Get all unique tags
+  const allTags = useMemo(() => {
+    const tagCounts = {};
+    links.forEach(link => {
+      (link.tags || []).forEach(tag => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+      });
+    });
+    return Object.entries(tagCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([tag, count]) => ({ tag, count }));
+  }, [links]);
+
+  // Filter and sort links
+  const filteredAndSortedLinks = useMemo(() => {
+    let filtered = links;
+
+    // Search filter
+    if (searchTerm) {
+      const term = searchTerm.toLowerCase();
+      filtered = filtered.filter(link =>
+        link.source.toLowerCase().includes(term) ||
+        link.url.toLowerCase().includes(term) ||
+        (link.pullQuote && link.pullQuote.toLowerCase().includes(term)) ||
+        (link.tags && link.tags.some(tag => tag.toLowerCase().includes(term)))
+      );
+    }
+
+    // Tag filter
+    if (selectedTags.length > 0) {
+      filtered = filtered.filter(link =>
+        link.tags && selectedTags.every(tag => link.tags.includes(tag))
+      );
+    }
+
+    // Sort
+    return [...filtered].sort((a, b) => {
+      if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
+
+      switch (sortBy) {
+        case SORT_OPTIONS.DATE_ASC:
+          return new Date(a.timestamp || 0) - new Date(b.timestamp || 0);
+        case SORT_OPTIONS.TITLE:
+          return a.source.localeCompare(b.source);
+        case SORT_OPTIONS.DATE_DESC:
+        default:
+          return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
+      }
+    });
+  }, [links, searchTerm, selectedTags, sortBy]);
+
+  return (
+    <div className="min-h-screen bg-neutral-50">
+      {/* Header */}
+      <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-sm border-b border-neutral-200">
+        <div className="container-width">
+          <div className="py-4 flex items-center justify-between gap-4">
+            {/* Logo/Title */}
+            <h1 className="text-xl font-semibold">newsfeeds.net</h1>
+
+            {/* Search */}
+            <div className="flex-1 max-w-2xl">
+              <div className="relative">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
+                <input
+                  ref={searchRef}
+                  type="text"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  placeholder="Search links..."
+                  className="input w-full pl-10"
+                />
+                {searchTerm && (
+                  <button
+                    onClick={() => setSearchTerm('')}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Actions */}
+            <div className="flex items-center gap-2">
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="input text-sm"
+              >
+                <option value={SORT_OPTIONS.DATE_DESC}>Newest</option>
+                <option value={SORT_OPTIONS.DATE_ASC}>Oldest</option>
+                <option value={SORT_OPTIONS.TITLE}>Title</option>
+              </select>
+
+              {isAdmin && (
+                <button
+                  onClick={() => setShowQuickAdd(!showQuickAdd)}
+                  className="btn btn-primary"
+                >
+                  <Plus className="w-4 h-4 mr-2" />
+                  Add Links
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Tag Filter */}
+          {allTags.length > 0 && (
+            <div className="pb-4 flex items-center gap-2 flex-wrap">
+              <span className="text-sm text-neutral-500">Filter:</span>
+              {allTags.slice(0, 20).map(({ tag, count }) => (
+                <button
+                  key={tag}
+                  onClick={() => {
+                    if (selectedTags.includes(tag)) {
+                      setSelectedTags(selectedTags.filter(t => t !== tag));
+                    } else {
+                      setSelectedTags([...selectedTags, tag]);
+                    }
+                  }}
+                  className={`tag ${
+                    selectedTags.includes(tag)
+                      ? 'bg-neutral-900 text-white hover:bg-neutral-800'
+                      : ''
+                  }`}
+                >
+                  {tag}
+                  <span className="ml-1 opacity-60">{count}</span>
+                </button>
+              ))}
+              {selectedTags.length > 0 && (
+                <button
+                  onClick={() => setSelectedTags([])}
+                  className="text-sm text-neutral-500 hover:text-neutral-700"
+                >
+                  Clear
+                </button>
+              )}
+            </div>
+          )}
+        </div>
+      </header>
+
+      {/* Quick Add Panel */}
+      {showQuickAdd && isAdmin && (
+        <div className="bg-white border-b border-neutral-200">
+          <div className="container-width py-6">
+            <div className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium mb-2">
+                  Add Multiple URLs (one per line)
+                </label>
+                <textarea
+                  ref={quickPasteRef}
+                  value={quickAddUrls}
+                  onChange={(e) => setQuickAddUrls(e.target.value)}
+                  placeholder="Paste URLs here..."
+                  className="input w-full h-32 font-mono text-sm"
+                />
+              </div>
+              <div className="flex gap-2">
+                <button
+                  onClick={addQuickLinks}
+                  disabled={!quickAddUrls.trim() || isLoading}
+                  className="btn btn-primary"
+                >
+                  {isLoading ? 'Processing...' : 'Add All Links'}
+                </button>
+                <button
+                  onClick={() => {
+                    setShowQuickAdd(false);
+                    setQuickAddUrls('');
+                  }}
+                  className="btn btn-secondary"
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Main Content */}
+      <main className="container-width section-y">
+        <div className="space-y-3">
+          {/* Stats */}
+          <div className="flex items-center justify-between text-sm text-neutral-500 mb-6">
+            <span>
+              {filteredAndSortedLinks.length} of {links.length} links
+            </span>
+            <span>
+              {selectedTags.length > 0 && `Filtered by: ${selectedTags.join(', ')}`}
+            </span>
+          </div>
+
+          {/* Links List */}
+          {filteredAndSortedLinks.length === 0 ? (
+            <div className="text-center py-16">
+              <p className="text-neutral-500">No links found</p>
+            </div>
+          ) : (
+            filteredAndSortedLinks.map((link, index) => (
+              <article
+                key={link.id}
+                ref={(el) => linkRefs.current[index] = el}
+                className={`link-card group ${
+                  focusedLinkIndex === index ? 'ring-2 ring-primary-500 ring-offset-2' : ''
+                }`}
+              >
+                <div className="flex gap-4">
+                  {/* Content */}
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-start gap-2">
+                      {link.isPinned && (
+                        <Pin className="w-4 h-4 text-neutral-400 mt-1 flex-shrink-0" />
+                      )}
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-medium text-neutral-900 truncate">
+                          <a
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-primary-600 transition-colors"
+                            onClick={() => {
+                              // Track visit if admin
+                              if (isAdmin) {
+                                const updatedLinks = links.map(l =>
+                                  l.id === link.id
+                                    ? { ...l, visits: (l.visits || 0) + 1 }
+                                    : l
+                                );
+                                setLinks(updatedLinks);
+                                saveToFile(updatedLinks);
+                              }
+                            }}
+                          >
+                            {link.source}
+                          </a>
+                        </h3>
+                        <p className="text-sm text-neutral-500 truncate">
+                          {new URL(link.url).hostname.replace('www.', '')}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Pull Quote */}
+                    {link.pullQuote && (
+                      <p className="mt-2 text-sm text-neutral-600 italic">
+                        "{link.pullQuote}"
+                      </p>
+                    )}
+
+                    {/* Tags */}
+                    {link.tags && link.tags.length > 0 && (
+                      <div className="mt-3 flex flex-wrap gap-1">
+                        {link.tags.map((tag) => (
+                          <button
+                            key={tag}
+                            onClick={() => {
+                              if (selectedTags.includes(tag)) {
+                                setSelectedTags(selectedTags.filter(t => t !== tag));
+                              } else {
+                                setSelectedTags([...selectedTags, tag]);
+                              }
+                            }}
+                            className="tag"
+                          >
+                            <TagIcon className="w-3 h-3 mr-1" />
+                            {tag}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+
+                    {/* Metadata */}
+                    <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">
+                      <span>{new Date(link.timestamp).toLocaleDateString()}</span>
+                      {link.visits > 0 && <span>{link.visits} visits</span>}
+                    </div>
+                  </div>
+
+                  {/* Actions */}
+                  <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <button
+                      onClick={() => copyLink(link)}
+                      className="btn-ghost p-2"
+                      title="Copy link"
+                    >
+                      {copiedLinkId === link.id ? (
+                        <Check className="w-4 h-4 text-success" />
+                      ) : (
+                        <Copy className="w-4 h-4" />
+                      )}
+                    </button>
+
+                    {isAdmin && (
+                      <>
+                        <button
+                          onClick={() => togglePin(link.id)}
+                          className="btn-ghost p-2"
+                          title="Pin link"
+                        >
+                          <Pin className={`w-4 h-4 ${link.isPinned ? 'fill-current' : ''}`} />
+                        </button>
+                        <button
+                          onClick={() => deleteLink(link.id)}
+                          className="btn-ghost p-2 text-error"
+                          title="Delete link"
+                        >
+                          <Trash2 className="w-4 h-4" />
+                        </button>
+                      </>
+                    )}
+                  </div>
+                </div>
+              </article>
+            ))
+          )}
+        </div>
+      </main>
+    </div>
+  );
+}

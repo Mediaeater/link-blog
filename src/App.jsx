@@ -1,10 +1,10 @@
-import LinkBlog from './components/LinkBlog'
+import LinkBlogClean from './components/LinkBlogClean'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <LinkBlog />
-    </div>
+    <>
+      <LinkBlogClean />
+    </>
   )
 }
 
