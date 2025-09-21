@@ -1,6 +1,18 @@
 {
-  "lastUpdated": "2025-09-21T10:36:40.932Z",
   "links": [
+    {
+      "id": 1758461704343.3533,
+      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
+      "source": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
+      "pullQuote": "",
+      "tags": [
+        "tools",
+        "useful",
+        "tutorial"
+      ],
+      "timestamp": "2025-09-21T13:35:04.343Z",
+      "visits": 0
+    },
     {
       "url": "https://archive.is/2uVSl",
       "source": "Artificial intelligence ushers in a golden age of hacking, experts say",
@@ -401,5 +413,5 @@
       "timestamp": "2025-09-05T09:00:00.000Z"
     }
   ],
-  "version": "1.0"
+  "lastUpdated": "2025-09-21T13:35:04.343Z"
 }

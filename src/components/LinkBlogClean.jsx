@@ -154,6 +154,11 @@ export default function LinkBlogClean() {
   const addLink = async () => {
     if (!newLink.url || !newLink.source) return;
 
+    if (newLink.source.length > MAX_TITLE_LENGTH) {
+      alert(`Title must be less than ${MAX_TITLE_LENGTH} characters`);
+      return;
+    }
+
     const link = {
       id: Date.now(),
       ...newLink,
@@ -161,12 +166,43 @@ export default function LinkBlogClean() {
       visits: 0
     };
 
-    const updatedLinks = [link, ...links];
-    setLinks(updatedLinks);
-    setNewLink({ url: '', source: '', pullQuote: '', tags: [] });
+    const updatedLinks = [...links, link];
 
-    await saveToFile(updatedLinks);
+    try {
+      await saveToFile(updatedLinks);
+      setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+      if (editingLink) {
+        setEditingLink(null);
+      }
+    } catch (error) {
+      console.error('Failed to add link:', error);
+    }
   };
+
+  // Update link
+  const updateLink = async () => {
+    if (!editingLink || !isAdmin) return;
+    const updatedLinks = links.map(link =>
+      link.id === editingLink.id ? { ...newLink, id: editingLink.id, timestamp: new Date().toISOString() } : link
+    );
+
+    try {
+      await saveToFile(updatedLinks);
+      setEditingLink(null);
+      setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+    } catch (error) {
+      console.error('Failed to update link:', error);
+    }
+  };
+
+  // Edit link
+  const editLink = useCallback((link) => {
+    if (!isAdmin) return;
+    setEditingLink(link);
+    setNewLink({ ...link, pullQuote: link.pullQuote || '' });
+    setShowQuickAdd(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [isAdmin]);
 
   // Delete link
   const deleteLink = async (id) => {
@@ -344,14 +380,10 @@ export default function LinkBlogClean() {
                 <option value={SORT_OPTIONS.TITLE}>Title</option>
               </select>
 
-              {isAdmin && (
-                <button
-                  onClick={() => setShowQuickAdd(!showQuickAdd)}
-                  className="btn btn-primary"
-                >
-                  <Plus className="w-4 h-4 mr-2" />
-                  Add Links
-                </button>
+              {!isAdmin && links.length === 0 && (
+                <div className="text-sm text-neutral-500">
+                  No links yet. Add ?admin=password to URL to manage.
+                </div>
               )}
             </div>
           </div>
@@ -393,42 +425,195 @@ export default function LinkBlogClean() {
         </div>
       </header>
 
-      {/* Quick Add Panel */}
-      {showQuickAdd && isAdmin && (
+      {/* Admin Panel */}
+      {isAdmin && (
         <div className="bg-white border-b border-neutral-200">
           <div className="container-width py-6">
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium mb-2">
-                  Add Multiple URLs (one per line)
-                </label>
-                <textarea
-                  ref={quickPasteRef}
-                  value={quickAddUrls}
-                  onChange={(e) => setQuickAddUrls(e.target.value)}
-                  placeholder="Paste URLs here..."
-                  className="input w-full h-32 font-mono text-sm"
-                />
-              </div>
-              <div className="flex gap-2">
-                <button
-                  onClick={addQuickLinks}
-                  disabled={!quickAddUrls.trim() || isLoading}
-                  className="btn btn-primary"
-                >
-                  {isLoading ? 'Processing...' : 'Add All Links'}
-                </button>
-                <button
-                  onClick={() => {
-                    setShowQuickAdd(false);
-                    setQuickAddUrls('');
-                  }}
-                  className="btn btn-secondary"
-                >
-                  Cancel
-                </button>
-              </div>
+            {/* Tab buttons */}
+            <div className="flex gap-2 mb-4">
+              <button
+                onClick={() => setShowQuickAdd(false)}
+                className={`btn btn-sm ${!showQuickAdd ? 'btn-primary' : 'btn-ghost'}`}
+              >
+                {editingLink ? <Edit2 className="w-4 h-4 mr-2" /> : <Plus className="w-4 h-4 mr-2" />}
+                {editingLink ? 'Edit Link' : 'Add Single Link'}
+              </button>
+              <button
+                onClick={() => {
+                  setShowQuickAdd(true);
+                  setEditingLink(null);
+                }}
+                className={`btn btn-sm ${showQuickAdd ? 'btn-primary' : 'btn-ghost'}`}
+              >
+                <Upload className="w-4 h-4 mr-2" />
+                Bulk Add URLs
+              </button>
             </div>
+
+            {/* Single Link Form */}
+            {!showQuickAdd && (
+              <div className="space-y-4">
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div>
+                    <label className="block text-sm font-medium mb-1">URL</label>
+                    <input
+                      type="url"
+                      placeholder="https://example.com"
+                      value={newLink.url}
+                      onChange={(e) => setNewLink({ ...newLink, url: e.target.value })}
+                      className="input w-full"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium mb-1">
+                      Title ({newLink.source.length}/{MAX_TITLE_LENGTH})
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Link title or description"
+                      value={newLink.source}
+                      onChange={(e) => setNewLink({ ...newLink, source: e.target.value })}
+                      maxLength={MAX_TITLE_LENGTH}
+                      className="input w-full"
+                    />
+                  </div>
+                </div>
+
+                {newLink.url && (!newLink.source || newLink.tags.length === 0) && (
+                  <button
+                    onClick={async () => {
+                      const metadata = await fetchUrlMetadata(newLink.url);
+                      const suggestedTags = suggestTagsFromUrl(newLink.url, metadata.title, metadata.description);
+                      setNewLink(prev => ({
+                        ...prev,
+                        source: prev.source || metadata.title.slice(0, MAX_TITLE_LENGTH),
+                        tags: prev.tags.length === 0 ? suggestedTags.slice(0, 5) : prev.tags
+                      }));
+                    }}
+                    className="btn btn-sm btn-secondary"
+                  >
+                    <ExternalLink className="w-3 h-3 mr-1" />
+                    Auto-fetch title & tags
+                  </button>
+                )}
+
+                <div>
+                  <label className="block text-sm font-medium mb-1">
+                    Pull Quote (optional)
+                  </label>
+                  <textarea
+                    placeholder="Interesting quote or note about this link..."
+                    value={newLink.pullQuote || ''}
+                    onChange={(e) => setNewLink({ ...newLink, pullQuote: e.target.value })}
+                    className="input w-full h-20"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium mb-1">
+                    Tags (comma separated)
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="tag1, tag2, tag3"
+                    value={newLink.tags ? newLink.tags.join(', ') : ''}
+                    onChange={(e) =>
+                      setNewLink({ ...newLink, tags: e.target.value.split(',').map(tag => tag.trim()).filter(Boolean) })
+                    }
+                    className="input w-full"
+                  />
+                  {allTags.length > 0 && (
+                    <div className="mt-2 flex flex-wrap gap-1">
+                      <span className="text-xs text-neutral-500">Popular:</span>
+                      {allTags.slice(0, 10).map(({ tag }) => (
+                        <button
+                          key={tag}
+                          onClick={() => {
+                            const currentTags = newLink.tags || [];
+                            if (!currentTags.includes(tag)) {
+                              setNewLink({ ...newLink, tags: [...currentTags, tag] });
+                            }
+                          }}
+                          className="tag text-xs"
+                        >
+                          {tag}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <label className="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={newLink.isPinned || false}
+                      onChange={(e) => setNewLink({ ...newLink, isPinned: e.target.checked })}
+                      className="rounded border-neutral-300"
+                    />
+                    <span className="text-sm">Pin to top</span>
+                  </label>
+
+                  <div className="flex gap-2 ml-auto">
+                    {editingLink && (
+                      <button
+                        onClick={() => {
+                          setEditingLink(null);
+                          setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+                        }}
+                        className="btn btn-secondary"
+                      >
+                        Cancel
+                      </button>
+                    )}
+                    <button
+                      onClick={editingLink ? updateLink : addLink}
+                      disabled={!newLink.url || !newLink.source}
+                      className="btn btn-primary"
+                    >
+                      {editingLink ? 'Update Link' : 'Add Link'}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Bulk Add Form */}
+            {showQuickAdd && (
+              <div className="space-y-4">
+                <div>
+                  <label className="block text-sm font-medium mb-2">
+                    Add Multiple URLs (one per line)
+                  </label>
+                  <textarea
+                    ref={quickPasteRef}
+                    value={quickAddUrls}
+                    onChange={(e) => setQuickAddUrls(e.target.value)}
+                    placeholder="Paste URLs here..."
+                    className="input w-full h-32 font-mono text-sm"
+                  />
+                </div>
+                <div className="flex gap-2">
+                  <button
+                    onClick={addQuickLinks}
+                    disabled={!quickAddUrls.trim() || isLoading}
+                    className="btn btn-primary"
+                  >
+                    {isLoading ? 'Processing...' : 'Add All Links'}
+                  </button>
+                  <button
+                    onClick={() => {
+                      setShowQuickAdd(false);
+                      setQuickAddUrls('');
+                    }}
+                    className="btn btn-secondary"
+                  >
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       )}
@@ -548,6 +733,13 @@ export default function LinkBlogClean() {
 
                     {isAdmin && (
                       <>
+                        <button
+                          onClick={() => editLink(link)}
+                          className="btn-ghost p-2"
+                          title="Edit link"
+                        >
+                          <Edit2 className="w-4 h-4" />
+                        </button>
                         <button
                           onClick={() => togglePin(link.id)}
                           className="btn-ghost p-2"
