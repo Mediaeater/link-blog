@@ -312,7 +312,7 @@ const LinkBlog = () => {
     if (!isTyping) {
       if (e.key === 'j' || e.key === 'J') {
         e.preventDefault();
-        const maxIndex = filteredAndSortedLinks.length - 1;
+        const maxIndex = Math.max(0, links.length - 1);
         setFocusedLinkIndex(prev => {
           const newIndex = prev >= maxIndex ? 0 : prev + 1; // Wrap to beginning
           // Scroll focused link into view
@@ -323,7 +323,7 @@ const LinkBlog = () => {
         });
       } else if (e.key === 'k' || e.key === 'K') {
         e.preventDefault();
-        const maxIndex = filteredAndSortedLinks.length - 1;
+        const maxIndex = Math.max(0, links.length - 1);
         setFocusedLinkIndex(prev => {
           const newIndex = prev <= 0 ? maxIndex : prev - 1; // Wrap to end
           // Scroll focused link into view
@@ -334,14 +334,14 @@ const LinkBlog = () => {
         });
       } else if (e.key === 'Enter' && focusedLinkIndex >= 0) {
         e.preventDefault();
-        const link = filteredAndSortedLinks[focusedLinkIndex];
+        const link = links[focusedLinkIndex];
         if (link) {
           trackLinkVisit(link.id);
           window.open(link.url, '_blank');
         }
       }
     }
-  }, [isAdmin, focusedLinkIndex, showQuickAdd, filteredAndSortedLinks, trackLinkVisit]);
+  }, [isAdmin, focusedLinkIndex, showQuickAdd, trackLinkVisit, links]);
 
   useEffect(() => {
     loadLinks();
