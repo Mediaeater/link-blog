@@ -107,14 +107,14 @@
     {
       "url": "https://thebulletin.org/2025/08/how-ai-and-surveillance-capitalism-are-undermining-democracy/",
       "source": "How AI and surveillance capitalism are undermining democracy",
-      "pullQuote": "People may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.",
+      "pullQuote": "eople may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.",
       "tags": [
         "surveillance",
         "ai"
       ],
       "isPinned": false,
       "id": 1758419073450,
-      "timestamp": "2025-09-21T13:42:56.559Z",
+      "timestamp": "2025-09-21T01:44:33.450Z",
       "visits": 0
     },
     {
@@ -413,7 +413,21 @@
       ],
       "timestamp": "2025-09-21T13:40:39.121Z",
       "visits": 0
+    },
+    {
+      "id": 1758472778073,
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB627",
+      "source": "Bill Text - SB-627 Law enforcement: masks.",
+      "pullQuote": "The bill would require any law enforcement agency operating in California to, by July 1, 2026, maintain and publicly post a written policy limiting the use of facial coverings, as specified. The bill would exempt personnel of any agency from the crime of wearing a facial covering if an agency maintains a policy pursuant to this section no later than July 1, 2026. The bill would deem a policy consistent with these provisions for the purposes of that exception unless a member of the public, an oversight body, or a local governing authority challenges it. The bill would also impose a specified civil penalty against certain officers for tortious conduct, including, but not limited to, false imprisonment or false arrest of an individual while wearing a facial covering. The bill would, if the agency does not address deficiencies within 90 days, authorize the complaining party to proceed to a court of competent jurisdiction for a judicial determination of the exemption, as specified. The bill would define a law enforcement agency for these purposes as any entity of a city, county, or other local agency, that employs anyone designated by California law as a peace officer, any federal law enforcement agency, or any law enforcement agency of another state.\n",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-21T16:39:38.073Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-21T13:42:56.559Z"
+  "lastUpdated": "2025-09-21T16:39:38.073Z"
 }
