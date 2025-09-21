@@ -1,9 +1,24 @@
 {
-  "lastUpdated": "2025-09-09T12:24:47.354Z",
+  "lastUpdated": "2025-09-21T10:03:37.825Z",
   "links": [
     {
+      "url": "https://underpassapp.com/news/2025/9/8.html",
+      "source": "macOS becomes iOS: Safari video controls",
+      "pullQuote": "In other words, yes, Apple is continuing to merge iOS and macOS.\n\n \n ",
+      "tags": [
+        "video",
+        "macos",
+        "ios",
+        "apple"
+      ],
+      "isPinned": false,
+      "id": 1758420167781,
+      "timestamp": "2025-09-21T02:03:31.429Z",
+      "visits": 0
+    },
+    {
       "url": "https://github.com/getzep/graphiti",
-      "source": "GitHub - getzep/graphiti: Build Real-Time Knowledge Graphs for AI Agents",
+      "source": "Build Real-Time Knowledge Graphs for AI Agents",
       "pullQuote": "Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environments. Unlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph.",
       "tags": [
         "code",
@@ -14,7 +29,64 @@
       ],
       "isPinned": false,
       "id": 1757420687354,
-      "timestamp": "2025-09-09T12:24:47.354Z",
+      "timestamp": "2025-09-21T02:00:16.863Z",
+      "visits": 0
+    },
+    {
+      "url": "https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd",
+      "source": "AI: what will become of the truth?",
+      "pullQuote": "The film’s narrative follows Stephen Fry, playing a grandfather with dementia who uses AI to fill in gaps in his memory. While reviewing the archive of his life, his family is forced to question which memories are truly accurate and how AI is shaping our identity.\n",
+      "tags": [
+        "ai",
+        "memory",
+        "truth"
+      ],
+      "isPinned": false,
+      "id": 1758419960663,
+      "timestamp": "2025-09-21T01:59:36.298Z",
+      "visits": 0
+    },
+    {
+      "url": "https://www.aclock.live/",
+      "source": "a Clock",
+      "pullQuote": "",
+      "tags": [
+        "art",
+        "clock",
+        "time",
+        "copyright",
+        "bootleg"
+      ],
+      "isPinned": false,
+      "id": 1758419426665,
+      "timestamp": "2025-09-21T01:50:26.665Z",
+      "visits": 0
+    },
+    {
+      "url": "https://thebulletin.org/2025/08/how-ai-and-surveillance-capitalism-are-undermining-democracy/",
+      "source": "How AI and surveillance capitalism are undermining democracy",
+      "pullQuote": "eople may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.",
+      "tags": [
+        "surveillance",
+        "ai"
+      ],
+      "isPinned": false,
+      "id": 1758419073450,
+      "timestamp": "2025-09-21T01:44:33.450Z",
+      "visits": 0
+    },
+    {
+      "url": "https://walzr.com/chyrons",
+      "source": "Chyrons",
+      "pullQuote": "",
+      "tags": [
+        "broadcast",
+        "news",
+        "chryon"
+      ],
+      "isPinned": false,
+      "id": 1757676909317,
+      "timestamp": "2025-09-12T11:35:09.317Z",
       "visits": 0
     },
     {
