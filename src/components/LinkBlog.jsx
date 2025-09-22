@@ -1112,49 +1112,66 @@ const LinkBlog = () => {
                     placeholder="Add tag (use comma to separate multiple)"
                     value={currentTag}
                     onChange={(e) => {
-                      setCurrentTag(e.target.value);
-                    }}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ',') {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        // Handle comma-separated tags
-                        if (currentTag.includes(',')) {
-                          const tags = currentTag.split(',').map(t => t.trim()).filter(t => t);
-                          const validTags = tags.filter(t => t && !newLink.tags.includes(t));
-                          const tagsToAdd = validTags.slice(0, 10 - newLink.tags.length);
+                      const value = e.target.value;
 
-                          if (tagsToAdd.length > 0) {
-                            setNewLink(prevLink => ({
-                              ...prevLink,
-                              tags: [...prevLink.tags, ...tagsToAdd]
-                            }));
-                          }
+                      // Check if multiple tags were pasted with commas
+                      const commaCount = (value.match(/,/g) || []).length;
+                      if (commaCount > 1 || (commaCount === 1 && value.includes(', '))) {
+                        // Multiple tags pasted
+                        const tags = value.split(',').map(t => t.trim()).filter(t => t);
+                        const validTags = tags.filter(t => !newLink.tags.includes(t));
+                        const tagsToAdd = validTags.slice(0, 10 - newLink.tags.length);
+
+                        if (tagsToAdd.length > 0) {
+                          setNewLink(prevLink => ({
+                            ...prevLink,
+                            tags: [...prevLink.tags, ...tagsToAdd]
+                          }));
+                        }
+                        setCurrentTag('');
+                      } else if (value.endsWith(',')) {
+                        // Single tag followed by comma
+                        const tagToAdd = value.slice(0, -1).trim();
+                        if (tagToAdd && !newLink.tags.includes(tagToAdd) && newLink.tags.length < 10) {
+                          setNewLink(prevLink => ({
+                            ...prevLink,
+                            tags: [...prevLink.tags, tagToAdd]
+                          }));
                           setCurrentTag('');
                         } else {
-                          // Just add the single tag
-                          addTag();
+                          setCurrentTag('');
+                        }
+                      } else {
+                        // Normal typing
+                        setCurrentTag(value);
+                      }
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                        // Handle any remaining text as a tag
+                        const trimmedTag = currentTag.trim();
+                        if (trimmedTag && !newLink.tags.includes(trimmedTag) && newLink.tags.length < 10) {
+                          setNewLink(prevLink => ({
+                            ...prevLink,
+                            tags: [...prevLink.tags, trimmedTag]
+                          }));
+                          setCurrentTag('');
                         }
                       }
                     }}
-                    onPaste={(e) => {
-                      // Handle pasting comma-separated tags
-                      setTimeout(() => {
-                        const value = e.target.value;
-                        if (value.includes(',')) {
-                          const tags = value.split(',').map(t => t.trim()).filter(t => t);
-                          const validTags = tags.filter(t => t && !newLink.tags.includes(t));
-                          const tagsToAdd = validTags.slice(0, 10 - newLink.tags.length);
-
-                          if (tagsToAdd.length > 0) {
-                            setNewLink(prevLink => ({
-                              ...prevLink,
-                              tags: [...prevLink.tags, ...tagsToAdd]
-                            }));
-                            setCurrentTag('');
-                          }
-                        }
-                      }, 0);
+                    onBlur={() => {
+                      // Add any remaining tag when focus leaves the input
+                      const trimmedTag = currentTag.trim();
+                      if (trimmedTag && !newLink.tags.includes(trimmedTag) && newLink.tags.length < 10) {
+                        setNewLink(prevLink => ({
+                          ...prevLink,
+                          tags: [...prevLink.tags, trimmedTag]
+                        }));
+                        setCurrentTag('');
+                      }
                     }}
                     className="flex-1"
                     list="existing-tags"
