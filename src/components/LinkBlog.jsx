@@ -396,6 +396,7 @@ const LinkBlog = () => {
       try {
         await saveToFile(updatedLinks);
         setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+        setCurrentTag(''); // Clear the current tag input after adding
       } catch (error) {
         // Error is already handled in saveToFile, just don't reset form
         console.error('Failed to add link:', error);
@@ -457,6 +458,7 @@ const LinkBlog = () => {
     if (!isAdmin) return;
     setEditingLink(link);
     setNewLink({ ...link, pullQuote: link.pullQuote || '' });
+    setCurrentTag(''); // Clear the current tag input when editing
   }, [isAdmin]);
 
   const updateLink = async () => {
@@ -469,6 +471,7 @@ const LinkBlog = () => {
       await saveToFile(updatedLinks);
       setEditingLink(null);
       setNewLink({ url: '', source: '', tags: [], isPinned: false });
+      setCurrentTag(''); // Clear the current tag input after updating
     } catch (error) {
       console.error('Failed to update link:', error);
     }
@@ -490,17 +493,21 @@ const LinkBlog = () => {
   }, [isAdmin, links, saveToFile]);
 
   const addTag = () => {
-    if (currentTag && newLink.tags.length < 10 && !newLink.tags.includes(currentTag)) {
-      setNewLink({ ...newLink, tags: [...newLink.tags, currentTag] });
+    const tagToAdd = currentTag.trim();
+    if (tagToAdd && newLink.tags.length < 10 && !newLink.tags.includes(tagToAdd)) {
+      setNewLink(prevLink => ({
+        ...prevLink,
+        tags: [...prevLink.tags, tagToAdd]
+      }));
       setCurrentTag('');
     }
   };
 
   const removeTag = (tagToRemove) => {
-    setNewLink({
-      ...newLink,
-      tags: newLink.tags.filter(tag => tag !== tagToRemove),
-    });
+    setNewLink(prevLink => ({
+      ...prevLink,
+      tags: prevLink.tags.filter(tag => tag !== tagToRemove)
+    }));
   };
   
   const toggleTagFilter = useCallback((tag) => {
@@ -1152,8 +1159,10 @@ const LinkBlog = () => {
                       {allTagsWithFrequency.slice(0, 10).map(({tag}) => (
                         <button
                           key={tag}
-                          onClick={() => {
-                            if (!newLink.tags.includes(tag) && newLink.tags.length < 5) {
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            if (!newLink.tags.includes(tag) && newLink.tags.length < 10) {
                               setNewLink(prev => ({ ...prev, tags: [...prev.tags, tag] }));
                             }
                           }}
@@ -1197,6 +1206,7 @@ const LinkBlog = () => {
                       onClick={() => {
                         setEditingLink(null);
                         setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+                        setCurrentTag(''); // Clear the current tag input when canceling
                       }}
                       className="bg-gray-500 hover:bg-gray-600"
                     >
