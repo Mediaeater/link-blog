@@ -1109,11 +1109,32 @@ const LinkBlog = () => {
                 <div className="flex gap-2 mb-2">
                   <Input
                     type="text"
-                    placeholder="Add tag"
+                    placeholder="Add tag (use comma to separate multiple)"
                     value={currentTag}
-                    onChange={(e) => setCurrentTag(e.target.value)}
+                    onChange={(e) => {
+                      const value = e.target.value;
+                      // Check if user typed or pasted tags with commas
+                      if (value.includes(',')) {
+                        const tags = value.split(',').map(t => t.trim()).filter(t => t);
+                        if (tags.length > 0) {
+                          // Add all valid tags that aren't already present
+                          const validTags = tags.filter(t => t && !newLink.tags.includes(t));
+                          const tagsToAdd = validTags.slice(0, 10 - newLink.tags.length);
+
+                          if (tagsToAdd.length > 0) {
+                            setNewLink(prevLink => ({
+                              ...prevLink,
+                              tags: [...prevLink.tags, ...tagsToAdd]
+                            }));
+                          }
+                          setCurrentTag(''); // Clear input after processing comma-separated tags
+                        }
+                      } else {
+                        setCurrentTag(value);
+                      }
+                    }}
                     onKeyDown={(e) => {
-                      if (e.key === 'Enter') {
+                      if (e.key === 'Enter' || e.key === ',') {
                         e.preventDefault();
                         e.stopPropagation();
                         addTag();
