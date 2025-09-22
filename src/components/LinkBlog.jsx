@@ -1112,12 +1112,15 @@ const LinkBlog = () => {
                     placeholder="Add tag (use comma to separate multiple)"
                     value={currentTag}
                     onChange={(e) => {
-                      const value = e.target.value;
-                      // Check if user typed or pasted tags with commas
-                      if (value.includes(',')) {
-                        const tags = value.split(',').map(t => t.trim()).filter(t => t);
-                        if (tags.length > 0) {
-                          // Add all valid tags that aren't already present
+                      setCurrentTag(e.target.value);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ',') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        // Handle comma-separated tags
+                        if (currentTag.includes(',')) {
+                          const tags = currentTag.split(',').map(t => t.trim()).filter(t => t);
                           const validTags = tags.filter(t => t && !newLink.tags.includes(t));
                           const tagsToAdd = validTags.slice(0, 10 - newLink.tags.length);
 
@@ -1127,18 +1130,31 @@ const LinkBlog = () => {
                               tags: [...prevLink.tags, ...tagsToAdd]
                             }));
                           }
-                          setCurrentTag(''); // Clear input after processing comma-separated tags
+                          setCurrentTag('');
+                        } else {
+                          // Just add the single tag
+                          addTag();
                         }
-                      } else {
-                        setCurrentTag(value);
                       }
                     }}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ',') {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        addTag();
-                      }
+                    onPaste={(e) => {
+                      // Handle pasting comma-separated tags
+                      setTimeout(() => {
+                        const value = e.target.value;
+                        if (value.includes(',')) {
+                          const tags = value.split(',').map(t => t.trim()).filter(t => t);
+                          const validTags = tags.filter(t => t && !newLink.tags.includes(t));
+                          const tagsToAdd = validTags.slice(0, 10 - newLink.tags.length);
+
+                          if (tagsToAdd.length > 0) {
+                            setNewLink(prevLink => ({
+                              ...prevLink,
+                              tags: [...prevLink.tags, ...tagsToAdd]
+                            }));
+                            setCurrentTag('');
+                          }
+                        }
+                      }, 0);
                     }}
                     className="flex-1"
                     list="existing-tags"
