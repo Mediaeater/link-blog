@@ -44,6 +44,7 @@ const LinkBlog = () => {
   const quickPasteRef = useRef(null);
   const searchRef = useRef(null);
   const linkRefs = useRef([]);
+  const tagInputRef = useRef(null);
 
   // Utility functions for URL metadata fetching
   const fetchUrlMetadata = async (url) => {
@@ -293,15 +294,7 @@ const LinkBlog = () => {
 
   // Memoize the keyboard handler to avoid creating new function on every render
   const handleKeyDown = useCallback((e) => {
-    // Don't handle shortcuts when user is typing in form fields
-    const isTyping = e.target.matches('input, textarea, [contenteditable]');
-
-    // Always return early if typing - don't process any other keys
-    if (isTyping && !((e.metaKey || e.ctrlKey) && e.key === 'k')) {
-      return; // Let the input handle the key normally
-    }
-
-    // Cmd/Ctrl+K to focus search (works everywhere, even when typing)
+    // Cmd/Ctrl+K to focus search (works everywhere)
     if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
       e.preventDefault();
       searchRef.current?.focus();
@@ -309,8 +302,8 @@ const LinkBlog = () => {
       return;
     }
 
-    // Cmd/Ctrl+V to focus quick paste area (only when not typing)
-    if ((e.metaKey || e.ctrlKey) && e.key === 'v' && isAdmin && !isTyping) {
+    // Cmd/Ctrl+V to focus quick paste area
+    if ((e.metaKey || e.ctrlKey) && e.key === 'v' && isAdmin) {
       e.preventDefault();
       setShowQuickAdd(true);
       setTimeout(() => quickPasteRef.current?.focus(), 100);
@@ -329,8 +322,7 @@ const LinkBlog = () => {
       return;
     }
 
-    // J/K navigation when not in input fields
-    if (!isTyping) {
+    // J/K navigation (input fields are already filtered out)
       if (e.key === 'j' || e.key === 'J') {
         e.preventDefault();
         const maxIndex = Math.max(0, links.length - 1);
@@ -361,7 +353,6 @@ const LinkBlog = () => {
           window.open(link.url, '_blank');
         }
       }
-    }
   }, [isAdmin, focusedLinkIndex, showQuickAdd, trackLinkVisit, links]);
 
   useEffect(() => {
@@ -373,8 +364,22 @@ const LinkBlog = () => {
 
   // Handle keyboard shortcuts
   useEffect(() => {
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
+    const keydownHandler = (e) => {
+      // Allow Cmd/Ctrl+K to work even in input fields
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        handleKeyDown(e);
+        return;
+      }
+
+      // Immediately return for any input, textarea, or contenteditable element
+      if (e.target.matches('input, textarea, [contenteditable]')) {
+        return;
+      }
+      handleKeyDown(e);
+    };
+
+    document.addEventListener('keydown', keydownHandler);
+    return () => document.removeEventListener('keydown', keydownHandler);
   }, [handleKeyDown]);
 
   const addLink = async () => {
@@ -493,8 +498,8 @@ const LinkBlog = () => {
   }, [isAdmin, links, saveToFile]);
 
   const addTag = () => {
-    const tagToAdd = currentTag.trim();
-    if (tagToAdd && newLink.tags.length < 10 && !newLink.tags.includes(tagToAdd)) {
+    const tagToAdd = currentTag.trim().toLowerCase(); // Normalize tag
+    if (tagToAdd && newLink.tags.length < 10 && !newLink.tags.map(tag => tag.toLowerCase()).includes(tagToAdd)) {
       setNewLink(prevLink => ({
         ...prevLink,
         tags: [...prevLink.tags, tagToAdd]
@@ -511,11 +516,21 @@ const LinkBlog = () => {
   };
   
   const toggleTagFilter = useCallback((tag) => {
-    setSelectedTags(prev => 
-      prev.includes(tag) 
-        ? prev.filter(t => t !== tag)
-        : [...prev, tag]
-    );
+    console.log('toggleTagFilter called with:', tag); // Debug log
+    // Normalize the tag for consistent comparison
+    const normalizedTag = tag.trim().toLowerCase();
+
+    setSelectedTags(prev => {
+      // Check if tag already selected (case-insensitive)
+      const isSelected = prev.some(t => t.toLowerCase() === normalizedTag);
+
+      const newTags = isSelected
+        ? prev.filter(t => t.toLowerCase() !== normalizedTag)
+        : [...prev, normalizedTag]; // Store normalized version
+
+      console.log('Selected tags updated to:', newTags); // Debug log
+      return newTags;
+    });
   }, []);
   
   const clearFilters = () => {
@@ -623,11 +638,20 @@ const LinkBlog = () => {
       );
     }
     
-    // Tag filter
+    // Tag filter - case-insensitive and trim whitespace
     if (selectedTags.length > 0) {
-      filtered = filtered.filter(link => 
-        link.tags && selectedTags.every(selectedTag => link.tags.includes(selectedTag))
-      );
+      filtered = filtered.filter(link => {
+        if (!link.tags || link.tags.length === 0) return false;
+
+        // Normalize tags for comparison (trim and lowercase)
+        const normalizedLinkTags = link.tags.map(tag => tag.trim().toLowerCase());
+        const normalizedSelectedTags = selectedTags.map(tag => tag.trim().toLowerCase());
+
+        // Check if all selected tags are present in the link's tags
+        return normalizedSelectedTags.every(selectedTag =>
+          normalizedLinkTags.includes(selectedTag)
+        );
+      });
     }
     
     // Sort
@@ -991,19 +1015,22 @@ const LinkBlog = () => {
             
             <div className="flex flex-wrap gap-2">
               {allTagsWithFrequency.map(({ tag, count }) => {
-                const isSelected = selectedTags.includes(tag);
+                // Normalize for comparison
+                const isSelected = selectedTags.some(selected =>
+                  selected.trim().toLowerCase() === tag.trim().toLowerCase()
+                );
                 const size = Math.min(count / Math.max(...allTagsWithFrequency.map(t => t.count)), 1);
                 const opacity = 0.4 + (size * 0.6);
                 
                 return (
                   <button
                     key={tag}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
+                    type="button"
+                    onClick={() => {
+                      console.log('Tag button clicked:', tag); // Debug log
                       toggleTagFilter(tag);
                     }}
-                    className={`px-2 py-1 text-xs rounded-full border transition-all hover:scale-105 ${
+                    className={`px-2 py-1 text-xs rounded-full border transition-all hover:scale-105 cursor-pointer ${
                       isSelected
                         ? 'bg-blue-500 text-white border-blue-500'
                         : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'
@@ -1107,42 +1134,49 @@ const LinkBlog = () => {
               <div>
                 <label className="block text-sm font-medium mb-1">Tags</label>
                 <div className="flex gap-2 mb-2">
-                  <Input
+                  <input
                     type="text"
                     placeholder="Add tag (use comma to separate multiple)"
                     value={currentTag}
+                    className="flex-1 h-9 w-full rounded-md border border-neutral-200 bg-transparent px-3 py-1 text-sm shadow-sm transition-colors placeholder:text-neutral-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 dark:border-neutral-800 dark:placeholder:text-neutral-400 dark:focus-visible:ring-neutral-300"
+                    list="existing-tags"
+                    autoComplete="off"
                     onChange={(e) => {
                       const value = e.target.value;
+                      console.log('Tag input onChange:', value); // Debug log
 
-                      // Check if multiple tags were pasted with commas
-                      const commaCount = (value.match(/,/g) || []).length;
-                      if (commaCount > 1 || (commaCount === 1 && value.includes(', '))) {
-                        // Multiple tags pasted
-                        const tags = value.split(',').map(t => t.trim()).filter(t => t);
-                        const validTags = tags.filter(t => !newLink.tags.includes(t));
-                        const tagsToAdd = validTags.slice(0, 10 - newLink.tags.length);
+                      // Check for commas first, then update state appropriately
+                      if (value.includes(',')) {
+                        const parts = value.split(',');
 
-                        if (tagsToAdd.length > 0) {
-                          setNewLink(prevLink => ({
-                            ...prevLink,
-                            tags: [...prevLink.tags, ...tagsToAdd]
-                          }));
-                        }
-                        setCurrentTag('');
-                      } else if (value.endsWith(',')) {
-                        // Single tag followed by comma
-                        const tagToAdd = value.slice(0, -1).trim();
-                        if (tagToAdd && !newLink.tags.includes(tagToAdd) && newLink.tags.length < 10) {
-                          setNewLink(prevLink => ({
-                            ...prevLink,
-                            tags: [...prevLink.tags, tagToAdd]
-                          }));
-                          setCurrentTag('');
+                        // Process all complete tags (before commas)
+                        if (parts.length > 1) {
+                          const tagsBeforeComma = parts.slice(0, -1)
+                            .map(t => t.trim().toLowerCase())
+                            .filter(t => t.length > 0);
+
+                          const currentTagsLower = newLink.tags.map(t => t.toLowerCase());
+                          const newTags = tagsBeforeComma.filter(t => !currentTagsLower.includes(t));
+
+                          if (newTags.length > 0) {
+                            const available = 10 - newLink.tags.length;
+                            const toAdd = newTags.slice(0, available);
+
+                            setNewLink(prev => ({
+                              ...prev,
+                              tags: [...prev.tags, ...toAdd]
+                            }));
+                          }
+
+                          // Set input to text after last comma
+                          const remaining = parts[parts.length - 1];
+                          setCurrentTag(remaining);
                         } else {
-                          setCurrentTag('');
+                          // Just a single comma at the end, update normally
+                          setCurrentTag(value);
                         }
                       } else {
-                        // Normal typing
+                        // No comma, update normally
                         setCurrentTag(value);
                       }
                     }}
@@ -1151,30 +1185,28 @@ const LinkBlog = () => {
                         e.preventDefault();
                         e.stopPropagation();
 
-                        // Handle any remaining text as a tag
-                        const trimmedTag = currentTag.trim();
-                        if (trimmedTag && !newLink.tags.includes(trimmedTag) && newLink.tags.length < 10) {
+                        // Add any remaining tag when Enter is pressed
+                        const value = currentTag.trim().toLowerCase();
+                        if (value && !newLink.tags.map(tag => tag.toLowerCase()).includes(value) && newLink.tags.length < 10) {
                           setNewLink(prevLink => ({
                             ...prevLink,
-                            tags: [...prevLink.tags, trimmedTag]
+                            tags: [...prevLink.tags, value]
                           }));
                           setCurrentTag('');
                         }
                       }
                     }}
-                    onBlur={() => {
-                      // Add any remaining tag when focus leaves the input
-                      const trimmedTag = currentTag.trim();
-                      if (trimmedTag && !newLink.tags.includes(trimmedTag) && newLink.tags.length < 10) {
+                    onBlur={(e) => {
+                      // Add any remaining tag when focus leaves
+                      const value = currentTag.trim().toLowerCase();
+                      if (value && !newLink.tags.map(tag => tag.toLowerCase()).includes(value) && newLink.tags.length < 10) {
                         setNewLink(prevLink => ({
                           ...prevLink,
-                          tags: [...prevLink.tags, trimmedTag]
+                          tags: [...prevLink.tags, value]
                         }));
                         setCurrentTag('');
                       }
                     }}
-                    className="flex-1"
-                    list="existing-tags"
                   />
                   <Button onClick={addTag} disabled={!currentTag || newLink.tags.length >= 10}>
                     <Plus size={16} />

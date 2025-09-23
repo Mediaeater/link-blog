@@ -30,7 +30,7 @@ const SORT_OPTIONS = {
 
 export default function LinkBlogClean() {
   const [links, setLinks] = useState([]);
-  const [newLink, setNewLink] = useState({ url: '', source: '', pullQuote: '', tags: [] });
+  const [newLink, setNewLink] = useState({ url: '', source: '', pullQuote: '', tags: [], tagInput: '' });
   const [isAdmin, setIsAdmin] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTags, setSelectedTags] = useState([]);
@@ -170,7 +170,7 @@ export default function LinkBlogClean() {
 
     try {
       await saveToFile(updatedLinks);
-      setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+      setNewLink({ url: '', source: '', pullQuote: '', tags: [], tagInput: '', isPinned: false });
       if (editingLink) {
         setEditingLink(null);
       }
@@ -189,7 +189,7 @@ export default function LinkBlogClean() {
     try {
       await saveToFile(updatedLinks);
       setEditingLink(null);
-      setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+      setNewLink({ url: '', source: '', pullQuote: '', tags: [], tagInput: '', isPinned: false });
     } catch (error) {
       console.error('Failed to update link:', error);
     }
@@ -199,7 +199,7 @@ export default function LinkBlogClean() {
   const editLink = useCallback((link) => {
     if (!isAdmin) return;
     setEditingLink(link);
-    setNewLink({ ...link, pullQuote: link.pullQuote || '' });
+    setNewLink({ ...link, pullQuote: link.pullQuote || '', tagInput: link.tags ? link.tags.join(', ') : '' });
     setShowQuickAdd(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [isAdmin]);
@@ -485,11 +485,15 @@ export default function LinkBlogClean() {
                     onClick={async () => {
                       const metadata = await fetchUrlMetadata(newLink.url);
                       const suggestedTags = suggestTagsFromUrl(newLink.url, metadata.title, metadata.description);
-                      setNewLink(prev => ({
-                        ...prev,
-                        source: prev.source || metadata.title.slice(0, MAX_TITLE_LENGTH),
-                        tags: prev.tags.length === 0 ? suggestedTags.slice(0, 5) : prev.tags
-                      }));
+                      setNewLink(prev => {
+                        const newTags = prev.tags.length === 0 ? suggestedTags.slice(0, 5) : prev.tags;
+                        return {
+                          ...prev,
+                          source: prev.source || metadata.title.slice(0, MAX_TITLE_LENGTH),
+                          tags: newTags,
+                          tagInput: newTags.join(', ')
+                        };
+                      });
                     }}
                     className="btn btn-sm btn-secondary"
                   >
@@ -517,10 +521,37 @@ export default function LinkBlogClean() {
                   <input
                     type="text"
                     placeholder="tag1, tag2, tag3"
-                    value={newLink.tags ? newLink.tags.join(', ') : ''}
-                    onChange={(e) =>
-                      setNewLink({ ...newLink, tags: e.target.value.split(',').map(tag => tag.trim()).filter(Boolean) })
-                    }
+                    value={newLink.tagInput || ''}
+                    onChange={(e) => {
+                      const inputValue = e.target.value;
+                      // Store the raw input value for display
+                      // Only process into tags when the input loses focus or user presses Enter
+                      setNewLink({
+                        ...newLink,
+                        tagInput: inputValue
+                      });
+                    }}
+                    onBlur={(e) => {
+                      // Process tags when input loses focus
+                      const tags = e.target.value.split(',').map(tag => tag.trim()).filter(Boolean);
+                      setNewLink({
+                        ...newLink,
+                        tags: tags,
+                        tagInput: tags.join(', ') // Update display to clean format
+                      });
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        e.preventDefault();
+                        // Process tags when Enter is pressed
+                        const tags = e.target.value.split(',').map(tag => tag.trim()).filter(Boolean);
+                        setNewLink({
+                          ...newLink,
+                          tags: tags,
+                          tagInput: tags.join(', ') // Update display to clean format
+                        });
+                      }
+                    }}
                     className="input w-full"
                   />
                   {allTags.length > 0 && (
@@ -532,7 +563,12 @@ export default function LinkBlogClean() {
                           onClick={() => {
                             const currentTags = newLink.tags || [];
                             if (!currentTags.includes(tag)) {
-                              setNewLink({ ...newLink, tags: [...currentTags, tag] });
+                              const updatedTags = [...currentTags, tag];
+                              setNewLink({
+                                ...newLink,
+                                tags: updatedTags,
+                                tagInput: updatedTags.join(', ')
+                              });
                             }
                           }}
                           className="tag text-xs"
@@ -560,7 +596,7 @@ export default function LinkBlogClean() {
                       <button
                         onClick={() => {
                           setEditingLink(null);
-                          setNewLink({ url: '', source: '', pullQuote: '', tags: [], isPinned: false });
+                          setNewLink({ url: '', source: '', pullQuote: '', tags: [], tagInput: '', isPinned: false });
                         }}
                         className="btn btn-secondary"
                       >

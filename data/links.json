@@ -34,7 +34,7 @@
       "source": "TV Time Machine: A Raspberry Pi That Plays Random 90s TV",
       "pullQuote": " Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup",
       "tags": [
-        " tv",
+        "tv",
         "raspi",
         "playlist"
       ],
@@ -300,8 +300,8 @@
         "llm",
         "search",
         "chain-of-thought",
-        "chatGPT",
-        "GPT-5"
+        "chatgpt",
+        "gpt-5"
       ],
       "isPinned": false,
       "id": 1757202907772,
@@ -427,7 +427,31 @@
       "isPinned": false,
       "timestamp": "2025-09-21T16:39:38.073Z",
       "visits": 0
+    },
+    {
+      "id": 1758623722907,
+      "url": "https://arxiv.org/abs/2509.06917",
+      "source": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+      "pullQuote": "We introduce Paper2Agent, an automated framework that converts research papers into AI agents. Paper2Agent transforms research output from passive artifacts into active systems that can accelerate downstream use, adoption, and discovery. Conventional research papers require readers to invest substantial effort to understand and adapt a paper's code, data, and methods to their own work, creating barriers to dissemination and reuse. ",
+      "tags": [
+        "research"
+      ],
+      "timestamp": "2025-09-23T10:40:03.481Z",
+      "visits": 0
+    },
+    {
+      "id": 1758624481905,
+      "url": "https://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526",
+      "source": "Are we on course to become a Little Brother society?",
+      "pullQuote": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526\n\n\tIndeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call “peerveillance”. With the help of gadgets and subscriptions from technology companies, we are increasingly turning our gaze on each other, whether through cameras on our cycle helmets or our rapid adoption of camera doorbells such as Amazon’s Ring devices\n",
+      "tags": [
+        "hardware",
+        "surveillance",
+        "harms"
+      ],
+      "timestamp": "2025-09-23T10:50:26.693Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-21T16:39:38.073Z"
+  "lastUpdated": "2025-09-23T10:50:26.694Z"
 }
