@@ -443,15 +443,65 @@
       "id": 1758624481905,
       "url": "https://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526",
       "source": "Are we on course to become a Little Brother society?",
-      "pullQuote": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526\n\n\tIndeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call “peerveillance”. With the help of gadgets and subscriptions from technology companies, we are increasingly turning our gaze on each other, whether through cameras on our cycle helmets or our rapid adoption of camera doorbells such as Amazon’s Ring devices\n",
+      "pullQuote": "Indeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call “peerveillance”. With the help of gadgets and subscriptions from technology companies, we are increasingly turning our gaze on each other, whether through cameras on our cycle helmets or our rapid adoption of camera doorbells such as Amazon’s Ring devices\n",
       "tags": [
         "hardware",
         "surveillance",
         "harms"
       ],
-      "timestamp": "2025-09-23T10:50:26.693Z",
+      "timestamp": "2025-09-23T15:50:03.401Z",
+      "visits": 0,
+      "tagInput": "hardware, surveillance, harms"
+    },
+    {
+      "id": 1758642344436,
+      "url": "https://mediatum.ub.tum.de/1782307",
+      "source": "GlobalBuildingAtlas",
+      "pullQuote": "The United Nations (UN) believes there are 4B buildings on Earth. This week, a dataset called \"GlobalBuildingAtlas\" (GBA) was published by researchers at the Technical University of Munich (TUM) that attempts to estimate this number at being closer to 2.75B.\n\nGBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (LoD1) dataset made up of 922 uncompressed GeoJSON files. I spent the last few days downloading these and converting them into 210 GB of Parquet. These are now being hosted on AWS S3 thanks to the kind generosity of Source Cooperative and Taylor Geospatial Engine.",
+      "tags": [
+        "map",
+        "atlas",
+        "landscape",
+        "architecture"
+      ],
+      "tagInput": "map, atlas, landscape, architecture",
+      "timestamp": "2025-09-23T15:45:44.436Z",
+      "visits": 0
+    },
+    {
+      "id": 1758642464851,
+      "url": "https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/",
+      "source": "Apple previews new immersive films for Apple Vision Pro",
+      "pullQuote": "Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Project, the BBC, CANAL+, CNN, HYBE, MotoGP, and Red Bull. The new films will launch exclusively alongside new episodes of returning Apple Immersive series for Apple Vision Pro in the coming months. These new films are among the first to be captured with Blackmagic Design’s URSA Cine Immersive camera and edited on Mac using DaVinci Resolve Studio. ",
+      "tags": [
+        "apple",
+        "film",
+        "hollywood",
+        "mr",
+        "mixed reality"
+      ],
+      "tagInput": "apple, film, hollywood, mr, mixed reality",
+      "timestamp": "2025-09-23T15:47:44.851Z",
+      "visits": 0
+    },
+    {
+      "id": 1758642931570,
+      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
+      "source": "How China’s Propaganda and Surveillance Systems Really Operate",
+      "pullQuote": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
+      "tags": [
+        "surveillance",
+        "cn",
+        "economics",
+        "propaganda",
+        "privacy",
+        "leaked-documents"
+      ],
+      "tagInput": "surveillance, cn, economics, propaganda, privacy, leaked-documents",
+      "isPinned": false,
+      "timestamp": "2025-09-23T15:55:31.570Z",
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-23T10:50:26.694Z"
+  "lastUpdated": "2025-09-23T15:55:31.570Z"
 }
