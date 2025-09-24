@@ -451,7 +451,53 @@
       ],
       "timestamp": "2025-09-23T10:50:26.693Z",
       "visits": 0
+    },
+    {
+      "id": 1758676814994,
+      "url": "https://walzr.com/sf-parking/",
+      "source": "Find My Parking Cops",
+      "pullQuote": "Find My Friends?\n🙅 NO!!\nCop\nFind My Parking Cops!\nI reverse engineered San Francisco's parking ticket system to show you exactly where each parking cop last wrote a ticket.\nCop\nUpdates in real-time",
+      "tags": [
+        "surveillance",
+        "map",
+        "automotive",
+        "urban-hack"
+      ],
+      "tagInput": "surveillance, map, automotive, urban-hack",
+      "timestamp": "2025-09-24T01:20:14.994Z",
+      "visits": 0,
+      "isPinned": true
+    },
+    {
+      "id": 1758676997447,
+      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
+      "source": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
+      "pullQuote": "",
+      "tags": [
+        "surveillance",
+        "telcom"
+      ],
+      "tagInput": "surveillance, telcom",
+      "timestamp": "2025-09-24T01:23:17.447Z",
+      "visits": 0
+    },
+    {
+      "id": 1758677119226,
+      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
+      "source": "How China’s Propaganda and Surveillance Systems Really Operate",
+      "pullQuote": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
+      "tags": [
+        "technology",
+        "surveillance",
+        "society",
+        "cn"
+      ],
+      "tagInput": "technology, surveillance, society, cn",
+      "timestamp": "2025-09-24T01:25:19.226Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-23T10:50:26.694Z"
+  "lastUpdated": "2025-09-24T03:12:06.985Z",
+  "exportedAt": "2025-09-24T03:12:06.985Z",
+  "totalLinks": 35
 }
