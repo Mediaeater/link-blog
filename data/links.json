@@ -469,19 +469,6 @@
       "isPinned": false
     },
     {
-      "id": 1758676997447,
-      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
-      "source": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
-      "pullQuote": "",
-      "tags": [
-        "surveillance",
-        "telcom"
-      ],
-      "tagInput": "surveillance, telcom",
-      "timestamp": "2025-09-24T01:23:17.447Z",
-      "visits": 0
-    },
-    {
       "id": 1758677119226,
       "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
       "source": "How China’s Propaganda and Surveillance Systems Really Operate",
@@ -510,7 +497,7 @@
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-24T03:25:44.236Z",
-  "exportedAt": "2025-09-24T03:25:44.236Z",
-  "totalLinks": 36
+  "lastUpdated": "2025-09-24T11:02:30.207Z",
+  "exportedAt": "2025-09-24T11:02:30.207Z",
+  "totalLinks": 35
 }
