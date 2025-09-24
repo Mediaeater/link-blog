@@ -508,22 +508,9 @@
       "tagInput": "intelligence, cognition",
       "timestamp": "2025-09-24T03:23:06.514Z",
       "visits": 0
-    },
-    {
-      "id": 1758709743539,
-      "url": "https://cybersect.substack.com/p/that-secret-service-sim-farm-story",
-      "source": "That Secret Service SIM farm story is bogus",
-      "pullQuote": "The reality is that this is just a normal criminal threat that sometimes crashes cell towers. SMS is an ancient technology that works slowly even in modern cell networks. Too many SIM boxes spamming SMS in one location can indeed overwhelm a cell tower. You actually don’t need a bunch of SIM boxes to do it — you can sometimes crash a cell tower with a single baseband radio. Ask me how I know",
-      "tags": [
-        "sms",
-        "mobile",
-        "us-gov",
-        "networks"
-      ],
-      "tagInput": "sms, mobile, us-gov, networks",
-      "timestamp": "2025-09-24T10:29:03.539Z",
-      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-24T10:29:03.539Z"
+  "lastUpdated": "2025-09-24T03:25:44.236Z",
+  "exportedAt": "2025-09-24T03:25:44.236Z",
+  "totalLinks": 36
 }
