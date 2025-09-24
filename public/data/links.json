@@ -466,7 +466,7 @@
       "tagInput": "surveillance, map, automotive, urban-hack",
       "timestamp": "2025-09-24T01:20:14.994Z",
       "visits": 0,
-      "isPinned": true
+      "isPinned": false
     },
     {
       "id": 1758676997447,
@@ -495,9 +495,22 @@
       "tagInput": "technology, surveillance, society, cn",
       "timestamp": "2025-09-24T01:25:19.226Z",
       "visits": 0
+    },
+    {
+      "id": 1758684186513,
+      "url": "https://kk.org/thetechnium/the-periodic-table-of-cognition/",
+      "source": "The Periodic Table of Cognition",
+      "pullQuote": "It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple cognitive elements, combined in a complex system unique to each species of mind. The result that we call intelligence emerges from many different cognitive primitives such as long-term memory, spatial awareness, logical deduction, advance planning, pattern perception, and so on. There may be dozens of them, or hundreds. We currently don’t have any idea of what these elements are. We lack a periodic table of cognition. ",
+      "tags": [
+        "intelligence",
+        "cognition"
+      ],
+      "tagInput": "intelligence, cognition",
+      "timestamp": "2025-09-24T03:23:06.514Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-24T03:12:06.985Z",
-  "exportedAt": "2025-09-24T03:12:06.985Z",
-  "totalLinks": 35
+  "lastUpdated": "2025-09-24T03:25:44.236Z",
+  "exportedAt": "2025-09-24T03:25:44.236Z",
+  "totalLinks": 36
 }
