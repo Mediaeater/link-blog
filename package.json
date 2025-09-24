@@ -13,7 +13,7 @@
     "format": "prettier --write .",
     "test": "vitest",
     "serve": "serve -s dist",
-    "sync": "node scripts/sync-from-browser.js",
+    "sync": "node scripts/sync-from-browser.cjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

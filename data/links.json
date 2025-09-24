@@ -451,7 +451,79 @@
       ],
       "timestamp": "2025-09-23T10:50:26.693Z",
       "visits": 0
+    },
+    {
+      "id": 1758676814994,
+      "url": "https://walzr.com/sf-parking/",
+      "source": "Find My Parking Cops",
+      "pullQuote": "Find My Friends?\n🙅 NO!!\nCop\nFind My Parking Cops!\nI reverse engineered San Francisco's parking ticket system to show you exactly where each parking cop last wrote a ticket.\nCop\nUpdates in real-time",
+      "tags": [
+        "surveillance",
+        "map",
+        "automotive",
+        "urban-hack"
+      ],
+      "tagInput": "surveillance, map, automotive, urban-hack",
+      "timestamp": "2025-09-24T01:20:14.994Z",
+      "visits": 0,
+      "isPinned": false
+    },
+    {
+      "id": 1758676997447,
+      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
+      "source": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
+      "pullQuote": "",
+      "tags": [
+        "surveillance",
+        "telcom"
+      ],
+      "tagInput": "surveillance, telcom",
+      "timestamp": "2025-09-24T01:23:17.447Z",
+      "visits": 0
+    },
+    {
+      "id": 1758677119226,
+      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
+      "source": "How China’s Propaganda and Surveillance Systems Really Operate",
+      "pullQuote": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
+      "tags": [
+        "technology",
+        "surveillance",
+        "society",
+        "cn"
+      ],
+      "tagInput": "technology, surveillance, society, cn",
+      "timestamp": "2025-09-24T01:25:19.226Z",
+      "visits": 0
+    },
+    {
+      "id": 1758684186513,
+      "url": "https://kk.org/thetechnium/the-periodic-table-of-cognition/",
+      "source": "The Periodic Table of Cognition",
+      "pullQuote": "It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple cognitive elements, combined in a complex system unique to each species of mind. The result that we call intelligence emerges from many different cognitive primitives such as long-term memory, spatial awareness, logical deduction, advance planning, pattern perception, and so on. There may be dozens of them, or hundreds. We currently don’t have any idea of what these elements are. We lack a periodic table of cognition. ",
+      "tags": [
+        "intelligence",
+        "cognition"
+      ],
+      "tagInput": "intelligence, cognition",
+      "timestamp": "2025-09-24T03:23:06.514Z",
+      "visits": 0
+    },
+    {
+      "id": 1758709743539,
+      "url": "https://cybersect.substack.com/p/that-secret-service-sim-farm-story",
+      "source": "That Secret Service SIM farm story is bogus",
+      "pullQuote": "The reality is that this is just a normal criminal threat that sometimes crashes cell towers. SMS is an ancient technology that works slowly even in modern cell networks. Too many SIM boxes spamming SMS in one location can indeed overwhelm a cell tower. You actually don’t need a bunch of SIM boxes to do it — you can sometimes crash a cell tower with a single baseband radio. Ask me how I know",
+      "tags": [
+        "sms",
+        "mobile",
+        "us-gov",
+        "networks"
+      ],
+      "tagInput": "sms, mobile, us-gov, networks",
+      "timestamp": "2025-09-24T10:29:03.539Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-23T10:50:26.694Z"
+  "lastUpdated": "2025-09-24T10:29:03.539Z"
 }

@@ -221,6 +221,114 @@ export default function LinkBlogClean() {
     await saveToFile(updatedLinks);
   };
 
+  // Export links
+  const exportLinks = () => {
+    try {
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T');
+      const dateStr = timestamp[0];
+      const timeStr = timestamp[1].split('-').slice(0, 2).join('-');
+
+      const dataStr = JSON.stringify({
+        links,
+        lastUpdated: new Date().toISOString(),
+        exportedAt: new Date().toISOString(),
+        totalLinks: links.length
+      }, null, 2);
+
+      const dataBlob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(dataBlob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `link-blog-export-${dateStr}-${timeStr}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+
+      console.log(`✅ Exported ${links.length} links`);
+    } catch (error) {
+      console.error('❌ Export failed:', error);
+      alert('Export failed. Please try again or check the console for details.');
+    }
+  };
+
+  // Import links
+  const importLinks = (event) => {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    console.log('📥 Starting import of', file.name);
+
+    const reader = new FileReader();
+    reader.onload = async (e) => {
+      try {
+        const importedData = JSON.parse(e.target.result);
+
+        if (!importedData.links || !Array.isArray(importedData.links)) {
+          throw new Error('Invalid file format. Expected JSON with "links" array.');
+        }
+
+        console.log(`📊 File contains ${importedData.links.length} links`);
+
+        const existingUrls = new Set(links.map(link => link.url));
+
+        const validNewLinks = importedData.links.filter(link => {
+          if (!link.url || !link.source) return false;
+          return !existingUrls.has(link.url);
+        }).map(link => ({
+          ...link,
+          id: link.id || Date.now() + Math.random(),
+          timestamp: link.timestamp || new Date().toISOString(),
+          visits: link.visits || 0,
+          tags: Array.isArray(link.tags) ? link.tags : [],
+          isPinned: Boolean(link.isPinned)
+        }));
+
+        const duplicates = importedData.links.length - validNewLinks.length;
+        const message = validNewLinks.length > 0
+          ? `Import ${validNewLinks.length} new links?${duplicates > 0 ? ` (${duplicates} duplicates will be skipped)` : ''}`
+          : `No new links to import (${duplicates} duplicates found)`;
+
+        if (validNewLinks.length === 0) {
+          alert(message);
+          console.log('ℹ️', message);
+          return;
+        }
+
+        const confirmImport = window.confirm(message);
+        if (confirmImport) {
+          const mergedLinks = [...links, ...validNewLinks];
+
+          try {
+            setLinks(mergedLinks);
+            await saveToFile(mergedLinks);
+
+            const successMsg = `✅ Successfully imported ${validNewLinks.length} links!`;
+            console.log(successMsg);
+            alert(successMsg);
+
+          } catch (error) {
+            console.error('❌ Failed to save imported links:', error);
+            setLinks(mergedLinks);
+            alert(`⚠️ Imported ${validNewLinks.length} links to UI, but save failed. Check if API server is running.`);
+          }
+        }
+
+      } catch (error) {
+        console.error('❌ Import failed:', error);
+        alert(`Import failed: ${error.message}`);
+      }
+    };
+
+    reader.onerror = () => {
+      console.error('❌ File reading failed');
+      alert('Failed to read the file. Please try again.');
+    };
+
+    reader.readAsText(file);
+    event.target.value = '';
+  };
+
   // Process multiple URLs
   const processUrlsFromPaste = useCallback(async (urls) => {
     const urlList = urls.split('\n').map(url => url.trim()).filter(url => url);
@@ -370,15 +478,6 @@ export default function LinkBlogClean() {
 
             {/* Actions */}
             <div className="flex items-center gap-2">
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-                className="input text-sm"
-              >
-                <option value={SORT_OPTIONS.DATE_DESC}>Newest</option>
-                <option value={SORT_OPTIONS.DATE_ASC}>Oldest</option>
-                <option value={SORT_OPTIONS.TITLE}>Title</option>
-              </select>
 
               {!isAdmin && links.length === 0 && (
                 <div className="text-sm text-neutral-500">
@@ -448,6 +547,27 @@ export default function LinkBlogClean() {
                 <Upload className="w-4 h-4 mr-2" />
                 Bulk Add URLs
               </button>
+
+              <button
+                onClick={exportLinks}
+                className="btn btn-sm btn-outline"
+                title={`Export all ${links.length} links to JSON file`}
+              >
+                <Download className="w-4 h-4 mr-2" />
+                Export ({links.length})
+              </button>
+
+              <label className="btn btn-sm btn-outline cursor-pointer">
+                <Upload className="w-4 h-4 mr-2" />
+                Import
+                <input
+                  type="file"
+                  accept=".json"
+                  onChange={importLinks}
+                  className="hidden"
+                  title="Import links from JSON file"
+                />
+              </label>
             </div>
 
             {/* Single Link Form */}

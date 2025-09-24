@@ -539,53 +539,117 @@ const LinkBlog = () => {
   };
   
   const exportLinks = () => {
-    const dataStr = JSON.stringify({ links, lastUpdated }, null, 2);
-    const dataBlob = new Blob([dataStr], { type: 'application/json' });
-    const url = URL.createObjectURL(dataBlob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `link-blog-export-${new Date().toISOString().split('T')[0]}.json`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
+    try {
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T');
+      const dateStr = timestamp[0];
+      const timeStr = timestamp[1].split('-').slice(0, 2).join('-');
+
+      const dataStr = JSON.stringify({
+        links,
+        lastUpdated,
+        exportedAt: new Date().toISOString(),
+        totalLinks: links.length
+      }, null, 2);
+
+      const dataBlob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(dataBlob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `link-blog-export-${dateStr}-${timeStr}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+
+      // Show success message
+      const successMsg = `✅ Exported ${links.length} links`;
+      console.log(successMsg);
+      // You could add a toast notification here
+
+    } catch (error) {
+      console.error('❌ Export failed:', error);
+      alert('Export failed. Please try again or check the console for details.');
+    }
   };
   
   const importLinks = (event) => {
     const file = event.target.files[0];
     if (!file) return;
-    
+
+    console.log('📥 Starting import of', file.name);
+
     const reader = new FileReader();
     reader.onload = async (e) => {
       try {
         const importedData = JSON.parse(e.target.result);
-        if (importedData.links && Array.isArray(importedData.links)) {
-          // Create a set of existing URLs for quick lookup
-          const existingUrls = new Set(links.map(link => link.url));
-          
-          // Filter out duplicates based on URL
-          const newLinks = importedData.links.filter(link => !existingUrls.has(link.url));
-          
-          const message = newLinks.length === importedData.links.length 
-            ? `Import ${newLinks.length} new links?`
-            : `Import ${newLinks.length} new links? (${importedData.links.length - newLinks.length} duplicates will be skipped)`;
-          
-          const confirmImport = window.confirm(message);
-          if (confirmImport) {
-            const mergedLinks = [...links, ...newLinks.map(link => ({ ...link, id: link.id || Date.now() + Math.random() }))]; 
-            try {
-              await saveToFile(mergedLinks);
-            } catch (error) {
-              console.error('Failed to import links:', error);
-            }
-          }
-        } else {
-          alert('Invalid file format. Expected JSON with links array.');
+
+        // Validate file structure
+        if (!importedData.links || !Array.isArray(importedData.links)) {
+          throw new Error('Invalid file format. Expected JSON with "links" array.');
         }
+
+        console.log(`📊 File contains ${importedData.links.length} links`);
+
+        // Create a set of existing URLs for quick lookup
+        const existingUrls = new Set(links.map(link => link.url));
+
+        // Filter out duplicates and validate each link
+        const validNewLinks = importedData.links.filter(link => {
+          if (!link.url || !link.source) return false;
+          return !existingUrls.has(link.url);
+        }).map(link => ({
+          ...link,
+          id: link.id || Date.now() + Math.random(),
+          timestamp: link.timestamp || new Date().toISOString(),
+          visits: link.visits || 0,
+          tags: Array.isArray(link.tags) ? link.tags : [],
+          isPinned: Boolean(link.isPinned)
+        }));
+
+        const duplicates = importedData.links.length - validNewLinks.length;
+        const message = validNewLinks.length > 0
+          ? `Import ${validNewLinks.length} new links?${duplicates > 0 ? ` (${duplicates} duplicates will be skipped)` : ''}`
+          : `No new links to import (${duplicates} duplicates found)`;
+
+        if (validNewLinks.length === 0) {
+          alert(message);
+          console.log('ℹ️', message);
+          return;
+        }
+
+        const confirmImport = window.confirm(message);
+        if (confirmImport) {
+          const mergedLinks = [...links, ...validNewLinks];
+
+          try {
+            setLinks(mergedLinks);
+            await saveLinks(mergedLinks);
+
+            const successMsg = `✅ Successfully imported ${validNewLinks.length} links!`;
+            console.log(successMsg);
+            alert(successMsg);
+
+          } catch (error) {
+            console.error('❌ Failed to save imported links:', error);
+
+            // Still update the UI even if API save fails
+            setLinks(mergedLinks);
+
+            alert(`⚠️ Imported ${validNewLinks.length} links to UI, but save failed. Check if API server is running.`);
+          }
+        }
+
       } catch (error) {
-        alert('Invalid JSON file. Please check the format.');
+        console.error('❌ Import failed:', error);
+        alert(`Import failed: ${error.message}`);
       }
     };
+
+    reader.onerror = () => {
+      console.error('❌ File reading failed');
+      alert('Failed to read the file. Please try again.');
+    };
+
     reader.readAsText(file);
     event.target.value = ''; // Reset file input
   };
@@ -791,7 +855,29 @@ const LinkBlog = () => {
                 <Zap size={12} className="sm:mr-1" />
                 <span className="hidden sm:inline">Quick Add</span>
               </Button>
-              
+
+              <Button
+                onClick={exportLinks}
+                className="btn-primary bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-xs sm:text-sm"
+                title={`Export all ${links.length} links to JSON file`}
+              >
+                <Download size={12} className="sm:mr-1" />
+                <span className="hidden sm:inline">Export</span>
+                <span className="text-[10px] opacity-80 ml-1">({links.length})</span>
+              </Button>
+
+              <label className="btn-primary bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-xs sm:text-sm cursor-pointer inline-flex items-center px-3 py-2 rounded-md font-medium transition-colors">
+                <Upload size={12} className="sm:mr-1" />
+                <span className="hidden sm:inline">Import</span>
+                <input
+                  type="file"
+                  accept=".json"
+                  onChange={importLinks}
+                  className="hidden"
+                  title="Import links from JSON file"
+                />
+              </label>
+
               <Button
                 onClick={() => setShowFilters(!showFilters)}
                 className="btn-primary text-xs sm:text-sm"
@@ -822,24 +908,6 @@ const LinkBlog = () => {
               <Rss size={12} className="inline mr-1" />
               RSS Feed
             </button>
-            <button
-              onClick={exportLinks}
-              className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded hover:bg-blue-200"
-              title="Export all links"
-            >
-              <Download size={12} className="inline mr-1" />
-              Export
-            </button>
-            <label className="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded hover:bg-purple-200 cursor-pointer">
-              <Upload size={12} className="inline mr-1" />
-              Import JSON
-              <input
-                type="file"
-                accept=".json"
-                onChange={importLinks}
-                className="hidden"
-              />
-            </label>
             <button
               onClick={() => setShowBookmarkImporter(true)}
               className="text-xs bg-indigo-100 text-indigo-800 px-2 py-1 rounded hover:bg-indigo-200"
@@ -956,20 +1024,6 @@ const LinkBlog = () => {
             />
           </div>
           
-          <div className="flex items-center gap-2 min-w-0">
-            <ArrowUpDown size={14} className="text-black hidden sm:block" />
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="px-2 sm:px-3 py-2 border rounded-md text-xs sm:text-sm min-w-0 bg-white border-gray-300 text-gray-900"
-            >
-              <option value={SORT_OPTIONS.DATE_DESC}>↓</option>
-              <option value={SORT_OPTIONS.DATE_ASC}>↑</option>
-              <option value={SORT_OPTIONS.TITLE}>Alphabetical</option>
-              <option value={SORT_OPTIONS.TAG_RELEVANCE}>Most Tags</option>
-              <option value={SORT_OPTIONS.POPULARITY}>Most Visited</option>
-            </select>
-          </div>
           
           {(searchTerm || selectedTags.length > 0) && (
             <Button
