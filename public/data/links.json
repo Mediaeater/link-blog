@@ -644,7 +644,36 @@
       "tagInput": "socialmedia, decentralization, open-social",
       "timestamp": "2025-09-27T12:37:09.504Z",
       "visits": 0
+    },
+    {
+      "id": 1758984906467,
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "source": "Bill Text - SB-53 Artificial intelligence models: large developers.",
+      "pullQuote": "22757.14. (a) On or before January 1, 2027, and annually thereafter, the Department of Technology shall assess recent evidence and developments relevant to the purposes of this chapter and shall make recommendations about whether and how to update any of the following definitions for the purposes of this chapter to ensure that they accurately reflect technological developments, scientific literature, and widely accepted national and international standards:\n(1) “Frontier model” so that it applies to foundation models at the frontier of artificial intelligence development.\n(2) “Frontier developer” so that it applies to developers of frontier models who are themselves at the frontier of artificial intelligence development.\n(3) “Large frontier developer” so that it applies to well-resourced frontier developers.\n(b) In making recommendations pursuant to this section, the Department of Technology shall take into account all of the following: (1) Similar thresholds used in international standards or federal law, guidance, or regulations for the management of catastrophic risk and shall align with a definition adopted in a federal law or regulation to the extent that it is consistent with the purposes of this chapter. (2) Input from stakeholders, including academics, industry, the open-source community, and governmental entities.",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "legislation",
+        "california"
+      ],
+      "tagInput": "ai, machine-learning, legislation, california",
+      "timestamp": "2025-09-27T14:55:06.467Z",
+      "visits": 0
+    },
+    {
+      "id": 1759003849895,
+      "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
+      "source": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
+      "pullQuote": "The U.S. government holds extensive data about everyone living inside its borders, some of it very sensitive—and there’s not much that can be done about it. This information consists largely of facts that people are legally obligated to tell the government. The IRS has a lot of very sensitive data about personal finances. The Treasury Department has data about any money received from the government. The Office of Personnel Management has an enormous amount of detailed information about government employees—including the very personal form required to get a security clearance. The Census Bureau possesses vast data about everyone living in the U.S., including, for example, a database of real estate ownership in the country. The Department of Defense and the Bureau of Veterans Affairs have data about present and former members of the military, the Department of Homeland Security has travel information, and various agencies possess health records. And so on.\n\n",
+      "tags": [
+        "opsec",
+        "security",
+        "usa"
+      ],
+      "tagInput": "opsec, security, usa",
+      "timestamp": "2025-09-27T20:10:49.895Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-27T12:37:09.504Z"
+  "lastUpdated": "2025-09-27T20:10:49.895Z"
 }
