@@ -1,6 +1,96 @@
 {
   "links": [
     {
+      "id": 1759116996981.7578,
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "source": "Petition: Do not introduce Digital ID cards",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T03:36:36.981Z",
+      "visits": 0
+    },
+    {
+      "id": 1759116996981.6274,
+      "url": "https://climatetrace.org/",
+      "source": "Climate TRACE",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T03:36:36.981Z",
+      "visits": 0
+    },
+    {
+      "id": 1759116996981.2842,
+      "url": "https://climatetrace.org/air-pollution",
+      "source": "Air pollution",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T03:36:36.981Z",
+      "visits": 0
+    },
+    {
+      "id": 1759116996981.0823,
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "source": "Farewell Friends - HumbleDollar",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T03:36:36.981Z",
+      "visits": 0
+    },
+    {
+      "id": 1759116996981.6323,
+      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
+      "source": "bloomberg.com",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T03:36:36.981Z",
+      "visits": 0
+    },
+    {
+      "id": 1759107086114.2097,
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "source": "Petition: Do not introduce Digital ID cards",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T00:51:26.114Z",
+      "visits": 0
+    },
+    {
+      "id": 1759107086115.44,
+      "url": "https://climatetrace.org/",
+      "source": "Climate TRACE",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T00:51:26.115Z",
+      "visits": 0
+    },
+    {
+      "id": 1759107086115.6147,
+      "url": "https://climatetrace.org/air-pollution",
+      "source": "Air pollution",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T00:51:26.115Z",
+      "visits": 0
+    },
+    {
+      "id": 1759107086115.4614,
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "source": "Farewell Friends - HumbleDollar",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T00:51:26.115Z",
+      "visits": 0
+    },
+    {
+      "id": 1759107086115.2908,
+      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
+      "source": "bloomberg.com",
+      "pullQuote": "",
+      "tags": [],
+      "timestamp": "2025-09-29T00:51:26.115Z",
+      "visits": 0
+    },
+    {
       "id": 1758461704343.3533,
       "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
       "source": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
@@ -11,7 +101,7 @@
         "tutorial"
       ],
       "timestamp": "2025-09-21T13:35:04.343Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "url": "https://archive.is/2uVSl",
@@ -519,19 +609,6 @@
       "isPinned": false
     },
     {
-      "id": 1758676997447,
-      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
-      "source": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
-      "pullQuote": "",
-      "tags": [
-        "surveillance",
-        "telcom"
-      ],
-      "tagInput": "surveillance, telcom",
-      "timestamp": "2025-09-24T01:23:17.447Z",
-      "visits": 0
-    },
-    {
       "id": 1758677119226,
       "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
       "source": "How China’s Propaganda and Surveillance Systems Really Operate",
@@ -572,7 +649,22 @@
       ],
       "tagInput": "sms, mobile, us-gov, networks",
       "timestamp": "2025-09-24T10:29:03.539Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
+    },
+    {
+      "id": 1758676997447,
+      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
+      "source": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
+      "pullQuote": "",
+      "tags": [
+        "surveillance",
+        "telcom"
+      ],
+      "tagInput": "surveillance, telcom",
+      "timestamp": "2025-09-24T01:23:17.447Z",
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758972547893,
@@ -587,7 +679,8 @@
       ],
       "tagInput": "surveillance, redaction, frt, privacy",
       "timestamp": "2025-09-27T11:29:07.893Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758975582766,
@@ -600,7 +693,8 @@
       ],
       "tagInput": "music, ai",
       "timestamp": "2025-09-27T12:20:19.268Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758975845168,
@@ -615,7 +709,8 @@
       ],
       "tagInput": "apple, eu, dma, music",
       "timestamp": "2025-09-27T12:24:05.168Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758976489524,
@@ -629,7 +724,8 @@
       ],
       "tagInput": "happiness, map, finland",
       "timestamp": "2025-09-27T12:34:49.524Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758976629504,
@@ -643,7 +739,8 @@
       ],
       "tagInput": "socialmedia, decentralization, open-social",
       "timestamp": "2025-09-27T12:37:09.504Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758984906467,
@@ -658,7 +755,8 @@
       ],
       "tagInput": "ai, machine-learning, legislation, california",
       "timestamp": "2025-09-27T14:55:06.467Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1759003849895,
@@ -672,8 +770,69 @@
       ],
       "tagInput": "opsec, security, usa",
       "timestamp": "2025-09-27T20:10:49.895Z",
+      "visits": 0,
+      "isPinned": false
+    },
+    {
+      "id": 1759117178224,
+      "url": "https://climatetrace.org/air-pollution",
+      "source": "Air pollution",
+      "pullQuote": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
+      "tags": [
+        "climate",
+        "aqi",
+        "map"
+      ],
+      "tagInput": "climate, aqi, map",
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:39:38.224Z",
+      "visits": 0
+    },
+    {
+      "id": 1759117269413,
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "source": "Petition: Do not introduce Digital ID cards",
+      "pullQuote": "Petition Do not introduce Digital ID cards We demand that the UK Government immediately commits to not introducing a digital ID cards. There are reports that this is being looked at.\n\nWe think this would be a step towards mass surveillance and digital control, and that no one should be forced to register with a state-controlled ID system. We oppose the creation of any national ID system. ID cards were scrapped in 2010, in our view for good reason. Sign this petition 2,388,642 signatures",
+      "tags": [
+        "surveillance",
+        "harms",
+        "ethics",
+        "privacy",
+        "uk"
+      ],
+      "tagInput": "surveillance, harms, ethics, privacy, uk",
+      "timestamp": "2025-09-29T03:41:09.413Z",
+      "visits": 0
+    },
+    {
+      "id": 1759117372389,
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "source": "Farewell Friends - HumbleDollar",
+      "pullQuote": "Have been seeing a lot of these, its a good idea to print your own legend. If this post is appearing, it means I’ve succumbed to cancer or one of its side effects. Please don’t feel sad for me. I’ve had a life filled with love, great experiences and wonderful career opportunities. Despite my demise at a relatively young age, I consider myself beyond fortunate.\n\n",
+      "tags": [
+        "death",
+        "obit"
+      ],
+      "tagInput": "death, obit",
+      "timestamp": "2025-09-29T03:42:52.389Z",
+      "visits": 0
+    },
+    {
+      "id": 1759117485587,
+      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash? ",
+      "source": "CEO of Controversial Startup Vows to Keep Mass Publishing AI Podcasts Despite Backlash",
+      "pullQuote": "So far, the company hasn’t spent any money on marketing for its shows and only relies on in-platform searches. She said Apple Podcasts, Spotify and other platforms mostly just encourage people to disclose when they use AI, which she said the company does. (I saw disclosures in some shows, but not all, which we’ll get into below.)\n\n“To make another bold prediction, I think that within the next 12 months, certainly 24 months, I think AI becomes the default way that people are making content,” Wright said. “And so we will move away from having a disclosure the same way that you don’t disclose that a movie is made with CGI.”",
+      "tags": [
+        "ethics",
+        "podcast",
+        "ai"
+      ],
+      "tagInput": "ethics, podcast, ai",
+      "timestamp": "2025-09-29T03:44:45.587Z",
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-27T20:10:49.895Z"
+  "lastUpdated": "2025-09-29T03:45:19.150Z",
+  "exportedAt": "2025-09-29T03:45:19.150Z",
+  "totalLinks": 61
 }
