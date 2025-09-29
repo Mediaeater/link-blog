@@ -830,9 +830,36 @@
       "tagInput": "ethics, podcast, ai",
       "timestamp": "2025-09-29T03:44:45.587Z",
       "visits": 0
+    },
+    {
+      "id": 1759145340527,
+      "url": "https://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5",
+      "source": "The secret to great art? Finding someone else to make it",
+      "pullQuote": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5\n\n\t “With today’s tools — including AI — it’s no longer necessary for artists to learn a craft. What matters is the content, the idea. It doesn’t matter what tools you use if you achieve it.” But even Abramović has found fabricators indispensable. On her carved self-portraits Five Stages of Maya Dance (2013), she spent seven years collaborating with Factum Arte co-founder Adam Lowe\n",
+      "tags": [
+        "art",
+        "authorship"
+      ],
+      "tagInput": "art, authorship",
+      "timestamp": "2025-09-29T11:29:00.527Z",
+      "visits": 0
+    },
+    {
+      "id": 1759146044878,
+      "url": "https://csrankings.org/#/index?all&us",
+      "source": "csrankings.org",
+      "pullQuote": "#\tInstitution                    \tCount\t Faculty\n1    \t► Tsinghua University China closed chart\t8.6\t148\n2   \t► Carnegie Mellon University United States closed chart\t8.1\t162\n3   \t► Shanghai Jiao Tong University China closed chart\t7.0\t165\n4   \t► Georgia Institute of Technology United States closed chart\t6.3\t137\n5   \t► Peking University China closed chart\t6.2\t149\n5   \t► Zhejiang University China closed chart\t6.2\t115\n",
+      "tags": [
+        "learning",
+        "education",
+        "university."
+      ],
+      "tagInput": "learning, education, university.",
+      "timestamp": "2025-09-29T11:40:44.878Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-29T03:45:19.150Z",
-  "exportedAt": "2025-09-29T03:45:19.150Z",
-  "totalLinks": 61
+  "lastUpdated": "2025-09-29T11:45:37.377Z",
+  "exportedAt": "2025-09-29T11:45:37.377Z",
+  "totalLinks": 63
 }
