@@ -857,9 +857,52 @@
       "tagInput": "learning, education, university.",
       "timestamp": "2025-09-29T11:40:44.878Z",
       "visits": 0
+    },
+    {
+      "id": 1759229447683,
+      "url": "https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates",
+      "source": "FAA Statement - Boeing Airworthiness Certificates",
+      "pullQuote": "The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. An airworthiness certificate confirms an aircraft is safe to operate.  \n\nSafety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely.",
+      "tags": [
+        "regulation",
+        "air-travel",
+        "harms"
+      ],
+      "tagInput": "regulation, air-travel, harms",
+      "timestamp": "2025-09-30T10:50:47.683Z",
+      "visits": 0
+    },
+    {
+      "id": 1759233580119,
+      "url": "https://www.politico.com/news/2025/09/29/newsom-signs-ai-law-00585348",
+      "source": "newsom-signs-ai-law-00585348",
+      "pullQuote": "The measure, SB 53, requires some AI developers to publicly disclose their safety and security protocols. It also creates a way for companies and the public to report major safety incidents to the state. The law includes whistleblower protections for AI workers and lays the groundwork for a state-run cloud computing cluster dubbed CalCompute.\n\n",
+      "tags": [
+        "ai",
+        "ethics",
+        "llm",
+        "legislation"
+      ],
+      "tagInput": "ai, ethics, llm, legislation",
+      "timestamp": "2025-09-30T12:00:10.419Z",
+      "visits": 0
+    },
+    {
+      "id": 1759234503481,
+      "url": "https://lightcapai.medium.com/the-loneliness-epidemic-threatens-physical-health-like-smoking-e063220dde8b",
+      "source": "The loneliness epidemic threatens physical health like smoking",
+      "pullQuote": "Chronic loneliness increases mortality risk by 32% and dementia risk by 31%, with biological pathways now proven through inflammation, immune dysfunction, and epigenetic changes affecting over 2.2 million studied individuals. Evidence-based interventions combining cognitive behavioral therapy, mindfulness, and community programs demonstrate measurable success — with some achieving 48% reduction in loneliness within six months and generating £3.42 in healthcare savings per £1 invested. The most effective individual strategies include structured 8-week mindfulness programs reducing daily loneliness by 22%, while community-based social prescribing has reached 9.4 million healthcare visits in the UK alone, proving that this epidemic is both scientifically understood and practically treatable through targeted interventions.",
+      "tags": [
+        "health",
+        "harms",
+        "loneliness"
+      ],
+      "tagInput": "health, harms, loneliness",
+      "timestamp": "2025-09-30T12:15:03.481Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-09-29T11:45:37.377Z",
-  "exportedAt": "2025-09-29T11:45:37.377Z",
-  "totalLinks": 63
+  "lastUpdated": "2025-09-30T12:26:56.843Z",
+  "exportedAt": "2025-09-30T12:26:56.843Z",
+  "totalLinks": 66
 }
