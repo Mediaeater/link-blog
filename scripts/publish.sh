@@ -4,7 +4,7 @@
 DATE=$(date +'%B %d, %Y')
 
 # Add all changed files
-git add public/data/links.json
+git add data/links.json public/data/links.json
 
 # Commit changes
 git commit -m "Mediaeater Digest - $DATE"

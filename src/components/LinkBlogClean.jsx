@@ -50,10 +50,12 @@ export default function LinkBlogClean() {
   // Load links from storage
   const loadLinks = useCallback(async () => {
     try {
+      console.log('Loading links from storage...');
       // Try to load from JSON first
       const response = await fetch('/data/links.json?t=' + Date.now());
       if (response.ok) {
         const jsonData = await response.json();
+        console.log('Loaded JSON data:', jsonData);
 
         // Also check localStorage
         const stored = localStorage.getItem(STORAGE_KEY);
@@ -133,7 +135,7 @@ export default function LinkBlogClean() {
       if (!response.ok) throw new Error('Failed to fetch metadata');
       const data = await response.json();
 
-      if (data.status === 'success') {
+      if (data.status === 'success' && data.data) {
         return {
           title: data.data.title || '',
           description: data.data.description || '',
@@ -145,9 +147,14 @@ export default function LinkBlogClean() {
       console.error('Error fetching metadata:', error);
     }
 
-    // Fallback
-    const domain = new URL(url).hostname.replace('www.', '');
-    return { title: domain, description: '', image: '', favicon: '' };
+    // Fallback - wrap in try-catch for invalid URLs
+    try {
+      const domain = new URL(url).hostname.replace('www.', '');
+      return { title: domain, description: '', image: '', favicon: '' };
+    } catch (urlError) {
+      console.error('Invalid URL:', url, urlError);
+      return { title: url, description: '', image: '', favicon: '' };
+    }
   };
 
   // Add link
@@ -340,7 +347,7 @@ export default function LinkBlogClean() {
 
       processed.push({
         url,
-        source: metadata.title.slice(0, MAX_TITLE_LENGTH),
+        source: (metadata.title || url).slice(0, MAX_TITLE_LENGTH),
         pullQuote: '',
         tags: suggestedTags.slice(0, 5),
         metadata
@@ -609,7 +616,7 @@ export default function LinkBlogClean() {
                         const newTags = prev.tags.length === 0 ? suggestedTags.slice(0, 5) : prev.tags;
                         return {
                           ...prev,
-                          source: prev.source || metadata.title.slice(0, MAX_TITLE_LENGTH),
+                          source: prev.source || (metadata.title || newLink.url).slice(0, MAX_TITLE_LENGTH),
                           tags: newTags,
                           tagInput: newTags.join(', ')
                         };
@@ -832,7 +839,13 @@ export default function LinkBlogClean() {
                           </a>
                         </h3>
                         <p className="text-sm text-neutral-500 truncate">
-                          {new URL(link.url).hostname.replace('www.', '')}
+                          {(() => {
+                            try {
+                              return new URL(link.url).hostname.replace('www.', '');
+                            } catch {
+                              return link.url;
+                            }
+                          })()}
                         </p>
                       </div>
                     </div>
