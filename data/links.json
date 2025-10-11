@@ -990,7 +990,23 @@
       "tagInput": "sora, video, likeness, video-gen, openai",
       "timestamp": "2025-10-06T20:45:18.885Z",
       "visits": 0
+    },
+    {
+      "id": 1759842284784,
+      "url": "https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/",
+      "source": "MPA Issues Statement on OpenAI’s Recent Release of Sora 2",
+      "pullQuote": "WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of Sora 2. “‘Since Sora 2’s release, videos that infringe our members’ films, shows, and characters have proliferated on OpenAI’s service and across social media. While OpenAI clarified it will ‘soon’ offer rightsholders more control over character generation, they must acknowledge it remains their responsibility – not rightsholders’ – to prevent infringement on the Sora 2 service. OpenAI needs to take immediate and decisive action to address this issue. Well-established copyright law safeguards the rights of creators and applies here.”",
+      "tags": [
+        "opeani",
+        "ethics",
+        "hollywood"
+      ],
+      "tagInput": "opeani, ethics, hollywood",
+      "timestamp": "2025-10-07T13:04:44.784Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-06T20:45:18.885Z"
+  "lastUpdated": "2025-10-11T18:18:24.248Z",
+  "exportedAt": "2025-10-11T18:18:24.248Z",
+  "totalLinks": 73
 }
