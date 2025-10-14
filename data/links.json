@@ -1079,8 +1079,8 @@
     },
     {
       "id": 1760436955686,
-      "url": "Watch A Teaser For The First Film Made With An AI Director",
-      "source": "https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "url": "https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "source": " film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
       "pullQuote": "An AI system called \"FellinAI\" takes the director's chair for \"The Sweet Idleness\" from Italian producer Andrea Iervolino. The film depicts a world ruled by automation.",
       "tags": [
         "ai",
@@ -1089,11 +1089,43 @@
         "ai-hollywood"
       ],
       "tagInput": "ai, hollywood, trailer, ai-hollywood",
-      "timestamp": "2025-10-14T10:15:55.686Z",
+      "timestamp": "2025-10-14T10:24:05.430Z",
+      "visits": 0
+    },
+    {
+      "id": 1760437406690,
+      "url": "https://github.com/karpathy/nanochat",
+      "source": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
+      "pullQuote": "This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end. This includes tokenization, pretraining, finetuning, evaluation, inference, and web serving over a simple UI so that you can talk to your own LLM just like ChatGPT. nanochat will become the capstone project of the course LLM101n being developed by Eureka Labs.",
+      "tags": [
+        "code",
+        "github",
+        "open-source"
+      ],
+      "tagInput": "code, github, open-source",
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:23:26.690Z",
+      "visits": 0
+    },
+    {
+      "id": 1760437958317,
+      "url": "https://www.gov.ca.gov/2025/10/08/governor-newsom-signs-data-privacy-bills-to-protect-tech-users/",
+      "source": "Governor Newsom signs data privacy bills to protect tech users | Governor of California",
+      "pullQuote": "requires social media companies to make it clear and easy for a user to delete their account – and requires that deletion also trigger full deletion of the user’s personal data. This law builds on the administration’s prior work to protect consumers and their privacy.",
+      "tags": [
+        "california",
+        "ca",
+        "privacy",
+        "legislation",
+        "socialmedia"
+      ],
+      "tagInput": "california, ca, privacy, legislation, socialmedia",
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:32:38.317Z",
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-14T10:16:03.061Z",
-  "exportedAt": "2025-10-14T10:16:03.061Z",
-  "totalLinks": 79
+  "lastUpdated": "2025-10-14T12:31:15.550Z",
+  "exportedAt": "2025-10-14T12:31:15.550Z",
+  "totalLinks": 81
 }
