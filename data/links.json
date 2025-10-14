@@ -1004,9 +1004,96 @@
       "tagInput": "opeani, ethics, hollywood",
       "timestamp": "2025-10-07T13:04:44.784Z",
       "visits": 0
+    },
+    {
+      "id": 1760206840614,
+      "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149",
+      "source": "Deciphering complex coral reef soundscapes with spatial audio and 360° video",
+      "pullQuote": "We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings.",
+      "tags": [
+        "audio",
+        "fish",
+        "water",
+        "recordings",
+        "paper"
+      ],
+      "tagInput": "audio, fish, water, recordings, paper",
+      "timestamp": "2025-10-11T18:20:40.614Z",
+      "visits": 0
+    },
+    {
+      "id": 1760207084313,
+      "url": "https://aistudio.google.com/gen-media",
+      "source": "aistudio.google",
+      "pullQuote": "Google generative media portal ",
+      "tags": [
+        "google",
+        "studio",
+        "ai generative-media",
+        "media"
+      ],
+      "tagInput": "google, studio, ai generative-media, media",
+      "timestamp": "2025-10-11T18:24:44.313Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436518044,
+      "url": "https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html",
+      "source": "Opinion | The A.I. Bubble Looks Real",
+      "pullQuote": "Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points.",
+      "tags": [
+        "AI",
+        "business"
+      ],
+      "tagInput": "AI, business",
+      "timestamp": "2025-10-14T10:08:38.044Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436619633,
+      "url": "https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf",
+      "source": "Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites",
+      "pullQuote": "Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. \n\nWe perform the first broad scan of IP traffic on 39 GEO satellites across 25 distinct longitudes with 411 transponders using consumergrade equipment. We overcome the poor signal quality plaguing prior work and build the first general parser that can handle the diverse protocols in use by heterogeneous endpoints. We found 50% of GEO links contained cleartext IP traffic; while link-layer encryption has been standard practice in satellite TV for decades, IP links typically lacked encryption at both the link and network layers. This gives us a unique view into the internal network security practices of these organizations. We observed unencrypted cellular backhaul traffic from several providers including cleartext call and text contents, job scheduling and industrial control systems for utility infrastructure, military asset tracking, ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "tagInput": "pdf, documentation",
+      "timestamp": "2025-10-14T10:10:19.633Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436847202,
+      "url": "https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps",
+      "source": "OpenAI will eventually allow “mature” ChatGPT apps.",
+      "pullQuote": "\"Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.\"\nhttps://developers.openai.com/apps-sdk/app-developer-guidelines",
+      "tags": [
+        "standards",
+        "openai",
+        "ai",
+        "ethics"
+      ],
+      "tagInput": "standards, openai, ai, ethics",
+      "timestamp": "2025-10-14T10:14:07.202Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436955686,
+      "url": "Watch A Teaser For The First Film Made With An AI Director",
+      "source": "https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "pullQuote": "An AI system called \"FellinAI\" takes the director's chair for \"The Sweet Idleness\" from Italian producer Andrea Iervolino. The film depicts a world ruled by automation.",
+      "tags": [
+        "ai",
+        "hollywood",
+        "trailer",
+        "ai-hollywood"
+      ],
+      "tagInput": "ai, hollywood, trailer, ai-hollywood",
+      "timestamp": "2025-10-14T10:15:55.686Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-11T18:18:24.248Z",
-  "exportedAt": "2025-10-11T18:18:24.248Z",
-  "totalLinks": 73
+  "lastUpdated": "2025-10-14T10:16:03.061Z",
+  "exportedAt": "2025-10-14T10:16:03.061Z",
+  "totalLinks": 79
 }
