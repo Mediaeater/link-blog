@@ -851,7 +851,7 @@ export default function LinkBlogClean() {
                 <div><span className="font-medium">Quote:</span> Pull quote or excerpt</div>
                 <div><span className="font-medium">Tags:</span> Topic categories (clickable)</div>
                 <div><span className="font-medium">Date:</span> When link was added</div>
-                <div><span className="font-medium">Visits:</span> Click count (admin only)</div>
+                <div><span className="font-medium">Visits:</span> Count in brackets [N]</div>
               </div>
             </div>
           </div>
@@ -942,8 +942,10 @@ export default function LinkBlogClean() {
 
                     {/* Metadata */}
                     <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">
-                      <span>{new Date(link.timestamp).toLocaleDateString()}</span>
-                      {link.visits > 0 && <span>{link.visits} visits</span>}
+                      <span>
+                        {new Date(link.timestamp).toLocaleDateString()}
+                        {link.visits > 0 && ` [${link.visits}]`}
+                      </span>
                     </div>
                   </div>
 
