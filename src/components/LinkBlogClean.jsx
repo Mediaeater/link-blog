@@ -866,7 +866,7 @@ export default function LinkBlogClean() {
               {filteredAndSortedLinks.length}:{links.length}
             </span>
             <span>
-              {selectedTags.length > 0 && `Filtered by: ${selectedTags.join(', ')}`}
+              {selectedTags.length > 0 && `Filtered by topic: ${selectedTags.join(', ')}`}
             </span>
           </div>
 
