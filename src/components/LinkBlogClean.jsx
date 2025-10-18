@@ -477,14 +477,17 @@ export default function LinkBlogClean() {
             {/* Logo/Title */}
             <div>
               <h1 className="text-xl font-semibold">newsfeeds.net</h1>
-              <div className="text-xs text-neutral-600 mt-1">
-                <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline">RSS</a>
-                {' / '}
-                <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline">JSON Feed</a>
-                {' / '}
-                <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline">OPML</a>
-                {' / '}
-                <span>(c)mediaeater.inc 2025</span>
+              <div className="text-xs text-neutral-600 mt-1 space-y-1">
+                <div>
+                  <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline">RSS</a>
+                  {' / '}
+                  <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline">JSON Feed</a>
+                  {' / '}
+                  <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline">OPML</a>
+                </div>
+                <div>
+                  <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:underline">(c)mediaeater.inc 2025</a>
+                </div>
               </div>
             </div>
 
