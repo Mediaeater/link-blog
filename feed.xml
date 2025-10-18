@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mediaeater Digest</title>
+        <link>https://mediaeater.github.io/link-blog/</link>
+        <description>Latest links and resources</description>
+        <lastBuildDate>Sat, 18 Oct 2025 18:53:50 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Petition: Do not introduce Digital ID cards]]></title>
+            <link>https://petition.parliament.uk/petitions/730194</link>
+            <guid>1759116996981.7578</guid>
+            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Climate TRACE]]></title>
+            <link>https://climatetrace.org/</link>
+            <guid>1759116996981.6274</guid>
+            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Air pollution]]></title>
+            <link>https://climatetrace.org/air-pollution</link>
+            <guid>1759116996981.2842</guid>
+            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Farewell Friends - HumbleDollar]]></title>
+            <link>https://humbledollar.com/forum/farewell-friends/</link>
+            <guid>1759116996981.0823</guid>
+            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[bloomberg.com]]></title>
+            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?</link>
+            <guid>1759116996981.6323</guid>
+            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Petition: Do not introduce Digital ID cards]]></title>
+            <link>https://petition.parliament.uk/petitions/730194</link>
+            <guid>1759107086114.2097</guid>
+            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Climate TRACE]]></title>
+            <link>https://climatetrace.org/</link>
+            <guid>1759107086115.44</guid>
+            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Air pollution]]></title>
+            <link>https://climatetrace.org/air-pollution</link>
+            <guid>1759107086115.6147</guid>
+            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Farewell Friends - HumbleDollar]]></title>
+            <link>https://humbledollar.com/forum/farewell-friends/</link>
+            <guid>1759107086115.4614</guid>
+            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[bloomberg.com]]></title>
+            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?</link>
+            <guid>1759107086115.2908</guid>
+            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever]]></title>
+            <link>https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html</link>
+            <guid>1758461704343.3533</guid>
+            <pubDate>Sun, 21 Sep 2025 13:35:04 GMT</pubDate>
+            <description><![CDATA[Tags: tools, useful, tutorial]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Artificial intelligence ushers in a golden age of hacking, experts say]]></title>
+            <link>https://archive.is/2uVSl</link>
+            <guid>1758451000932</guid>
+            <pubDate>Sun, 21 Sep 2025 10:36:40 GMT</pubDate>
+            <description><![CDATA[Tags: ai, security, important, opsec, ai-security]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TV Time Machine: A Raspberry Pi That Plays Random 90s TV]]></title>
+            <link>https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html</link>
+            <guid>1758450291142</guid>
+            <pubDate>Sun, 21 Sep 2025 10:24:51 GMT</pubDate>
+            <description><![CDATA[Tags: tv, raspi, playlist]]></description>
+        </item>
+        <item>
+            <title><![CDATA[macOS becomes iOS: Safari video controls]]></title>
+            <link>https://underpassapp.com/news/2025/9/8.html</link>
+            <guid>1758420167781</guid>
+            <pubDate>Sun, 21 Sep 2025 02:03:31 GMT</pubDate>
+            <description><![CDATA[Tags: video, macos, ios, apple]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Build Real-Time Knowledge Graphs for AI Agents]]></title>
+            <link>https://github.com/getzep/graphiti</link>
+            <guid>1757420687354</guid>
+            <pubDate>Sun, 21 Sep 2025 02:00:16 GMT</pubDate>
+            <description><![CDATA[Tags: code, github, open-source, agent, knowledge-graph]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI: what will become of the truth?]]></title>
+            <link>https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd</link>
+            <guid>1758419960663</guid>
+            <pubDate>Sun, 21 Sep 2025 01:59:36 GMT</pubDate>
+            <description><![CDATA[Tags: ai, memory, truth]]></description>
+        </item>
+        <item>
+            <title><![CDATA[a Clock]]></title>
+            <link>https://www.aclock.live/</link>
+            <guid>1758419426665</guid>
+            <pubDate>Sun, 21 Sep 2025 01:50:26 GMT</pubDate>
+            <description><![CDATA[Tags: art, clock, time, copyright, bootleg]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How AI and surveillance capitalism are undermining democracy]]></title>
+            <link>https://thebulletin.org/2025/08/how-ai-and-surveillance-capitalism-are-undermining-democracy/</link>
+            <guid>1758419073450</guid>
+            <pubDate>Sun, 21 Sep 2025 01:44:33 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Chyrons]]></title>
+            <link>https://walzr.com/chyrons</link>
+            <guid>1757676909317</guid>
+            <pubDate>Fri, 12 Sep 2025 11:35:09 GMT</pubDate>
+            <description><![CDATA[Tags: broadcast, news, chryon]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Spotify feature is doxxing]]></title>
+            <link>https://www.reddit.com/r/truespotify/comments/1n5yod7/new_spotify_feature_is_doxxing/</link>
+            <guid>1757418298444</guid>
+            <pubDate>Tue, 09 Sep 2025 11:44:58 GMT</pubDate>
+            <description><![CDATA[Tags: reddit, spotify, privacy, music]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How can I disable PFC (AI generated content)?]]></title>
+            <link>https://community.spotify.com/t5/Content-Questions/How-can-I-disable-PFC-AI-generated-content/td-p/6956494</link>
+            <guid>1757367362331</guid>
+            <pubDate>Tue, 09 Sep 2025 11:38:00 GMT</pubDate>
+            <description><![CDATA[Tags: spotify, music, ai-backlash]]></description>
+        </item>
+        <item>
+            <title><![CDATA[npm debug and chalk packages compromised]]></title>
+            <link>https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised</link>
+            <guid>1757367646946</guid>
+            <pubDate>Mon, 08 Sep 2025 21:40:46 GMT</pubDate>
+            <description><![CDATA[Tags: malware, llm, npm]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Active Discussions | Lobsters]]></title>
+            <link>https://lobste.rs/active</link>
+            <guid>1757364929666</guid>
+            <pubDate>Mon, 08 Sep 2025 20:55:29 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well.]]></title>
+            <link>https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/</link>
+            <guid>1757344635340.094</guid>
+            <pubDate>Mon, 08 Sep 2025 18:28:59 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, harms, ai, c3ai, tom_siebel]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI Backs AI-Made Animated Feature Film]]></title>
+            <link>https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&amp;reflink=desktopwebshare_permalink</link>
+            <guid>1757335344138</guid>
+            <pubDate>Mon, 08 Sep 2025 12:42:24 GMT</pubDate>
+            <description><![CDATA[Tags: ai, openai, hollywood-ai, animation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’]]></title>
+            <link>https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce</link>
+            <guid>1757203853589</guid>
+            <pubDate>Sun, 07 Sep 2025 00:10:53 GMT</pubDate>
+            <description><![CDATA[Tags: financial_times, geoffrey_hinton, lunch_with_the_ft, ai, ethics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI pressed on safety after deaths of ChatGPT users]]></title>
+            <link>https://www.ft.com/content/f4be38b3-2de9-4b81-bc47-24119c2d5aef</link>
+            <guid>1757203745886</guid>
+            <pubDate>Sun, 07 Sep 2025 00:09:05 GMT</pubDate>
+            <description><![CDATA[Tags: openai, ethics, safety, chatgpt, death]]></description>
+        </item>
+        <item>
+            <title><![CDATA[LLM Visualization]]></title>
+            <link>https://bbycroft.net/llm</link>
+            <guid>1757203488338.5732</guid>
+            <pubDate>Sun, 07 Sep 2025 00:05:43 GMT</pubDate>
+            <description><![CDATA[Tags: llm, learning, visualization, dataviz]]></description>
+        </item>
+        <item>
+            <title><![CDATA[KanaDojo かな道場]]></title>
+            <link>https://kanadojo.com/</link>
+            <guid>1757203269870</guid>
+            <pubDate>Sun, 07 Sep 2025 00:01:30 GMT</pubDate>
+            <description><![CDATA[Tags: japan, language, education, learning, ux]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic to pay $1.5 billion to authors in landmark AI settlement]]></title>
+            <link>https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement</link>
+            <guid>1757203188495</guid>
+            <pubDate>Sat, 06 Sep 2025 23:59:48 GMT</pubDate>
+            <description><![CDATA[Tags: copyright, llm, anthropic, books, legacy_media]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search]]></title>
+            <link>https://simonwillison.net/2025/Sep/6/research-goblin/</link>
+            <guid>1757202907772</guid>
+            <pubDate>Sat, 06 Sep 2025 23:55:07 GMT</pubDate>
+            <description><![CDATA[Tags: llm, search, chain-of-thought, chatgpt, gpt-5]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI surveillance should be banned while there is still time.]]></title>
+            <link>https://gabrielweinberg.com/p/ai-surveillance-should-be-banned</link>
+            <guid>1757202551589.908</guid>
+            <pubDate>Sat, 06 Sep 2025 23:53:46 GMT</pubDate>
+            <description><![CDATA[Tags: ai, surveillance, harms, ethics, dignity]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Submarine Cable Map]]></title>
+            <link>https://www.submarinecablemap.com/</link>
+            <guid>1757202717406.6863</guid>
+            <pubDate>Sat, 06 Sep 2025 23:53:02 GMT</pubDate>
+            <description><![CDATA[Tags: maps, submarine, networks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Programming—not prompting—LMs]]></title>
+            <link>https://dspy.ai/</link>
+            <guid>1725540001</guid>
+            <pubDate>Fri, 05 Sep 2025 11:00:00 GMT</pubDate>
+            <description><![CDATA[Tags: llm, agent, dspy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[They're Famous. They're Everywhere. And They're Fake]]></title>
+            <link>https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html</link>
+            <guid>1725540002</guid>
+            <pubDate>Fri, 05 Sep 2025 10:30:00 GMT</pubDate>
+            <description><![CDATA[Tags: influencers, brands, character-ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Evidence That AI Is Destroying Workflows]]></title>
+            <link>https://www.derekthompson.org/p/the-evidence-that-ai-is-destroying</link>
+            <guid>1725540003</guid>
+            <pubDate>Fri, 05 Sep 2025 10:00:00 GMT</pubDate>
+            <description><![CDATA[Tags: ai-impact]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nuclear – Open Source Music Player (GitHub)]]></title>
+            <link>https://github.com/nukeop/nuclear</link>
+            <guid>1725540004</guid>
+            <pubDate>Fri, 05 Sep 2025 09:30:00 GMT</pubDate>
+            <description><![CDATA[Tags: music, player, opensource]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Apertus: Switzerland's First Open Multilingual LLM (EPFL/ETH/CSCS)]]></title>
+            <link>https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html</link>
+            <guid>1757344635340.3992</guid>
+            <pubDate>Fri, 05 Sep 2025 09:00:00 GMT</pubDate>
+            <description><![CDATA[Tags: llm, opensource, ch]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever]]></title>
+            <link>https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html</link>
+            <guid>1758462039121</guid>
+            <pubDate>Sun, 21 Sep 2025 13:40:39 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, ethics, harms, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Bill Text - SB-627 Law enforcement: masks.]]></title>
+            <link>https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB627</link>
+            <guid>1758472778073</guid>
+            <pubDate>Sun, 21 Sep 2025 16:39:38 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, ethics, harms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents]]></title>
+            <link>https://arxiv.org/abs/2509.06917</link>
+            <guid>1758623722907</guid>
+            <pubDate>Tue, 23 Sep 2025 10:40:03 GMT</pubDate>
+            <description><![CDATA[Tags: research]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Are we on course to become a Little Brother society?]]></title>
+            <link>https://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526</link>
+            <guid>1758624481905</guid>
+            <pubDate>Tue, 23 Sep 2025 15:50:03 GMT</pubDate>
+            <description><![CDATA[Tags: hardware, surveillance, harms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GlobalBuildingAtlas]]></title>
+            <link>https://mediatum.ub.tum.de/1782307</link>
+            <guid>1758642344436</guid>
+            <pubDate>Tue, 23 Sep 2025 15:45:44 GMT</pubDate>
+            <description><![CDATA[Tags: map, atlas, landscape, architecture]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Apple previews new immersive films for Apple Vision Pro]]></title>
+            <link>https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/</link>
+            <guid>1758642464851</guid>
+            <pubDate>Tue, 23 Sep 2025 15:47:44 GMT</pubDate>
+            <description><![CDATA[Tags: apple, film, hollywood, mr, mixed reality]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How China’s Propaganda and Surveillance Systems Really Operate]]></title>
+            <link>https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/</link>
+            <guid>1758642931570</guid>
+            <pubDate>Tue, 23 Sep 2025 15:55:31 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, cn, economics, propaganda, privacy, leaked-documents]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Find My Parking Cops]]></title>
+            <link>https://walzr.com/sf-parking/</link>
+            <guid>1758676814994</guid>
+            <pubDate>Wed, 24 Sep 2025 01:20:14 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, map, automotive, urban-hack]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How China’s Propaganda and Surveillance Systems Really Operate]]></title>
+            <link>https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/</link>
+            <guid>1758677119226</guid>
+            <pubDate>Wed, 24 Sep 2025 01:25:19 GMT</pubDate>
+            <description><![CDATA[Tags: technology, surveillance, society, cn]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Periodic Table of Cognition]]></title>
+            <link>https://kk.org/thetechnium/the-periodic-table-of-cognition/</link>
+            <guid>1758684186513</guid>
+            <pubDate>Wed, 24 Sep 2025 03:23:06 GMT</pubDate>
+            <description><![CDATA[Tags: intelligence, cognition]]></description>
+        </item>
+        <item>
+            <title><![CDATA[That Secret Service SIM farm story is bogus]]></title>
+            <link>https://cybersect.substack.com/p/that-secret-service-sim-farm-story</link>
+            <guid>1758709743539</guid>
+            <pubDate>Wed, 24 Sep 2025 10:29:03 GMT</pubDate>
+            <description><![CDATA[Tags: sms, mobile, us-gov, networks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NYC Telecom Raid: What’s Up With Those Weird SIM Banks?]]></title>
+            <link>https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/</link>
+            <guid>1758676997447</guid>
+            <pubDate>Wed, 24 Sep 2025 01:23:17 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, telcom]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DFACE - AI Face Redaction]]></title>
+            <link>https://harvey.studio/dface/</link>
+            <guid>1758972547893</guid>
+            <pubDate>Sat, 27 Sep 2025 11:29:07 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, redaction, frt, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Suno Studio]]></title>
+            <link>https://suno.com/studio-welcome</link>
+            <guid>1758975582766</guid>
+            <pubDate>Sat, 27 Sep 2025 12:20:19 GMT</pubDate>
+            <description><![CDATA[Tags: music, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Digital Markets Act’s impacts on EU users]]></title>
+            <link>https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/</link>
+            <guid>1758975845168</guid>
+            <pubDate>Sat, 27 Sep 2025 12:24:05 GMT</pubDate>
+            <description><![CDATA[Tags: apple, eu, dma, music]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Happiest Countries in the World 2025]]></title>
+            <link>https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world</link>
+            <guid>1758976489524</guid>
+            <pubDate>Sat, 27 Sep 2025 12:34:49 GMT</pubDate>
+            <description><![CDATA[Tags: happiness, map, finland]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Open Social — overreacted]]></title>
+            <link>https://overreacted.io/open-social/</link>
+            <guid>1758976629504</guid>
+            <pubDate>Sat, 27 Sep 2025 12:37:09 GMT</pubDate>
+            <description><![CDATA[Tags: socialmedia, decentralization, open-social]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Bill Text - SB-53 Artificial intelligence models: large developers.]]></title>
+            <link>https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53</link>
+            <guid>1758984906467</guid>
+            <pubDate>Sat, 27 Sep 2025 14:55:06 GMT</pubDate>
+            <description><![CDATA[Tags: ai, machine-learning, legislation, california]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Digital Threat Modeling Under Authoritarianism - Schneier on Security]]></title>
+            <link>https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html</link>
+            <guid>1759003849895</guid>
+            <pubDate>Sat, 27 Sep 2025 20:10:49 GMT</pubDate>
+            <description><![CDATA[Tags: opsec, security, usa]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Air pollution]]></title>
+            <link>https://climatetrace.org/air-pollution</link>
+            <guid>1759117178224</guid>
+            <pubDate>Mon, 29 Sep 2025 03:39:38 GMT</pubDate>
+            <description><![CDATA[Tags: climate, aqi, map]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Petition: Do not introduce Digital ID cards]]></title>
+            <link>https://petition.parliament.uk/petitions/730194</link>
+            <guid>1759117269413</guid>
+            <pubDate>Mon, 29 Sep 2025 03:41:09 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, harms, ethics, privacy, uk]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Farewell Friends - HumbleDollar]]></title>
+            <link>https://humbledollar.com/forum/farewell-friends/</link>
+            <guid>1759117372389</guid>
+            <pubDate>Mon, 29 Sep 2025 03:42:52 GMT</pubDate>
+            <description><![CDATA[Tags: death, obit]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CEO of Controversial Startup Vows to Keep Mass Publishing AI Podcasts Despite Backlash]]></title>
+            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash? </link>
+            <guid>1759117485587</guid>
+            <pubDate>Mon, 29 Sep 2025 03:44:45 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, podcast, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The secret to great art? Finding someone else to make it]]></title>
+            <link>https://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5</link>
+            <guid>1759145340527</guid>
+            <pubDate>Mon, 29 Sep 2025 11:29:00 GMT</pubDate>
+            <description><![CDATA[Tags: art, authorship]]></description>
+        </item>
+        <item>
+            <title><![CDATA[csrankings.org]]></title>
+            <link>https://csrankings.org/#/index?all&amp;us</link>
+            <guid>1759146044878</guid>
+            <pubDate>Mon, 29 Sep 2025 11:40:44 GMT</pubDate>
+            <description><![CDATA[Tags: learning, education, university.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[FAA Statement - Boeing Airworthiness Certificates]]></title>
+            <link>https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates</link>
+            <guid>1759229447683</guid>
+            <pubDate>Tue, 30 Sep 2025 10:50:47 GMT</pubDate>
+            <description><![CDATA[Tags: regulation, air-travel, harms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[newsom-signs-ai-law-00585348]]></title>
+            <link>https://www.politico.com/news/2025/09/29/newsom-signs-ai-law-00585348</link>
+            <guid>1759233580119</guid>
+            <pubDate>Tue, 30 Sep 2025 12:00:10 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ethics, llm, legislation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The loneliness epidemic threatens physical health like smoking]]></title>
+            <link>https://lightcapai.medium.com/the-loneliness-epidemic-threatens-physical-health-like-smoking-e063220dde8b</link>
+            <guid>1759234503481</guid>
+            <pubDate>Tue, 30 Sep 2025 12:15:03 GMT</pubDate>
+            <description><![CDATA[Tags: health, harms, loneliness]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Effective context engineering for AI agents]]></title>
+            <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
+            <guid>1759782918647</guid>
+            <pubDate>Mon, 06 Oct 2025 20:35:18 GMT</pubDate>
+            <description><![CDATA[Tags: llm, agent, context, prompts]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app]]></title>
+            <link>https://text.npr.org/nx-s1-5561999</link>
+            <guid>1759782991909</guid>
+            <pubDate>Mon, 06 Oct 2025 20:36:31 GMT</pubDate>
+            <description><![CDATA[Tags: distribution, censorship, 1A, rights]]></description>
+        </item>
+        <item>
+            <title><![CDATA[WireGuard topologies for self-hosting at home]]></title>
+            <link>https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/</link>
+            <guid>1759783041766</guid>
+            <pubDate>Mon, 06 Oct 2025 20:37:21 GMT</pubDate>
+            <description><![CDATA[Tags: networks, wireguard, vpn]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A Network Crumb Back Story: A Baker’s Dozen Retrospective]]></title>
+            <link>https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/</link>
+            <guid>1759783190637</guid>
+            <pubDate>Mon, 06 Oct 2025 20:39:50 GMT</pubDate>
+            <description><![CDATA[Tags: network, autonomous-systems, rankings, ases]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Way past its prime: how did Amazon get so rubbish?]]></title>
+            <link>https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish</link>
+            <guid>1759783457629</guid>
+            <pubDate>Mon, 06 Oct 2025 20:44:17 GMT</pubDate>
+            <description><![CDATA[Tags: amazon, shopping, ux, shitification]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sora provides better control over videos featuring your AI self]]></title>
+            <link>https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self</link>
+            <guid>1759783518885</guid>
+            <pubDate>Mon, 06 Oct 2025 20:45:18 GMT</pubDate>
+            <description><![CDATA[Tags: sora, video, likeness, video-gen, openai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MPA Issues Statement on OpenAI’s Recent Release of Sora 2]]></title>
+            <link>https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/</link>
+            <guid>1759842284784</guid>
+            <pubDate>Tue, 07 Oct 2025 13:04:44 GMT</pubDate>
+            <description><![CDATA[Tags: opeani, ethics, hollywood]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Deciphering complex coral reef soundscapes with spatial audio and 360° video]]></title>
+            <link>https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149</link>
+            <guid>1760206840614</guid>
+            <pubDate>Sat, 11 Oct 2025 18:20:40 GMT</pubDate>
+            <description><![CDATA[Tags: audio, fish, water, recordings, paper]]></description>
+        </item>
+        <item>
+            <title><![CDATA[aistudio.google]]></title>
+            <link>https://aistudio.google.com/gen-media</link>
+            <guid>1760207084313</guid>
+            <pubDate>Sat, 11 Oct 2025 18:24:44 GMT</pubDate>
+            <description><![CDATA[Tags: google, studio, ai generative-media, media]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Opinion | The A.I. Bubble Looks Real]]></title>
+            <link>https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html</link>
+            <guid>1760436518044</guid>
+            <pubDate>Tue, 14 Oct 2025 10:08:38 GMT</pubDate>
+            <description><![CDATA[Tags: AI, business]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites]]></title>
+            <link>https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf</link>
+            <guid>1760436619633</guid>
+            <pubDate>Tue, 14 Oct 2025 10:10:19 GMT</pubDate>
+            <description><![CDATA[Tags: pdf, documentation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI will eventually allow “mature” ChatGPT apps.]]></title>
+            <link>https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps</link>
+            <guid>1760436847202</guid>
+            <pubDate>Tue, 14 Oct 2025 10:14:07 GMT</pubDate>
+            <description><![CDATA[Tags: standards, openai, ai, ethics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ film-with-ai-director-imagines-a-future-where-most-jobs-are-automated]]></title>
+            <link>https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated</link>
+            <guid>1760436955686</guid>
+            <pubDate>Tue, 14 Oct 2025 10:24:05 GMT</pubDate>
+            <description><![CDATA[Tags: ai, hollywood, trailer, ai-hollywood]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.]]></title>
+            <link>https://github.com/karpathy/nanochat</link>
+            <guid>1760437406690</guid>
+            <pubDate>Tue, 14 Oct 2025 10:23:26 GMT</pubDate>
+            <description><![CDATA[Tags: code, github, open-source]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Governor Newsom signs data privacy bills to protect tech users | Governor of California]]></title>
+            <link>https://www.gov.ca.gov/2025/10/08/governor-newsom-signs-data-privacy-bills-to-protect-tech-users/</link>
+            <guid>1760437958317</guid>
+            <pubDate>Tue, 14 Oct 2025 10:32:38 GMT</pubDate>
+            <description><![CDATA[Tags: california, ca, privacy, legislation, socialmedia]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Anatomy of a Narrative Virus - How a story spreads]]></title>
+            <link>https://www.epsilontheory.com/anatomy-of-a-narrative-virus/</link>
+            <guid>1760568782753</guid>
+            <pubDate>Wed, 15 Oct 2025 22:53:02 GMT</pubDate>
+            <description><![CDATA[Tags: truth, grok, media, narritive]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Agent Skills]]></title>
+            <link>https://www.anthropic.com/news/skills?</link>
+            <guid>1760782666234</guid>
+            <pubDate>Sat, 18 Oct 2025 10:17:46 GMT</pubDate>
+            <description><![CDATA[Tags: claude, llm]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ruth Asawa Arrives in New York with a Monumental Retrospective]]></title>
+            <link>https://ruthasawa.com/</link>
+            <guid>1760796189017</guid>
+            <pubDate>Sat, 18 Oct 2025 14:03:09 GMT</pubDate>
+            <description><![CDATA[Tags: art, ruth asawa, sf, nyc, moma, black mountain college]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Majority AI View - Anil Dash]]></title>
+            <link>https://www.anildash.com//2025/10/17/the-majority-ai-view/</link>
+            <guid>1760796427056</guid>
+            <pubDate>Sat, 18 Oct 2025 14:07:07 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ethics, llm, openai, censorship]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Global patterns of synchronization in human communications | Journal of The Royal Society Interface]]></title>
+            <link>https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048</link>
+            <guid>1760796645849</guid>
+            <pubDate>Sat, 18 Oct 2025 14:10:45 GMT</pubDate>
+            <description><![CDATA[Tags: human, behavior, patterns, social-media, synchrony]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Root System Drawings]]></title>
+            <link>https://images.wur.nl/digital/collection/coll13/search</link>
+            <guid>1760797261757</guid>
+            <pubDate>Sat, 18 Oct 2025 14:21:01 GMT</pubDate>
+            <description><![CDATA[Tags: root, system, plants, botany, collection, drawing]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Underscore Music Player]]></title>
+            <link>https://kottke.org/25/10/the-underscore-music-player</link>
+            <guid>1760797352472</guid>
+            <pubDate>Sat, 18 Oct 2025 14:22:32 GMT</pubDate>
+            <description><![CDATA[Tags: music, player]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Notes: A Brief History of Intelligence (Bennett)]]></title>
+            <link>https://scyy.fi/shelf/history-of-intelligence?ref=thediff.co</link>
+            <guid>1760813388067</guid>
+            <pubDate>Sat, 18 Oct 2025 18:50:36 GMT</pubDate>
+            <description><![CDATA[Tags: book, resource, intelligence, learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Hunt for the World’s Oldest Story]]></title>
+            <link>https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books</link>
+            <guid>1760813566283</guid>
+            <pubDate>Sat, 18 Oct 2025 18:52:46 GMT</pubDate>
+            <description><![CDATA[Tags: stories]]></description>
+        </item>
+    </channel>
+</rss>
