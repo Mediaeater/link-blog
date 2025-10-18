@@ -14,7 +14,8 @@ import {
   ChevronUp,
   Copy,
   Check,
-  Filter
+  Filter,
+  Info
 } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 
@@ -842,16 +843,19 @@ export default function LinkBlogClean() {
           </div>
 
           {/* Legend */}
-          <div className="mb-6 p-3 bg-neutral-50 border border-neutral-200 rounded-lg">
-            <div className="text-xs text-neutral-600 space-y-1">
-              <div className="font-semibold text-neutral-700 mb-2">Link Card Contents:</div>
-              <div className="grid grid-cols-2 gap-x-4 gap-y-1">
-                <div><span className="font-medium">Title:</span> Source/article name</div>
-                <div><span className="font-medium">URL:</span> Domain shown below title</div>
-                <div><span className="font-medium">Quote:</span> Pull quote or excerpt</div>
-                <div><span className="font-medium">Tags:</span> Topic categories (clickable)</div>
-                <div><span className="font-medium">Date:</span> When link was added</div>
-                <div><span className="font-medium">Visits:</span> Count in brackets [N]</div>
+          <div className="mb-6 p-4 bg-blue-50 border-2 border-blue-200 rounded-lg shadow-sm">
+            <div className="text-xs space-y-2">
+              <div className="flex items-center gap-2 mb-3">
+                <Info className="w-4 h-4 text-blue-600" />
+                <div className="font-bold text-blue-900 text-sm">Reading Guide</div>
+              </div>
+              <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-blue-900">
+                <div><span className="font-semibold text-blue-700">Title:</span> Source/article name</div>
+                <div><span className="font-semibold text-blue-700">URL:</span> Domain shown below title</div>
+                <div><span className="font-semibold text-blue-700">Quote:</span> Pull quote or excerpt</div>
+                <div><span className="font-semibold text-blue-700">Tags:</span> Topic categories (clickable)</div>
+                <div><span className="font-semibold text-blue-700">Date:</span> When link was added</div>
+                <div><span className="font-semibold text-blue-700">Visits:</span> Count in brackets [N]</div>
               </div>
             </div>
           </div>
