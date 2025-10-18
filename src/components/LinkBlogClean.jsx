@@ -42,6 +42,8 @@ export default function LinkBlogClean() {
   const [isLoading, setIsLoading] = useState(false);
   const [copiedLinkId, setCopiedLinkId] = useState(null);
   const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
+  const [showAutocomplete, setShowAutocomplete] = useState(false);
+  const [currentTagInput, setCurrentTagInput] = useState('');
 
   const searchRef = useRef(null);
   const quickPasteRef = useRef(null);
@@ -413,6 +415,21 @@ export default function LinkBlogClean() {
       .map(([tag, count]) => ({ tag, count }));
   }, [links]);
 
+  // Filtered autocomplete tags
+  const filteredAutocompleteTags = useMemo(() => {
+    if (!currentTagInput.trim()) return [];
+
+    const searchTerm = currentTagInput.trim().toLowerCase();
+    const existingTags = (newLink.tags || []).map(t => t.toLowerCase());
+
+    return allTags
+      .filter(({ tag }) =>
+        tag.toLowerCase().startsWith(searchTerm) &&
+        !existingTags.includes(tag.toLowerCase())
+      )
+      .slice(0, 8);
+  }, [currentTagInput, allTags, newLink.tags]);
+
   // Filter and sort links
   const filteredAndSortedLinks = useMemo(() => {
     let filtered = links;
@@ -493,41 +510,6 @@ export default function LinkBlogClean() {
               )}
             </div>
           </div>
-
-          {/* Tag Filter */}
-          {allTags.length > 0 && (
-            <div className="pb-4 flex items-center gap-2 flex-wrap">
-              <span className="text-sm text-neutral-500">Filter:</span>
-              {allTags.slice(0, 20).map(({ tag, count }) => (
-                <button
-                  key={tag}
-                  onClick={() => {
-                    if (selectedTags.includes(tag)) {
-                      setSelectedTags(selectedTags.filter(t => t !== tag));
-                    } else {
-                      setSelectedTags([...selectedTags, tag]);
-                    }
-                  }}
-                  className={`tag ${
-                    selectedTags.includes(tag)
-                      ? 'bg-neutral-900 text-white hover:bg-neutral-800'
-                      : ''
-                  }`}
-                >
-                  {tag}
-                  <span className="ml-1 opacity-60">{count}</span>
-                </button>
-              ))}
-              {selectedTags.length > 0 && (
-                <button
-                  onClick={() => setSelectedTags([])}
-                  className="text-sm text-neutral-500 hover:text-neutral-700"
-                >
-                  Clear
-                </button>
-              )}
-            </div>
-          )}
         </div>
       </header>
 
@@ -641,7 +623,7 @@ export default function LinkBlogClean() {
                   />
                 </div>
 
-                <div>
+                <div className="relative">
                   <label className="block text-sm font-medium mb-1">
                     Tags (comma separated)
                   </label>
@@ -651,36 +633,86 @@ export default function LinkBlogClean() {
                     value={newLink.tagInput || ''}
                     onChange={(e) => {
                       const inputValue = e.target.value;
-                      // Store the raw input value for display
-                      // Only process into tags when the input loses focus or user presses Enter
+
+                      // Get the text after the last comma to use for autocomplete
+                      const parts = inputValue.split(',');
+                      const lastPart = parts[parts.length - 1].trim();
+                      setCurrentTagInput(lastPart);
+                      setShowAutocomplete(lastPart.length > 0);
+
                       setNewLink({
                         ...newLink,
                         tagInput: inputValue
                       });
                     }}
-                    onBlur={(e) => {
-                      // Process tags when input loses focus
-                      const tags = e.target.value.split(',').map(tag => tag.trim()).filter(Boolean);
-                      setNewLink({
-                        ...newLink,
-                        tags: tags,
-                        tagInput: tags.join(', ') // Update display to clean format
-                      });
+                    onFocus={() => {
+                      const parts = (newLink.tagInput || '').split(',');
+                      const lastPart = parts[parts.length - 1].trim();
+                      setCurrentTagInput(lastPart);
+                      setShowAutocomplete(lastPart.length > 0);
                     }}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter') {
-                        e.preventDefault();
-                        // Process tags when Enter is pressed
+                    onBlur={(e) => {
+                      setTimeout(() => {
+                        setShowAutocomplete(false);
+                        // Process tags when input loses focus
                         const tags = e.target.value.split(',').map(tag => tag.trim()).filter(Boolean);
                         setNewLink({
                           ...newLink,
                           tags: tags,
-                          tagInput: tags.join(', ') // Update display to clean format
+                          tagInput: tags.join(', ')
                         });
+                      }, 200);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Escape') {
+                        setShowAutocomplete(false);
+                        return;
+                      }
+                      if (e.key === 'Enter') {
+                        e.preventDefault();
+                        const tags = e.target.value.split(',').map(tag => tag.trim()).filter(Boolean);
+                        setNewLink({
+                          ...newLink,
+                          tags: tags,
+                          tagInput: tags.join(', ')
+                        });
+                        setShowAutocomplete(false);
                       }
                     }}
                     className="input w-full"
                   />
+
+                  {/* Autocomplete dropdown */}
+                  {showAutocomplete && filteredAutocompleteTags.length > 0 && (
+                    <div className="absolute z-50 w-full mt-1 bg-white border-2 border-blue-500 rounded-md shadow-lg max-h-48 overflow-y-auto">
+                      {filteredAutocompleteTags.map(({ tag, count }) => (
+                        <button
+                          key={tag}
+                          type="button"
+                          onMouseDown={(e) => {
+                            e.preventDefault();
+                            const parts = (newLink.tagInput || '').split(',');
+                            parts[parts.length - 1] = tag;
+                            const updatedInput = parts.join(', ');
+                            const updatedTags = updatedInput.split(',').map(t => t.trim()).filter(Boolean);
+                            setNewLink({
+                              ...newLink,
+                              tagInput: updatedInput + ', ',
+                              tags: updatedTags
+                            });
+                            setShowAutocomplete(false);
+                            setCurrentTagInput('');
+                          }}
+                          className="w-full text-left px-3 py-2 text-sm hover:bg-blue-50 transition-colors flex items-center justify-between border-b border-gray-100 last:border-b-0"
+                        >
+                          <span className="font-medium text-gray-900">{tag}</span>
+                          <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                            {count}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
                   {allTags.length > 0 && (
                     <div className="mt-2 flex flex-wrap gap-1">
                       <span className="text-xs text-neutral-500">Popular:</span>
@@ -872,7 +904,6 @@ export default function LinkBlogClean() {
                             }}
                             className="tag"
                           >
-                            <TagIcon className="w-3 h-3 mr-1" />
                             {tag}
                           </button>
                         ))}

@@ -990,7 +990,274 @@
       "tagInput": "sora, video, likeness, video-gen, openai",
       "timestamp": "2025-10-06T20:45:18.885Z",
       "visits": 0
+    },
+    {
+      "id": 1759842284784,
+      "url": "https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/",
+      "source": "MPA Issues Statement on OpenAI’s Recent Release of Sora 2",
+      "pullQuote": "WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of Sora 2. “‘Since Sora 2’s release, videos that infringe our members’ films, shows, and characters have proliferated on OpenAI’s service and across social media. While OpenAI clarified it will ‘soon’ offer rightsholders more control over character generation, they must acknowledge it remains their responsibility – not rightsholders’ – to prevent infringement on the Sora 2 service. OpenAI needs to take immediate and decisive action to address this issue. Well-established copyright law safeguards the rights of creators and applies here.”",
+      "tags": [
+        "opeani",
+        "ethics",
+        "hollywood"
+      ],
+      "tagInput": "opeani, ethics, hollywood",
+      "timestamp": "2025-10-07T13:04:44.784Z",
+      "visits": 0
+    },
+    {
+      "id": 1760206840614,
+      "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149",
+      "source": "Deciphering complex coral reef soundscapes with spatial audio and 360° video",
+      "pullQuote": "We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings.",
+      "tags": [
+        "audio",
+        "fish",
+        "water",
+        "recordings",
+        "paper"
+      ],
+      "tagInput": "audio, fish, water, recordings, paper",
+      "timestamp": "2025-10-11T18:20:40.614Z",
+      "visits": 0
+    },
+    {
+      "id": 1760207084313,
+      "url": "https://aistudio.google.com/gen-media",
+      "source": "aistudio.google",
+      "pullQuote": "Google generative media portal ",
+      "tags": [
+        "google",
+        "studio",
+        "ai generative-media",
+        "media"
+      ],
+      "tagInput": "google, studio, ai generative-media, media",
+      "timestamp": "2025-10-11T18:24:44.313Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436518044,
+      "url": "https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html",
+      "source": "Opinion | The A.I. Bubble Looks Real",
+      "pullQuote": "Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points.",
+      "tags": [
+        "AI",
+        "business"
+      ],
+      "tagInput": "AI, business",
+      "timestamp": "2025-10-14T10:08:38.044Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436619633,
+      "url": "https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf",
+      "source": "Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites",
+      "pullQuote": "Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. \n\nWe perform the first broad scan of IP traffic on 39 GEO satellites across 25 distinct longitudes with 411 transponders using consumergrade equipment. We overcome the poor signal quality plaguing prior work and build the first general parser that can handle the diverse protocols in use by heterogeneous endpoints. We found 50% of GEO links contained cleartext IP traffic; while link-layer encryption has been standard practice in satellite TV for decades, IP links typically lacked encryption at both the link and network layers. This gives us a unique view into the internal network security practices of these organizations. We observed unencrypted cellular backhaul traffic from several providers including cleartext call and text contents, job scheduling and industrial control systems for utility infrastructure, military asset tracking, ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "tagInput": "pdf, documentation",
+      "timestamp": "2025-10-14T10:10:19.633Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436847202,
+      "url": "https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps",
+      "source": "OpenAI will eventually allow “mature” ChatGPT apps.",
+      "pullQuote": "\"Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.\"\nhttps://developers.openai.com/apps-sdk/app-developer-guidelines",
+      "tags": [
+        "standards",
+        "openai",
+        "ai",
+        "ethics"
+      ],
+      "tagInput": "standards, openai, ai, ethics",
+      "timestamp": "2025-10-14T10:14:07.202Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436955686,
+      "url": "https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "source": " film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "pullQuote": "An AI system called \"FellinAI\" takes the director's chair for \"The Sweet Idleness\" from Italian producer Andrea Iervolino. The film depicts a world ruled by automation.",
+      "tags": [
+        "ai",
+        "hollywood",
+        "trailer",
+        "ai-hollywood"
+      ],
+      "tagInput": "ai, hollywood, trailer, ai-hollywood",
+      "timestamp": "2025-10-14T10:24:05.430Z",
+      "visits": 0
+    },
+    {
+      "id": 1760437406690,
+      "url": "https://github.com/karpathy/nanochat",
+      "source": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
+      "pullQuote": "This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end. This includes tokenization, pretraining, finetuning, evaluation, inference, and web serving over a simple UI so that you can talk to your own LLM just like ChatGPT. nanochat will become the capstone project of the course LLM101n being developed by Eureka Labs.",
+      "tags": [
+        "code",
+        "github",
+        "open-source"
+      ],
+      "tagInput": "code, github, open-source",
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:23:26.690Z",
+      "visits": 0
+    },
+    {
+      "id": 1760437958317,
+      "url": "https://www.gov.ca.gov/2025/10/08/governor-newsom-signs-data-privacy-bills-to-protect-tech-users/",
+      "source": "Governor Newsom signs data privacy bills to protect tech users | Governor of California",
+      "pullQuote": "requires social media companies to make it clear and easy for a user to delete their account – and requires that deletion also trigger full deletion of the user’s personal data. This law builds on the administration’s prior work to protect consumers and their privacy.",
+      "tags": [
+        "california",
+        "ca",
+        "privacy",
+        "legislation",
+        "socialmedia"
+      ],
+      "tagInput": "california, ca, privacy, legislation, socialmedia",
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:32:38.317Z",
+      "visits": 0
+    },
+    {
+      "id": 1760568782753,
+      "url": "https://www.epsilontheory.com/anatomy-of-a-narrative-virus/",
+      "source": "Anatomy of a Narrative Virus - How a story spreads",
+      "pullQuote": "And don't get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn't that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.\n\nAnd I know that I'm not alone.",
+      "tags": [
+        "truth",
+        "grok",
+        "media",
+        "narritive"
+      ],
+      "tagInput": "truth, grok, media, narritive",
+      "timestamp": "2025-10-15T22:53:02.753Z",
+      "visits": 0
+    },
+    {
+      "id": 1760782666234,
+      "url": "https://www.anthropic.com/news/skills?",
+      "source": "Introducing Agent Skills",
+      "pullQuote": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed.\n\nClaude will only access a skill when it's relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization's brand guidelines.\n\n",
+      "tags": [
+        "claude",
+        "llm"
+      ],
+      "tagInput": "claude, llm",
+      "timestamp": "2025-10-18T10:17:46.234Z",
+      "visits": 0
+    },
+    {
+      "id": 1760796189017,
+      "url": "https://ruthasawa.com/",
+      "source": "Ruth Asawa Arrives in New York with a Monumental Retrospective",
+      "pullQuote": "“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space.",
+      "tags": [
+        "art",
+        "ruth asawa",
+        "sf",
+        "nyc",
+        "moma",
+        "black mountain college"
+      ],
+      "tagInput": "art, ruth asawa, sf, nyc, moma, black mountain college",
+      "timestamp": "2025-10-18T14:03:09.017Z",
+      "visits": 0
+    },
+    {
+      "id": 1760796427056,
+      "url": "https://www.anildash.com//2025/10/17/the-majority-ai-view/",
+      "source": "The Majority AI View - Anil Dash",
+      "pullQuote": "Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren't lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn't centralized under the control of a handful of giant companies. Or any other definition of \"good AI\" that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced \"AI\" to the public imagination are run by authoritarian extremists with deeply destructive agendas.\n\n",
+      "tags": [
+        "ai",
+        "ethics",
+        "llm",
+        "openai",
+        "censorship"
+      ],
+      "tagInput": "ai, ethics, llm, openai, censorship",
+      "timestamp": "2025-10-18T14:07:07.056Z",
+      "visits": 0
+    },
+    {
+      "id": 1760796645849,
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048",
+      "source": "Global patterns of synchronization in human communications | Journal of The Royal Society Interface",
+      "pullQuote": "Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur.",
+      "tags": [
+        "human",
+        "behavior",
+        "patterns",
+        "social-media",
+        "synchrony"
+      ],
+      "tagInput": "human, behavior, patterns, social-media, synchrony",
+      "timestamp": "2025-10-18T14:10:45.849Z",
+      "visits": 0
+    },
+    {
+      "id": 1760797261757,
+      "url": "https://images.wur.nl/digital/collection/coll13/search",
+      "source": "Root System Drawings",
+      "pullQuote": "Browsing items in: Root System Drawings",
+      "tags": [
+        "root",
+        "system",
+        "plants",
+        "botany",
+        "collection",
+        "drawing"
+      ],
+      "tagInput": "root, system, plants, botany, collection, drawing",
+      "timestamp": "2025-10-18T14:21:01.757Z",
+      "visits": 0
+    },
+    {
+      "id": 1760797352472,
+      "url": "https://kottke.org/25/10/the-underscore-music-player",
+      "source": "The Underscore Music Player",
+      "pullQuote": "So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add links to music from Spotify, YouTube, Soundcloud, Bandcamp, and Apple Music to it — just paste their share URLs in. Reloading the page gives you a random piece of music from your collection. You can see a list of the songs, videos, playlists, and albums in your collection and can hide them if you want. That’s it. That’s all it does.",
+      "tags": [
+        "music",
+        "player"
+      ],
+      "tagInput": "music, player",
+      "timestamp": "2025-10-18T14:22:32.472Z",
+      "visits": 0
+    },
+    {
+      "id": 1760813388067,
+      "url": "https://scyy.fi/shelf/history-of-intelligence?ref=thediff.co",
+      "source": "Notes: A Brief History of Intelligence (Bennett)",
+      "pullQuote": "Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event, etc. Here’s a related timeline from another notes post:\n\n Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.\n\nAnimals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this.",
+      "tags": [
+        "book",
+        "resource",
+        "intelligence",
+        "learning"
+      ],
+      "tagInput": "book, resource, intelligence, learning",
+      "timestamp": "2025-10-18T18:50:36.186Z",
+      "visits": 0
+    },
+    {
+      "id": 1760813566283,
+      "url": "https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books",
+      "source": "The Hunt for the World’s Oldest Story",
+      "pullQuote": "The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.\n\nNowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?",
+      "tags": [
+        "stories"
+      ],
+      "tagInput": "stories",
+      "timestamp": "2025-10-18T18:52:46.283Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-06T20:45:18.885Z"
+  "lastUpdated": "2025-10-18T18:52:46.283Z"
 }

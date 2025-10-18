@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, Filter, ArrowUpDown, Download, Upload, Eye, Link2, Zap, Hash, ChevronDown, ChevronUp, ExternalLink, Copy, Info, FileText } from 'lucide-react';
+import { Tag, Plus, X, Pin, Edit, Trash2, Rss, Search, ArrowUpDown, Download, Upload, Eye, Link2, Zap, Hash, ExternalLink, Copy, Info, FileText } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 import BookmarkImporter from './BookmarkImporter';
 
@@ -36,10 +36,10 @@ const LinkBlog = () => {
   const [isProcessingUrls, setIsProcessingUrls] = useState(false);
   const [previewUrls, setPreviewUrls] = useState([]);
   const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
-  const [showFilters, setShowFilters] = useState(false);
   const [expandedLinks, setExpandedLinks] = useState(new Set());
   const [showBookmarkImporter, setShowBookmarkImporter] = useState(false);
-  
+  const [showAutocomplete, setShowAutocomplete] = useState(false);
+
   // Refs for keyboard navigation and quick paste
   const quickPasteRef = useRef(null);
   const searchRef = useRef(null);
@@ -521,15 +521,15 @@ const LinkBlog = () => {
     const normalizedTag = tag.trim().toLowerCase();
 
     setSelectedTags(prev => {
-      // Check if tag already selected (case-insensitive)
-      const isSelected = prev.some(t => t.toLowerCase() === normalizedTag);
+      // If clicking the same tag that's already the only selection, deselect it
+      if (prev.length === 1 && prev[0].toLowerCase() === normalizedTag) {
+        console.log('Deselecting tag:', normalizedTag);
+        return [];
+      }
 
-      const newTags = isSelected
-        ? prev.filter(t => t.toLowerCase() !== normalizedTag)
-        : [...prev, normalizedTag]; // Store normalized version
-
-      console.log('Selected tags updated to:', newTags); // Debug log
-      return newTags;
+      // Otherwise, replace selection with just this tag
+      console.log('Selecting only tag:', normalizedTag);
+      return [normalizedTag];
     });
   }, []);
   
@@ -754,11 +754,26 @@ const LinkBlog = () => {
         });
       }
     });
-    
+
     return Object.entries(tagCount)
       .map(([tag, count]) => ({ tag, count }))
       .sort((a, b) => b.count - a.count);
   }, [links]);
+
+  // Filtered autocomplete suggestions
+  const filteredAutocompleteTags = useMemo(() => {
+    if (!currentTag.trim()) return [];
+
+    const searchTerm = currentTag.trim().toLowerCase();
+    const currentTagsLower = newLink.tags.map(t => t.toLowerCase());
+
+    return allTagsWithFrequency
+      .filter(({ tag }) => {
+        const tagLower = tag.toLowerCase();
+        return tagLower.includes(searchTerm) && !currentTagsLower.includes(tagLower);
+      })
+      .slice(0, 8); // Show max 8 suggestions
+  }, [currentTag, allTagsWithFrequency, newLink.tags]);
   
   // Get related links for a given link
   const getRelatedLinks = useCallback((currentLink) => {
@@ -878,14 +893,6 @@ const LinkBlog = () => {
                 />
               </label>
 
-              <Button
-                onClick={() => setShowFilters(!showFilters)}
-                className="btn-primary text-xs sm:text-sm"
-              >
-                <Filter size={12} className="sm:mr-1" />
-                <span className="hidden sm:inline">Filters</span>
-                {showFilters ? <ChevronUp size={12} className="ml-1" /> : <ChevronDown size={12} className="ml-1" />}
-              </Button>
             </div>
           )}
         </div>
@@ -1035,71 +1042,6 @@ const LinkBlog = () => {
             </Button>
           )}
         </div>
-        
-        {/* Tag Cloud and Filters */}
-        {(showFilters || selectedTags.length > 0) && (
-          <div className="p-4 border rounded-lg border-gray-200 bg-gray-50">
-            <div className="mb-3">
-              <h3 className="text-sm font-medium mb-2 flex items-center gap-2">
-                <Hash size={14} />
-                Tag Filter
-                {selectedTags.length > 0 && <span className="text-xs bg-blue-500 text-white px-2 py-1 rounded-full">{selectedTags.length}</span>}
-              </h3>
-              
-              {selectedTags.length > 0 && (
-                <div className="mb-3 flex flex-wrap gap-2">
-                  <span className="text-xs font-medium">Active filters:</span>
-                  {selectedTags.map(tag => (
-                    <button
-                      key={tag}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        toggleTagFilter(tag);
-                      }}
-                      className="bg-blue-500 text-white text-xs px-2 py-1 rounded-full flex items-center gap-1 hover:bg-blue-600"
-                    >
-                      {tag}
-                      <X size={10} />
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-            
-            <div className="flex flex-wrap gap-2">
-              {allTagsWithFrequency.map(({ tag, count }) => {
-                // Normalize for comparison
-                const isSelected = selectedTags.some(selected =>
-                  selected.trim().toLowerCase() === tag.trim().toLowerCase()
-                );
-                const size = Math.min(count / Math.max(...allTagsWithFrequency.map(t => t.count)), 1);
-                const opacity = 0.4 + (size * 0.6);
-                
-                return (
-                  <button
-                    key={tag}
-                    type="button"
-                    onClick={() => {
-                      console.log('Tag button clicked:', tag); // Debug log
-                      toggleTagFilter(tag);
-                    }}
-                    className={`px-2 py-1 text-xs rounded-full border transition-all hover:scale-105 cursor-pointer ${
-                      isSelected
-                        ? 'bg-blue-500 text-white border-blue-500'
-                        : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'
-                    }`}
-                    style={{ opacity: isSelected ? 1 : opacity }}
-                    title={`${count} link${count === 1 ? '' : 's'}`}
-                  >
-                    {tag} ({count})
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        )}
-        
         {/* Keyboard shortcuts help - moved to info icon */}
       </div>
 
@@ -1187,17 +1129,19 @@ const LinkBlog = () => {
               
               <div>
                 <label className="block text-sm font-medium mb-1">Tags</label>
-                <div className="flex gap-2 mb-2">
+                <div className="flex gap-2 mb-2 relative">
                   <input
                     type="text"
                     placeholder="Add tag (use comma to separate multiple)"
                     value={currentTag}
                     className="flex-1 h-9 w-full rounded-md border border-neutral-200 bg-transparent px-3 py-1 text-sm shadow-sm transition-colors placeholder:text-neutral-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 dark:border-neutral-800 dark:placeholder:text-neutral-400 dark:focus-visible:ring-neutral-300"
                     list="existing-tags"
-                    autoComplete="off"
                     onChange={(e) => {
                       const value = e.target.value;
                       console.log('Tag input onChange:', value); // Debug log
+
+                      // Show autocomplete when typing
+                      setShowAutocomplete(value.trim().length > 0);
 
                       // Check for commas first, then update state appropriately
                       if (value.includes(',')) {
@@ -1225,6 +1169,7 @@ const LinkBlog = () => {
                           // Set input to text after last comma
                           const remaining = parts[parts.length - 1];
                           setCurrentTag(remaining);
+                          setShowAutocomplete(remaining.trim().length > 0);
                         } else {
                           // Just a single comma at the end, update normally
                           setCurrentTag(value);
@@ -1235,6 +1180,11 @@ const LinkBlog = () => {
                       }
                     }}
                     onKeyDown={(e) => {
+                      if (e.key === 'Escape') {
+                        setShowAutocomplete(false);
+                        return;
+                      }
+
                       if (e.key === 'Enter') {
                         e.preventDefault();
                         e.stopPropagation();
@@ -1247,10 +1197,16 @@ const LinkBlog = () => {
                             tags: [...prevLink.tags, value]
                           }));
                           setCurrentTag('');
+                          setShowAutocomplete(false);
                         }
                       }
                     }}
                     onBlur={(e) => {
+                      // Delay hiding autocomplete to allow click events on dropdown
+                      setTimeout(() => {
+                        setShowAutocomplete(false);
+                      }, 200);
+
                       // Add any remaining tag when focus leaves
                       const value = currentTag.trim().toLowerCase();
                       if (value && !newLink.tags.map(tag => tag.toLowerCase()).includes(value) && newLink.tags.length < 10) {
@@ -1265,8 +1221,34 @@ const LinkBlog = () => {
                   <Button onClick={addTag} disabled={!currentTag || newLink.tags.length >= 10}>
                     <Plus size={16} />
                   </Button>
+
+                  {/* Autocomplete dropdown */}
+                  {showAutocomplete && filteredAutocompleteTags.length > 0 && (
+                    <div className="absolute z-50 top-full left-0 right-12 mt-1 bg-white border-2 border-blue-500 rounded-md shadow-lg max-h-48 overflow-y-auto">
+                      {filteredAutocompleteTags.map(({ tag, count }) => (
+                        <button
+                          key={tag}
+                          type="button"
+                          onMouseDown={(e) => {
+                            e.preventDefault();
+                            if (!newLink.tags.includes(tag) && newLink.tags.length < 10) {
+                              setNewLink(prev => ({ ...prev, tags: [...prev.tags, tag] }));
+                              setCurrentTag('');
+                              setShowAutocomplete(false);
+                            }
+                          }}
+                          className="w-full text-left px-3 py-2 text-sm hover:bg-blue-50 transition-colors flex items-center justify-between border-b border-gray-100 last:border-b-0"
+                        >
+                          <span className="font-medium text-gray-900">{tag}</span>
+                          <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                            {count}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
-                
+
                 <datalist id="existing-tags">
                   {allTagsWithFrequency.map(({tag}) => (
                     <option key={tag} value={tag} />
