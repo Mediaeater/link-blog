@@ -833,7 +833,7 @@ export default function LinkBlogClean() {
           {/* Stats */}
           <div className="flex items-center justify-between text-sm text-neutral-500 mb-6">
             <span>
-              {filteredAndSortedLinks.length} of {links.length} links
+              {filteredAndSortedLinks.length}:{links.length}
             </span>
             <span>
               {selectedTags.length > 0 && `Filtered by: ${selectedTags.join(', ')}`}
