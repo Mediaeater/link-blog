@@ -1123,9 +1123,37 @@
       "isPinned": false,
       "timestamp": "2025-10-14T10:32:38.317Z",
       "visits": 0
+    },
+    {
+      "id": 1760568782753,
+      "url": "https://www.epsilontheory.com/anatomy-of-a-narrative-virus/",
+      "source": "Anatomy of a Narrative Virus - How a story spreads",
+      "pullQuote": "And don't get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn't that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.\n\nAnd I know that I'm not alone.",
+      "tags": [
+        "truth",
+        "grok",
+        "media",
+        "narritive"
+      ],
+      "tagInput": "truth, grok, media, narritive",
+      "timestamp": "2025-10-15T22:53:02.753Z",
+      "visits": 0
+    },
+    {
+      "id": 1760782666234,
+      "url": "https://www.anthropic.com/news/skills?",
+      "source": "Introducing Agent Skills",
+      "pullQuote": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed.\n\nClaude will only access a skill when it's relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization's brand guidelines.\n\n",
+      "tags": [
+        "claude",
+        "llm"
+      ],
+      "tagInput": "claude, llm",
+      "timestamp": "2025-10-18T10:17:46.234Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-14T12:31:15.550Z",
-  "exportedAt": "2025-10-14T12:31:15.550Z",
-  "totalLinks": 81
+  "lastUpdated": "2025-10-18T10:18:26.315Z",
+  "exportedAt": "2025-10-18T10:18:26.315Z",
+  "totalLinks": 83
 }
