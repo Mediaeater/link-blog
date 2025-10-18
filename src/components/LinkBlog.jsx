@@ -904,31 +904,14 @@ const LinkBlog = () => {
         )}
 
         {/* Public Feed Links - Visible to everyone */}
-        <div className="mt-2 flex justify-center gap-2 flex-wrap">
-          <button
-            onClick={() => window.open('/data/feed.xml', '_blank')}
-            className="text-xs bg-orange-100 text-orange-800 px-2 py-1 rounded hover:bg-orange-200"
-            title="Subscribe via RSS"
-          >
-            <Rss size={12} className="inline mr-1" />
-            RSS
-          </button>
-          <button
-            onClick={() => window.open('/data/feed.json', '_blank')}
-            className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded hover:bg-blue-200"
-            title="Subscribe via JSON Feed"
-          >
-            <Hash size={12} className="inline mr-1" />
-            JSON Feed
-          </button>
-          <button
-            onClick={() => window.open('/data/blogroll.opml', '_blank')}
-            className="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded hover:bg-purple-200"
-            title="Import blogroll into your RSS reader"
-          >
-            <FileText size={12} className="inline mr-1" />
-            OPML
-          </button>
+        <div className="mt-2 text-center">
+          <p className="text-xs text-black">
+            <a href="/data/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Subscribe via RSS">RSS</a>
+            {' / '}
+            <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Subscribe via JSON Feed">JSON Feed</a>
+            {' / '}
+            <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Import blogroll into your RSS reader">OPML</a>
+          </p>
         </div>
 
         {isAdmin && (
