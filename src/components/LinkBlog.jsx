@@ -902,19 +902,40 @@ const LinkBlog = () => {
             Last updated: {formatDate(lastUpdated, true)}
           </p>
         )}
-        
+
+        {/* Public Feed Links - Visible to everyone */}
+        <div className="mt-2 flex justify-center gap-2 flex-wrap">
+          <button
+            onClick={() => window.open('/data/feed.xml', '_blank')}
+            className="text-xs bg-orange-100 text-orange-800 px-2 py-1 rounded hover:bg-orange-200"
+            title="Subscribe via RSS"
+          >
+            <Rss size={12} className="inline mr-1" />
+            RSS
+          </button>
+          <button
+            onClick={() => window.open('/data/feed.json', '_blank')}
+            className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded hover:bg-blue-200"
+            title="Subscribe via JSON Feed"
+          >
+            <Hash size={12} className="inline mr-1" />
+            JSON Feed
+          </button>
+          <button
+            onClick={() => window.open('/data/blogroll.opml', '_blank')}
+            className="text-xs bg-purple-100 text-purple-800 px-2 py-1 rounded hover:bg-purple-200"
+            title="Import blogroll into your RSS reader"
+          >
+            <FileText size={12} className="inline mr-1" />
+            OPML
+          </button>
+        </div>
+
         {isAdmin && (
           <div className="mt-2 flex justify-center gap-2 flex-wrap">
             <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
               Admin Mode
             </span>
-            <button
-              onClick={() => window.open('/data/feed.xml', '_blank')}
-              className="text-xs bg-orange-100 text-orange-800 px-2 py-1 rounded hover:bg-orange-200"
-            >
-              <Rss size={12} className="inline mr-1" />
-              RSS Feed
-            </button>
             <button
               onClick={() => setShowBookmarkImporter(true)}
               className="text-xs bg-indigo-100 text-indigo-800 px-2 py-1 rounded hover:bg-indigo-200"
