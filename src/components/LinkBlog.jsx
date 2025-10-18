@@ -839,25 +839,34 @@ const LinkBlog = () => {
     <div className="max-w-4xl mx-auto px-4 py-2 sm:p-4 font-mono">
       <header className="text-center mb-6 sm:mb-10">
         <div className="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
-          <div className="flex items-center gap-3 sm:gap-4">
-            <h1 className="text-xl font-mono text-black">
-              newsfeeds.net
-            </h1>
-            <button
-              onClick={() => {
-                if (expandedLinks.size === 0) {
-                  // Expand all links
-                  setExpandedLinks(new Set(links.map(link => link.id)));
-                } else {
-                  // Collapse all links
-                  setExpandedLinks(new Set());
-                }
-              }}
-              className="text-xl font-mono hover:opacity-70 transition-opacity cursor-pointer pl-2"
-              title={expandedLinks.size === 0 ? 'Expand all links' : 'Collapse all links'}
-            >
-              {expandedLinks.size === 0 ? '+' : '−'}
-            </button>
+          <div className="flex flex-col items-start sm:items-center gap-2">
+            <div className="flex items-center gap-3 sm:gap-4">
+              <h1 className="text-xl font-mono text-black">
+                newsfeeds.net
+              </h1>
+              <button
+                onClick={() => {
+                  if (expandedLinks.size === 0) {
+                    // Expand all links
+                    setExpandedLinks(new Set(links.map(link => link.id)));
+                  } else {
+                    // Collapse all links
+                    setExpandedLinks(new Set());
+                  }
+                }}
+                className="text-xl font-mono hover:opacity-70 transition-opacity cursor-pointer pl-2"
+                title={expandedLinks.size === 0 ? 'Expand all links' : 'Collapse all links'}
+              >
+                {expandedLinks.size === 0 ? '+' : '−'}
+              </button>
+            </div>
+            <div className="text-xs text-black">
+              <a href="/data/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Subscribe via RSS">RSS</a>
+              {' / '}
+              <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Subscribe via JSON Feed">JSON Feed</a>
+              {' / '}
+              <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Import blogroll into your RSS reader">OPML</a>
+            </div>
           </div>
           
           {isAdmin && (
@@ -902,17 +911,6 @@ const LinkBlog = () => {
             Last updated: {formatDate(lastUpdated, true)}
           </p>
         )}
-
-        {/* Public Feed Links - Visible to everyone */}
-        <div className="mt-2 text-center">
-          <p className="text-xs text-black">
-            <a href="/data/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Subscribe via RSS">RSS</a>
-            {' / '}
-            <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Subscribe via JSON Feed">JSON Feed</a>
-            {' / '}
-            <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline" title="Import blogroll into your RSS reader">OPML</a>
-          </p>
-        </div>
 
         {isAdmin && (
           <div className="mt-2 flex justify-center gap-2 flex-wrap">
