@@ -881,12 +881,9 @@ export default function LinkBlogClean() {
                 <div><span className="font-semibold text-blue-700">Title:</span> Source/article name</div>
                 <div><span className="font-semibold text-blue-700">URL:</span> Domain shown below title</div>
                 <div><span className="font-semibold text-blue-700">Quote:</span> Pull quote or excerpt</div>
-                <div><span className="font-semibold text-blue-700">Tags:</span> Click to filter (URL updates)</div>
+                <div><span className="font-semibold text-blue-700">Tags:</span> Click to filter or bookmark a topic</div>
                 <div><span className="font-semibold text-blue-700">Date:</span> When link was added</div>
                 <div><span className="font-semibold text-blue-700">Visits:</span> Count in brackets [N]</div>
-              </div>
-              <div className="mt-3 pt-2 border-t border-blue-200 text-blue-800">
-                <span className="font-semibold">💡 Tip:</span> Click any tag to filter. The URL updates so you can bookmark or share the filtered view!
               </div>
             </div>
           </div>
