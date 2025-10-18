@@ -45,6 +45,8 @@ test-bookmarks.html
 project-structure*.txt
 data/*export*.json
 data/*backup*.json
+*export*.json
+*backup*.json
 
 # ActivityPub sensitive data
 data/activitypub/keys.json
