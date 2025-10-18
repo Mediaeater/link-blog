@@ -125,11 +125,39 @@ export default function LinkBlogClean() {
   }, []);
 
   // Initialize
+  // Load initial data and URL parameters
   useEffect(() => {
     loadLinks();
     const urlParams = new URLSearchParams(window.location.search);
     setIsAdmin(urlParams.get('admin') === ADMIN_USER);
+
+    // Load tag filters from URL
+    const tagParam = urlParams.get('tag');
+    if (tagParam) {
+      setSelectedTags([tagParam]);
+    }
   }, [loadLinks]);
+
+  // Update URL when tags change
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // Preserve admin parameter
+    const adminParam = urlParams.get('admin');
+    const newParams = new URLSearchParams();
+    if (adminParam) {
+      newParams.set('admin', adminParam);
+    }
+
+    // Add tag parameter if tags are selected
+    if (selectedTags.length === 1) {
+      newParams.set('tag', selectedTags[0]);
+    }
+
+    // Update URL without reload
+    const newUrl = newParams.toString() ? `?${newParams.toString()}` : window.location.pathname;
+    window.history.replaceState({}, '', newUrl);
+  }, [selectedTags]);
 
   // Fetch URL metadata
   const fetchUrlMetadata = async (url) => {
@@ -853,9 +881,12 @@ export default function LinkBlogClean() {
                 <div><span className="font-semibold text-blue-700">Title:</span> Source/article name</div>
                 <div><span className="font-semibold text-blue-700">URL:</span> Domain shown below title</div>
                 <div><span className="font-semibold text-blue-700">Quote:</span> Pull quote or excerpt</div>
-                <div><span className="font-semibold text-blue-700">Tags:</span> Topic categories (clickable)</div>
+                <div><span className="font-semibold text-blue-700">Tags:</span> Click to filter (URL updates)</div>
                 <div><span className="font-semibold text-blue-700">Date:</span> When link was added</div>
                 <div><span className="font-semibold text-blue-700">Visits:</span> Count in brackets [N]</div>
+              </div>
+              <div className="mt-3 pt-2 border-t border-blue-200 text-blue-800">
+                <span className="font-semibold">💡 Tip:</span> Click any tag to filter. The URL updates so you can bookmark or share the filtered view!
               </div>
             </div>
           </div>
