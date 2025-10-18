@@ -476,7 +476,8 @@ export default function LinkBlogClean() {
           <div className="py-4 flex items-center justify-between gap-4">
             {/* Logo/Title */}
             <div>
-              <h1 className="text-xl font-semibold">newsfeeds.net</h1>
+              <h1 className="text-xl font-semibold text-blue-700">newsfeeds.net</h1>
+              <div className="text-xs text-amber-700 font-medium mt-0.5">human edited and curated</div>
               <div className="text-xs text-neutral-600 mt-1 space-y-1">
                 <div>
                   <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline">RSS</a>
@@ -830,7 +831,7 @@ export default function LinkBlogClean() {
       {/* Main Content */}
       <main className="container-width section-y">
         <div className="space-y-3">
-          {/* Stats */}
+          {/* Stats & Legend */}
           <div className="flex items-center justify-between text-sm text-neutral-500 mb-6">
             <span>
               {filteredAndSortedLinks.length}:{links.length}
@@ -838,6 +839,21 @@ export default function LinkBlogClean() {
             <span>
               {selectedTags.length > 0 && `Filtered by: ${selectedTags.join(', ')}`}
             </span>
+          </div>
+
+          {/* Legend */}
+          <div className="mb-6 p-3 bg-neutral-50 border border-neutral-200 rounded-lg">
+            <div className="text-xs text-neutral-600 space-y-1">
+              <div className="font-semibold text-neutral-700 mb-2">Link Card Contents:</div>
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+                <div><span className="font-medium">Title:</span> Source/article name</div>
+                <div><span className="font-medium">URL:</span> Domain shown below title</div>
+                <div><span className="font-medium">Quote:</span> Pull quote or excerpt</div>
+                <div><span className="font-medium">Tags:</span> Topic categories (clickable)</div>
+                <div><span className="font-medium">Date:</span> When link was added</div>
+                <div><span className="font-medium">Visits:</span> Click count (admin only)</div>
+              </div>
+            </div>
           </div>
 
           {/* Links List */}
