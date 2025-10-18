@@ -1,0 +1,23 @@
+# Robots.txt for mediaeater Link Blog
+# Optimized for search engine crawling
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /*.json$
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: /scripts/
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Reference to sitemap
+Sitemap: https://mediaeater.com/sitemap.xml

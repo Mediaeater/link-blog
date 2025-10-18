@@ -3,18 +3,33 @@ const fs = require('fs').promises;
 const path = require('path');
 const cors = require('cors');
 const { generateRSS } = require('./utils/rss-generator.cjs');
+const activityPubRoutes = require('./routes/activitypub.cjs');
 
 const app = express();
 const PORT = 3001;
 
-// Enable CORS for the Vite dev server
-app.use(cors({
-  origin: 'http://localhost:5174',
-  methods: ['GET', 'POST'],
-  credentials: true
-}));
+// Enable CORS for the Vite dev server (but not for ActivityPub endpoints)
+app.use((req, res, next) => {
+  // Skip CORS for ActivityPub endpoints
+  if (req.path.startsWith('/.well-known/') ||
+      req.path.startsWith('/actor/') ||
+      req.path.startsWith('/note/') ||
+      req.path.startsWith('/inbox')) {
+    return next();
+  }
+
+  // Apply CORS for API endpoints
+  cors({
+    origin: 'http://localhost:5174',
+    methods: ['GET', 'POST'],
+    credentials: true
+  })(req, res, next);
+});
 
 app.use(express.json());
+
+// ActivityPub routes
+app.use(activityPubRoutes);
 
 // Endpoint to save links
 app.post('/api/save-links', async (req, res) => {
@@ -106,13 +121,24 @@ app.listen(PORT, () => {
    This server handles saving your links to the JSON files.
    Keep this running alongside your Vite dev server.
 
-   Endpoints:
+   API Endpoints:
    - POST /api/save-links - Save links to JSON files
    - GET  /api/links      - Get current links
 
-   RSS Feed endpoints:
+   RSS Feed Endpoints:
    - GET  /feed.xml       - RSS 2.0 feed
    - GET  /atom.xml       - Atom feed
    - GET  /feed.json      - JSON feed
+
+   ActivityPub Endpoints:
+   - GET  /.well-known/webfinger - WebFinger discovery
+   - GET  /actor/mediaeater      - Actor profile
+   - GET  /actor/mediaeater/outbox    - Published posts
+   - GET  /actor/mediaeater/followers - Followers list
+   - POST /actor/mediaeater/inbox     - Receive activities
+   - GET  /note/:id              - Individual note
+
+   🌐 To enable federation, ensure this server is accessible at:
+      https://newsfeeds.net
   `);
 });

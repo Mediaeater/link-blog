@@ -1,0 +1,1580 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Mediaeater Digest",
+  "home_page_url": "https://mediaeater.github.io/link-blog/",
+  "feed_url": "https://mediaeater.github.io/link-blog/data/feed.json",
+  "description": "Latest links and resources - mediaeater - dispute the text",
+  "icon": "https://mediaeater.github.io/link-blog/favicon.ico",
+  "favicon": "https://mediaeater.github.io/link-blog/favicon.ico",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Mediaeater",
+      "url": "https://mediaeater.github.io/link-blog/"
+    }
+  ],
+  "items": [
+    {
+      "id": "1760813566283",
+      "url": "https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books",
+      "title": "The Hunt for the World’s Oldest Story",
+      "date_published": "2025-10-18T18:52:46.283Z",
+      "tags": [
+        "stories"
+      ],
+      "content_text": "The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.\n\nNowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?",
+      "summary": "The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost anc...",
+      "content_html": "<blockquote>The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.\n\nNowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?</blockquote>\n<p><strong>Tags:</strong> stories</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760813388067",
+      "url": "https://scyy.fi/shelf/history-of-intelligence?ref=thediff.co",
+      "title": "Notes: A Brief History of Intelligence (Bennett)",
+      "date_published": "2025-10-18T18:50:36.186Z",
+      "tags": [
+        "book",
+        "resource",
+        "intelligence",
+        "learning"
+      ],
+      "content_text": "Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event, etc. Here’s a related timeline from another notes post:\n\n Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.\n\nAnimals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this.",
+      "summary": "Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event...",
+      "content_html": "<blockquote>Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event, etc. Here’s a related timeline from another notes post:\n\n Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.\n\nAnimals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this.</blockquote>\n<p><strong>Tags:</strong> book, resource, intelligence, learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760797352472",
+      "url": "https://kottke.org/25/10/the-underscore-music-player",
+      "title": "The Underscore Music Player",
+      "date_published": "2025-10-18T14:22:32.472Z",
+      "tags": [
+        "music",
+        "player"
+      ],
+      "content_text": "So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add links to music from Spotify, YouTube, Soundcloud, Bandcamp, and Apple Music to it — just paste their share URLs in. Reloading the page gives you a random piece of music from your collection. You can see a list of the songs, videos, playlists, and albums in your collection and can hide them if you want. That’s it. That’s all it does.",
+      "summary": "So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add li...",
+      "content_html": "<blockquote>So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add links to music from Spotify, YouTube, Soundcloud, Bandcamp, and Apple Music to it — just paste their share URLs in. Reloading the page gives you a random piece of music from your collection. You can see a list of the songs, videos, playlists, and albums in your collection and can hide them if you want. That’s it. That’s all it does.</blockquote>\n<p><strong>Tags:</strong> music, player</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760797261757",
+      "url": "https://images.wur.nl/digital/collection/coll13/search",
+      "title": "Root System Drawings",
+      "date_published": "2025-10-18T14:21:01.757Z",
+      "tags": [
+        "root",
+        "system",
+        "plants",
+        "botany",
+        "collection",
+        "drawing"
+      ],
+      "content_text": "Browsing items in: Root System Drawings",
+      "summary": "Browsing items in: Root System Drawings",
+      "content_html": "<blockquote>Browsing items in: Root System Drawings</blockquote>\n<p><strong>Tags:</strong> root, system, plants, botany, collection, drawing</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760796645849",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048",
+      "title": "Global patterns of synchronization in human communications | Journal of The Royal Society Interface",
+      "date_published": "2025-10-18T14:10:45.849Z",
+      "tags": [
+        "human",
+        "behavior",
+        "patterns",
+        "social-media",
+        "synchrony"
+      ],
+      "content_text": "Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur.",
+      "summary": "Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here...",
+      "content_html": "<blockquote>Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur.</blockquote>\n<p><strong>Tags:</strong> human, behavior, patterns, social-media, synchrony</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760796427056",
+      "url": "https://www.anildash.com//2025/10/17/the-majority-ai-view/",
+      "title": "The Majority AI View - Anil Dash",
+      "date_published": "2025-10-18T14:07:07.056Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "llm",
+        "openai",
+        "censorship"
+      ],
+      "content_text": "Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren't lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn't centralized under the control of a handful of giant companies. Or any other definition of \"good AI\" that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced \"AI\" to the public imagination are run by authoritarian extremists with deeply destructive agendas.\n\n",
+      "summary": "Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilitie...",
+      "content_html": "<blockquote>Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren&#039;t lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn&#039;t centralized under the control of a handful of giant companies. Or any other definition of &quot;good AI&quot; that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced &quot;AI&quot; to the public imagination are run by authoritarian extremists with deeply destructive agendas.\n\n</blockquote>\n<p><strong>Tags:</strong> ai, ethics, llm, openai, censorship</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760796189017",
+      "url": "https://ruthasawa.com/",
+      "title": "Ruth Asawa Arrives in New York with a Monumental Retrospective",
+      "date_published": "2025-10-18T14:03:09.017Z",
+      "tags": [
+        "art",
+        "ruth asawa",
+        "sf",
+        "nyc",
+        "moma",
+        "black mountain college"
+      ],
+      "content_text": "“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space.",
+      "summary": "“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, ...",
+      "content_html": "<blockquote>“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space.</blockquote>\n<p><strong>Tags:</strong> art, ruth asawa, sf, nyc, moma, black mountain college</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760782666234",
+      "url": "https://www.anthropic.com/news/skills?",
+      "title": "Introducing Agent Skills",
+      "date_published": "2025-10-18T10:17:46.234Z",
+      "tags": [
+        "claude",
+        "llm"
+      ],
+      "content_text": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed.\n\nClaude will only access a skill when it's relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization's brand guidelines.\n\n",
+      "summary": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude ...",
+      "content_html": "<blockquote>Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed.\n\nClaude will only access a skill when it&#039;s relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization&#039;s brand guidelines.\n\n</blockquote>\n<p><strong>Tags:</strong> claude, llm</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760568782753",
+      "url": "https://www.epsilontheory.com/anatomy-of-a-narrative-virus/",
+      "title": "Anatomy of a Narrative Virus - How a story spreads",
+      "date_published": "2025-10-15T22:53:02.753Z",
+      "tags": [
+        "truth",
+        "grok",
+        "media",
+        "narritive"
+      ],
+      "content_text": "And don't get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn't that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.\n\nAnd I know that I'm not alone.",
+      "summary": "And don't get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of mo...",
+      "content_html": "<blockquote>And don&#039;t get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn&#039;t that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.\n\nAnd I know that I&#039;m not alone.</blockquote>\n<p><strong>Tags:</strong> truth, grok, media, narritive</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760437958317",
+      "url": "https://www.gov.ca.gov/2025/10/08/governor-newsom-signs-data-privacy-bills-to-protect-tech-users/",
+      "title": "Governor Newsom signs data privacy bills to protect tech users | Governor of California",
+      "date_published": "2025-10-14T10:32:38.317Z",
+      "tags": [
+        "california",
+        "ca",
+        "privacy",
+        "legislation",
+        "socialmedia"
+      ],
+      "content_text": "requires social media companies to make it clear and easy for a user to delete their account – and requires that deletion also trigger full deletion of the user’s personal data. This law builds on the administration’s prior work to protect consumers and their privacy.",
+      "summary": "requires social media companies to make it clear and easy for a user to delete their account – and requires that deletion also trigger full deletion o...",
+      "content_html": "<blockquote>requires social media companies to make it clear and easy for a user to delete their account – and requires that deletion also trigger full deletion of the user’s personal data. This law builds on the administration’s prior work to protect consumers and their privacy.</blockquote>\n<p><strong>Tags:</strong> california, ca, privacy, legislation, socialmedia</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760436955686",
+      "url": "https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "title": " film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "date_published": "2025-10-14T10:24:05.430Z",
+      "tags": [
+        "ai",
+        "hollywood",
+        "trailer",
+        "ai-hollywood"
+      ],
+      "content_text": "An AI system called \"FellinAI\" takes the director's chair for \"The Sweet Idleness\" from Italian producer Andrea Iervolino. The film depicts a world ruled by automation.",
+      "summary": "An AI system called \"FellinAI\" takes the director's chair for \"The Sweet Idleness\" from Italian producer Andrea Iervolino. The film depicts a world ru...",
+      "content_html": "<blockquote>An AI system called &quot;FellinAI&quot; takes the director&#039;s chair for &quot;The Sweet Idleness&quot; from Italian producer Andrea Iervolino. The film depicts a world ruled by automation.</blockquote>\n<p><strong>Tags:</strong> ai, hollywood, trailer, ai-hollywood</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760437406690",
+      "url": "https://github.com/karpathy/nanochat",
+      "title": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
+      "date_published": "2025-10-14T10:23:26.690Z",
+      "tags": [
+        "code",
+        "github",
+        "open-source"
+      ],
+      "content_text": "This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end. This includes tokenization, pretraining, finetuning, evaluation, inference, and web serving over a simple UI so that you can talk to your own LLM just like ChatGPT. nanochat will become the capstone project of the course LLM101n being developed by Eureka Labs.",
+      "summary": "This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed ...",
+      "content_html": "<blockquote>This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end. This includes tokenization, pretraining, finetuning, evaluation, inference, and web serving over a simple UI so that you can talk to your own LLM just like ChatGPT. nanochat will become the capstone project of the course LLM101n being developed by Eureka Labs.</blockquote>\n<p><strong>Tags:</strong> code, github, open-source</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760436847202",
+      "url": "https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps",
+      "title": "OpenAI will eventually allow “mature” ChatGPT apps.",
+      "date_published": "2025-10-14T10:14:07.202Z",
+      "tags": [
+        "standards",
+        "openai",
+        "ai",
+        "ethics"
+      ],
+      "content_text": "\"Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.\"\nhttps://developers.openai.com/apps-sdk/app-developer-guidelines",
+      "summary": "\"Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.\"\nhttps://developers.openai.com/apps-sdk...",
+      "content_html": "<blockquote>&quot;Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.&quot;\nhttps://developers.openai.com/apps-sdk/app-developer-guidelines</blockquote>\n<p><strong>Tags:</strong> standards, openai, ai, ethics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760436619633",
+      "url": "https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf",
+      "title": "Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites",
+      "date_published": "2025-10-14T10:10:19.633Z",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "content_text": "Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. \n\nWe perform the first broad scan of IP traffic on 39 GEO satellites across 25 distinct longitudes with 411 transponders using consumergrade equipment. We overcome the poor signal quality plaguing prior work and build the first general parser that can handle the diverse protocols in use by heterogeneous endpoints. We found 50% of GEO links contained cleartext IP traffic; while link-layer encryption has been standard practice in satellite TV for decades, IP links typically lacked encryption at both the link and network layers. This gives us a unique view into the internal network security practices of these organizations. We observed unencrypted cellular backhaul traffic from several providers including cleartext call and text contents, job scheduling and industrial control systems for utility infrastructure, military asset tracking, ",
+      "summary": "Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercia...",
+      "content_html": "<blockquote>Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. \n\nWe perform the first broad scan of IP traffic on 39 GEO satellites across 25 distinct longitudes with 411 transponders using consumergrade equipment. We overcome the poor signal quality plaguing prior work and build the first general parser that can handle the diverse protocols in use by heterogeneous endpoints. We found 50% of GEO links contained cleartext IP traffic; while link-layer encryption has been standard practice in satellite TV for decades, IP links typically lacked encryption at both the link and network layers. This gives us a unique view into the internal network security practices of these organizations. We observed unencrypted cellular backhaul traffic from several providers including cleartext call and text contents, job scheduling and industrial control systems for utility infrastructure, military asset tracking, </blockquote>\n<p><strong>Tags:</strong> pdf, documentation</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760436518044",
+      "url": "https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html",
+      "title": "Opinion | The A.I. Bubble Looks Real",
+      "date_published": "2025-10-14T10:08:38.044Z",
+      "tags": [
+        "AI",
+        "business"
+      ],
+      "content_text": "Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points.",
+      "summary": "Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households...",
+      "content_html": "<blockquote>Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points.</blockquote>\n<p><strong>Tags:</strong> AI, business</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760207084313",
+      "url": "https://aistudio.google.com/gen-media",
+      "title": "aistudio.google",
+      "date_published": "2025-10-11T18:24:44.313Z",
+      "tags": [
+        "google",
+        "studio",
+        "ai generative-media",
+        "media"
+      ],
+      "content_text": "Google generative media portal ",
+      "summary": "Google generative media portal ",
+      "content_html": "<blockquote>Google generative media portal </blockquote>\n<p><strong>Tags:</strong> google, studio, ai generative-media, media</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760206840614",
+      "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149",
+      "title": "Deciphering complex coral reef soundscapes with spatial audio and 360° video",
+      "date_published": "2025-10-11T18:20:40.614Z",
+      "tags": [
+        "audio",
+        "fish",
+        "water",
+        "recordings",
+        "paper"
+      ],
+      "content_text": "We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings.",
+      "summary": "We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-s...",
+      "content_html": "<blockquote>We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings.</blockquote>\n<p><strong>Tags:</strong> audio, fish, water, recordings, paper</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759842284784",
+      "url": "https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/",
+      "title": "MPA Issues Statement on OpenAI’s Recent Release of Sora 2",
+      "date_published": "2025-10-07T13:04:44.784Z",
+      "tags": [
+        "opeani",
+        "ethics",
+        "hollywood"
+      ],
+      "content_text": "WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of Sora 2. “‘Since Sora 2’s release, videos that infringe our members’ films, shows, and characters have proliferated on OpenAI’s service and across social media. While OpenAI clarified it will ‘soon’ offer rightsholders more control over character generation, they must acknowledge it remains their responsibility – not rightsholders’ – to prevent infringement on the Sora 2 service. OpenAI needs to take immediate and decisive action to address this issue. Well-established copyright law safeguards the rights of creators and applies here.”",
+      "summary": "WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of...",
+      "content_html": "<blockquote>WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of Sora 2. “‘Since Sora 2’s release, videos that infringe our members’ films, shows, and characters have proliferated on OpenAI’s service and across social media. While OpenAI clarified it will ‘soon’ offer rightsholders more control over character generation, they must acknowledge it remains their responsibility – not rightsholders’ – to prevent infringement on the Sora 2 service. OpenAI needs to take immediate and decisive action to address this issue. Well-established copyright law safeguards the rights of creators and applies here.”</blockquote>\n<p><strong>Tags:</strong> opeani, ethics, hollywood</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759783518885",
+      "url": "https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self",
+      "title": "Sora provides better control over videos featuring your AI self",
+      "date_published": "2025-10-06T20:45:18.885Z",
+      "tags": [
+        "sora",
+        "video",
+        "likeness",
+        "video-gen",
+        "openai"
+      ],
+      "content_text": "The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially “a TikTok for deepfakes,” a place to make 10-second videos of pretty much anything, including AI-generated versions of yourself or others (voice included). OpenAI calls these virtual appearances “cameos.” Critics call them a looming misinformation disaster.",
+      "summary": "The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially ...",
+      "content_html": "<blockquote>The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially “a TikTok for deepfakes,” a place to make 10-second videos of pretty much anything, including AI-generated versions of yourself or others (voice included). OpenAI calls these virtual appearances “cameos.” Critics call them a looming misinformation disaster.</blockquote>\n<p><strong>Tags:</strong> sora, video, likeness, video-gen, openai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759783457629",
+      "url": "https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish",
+      "title": "Way past its prime: how did Amazon get so rubbish?",
+      "date_published": "2025-10-06T20:44:17.630Z",
+      "tags": [
+        "amazon",
+        "shopping",
+        "ux",
+        "shitification"
+      ],
+      "content_text": "The Amazon flywheel is designed to fit neatly into the consumer welfare framework. It proclaims itself to be an enemy to merchants on behalf of consumers. The flywheel is all about lowering prices, and the consumer welfare standard theory prizes low prices above all else.",
+      "summary": "The Amazon flywheel is designed to fit neatly into the consumer welfare framework. It proclaims itself to be an enemy to merchants on behalf of consum...",
+      "content_html": "<blockquote>The Amazon flywheel is designed to fit neatly into the consumer welfare framework. It proclaims itself to be an enemy to merchants on behalf of consumers. The flywheel is all about lowering prices, and the consumer welfare standard theory prizes low prices above all else.</blockquote>\n<p><strong>Tags:</strong> amazon, shopping, ux, shitification</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759783190637",
+      "url": "https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/",
+      "title": "A Network Crumb Back Story: A Baker’s Dozen Retrospective",
+      "date_published": "2025-10-06T20:39:50.637Z",
+      "tags": [
+        "network",
+        "autonomous-systems",
+        "rankings",
+        "ases"
+      ],
+      "content_text": "For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period.",
+      "summary": "For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visual...",
+      "content_html": "<blockquote>For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period.</blockquote>\n<p><strong>Tags:</strong> network, autonomous-systems, rankings, ases</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759783041766",
+      "url": "https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/",
+      "title": "WireGuard topologies for self-hosting at home",
+      "date_published": "2025-10-06T20:37:21.766Z",
+      "tags": [
+        "networks",
+        "wireguard",
+        "vpn"
+      ],
+      "content_text": "Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one more moving part in your system, the cost of which is justified only by what it affords you to do. The constraints that I outline below should provide clarity as to why using WireGuard is appropriate for my needs.",
+      "summary": "Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one mo...",
+      "content_html": "<blockquote>Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one more moving part in your system, the cost of which is justified only by what it affords you to do. The constraints that I outline below should provide clarity as to why using WireGuard is appropriate for my needs.</blockquote>\n<p><strong>Tags:</strong> networks, wireguard, vpn</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759782991909",
+      "url": "https://text.npr.org/nx-s1-5561999",
+      "title": "Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app",
+      "date_published": "2025-10-06T20:36:31.909Z",
+      "tags": [
+        "distribution",
+        "censorship",
+        "1A",
+        "rights"
+      ],
+      "content_text": "Since the app never had an Android version, it was not on Google's Play Store. Still, a company spokesperson told NPR that it, too, \"removed similar apps for violations of our policies,\" falling in line with Apple's actions.",
+      "summary": "Since the app never had an Android version, it was not on Google's Play Store. Still, a company spokesperson told NPR that it, too, \"removed similar a...",
+      "content_html": "<blockquote>Since the app never had an Android version, it was not on Google&#039;s Play Store. Still, a company spokesperson told NPR that it, too, &quot;removed similar apps for violations of our policies,&quot; falling in line with Apple&#039;s actions.</blockquote>\n<p><strong>Tags:</strong> distribution, censorship, 1A, rights</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759782918647",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "title": "Effective context engineering for AI agents",
+      "date_published": "2025-10-06T20:35:18.647Z",
+      "tags": [
+        "llm",
+        "agent",
+        "context",
+        "prompts"
+      ],
+      "content_text": "Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn't just crafting the perfect prompt—it's thoughtfully curating what information enters the model's limited attention budget at each step. Whether you're implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal tokens that maximize the likelihood of your desired outcome.",
+      "summary": "Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn't just crafting the per...",
+      "content_html": "<blockquote>Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn&#039;t just crafting the perfect prompt—it&#039;s thoughtfully curating what information enters the model&#039;s limited attention budget at each step. Whether you&#039;re implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal tokens that maximize the likelihood of your desired outcome.</blockquote>\n<p><strong>Tags:</strong> llm, agent, context, prompts</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759234503481",
+      "url": "https://lightcapai.medium.com/the-loneliness-epidemic-threatens-physical-health-like-smoking-e063220dde8b",
+      "title": "The loneliness epidemic threatens physical health like smoking",
+      "date_published": "2025-09-30T12:15:03.481Z",
+      "tags": [
+        "health",
+        "harms",
+        "loneliness"
+      ],
+      "content_text": "Chronic loneliness increases mortality risk by 32% and dementia risk by 31%, with biological pathways now proven through inflammation, immune dysfunction, and epigenetic changes affecting over 2.2 million studied individuals. Evidence-based interventions combining cognitive behavioral therapy, mindfulness, and community programs demonstrate measurable success — with some achieving 48% reduction in loneliness within six months and generating £3.42 in healthcare savings per £1 invested. The most effective individual strategies include structured 8-week mindfulness programs reducing daily loneliness by 22%, while community-based social prescribing has reached 9.4 million healthcare visits in the UK alone, proving that this epidemic is both scientifically understood and practically treatable through targeted interventions.",
+      "summary": "Chronic loneliness increases mortality risk by 32% and dementia risk by 31%, with biological pathways now proven through inflammation, immune dysfunct...",
+      "content_html": "<blockquote>Chronic loneliness increases mortality risk by 32% and dementia risk by 31%, with biological pathways now proven through inflammation, immune dysfunction, and epigenetic changes affecting over 2.2 million studied individuals. Evidence-based interventions combining cognitive behavioral therapy, mindfulness, and community programs demonstrate measurable success — with some achieving 48% reduction in loneliness within six months and generating £3.42 in healthcare savings per £1 invested. The most effective individual strategies include structured 8-week mindfulness programs reducing daily loneliness by 22%, while community-based social prescribing has reached 9.4 million healthcare visits in the UK alone, proving that this epidemic is both scientifically understood and practically treatable through targeted interventions.</blockquote>\n<p><strong>Tags:</strong> health, harms, loneliness</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759233580119",
+      "url": "https://www.politico.com/news/2025/09/29/newsom-signs-ai-law-00585348",
+      "title": "newsom-signs-ai-law-00585348",
+      "date_published": "2025-09-30T12:00:10.419Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "llm",
+        "legislation"
+      ],
+      "content_text": "The measure, SB 53, requires some AI developers to publicly disclose their safety and security protocols. It also creates a way for companies and the public to report major safety incidents to the state. The law includes whistleblower protections for AI workers and lays the groundwork for a state-run cloud computing cluster dubbed CalCompute.\n\n",
+      "summary": "The measure, SB 53, requires some AI developers to publicly disclose their safety and security protocols. It also creates a way for companies and the ...",
+      "content_html": "<blockquote>The measure, SB 53, requires some AI developers to publicly disclose their safety and security protocols. It also creates a way for companies and the public to report major safety incidents to the state. The law includes whistleblower protections for AI workers and lays the groundwork for a state-run cloud computing cluster dubbed CalCompute.\n\n</blockquote>\n<p><strong>Tags:</strong> ai, ethics, llm, legislation</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759229447683",
+      "url": "https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates",
+      "title": "FAA Statement - Boeing Airworthiness Certificates",
+      "date_published": "2025-09-30T10:50:47.683Z",
+      "tags": [
+        "regulation",
+        "air-travel",
+        "harms"
+      ],
+      "content_text": "The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. An airworthiness certificate confirms an aircraft is safe to operate.  \n\nSafety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely.",
+      "summary": "The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. ...",
+      "content_html": "<blockquote>The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. An airworthiness certificate confirms an aircraft is safe to operate.  \n\nSafety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely.</blockquote>\n<p><strong>Tags:</strong> regulation, air-travel, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759146044878",
+      "url": "https://csrankings.org/#/index?all&us",
+      "title": "csrankings.org",
+      "date_published": "2025-09-29T11:40:44.878Z",
+      "tags": [
+        "learning",
+        "education",
+        "university."
+      ],
+      "content_text": "#\tInstitution                    \tCount\t Faculty\n1    \t► Tsinghua University China closed chart\t8.6\t148\n2   \t► Carnegie Mellon University United States closed chart\t8.1\t162\n3   \t► Shanghai Jiao Tong University China closed chart\t7.0\t165\n4   \t► Georgia Institute of Technology United States closed chart\t6.3\t137\n5   \t► Peking University China closed chart\t6.2\t149\n5   \t► Zhejiang University China closed chart\t6.2\t115\n",
+      "summary": "#\tInstitution                    \tCount\t Faculty\n1    \t► Tsinghua University China closed chart\t8.6\t148\n2   \t► Carnegie Mellon University United State...",
+      "content_html": "<blockquote>#\tInstitution                    \tCount\t Faculty\n1    \t► Tsinghua University China closed chart\t8.6\t148\n2   \t► Carnegie Mellon University United States closed chart\t8.1\t162\n3   \t► Shanghai Jiao Tong University China closed chart\t7.0\t165\n4   \t► Georgia Institute of Technology United States closed chart\t6.3\t137\n5   \t► Peking University China closed chart\t6.2\t149\n5   \t► Zhejiang University China closed chart\t6.2\t115\n</blockquote>\n<p><strong>Tags:</strong> learning, education, university.</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759145340527",
+      "url": "https://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5",
+      "title": "The secret to great art? Finding someone else to make it",
+      "date_published": "2025-09-29T11:29:00.527Z",
+      "tags": [
+        "art",
+        "authorship"
+      ],
+      "content_text": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5\n\n\t “With today’s tools — including AI — it’s no longer necessary for artists to learn a craft. What matters is the content, the idea. It doesn’t matter what tools you use if you achieve it.” But even Abramović has found fabricators indispensable. On her carved self-portraits Five Stages of Maya Dance (2013), she spent seven years collaborating with Factum Arte co-founder Adam Lowe\n",
+      "summary": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com ...",
+      "content_html": "<blockquote>\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&amp;Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5\n\n\t “With today’s tools — including AI — it’s no longer necessary for artists to learn a craft. What matters is the content, the idea. It doesn’t matter what tools you use if you achieve it.” But even Abramović has found fabricators indispensable. On her carved self-portraits Five Stages of Maya Dance (2013), she spent seven years collaborating with Factum Arte co-founder Adam Lowe\n</blockquote>\n<p><strong>Tags:</strong> art, authorship</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759117485587",
+      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash? ",
+      "title": "CEO of Controversial Startup Vows to Keep Mass Publishing AI Podcasts Despite Backlash",
+      "date_published": "2025-09-29T03:44:45.587Z",
+      "tags": [
+        "ethics",
+        "podcast",
+        "ai"
+      ],
+      "content_text": "So far, the company hasn’t spent any money on marketing for its shows and only relies on in-platform searches. She said Apple Podcasts, Spotify and other platforms mostly just encourage people to disclose when they use AI, which she said the company does. (I saw disclosures in some shows, but not all, which we’ll get into below.)\n\n“To make another bold prediction, I think that within the next 12 months, certainly 24 months, I think AI becomes the default way that people are making content,” Wright said. “And so we will move away from having a disclosure the same way that you don’t disclose that a movie is made with CGI.”",
+      "summary": "So far, the company hasn’t spent any money on marketing for its shows and only relies on in-platform searches. She said Apple Podcasts, Spotify and ot...",
+      "content_html": "<blockquote>So far, the company hasn’t spent any money on marketing for its shows and only relies on in-platform searches. She said Apple Podcasts, Spotify and other platforms mostly just encourage people to disclose when they use AI, which she said the company does. (I saw disclosures in some shows, but not all, which we’ll get into below.)\n\n“To make another bold prediction, I think that within the next 12 months, certainly 24 months, I think AI becomes the default way that people are making content,” Wright said. “And so we will move away from having a disclosure the same way that you don’t disclose that a movie is made with CGI.”</blockquote>\n<p><strong>Tags:</strong> ethics, podcast, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759117372389",
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "title": "Farewell Friends - HumbleDollar",
+      "date_published": "2025-09-29T03:42:52.389Z",
+      "tags": [
+        "death",
+        "obit"
+      ],
+      "content_text": "Have been seeing a lot of these, its a good idea to print your own legend. If this post is appearing, it means I’ve succumbed to cancer or one of its side effects. Please don’t feel sad for me. I’ve had a life filled with love, great experiences and wonderful career opportunities. Despite my demise at a relatively young age, I consider myself beyond fortunate.\n\n",
+      "summary": "Have been seeing a lot of these, its a good idea to print your own legend. If this post is appearing, it means I’ve succumbed to cancer or one of its ...",
+      "content_html": "<blockquote>Have been seeing a lot of these, its a good idea to print your own legend. If this post is appearing, it means I’ve succumbed to cancer or one of its side effects. Please don’t feel sad for me. I’ve had a life filled with love, great experiences and wonderful career opportunities. Despite my demise at a relatively young age, I consider myself beyond fortunate.\n\n</blockquote>\n<p><strong>Tags:</strong> death, obit</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759117269413",
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "title": "Petition: Do not introduce Digital ID cards",
+      "date_published": "2025-09-29T03:41:09.413Z",
+      "tags": [
+        "surveillance",
+        "harms",
+        "ethics",
+        "privacy",
+        "uk"
+      ],
+      "content_text": "Petition Do not introduce Digital ID cards We demand that the UK Government immediately commits to not introducing a digital ID cards. There are reports that this is being looked at.\n\nWe think this would be a step towards mass surveillance and digital control, and that no one should be forced to register with a state-controlled ID system. We oppose the creation of any national ID system. ID cards were scrapped in 2010, in our view for good reason. Sign this petition 2,388,642 signatures",
+      "summary": "Petition Do not introduce Digital ID cards We demand that the UK Government immediately commits to not introducing a digital ID cards. There are repor...",
+      "content_html": "<blockquote>Petition Do not introduce Digital ID cards We demand that the UK Government immediately commits to not introducing a digital ID cards. There are reports that this is being looked at.\n\nWe think this would be a step towards mass surveillance and digital control, and that no one should be forced to register with a state-controlled ID system. We oppose the creation of any national ID system. ID cards were scrapped in 2010, in our view for good reason. Sign this petition 2,388,642 signatures</blockquote>\n<p><strong>Tags:</strong> surveillance, harms, ethics, privacy, uk</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759117178224",
+      "url": "https://climatetrace.org/air-pollution",
+      "title": "Air pollution",
+      "date_published": "2025-09-29T03:39:38.224Z",
+      "tags": [
+        "climate",
+        "aqi",
+        "map"
+      ],
+      "content_text": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
+      "summary": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensin...",
+      "content_html": "<blockquote>How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth&#039;s atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities</blockquote>\n<p><strong>Tags:</strong> climate, aqi, map</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759116996981.7578",
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "title": "Petition: Do not introduce Digital ID cards",
+      "date_published": "2025-09-29T03:36:36.981Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759116996981.6274",
+      "url": "https://climatetrace.org/",
+      "title": "Climate TRACE",
+      "date_published": "2025-09-29T03:36:36.981Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759116996981.2842",
+      "url": "https://climatetrace.org/air-pollution",
+      "title": "Air pollution",
+      "date_published": "2025-09-29T03:36:36.981Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759116996981.0823",
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "title": "Farewell Friends - HumbleDollar",
+      "date_published": "2025-09-29T03:36:36.981Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759116996981.6323",
+      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
+      "title": "bloomberg.com",
+      "date_published": "2025-09-29T03:36:36.981Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759107086115.44",
+      "url": "https://climatetrace.org/",
+      "title": "Climate TRACE",
+      "date_published": "2025-09-29T00:51:26.115Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759107086115.6147",
+      "url": "https://climatetrace.org/air-pollution",
+      "title": "Air pollution",
+      "date_published": "2025-09-29T00:51:26.115Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759107086115.4614",
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "title": "Farewell Friends - HumbleDollar",
+      "date_published": "2025-09-29T00:51:26.115Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759107086115.2908",
+      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
+      "title": "bloomberg.com",
+      "date_published": "2025-09-29T00:51:26.115Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759107086114.2097",
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "title": "Petition: Do not introduce Digital ID cards",
+      "date_published": "2025-09-29T00:51:26.114Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759003849895",
+      "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
+      "title": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
+      "date_published": "2025-09-27T20:10:49.895Z",
+      "tags": [
+        "opsec",
+        "security",
+        "usa"
+      ],
+      "content_text": "The U.S. government holds extensive data about everyone living inside its borders, some of it very sensitive—and there’s not much that can be done about it. This information consists largely of facts that people are legally obligated to tell the government. The IRS has a lot of very sensitive data about personal finances. The Treasury Department has data about any money received from the government. The Office of Personnel Management has an enormous amount of detailed information about government employees—including the very personal form required to get a security clearance. The Census Bureau possesses vast data about everyone living in the U.S., including, for example, a database of real estate ownership in the country. The Department of Defense and the Bureau of Veterans Affairs have data about present and former members of the military, the Department of Homeland Security has travel information, and various agencies possess health records. And so on.\n\n",
+      "summary": "The U.S. government holds extensive data about everyone living inside its borders, some of it very sensitive—and there’s not much that can be done abo...",
+      "content_html": "<blockquote>The U.S. government holds extensive data about everyone living inside its borders, some of it very sensitive—and there’s not much that can be done about it. This information consists largely of facts that people are legally obligated to tell the government. The IRS has a lot of very sensitive data about personal finances. The Treasury Department has data about any money received from the government. The Office of Personnel Management has an enormous amount of detailed information about government employees—including the very personal form required to get a security clearance. The Census Bureau possesses vast data about everyone living in the U.S., including, for example, a database of real estate ownership in the country. The Department of Defense and the Bureau of Veterans Affairs have data about present and former members of the military, the Department of Homeland Security has travel information, and various agencies possess health records. And so on.\n\n</blockquote>\n<p><strong>Tags:</strong> opsec, security, usa</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758984906467",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "title": "Bill Text - SB-53 Artificial intelligence models: large developers.",
+      "date_published": "2025-09-27T14:55:06.467Z",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "legislation",
+        "california"
+      ],
+      "content_text": "22757.14. (a) On or before January 1, 2027, and annually thereafter, the Department of Technology shall assess recent evidence and developments relevant to the purposes of this chapter and shall make recommendations about whether and how to update any of the following definitions for the purposes of this chapter to ensure that they accurately reflect technological developments, scientific literature, and widely accepted national and international standards:\n(1) “Frontier model” so that it applies to foundation models at the frontier of artificial intelligence development.\n(2) “Frontier developer” so that it applies to developers of frontier models who are themselves at the frontier of artificial intelligence development.\n(3) “Large frontier developer” so that it applies to well-resourced frontier developers.\n(b) In making recommendations pursuant to this section, the Department of Technology shall take into account all of the following: (1) Similar thresholds used in international standards or federal law, guidance, or regulations for the management of catastrophic risk and shall align with a definition adopted in a federal law or regulation to the extent that it is consistent with the purposes of this chapter. (2) Input from stakeholders, including academics, industry, the open-source community, and governmental entities.",
+      "summary": "22757.14. (a) On or before January 1, 2027, and annually thereafter, the Department of Technology shall assess recent evidence and developments releva...",
+      "content_html": "<blockquote>22757.14. (a) On or before January 1, 2027, and annually thereafter, the Department of Technology shall assess recent evidence and developments relevant to the purposes of this chapter and shall make recommendations about whether and how to update any of the following definitions for the purposes of this chapter to ensure that they accurately reflect technological developments, scientific literature, and widely accepted national and international standards:\n(1) “Frontier model” so that it applies to foundation models at the frontier of artificial intelligence development.\n(2) “Frontier developer” so that it applies to developers of frontier models who are themselves at the frontier of artificial intelligence development.\n(3) “Large frontier developer” so that it applies to well-resourced frontier developers.\n(b) In making recommendations pursuant to this section, the Department of Technology shall take into account all of the following: (1) Similar thresholds used in international standards or federal law, guidance, or regulations for the management of catastrophic risk and shall align with a definition adopted in a federal law or regulation to the extent that it is consistent with the purposes of this chapter. (2) Input from stakeholders, including academics, industry, the open-source community, and governmental entities.</blockquote>\n<p><strong>Tags:</strong> ai, machine-learning, legislation, california</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758976629504",
+      "url": "https://overreacted.io/open-social/",
+      "title": "Open Social — overreacted",
+      "date_published": "2025-09-27T12:37:09.504Z",
+      "tags": [
+        "socialmedia",
+        "decentralization",
+        "open-social"
+      ],
+      "content_text": "As more products are built in the open social paradigm, there’s going to be a shift.\n\nPeople might not ever start using technical concepts like “decentralization” but they do understand when data from one app can seamlessly flow into other apps.\n\nPeople might not care about “federation” but they do notice when they log into a competing product, and their data is already there, and their reach is intact.\n\nAnd people do understand when they’re being fucked with.",
+      "summary": "As more products are built in the open social paradigm, there’s going to be a shift.\n\nPeople might not ever start using technical concepts like “decen...",
+      "content_html": "<blockquote>As more products are built in the open social paradigm, there’s going to be a shift.\n\nPeople might not ever start using technical concepts like “decentralization” but they do understand when data from one app can seamlessly flow into other apps.\n\nPeople might not care about “federation” but they do notice when they log into a competing product, and their data is already there, and their reach is intact.\n\nAnd people do understand when they’re being fucked with.</blockquote>\n<p><strong>Tags:</strong> socialmedia, decentralization, open-social</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758976489524",
+      "url": "https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world",
+      "title": "Happiest Countries in the World 2025",
+      "date_published": "2025-09-27T12:34:49.524Z",
+      "tags": [
+        "happiness",
+        "map",
+        "finland"
+      ],
+      "content_text": "Finland\t7.74 ; Denmark\t7.58 ; Iceland\t7.53 ; Sweden",
+      "summary": "Finland\t7.74 ; Denmark\t7.58 ; Iceland\t7.53 ; Sweden",
+      "content_html": "<blockquote>Finland\t7.74 ; Denmark\t7.58 ; Iceland\t7.53 ; Sweden</blockquote>\n<p><strong>Tags:</strong> happiness, map, finland</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758975845168",
+      "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/",
+      "title": "The Digital Markets Act’s impacts on EU users",
+      "date_published": "2025-09-27T12:24:05.168Z",
+      "tags": [
+        "apple",
+        "eu",
+        "dma",
+        "music"
+      ],
+      "content_text": "The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own agendas — to collect more data from EU citizens, or to get Apple’s technology for free.\nDespite our concerns with the DMA, teams across Apple are spending thousands of hours to bring new features to the European Union while meeting the law’s requirements. But it’s become clear that we can’t solve every problem the DMA creates.",
+      "summary": "The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own a...",
+      "content_html": "<blockquote>The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own agendas — to collect more data from EU citizens, or to get Apple’s technology for free.\nDespite our concerns with the DMA, teams across Apple are spending thousands of hours to bring new features to the European Union while meeting the law’s requirements. But it’s become clear that we can’t solve every problem the DMA creates.</blockquote>\n<p><strong>Tags:</strong> apple, eu, dma, music</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758975582766",
+      "url": "https://suno.com/studio-welcome",
+      "title": "Suno Studio",
+      "date_published": "2025-09-27T12:20:19.268Z",
+      "tags": [
+        "music",
+        "ai"
+      ],
+      "content_text": "web-based generative audio workstation that combines traditional DAW functionality with AI-powered music creation. ",
+      "summary": "web-based generative audio workstation that combines traditional DAW functionality with AI-powered music creation. ",
+      "content_html": "<blockquote>web-based generative audio workstation that combines traditional DAW functionality with AI-powered music creation. </blockquote>\n<p><strong>Tags:</strong> music, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758972547893",
+      "url": "https://harvey.studio/dface/",
+      "title": "DFACE - AI Face Redaction",
+      "date_published": "2025-09-27T11:29:07.893Z",
+      "tags": [
+        "surveillance",
+        "redaction",
+        "frt",
+        "privacy"
+      ],
+      "content_text": "DFACE.app is an open-source, AI-powered face redaction application to automatically block faces. The face detection model runs client-side, in your browser, so photo data never leaves your computer. More info and source cod",
+      "summary": "DFACE.app is an open-source, AI-powered face redaction application to automatically block faces. The face detection model runs client-side, in your br...",
+      "content_html": "<blockquote>DFACE.app is an open-source, AI-powered face redaction application to automatically block faces. The face detection model runs client-side, in your browser, so photo data never leaves your computer. More info and source cod</blockquote>\n<p><strong>Tags:</strong> surveillance, redaction, frt, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758709743539",
+      "url": "https://cybersect.substack.com/p/that-secret-service-sim-farm-story",
+      "title": "That Secret Service SIM farm story is bogus",
+      "date_published": "2025-09-24T10:29:03.539Z",
+      "tags": [
+        "sms",
+        "mobile",
+        "us-gov",
+        "networks"
+      ],
+      "content_text": "The reality is that this is just a normal criminal threat that sometimes crashes cell towers. SMS is an ancient technology that works slowly even in modern cell networks. Too many SIM boxes spamming SMS in one location can indeed overwhelm a cell tower. You actually don’t need a bunch of SIM boxes to do it — you can sometimes crash a cell tower with a single baseband radio. Ask me how I know",
+      "summary": "The reality is that this is just a normal criminal threat that sometimes crashes cell towers. SMS is an ancient technology that works slowly even in m...",
+      "content_html": "<blockquote>The reality is that this is just a normal criminal threat that sometimes crashes cell towers. SMS is an ancient technology that works slowly even in modern cell networks. Too many SIM boxes spamming SMS in one location can indeed overwhelm a cell tower. You actually don’t need a bunch of SIM boxes to do it — you can sometimes crash a cell tower with a single baseband radio. Ask me how I know</blockquote>\n<p><strong>Tags:</strong> sms, mobile, us-gov, networks</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758684186513",
+      "url": "https://kk.org/thetechnium/the-periodic-table-of-cognition/",
+      "title": "The Periodic Table of Cognition",
+      "date_published": "2025-09-24T03:23:06.514Z",
+      "tags": [
+        "intelligence",
+        "cognition"
+      ],
+      "content_text": "It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple cognitive elements, combined in a complex system unique to each species of mind. The result that we call intelligence emerges from many different cognitive primitives such as long-term memory, spatial awareness, logical deduction, advance planning, pattern perception, and so on. There may be dozens of them, or hundreds. We currently don’t have any idea of what these elements are. We lack a periodic table of cognition. ",
+      "summary": "It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple...",
+      "content_html": "<blockquote>It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple cognitive elements, combined in a complex system unique to each species of mind. The result that we call intelligence emerges from many different cognitive primitives such as long-term memory, spatial awareness, logical deduction, advance planning, pattern perception, and so on. There may be dozens of them, or hundreds. We currently don’t have any idea of what these elements are. We lack a periodic table of cognition. </blockquote>\n<p><strong>Tags:</strong> intelligence, cognition</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758677119226",
+      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
+      "title": "How China’s Propaganda and Surveillance Systems Really Operate",
+      "date_published": "2025-09-24T01:25:19.226Z",
+      "tags": [
+        "technology",
+        "surveillance",
+        "society",
+        "cn"
+      ],
+      "content_text": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
+      "summary": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they wer...",
+      "content_html": "<blockquote>The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.</blockquote>\n<p><strong>Tags:</strong> technology, surveillance, society, cn</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758676997447",
+      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
+      "title": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
+      "date_published": "2025-09-24T01:23:17.447Z",
+      "tags": [
+        "surveillance",
+        "telcom"
+      ],
+      "content_html": "<p><strong>Tags:</strong> surveillance, telcom</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758676814994",
+      "url": "https://walzr.com/sf-parking/",
+      "title": "Find My Parking Cops",
+      "date_published": "2025-09-24T01:20:14.994Z",
+      "tags": [
+        "surveillance",
+        "map",
+        "automotive",
+        "urban-hack"
+      ],
+      "content_text": "Find My Friends?\n🙅 NO!!\nCop\nFind My Parking Cops!\nI reverse engineered San Francisco's parking ticket system to show you exactly where each parking cop last wrote a ticket.\nCop\nUpdates in real-time",
+      "summary": "Find My Friends?\n🙅 NO!!\nCop\nFind My Parking Cops!\nI reverse engineered San Francisco's parking ticket system to show you exactly where each parking c...",
+      "content_html": "<blockquote>Find My Friends?\n🙅 NO!!\nCop\nFind My Parking Cops!\nI reverse engineered San Francisco&#039;s parking ticket system to show you exactly where each parking cop last wrote a ticket.\nCop\nUpdates in real-time</blockquote>\n<p><strong>Tags:</strong> surveillance, map, automotive, urban-hack</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758642931570",
+      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
+      "title": "How China’s Propaganda and Surveillance Systems Really Operate",
+      "date_published": "2025-09-23T15:55:31.570Z",
+      "tags": [
+        "surveillance",
+        "cn",
+        "economics",
+        "propaganda",
+        "privacy",
+        "leaked-documents"
+      ],
+      "content_text": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
+      "summary": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they wer...",
+      "content_html": "<blockquote>The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.</blockquote>\n<p><strong>Tags:</strong> surveillance, cn, economics, propaganda, privacy, leaked-documents</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758624481905",
+      "url": "https://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526",
+      "title": "Are we on course to become a Little Brother society?",
+      "date_published": "2025-09-23T15:50:03.401Z",
+      "tags": [
+        "hardware",
+        "surveillance",
+        "harms"
+      ],
+      "content_text": "Indeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call “peerveillance”. With the help of gadgets and subscriptions from technology companies, we are increasingly turning our gaze on each other, whether through cameras on our cycle helmets or our rapid adoption of camera doorbells such as Amazon’s Ring devices\n",
+      "summary": "Indeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call ...",
+      "content_html": "<blockquote>Indeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call “peerveillance”. With the help of gadgets and subscriptions from technology companies, we are increasingly turning our gaze on each other, whether through cameras on our cycle helmets or our rapid adoption of camera doorbells such as Amazon’s Ring devices\n</blockquote>\n<p><strong>Tags:</strong> hardware, surveillance, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758642464851",
+      "url": "https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/",
+      "title": "Apple previews new immersive films for Apple Vision Pro",
+      "date_published": "2025-09-23T15:47:44.851Z",
+      "tags": [
+        "apple",
+        "film",
+        "hollywood",
+        "mr",
+        "mixed reality"
+      ],
+      "content_text": "Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Project, the BBC, CANAL+, CNN, HYBE, MotoGP, and Red Bull. The new films will launch exclusively alongside new episodes of returning Apple Immersive series for Apple Vision Pro in the coming months. These new films are among the first to be captured with Blackmagic Design’s URSA Cine Immersive camera and edited on Mac using DaVinci Resolve Studio. ",
+      "summary": "Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Pro...",
+      "content_html": "<blockquote>Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Project, the BBC, CANAL+, CNN, HYBE, MotoGP, and Red Bull. The new films will launch exclusively alongside new episodes of returning Apple Immersive series for Apple Vision Pro in the coming months. These new films are among the first to be captured with Blackmagic Design’s URSA Cine Immersive camera and edited on Mac using DaVinci Resolve Studio. </blockquote>\n<p><strong>Tags:</strong> apple, film, hollywood, mr, mixed reality</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758642344436",
+      "url": "https://mediatum.ub.tum.de/1782307",
+      "title": "GlobalBuildingAtlas",
+      "date_published": "2025-09-23T15:45:44.436Z",
+      "tags": [
+        "map",
+        "atlas",
+        "landscape",
+        "architecture"
+      ],
+      "content_text": "The United Nations (UN) believes there are 4B buildings on Earth. This week, a dataset called \"GlobalBuildingAtlas\" (GBA) was published by researchers at the Technical University of Munich (TUM) that attempts to estimate this number at being closer to 2.75B.\n\nGBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (LoD1) dataset made up of 922 uncompressed GeoJSON files. I spent the last few days downloading these and converting them into 210 GB of Parquet. These are now being hosted on AWS S3 thanks to the kind generosity of Source Cooperative and Taylor Geospatial Engine.",
+      "summary": "The United Nations (UN) believes there are 4B buildings on Earth. This week, a dataset called \"GlobalBuildingAtlas\" (GBA) was published by researchers...",
+      "content_html": "<blockquote>The United Nations (UN) believes there are 4B buildings on Earth. This week, a dataset called &quot;GlobalBuildingAtlas&quot; (GBA) was published by researchers at the Technical University of Munich (TUM) that attempts to estimate this number at being closer to 2.75B.\n\nGBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (LoD1) dataset made up of 922 uncompressed GeoJSON files. I spent the last few days downloading these and converting them into 210 GB of Parquet. These are now being hosted on AWS S3 thanks to the kind generosity of Source Cooperative and Taylor Geospatial Engine.</blockquote>\n<p><strong>Tags:</strong> map, atlas, landscape, architecture</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758623722907",
+      "url": "https://arxiv.org/abs/2509.06917",
+      "title": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+      "date_published": "2025-09-23T10:40:03.481Z",
+      "tags": [
+        "research"
+      ],
+      "content_text": "We introduce Paper2Agent, an automated framework that converts research papers into AI agents. Paper2Agent transforms research output from passive artifacts into active systems that can accelerate downstream use, adoption, and discovery. Conventional research papers require readers to invest substantial effort to understand and adapt a paper's code, data, and methods to their own work, creating barriers to dissemination and reuse. ",
+      "summary": "We introduce Paper2Agent, an automated framework that converts research papers into AI agents. Paper2Agent transforms research output from passive art...",
+      "content_html": "<blockquote>We introduce Paper2Agent, an automated framework that converts research papers into AI agents. Paper2Agent transforms research output from passive artifacts into active systems that can accelerate downstream use, adoption, and discovery. Conventional research papers require readers to invest substantial effort to understand and adapt a paper&#039;s code, data, and methods to their own work, creating barriers to dissemination and reuse. </blockquote>\n<p><strong>Tags:</strong> research</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758472778073",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB627",
+      "title": "Bill Text - SB-627 Law enforcement: masks.",
+      "date_published": "2025-09-21T16:39:38.073Z",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "harms"
+      ],
+      "content_text": "The bill would require any law enforcement agency operating in California to, by July 1, 2026, maintain and publicly post a written policy limiting the use of facial coverings, as specified. The bill would exempt personnel of any agency from the crime of wearing a facial covering if an agency maintains a policy pursuant to this section no later than July 1, 2026. The bill would deem a policy consistent with these provisions for the purposes of that exception unless a member of the public, an oversight body, or a local governing authority challenges it. The bill would also impose a specified civil penalty against certain officers for tortious conduct, including, but not limited to, false imprisonment or false arrest of an individual while wearing a facial covering. The bill would, if the agency does not address deficiencies within 90 days, authorize the complaining party to proceed to a court of competent jurisdiction for a judicial determination of the exemption, as specified. The bill would define a law enforcement agency for these purposes as any entity of a city, county, or other local agency, that employs anyone designated by California law as a peace officer, any federal law enforcement agency, or any law enforcement agency of another state.\n",
+      "summary": "The bill would require any law enforcement agency operating in California to, by July 1, 2026, maintain and publicly post a written policy limiting th...",
+      "content_html": "<blockquote>The bill would require any law enforcement agency operating in California to, by July 1, 2026, maintain and publicly post a written policy limiting the use of facial coverings, as specified. The bill would exempt personnel of any agency from the crime of wearing a facial covering if an agency maintains a policy pursuant to this section no later than July 1, 2026. The bill would deem a policy consistent with these provisions for the purposes of that exception unless a member of the public, an oversight body, or a local governing authority challenges it. The bill would also impose a specified civil penalty against certain officers for tortious conduct, including, but not limited to, false imprisonment or false arrest of an individual while wearing a facial covering. The bill would, if the agency does not address deficiencies within 90 days, authorize the complaining party to proceed to a court of competent jurisdiction for a judicial determination of the exemption, as specified. The bill would define a law enforcement agency for these purposes as any entity of a city, county, or other local agency, that employs anyone designated by California law as a peace officer, any federal law enforcement agency, or any law enforcement agency of another state.\n</blockquote>\n<p><strong>Tags:</strong> surveillance, ethics, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758462039121",
+      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
+      "title": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
+      "date_published": "2025-09-21T13:40:39.121Z",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "harms",
+        "ai"
+      ],
+      "content_text": "We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.",
+      "summary": "We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of...",
+      "content_html": "<blockquote>We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.</blockquote>\n<p><strong>Tags:</strong> surveillance, ethics, harms, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758461704343.3533",
+      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
+      "title": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
+      "date_published": "2025-09-21T13:35:04.343Z",
+      "tags": [
+        "tools",
+        "useful",
+        "tutorial"
+      ],
+      "content_html": "<p><strong>Tags:</strong> tools, useful, tutorial</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758451000932",
+      "url": "https://archive.is/2uVSl",
+      "title": "Artificial intelligence ushers in a golden age of hacking, experts say",
+      "date_published": "2025-09-21T10:36:40.932Z",
+      "tags": [
+        "ai",
+        "security",
+        "important",
+        "opsec",
+        "ai-security"
+      ],
+      "content_text": "In many cases, the new techniques are stunningly powerful. On a recent assignment to test defenses, Dave Brauchler of the cybersecurity company NCC Group tricked a client’s AI program-writing assistant into executing programs that forked over the company’s databases and code repositories.\n“We have never been this foolish with security,” Brauchler said.",
+      "summary": "In many cases, the new techniques are stunningly powerful. On a recent assignment to test defenses, Dave Brauchler of the cybersecurity company NCC Gr...",
+      "content_html": "<blockquote>In many cases, the new techniques are stunningly powerful. On a recent assignment to test defenses, Dave Brauchler of the cybersecurity company NCC Group tricked a client’s AI program-writing assistant into executing programs that forked over the company’s databases and code repositories.\n“We have never been this foolish with security,” Brauchler said.</blockquote>\n<p><strong>Tags:</strong> ai, security, important, opsec, ai-security</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758450291142",
+      "url": "https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html",
+      "title": "TV Time Machine: A Raspberry Pi That Plays Random 90s TV",
+      "date_published": "2025-09-21T10:24:51.142Z",
+      "tags": [
+        "tv",
+        "raspi",
+        "playlist"
+      ],
+      "content_text": " Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup",
+      "summary": " Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that s...",
+      "content_html": "<blockquote> Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup</blockquote>\n<p><strong>Tags:</strong> tv, raspi, playlist</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758420167781",
+      "url": "https://underpassapp.com/news/2025/9/8.html",
+      "title": "macOS becomes iOS: Safari video controls",
+      "date_published": "2025-09-21T02:03:31.429Z",
+      "tags": [
+        "video",
+        "macos",
+        "ios",
+        "apple"
+      ],
+      "content_text": "In other words, yes, Apple is continuing to merge iOS and macOS.\n\n \n ",
+      "summary": "In other words, yes, Apple is continuing to merge iOS and macOS.\n\n \n ",
+      "content_html": "<blockquote>In other words, yes, Apple is continuing to merge iOS and macOS.\n\n \n </blockquote>\n<p><strong>Tags:</strong> video, macos, ios, apple</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757420687354",
+      "url": "https://github.com/getzep/graphiti",
+      "title": "Build Real-Time Knowledge Graphs for AI Agents",
+      "date_published": "2025-09-21T02:00:16.863Z",
+      "tags": [
+        "code",
+        "github",
+        "open-source",
+        "agent",
+        "knowledge-graph"
+      ],
+      "content_text": "Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environments. Unlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph.",
+      "summary": "Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environm...",
+      "content_html": "<blockquote>Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environments. Unlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph.</blockquote>\n<p><strong>Tags:</strong> code, github, open-source, agent, knowledge-graph</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758419960663",
+      "url": "https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd",
+      "title": "AI: what will become of the truth?",
+      "date_published": "2025-09-21T01:59:36.298Z",
+      "tags": [
+        "ai",
+        "memory",
+        "truth"
+      ],
+      "content_text": "The film’s narrative follows Stephen Fry, playing a grandfather with dementia who uses AI to fill in gaps in his memory. While reviewing the archive of his life, his family is forced to question which memories are truly accurate and how AI is shaping our identity.\n",
+      "summary": "The film’s narrative follows Stephen Fry, playing a grandfather with dementia who uses AI to fill in gaps in his memory. While reviewing the archive o...",
+      "content_html": "<blockquote>The film’s narrative follows Stephen Fry, playing a grandfather with dementia who uses AI to fill in gaps in his memory. While reviewing the archive of his life, his family is forced to question which memories are truly accurate and how AI is shaping our identity.\n</blockquote>\n<p><strong>Tags:</strong> ai, memory, truth</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758419426665",
+      "url": "https://www.aclock.live/",
+      "title": "a Clock",
+      "date_published": "2025-09-21T01:50:26.665Z",
+      "tags": [
+        "art",
+        "clock",
+        "time",
+        "copyright",
+        "bootleg"
+      ],
+      "content_html": "<p><strong>Tags:</strong> art, clock, time, copyright, bootleg</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758419073450",
+      "url": "https://thebulletin.org/2025/08/how-ai-and-surveillance-capitalism-are-undermining-democracy/",
+      "title": "How AI and surveillance capitalism are undermining democracy",
+      "date_published": "2025-09-21T01:44:33.450Z",
+      "tags": [
+        "surveillance",
+        "ai"
+      ],
+      "content_text": "eople may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.",
+      "summary": "eople may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to ju...",
+      "content_html": "<blockquote>eople may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.</blockquote>\n<p><strong>Tags:</strong> surveillance, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757676909317",
+      "url": "https://walzr.com/chyrons",
+      "title": "Chyrons",
+      "date_published": "2025-09-12T11:35:09.317Z",
+      "tags": [
+        "broadcast",
+        "news",
+        "chryon"
+      ],
+      "content_html": "<p><strong>Tags:</strong> broadcast, news, chryon</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757418298444",
+      "url": "https://www.reddit.com/r/truespotify/comments/1n5yod7/new_spotify_feature_is_doxxing/",
+      "title": "New Spotify feature is doxxing",
+      "date_published": "2025-09-09T11:44:58.444Z",
+      "tags": [
+        "reddit",
+        "spotify",
+        "privacy",
+        "music"
+      ],
+      "content_text": "\"I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of “suggested friends”, most I recognized, but a few I couldn’t place. Based on the music shared (it shows every single link you’ve ever sent that someone has opened, as long as they have a Spotify account), I realized some of these were people I know from Discord.\"",
+      "summary": "\"I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of “suggested friends”, most I recognized, but a...",
+      "content_html": "<blockquote>&quot;I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of “suggested friends”, most I recognized, but a few I couldn’t place. Based on the music shared (it shows every single link you’ve ever sent that someone has opened, as long as they have a Spotify account), I realized some of these were people I know from Discord.&quot;</blockquote>\n<p><strong>Tags:</strong> reddit, spotify, privacy, music</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757367362331",
+      "url": "https://community.spotify.com/t5/Content-Questions/How-can-I-disable-PFC-AI-generated-content/td-p/6956494",
+      "title": "How can I disable PFC (AI generated content)?",
+      "date_published": "2025-09-09T11:38:00.730Z",
+      "tags": [
+        "spotify",
+        "music",
+        "ai-backlash"
+      ],
+      "content_text": "Thanks for posting in the Spotify Community, and welcome!\nUnfortunately, there isn’t a currently a way to prevent AI-generated \"music\" from showing up in playlists, such as those that are Made for you by Spotify.",
+      "summary": "Thanks for posting in the Spotify Community, and welcome!\nUnfortunately, there isn’t a currently a way to prevent AI-generated \"music\" from showing up...",
+      "content_html": "<blockquote>Thanks for posting in the Spotify Community, and welcome!\nUnfortunately, there isn’t a currently a way to prevent AI-generated &quot;music&quot; from showing up in playlists, such as those that are Made for you by Spotify.</blockquote>\n<p><strong>Tags:</strong> spotify, music, ai-backlash</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757367646946",
+      "url": "https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised",
+      "title": "npm debug and chalk packages compromised",
+      "date_published": "2025-09-08T21:40:46.946Z",
+      "tags": [
+        "malware",
+        "llm",
+        "npm"
+      ],
+      "content_text": "Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages,",
+      "summary": "Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared t...",
+      "content_html": "<blockquote>Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages,</blockquote>\n<p><strong>Tags:</strong> malware, llm, npm</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757364929666",
+      "url": "https://lobste.rs/active",
+      "title": "Active Discussions | Lobsters",
+      "date_published": "2025-09-08T20:55:29.666Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757344635340.094",
+      "url": "https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/",
+      "title": "C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well.",
+      "date_published": "2025-09-08T18:28:59.254Z",
+      "tags": [
+        "surveillance",
+        "harms",
+        "ai",
+        "c3ai",
+        "tom_siebel"
+      ],
+      "content_html": "<p><strong>Tags:</strong> surveillance, harms, ai, c3ai, tom_siebel</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757335344138",
+      "url": "https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&reflink=desktopwebshare_permalink",
+      "title": "OpenAI Backs AI-Made Animated Feature Film",
+      "date_published": "2025-09-08T12:42:24.138Z",
+      "tags": [
+        "ai",
+        "openai",
+        "hollywood-ai",
+        "animation"
+      ],
+      "content_text": "The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the voices of the characters will be made in the next few weeks. \n\nIt is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said.",
+      "summary": "The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the ...",
+      "content_html": "<blockquote>The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the voices of the characters will be made in the next few weeks. \n\nIt is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said.</blockquote>\n<p><strong>Tags:</strong> ai, openai, hollywood-ai, animation</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757203853589",
+      "url": "https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce",
+      "title": "Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’",
+      "date_published": "2025-09-07T00:10:53.589Z",
+      "tags": [
+        "financial_times",
+        "geoffrey_hinton",
+        "lunch_with_the_ft",
+        "ai",
+        "ethics"
+      ],
+      "content_html": "<p><strong>Tags:</strong> financial_times, geoffrey_hinton, lunch_with_the_ft, ai, ethics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757203745886",
+      "url": "https://www.ft.com/content/f4be38b3-2de9-4b81-bc47-24119c2d5aef",
+      "title": "OpenAI pressed on safety after deaths of ChatGPT users",
+      "date_published": "2025-09-07T00:09:05.886Z",
+      "tags": [
+        "openai",
+        "ethics",
+        "safety",
+        "chatgpt",
+        "death"
+      ],
+      "content_html": "<p><strong>Tags:</strong> openai, ethics, safety, chatgpt, death</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757203488338.5732",
+      "url": "https://bbycroft.net/llm",
+      "title": "LLM Visualization",
+      "date_published": "2025-09-07T00:05:43.469Z",
+      "tags": [
+        "llm",
+        "learning",
+        "visualization",
+        "dataviz"
+      ],
+      "content_html": "<p><strong>Tags:</strong> llm, learning, visualization, dataviz</p>",
+      "banner_image": "https://bbycroft.net/icon.png?9d3d9b98e68d2d0d",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757203269870",
+      "url": "https://kanadojo.com/",
+      "title": "KanaDojo かな道場",
+      "date_published": "2025-09-07T00:01:30.968Z",
+      "tags": [
+        "japan",
+        "language",
+        "education",
+        "learning",
+        "ux"
+      ],
+      "content_html": "<p><strong>Tags:</strong> japan, language, education, learning, ux</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false,
+        "last_visited": "2025-09-07T00:01:18.177Z"
+      }
+    },
+    {
+      "id": "1757203188495",
+      "url": "https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement",
+      "title": "Anthropic to pay $1.5 billion to authors in landmark AI settlement",
+      "date_published": "2025-09-06T23:59:48.495Z",
+      "tags": [
+        "copyright",
+        "llm",
+        "anthropic",
+        "books",
+        "legacy_media"
+      ],
+      "content_html": "<p><strong>Tags:</strong> copyright, llm, anthropic, books, legacy_media</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757202907772",
+      "url": "https://simonwillison.net/2025/Sep/6/research-goblin/",
+      "title": "GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search",
+      "date_published": "2025-09-06T23:55:07.772Z",
+      "tags": [
+        "llm",
+        "search",
+        "chain-of-thought",
+        "chatgpt",
+        "gpt-5"
+      ],
+      "content_html": "<p><strong>Tags:</strong> llm, search, chain-of-thought, chatgpt, gpt-5</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757202551589.908",
+      "url": "https://gabrielweinberg.com/p/ai-surveillance-should-be-banned",
+      "title": "AI surveillance should be banned while there is still time.",
+      "date_published": "2025-09-06T23:53:46.088Z",
+      "tags": [
+        "ai",
+        "surveillance",
+        "harms",
+        "ethics",
+        "dignity"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai, surveillance, harms, ethics, dignity</p>",
+      "image": "https://substackcdn.com/image/fetch/$s_!UPxy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8768dfd7-595d-47a4-9bd8-9a57a28cd72c_2100x1025.png",
+      "banner_image": "https://substackcdn.com/image/fetch/$s_!e3e-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F409752e4-3fd1-45fd-963b-dcab2e4e369f%2Fapple-touch-icon-1024x1024.png",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757202717406.6863",
+      "url": "https://www.submarinecablemap.com/",
+      "title": "Submarine Cable Map",
+      "date_published": "2025-09-06T23:53:02.612Z",
+      "tags": [
+        "maps",
+        "submarine",
+        "networks"
+      ],
+      "content_html": "<p><strong>Tags:</strong> maps, submarine, networks</p>",
+      "image": "https://www.submarinecablemap.com/images/aqua-comms-logo.png",
+      "banner_image": "https://www.submarinecablemap.com/images/telegeography-app-icon.png",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1725540001",
+      "url": "https://dspy.ai/",
+      "title": "Programming—not prompting—LMs",
+      "date_published": "2025-09-05T11:00:00.000Z",
+      "tags": [
+        "llm",
+        "agent",
+        "dspy"
+      ],
+      "content_html": "<p><strong>Tags:</strong> llm, agent, dspy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1725540002",
+      "url": "https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html",
+      "title": "They're Famous. They're Everywhere. And They're Fake",
+      "date_published": "2025-09-05T10:30:00.000Z",
+      "tags": [
+        "influencers",
+        "brands",
+        "character-ai"
+      ],
+      "content_html": "<p><strong>Tags:</strong> influencers, brands, character-ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1725540003",
+      "url": "https://www.derekthompson.org/p/the-evidence-that-ai-is-destroying",
+      "title": "The Evidence That AI Is Destroying Workflows",
+      "date_published": "2025-09-05T10:00:00.000Z",
+      "tags": [
+        "ai-impact"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai-impact</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1725540004",
+      "url": "https://github.com/nukeop/nuclear",
+      "title": "Nuclear – Open Source Music Player (GitHub)",
+      "date_published": "2025-09-05T09:30:00.000Z",
+      "tags": [
+        "music",
+        "player",
+        "opensource"
+      ],
+      "content_html": "<p><strong>Tags:</strong> music, player, opensource</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1757344635340.3992",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
+      "title": "Apertus: Switzerland's First Open Multilingual LLM (EPFL/ETH/CSCS)",
+      "date_published": "2025-09-05T09:00:00.000Z",
+      "tags": [
+        "llm",
+        "opensource",
+        "ch"
+      ],
+      "content_html": "<p><strong>Tags:</strong> llm, opensource, ch</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    }
+  ]
+}

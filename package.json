@@ -14,8 +14,17 @@
     "test": "vitest",
     "serve": "serve -s dist",
     "sync": "node scripts/sync-from-browser.cjs",
+    "sitemap": "node scripts/generate-sitemap.js",
+    "rss": "node scripts/generate-rss.js",
+    "json-feed": "node scripts/generate-json-feed.js",
+    "opml": "node scripts/generate-opml.js",
+    "feeds": "npm run rss && npm run json-feed && npm run opml",
+    "prebuild": "npm run sitemap && npm run feeds",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "activitypub:setup": "node scripts/setup-activitypub.cjs",
+    "activitypub:status": "node scripts/activitypub-status.cjs",
+    "activitypub:deliver": "node scripts/deliver-links.cjs"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",

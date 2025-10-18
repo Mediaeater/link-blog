@@ -4,12 +4,16 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/',
   plugins: [react()],
+  publicDir: 'public',
   server: {
     port: 5174, // Use port 5174 instead of default 5173
     headers: {
       'Cache-Control': 'no-store', // Ensure no stale assets
     },
     open: true, // Automatically open the browser on dev server start
+    fs: {
+      strict: false, // Allow serving files outside root
+    },
   },
   build: {
     outDir: 'dist',
@@ -21,6 +25,8 @@ export default defineConfig({
         },
       },
     },
+    assetsInlineLimit: 4096,
+    copyPublicDir: true, // Ensure public files are copied
   },
   resolve: {
     alias: {

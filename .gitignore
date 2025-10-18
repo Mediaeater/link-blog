@@ -46,6 +46,11 @@ project-structure*.txt
 data/*export*.json
 data/*backup*.json
 
+# ActivityPub sensitive data
+data/activitypub/keys.json
+data/activitypub/followers.json
+data/activitypub/activities.json
+
 # Temporary dev scripts (uncomment if you want to keep them)
 # scripts/dev-with-save.cjs
 # scripts/sync-from-browser.js
