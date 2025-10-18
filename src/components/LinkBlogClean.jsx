@@ -483,6 +483,8 @@ export default function LinkBlogClean() {
                 <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline">JSON Feed</a>
                 {' / '}
                 <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline">OPML</a>
+                {' / '}
+                <span>(c)mediaeater.inc 2025</span>
               </div>
             </div>
 
