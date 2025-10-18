@@ -475,7 +475,16 @@ export default function LinkBlogClean() {
         <div className="container-width">
           <div className="py-4 flex items-center justify-between gap-4">
             {/* Logo/Title */}
-            <h1 className="text-xl font-semibold">newsfeeds.net</h1>
+            <div>
+              <h1 className="text-xl font-semibold">newsfeeds.net</h1>
+              <div className="text-xs text-neutral-600 mt-1">
+                <a href="/data/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline">RSS</a>
+                {' / '}
+                <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline">JSON Feed</a>
+                {' / '}
+                <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline">OPML</a>
+              </div>
+            </div>
 
             {/* Search */}
             <div className="flex-1 max-w-2xl">
