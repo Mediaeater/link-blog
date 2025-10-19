@@ -505,7 +505,9 @@ export default function LinkBlogClean() {
           <div className="py-4 flex items-center justify-between gap-4">
             {/* Logo/Title */}
             <div>
-              <h1 className="text-xl font-semibold text-blue-700">newsfeeds.net</h1>
+              <h1 className="text-xl font-semibold text-blue-700">
+                <a href="/" className="hover:underline">newsfeeds.net</a>
+              </h1>
               <div className="text-xs text-amber-700 font-medium mt-0.5">human edited and curated</div>
               <div className="text-xs text-neutral-600 mt-1 space-y-1">
                 <div>
