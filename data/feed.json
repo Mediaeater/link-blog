@@ -15,6 +15,115 @@
   ],
   "items": [
     {
+      "id": "1760868261023",
+      "url": "https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating",
+      "title": "Game over. AGI is not imminent, and LLMs are not the royal road to getting there.",
+      "date_published": "2025-10-19T10:04:21.023Z",
+      "tags": [
+        "agi",
+        "llm",
+        "ethics",
+        "code"
+      ],
+      "content_text": "LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.",
+      "summary": "LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.",
+      "content_html": "<blockquote>LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.</blockquote>\n<p><strong>Tags:</strong> agi, llm, ethics, code</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1725540004",
+      "url": "https://github.com/nukeop/nuclear",
+      "title": "Nuclear – Open Source Music Player (GitHub)",
+      "date_published": "2025-10-19T10:02:27.738Z",
+      "tags": [
+        "music",
+        "player",
+        "opensource"
+      ],
+      "content_text": "Streaming music player that finds free music for you",
+      "summary": "Streaming music player that finds free music for you",
+      "content_html": "<blockquote>Streaming music player that finds free music for you</blockquote>\n<p><strong>Tags:</strong> music, player, opensource</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759107086115.6147",
+      "url": "https://climatetrace.org/air-pollution",
+      "title": "Air pollution",
+      "date_published": "2025-10-19T10:00:50.256Z",
+      "tags": [
+        "map. aqi",
+        "tool"
+      ],
+      "content_text": "Facilities that create climate pollution also release harmful air pollution. See for yourself",
+      "summary": "Facilities that create climate pollution also release harmful air pollution. See for yourself",
+      "content_html": "<blockquote>Facilities that create climate pollution also release harmful air pollution. See for yourself</blockquote>\n<p><strong>Tags:</strong> map. aqi, tool</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760867943326",
+      "url": "https://werd.io/why-the-open-social-web-matters-now/",
+      "title": "Why the open social web matters now",
+      "date_published": "2025-10-19T09:59:03.326Z",
+      "tags": [
+        "ethics",
+        "social-media",
+        "open-social"
+      ],
+      "content_text": "The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we learn about them?  In most western countries, social media and video networks are now our main source of news and the way we receive updates from our friends. A handful of companies own how we learn about the world, giving them the ability to shape our collective worldviews, influence movements, and prioritize their own interests. \n\nThey have never been great actors — Amnesty International accused Meta of platforming a genocide in Myanmar in 2017 — but their influence and power has never been greater than it is today. And every major commercial social network is complicit. They’re collaborators.  We all know about Twitter acquirer Elon Musk, who bent the platform to fit his political worldview. But he’s not alone.\nHere’s Microsoft CEO Satya Nadella, owner of LinkedIn, who contributed a million dollars to Trump’s inauguration fund.\nHere’s Mark Zuckerberg, who owns Threads, Facebook, Instagram, and WhatsApp, who said that he feels optimistic about the new administration’s agenda. And here’s Larry Ellison, who will control TikTok in the US, who was a major investor in Trump, and who one advisor called, in a WIRED interview, the shadow President of the United States. Social media is very quickly becoming aligned with a state that in itself is becoming increasingly authoritarian.",
+      "summary": "The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we l...",
+      "content_html": "<blockquote>The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we learn about them?  In most western countries, social media and video networks are now our main source of news and the way we receive updates from our friends. A handful of companies own how we learn about the world, giving them the ability to shape our collective worldviews, influence movements, and prioritize their own interests. \n\nThey have never been great actors — Amnesty International accused Meta of platforming a genocide in Myanmar in 2017 — but their influence and power has never been greater than it is today. And every major commercial social network is complicit. They’re collaborators.  We all know about Twitter acquirer Elon Musk, who bent the platform to fit his political worldview. But he’s not alone.\nHere’s Microsoft CEO Satya Nadella, owner of LinkedIn, who contributed a million dollars to Trump’s inauguration fund.\nHere’s Mark Zuckerberg, who owns Threads, Facebook, Instagram, and WhatsApp, who said that he feels optimistic about the new administration’s agenda. And here’s Larry Ellison, who will control TikTok in the US, who was a major investor in Trump, and who one advisor called, in a WIRED interview, the shadow President of the United States. Social media is very quickly becoming aligned with a state that in itself is becoming increasingly authoritarian.</blockquote>\n<p><strong>Tags:</strong> ethics, social-media, open-social</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760867771770",
+      "url": "https://git-stars.org/ranking/newcomers",
+      "title": "Newcomer Ranking - New Rising Stars on GitHub",
+      "date_published": "2025-10-19T09:56:11.770Z",
+      "tags": [
+        "code",
+        "rankings",
+        "github"
+      ],
+      "content_text": "Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold",
+      "summary": "Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold",
+      "content_html": "<blockquote>Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold</blockquote>\n<p><strong>Tags:</strong> code, rankings, github</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760867715253",
+      "url": "https://github.com/obra/superpowers",
+      "title": "GitHub - obra/superpowers: Claude Code superpowers: core skills library",
+      "date_published": "2025-10-19T09:55:15.253Z",
+      "tags": [
+        "code",
+        "github",
+        "library",
+        "open-source"
+      ],
+      "content_text": "Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, async testing, anti-patterns\nDebugging Skills - Systematic debugging, root cause tracing, verification\nCollaboration Skills - Brainstorming, planning, code review, parallel agents\nDevelopment Skills - Git worktrees, finishing branches, subagent workflows\nMeta Skills - Creating, testing, and sharing skills",
+      "summary": "Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, as...",
+      "content_html": "<blockquote>Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, async testing, anti-patterns\nDebugging Skills - Systematic debugging, root cause tracing, verification\nCollaboration Skills - Brainstorming, planning, code review, parallel agents\nDevelopment Skills - Git worktrees, finishing branches, subagent workflows\nMeta Skills - Creating, testing, and sharing skills</blockquote>\n<p><strong>Tags:</strong> code, github, library, open-source</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1760813566283",
       "url": "https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books",
       "title": "The Hunt for the World’s Oldest Story",
@@ -461,7 +570,7 @@
       "summary": "Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn't just crafting the per...",
       "content_html": "<blockquote>Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn&#039;t just crafting the perfect prompt—it&#039;s thoughtfully curating what information enters the model&#039;s limited attention budget at each step. Whether you&#039;re implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal tokens that maximize the likelihood of your desired outcome.</blockquote>\n<p><strong>Tags:</strong> llm, agent, context, prompts</p>",
       "_link_blog": {
-        "visits": 0,
+        "visits": 1,
         "is_pinned": false
       }
     },
@@ -640,28 +749,6 @@
       }
     },
     {
-      "id": "1759116996981.6274",
-      "url": "https://climatetrace.org/",
-      "title": "Climate TRACE",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759116996981.2842",
-      "url": "https://climatetrace.org/air-pollution",
-      "title": "Air pollution",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
       "id": "1759116996981.0823",
       "url": "https://humbledollar.com/forum/farewell-friends/",
       "title": "Farewell Friends - HumbleDollar",
@@ -687,17 +774,6 @@
       "id": "1759107086115.44",
       "url": "https://climatetrace.org/",
       "title": "Climate TRACE",
-      "date_published": "2025-09-29T00:51:26.115Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759107086115.6147",
-      "url": "https://climatetrace.org/air-pollution",
-      "title": "Air pollution",
       "date_published": "2025-09-29T00:51:26.115Z",
       "tags": [],
       "_link_blog": {
@@ -1539,22 +1615,6 @@
         "ai-impact"
       ],
       "content_html": "<p><strong>Tags:</strong> ai-impact</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1725540004",
-      "url": "https://github.com/nukeop/nuclear",
-      "title": "Nuclear – Open Source Music Player (GitHub)",
-      "date_published": "2025-09-05T09:30:00.000Z",
-      "tags": [
-        "music",
-        "player",
-        "opensource"
-      ],
-      "content_html": "<p><strong>Tags:</strong> music, player, opensource</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false

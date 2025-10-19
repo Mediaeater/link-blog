@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 18 Oct 2025 18:53:50 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Oct 2025 10:07:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,20 +12,6 @@
             <title><![CDATA[Petition: Do not introduce Digital ID cards]]></title>
             <link>https://petition.parliament.uk/petitions/730194</link>
             <guid>1759116996981.7578</guid>
-            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Climate TRACE]]></title>
-            <link>https://climatetrace.org/</link>
-            <guid>1759116996981.6274</guid>
-            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Air pollution]]></title>
-            <link>https://climatetrace.org/air-pollution</link>
-            <guid>1759116996981.2842</guid>
             <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
         </item>
@@ -61,8 +47,8 @@
             <title><![CDATA[Air pollution]]></title>
             <link>https://climatetrace.org/air-pollution</link>
             <guid>1759107086115.6147</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
+            <pubDate>Sun, 19 Oct 2025 10:00:50 GMT</pubDate>
+            <description><![CDATA[Tags: map. aqi, tool]]></description>
         </item>
         <item>
             <title><![CDATA[Farewell Friends - HumbleDollar]]></title>
@@ -264,7 +250,7 @@
             <title><![CDATA[Nuclear – Open Source Music Player (GitHub)]]></title>
             <link>https://github.com/nukeop/nuclear</link>
             <guid>1725540004</guid>
-            <pubDate>Fri, 05 Sep 2025 09:30:00 GMT</pubDate>
+            <pubDate>Sun, 19 Oct 2025 10:02:27 GMT</pubDate>
             <description><![CDATA[Tags: music, player, opensource]]></description>
         </item>
         <item>
@@ -637,6 +623,34 @@
             <guid>1760813566283</guid>
             <pubDate>Sat, 18 Oct 2025 18:52:46 GMT</pubDate>
             <description><![CDATA[Tags: stories]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - obra/superpowers: Claude Code superpowers: core skills library]]></title>
+            <link>https://github.com/obra/superpowers</link>
+            <guid>1760867715253</guid>
+            <pubDate>Sun, 19 Oct 2025 09:55:15 GMT</pubDate>
+            <description><![CDATA[Tags: code, github, library, open-source]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Newcomer Ranking - New Rising Stars on GitHub]]></title>
+            <link>https://git-stars.org/ranking/newcomers</link>
+            <guid>1760867771770</guid>
+            <pubDate>Sun, 19 Oct 2025 09:56:11 GMT</pubDate>
+            <description><![CDATA[Tags: code, rankings, github]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Why the open social web matters now]]></title>
+            <link>https://werd.io/why-the-open-social-web-matters-now/</link>
+            <guid>1760867943326</guid>
+            <pubDate>Sun, 19 Oct 2025 09:59:03 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, social-media, open-social]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Game over. AGI is not imminent, and LLMs are not the royal road to getting there.]]></title>
+            <link>https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating</link>
+            <guid>1760868261023</guid>
+            <pubDate>Sun, 19 Oct 2025 10:04:21 GMT</pubDate>
+            <description><![CDATA[Tags: agi, llm, ethics, code]]></description>
         </item>
     </channel>
 </rss>
