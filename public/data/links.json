@@ -10,24 +10,6 @@
       "visits": 0
     },
     {
-      "id": 1759116996981.6274,
-      "url": "https://climatetrace.org/",
-      "source": "Climate TRACE",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T03:36:36.981Z",
-      "visits": 0
-    },
-    {
-      "id": 1759116996981.2842,
-      "url": "https://climatetrace.org/air-pollution",
-      "source": "Air pollution",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T03:36:36.981Z",
-      "visits": 0
-    },
-    {
       "id": 1759116996981.0823,
       "url": "https://humbledollar.com/forum/farewell-friends/",
       "source": "Farewell Friends - HumbleDollar",
@@ -67,10 +49,14 @@
       "id": 1759107086115.6147,
       "url": "https://climatetrace.org/air-pollution",
       "source": "Air pollution",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.115Z",
-      "visits": 0
+      "pullQuote": "Facilities that create climate pollution also release harmful air pollution. See for yourself",
+      "tags": [
+        "map. aqi",
+        "tool"
+      ],
+      "timestamp": "2025-10-19T10:00:50.256Z",
+      "visits": 1,
+      "tagInput": "map. aqi, tool"
     },
     {
       "id": 1759107086115.4614,
@@ -476,7 +462,10 @@
         "opensource"
       ],
       "isPinned": false,
-      "timestamp": "2025-09-05T09:30:00.000Z"
+      "timestamp": "2025-10-19T10:02:27.738Z",
+      "visits": 1,
+      "pullQuote": "Streaming music player that finds free music for you",
+      "tagInput": "music, player, open-source,"
     },
     {
       "id": 1757344635340.3992,
@@ -914,7 +903,7 @@
       ],
       "tagInput": "llm, agent, context, prompts",
       "timestamp": "2025-10-06T20:35:18.647Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1759782991909,
@@ -1257,9 +1246,67 @@
       "tagInput": "stories",
       "timestamp": "2025-10-18T18:52:46.283Z",
       "visits": 0
+    },
+    {
+      "id": 1760867715253,
+      "url": "https://github.com/obra/superpowers",
+      "source": "GitHub - obra/superpowers: Claude Code superpowers: core skills library",
+      "pullQuote": "Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, async testing, anti-patterns\nDebugging Skills - Systematic debugging, root cause tracing, verification\nCollaboration Skills - Brainstorming, planning, code review, parallel agents\nDevelopment Skills - Git worktrees, finishing branches, subagent workflows\nMeta Skills - Creating, testing, and sharing skills",
+      "tags": [
+        "code",
+        "github",
+        "library",
+        "open-source"
+      ],
+      "tagInput": "code, github, library, open-source",
+      "timestamp": "2025-10-19T09:55:15.253Z",
+      "visits": 0
+    },
+    {
+      "id": 1760867771770,
+      "url": "https://git-stars.org/ranking/newcomers",
+      "source": "Newcomer Ranking - New Rising Stars on GitHub",
+      "pullQuote": "Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold",
+      "tags": [
+        "code",
+        "rankings",
+        "github"
+      ],
+      "tagInput": "code, rankings, github",
+      "timestamp": "2025-10-19T09:56:11.770Z",
+      "visits": 0
+    },
+    {
+      "id": 1760867943326,
+      "url": "https://werd.io/why-the-open-social-web-matters-now/",
+      "source": "Why the open social web matters now",
+      "pullQuote": "The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we learn about them?  In most western countries, social media and video networks are now our main source of news and the way we receive updates from our friends. A handful of companies own how we learn about the world, giving them the ability to shape our collective worldviews, influence movements, and prioritize their own interests. \n\nThey have never been great actors — Amnesty International accused Meta of platforming a genocide in Myanmar in 2017 — but their influence and power has never been greater than it is today. And every major commercial social network is complicit. They’re collaborators.  We all know about Twitter acquirer Elon Musk, who bent the platform to fit his political worldview. But he’s not alone.\nHere’s Microsoft CEO Satya Nadella, owner of LinkedIn, who contributed a million dollars to Trump’s inauguration fund.\nHere’s Mark Zuckerberg, who owns Threads, Facebook, Instagram, and WhatsApp, who said that he feels optimistic about the new administration’s agenda. And here’s Larry Ellison, who will control TikTok in the US, who was a major investor in Trump, and who one advisor called, in a WIRED interview, the shadow President of the United States. Social media is very quickly becoming aligned with a state that in itself is becoming increasingly authoritarian.",
+      "tags": [
+        "ethics",
+        "social-media",
+        "open-social"
+      ],
+      "tagInput": "ethics, social-media, open-social",
+      "timestamp": "2025-10-19T09:59:03.326Z",
+      "visits": 0
+    },
+    {
+      "id": 1760868261023,
+      "url": "https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating",
+      "source": "Game over. AGI is not imminent, and LLMs are not the royal road to getting there.",
+      "pullQuote": "LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.",
+      "tags": [
+        "agi",
+        "llm",
+        "ethics",
+        "code"
+      ],
+      "tagInput": "agi, llm, ethics, code",
+      "timestamp": "2025-10-19T10:04:21.023Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-18T18:53:50.779Z",
-  "exportedAt": "2025-10-18T18:53:50.779Z",
-  "totalLinks": 90
+  "lastUpdated": "2025-10-19T10:07:25.875Z",
+  "exportedAt": "2025-10-19T10:07:25.875Z",
+  "totalLinks": 92
 }
