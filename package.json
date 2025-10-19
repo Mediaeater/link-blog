@@ -4,6 +4,7 @@
   "version": "1.1.0",
   "type": "module",
   "scripts": {
+    "setup": "node scripts/setup.js",
     "dev": "vite",
     "dev:save": "node scripts/dev-with-save.cjs",
     "api": "node server.cjs",
