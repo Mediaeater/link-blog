@@ -461,7 +461,7 @@
       "summary": "Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn't just crafting the per...",
       "content_html": "<blockquote>Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn&#039;t just crafting the perfect prompt—it&#039;s thoughtfully curating what information enters the model&#039;s limited attention budget at each step. Whether you&#039;re implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal tokens that maximize the likelihood of your desired outcome.</blockquote>\n<p><strong>Tags:</strong> llm, agent, context, prompts</p>",
       "_link_blog": {
-        "visits": 1,
+        "visits": 0,
         "is_pinned": false
       }
     },
