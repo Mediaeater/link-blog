@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sun, 19 Oct 2025 10:56:07 GMT</dateCreated>
-    <dateModified>Sun, 19 Oct 2025 10:56:07 GMT</dateModified>
+    <dateCreated>Wed, 22 Oct 2025 11:56:51 GMT</dateCreated>
+    <dateModified>Wed, 22 Oct 2025 11:56:51 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -177,6 +177,7 @@ Animals and fungi, the two multicellular respiratory (in this context, as oppose
     </outline>
     <outline text="business" title="business">
       <outline type="link" text="Opinion | The A.I. Bubble Looks Real" title="Opinion | The A.I. Bubble Looks Real" url="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" htmlUrl="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" description="Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points." created="Tue, 14 Oct 2025 10:08:38 GMT" category="AI,business" />
+      <outline type="link" text="Is Sora the Beginning of the End for OpenAI? - Cal Newport" title="Is Sora the Beginning of the End for OpenAI? - Cal Newport" url="https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/" htmlUrl="https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/" description="To me, these are the acts of a company that poured tens of billions of investment dollars into creating what they hoped would be the most consequential invention in modern history, only to finally realize that what they wrought, although very cool and powerful, isn’t powerful enough on its own to deliver a new world all at once." created="Wed, 22 Oct 2025 11:40:56 GMT" category="openai,business" />
     </outline>
     <outline text="c3ai" title="c3ai">
       <outline type="link" text="C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well." title="C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well." url="https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/" htmlUrl="https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/" created="Mon, 08 Sep 2025 18:28:59 GMT" category="surveillance,harms,ai,c3ai,tom_siebel" />
@@ -671,6 +672,7 @@ https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 1
       <outline type="link" text="The Majority AI View - Anil Dash" title="The Majority AI View - Anil Dash" url="https://www.anildash.com//2025/10/17/the-majority-ai-view/" htmlUrl="https://www.anildash.com//2025/10/17/the-majority-ai-view/" description="Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren&apos;t lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn&apos;t centralized under the control of a handful of giant companies. Or any other definition of &quot;good AI&quot; that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced &quot;AI&quot; to the public imagination are run by authoritarian extremists with deeply destructive agendas.
 
 " created="Sat, 18 Oct 2025 14:07:07 GMT" category="ai,ethics,llm,openai,censorship" />
+      <outline type="link" text="Is Sora the Beginning of the End for OpenAI? - Cal Newport" title="Is Sora the Beginning of the End for OpenAI? - Cal Newport" url="https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/" htmlUrl="https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/" description="To me, these are the acts of a company that poured tens of billions of investment dollars into creating what they hoped would be the most consequential invention in modern history, only to finally realize that what they wrought, although very cool and powerful, isn’t powerful enough on its own to deliver a new world all at once." created="Wed, 22 Oct 2025 11:40:56 GMT" category="openai,business" />
     </outline>
     <outline text="opensource" title="opensource">
       <outline type="link" text="Nuclear – Open Source Music Player (GitHub)" title="Nuclear – Open Source Music Player (GitHub)" url="https://github.com/nukeop/nuclear" htmlUrl="https://github.com/nukeop/nuclear" description="Streaming music player that finds free music for you" created="Sun, 19 Oct 2025 10:02:27 GMT" category="music,player,opensource" visits="1" />
@@ -968,6 +970,12 @@ Updates in real-time" created="Wed, 24 Sep 2025 01:20:14 GMT" category="surveill
       <outline type="link" text="Farewell Friends - HumbleDollar" title="Farewell Friends - HumbleDollar" url="https://humbledollar.com/forum/farewell-friends/" htmlUrl="https://humbledollar.com/forum/farewell-friends/" created="Mon, 29 Sep 2025 00:51:26 GMT" />
       <outline type="link" text="bloomberg.com" title="bloomberg.com" url="https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?" htmlUrl="https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?" created="Mon, 29 Sep 2025 00:51:26 GMT" />
       <outline type="link" text="Active Discussions | Lobsters" title="Active Discussions | Lobsters" url="https://lobste.rs/active" htmlUrl="https://lobste.rs/active" created="Mon, 08 Sep 2025 20:55:29 GMT" />
+      <outline type="link" text="Introducing ChatGPT Atlas" title="Introducing ChatGPT Atlas" url="https://simonwillison.net/2025/Oct/21/introducing-chatgpt-atlas/" htmlUrl="https://simonwillison.net/2025/Oct/21/introducing-chatgpt-atlas/" description=" continue to find this entire category of browser agents deeply confusing.
+
+The security and privacy risks involved here still feel insurmountably high to me - I certainly won&apos;t be trusting any of these products until a bunch of security researchers have given them a very thorough beating.
+
+I&apos;d like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!" created="Wed, 22 Oct 2025 11:38:58 GMT" />
+      <outline type="link" text="B&amp;C Post From July 2023" title="B&amp;C Post From July 2023" url="https://ghuneim.com/2023/07/27/bc-networks/" htmlUrl="https://ghuneim.com/2023/07/27/bc-networks/" description="Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. " created="Wed, 22 Oct 2025 11:48:20 GMT" />
     </outline>
   </body>
 </opml>
