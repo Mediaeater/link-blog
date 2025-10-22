@@ -15,6 +15,294 @@
   ],
   "items": [
     {
+      "id": "1761133700594",
+      "url": "https://ghuneim.com/2023/07/27/bc-networks/",
+      "title": "B&C Post From July 2023",
+      "date_published": "2025-10-22T11:48:20.594Z",
+      "tags": [],
+      "content_text": "Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. ",
+      "summary": "Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. ",
+      "content_html": "<blockquote>Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. </blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761133256195",
+      "url": "https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/",
+      "title": "Is Sora the Beginning of the End for OpenAI? - Cal Newport",
+      "date_published": "2025-10-22T11:40:56.195Z",
+      "tags": [
+        "openai",
+        "business"
+      ],
+      "content_text": "To me, these are the acts of a company that poured tens of billions of investment dollars into creating what they hoped would be the most consequential invention in modern history, only to finally realize that what they wrought, although very cool and powerful, isn’t powerful enough on its own to deliver a new world all at once.",
+      "summary": "To me, these are the acts of a company that poured tens of billions of investment dollars into creating what they hoped would be the most consequentia...",
+      "content_html": "<blockquote>To me, these are the acts of a company that poured tens of billions of investment dollars into creating what they hoped would be the most consequential invention in modern history, only to finally realize that what they wrought, although very cool and powerful, isn’t powerful enough on its own to deliver a new world all at once.</blockquote>\n<p><strong>Tags:</strong> openai, business</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761133138293",
+      "url": "https://simonwillison.net/2025/Oct/21/introducing-chatgpt-atlas/",
+      "title": "Introducing ChatGPT Atlas",
+      "date_published": "2025-10-22T11:38:58.293Z",
+      "tags": [],
+      "content_text": " continue to find this entire category of browser agents deeply confusing.\n\nThe security and privacy risks involved here still feel insurmountably high to me - I certainly won't be trusting any of these products until a bunch of security researchers have given them a very thorough beating.\n\nI'd like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!",
+      "summary": " continue to find this entire category of browser agents deeply confusing.\n\nThe security and privacy risks involved here still feel insurmountably hig...",
+      "content_html": "<blockquote> continue to find this entire category of browser agents deeply confusing.\n\nThe security and privacy risks involved here still feel insurmountably high to me - I certainly won&#039;t be trusting any of these products until a bunch of security researchers have given them a very thorough beating.\n\nI&#039;d like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760868261023",
+      "url": "https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating",
+      "title": "Game over. AGI is not imminent, and LLMs are not the royal road to getting there.",
+      "date_published": "2025-10-19T10:04:21.023Z",
+      "tags": [
+        "agi",
+        "llm",
+        "ethics",
+        "code"
+      ],
+      "content_text": "LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.",
+      "summary": "LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.",
+      "content_html": "<blockquote>LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.</blockquote>\n<p><strong>Tags:</strong> agi, llm, ethics, code</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1725540004",
+      "url": "https://github.com/nukeop/nuclear",
+      "title": "Nuclear – Open Source Music Player (GitHub)",
+      "date_published": "2025-10-19T10:02:27.738Z",
+      "tags": [
+        "music",
+        "player",
+        "opensource"
+      ],
+      "content_text": "Streaming music player that finds free music for you",
+      "summary": "Streaming music player that finds free music for you",
+      "content_html": "<blockquote>Streaming music player that finds free music for you</blockquote>\n<p><strong>Tags:</strong> music, player, opensource</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759107086115.6147",
+      "url": "https://climatetrace.org/air-pollution",
+      "title": "Air pollution",
+      "date_published": "2025-10-19T10:00:50.256Z",
+      "tags": [
+        "map. aqi",
+        "tool"
+      ],
+      "content_text": "Facilities that create climate pollution also release harmful air pollution. See for yourself",
+      "summary": "Facilities that create climate pollution also release harmful air pollution. See for yourself",
+      "content_html": "<blockquote>Facilities that create climate pollution also release harmful air pollution. See for yourself</blockquote>\n<p><strong>Tags:</strong> map. aqi, tool</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760867943326",
+      "url": "https://werd.io/why-the-open-social-web-matters-now/",
+      "title": "Why the open social web matters now",
+      "date_published": "2025-10-19T09:59:03.326Z",
+      "tags": [
+        "ethics",
+        "social-media",
+        "open-social"
+      ],
+      "content_text": "The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we learn about them?  In most western countries, social media and video networks are now our main source of news and the way we receive updates from our friends. A handful of companies own how we learn about the world, giving them the ability to shape our collective worldviews, influence movements, and prioritize their own interests. \n\nThey have never been great actors — Amnesty International accused Meta of platforming a genocide in Myanmar in 2017 — but their influence and power has never been greater than it is today. And every major commercial social network is complicit. They’re collaborators.  We all know about Twitter acquirer Elon Musk, who bent the platform to fit his political worldview. But he’s not alone.\nHere’s Microsoft CEO Satya Nadella, owner of LinkedIn, who contributed a million dollars to Trump’s inauguration fund.\nHere’s Mark Zuckerberg, who owns Threads, Facebook, Instagram, and WhatsApp, who said that he feels optimistic about the new administration’s agenda. And here’s Larry Ellison, who will control TikTok in the US, who was a major investor in Trump, and who one advisor called, in a WIRED interview, the shadow President of the United States. Social media is very quickly becoming aligned with a state that in itself is becoming increasingly authoritarian.",
+      "summary": "The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we l...",
+      "content_html": "<blockquote>The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we learn about them?  In most western countries, social media and video networks are now our main source of news and the way we receive updates from our friends. A handful of companies own how we learn about the world, giving them the ability to shape our collective worldviews, influence movements, and prioritize their own interests. \n\nThey have never been great actors — Amnesty International accused Meta of platforming a genocide in Myanmar in 2017 — but their influence and power has never been greater than it is today. And every major commercial social network is complicit. They’re collaborators.  We all know about Twitter acquirer Elon Musk, who bent the platform to fit his political worldview. But he’s not alone.\nHere’s Microsoft CEO Satya Nadella, owner of LinkedIn, who contributed a million dollars to Trump’s inauguration fund.\nHere’s Mark Zuckerberg, who owns Threads, Facebook, Instagram, and WhatsApp, who said that he feels optimistic about the new administration’s agenda. And here’s Larry Ellison, who will control TikTok in the US, who was a major investor in Trump, and who one advisor called, in a WIRED interview, the shadow President of the United States. Social media is very quickly becoming aligned with a state that in itself is becoming increasingly authoritarian.</blockquote>\n<p><strong>Tags:</strong> ethics, social-media, open-social</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760867771770",
+      "url": "https://git-stars.org/ranking/newcomers",
+      "title": "Newcomer Ranking - New Rising Stars on GitHub",
+      "date_published": "2025-10-19T09:56:11.770Z",
+      "tags": [
+        "code",
+        "rankings",
+        "github"
+      ],
+      "content_text": "Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold",
+      "summary": "Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold",
+      "content_html": "<blockquote>Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold</blockquote>\n<p><strong>Tags:</strong> code, rankings, github</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760867715253",
+      "url": "https://github.com/obra/superpowers",
+      "title": "GitHub - obra/superpowers: Claude Code superpowers: core skills library",
+      "date_published": "2025-10-19T09:55:15.253Z",
+      "tags": [
+        "code",
+        "github",
+        "library",
+        "open-source"
+      ],
+      "content_text": "Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, async testing, anti-patterns\nDebugging Skills - Systematic debugging, root cause tracing, verification\nCollaboration Skills - Brainstorming, planning, code review, parallel agents\nDevelopment Skills - Git worktrees, finishing branches, subagent workflows\nMeta Skills - Creating, testing, and sharing skills",
+      "summary": "Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, as...",
+      "content_html": "<blockquote>Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, async testing, anti-patterns\nDebugging Skills - Systematic debugging, root cause tracing, verification\nCollaboration Skills - Brainstorming, planning, code review, parallel agents\nDevelopment Skills - Git worktrees, finishing branches, subagent workflows\nMeta Skills - Creating, testing, and sharing skills</blockquote>\n<p><strong>Tags:</strong> code, github, library, open-source</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760813566283",
+      "url": "https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books",
+      "title": "The Hunt for the World’s Oldest Story",
+      "date_published": "2025-10-18T18:52:46.283Z",
+      "tags": [
+        "stories"
+      ],
+      "content_text": "The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.\n\nNowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?",
+      "summary": "The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost anc...",
+      "content_html": "<blockquote>The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.\n\nNowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?</blockquote>\n<p><strong>Tags:</strong> stories</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760813388067",
+      "url": "https://scyy.fi/shelf/history-of-intelligence?ref=thediff.co",
+      "title": "Notes: A Brief History of Intelligence (Bennett)",
+      "date_published": "2025-10-18T18:50:36.186Z",
+      "tags": [
+        "book",
+        "resource",
+        "intelligence",
+        "learning"
+      ],
+      "content_text": "Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event, etc. Here’s a related timeline from another notes post:\n\n Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.\n\nAnimals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this.",
+      "summary": "Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event...",
+      "content_html": "<blockquote>Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event, etc. Here’s a related timeline from another notes post:\n\n Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.\n\nAnimals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this.</blockquote>\n<p><strong>Tags:</strong> book, resource, intelligence, learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760797352472",
+      "url": "https://kottke.org/25/10/the-underscore-music-player",
+      "title": "The Underscore Music Player",
+      "date_published": "2025-10-18T14:22:32.472Z",
+      "tags": [
+        "music",
+        "player"
+      ],
+      "content_text": "So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add links to music from Spotify, YouTube, Soundcloud, Bandcamp, and Apple Music to it — just paste their share URLs in. Reloading the page gives you a random piece of music from your collection. You can see a list of the songs, videos, playlists, and albums in your collection and can hide them if you want. That’s it. That’s all it does.",
+      "summary": "So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add li...",
+      "content_html": "<blockquote>So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add links to music from Spotify, YouTube, Soundcloud, Bandcamp, and Apple Music to it — just paste their share URLs in. Reloading the page gives you a random piece of music from your collection. You can see a list of the songs, videos, playlists, and albums in your collection and can hide them if you want. That’s it. That’s all it does.</blockquote>\n<p><strong>Tags:</strong> music, player</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760797261757",
+      "url": "https://images.wur.nl/digital/collection/coll13/search",
+      "title": "Root System Drawings",
+      "date_published": "2025-10-18T14:21:01.757Z",
+      "tags": [
+        "root",
+        "system",
+        "plants",
+        "botany",
+        "collection",
+        "drawing"
+      ],
+      "content_text": "Browsing items in: Root System Drawings",
+      "summary": "Browsing items in: Root System Drawings",
+      "content_html": "<blockquote>Browsing items in: Root System Drawings</blockquote>\n<p><strong>Tags:</strong> root, system, plants, botany, collection, drawing</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760796645849",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048",
+      "title": "Global patterns of synchronization in human communications | Journal of The Royal Society Interface",
+      "date_published": "2025-10-18T14:10:45.849Z",
+      "tags": [
+        "human",
+        "behavior",
+        "patterns",
+        "social-media",
+        "synchrony"
+      ],
+      "content_text": "Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur.",
+      "summary": "Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here...",
+      "content_html": "<blockquote>Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur.</blockquote>\n<p><strong>Tags:</strong> human, behavior, patterns, social-media, synchrony</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760796427056",
+      "url": "https://www.anildash.com//2025/10/17/the-majority-ai-view/",
+      "title": "The Majority AI View - Anil Dash",
+      "date_published": "2025-10-18T14:07:07.056Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "llm",
+        "openai",
+        "censorship"
+      ],
+      "content_text": "Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren't lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn't centralized under the control of a handful of giant companies. Or any other definition of \"good AI\" that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced \"AI\" to the public imagination are run by authoritarian extremists with deeply destructive agendas.\n\n",
+      "summary": "Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilitie...",
+      "content_html": "<blockquote>Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren&#039;t lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn&#039;t centralized under the control of a handful of giant companies. Or any other definition of &quot;good AI&quot; that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced &quot;AI&quot; to the public imagination are run by authoritarian extremists with deeply destructive agendas.\n\n</blockquote>\n<p><strong>Tags:</strong> ai, ethics, llm, openai, censorship</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1760796189017",
+      "url": "https://ruthasawa.com/",
+      "title": "Ruth Asawa Arrives in New York with a Monumental Retrospective",
+      "date_published": "2025-10-18T14:03:09.017Z",
+      "tags": [
+        "art",
+        "ruth asawa",
+        "sf",
+        "nyc",
+        "moma",
+        "black mountain college"
+      ],
+      "content_text": "“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space.",
+      "summary": "“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, ...",
+      "content_html": "<blockquote>“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space.</blockquote>\n<p><strong>Tags:</strong> art, ruth asawa, sf, nyc, moma, black mountain college</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1760782666234",
       "url": "https://www.anthropic.com/news/skills?",
       "title": "Introducing Agent Skills",
@@ -327,7 +615,7 @@
       "summary": "Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn't just crafting the per...",
       "content_html": "<blockquote>Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn&#039;t just crafting the perfect prompt—it&#039;s thoughtfully curating what information enters the model&#039;s limited attention budget at each step. Whether you&#039;re implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal tokens that maximize the likelihood of your desired outcome.</blockquote>\n<p><strong>Tags:</strong> llm, agent, context, prompts</p>",
       "_link_blog": {
-        "visits": 0,
+        "visits": 1,
         "is_pinned": false
       }
     },
@@ -506,28 +794,6 @@
       }
     },
     {
-      "id": "1759116996981.6274",
-      "url": "https://climatetrace.org/",
-      "title": "Climate TRACE",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759116996981.2842",
-      "url": "https://climatetrace.org/air-pollution",
-      "title": "Air pollution",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
       "id": "1759116996981.0823",
       "url": "https://humbledollar.com/forum/farewell-friends/",
       "title": "Farewell Friends - HumbleDollar",
@@ -553,17 +819,6 @@
       "id": "1759107086115.44",
       "url": "https://climatetrace.org/",
       "title": "Climate TRACE",
-      "date_published": "2025-09-29T00:51:26.115Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759107086115.6147",
-      "url": "https://climatetrace.org/air-pollution",
-      "title": "Air pollution",
       "date_published": "2025-09-29T00:51:26.115Z",
       "tags": [],
       "_link_blog": {
@@ -1405,22 +1660,6 @@
         "ai-impact"
       ],
       "content_html": "<p><strong>Tags:</strong> ai-impact</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1725540004",
-      "url": "https://github.com/nukeop/nuclear",
-      "title": "Nuclear – Open Source Music Player (GitHub)",
-      "date_published": "2025-09-05T09:30:00.000Z",
-      "tags": [
-        "music",
-        "player",
-        "opensource"
-      ],
-      "content_html": "<p><strong>Tags:</strong> music, player, opensource</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
