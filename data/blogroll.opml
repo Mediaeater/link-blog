@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Thu, 23 Oct 2025 00:54:14 GMT</dateCreated>
-    <dateModified>Thu, 23 Oct 2025 00:54:14 GMT</dateModified>
+    <dateCreated>Thu, 23 Oct 2025 02:16:26 GMT</dateCreated>
+    <dateModified>Thu, 23 Oct 2025 02:16:26 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -972,6 +972,8 @@ The security and privacy risks involved here still feel insurmountably high to m
 
 I&apos;d like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!" created="Wed, 22 Oct 2025 11:38:58 GMT" />
       <outline type="link" text="B&amp;C Post From July 2023" title="B&amp;C Post From July 2023" url="https://ghuneim.com/2023/07/27/bc-networks/" htmlUrl="https://ghuneim.com/2023/07/27/bc-networks/" description="Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. " created="Wed, 22 Oct 2025 11:48:20 GMT" />
+      <outline type="link" text="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" title="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" url="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" htmlUrl="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" description="OpenAI - on brand &quot;Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.
+" created="Thu, 23 Oct 2025 02:16:06 GMT" />
     </outline>
   </body>
 </opml>
