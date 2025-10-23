@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 19 Oct 2025 10:07:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Oct 2025 23:21:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -651,6 +651,41 @@
             <guid>1760868261023</guid>
             <pubDate>Sun, 19 Oct 2025 10:04:21 GMT</pubDate>
             <description><![CDATA[Tags: agi, llm, ethics, code]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing ChatGPT Atlas]]></title>
+            <link>https://simonwillison.net/2025/Oct/21/introducing-chatgpt-atlas/</link>
+            <guid>1761133138293</guid>
+            <pubDate>Wed, 22 Oct 2025 11:38:58 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Is Sora the Beginning of the End for OpenAI? - Cal Newport]]></title>
+            <link>https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/</link>
+            <guid>1761133256195</guid>
+            <pubDate>Wed, 22 Oct 2025 11:40:56 GMT</pubDate>
+            <description><![CDATA[Tags: openai, business]]></description>
+        </item>
+        <item>
+            <title><![CDATA[B&C Post From July 2023]]></title>
+            <link>https://ghuneim.com/2023/07/27/bc-networks/</link>
+            <guid>1761133700594</guid>
+            <pubDate>Wed, 22 Oct 2025 11:48:20 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - character-ai/Ovi]]></title>
+            <link>https://github.com/character-ai/Ovi</link>
+            <guid>1761174425473</guid>
+            <pubDate>Wed, 22 Oct 2025 23:07:05 GMT</pubDate>
+            <description><![CDATA[Tags: video-gen, open-source, video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - deepseek-ai/DeepSeek-OCR: Contexts Optical Compression]]></title>
+            <link>https://github.com/deepseek-ai/DeepSeek-OCR</link>
+            <guid>1761175179626</guid>
+            <pubDate>Wed, 22 Oct 2025 23:19:39 GMT</pubDate>
+            <description><![CDATA[Tags: cn, compression]]></description>
         </item>
     </channel>
 </rss>

@@ -877,7 +877,7 @@ export default function LinkBlogClean() {
             <div className="text-xs space-y-2">
               <div className="flex items-center gap-2 mb-3">
                 <Info className="w-4 h-4 text-blue-600" />
-                <div className="font-bold text-blue-900 text-sm">Reading Guide</div>
+                <div className="font-bold text-blue-900 text-sm">Legend</div>
               </div>
               <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-blue-900">
                 <div><span className="font-semibold text-blue-700">Title:</span> Source/article name</div>
@@ -885,7 +885,6 @@ export default function LinkBlogClean() {
                 <div><span className="font-semibold text-blue-700">Quote:</span> Pull quote or excerpt</div>
                 <div><span className="font-semibold text-blue-700">Tags:</span> Click to filter or bookmark a topic</div>
                 <div><span className="font-semibold text-blue-700">Date:</span> When link was added</div>
-                <div><span className="font-semibold text-blue-700">Visits:</span> Count in brackets [N]</div>
               </div>
             </div>
           </div>
