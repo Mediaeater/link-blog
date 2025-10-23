@@ -1301,9 +1301,19 @@
       "tagInput": "cn, compression",
       "timestamp": "2025-10-22T23:19:39.626Z",
       "visits": 0
+    },
+    {
+      "id": 1761185766502,
+      "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
+      "source": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
+      "pullQuote": "OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-23T02:16:06.502Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-23T00:54:06.045Z",
-  "exportedAt": "2025-10-23T00:54:06.045Z",
-  "totalLinks": 91
+  "lastUpdated": "2025-10-23T02:16:30.473Z",
+  "exportedAt": "2025-10-23T02:16:30.473Z",
+  "totalLinks": 92
 }
