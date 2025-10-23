@@ -873,13 +873,13 @@ export default function LinkBlogClean() {
           </div>
 
           {/* Legend */}
-          <div className="mb-6 p-4 bg-blue-50 border-2 border-blue-200 rounded-lg shadow-sm">
-            <div className="text-xs space-y-2">
-              <div className="flex items-center gap-2 mb-3">
-                <Info className="w-4 h-4 text-blue-600" />
-                <div className="font-bold text-blue-900 text-sm">Legend</div>
+          <div className="mb-4 p-2 bg-blue-50 border border-blue-200 rounded shadow-sm">
+            <div className="text-xs space-y-1">
+              <div className="flex items-center gap-1.5 mb-1.5">
+                <Info className="w-3.5 h-3.5 text-blue-600" />
+                <div className="font-bold text-blue-900 text-xs">Legend</div>
               </div>
-              <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-blue-900">
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-blue-900">
                 <div><span className="font-semibold text-blue-700">Title:</span> Source/article name</div>
                 <div><span className="font-semibold text-blue-700">URL:</span> Domain shown below title</div>
                 <div><span className="font-semibold text-blue-700">Quote:</span> Pull quote or excerpt</div>
