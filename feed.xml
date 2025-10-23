@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 22 Oct 2025 23:21:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Oct 2025 00:54:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -23,46 +23,11 @@
             <description><![CDATA[Tags: ]]></description>
         </item>
         <item>
-            <title><![CDATA[bloomberg.com]]></title>
-            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?</link>
-            <guid>1759116996981.6323</guid>
-            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Petition: Do not introduce Digital ID cards]]></title>
-            <link>https://petition.parliament.uk/petitions/730194</link>
-            <guid>1759107086114.2097</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Climate TRACE]]></title>
-            <link>https://climatetrace.org/</link>
-            <guid>1759107086115.44</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
             <title><![CDATA[Air pollution]]></title>
             <link>https://climatetrace.org/air-pollution</link>
             <guid>1759107086115.6147</guid>
             <pubDate>Sun, 19 Oct 2025 10:00:50 GMT</pubDate>
             <description><![CDATA[Tags: map. aqi, tool]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Farewell Friends - HumbleDollar]]></title>
-            <link>https://humbledollar.com/forum/farewell-friends/</link>
-            <guid>1759107086115.4614</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[bloomberg.com]]></title>
-            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?</link>
-            <guid>1759107086115.2908</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
         </item>
         <item>
             <title><![CDATA[Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever]]></title>
@@ -301,13 +266,6 @@
             <guid>1758642464851</guid>
             <pubDate>Tue, 23 Sep 2025 15:47:44 GMT</pubDate>
             <description><![CDATA[Tags: apple, film, hollywood, mr, mixed reality]]></description>
-        </item>
-        <item>
-            <title><![CDATA[How China’s Propaganda and Surveillance Systems Really Operate]]></title>
-            <link>https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/</link>
-            <guid>1758642931570</guid>
-            <pubDate>Tue, 23 Sep 2025 15:55:31 GMT</pubDate>
-            <description><![CDATA[Tags: surveillance, cn, economics, propaganda, privacy, leaked-documents]]></description>
         </item>
         <item>
             <title><![CDATA[Find My Parking Cops]]></title>
