@@ -19,33 +19,6 @@
       "visits": 0
     },
     {
-      "id": 1759116996981.6323,
-      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
-      "source": "bloomberg.com",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T03:36:36.981Z",
-      "visits": 0
-    },
-    {
-      "id": 1759107086114.2097,
-      "url": "https://petition.parliament.uk/petitions/730194",
-      "source": "Petition: Do not introduce Digital ID cards",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.114Z",
-      "visits": 0
-    },
-    {
-      "id": 1759107086115.44,
-      "url": "https://climatetrace.org/",
-      "source": "Climate TRACE",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.115Z",
-      "visits": 0
-    },
-    {
       "id": 1759107086115.6147,
       "url": "https://climatetrace.org/air-pollution",
       "source": "Air pollution",
@@ -57,24 +30,6 @@
       "timestamp": "2025-10-19T10:00:50.256Z",
       "visits": 1,
       "tagInput": "map. aqi, tool"
-    },
-    {
-      "id": 1759107086115.4614,
-      "url": "https://humbledollar.com/forum/farewell-friends/",
-      "source": "Farewell Friends - HumbleDollar",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.115Z",
-      "visits": 0
-    },
-    {
-      "id": 1759107086115.2908,
-      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
-      "source": "bloomberg.com",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.115Z",
-      "visits": 0
     },
     {
       "id": 1758461704343.3533,
@@ -561,24 +516,6 @@
       ],
       "tagInput": "apple, film, hollywood, mr, mixed reality",
       "timestamp": "2025-09-23T15:47:44.851Z",
-      "visits": 0
-    },
-    {
-      "id": 1758642931570,
-      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
-      "source": "How China’s Propaganda and Surveillance Systems Really Operate",
-      "pullQuote": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
-      "tags": [
-        "surveillance",
-        "cn",
-        "economics",
-        "propaganda",
-        "privacy",
-        "leaked-documents"
-      ],
-      "tagInput": "surveillance, cn, economics, propaganda, privacy, leaked-documents",
-      "isPinned": false,
-      "timestamp": "2025-09-23T15:55:31.570Z",
       "visits": 0
     },
     {
@@ -1366,7 +1303,7 @@
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-22T23:21:19.108Z",
-  "exportedAt": "2025-10-22T23:21:19.108Z",
-  "totalLinks": 97
+  "lastUpdated": "2025-10-23T00:54:06.045Z",
+  "exportedAt": "2025-10-23T00:54:06.045Z",
+  "totalLinks": 91
 }
