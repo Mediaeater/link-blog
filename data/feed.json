@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1761305725443",
+      "url": "https://roc.camera/",
+      "title": "Roc Camera",
+      "date_published": "2025-10-24T11:35:25.443Z",
+      "tags": [
+        "camera",
+        "ground-truth",
+        "images",
+        "sensor"
+      ],
+      "content_text": "By combining attested sensor data, zero-knowledge proofs, and a tamper-proof environment, we've built Roc Camera to capture verifiably real photos.",
+      "summary": "By combining attested sensor data, zero-knowledge proofs, and a tamper-proof environment, we've built Roc Camera to capture verifiably real photos.",
+      "content_html": "<blockquote>By combining attested sensor data, zero-knowledge proofs, and a tamper-proof environment, we&#039;ve built Roc Camera to capture verifiably real photos.</blockquote>\n<p><strong>Tags:</strong> camera, ground-truth, images, sensor</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761303965071",
       "url": "https://www.henrikkarlsson.xyz/p/wordless-thought",
       "title": "When is better to think without words?",
