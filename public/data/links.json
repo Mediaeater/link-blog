@@ -1311,9 +1311,22 @@
       "tagInput": "",
       "timestamp": "2025-10-23T02:16:06.502Z",
       "visits": 0
+    },
+    {
+      "id": 1761303965071,
+      "url": "https://www.henrikkarlsson.xyz/p/wordless-thought",
+      "source": "When is better to think without words?",
+      "pullQuote": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.",
+      "tags": [
+        "thinking",
+        "learning"
+      ],
+      "tagInput": "thinking, learning, psychology",
+      "timestamp": "2025-10-24T11:06:05.071Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-24T11:03:54.403Z",
-  "exportedAt": "2025-10-24T11:03:54.403Z",
-  "totalLinks": 92
+  "lastUpdated": "2025-10-24T11:06:24.387Z",
+  "exportedAt": "2025-10-24T11:06:24.387Z",
+  "totalLinks": 93
 }
