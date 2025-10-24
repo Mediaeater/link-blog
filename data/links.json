@@ -1306,10 +1306,10 @@
       "id": 1761185766502,
       "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
       "source": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
-      "pullQuote": "OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
+      "pullQuote": "The level of creepy here just canon - --- OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
       "tags": [],
       "tagInput": "",
-      "timestamp": "2025-10-23T02:16:06.502Z",
+      "timestamp": "2025-10-24T11:41:09.291Z",
       "visits": 0
     },
     {
@@ -1339,9 +1339,23 @@
       "tagInput": "camera, ground-truth, images, ",
       "timestamp": "2025-10-24T11:35:25.443Z",
       "visits": 0
+    },
+    {
+      "id": 1761306024485,
+      "url": "https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c",
+      "source": "Transforming animation with machine learning",
+      "pullQuote": "n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.\n\n“Introducing new procedural tools requires acceptance and a change of mindset.”\n\nIn this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained.",
+      "tags": [
+        "ai",
+        "data-science",
+        "machine-learning"
+      ],
+      "tagInput": "ai,  data-science, machine-learning, ",
+      "timestamp": "2025-10-24T11:40:24.485Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-24T11:35:35.567Z",
-  "exportedAt": "2025-10-24T11:35:35.567Z",
-  "totalLinks": 94
+  "lastUpdated": "2025-10-24T11:41:16.883Z",
+  "exportedAt": "2025-10-24T11:41:16.883Z",
+  "totalLinks": 95
 }

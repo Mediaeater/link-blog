@@ -15,6 +15,38 @@
   ],
   "items": [
     {
+      "id": "1761185766502",
+      "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
+      "title": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
+      "date_published": "2025-10-24T11:41:09.291Z",
+      "tags": [],
+      "content_text": "The level of creepy here just canon - --- OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
+      "summary": "The level of creepy here just canon - --- OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of ...",
+      "content_html": "<blockquote>The level of creepy here just canon - --- OpenAI - on brand &quot;Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761306024485",
+      "url": "https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c",
+      "title": "Transforming animation with machine learning",
+      "date_published": "2025-10-24T11:40:24.485Z",
+      "tags": [
+        "ai",
+        "data-science",
+        "machine-learning"
+      ],
+      "content_text": "n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.\n\n“Introducing new procedural tools requires acceptance and a change of mindset.”\n\nIn this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained.",
+      "summary": "n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators i...",
+      "content_html": "<blockquote>n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.\n\n“Introducing new procedural tools requires acceptance and a change of mindset.”\n\nIn this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained.</blockquote>\n<p><strong>Tags:</strong> ai, data-science, machine-learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761305725443",
       "url": "https://roc.camera/",
       "title": "Roc Camera",
@@ -45,20 +77,6 @@
       "content_text": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.",
       "summary": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep bo...",
       "content_html": "<blockquote>Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.</blockquote>\n<p><strong>Tags:</strong> thinking, learning</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1761185766502",
-      "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
-      "title": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
-      "date_published": "2025-10-23T02:16:06.502Z",
-      "tags": [],
-      "content_text": "OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
-      "summary": "OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they...",
-      "content_html": "<blockquote>OpenAI - on brand &quot;Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n</blockquote>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false

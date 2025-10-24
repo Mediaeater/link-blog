@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 24 Oct 2025 11:35:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2025 11:41:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -649,7 +649,7 @@
             <title><![CDATA[OpenAI prioritised user engagement over suicide prevention, lawsuit claims]]></title>
             <link>https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1</link>
             <guid>1761185766502</guid>
-            <pubDate>Thu, 23 Oct 2025 02:16:06 GMT</pubDate>
+            <pubDate>Fri, 24 Oct 2025 11:41:09 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
         </item>
         <item>
@@ -665,6 +665,13 @@
             <guid>1761305725443</guid>
             <pubDate>Fri, 24 Oct 2025 11:35:25 GMT</pubDate>
             <description><![CDATA[Tags: camera, ground-truth, images, sensor]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Transforming animation with machine learning]]></title>
+            <link>https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c</link>
+            <guid>1761306024485</guid>
+            <pubDate>Fri, 24 Oct 2025 11:40:24 GMT</pubDate>
+            <description><![CDATA[Tags: ai, data-science, machine-learning]]></description>
         </item>
     </channel>
 </rss>

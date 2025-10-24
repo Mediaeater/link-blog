@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 24 Oct 2025 11:35:40 GMT</dateCreated>
-    <dateModified>Fri, 24 Oct 2025 11:35:40 GMT</dateModified>
+    <dateCreated>Fri, 24 Oct 2025 11:41:20 GMT</dateCreated>
+    <dateModified>Fri, 24 Oct 2025 11:41:20 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -54,6 +54,11 @@ https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 1
       <outline type="link" text="The Majority AI View - Anil Dash" title="The Majority AI View - Anil Dash" url="https://www.anildash.com//2025/10/17/the-majority-ai-view/" htmlUrl="https://www.anildash.com//2025/10/17/the-majority-ai-view/" description="Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren&apos;t lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn&apos;t centralized under the control of a handful of giant companies. Or any other definition of &quot;good AI&quot; that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced &quot;AI&quot; to the public imagination are run by authoritarian extremists with deeply destructive agendas.
 
 " created="Sat, 18 Oct 2025 14:07:07 GMT" category="ai,ethics,llm,openai,censorship" />
+      <outline type="link" text="Transforming animation with machine learning" title="Transforming animation with machine learning" url="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" htmlUrl="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" description="n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.
+
+“Introducing new procedural tools requires acceptance and a change of mindset.”
+
+In this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained." created="Fri, 24 Oct 2025 11:40:24 GMT" category="ai,data-science,machine-learning" />
     </outline>
     <outline text="ai generative-media" title="ai generative-media">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -270,6 +275,13 @@ On OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision 
     <outline text="copyright" title="copyright">
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
       <outline type="link" text="Anthropic to pay $1.5 billion to authors in landmark AI settlement" title="Anthropic to pay $1.5 billion to authors in landmark AI settlement" url="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" htmlUrl="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" created="Sat, 06 Sep 2025 23:59:48 GMT" category="copyright,llm,anthropic,books,legacy_media" />
+    </outline>
+    <outline text="data-science" title="data-science">
+      <outline type="link" text="Transforming animation with machine learning" title="Transforming animation with machine learning" url="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" htmlUrl="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" description="n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.
+
+“Introducing new procedural tools requires acceptance and a change of mindset.”
+
+In this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained." created="Fri, 24 Oct 2025 11:40:24 GMT" category="ai,data-science,machine-learning" />
     </outline>
     <outline text="dataviz" title="dataviz">
       <outline type="link" text="LLM Visualization" title="LLM Visualization" url="https://bbycroft.net/llm" htmlUrl="https://bbycroft.net/llm" created="Sun, 07 Sep 2025 00:05:43 GMT" category="llm,learning,visualization,dataviz" />
@@ -556,6 +568,11 @@ Claude will only access a skill when it&apos;s relevant to the task at hand. Whe
 (2) “Frontier developer” so that it applies to developers of frontier models who are themselves at the frontier of artificial intelligence development.
 (3) “Large frontier developer” so that it applies to well-resourced frontier developers.
 (b) In making recommendations pursuant to this section, the Department of Technology shall take into account all of the following: (1) Similar thresholds used in international standards or federal law, guidance, or regulations for the management of catastrophic risk and shall align with a definition adopted in a federal law or regulation to the extent that it is consistent with the purposes of this chapter. (2) Input from stakeholders, including academics, industry, the open-source community, and governmental entities." created="Sat, 27 Sep 2025 14:55:06 GMT" category="ai,machine-learning,legislation,california" />
+      <outline type="link" text="Transforming animation with machine learning" title="Transforming animation with machine learning" url="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" htmlUrl="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" description="n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.
+
+“Introducing new procedural tools requires acceptance and a change of mindset.”
+
+In this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained." created="Fri, 24 Oct 2025 11:40:24 GMT" category="ai,data-science,machine-learning" />
     </outline>
     <outline text="macos" title="macos">
       <outline type="link" text="macOS becomes iOS: Safari video controls" title="macOS becomes iOS: Safari video controls" url="https://underpassapp.com/news/2025/9/8.html" htmlUrl="https://underpassapp.com/news/2025/9/8.html" description="In other words, yes, Apple is continuing to merge iOS and macOS.
@@ -988,8 +1005,8 @@ The security and privacy risks involved here still feel insurmountably high to m
 
 I&apos;d like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!" created="Wed, 22 Oct 2025 11:38:58 GMT" />
       <outline type="link" text="B&amp;C Post From July 2023" title="B&amp;C Post From July 2023" url="https://ghuneim.com/2023/07/27/bc-networks/" htmlUrl="https://ghuneim.com/2023/07/27/bc-networks/" description="Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. " created="Wed, 22 Oct 2025 11:48:20 GMT" />
-      <outline type="link" text="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" title="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" url="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" htmlUrl="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" description="OpenAI - on brand &quot;Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.
-" created="Thu, 23 Oct 2025 02:16:06 GMT" />
+      <outline type="link" text="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" title="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" url="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" htmlUrl="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" description="The level of creepy here just canon - --- OpenAI - on brand &quot;Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.
+" created="Fri, 24 Oct 2025 11:41:09 GMT" />
     </outline>
   </body>
 </opml>
