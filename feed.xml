@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 24 Oct 2025 11:03:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2025 11:06:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -651,6 +651,13 @@
             <guid>1761185766502</guid>
             <pubDate>Thu, 23 Oct 2025 02:16:06 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[When is better to think without words?]]></title>
+            <link>https://www.henrikkarlsson.xyz/p/wordless-thought</link>
+            <guid>1761303965071</guid>
+            <pubDate>Fri, 24 Oct 2025 11:06:05 GMT</pubDate>
+            <description><![CDATA[Tags: thinking, learning]]></description>
         </item>
     </channel>
 </rss>

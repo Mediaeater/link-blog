@@ -15,6 +15,23 @@
   ],
   "items": [
     {
+      "id": "1761303965071",
+      "url": "https://www.henrikkarlsson.xyz/p/wordless-thought",
+      "title": "When is better to think without words?",
+      "date_published": "2025-10-24T11:06:05.071Z",
+      "tags": [
+        "thinking",
+        "learning"
+      ],
+      "content_text": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.",
+      "summary": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep bo...",
+      "content_html": "<blockquote>Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.</blockquote>\n<p><strong>Tags:</strong> thinking, learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761185766502",
       "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
       "title": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
