@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 24 Oct 2025 11:41:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2025 21:30:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -672,6 +672,34 @@
             <guid>1761306024485</guid>
             <pubDate>Fri, 24 Oct 2025 11:40:24 GMT</pubDate>
             <description><![CDATA[Tags: ai, data-science, machine-learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[claude .ai memory system prompt]]></title>
+            <link>https://x.com/janbamjan/status/1981425093323456947</link>
+            <guid>1761306349871</guid>
+            <pubDate>Fri, 24 Oct 2025 11:45:49 GMT</pubDate>
+            <description><![CDATA[Tags: memory, claude, anthropic, empathy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Disable AI In Firefox]]></title>
+            <link>https://flamedfury.com/posts/disable-ai-in-firefox/</link>
+            <guid>1761340885365</guid>
+            <pubDate>Fri, 24 Oct 2025 21:21:25 GMT</pubDate>
+            <description><![CDATA[Tags: tutorial, ai, dark-ux, how-to]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Where’s the AI design renaissance?]]></title>
+            <link>https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html</link>
+            <guid>1761341135323</guid>
+            <pubDate>Fri, 24 Oct 2025 21:25:35 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Google Skills]]></title>
+            <link>https://www.skills.google/?ref=producthunt</link>
+            <guid>1761341255495</guid>
+            <pubDate>Fri, 24 Oct 2025 21:27:35 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
         </item>
     </channel>
 </rss>

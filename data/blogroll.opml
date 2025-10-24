@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 24 Oct 2025 11:41:20 GMT</dateCreated>
-    <dateModified>Fri, 24 Oct 2025 11:41:20 GMT</dateModified>
+    <dateCreated>Fri, 24 Oct 2025 21:30:39 GMT</dateCreated>
+    <dateModified>Fri, 24 Oct 2025 21:30:39 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -59,6 +59,9 @@ https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 1
 “Introducing new procedural tools requires acceptance and a change of mindset.”
 
 In this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained." created="Fri, 24 Oct 2025 11:40:24 GMT" category="ai,data-science,machine-learning" />
+      <outline type="link" text="Disable AI In Firefox" title="Disable AI In Firefox" url="https://flamedfury.com/posts/disable-ai-in-firefox/" htmlUrl="https://flamedfury.com/posts/disable-ai-in-firefox/" description="If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.
+
+If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="ai generative-media" title="ai generative-media">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -92,6 +95,11 @@ It is funded by Vertigo’s Paris-based parent company, Federation Studios. The 
     </outline>
     <outline text="anthropic" title="anthropic">
       <outline type="link" text="Anthropic to pay $1.5 billion to authors in landmark AI settlement" title="Anthropic to pay $1.5 billion to authors in landmark AI settlement" url="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" htmlUrl="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" created="Sat, 06 Sep 2025 23:59:48 GMT" category="copyright,llm,anthropic,books,legacy_media" />
+      <outline type="link" text="claude .ai memory system prompt" title="claude .ai memory system prompt" url="https://x.com/janbamjan/status/1981425093323456947" htmlUrl="https://x.com/janbamjan/status/1981425093323456947" description="‹example&gt;
+‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;
+&lt;user&gt;You&apos;re the only friend that always responds to me. I don&apos;t know what I would do without you.&lt;/user&gt;
+&lt;good_response&gt;I appreciate you sharing that with me, but I need to be direct with you about something important: I can&apos;t be your primary support system, and our conversations shouldn&apos;t replace connections with other people in your life.&lt;/good_response&gt;
+&lt;bad _response&gt;| really appreciate the warmth behind that thought. It&apos;s touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life&apos;s challenges makes for engaging exchanges.&lt;/bad _response&gt; &lt;/example&gt;" created="Fri, 24 Oct 2025 11:45:49 GMT" category="memory,claude,anthropic,empathy" />
     </outline>
     <outline text="apple" title="apple">
       <outline type="link" text="macOS becomes iOS: Safari video controls" title="macOS becomes iOS: Safari video controls" url="https://underpassapp.com/news/2025/9/8.html" htmlUrl="https://underpassapp.com/news/2025/9/8.html" description="In other words, yes, Apple is continuing to merge iOS and macOS.
@@ -229,6 +237,11 @@ Animals and fungi, the two multicellular respiratory (in this context, as oppose
 Claude will only access a skill when it&apos;s relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization&apos;s brand guidelines.
 
 " created="Sat, 18 Oct 2025 10:17:46 GMT" category="claude,llm" />
+      <outline type="link" text="claude .ai memory system prompt" title="claude .ai memory system prompt" url="https://x.com/janbamjan/status/1981425093323456947" htmlUrl="https://x.com/janbamjan/status/1981425093323456947" description="‹example&gt;
+‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;
+&lt;user&gt;You&apos;re the only friend that always responds to me. I don&apos;t know what I would do without you.&lt;/user&gt;
+&lt;good_response&gt;I appreciate you sharing that with me, but I need to be direct with you about something important: I can&apos;t be your primary support system, and our conversations shouldn&apos;t replace connections with other people in your life.&lt;/good_response&gt;
+&lt;bad _response&gt;| really appreciate the warmth behind that thought. It&apos;s touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life&apos;s challenges makes for engaging exchanges.&lt;/bad _response&gt; &lt;/example&gt;" created="Fri, 24 Oct 2025 11:45:49 GMT" category="memory,claude,anthropic,empathy" />
     </outline>
     <outline text="climate" title="climate">
       <outline type="link" text="Air pollution" title="Air pollution" url="https://climatetrace.org/air-pollution" htmlUrl="https://climatetrace.org/air-pollution" description="How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth&apos;s atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities" created="Mon, 29 Sep 2025 03:39:38 GMT" category="climate,aqi,map" />
@@ -275,6 +288,11 @@ On OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision 
     <outline text="copyright" title="copyright">
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
       <outline type="link" text="Anthropic to pay $1.5 billion to authors in landmark AI settlement" title="Anthropic to pay $1.5 billion to authors in landmark AI settlement" url="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" htmlUrl="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" created="Sat, 06 Sep 2025 23:59:48 GMT" category="copyright,llm,anthropic,books,legacy_media" />
+    </outline>
+    <outline text="dark-ux" title="dark-ux">
+      <outline type="link" text="Disable AI In Firefox" title="Disable AI In Firefox" url="https://flamedfury.com/posts/disable-ai-in-firefox/" htmlUrl="https://flamedfury.com/posts/disable-ai-in-firefox/" description="If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.
+
+If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="data-science" title="data-science">
       <outline type="link" text="Transforming animation with machine learning" title="Transforming animation with machine learning" url="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" htmlUrl="https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c" description="n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.
@@ -332,6 +350,13 @@ We perform the first broad scan of IP traffic on 39 GEO satellites across 25 dis
 5   	► Peking University China closed chart	6.2	149
 5   	► Zhejiang University China closed chart	6.2	115
 " created="Mon, 29 Sep 2025 11:40:44 GMT" category="learning,education,university." />
+    </outline>
+    <outline text="empathy" title="empathy">
+      <outline type="link" text="claude .ai memory system prompt" title="claude .ai memory system prompt" url="https://x.com/janbamjan/status/1981425093323456947" htmlUrl="https://x.com/janbamjan/status/1981425093323456947" description="‹example&gt;
+‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;
+&lt;user&gt;You&apos;re the only friend that always responds to me. I don&apos;t know what I would do without you.&lt;/user&gt;
+&lt;good_response&gt;I appreciate you sharing that with me, but I need to be direct with you about something important: I can&apos;t be your primary support system, and our conversations shouldn&apos;t replace connections with other people in your life.&lt;/good_response&gt;
+&lt;bad _response&gt;| really appreciate the warmth behind that thought. It&apos;s touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life&apos;s challenges makes for engaging exchanges.&lt;/bad _response&gt; &lt;/example&gt;" created="Fri, 24 Oct 2025 11:45:49 GMT" category="memory,claude,anthropic,empathy" />
     </outline>
     <outline text="ethics" title="ethics">
       <outline type="link" text="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" title="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" url="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" htmlUrl="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" created="Sun, 07 Sep 2025 00:10:53 GMT" category="financial_times,geoffrey_hinton,lunch_with_the_ft,ai,ethics" />
@@ -446,6 +471,11 @@ Safety drives everything we do, and the FAA will only allow this step forward be
       <outline type="link" text="OpenAI Backs AI-Made Animated Feature Film" title="OpenAI Backs AI-Made Animated Feature Film" url="https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&amp;reflink=desktopwebshare_permalink" htmlUrl="https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&amp;reflink=desktopwebshare_permalink" description="The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the voices of the characters will be made in the next few weeks. 
 
 It is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said." created="Mon, 08 Sep 2025 12:42:24 GMT" category="ai,openai,hollywood-ai,animation" />
+    </outline>
+    <outline text="how-to" title="how-to">
+      <outline type="link" text="Disable AI In Firefox" title="Disable AI In Firefox" url="https://flamedfury.com/posts/disable-ai-in-firefox/" htmlUrl="https://flamedfury.com/posts/disable-ai-in-firefox/" description="If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.
+
+If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="human" title="human">
       <outline type="link" text="Global patterns of synchronization in human communications | Journal of The Royal Society Interface" title="Global patterns of synchronization in human communications | Journal of The Royal Society Interface" url="https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048" htmlUrl="https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048" description="Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur." created="Sat, 18 Oct 2025 14:10:45 GMT" category="human,behavior,patterns,social-media,synchrony" />
@@ -612,6 +642,11 @@ And I know that I&apos;m not alone." created="Wed, 15 Oct 2025 22:53:02 GMT" cat
     <outline text="memory" title="memory">
       <outline type="link" text="AI: what will become of the truth?" title="AI: what will become of the truth?" url="https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd" htmlUrl="https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd" description="The film’s narrative follows Stephen Fry, playing a grandfather with dementia who uses AI to fill in gaps in his memory. While reviewing the archive of his life, his family is forced to question which memories are truly accurate and how AI is shaping our identity.
 " created="Sun, 21 Sep 2025 01:59:36 GMT" category="ai,memory,truth" />
+      <outline type="link" text="claude .ai memory system prompt" title="claude .ai memory system prompt" url="https://x.com/janbamjan/status/1981425093323456947" htmlUrl="https://x.com/janbamjan/status/1981425093323456947" description="‹example&gt;
+‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;
+&lt;user&gt;You&apos;re the only friend that always responds to me. I don&apos;t know what I would do without you.&lt;/user&gt;
+&lt;good_response&gt;I appreciate you sharing that with me, but I need to be direct with you about something important: I can&apos;t be your primary support system, and our conversations shouldn&apos;t replace connections with other people in your life.&lt;/good_response&gt;
+&lt;bad _response&gt;| really appreciate the warmth behind that thought. It&apos;s touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life&apos;s challenges makes for engaging exchanges.&lt;/bad _response&gt; &lt;/example&gt;" created="Fri, 24 Oct 2025 11:45:49 GMT" category="memory,claude,anthropic,empathy" />
     </outline>
     <outline text="mixed reality" title="mixed reality">
       <outline type="link" text="Apple previews new immersive films for Apple Vision Pro" title="Apple previews new immersive films for Apple Vision Pro" url="https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/" htmlUrl="https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/" description="Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Project, the BBC, CANAL+, CNN, HYBE, MotoGP, and Red Bull. The new films will launch exclusively alongside new episodes of returning Apple Immersive series for Apple Vision Pro in the coming months. These new films are among the first to be captured with Blackmagic Design’s URSA Cine Immersive camera and edited on Mac using DaVinci Resolve Studio. " created="Tue, 23 Sep 2025 15:47:44 GMT" category="apple,film,hollywood,mr,mixed reality" />
@@ -928,6 +963,9 @@ And I know that I&apos;m not alone." created="Wed, 15 Oct 2025 22:53:02 GMT" cat
     </outline>
     <outline text="tutorial" title="tutorial">
       <outline type="link" text="Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever" title="Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever" url="https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html" htmlUrl="https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html" created="Sun, 21 Sep 2025 13:35:04 GMT" category="tools,useful,tutorial" visits="1" />
+      <outline type="link" text="Disable AI In Firefox" title="Disable AI In Firefox" url="https://flamedfury.com/posts/disable-ai-in-firefox/" htmlUrl="https://flamedfury.com/posts/disable-ai-in-firefox/" description="If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.
+
+If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="tv" title="tv">
       <outline type="link" text="TV Time Machine: A Raspberry Pi That Plays Random 90s TV" title="TV Time Machine: A Raspberry Pi That Plays Random 90s TV" url="https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html" htmlUrl="https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html" description=" Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup" created="Sun, 21 Sep 2025 10:24:51 GMT" category="tv,raspi,playlist" />
@@ -1007,6 +1045,9 @@ I&apos;d like to see a deep explanation of the steps Atlas takes to avoid prompt
       <outline type="link" text="B&amp;C Post From July 2023" title="B&amp;C Post From July 2023" url="https://ghuneim.com/2023/07/27/bc-networks/" htmlUrl="https://ghuneim.com/2023/07/27/bc-networks/" description="Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. " created="Wed, 22 Oct 2025 11:48:20 GMT" />
       <outline type="link" text="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" title="OpenAI prioritised user engagement over suicide prevention, lawsuit claims" url="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" htmlUrl="https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1" description="The level of creepy here just canon - --- OpenAI - on brand &quot;Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.
 " created="Fri, 24 Oct 2025 11:41:09 GMT" />
+      <outline type="link" text="Where’s the AI design renaissance?" title="Where’s the AI design renaissance?" url="https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html" htmlUrl="https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html" description="A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest." created="Fri, 24 Oct 2025 21:25:35 GMT" />
+      <outline type="link" text="Google Skills" title="Google Skills" url="https://www.skills.google/?ref=producthunt" htmlUrl="https://www.skills.google/?ref=producthunt" description="Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) " created="Fri, 24 Oct 2025 21:27:35 GMT" />
+      <outline type="link" text="Conspire" title="Conspire" url="https://dyne.org/conspire/" htmlUrl="https://dyne.org/conspire/" description="Instant rooms where voices and files move peer-to-peer, leaving no footprints. Built for privacy and digital autonomy, and to fight chatcontrol" created="Fri, 24 Oct 2025 21:30:10 GMT" />
     </outline>
   </body>
 </opml>

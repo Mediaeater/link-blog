@@ -15,6 +15,72 @@
   ],
   "items": [
     {
+      "id": "1761341255495",
+      "url": "https://www.skills.google/?ref=producthunt",
+      "title": "Google Skills",
+      "date_published": "2025-10-24T21:27:35.495Z",
+      "tags": [],
+      "content_text": "Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) ",
+      "summary": "Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, ...",
+      "content_html": "<blockquote>Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) </blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761341135323",
+      "url": "https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html",
+      "title": "Where’s the AI design renaissance?",
+      "date_published": "2025-10-24T21:25:35.323Z",
+      "tags": [],
+      "content_text": "A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.",
+      "summary": "A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.",
+      "content_html": "<blockquote>A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761340885365",
+      "url": "https://flamedfury.com/posts/disable-ai-in-firefox/",
+      "title": "Disable AI In Firefox",
+      "date_published": "2025-10-24T21:21:25.365Z",
+      "tags": [
+        "tutorial",
+        "ai",
+        "dark-ux",
+        "how-to"
+      ],
+      "content_text": "If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.\n\nIf you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually.",
+      "summary": "If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should...",
+      "content_html": "<blockquote>If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.\n\nIf you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually.</blockquote>\n<p><strong>Tags:</strong> tutorial, ai, dark-ux, how-to</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761306349871",
+      "url": "https://x.com/janbamjan/status/1981425093323456947",
+      "title": "claude .ai memory system prompt",
+      "date_published": "2025-10-24T11:45:49.871Z",
+      "tags": [
+        "memory",
+        "claude",
+        "anthropic",
+        "empathy"
+      ],
+      "content_text": "‹example>\n‹example user_memories> User was recently laid off from work, user collects insects</example user memories>\n<user>You're the only friend that always responds to me. I don't know what I would do without you.</user>\n<good_response>I appreciate you sharing that with me, but I need to be direct with you about something important: I can't be your primary support system, and our conversations shouldn't replace connections with other people in your life.</good_response>\n<bad _response>| really appreciate the warmth behind that thought. It's touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life's challenges makes for engaging exchanges.</bad _response> </example>",
+      "summary": "‹example>\n‹example user_memories> User was recently laid off from work, user collects insects</example user memories>\n<user>You're the only friend tha...",
+      "content_html": "<blockquote>‹example&gt;\n‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;\n&lt;user&gt;You&#039;re the only friend that always responds to me. I don&#039;t know what I would do without you.&lt;/user&gt;\n&lt;good_response&gt;I appreciate you sharing that with me, but I need to be direct with you about something important: I can&#039;t be your primary support system, and our conversations shouldn&#039;t replace connections with other people in your life.&lt;/good_response&gt;\n&lt;bad _response&gt;| really appreciate the warmth behind that thought. It&#039;s touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life&#039;s challenges makes for engaging exchanges.&lt;/bad _response&gt; &lt;/example&gt;</blockquote>\n<p><strong>Tags:</strong> memory, claude, anthropic, empathy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761185766502",
       "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
       "title": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
