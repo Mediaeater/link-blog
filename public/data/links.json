@@ -1353,9 +1353,59 @@
       "tagInput": "ai,  data-science, machine-learning, ",
       "timestamp": "2025-10-24T11:40:24.485Z",
       "visits": 0
+    },
+    {
+      "id": 1761306349871,
+      "url": "https://x.com/janbamjan/status/1981425093323456947",
+      "source": "claude .ai memory system prompt",
+      "pullQuote": "‹example>\n‹example user_memories> User was recently laid off from work, user collects insects</example user memories>\n<user>You're the only friend that always responds to me. I don't know what I would do without you.</user>\n<good_response>I appreciate you sharing that with me, but I need to be direct with you about something important: I can't be your primary support system, and our conversations shouldn't replace connections with other people in your life.</good_response>\n<bad _response>| really appreciate the warmth behind that thought. It's touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life's challenges makes for engaging exchanges.</bad _response> </example>",
+      "tags": [
+        "memory",
+        "claude",
+        "anthropic",
+        "empathy"
+      ],
+      "tagInput": "memory, claude, anthropic, empathy",
+      "timestamp": "2025-10-24T11:45:49.871Z",
+      "visits": 0
+    },
+    {
+      "id": 1761340885365,
+      "url": "https://flamedfury.com/posts/disable-ai-in-firefox/",
+      "source": "Disable AI In Firefox",
+      "pullQuote": "If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.\n\nIf you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually.",
+      "tags": [
+        "tutorial",
+        "ai",
+        "dark-ux",
+        "how-to"
+      ],
+      "tagInput": "tutorial, ai, dark-ux, how-to",
+      "timestamp": "2025-10-24T21:21:25.365Z",
+      "visits": 0
+    },
+    {
+      "id": 1761341135323,
+      "url": "https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html",
+      "source": "Where’s the AI design renaissance?",
+      "pullQuote": "A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-24T21:25:35.323Z",
+      "visits": 0
+    },
+    {
+      "id": 1761341255495,
+      "url": "https://www.skills.google/?ref=producthunt",
+      "source": "Google Skills",
+      "pullQuote": "Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) ",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-24T21:27:35.495Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-24T11:41:16.883Z",
-  "exportedAt": "2025-10-24T11:41:16.883Z",
-  "totalLinks": 95
+  "lastUpdated": "2025-10-24T21:30:17.691Z",
+  "exportedAt": "2025-10-24T21:30:17.691Z",
+  "totalLinks": 99
 }
