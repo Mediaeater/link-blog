@@ -1403,9 +1403,45 @@
       "tagInput": "",
       "timestamp": "2025-10-24T21:27:35.495Z",
       "visits": 0
+    },
+    {
+      "id": 1761432038139,
+      "url": "https://www.ft.com/content/35ffb134-0778-4374-ab09-667af3f2a2c4",
+      "source": "How fan power is reshaping pop",
+      "pullQuote": "\t“In the social media era, the audience isn’t just a discrete group of dedicated followers; it’s the entire public, all the casual onlookers, the lurkers and the bystanders who can all become part of the conversation or the conflict,” Ewens says. “This blurring of boundaries means that music artists aren’t just managing fans, but a much bigger and more fragmented crowd that mixes genuine enthusiasm with entitlement, curiosity and sometimes outright aggression.”\n",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-25T22:40:38.139Z",
+      "visits": 0
+    },
+    {
+      "id": 1761432152739,
+      "url": "https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/",
+      "source": "Sora users trick platform into creating racist celeb videos",
+      "pullQuote": "The other videos that Copyleaks listed all include the word \"knitters\" in place of particular racist terminology, while the Jake Paul video instead uses the term \"neck hurts.\" While none of the posts drove a large volume of traffic on Sora itself, Copyleaks noted that many of the videos have been reposted to platforms like TikTok, where one of the Paul videos has been liked more than 168,000 times. A second example of content using Paul's likeness had him explaining that he hated \"juice\" that alluded to Jewish people, not liquid pressed from fruit and vegetables.   ",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-25T22:45:14.971Z",
+      "visits": 0
+    },
+    {
+      "id": 1761432443798,
+      "url": "https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/",
+      "source": "MSG Accused of Misusing Facial Recognition, Mishandling Data",
+      "pullQuote": "ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, customers, and employees, including directives to take photographs of the individual and their family members, and obtain their social security number and financial information.”  Among those assignments were blocking a transgender woman from entering MSG simply because of her gender identity and taping phone calls with a woman who was accusing Dolan of sexual assault, the latter of which Ingrasselino refused to do. ",
+      "tags": [
+        "msg",
+        "dolan",
+        "frt",
+        "ethics",
+        "legal"
+      ],
+      "tagInput": "msg, dolan, frt, ethics, legal",
+      "timestamp": "2025-10-25T22:47:23.798Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-24T21:30:17.691Z",
-  "exportedAt": "2025-10-24T21:30:17.691Z",
-  "totalLinks": 99
+  "lastUpdated": "2025-10-25T22:47:36.640Z",
+  "exportedAt": "2025-10-25T22:47:36.640Z",
+  "totalLinks": 102
 }
