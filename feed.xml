@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 24 Oct 2025 21:30:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Oct 2025 22:47:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -700,6 +700,27 @@
             <guid>1761341255495</guid>
             <pubDate>Fri, 24 Oct 2025 21:27:35 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How fan power is reshaping pop]]></title>
+            <link>https://www.ft.com/content/35ffb134-0778-4374-ab09-667af3f2a2c4</link>
+            <guid>1761432038139</guid>
+            <pubDate>Sat, 25 Oct 2025 22:40:38 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sora users trick platform into creating racist celeb videos]]></title>
+            <link>https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/</link>
+            <guid>1761432152739</guid>
+            <pubDate>Sat, 25 Oct 2025 22:45:14 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MSG Accused of Misusing Facial Recognition, Mishandling Data]]></title>
+            <link>https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/</link>
+            <guid>1761432443798</guid>
+            <pubDate>Sat, 25 Oct 2025 22:47:23 GMT</pubDate>
+            <description><![CDATA[Tags: msg, dolan, frt, ethics, legal]]></description>
         </item>
     </channel>
 </rss>
