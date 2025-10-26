@@ -1439,9 +1439,51 @@
       "tagInput": "msg, dolan, frt, ethics, legal",
       "timestamp": "2025-10-25T22:47:23.798Z",
       "visits": 0
+    },
+    {
+      "id": 1761487760935,
+      "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search",
+      "source": "Movie Posters Collection - \t",
+      "pullQuote": "Downloadable Movie Posters From The 40s, 50s, 60s, and 70s",
+      "tags": [
+        "film",
+        "posters",
+        "paper",
+        "archive",
+        "collection"
+      ],
+      "tagInput": "film, posters, paper, archive, collection",
+      "timestamp": "2025-10-26T14:09:20.935Z",
+      "visits": 0
+    },
+    {
+      "id": 1761487836735,
+      "url": "https://satcom.sysnet.ucsd.edu/",
+      "source": "🛰️ SATCOM Security",
+      "pullQuote": "We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens’ voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth.",
+      "tags": [
+        "opsec",
+        "security",
+        "satellite",
+        "unencrypted",
+        "networks"
+      ],
+      "tagInput": "opsec, security, satellite, unencrypted, networks",
+      "timestamp": "2025-10-26T14:10:36.735Z",
+      "visits": 0
+    },
+    {
+      "id": 1761508001428,
+      "url": "https://tinyawards.net/",
+      "source": "Tiny Awards",
+      "pullQuote": "The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by more traditional, larger or more commercial awards.\n\nEach year we ask the online world to nominate their favourite creative, non-commercial website built in the past 12 months. A panel of selected expert judges drawn from across the wide world of web-based creativity then pick their favourites. Finally, the entire web then votes upon this list to pick its favourite. The winner, as chosen by public vote, wins a small prize and a small handmade trophy (and we hopefully give an even smaller prize to each nominee).\n\n",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-26T19:46:41.428Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-25T22:47:36.640Z",
-  "exportedAt": "2025-10-25T22:47:36.640Z",
-  "totalLinks": 102
+  "lastUpdated": "2025-10-26T19:48:12.344Z",
+  "exportedAt": "2025-10-26T19:48:12.344Z",
+  "totalLinks": 105
 }
