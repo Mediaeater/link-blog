@@ -15,6 +15,60 @@
   ],
   "items": [
     {
+      "id": "1761508001428",
+      "url": "https://tinyawards.net/",
+      "title": "Tiny Awards",
+      "date_published": "2025-10-26T19:46:41.428Z",
+      "tags": [],
+      "content_text": "The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by more traditional, larger or more commercial awards.\n\nEach year we ask the online world to nominate their favourite creative, non-commercial website built in the past 12 months. A panel of selected expert judges drawn from across the wide world of web-based creativity then pick their favourites. Finally, the entire web then votes upon this list to pick its favourite. The winner, as chosen by public vote, wins a small prize and a small handmade trophy (and we hopefully give an even smaller prize to each nominee).\n\n",
+      "summary": "The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by mo...",
+      "content_html": "<blockquote>The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by more traditional, larger or more commercial awards.\n\nEach year we ask the online world to nominate their favourite creative, non-commercial website built in the past 12 months. A panel of selected expert judges drawn from across the wide world of web-based creativity then pick their favourites. Finally, the entire web then votes upon this list to pick its favourite. The winner, as chosen by public vote, wins a small prize and a small handmade trophy (and we hopefully give an even smaller prize to each nominee).\n\n</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761487836735",
+      "url": "https://satcom.sysnet.ucsd.edu/",
+      "title": "🛰️ SATCOM Security",
+      "date_published": "2025-10-26T14:10:36.735Z",
+      "tags": [
+        "opsec",
+        "security",
+        "satellite",
+        "unencrypted",
+        "networks"
+      ],
+      "content_text": "We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens’ voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth.",
+      "summary": "We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite...",
+      "content_html": "<blockquote>We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens’ voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth.</blockquote>\n<p><strong>Tags:</strong> opsec, security, satellite, unencrypted, networks</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761487760935",
+      "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search",
+      "title": "Movie Posters Collection - \t",
+      "date_published": "2025-10-26T14:09:20.935Z",
+      "tags": [
+        "film",
+        "posters",
+        "paper",
+        "archive",
+        "collection"
+      ],
+      "content_text": "Downloadable Movie Posters From The 40s, 50s, 60s, and 70s",
+      "summary": "Downloadable Movie Posters From The 40s, 50s, 60s, and 70s",
+      "content_html": "<blockquote>Downloadable Movie Posters From The 40s, 50s, 60s, and 70s</blockquote>\n<p><strong>Tags:</strong> film, posters, paper, archive, collection</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761432443798",
       "url": "https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/",
       "title": "MSG Accused of Misusing Facial Recognition, Mishandling Data",

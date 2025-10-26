@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 25 Oct 2025 22:47:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Oct 2025 19:48:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -721,6 +721,27 @@
             <guid>1761432443798</guid>
             <pubDate>Sat, 25 Oct 2025 22:47:23 GMT</pubDate>
             <description><![CDATA[Tags: msg, dolan, frt, ethics, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Movie Posters Collection - 	]]></title>
+            <link>https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search</link>
+            <guid>1761487760935</guid>
+            <pubDate>Sun, 26 Oct 2025 14:09:20 GMT</pubDate>
+            <description><![CDATA[Tags: film, posters, paper, archive, collection]]></description>
+        </item>
+        <item>
+            <title><![CDATA[🛰️ SATCOM Security]]></title>
+            <link>https://satcom.sysnet.ucsd.edu/</link>
+            <guid>1761487836735</guid>
+            <pubDate>Sun, 26 Oct 2025 14:10:36 GMT</pubDate>
+            <description><![CDATA[Tags: opsec, security, satellite, unencrypted, networks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tiny Awards]]></title>
+            <link>https://tinyawards.net/</link>
+            <guid>1761508001428</guid>
+            <pubDate>Sun, 26 Oct 2025 19:46:41 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
         </item>
     </channel>
 </rss>
