@@ -1481,9 +1481,24 @@
       "tagInput": "",
       "timestamp": "2025-10-26T19:46:41.428Z",
       "visits": 0
+    },
+    {
+      "id": 1761508210240,
+      "url": "https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html",
+      "source": "Paris Photo–Aperture PhotoBook Awards",
+      "pullQuote": "Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.\n\nThe winners of this new edition will be announced during the fair on Friday, November 14, at 3:00 pm on the Balcon de l’Horloge. Discover the shortlisted books now.",
+      "tags": [
+        "awards",
+        "photography",
+        "paris-photo",
+        "aperture"
+      ],
+      "tagInput": "awards, photography, paris-photo, aperture",
+      "timestamp": "2025-10-26T19:50:10.240Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-26T19:48:12.344Z",
-  "exportedAt": "2025-10-26T19:48:12.344Z",
-  "totalLinks": 105
+  "lastUpdated": "2025-10-26T19:51:41.279Z",
+  "exportedAt": "2025-10-26T19:51:41.279Z",
+  "totalLinks": 106
 }
