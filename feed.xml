@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 26 Oct 2025 19:48:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Oct 2025 19:51:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -742,6 +742,13 @@
             <guid>1761508001428</guid>
             <pubDate>Sun, 26 Oct 2025 19:46:41 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Paris Photo–Aperture PhotoBook Awards]]></title>
+            <link>https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html</link>
+            <guid>1761508210240</guid>
+            <pubDate>Sun, 26 Oct 2025 19:50:10 GMT</pubDate>
+            <description><![CDATA[Tags: awards, photography, paris-photo, aperture]]></description>
         </item>
     </channel>
 </rss>
