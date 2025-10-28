@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 26 Oct 2025 19:51:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Oct 2025 11:19:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -749,6 +749,13 @@
             <guid>1761508210240</guid>
             <pubDate>Sun, 26 Oct 2025 19:50:10 GMT</pubDate>
             <description><![CDATA[Tags: awards, photography, paris-photo, aperture]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Criminal complaint against facial recognition company Clearview AI]]></title>
+            <link>https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai</link>
+            <guid>1761647680766</guid>
+            <pubDate>Tue, 28 Oct 2025 10:34:40 GMT</pubDate>
+            <description><![CDATA[Tags: frt, facial-recognition, clearview-ai, eu, privacy, legal]]></description>
         </item>
     </channel>
 </rss>
