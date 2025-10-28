@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 22 Oct 2025 23:21:19 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Oct 2025 11:19:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -23,46 +23,11 @@
             <description><![CDATA[Tags: ]]></description>
         </item>
         <item>
-            <title><![CDATA[bloomberg.com]]></title>
-            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?</link>
-            <guid>1759116996981.6323</guid>
-            <pubDate>Mon, 29 Sep 2025 03:36:36 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Petition: Do not introduce Digital ID cards]]></title>
-            <link>https://petition.parliament.uk/petitions/730194</link>
-            <guid>1759107086114.2097</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Climate TRACE]]></title>
-            <link>https://climatetrace.org/</link>
-            <guid>1759107086115.44</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
             <title><![CDATA[Air pollution]]></title>
             <link>https://climatetrace.org/air-pollution</link>
             <guid>1759107086115.6147</guid>
             <pubDate>Sun, 19 Oct 2025 10:00:50 GMT</pubDate>
             <description><![CDATA[Tags: map. aqi, tool]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Farewell Friends - HumbleDollar]]></title>
-            <link>https://humbledollar.com/forum/farewell-friends/</link>
-            <guid>1759107086115.4614</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
-            <title><![CDATA[bloomberg.com]]></title>
-            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?</link>
-            <guid>1759107086115.2908</guid>
-            <pubDate>Mon, 29 Sep 2025 00:51:26 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
         </item>
         <item>
             <title><![CDATA[Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever]]></title>
@@ -301,13 +266,6 @@
             <guid>1758642464851</guid>
             <pubDate>Tue, 23 Sep 2025 15:47:44 GMT</pubDate>
             <description><![CDATA[Tags: apple, film, hollywood, mr, mixed reality]]></description>
-        </item>
-        <item>
-            <title><![CDATA[How China’s Propaganda and Surveillance Systems Really Operate]]></title>
-            <link>https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/</link>
-            <guid>1758642931570</guid>
-            <pubDate>Tue, 23 Sep 2025 15:55:31 GMT</pubDate>
-            <description><![CDATA[Tags: surveillance, cn, economics, propaganda, privacy, leaked-documents]]></description>
         </item>
         <item>
             <title><![CDATA[Find My Parking Cops]]></title>
@@ -686,6 +644,118 @@
             <guid>1761175179626</guid>
             <pubDate>Wed, 22 Oct 2025 23:19:39 GMT</pubDate>
             <description><![CDATA[Tags: cn, compression]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI prioritised user engagement over suicide prevention, lawsuit claims]]></title>
+            <link>https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1</link>
+            <guid>1761185766502</guid>
+            <pubDate>Fri, 24 Oct 2025 11:41:09 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[When is better to think without words?]]></title>
+            <link>https://www.henrikkarlsson.xyz/p/wordless-thought</link>
+            <guid>1761303965071</guid>
+            <pubDate>Fri, 24 Oct 2025 11:06:05 GMT</pubDate>
+            <description><![CDATA[Tags: thinking, learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Roc Camera]]></title>
+            <link>https://roc.camera/</link>
+            <guid>1761305725443</guid>
+            <pubDate>Fri, 24 Oct 2025 11:35:25 GMT</pubDate>
+            <description><![CDATA[Tags: camera, ground-truth, images, sensor]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Transforming animation with machine learning]]></title>
+            <link>https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c</link>
+            <guid>1761306024485</guid>
+            <pubDate>Fri, 24 Oct 2025 11:40:24 GMT</pubDate>
+            <description><![CDATA[Tags: ai, data-science, machine-learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[claude .ai memory system prompt]]></title>
+            <link>https://x.com/janbamjan/status/1981425093323456947</link>
+            <guid>1761306349871</guid>
+            <pubDate>Fri, 24 Oct 2025 11:45:49 GMT</pubDate>
+            <description><![CDATA[Tags: memory, claude, anthropic, empathy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Disable AI In Firefox]]></title>
+            <link>https://flamedfury.com/posts/disable-ai-in-firefox/</link>
+            <guid>1761340885365</guid>
+            <pubDate>Fri, 24 Oct 2025 21:21:25 GMT</pubDate>
+            <description><![CDATA[Tags: tutorial, ai, dark-ux, how-to]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Where’s the AI design renaissance?]]></title>
+            <link>https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html</link>
+            <guid>1761341135323</guid>
+            <pubDate>Fri, 24 Oct 2025 21:25:35 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Google Skills]]></title>
+            <link>https://www.skills.google/?ref=producthunt</link>
+            <guid>1761341255495</guid>
+            <pubDate>Fri, 24 Oct 2025 21:27:35 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How fan power is reshaping pop]]></title>
+            <link>https://www.ft.com/content/35ffb134-0778-4374-ab09-667af3f2a2c4</link>
+            <guid>1761432038139</guid>
+            <pubDate>Sat, 25 Oct 2025 22:40:38 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sora users trick platform into creating racist celeb videos]]></title>
+            <link>https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/</link>
+            <guid>1761432152739</guid>
+            <pubDate>Sat, 25 Oct 2025 22:45:14 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[MSG Accused of Misusing Facial Recognition, Mishandling Data]]></title>
+            <link>https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/</link>
+            <guid>1761432443798</guid>
+            <pubDate>Sat, 25 Oct 2025 22:47:23 GMT</pubDate>
+            <description><![CDATA[Tags: msg, dolan, frt, ethics, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Movie Posters Collection - 	]]></title>
+            <link>https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search</link>
+            <guid>1761487760935</guid>
+            <pubDate>Sun, 26 Oct 2025 14:09:20 GMT</pubDate>
+            <description><![CDATA[Tags: film, posters, paper, archive, collection]]></description>
+        </item>
+        <item>
+            <title><![CDATA[🛰️ SATCOM Security]]></title>
+            <link>https://satcom.sysnet.ucsd.edu/</link>
+            <guid>1761487836735</guid>
+            <pubDate>Sun, 26 Oct 2025 14:10:36 GMT</pubDate>
+            <description><![CDATA[Tags: opsec, security, satellite, unencrypted, networks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tiny Awards]]></title>
+            <link>https://tinyawards.net/</link>
+            <guid>1761508001428</guid>
+            <pubDate>Sun, 26 Oct 2025 19:46:41 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Paris Photo–Aperture PhotoBook Awards]]></title>
+            <link>https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html</link>
+            <guid>1761508210240</guid>
+            <pubDate>Sun, 26 Oct 2025 19:50:10 GMT</pubDate>
+            <description><![CDATA[Tags: awards, photography, paris-photo, aperture]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Criminal complaint against facial recognition company Clearview AI]]></title>
+            <link>https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai</link>
+            <guid>1761647680766</guid>
+            <pubDate>Tue, 28 Oct 2025 10:34:40 GMT</pubDate>
+            <description><![CDATA[Tags: frt, facial-recognition, clearview-ai, eu, privacy, legal]]></description>
         </item>
     </channel>
 </rss>

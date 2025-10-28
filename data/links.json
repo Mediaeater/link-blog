@@ -19,33 +19,6 @@
       "visits": 0
     },
     {
-      "id": 1759116996981.6323,
-      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
-      "source": "bloomberg.com",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T03:36:36.981Z",
-      "visits": 0
-    },
-    {
-      "id": 1759107086114.2097,
-      "url": "https://petition.parliament.uk/petitions/730194",
-      "source": "Petition: Do not introduce Digital ID cards",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.114Z",
-      "visits": 0
-    },
-    {
-      "id": 1759107086115.44,
-      "url": "https://climatetrace.org/",
-      "source": "Climate TRACE",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.115Z",
-      "visits": 0
-    },
-    {
       "id": 1759107086115.6147,
       "url": "https://climatetrace.org/air-pollution",
       "source": "Air pollution",
@@ -57,24 +30,6 @@
       "timestamp": "2025-10-19T10:00:50.256Z",
       "visits": 1,
       "tagInput": "map. aqi, tool"
-    },
-    {
-      "id": 1759107086115.4614,
-      "url": "https://humbledollar.com/forum/farewell-friends/",
-      "source": "Farewell Friends - HumbleDollar",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.115Z",
-      "visits": 0
-    },
-    {
-      "id": 1759107086115.2908,
-      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash?",
-      "source": "bloomberg.com",
-      "pullQuote": "",
-      "tags": [],
-      "timestamp": "2025-09-29T00:51:26.115Z",
-      "visits": 0
     },
     {
       "id": 1758461704343.3533,
@@ -561,24 +516,6 @@
       ],
       "tagInput": "apple, film, hollywood, mr, mixed reality",
       "timestamp": "2025-09-23T15:47:44.851Z",
-      "visits": 0
-    },
-    {
-      "id": 1758642931570,
-      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
-      "source": "How China’s Propaganda and Surveillance Systems Really Operate",
-      "pullQuote": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
-      "tags": [
-        "surveillance",
-        "cn",
-        "economics",
-        "propaganda",
-        "privacy",
-        "leaked-documents"
-      ],
-      "tagInput": "surveillance, cn, economics, propaganda, privacy, leaked-documents",
-      "isPinned": false,
-      "timestamp": "2025-09-23T15:55:31.570Z",
       "visits": 0
     },
     {
@@ -1364,7 +1301,219 @@
       "tagInput": "cn, compression",
       "timestamp": "2025-10-22T23:19:39.626Z",
       "visits": 0
+    },
+    {
+      "id": 1761185766502,
+      "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
+      "source": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
+      "pullQuote": "The level of creepy here just canon - --- OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-24T11:41:09.291Z",
+      "visits": 0
+    },
+    {
+      "id": 1761303965071,
+      "url": "https://www.henrikkarlsson.xyz/p/wordless-thought",
+      "source": "When is better to think without words?",
+      "pullQuote": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.",
+      "tags": [
+        "thinking",
+        "learning"
+      ],
+      "tagInput": "thinking, learning, psychology",
+      "timestamp": "2025-10-24T11:06:05.071Z",
+      "visits": 0
+    },
+    {
+      "id": 1761305725443,
+      "url": "https://roc.camera/",
+      "source": "Roc Camera",
+      "pullQuote": "By combining attested sensor data, zero-knowledge proofs, and a tamper-proof environment, we've built Roc Camera to capture verifiably real photos.",
+      "tags": [
+        "camera",
+        "ground-truth",
+        "images",
+        "sensor"
+      ],
+      "tagInput": "camera, ground-truth, images, ",
+      "timestamp": "2025-10-24T11:35:25.443Z",
+      "visits": 0
+    },
+    {
+      "id": 1761306024485,
+      "url": "https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c",
+      "source": "Transforming animation with machine learning",
+      "pullQuote": "n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.\n\n“Introducing new procedural tools requires acceptance and a change of mindset.”\n\nIn this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained.",
+      "tags": [
+        "ai",
+        "data-science",
+        "machine-learning"
+      ],
+      "tagInput": "ai,  data-science, machine-learning, ",
+      "timestamp": "2025-10-24T11:40:24.485Z",
+      "visits": 0
+    },
+    {
+      "id": 1761306349871,
+      "url": "https://x.com/janbamjan/status/1981425093323456947",
+      "source": "claude .ai memory system prompt",
+      "pullQuote": "‹example>\n‹example user_memories> User was recently laid off from work, user collects insects</example user memories>\n<user>You're the only friend that always responds to me. I don't know what I would do without you.</user>\n<good_response>I appreciate you sharing that with me, but I need to be direct with you about something important: I can't be your primary support system, and our conversations shouldn't replace connections with other people in your life.</good_response>\n<bad _response>| really appreciate the warmth behind that thought. It's touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life's challenges makes for engaging exchanges.</bad _response> </example>",
+      "tags": [
+        "memory",
+        "claude",
+        "anthropic",
+        "empathy"
+      ],
+      "tagInput": "memory, claude, anthropic, empathy",
+      "timestamp": "2025-10-24T11:45:49.871Z",
+      "visits": 0
+    },
+    {
+      "id": 1761340885365,
+      "url": "https://flamedfury.com/posts/disable-ai-in-firefox/",
+      "source": "Disable AI In Firefox",
+      "pullQuote": "If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.\n\nIf you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually.",
+      "tags": [
+        "tutorial",
+        "ai",
+        "dark-ux",
+        "how-to"
+      ],
+      "tagInput": "tutorial, ai, dark-ux, how-to",
+      "timestamp": "2025-10-24T21:21:25.365Z",
+      "visits": 0
+    },
+    {
+      "id": 1761341135323,
+      "url": "https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html",
+      "source": "Where’s the AI design renaissance?",
+      "pullQuote": "A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-24T21:25:35.323Z",
+      "visits": 0
+    },
+    {
+      "id": 1761341255495,
+      "url": "https://www.skills.google/?ref=producthunt",
+      "source": "Google Skills",
+      "pullQuote": "Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) ",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-24T21:27:35.495Z",
+      "visits": 0
+    },
+    {
+      "id": 1761432038139,
+      "url": "https://www.ft.com/content/35ffb134-0778-4374-ab09-667af3f2a2c4",
+      "source": "How fan power is reshaping pop",
+      "pullQuote": "\t“In the social media era, the audience isn’t just a discrete group of dedicated followers; it’s the entire public, all the casual onlookers, the lurkers and the bystanders who can all become part of the conversation or the conflict,” Ewens says. “This blurring of boundaries means that music artists aren’t just managing fans, but a much bigger and more fragmented crowd that mixes genuine enthusiasm with entitlement, curiosity and sometimes outright aggression.”\n",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-25T22:40:38.139Z",
+      "visits": 0
+    },
+    {
+      "id": 1761432152739,
+      "url": "https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/",
+      "source": "Sora users trick platform into creating racist celeb videos",
+      "pullQuote": "The other videos that Copyleaks listed all include the word \"knitters\" in place of particular racist terminology, while the Jake Paul video instead uses the term \"neck hurts.\" While none of the posts drove a large volume of traffic on Sora itself, Copyleaks noted that many of the videos have been reposted to platforms like TikTok, where one of the Paul videos has been liked more than 168,000 times. A second example of content using Paul's likeness had him explaining that he hated \"juice\" that alluded to Jewish people, not liquid pressed from fruit and vegetables.   ",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-25T22:45:14.971Z",
+      "visits": 0
+    },
+    {
+      "id": 1761432443798,
+      "url": "https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/",
+      "source": "MSG Accused of Misusing Facial Recognition, Mishandling Data",
+      "pullQuote": "ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, customers, and employees, including directives to take photographs of the individual and their family members, and obtain their social security number and financial information.”  Among those assignments were blocking a transgender woman from entering MSG simply because of her gender identity and taping phone calls with a woman who was accusing Dolan of sexual assault, the latter of which Ingrasselino refused to do. ",
+      "tags": [
+        "msg",
+        "dolan",
+        "frt",
+        "ethics",
+        "legal"
+      ],
+      "tagInput": "msg, dolan, frt, ethics, legal",
+      "timestamp": "2025-10-25T22:47:23.798Z",
+      "visits": 0
+    },
+    {
+      "id": 1761487760935,
+      "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search",
+      "source": "Movie Posters Collection - \t",
+      "pullQuote": "Downloadable Movie Posters From The 40s, 50s, 60s, and 70s",
+      "tags": [
+        "film",
+        "posters",
+        "paper",
+        "archive",
+        "collection"
+      ],
+      "tagInput": "film, posters, paper, archive, collection",
+      "timestamp": "2025-10-26T14:09:20.935Z",
+      "visits": 0
+    },
+    {
+      "id": 1761487836735,
+      "url": "https://satcom.sysnet.ucsd.edu/",
+      "source": "🛰️ SATCOM Security",
+      "pullQuote": "We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens’ voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth.",
+      "tags": [
+        "opsec",
+        "security",
+        "satellite",
+        "unencrypted",
+        "networks"
+      ],
+      "tagInput": "opsec, security, satellite, unencrypted, networks",
+      "timestamp": "2025-10-26T14:10:36.735Z",
+      "visits": 0
+    },
+    {
+      "id": 1761508001428,
+      "url": "https://tinyawards.net/",
+      "source": "Tiny Awards",
+      "pullQuote": "The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by more traditional, larger or more commercial awards.\n\nEach year we ask the online world to nominate their favourite creative, non-commercial website built in the past 12 months. A panel of selected expert judges drawn from across the wide world of web-based creativity then pick their favourites. Finally, the entire web then votes upon this list to pick its favourite. The winner, as chosen by public vote, wins a small prize and a small handmade trophy (and we hopefully give an even smaller prize to each nominee).\n\n",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-26T19:46:41.428Z",
+      "visits": 0
+    },
+    {
+      "id": 1761508210240,
+      "url": "https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html",
+      "source": "Paris Photo–Aperture PhotoBook Awards",
+      "pullQuote": "Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.\n\nThe winners of this new edition will be announced during the fair on Friday, November 14, at 3:00 pm on the Balcon de l’Horloge. Discover the shortlisted books now.",
+      "tags": [
+        "awards",
+        "photography",
+        "paris-photo",
+        "aperture"
+      ],
+      "tagInput": "awards, photography, paris-photo, aperture",
+      "timestamp": "2025-10-26T19:50:10.240Z",
+      "visits": 0
+    },
+    {
+      "id": 1761647680766,
+      "url": "https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai",
+      "source": "Criminal complaint against facial recognition company Clearview AI",
+      "pullQuote": "Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement.",
+      "tags": [
+        "frt",
+        "facial-recognition",
+        "clearview-ai",
+        "eu",
+        "privacy",
+        "legal"
+      ],
+      "tagInput": "frt, facial-recognition, clearview-ai, eu, privacy, legal",
+      "timestamp": "2025-10-28T10:34:40.766Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-22T23:19:39.626Z"
+  "lastUpdated": "2025-10-28T10:39:15.205Z"
 }
