@@ -1496,9 +1496,26 @@
       "tagInput": "awards, photography, paris-photo, aperture",
       "timestamp": "2025-10-26T19:50:10.240Z",
       "visits": 0
+    },
+    {
+      "id": 1761647680766,
+      "url": "https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai",
+      "source": "Criminal complaint against facial recognition company Clearview AI",
+      "pullQuote": "Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement.",
+      "tags": [
+        "frt",
+        "facial-recognition",
+        "clearview-ai",
+        "eu",
+        "privacy",
+        "legal"
+      ],
+      "tagInput": "frt, facial-recognition, clearview-ai, eu, privacy, legal",
+      "timestamp": "2025-10-28T10:34:40.766Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-26T19:51:41.279Z",
-  "exportedAt": "2025-10-26T19:51:41.279Z",
-  "totalLinks": 106
+  "lastUpdated": "2025-10-28T11:19:38.635Z",
+  "exportedAt": "2025-10-28T11:19:38.635Z",
+  "totalLinks": 107
 }
