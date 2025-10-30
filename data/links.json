@@ -1513,9 +1513,73 @@
       "tagInput": "frt, facial-recognition, clearview-ai, eu, privacy, legal",
       "timestamp": "2025-10-28T10:34:40.766Z",
       "visits": 0
+    },
+    {
+      "id": 1761820251773,
+      "url": "https://www.juliensauctions.com/en/auctions/the-florian-schneider-collection",
+      "source": "The Florian Schneider Collection",
+      "pullQuote": "The Florian Schneider Collection Nov 19 AT 10:00 AM CST - IN Nashville. The Florian Schneider Collection auction is scheduled for November 19, 2025, at 10:00 AM CST in Nashville at the Musicians Hall of Fame & Museum. The event, hosted by Julien's Auctions, will feature over 450 personal items from the Kraftwerk co-founder, including synthesizers, instruments, and memorabilia.   ",
+      "tags": [
+        "kraftwerk",
+        "music",
+        "art",
+        "gear",
+        "auction"
+      ],
+      "tagInput": "kraftwerk, music, art, gear, auction",
+      "timestamp": "2025-10-30T10:30:51.773Z",
+      "visits": 0
+    },
+    {
+      "id": 1761820564985,
+      "url": "https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/",
+      "source": "UMG and Udio Reach Agreement for ‘New Licensed AI Music Creation Platform’",
+      "pullQuote": "Universal Music Group (UMG) and Udio, one of the top AI music models on the market, have announced a strategic agreement, thereby ending UMG’s involvement in the copyright infringement litigation it brought against Udio alongside Sony and Warner last year. ",
+      "tags": [
+        "music",
+        "ai",
+        "legal",
+        "umg",
+        "udio",
+        "settlement"
+      ],
+      "tagInput": "music, ai, legal, umg, udio, settlement",
+      "timestamp": "2025-10-30T10:36:04.985Z",
+      "visits": 0
+    },
+    {
+      "id": 1761820920570,
+      "url": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2023cv08292/606655/716/0.pdf",
+      "source": "Law ChatGPT came up with a 'Game of Thrones' sequel idea. Now, a judge is letting George RR Martin sue for copyright inf",
+      "pullQuote": "OpenAI now moves pursuant to Federal Rule of Civil Procedure 12(b)(6) to dismiss\nthe Consolidated Class Action Complaint’s output-based infringement claim. OpenAI\ncontends that the complaint fails to plausibly allege substantial similarity between\nplaintiffs’ works and ChatGPT’s outputs or to cite or attach examples of allegedly\ninfringing outputs for the Court to consider when evaluating the issue of substantial\nsimilarity. (See Dkt. No. 325 (“Mot.”).)",
+      "tags": [
+        "legal",
+        "openai",
+        "chatgpt",
+        "hollywood-ai"
+      ],
+      "tagInput": "legal,  openai,  chatgpt, hollywood-ai, ",
+      "timestamp": "2025-10-30T10:43:46.737Z",
+      "visits": 0
+    },
+    {
+      "id": 1761821761034,
+      "url": "https://arxiv.org/abs/2510.15511",
+      "source": "Language Models are Injective and Hence Invertible",
+      "pullQuote": "ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. This finding, confirmed through billions of collision-free tests and made practical by the efficient SipIt algorithm for reconstructing prompts exactly, opens the door to far greater transparency. Researchers can now trace how concepts move through model layers, pinpoint the causes of specific activations, and audit sources of bias or hallucination without rerunning inputs. \n\nThe implications for safety and privacy are equally significant: injectivity allows for activation-based anomaly detection to defend against adversarial attacks, but it also raises concerns about data recovery and intellectual property, since original prompts could potentially be extracted. As a result, new approaches—such as deliberately “forgetful” architectures or blockchain-style provenance tracking—may be needed to protect sensitive information. Overall, this discovery reframes language models as verifiable and interpretable systems, offering new trust and accountability in critical domains like law, healthcare, and governance, while demanding fresh ethical and regulatory safeguards.",
+      "tags": [
+        "llms",
+        "audit",
+        "privacy",
+        "ip",
+        "legal"
+      ],
+      "tagInput": "llms, audit, privacy, ip, legal",
+      "timestamp": "2025-10-30T10:56:01.034Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-28T11:19:38.635Z",
-  "exportedAt": "2025-10-28T11:19:38.635Z",
-  "totalLinks": 107
+  "lastUpdated": "2025-10-30T11:15:30.892Z",
+  "exportedAt": "2025-10-30T11:15:30.892Z",
+  "totalLinks": 111
 }
