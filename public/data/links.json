@@ -1415,16 +1415,6 @@
       "visits": 0
     },
     {
-      "id": 1761432152739,
-      "url": "https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/",
-      "source": "Sora users trick platform into creating racist celeb videos",
-      "pullQuote": "The other videos that Copyleaks listed all include the word \"knitters\" in place of particular racist terminology, while the Jake Paul video instead uses the term \"neck hurts.\" While none of the posts drove a large volume of traffic on Sora itself, Copyleaks noted that many of the videos have been reposted to platforms like TikTok, where one of the Paul videos has been liked more than 168,000 times. A second example of content using Paul's likeness had him explaining that he hated \"juice\" that alluded to Jewish people, not liquid pressed from fruit and vegetables.   ",
-      "tags": [],
-      "tagInput": "",
-      "timestamp": "2025-10-25T22:45:14.971Z",
-      "visits": 0
-    },
-    {
       "id": 1761432443798,
       "url": "https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/",
       "source": "MSG Accused of Misusing Facial Recognition, Mishandling Data",
@@ -1566,7 +1556,7 @@
       "id": 1761821761034,
       "url": "https://arxiv.org/abs/2510.15511",
       "source": "Language Models are Injective and Hence Invertible",
-      "pullQuote": "ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. This finding, confirmed through billions of collision-free tests and made practical by the efficient SipIt algorithm for reconstructing prompts exactly, opens the door to far greater transparency. Researchers can now trace how concepts move through model layers, pinpoint the causes of specific activations, and audit sources of bias or hallucination without rerunning inputs. \n\nThe implications for safety and privacy are equally significant: injectivity allows for activation-based anomaly detection to defend against adversarial attacks, but it also raises concerns about data recovery and intellectual property, since original prompts could potentially be extracted. As a result, new approaches—such as deliberately “forgetful” architectures or blockchain-style provenance tracking—may be needed to protect sensitive information. Overall, this discovery reframes language models as verifiable and interpretable systems, offering new trust and accountability in critical domains like law, healthcare, and governance, while demanding fresh ethical and regulatory safeguards.",
+      "pullQuote": "ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. \n\nThe implications for safety and privacy are equally significant: injectivity allows for activation-based anomaly detection to defend against adversarial attacks, but it also raises concerns about data recovery and intellectual property, since original prompts could potentially be extracted. As a result, new approaches—such as deliberately “forgetful” architectures or blockchain-style provenance tracking—may be needed to protect sensitive information. Overall, this discovery reframes language models as verifiable and interpretable systems, offering new trust and accountability in critical domains like law, healthcare, and governance, while demanding fresh ethical and regulatory safeguards.",
       "tags": [
         "llms",
         "audit",
@@ -1577,9 +1567,43 @@
       "tagInput": "llms, audit, privacy, ip, legal",
       "timestamp": "2025-10-30T10:56:01.034Z",
       "visits": 0
+    },
+    {
+      "id": 1761911457899,
+      "url": "https://seekingalpha.com/article/4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
+      "source": "4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
+      "pullQuote": "e've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we've been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.",
+      "tags": [],
+      "tagInput": "music, umg, ai, youtube, deal-terms, gen-ai",
+      "timestamp": "2025-10-31T11:50:57.899Z",
+      "visits": 0
+    },
+    {
+      "id": 1761911552318,
+      "url": "https://on-taste.xyz/",
+      "source": "On Taste",
+      "pullQuote": "The layers of taste -- In this “unified” theory, taste is a layered and relational process. From raw sensory data to our eventual judgment/appreciation, multiple factors play a role.\n\nJust as important, these layers are cumulative. Once a new influence is absorbed, it can’t simply be erased, and reshapes every later encounter. For instance, each new piece you hear in a genre subtly changes how you hear the next. Prior knowledge and exposure become part of the lens through which all future experiences are filtered.",
+      "tags": [],
+      "tagInput": "",
+      "timestamp": "2025-10-31T11:52:32.318Z",
+      "visits": 0
+    },
+    {
+      "id": 1761911700183,
+      "url": "https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662",
+      "source": "search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to",
+      "pullQuote": "The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination that doesn’t celebrate Thanksgiving. It will begin running today on television, and in movie theaters and on social and digital media starting Saturday, according to the company. A Christmas-themed installment is set to follow.",
+      "tags": [
+        "advertising",
+        "gen-ai",
+        "video-gen"
+      ],
+      "tagInput": "advertising,  gen-ai, video-gen, veo, google,",
+      "timestamp": "2025-10-31T11:55:00.183Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-10-30T11:15:30.892Z",
-  "exportedAt": "2025-10-30T11:15:30.892Z",
-  "totalLinks": 111
+  "lastUpdated": "2025-10-31T11:55:33.853Z",
+  "exportedAt": "2025-10-31T11:55:33.853Z",
+  "totalLinks": 113
 }
