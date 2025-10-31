@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 30 Oct 2025 11:15:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Oct 2025 11:55:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -709,13 +709,6 @@
             <description><![CDATA[Tags: ]]></description>
         </item>
         <item>
-            <title><![CDATA[Sora users trick platform into creating racist celeb videos]]></title>
-            <link>https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/</link>
-            <guid>1761432152739</guid>
-            <pubDate>Sat, 25 Oct 2025 22:45:14 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
             <title><![CDATA[MSG Accused of Misusing Facial Recognition, Mishandling Data]]></title>
             <link>https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/</link>
             <guid>1761432443798</guid>
@@ -784,6 +777,27 @@
             <guid>1761821761034</guid>
             <pubDate>Thu, 30 Oct 2025 10:56:01 GMT</pubDate>
             <description><![CDATA[Tags: llms, audit, privacy, ip, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript]]></title>
+            <link>https://seekingalpha.com/article/4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript</link>
+            <guid>1761911457899</guid>
+            <pubDate>Fri, 31 Oct 2025 11:50:57 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[On Taste]]></title>
+            <link>https://on-taste.xyz/</link>
+            <guid>1761911552318</guid>
+            <pubDate>Fri, 31 Oct 2025 11:52:32 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to]]></title>
+            <link>https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662</link>
+            <guid>1761911700183</guid>
+            <pubDate>Fri, 31 Oct 2025 11:55:00 GMT</pubDate>
+            <description><![CDATA[Tags: advertising, gen-ai, video-gen]]></description>
         </item>
     </channel>
 </rss>
