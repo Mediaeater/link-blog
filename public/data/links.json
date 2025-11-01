@@ -1628,7 +1628,7 @@
       "id": 1762002218137,
       "url": "https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/",
       "source": "Inside the Music | Matthew Aucoin",
-      "pullQuote": "he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
+      "pullQuote": "The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
       "tags": [
         "music",
         "nyt",
@@ -1684,9 +1684,25 @@
       "isPinned": false,
       "timestamp": "2025-11-01T16:30:58.900Z",
       "visits": 0
+    },
+    {
+      "id": 1762021781903,
+      "url": "https://www.tickettailor.com/events/performa2025biennial1",
+      "source": "Performa 2025 Biennial",
+      "pullQuote": "The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.\n\nLocated at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.\n\nThis marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work.",
+      "tags": [
+        "art",
+        "perfomance",
+        "nyc",
+        "performa",
+        "tickets"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T18:29:41.903Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-01T16:32:31.274Z",
-  "exportedAt": "2025-11-01T16:32:31.274Z",
-  "totalLinks": 119
+  "lastUpdated": "2025-11-01T19:31:06.618Z",
+  "exportedAt": "2025-11-01T19:31:06.618Z",
+  "totalLinks": 120
 }
