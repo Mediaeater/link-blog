@@ -15,6 +15,57 @@
   ],
   "items": [
     {
+      "id": "1762014121602",
+      "url": "https://ifcomp.org/comp/2025",
+      "title": "IFComp 2025",
+      "date_published": "2025-11-01T16:22:01.602Z",
+      "tags": [
+        "list",
+        "fiction",
+        "stories",
+        "competition"
+      ],
+      "content_text": "Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators.",
+      "summary": "Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators.",
+      "content_html": "<blockquote>Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators.</blockquote>\n<p><strong>Tags:</strong> list, fiction, stories, competition</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762002397105",
+      "url": "https://hudsonstreetlibrary.com/collections/recently_added.html",
+      "title": "New Acquisitions | Hudson Street Library",
+      "date_published": "2025-11-01T13:06:37.105Z",
+      "tags": [
+        "books",
+        "library",
+        "newyorkcity"
+      ],
+      "content_text": "Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards.",
+      "summary": "Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification s...",
+      "content_html": "<blockquote>Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards.</blockquote>\n<p><strong>Tags:</strong> books, library, newyorkcity</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762002218137",
+      "url": "https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/",
+      "title": "Inside the Music | Matthew Aucoin",
+      "date_published": "2025-11-01T13:03:38.137Z",
+      "tags": [],
+      "content_text": "he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
+      "summary": "he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, wa...",
+      "content_html": "<blockquote>he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761935576814",
       "url": "https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/",
       "title": "AI scrapers request commented scripts",

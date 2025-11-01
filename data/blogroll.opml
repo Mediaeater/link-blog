@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 01 Nov 2025 09:52:17 GMT</dateCreated>
-    <dateModified>Sat, 01 Nov 2025 09:52:17 GMT</dateModified>
+    <dateCreated>Sat, 01 Nov 2025 16:22:48 GMT</dateCreated>
+    <dateModified>Sat, 01 Nov 2025 16:22:48 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -202,6 +202,7 @@ Animals and fungi, the two multicellular respiratory (in this context, as oppose
     </outline>
     <outline text="books" title="books">
       <outline type="link" text="Anthropic to pay $1.5 billion to authors in landmark AI settlement" title="Anthropic to pay $1.5 billion to authors in landmark AI settlement" url="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" htmlUrl="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" created="Sat, 06 Sep 2025 23:59:48 GMT" category="copyright,llm,anthropic,books,legacy_media" />
+      <outline type="link" text="New Acquisitions | Hudson Street Library" title="New Acquisitions | Hudson Street Library" url="https://hudsonstreetlibrary.com/collections/recently_added.html" htmlUrl="https://hudsonstreetlibrary.com/collections/recently_added.html" description="Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards." created="Sat, 01 Nov 2025 13:06:37 GMT" category="books,library,newyorkcity" />
     </outline>
     <outline text="bootleg" title="bootleg">
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
@@ -315,6 +316,9 @@ Meta Skills - Creating, testing, and sharing skills" created="Sun, 19 Oct 2025 0
     <outline text="collection" title="collection">
       <outline type="link" text="Root System Drawings" title="Root System Drawings" url="https://images.wur.nl/digital/collection/coll13/search" htmlUrl="https://images.wur.nl/digital/collection/coll13/search" description="Browsing items in: Root System Drawings" created="Sat, 18 Oct 2025 14:21:01 GMT" category="root,system,plants,botany,collection,drawing" />
       <outline type="link" text="Movie Posters Collection - 	" title="Movie Posters Collection - 	" url="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" htmlUrl="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" description="Downloadable Movie Posters From The 40s, 50s, 60s, and 70s" created="Sun, 26 Oct 2025 14:09:20 GMT" category="film,posters,paper,archive,collection" />
+    </outline>
+    <outline text="competition" title="competition">
+      <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
     </outline>
     <outline text="compression" title="compression">
       <outline type="link" text="GitHub - deepseek-ai/DeepSeek-OCR: Contexts Optical Compression" title="GitHub - deepseek-ai/DeepSeek-OCR: Contexts Optical Compression" url="https://github.com/deepseek-ai/DeepSeek-OCR" htmlUrl="https://github.com/deepseek-ai/DeepSeek-OCR" description="3-billion-parameter vision-language mode - 10x compression ratio. - 
@@ -438,6 +442,9 @@ Despite our concerns with the DMA, teams across Apple are spending thousands of 
     </outline>
     <outline text="facial-recognition" title="facial-recognition">
       <outline type="link" text="Criminal complaint against facial recognition company Clearview AI" title="Criminal complaint against facial recognition company Clearview AI" url="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" htmlUrl="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" description="Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement." created="Tue, 28 Oct 2025 10:34:40 GMT" category="frt,facial-recognition,clearview-ai,eu,privacy,legal" />
+    </outline>
+    <outline text="fiction" title="fiction">
+      <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
     </outline>
     <outline text="film" title="film">
       <outline type="link" text="Apple previews new immersive films for Apple Vision Pro" title="Apple previews new immersive films for Apple Vision Pro" url="https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/" htmlUrl="https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/" description="Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Project, the BBC, CANAL+, CNN, HYBE, MotoGP, and Red Bull. The new films will launch exclusively alongside new episodes of returning Apple Immersive series for Apple Vision Pro in the coming months. These new films are among the first to be captured with Blackmagic Design’s URSA Cine Immersive camera and edited on Mac using DaVinci Resolve Studio. " created="Tue, 23 Sep 2025 15:47:44 GMT" category="apple,film,hollywood,mr,mixed reality" />
@@ -647,9 +654,13 @@ Debugging Skills - Systematic debugging, root cause tracing, verification
 Collaboration Skills - Brainstorming, planning, code review, parallel agents
 Development Skills - Git worktrees, finishing branches, subagent workflows
 Meta Skills - Creating, testing, and sharing skills" created="Sun, 19 Oct 2025 09:55:15 GMT" category="code,github,library,open-source" />
+      <outline type="link" text="New Acquisitions | Hudson Street Library" title="New Acquisitions | Hudson Street Library" url="https://hudsonstreetlibrary.com/collections/recently_added.html" htmlUrl="https://hudsonstreetlibrary.com/collections/recently_added.html" description="Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards." created="Sat, 01 Nov 2025 13:06:37 GMT" category="books,library,newyorkcity" />
     </outline>
     <outline text="likeness" title="likeness">
       <outline type="link" text="Sora provides better control over videos featuring your AI self" title="Sora provides better control over videos featuring your AI self" url="https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self" htmlUrl="https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self" description="The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially “a TikTok for deepfakes,” a place to make 10-second videos of pretty much anything, including AI-generated versions of yourself or others (voice included). OpenAI calls these virtual appearances “cameos.” Critics call them a looming misinformation disaster." created="Mon, 06 Oct 2025 20:45:18 GMT" category="sora,video,likeness,video-gen,openai" />
+    </outline>
+    <outline text="list" title="list">
+      <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
     </outline>
     <outline text="llm" title="llm">
       <outline type="link" text="npm debug and chalk packages compromised" title="npm debug and chalk packages compromised" url="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" htmlUrl="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" description="Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages," created="Mon, 08 Sep 2025 21:40:46 GMT" category="malware,llm,npm" />
@@ -782,6 +793,9 @@ And I know that I&apos;m not alone." created="Wed, 15 Oct 2025 22:53:02 GMT" cat
     </outline>
     <outline text="news" title="news">
       <outline type="link" text="Chyrons" title="Chyrons" url="https://walzr.com/chyrons" htmlUrl="https://walzr.com/chyrons" created="Fri, 12 Sep 2025 11:35:09 GMT" category="broadcast,news,chryon" />
+    </outline>
+    <outline text="newyorkcity" title="newyorkcity">
+      <outline type="link" text="New Acquisitions | Hudson Street Library" title="New Acquisitions | Hudson Street Library" url="https://hudsonstreetlibrary.com/collections/recently_added.html" htmlUrl="https://hudsonstreetlibrary.com/collections/recently_added.html" description="Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards." created="Sat, 01 Nov 2025 13:06:37 GMT" category="books,library,newyorkcity" />
     </outline>
     <outline text="npm" title="npm">
       <outline type="link" text="npm debug and chalk packages compromised" title="npm debug and chalk packages compromised" url="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" htmlUrl="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" description="Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages," created="Mon, 08 Sep 2025 21:40:46 GMT" category="malware,llm,npm" />
@@ -1026,6 +1040,7 @@ https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 1
       <outline type="link" text="The Hunt for the World’s Oldest Story" title="The Hunt for the World’s Oldest Story" url="https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books" htmlUrl="https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books" description="The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.
 
 Nowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?" created="Sat, 18 Oct 2025 18:52:46 GMT" category="stories" />
+      <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
     </outline>
     <outline text="studio" title="studio">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -1207,6 +1222,7 @@ Just as important, these layers are cumulative. Once a new influence is absorbed
       <outline type="link" text="AI scrapers request commented scripts" title="AI scrapers request commented scripts" url="https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/" htmlUrl="https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/" description="There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.
 
 " created="Fri, 31 Oct 2025 18:32:56 GMT" />
+      <outline type="link" text="Inside the Music | Matthew Aucoin" title="Inside the Music | Matthew Aucoin" url="https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/" htmlUrl="https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/" description="he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?" created="Sat, 01 Nov 2025 13:03:38 GMT" />
     </outline>
   </body>
 </opml>
