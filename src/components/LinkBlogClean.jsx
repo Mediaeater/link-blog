@@ -531,8 +531,8 @@ export default function LinkBlogClean() {
 
   return (
     <div className="min-h-screen bg-neutral-50">
-      {/* Header */}
-      {!isMinimalView && (
+      {/* Header - Always visible for admins, hidden in minimal view for regular users */}
+      {(!isMinimalView || isAdmin) && (
         <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-sm border-b border-neutral-200">
           <div className="container-width">
             <div className="py-4 flex items-center justify-between gap-4">
@@ -592,8 +592,8 @@ export default function LinkBlogClean() {
         </header>
       )}
 
-      {/* Admin Panel */}
-      {!isMinimalView && isAdmin && (
+      {/* Admin Panel - Always visible for admins */}
+      {isAdmin && (
         <div className="bg-white border-b border-neutral-200">
           <div className="container-width py-6">
             {/* Tab buttons */}
