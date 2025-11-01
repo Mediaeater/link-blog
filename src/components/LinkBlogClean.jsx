@@ -139,7 +139,10 @@ export default function LinkBlogClean() {
   useEffect(() => {
     loadLinks();
     const urlParams = new URLSearchParams(window.location.search);
-    setIsAdmin(urlParams.get('admin') === ADMIN_USER);
+    const adminParam = urlParams.get('admin');
+    // Clean the admin parameter - remove any trailing special characters or whitespace
+    const cleanAdmin = adminParam ? adminParam.replace(/[?&#\s]+$/, '') : '';
+    setIsAdmin(cleanAdmin === ADMIN_USER);
 
     // Load tag filters from URL
     const tagParam = urlParams.get('tag');
