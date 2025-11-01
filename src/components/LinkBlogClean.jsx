@@ -12,6 +12,7 @@ import {
   Upload,
   ChevronDown,
   ChevronUp,
+  ChevronRight,
   Copy,
   Check,
   Filter,
@@ -45,6 +46,8 @@ export default function LinkBlogClean() {
   const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [currentTagInput, setCurrentTagInput] = useState('');
+  const [isLegendExpanded, setIsLegendExpanded] = useState(false);
+  const [isMinimalView, setIsMinimalView] = useState(false);
 
   const searchRef = useRef(null);
   const quickPasteRef = useRef(null);
@@ -529,67 +532,68 @@ export default function LinkBlogClean() {
   return (
     <div className="min-h-screen bg-neutral-50">
       {/* Header */}
-      <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-sm border-b border-neutral-200">
-        <div className="container-width">
-          <div className="py-4 flex items-center justify-between gap-4">
-            {/* Logo/Title */}
-            <div>
-              <h1 className="text-xl font-semibold text-blue-700">
-                <a href="/" className="hover:underline">newsfeeds.net</a>
-              </h1>
-              <div className="text-xs text-amber-700 font-medium mt-0.5">human edited and curated</div>
-              <div className="text-xs text-neutral-600 mt-1 space-y-1">
-                <div>
-                  <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline">RSS</a>
-                  {' / '}
-                  <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline">JSON Feed</a>
-                  {' / '}
-                  <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline">OPML</a>
-                </div>
-                <div>
-                  <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:underline">(c)mediaeater.inc 2025</a>
+      {!isMinimalView && (
+        <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-sm border-b border-neutral-200">
+          <div className="container-width">
+            <div className="py-4 flex items-center justify-between gap-4">
+              {/* Logo/Title */}
+              <div>
+                <h1 className="text-xl font-semibold text-blue-700">
+                  <a href="/" className="hover:underline">newsfeeds.net</a>
+                </h1>
+                <div className="text-xs text-amber-700 font-medium mt-0.5">human edited and curated</div>
+                <div className="text-xs text-neutral-600 mt-1 space-y-1">
+                  <div>
+                    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline">RSS</a>
+                    {' / '}
+                    <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline">JSON Feed</a>
+                    {' / '}
+                    <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline">OPML</a>
+                  </div>
+                  <div>
+                    <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:underline">(c)mediaeater.inc 2025</a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Search */}
-            <div className="flex-1 max-w-2xl">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
-                <input
-                  ref={searchRef}
-                  type="text"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  placeholder="Search links..."
-                  className="input w-full pl-10"
-                />
-                {searchTerm && (
-                  <button
-                    onClick={() => setSearchTerm('')}
-                    className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600"
-                  >
-                    <X className="w-4 h-4" />
-                  </button>
+              {/* Search */}
+              <div className="flex-1 max-w-2xl">
+                <div className="relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
+                  <input
+                    ref={searchRef}
+                    type="text"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    placeholder="Search links..."
+                    className="input w-full pl-10"
+                  />
+                  {searchTerm && (
+                    <button
+                      onClick={() => setSearchTerm('')}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600"
+                    >
+                      <X className="w-4 h-4" />
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              {/* Actions */}
+              <div className="flex items-center gap-2">
+                {!isAdmin && links.length === 0 && (
+                  <div className="text-sm text-neutral-500">
+                    No links yet. Add ?admin=password to URL to manage.
+                  </div>
                 )}
               </div>
             </div>
-
-            {/* Actions */}
-            <div className="flex items-center gap-2">
-
-              {!isAdmin && links.length === 0 && (
-                <div className="text-sm text-neutral-500">
-                  No links yet. Add ?admin=password to URL to manage.
-                </div>
-              )}
-            </div>
           </div>
-        </div>
-      </header>
+        </header>
+      )}
 
       {/* Admin Panel */}
-      {isAdmin && (
+      {!isMinimalView && isAdmin && (
         <div className="bg-white border-b border-neutral-200">
           <div className="container-width py-6">
             {/* Tab buttons */}
@@ -898,32 +902,66 @@ export default function LinkBlogClean() {
       {/* Main Content */}
       <main className="container-width section-y">
         <div className="space-y-3">
-          {/* Stats & Legend */}
-          <div className="flex items-center justify-between text-sm text-neutral-500 mb-6">
-            <span>
-              {filteredAndSortedLinks.length}:{links.length}
-            </span>
-            <span>
-              {selectedTags.length > 0 && `Filtered by topic: ${selectedTags.join(', ')}`}
-            </span>
+          {/* Elegant Header: Count | Legend | Date */}
+          <div className="flex items-center justify-between text-sm mb-6 pb-4 border-b border-neutral-200">
+            {/* Left: Link count with minimal view toggle */}
+            <button
+              onClick={() => setIsMinimalView(!isMinimalView)}
+              className="flex items-center gap-1.5 text-neutral-600 hover:text-neutral-900 transition-colors font-medium"
+              title={isMinimalView ? "Show full view" : "Show minimal view"}
+            >
+              <span>{filteredAndSortedLinks.length}:{links.length}</span>
+              <ChevronRight
+                className={`w-3.5 h-3.5 transition-transform duration-200 ${isMinimalView ? 'rotate-90' : ''}`}
+              />
+            </button>
+
+            {/* Center: Legend (collapsible, no chevron) */}
+            {!isMinimalView && (
+              <button
+                onClick={() => setIsLegendExpanded(!isLegendExpanded)}
+                className="flex items-center gap-1.5 text-neutral-600 hover:text-neutral-900 transition-colors"
+                title="Toggle legend"
+              >
+                <Info className="w-3.5 h-3.5" />
+                <span className="font-medium">Legend</span>
+              </button>
+            )}
+
+            {/* Right: Date stamp */}
+            {!isMinimalView && (
+              <time className="text-neutral-500 font-normal" dateTime={new Date().toISOString()}>
+                {new Date().toLocaleDateString('en-US', {
+                  month: 'short',
+                  day: 'numeric',
+                  year: 'numeric'
+                })}
+              </time>
+            )}
           </div>
 
-          {/* Legend */}
-          <div className="mb-4 p-2 bg-blue-50 border border-blue-200 rounded shadow-sm">
-            <div className="text-xs space-y-1">
-              <div className="flex items-center gap-1.5 mb-1.5">
-                <Info className="w-3.5 h-3.5 text-blue-600" />
-                <div className="font-bold text-blue-900 text-xs">Legend</div>
-              </div>
-              <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-blue-900">
-                <div><span className="font-semibold text-blue-700">Title:</span> Source/article name</div>
-                <div><span className="font-semibold text-blue-700">URL:</span> Domain shown below title</div>
-                <div><span className="font-semibold text-blue-700">Quote:</span> Pull quote or excerpt</div>
-                <div><span className="font-semibold text-blue-700">Tags:</span> Click to filter or bookmark a topic</div>
-                <div><span className="font-semibold text-blue-700">Date:</span> When link was added</div>
+          {/* Legend Content (expandable) */}
+          {!isMinimalView && isLegendExpanded && (
+            <div className="legend-box mb-6">
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1.5">
+                <div className="legend-item">
+                  <span className="font-medium text-neutral-700">Title:</span> Source/article name
+                </div>
+                <div className="legend-item">
+                  <span className="font-medium text-neutral-700">URL:</span> Domain shown below title
+                </div>
+                <div className="legend-item">
+                  <span className="font-medium text-neutral-700">Quote:</span> Pull quote or excerpt
+                </div>
+                <div className="legend-item">
+                  <span className="font-medium text-neutral-700">Tags:</span> Click to filter or bookmark a topic
+                </div>
+                <div className="legend-item">
+                  <span className="font-medium text-neutral-700">Date:</span> When link was added
+                </div>
               </div>
             </div>
-          </div>
+          )}
 
           {/* Links List */}
           {filteredAndSortedLinks.length === 0 ? (

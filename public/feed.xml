@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 01 Nov 2025 09:49:02 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Nov 2025 16:32:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -812,6 +812,34 @@
             <guid>1761935576814</guid>
             <pubDate>Fri, 31 Oct 2025 18:32:56 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Inside the Music | Matthew Aucoin]]></title>
+            <link>https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/</link>
+            <guid>1762002218137</guid>
+            <pubDate>Sat, 01 Nov 2025 13:03:38 GMT</pubDate>
+            <description><![CDATA[Tags: music, nyt, critics, publishing, editorial]]></description>
+        </item>
+        <item>
+            <title><![CDATA[New Acquisitions | Hudson Street Library]]></title>
+            <link>https://hudsonstreetlibrary.com/collections/recently_added.html</link>
+            <guid>1762002397105</guid>
+            <pubDate>Sat, 01 Nov 2025 13:06:37 GMT</pubDate>
+            <description><![CDATA[Tags: books, library, newyorkcity]]></description>
+        </item>
+        <item>
+            <title><![CDATA[IFComp 2025]]></title>
+            <link>https://ifcomp.org/comp/2025</link>
+            <guid>1762014121602</guid>
+            <pubDate>Sat, 01 Nov 2025 16:22:01 GMT</pubDate>
+            <description><![CDATA[Tags: list, fiction, stories, competition]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category]]></title>
+            <link>https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/</link>
+            <guid>1762014658900</guid>
+            <pubDate>Sat, 01 Nov 2025 16:30:58 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, ai-slop, science, publishing, arXiv]]></description>
         </item>
     </channel>
 </rss>
