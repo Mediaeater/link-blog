@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 01 Nov 2025 18:28:40 GMT</dateCreated>
-    <dateModified>Sat, 01 Nov 2025 18:28:40 GMT</dateModified>
+    <dateCreated>Sat, 01 Nov 2025 19:31:00 GMT</dateCreated>
+    <dateModified>Sat, 01 Nov 2025 19:31:00 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -150,6 +150,12 @@ GBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (Lo
 " created="Mon, 29 Sep 2025 11:29:00 GMT" category="art,authorship" />
       <outline type="link" text="Ruth Asawa Arrives in New York with a Monumental Retrospective" title="Ruth Asawa Arrives in New York with a Monumental Retrospective" url="https://ruthasawa.com/" htmlUrl="https://ruthasawa.com/" description="“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space." created="Sat, 18 Oct 2025 14:03:09 GMT" category="art,ruth asawa,sf,nyc,moma,black mountain college" />
       <outline type="link" text="The Florian Schneider Collection" title="The Florian Schneider Collection" url="https://www.juliensauctions.com/en/auctions/the-florian-schneider-collection" htmlUrl="https://www.juliensauctions.com/en/auctions/the-florian-schneider-collection" description="The Florian Schneider Collection Nov 19 AT 10:00 AM CST - IN Nashville. The Florian Schneider Collection auction is scheduled for November 19, 2025, at 10:00 AM CST in Nashville at the Musicians Hall of Fame &amp; Museum. The event, hosted by Julien&apos;s Auctions, will feature over 450 personal items from the Kraftwerk co-founder, including synthesizers, instruments, and memorabilia.   " created="Thu, 30 Oct 2025 10:30:51 GMT" category="kraftwerk,music,art,gear,auction" />
+      <outline type="link" text="Performa 2025 Biennial" title="Performa 2025 Biennial" url="https://www.tickettailor.com/events/performa2025biennial1" htmlUrl="https://www.tickettailor.com/events/performa2025biennial1" description="The Biennial Hub
+The Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.
+
+Located at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.
+
+This marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work." created="Sat, 01 Nov 2025 18:29:41 GMT" category="art,perfomance,nyc,performa,tickets" />
     </outline>
     <outline text="ases" title="ases">
       <outline type="link" text="A Network Crumb Back Story: A Baker’s Dozen Retrospective" title="A Network Crumb Back Story: A Baker’s Dozen Retrospective" url="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" htmlUrl="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" description="For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period." created="Mon, 06 Oct 2025 20:39:50 GMT" category="network,autonomous-systems,rankings,ases" />
@@ -822,6 +828,12 @@ And I know that I&apos;m not alone." created="Wed, 15 Oct 2025 22:53:02 GMT" cat
     </outline>
     <outline text="nyc" title="nyc">
       <outline type="link" text="Ruth Asawa Arrives in New York with a Monumental Retrospective" title="Ruth Asawa Arrives in New York with a Monumental Retrospective" url="https://ruthasawa.com/" htmlUrl="https://ruthasawa.com/" description="“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space." created="Sat, 18 Oct 2025 14:03:09 GMT" category="art,ruth asawa,sf,nyc,moma,black mountain college" />
+      <outline type="link" text="Performa 2025 Biennial" title="Performa 2025 Biennial" url="https://www.tickettailor.com/events/performa2025biennial1" htmlUrl="https://www.tickettailor.com/events/performa2025biennial1" description="The Biennial Hub
+The Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.
+
+Located at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.
+
+This marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work." created="Sat, 01 Nov 2025 18:29:41 GMT" category="art,perfomance,nyc,performa,tickets" />
     </outline>
     <outline text="nyt" title="nyt">
       <outline type="link" text="Inside the Music | Matthew Aucoin" title="Inside the Music | Matthew Aucoin" url="https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/" htmlUrl="https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/" description="The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?" created="Sat, 01 Nov 2025 13:03:38 GMT" category="music,nyt,critics,publishing,editorial" />
@@ -908,6 +920,22 @@ The winners of this new edition will be announced during the fair on Friday, Nov
       <outline type="link" text="Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites" title="Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites" url="https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf" htmlUrl="https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf" description="Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. 
 
 We perform the first broad scan of IP traffic on 39 GEO satellites across 25 distinct longitudes with 411 transponders using consumergrade equipment. We overcome the poor signal quality plaguing prior work and build the first general parser that can handle the diverse protocols in use by heterogeneous endpoints. We found 50% of GEO links contained cleartext IP traffic; while link-layer encryption has been standard practice in satellite TV for decades, IP links typically lacked encryption at both the link and network layers. This gives us a unique view into the internal network security practices of these organizations. We observed unencrypted cellular backhaul traffic from several providers including cleartext call and text contents, job scheduling and industrial control systems for utility infrastructure, military asset tracking, " created="Tue, 14 Oct 2025 10:10:19 GMT" category="pdf,documentation" />
+    </outline>
+    <outline text="perfomance" title="perfomance">
+      <outline type="link" text="Performa 2025 Biennial" title="Performa 2025 Biennial" url="https://www.tickettailor.com/events/performa2025biennial1" htmlUrl="https://www.tickettailor.com/events/performa2025biennial1" description="The Biennial Hub
+The Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.
+
+Located at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.
+
+This marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work." created="Sat, 01 Nov 2025 18:29:41 GMT" category="art,perfomance,nyc,performa,tickets" />
+    </outline>
+    <outline text="performa" title="performa">
+      <outline type="link" text="Performa 2025 Biennial" title="Performa 2025 Biennial" url="https://www.tickettailor.com/events/performa2025biennial1" htmlUrl="https://www.tickettailor.com/events/performa2025biennial1" description="The Biennial Hub
+The Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.
+
+Located at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.
+
+This marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work." created="Sat, 01 Nov 2025 18:29:41 GMT" category="art,perfomance,nyc,performa,tickets" />
     </outline>
     <outline text="photography" title="photography">
       <outline type="link" text="Paris Photo–Aperture PhotoBook Awards" title="Paris Photo–Aperture PhotoBook Awards" url="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" htmlUrl="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" description="Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.
@@ -1119,6 +1147,14 @@ We think this would be a step towards mass surveillance and digital control, and
     </outline>
     <outline text="thinking" title="thinking">
       <outline type="link" text="When is better to think without words?" title="When is better to think without words?" url="https://www.henrikkarlsson.xyz/p/wordless-thought" htmlUrl="https://www.henrikkarlsson.xyz/p/wordless-thought" description="Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints." created="Fri, 24 Oct 2025 11:06:05 GMT" category="thinking,learning" />
+    </outline>
+    <outline text="tickets" title="tickets">
+      <outline type="link" text="Performa 2025 Biennial" title="Performa 2025 Biennial" url="https://www.tickettailor.com/events/performa2025biennial1" htmlUrl="https://www.tickettailor.com/events/performa2025biennial1" description="The Biennial Hub
+The Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.
+
+Located at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.
+
+This marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work." created="Sat, 01 Nov 2025 18:29:41 GMT" category="art,perfomance,nyc,performa,tickets" />
     </outline>
     <outline text="time" title="time">
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
