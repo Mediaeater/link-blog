@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 31 Oct 2025 11:55:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Nov 2025 09:49:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -798,6 +798,20 @@
             <guid>1761911700183</guid>
             <pubDate>Fri, 31 Oct 2025 11:55:00 GMT</pubDate>
             <description><![CDATA[Tags: advertising, gen-ai, video-gen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[This is your brain without sleep]]></title>
+            <link>https://news.mit.edu/2025/your-brain-without-sleep-1029</link>
+            <guid>1761935441225</guid>
+            <pubDate>Fri, 31 Oct 2025 18:30:41 GMT</pubDate>
+            <description><![CDATA[Tags: behavior, human, sleep, brain]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI scrapers request commented scripts]]></title>
+            <link>https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</link>
+            <guid>1761935576814</guid>
+            <pubDate>Fri, 31 Oct 2025 18:32:56 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
         </item>
     </channel>
 </rss>

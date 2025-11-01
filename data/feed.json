@@ -15,6 +15,39 @@
   ],
   "items": [
     {
+      "id": "1761935576814",
+      "url": "https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/",
+      "title": "AI scrapers request commented scripts",
+      "date_published": "2025-10-31T18:32:56.814Z",
+      "tags": [],
+      "content_text": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n",
+      "summary": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its au...",
+      "content_html": "<blockquote>There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761935441225",
+      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
+      "title": "This is your brain without sleep",
+      "date_published": "2025-10-31T18:30:41.225Z",
+      "tags": [
+        "behavior",
+        "human",
+        "sleep",
+        "brain"
+      ],
+      "content_text": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.",
+      "summary": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional trad...",
+      "content_html": "<blockquote>“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.</blockquote>\n<p><strong>Tags:</strong> behavior, human, sleep, brain</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761911700183",
       "url": "https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662",
       "title": "search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to",
@@ -52,9 +85,9 @@
       "title": "4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
       "date_published": "2025-10-31T11:50:57.899Z",
       "tags": [],
-      "content_text": "e've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we've been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.",
-      "summary": "e've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're s...",
-      "content_html": "<blockquote>e&#039;ve secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe&#039;re seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we&#039;ve been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.</blockquote>",
+      "content_text": "We've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we've been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.",
+      "summary": "We've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're ...",
+      "content_html": "<blockquote>We&#039;ve secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe&#039;re seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we&#039;ve been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.</blockquote>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -1867,7 +1900,6 @@
         "dataviz"
       ],
       "content_html": "<p><strong>Tags:</strong> llm, learning, visualization, dataviz</p>",
-      "banner_image": "https://bbycroft.net/icon.png?9d3d9b98e68d2d0d",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -1888,8 +1920,7 @@
       "content_html": "<p><strong>Tags:</strong> japan, language, education, learning, ux</p>",
       "_link_blog": {
         "visits": 1,
-        "is_pinned": false,
-        "last_visited": "2025-09-07T00:01:18.177Z"
+        "is_pinned": false
       }
     },
     {
@@ -1941,8 +1972,6 @@
         "dignity"
       ],
       "content_html": "<p><strong>Tags:</strong> ai, surveillance, harms, ethics, dignity</p>",
-      "image": "https://substackcdn.com/image/fetch/$s_!UPxy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8768dfd7-595d-47a4-9bd8-9a57a28cd72c_2100x1025.png",
-      "banner_image": "https://substackcdn.com/image/fetch/$s_!e3e-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F409752e4-3fd1-45fd-963b-dcab2e4e369f%2Fapple-touch-icon-1024x1024.png",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -1959,8 +1988,6 @@
         "networks"
       ],
       "content_html": "<p><strong>Tags:</strong> maps, submarine, networks</p>",
-      "image": "https://www.submarinecablemap.com/images/aqua-comms-logo.png",
-      "banner_image": "https://www.submarinecablemap.com/images/telegeography-app-icon.png",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
