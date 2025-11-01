@@ -122,8 +122,15 @@ export default function LinkBlogClean() {
       }
     } catch (error) {
       console.error('Could not save to server:', error);
-      alert('Changes saved locally. Server save failed.');
-      throw error;
+      // On GitHub Pages (production), server save will fail - that's expected
+      // Data is still saved to localStorage and persists in the browser
+      const isProduction = !window.location.hostname.includes('localhost');
+      if (isProduction) {
+        console.log('✓ Changes saved to browser localStorage (server sync not available on static hosting)');
+      } else {
+        alert('Changes saved locally. Server save failed. Is the API server running?');
+        throw error;
+      }
     }
   }, []);
 
