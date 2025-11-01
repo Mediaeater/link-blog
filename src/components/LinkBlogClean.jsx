@@ -604,7 +604,7 @@ export default function LinkBlogClean() {
         <div className="bg-white border-b border-neutral-200">
           <div className="container-width py-6">
             {/* Tab buttons */}
-            <div className="flex gap-2 mb-4">
+            <div className="flex flex-wrap gap-2 mb-4">
               <button
                 onClick={() => setShowQuickAdd(false)}
                 className={`btn btn-sm ${!showQuickAdd ? 'btn-primary' : 'btn-ghost'}`}
