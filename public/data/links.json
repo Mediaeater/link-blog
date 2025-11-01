@@ -1623,7 +1623,48 @@
       "isPinned": false,
       "timestamp": "2025-10-31T18:32:56.814Z",
       "visits": 0
+    },
+    {
+      "id": 1762002218137,
+      "url": "https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/",
+      "source": "Inside the Music | Matthew Aucoin",
+      "pullQuote": "he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-11-01T13:03:38.137Z",
+      "visits": 0
+    },
+    {
+      "id": 1762002397105,
+      "url": "https://hudsonstreetlibrary.com/collections/recently_added.html",
+      "source": "New Acquisitions | Hudson Street Library",
+      "pullQuote": "Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards.",
+      "tags": [
+        "books",
+        "library",
+        "newyorkcity"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T13:06:37.105Z",
+      "visits": 0
+    },
+    {
+      "id": 1762014121602,
+      "url": "https://ifcomp.org/comp/2025",
+      "source": "IFComp 2025",
+      "pullQuote": "Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators.",
+      "tags": [
+        "list",
+        "fiction",
+        "stories",
+        "competition"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T16:22:01.602Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-01T09:49:02.125Z"
+  "lastUpdated": "2025-11-01T16:22:06.920Z",
+  "exportedAt": "2025-11-01T16:22:06.920Z",
+  "totalLinks": 118
 }
