@@ -197,9 +197,19 @@ export default function LinkBlogClean() {
       return;
     }
 
+    // Parse tags from tagInput to ensure they're saved correctly
+    const finalTags = (newLink.tagInput || '').split(',')
+      .map(tag => tag.trim())
+      .filter(Boolean);
+
+    // Build clean link object - exclude UI-only fields like tagInput
     const link = {
       id: Date.now(),
-      ...newLink,
+      url: newLink.url,
+      source: newLink.source,
+      pullQuote: newLink.pullQuote || '',
+      tags: finalTags,
+      isPinned: newLink.isPinned || false,
       timestamp: new Date().toISOString(),
       visits: 0
     };
@@ -220,8 +230,27 @@ export default function LinkBlogClean() {
   // Update link
   const updateLink = async () => {
     if (!editingLink || !isAdmin) return;
+
+    // CRITICAL FIX: Parse tags from tagInput before saving
+    // This ensures tags are saved even if user clicks Update without blurring the input
+    const finalTags = (newLink.tagInput || '').split(',')
+      .map(tag => tag.trim())
+      .filter(Boolean);
+
+    // Build clean updated link object - exclude UI-only fields like tagInput
+    const updatedLinkData = {
+      id: editingLink.id,
+      url: newLink.url,
+      source: newLink.source,
+      pullQuote: newLink.pullQuote || '',
+      tags: finalTags,
+      isPinned: newLink.isPinned || false,
+      timestamp: editingLink.timestamp,
+      visits: editingLink.visits || 0
+    };
+
     const updatedLinks = links.map(link =>
-      link.id === editingLink.id ? { ...newLink, id: editingLink.id, timestamp: new Date().toISOString() } : link
+      link.id === editingLink.id ? updatedLinkData : link
     );
 
     try {
@@ -686,9 +715,16 @@ export default function LinkBlogClean() {
                       setCurrentTagInput(lastPart);
                       setShowAutocomplete(lastPart.length > 0);
 
+                      // IMPROVED: Keep tags array synchronized with input in real-time
+                      // This provides better state consistency and prevents data loss
+                      const parsedTags = inputValue.split(',')
+                        .map(tag => tag.trim())
+                        .filter(Boolean);
+
                       setNewLink({
                         ...newLink,
-                        tagInput: inputValue
+                        tagInput: inputValue,
+                        tags: parsedTags
                       });
                     }}
                     onFocus={() => {

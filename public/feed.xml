@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 28 Oct 2025 11:19:38 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Nov 2025 09:49:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -709,13 +709,6 @@
             <description><![CDATA[Tags: ]]></description>
         </item>
         <item>
-            <title><![CDATA[Sora users trick platform into creating racist celeb videos]]></title>
-            <link>https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/</link>
-            <guid>1761432152739</guid>
-            <pubDate>Sat, 25 Oct 2025 22:45:14 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
-        </item>
-        <item>
             <title><![CDATA[MSG Accused of Misusing Facial Recognition, Mishandling Data]]></title>
             <link>https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/</link>
             <guid>1761432443798</guid>
@@ -756,6 +749,69 @@
             <guid>1761647680766</guid>
             <pubDate>Tue, 28 Oct 2025 10:34:40 GMT</pubDate>
             <description><![CDATA[Tags: frt, facial-recognition, clearview-ai, eu, privacy, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Florian Schneider Collection]]></title>
+            <link>https://www.juliensauctions.com/en/auctions/the-florian-schneider-collection</link>
+            <guid>1761820251773</guid>
+            <pubDate>Thu, 30 Oct 2025 10:30:51 GMT</pubDate>
+            <description><![CDATA[Tags: kraftwerk, music, art, gear, auction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[UMG and Udio Reach Agreement for ‘New Licensed AI Music Creation Platform’]]></title>
+            <link>https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/</link>
+            <guid>1761820564985</guid>
+            <pubDate>Thu, 30 Oct 2025 10:36:04 GMT</pubDate>
+            <description><![CDATA[Tags: music, ai, legal, umg, udio, settlement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Law ChatGPT came up with a 'Game of Thrones' sequel idea. Now, a judge is letting George RR Martin sue for copyright inf]]></title>
+            <link>https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2023cv08292/606655/716/0.pdf</link>
+            <guid>1761820920570</guid>
+            <pubDate>Thu, 30 Oct 2025 10:43:46 GMT</pubDate>
+            <description><![CDATA[Tags: legal, openai, chatgpt, hollywood-ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Language Models are Injective and Hence Invertible]]></title>
+            <link>https://arxiv.org/abs/2510.15511</link>
+            <guid>1761821761034</guid>
+            <pubDate>Thu, 30 Oct 2025 10:56:01 GMT</pubDate>
+            <description><![CDATA[Tags: llms, audit, privacy, ip, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript]]></title>
+            <link>https://seekingalpha.com/article/4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript</link>
+            <guid>1761911457899</guid>
+            <pubDate>Fri, 31 Oct 2025 11:50:57 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[On Taste]]></title>
+            <link>https://on-taste.xyz/</link>
+            <guid>1761911552318</guid>
+            <pubDate>Fri, 31 Oct 2025 11:52:32 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to]]></title>
+            <link>https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662</link>
+            <guid>1761911700183</guid>
+            <pubDate>Fri, 31 Oct 2025 11:55:00 GMT</pubDate>
+            <description><![CDATA[Tags: advertising, gen-ai, video-gen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[This is your brain without sleep]]></title>
+            <link>https://news.mit.edu/2025/your-brain-without-sleep-1029</link>
+            <guid>1761935441225</guid>
+            <pubDate>Fri, 31 Oct 2025 18:30:41 GMT</pubDate>
+            <description><![CDATA[Tags: behavior, human, sleep, brain]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI scrapers request commented scripts]]></title>
+            <link>https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/</link>
+            <guid>1761935576814</guid>
+            <pubDate>Fri, 31 Oct 2025 18:32:56 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
         </item>
     </channel>
 </rss>

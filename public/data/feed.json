@@ -15,6 +15,165 @@
   ],
   "items": [
     {
+      "id": "1761935576814",
+      "url": "https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/",
+      "title": "AI scrapers request commented scripts",
+      "date_published": "2025-10-31T18:32:56.814Z",
+      "tags": [],
+      "content_text": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n",
+      "summary": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its au...",
+      "content_html": "<blockquote>There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761935441225",
+      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
+      "title": "This is your brain without sleep",
+      "date_published": "2025-10-31T18:30:41.225Z",
+      "tags": [
+        "behavior",
+        "human",
+        "sleep",
+        "brain"
+      ],
+      "content_text": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.",
+      "summary": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional trad...",
+      "content_html": "<blockquote>“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.</blockquote>\n<p><strong>Tags:</strong> behavior, human, sleep, brain</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761911700183",
+      "url": "https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662",
+      "title": "search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to",
+      "date_published": "2025-10-31T11:55:00.183Z",
+      "tags": [
+        "advertising",
+        "gen-ai",
+        "video-gen"
+      ],
+      "content_text": "The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination that doesn’t celebrate Thanksgiving. It will begin running today on television, and in movie theaters and on social and digital media starting Saturday, according to the company. A Christmas-themed installment is set to follow.",
+      "summary": "The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination ...",
+      "content_html": "<blockquote>The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination that doesn’t celebrate Thanksgiving. It will begin running today on television, and in movie theaters and on social and digital media starting Saturday, according to the company. A Christmas-themed installment is set to follow.</blockquote>\n<p><strong>Tags:</strong> advertising, gen-ai, video-gen</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761911552318",
+      "url": "https://on-taste.xyz/",
+      "title": "On Taste",
+      "date_published": "2025-10-31T11:52:32.318Z",
+      "tags": [],
+      "content_text": "The layers of taste -- In this “unified” theory, taste is a layered and relational process. From raw sensory data to our eventual judgment/appreciation, multiple factors play a role.\n\nJust as important, these layers are cumulative. Once a new influence is absorbed, it can’t simply be erased, and reshapes every later encounter. For instance, each new piece you hear in a genre subtly changes how you hear the next. Prior knowledge and exposure become part of the lens through which all future experiences are filtered.",
+      "summary": "The layers of taste -- In this “unified” theory, taste is a layered and relational process. From raw sensory data to our eventual judgment/appreciatio...",
+      "content_html": "<blockquote>The layers of taste -- In this “unified” theory, taste is a layered and relational process. From raw sensory data to our eventual judgment/appreciation, multiple factors play a role.\n\nJust as important, these layers are cumulative. Once a new influence is absorbed, it can’t simply be erased, and reshapes every later encounter. For instance, each new piece you hear in a genre subtly changes how you hear the next. Prior knowledge and exposure become part of the lens through which all future experiences are filtered.</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761911457899",
+      "url": "https://seekingalpha.com/article/4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
+      "title": "4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
+      "date_published": "2025-10-31T11:50:57.899Z",
+      "tags": [],
+      "content_text": "We've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we've been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.",
+      "summary": "We've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're ...",
+      "content_html": "<blockquote>We&#039;ve secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe&#039;re seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we&#039;ve been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761821761034",
+      "url": "https://arxiv.org/abs/2510.15511",
+      "title": "Language Models are Injective and Hence Invertible",
+      "date_published": "2025-10-30T10:56:01.034Z",
+      "tags": [
+        "llms",
+        "audit",
+        "privacy",
+        "ip",
+        "legal"
+      ],
+      "content_text": "ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. \n\nThe implications for safety and privacy are equally significant: injectivity allows for activation-based anomaly detection to defend against adversarial attacks, but it also raises concerns about data recovery and intellectual property, since original prompts could potentially be extracted. As a result, new approaches—such as deliberately “forgetful” architectures or blockchain-style provenance tracking—may be needed to protect sensitive information. Overall, this discovery reframes language models as verifiable and interpretable systems, offering new trust and accountability in critical domains like law, healthcare, and governance, while demanding fresh ethical and regulatory safeguards.",
+      "summary": "ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perf...",
+      "content_html": "<blockquote>ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. \n\nThe implications for safety and privacy are equally significant: injectivity allows for activation-based anomaly detection to defend against adversarial attacks, but it also raises concerns about data recovery and intellectual property, since original prompts could potentially be extracted. As a result, new approaches—such as deliberately “forgetful” architectures or blockchain-style provenance tracking—may be needed to protect sensitive information. Overall, this discovery reframes language models as verifiable and interpretable systems, offering new trust and accountability in critical domains like law, healthcare, and governance, while demanding fresh ethical and regulatory safeguards.</blockquote>\n<p><strong>Tags:</strong> llms, audit, privacy, ip, legal</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761820920570",
+      "url": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2023cv08292/606655/716/0.pdf",
+      "title": "Law ChatGPT came up with a 'Game of Thrones' sequel idea. Now, a judge is letting George RR Martin sue for copyright inf",
+      "date_published": "2025-10-30T10:43:46.737Z",
+      "tags": [
+        "legal",
+        "openai",
+        "chatgpt",
+        "hollywood-ai"
+      ],
+      "content_text": "OpenAI now moves pursuant to Federal Rule of Civil Procedure 12(b)(6) to dismiss\nthe Consolidated Class Action Complaint’s output-based infringement claim. OpenAI\ncontends that the complaint fails to plausibly allege substantial similarity between\nplaintiffs’ works and ChatGPT’s outputs or to cite or attach examples of allegedly\ninfringing outputs for the Court to consider when evaluating the issue of substantial\nsimilarity. (See Dkt. No. 325 (“Mot.”).)",
+      "summary": "OpenAI now moves pursuant to Federal Rule of Civil Procedure 12(b)(6) to dismiss\nthe Consolidated Class Action Complaint’s output-based infringement c...",
+      "content_html": "<blockquote>OpenAI now moves pursuant to Federal Rule of Civil Procedure 12(b)(6) to dismiss\nthe Consolidated Class Action Complaint’s output-based infringement claim. OpenAI\ncontends that the complaint fails to plausibly allege substantial similarity between\nplaintiffs’ works and ChatGPT’s outputs or to cite or attach examples of allegedly\ninfringing outputs for the Court to consider when evaluating the issue of substantial\nsimilarity. (See Dkt. No. 325 (“Mot.”).)</blockquote>\n<p><strong>Tags:</strong> legal, openai, chatgpt, hollywood-ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761820564985",
+      "url": "https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/",
+      "title": "UMG and Udio Reach Agreement for ‘New Licensed AI Music Creation Platform’",
+      "date_published": "2025-10-30T10:36:04.985Z",
+      "tags": [
+        "music",
+        "ai",
+        "legal",
+        "umg",
+        "udio",
+        "settlement"
+      ],
+      "content_text": "Universal Music Group (UMG) and Udio, one of the top AI music models on the market, have announced a strategic agreement, thereby ending UMG’s involvement in the copyright infringement litigation it brought against Udio alongside Sony and Warner last year. ",
+      "summary": "Universal Music Group (UMG) and Udio, one of the top AI music models on the market, have announced a strategic agreement, thereby ending UMG’s involve...",
+      "content_html": "<blockquote>Universal Music Group (UMG) and Udio, one of the top AI music models on the market, have announced a strategic agreement, thereby ending UMG’s involvement in the copyright infringement litigation it brought against Udio alongside Sony and Warner last year. </blockquote>\n<p><strong>Tags:</strong> music, ai, legal, umg, udio, settlement</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1761820251773",
+      "url": "https://www.juliensauctions.com/en/auctions/the-florian-schneider-collection",
+      "title": "The Florian Schneider Collection",
+      "date_published": "2025-10-30T10:30:51.773Z",
+      "tags": [
+        "kraftwerk",
+        "music",
+        "art",
+        "gear",
+        "auction"
+      ],
+      "content_text": "The Florian Schneider Collection Nov 19 AT 10:00 AM CST - IN Nashville. The Florian Schneider Collection auction is scheduled for November 19, 2025, at 10:00 AM CST in Nashville at the Musicians Hall of Fame & Museum. The event, hosted by Julien's Auctions, will feature over 450 personal items from the Kraftwerk co-founder, including synthesizers, instruments, and memorabilia.   ",
+      "summary": "The Florian Schneider Collection Nov 19 AT 10:00 AM CST - IN Nashville. The Florian Schneider Collection auction is scheduled for November 19, 2025, a...",
+      "content_html": "<blockquote>The Florian Schneider Collection Nov 19 AT 10:00 AM CST - IN Nashville. The Florian Schneider Collection auction is scheduled for November 19, 2025, at 10:00 AM CST in Nashville at the Musicians Hall of Fame &amp; Museum. The event, hosted by Julien&#039;s Auctions, will feature over 450 personal items from the Kraftwerk co-founder, including synthesizers, instruments, and memorabilia.   </blockquote>\n<p><strong>Tags:</strong> kraftwerk, music, art, gear, auction</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1761647680766",
       "url": "https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai",
       "title": "Criminal complaint against facial recognition company Clearview AI",
@@ -123,20 +282,6 @@
       "content_text": "ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, customers, and employees, including directives to take photographs of the individual and their family members, and obtain their social security number and financial information.”  Among those assignments were blocking a transgender woman from entering MSG simply because of her gender identity and taping phone calls with a woman who was accusing Dolan of sexual assault, the latter of which Ingrasselino refused to do. ",
       "summary": "ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, c...",
       "content_html": "<blockquote>ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, customers, and employees, including directives to take photographs of the individual and their family members, and obtain their social security number and financial information.”  Among those assignments were blocking a transgender woman from entering MSG simply because of her gender identity and taping phone calls with a woman who was accusing Dolan of sexual assault, the latter of which Ingrasselino refused to do. </blockquote>\n<p><strong>Tags:</strong> msg, dolan, frt, ethics, legal</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1761432152739",
-      "url": "https://www.theregister.com/2025/10/24/sora_celebrities_racist_videos/",
-      "title": "Sora users trick platform into creating racist celeb videos",
-      "date_published": "2025-10-25T22:45:14.971Z",
-      "tags": [],
-      "content_text": "The other videos that Copyleaks listed all include the word \"knitters\" in place of particular racist terminology, while the Jake Paul video instead uses the term \"neck hurts.\" While none of the posts drove a large volume of traffic on Sora itself, Copyleaks noted that many of the videos have been reposted to platforms like TikTok, where one of the Paul videos has been liked more than 168,000 times. A second example of content using Paul's likeness had him explaining that he hated \"juice\" that alluded to Jewish people, not liquid pressed from fruit and vegetables.   ",
-      "summary": "The other videos that Copyleaks listed all include the word \"knitters\" in place of particular racist terminology, while the Jake Paul video instead us...",
-      "content_html": "<blockquote>The other videos that Copyleaks listed all include the word &quot;knitters&quot; in place of particular racist terminology, while the Jake Paul video instead uses the term &quot;neck hurts.&quot; While none of the posts drove a large volume of traffic on Sora itself, Copyleaks noted that many of the videos have been reposted to platforms like TikTok, where one of the Paul videos has been liked more than 168,000 times. A second example of content using Paul&#039;s likeness had him explaining that he hated &quot;juice&quot; that alluded to Jewish people, not liquid pressed from fruit and vegetables.   </blockquote>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -1755,7 +1900,6 @@
         "dataviz"
       ],
       "content_html": "<p><strong>Tags:</strong> llm, learning, visualization, dataviz</p>",
-      "banner_image": "https://bbycroft.net/icon.png?9d3d9b98e68d2d0d",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -1776,8 +1920,7 @@
       "content_html": "<p><strong>Tags:</strong> japan, language, education, learning, ux</p>",
       "_link_blog": {
         "visits": 1,
-        "is_pinned": false,
-        "last_visited": "2025-09-07T00:01:18.177Z"
+        "is_pinned": false
       }
     },
     {
@@ -1829,8 +1972,6 @@
         "dignity"
       ],
       "content_html": "<p><strong>Tags:</strong> ai, surveillance, harms, ethics, dignity</p>",
-      "image": "https://substackcdn.com/image/fetch/$s_!UPxy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8768dfd7-595d-47a4-9bd8-9a57a28cd72c_2100x1025.png",
-      "banner_image": "https://substackcdn.com/image/fetch/$s_!e3e-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F409752e4-3fd1-45fd-963b-dcab2e4e369f%2Fapple-touch-icon-1024x1024.png",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -1847,8 +1988,6 @@
         "networks"
       ],
       "content_html": "<p><strong>Tags:</strong> maps, submarine, networks</p>",
-      "image": "https://www.submarinecablemap.com/images/aqua-comms-logo.png",
-      "banner_image": "https://www.submarinecablemap.com/images/telegeography-app-icon.png",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
