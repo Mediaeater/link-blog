@@ -1684,7 +1684,57 @@
       "isPinned": false,
       "timestamp": "2025-11-01T16:30:58.900Z",
       "visits": 0
+    },
+    {
+      "id": 1762021781903,
+      "url": "https://www.tickettailor.com/events/performa2025biennial1",
+      "source": "Performa 2025 Biennial",
+      "pullQuote": "The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.\n\nLocated at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.\n\nThis marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work.",
+      "tags": [
+        "art",
+        "perfomance",
+        "nyc",
+        "performa",
+        "tickets"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T18:29:41.903Z",
+      "visits": 0
+    },
+    {
+      "id": 1762254102486,
+      "url": "The Case That A.I. Is Thinking",
+      "source": "The Case That A.I. Is Thinking",
+      "pullQuote": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
+      "tags": [
+        "openai",
+        "newyorker",
+        "knowledge",
+        "thinking"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-04T11:01:42.486Z",
+      "visits": 0
+    },
+    {
+      "id": 1762293581356,
+      "url": "https://wholeearth.info/",
+      "source": "Whole Earth Index",
+      "pullQuote": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.",
+      "tags": [
+        "catalog",
+        "earth",
+        "whole earth",
+        "publishing",
+        "sf",
+        "the-well"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-04T21:59:41.356Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-01T16:35:18.849Z"
+  "lastUpdated": "2025-11-05T01:29:29.975Z",
+  "exportedAt": "2025-11-05T01:29:29.975Z",
+  "totalLinks": 122
 }
