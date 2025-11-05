@@ -1732,9 +1732,24 @@
       "isPinned": false,
       "timestamp": "2025-11-04T21:59:41.356Z",
       "visits": 0
+    },
+    {
+      "id": 1762313612731,
+      "url": "https://newsfeeds.net/",
+      "source": "Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay",
+      "pullQuote": "Dick Cheney's character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office's leak of CIA agent Valerie Plame's identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.\n\n",
+      "tags": [
+        "politics",
+        "republican",
+        "dick",
+        "obit"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-05T03:33:32.731Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-05T01:29:29.975Z",
-  "exportedAt": "2025-11-05T01:29:29.975Z",
-  "totalLinks": 122
+  "lastUpdated": "2025-11-05T14:56:30.544Z",
+  "exportedAt": "2025-11-05T14:56:30.544Z",
+  "totalLinks": 123
 }

@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 05 Nov 2025 01:29:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2025 14:56:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -861,6 +861,13 @@
             <guid>1762293581356</guid>
             <pubDate>Tue, 04 Nov 2025 21:59:41 GMT</pubDate>
             <description><![CDATA[Tags: catalog, earth, whole earth, publishing, sf, the-well]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay]]></title>
+            <link>https://newsfeeds.net/</link>
+            <guid>1762313612731</guid>
+            <pubDate>Wed, 05 Nov 2025 03:33:32 GMT</pubDate>
+            <description><![CDATA[Tags: politics, republican, dick, obit]]></description>
         </item>
     </channel>
 </rss>
