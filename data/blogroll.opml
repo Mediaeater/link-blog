@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Wed, 05 Nov 2025 01:30:04 GMT</dateCreated>
-    <dateModified>Wed, 05 Nov 2025 01:30:04 GMT</dateModified>
+    <dateCreated>Wed, 05 Nov 2025 03:57:54 GMT</dateCreated>
+    <dateModified>Wed, 05 Nov 2025 03:57:54 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -384,6 +384,11 @@ People might not ever start using technical concepts like “decentralization”
 People might not care about “federation” but they do notice when they log into a competing product, and their data is already there, and their reach is intact.
 
 And people do understand when they’re being fucked with." created="Sat, 27 Sep 2025 12:37:09 GMT" category="socialmedia,decentralization,open-social" />
+    </outline>
+    <outline text="dick" title="dick">
+      <outline type="link" text="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" title="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" url="https://newsfeeds.net/" htmlUrl="https://newsfeeds.net/" description="Dick Cheney&apos;s character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office&apos;s leak of CIA agent Valerie Plame&apos;s identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.
+
+" created="Wed, 05 Nov 2025 03:33:32 GMT" category="politics,republican,dick,obit" />
     </outline>
     <outline text="dignity" title="dignity">
       <outline type="link" text="AI surveillance should be banned while there is still time." title="AI surveillance should be banned while there is still time." url="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" htmlUrl="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" created="Sat, 06 Sep 2025 23:53:46 GMT" category="ai,surveillance,harms,ethics,dignity" />
@@ -854,6 +859,9 @@ This marks the first collaboration between Performa and Diller Scofidio + Renfro
       <outline type="link" text="Farewell Friends - HumbleDollar" title="Farewell Friends - HumbleDollar" url="https://humbledollar.com/forum/farewell-friends/" htmlUrl="https://humbledollar.com/forum/farewell-friends/" description="Have been seeing a lot of these, its a good idea to print your own legend. If this post is appearing, it means I’ve succumbed to cancer or one of its side effects. Please don’t feel sad for me. I’ve had a life filled with love, great experiences and wonderful career opportunities. Despite my demise at a relatively young age, I consider myself beyond fortunate.
 
 " created="Mon, 29 Sep 2025 03:42:52 GMT" category="death,obit" />
+      <outline type="link" text="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" title="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" url="https://newsfeeds.net/" htmlUrl="https://newsfeeds.net/" description="Dick Cheney&apos;s character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office&apos;s leak of CIA agent Valerie Plame&apos;s identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.
+
+" created="Wed, 05 Nov 2025 03:33:32 GMT" category="politics,republican,dick,obit" />
     </outline>
     <outline text="opeani" title="opeani">
       <outline type="link" text="MPA Issues Statement on OpenAI’s Recent Release of Sora 2" title="MPA Issues Statement on OpenAI’s Recent Release of Sora 2" url="https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/" htmlUrl="https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/" description="WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of Sora 2. “‘Since Sora 2’s release, videos that infringe our members’ films, shows, and characters have proliferated on OpenAI’s service and across social media. While OpenAI clarified it will ‘soon’ offer rightsholders more control over character generation, they must acknowledge it remains their responsibility – not rightsholders’ – to prevent infringement on the Sora 2 service. OpenAI needs to take immediate and decisive action to address this issue. Well-established copyright law safeguards the rights of creators and applies here.”" created="Tue, 07 Oct 2025 13:04:44 GMT" category="opeani,ethics,hollywood" />
@@ -970,6 +978,11 @@ The winners of this new edition will be announced during the fair on Friday, Nov
 
 “To make another bold prediction, I think that within the next 12 months, certainly 24 months, I think AI becomes the default way that people are making content,” Wright said. “And so we will move away from having a disclosure the same way that you don’t disclose that a movie is made with CGI.”" created="Mon, 29 Sep 2025 03:44:45 GMT" category="ethics,podcast,ai" />
     </outline>
+    <outline text="politics" title="politics">
+      <outline type="link" text="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" title="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" url="https://newsfeeds.net/" htmlUrl="https://newsfeeds.net/" description="Dick Cheney&apos;s character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office&apos;s leak of CIA agent Valerie Plame&apos;s identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.
+
+" created="Wed, 05 Nov 2025 03:33:32 GMT" category="politics,republican,dick,obit" />
+    </outline>
     <outline text="posters" title="posters">
       <outline type="link" text="Movie Posters Collection - 	" title="Movie Posters Collection - 	" url="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" htmlUrl="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" description="Downloadable Movie Posters From The 40s, 50s, 60s, and 70s" created="Sun, 26 Oct 2025 14:09:20 GMT" category="film,posters,paper,archive,collection" />
     </outline>
@@ -1015,6 +1028,11 @@ This change is being implemented due to the unmanageable influx of review articl
       <outline type="link" text="FAA Statement - Boeing Airworthiness Certificates" title="FAA Statement - Boeing Airworthiness Certificates" url="https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates" htmlUrl="https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates" description="The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. An airworthiness certificate confirms an aircraft is safe to operate.  
 
 Safety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely." created="Tue, 30 Sep 2025 10:50:47 GMT" category="regulation,air-travel,harms" />
+    </outline>
+    <outline text="republican" title="republican">
+      <outline type="link" text="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" title="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" url="https://newsfeeds.net/" htmlUrl="https://newsfeeds.net/" description="Dick Cheney&apos;s character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office&apos;s leak of CIA agent Valerie Plame&apos;s identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.
+
+" created="Wed, 05 Nov 2025 03:33:32 GMT" category="politics,republican,dick,obit" />
     </outline>
     <outline text="research" title="research">
       <outline type="link" text="Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents" title="Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents" url="https://arxiv.org/abs/2509.06917" htmlUrl="https://arxiv.org/abs/2509.06917" description="We introduce Paper2Agent, an automated framework that converts research papers into AI agents. Paper2Agent transforms research output from passive artifacts into active systems that can accelerate downstream use, adoption, and discovery. Conventional research papers require readers to invest substantial effort to understand and adapt a paper&apos;s code, data, and methods to their own work, creating barriers to dissemination and reuse. " created="Tue, 23 Sep 2025 10:40:03 GMT" category="research" />
