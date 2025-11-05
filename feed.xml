@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 01 Nov 2025 19:31:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2025 01:29:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -847,6 +847,20 @@
             <guid>1762021781903</guid>
             <pubDate>Sat, 01 Nov 2025 18:29:41 GMT</pubDate>
             <description><![CDATA[Tags: art, perfomance, nyc, performa, tickets]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Case That A.I. Is Thinking]]></title>
+            <link>The Case That A.I. Is Thinking</link>
+            <guid>1762254102486</guid>
+            <pubDate>Tue, 04 Nov 2025 11:01:42 GMT</pubDate>
+            <description><![CDATA[Tags: openai, newyorker, knowledge, thinking]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Whole Earth Index]]></title>
+            <link>https://wholeearth.info/</link>
+            <guid>1762293581356</guid>
+            <pubDate>Tue, 04 Nov 2025 21:59:41 GMT</pubDate>
+            <description><![CDATA[Tags: catalog, earth, whole earth, publishing, sf, the-well]]></description>
         </item>
     </channel>
 </rss>

@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1762293581356",
+      "url": "https://wholeearth.info/",
+      "title": "Whole Earth Index",
+      "date_published": "2025-11-04T21:59:41.356Z",
+      "tags": [
+        "catalog",
+        "earth",
+        "whole earth",
+        "publishing",
+        "sf",
+        "the-well"
+      ],
+      "content_text": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.",
+      "summary": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published ...",
+      "content_html": "<blockquote>Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.</blockquote>\n<p><strong>Tags:</strong> catalog, earth, whole earth, publishing, sf, the-well</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762254102486",
+      "url": "The Case That A.I. Is Thinking",
+      "title": "The Case That A.I. Is Thinking",
+      "date_published": "2025-11-04T11:01:42.486Z",
+      "tags": [
+        "openai",
+        "newyorker",
+        "knowledge",
+        "thinking"
+      ],
+      "content_text": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
+      "summary": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is...",
+      "content_html": "<blockquote>An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”</blockquote>\n<p><strong>Tags:</strong> openai, newyorker, knowledge, thinking</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1762021781903",
       "url": "https://www.tickettailor.com/events/performa2025biennial1",
       "title": "Performa 2025 Biennial",
