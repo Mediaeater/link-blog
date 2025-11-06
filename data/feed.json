@@ -15,21 +15,80 @@
   ],
   "items": [
     {
-      "id": "1762451493064",
-      "url": "https://www.theinformation.com/articles/clara-wu-tsais-plan-build-first-1-billion-wnba-franchise",
-      "title": " Clara Wu Tsai’s Plan to Build the First $1 Billion WNBA Franchise",
-      "date_published": "2025-11-06T17:51:33.064Z",
+      "id": "1762454546932",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/emotion-ai-explained",
+      "title": "Emotion AI, explained",
+      "date_published": "2025-11-06T18:42:26.932Z",
       "tags": [
-        "arena",
-        "entertainment",
-        "monetization",
-        "audience",
-        "surveillance",
-        "biometrics"
+        "ethics",
+        "ai",
+        "emotional-ai",
+        "emotion",
+        "reading-humans"
       ],
-      "content_text": "(No thanks. Making sure concerts and sports are like air travel level consumer experiences -Ed) \nTech is making the in-arena experience frictionless, from biometric entry to mobile ordering. Clara Wu Tsai also sees it transforming player training, with motion capture and AI used in the new practice facility's biomechanics labs. ",
-      "summary": "(No thanks. Making sure concerts and sports are like air travel level consumer experiences -Ed) \nTech is making the in-arena experience frictionless, ...",
-      "content_html": "<blockquote>(No thanks. Making sure concerts and sports are like air travel level consumer experiences -Ed) \nTech is making the in-arena experience frictionless, from biometric entry to mobile ordering. Clara Wu Tsai also sees it transforming player training, with motion capture and AI used in the new practice facility&#039;s biomechanics labs. </blockquote>\n<p><strong>Tags:</strong> arena, entertainment, monetization, audience, surveillance, biometrics</p>",
+      "content_text": "(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito's term and he I thought bottomed it out, but no, it's plunged to below nil) ---Is emotion AI something to welcome or to worry about? ---- Another thing to keep in mind is that the technology is only as good as its programmer. Brynjolfsson warned as these technologies are rolled out, they need to be appropriate for all people, not just sensitive to the subset of the population used for training.\n\n“For instance, recognizing emotions in an African American face sometimes can be difficult for a machine that’s trained on Caucasian faces,” Brynjolfsson said. “And some of the gestures or voice inflections in one culture may mean something very different in a different culture.”",
+      "summary": "(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito's term and he I thought bottomed it out, but no, it's plunged to below nil) -...",
+      "content_html": "<blockquote>(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito&#039;s term and he I thought bottomed it out, but no, it&#039;s plunged to below nil) ---Is emotion AI something to welcome or to worry about? ---- Another thing to keep in mind is that the technology is only as good as its programmer. Brynjolfsson warned as these technologies are rolled out, they need to be appropriate for all people, not just sensitive to the subset of the population used for training.\n\n“For instance, recognizing emotions in an African American face sometimes can be difficult for a machine that’s trained on Caucasian faces,” Brynjolfsson said. “And some of the gestures or voice inflections in one culture may mean something very different in a different culture.”</blockquote>\n<p><strong>Tags:</strong> ethics, ai, emotional-ai, emotion, reading-humans</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762453214055",
+      "url": "https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049",
+      "title": "‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio",
+      "date_published": "2025-11-06T18:20:14.055Z",
+      "tags": [
+        "us politics",
+        "authoritarianism",
+        "political commentary",
+        "resistance movements",
+        "democracy"
+      ],
+      "content_text": "RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that's part of what's going on.\n\nBut hope for me has never been optimism. Optimism is \"everything will be fine,\" which invites people to kick back and wait for \"fine\" to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It's reminding people that we've changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it.",
+      "summary": "RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only ...",
+      "content_html": "<blockquote>RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that&#039;s part of what&#039;s going on.\n\nBut hope for me has never been optimism. Optimism is &quot;everything will be fine,&quot; which invites people to kick back and wait for &quot;fine&quot; to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It&#039;s reminding people that we&#039;ve changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it.</blockquote>\n<p><strong>Tags:</strong> us politics, authoritarianism, political commentary, resistance movements, democracy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762452427915",
+      "url": "https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
+      "title": "CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
+      "date_published": "2025-11-06T18:07:07.915Z",
+      "tags": [
+        "space",
+        "threat",
+        "assessment",
+        "strategic",
+        "report",
+        "nat-sec"
+      ],
+      "content_text": "This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or counter both simultaneously.\nTo compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should\nadopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment\napproach in space. Such an approach would suggest developing, exercising, and selectively\nrevealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,\nbalancing resilience with a more proactive strategy that adopts a two-rival force concept\nwould provide the United States with a framework to strengthen U.S. freedom of action in\nspace and on Earth.",
+      "summary": "This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or...",
+      "content_html": "<blockquote>This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or counter both simultaneously.\nTo compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should\nadopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment\napproach in space. Such an approach would suggest developing, exercising, and selectively\nrevealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,\nbalancing resilience with a more proactive strategy that adopts a two-rival force concept\nwould provide the United States with a framework to strengthen U.S. freedom of action in\nspace and on Earth.</blockquote>\n<p><strong>Tags:</strong> space, threat, assessment, strategic, report, nat-sec</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762452100056",
+      "url": "https://arxiv.org/abs/2510.21328v1",
+      "title": "Space waste: An update of the anthropogenic matter injection into Earth atmosphere",
+      "date_published": "2025-11-06T18:01:40.056Z",
+      "tags": [
+        "space",
+        "environment",
+        "pollution",
+        "atmosphere"
+      ],
+      "content_text": "Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz & Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements.",
+      "summary": "Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass ...",
+      "content_html": "<blockquote>Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz &amp; Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements.</blockquote>\n<p><strong>Tags:</strong> space, environment, pollution, atmosphere</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
