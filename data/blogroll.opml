@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Thu, 06 Nov 2025 18:01:54 GMT</dateCreated>
-    <dateModified>Thu, 06 Nov 2025 18:01:54 GMT</dateModified>
+    <dateCreated>Thu, 06 Nov 2025 18:07:16 GMT</dateCreated>
+    <dateModified>Thu, 06 Nov 2025 18:07:16 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -165,6 +165,17 @@ This marks the first collaboration between Performa and Diller Scofidio + Renfro
     </outline>
     <outline text="ases" title="ases">
       <outline type="link" text="A Network Crumb Back Story: A Baker’s Dozen Retrospective" title="A Network Crumb Back Story: A Baker’s Dozen Retrospective" url="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" htmlUrl="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" description="For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period." created="Mon, 06 Oct 2025 20:39:50 GMT" category="network,autonomous-systems,rankings,ases" />
+    </outline>
+    <outline text="assessment" title="assessment">
+      <outline type="link" text="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" title="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" url="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" htmlUrl="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" description="This report contends that the United States cannot treat the space threats from China and
+Russia in isolation and must instead be prepared to deter or counter both simultaneously.
+To compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should
+adopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment
+approach in space. Such an approach would suggest developing, exercising, and selectively
+revealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,
+balancing resilience with a more proactive strategy that adopts a two-rival force concept
+would provide the United States with a framework to strengthen U.S. freedom of action in
+space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
     </outline>
     <outline text="atlas" title="atlas">
       <outline type="link" text="GlobalBuildingAtlas" title="GlobalBuildingAtlas" url="https://mediatum.ub.tum.de/1782307" htmlUrl="https://mediatum.ub.tum.de/1782307" description="The United Nations (UN) believes there are 4B buildings on Earth. This week, a dataset called &quot;GlobalBuildingAtlas&quot; (GBA) was published by researchers at the Technical University of Munich (TUM) that attempts to estimate this number at being closer to 2.75B.
@@ -870,6 +881,17 @@ Despite our concerns with the DMA, teams across Apple are spending thousands of 
 
 And I know that I&apos;m not alone." created="Wed, 15 Oct 2025 22:53:02 GMT" category="truth,grok,media,narritive" />
     </outline>
+    <outline text="nat-sec" title="nat-sec">
+      <outline type="link" text="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" title="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" url="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" htmlUrl="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" description="This report contends that the United States cannot treat the space threats from China and
+Russia in isolation and must instead be prepared to deter or counter both simultaneously.
+To compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should
+adopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment
+approach in space. Such an approach would suggest developing, exercising, and selectively
+revealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,
+balancing resilience with a more proactive strategy that adopts a two-rival force concept
+would provide the United States with a framework to strengthen U.S. freedom of action in
+space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
+    </outline>
     <outline text="network" title="network">
       <outline type="link" text="A Network Crumb Back Story: A Baker’s Dozen Retrospective" title="A Network Crumb Back Story: A Baker’s Dozen Retrospective" url="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" htmlUrl="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" description="For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period." created="Mon, 06 Oct 2025 20:39:50 GMT" category="network,autonomous-systems,rankings,ases" />
     </outline>
@@ -1080,6 +1102,17 @@ This change is being implemented due to the unmanageable influx of review articl
 
 Safety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely." created="Tue, 30 Sep 2025 10:50:47 GMT" category="regulation,air-travel,harms" />
     </outline>
+    <outline text="report" title="report">
+      <outline type="link" text="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" title="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" url="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" htmlUrl="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" description="This report contends that the United States cannot treat the space threats from China and
+Russia in isolation and must instead be prepared to deter or counter both simultaneously.
+To compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should
+adopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment
+approach in space. Such an approach would suggest developing, exercising, and selectively
+revealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,
+balancing resilience with a more proactive strategy that adopts a two-rival force concept
+would provide the United States with a framework to strengthen U.S. freedom of action in
+space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
+    </outline>
     <outline text="republican" title="republican">
       <outline type="link" text="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" title="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" url="https://newsfeeds.net/" htmlUrl="https://newsfeeds.net/" description="Dick Cheney&apos;s character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office&apos;s leak of CIA agent Valerie Plame&apos;s identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.
 
@@ -1175,6 +1208,15 @@ And people do understand when they’re being fucked with." created="Sat, 27 Sep
     </outline>
     <outline text="space" title="space">
       <outline type="link" text="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" title="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" url="https://arxiv.org/abs/2510.21328v1" htmlUrl="https://arxiv.org/abs/2510.21328v1" description="Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz &amp; Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements." created="Thu, 06 Nov 2025 18:01:40 GMT" category="space,environment,pollution,atmosphere" />
+      <outline type="link" text="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" title="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" url="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" htmlUrl="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" description="This report contends that the United States cannot treat the space threats from China and
+Russia in isolation and must instead be prepared to deter or counter both simultaneously.
+To compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should
+adopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment
+approach in space. Such an approach would suggest developing, exercising, and selectively
+revealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,
+balancing resilience with a more proactive strategy that adopts a two-rival force concept
+would provide the United States with a framework to strengthen U.S. freedom of action in
+space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
     </outline>
     <outline text="spotify" title="spotify">
       <outline type="link" text="New Spotify feature is doxxing" title="New Spotify feature is doxxing" url="https://www.reddit.com/r/truespotify/comments/1n5yod7/new_spotify_feature_is_doxxing/" htmlUrl="https://www.reddit.com/r/truespotify/comments/1n5yod7/new_spotify_feature_is_doxxing/" description="&quot;I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of “suggested friends”, most I recognized, but a few I couldn’t place. Based on the music shared (it shows every single link you’ve ever sent that someone has opened, as long as they have a Spotify account), I realized some of these were people I know from Discord.&quot;" created="Tue, 09 Sep 2025 11:44:58 GMT" category="reddit,spotify,privacy,music" />
@@ -1190,6 +1232,17 @@ https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 1
 
 Nowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?" created="Sat, 18 Oct 2025 18:52:46 GMT" category="stories" />
       <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
+    </outline>
+    <outline text="strategic" title="strategic">
+      <outline type="link" text="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" title="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" url="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" htmlUrl="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" description="This report contends that the United States cannot treat the space threats from China and
+Russia in isolation and must instead be prepared to deter or counter both simultaneously.
+To compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should
+adopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment
+approach in space. Such an approach would suggest developing, exercising, and selectively
+revealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,
+balancing resilience with a more proactive strategy that adopts a two-rival force concept
+would provide the United States with a framework to strengthen U.S. freedom of action in
+space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
     </outline>
     <outline text="studio" title="studio">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -1243,6 +1296,17 @@ Tech is making the in-arena experience frictionless, from biometric entry to mob
     <outline text="thinking" title="thinking">
       <outline type="link" text="When is better to think without words?" title="When is better to think without words?" url="https://www.henrikkarlsson.xyz/p/wordless-thought" htmlUrl="https://www.henrikkarlsson.xyz/p/wordless-thought" description="Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints." created="Fri, 24 Oct 2025 11:06:05 GMT" category="thinking,learning" />
       <outline type="link" text="The Case That A.I. Is Thinking" title="The Case That A.I. Is Thinking" url="The Case That A.I. Is Thinking" htmlUrl="The Case That A.I. Is Thinking" description="An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”" created="Tue, 04 Nov 2025 11:01:42 GMT" category="openai,newyorker,knowledge,thinking" />
+    </outline>
+    <outline text="threat" title="threat">
+      <outline type="link" text="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" title="CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" url="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" htmlUrl="https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf" description="This report contends that the United States cannot treat the space threats from China and
+Russia in isolation and must instead be prepared to deter or counter both simultaneously.
+To compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should
+adopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment
+approach in space. Such an approach would suggest developing, exercising, and selectively
+revealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,
+balancing resilience with a more proactive strategy that adopts a two-rival force concept
+would provide the United States with a framework to strengthen U.S. freedom of action in
+space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
     </outline>
     <outline text="tickets" title="tickets">
       <outline type="link" text="Performa 2025 Biennial" title="Performa 2025 Biennial" url="https://www.tickettailor.com/events/performa2025biennial1" htmlUrl="https://www.tickettailor.com/events/performa2025biennial1" description="The Biennial Hub
