@@ -1747,9 +1747,70 @@
       "isPinned": false,
       "timestamp": "2025-11-05T03:33:32.731Z",
       "visits": 0
+    },
+    {
+      "id": 1762450393262,
+      "url": "https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/",
+      "source": "How I analyzed the lineups at the world’s most popular nightclubs",
+      "pullQuote": "The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse landscape than I expected. The diminished role of residents compared to one-off bookings also challenged my assumptions about how these clubs operate. For the story telling maintaining the balance between a narrative and letting users explore and decide for themselves was a fun challenge. I think these sort of passion projects can give us deep insights into our world and culture.",
+      "tags": [
+        "clubs",
+        "study",
+        "audience"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T17:33:13.262Z",
+      "visits": 0
+    },
+    {
+      "id": 1762451085076,
+      "url": "https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html",
+      "source": "Archive.today: FBI Demands Data from Provider Tucows",
+      "pullQuote": "It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option.",
+      "tags": [
+        "archive",
+        "legal",
+        "fbi",
+        "hosting"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T17:44:45.076Z",
+      "visits": 0
+    },
+    {
+      "id": 1762451154024,
+      "url": "https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf",
+      "source": "guidelines-governance.pdf",
+      "pullQuote": "India AI Governance Guidelines Enabling Safe and Trusted AI Innovation",
+      "tags": [
+        "ai",
+        "governance",
+        "india",
+        "guidelines"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T17:45:54.024Z",
+      "visits": 0
+    },
+    {
+      "id": 1762451493064,
+      "url": "https://www.theinformation.com/articles/clara-wu-tsais-plan-build-first-1-billion-wnba-franchise",
+      "source": " Clara Wu Tsai’s Plan to Build the First $1 Billion WNBA Franchise",
+      "pullQuote": "(No thanks. Making sure concerts and sports are like air travel level consumer experiences -Ed) \nTech is making the in-arena experience frictionless, from biometric entry to mobile ordering. Clara Wu Tsai also sees it transforming player training, with motion capture and AI used in the new practice facility's biomechanics labs. ",
+      "tags": [
+        "arena",
+        "entertainment",
+        "monetization",
+        "audience",
+        "surveillance",
+        "biometrics"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T17:51:33.064Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-05T14:56:30.544Z",
-  "exportedAt": "2025-11-05T14:56:30.544Z",
-  "totalLinks": 123
+  "lastUpdated": "2025-11-06T17:53:08.624Z",
+  "exportedAt": "2025-11-06T17:53:08.624Z",
+  "totalLinks": 127
 }
