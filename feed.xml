@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 05 Nov 2025 14:56:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2025 17:53:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -868,6 +868,34 @@
             <guid>1762313612731</guid>
             <pubDate>Wed, 05 Nov 2025 03:33:32 GMT</pubDate>
             <description><![CDATA[Tags: politics, republican, dick, obit]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How I analyzed the lineups at the world’s most popular nightclubs]]></title>
+            <link>https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/</link>
+            <guid>1762450393262</guid>
+            <pubDate>Thu, 06 Nov 2025 17:33:13 GMT</pubDate>
+            <description><![CDATA[Tags: clubs, study, audience]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Archive.today: FBI Demands Data from Provider Tucows]]></title>
+            <link>https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html</link>
+            <guid>1762451085076</guid>
+            <pubDate>Thu, 06 Nov 2025 17:44:45 GMT</pubDate>
+            <description><![CDATA[Tags: archive, legal, fbi, hosting]]></description>
+        </item>
+        <item>
+            <title><![CDATA[guidelines-governance.pdf]]></title>
+            <link>https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf</link>
+            <guid>1762451154024</guid>
+            <pubDate>Thu, 06 Nov 2025 17:45:54 GMT</pubDate>
+            <description><![CDATA[Tags: ai, governance, india, guidelines]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ Clara Wu Tsai’s Plan to Build the First $1 Billion WNBA Franchise]]></title>
+            <link>https://www.theinformation.com/articles/clara-wu-tsais-plan-build-first-1-billion-wnba-franchise</link>
+            <guid>1762451493064</guid>
+            <pubDate>Thu, 06 Nov 2025 17:51:33 GMT</pubDate>
+            <description><![CDATA[Tags: arena, entertainment, monetization, audience, surveillance, biometrics]]></description>
         </item>
     </channel>
 </rss>
