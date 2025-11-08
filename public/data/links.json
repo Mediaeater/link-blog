@@ -1855,9 +1855,37 @@
       "isPinned": false,
       "timestamp": "2025-11-06T18:42:26.932Z",
       "visits": 0
+    },
+    {
+      "id": 1762597266263,
+      "url": "https://poisonpill.ai/",
+      "source": "Poison Pill — Invisible protection for music against AI training",
+      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "tags": [
+        "music",
+        "copyright",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-08T10:21:06.263Z",
+      "visits": 0
+    },
+    {
+      "id": 1762597453587,
+      "url": "https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/",
+      "source": "DeepSeek researcher pessimistic over AI's impact in startup's first public appearance since success ",
+      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "tags": [
+        "deepseek",
+        "ai",
+        "ai-impact"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-08T10:24:13.587Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-06T22:00:04.751Z",
-  "exportedAt": "2025-11-06T22:00:04.751Z",
-  "totalLinks": 130
+  "lastUpdated": "2025-11-08T10:24:48.929Z",
+  "exportedAt": "2025-11-08T10:24:48.929Z",
+  "totalLinks": 132
 }
