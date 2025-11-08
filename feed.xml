@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 08 Nov 2025 10:24:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2025 10:34:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -931,6 +931,13 @@
             <guid>1762597453587</guid>
             <pubDate>Sat, 08 Nov 2025 10:24:13 GMT</pubDate>
             <description><![CDATA[Tags: deepseek, ai, ai-impact]]></description>
+        </item>
+        <item>
+            <title><![CDATA[alive internet theory]]></title>
+            <link>https://alivetheory.net/</link>
+            <guid>1762598066782</guid>
+            <pubDate>Sat, 08 Nov 2025 10:34:26 GMT</pubDate>
+            <description><![CDATA[Tags: video, internet, archive]]></description>
         </item>
     </channel>
 </rss>

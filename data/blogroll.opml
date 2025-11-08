@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 08 Nov 2025 10:24:52 GMT</dateCreated>
-    <dateModified>Sat, 08 Nov 2025 10:24:52 GMT</dateModified>
+    <dateCreated>Sat, 08 Nov 2025 10:34:40 GMT</dateCreated>
+    <dateModified>Sat, 08 Nov 2025 10:34:40 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -147,6 +147,7 @@ GBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (Lo
     <outline text="archive" title="archive">
       <outline type="link" text="Movie Posters Collection - 	" title="Movie Posters Collection - 	" url="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" htmlUrl="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" description="Downloadable Movie Posters From The 40s, 50s, 60s, and 70s" created="Sun, 26 Oct 2025 14:09:20 GMT" category="film,posters,paper,archive,collection" />
       <outline type="link" text="Archive.today: FBI Demands Data from Provider Tucows" title="Archive.today: FBI Demands Data from Provider Tucows" url="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" htmlUrl="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" description="It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option." created="Thu, 06 Nov 2025 17:44:45 GMT" category="archive,legal,fbi,hosting" />
+      <outline type="link" text="alive internet theory" title="alive internet theory" url="https://alivetheory.net/" htmlUrl="https://alivetheory.net/" created="Sat, 08 Nov 2025 10:34:26 GMT" category="video,internet,archive" />
     </outline>
     <outline text="art" title="art">
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
@@ -678,6 +679,9 @@ If you’d rather try some features while disabling others, keep browser.ml.enab
  Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.
 
 Animals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this." created="Sat, 18 Oct 2025 18:50:36 GMT" category="book,resource,intelligence,learning" />
+    </outline>
+    <outline text="internet" title="internet">
+      <outline type="link" text="alive internet theory" title="alive internet theory" url="https://alivetheory.net/" htmlUrl="https://alivetheory.net/" created="Sat, 08 Nov 2025 10:34:26 GMT" category="video,internet,archive" />
     </outline>
     <outline text="ios" title="ios">
       <outline type="link" text="macOS becomes iOS: Safari video controls" title="macOS becomes iOS: Safari video controls" url="https://underpassapp.com/news/2025/9/8.html" htmlUrl="https://underpassapp.com/news/2025/9/8.html" description="In other words, yes, Apple is continuing to merge iOS and macOS.
@@ -1436,6 +1440,7 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
  " created="Sun, 21 Sep 2025 02:03:31 GMT" category="video,macos,ios,apple" />
       <outline type="link" text="Sora provides better control over videos featuring your AI self" title="Sora provides better control over videos featuring your AI self" url="https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self" htmlUrl="https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self" description="The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially “a TikTok for deepfakes,” a place to make 10-second videos of pretty much anything, including AI-generated versions of yourself or others (voice included). OpenAI calls these virtual appearances “cameos.” Critics call them a looming misinformation disaster." created="Mon, 06 Oct 2025 20:45:18 GMT" category="sora,video,likeness,video-gen,openai" />
       <outline type="link" text="GitHub - character-ai/Ovi" title="GitHub - character-ai/Ovi" url="https://github.com/character-ai/Ovi" htmlUrl="https://github.com/character-ai/Ovi" description="Ovi is a veo-3 like, video+audio generation model that simultaneously generates both video and audio content from text or text+image inputs." created="Wed, 22 Oct 2025 23:07:05 GMT" category="video-gen,open-source,video" />
+      <outline type="link" text="alive internet theory" title="alive internet theory" url="https://alivetheory.net/" htmlUrl="https://alivetheory.net/" created="Sat, 08 Nov 2025 10:34:26 GMT" category="video,internet,archive" />
     </outline>
     <outline text="video-gen" title="video-gen">
       <outline type="link" text="Sora provides better control over videos featuring your AI self" title="Sora provides better control over videos featuring your AI self" url="https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self" htmlUrl="https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self" description="The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially “a TikTok for deepfakes,” a place to make 10-second videos of pretty much anything, including AI-generated versions of yourself or others (voice included). OpenAI calls these virtual appearances “cameos.” Critics call them a looming misinformation disaster." created="Mon, 06 Oct 2025 20:45:18 GMT" category="sora,video,likeness,video-gen,openai" />
