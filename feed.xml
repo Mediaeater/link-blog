@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 06 Nov 2025 22:00:04 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2025 10:24:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -917,6 +917,20 @@
             <guid>1762454546932</guid>
             <pubDate>Thu, 06 Nov 2025 18:42:26 GMT</pubDate>
             <description><![CDATA[Tags: ethics, ai, emotional-ai, emotion, reading-humans]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Poison Pill — Invisible protection for music against AI training]]></title>
+            <link>https://poisonpill.ai/</link>
+            <guid>1762597266263</guid>
+            <pubDate>Sat, 08 Nov 2025 10:21:06 GMT</pubDate>
+            <description><![CDATA[Tags: music, copyright, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DeepSeek researcher pessimistic over AI's impact in startup's first public appearance since success ]]></title>
+            <link>https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/</link>
+            <guid>1762597453587</guid>
+            <pubDate>Sat, 08 Nov 2025 10:24:13 GMT</pubDate>
+            <description><![CDATA[Tags: deepseek, ai, ai-impact]]></description>
         </item>
     </channel>
 </rss>

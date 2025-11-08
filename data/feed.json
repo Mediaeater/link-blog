@@ -15,6 +15,42 @@
   ],
   "items": [
     {
+      "id": "1762597453587",
+      "url": "https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/",
+      "title": "DeepSeek researcher pessimistic over AI's impact in startup's first public appearance since success ",
+      "date_published": "2025-11-08T10:24:13.587Z",
+      "tags": [
+        "deepseek",
+        "ai",
+        "ai-impact"
+      ],
+      "content_text": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "summary": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, i...",
+      "content_html": "<blockquote>Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.</blockquote>\n<p><strong>Tags:</strong> deepseek, ai, ai-impact</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762597266263",
+      "url": "https://poisonpill.ai/",
+      "title": "Poison Pill — Invisible protection for music against AI training",
+      "date_published": "2025-11-08T10:21:06.263Z",
+      "tags": [
+        "music",
+        "copyright",
+        "ai"
+      ],
+      "content_text": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "summary": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, i...",
+      "content_html": "<blockquote>Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.</blockquote>\n<p><strong>Tags:</strong> music, copyright, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1762454546932",
       "url": "https://mitsloan.mit.edu/ideas-made-to-matter/emotion-ai-explained",
       "title": "Emotion AI, explained",
