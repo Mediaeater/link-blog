@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 09 Nov 2025 18:54:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Nov 2025 23:27:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -959,6 +959,13 @@
             <guid>1762712517435</guid>
             <pubDate>Sun, 09 Nov 2025 18:21:57 GMT</pubDate>
             <description><![CDATA[Tags: tasks, learning, knowledge, workflow, proficiency, machine-learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[mckinsey.com]]></title>
+            <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</link>
+            <guid>1762730837109</guid>
+            <pubDate>Sun, 09 Nov 2025 23:27:17 GMT</pubDate>
+            <description><![CDATA[Tags: report, ai, 2025, adoption, agents, workforce]]></description>
         </item>
     </channel>
 </rss>
