@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sun, 09 Nov 2025 23:27:38 GMT</dateCreated>
-    <dateModified>Sun, 09 Nov 2025 23:27:38 GMT</dateModified>
+    <dateCreated>Sun, 09 Nov 2025 23:32:12 GMT</dateCreated>
+    <dateModified>Sun, 09 Nov 2025 23:32:12 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -13,7 +13,7 @@
       <outline type="link" text="Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app" title="Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app" url="https://text.npr.org/nx-s1-5561999" htmlUrl="https://text.npr.org/nx-s1-5561999" description="Since the app never had an Android version, it was not on Google&apos;s Play Store. Still, a company spokesperson told NPR that it, too, &quot;removed similar apps for violations of our policies,&quot; falling in line with Apple&apos;s actions." created="Mon, 06 Oct 2025 20:36:31 GMT" category="distribution,censorship,1A,rights" />
     </outline>
     <outline text="2025" title="2025">
-      <outline type="link" text="mckinsey.com" title="mckinsey.com" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. Corporate AI theater is alive and well lol.
+      <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. 
 
 2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.
 
@@ -21,7 +21,7 @@
 
 4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.
 
-5/ Leaders who own AI personally are 3x more likely to scale it. Makes sense.
+5/ Leaders who own AI personally are 3x more likely to scale it.  
 
 6/ The winners use AI to transform how work gets done, not just speed it up.
 
@@ -31,13 +31,13 @@
 
 9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.
 
-10/ AI adoption is mainstream, but true transformation hasn’t started. Early days." created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
+10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="AI" title="AI">
       <outline type="link" text="Opinion | The A.I. Bubble Looks Real" title="Opinion | The A.I. Bubble Looks Real" url="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" htmlUrl="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" description="Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points." created="Tue, 14 Oct 2025 10:08:38 GMT" category="AI,business" />
     </outline>
     <outline text="adoption" title="adoption">
-      <outline type="link" text="mckinsey.com" title="mckinsey.com" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. Corporate AI theater is alive and well lol.
+      <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. 
 
 2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.
 
@@ -45,7 +45,7 @@
 
 4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.
 
-5/ Leaders who own AI personally are 3x more likely to scale it. Makes sense.
+5/ Leaders who own AI personally are 3x more likely to scale it.  
 
 6/ The winners use AI to transform how work gets done, not just speed it up.
 
@@ -55,7 +55,7 @@
 
 9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.
 
-10/ AI adoption is mainstream, but true transformation hasn’t started. Early days." created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
+10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="advertising" title="advertising">
       <outline type="link" text="search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to" title="search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to" url="https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662" htmlUrl="https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662" description="The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination that doesn’t celebrate Thanksgiving. It will begin running today on television, and in movie theaters and on social and digital media starting Saturday, according to the company. A Christmas-themed installment is set to follow." created="Fri, 31 Oct 2025 11:55:00 GMT" category="advertising,gen-ai,video-gen" />
@@ -66,7 +66,7 @@
       <outline type="link" text="Programming—not prompting—LMs" title="Programming—not prompting—LMs" url="https://dspy.ai/" htmlUrl="https://dspy.ai/" created="Fri, 05 Sep 2025 11:00:00 GMT" category="llm,agent,dspy" />
     </outline>
     <outline text="agents" title="agents">
-      <outline type="link" text="mckinsey.com" title="mckinsey.com" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. Corporate AI theater is alive and well lol.
+      <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. 
 
 2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.
 
@@ -74,7 +74,7 @@
 
 4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.
 
-5/ Leaders who own AI personally are 3x more likely to scale it. Makes sense.
+5/ Leaders who own AI personally are 3x more likely to scale it.  
 
 6/ The winners use AI to transform how work gets done, not just speed it up.
 
@@ -84,7 +84,7 @@
 
 9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.
 
-10/ AI adoption is mainstream, but true transformation hasn’t started. Early days." created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
+10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="agi" title="agi">
       <outline type="link" text="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." title="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." url="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" htmlUrl="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" description="LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional." created="Sun, 19 Oct 2025 10:04:21 GMT" category="agi,llm,ethics,code" />
@@ -135,7 +135,7 @@ https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 1
 It is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said." created="Mon, 08 Sep 2025 12:42:24 GMT" category="ai,openai,hollywood-ai,animation" />
       <outline type="link" text="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" title="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" url="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" htmlUrl="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" created="Sun, 07 Sep 2025 00:10:53 GMT" category="financial_times,geoffrey_hinton,lunch_with_the_ft,ai,ethics" />
       <outline type="link" text="AI surveillance should be banned while there is still time." title="AI surveillance should be banned while there is still time." url="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" htmlUrl="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" created="Sat, 06 Sep 2025 23:53:46 GMT" category="ai,surveillance,harms,ethics,dignity" />
-      <outline type="link" text="mckinsey.com" title="mckinsey.com" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. Corporate AI theater is alive and well lol.
+      <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. 
 
 2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.
 
@@ -143,7 +143,7 @@ It is funded by Vertigo’s Paris-based parent company, Federation Studios. The 
 
 4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.
 
-5/ Leaders who own AI personally are 3x more likely to scale it. Makes sense.
+5/ Leaders who own AI personally are 3x more likely to scale it.  
 
 6/ The winners use AI to transform how work gets done, not just speed it up.
 
@@ -153,7 +153,7 @@ It is funded by Vertigo’s Paris-based parent company, Federation Studios. The 
 
 9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.
 
-10/ AI adoption is mainstream, but true transformation hasn’t started. Early days." created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
+10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="ai generative-media" title="ai generative-media">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -1241,7 +1241,7 @@ revealing space weapons. Leveraging these weapons would enable deterrence-by-pun
 balancing resilience with a more proactive strategy that adopts a two-rival force concept
 would provide the United States with a framework to strengthen U.S. freedom of action in
 space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
-      <outline type="link" text="mckinsey.com" title="mckinsey.com" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. Corporate AI theater is alive and well lol.
+      <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. 
 
 2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.
 
@@ -1249,7 +1249,7 @@ space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,thr
 
 4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.
 
-5/ Leaders who own AI personally are 3x more likely to scale it. Makes sense.
+5/ Leaders who own AI personally are 3x more likely to scale it.  
 
 6/ The winners use AI to transform how work gets done, not just speed it up.
 
@@ -1259,7 +1259,7 @@ space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,thr
 
 9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.
 
-10/ AI adoption is mainstream, but true transformation hasn’t started. Early days." created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
+10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="republican" title="republican">
       <outline type="link" text="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" title="Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay" url="https://newsfeeds.net/" htmlUrl="https://newsfeeds.net/" description="Dick Cheney&apos;s character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office&apos;s leak of CIA agent Valerie Plame&apos;s identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.
@@ -1592,7 +1592,7 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
       <outline type="link" text="AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit." title="AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit." url="https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/" htmlUrl="https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/" description=" We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks." created="Sun, 09 Nov 2025 18:21:57 GMT" category="tasks,learning,knowledge,workflow,proficiency,machine-learning" />
     </outline>
     <outline text="workforce" title="workforce">
-      <outline type="link" text="mckinsey.com" title="mckinsey.com" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. Corporate AI theater is alive and well lol.
+      <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. 
 
 2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.
 
@@ -1600,7 +1600,7 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
 
 4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.
 
-5/ Leaders who own AI personally are 3x more likely to scale it. Makes sense.
+5/ Leaders who own AI personally are 3x more likely to scale it.  
 
 6/ The winners use AI to transform how work gets done, not just speed it up.
 
@@ -1610,7 +1610,7 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
 
 9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.
 
-10/ AI adoption is mainstream, but true transformation hasn’t started. Early days." created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
+10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="Uncategorized" title="Uncategorized">
       <outline type="link" text="AI scrapers request commented scripts" title="AI scrapers request commented scripts" url="https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/" htmlUrl="https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/" description="There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.
