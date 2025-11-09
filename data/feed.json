@@ -15,6 +15,65 @@
   ],
   "items": [
     {
+      "id": "1762712517435",
+      "url": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
+      "title": "AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit.",
+      "date_published": "2025-11-09T18:21:57.435Z",
+      "tags": [
+        "tasks",
+        "learning",
+        "knowledge",
+        "workflow",
+        "proficiency",
+        "machine-learning"
+      ],
+      "content_text": " We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks.",
+      "summary": " We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its o...",
+      "content_html": "<blockquote> We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks.</blockquote>\n<p><strong>Tags:</strong> tasks, learning, knowledge, workflow, proficiency, machine-learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762712414565",
+      "url": "https://www.dora.nyc/",
+      "title": "NYC Directory of Resources + Aid",
+      "date_published": "2025-11-09T18:20:14.565Z",
+      "tags": [
+        "food",
+        "nyc",
+        "aid",
+        "map",
+        "community"
+      ],
+      "content_text": "Food near me...",
+      "summary": "Food near me...",
+      "content_html": "<blockquote>Food near me...</blockquote>\n<p><strong>Tags:</strong> food, nyc, aid, map, community</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762712351851",
+      "url": "https://archive.is/KMRo4",
+      "title": "Big Tech’s Predatory Platform Model Doesn’t Have to Be Our Future",
+      "date_published": "2025-11-09T18:19:11.851Z",
+      "tags": [
+        "technology",
+        "society",
+        "social-contract"
+      ],
+      "content_text": "The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, is the path to riches. That is a prospect at once uninspiring and, for most people, almost by definition, out of reach. To recover the sense of optimism and opportunity that once characterized American commerce, Americans need to be confident that — even if they don’t work for a platform — they can reap what they sow.",
+      "summary": "The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, i...",
+      "content_html": "<blockquote>The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, is the path to riches. That is a prospect at once uninspiring and, for most people, almost by definition, out of reach. To recover the sense of optimism and opportunity that once characterized American commerce, Americans need to be confident that — even if they don’t work for a platform — they can reap what they sow.</blockquote>\n<p><strong>Tags:</strong> technology, society, social-contract</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1762598066782",
       "url": "https://alivetheory.net/",
       "title": "alive internet theory",

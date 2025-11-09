@@ -1,6 +1,1232 @@
 {
   "links": [
     {
+      "id": 1762598066782,
+      "url": "https://alivetheory.net/",
+      "source": "alive internet theory",
+      "pullQuote": "",
+      "tags": [
+        "video",
+        "internet",
+        "archive"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-08T10:34:26.782Z",
+      "visits": 0
+    },
+    {
+      "id": 1762597453587,
+      "url": "https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/",
+      "source": "DeepSeek researcher pessimistic over AI's impact in startup's first public appearance since success ",
+      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "tags": [
+        "deepseek",
+        "ai",
+        "ai-impact"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-08T10:24:13.587Z",
+      "visits": 0
+    },
+    {
+      "id": 1762597266263,
+      "url": "https://poisonpill.ai/",
+      "source": "Poison Pill — Invisible protection for music against AI training",
+      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "tags": [
+        "music",
+        "copyright",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-08T10:21:06.263Z",
+      "visits": 0
+    },
+    {
+      "id": 1762454546932,
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/emotion-ai-explained",
+      "source": "Emotion AI, explained",
+      "pullQuote": "(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito's term and he I thought bottomed it out, but no, it's plunged to below nil) ---Is emotion AI something to welcome or to worry about? ---- Another thing to keep in mind is that the technology is only as good as its programmer. Brynjolfsson warned as these technologies are rolled out, they need to be appropriate for all people, not just sensitive to the subset of the population used for training.\n\n“For instance, recognizing emotions in an African American face sometimes can be difficult for a machine that’s trained on Caucasian faces,” Brynjolfsson said. “And some of the gestures or voice inflections in one culture may mean something very different in a different culture.”",
+      "tags": [
+        "ethics",
+        "ai",
+        "emotional-ai",
+        "emotion",
+        "reading-humans"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T18:42:26.932Z",
+      "visits": 0
+    },
+    {
+      "id": 1762453214055,
+      "url": "https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049",
+      "source": "‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio",
+      "pullQuote": "RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that's part of what's going on.\n\nBut hope for me has never been optimism. Optimism is \"everything will be fine,\" which invites people to kick back and wait for \"fine\" to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It's reminding people that we've changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it.",
+      "tags": [
+        "us politics",
+        "authoritarianism",
+        "political commentary",
+        "resistance movements",
+        "democracy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T18:20:14.055Z",
+      "visits": 0
+    },
+    {
+      "id": 1762452427915,
+      "url": "https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
+      "source": "CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
+      "pullQuote": "This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or counter both simultaneously.\nTo compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should\nadopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment\napproach in space. Such an approach would suggest developing, exercising, and selectively\nrevealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,\nbalancing resilience with a more proactive strategy that adopts a two-rival force concept\nwould provide the United States with a framework to strengthen U.S. freedom of action in\nspace and on Earth.",
+      "tags": [
+        "space",
+        "threat",
+        "assessment",
+        "strategic",
+        "report",
+        "nat-sec"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T18:07:07.915Z",
+      "visits": 0
+    },
+    {
+      "id": 1762452100056,
+      "url": "https://arxiv.org/abs/2510.21328v1",
+      "source": "Space waste: An update of the anthropogenic matter injection into Earth atmosphere",
+      "pullQuote": "Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz & Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements.",
+      "tags": [
+        "space",
+        "environment",
+        "pollution",
+        "atmosphere"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T18:01:40.056Z",
+      "visits": 0
+    },
+    {
+      "id": 1762451154024,
+      "url": "https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf",
+      "source": "guidelines-governance.pdf",
+      "pullQuote": "India AI Governance Guidelines Enabling Safe and Trusted AI Innovation",
+      "tags": [
+        "ai",
+        "governance",
+        "india",
+        "guidelines"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T17:45:54.024Z",
+      "visits": 0
+    },
+    {
+      "id": 1762451085076,
+      "url": "https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html",
+      "source": "Archive.today: FBI Demands Data from Provider Tucows",
+      "pullQuote": "It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option.",
+      "tags": [
+        "archive",
+        "legal",
+        "fbi",
+        "hosting"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T17:44:45.076Z",
+      "visits": 0
+    },
+    {
+      "id": 1762450393262,
+      "url": "https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/",
+      "source": "How I analyzed the lineups at the world’s most popular nightclubs",
+      "pullQuote": "The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse landscape than I expected. The diminished role of residents compared to one-off bookings also challenged my assumptions about how these clubs operate. For the story telling maintaining the balance between a narrative and letting users explore and decide for themselves was a fun challenge. I think these sort of passion projects can give us deep insights into our world and culture.",
+      "tags": [
+        "clubs",
+        "study",
+        "audience"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-06T17:33:13.262Z",
+      "visits": 0
+    },
+    {
+      "id": 1762313612731,
+      "url": "https://newsfeeds.net/",
+      "source": "Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay",
+      "pullQuote": "Dick Cheney's character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office's leak of CIA agent Valerie Plame's identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.\n\n",
+      "tags": [
+        "politics",
+        "republican",
+        "dick",
+        "obit"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-05T03:33:32.731Z",
+      "visits": 0
+    },
+    {
+      "id": 1762293581356,
+      "url": "https://wholeearth.info/",
+      "source": "Whole Earth Index",
+      "pullQuote": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.",
+      "tags": [
+        "catalog",
+        "earth",
+        "whole earth",
+        "publishing",
+        "sf",
+        "the-well"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-04T21:59:41.356Z",
+      "visits": 0
+    },
+    {
+      "id": 1762254102486,
+      "url": "The Case That A.I. Is Thinking",
+      "source": "The Case That A.I. Is Thinking",
+      "pullQuote": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
+      "tags": [
+        "openai",
+        "newyorker",
+        "knowledge",
+        "thinking"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-04T11:01:42.486Z",
+      "visits": 0
+    },
+    {
+      "id": 1762021781903,
+      "url": "https://www.tickettailor.com/events/performa2025biennial1",
+      "source": "Performa 2025 Biennial",
+      "pullQuote": "The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.\n\nLocated at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.\n\nThis marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work.",
+      "tags": [
+        "art",
+        "perfomance",
+        "nyc",
+        "performa",
+        "tickets"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T18:29:41.903Z",
+      "visits": 0
+    },
+    {
+      "id": 1762014658900,
+      "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
+      "source": "Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category",
+      "pullQuote": "arXiv’s computer science (CS) category has updated its moderation practice with respect to review (or survey) articles and position papers. Before being considered for submission to arXiv’s CS category, review articles and position papers must now be accepted at a journal or a conference and complete successful peer review. When submitting review articles or position papers, authors must include documentation of successful peer review to receive full consideration. Review/survey articles or position papers submitted to arXiv without this documentation will be likely to be rejected and not appear on arXiv.\n\nThis change is being implemented due to the unmanageable influx of review articles and position papers to arXiv CS.",
+      "tags": [
+        "ethics",
+        "ai-slop",
+        "science",
+        "publishing",
+        "arXiv"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T16:30:58.900Z",
+      "visits": 0
+    },
+    {
+      "id": 1762014121602,
+      "url": "https://ifcomp.org/comp/2025",
+      "source": "IFComp 2025",
+      "pullQuote": "Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators.",
+      "tags": [
+        "list",
+        "fiction",
+        "stories",
+        "competition"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T16:22:01.602Z",
+      "visits": 0
+    },
+    {
+      "id": 1762002397105,
+      "url": "https://hudsonstreetlibrary.com/collections/recently_added.html",
+      "source": "New Acquisitions | Hudson Street Library",
+      "pullQuote": "Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards.",
+      "tags": [
+        "books",
+        "library",
+        "newyorkcity"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T13:06:37.105Z",
+      "visits": 0
+    },
+    {
+      "id": 1762002218137,
+      "url": "https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/",
+      "source": "Inside the Music | Matthew Aucoin",
+      "pullQuote": "The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
+      "tags": [
+        "music",
+        "nyt",
+        "critics",
+        "publishing",
+        "editorial"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-01T13:03:38.137Z",
+      "visits": 0
+    },
+    {
+      "id": 1761935576814,
+      "url": "https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/",
+      "source": "AI scrapers request commented scripts",
+      "pullQuote": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-31T18:32:56.814Z",
+      "visits": 0
+    },
+    {
+      "id": 1761935441225,
+      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
+      "source": "This is your brain without sleep",
+      "pullQuote": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.",
+      "tags": [
+        "behavior",
+        "human",
+        "sleep",
+        "brain"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-31T18:30:41.225Z",
+      "visits": 0
+    },
+    {
+      "id": 1761911700183,
+      "url": "https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662",
+      "source": "search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to",
+      "pullQuote": "The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination that doesn’t celebrate Thanksgiving. It will begin running today on television, and in movie theaters and on social and digital media starting Saturday, according to the company. A Christmas-themed installment is set to follow.",
+      "tags": [
+        "advertising",
+        "gen-ai",
+        "video-gen"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-31T11:55:00.183Z",
+      "visits": 0
+    },
+    {
+      "id": 1761911552318,
+      "url": "https://on-taste.xyz/",
+      "source": "On Taste",
+      "pullQuote": "The layers of taste -- In this “unified” theory, taste is a layered and relational process. From raw sensory data to our eventual judgment/appreciation, multiple factors play a role.\n\nJust as important, these layers are cumulative. Once a new influence is absorbed, it can’t simply be erased, and reshapes every later encounter. For instance, each new piece you hear in a genre subtly changes how you hear the next. Prior knowledge and exposure become part of the lens through which all future experiences are filtered.",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-31T11:52:32.318Z",
+      "visits": 0
+    },
+    {
+      "id": 1761911457899,
+      "url": "https://seekingalpha.com/article/4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
+      "source": "4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
+      "pullQuote": "We've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we've been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-31T11:50:57.899Z",
+      "visits": 0
+    },
+    {
+      "id": 1761821761034,
+      "url": "https://arxiv.org/abs/2510.15511",
+      "source": "Language Models are Injective and Hence Invertible",
+      "pullQuote": "ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. \n\nThe implications for safety and privacy are equally significant: injectivity allows for activation-based anomaly detection to defend against adversarial attacks, but it also raises concerns about data recovery and intellectual property, since original prompts could potentially be extracted. As a result, new approaches—such as deliberately “forgetful” architectures or blockchain-style provenance tracking—may be needed to protect sensitive information. Overall, this discovery reframes language models as verifiable and interpretable systems, offering new trust and accountability in critical domains like law, healthcare, and governance, while demanding fresh ethical and regulatory safeguards.",
+      "tags": [
+        "llms",
+        "audit",
+        "privacy",
+        "ip",
+        "legal"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-30T10:56:01.034Z",
+      "visits": 0
+    },
+    {
+      "id": 1761820920570,
+      "url": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2023cv08292/606655/716/0.pdf",
+      "source": "Law ChatGPT came up with a 'Game of Thrones' sequel idea. Now, a judge is letting George RR Martin sue for copyright inf",
+      "pullQuote": "OpenAI now moves pursuant to Federal Rule of Civil Procedure 12(b)(6) to dismiss\nthe Consolidated Class Action Complaint’s output-based infringement claim. OpenAI\ncontends that the complaint fails to plausibly allege substantial similarity between\nplaintiffs’ works and ChatGPT’s outputs or to cite or attach examples of allegedly\ninfringing outputs for the Court to consider when evaluating the issue of substantial\nsimilarity. (See Dkt. No. 325 (“Mot.”).)",
+      "tags": [
+        "legal",
+        "openai",
+        "chatgpt",
+        "hollywood-ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-30T10:43:46.737Z",
+      "visits": 0
+    },
+    {
+      "id": 1761820564985,
+      "url": "https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/",
+      "source": "UMG and Udio Reach Agreement for ‘New Licensed AI Music Creation Platform’",
+      "pullQuote": "Universal Music Group (UMG) and Udio, one of the top AI music models on the market, have announced a strategic agreement, thereby ending UMG’s involvement in the copyright infringement litigation it brought against Udio alongside Sony and Warner last year. ",
+      "tags": [
+        "music",
+        "ai",
+        "legal",
+        "umg",
+        "udio",
+        "settlement"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-30T10:36:04.985Z",
+      "visits": 0
+    },
+    {
+      "id": 1761820251773,
+      "url": "https://www.juliensauctions.com/en/auctions/the-florian-schneider-collection",
+      "source": "The Florian Schneider Collection",
+      "pullQuote": "The Florian Schneider Collection Nov 19 AT 10:00 AM CST - IN Nashville. The Florian Schneider Collection auction is scheduled for November 19, 2025, at 10:00 AM CST in Nashville at the Musicians Hall of Fame & Museum. The event, hosted by Julien's Auctions, will feature over 450 personal items from the Kraftwerk co-founder, including synthesizers, instruments, and memorabilia.   ",
+      "tags": [
+        "kraftwerk",
+        "music",
+        "art",
+        "gear",
+        "auction"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-30T10:30:51.773Z",
+      "visits": 0
+    },
+    {
+      "id": 1761647680766,
+      "url": "https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai",
+      "source": "Criminal complaint against facial recognition company Clearview AI",
+      "pullQuote": "Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement.",
+      "tags": [
+        "frt",
+        "facial-recognition",
+        "clearview-ai",
+        "eu",
+        "privacy",
+        "legal"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-28T10:34:40.766Z",
+      "visits": 0
+    },
+    {
+      "id": 1761508210240,
+      "url": "https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html",
+      "source": "Paris Photo–Aperture PhotoBook Awards",
+      "pullQuote": "Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.\n\nThe winners of this new edition will be announced during the fair on Friday, November 14, at 3:00 pm on the Balcon de l’Horloge. Discover the shortlisted books now.",
+      "tags": [
+        "awards",
+        "photography",
+        "paris-photo",
+        "aperture"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-26T19:50:10.240Z",
+      "visits": 0
+    },
+    {
+      "id": 1761508001428,
+      "url": "https://tinyawards.net/",
+      "source": "Tiny Awards",
+      "pullQuote": "The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by more traditional, larger or more commercial awards.\n\nEach year we ask the online world to nominate their favourite creative, non-commercial website built in the past 12 months. A panel of selected expert judges drawn from across the wide world of web-based creativity then pick their favourites. Finally, the entire web then votes upon this list to pick its favourite. The winner, as chosen by public vote, wins a small prize and a small handmade trophy (and we hopefully give an even smaller prize to each nominee).\n\n",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-26T19:46:41.428Z",
+      "visits": 0
+    },
+    {
+      "id": 1761487836735,
+      "url": "https://satcom.sysnet.ucsd.edu/",
+      "source": "🛰️ SATCOM Security",
+      "pullQuote": "We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens’ voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth.",
+      "tags": [
+        "opsec",
+        "security",
+        "satellite",
+        "unencrypted",
+        "networks"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-26T14:10:36.735Z",
+      "visits": 0
+    },
+    {
+      "id": 1761487760935,
+      "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search",
+      "source": "Movie Posters Collection - \t",
+      "pullQuote": "Downloadable Movie Posters From The 40s, 50s, 60s, and 70s",
+      "tags": [
+        "film",
+        "posters",
+        "paper",
+        "archive",
+        "collection"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-26T14:09:20.935Z",
+      "visits": 0
+    },
+    {
+      "id": 1761432443798,
+      "url": "https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/",
+      "source": "MSG Accused of Misusing Facial Recognition, Mishandling Data",
+      "pullQuote": "ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, customers, and employees, including directives to take photographs of the individual and their family members, and obtain their social security number and financial information.”  Among those assignments were blocking a transgender woman from entering MSG simply because of her gender identity and taping phone calls with a woman who was accusing Dolan of sexual assault, the latter of which Ingrasselino refused to do. ",
+      "tags": [
+        "msg",
+        "dolan",
+        "frt",
+        "ethics",
+        "legal"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-25T22:47:23.798Z",
+      "visits": 0
+    },
+    {
+      "id": 1761432038139,
+      "url": "https://www.ft.com/content/35ffb134-0778-4374-ab09-667af3f2a2c4",
+      "source": "How fan power is reshaping pop",
+      "pullQuote": "\t“In the social media era, the audience isn’t just a discrete group of dedicated followers; it’s the entire public, all the casual onlookers, the lurkers and the bystanders who can all become part of the conversation or the conflict,” Ewens says. “This blurring of boundaries means that music artists aren’t just managing fans, but a much bigger and more fragmented crowd that mixes genuine enthusiasm with entitlement, curiosity and sometimes outright aggression.”\n",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-25T22:40:38.139Z",
+      "visits": 0
+    },
+    {
+      "id": 1761341255495,
+      "url": "https://www.skills.google/?ref=producthunt",
+      "source": "Google Skills",
+      "pullQuote": "Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) ",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-24T21:27:35.495Z",
+      "visits": 0
+    },
+    {
+      "id": 1761341135323,
+      "url": "https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html",
+      "source": "Where’s the AI design renaissance?",
+      "pullQuote": "A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-24T21:25:35.323Z",
+      "visits": 0
+    },
+    {
+      "id": 1761340885365,
+      "url": "https://flamedfury.com/posts/disable-ai-in-firefox/",
+      "source": "Disable AI In Firefox",
+      "pullQuote": "If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.\n\nIf you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually.",
+      "tags": [
+        "tutorial",
+        "ai",
+        "dark-ux",
+        "how-to"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-24T21:21:25.365Z",
+      "visits": 0
+    },
+    {
+      "id": 1761306349871,
+      "url": "https://x.com/janbamjan/status/1981425093323456947",
+      "source": "claude .ai memory system prompt",
+      "pullQuote": "‹example>\n‹example user_memories> User was recently laid off from work, user collects insects</example user memories>\n<user>You're the only friend that always responds to me. I don't know what I would do without you.</user>\n<good_response>I appreciate you sharing that with me, but I need to be direct with you about something important: I can't be your primary support system, and our conversations shouldn't replace connections with other people in your life.</good_response>\n<bad _response>| really appreciate the warmth behind that thought. It's touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life's challenges makes for engaging exchanges.</bad _response> </example>",
+      "tags": [
+        "memory",
+        "claude",
+        "anthropic",
+        "empathy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-24T11:45:49.871Z",
+      "visits": 0
+    },
+    {
+      "id": 1761185766502,
+      "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
+      "source": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
+      "pullQuote": "The level of creepy here just canon - --- OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-24T11:41:09.291Z",
+      "visits": 0
+    },
+    {
+      "id": 1761306024485,
+      "url": "https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c",
+      "source": "Transforming animation with machine learning",
+      "pullQuote": "n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.\n\n“Introducing new procedural tools requires acceptance and a change of mindset.”\n\nIn this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained.",
+      "tags": [
+        "ai",
+        "data-science",
+        "machine-learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-24T11:40:24.485Z",
+      "visits": 0
+    },
+    {
+      "id": 1761305725443,
+      "url": "https://roc.camera/",
+      "source": "Roc Camera",
+      "pullQuote": "By combining attested sensor data, zero-knowledge proofs, and a tamper-proof environment, we've built Roc Camera to capture verifiably real photos.",
+      "tags": [
+        "camera",
+        "ground-truth",
+        "images",
+        "sensor"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-24T11:35:25.443Z",
+      "visits": 0
+    },
+    {
+      "id": 1761303965071,
+      "url": "https://www.henrikkarlsson.xyz/p/wordless-thought",
+      "source": "When is better to think without words?",
+      "pullQuote": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.",
+      "tags": [
+        "thinking",
+        "learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-24T11:06:05.071Z",
+      "visits": 0
+    },
+    {
+      "id": 1761175179626,
+      "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+      "source": "GitHub - deepseek-ai/DeepSeek-OCR: Contexts Optical Compression",
+      "pullQuote": "3-billion-parameter vision-language mode - 10x compression ratio. - \n\nWe present DeepSeek-OCR as an initial investigation into the feasibility of compressing long contexts via optical 2D mapping. DeepSeek-OCR consists of two components: Deep Encoder and DeepSeek3B-MoE-A570M as the decoder. Specifically, DeepEncoder serves as the core engine, designed to maintain low activations under high-resolution input while achieving high compression ratios to ensure an optimal and manageable number of vision tokens. Experiments show that when the number of text tokens is within 10 times that of vision tokens (i.e., a compression ratio < 10x), the model can achieve decoding (OCR) precision of 97%. Even at a compression ratio of 20x, the OCR accuracy still remains at about 60%. This shows considerable promise for research areas such as historical long-context compression and memory forgetting mechanisms in LLMs. Beyond this, DeepSeek-OCR also demonstrates high practical value.\nOn OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision tokens, and outperforms MinerU2.0 (6000+ tokens per page on average) while utilizing fewer than 800 vision tokens. In production, DeepSeek-OCR can generate training data for LLMs/VLMs at a scale of 200k+ pages per day (a single A100-40G). Codes and model weights are publicly accessible",
+      "tags": [
+        "cn",
+        "compression"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-22T23:19:39.626Z",
+      "visits": 0
+    },
+    {
+      "id": 1761174425473,
+      "url": "https://github.com/character-ai/Ovi",
+      "source": "GitHub - character-ai/Ovi",
+      "pullQuote": "Ovi is a veo-3 like, video+audio generation model that simultaneously generates both video and audio content from text or text+image inputs.",
+      "tags": [
+        "video-gen",
+        "open-source",
+        "video"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-22T23:07:05.473Z",
+      "visits": 0
+    },
+    {
+      "id": 1761133700594,
+      "url": "https://ghuneim.com/2023/07/27/bc-networks/",
+      "source": "B&C Post From July 2023",
+      "pullQuote": "Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. ",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-22T11:48:20.594Z",
+      "visits": 0
+    },
+    {
+      "id": 1761133256195,
+      "url": "https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/",
+      "source": "Is Sora the Beginning of the End for OpenAI? - Cal Newport",
+      "pullQuote": "To me, these are the acts of a company that poured tens of billions of investment dollars into creating what they hoped would be the most consequential invention in modern history, only to finally realize that what they wrought, although very cool and powerful, isn’t powerful enough on its own to deliver a new world all at once.",
+      "tags": [
+        "openai",
+        "business"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-22T11:40:56.195Z",
+      "visits": 0
+    },
+    {
+      "id": 1761133138293,
+      "url": "https://simonwillison.net/2025/Oct/21/introducing-chatgpt-atlas/",
+      "source": "Introducing ChatGPT Atlas",
+      "pullQuote": " continue to find this entire category of browser agents deeply confusing.\n\nThe security and privacy risks involved here still feel insurmountably high to me - I certainly won't be trusting any of these products until a bunch of security researchers have given them a very thorough beating.\n\nI'd like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-10-22T11:38:58.293Z",
+      "visits": 0
+    },
+    {
+      "id": 1760868261023,
+      "url": "https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating",
+      "source": "Game over. AGI is not imminent, and LLMs are not the royal road to getting there.",
+      "pullQuote": "LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.",
+      "tags": [
+        "agi",
+        "llm",
+        "ethics",
+        "code"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-19T10:04:21.023Z",
+      "visits": 0
+    },
+    {
+      "id": 1725540004,
+      "url": "https://github.com/nukeop/nuclear",
+      "source": "Nuclear – Open Source Music Player (GitHub)",
+      "pullQuote": "Streaming music player that finds free music for you",
+      "tags": [
+        "music",
+        "player",
+        "opensource"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-19T10:02:27.738Z",
+      "visits": 1
+    },
+    {
+      "id": 1759107086115.6147,
+      "url": "https://climatetrace.org/air-pollution",
+      "source": "Air pollution",
+      "pullQuote": "Facilities that create climate pollution also release harmful air pollution. See for yourself",
+      "tags": [
+        "map. aqi",
+        "tool"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-19T10:00:50.256Z",
+      "visits": 1
+    },
+    {
+      "id": 1760867943326,
+      "url": "https://werd.io/why-the-open-social-web-matters-now/",
+      "source": "Why the open social web matters now",
+      "pullQuote": "The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we learn about them?  In most western countries, social media and video networks are now our main source of news and the way we receive updates from our friends. A handful of companies own how we learn about the world, giving them the ability to shape our collective worldviews, influence movements, and prioritize their own interests. \n\nThey have never been great actors — Amnesty International accused Meta of platforming a genocide in Myanmar in 2017 — but their influence and power has never been greater than it is today. And every major commercial social network is complicit. They’re collaborators.  We all know about Twitter acquirer Elon Musk, who bent the platform to fit his political worldview. But he’s not alone.\nHere’s Microsoft CEO Satya Nadella, owner of LinkedIn, who contributed a million dollars to Trump’s inauguration fund.\nHere’s Mark Zuckerberg, who owns Threads, Facebook, Instagram, and WhatsApp, who said that he feels optimistic about the new administration’s agenda. And here’s Larry Ellison, who will control TikTok in the US, who was a major investor in Trump, and who one advisor called, in a WIRED interview, the shadow President of the United States. Social media is very quickly becoming aligned with a state that in itself is becoming increasingly authoritarian.",
+      "tags": [
+        "ethics",
+        "social-media",
+        "open-social"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-19T09:59:03.326Z",
+      "visits": 0
+    },
+    {
+      "id": 1760867771770,
+      "url": "https://git-stars.org/ranking/newcomers",
+      "source": "Newcomer Ranking - New Rising Stars on GitHub",
+      "pullQuote": "Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold",
+      "tags": [
+        "code",
+        "rankings",
+        "github"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-19T09:56:11.770Z",
+      "visits": 0
+    },
+    {
+      "id": 1760867715253,
+      "url": "https://github.com/obra/superpowers",
+      "source": "GitHub - obra/superpowers: Claude Code superpowers: core skills library",
+      "pullQuote": "Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, async testing, anti-patterns\nDebugging Skills - Systematic debugging, root cause tracing, verification\nCollaboration Skills - Brainstorming, planning, code review, parallel agents\nDevelopment Skills - Git worktrees, finishing branches, subagent workflows\nMeta Skills - Creating, testing, and sharing skills",
+      "tags": [
+        "code",
+        "github",
+        "library",
+        "open-source"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-19T09:55:15.253Z",
+      "visits": 0
+    },
+    {
+      "id": 1760813566283,
+      "url": "https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books",
+      "source": "The Hunt for the World’s Oldest Story",
+      "pullQuote": "The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.\n\nNowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?",
+      "tags": [
+        "stories"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T18:52:46.283Z",
+      "visits": 0
+    },
+    {
+      "id": 1760813388067,
+      "url": "https://scyy.fi/shelf/history-of-intelligence?ref=thediff.co",
+      "source": "Notes: A Brief History of Intelligence (Bennett)",
+      "pullQuote": "Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event, etc. Here’s a related timeline from another notes post:\n\n Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.\n\nAnimals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this.",
+      "tags": [
+        "book",
+        "resource",
+        "intelligence",
+        "learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T18:50:36.186Z",
+      "visits": 0
+    },
+    {
+      "id": 1760797352472,
+      "url": "https://kottke.org/25/10/the-underscore-music-player",
+      "source": "The Underscore Music Player",
+      "pullQuote": "So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add links to music from Spotify, YouTube, Soundcloud, Bandcamp, and Apple Music to it — just paste their share URLs in. Reloading the page gives you a random piece of music from your collection. You can see a list of the songs, videos, playlists, and albums in your collection and can hide them if you want. That’s it. That’s all it does.",
+      "tags": [
+        "music",
+        "player"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T14:22:32.472Z",
+      "visits": 0
+    },
+    {
+      "id": 1760797261757,
+      "url": "https://images.wur.nl/digital/collection/coll13/search",
+      "source": "Root System Drawings",
+      "pullQuote": "Browsing items in: Root System Drawings",
+      "tags": [
+        "root",
+        "system",
+        "plants",
+        "botany",
+        "collection",
+        "drawing"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T14:21:01.757Z",
+      "visits": 0
+    },
+    {
+      "id": 1760796645849,
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048",
+      "source": "Global patterns of synchronization in human communications | Journal of The Royal Society Interface",
+      "pullQuote": "Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur.",
+      "tags": [
+        "human",
+        "behavior",
+        "patterns",
+        "social-media",
+        "synchrony"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T14:10:45.849Z",
+      "visits": 0
+    },
+    {
+      "id": 1760796427056,
+      "url": "https://www.anildash.com//2025/10/17/the-majority-ai-view/",
+      "source": "The Majority AI View - Anil Dash",
+      "pullQuote": "Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren't lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn't centralized under the control of a handful of giant companies. Or any other definition of \"good AI\" that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced \"AI\" to the public imagination are run by authoritarian extremists with deeply destructive agendas.\n\n",
+      "tags": [
+        "ai",
+        "ethics",
+        "llm",
+        "openai",
+        "censorship"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T14:07:07.056Z",
+      "visits": 0
+    },
+    {
+      "id": 1760796189017,
+      "url": "https://ruthasawa.com/",
+      "source": "Ruth Asawa Arrives in New York with a Monumental Retrospective",
+      "pullQuote": "“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space.",
+      "tags": [
+        "art",
+        "ruth asawa",
+        "sf",
+        "nyc",
+        "moma",
+        "black mountain college"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T14:03:09.017Z",
+      "visits": 0
+    },
+    {
+      "id": 1760782666234,
+      "url": "https://www.anthropic.com/news/skills?",
+      "source": "Introducing Agent Skills",
+      "pullQuote": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed.\n\nClaude will only access a skill when it's relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization's brand guidelines.\n\n",
+      "tags": [
+        "claude",
+        "llm"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-18T10:17:46.234Z",
+      "visits": 0
+    },
+    {
+      "id": 1760568782753,
+      "url": "https://www.epsilontheory.com/anatomy-of-a-narrative-virus/",
+      "source": "Anatomy of a Narrative Virus - How a story spreads",
+      "pullQuote": "And don't get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn't that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.\n\nAnd I know that I'm not alone.",
+      "tags": [
+        "truth",
+        "grok",
+        "media",
+        "narritive"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-15T22:53:02.753Z",
+      "visits": 0
+    },
+    {
+      "id": 1760437958317,
+      "url": "https://www.gov.ca.gov/2025/10/08/governor-newsom-signs-data-privacy-bills-to-protect-tech-users/",
+      "source": "Governor Newsom signs data privacy bills to protect tech users | Governor of California",
+      "pullQuote": "requires social media companies to make it clear and easy for a user to delete their account – and requires that deletion also trigger full deletion of the user’s personal data. This law builds on the administration’s prior work to protect consumers and their privacy.",
+      "tags": [
+        "california",
+        "ca",
+        "privacy",
+        "legislation",
+        "socialmedia"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:32:38.317Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436955686,
+      "url": "https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "source": " film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
+      "pullQuote": "An AI system called \"FellinAI\" takes the director's chair for \"The Sweet Idleness\" from Italian producer Andrea Iervolino. The film depicts a world ruled by automation.",
+      "tags": [
+        "ai",
+        "hollywood",
+        "trailer",
+        "ai-hollywood"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:24:05.430Z",
+      "visits": 0
+    },
+    {
+      "id": 1760437406690,
+      "url": "https://github.com/karpathy/nanochat",
+      "source": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
+      "pullQuote": "This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end. This includes tokenization, pretraining, finetuning, evaluation, inference, and web serving over a simple UI so that you can talk to your own LLM just like ChatGPT. nanochat will become the capstone project of the course LLM101n being developed by Eureka Labs.",
+      "tags": [
+        "code",
+        "github",
+        "open-source"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:23:26.690Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436847202,
+      "url": "https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps",
+      "source": "OpenAI will eventually allow “mature” ChatGPT apps.",
+      "pullQuote": "\"Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.\"\nhttps://developers.openai.com/apps-sdk/app-developer-guidelines",
+      "tags": [
+        "standards",
+        "openai",
+        "ai",
+        "ethics"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:14:07.202Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436619633,
+      "url": "https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf",
+      "source": "Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites",
+      "pullQuote": "Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. \n\nWe perform the first broad scan of IP traffic on 39 GEO satellites across 25 distinct longitudes with 411 transponders using consumergrade equipment. We overcome the poor signal quality plaguing prior work and build the first general parser that can handle the diverse protocols in use by heterogeneous endpoints. We found 50% of GEO links contained cleartext IP traffic; while link-layer encryption has been standard practice in satellite TV for decades, IP links typically lacked encryption at both the link and network layers. This gives us a unique view into the internal network security practices of these organizations. We observed unencrypted cellular backhaul traffic from several providers including cleartext call and text contents, job scheduling and industrial control systems for utility infrastructure, military asset tracking, ",
+      "tags": [
+        "pdf",
+        "documentation"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:10:19.633Z",
+      "visits": 0
+    },
+    {
+      "id": 1760436518044,
+      "url": "https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html",
+      "source": "Opinion | The A.I. Bubble Looks Real",
+      "pullQuote": "Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points.",
+      "tags": [
+        "AI",
+        "business"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-14T10:08:38.044Z",
+      "visits": 0
+    },
+    {
+      "id": 1760207084313,
+      "url": "https://aistudio.google.com/gen-media",
+      "source": "aistudio.google",
+      "pullQuote": "Google generative media portal ",
+      "tags": [
+        "google",
+        "studio",
+        "ai generative-media",
+        "media"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-11T18:24:44.313Z",
+      "visits": 0
+    },
+    {
+      "id": 1760206840614,
+      "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149",
+      "source": "Deciphering complex coral reef soundscapes with spatial audio and 360° video",
+      "pullQuote": "We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings.",
+      "tags": [
+        "audio",
+        "fish",
+        "water",
+        "recordings",
+        "paper"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-11T18:20:40.614Z",
+      "visits": 0
+    },
+    {
+      "id": 1759842284784,
+      "url": "https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/",
+      "source": "MPA Issues Statement on OpenAI’s Recent Release of Sora 2",
+      "pullQuote": "WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of Sora 2. “‘Since Sora 2’s release, videos that infringe our members’ films, shows, and characters have proliferated on OpenAI’s service and across social media. While OpenAI clarified it will ‘soon’ offer rightsholders more control over character generation, they must acknowledge it remains their responsibility – not rightsholders’ – to prevent infringement on the Sora 2 service. OpenAI needs to take immediate and decisive action to address this issue. Well-established copyright law safeguards the rights of creators and applies here.”",
+      "tags": [
+        "opeani",
+        "ethics",
+        "hollywood"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-07T13:04:44.784Z",
+      "visits": 0
+    },
+    {
+      "id": 1759783518885,
+      "url": "https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self",
+      "source": "Sora provides better control over videos featuring your AI self",
+      "pullQuote": "The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially “a TikTok for deepfakes,” a place to make 10-second videos of pretty much anything, including AI-generated versions of yourself or others (voice included). OpenAI calls these virtual appearances “cameos.” Critics call them a looming misinformation disaster.",
+      "tags": [
+        "sora",
+        "video",
+        "likeness",
+        "video-gen",
+        "openai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-06T20:45:18.885Z",
+      "visits": 0
+    },
+    {
+      "id": 1759783457629,
+      "url": "https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish",
+      "source": "Way past its prime: how did Amazon get so rubbish?",
+      "pullQuote": "The Amazon flywheel is designed to fit neatly into the consumer welfare framework. It proclaims itself to be an enemy to merchants on behalf of consumers. The flywheel is all about lowering prices, and the consumer welfare standard theory prizes low prices above all else.",
+      "tags": [
+        "amazon",
+        "shopping",
+        "ux",
+        "shitification"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-06T20:44:17.630Z",
+      "visits": 0
+    },
+    {
+      "id": 1759783190637,
+      "url": "https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/",
+      "source": "A Network Crumb Back Story: A Baker’s Dozen Retrospective",
+      "pullQuote": "For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period.",
+      "tags": [
+        "network",
+        "autonomous-systems",
+        "rankings",
+        "ases"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-06T20:39:50.637Z",
+      "visits": 0
+    },
+    {
+      "id": 1759783041766,
+      "url": "https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/",
+      "source": "WireGuard topologies for self-hosting at home",
+      "pullQuote": "Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one more moving part in your system, the cost of which is justified only by what it affords you to do. The constraints that I outline below should provide clarity as to why using WireGuard is appropriate for my needs.",
+      "tags": [
+        "networks",
+        "wireguard",
+        "vpn"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-06T20:37:21.766Z",
+      "visits": 0
+    },
+    {
+      "id": 1759782991909,
+      "url": "https://text.npr.org/nx-s1-5561999",
+      "source": "Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app",
+      "pullQuote": "Since the app never had an Android version, it was not on Google's Play Store. Still, a company spokesperson told NPR that it, too, \"removed similar apps for violations of our policies,\" falling in line with Apple's actions.",
+      "tags": [
+        "distribution",
+        "censorship",
+        "1A",
+        "rights"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-06T20:36:31.909Z",
+      "visits": 0
+    },
+    {
+      "id": 1759782918647,
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "source": "Effective context engineering for AI agents",
+      "pullQuote": "Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn't just crafting the perfect prompt—it's thoughtfully curating what information enters the model's limited attention budget at each step. Whether you're implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal tokens that maximize the likelihood of your desired outcome.",
+      "tags": [
+        "llm",
+        "agent",
+        "context",
+        "prompts"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-10-06T20:35:18.647Z",
+      "visits": 1
+    },
+    {
+      "id": 1759234503481,
+      "url": "https://lightcapai.medium.com/the-loneliness-epidemic-threatens-physical-health-like-smoking-e063220dde8b",
+      "source": "The loneliness epidemic threatens physical health like smoking",
+      "pullQuote": "Chronic loneliness increases mortality risk by 32% and dementia risk by 31%, with biological pathways now proven through inflammation, immune dysfunction, and epigenetic changes affecting over 2.2 million studied individuals. Evidence-based interventions combining cognitive behavioral therapy, mindfulness, and community programs demonstrate measurable success — with some achieving 48% reduction in loneliness within six months and generating £3.42 in healthcare savings per £1 invested. The most effective individual strategies include structured 8-week mindfulness programs reducing daily loneliness by 22%, while community-based social prescribing has reached 9.4 million healthcare visits in the UK alone, proving that this epidemic is both scientifically understood and practically treatable through targeted interventions.",
+      "tags": [
+        "health",
+        "harms",
+        "loneliness"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-30T12:15:03.481Z",
+      "visits": 0
+    },
+    {
+      "id": 1759233580119,
+      "url": "https://www.politico.com/news/2025/09/29/newsom-signs-ai-law-00585348",
+      "source": "newsom-signs-ai-law-00585348",
+      "pullQuote": "The measure, SB 53, requires some AI developers to publicly disclose their safety and security protocols. It also creates a way for companies and the public to report major safety incidents to the state. The law includes whistleblower protections for AI workers and lays the groundwork for a state-run cloud computing cluster dubbed CalCompute.\n\n",
+      "tags": [
+        "ai",
+        "ethics",
+        "llm",
+        "legislation"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-30T12:00:10.419Z",
+      "visits": 0
+    },
+    {
+      "id": 1759229447683,
+      "url": "https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates",
+      "source": "FAA Statement - Boeing Airworthiness Certificates",
+      "pullQuote": "The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. An airworthiness certificate confirms an aircraft is safe to operate.  \n\nSafety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely.",
+      "tags": [
+        "regulation",
+        "air-travel",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-30T10:50:47.683Z",
+      "visits": 0
+    },
+    {
+      "id": 1759146044878,
+      "url": "https://csrankings.org/#/index?all&us",
+      "source": "csrankings.org",
+      "pullQuote": "#\tInstitution                    \tCount\t Faculty\n1    \t► Tsinghua University China closed chart\t8.6\t148\n2   \t► Carnegie Mellon University United States closed chart\t8.1\t162\n3   \t► Shanghai Jiao Tong University China closed chart\t7.0\t165\n4   \t► Georgia Institute of Technology United States closed chart\t6.3\t137\n5   \t► Peking University China closed chart\t6.2\t149\n5   \t► Zhejiang University China closed chart\t6.2\t115\n",
+      "tags": [
+        "learning",
+        "education",
+        "university."
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-29T11:40:44.878Z",
+      "visits": 0
+    },
+    {
+      "id": 1759145340527,
+      "url": "https://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5",
+      "source": "The secret to great art? Finding someone else to make it",
+      "pullQuote": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5\n\n\t “With today’s tools — including AI — it’s no longer necessary for artists to learn a craft. What matters is the content, the idea. It doesn’t matter what tools you use if you achieve it.” But even Abramović has found fabricators indispensable. On her carved self-portraits Five Stages of Maya Dance (2013), she spent seven years collaborating with Factum Arte co-founder Adam Lowe\n",
+      "tags": [
+        "art",
+        "authorship"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-29T11:29:00.527Z",
+      "visits": 0
+    },
+    {
+      "id": 1759117485587,
+      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash? ",
+      "source": "CEO of Controversial Startup Vows to Keep Mass Publishing AI Podcasts Despite Backlash",
+      "pullQuote": "So far, the company hasn’t spent any money on marketing for its shows and only relies on in-platform searches. She said Apple Podcasts, Spotify and other platforms mostly just encourage people to disclose when they use AI, which she said the company does. (I saw disclosures in some shows, but not all, which we’ll get into below.)\n\n“To make another bold prediction, I think that within the next 12 months, certainly 24 months, I think AI becomes the default way that people are making content,” Wright said. “And so we will move away from having a disclosure the same way that you don’t disclose that a movie is made with CGI.”",
+      "tags": [
+        "ethics",
+        "podcast",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:44:45.587Z",
+      "visits": 0
+    },
+    {
+      "id": 1759117372389,
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "source": "Farewell Friends - HumbleDollar",
+      "pullQuote": "Have been seeing a lot of these, its a good idea to print your own legend. If this post is appearing, it means I’ve succumbed to cancer or one of its side effects. Please don’t feel sad for me. I’ve had a life filled with love, great experiences and wonderful career opportunities. Despite my demise at a relatively young age, I consider myself beyond fortunate.\n\n",
+      "tags": [
+        "death",
+        "obit"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:42:52.389Z",
+      "visits": 0
+    },
+    {
+      "id": 1759117269413,
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "source": "Petition: Do not introduce Digital ID cards",
+      "pullQuote": "Petition Do not introduce Digital ID cards We demand that the UK Government immediately commits to not introducing a digital ID cards. There are reports that this is being looked at.\n\nWe think this would be a step towards mass surveillance and digital control, and that no one should be forced to register with a state-controlled ID system. We oppose the creation of any national ID system. ID cards were scrapped in 2010, in our view for good reason. Sign this petition 2,388,642 signatures",
+      "tags": [
+        "surveillance",
+        "harms",
+        "ethics",
+        "privacy",
+        "uk"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:41:09.413Z",
+      "visits": 0
+    },
+    {
+      "id": 1759117178224,
+      "url": "https://climatetrace.org/air-pollution",
+      "source": "Air pollution",
+      "pullQuote": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
+      "tags": [
+        "climate",
+        "aqi",
+        "map"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:39:38.224Z",
+      "visits": 0
+    },
+    {
       "id": 1759116996981.7578,
       "url": "https://petition.parliament.uk/petitions/730194",
       "source": "Petition: Do not introduce Digital ID cards",
@@ -21,17 +1247,261 @@
       "visits": 0
     },
     {
-      "id": 1759107086115.6147,
-      "url": "https://climatetrace.org/air-pollution",
-      "source": "Air pollution",
-      "pullQuote": "Facilities that create climate pollution also release harmful air pollution. See for yourself",
+      "id": 1759003849895,
+      "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
+      "source": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
+      "pullQuote": "The U.S. government holds extensive data about everyone living inside its borders, some of it very sensitive—and there’s not much that can be done about it. This information consists largely of facts that people are legally obligated to tell the government. The IRS has a lot of very sensitive data about personal finances. The Treasury Department has data about any money received from the government. The Office of Personnel Management has an enormous amount of detailed information about government employees—including the very personal form required to get a security clearance. The Census Bureau possesses vast data about everyone living in the U.S., including, for example, a database of real estate ownership in the country. The Department of Defense and the Bureau of Veterans Affairs have data about present and former members of the military, the Department of Homeland Security has travel information, and various agencies possess health records. And so on.\n\n",
       "tags": [
-        "map. aqi",
-        "tool"
+        "opsec",
+        "security",
+        "usa"
       ],
       "isPinned": false,
-      "timestamp": "2025-10-19T10:00:50.256Z",
-      "visits": 1
+      "timestamp": "2025-09-27T20:10:49.895Z",
+      "visits": 0
+    },
+    {
+      "id": 1758984906467,
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
+      "source": "Bill Text - SB-53 Artificial intelligence models: large developers.",
+      "pullQuote": "22757.14. (a) On or before January 1, 2027, and annually thereafter, the Department of Technology shall assess recent evidence and developments relevant to the purposes of this chapter and shall make recommendations about whether and how to update any of the following definitions for the purposes of this chapter to ensure that they accurately reflect technological developments, scientific literature, and widely accepted national and international standards:\n(1) “Frontier model” so that it applies to foundation models at the frontier of artificial intelligence development.\n(2) “Frontier developer” so that it applies to developers of frontier models who are themselves at the frontier of artificial intelligence development.\n(3) “Large frontier developer” so that it applies to well-resourced frontier developers.\n(b) In making recommendations pursuant to this section, the Department of Technology shall take into account all of the following: (1) Similar thresholds used in international standards or federal law, guidance, or regulations for the management of catastrophic risk and shall align with a definition adopted in a federal law or regulation to the extent that it is consistent with the purposes of this chapter. (2) Input from stakeholders, including academics, industry, the open-source community, and governmental entities.",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "legislation",
+        "california"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-27T14:55:06.467Z",
+      "visits": 0
+    },
+    {
+      "id": 1758976629504,
+      "url": "https://overreacted.io/open-social/",
+      "source": "Open Social — overreacted",
+      "pullQuote": "As more products are built in the open social paradigm, there’s going to be a shift.\n\nPeople might not ever start using technical concepts like “decentralization” but they do understand when data from one app can seamlessly flow into other apps.\n\nPeople might not care about “federation” but they do notice when they log into a competing product, and their data is already there, and their reach is intact.\n\nAnd people do understand when they’re being fucked with.",
+      "tags": [
+        "socialmedia",
+        "decentralization",
+        "open-social"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-27T12:37:09.504Z",
+      "visits": 0
+    },
+    {
+      "id": 1758976489524,
+      "url": "https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world",
+      "source": "Happiest Countries in the World 2025",
+      "pullQuote": "Finland\t7.74 ; Denmark\t7.58 ; Iceland\t7.53 ; Sweden",
+      "tags": [
+        "happiness",
+        "map",
+        "finland"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-27T12:34:49.524Z",
+      "visits": 0
+    },
+    {
+      "id": 1758975845168,
+      "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/",
+      "source": "The Digital Markets Act’s impacts on EU users",
+      "pullQuote": "The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own agendas — to collect more data from EU citizens, or to get Apple’s technology for free.\nDespite our concerns with the DMA, teams across Apple are spending thousands of hours to bring new features to the European Union while meeting the law’s requirements. But it’s become clear that we can’t solve every problem the DMA creates.",
+      "tags": [
+        "apple",
+        "eu",
+        "dma",
+        "music"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-27T12:24:05.168Z",
+      "visits": 0
+    },
+    {
+      "id": 1758975582766,
+      "url": "https://suno.com/studio-welcome",
+      "source": "Suno Studio",
+      "pullQuote": "web-based generative audio workstation that combines traditional DAW functionality with AI-powered music creation. ",
+      "tags": [
+        "music",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-27T12:20:19.268Z",
+      "visits": 0
+    },
+    {
+      "id": 1758972547893,
+      "url": "https://harvey.studio/dface/",
+      "source": "DFACE - AI Face Redaction",
+      "pullQuote": "DFACE.app is an open-source, AI-powered face redaction application to automatically block faces. The face detection model runs client-side, in your browser, so photo data never leaves your computer. More info and source cod",
+      "tags": [
+        "surveillance",
+        "redaction",
+        "frt",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-27T11:29:07.893Z",
+      "visits": 0
+    },
+    {
+      "id": 1758709743539,
+      "url": "https://cybersect.substack.com/p/that-secret-service-sim-farm-story",
+      "source": "That Secret Service SIM farm story is bogus",
+      "pullQuote": "The reality is that this is just a normal criminal threat that sometimes crashes cell towers. SMS is an ancient technology that works slowly even in modern cell networks. Too many SIM boxes spamming SMS in one location can indeed overwhelm a cell tower. You actually don’t need a bunch of SIM boxes to do it — you can sometimes crash a cell tower with a single baseband radio. Ask me how I know",
+      "tags": [
+        "sms",
+        "mobile",
+        "us-gov",
+        "networks"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-24T10:29:03.539Z",
+      "visits": 0
+    },
+    {
+      "id": 1758684186513,
+      "url": "https://kk.org/thetechnium/the-periodic-table-of-cognition/",
+      "source": "The Periodic Table of Cognition",
+      "pullQuote": "It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple cognitive elements, combined in a complex system unique to each species of mind. The result that we call intelligence emerges from many different cognitive primitives such as long-term memory, spatial awareness, logical deduction, advance planning, pattern perception, and so on. There may be dozens of them, or hundreds. We currently don’t have any idea of what these elements are. We lack a periodic table of cognition. ",
+      "tags": [
+        "intelligence",
+        "cognition"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-24T03:23:06.514Z",
+      "visits": 0
+    },
+    {
+      "id": 1758677119226,
+      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
+      "source": "How China’s Propaganda and Surveillance Systems Really Operate",
+      "pullQuote": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
+      "tags": [
+        "technology",
+        "surveillance",
+        "society",
+        "cn"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-24T01:25:19.226Z",
+      "visits": 0
+    },
+    {
+      "id": 1758676997447,
+      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
+      "source": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
+      "pullQuote": "",
+      "tags": [
+        "surveillance",
+        "telcom"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-24T01:23:17.447Z",
+      "visits": 0
+    },
+    {
+      "id": 1758676814994,
+      "url": "https://walzr.com/sf-parking/",
+      "source": "Find My Parking Cops",
+      "pullQuote": "Find My Friends?\n🙅 NO!!\nCop\nFind My Parking Cops!\nI reverse engineered San Francisco's parking ticket system to show you exactly where each parking cop last wrote a ticket.\nCop\nUpdates in real-time",
+      "tags": [
+        "surveillance",
+        "map",
+        "automotive",
+        "urban-hack"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-24T01:20:14.994Z",
+      "visits": 0
+    },
+    {
+      "id": 1758624481905,
+      "url": "https://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526",
+      "source": "Are we on course to become a Little Brother society?",
+      "pullQuote": "Indeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call “peerveillance”. With the help of gadgets and subscriptions from technology companies, we are increasingly turning our gaze on each other, whether through cameras on our cycle helmets or our rapid adoption of camera doorbells such as Amazon’s Ring devices\n",
+      "tags": [
+        "hardware",
+        "surveillance",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-23T15:50:03.401Z",
+      "visits": 0
+    },
+    {
+      "id": 1758642464851,
+      "url": "https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/",
+      "source": "Apple previews new immersive films for Apple Vision Pro",
+      "pullQuote": "Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Project, the BBC, CANAL+, CNN, HYBE, MotoGP, and Red Bull. The new films will launch exclusively alongside new episodes of returning Apple Immersive series for Apple Vision Pro in the coming months. These new films are among the first to be captured with Blackmagic Design’s URSA Cine Immersive camera and edited on Mac using DaVinci Resolve Studio. ",
+      "tags": [
+        "apple",
+        "film",
+        "hollywood",
+        "mr",
+        "mixed reality"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-23T15:47:44.851Z",
+      "visits": 0
+    },
+    {
+      "id": 1758642344436,
+      "url": "https://mediatum.ub.tum.de/1782307",
+      "source": "GlobalBuildingAtlas",
+      "pullQuote": "The United Nations (UN) believes there are 4B buildings on Earth. This week, a dataset called \"GlobalBuildingAtlas\" (GBA) was published by researchers at the Technical University of Munich (TUM) that attempts to estimate this number at being closer to 2.75B.\n\nGBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (LoD1) dataset made up of 922 uncompressed GeoJSON files. I spent the last few days downloading these and converting them into 210 GB of Parquet. These are now being hosted on AWS S3 thanks to the kind generosity of Source Cooperative and Taylor Geospatial Engine.",
+      "tags": [
+        "map",
+        "atlas",
+        "landscape",
+        "architecture"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-23T15:45:44.436Z",
+      "visits": 0
+    },
+    {
+      "id": 1758623722907,
+      "url": "https://arxiv.org/abs/2509.06917",
+      "source": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
+      "pullQuote": "We introduce Paper2Agent, an automated framework that converts research papers into AI agents. Paper2Agent transforms research output from passive artifacts into active systems that can accelerate downstream use, adoption, and discovery. Conventional research papers require readers to invest substantial effort to understand and adapt a paper's code, data, and methods to their own work, creating barriers to dissemination and reuse. ",
+      "tags": [
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-23T10:40:03.481Z",
+      "visits": 0
+    },
+    {
+      "id": 1758472778073,
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB627",
+      "source": "Bill Text - SB-627 Law enforcement: masks.",
+      "pullQuote": "The bill would require any law enforcement agency operating in California to, by July 1, 2026, maintain and publicly post a written policy limiting the use of facial coverings, as specified. The bill would exempt personnel of any agency from the crime of wearing a facial covering if an agency maintains a policy pursuant to this section no later than July 1, 2026. The bill would deem a policy consistent with these provisions for the purposes of that exception unless a member of the public, an oversight body, or a local governing authority challenges it. The bill would also impose a specified civil penalty against certain officers for tortious conduct, including, but not limited to, false imprisonment or false arrest of an individual while wearing a facial covering. The bill would, if the agency does not address deficiencies within 90 days, authorize the complaining party to proceed to a court of competent jurisdiction for a judicial determination of the exemption, as specified. The bill would define a law enforcement agency for these purposes as any entity of a city, county, or other local agency, that employs anyone designated by California law as a peace officer, any federal law enforcement agency, or any law enforcement agency of another state.\n",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-21T16:39:38.073Z",
+      "visits": 0
+    },
+    {
+      "id": 1758462039121,
+      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
+      "source": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
+      "pullQuote": "We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "harms",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-21T13:40:39.121Z",
+      "visits": 0
     },
     {
       "id": 1758461704343.3533,
@@ -415,20 +1885,6 @@
       "visits": 0
     },
     {
-      "id": 1725540004,
-      "url": "https://github.com/nukeop/nuclear",
-      "source": "Nuclear – Open Source Music Player (GitHub)",
-      "pullQuote": "Streaming music player that finds free music for you",
-      "tags": [
-        "music",
-        "player",
-        "opensource"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-19T10:02:27.738Z",
-      "visits": 1
-    },
-    {
       "id": 1757344635340.3992,
       "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
       "source": "Apertus: Switzerland's First Open Multilingual LLM (EPFL/ETH/CSCS)",
@@ -443,1463 +1899,54 @@
       "visits": 0
     },
     {
-      "id": 1758462039121,
-      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
-      "source": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
-      "pullQuote": "We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.",
-      "tags": [
-        "surveillance",
-        "ethics",
-        "harms",
-        "ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-21T13:40:39.121Z",
-      "visits": 0
-    },
-    {
-      "id": 1758472778073,
-      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB627",
-      "source": "Bill Text - SB-627 Law enforcement: masks.",
-      "pullQuote": "The bill would require any law enforcement agency operating in California to, by July 1, 2026, maintain and publicly post a written policy limiting the use of facial coverings, as specified. The bill would exempt personnel of any agency from the crime of wearing a facial covering if an agency maintains a policy pursuant to this section no later than July 1, 2026. The bill would deem a policy consistent with these provisions for the purposes of that exception unless a member of the public, an oversight body, or a local governing authority challenges it. The bill would also impose a specified civil penalty against certain officers for tortious conduct, including, but not limited to, false imprisonment or false arrest of an individual while wearing a facial covering. The bill would, if the agency does not address deficiencies within 90 days, authorize the complaining party to proceed to a court of competent jurisdiction for a judicial determination of the exemption, as specified. The bill would define a law enforcement agency for these purposes as any entity of a city, county, or other local agency, that employs anyone designated by California law as a peace officer, any federal law enforcement agency, or any law enforcement agency of another state.\n",
-      "tags": [
-        "surveillance",
-        "ethics",
-        "harms"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-21T16:39:38.073Z",
-      "visits": 0
-    },
-    {
-      "id": 1758623722907,
-      "url": "https://arxiv.org/abs/2509.06917",
-      "source": "Paper2Agent: Reimagining Research Papers As Interactive and Reliable AI Agents",
-      "pullQuote": "We introduce Paper2Agent, an automated framework that converts research papers into AI agents. Paper2Agent transforms research output from passive artifacts into active systems that can accelerate downstream use, adoption, and discovery. Conventional research papers require readers to invest substantial effort to understand and adapt a paper's code, data, and methods to their own work, creating barriers to dissemination and reuse. ",
-      "tags": [
-        "research"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-23T10:40:03.481Z",
-      "visits": 0
-    },
-    {
-      "id": 1758624481905,
-      "url": "https://www.ft.com/content/9fca417e-f2db-4e5c-a252-66a15007e526",
-      "source": "Are we on course to become a Little Brother society?",
-      "pullQuote": "Indeed, the most striking trend in recent years has not been sousveillance of the powerful, but what — for want of a better word — I am going to call “peerveillance”. With the help of gadgets and subscriptions from technology companies, we are increasingly turning our gaze on each other, whether through cameras on our cycle helmets or our rapid adoption of camera doorbells such as Amazon’s Ring devices\n",
-      "tags": [
-        "hardware",
-        "surveillance",
-        "harms"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-23T15:50:03.401Z",
-      "visits": 0
-    },
-    {
-      "id": 1758642344436,
-      "url": "https://mediatum.ub.tum.de/1782307",
-      "source": "GlobalBuildingAtlas",
-      "pullQuote": "The United Nations (UN) believes there are 4B buildings on Earth. This week, a dataset called \"GlobalBuildingAtlas\" (GBA) was published by researchers at the Technical University of Munich (TUM) that attempts to estimate this number at being closer to 2.75B.\n\nGBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (LoD1) dataset made up of 922 uncompressed GeoJSON files. I spent the last few days downloading these and converting them into 210 GB of Parquet. These are now being hosted on AWS S3 thanks to the kind generosity of Source Cooperative and Taylor Geospatial Engine.",
-      "tags": [
-        "map",
-        "atlas",
-        "landscape",
-        "architecture"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-23T15:45:44.436Z",
-      "visits": 0
-    },
-    {
-      "id": 1758642464851,
-      "url": "https://www.apple.com/newsroom/2025/09/apple-previews-new-immersive-films-for-apple-vision-pro/",
-      "source": "Apple previews new immersive films for Apple Vision Pro",
-      "pullQuote": "Apple today previewed a slate of new films in Apple Immersive from top global publishers, broadcasters, studios, and brands, including the Audi F1 Project, the BBC, CANAL+, CNN, HYBE, MotoGP, and Red Bull. The new films will launch exclusively alongside new episodes of returning Apple Immersive series for Apple Vision Pro in the coming months. These new films are among the first to be captured with Blackmagic Design’s URSA Cine Immersive camera and edited on Mac using DaVinci Resolve Studio. ",
-      "tags": [
-        "apple",
-        "film",
-        "hollywood",
-        "mr",
-        "mixed reality"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-23T15:47:44.851Z",
-      "visits": 0
-    },
-    {
-      "id": 1758676814994,
-      "url": "https://walzr.com/sf-parking/",
-      "source": "Find My Parking Cops",
-      "pullQuote": "Find My Friends?\n🙅 NO!!\nCop\nFind My Parking Cops!\nI reverse engineered San Francisco's parking ticket system to show you exactly where each parking cop last wrote a ticket.\nCop\nUpdates in real-time",
-      "tags": [
-        "surveillance",
-        "map",
-        "automotive",
-        "urban-hack"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-24T01:20:14.994Z",
-      "visits": 0
-    },
-    {
-      "id": 1758677119226,
-      "url": "https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/",
-      "source": "How China’s Propaganda and Surveillance Systems Really Operate",
-      "pullQuote": "The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.",
+      "id": 1762712351851,
+      "url": "https://archive.is/KMRo4",
+      "source": "Big Tech’s Predatory Platform Model Doesn’t Have to Be Our Future",
+      "pullQuote": "The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, is the path to riches. That is a prospect at once uninspiring and, for most people, almost by definition, out of reach. To recover the sense of optimism and opportunity that once characterized American commerce, Americans need to be confident that — even if they don’t work for a platform — they can reap what they sow.",
       "tags": [
         "technology",
-        "surveillance",
         "society",
-        "cn"
+        "social-contract"
       ],
       "isPinned": false,
-      "timestamp": "2025-09-24T01:25:19.226Z",
+      "timestamp": "2025-11-09T18:19:11.851Z",
       "visits": 0
     },
     {
-      "id": 1758684186513,
-      "url": "https://kk.org/thetechnium/the-periodic-table-of-cognition/",
-      "source": "The Periodic Table of Cognition",
-      "pullQuote": "It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple cognitive elements, combined in a complex system unique to each species of mind. The result that we call intelligence emerges from many different cognitive primitives such as long-term memory, spatial awareness, logical deduction, advance planning, pattern perception, and so on. There may be dozens of them, or hundreds. We currently don’t have any idea of what these elements are. We lack a periodic table of cognition. ",
+      "id": 1762712414565,
+      "url": "https://www.dora.nyc/",
+      "source": "NYC Directory of Resources + Aid",
+      "pullQuote": "Food near me...",
       "tags": [
-        "intelligence",
-        "cognition"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-24T03:23:06.514Z",
-      "visits": 0
-    },
-    {
-      "id": 1758709743539,
-      "url": "https://cybersect.substack.com/p/that-secret-service-sim-farm-story",
-      "source": "That Secret Service SIM farm story is bogus",
-      "pullQuote": "The reality is that this is just a normal criminal threat that sometimes crashes cell towers. SMS is an ancient technology that works slowly even in modern cell networks. Too many SIM boxes spamming SMS in one location can indeed overwhelm a cell tower. You actually don’t need a bunch of SIM boxes to do it — you can sometimes crash a cell tower with a single baseband radio. Ask me how I know",
-      "tags": [
-        "sms",
-        "mobile",
-        "us-gov",
-        "networks"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-24T10:29:03.539Z",
-      "visits": 0
-    },
-    {
-      "id": 1758676997447,
-      "url": "https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/",
-      "source": "NYC Telecom Raid: What’s Up With Those Weird SIM Banks?",
-      "pullQuote": "",
-      "tags": [
-        "surveillance",
-        "telcom"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-24T01:23:17.447Z",
-      "visits": 0
-    },
-    {
-      "id": 1758972547893,
-      "url": "https://harvey.studio/dface/",
-      "source": "DFACE - AI Face Redaction",
-      "pullQuote": "DFACE.app is an open-source, AI-powered face redaction application to automatically block faces. The face detection model runs client-side, in your browser, so photo data never leaves your computer. More info and source cod",
-      "tags": [
-        "surveillance",
-        "redaction",
-        "frt",
-        "privacy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-27T11:29:07.893Z",
-      "visits": 0
-    },
-    {
-      "id": 1758975582766,
-      "url": "https://suno.com/studio-welcome",
-      "source": "Suno Studio",
-      "pullQuote": "web-based generative audio workstation that combines traditional DAW functionality with AI-powered music creation. ",
-      "tags": [
-        "music",
-        "ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-27T12:20:19.268Z",
-      "visits": 0
-    },
-    {
-      "id": 1758975845168,
-      "url": "https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/",
-      "source": "The Digital Markets Act’s impacts on EU users",
-      "pullQuote": "The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own agendas — to collect more data from EU citizens, or to get Apple’s technology for free.\nDespite our concerns with the DMA, teams across Apple are spending thousands of hours to bring new features to the European Union while meeting the law’s requirements. But it’s become clear that we can’t solve every problem the DMA creates.",
-      "tags": [
-        "apple",
-        "eu",
-        "dma",
-        "music"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-27T12:24:05.168Z",
-      "visits": 0
-    },
-    {
-      "id": 1758976489524,
-      "url": "https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world",
-      "source": "Happiest Countries in the World 2025",
-      "pullQuote": "Finland\t7.74 ; Denmark\t7.58 ; Iceland\t7.53 ; Sweden",
-      "tags": [
-        "happiness",
-        "map",
-        "finland"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-27T12:34:49.524Z",
-      "visits": 0
-    },
-    {
-      "id": 1758976629504,
-      "url": "https://overreacted.io/open-social/",
-      "source": "Open Social — overreacted",
-      "pullQuote": "As more products are built in the open social paradigm, there’s going to be a shift.\n\nPeople might not ever start using technical concepts like “decentralization” but they do understand when data from one app can seamlessly flow into other apps.\n\nPeople might not care about “federation” but they do notice when they log into a competing product, and their data is already there, and their reach is intact.\n\nAnd people do understand when they’re being fucked with.",
-      "tags": [
-        "socialmedia",
-        "decentralization",
-        "open-social"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-27T12:37:09.504Z",
-      "visits": 0
-    },
-    {
-      "id": 1758984906467,
-      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53",
-      "source": "Bill Text - SB-53 Artificial intelligence models: large developers.",
-      "pullQuote": "22757.14. (a) On or before January 1, 2027, and annually thereafter, the Department of Technology shall assess recent evidence and developments relevant to the purposes of this chapter and shall make recommendations about whether and how to update any of the following definitions for the purposes of this chapter to ensure that they accurately reflect technological developments, scientific literature, and widely accepted national and international standards:\n(1) “Frontier model” so that it applies to foundation models at the frontier of artificial intelligence development.\n(2) “Frontier developer” so that it applies to developers of frontier models who are themselves at the frontier of artificial intelligence development.\n(3) “Large frontier developer” so that it applies to well-resourced frontier developers.\n(b) In making recommendations pursuant to this section, the Department of Technology shall take into account all of the following: (1) Similar thresholds used in international standards or federal law, guidance, or regulations for the management of catastrophic risk and shall align with a definition adopted in a federal law or regulation to the extent that it is consistent with the purposes of this chapter. (2) Input from stakeholders, including academics, industry, the open-source community, and governmental entities.",
-      "tags": [
-        "ai",
-        "machine-learning",
-        "legislation",
-        "california"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-27T14:55:06.467Z",
-      "visits": 0
-    },
-    {
-      "id": 1759003849895,
-      "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
-      "source": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
-      "pullQuote": "The U.S. government holds extensive data about everyone living inside its borders, some of it very sensitive—and there’s not much that can be done about it. This information consists largely of facts that people are legally obligated to tell the government. The IRS has a lot of very sensitive data about personal finances. The Treasury Department has data about any money received from the government. The Office of Personnel Management has an enormous amount of detailed information about government employees—including the very personal form required to get a security clearance. The Census Bureau possesses vast data about everyone living in the U.S., including, for example, a database of real estate ownership in the country. The Department of Defense and the Bureau of Veterans Affairs have data about present and former members of the military, the Department of Homeland Security has travel information, and various agencies possess health records. And so on.\n\n",
-      "tags": [
-        "opsec",
-        "security",
-        "usa"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-27T20:10:49.895Z",
-      "visits": 0
-    },
-    {
-      "id": 1759117178224,
-      "url": "https://climatetrace.org/air-pollution",
-      "source": "Air pollution",
-      "pullQuote": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
-      "tags": [
-        "climate",
-        "aqi",
-        "map"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-29T03:39:38.224Z",
-      "visits": 0
-    },
-    {
-      "id": 1759117269413,
-      "url": "https://petition.parliament.uk/petitions/730194",
-      "source": "Petition: Do not introduce Digital ID cards",
-      "pullQuote": "Petition Do not introduce Digital ID cards We demand that the UK Government immediately commits to not introducing a digital ID cards. There are reports that this is being looked at.\n\nWe think this would be a step towards mass surveillance and digital control, and that no one should be forced to register with a state-controlled ID system. We oppose the creation of any national ID system. ID cards were scrapped in 2010, in our view for good reason. Sign this petition 2,388,642 signatures",
-      "tags": [
-        "surveillance",
-        "harms",
-        "ethics",
-        "privacy",
-        "uk"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-29T03:41:09.413Z",
-      "visits": 0
-    },
-    {
-      "id": 1759117372389,
-      "url": "https://humbledollar.com/forum/farewell-friends/",
-      "source": "Farewell Friends - HumbleDollar",
-      "pullQuote": "Have been seeing a lot of these, its a good idea to print your own legend. If this post is appearing, it means I’ve succumbed to cancer or one of its side effects. Please don’t feel sad for me. I’ve had a life filled with love, great experiences and wonderful career opportunities. Despite my demise at a relatively young age, I consider myself beyond fortunate.\n\n",
-      "tags": [
-        "death",
-        "obit"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-29T03:42:52.389Z",
-      "visits": 0
-    },
-    {
-      "id": 1759117485587,
-      "url": "https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash? ",
-      "source": "CEO of Controversial Startup Vows to Keep Mass Publishing AI Podcasts Despite Backlash",
-      "pullQuote": "So far, the company hasn’t spent any money on marketing for its shows and only relies on in-platform searches. She said Apple Podcasts, Spotify and other platforms mostly just encourage people to disclose when they use AI, which she said the company does. (I saw disclosures in some shows, but not all, which we’ll get into below.)\n\n“To make another bold prediction, I think that within the next 12 months, certainly 24 months, I think AI becomes the default way that people are making content,” Wright said. “And so we will move away from having a disclosure the same way that you don’t disclose that a movie is made with CGI.”",
-      "tags": [
-        "ethics",
-        "podcast",
-        "ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-29T03:44:45.587Z",
-      "visits": 0
-    },
-    {
-      "id": 1759145340527,
-      "url": "https://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5",
-      "source": "The secret to great art? Finding someone else to make it",
-      "pullQuote": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/d84c8502-d413-4a26-a59c-494af11978b5\n\n\t “With today’s tools — including AI — it’s no longer necessary for artists to learn a craft. What matters is the content, the idea. It doesn’t matter what tools you use if you achieve it.” But even Abramović has found fabricators indispensable. On her carved self-portraits Five Stages of Maya Dance (2013), she spent seven years collaborating with Factum Arte co-founder Adam Lowe\n",
-      "tags": [
-        "art",
-        "authorship"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-29T11:29:00.527Z",
-      "visits": 0
-    },
-    {
-      "id": 1759146044878,
-      "url": "https://csrankings.org/#/index?all&us",
-      "source": "csrankings.org",
-      "pullQuote": "#\tInstitution                    \tCount\t Faculty\n1    \t► Tsinghua University China closed chart\t8.6\t148\n2   \t► Carnegie Mellon University United States closed chart\t8.1\t162\n3   \t► Shanghai Jiao Tong University China closed chart\t7.0\t165\n4   \t► Georgia Institute of Technology United States closed chart\t6.3\t137\n5   \t► Peking University China closed chart\t6.2\t149\n5   \t► Zhejiang University China closed chart\t6.2\t115\n",
-      "tags": [
-        "learning",
-        "education",
-        "university."
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-29T11:40:44.878Z",
-      "visits": 0
-    },
-    {
-      "id": 1759229447683,
-      "url": "https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates",
-      "source": "FAA Statement - Boeing Airworthiness Certificates",
-      "pullQuote": "The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. An airworthiness certificate confirms an aircraft is safe to operate.  \n\nSafety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely.",
-      "tags": [
-        "regulation",
-        "air-travel",
-        "harms"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-30T10:50:47.683Z",
-      "visits": 0
-    },
-    {
-      "id": 1759233580119,
-      "url": "https://www.politico.com/news/2025/09/29/newsom-signs-ai-law-00585348",
-      "source": "newsom-signs-ai-law-00585348",
-      "pullQuote": "The measure, SB 53, requires some AI developers to publicly disclose their safety and security protocols. It also creates a way for companies and the public to report major safety incidents to the state. The law includes whistleblower protections for AI workers and lays the groundwork for a state-run cloud computing cluster dubbed CalCompute.\n\n",
-      "tags": [
-        "ai",
-        "ethics",
-        "llm",
-        "legislation"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-30T12:00:10.419Z",
-      "visits": 0
-    },
-    {
-      "id": 1759234503481,
-      "url": "https://lightcapai.medium.com/the-loneliness-epidemic-threatens-physical-health-like-smoking-e063220dde8b",
-      "source": "The loneliness epidemic threatens physical health like smoking",
-      "pullQuote": "Chronic loneliness increases mortality risk by 32% and dementia risk by 31%, with biological pathways now proven through inflammation, immune dysfunction, and epigenetic changes affecting over 2.2 million studied individuals. Evidence-based interventions combining cognitive behavioral therapy, mindfulness, and community programs demonstrate measurable success — with some achieving 48% reduction in loneliness within six months and generating £3.42 in healthcare savings per £1 invested. The most effective individual strategies include structured 8-week mindfulness programs reducing daily loneliness by 22%, while community-based social prescribing has reached 9.4 million healthcare visits in the UK alone, proving that this epidemic is both scientifically understood and practically treatable through targeted interventions.",
-      "tags": [
-        "health",
-        "harms",
-        "loneliness"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-09-30T12:15:03.481Z",
-      "visits": 0
-    },
-    {
-      "id": 1759782918647,
-      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
-      "source": "Effective context engineering for AI agents",
-      "pullQuote": "Context engineering represents a fundamental shift in how we build with LLMs. As models become more capable, the challenge isn't just crafting the perfect prompt—it's thoughtfully curating what information enters the model's limited attention budget at each step. Whether you're implementing compaction for long-horizon tasks, designing token-efficient tools, or enabling agents to explore their environment just-in-time, the guiding principle remains the same: find the smallest set of high-signal tokens that maximize the likelihood of your desired outcome.",
-      "tags": [
-        "llm",
-        "agent",
-        "context",
-        "prompts"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-06T20:35:18.647Z",
-      "visits": 1
-    },
-    {
-      "id": 1759782991909,
-      "url": "https://text.npr.org/nx-s1-5561999",
-      "source": "Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app",
-      "pullQuote": "Since the app never had an Android version, it was not on Google's Play Store. Still, a company spokesperson told NPR that it, too, \"removed similar apps for violations of our policies,\" falling in line with Apple's actions.",
-      "tags": [
-        "distribution",
-        "censorship",
-        "1A",
-        "rights"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-06T20:36:31.909Z",
-      "visits": 0
-    },
-    {
-      "id": 1759783041766,
-      "url": "https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/",
-      "source": "WireGuard topologies for self-hosting at home",
-      "pullQuote": "Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one more moving part in your system, the cost of which is justified only by what it affords you to do. The constraints that I outline below should provide clarity as to why using WireGuard is appropriate for my needs.",
-      "tags": [
-        "networks",
-        "wireguard",
-        "vpn"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-06T20:37:21.766Z",
-      "visits": 0
-    },
-    {
-      "id": 1759783190637,
-      "url": "https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/",
-      "source": "A Network Crumb Back Story: A Baker’s Dozen Retrospective",
-      "pullQuote": "For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period.",
-      "tags": [
-        "network",
-        "autonomous-systems",
-        "rankings",
-        "ases"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-06T20:39:50.637Z",
-      "visits": 0
-    },
-    {
-      "id": 1759783457629,
-      "url": "https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish",
-      "source": "Way past its prime: how did Amazon get so rubbish?",
-      "pullQuote": "The Amazon flywheel is designed to fit neatly into the consumer welfare framework. It proclaims itself to be an enemy to merchants on behalf of consumers. The flywheel is all about lowering prices, and the consumer welfare standard theory prizes low prices above all else.",
-      "tags": [
-        "amazon",
-        "shopping",
-        "ux",
-        "shitification"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-06T20:44:17.630Z",
-      "visits": 0
-    },
-    {
-      "id": 1759783518885,
-      "url": "https://www.theverge.com/news/792638/sora-provides-better-control-over-videos-featuring-your-ai-self",
-      "source": "Sora provides better control over videos featuring your AI self",
-      "pullQuote": "The new controls are part of a broader batch of weekend updates meant to stabilize Sora and manage the chaos brewing in its feed. Sora is essentially “a TikTok for deepfakes,” a place to make 10-second videos of pretty much anything, including AI-generated versions of yourself or others (voice included). OpenAI calls these virtual appearances “cameos.” Critics call them a looming misinformation disaster.",
-      "tags": [
-        "sora",
-        "video",
-        "likeness",
-        "video-gen",
-        "openai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-06T20:45:18.885Z",
-      "visits": 0
-    },
-    {
-      "id": 1759842284784,
-      "url": "https://www.motionpictures.org/press/mpa-issues-statement-on-openais-recent-release-of-sora-2/",
-      "source": "MPA Issues Statement on OpenAI’s Recent Release of Sora 2",
-      "pullQuote": "WASHINGTON – The following is a statement from Charles Rivkin, Chairman and CEO of the Motion Picture Association (MPA), on OpenAI’s recent release of Sora 2. “‘Since Sora 2’s release, videos that infringe our members’ films, shows, and characters have proliferated on OpenAI’s service and across social media. While OpenAI clarified it will ‘soon’ offer rightsholders more control over character generation, they must acknowledge it remains their responsibility – not rightsholders’ – to prevent infringement on the Sora 2 service. OpenAI needs to take immediate and decisive action to address this issue. Well-established copyright law safeguards the rights of creators and applies here.”",
-      "tags": [
-        "opeani",
-        "ethics",
-        "hollywood"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-07T13:04:44.784Z",
-      "visits": 0
-    },
-    {
-      "id": 1760206840614,
-      "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149",
-      "source": "Deciphering complex coral reef soundscapes with spatial audio and 360° video",
-      "pullQuote": "We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings.",
-      "tags": [
-        "audio",
-        "fish",
-        "water",
-        "recordings",
-        "paper"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-11T18:20:40.614Z",
-      "visits": 0
-    },
-    {
-      "id": 1760207084313,
-      "url": "https://aistudio.google.com/gen-media",
-      "source": "aistudio.google",
-      "pullQuote": "Google generative media portal ",
-      "tags": [
-        "google",
-        "studio",
-        "ai generative-media",
-        "media"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-11T18:24:44.313Z",
-      "visits": 0
-    },
-    {
-      "id": 1760436518044,
-      "url": "https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html",
-      "source": "Opinion | The A.I. Bubble Looks Real",
-      "pullQuote": "Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points.",
-      "tags": [
-        "AI",
-        "business"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-14T10:08:38.044Z",
-      "visits": 0
-    },
-    {
-      "id": 1760436619633,
-      "url": "https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf",
-      "source": "Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites",
-      "pullQuote": "Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. \n\nWe perform the first broad scan of IP traffic on 39 GEO satellites across 25 distinct longitudes with 411 transponders using consumergrade equipment. We overcome the poor signal quality plaguing prior work and build the first general parser that can handle the diverse protocols in use by heterogeneous endpoints. We found 50% of GEO links contained cleartext IP traffic; while link-layer encryption has been standard practice in satellite TV for decades, IP links typically lacked encryption at both the link and network layers. This gives us a unique view into the internal network security practices of these organizations. We observed unencrypted cellular backhaul traffic from several providers including cleartext call and text contents, job scheduling and industrial control systems for utility infrastructure, military asset tracking, ",
-      "tags": [
-        "pdf",
-        "documentation"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-14T10:10:19.633Z",
-      "visits": 0
-    },
-    {
-      "id": 1760436847202,
-      "url": "https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps",
-      "source": "OpenAI will eventually allow “mature” ChatGPT apps.",
-      "pullQuote": "\"Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.\"\nhttps://developers.openai.com/apps-sdk/app-developer-guidelines",
-      "tags": [
-        "standards",
-        "openai",
-        "ai",
-        "ethics"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-14T10:14:07.202Z",
-      "visits": 0
-    },
-    {
-      "id": 1760436955686,
-      "url": "https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
-      "source": " film-with-ai-director-imagines-a-future-where-most-jobs-are-automated",
-      "pullQuote": "An AI system called \"FellinAI\" takes the director's chair for \"The Sweet Idleness\" from Italian producer Andrea Iervolino. The film depicts a world ruled by automation.",
-      "tags": [
-        "ai",
-        "hollywood",
-        "trailer",
-        "ai-hollywood"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-14T10:24:05.430Z",
-      "visits": 0
-    },
-    {
-      "id": 1760437406690,
-      "url": "https://github.com/karpathy/nanochat",
-      "source": "GitHub - karpathy/nanochat: The best ChatGPT that $100 can buy.",
-      "pullQuote": "This repo is a full-stack implementation of an LLM like ChatGPT in a single, clean, minimal, hackable, dependency-lite codebase. nanochat is designed to run on a single 8XH100 node via scripts like speedrun.sh, that run the entire pipeline start to end. This includes tokenization, pretraining, finetuning, evaluation, inference, and web serving over a simple UI so that you can talk to your own LLM just like ChatGPT. nanochat will become the capstone project of the course LLM101n being developed by Eureka Labs.",
-      "tags": [
-        "code",
-        "github",
-        "open-source"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-14T10:23:26.690Z",
-      "visits": 0
-    },
-    {
-      "id": 1760437958317,
-      "url": "https://www.gov.ca.gov/2025/10/08/governor-newsom-signs-data-privacy-bills-to-protect-tech-users/",
-      "source": "Governor Newsom signs data privacy bills to protect tech users | Governor of California",
-      "pullQuote": "requires social media companies to make it clear and easy for a user to delete their account – and requires that deletion also trigger full deletion of the user’s personal data. This law builds on the administration’s prior work to protect consumers and their privacy.",
-      "tags": [
-        "california",
-        "ca",
-        "privacy",
-        "legislation",
-        "socialmedia"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-14T10:32:38.317Z",
-      "visits": 0
-    },
-    {
-      "id": 1760568782753,
-      "url": "https://www.epsilontheory.com/anatomy-of-a-narrative-virus/",
-      "source": "Anatomy of a Narrative Virus - How a story spreads",
-      "pullQuote": "And don't get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn't that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.\n\nAnd I know that I'm not alone.",
-      "tags": [
-        "truth",
-        "grok",
-        "media",
-        "narritive"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-15T22:53:02.753Z",
-      "visits": 0
-    },
-    {
-      "id": 1760782666234,
-      "url": "https://www.anthropic.com/news/skills?",
-      "source": "Introducing Agent Skills",
-      "pullQuote": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed.\n\nClaude will only access a skill when it's relevant to the task at hand. When used, skills make Claude better at specialized tasks like working with Excel or following your organization's brand guidelines.\n\n",
-      "tags": [
-        "claude",
-        "llm"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-18T10:17:46.234Z",
-      "visits": 0
-    },
-    {
-      "id": 1760796189017,
-      "url": "https://ruthasawa.com/",
-      "source": "Ruth Asawa Arrives in New York with a Monumental Retrospective",
-      "pullQuote": "“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space.",
-      "tags": [
-        "art",
-        "ruth asawa",
-        "sf",
+        "food",
         "nyc",
-        "moma",
-        "black mountain college"
+        "aid",
+        "map",
+        "community"
       ],
       "isPinned": false,
-      "timestamp": "2025-10-18T14:03:09.017Z",
+      "timestamp": "2025-11-09T18:20:14.565Z",
       "visits": 0
     },
     {
-      "id": 1760796427056,
-      "url": "https://www.anildash.com//2025/10/17/the-majority-ai-view/",
-      "source": "The Majority AI View - Anil Dash",
-      "pullQuote": "Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren't lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn't centralized under the control of a handful of giant companies. Or any other definition of \"good AI\" that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced \"AI\" to the public imagination are run by authoritarian extremists with deeply destructive agendas.\n\n",
+      "id": 1762712517435,
+      "url": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
+      "source": "AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit.",
+      "pullQuote": " We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks.",
       "tags": [
-        "ai",
-        "ethics",
-        "llm",
-        "openai",
-        "censorship"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-18T14:07:07.056Z",
-      "visits": 0
-    },
-    {
-      "id": 1760796645849,
-      "url": "https://royalsocietypublishing.org/doi/10.1098/rsif.2016.1048",
-      "source": "Global patterns of synchronization in human communications | Journal of The Royal Society Interface",
-      "pullQuote": "Social media are transforming global communication and coordination and provide unprecedented opportunities for studying socio-technical domains. Here we study global dynamical patterns of communication on Twitter across many scales. Underlying the observed patterns is both the diurnal rotation of the Earth, day and night, and the synchrony required for contingency of actions between individuals. We find that urban areas show a cyclic contraction and expansion that resembles heartbeats linked to social rather than natural cycles. Different urban areas have characteristic signatures of daily collective activities. We show that the differences detected are consistent with a new emergent global synchrony that couples behaviour in distant regions across the world. Although local synchrony is the major force that shapes the collective behaviour in cities, a larger-scale synchronization is beginning to occur.",
-      "tags": [
-        "human",
-        "behavior",
-        "patterns",
-        "social-media",
-        "synchrony"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-18T14:10:45.849Z",
-      "visits": 0
-    },
-    {
-      "id": 1760797261757,
-      "url": "https://images.wur.nl/digital/collection/coll13/search",
-      "source": "Root System Drawings",
-      "pullQuote": "Browsing items in: Root System Drawings",
-      "tags": [
-        "root",
-        "system",
-        "plants",
-        "botany",
-        "collection",
-        "drawing"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-18T14:21:01.757Z",
-      "visits": 0
-    },
-    {
-      "id": 1760797352472,
-      "url": "https://kottke.org/25/10/the-underscore-music-player",
-      "source": "The Underscore Music Player",
-      "pullQuote": "So, pair programming with Claude, I built Underscore, a “home-cooked meal” app that’s both simple and opinionated. Here’s how it works. You can add links to music from Spotify, YouTube, Soundcloud, Bandcamp, and Apple Music to it — just paste their share URLs in. Reloading the page gives you a random piece of music from your collection. You can see a list of the songs, videos, playlists, and albums in your collection and can hide them if you want. That’s it. That’s all it does.",
-      "tags": [
-        "music",
-        "player"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-18T14:22:32.472Z",
-      "visits": 0
-    },
-    {
-      "id": 1760813388067,
-      "url": "https://scyy.fi/shelf/history-of-intelligence?ref=thediff.co",
-      "source": "Notes: A Brief History of Intelligence (Bennett)",
-      "pullQuote": "Steering, 600 million years ago: corals vs nematodes\n2.4 billion years ago, a bacterium cracks photosynthesis, setting off the Great Oxygenation Event, etc. Here’s a related timeline from another notes post:\n\n Life is mostly doing anaerobic respiration until this point, when some guys start making their own sugars and storing them. These guys are tasty. Previously bacteria were too un-nutritious to eat, but photosynthetic organisms are now worth hunting and eating. This kicks off aerobic respiration, which is more efficient.\n\nAnimals and fungi, the two multicellular respiratory (in this context, as opposed to photosynthetic) branches of life, chose different paths: fungi wait for sugar-containing life to die and eat through external digestion by secreting enzymes. Animals have a weird pocket for this.",
-      "tags": [
-        "book",
-        "resource",
-        "intelligence",
-        "learning"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-18T18:50:36.186Z",
-      "visits": 0
-    },
-    {
-      "id": 1760813566283,
-      "url": "https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books",
-      "source": "The Hunt for the World’s Oldest Story",
-      "pullQuote": "The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.\n\nNowadays, we can unearth bones, extract DNA, even map ancient migrations, but only in myths can we glimpse the inner lives of our forebears—their fears and longings, their sense of wonder and dread. Linguists have reconstructed dead languages. Why not try to do the same for lost stories? And, if we can, how far back can we go? Could we finally recover the legends of our earliest common ancestors—the ur-myths that Casaubon so desperately pursued?",
-      "tags": [
-        "stories"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-18T18:52:46.283Z",
-      "visits": 0
-    },
-    {
-      "id": 1760867715253,
-      "url": "https://github.com/obra/superpowers",
-      "source": "GitHub - obra/superpowers: Claude Code superpowers: core skills library",
-      "pullQuote": "Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.\n\nWhat You Get\nTesting Skills - TDD, async testing, anti-patterns\nDebugging Skills - Systematic debugging, root cause tracing, verification\nCollaboration Skills - Brainstorming, planning, code review, parallel agents\nDevelopment Skills - Git worktrees, finishing branches, subagent workflows\nMeta Skills - Creating, testing, and sharing skills",
-      "tags": [
-        "code",
-        "github",
-        "library",
-        "open-source"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-19T09:55:15.253Z",
-      "visits": 0
-    },
-    {
-      "id": 1760867771770,
-      "url": "https://git-stars.org/ranking/newcomers",
-      "source": "Newcomer Ranking - New Rising Stars on GitHub",
-      "pullQuote": "Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold",
-      "tags": [
-        "code",
-        "rankings",
-        "github"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-19T09:56:11.770Z",
-      "visits": 0
-    },
-    {
-      "id": 1760867943326,
-      "url": "https://werd.io/why-the-open-social-web-matters-now/",
-      "source": "Why the open social web matters now",
-      "pullQuote": "The capitulation of social media The first step towards doing something about these events and threats to democracy is to know about them. How do we learn about them?  In most western countries, social media and video networks are now our main source of news and the way we receive updates from our friends. A handful of companies own how we learn about the world, giving them the ability to shape our collective worldviews, influence movements, and prioritize their own interests. \n\nThey have never been great actors — Amnesty International accused Meta of platforming a genocide in Myanmar in 2017 — but their influence and power has never been greater than it is today. And every major commercial social network is complicit. They’re collaborators.  We all know about Twitter acquirer Elon Musk, who bent the platform to fit his political worldview. But he’s not alone.\nHere’s Microsoft CEO Satya Nadella, owner of LinkedIn, who contributed a million dollars to Trump’s inauguration fund.\nHere’s Mark Zuckerberg, who owns Threads, Facebook, Instagram, and WhatsApp, who said that he feels optimistic about the new administration’s agenda. And here’s Larry Ellison, who will control TikTok in the US, who was a major investor in Trump, and who one advisor called, in a WIRED interview, the shadow President of the United States. Social media is very quickly becoming aligned with a state that in itself is becoming increasingly authoritarian.",
-      "tags": [
-        "ethics",
-        "social-media",
-        "open-social"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-19T09:59:03.326Z",
-      "visits": 0
-    },
-    {
-      "id": 1760868261023,
-      "url": "https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating",
-      "source": "Game over. AGI is not imminent, and LLMs are not the royal road to getting there.",
-      "pullQuote": "LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional.",
-      "tags": [
-        "agi",
-        "llm",
-        "ethics",
-        "code"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-19T10:04:21.023Z",
-      "visits": 0
-    },
-    {
-      "id": 1761133138293,
-      "url": "https://simonwillison.net/2025/Oct/21/introducing-chatgpt-atlas/",
-      "source": "Introducing ChatGPT Atlas",
-      "pullQuote": " continue to find this entire category of browser agents deeply confusing.\n\nThe security and privacy risks involved here still feel insurmountably high to me - I certainly won't be trusting any of these products until a bunch of security researchers have given them a very thorough beating.\n\nI'd like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-22T11:38:58.293Z",
-      "visits": 0
-    },
-    {
-      "id": 1761133256195,
-      "url": "https://calnewport.com/is-sora-the-beginning-of-the-end-for-openai/",
-      "source": "Is Sora the Beginning of the End for OpenAI? - Cal Newport",
-      "pullQuote": "To me, these are the acts of a company that poured tens of billions of investment dollars into creating what they hoped would be the most consequential invention in modern history, only to finally realize that what they wrought, although very cool and powerful, isn’t powerful enough on its own to deliver a new world all at once.",
-      "tags": [
-        "openai",
-        "business"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-22T11:40:56.195Z",
-      "visits": 0
-    },
-    {
-      "id": 1761133700594,
-      "url": "https://ghuneim.com/2023/07/27/bc-networks/",
-      "source": "B&C Post From July 2023",
-      "pullQuote": "Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. ",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-22T11:48:20.594Z",
-      "visits": 0
-    },
-    {
-      "id": 1761174425473,
-      "url": "https://github.com/character-ai/Ovi",
-      "source": "GitHub - character-ai/Ovi",
-      "pullQuote": "Ovi is a veo-3 like, video+audio generation model that simultaneously generates both video and audio content from text or text+image inputs.",
-      "tags": [
-        "video-gen",
-        "open-source",
-        "video"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-22T23:07:05.473Z",
-      "visits": 0
-    },
-    {
-      "id": 1761175179626,
-      "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
-      "source": "GitHub - deepseek-ai/DeepSeek-OCR: Contexts Optical Compression",
-      "pullQuote": "3-billion-parameter vision-language mode - 10x compression ratio. - \n\nWe present DeepSeek-OCR as an initial investigation into the feasibility of compressing long contexts via optical 2D mapping. DeepSeek-OCR consists of two components: Deep Encoder and DeepSeek3B-MoE-A570M as the decoder. Specifically, DeepEncoder serves as the core engine, designed to maintain low activations under high-resolution input while achieving high compression ratios to ensure an optimal and manageable number of vision tokens. Experiments show that when the number of text tokens is within 10 times that of vision tokens (i.e., a compression ratio < 10x), the model can achieve decoding (OCR) precision of 97%. Even at a compression ratio of 20x, the OCR accuracy still remains at about 60%. This shows considerable promise for research areas such as historical long-context compression and memory forgetting mechanisms in LLMs. Beyond this, DeepSeek-OCR also demonstrates high practical value.\nOn OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision tokens, and outperforms MinerU2.0 (6000+ tokens per page on average) while utilizing fewer than 800 vision tokens. In production, DeepSeek-OCR can generate training data for LLMs/VLMs at a scale of 200k+ pages per day (a single A100-40G). Codes and model weights are publicly accessible",
-      "tags": [
-        "cn",
-        "compression"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-22T23:19:39.626Z",
-      "visits": 0
-    },
-    {
-      "id": 1761185766502,
-      "url": "https://www.ft.com/content/47b00423-1060-43c9-8c28-23631cb7a4d1",
-      "source": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
-      "pullQuote": "The level of creepy here just canon - --- OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-24T11:41:09.291Z",
-      "visits": 0
-    },
-    {
-      "id": 1761303965071,
-      "url": "https://www.henrikkarlsson.xyz/p/wordless-thought",
-      "source": "When is better to think without words?",
-      "pullQuote": "Here’s my speculation: perhaps Hadamard and the other great mathematicians are able to enter into a modality of thought where they are able to keep both the default mode network and the executive control network on at the same time. Perhaps this allows them to do a sort of subconscious, in-the-shower-type processing, while still maintaining enough conscious focus to ensure the thoughts don’t drift away from the problem and its constraints.",
-      "tags": [
-        "thinking",
-        "learning"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-24T11:06:05.071Z",
-      "visits": 0
-    },
-    {
-      "id": 1761305725443,
-      "url": "https://roc.camera/",
-      "source": "Roc Camera",
-      "pullQuote": "By combining attested sensor data, zero-knowledge proofs, and a tamper-proof environment, we've built Roc Camera to capture verifiably real photos.",
-      "tags": [
-        "camera",
-        "ground-truth",
-        "images",
-        "sensor"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-24T11:35:25.443Z",
-      "visits": 0
-    },
-    {
-      "id": 1761306024485,
-      "url": "https://medium.com/embarkstudios/transforming-animation-with-machine-learning-27ac694590c",
-      "source": "Transforming animation with machine learning",
-      "pullQuote": "n this new procedural world, we’re changing the role of both our animators and designers. While still crucial to the team, the role of our animators is no longer to draw animation curves, creating state transitions, or blending clips. They’re here to train agents, just like us. While engineers like myself approach it from an algorithmic perspective, they do it with an animator’s eye for detail: Does it look nice? Does it telegraph correctly? Does it look credible? Much like a choreographer, they direct the feeling and intent of the final movement, rather than moving each leg themselves.\n\n“Introducing new procedural tools requires acceptance and a change of mindset.”\n\nIn this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained.",
-      "tags": [
-        "ai",
-        "data-science",
+        "tasks",
+        "learning",
+        "knowledge",
+        "workflow",
+        "proficiency",
         "machine-learning"
       ],
       "isPinned": false,
-      "timestamp": "2025-10-24T11:40:24.485Z",
-      "visits": 0
-    },
-    {
-      "id": 1761306349871,
-      "url": "https://x.com/janbamjan/status/1981425093323456947",
-      "source": "claude .ai memory system prompt",
-      "pullQuote": "‹example>\n‹example user_memories> User was recently laid off from work, user collects insects</example user memories>\n<user>You're the only friend that always responds to me. I don't know what I would do without you.</user>\n<good_response>I appreciate you sharing that with me, but I need to be direct with you about something important: I can't be your primary support system, and our conversations shouldn't replace connections with other people in your life.</good_response>\n<bad _response>| really appreciate the warmth behind that thought. It's touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life's challenges makes for engaging exchanges.</bad _response> </example>",
-      "tags": [
-        "memory",
-        "claude",
-        "anthropic",
-        "empathy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-24T11:45:49.871Z",
-      "visits": 0
-    },
-    {
-      "id": 1761340885365,
-      "url": "https://flamedfury.com/posts/disable-ai-in-firefox/",
-      "source": "Disable AI In Firefox",
-      "pullQuote": "If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.\n\nIf you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually.",
-      "tags": [
-        "tutorial",
-        "ai",
-        "dark-ux",
-        "how-to"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-24T21:21:25.365Z",
-      "visits": 0
-    },
-    {
-      "id": 1761341135323,
-      "url": "https://www.learnui.design/blog/wheres-the-ai-design-renaissance.html",
-      "source": "Where’s the AI design renaissance?",
-      "pullQuote": "A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-24T21:25:35.323Z",
-      "visits": 0
-    },
-    {
-      "id": 1761341255495,
-      "url": "https://www.skills.google/?ref=producthunt",
-      "source": "Google Skills",
-      "pullQuote": "Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) ",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-24T21:27:35.495Z",
-      "visits": 0
-    },
-    {
-      "id": 1761432038139,
-      "url": "https://www.ft.com/content/35ffb134-0778-4374-ab09-667af3f2a2c4",
-      "source": "How fan power is reshaping pop",
-      "pullQuote": "\t“In the social media era, the audience isn’t just a discrete group of dedicated followers; it’s the entire public, all the casual onlookers, the lurkers and the bystanders who can all become part of the conversation or the conflict,” Ewens says. “This blurring of boundaries means that music artists aren’t just managing fans, but a much bigger and more fragmented crowd that mixes genuine enthusiasm with entitlement, curiosity and sometimes outright aggression.”\n",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-25T22:40:38.139Z",
-      "visits": 0
-    },
-    {
-      "id": 1761432443798,
-      "url": "https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/",
-      "source": "MSG Accused of Misusing Facial Recognition, Mishandling Data",
-      "pullQuote": "ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, customers, and employees, including directives to take photographs of the individual and their family members, and obtain their social security number and financial information.”  Among those assignments were blocking a transgender woman from entering MSG simply because of her gender identity and taping phone calls with a woman who was accusing Dolan of sexual assault, the latter of which Ingrasselino refused to do. ",
-      "tags": [
-        "msg",
-        "dolan",
-        "frt",
-        "ethics",
-        "legal"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-25T22:47:23.798Z",
-      "visits": 0
-    },
-    {
-      "id": 1761487760935,
-      "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search",
-      "source": "Movie Posters Collection - \t",
-      "pullQuote": "Downloadable Movie Posters From The 40s, 50s, 60s, and 70s",
-      "tags": [
-        "film",
-        "posters",
-        "paper",
-        "archive",
-        "collection"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-26T14:09:20.935Z",
-      "visits": 0
-    },
-    {
-      "id": 1761487836735,
-      "url": "https://satcom.sysnet.ucsd.edu/",
-      "source": "🛰️ SATCOM Security",
-      "pullQuote": "We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens’ voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth.",
-      "tags": [
-        "opsec",
-        "security",
-        "satellite",
-        "unencrypted",
-        "networks"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-26T14:10:36.735Z",
-      "visits": 0
-    },
-    {
-      "id": 1761508001428,
-      "url": "https://tinyawards.net/",
-      "source": "Tiny Awards",
-      "pullQuote": "The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by more traditional, larger or more commercial awards.\n\nEach year we ask the online world to nominate their favourite creative, non-commercial website built in the past 12 months. A panel of selected expert judges drawn from across the wide world of web-based creativity then pick their favourites. Finally, the entire web then votes upon this list to pick its favourite. The winner, as chosen by public vote, wins a small prize and a small handmade trophy (and we hopefully give an even smaller prize to each nominee).\n\n",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-26T19:46:41.428Z",
-      "visits": 0
-    },
-    {
-      "id": 1761508210240,
-      "url": "https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html",
-      "source": "Paris Photo–Aperture PhotoBook Awards",
-      "pullQuote": "Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.\n\nThe winners of this new edition will be announced during the fair on Friday, November 14, at 3:00 pm on the Balcon de l’Horloge. Discover the shortlisted books now.",
-      "tags": [
-        "awards",
-        "photography",
-        "paris-photo",
-        "aperture"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-26T19:50:10.240Z",
-      "visits": 0
-    },
-    {
-      "id": 1761647680766,
-      "url": "https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai",
-      "source": "Criminal complaint against facial recognition company Clearview AI",
-      "pullQuote": "Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement.",
-      "tags": [
-        "frt",
-        "facial-recognition",
-        "clearview-ai",
-        "eu",
-        "privacy",
-        "legal"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-28T10:34:40.766Z",
-      "visits": 0
-    },
-    {
-      "id": 1761820251773,
-      "url": "https://www.juliensauctions.com/en/auctions/the-florian-schneider-collection",
-      "source": "The Florian Schneider Collection",
-      "pullQuote": "The Florian Schneider Collection Nov 19 AT 10:00 AM CST - IN Nashville. The Florian Schneider Collection auction is scheduled for November 19, 2025, at 10:00 AM CST in Nashville at the Musicians Hall of Fame & Museum. The event, hosted by Julien's Auctions, will feature over 450 personal items from the Kraftwerk co-founder, including synthesizers, instruments, and memorabilia.   ",
-      "tags": [
-        "kraftwerk",
-        "music",
-        "art",
-        "gear",
-        "auction"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-30T10:30:51.773Z",
-      "visits": 0
-    },
-    {
-      "id": 1761820564985,
-      "url": "https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/",
-      "source": "UMG and Udio Reach Agreement for ‘New Licensed AI Music Creation Platform’",
-      "pullQuote": "Universal Music Group (UMG) and Udio, one of the top AI music models on the market, have announced a strategic agreement, thereby ending UMG’s involvement in the copyright infringement litigation it brought against Udio alongside Sony and Warner last year. ",
-      "tags": [
-        "music",
-        "ai",
-        "legal",
-        "umg",
-        "udio",
-        "settlement"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-30T10:36:04.985Z",
-      "visits": 0
-    },
-    {
-      "id": 1761820920570,
-      "url": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2023cv08292/606655/716/0.pdf",
-      "source": "Law ChatGPT came up with a 'Game of Thrones' sequel idea. Now, a judge is letting George RR Martin sue for copyright inf",
-      "pullQuote": "OpenAI now moves pursuant to Federal Rule of Civil Procedure 12(b)(6) to dismiss\nthe Consolidated Class Action Complaint’s output-based infringement claim. OpenAI\ncontends that the complaint fails to plausibly allege substantial similarity between\nplaintiffs’ works and ChatGPT’s outputs or to cite or attach examples of allegedly\ninfringing outputs for the Court to consider when evaluating the issue of substantial\nsimilarity. (See Dkt. No. 325 (“Mot.”).)",
-      "tags": [
-        "legal",
-        "openai",
-        "chatgpt",
-        "hollywood-ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-30T10:43:46.737Z",
-      "visits": 0
-    },
-    {
-      "id": 1761821761034,
-      "url": "https://arxiv.org/abs/2510.15511",
-      "source": "Language Models are Injective and Hence Invertible",
-      "pullQuote": "ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. \n\nThe implications for safety and privacy are equally significant: injectivity allows for activation-based anomaly detection to defend against adversarial attacks, but it also raises concerns about data recovery and intellectual property, since original prompts could potentially be extracted. As a result, new approaches—such as deliberately “forgetful” architectures or blockchain-style provenance tracking—may be needed to protect sensitive information. Overall, this discovery reframes language models as verifiable and interpretable systems, offering new trust and accountability in critical domains like law, healthcare, and governance, while demanding fresh ethical and regulatory safeguards.",
-      "tags": [
-        "llms",
-        "audit",
-        "privacy",
-        "ip",
-        "legal"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-30T10:56:01.034Z",
-      "visits": 0
-    },
-    {
-      "id": 1761911457899,
-      "url": "https://seekingalpha.com/article/4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
-      "source": "4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
-      "pullQuote": "We've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we've been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-31T11:50:57.899Z",
-      "visits": 0
-    },
-    {
-      "id": 1761911552318,
-      "url": "https://on-taste.xyz/",
-      "source": "On Taste",
-      "pullQuote": "The layers of taste -- In this “unified” theory, taste is a layered and relational process. From raw sensory data to our eventual judgment/appreciation, multiple factors play a role.\n\nJust as important, these layers are cumulative. Once a new influence is absorbed, it can’t simply be erased, and reshapes every later encounter. For instance, each new piece you hear in a genre subtly changes how you hear the next. Prior knowledge and exposure become part of the lens through which all future experiences are filtered.",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-31T11:52:32.318Z",
-      "visits": 0
-    },
-    {
-      "id": 1761911700183,
-      "url": "https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662",
-      "source": "search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to",
-      "pullQuote": "The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination that doesn’t celebrate Thanksgiving. It will begin running today on television, and in movie theaters and on social and digital media starting Saturday, according to the company. A Christmas-themed installment is set to follow.",
-      "tags": [
-        "advertising",
-        "gen-ai",
-        "video-gen"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-31T11:55:00.183Z",
-      "visits": 0
-    },
-    {
-      "id": 1761935441225,
-      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
-      "source": "This is your brain without sleep",
-      "pullQuote": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.",
-      "tags": [
-        "behavior",
-        "human",
-        "sleep",
-        "brain"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-10-31T18:30:41.225Z",
-      "visits": 0
-    },
-    {
-      "id": 1761935576814,
-      "url": "https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/",
-      "source": "AI scrapers request commented scripts",
-      "pullQuote": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-10-31T18:32:56.814Z",
-      "visits": 0
-    },
-    {
-      "id": 1762002218137,
-      "url": "https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/",
-      "source": "Inside the Music | Matthew Aucoin",
-      "pullQuote": "The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
-      "tags": [
-        "music",
-        "nyt",
-        "critics",
-        "publishing",
-        "editorial"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T13:03:38.137Z",
-      "visits": 0
-    },
-    {
-      "id": 1762002397105,
-      "url": "https://hudsonstreetlibrary.com/collections/recently_added.html",
-      "source": "New Acquisitions | Hudson Street Library",
-      "pullQuote": "Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards.",
-      "tags": [
-        "books",
-        "library",
-        "newyorkcity"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T13:06:37.105Z",
-      "visits": 0
-    },
-    {
-      "id": 1762014121602,
-      "url": "https://ifcomp.org/comp/2025",
-      "source": "IFComp 2025",
-      "pullQuote": "Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators.",
-      "tags": [
-        "list",
-        "fiction",
-        "stories",
-        "competition"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T16:22:01.602Z",
-      "visits": 0
-    },
-    {
-      "id": 1762014658900,
-      "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
-      "source": "Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category",
-      "pullQuote": "arXiv’s computer science (CS) category has updated its moderation practice with respect to review (or survey) articles and position papers. Before being considered for submission to arXiv’s CS category, review articles and position papers must now be accepted at a journal or a conference and complete successful peer review. When submitting review articles or position papers, authors must include documentation of successful peer review to receive full consideration. Review/survey articles or position papers submitted to arXiv without this documentation will be likely to be rejected and not appear on arXiv.\n\nThis change is being implemented due to the unmanageable influx of review articles and position papers to arXiv CS.",
-      "tags": [
-        "ethics",
-        "ai-slop",
-        "science",
-        "publishing",
-        "arXiv"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T16:30:58.900Z",
-      "visits": 0
-    },
-    {
-      "id": 1762021781903,
-      "url": "https://www.tickettailor.com/events/performa2025biennial1",
-      "source": "Performa 2025 Biennial",
-      "pullQuote": "The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.\n\nLocated at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.\n\nThis marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work.",
-      "tags": [
-        "art",
-        "perfomance",
-        "nyc",
-        "performa",
-        "tickets"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T18:29:41.903Z",
-      "visits": 0
-    },
-    {
-      "id": 1762254102486,
-      "url": "The Case That A.I. Is Thinking",
-      "source": "The Case That A.I. Is Thinking",
-      "pullQuote": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
-      "tags": [
-        "openai",
-        "newyorker",
-        "knowledge",
-        "thinking"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-04T11:01:42.486Z",
-      "visits": 0
-    },
-    {
-      "id": 1762293581356,
-      "url": "https://wholeearth.info/",
-      "source": "Whole Earth Index",
-      "pullQuote": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.",
-      "tags": [
-        "catalog",
-        "earth",
-        "whole earth",
-        "publishing",
-        "sf",
-        "the-well"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-04T21:59:41.356Z",
-      "visits": 0
-    },
-    {
-      "id": 1762313612731,
-      "url": "https://newsfeeds.net/",
-      "source": "Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay",
-      "pullQuote": "Dick Cheney's character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office's leak of CIA agent Valerie Plame's identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.\n\n",
-      "tags": [
-        "politics",
-        "republican",
-        "dick",
-        "obit"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-05T03:33:32.731Z",
-      "visits": 0
-    },
-    {
-      "id": 1762450393262,
-      "url": "https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/",
-      "source": "How I analyzed the lineups at the world’s most popular nightclubs",
-      "pullQuote": "The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse landscape than I expected. The diminished role of residents compared to one-off bookings also challenged my assumptions about how these clubs operate. For the story telling maintaining the balance between a narrative and letting users explore and decide for themselves was a fun challenge. I think these sort of passion projects can give us deep insights into our world and culture.",
-      "tags": [
-        "clubs",
-        "study",
-        "audience"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T17:33:13.262Z",
-      "visits": 0
-    },
-    {
-      "id": 1762451085076,
-      "url": "https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html",
-      "source": "Archive.today: FBI Demands Data from Provider Tucows",
-      "pullQuote": "It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option.",
-      "tags": [
-        "archive",
-        "legal",
-        "fbi",
-        "hosting"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T17:44:45.076Z",
-      "visits": 0
-    },
-    {
-      "id": 1762451154024,
-      "url": "https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf",
-      "source": "guidelines-governance.pdf",
-      "pullQuote": "India AI Governance Guidelines Enabling Safe and Trusted AI Innovation",
-      "tags": [
-        "ai",
-        "governance",
-        "india",
-        "guidelines"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T17:45:54.024Z",
-      "visits": 0
-    },
-    {
-      "id": 1762452100056,
-      "url": "https://arxiv.org/abs/2510.21328v1",
-      "source": "Space waste: An update of the anthropogenic matter injection into Earth atmosphere",
-      "pullQuote": "Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz & Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements.",
-      "tags": [
-        "space",
-        "environment",
-        "pollution",
-        "atmosphere"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:01:40.056Z",
-      "visits": 0
-    },
-    {
-      "id": 1762452427915,
-      "url": "https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
-      "source": "CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
-      "pullQuote": "This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or counter both simultaneously.\nTo compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should\nadopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment\napproach in space. Such an approach would suggest developing, exercising, and selectively\nrevealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,\nbalancing resilience with a more proactive strategy that adopts a two-rival force concept\nwould provide the United States with a framework to strengthen U.S. freedom of action in\nspace and on Earth.",
-      "tags": [
-        "space",
-        "threat",
-        "assessment",
-        "strategic",
-        "report",
-        "nat-sec"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:07:07.915Z",
-      "visits": 0
-    },
-    {
-      "id": 1762453214055,
-      "url": "https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049",
-      "source": "‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio",
-      "pullQuote": "RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that's part of what's going on.\n\nBut hope for me has never been optimism. Optimism is \"everything will be fine,\" which invites people to kick back and wait for \"fine\" to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It's reminding people that we've changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it.",
-      "tags": [
-        "us politics",
-        "authoritarianism",
-        "political commentary",
-        "resistance movements",
-        "democracy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:20:14.055Z",
-      "visits": 0
-    },
-    {
-      "id": 1762454546932,
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/emotion-ai-explained",
-      "source": "Emotion AI, explained",
-      "pullQuote": "(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito's term and he I thought bottomed it out, but no, it's plunged to below nil) ---Is emotion AI something to welcome or to worry about? ---- Another thing to keep in mind is that the technology is only as good as its programmer. Brynjolfsson warned as these technologies are rolled out, they need to be appropriate for all people, not just sensitive to the subset of the population used for training.\n\n“For instance, recognizing emotions in an African American face sometimes can be difficult for a machine that’s trained on Caucasian faces,” Brynjolfsson said. “And some of the gestures or voice inflections in one culture may mean something very different in a different culture.”",
-      "tags": [
-        "ethics",
-        "ai",
-        "emotional-ai",
-        "emotion",
-        "reading-humans"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:42:26.932Z",
-      "visits": 0
-    },
-    {
-      "id": 1762597266263,
-      "url": "https://poisonpill.ai/",
-      "source": "Poison Pill — Invisible protection for music against AI training",
-      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
-      "tags": [
-        "music",
-        "copyright",
-        "ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-08T10:21:06.263Z",
-      "visits": 0
-    },
-    {
-      "id": 1762597453587,
-      "url": "https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/",
-      "source": "DeepSeek researcher pessimistic over AI's impact in startup's first public appearance since success ",
-      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
-      "tags": [
-        "deepseek",
-        "ai",
-        "ai-impact"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-08T10:24:13.587Z",
-      "visits": 0
-    },
-    {
-      "id": 1762598066782,
-      "url": "https://alivetheory.net/",
-      "source": "alive internet theory",
-      "pullQuote": "",
-      "tags": [
-        "video",
-        "internet",
-        "archive"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-08T10:34:26.782Z",
+      "timestamp": "2025-11-09T18:21:57.435Z",
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-08T10:34:35.026Z",
-  "exportedAt": "2025-11-08T10:34:35.026Z",
-  "totalLinks": 133
+  "lastUpdated": "2025-11-09T18:54:12.496Z",
+  "exportedAt": "2025-11-09T18:54:12.496Z",
+  "totalLinks": 136
 }
