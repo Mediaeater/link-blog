@@ -1944,9 +1944,26 @@
       "isPinned": false,
       "timestamp": "2025-11-09T18:21:57.435Z",
       "visits": 0
+    },
+    {
+      "id": 1762730837109,
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "source": "mckinsey.com",
+      "pullQuote": "/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. Corporate AI theater is alive and well lol.\n\n2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.\n\n3/ The impact gap is massive. 64% say AI helps innovation, but only 39% see real EBIT gains. \n\n4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.\n\n5/ Leaders who own AI personally are 3x more likely to scale it. Makes sense.\n\n6/ The winners use AI to transform how work gets done, not just speed it up.\n\n7/ The average company measures efficiency. The best ones measure how fast their agents can act.\n\n8/ Risk management is catching up with 51% have already seen AI backfire, mostly from inaccuracy.\n\n9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.\n\n10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.",
+      "tags": [
+        "report",
+        "ai",
+        "2025",
+        "adoption",
+        "agents",
+        "workforce"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-09T23:27:17.109Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-09T18:54:12.496Z",
-  "exportedAt": "2025-11-09T18:54:12.496Z",
-  "totalLinks": 136
+  "lastUpdated": "2025-11-09T23:27:28.710Z",
+  "exportedAt": "2025-11-09T23:27:28.710Z",
+  "totalLinks": 137
 }
