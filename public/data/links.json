@@ -1961,9 +1961,41 @@
       "isPinned": false,
       "timestamp": "2025-11-09T23:27:17.109Z",
       "visits": 0
+    },
+    {
+      "id": 1762745888333,
+      "url": "https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/",
+      "source": "An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All",
+      "pullQuote": "I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in.",
+      "tags": [
+        "music",
+        "ai-music",
+        "billboard",
+        "charts",
+        "song"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-10T03:38:08.333Z",
+      "visits": 0
+    },
+    {
+      "id": 1762746097106,
+      "url": "https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/",
+      "source": "agents at scale in parallel ",
+      "pullQuote": "This wasn’t just passive monitoring; it was an active state of engagement across multiple fronts. I was simultaneously watching four terminals, remembering the specific context of each agent’s task, interjecting with high-level corrections, and planning the next steps for each parallel stream. Traditional “flow state” is about losing yourself in a single problem. This was the opposite: it was about maintaining a constant, high-level situational awareness of the entire system at once.",
+      "tags": [
+        "ai",
+        "code",
+        "claude-code",
+        "flow",
+        "\"situational awareness\""
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-10T03:41:37.106Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-09T23:31:54.335Z",
-  "exportedAt": "2025-11-09T23:31:54.335Z",
-  "totalLinks": 137
+  "lastUpdated": "2025-11-10T03:41:47.726Z",
+  "exportedAt": "2025-11-10T03:41:47.726Z",
+  "totalLinks": 139
 }
