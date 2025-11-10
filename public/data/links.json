@@ -1993,9 +1993,24 @@
       "isPinned": false,
       "timestamp": "2025-11-10T03:41:37.106Z",
       "visits": 0
+    },
+    {
+      "id": 1762807960415,
+      "url": "https://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-feature",
+      "source": "legal-case-against-rings-face-recognition-feature",
+      "pullQuote": "The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to recognize particular people, it will need to perform face recognition on every person that steps in front of the camera. Even if a camera owner does not tag a particular face, Amazon says it may retain that biometric information for up to six months. Amazon said it does not currently use the biometric data for “model training or algorithmic purposes.”\n\nIn order to biometrically identify you, a company typically will take your image and extract a faceprint by taking tiny measurements of your face and converting that into a series of numbers that is saved for later. When you step in front of a camera again, the company takes a new faceprint and compares it to a list of previous prints to find a match. Other forms of biometric tracking can be done with a scan of your fingertip, eyeball, or even your particular gait.\n\nAmazon has told reporters that the feature will be off by default and that it would be unavailable in certain jurisdictions with the most active biometric privacy enforcement—including the states of Illinois and Texas, and the city of Portland, Oregon. The company would not promise that this feature will remain off by default in the future.",
+      "tags": [
+        "ethics",
+        "surveillance",
+        "harms",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-10T20:52:40.415Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-10T03:47:43.611Z",
-  "exportedAt": "2025-11-10T03:47:43.611Z",
-  "totalLinks": 139
+  "lastUpdated": "2025-11-10T20:54:45.184Z",
+  "exportedAt": "2025-11-10T20:54:45.184Z",
+  "totalLinks": 140
 }
