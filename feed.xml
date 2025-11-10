@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 09 Nov 2025 23:31:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2025 03:41:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -966,6 +966,20 @@
             <guid>1762730837109</guid>
             <pubDate>Sun, 09 Nov 2025 23:27:17 GMT</pubDate>
             <description><![CDATA[Tags: report, ai, 2025, adoption, agents, workforce]]></description>
+        </item>
+        <item>
+            <title><![CDATA[An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All]]></title>
+            <link>https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/</link>
+            <guid>1762745888333</guid>
+            <pubDate>Mon, 10 Nov 2025 03:38:08 GMT</pubDate>
+            <description><![CDATA[Tags: music, ai-music, billboard, charts, song]]></description>
+        </item>
+        <item>
+            <title><![CDATA[agents at scale in parallel ]]></title>
+            <link>https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/</link>
+            <guid>1762746097106</guid>
+            <pubDate>Mon, 10 Nov 2025 03:41:37 GMT</pubDate>
+            <description><![CDATA[Tags: ai, code, claude-code, flow, "situational awareness"]]></description>
         </item>
     </channel>
 </rss>
