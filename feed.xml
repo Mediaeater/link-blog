@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 10 Nov 2025 03:47:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2025 20:54:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -980,6 +980,13 @@
             <guid>1762746097106</guid>
             <pubDate>Mon, 10 Nov 2025 03:41:37 GMT</pubDate>
             <description><![CDATA[Tags: ai, code, claude-code, flow, "situational awareness"]]></description>
+        </item>
+        <item>
+            <title><![CDATA[legal-case-against-rings-face-recognition-feature]]></title>
+            <link>https://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-feature</link>
+            <guid>1762807960415</guid>
+            <pubDate>Mon, 10 Nov 2025 20:52:40 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, surveillance, harms, privacy]]></description>
         </item>
     </channel>
 </rss>

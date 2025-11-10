@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1762807960415",
+      "url": "https://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-feature",
+      "title": "legal-case-against-rings-face-recognition-feature",
+      "date_published": "2025-11-10T20:52:40.415Z",
+      "tags": [
+        "ethics",
+        "surveillance",
+        "harms",
+        "privacy"
+      ],
+      "content_text": "The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to recognize particular people, it will need to perform face recognition on every person that steps in front of the camera. Even if a camera owner does not tag a particular face, Amazon says it may retain that biometric information for up to six months. Amazon said it does not currently use the biometric data for “model training or algorithmic purposes.”\n\nIn order to biometrically identify you, a company typically will take your image and extract a faceprint by taking tiny measurements of your face and converting that into a series of numbers that is saved for later. When you step in front of a camera again, the company takes a new faceprint and compares it to a list of previous prints to find a match. Other forms of biometric tracking can be done with a scan of your fingertip, eyeball, or even your particular gait.\n\nAmazon has told reporters that the feature will be off by default and that it would be unavailable in certain jurisdictions with the most active biometric privacy enforcement—including the states of Illinois and Texas, and the city of Portland, Oregon. The company would not promise that this feature will remain off by default in the future.",
+      "summary": "The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to r...",
+      "content_html": "<blockquote>The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to recognize particular people, it will need to perform face recognition on every person that steps in front of the camera. Even if a camera owner does not tag a particular face, Amazon says it may retain that biometric information for up to six months. Amazon said it does not currently use the biometric data for “model training or algorithmic purposes.”\n\nIn order to biometrically identify you, a company typically will take your image and extract a faceprint by taking tiny measurements of your face and converting that into a series of numbers that is saved for later. When you step in front of a camera again, the company takes a new faceprint and compares it to a list of previous prints to find a match. Other forms of biometric tracking can be done with a scan of your fingertip, eyeball, or even your particular gait.\n\nAmazon has told reporters that the feature will be off by default and that it would be unavailable in certain jurisdictions with the most active biometric privacy enforcement—including the states of Illinois and Texas, and the city of Portland, Oregon. The company would not promise that this feature will remain off by default in the future.</blockquote>\n<p><strong>Tags:</strong> ethics, surveillance, harms, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1762746097106",
       "url": "https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/",
       "title": "agents at scale in parallel ",
