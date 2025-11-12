@@ -6,7 +6,6 @@
       "source": "Petition: Do not introduce Digital ID cards",
       "pullQuote": "",
       "tags": [],
-      "isPinned": false,
       "timestamp": "2025-09-29T03:36:36.981Z",
       "visits": 0
     },
@@ -16,7 +15,6 @@
       "source": "Farewell Friends - HumbleDollar",
       "pullQuote": "",
       "tags": [],
-      "isPinned": false,
       "timestamp": "2025-09-29T03:36:36.981Z",
       "visits": 0
     },
@@ -29,9 +27,9 @@
         "map. aqi",
         "tool"
       ],
-      "isPinned": false,
       "timestamp": "2025-10-19T10:00:50.256Z",
-      "visits": 1
+      "visits": 1,
+      "tagInput": "map. aqi, tool"
     },
     {
       "id": 1758461704343.3533,
@@ -43,12 +41,10 @@
         "useful",
         "tutorial"
       ],
-      "isPinned": false,
       "timestamp": "2025-09-21T13:35:04.343Z",
       "visits": 1
     },
     {
-      "id": 1758451000932,
       "url": "https://archive.is/2uVSl",
       "source": "Artificial intelligence ushers in a golden age of hacking, experts say",
       "pullQuote": "In many cases, the new techniques are stunningly powerful. On a recent assignment to test defenses, Dave Brauchler of the cybersecurity company NCC Group tricked a client’s AI program-writing assistant into executing programs that forked over the company’s databases and code repositories.\n“We have never been this foolish with security,” Brauchler said.",
@@ -60,11 +56,11 @@
         "ai-security"
       ],
       "isPinned": false,
+      "id": 1758451000932,
       "timestamp": "2025-09-21T10:36:40.932Z",
       "visits": 0
     },
     {
-      "id": 1758450291142,
       "url": "https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html",
       "source": "TV Time Machine: A Raspberry Pi That Plays Random 90s TV",
       "pullQuote": " Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup",
@@ -74,11 +70,11 @@
         "playlist"
       ],
       "isPinned": false,
+      "id": 1758450291142,
       "timestamp": "2025-09-21T10:24:51.142Z",
       "visits": 0
     },
     {
-      "id": 1758420167781,
       "url": "https://underpassapp.com/news/2025/9/8.html",
       "source": "macOS becomes iOS: Safari video controls",
       "pullQuote": "In other words, yes, Apple is continuing to merge iOS and macOS.\n\n \n ",
@@ -89,11 +85,11 @@
         "apple"
       ],
       "isPinned": false,
+      "id": 1758420167781,
       "timestamp": "2025-09-21T02:03:31.429Z",
       "visits": 0
     },
     {
-      "id": 1757420687354,
       "url": "https://github.com/getzep/graphiti",
       "source": "Build Real-Time Knowledge Graphs for AI Agents",
       "pullQuote": "Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environments. Unlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph.",
@@ -105,11 +101,11 @@
         "knowledge-graph"
       ],
       "isPinned": false,
+      "id": 1757420687354,
       "timestamp": "2025-09-21T02:00:16.863Z",
       "visits": 0
     },
     {
-      "id": 1758419960663,
       "url": "https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd",
       "source": "AI: what will become of the truth?",
       "pullQuote": "The film’s narrative follows Stephen Fry, playing a grandfather with dementia who uses AI to fill in gaps in his memory. While reviewing the archive of his life, his family is forced to question which memories are truly accurate and how AI is shaping our identity.\n",
@@ -119,11 +115,11 @@
         "truth"
       ],
       "isPinned": false,
+      "id": 1758419960663,
       "timestamp": "2025-09-21T01:59:36.298Z",
       "visits": 0
     },
     {
-      "id": 1758419426665,
       "url": "https://www.aclock.live/",
       "source": "a Clock",
       "pullQuote": "",
@@ -135,11 +131,11 @@
         "bootleg"
       ],
       "isPinned": false,
+      "id": 1758419426665,
       "timestamp": "2025-09-21T01:50:26.665Z",
       "visits": 0
     },
     {
-      "id": 1758419073450,
       "url": "https://thebulletin.org/2025/08/how-ai-and-surveillance-capitalism-are-undermining-democracy/",
       "source": "How AI and surveillance capitalism are undermining democracy",
       "pullQuote": "eople may have no expectation of privacy out in public, but would they expect the police to commandeer the video feed from a neighbor’s doorbell to judge the degree of threateningness if they were to wave their hands wildly in an animated discussion about their lawn or an incident in our neighborhood? That’s what Ring’s new—and old—CEO wants to do with the now-ubiquitous doorbells.",
@@ -148,11 +144,11 @@
         "ai"
       ],
       "isPinned": false,
+      "id": 1758419073450,
       "timestamp": "2025-09-21T01:44:33.450Z",
       "visits": 0
     },
     {
-      "id": 1757676909317,
       "url": "https://walzr.com/chyrons",
       "source": "Chyrons",
       "pullQuote": "",
@@ -162,14 +158,13 @@
         "chryon"
       ],
       "isPinned": false,
+      "id": 1757676909317,
       "timestamp": "2025-09-12T11:35:09.317Z",
       "visits": 0
     },
     {
-      "id": 1757418298444,
       "url": "https://www.reddit.com/r/truespotify/comments/1n5yod7/new_spotify_feature_is_doxxing/",
       "source": "New Spotify feature is doxxing",
-      "pullQuote": "\"I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of “suggested friends”, most I recognized, but a few I couldn’t place. Based on the music shared (it shows every single link you’ve ever sent that someone has opened, as long as they have a Spotify account), I realized some of these were people I know from Discord.\"",
       "tags": [
         "reddit",
         "spotify",
@@ -177,11 +172,12 @@
         "music"
       ],
       "isPinned": false,
+      "pullQuote": "\"I checked Spotify today and noticed a new feature that lets you DM people. I tried it and saw a list of “suggested friends”, most I recognized, but a few I couldn’t place. Based on the music shared (it shows every single link you’ve ever sent that someone has opened, as long as they have a Spotify account), I realized some of these were people I know from Discord.\"",
+      "id": 1757418298444,
       "timestamp": "2025-09-09T11:44:58.444Z",
       "visits": 0
     },
     {
-      "id": 1757367362331,
       "url": "https://community.spotify.com/t5/Content-Questions/How-can-I-disable-PFC-AI-generated-content/td-p/6956494",
       "source": "How can I disable PFC (AI generated content)?",
       "pullQuote": "Thanks for posting in the Spotify Community, and welcome!\nUnfortunately, there isn’t a currently a way to prevent AI-generated \"music\" from showing up in playlists, such as those that are Made for you by Spotify.",
@@ -191,38 +187,37 @@
         "ai-backlash"
       ],
       "isPinned": false,
+      "id": 1757367362331,
       "timestamp": "2025-09-09T11:38:00.730Z",
       "visits": 0
     },
     {
-      "id": 1757367646946,
       "url": "https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised",
       "source": "npm debug and chalk packages compromised",
-      "pullQuote": "Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages,",
       "tags": [
         "malware",
         "llm",
         "npm"
       ],
       "isPinned": false,
+      "pullQuote": "Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages,",
+      "id": 1757367646946,
       "timestamp": "2025-09-08T21:40:46.946Z",
       "visits": 0
     },
     {
-      "id": 1757364929666,
       "url": "https://lobste.rs/active",
       "source": "Active Discussions | Lobsters",
       "pullQuote": "",
       "tags": [],
       "isPinned": false,
+      "id": 1757364929666,
       "timestamp": "2025-09-08T20:55:29.666Z",
       "visits": 0
     },
     {
-      "id": 1757344635340.094,
       "url": "https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/",
       "source": "C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well.",
-      "pullQuote": "",
       "tags": [
         "surveillance",
         "harms",
@@ -231,11 +226,12 @@
         "tom_siebel"
       ],
       "isPinned": false,
+      "id": 1757344635340.094,
       "timestamp": "2025-09-08T18:28:59.254Z",
-      "visits": 0
+      "visits": 0,
+      "pullQuote": ""
     },
     {
-      "id": 1757335344138,
       "url": "https://www.wsj.com/tech/ai/openai-backs-ai-made-animated-feature-film-389f70b0?st=GYZ8b6&reflink=desktopwebshare_permalink",
       "source": "OpenAI Backs AI-Made Animated Feature Film",
       "pullQuote": "The script for “Critterz” was written by some members of the team that wrote “Paddington in Peru.” Production has begun and casting decisions for the voices of the characters will be made in the next few weeks. \n\nIt is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said.",
@@ -246,14 +242,13 @@
         "animation"
       ],
       "isPinned": false,
+      "id": 1757335344138,
       "timestamp": "2025-09-08T12:42:24.138Z",
       "visits": 0
     },
     {
-      "id": 1757203853589,
       "url": "https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce",
       "source": "Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’",
-      "pullQuote": "",
       "tags": [
         "financial_times",
         "geoffrey_hinton",
@@ -262,14 +257,13 @@
         "ethics"
       ],
       "isPinned": false,
+      "id": 1757203853589,
       "timestamp": "2025-09-07T00:10:53.589Z",
       "visits": 0
     },
     {
-      "id": 1757203745886,
       "url": "https://www.ft.com/content/f4be38b3-2de9-4b81-bc47-24119c2d5aef",
       "source": "OpenAI pressed on safety after deaths of ChatGPT users",
-      "pullQuote": "",
       "tags": [
         "openai",
         "ethics",
@@ -278,14 +272,16 @@
         "death"
       ],
       "isPinned": false,
+      "id": 1757203745886,
       "timestamp": "2025-09-07T00:09:05.886Z",
       "visits": 0
     },
     {
-      "id": 1757203488338.5732,
       "url": "https://bbycroft.net/llm",
       "source": "LLM Visualization",
-      "pullQuote": "",
+      "description": "A 3D animated visualization of an LLM with a walkthrough.",
+      "image": "",
+      "favicon": "https://bbycroft.net/icon.png?9d3d9b98e68d2d0d",
       "tags": [
         "llm",
         "learning",
@@ -293,14 +289,13 @@
         "dataviz"
       ],
       "isPinned": false,
+      "id": 1757203488338.5732,
       "timestamp": "2025-09-07T00:05:43.469Z",
       "visits": 0
     },
     {
-      "id": 1757203269870,
       "url": "https://kanadojo.com/",
       "source": "KanaDojo かな道場",
-      "pullQuote": "",
       "tags": [
         "japan",
         "language",
@@ -309,14 +304,14 @@
         "ux"
       ],
       "isPinned": false,
+      "id": 1757203269870,
       "timestamp": "2025-09-07T00:01:30.968Z",
-      "visits": 1
+      "visits": 1,
+      "lastVisited": "2025-09-07T00:01:18.177Z"
     },
     {
-      "id": 1757203188495,
       "url": "https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement",
       "source": "Anthropic to pay $1.5 billion to authors in landmark AI settlement",
-      "pullQuote": "",
       "tags": [
         "copyright",
         "llm",
@@ -325,14 +320,13 @@
         "legacy_media"
       ],
       "isPinned": false,
+      "id": 1757203188495,
       "timestamp": "2025-09-06T23:59:48.495Z",
       "visits": 0
     },
     {
-      "id": 1757202907772,
       "url": "https://simonwillison.net/2025/Sep/6/research-goblin/",
       "source": "GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search",
-      "pullQuote": "",
       "tags": [
         "llm",
         "search",
@@ -341,14 +335,16 @@
         "gpt-5"
       ],
       "isPinned": false,
+      "id": 1757202907772,
       "timestamp": "2025-09-06T23:55:07.772Z",
       "visits": 0
     },
     {
-      "id": 1757202551589.908,
       "url": "https://gabrielweinberg.com/p/ai-surveillance-should-be-banned",
       "source": "AI surveillance should be banned while there is still time.",
-      "pullQuote": "",
+      "description": "All the same privacy harms with online tracking are also present with AI, but worse.",
+      "image": "https://substackcdn.com/image/fetch/$s_!UPxy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8768dfd7-595d-47a4-9bd8-9a57a28cd72c_2100x1025.png",
+      "favicon": "https://substackcdn.com/image/fetch/$s_!e3e-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F409752e4-3fd1-45fd-963b-dcab2e4e369f%2Fapple-touch-icon-1024x1024.png",
       "tags": [
         "ai",
         "surveillance",
@@ -357,20 +353,23 @@
         "dignity"
       ],
       "isPinned": false,
+      "id": 1757202551589.908,
       "timestamp": "2025-09-06T23:53:46.088Z",
       "visits": 0
     },
     {
-      "id": 1757202717406.6863,
       "url": "https://www.submarinecablemap.com/",
       "source": "Submarine Cable Map",
-      "pullQuote": "",
+      "description": "TeleGeography’s comprehensive and regularly updated interactive map of the world’s major submarine cable systems and landing stations.",
+      "image": "https://www.submarinecablemap.com/images/aqua-comms-logo.png",
+      "favicon": "https://www.submarinecablemap.com/images/telegeography-app-icon.png",
       "tags": [
         "maps",
         "submarine",
         "networks"
       ],
       "isPinned": false,
+      "id": 1757202717406.6863,
       "timestamp": "2025-09-06T23:53:02.612Z",
       "visits": 0
     },
@@ -378,47 +377,40 @@
       "id": 1725540001,
       "url": "https://dspy.ai/",
       "source": "Programming—not prompting—LMs",
-      "pullQuote": "",
       "tags": [
         "llm",
         "agent",
         "dspy"
       ],
       "isPinned": false,
-      "timestamp": "2025-09-05T11:00:00.000Z",
-      "visits": 0
+      "timestamp": "2025-09-05T11:00:00.000Z"
     },
     {
       "id": 1725540002,
       "url": "https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html",
       "source": "They're Famous. They're Everywhere. And They're Fake",
-      "pullQuote": "",
       "tags": [
         "influencers",
         "brands",
         "character-ai"
       ],
       "isPinned": false,
-      "timestamp": "2025-09-05T10:30:00.000Z",
-      "visits": 0
+      "timestamp": "2025-09-05T10:30:00.000Z"
     },
     {
       "id": 1725540003,
       "url": "https://www.derekthompson.org/p/the-evidence-that-ai-is-destroying",
       "source": "The Evidence That AI Is Destroying Workflows",
-      "pullQuote": "",
       "tags": [
         "ai-impact"
       ],
       "isPinned": false,
-      "timestamp": "2025-09-05T10:00:00.000Z",
-      "visits": 0
+      "timestamp": "2025-09-05T10:00:00.000Z"
     },
     {
       "id": 1725540004,
       "url": "https://github.com/nukeop/nuclear",
       "source": "Nuclear – Open Source Music Player (GitHub)",
-      "pullQuote": "Streaming music player that finds free music for you",
       "tags": [
         "music",
         "player",
@@ -426,21 +418,21 @@
       ],
       "isPinned": false,
       "timestamp": "2025-10-19T10:02:27.738Z",
-      "visits": 1
+      "visits": 1,
+      "pullQuote": "Streaming music player that finds free music for you",
+      "tagInput": "music, player, open-source,"
     },
     {
       "id": 1757344635340.3992,
       "url": "https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html",
       "source": "Apertus: Switzerland's First Open Multilingual LLM (EPFL/ETH/CSCS)",
-      "pullQuote": "",
       "tags": [
         "llm",
         "opensource",
         "ch"
       ],
       "isPinned": false,
-      "timestamp": "2025-09-05T09:00:00.000Z",
-      "visits": 0
+      "timestamp": "2025-09-05T09:00:00.000Z"
     },
     {
       "id": 1758462039121,
@@ -453,7 +445,6 @@
         "harms",
         "ai"
       ],
-      "isPinned": false,
       "timestamp": "2025-09-21T13:40:39.121Z",
       "visits": 0
     },
@@ -479,7 +470,6 @@
       "tags": [
         "research"
       ],
-      "isPinned": false,
       "timestamp": "2025-09-23T10:40:03.481Z",
       "visits": 0
     },
@@ -493,9 +483,9 @@
         "surveillance",
         "harms"
       ],
-      "isPinned": false,
       "timestamp": "2025-09-23T15:50:03.401Z",
-      "visits": 0
+      "visits": 0,
+      "tagInput": "hardware, surveillance, harms"
     },
     {
       "id": 1758642344436,
@@ -508,7 +498,7 @@
         "landscape",
         "architecture"
       ],
-      "isPinned": false,
+      "tagInput": "map, atlas, landscape, architecture",
       "timestamp": "2025-09-23T15:45:44.436Z",
       "visits": 0
     },
@@ -524,7 +514,7 @@
         "mr",
         "mixed reality"
       ],
-      "isPinned": false,
+      "tagInput": "apple, film, hollywood, mr, mixed reality",
       "timestamp": "2025-09-23T15:47:44.851Z",
       "visits": 0
     },
@@ -539,9 +529,10 @@
         "automotive",
         "urban-hack"
       ],
-      "isPinned": false,
+      "tagInput": "surveillance, map, automotive, urban-hack",
       "timestamp": "2025-09-24T01:20:14.994Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758677119226,
@@ -554,7 +545,7 @@
         "society",
         "cn"
       ],
-      "isPinned": false,
+      "tagInput": "technology, surveillance, society, cn",
       "timestamp": "2025-09-24T01:25:19.226Z",
       "visits": 0
     },
@@ -567,7 +558,7 @@
         "intelligence",
         "cognition"
       ],
-      "isPinned": false,
+      "tagInput": "intelligence, cognition",
       "timestamp": "2025-09-24T03:23:06.514Z",
       "visits": 0
     },
@@ -582,9 +573,10 @@
         "us-gov",
         "networks"
       ],
-      "isPinned": false,
+      "tagInput": "sms, mobile, us-gov, networks",
       "timestamp": "2025-09-24T10:29:03.539Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758676997447,
@@ -595,9 +587,10 @@
         "surveillance",
         "telcom"
       ],
-      "isPinned": false,
+      "tagInput": "surveillance, telcom",
       "timestamp": "2025-09-24T01:23:17.447Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758972547893,
@@ -610,9 +603,10 @@
         "frt",
         "privacy"
       ],
-      "isPinned": false,
+      "tagInput": "surveillance, redaction, frt, privacy",
       "timestamp": "2025-09-27T11:29:07.893Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758975582766,
@@ -623,9 +617,10 @@
         "music",
         "ai"
       ],
-      "isPinned": false,
+      "tagInput": "music, ai",
       "timestamp": "2025-09-27T12:20:19.268Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758975845168,
@@ -638,9 +633,10 @@
         "dma",
         "music"
       ],
-      "isPinned": false,
+      "tagInput": "apple, eu, dma, music",
       "timestamp": "2025-09-27T12:24:05.168Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758976489524,
@@ -652,9 +648,10 @@
         "map",
         "finland"
       ],
-      "isPinned": false,
+      "tagInput": "happiness, map, finland",
       "timestamp": "2025-09-27T12:34:49.524Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758976629504,
@@ -666,9 +663,10 @@
         "decentralization",
         "open-social"
       ],
-      "isPinned": false,
+      "tagInput": "socialmedia, decentralization, open-social",
       "timestamp": "2025-09-27T12:37:09.504Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1758984906467,
@@ -681,9 +679,10 @@
         "legislation",
         "california"
       ],
-      "isPinned": false,
+      "tagInput": "ai, machine-learning, legislation, california",
       "timestamp": "2025-09-27T14:55:06.467Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1759003849895,
@@ -695,9 +694,10 @@
         "security",
         "usa"
       ],
-      "isPinned": false,
+      "tagInput": "opsec, security, usa",
       "timestamp": "2025-09-27T20:10:49.895Z",
-      "visits": 0
+      "visits": 0,
+      "isPinned": false
     },
     {
       "id": 1759117178224,
@@ -709,6 +709,7 @@
         "aqi",
         "map"
       ],
+      "tagInput": "climate, aqi, map",
       "isPinned": false,
       "timestamp": "2025-09-29T03:39:38.224Z",
       "visits": 0
@@ -725,7 +726,7 @@
         "privacy",
         "uk"
       ],
-      "isPinned": false,
+      "tagInput": "surveillance, harms, ethics, privacy, uk",
       "timestamp": "2025-09-29T03:41:09.413Z",
       "visits": 0
     },
@@ -738,7 +739,7 @@
         "death",
         "obit"
       ],
-      "isPinned": false,
+      "tagInput": "death, obit",
       "timestamp": "2025-09-29T03:42:52.389Z",
       "visits": 0
     },
@@ -752,7 +753,7 @@
         "podcast",
         "ai"
       ],
-      "isPinned": false,
+      "tagInput": "ethics, podcast, ai",
       "timestamp": "2025-09-29T03:44:45.587Z",
       "visits": 0
     },
@@ -765,7 +766,7 @@
         "art",
         "authorship"
       ],
-      "isPinned": false,
+      "tagInput": "art, authorship",
       "timestamp": "2025-09-29T11:29:00.527Z",
       "visits": 0
     },
@@ -779,7 +780,7 @@
         "education",
         "university."
       ],
-      "isPinned": false,
+      "tagInput": "learning, education, university.",
       "timestamp": "2025-09-29T11:40:44.878Z",
       "visits": 0
     },
@@ -793,7 +794,7 @@
         "air-travel",
         "harms"
       ],
-      "isPinned": false,
+      "tagInput": "regulation, air-travel, harms",
       "timestamp": "2025-09-30T10:50:47.683Z",
       "visits": 0
     },
@@ -808,7 +809,7 @@
         "llm",
         "legislation"
       ],
-      "isPinned": false,
+      "tagInput": "ai, ethics, llm, legislation",
       "timestamp": "2025-09-30T12:00:10.419Z",
       "visits": 0
     },
@@ -822,7 +823,7 @@
         "harms",
         "loneliness"
       ],
-      "isPinned": false,
+      "tagInput": "health, harms, loneliness",
       "timestamp": "2025-09-30T12:15:03.481Z",
       "visits": 0
     },
@@ -837,7 +838,7 @@
         "context",
         "prompts"
       ],
-      "isPinned": false,
+      "tagInput": "llm, agent, context, prompts",
       "timestamp": "2025-10-06T20:35:18.647Z",
       "visits": 1
     },
@@ -852,7 +853,7 @@
         "1A",
         "rights"
       ],
-      "isPinned": false,
+      "tagInput": "distribution, censorship, 1A, rights",
       "timestamp": "2025-10-06T20:36:31.909Z",
       "visits": 0
     },
@@ -866,7 +867,7 @@
         "wireguard",
         "vpn"
       ],
-      "isPinned": false,
+      "tagInput": "networks, wireguard, vpn",
       "timestamp": "2025-10-06T20:37:21.766Z",
       "visits": 0
     },
@@ -881,7 +882,7 @@
         "rankings",
         "ases"
       ],
-      "isPinned": false,
+      "tagInput": "network, autonomous-systems, rankings, ases",
       "timestamp": "2025-10-06T20:39:50.637Z",
       "visits": 0
     },
@@ -896,7 +897,7 @@
         "ux",
         "shitification"
       ],
-      "isPinned": false,
+      "tagInput": "amazon, shopping, ux, shitification",
       "timestamp": "2025-10-06T20:44:17.630Z",
       "visits": 0
     },
@@ -912,7 +913,7 @@
         "video-gen",
         "openai"
       ],
-      "isPinned": false,
+      "tagInput": "sora, video, likeness, video-gen, openai",
       "timestamp": "2025-10-06T20:45:18.885Z",
       "visits": 0
     },
@@ -926,7 +927,7 @@
         "ethics",
         "hollywood"
       ],
-      "isPinned": false,
+      "tagInput": "opeani, ethics, hollywood",
       "timestamp": "2025-10-07T13:04:44.784Z",
       "visits": 0
     },
@@ -942,7 +943,7 @@
         "recordings",
         "paper"
       ],
-      "isPinned": false,
+      "tagInput": "audio, fish, water, recordings, paper",
       "timestamp": "2025-10-11T18:20:40.614Z",
       "visits": 0
     },
@@ -957,7 +958,7 @@
         "ai generative-media",
         "media"
       ],
-      "isPinned": false,
+      "tagInput": "google, studio, ai generative-media, media",
       "timestamp": "2025-10-11T18:24:44.313Z",
       "visits": 0
     },
@@ -970,7 +971,7 @@
         "AI",
         "business"
       ],
-      "isPinned": false,
+      "tagInput": "AI, business",
       "timestamp": "2025-10-14T10:08:38.044Z",
       "visits": 0
     },
@@ -983,7 +984,7 @@
         "pdf",
         "documentation"
       ],
-      "isPinned": false,
+      "tagInput": "pdf, documentation",
       "timestamp": "2025-10-14T10:10:19.633Z",
       "visits": 0
     },
@@ -998,7 +999,7 @@
         "ai",
         "ethics"
       ],
-      "isPinned": false,
+      "tagInput": "standards, openai, ai, ethics",
       "timestamp": "2025-10-14T10:14:07.202Z",
       "visits": 0
     },
@@ -1013,7 +1014,7 @@
         "trailer",
         "ai-hollywood"
       ],
-      "isPinned": false,
+      "tagInput": "ai, hollywood, trailer, ai-hollywood",
       "timestamp": "2025-10-14T10:24:05.430Z",
       "visits": 0
     },
@@ -1027,6 +1028,7 @@
         "github",
         "open-source"
       ],
+      "tagInput": "code, github, open-source",
       "isPinned": false,
       "timestamp": "2025-10-14T10:23:26.690Z",
       "visits": 0
@@ -1043,6 +1045,7 @@
         "legislation",
         "socialmedia"
       ],
+      "tagInput": "california, ca, privacy, legislation, socialmedia",
       "isPinned": false,
       "timestamp": "2025-10-14T10:32:38.317Z",
       "visits": 0
@@ -1058,7 +1061,7 @@
         "media",
         "narritive"
       ],
-      "isPinned": false,
+      "tagInput": "truth, grok, media, narritive",
       "timestamp": "2025-10-15T22:53:02.753Z",
       "visits": 0
     },
@@ -1071,7 +1074,7 @@
         "claude",
         "llm"
       ],
-      "isPinned": false,
+      "tagInput": "claude, llm",
       "timestamp": "2025-10-18T10:17:46.234Z",
       "visits": 0
     },
@@ -1088,7 +1091,7 @@
         "moma",
         "black mountain college"
       ],
-      "isPinned": false,
+      "tagInput": "art, ruth asawa, sf, nyc, moma, black mountain college",
       "timestamp": "2025-10-18T14:03:09.017Z",
       "visits": 0
     },
@@ -1104,7 +1107,7 @@
         "openai",
         "censorship"
       ],
-      "isPinned": false,
+      "tagInput": "ai, ethics, llm, openai, censorship",
       "timestamp": "2025-10-18T14:07:07.056Z",
       "visits": 0
     },
@@ -1120,7 +1123,7 @@
         "social-media",
         "synchrony"
       ],
-      "isPinned": false,
+      "tagInput": "human, behavior, patterns, social-media, synchrony",
       "timestamp": "2025-10-18T14:10:45.849Z",
       "visits": 0
     },
@@ -1137,7 +1140,7 @@
         "collection",
         "drawing"
       ],
-      "isPinned": false,
+      "tagInput": "root, system, plants, botany, collection, drawing",
       "timestamp": "2025-10-18T14:21:01.757Z",
       "visits": 0
     },
@@ -1150,7 +1153,7 @@
         "music",
         "player"
       ],
-      "isPinned": false,
+      "tagInput": "music, player",
       "timestamp": "2025-10-18T14:22:32.472Z",
       "visits": 0
     },
@@ -1165,7 +1168,7 @@
         "intelligence",
         "learning"
       ],
-      "isPinned": false,
+      "tagInput": "book, resource, intelligence, learning",
       "timestamp": "2025-10-18T18:50:36.186Z",
       "visits": 0
     },
@@ -1177,7 +1180,7 @@
       "tags": [
         "stories"
       ],
-      "isPinned": false,
+      "tagInput": "stories",
       "timestamp": "2025-10-18T18:52:46.283Z",
       "visits": 0
     },
@@ -1192,7 +1195,7 @@
         "library",
         "open-source"
       ],
-      "isPinned": false,
+      "tagInput": "code, github, library, open-source",
       "timestamp": "2025-10-19T09:55:15.253Z",
       "visits": 0
     },
@@ -1206,7 +1209,7 @@
         "rankings",
         "github"
       ],
-      "isPinned": false,
+      "tagInput": "code, rankings, github",
       "timestamp": "2025-10-19T09:56:11.770Z",
       "visits": 0
     },
@@ -1220,7 +1223,7 @@
         "social-media",
         "open-social"
       ],
-      "isPinned": false,
+      "tagInput": "ethics, social-media, open-social",
       "timestamp": "2025-10-19T09:59:03.326Z",
       "visits": 0
     },
@@ -1235,7 +1238,7 @@
         "ethics",
         "code"
       ],
-      "isPinned": false,
+      "tagInput": "agi, llm, ethics, code",
       "timestamp": "2025-10-19T10:04:21.023Z",
       "visits": 0
     },
@@ -1245,7 +1248,7 @@
       "source": "Introducing ChatGPT Atlas",
       "pullQuote": " continue to find this entire category of browser agents deeply confusing.\n\nThe security and privacy risks involved here still feel insurmountably high to me - I certainly won't be trusting any of these products until a bunch of security researchers have given them a very thorough beating.\n\nI'd like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-22T11:38:58.293Z",
       "visits": 0
     },
@@ -1258,7 +1261,7 @@
         "openai",
         "business"
       ],
-      "isPinned": false,
+      "tagInput": "openai, business, ",
       "timestamp": "2025-10-22T11:40:56.195Z",
       "visits": 0
     },
@@ -1268,7 +1271,7 @@
       "source": "B&C Post From July 2023",
       "pullQuote": "Boy this seems to have played out, the amount of networks for sale may be high (unclear) but willing suitor count seems to be dead on. ",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-22T11:48:20.594Z",
       "visits": 0
     },
@@ -1282,7 +1285,7 @@
         "open-source",
         "video"
       ],
-      "isPinned": false,
+      "tagInput": "video-gen, open-source, video",
       "timestamp": "2025-10-22T23:07:05.473Z",
       "visits": 0
     },
@@ -1295,7 +1298,7 @@
         "cn",
         "compression"
       ],
-      "isPinned": false,
+      "tagInput": "cn, compression",
       "timestamp": "2025-10-22T23:19:39.626Z",
       "visits": 0
     },
@@ -1305,7 +1308,7 @@
       "source": "OpenAI prioritised user engagement over suicide prevention, lawsuit claims",
       "pullQuote": "The level of creepy here just canon - --- OpenAI - on brand \"Lawyers for the Raines told the Financial Times that OpenAI had requested a full list of attendees from Adam’s memorial, which they described as “unusual” and “intentional harassment”, suggesting the tech company may subpoena “everyone in Adam’s life”.\n",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-24T11:41:09.291Z",
       "visits": 0
     },
@@ -1318,7 +1321,7 @@
         "thinking",
         "learning"
       ],
-      "isPinned": false,
+      "tagInput": "thinking, learning, psychology",
       "timestamp": "2025-10-24T11:06:05.071Z",
       "visits": 0
     },
@@ -1333,7 +1336,7 @@
         "images",
         "sensor"
       ],
-      "isPinned": false,
+      "tagInput": "camera, ground-truth, images, ",
       "timestamp": "2025-10-24T11:35:25.443Z",
       "visits": 0
     },
@@ -1347,7 +1350,7 @@
         "data-science",
         "machine-learning"
       ],
-      "isPinned": false,
+      "tagInput": "ai,  data-science, machine-learning, ",
       "timestamp": "2025-10-24T11:40:24.485Z",
       "visits": 0
     },
@@ -1362,7 +1365,7 @@
         "anthropic",
         "empathy"
       ],
-      "isPinned": false,
+      "tagInput": "memory, claude, anthropic, empathy",
       "timestamp": "2025-10-24T11:45:49.871Z",
       "visits": 0
     },
@@ -1377,7 +1380,7 @@
         "dark-ux",
         "how-to"
       ],
-      "isPinned": false,
+      "tagInput": "tutorial, ai, dark-ux, how-to",
       "timestamp": "2025-10-24T21:21:25.365Z",
       "visits": 0
     },
@@ -1387,7 +1390,7 @@
       "source": "Where’s the AI design renaissance?",
       "pullQuote": "A third axis that I think about is “tightness of constraints”. I have a working theory that AI performs best when constraints are loosest.",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-24T21:25:35.323Z",
       "visits": 0
     },
@@ -1397,7 +1400,7 @@
       "source": "Google Skills",
       "pullQuote": "Discover learning for in-demand skills - Your home for building AI skills and more. Get hands on with Google Skills Labs, dive into in-depth courses, and learn directly from the experts. When ready, prove your new skills with career-boosting credentials. (Goole AI school -ed ) ",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-24T21:27:35.495Z",
       "visits": 0
     },
@@ -1407,7 +1410,7 @@
       "source": "How fan power is reshaping pop",
       "pullQuote": "\t“In the social media era, the audience isn’t just a discrete group of dedicated followers; it’s the entire public, all the casual onlookers, the lurkers and the bystanders who can all become part of the conversation or the conflict,” Ewens says. “This blurring of boundaries means that music artists aren’t just managing fans, but a much bigger and more fragmented crowd that mixes genuine enthusiasm with entitlement, curiosity and sometimes outright aggression.”\n",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-25T22:40:38.139Z",
       "visits": 0
     },
@@ -1423,7 +1426,7 @@
         "ethics",
         "legal"
       ],
-      "isPinned": false,
+      "tagInput": "msg, dolan, frt, ethics, legal",
       "timestamp": "2025-10-25T22:47:23.798Z",
       "visits": 0
     },
@@ -1439,7 +1442,7 @@
         "archive",
         "collection"
       ],
-      "isPinned": false,
+      "tagInput": "film, posters, paper, archive, collection",
       "timestamp": "2025-10-26T14:09:20.935Z",
       "visits": 0
     },
@@ -1455,7 +1458,7 @@
         "unencrypted",
         "networks"
       ],
-      "isPinned": false,
+      "tagInput": "opsec, security, satellite, unencrypted, networks",
       "timestamp": "2025-10-26T14:10:36.735Z",
       "visits": 0
     },
@@ -1465,7 +1468,7 @@
       "source": "Tiny Awards",
       "pullQuote": "The Tiny Awards exist because we thought it was important to shine a spotlight on the sorts of personal web projects that tend to get overlooked by more traditional, larger or more commercial awards.\n\nEach year we ask the online world to nominate their favourite creative, non-commercial website built in the past 12 months. A panel of selected expert judges drawn from across the wide world of web-based creativity then pick their favourites. Finally, the entire web then votes upon this list to pick its favourite. The winner, as chosen by public vote, wins a small prize and a small handmade trophy (and we hopefully give an even smaller prize to each nominee).\n\n",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-26T19:46:41.428Z",
       "visits": 0
     },
@@ -1480,7 +1483,7 @@
         "paris-photo",
         "aperture"
       ],
-      "isPinned": false,
+      "tagInput": "awards, photography, paris-photo, aperture",
       "timestamp": "2025-10-26T19:50:10.240Z",
       "visits": 0
     },
@@ -1497,7 +1500,7 @@
         "privacy",
         "legal"
       ],
-      "isPinned": false,
+      "tagInput": "frt, facial-recognition, clearview-ai, eu, privacy, legal",
       "timestamp": "2025-10-28T10:34:40.766Z",
       "visits": 0
     },
@@ -1513,7 +1516,7 @@
         "gear",
         "auction"
       ],
-      "isPinned": false,
+      "tagInput": "kraftwerk, music, art, gear, auction",
       "timestamp": "2025-10-30T10:30:51.773Z",
       "visits": 0
     },
@@ -1530,7 +1533,7 @@
         "udio",
         "settlement"
       ],
-      "isPinned": false,
+      "tagInput": "music, ai, legal, umg, udio, settlement",
       "timestamp": "2025-10-30T10:36:04.985Z",
       "visits": 0
     },
@@ -1545,7 +1548,7 @@
         "chatgpt",
         "hollywood-ai"
       ],
-      "isPinned": false,
+      "tagInput": "legal,  openai,  chatgpt, hollywood-ai, ",
       "timestamp": "2025-10-30T10:43:46.737Z",
       "visits": 0
     },
@@ -1561,7 +1564,7 @@
         "ip",
         "legal"
       ],
-      "isPinned": false,
+      "tagInput": "llms, audit, privacy, ip, legal",
       "timestamp": "2025-10-30T10:56:01.034Z",
       "visits": 0
     },
@@ -1571,7 +1574,7 @@
       "source": "4835796-universal-music-group-n-v-unvgy-q3-2025-earnings-call-transcript",
       "pullQuote": "We've secured really important guardrails and protection for our artists and writers around GenAI content, which brings me to my second topic.\n\nWe're seeing significant creative and commercial opportunities in GenAI technology, which is why UMG is playing a pioneering role in fostering its enormous potential in music.\n\nOur foundational belief is that artists, songwriters, music companies and technology companies, all working together will create a healthy and thriving commercial AI ecosystem in which all of us, including fans, can flourish. For several years now, we've been driving initiatives with our partners to put artists at the center of the conversation around GenAI. We struck artist-centric agreements, establishing foundations and parameters for innovation, new products -- sorry, innovative new products that will unlock the power of its revolutionary technology. And both creatively and commercially, our portfolio of AI partnerships continues to expand.",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-31T11:50:57.899Z",
       "visits": 0
     },
@@ -1581,7 +1584,7 @@
       "source": "On Taste",
       "pullQuote": "The layers of taste -- In this “unified” theory, taste is a layered and relational process. From raw sensory data to our eventual judgment/appreciation, multiple factors play a role.\n\nJust as important, these layers are cumulative. Once a new influence is absorbed, it can’t simply be erased, and reshapes every later encounter. For instance, each new piece you hear in a genre subtly changes how you hear the next. Prior knowledge and exposure become part of the lens through which all future experiences are filtered.",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-31T11:52:32.318Z",
       "visits": 0
     },
@@ -1595,7 +1598,7 @@
         "gen-ai",
         "video-gen"
       ],
-      "isPinned": false,
+      "tagInput": "advertising,  gen-ai, video-gen, veo, google,",
       "timestamp": "2025-10-31T11:55:00.183Z",
       "visits": 0
     },
@@ -1610,7 +1613,7 @@
         "sleep",
         "brain"
       ],
-      "isPinned": false,
+      "tagInput": "behavior, human, sleep, brain",
       "timestamp": "2025-10-31T18:30:41.225Z",
       "visits": 0
     },
@@ -1620,286 +1623,10 @@
       "source": "AI scrapers request commented scripts",
       "pullQuote": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n",
       "tags": [],
-      "isPinned": false,
+      "tagInput": "",
       "timestamp": "2025-10-31T18:32:56.814Z",
-      "visits": 0
-    },
-    {
-      "id": 1762002218137,
-      "url": "https://www.nybooks.com/articles/2025/11/06/inside-the-music-criticism-matthew-aucoin/",
-      "source": "Inside the Music | Matthew Aucoin",
-      "pullQuote": "The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
-      "tags": [
-        "music",
-        "nyt",
-        "critics",
-        "publishing",
-        "editorial"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T13:03:38.137Z",
-      "visits": 0
-    },
-    {
-      "id": 1762002397105,
-      "url": "https://hudsonstreetlibrary.com/collections/recently_added.html",
-      "source": "New Acquisitions | Hudson Street Library",
-      "pullQuote": "Browse recent additions to the Hudson Street Library special collection. All materials are cataloged according to Library of Congress Classification standards.",
-      "tags": [
-        "books",
-        "library",
-        "newyorkcity"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T13:06:37.105Z",
-      "visits": 0
-    },
-    {
-      "id": 1762014121602,
-      "url": "https://ifcomp.org/comp/2025",
-      "source": "IFComp 2025",
-      "pullQuote": "Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators.",
-      "tags": [
-        "list",
-        "fiction",
-        "stories",
-        "competition"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T16:22:01.602Z",
-      "visits": 0
-    },
-    {
-      "id": 1762014658900,
-      "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
-      "source": "Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category",
-      "pullQuote": "arXiv’s computer science (CS) category has updated its moderation practice with respect to review (or survey) articles and position papers. Before being considered for submission to arXiv’s CS category, review articles and position papers must now be accepted at a journal or a conference and complete successful peer review. When submitting review articles or position papers, authors must include documentation of successful peer review to receive full consideration. Review/survey articles or position papers submitted to arXiv without this documentation will be likely to be rejected and not appear on arXiv.\n\nThis change is being implemented due to the unmanageable influx of review articles and position papers to arXiv CS.",
-      "tags": [
-        "ethics",
-        "ai-slop",
-        "science",
-        "publishing",
-        "arXiv"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T16:30:58.900Z",
-      "visits": 0
-    },
-    {
-      "id": 1762021781903,
-      "url": "https://www.tickettailor.com/events/performa2025biennial1",
-      "source": "Performa 2025 Biennial",
-      "pullQuote": "The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.\n\nLocated at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.\n\nThis marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work.",
-      "tags": [
-        "art",
-        "perfomance",
-        "nyc",
-        "performa",
-        "tickets"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-01T18:29:41.903Z",
-      "visits": 0
-    },
-    {
-      "id": 1762254102486,
-      "url": "The Case That A.I. Is Thinking",
-      "source": "The Case That A.I. Is Thinking",
-      "pullQuote": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
-      "tags": [
-        "openai",
-        "newyorker",
-        "knowledge",
-        "thinking"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-04T11:01:42.486Z",
-      "visits": 0
-    },
-    {
-      "id": 1762293581356,
-      "url": "https://wholeearth.info/",
-      "source": "Whole Earth Index",
-      "pullQuote": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.",
-      "tags": [
-        "catalog",
-        "earth",
-        "whole earth",
-        "publishing",
-        "sf",
-        "the-well"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-04T21:59:41.356Z",
-      "visits": 0
-    },
-    {
-      "id": 1762313612731,
-      "url": "https://newsfeeds.net/",
-      "source": "Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay",
-      "pullQuote": "Dick Cheney's character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office's leak of CIA agent Valerie Plame's identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.\n\n",
-      "tags": [
-        "politics",
-        "republican",
-        "dick",
-        "obit"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-05T03:33:32.731Z",
-      "visits": 0
-    },
-    {
-      "id": 1762450393262,
-      "url": "https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/",
-      "source": "How I analyzed the lineups at the world’s most popular nightclubs",
-      "pullQuote": "The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse landscape than I expected. The diminished role of residents compared to one-off bookings also challenged my assumptions about how these clubs operate. For the story telling maintaining the balance between a narrative and letting users explore and decide for themselves was a fun challenge. I think these sort of passion projects can give us deep insights into our world and culture.",
-      "tags": [
-        "clubs",
-        "study",
-        "audience"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T17:33:13.262Z",
-      "visits": 0
-    },
-    {
-      "id": 1762451085076,
-      "url": "https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html",
-      "source": "Archive.today: FBI Demands Data from Provider Tucows",
-      "pullQuote": "It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option.",
-      "tags": [
-        "archive",
-        "legal",
-        "fbi",
-        "hosting"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T17:44:45.076Z",
-      "visits": 0
-    },
-    {
-      "id": 1762451154024,
-      "url": "https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf",
-      "source": "guidelines-governance.pdf",
-      "pullQuote": "India AI Governance Guidelines Enabling Safe and Trusted AI Innovation",
-      "tags": [
-        "ai",
-        "governance",
-        "india",
-        "guidelines"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T17:45:54.024Z",
-      "visits": 0
-    },
-    {
-      "id": 1762452100056,
-      "url": "https://arxiv.org/abs/2510.21328v1",
-      "source": "Space waste: An update of the anthropogenic matter injection into Earth atmosphere",
-      "pullQuote": "Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz & Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements.",
-      "tags": [
-        "space",
-        "environment",
-        "pollution",
-        "atmosphere"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:01:40.056Z",
-      "visits": 0
-    },
-    {
-      "id": 1762452427915,
-      "url": "https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
-      "source": "CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
-      "pullQuote": "This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or counter both simultaneously.\nTo compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should\nadopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment\napproach in space. Such an approach would suggest developing, exercising, and selectively\nrevealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,\nbalancing resilience with a more proactive strategy that adopts a two-rival force concept\nwould provide the United States with a framework to strengthen U.S. freedom of action in\nspace and on Earth.",
-      "tags": [
-        "space",
-        "threat",
-        "assessment",
-        "strategic",
-        "report",
-        "nat-sec"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:07:07.915Z",
-      "visits": 0
-    },
-    {
-      "id": 1762453214055,
-      "url": "https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049",
-      "source": "‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio",
-      "pullQuote": "RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that's part of what's going on.\n\nBut hope for me has never been optimism. Optimism is \"everything will be fine,\" which invites people to kick back and wait for \"fine\" to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It's reminding people that we've changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it.",
-      "tags": [
-        "us politics",
-        "authoritarianism",
-        "political commentary",
-        "resistance movements",
-        "democracy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:20:14.055Z",
-      "visits": 0
-    },
-    {
-      "id": 1762454546932,
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/emotion-ai-explained",
-      "source": "Emotion AI, explained",
-      "pullQuote": "(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito's term and he I thought bottomed it out, but no, it's plunged to below nil) ---Is emotion AI something to welcome or to worry about? ---- Another thing to keep in mind is that the technology is only as good as its programmer. Brynjolfsson warned as these technologies are rolled out, they need to be appropriate for all people, not just sensitive to the subset of the population used for training.\n\n“For instance, recognizing emotions in an African American face sometimes can be difficult for a machine that’s trained on Caucasian faces,” Brynjolfsson said. “And some of the gestures or voice inflections in one culture may mean something very different in a different culture.”",
-      "tags": [
-        "ethics",
-        "ai",
-        "emotional-ai",
-        "emotion",
-        "reading-humans"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-06T18:42:26.932Z",
-      "visits": 0
-    },
-    {
-      "id": 1762597266263,
-      "url": "https://poisonpill.ai/",
-      "source": "Poison Pill — Invisible protection for music against AI training",
-      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
-      "tags": [
-        "music",
-        "copyright",
-        "ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-08T10:21:06.263Z",
-      "visits": 0
-    },
-    {
-      "id": 1762597453587,
-      "url": "https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/",
-      "source": "DeepSeek researcher pessimistic over AI's impact in startup's first public appearance since success ",
-      "pullQuote": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
-      "tags": [
-        "deepseek",
-        "ai",
-        "ai-impact"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-08T10:24:13.587Z",
-      "visits": 0
-    },
-    {
-      "id": 1762598066782,
-      "url": "https://alivetheory.net/",
-      "source": "alive internet theory",
-      "pullQuote": "",
-      "tags": [
-        "video",
-        "internet",
-        "archive"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-08T10:34:26.782Z",
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-08T10:34:35.026Z",
-  "exportedAt": "2025-11-08T10:34:35.026Z",
-  "totalLinks": 133
+  "lastUpdated": "2025-10-31T18:32:56.814Z"
 }
