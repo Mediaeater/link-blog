@@ -15,6 +15,412 @@
   ],
   "items": [
     {
+      "id": "1762807960415",
+      "url": "https://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-feature",
+      "title": "legal-case-against-rings-face-recognition-feature",
+      "date_published": "2025-11-10T20:52:40.415Z",
+      "tags": [
+        "ethics",
+        "surveillance",
+        "harms",
+        "privacy"
+      ],
+      "content_text": "The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to recognize particular people, it will need to perform face recognition on every person that steps in front of the camera. Even if a camera owner does not tag a particular face, Amazon says it may retain that biometric information for up to six months. Amazon said it does not currently use the biometric data for “model training or algorithmic purposes.”\n\nIn order to biometrically identify you, a company typically will take your image and extract a faceprint by taking tiny measurements of your face and converting that into a series of numbers that is saved for later. When you step in front of a camera again, the company takes a new faceprint and compares it to a list of previous prints to find a match. Other forms of biometric tracking can be done with a scan of your fingertip, eyeball, or even your particular gait.\n\nAmazon has told reporters that the feature will be off by default and that it would be unavailable in certain jurisdictions with the most active biometric privacy enforcement—including the states of Illinois and Texas, and the city of Portland, Oregon. The company would not promise that this feature will remain off by default in the future.",
+      "summary": "The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to r...",
+      "content_html": "<blockquote>The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to recognize particular people, it will need to perform face recognition on every person that steps in front of the camera. Even if a camera owner does not tag a particular face, Amazon says it may retain that biometric information for up to six months. Amazon said it does not currently use the biometric data for “model training or algorithmic purposes.”\n\nIn order to biometrically identify you, a company typically will take your image and extract a faceprint by taking tiny measurements of your face and converting that into a series of numbers that is saved for later. When you step in front of a camera again, the company takes a new faceprint and compares it to a list of previous prints to find a match. Other forms of biometric tracking can be done with a scan of your fingertip, eyeball, or even your particular gait.\n\nAmazon has told reporters that the feature will be off by default and that it would be unavailable in certain jurisdictions with the most active biometric privacy enforcement—including the states of Illinois and Texas, and the city of Portland, Oregon. The company would not promise that this feature will remain off by default in the future.</blockquote>\n<p><strong>Tags:</strong> ethics, surveillance, harms, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762746097106",
+      "url": "https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/",
+      "title": "agents at scale in parallel ",
+      "date_published": "2025-11-10T03:41:37.106Z",
+      "tags": [
+        "ai",
+        "code",
+        "claude-code",
+        "flow",
+        "\"situational awareness\""
+      ],
+      "content_text": "This wasn’t just passive monitoring; it was an active state of engagement across multiple fronts. I was simultaneously watching four terminals, remembering the specific context of each agent’s task, interjecting with high-level corrections, and planning the next steps for each parallel stream. Traditional “flow state” is about losing yourself in a single problem. This was the opposite: it was about maintaining a constant, high-level situational awareness of the entire system at once.",
+      "summary": "This wasn’t just passive monitoring; it was an active state of engagement across multiple fronts. I was simultaneously watching four terminals, rememb...",
+      "content_html": "<blockquote>This wasn’t just passive monitoring; it was an active state of engagement across multiple fronts. I was simultaneously watching four terminals, remembering the specific context of each agent’s task, interjecting with high-level corrections, and planning the next steps for each parallel stream. Traditional “flow state” is about losing yourself in a single problem. This was the opposite: it was about maintaining a constant, high-level situational awareness of the entire system at once.</blockquote>\n<p><strong>Tags:</strong> ai, code, claude-code, flow, \"situational awareness\"</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762745888333",
+      "url": "https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/",
+      "title": "An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All",
+      "date_published": "2025-11-10T03:38:08.333Z",
+      "tags": [
+        "music",
+        "ai-music",
+        "billboard",
+        "charts",
+        "song"
+      ],
+      "content_text": "I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in.",
+      "summary": "I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI song...",
+      "content_html": "<blockquote>I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in.</blockquote>\n<p><strong>Tags:</strong> music, ai-music, billboard, charts, song</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762730837109",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "title": "The state of AI in 2025: Agents, innovation, and transformation",
+      "date_published": "2025-11-09T23:27:17.109Z",
+      "tags": [
+        "report",
+        "ai",
+        "2025",
+        "adoption",
+        "agents",
+        "workforce"
+      ],
+      "content_text": "/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. \n\n2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.\n\n3/ The impact gap is massive. 64% say AI helps innovation, but only 39% see real EBIT gains. \n\n4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.\n\n5/ Leaders who own AI personally are 3x more likely to scale it.  \n\n6/ The winners use AI to transform how work gets done, not just speed it up.\n\n7/ The average company measures efficiency. The best ones measure how fast their agents can act.\n\n8/ Risk management is catching up with 51% have already seen AI backfire, mostly from inaccuracy.\n\n9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.\n\n10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)",
+      "summary": "/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. \n\n2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most...",
+      "content_html": "<blockquote>/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. \n\n2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.\n\n3/ The impact gap is massive. 64% say AI helps innovation, but only 39% see real EBIT gains. \n\n4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.\n\n5/ Leaders who own AI personally are 3x more likely to scale it.  \n\n6/ The winners use AI to transform how work gets done, not just speed it up.\n\n7/ The average company measures efficiency. The best ones measure how fast their agents can act.\n\n8/ Risk management is catching up with 51% have already seen AI backfire, mostly from inaccuracy.\n\n9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.\n\n10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)</blockquote>\n<p><strong>Tags:</strong> report, ai, 2025, adoption, agents, workforce</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762712517435",
+      "url": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
+      "title": "AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit.",
+      "date_published": "2025-11-09T18:21:57.435Z",
+      "tags": [
+        "tasks",
+        "learning",
+        "knowledge",
+        "workflow",
+        "proficiency",
+        "machine-learning"
+      ],
+      "content_text": " We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks.",
+      "summary": " We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its o...",
+      "content_html": "<blockquote> We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks.</blockquote>\n<p><strong>Tags:</strong> tasks, learning, knowledge, workflow, proficiency, machine-learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762712414565",
+      "url": "https://www.dora.nyc/",
+      "title": "NYC Directory of Resources + Aid",
+      "date_published": "2025-11-09T18:20:14.565Z",
+      "tags": [
+        "food",
+        "nyc",
+        "aid",
+        "map",
+        "community"
+      ],
+      "content_text": "Food near me...",
+      "summary": "Food near me...",
+      "content_html": "<blockquote>Food near me...</blockquote>\n<p><strong>Tags:</strong> food, nyc, aid, map, community</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762712351851",
+      "url": "https://archive.is/KMRo4",
+      "title": "Big Tech’s Predatory Platform Model Doesn’t Have to Be Our Future",
+      "date_published": "2025-11-09T18:19:11.851Z",
+      "tags": [
+        "technology",
+        "society",
+        "social-contract"
+      ],
+      "content_text": "The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, is the path to riches. That is a prospect at once uninspiring and, for most people, almost by definition, out of reach. To recover the sense of optimism and opportunity that once characterized American commerce, Americans need to be confident that — even if they don’t work for a platform — they can reap what they sow.",
+      "summary": "The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, i...",
+      "content_html": "<blockquote>The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, is the path to riches. That is a prospect at once uninspiring and, for most people, almost by definition, out of reach. To recover the sense of optimism and opportunity that once characterized American commerce, Americans need to be confident that — even if they don’t work for a platform — they can reap what they sow.</blockquote>\n<p><strong>Tags:</strong> technology, society, social-contract</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762598066782",
+      "url": "https://alivetheory.net/",
+      "title": "alive internet theory",
+      "date_published": "2025-11-08T10:34:26.782Z",
+      "tags": [
+        "video",
+        "internet",
+        "archive"
+      ],
+      "content_html": "<p><strong>Tags:</strong> video, internet, archive</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762597453587",
+      "url": "https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/",
+      "title": "DeepSeek researcher pessimistic over AI's impact in startup's first public appearance since success ",
+      "date_published": "2025-11-08T10:24:13.587Z",
+      "tags": [
+        "deepseek",
+        "ai",
+        "ai-impact"
+      ],
+      "content_text": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "summary": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, i...",
+      "content_html": "<blockquote>Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.</blockquote>\n<p><strong>Tags:</strong> deepseek, ai, ai-impact</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762597266263",
+      "url": "https://poisonpill.ai/",
+      "title": "Poison Pill — Invisible protection for music against AI training",
+      "date_published": "2025-11-08T10:21:06.263Z",
+      "tags": [
+        "music",
+        "copyright",
+        "ai"
+      ],
+      "content_text": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.",
+      "summary": "Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, i...",
+      "content_html": "<blockquote>Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI.</blockquote>\n<p><strong>Tags:</strong> music, copyright, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762454546932",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/emotion-ai-explained",
+      "title": "Emotion AI, explained",
+      "date_published": "2025-11-06T18:42:26.932Z",
+      "tags": [
+        "ethics",
+        "ai",
+        "emotional-ai",
+        "emotion",
+        "reading-humans"
+      ],
+      "content_text": "(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito's term and he I thought bottomed it out, but no, it's plunged to below nil) ---Is emotion AI something to welcome or to worry about? ---- Another thing to keep in mind is that the technology is only as good as its programmer. Brynjolfsson warned as these technologies are rolled out, they need to be appropriate for all people, not just sensitive to the subset of the population used for training.\n\n“For instance, recognizing emotions in an African American face sometimes can be difficult for a machine that’s trained on Caucasian faces,” Brynjolfsson said. “And some of the gestures or voice inflections in one culture may mean something very different in a different culture.”",
+      "summary": "(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito's term and he I thought bottomed it out, but no, it's plunged to below nil) -...",
+      "content_html": "<blockquote>(ED NOTE - I CAN NOTE EVEN - MIT WTF Ethics left the building before Ito&#039;s term and he I thought bottomed it out, but no, it&#039;s plunged to below nil) ---Is emotion AI something to welcome or to worry about? ---- Another thing to keep in mind is that the technology is only as good as its programmer. Brynjolfsson warned as these technologies are rolled out, they need to be appropriate for all people, not just sensitive to the subset of the population used for training.\n\n“For instance, recognizing emotions in an African American face sometimes can be difficult for a machine that’s trained on Caucasian faces,” Brynjolfsson said. “And some of the gestures or voice inflections in one culture may mean something very different in a different culture.”</blockquote>\n<p><strong>Tags:</strong> ethics, ai, emotional-ai, emotion, reading-humans</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762453214055",
+      "url": "https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049",
+      "title": "‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio",
+      "date_published": "2025-11-06T18:20:14.055Z",
+      "tags": [
+        "us politics",
+        "authoritarianism",
+        "political commentary",
+        "resistance movements",
+        "democracy"
+      ],
+      "content_text": "RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that's part of what's going on.\n\nBut hope for me has never been optimism. Optimism is \"everything will be fine,\" which invites people to kick back and wait for \"fine\" to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It's reminding people that we've changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it.",
+      "summary": "RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only ...",
+      "content_html": "<blockquote>RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that&#039;s part of what&#039;s going on.\n\nBut hope for me has never been optimism. Optimism is &quot;everything will be fine,&quot; which invites people to kick back and wait for &quot;fine&quot; to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It&#039;s reminding people that we&#039;ve changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it.</blockquote>\n<p><strong>Tags:</strong> us politics, authoritarianism, political commentary, resistance movements, democracy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762452427915",
+      "url": "https://www.csbaonline.org/uploads/documents/CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
+      "title": "CSBA8410_Securing_Space_Superiority_Report_WEB.pdf",
+      "date_published": "2025-11-06T18:07:07.915Z",
+      "tags": [
+        "space",
+        "threat",
+        "assessment",
+        "strategic",
+        "report",
+        "nat-sec"
+      ],
+      "content_text": "This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or counter both simultaneously.\nTo compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should\nadopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment\napproach in space. Such an approach would suggest developing, exercising, and selectively\nrevealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,\nbalancing resilience with a more proactive strategy that adopts a two-rival force concept\nwould provide the United States with a framework to strengthen U.S. freedom of action in\nspace and on Earth.",
+      "summary": "This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or...",
+      "content_html": "<blockquote>This report contends that the United States cannot treat the space threats from China and\nRussia in isolation and must instead be prepared to deter or counter both simultaneously.\nTo compete and deter in a two-rival space environment, the U.S. Space Force (USSF) should\nadopt a more proactive approach and match resilience efforts with investments in counterspace capabilities that would enable the United States to apply a deterrence-by-punishment\napproach in space. Such an approach would suggest developing, exercising, and selectively\nrevealing space weapons. Leveraging these weapons would enable deterrence-by-punishment options and support cost imposition during both peacetime and conflict. Ultimately,\nbalancing resilience with a more proactive strategy that adopts a two-rival force concept\nwould provide the United States with a framework to strengthen U.S. freedom of action in\nspace and on Earth.</blockquote>\n<p><strong>Tags:</strong> space, threat, assessment, strategic, report, nat-sec</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762452100056",
+      "url": "https://arxiv.org/abs/2510.21328v1",
+      "title": "Space waste: An update of the anthropogenic matter injection into Earth atmosphere",
+      "date_published": "2025-11-06T18:01:40.056Z",
+      "tags": [
+        "space",
+        "environment",
+        "pollution",
+        "atmosphere"
+      ],
+      "content_text": "Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz & Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements.",
+      "summary": "Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass ...",
+      "content_html": "<blockquote>Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz &amp; Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements.</blockquote>\n<p><strong>Tags:</strong> space, environment, pollution, atmosphere</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762451154024",
+      "url": "https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf",
+      "title": "guidelines-governance.pdf",
+      "date_published": "2025-11-06T17:45:54.024Z",
+      "tags": [
+        "ai",
+        "governance",
+        "india",
+        "guidelines"
+      ],
+      "content_text": "India AI Governance Guidelines Enabling Safe and Trusted AI Innovation",
+      "summary": "India AI Governance Guidelines Enabling Safe and Trusted AI Innovation",
+      "content_html": "<blockquote>India AI Governance Guidelines Enabling Safe and Trusted AI Innovation</blockquote>\n<p><strong>Tags:</strong> ai, governance, india, guidelines</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762451085076",
+      "url": "https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html",
+      "title": "Archive.today: FBI Demands Data from Provider Tucows",
+      "date_published": "2025-11-06T17:44:45.076Z",
+      "tags": [
+        "archive",
+        "legal",
+        "fbi",
+        "hosting"
+      ],
+      "content_text": "It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option.",
+      "summary": "It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of m...",
+      "content_html": "<blockquote>It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option.</blockquote>\n<p><strong>Tags:</strong> archive, legal, fbi, hosting</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762450393262",
+      "url": "https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/",
+      "title": "How I analyzed the lineups at the world’s most popular nightclubs",
+      "date_published": "2025-11-06T17:33:13.262Z",
+      "tags": [
+        "clubs",
+        "study",
+        "audience"
+      ],
+      "content_text": "The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse landscape than I expected. The diminished role of residents compared to one-off bookings also challenged my assumptions about how these clubs operate. For the story telling maintaining the balance between a narrative and letting users explore and decide for themselves was a fun challenge. I think these sort of passion projects can give us deep insights into our world and culture.",
+      "summary": "The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse la...",
+      "content_html": "<blockquote>The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse landscape than I expected. The diminished role of residents compared to one-off bookings also challenged my assumptions about how these clubs operate. For the story telling maintaining the balance between a narrative and letting users explore and decide for themselves was a fun challenge. I think these sort of passion projects can give us deep insights into our world and culture.</blockquote>\n<p><strong>Tags:</strong> clubs, study, audience</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762313612731",
+      "url": "https://newsfeeds.net/",
+      "title": "Dick Cheney: Draft Dodger, War Profiteer, and Architect of American Moral Decay",
+      "date_published": "2025-11-05T03:33:32.731Z",
+      "tags": [
+        "politics",
+        "republican",
+        "dick",
+        "obit"
+      ],
+      "content_text": "Dick Cheney's character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office's leak of CIA agent Valerie Plame's identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.\n\n",
+      "summary": "Dick Cheney's character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, y...",
+      "content_html": "<blockquote>Dick Cheney&#039;s character flaws were evident early, with two drunk driving convictions in his youth and five draft deferments dodging Vietnam service, yet as vice president, he hypocritically drove the Iraq War on fabricated WMD claims, costing thousands of American lives and trillions in treasure. He authorized torture through waterboarding and indefinite detentions without trial at Guantanamo, eroding human rights and international law while eroding civil liberties via warrantless NSA surveillance on millions of citizens. His office&#039;s leak of CIA agent Valerie Plame&#039;s identity for political revenge further betrayed U.S. intelligence, painting a portrait of unchecked power and moral hypocrisy.\n\n</blockquote>\n<p><strong>Tags:</strong> politics, republican, dick, obit</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762293581356",
+      "url": "https://wholeearth.info/",
+      "title": "Whole Earth Index",
+      "date_published": "2025-11-04T21:59:41.356Z",
+      "tags": [
+        "catalog",
+        "earth",
+        "whole earth",
+        "publishing",
+        "sf",
+        "the-well"
+      ],
+      "content_text": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.",
+      "summary": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published ...",
+      "content_html": "<blockquote>Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.</blockquote>\n<p><strong>Tags:</strong> catalog, earth, whole earth, publishing, sf, the-well</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762254102486",
+      "url": "The Case That A.I. Is Thinking",
+      "title": "The Case That A.I. Is Thinking",
+      "date_published": "2025-11-04T11:01:42.486Z",
+      "tags": [
+        "openai",
+        "newyorker",
+        "knowledge",
+        "thinking"
+      ],
+      "content_text": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
+      "summary": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is...",
+      "content_html": "<blockquote>An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”</blockquote>\n<p><strong>Tags:</strong> openai, newyorker, knowledge, thinking</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1762021781903",
+      "url": "https://www.tickettailor.com/events/performa2025biennial1",
+      "title": "Performa 2025 Biennial",
+      "date_published": "2025-11-01T18:29:41.903Z",
+      "tags": [
+        "art",
+        "perfomance",
+        "nyc",
+        "performa",
+        "tickets"
+      ],
+      "content_text": "The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.\n\nLocated at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.\n\nThis marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work.",
+      "summary": "The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicen...",
+      "content_html": "<blockquote>The Biennial Hub\nThe Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.\n\nLocated at 424 Broadway, the 2025 Biennial Hub will be designed by Diller Scofiio + Renfro.\n\nThis marks the first collaboration between Performa and Diller Scofidio + Renfro, though the two previously worked alongside each other on SCL 2110 organized by Rodrigi Tisi in Chile in 2010. Over the years, RoseLee Goldberg has written about Diller Scofidio + Renfro and their impact on contemporary art and architecture. This shared history at the crossroads of architecture and performance makes the partnership a natural extension of their work.</blockquote>\n<p><strong>Tags:</strong> art, perfomance, nyc, performa, tickets</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1762014658900",
       "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
       "title": "Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category",
@@ -83,9 +489,9 @@
         "publishing",
         "editorial"
       ],
-      "content_text": "he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
-      "summary": "he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, wa...",
-      "content_html": "<blockquote>he news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?</blockquote>\n<p><strong>Tags:</strong> music, nyt, critics, publishing, editorial</p>",
+      "content_text": "The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?",
+      "summary": "The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, w...",
+      "content_html": "<blockquote>The news in July that The New York Times had abruptly reassigned four arts critics to other posts, including to the wilderness of the obituary desk, was met with widespread consternation among arts aficionados. The four in question—the theater critic Jesse Green, the classical music critic Zachary Woolfe, the television critic Margaret Lyons, and the pop music critic Jon Pareles—were hardly underperforming, and in a couple of cases they were just starting to show signs of the relaxed mastery that a good writer can attain after a few years on the job. Because of this, the news raised concerns that reached beyond their individual virtues. They surely weren’t being reassigned because they had failed to fulfill their duties, at least as those duties had previously been defined, so was the job of arts critic about to change beyond recognition?</blockquote>\n<p><strong>Tags:</strong> music, nyt, critics, publishing, editorial</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
