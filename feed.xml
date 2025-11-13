@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 13 Nov 2025 12:28:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2025 12:37:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1007,7 +1007,7 @@
             <link>https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842</link>
             <guid>1763036716844</guid>
             <pubDate>Thu, 13 Nov 2025 12:25:16 GMT</pubDate>
-            <description><![CDATA[Tags: meta, neurotechnology, brain, privacy]]></description>
+            <description><![CDATA[Tags: meta, neurotechnology, brain, privacy, ethics, surveillance]]></description>
         </item>
         <item>
             <title><![CDATA[Using Generative AI in Content Production]]></title>
@@ -1015,6 +1015,13 @@
             <guid>1763036879227</guid>
             <pubDate>Thu, 13 Nov 2025 12:27:59 GMT</pubDate>
             <description><![CDATA[Tags: hollywood-ai, netflix, gen-ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ethics of neurotechnology: UNESCO adopts the first global standard in]]></title>
+            <link>https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology</link>
+            <guid>1763037116634</guid>
+            <pubDate>Thu, 13 Nov 2025 12:31:56 GMT</pubDate>
+            <description><![CDATA[Tags: code, framework, neurotechnology, brain, human-rights, ethics, privacy]]></description>
         </item>
     </channel>
 </rss>
