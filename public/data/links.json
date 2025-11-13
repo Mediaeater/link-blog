@@ -2051,7 +2051,9 @@
         "meta",
         "neurotechnology",
         "brain",
-        "privacy"
+        "privacy",
+        "ethics",
+        "surveillance"
       ],
       "isPinned": false,
       "timestamp": "2025-11-13T12:25:16.844Z",
@@ -2070,9 +2072,27 @@
       "isPinned": false,
       "timestamp": "2025-11-13T12:27:59.227Z",
       "visits": 0
+    },
+    {
+      "id": 1763037116634,
+      "url": "https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology",
+      "source": "Ethics of neurotechnology: UNESCO adopts the first global standard in",
+      "pullQuote": "Neurotechnology has the potential to define the next frontier of human progress, but it is not without risks. With the adoption of this new normative tool, UNESCO is setting clear boundaries, enshrining the inviolability of the human mind. This text embodies a deep conviction: that technological progress is only worthwhile if it is guided by ethics, dignity, and responsibility towards future generations",
+      "tags": [
+        "code",
+        "framework",
+        "neurotechnology",
+        "brain",
+        "human-rights",
+        "ethics",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-13T12:31:56.634Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-13T12:28:26.148Z",
-  "exportedAt": "2025-11-13T12:28:26.148Z",
-  "totalLinks": 144
+  "lastUpdated": "2025-11-13T12:37:44.932Z",
+  "exportedAt": "2025-11-13T12:37:44.932Z",
+  "totalLinks": 145
 }
