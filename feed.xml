@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 12 Nov 2025 16:34:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2025 12:28:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1001,6 +1001,20 @@
             <guid>1762964264779</guid>
             <pubDate>Wed, 12 Nov 2025 16:17:44 GMT</pubDate>
             <description><![CDATA[Tags: google, agents, security, agentic-web, agentic-systems, multi-computer-agency]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Neural data may be the most precious commodity of the century]]></title>
+            <link>https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842</link>
+            <guid>1763036716844</guid>
+            <pubDate>Thu, 13 Nov 2025 12:25:16 GMT</pubDate>
+            <description><![CDATA[Tags: meta, neurotechnology, brain, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using Generative AI in Content Production]]></title>
+            <link>https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production</link>
+            <guid>1763036879227</guid>
+            <pubDate>Thu, 13 Nov 2025 12:27:59 GMT</pubDate>
+            <description><![CDATA[Tags: hollywood-ai, netflix, gen-ai]]></description>
         </item>
     </channel>
 </rss>

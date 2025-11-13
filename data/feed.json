@@ -15,6 +15,43 @@
   ],
   "items": [
     {
+      "id": "1763036879227",
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production",
+      "title": "Using Generative AI in Content Production",
+      "date_published": "2025-11-13T12:27:59.227Z",
+      "tags": [
+        "hollywood-ai",
+        "netflix",
+        "gen-ai"
+      ],
+      "content_text": "This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical tool for assessing and enabling confident GenAI use when producing content for Netflix. \n\nTo support global productions and stay aligned with best practices, we expect all production partners to share any intended use of GenAI with their Netflix contact, especially as new tools continue to emerge with different capabilities and risks. \n\nMost low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed.",
+      "summary": "This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical ...",
+      "content_html": "<blockquote>This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical tool for assessing and enabling confident GenAI use when producing content for Netflix. \n\nTo support global productions and stay aligned with best practices, we expect all production partners to share any intended use of GenAI with their Netflix contact, especially as new tools continue to emerge with different capabilities and risks. \n\nMost low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed.</blockquote>\n<p><strong>Tags:</strong> hollywood-ai, netflix, gen-ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763036716844",
+      "url": "https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842",
+      "title": "Neural data may be the most precious commodity of the century",
+      "date_published": "2025-11-13T12:25:16.844Z",
+      "tags": [
+        "meta",
+        "neurotechnology",
+        "brain",
+        "privacy"
+      ],
+      "content_text": "Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842#myft:my-news:page\n\n\tBecause brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.\n",
+      "summary": "Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&...",
+      "content_html": "<blockquote>Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&amp;Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842#myft:my-news:page\n\n\tBecause brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.\n</blockquote>\n<p><strong>Tags:</strong> meta, neurotechnology, brain, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1762964264779",
       "url": "https://research.google/pubs/an-introduction-to-googles-approach-for-secure-ai-agents/",
       "title": "Google’s Approach for Secure AI Agents",
