@@ -15,6 +15,9 @@
     "test": "vitest",
     "serve": "serve -s dist",
     "sync": "node scripts/sync-from-browser.cjs",
+    "fetch:newsfeeds": "node scripts/fetch-from-newsfeeds.cjs",
+    "merge:newsfeeds": "node scripts/merge-newsfeeds.cjs",
+    "pull:newsfeeds": "npm run fetch:newsfeeds && npm run merge:newsfeeds && npm run sitemap && npm run feeds",
     "sitemap": "node scripts/generate-sitemap.js",
     "rss": "node scripts/generate-rss.js",
     "json-feed": "node scripts/generate-json-feed.js",
@@ -23,6 +26,7 @@
     "prebuild": "npm run sitemap && npm run feeds",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "archive:migrate": "node scripts/migrate-to-archive.cjs",
     "activitypub:setup": "node scripts/setup-activitypub.cjs",
     "activitypub:status": "node scripts/activitypub-status.cjs",
     "activitypub:deliver": "node scripts/deliver-links.cjs"

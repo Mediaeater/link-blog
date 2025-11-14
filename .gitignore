@@ -69,3 +69,5 @@ public/data/blogroll.opml
 Thumbs.db
 *.swp
 *.swo
+venv/
+*.backup-*

@@ -19,6 +19,7 @@ import {
   Info
 } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
+import { loadArchiveMetadata, loadArchiveYear } from '../utils/storage';
 
 const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
 const STORAGE_KEY = 'linkBlogData';
@@ -48,6 +49,9 @@ export default function LinkBlogClean() {
   const [currentTagInput, setCurrentTagInput] = useState('');
   const [isLegendExpanded, setIsLegendExpanded] = useState(false);
   const [isMinimalView, setIsMinimalView] = useState(false);
+  const [archives, setArchives] = useState([]);
+  const [loadedArchives, setLoadedArchives] = useState(new Set());
+  const [showArchives, setShowArchives] = useState(false);
 
   const searchRef = useRef(null);
   const quickPasteRef = useRef(null);
@@ -134,10 +138,44 @@ export default function LinkBlogClean() {
     }
   }, []);
 
+  // Load archive metadata
+  const loadArchivesList = useCallback(async () => {
+    try {
+      const metadata = await loadArchiveMetadata();
+      setArchives(metadata);
+    } catch (error) {
+      console.error('Error loading archive metadata:', error);
+    }
+  }, []);
+
+  // Load a specific archive year
+  const loadArchive = useCallback(async (year) => {
+    if (loadedArchives.has(year)) {
+      return; // Already loaded
+    }
+
+    try {
+      const archiveLinks = await loadArchiveYear(year);
+      setLinks(currentLinks => [...currentLinks, ...archiveLinks]);
+      setLoadedArchives(prev => new Set([...prev, year]));
+      console.log(`Loaded ${archiveLinks.length} links from ${year} archive`);
+    } catch (error) {
+      console.error(`Error loading archive ${year}:`, error);
+    }
+  }, [loadedArchives]);
+
+  // Load all archives at once
+  const loadAllArchives = useCallback(async () => {
+    for (const archive of archives) {
+      await loadArchive(archive.year);
+    }
+  }, [archives, loadArchive]);
+
   // Initialize
   // Load initial data and URL parameters
   useEffect(() => {
     loadLinks();
+    loadArchivesList();
     const urlParams = new URLSearchParams(window.location.search);
     const adminParam = urlParams.get('admin');
     // Clean the admin parameter - remove any trailing special characters or whitespace
@@ -970,6 +1008,58 @@ export default function LinkBlogClean() {
                   <span className="font-medium text-neutral-700">Date:</span> When link was added
                 </div>
               </div>
+            </div>
+          )}
+
+          {/* Archive Loader */}
+          {archives.length > 0 && (
+            <div className="mb-6 p-4 bg-neutral-50 rounded-lg border border-neutral-200">
+              <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center gap-2">
+                  <Download className="w-4 h-4 text-neutral-600" />
+                  <span className="font-medium text-neutral-900">Archives</span>
+                  <span className="text-sm text-neutral-500">
+                    ({archives.reduce((sum, a) => sum + a.count, 0)} archived links)
+                  </span>
+                </div>
+                <button
+                  onClick={() => setShowArchives(!showArchives)}
+                  className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors"
+                >
+                  {showArchives ? 'Hide' : 'Show'}
+                </button>
+              </div>
+
+              {showArchives && (
+                <div className="space-y-2">
+                  <div className="flex flex-wrap gap-2">
+                    {archives.map(archive => (
+                      <button
+                        key={archive.year}
+                        onClick={() => loadArchive(archive.year)}
+                        disabled={loadedArchives.has(archive.year)}
+                        className={`px-3 py-1.5 rounded text-sm transition-all ${
+                          loadedArchives.has(archive.year)
+                            ? 'bg-green-100 text-green-800 cursor-default'
+                            : 'bg-white border border-neutral-300 hover:border-primary-500 hover:bg-primary-50'
+                        }`}
+                      >
+                        {archive.year} ({archive.count})
+                        {loadedArchives.has(archive.year) && ' ✓'}
+                      </button>
+                    ))}
+                  </div>
+                  <button
+                    onClick={loadAllArchives}
+                    disabled={loadedArchives.size === archives.length}
+                    className="w-full px-4 py-2 bg-primary-500 text-white rounded hover:bg-primary-600 disabled:bg-neutral-300 disabled:cursor-not-allowed transition-colors text-sm font-medium"
+                  >
+                    {loadedArchives.size === archives.length
+                      ? 'All Archives Loaded'
+                      : 'Load All Archives'}
+                  </button>
+                </div>
+              )}
             </div>
           )}
 

@@ -16,22 +16,30 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 const CONFIG = {
-  baseUrl: process.env.SITE_URL || 'https://mediaeater.com',
+  baseUrl: process.env.SITE_URL || 'https://newsfeeds.net',
   linksDataPath: path.join(__dirname, '../data/links.json'),
   outputPath: path.join(__dirname, '../public/sitemap.xml'),
   maxUrls: 50000, // XML Sitemap limit
 };
 
 /**
- * Priority calculation based on visit count
+ * Priority calculation based on visit count and recency
  * Maps visits to priority values (0.0-1.0)
  */
-function calculatePriority(visits) {
-  if (visits === 0) return '0.5'; // Default priority
-  if (visits < 5) return '0.6';
-  if (visits < 10) return '0.7';
-  if (visits < 25) return '0.8';
-  return '0.9'; // High priority for frequently visited
+function calculatePriority(visits, timestamp) {
+  const daysSincePost = (Date.now() - new Date(timestamp).getTime()) / (1000 * 60 * 60 * 24);
+
+  // Boost priority for recent posts (within 7 days)
+  const recencyBoost = daysSincePost < 7 ? 0.1 : 0;
+
+  let basePriority = 0.5;
+  if (visits === 0) basePriority = 0.5;
+  else if (visits < 5) basePriority = 0.6;
+  else if (visits < 10) basePriority = 0.7;
+  else if (visits < 25) basePriority = 0.8;
+  else basePriority = 0.9;
+
+  return Math.min(1.0, basePriority + recencyBoost).toFixed(1);
 }
 
 /**
@@ -81,7 +89,7 @@ function sanitizeUrl(url) {
 function generateUrlEntry(baseUrl, link, linkId) {
   const url = `${baseUrl}#link-${linkId}`;
   const lastMod = formatLastMod(link.timestamp);
-  const priority = calculatePriority(link.visits || 0);
+  const priority = calculatePriority(link.visits || 0, link.timestamp);
   const changeFreq = getChangeFrequency(link.visits || 0);
 
   return `  <url>

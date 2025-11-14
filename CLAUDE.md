@@ -89,6 +89,8 @@
   - `import-bookmarks.js` - Bookmark parsing utilities
   - `update-links.js` - Data update utilities
   - `generate-rss.js` - RSS feed generation
+  - `fetch-from-newsfeeds.cjs` - Pull links from newsfeeds.net
+  - `merge-newsfeeds.cjs` - Merge remote and local links
 
 #### Build & Deployment
 - [x] **Vite Configuration**
@@ -211,6 +213,15 @@ npm run deploy
 
 # Sync browser data
 npm run sync
+
+# Pull links from newsfeeds.net (full workflow)
+npm run pull:newsfeeds
+
+# Individual steps for newsfeeds.net sync
+npm run fetch:newsfeeds   # Fetch from remote
+npm run merge:newsfeeds   # Merge with local
+npm run sitemap           # Regenerate sitemap
+npm run feeds             # Regenerate feeds
 ```
 
 ### ⚠️ Critical Notes for Claude Code

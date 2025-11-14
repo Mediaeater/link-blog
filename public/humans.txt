@@ -1,0 +1,25 @@
+/* TEAM */
+Curator & Developer: newsfeeds.net
+Contact: hello [at] newsfeeds.net
+Location: Internet
+
+/* SITE */
+Standards: HTML5, CSS3, ECMAScript 2022
+Components: React, Vite, Tailwind CSS
+Software: VS Code, Claude Code
+Version: 1.1.0
+Last update: 2025/11/14
+Language: English
+Doctype: HTML5
+
+/* THANKS */
+All the linked authors and creators
+Open source community
+Independent media voices
+
+/* SITE VALUES */
+Critical thinking
+Media literacy
+Digital rights
+Privacy first
+Dispute the text

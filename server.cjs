@@ -4,9 +4,11 @@ const path = require('path');
 const cors = require('cors');
 const { generateRSS } = require('./utils/rss-generator.cjs');
 const activityPubRoutes = require('./routes/activitypub.cjs');
+const ArchiveManager = require('./utils/archive-manager.cjs');
 
 const app = express();
 const PORT = 3001;
+const archiveManager = new ArchiveManager();
 
 // Enable CORS for the Vite dev server (but not for ActivityPub endpoints)
 app.use((req, res, next) => {
@@ -26,41 +28,44 @@ app.use((req, res, next) => {
   })(req, res, next);
 });
 
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
 
 // ActivityPub routes
 app.use(activityPubRoutes);
 
-// Endpoint to save links
+// Endpoint to save links (with automatic archiving)
 app.post('/api/save-links', async (req, res) => {
   try {
     const data = req.body;
-    
+
     if (!data || !data.links) {
       return res.status(400).json({ error: 'Invalid data format' });
     }
 
-    // Add timestamp if not present
-    if (!data.lastUpdated) {
-      data.lastUpdated = new Date().toISOString();
-    }
+    // Archive old links and keep only current year
+    const currentYearData = await archiveManager.archiveOldLinks(data.links);
 
-    const jsonContent = JSON.stringify(data, null, 2);
-    
-    // Save to both locations
+    // Add metadata
+    currentYearData.version = data.version || '1.1.0';
+    currentYearData.lastUpdated = new Date().toISOString();
+
+    const jsonContent = JSON.stringify(currentYearData, null, 2);
+
+    // Save current year to both locations
     const publicPath = path.join(__dirname, 'public', 'data', 'links.json');
     const dataPath = path.join(__dirname, 'data', 'links.json');
-    
+
     await fs.writeFile(publicPath, jsonContent);
     await fs.writeFile(dataPath, jsonContent);
-    
-    console.log(`✅ Saved ${data.links.length} links at ${new Date().toLocaleTimeString()}`);
-    
-    res.json({ 
-      success: true, 
+
+    console.log(`✅ Saved ${currentYearData.links.length} current links at ${new Date().toLocaleTimeString()}`);
+
+    res.json({
+      success: true,
       message: 'Links saved successfully',
-      count: data.links.length,
-      lastUpdated: data.lastUpdated
+      count: currentYearData.links.length,
+      archived: data.links.length - currentYearData.links.length,
+      lastUpdated: currentYearData.lastUpdated
     });
   } catch (error) {
     console.error('Error saving links:', error);
@@ -77,6 +82,33 @@ app.get('/api/links', async (req, res) => {
   } catch (error) {
     console.error('Error reading links:', error);
     res.status(500).json({ error: 'Failed to read links' });
+  }
+});
+
+// Get list of archived years
+app.get('/api/archives', async (req, res) => {
+  try {
+    const metadata = await archiveManager.getArchiveMetadata();
+    res.json(metadata);
+  } catch (error) {
+    console.error('Error reading archive metadata:', error);
+    res.status(500).json({ error: 'Failed to read archive metadata' });
+  }
+});
+
+// Get archive for a specific year
+app.get('/api/archive/:year', async (req, res) => {
+  try {
+    const year = parseInt(req.params.year);
+    if (isNaN(year)) {
+      return res.status(400).json({ error: 'Invalid year' });
+    }
+
+    const archive = await archiveManager.loadYearArchive(year);
+    res.json(archive);
+  } catch (error) {
+    console.error(`Error reading archive for ${req.params.year}:`, error);
+    res.status(500).json({ error: 'Failed to read archive' });
   }
 });
 
@@ -122,8 +154,10 @@ app.listen(PORT, () => {
    Keep this running alongside your Vite dev server.
 
    API Endpoints:
-   - POST /api/save-links - Save links to JSON files
+   - POST /api/save-links - Save links to JSON files (auto-archives old years)
    - GET  /api/links      - Get current links
+   - GET  /api/archives   - Get archive metadata
+   - GET  /api/archive/:year - Get links from specific year
 
    RSS Feed Endpoints:
    - GET  /feed.xml       - RSS 2.0 feed
@@ -140,5 +174,8 @@ app.listen(PORT, () => {
 
    🌐 To enable federation, ensure this server is accessible at:
       https://newsfeeds.net
+
+   📦 Archive System: Links are automatically archived by year on save.
+      Current year stays in links.json, older years move to archive/
   `);
 });
