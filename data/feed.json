@@ -15,108 +15,6 @@
   ],
   "items": [
     {
-      "id": "1763037116634",
-      "url": "https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology",
-      "title": "Ethics of neurotechnology: UNESCO adopts the first global standard in",
-      "date_published": "2025-11-13T12:31:56.634Z",
-      "tags": [
-        "code",
-        "framework",
-        "neurotechnology",
-        "brain",
-        "human-rights",
-        "ethics",
-        "privacy"
-      ],
-      "content_text": "Neurotechnology has the potential to define the next frontier of human progress, but it is not without risks. With the adoption of this new normative tool, UNESCO is setting clear boundaries, enshrining the inviolability of the human mind. This text embodies a deep conviction: that technological progress is only worthwhile if it is guided by ethics, dignity, and responsibility towards future generations",
-      "summary": "Neurotechnology has the potential to define the next frontier of human progress, but it is not without risks. With the adoption of this new normative ...",
-      "content_html": "<blockquote>Neurotechnology has the potential to define the next frontier of human progress, but it is not without risks. With the adoption of this new normative tool, UNESCO is setting clear boundaries, enshrining the inviolability of the human mind. This text embodies a deep conviction: that technological progress is only worthwhile if it is guided by ethics, dignity, and responsibility towards future generations</blockquote>\n<p><strong>Tags:</strong> code, framework, neurotechnology, brain, human-rights, ethics, privacy</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1763036879227",
-      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production",
-      "title": "Using Generative AI in Content Production",
-      "date_published": "2025-11-13T12:27:59.227Z",
-      "tags": [
-        "hollywood-ai",
-        "netflix",
-        "gen-ai"
-      ],
-      "content_text": "This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical tool for assessing and enabling confident GenAI use when producing content for Netflix. \n\nTo support global productions and stay aligned with best practices, we expect all production partners to share any intended use of GenAI with their Netflix contact, especially as new tools continue to emerge with different capabilities and risks. \n\nMost low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed.",
-      "summary": "This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical ...",
-      "content_html": "<blockquote>This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical tool for assessing and enabling confident GenAI use when producing content for Netflix. \n\nTo support global productions and stay aligned with best practices, we expect all production partners to share any intended use of GenAI with their Netflix contact, especially as new tools continue to emerge with different capabilities and risks. \n\nMost low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed.</blockquote>\n<p><strong>Tags:</strong> hollywood-ai, netflix, gen-ai</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1763036716844",
-      "url": "https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842",
-      "title": "Neural data may be the most precious commodity of the century",
-      "date_published": "2025-11-13T12:25:16.844Z",
-      "tags": [
-        "meta",
-        "neurotechnology",
-        "brain",
-        "privacy",
-        "ethics",
-        "surveillance"
-      ],
-      "content_text": "Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842#myft:my-news:page\n\n\tBecause brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.\n",
-      "summary": "Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&...",
-      "content_html": "<blockquote>Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&amp;Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842#myft:my-news:page\n\n\tBecause brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.\n</blockquote>\n<p><strong>Tags:</strong> meta, neurotechnology, brain, privacy, ethics, surveillance</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1762964264779",
-      "url": "https://research.google/pubs/an-introduction-to-googles-approach-for-secure-ai-agents/",
-      "title": "Google’s Approach for Secure AI Agents",
-      "date_published": "2025-11-12T16:17:44.779Z",
-      "tags": [
-        "google",
-        "agents",
-        "security",
-        "agentic-web",
-        "agentic-systems",
-        "multi-computer-agency"
-      ],
-      "content_text": "\nAs part of Google's ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default.",
-      "summary": "\nAs part of Google's ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We...",
-      "content_html": "<blockquote>\nAs part of Google&#039;s ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default.</blockquote>\n<p><strong>Tags:</strong> google, agents, security, agentic-web, agentic-systems, multi-computer-agency</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1762963866803",
-      "url": "https://magenta.withgoogle.com/spacedj-announce",
-      "title": "Space DJ: Navigating a Musical Universe",
-      "date_published": "2025-11-12T16:11:06.803Z",
-      "tags": [
-        "music",
-        "genre",
-        "ai-music",
-        "app",
-        "google"
-      ],
-      "content_text": "oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellation of sounds. You pilot a spaceship through a galaxy where each star represents a musical genre. As you navigate this universe, Space DJ uses the Lyria RealTime API to generate a continuous stream of music that reflects your position and selections in real-time.",
-      "summary": "oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellatio...",
-      "content_html": "<blockquote>oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellation of sounds. You pilot a spaceship through a galaxy where each star represents a musical genre. As you navigate this universe, Space DJ uses the Lyria RealTime API to generate a continuous stream of music that reflects your position and selections in real-time.</blockquote>\n<p><strong>Tags:</strong> music, genre, ai-music, app, google</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
       "id": "1762807960415",
       "url": "https://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-feature",
       "title": "legal-case-against-rings-face-recognition-feature",
@@ -1806,6 +1704,46 @@
       }
     },
     {
+      "id": "1759117178224",
+      "url": "https://climatetrace.org/air-pollution",
+      "title": "Air pollution",
+      "date_published": "2025-09-29T03:39:38.224Z",
+      "tags": [
+        "climate",
+        "aqi",
+        "map"
+      ],
+      "content_text": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
+      "summary": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensin...",
+      "content_html": "<blockquote>How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth&#039;s atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities</blockquote>\n<p><strong>Tags:</strong> climate, aqi, map</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759116996981.7578",
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "title": "Petition: Do not introduce Digital ID cards",
+      "date_published": "2025-09-29T03:36:36.981Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1759116996981.0823",
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "title": "Farewell Friends - HumbleDollar",
+      "date_published": "2025-09-29T03:36:36.981Z",
+      "tags": [],
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1759003849895",
       "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
       "title": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
@@ -2129,6 +2067,22 @@
       "content_html": "<blockquote>We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.</blockquote>\n<p><strong>Tags:</strong> surveillance, ethics, harms, ai</p>",
       "_link_blog": {
         "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1758461704343.3533",
+      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
+      "title": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
+      "date_published": "2025-09-21T13:35:04.343Z",
+      "tags": [
+        "tools",
+        "useful",
+        "tutorial"
+      ],
+      "content_html": "<p><strong>Tags:</strong> tools, useful, tutorial</p>",
+      "_link_blog": {
+        "visits": 1,
         "is_pinned": false
       }
     },
