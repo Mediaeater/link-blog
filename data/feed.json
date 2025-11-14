@@ -1806,46 +1806,6 @@
       }
     },
     {
-      "id": "1759117178224",
-      "url": "https://climatetrace.org/air-pollution",
-      "title": "Air pollution",
-      "date_published": "2025-09-29T03:39:38.224Z",
-      "tags": [
-        "climate",
-        "aqi",
-        "map"
-      ],
-      "content_text": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
-      "summary": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensin...",
-      "content_html": "<blockquote>How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth&#039;s atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities</blockquote>\n<p><strong>Tags:</strong> climate, aqi, map</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759116996981.7578",
-      "url": "https://petition.parliament.uk/petitions/730194",
-      "title": "Petition: Do not introduce Digital ID cards",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759116996981.0823",
-      "url": "https://humbledollar.com/forum/farewell-friends/",
-      "title": "Farewell Friends - HumbleDollar",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
       "id": "1759003849895",
       "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
       "title": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
@@ -2169,22 +2129,6 @@
       "content_html": "<blockquote>We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.</blockquote>\n<p><strong>Tags:</strong> surveillance, ethics, harms, ai</p>",
       "_link_blog": {
         "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1758461704343.3533",
-      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
-      "title": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
-      "date_published": "2025-09-21T13:35:04.343Z",
-      "tags": [
-        "tools",
-        "useful",
-        "tutorial"
-      ],
-      "content_html": "<p><strong>Tags:</strong> tools, useful, tutorial</p>",
-      "_link_blog": {
-        "visits": 1,
         "is_pinned": false
       }
     },

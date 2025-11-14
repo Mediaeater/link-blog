@@ -1,0 +1,8 @@
+Contact: mailto:security@newsfeeds.net
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://newsfeeds.net/.well-known/security.txt
+
+# Security Policy
+# If you discover a security issue, please report it responsibly.
+# We appreciate your efforts to improve our security.
