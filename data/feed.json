@@ -15,6 +15,66 @@
   ],
   "items": [
     {
+      "id": "1763207567040",
+      "url": "https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php",
+      "title": "Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz",
+      "date_published": "2025-11-15T11:52:47.040Z",
+      "tags": [
+        "openai",
+        "ai-music",
+        "copyright",
+        "de",
+        "damages",
+        "licensing",
+        "legal"
+      ],
+      "content_text": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany's major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages.\n\n",
+      "summary": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought ...",
+      "content_html": "<blockquote>German Court Ruling on OpenAI&#039;s Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany&#039;s major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages.\n\n</blockquote>\n<p><strong>Tags:</strong> openai, ai-music, copyright, de, damages, licensing, legal</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763206977223",
+      "url": "https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share",
+      "title": "Agentic Misalignment: How LLMs could be insider threats",
+      "date_published": "2025-11-15T11:42:57.223Z",
+      "tags": [
+        "self",
+        "agency",
+        "brain",
+        "neurotechnology",
+        "privacy"
+      ],
+      "content_text": "“What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten.”",
+      "summary": "“What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke Univer...",
+      "content_html": "<blockquote>“What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten.”</blockquote>\n<p><strong>Tags:</strong> self, agency, brain, neurotechnology, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763168756800",
+      "url": "https://aperture.org/editorial/announcing-the-2025-photobook-awards-shortlist/",
+      "title": "Announcing the 2025 PhotoBook Awards Shortlist",
+      "date_published": "2025-11-15T01:05:56.800Z",
+      "tags": [
+        "awards",
+        "photography",
+        "arts"
+      ],
+      "content_text": "Paris Photo and Aperture are pleased to announce the winners of the 2025 Paris Photo–Aperture PhotoBook Awards—an annual celebration of the photobook’s contributions to the evolving narrative of photography. A jury met in Paris on November 13, 2025, to select this year’s winners. The jury included Coralie Gauthier, director of programming, communications, and events, Librairie 7L; Shanay Jhaveri, head of visual arts, Barbican Centre; Manuel Krebs, designer and publisher, NORM; Emily LaBarge, contributing writer, The New York Times; and Guinevere Ras, curator, Nederlands Fotomuseum.",
+      "summary": "Paris Photo and Aperture are pleased to announce the winners of the 2025 Paris Photo–Aperture PhotoBook Awards—an annual celebration of the photobook’...",
+      "content_html": "<blockquote>Paris Photo and Aperture are pleased to announce the winners of the 2025 Paris Photo–Aperture PhotoBook Awards—an annual celebration of the photobook’s contributions to the evolving narrative of photography. A jury met in Paris on November 13, 2025, to select this year’s winners. The jury included Coralie Gauthier, director of programming, communications, and events, Librairie 7L; Shanay Jhaveri, head of visual arts, Barbican Centre; Manuel Krebs, designer and publisher, NORM; Emily LaBarge, contributing writer, The New York Times; and Guinevere Ras, curator, Nederlands Fotomuseum.</blockquote>\n<p><strong>Tags:</strong> awards, photography, arts</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1763162102037",
       "url": "https://caplocus.com/",
       "title": "US Tech Market Treemap",

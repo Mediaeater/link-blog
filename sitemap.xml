@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://newsfeeds.net</loc>
-    <lastmod>2025-11-15T01:06:29Z</lastmod>
+    <lastmod>2025-11-15T11:53:03Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -82,19 +82,19 @@
     <loc>https://newsfeeds.net#link-13</loc>
     <lastmod>2025-11-08T10:34:26Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-14</loc>
     <lastmod>2025-11-08T10:24:13Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-15</loc>
     <lastmod>2025-11-08T10:21:06Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-16</loc>

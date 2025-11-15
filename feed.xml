@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 14 Nov 2025 23:15:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2025 11:52:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1001,6 +1001,27 @@
             <guid>1763162102037</guid>
             <pubDate>Fri, 14 Nov 2025 23:15:02 GMT</pubDate>
             <description><![CDATA[Tags: finance, technology, maps]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Announcing the 2025 PhotoBook Awards Shortlist]]></title>
+            <link>https://aperture.org/editorial/announcing-the-2025-photobook-awards-shortlist/</link>
+            <guid>1763168756800</guid>
+            <pubDate>Sat, 15 Nov 2025 01:05:56 GMT</pubDate>
+            <description><![CDATA[Tags: awards, photography, arts]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Agentic Misalignment: How LLMs could be insider threats]]></title>
+            <link>https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share</link>
+            <guid>1763206977223</guid>
+            <pubDate>Sat, 15 Nov 2025 11:42:57 GMT</pubDate>
+            <description><![CDATA[Tags: self, agency, brain, neurotechnology, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz]]></title>
+            <link>https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php</link>
+            <guid>1763207567040</guid>
+            <pubDate>Sat, 15 Nov 2025 11:52:47 GMT</pubDate>
+            <description><![CDATA[Tags: openai, ai-music, copyright, de, damages, licensing, legal]]></description>
         </item>
     </channel>
 </rss>
