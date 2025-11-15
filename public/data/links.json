@@ -2056,9 +2056,57 @@
       "isPinned": false,
       "timestamp": "2025-11-14T23:15:02.037Z",
       "visits": 0
+    },
+    {
+      "id": 1763168756800,
+      "url": "https://aperture.org/editorial/announcing-the-2025-photobook-awards-shortlist/",
+      "source": "Announcing the 2025 PhotoBook Awards Shortlist",
+      "pullQuote": "Paris Photo and Aperture are pleased to announce the winners of the 2025 Paris Photo–Aperture PhotoBook Awards—an annual celebration of the photobook’s contributions to the evolving narrative of photography. A jury met in Paris on November 13, 2025, to select this year’s winners. The jury included Coralie Gauthier, director of programming, communications, and events, Librairie 7L; Shanay Jhaveri, head of visual arts, Barbican Centre; Manuel Krebs, designer and publisher, NORM; Emily LaBarge, contributing writer, The New York Times; and Guinevere Ras, curator, Nederlands Fotomuseum.",
+      "tags": [
+        "awards",
+        "photography",
+        "arts"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-15T01:05:56.800Z",
+      "visits": 0
+    },
+    {
+      "id": 1763206977223,
+      "url": "https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share",
+      "source": "Agentic Misalignment: How LLMs could be insider threats",
+      "pullQuote": "“What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten.”",
+      "tags": [
+        "self",
+        "agency",
+        "brain",
+        "neurotechnology",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-15T11:42:57.223Z",
+      "visits": 0
+    },
+    {
+      "id": 1763207567040,
+      "url": "https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php",
+      "source": "Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz",
+      "pullQuote": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany's major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages.\n\n",
+      "tags": [
+        "openai",
+        "ai-music",
+        "copyright",
+        "de",
+        "damages",
+        "licensing",
+        "legal"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-15T11:52:47.040Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-14T23:15:55.991Z",
-  "exportedAt": "2025-11-14T23:15:55.991Z",
-  "totalLinks": 142
+  "lastUpdated": "2025-11-15T11:52:56.461Z",
+  "exportedAt": "2025-11-15T11:52:56.461Z",
+  "totalLinks": 145
 }
