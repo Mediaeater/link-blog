@@ -1,199 +1,6 @@
 {
   "links": [
     {
-      "id": 1763037116634,
-      "url": "https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology",
-      "source": "Ethics of neurotechnology: UNESCO adopts the first global standard in",
-      "pullQuote": "Neurotechnology has the potential to define the next frontier of human progress, but it is not without risks. With the adoption of this new normative tool, UNESCO is setting clear boundaries, enshrining the inviolability of the human mind. This text embodies a deep conviction: that technological progress is only worthwhile if it is guided by ethics, dignity, and responsibility towards future generations",
-      "tags": [
-        "code",
-        "framework",
-        "neurotechnology",
-        "brain",
-        "human-rights",
-        "ethics",
-        "privacy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-13T12:31:56.634Z",
-      "visits": 0
-    },
-    {
-      "id": 1763036879227,
-      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production",
-      "source": "Using Generative AI in Content Production",
-      "pullQuote": "This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical tool for assessing and enabling confident GenAI use when producing content for Netflix. \n\nTo support global productions and stay aligned with best practices, we expect all production partners to share any intended use of GenAI with their Netflix contact, especially as new tools continue to emerge with different capabilities and risks. \n\nMost low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed.",
-      "tags": [
-        "hollywood-ai",
-        "netflix",
-        "gen-ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-13T12:27:59.227Z",
-      "visits": 0
-    },
-    {
-      "id": 1763036716844,
-      "url": "https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842",
-      "source": "Neural data may be the most precious commodity of the century",
-      "pullQuote": "Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842#myft:my-news:page\n\n\tBecause brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.\n",
-      "tags": [
-        "meta",
-        "neurotechnology",
-        "brain",
-        "privacy",
-        "ethics",
-        "surveillance"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-13T12:25:16.844Z",
-      "visits": 0
-    },
-    {
-      "id": 1762964264779,
-      "url": "https://research.google/pubs/an-introduction-to-googles-approach-for-secure-ai-agents/",
-      "source": "Google’s Approach for Secure AI Agents",
-      "pullQuote": "\nAs part of Google's ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default.",
-      "tags": [
-        "google",
-        "agents",
-        "security",
-        "agentic-web",
-        "agentic-systems",
-        "multi-computer-agency"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-12T16:17:44.779Z",
-      "visits": 0
-    },
-    {
-      "id": 1762963866803,
-      "url": "https://magenta.withgoogle.com/spacedj-announce",
-      "source": "Space DJ: Navigating a Musical Universe",
-      "pullQuote": "oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellation of sounds. You pilot a spaceship through a galaxy where each star represents a musical genre. As you navigate this universe, Space DJ uses the Lyria RealTime API to generate a continuous stream of music that reflects your position and selections in real-time.",
-      "tags": [
-        "music",
-        "genre",
-        "ai-music",
-        "app",
-        "google"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-12T16:11:06.803Z",
-      "visits": 0
-    },
-    {
-      "id": 1762807960415,
-      "url": "https://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-feature",
-      "source": "legal-case-against-rings-face-recognition-feature",
-      "pullQuote": "The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to recognize particular people, it will need to perform face recognition on every person that steps in front of the camera. Even if a camera owner does not tag a particular face, Amazon says it may retain that biometric information for up to six months. Amazon said it does not currently use the biometric data for “model training or algorithmic purposes.”\n\nIn order to biometrically identify you, a company typically will take your image and extract a faceprint by taking tiny measurements of your face and converting that into a series of numbers that is saved for later. When you step in front of a camera again, the company takes a new faceprint and compares it to a list of previous prints to find a match. Other forms of biometric tracking can be done with a scan of your fingertip, eyeball, or even your particular gait.\n\nAmazon has told reporters that the feature will be off by default and that it would be unavailable in certain jurisdictions with the most active biometric privacy enforcement—including the states of Illinois and Texas, and the city of Portland, Oregon. The company would not promise that this feature will remain off by default in the future.",
-      "tags": [
-        "ethics",
-        "surveillance",
-        "harms",
-        "privacy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-10T20:52:40.415Z",
-      "visits": 0
-    },
-    {
-      "id": 1762746097106,
-      "url": "https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/",
-      "source": "agents at scale in parallel ",
-      "pullQuote": "This wasn’t just passive monitoring; it was an active state of engagement across multiple fronts. I was simultaneously watching four terminals, remembering the specific context of each agent’s task, interjecting with high-level corrections, and planning the next steps for each parallel stream. Traditional “flow state” is about losing yourself in a single problem. This was the opposite: it was about maintaining a constant, high-level situational awareness of the entire system at once.",
-      "tags": [
-        "ai",
-        "code",
-        "claude-code",
-        "flow",
-        "\"situational awareness\""
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-10T03:41:37.106Z",
-      "visits": 0
-    },
-    {
-      "id": 1762745888333,
-      "url": "https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/",
-      "source": "An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All",
-      "pullQuote": "I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in.",
-      "tags": [
-        "music",
-        "ai-music",
-        "billboard",
-        "charts",
-        "song"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-10T03:38:08.333Z",
-      "visits": 0
-    },
-    {
-      "id": 1762730837109,
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
-      "source": "The state of AI in 2025: Agents, innovation, and transformation",
-      "pullQuote": "/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. \n\n2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.\n\n3/ The impact gap is massive. 64% say AI helps innovation, but only 39% see real EBIT gains. \n\n4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.\n\n5/ Leaders who own AI personally are 3x more likely to scale it.  \n\n6/ The winners use AI to transform how work gets done, not just speed it up.\n\n7/ The average company measures efficiency. The best ones measure how fast their agents can act.\n\n8/ Risk management is catching up with 51% have already seen AI backfire, mostly from inaccuracy.\n\n9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.\n\n10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)",
-      "tags": [
-        "report",
-        "ai",
-        "2025",
-        "adoption",
-        "agents",
-        "workforce"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-09T23:27:17.109Z",
-      "visits": 0
-    },
-    {
-      "id": 1762712517435,
-      "url": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
-      "source": "AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit.",
-      "pullQuote": " We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks.",
-      "tags": [
-        "tasks",
-        "learning",
-        "knowledge",
-        "workflow",
-        "proficiency",
-        "machine-learning"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-09T18:21:57.435Z",
-      "visits": 0
-    },
-    {
-      "id": 1762712414565,
-      "url": "https://www.dora.nyc/",
-      "source": "NYC Directory of Resources + Aid",
-      "pullQuote": "Food near me...",
-      "tags": [
-        "food",
-        "nyc",
-        "aid",
-        "map",
-        "community"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-09T18:20:14.565Z",
-      "visits": 0
-    },
-    {
-      "id": 1762712351851,
-      "url": "https://archive.is/KMRo4",
-      "source": "Big Tech’s Predatory Platform Model Doesn’t Have to Be Our Future",
-      "pullQuote": "The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, is the path to riches. That is a prospect at once uninspiring and, for most people, almost by definition, out of reach. To recover the sense of optimism and opportunity that once characterized American commerce, Americans need to be confident that — even if they don’t work for a platform — they can reap what they sow.",
-      "tags": [
-        "technology",
-        "society",
-        "social-contract"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-09T18:19:11.851Z",
-      "visits": 0
-    },
-    {
       "id": 1762598066782,
       "url": "https://alivetheory.net/",
       "source": "alive internet theory",
@@ -1406,6 +1213,40 @@
       "visits": 0
     },
     {
+      "id": 1759117178224,
+      "url": "https://climatetrace.org/air-pollution",
+      "source": "Air pollution",
+      "pullQuote": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
+      "tags": [
+        "climate",
+        "aqi",
+        "map"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:39:38.224Z",
+      "visits": 0
+    },
+    {
+      "id": 1759116996981.7578,
+      "url": "https://petition.parliament.uk/petitions/730194",
+      "source": "Petition: Do not introduce Digital ID cards",
+      "pullQuote": "",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:36:36.981Z",
+      "visits": 0
+    },
+    {
+      "id": 1759116996981.0823,
+      "url": "https://humbledollar.com/forum/farewell-friends/",
+      "source": "Farewell Friends - HumbleDollar",
+      "pullQuote": "",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-09-29T03:36:36.981Z",
+      "visits": 0
+    },
+    {
       "id": 1759003849895,
       "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
       "source": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
@@ -1661,6 +1502,20 @@
       "isPinned": false,
       "timestamp": "2025-09-21T13:40:39.121Z",
       "visits": 0
+    },
+    {
+      "id": 1758461704343.3533,
+      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
+      "source": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
+      "pullQuote": "",
+      "tags": [
+        "tools",
+        "useful",
+        "tutorial"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-09-21T13:35:04.343Z",
+      "visits": 1
     },
     {
       "id": 1758451000932,
@@ -2042,7 +1897,202 @@
       "isPinned": false,
       "timestamp": "2025-09-05T09:00:00.000Z",
       "visits": 0
+    },
+    {
+      "id": 1762712351851,
+      "url": "https://archive.is/KMRo4",
+      "source": "Big Tech’s Predatory Platform Model Doesn’t Have to Be Our Future",
+      "pullQuote": "The result is not just bad policy but also a cultural blindness: An entire generation has grown up thinking that extraction, as opposed to building, is the path to riches. That is a prospect at once uninspiring and, for most people, almost by definition, out of reach. To recover the sense of optimism and opportunity that once characterized American commerce, Americans need to be confident that — even if they don’t work for a platform — they can reap what they sow.",
+      "tags": [
+        "technology",
+        "society",
+        "social-contract"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-09T18:19:11.851Z",
+      "visits": 0
+    },
+    {
+      "id": 1762712414565,
+      "url": "https://www.dora.nyc/",
+      "source": "NYC Directory of Resources + Aid",
+      "pullQuote": "Food near me...",
+      "tags": [
+        "food",
+        "nyc",
+        "aid",
+        "map",
+        "community"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-09T18:20:14.565Z",
+      "visits": 0
+    },
+    {
+      "id": 1762712517435,
+      "url": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
+      "source": "AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit.",
+      "pullQuote": " We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks.",
+      "tags": [
+        "tasks",
+        "learning",
+        "knowledge",
+        "workflow",
+        "proficiency",
+        "machine-learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-09T18:21:57.435Z",
+      "visits": 0
+    },
+    {
+      "id": 1762730837109,
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+      "source": "The state of AI in 2025: Agents, innovation, and transformation",
+      "pullQuote": "/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. \n\n2/ 62% of orgs are experimenting with AI agents, 23% are scaling AI agents. Most are in tech and healthcare.\n\n3/ The impact gap is massive. 64% say AI helps innovation, but only 39% see real EBIT gains. \n\n4/ The high performers (top 6%) think bigger. They rebuild workflows, set growth goals, and invest real budgets not just POCs.\n\n5/ Leaders who own AI personally are 3x more likely to scale it.  \n\n6/ The winners use AI to transform how work gets done, not just speed it up.\n\n7/ The average company measures efficiency. The best ones measure how fast their agents can act.\n\n8/ Risk management is catching up with 51% have already seen AI backfire, mostly from inaccuracy.\n\n9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.\n\n10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)",
+      "tags": [
+        "report",
+        "ai",
+        "2025",
+        "adoption",
+        "agents",
+        "workforce"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-09T23:27:17.109Z",
+      "visits": 0
+    },
+    {
+      "id": 1762745888333,
+      "url": "https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/",
+      "source": "An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All",
+      "pullQuote": "I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in.",
+      "tags": [
+        "music",
+        "ai-music",
+        "billboard",
+        "charts",
+        "song"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-10T03:38:08.333Z",
+      "visits": 0
+    },
+    {
+      "id": 1762746097106,
+      "url": "https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/",
+      "source": "agents at scale in parallel ",
+      "pullQuote": "This wasn’t just passive monitoring; it was an active state of engagement across multiple fronts. I was simultaneously watching four terminals, remembering the specific context of each agent’s task, interjecting with high-level corrections, and planning the next steps for each parallel stream. Traditional “flow state” is about losing yourself in a single problem. This was the opposite: it was about maintaining a constant, high-level situational awareness of the entire system at once.",
+      "tags": [
+        "ai",
+        "code",
+        "claude-code",
+        "flow",
+        "\"situational awareness\""
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-10T03:41:37.106Z",
+      "visits": 0
+    },
+    {
+      "id": 1762807960415,
+      "url": "https://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-featurehttps://www.eff.org/deeplinks/2025/11/legal-case-against-rings-face-recognition-feature",
+      "source": "legal-case-against-rings-face-recognition-feature",
+      "pullQuote": "The feature will allow camera owners to tag particular people so Ring cameras can automatically recognize them in the future. In order for Amazon to recognize particular people, it will need to perform face recognition on every person that steps in front of the camera. Even if a camera owner does not tag a particular face, Amazon says it may retain that biometric information for up to six months. Amazon said it does not currently use the biometric data for “model training or algorithmic purposes.”\n\nIn order to biometrically identify you, a company typically will take your image and extract a faceprint by taking tiny measurements of your face and converting that into a series of numbers that is saved for later. When you step in front of a camera again, the company takes a new faceprint and compares it to a list of previous prints to find a match. Other forms of biometric tracking can be done with a scan of your fingertip, eyeball, or even your particular gait.\n\nAmazon has told reporters that the feature will be off by default and that it would be unavailable in certain jurisdictions with the most active biometric privacy enforcement—including the states of Illinois and Texas, and the city of Portland, Oregon. The company would not promise that this feature will remain off by default in the future.",
+      "tags": [
+        "ethics",
+        "surveillance",
+        "harms",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-10T20:52:40.415Z",
+      "visits": 0
+    },
+    {
+      "id": 1762963866803,
+      "url": "https://magenta.withgoogle.com/spacedj-announce",
+      "source": "Space DJ: Navigating a Musical Universe",
+      "pullQuote": "oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellation of sounds. You pilot a spaceship through a galaxy where each star represents a musical genre. As you navigate this universe, Space DJ uses the Lyria RealTime API to generate a continuous stream of music that reflects your position and selections in real-time.",
+      "tags": [
+        "music",
+        "genre",
+        "ai-music",
+        "app",
+        "google"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-12T16:11:06.803Z",
+      "visits": 0
+    },
+    {
+      "id": 1762964264779,
+      "url": "https://research.google/pubs/an-introduction-to-googles-approach-for-secure-ai-agents/",
+      "source": "Google’s Approach for Secure AI Agents",
+      "pullQuote": "\nAs part of Google's ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default.",
+      "tags": [
+        "google",
+        "agents",
+        "security",
+        "agentic-web",
+        "agentic-systems",
+        "multi-computer-agency"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-12T16:17:44.779Z",
+      "visits": 0
+    },
+    {
+      "id": 1763036716844,
+      "url": "https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842",
+      "source": "Neural data may be the most precious commodity of the century",
+      "pullQuote": "Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842#myft:my-news:page\n\n\tBecause brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.\n",
+      "tags": [
+        "meta",
+        "neurotechnology",
+        "brain",
+        "privacy",
+        "ethics",
+        "surveillance"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-13T12:25:16.844Z",
+      "visits": 0
+    },
+    {
+      "id": 1763036879227,
+      "url": "https://partnerhelp.netflixstudios.com/hc/en-us/articles/43393929218323-Using-Generative-AI-in-Content-Production",
+      "source": "Using Generative AI in Content Production",
+      "pullQuote": "This guidance helps filmmakers, production partners, and vendors understand when and how to use GenAI tools in production. It also offers a practical tool for assessing and enabling confident GenAI use when producing content for Netflix. \n\nTo support global productions and stay aligned with best practices, we expect all production partners to share any intended use of GenAI with their Netflix contact, especially as new tools continue to emerge with different capabilities and risks. \n\nMost low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed.",
+      "tags": [
+        "hollywood-ai",
+        "netflix",
+        "gen-ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-13T12:27:59.227Z",
+      "visits": 0
+    },
+    {
+      "id": 1763037116634,
+      "url": "https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology",
+      "source": "Ethics of neurotechnology: UNESCO adopts the first global standard in",
+      "pullQuote": "Neurotechnology has the potential to define the next frontier of human progress, but it is not without risks. With the adoption of this new normative tool, UNESCO is setting clear boundaries, enshrining the inviolability of the human mind. This text embodies a deep conviction: that technological progress is only worthwhile if it is guided by ethics, dignity, and responsibility towards future generations",
+      "tags": [
+        "code",
+        "framework",
+        "neurotechnology",
+        "brain",
+        "human-rights",
+        "ethics",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-13T12:31:56.634Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-14T12:11:46.464Z"
+  "lastUpdated": "2025-11-13T12:37:44.932Z",
+  "exportedAt": "2025-11-13T12:37:44.932Z",
+  "totalLinks": 145
 }
