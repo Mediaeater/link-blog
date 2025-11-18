@@ -2125,9 +2125,62 @@
       "isPinned": false,
       "timestamp": "2025-11-18T00:40:35.545Z",
       "visits": 0
+    },
+    {
+      "id": 1763428191272,
+      "url": "https://www.bbc.com/news/articles/cj4172yl0l1o",
+      "source": "Iran begins cloud seeding to induce rain during worst drought in decades",
+      "pullQuote": "Authorities in Iran have sprayed clouds with chemicals to induce rain, in an attempt to combat the country's worst drought in decades.  (its like all Neal Stephenson novels must be realized IRL. \nin this case 2021 Termination Shock. -ed) \nKnown as cloud-seeding, the process was conducted over the Urmia lake basin on Saturday, Iran's official news agency Irna reported.",
+      "tags": [
+        "bbc",
+        "environment",
+        "climate",
+        "cloud-seeding",
+        "iran",
+        "meteorology",
+        "rain"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-18T01:09:51.272Z",
+      "visits": 0
+    },
+    {
+      "id": 1763428670314,
+      "url": "https://www.yahoo.com/news/articles/a16z-backed-super-pac-targeting-003250369.html",
+      "source": "A16z-backed AI super PAC targeting NYC Alex Bores, sponsor of NY's AI safety bill. ",
+      "pullQuote": "A super PAC backed by titans of the artificial intelligence industry, called “Leading the Future,” is targeting New York State Assemblymember Alex Bores, who co-sponsored the RAISE Act.\nThe bill requires the biggest AI companies to publish safety protocols for serious misuse use of their tech, and forces companies to disclose serious incidents. Leading the Future is backed by venture capital giant Andreessen Horowitz, Palantir cofounder Joe Lonsdale, AI search engine company Perplexity, SV Angel founder Ron Conway and numerous others. \"He says bring it on.\"\n",
+      "tags": [
+        "ca16z",
+        "lonsdale",
+        "anti-american",
+        "ai-pac",
+        "the-worst-humans",
+        "raise-act",
+        "citizens-united",
+        "brockman",
+        "RonConway"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-18T01:17:50.314Z",
+      "visits": 0
+    },
+    {
+      "id": 1763466065449,
+      "url": "https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c",
+      "source": "UK to ban resale of tickets above face value for live events",
+      "pullQuote": "K ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.\n\nIn plans to be announced on Wednesday, reselling a ticket above face value will be outlawed, government and industry figures told the Financial Times.\n",
+      "tags": [
+        "music",
+        "concert",
+        "tickets",
+        "legislation"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-18T11:41:05.449Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-18T00:41:08.335Z",
-  "exportedAt": "2025-11-18T00:41:08.335Z",
-  "totalLinks": 146
+  "lastUpdated": "2025-11-18T12:32:04.455Z",
+  "exportedAt": "2025-11-18T12:32:04.455Z",
+  "totalLinks": 149
 }
