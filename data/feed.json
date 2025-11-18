@@ -15,6 +15,109 @@
   ],
   "items": [
     {
+      "id": "1763426435545",
+      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
+      "title": "This is your brain without sleep",
+      "date_published": "2025-11-18T00:40:35.545Z",
+      "tags": [
+        "human",
+        "health.",
+        "breain",
+        "sleep",
+        "research"
+      ],
+      "content_text": "New research shows attention lapses due to sleep deprivation coincide with a flushing of fluid from the brain — a process that normally occurs during sleep\n",
+      "summary": "New research shows attention lapses due to sleep deprivation coincide with a flushing of fluid from the brain — a process that normally occurs during ...",
+      "content_html": "<blockquote>New research shows attention lapses due to sleep deprivation coincide with a flushing of fluid from the brain — a process that normally occurs during sleep\n</blockquote>\n<p><strong>Tags:</strong> human, health., breain, sleep, research</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763426341045",
+      "url": "Neural data may be the most precious commodity of the century",
+      "title": "Neural data may be the most precious commodity of the century",
+      "date_published": "2025-11-18T00:39:01.045Z",
+      "tags": [
+        "meta",
+        "neurotechnology",
+        "brain",
+        "privacy",
+        "ethics",
+        "surveillance"
+      ],
+      "content_text": "Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.",
+      "summary": "Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thoug...",
+      "content_html": "<blockquote>Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.</blockquote>\n<p><strong>Tags:</strong> meta, neurotechnology, brain, privacy, ethics, surveillance</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763426282021",
+      "url": "https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share",
+      "title": "Big Tech Wants Direct Access to Our Brains",
+      "date_published": "2025-11-18T00:38:02.021Z",
+      "tags": [
+        "self",
+        "agency",
+        "brain",
+        "neurotechnology",
+        "privacy"
+      ],
+      "content_text": "What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten",
+      "summary": "What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke Univers...",
+      "content_html": "<blockquote>What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten</blockquote>\n<p><strong>Tags:</strong> self, agency, brain, neurotechnology, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763426219187",
+      "url": "justiz.bayern.de",
+      "title": "Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz",
+      "date_published": "2025-11-18T00:36:59.187Z",
+      "tags": [
+        "openai",
+        "ai-music",
+        "copyright",
+        "de",
+        "damages",
+        "licensing",
+        "legal"
+      ],
+      "content_text": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany's major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages. \"",
+      "summary": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought ...",
+      "content_html": "<blockquote>German Court Ruling on OpenAI&#039;s Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany&#039;s major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages. &quot;</blockquote>\n<p><strong>Tags:</strong> openai, ai-music, copyright, de, damages, licensing, legal</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763426143913",
+      "url": "https://x.ai/news/grok-4-1",
+      "title": "Grok 4.1",
+      "date_published": "2025-11-18T00:35:43.913Z",
+      "tags": [
+        "ai",
+        "llm",
+        "x",
+        "grok",
+        "x-ai"
+      ],
+      "content_text": "Grok 4.1 is now available to all users on grok.com, 𝕏, and the iOS and Android apps. It is rolling out immediately in Auto mode and can be selected explicitly as “Grok 4.1” in the model picker.\n\n\n\n\nWeb Globe Icon\nOpen\nWe are excited to introduce Grok 4.1, which brings significant improvements to the real-world usability of Grok. Our 4.1 model is exceptionally capable in creative, emotional, and collaborative interactions. It is more perceptive to nuanced intent, compelling to speak with, and coherent in personality, while fully retaining the razor-sharp intelligence and reliability of its predecessors. To achieve this, we used the same large scale reinforcement learning infrastructure that powered Grok 4 and applied it to optimize the style, personality, helpfulness, and alignment of the model. In order to optimize these non-verifiable reward signals, we developed new methods that let us use frontier agentic reasoning models as reward models to autonomously evaluate and iterate on responses at scale\n ",
+      "summary": "Grok 4.1 is now available to all users on grok.com, 𝕏, and the iOS and Android apps. It is rolling out immediately in Auto mode and can be selected e...",
+      "content_html": "<blockquote>Grok 4.1 is now available to all users on grok.com, 𝕏, and the iOS and Android apps. It is rolling out immediately in Auto mode and can be selected explicitly as “Grok 4.1” in the model picker.\n\n\n\n\nWeb Globe Icon\nOpen\nWe are excited to introduce Grok 4.1, which brings significant improvements to the real-world usability of Grok. Our 4.1 model is exceptionally capable in creative, emotional, and collaborative interactions. It is more perceptive to nuanced intent, compelling to speak with, and coherent in personality, while fully retaining the razor-sharp intelligence and reliability of its predecessors. To achieve this, we used the same large scale reinforcement learning infrastructure that powered Grok 4 and applied it to optimize the style, personality, helpfulness, and alignment of the model. In order to optimize these non-verifiable reward signals, we developed new methods that let us use frontier agentic reasoning models as reward models to autonomously evaluate and iterate on responses at scale\n </blockquote>\n<p><strong>Tags:</strong> ai, llm, x, grok, x-ai</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1763037116634",
       "url": "https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology",
       "title": "Ethics of neurotechnology: UNESCO adopts the first global standard in",
@@ -1806,46 +1909,6 @@
       }
     },
     {
-      "id": "1759117178224",
-      "url": "https://climatetrace.org/air-pollution",
-      "title": "Air pollution",
-      "date_published": "2025-09-29T03:39:38.224Z",
-      "tags": [
-        "climate",
-        "aqi",
-        "map"
-      ],
-      "content_text": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities",
-      "summary": "How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth's atmosphere. We use satellites and other remote sensin...",
-      "content_html": "<blockquote>How Climate TRACE Works Most human economic activities release greenhouse gases into the Earth&#039;s atmosphere. We use satellites and other remote sensing technologies to spot these emissions activities</blockquote>\n<p><strong>Tags:</strong> climate, aqi, map</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759116996981.7578",
-      "url": "https://petition.parliament.uk/petitions/730194",
-      "title": "Petition: Do not introduce Digital ID cards",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1759116996981.0823",
-      "url": "https://humbledollar.com/forum/farewell-friends/",
-      "title": "Farewell Friends - HumbleDollar",
-      "date_published": "2025-09-29T03:36:36.981Z",
-      "tags": [],
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
       "id": "1759003849895",
       "url": "https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html",
       "title": "Digital Threat Modeling Under Authoritarianism - Schneier on Security",
@@ -2169,22 +2232,6 @@
       "content_html": "<blockquote>We need to talk about our data. Most of all, we need legislation that prohibits law enforcement from pre-emptively collecting and keeping this kind of information in the first place.</blockquote>\n<p><strong>Tags:</strong> surveillance, ethics, harms, ai</p>",
       "_link_blog": {
         "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1758461704343.3533",
-      "url": "https://www.nytimes.com/interactive/2025/09/15/opinion/nypd-surveillance.html",
-      "title": "Opinion | The N.Y.P.D. Is Teaching America How to Track Everyone Every Day Forever",
-      "date_published": "2025-09-21T13:35:04.343Z",
-      "tags": [
-        "tools",
-        "useful",
-        "tutorial"
-      ],
-      "content_html": "<p><strong>Tags:</strong> tools, useful, tutorial</p>",
-      "_link_blog": {
-        "visits": 1,
         "is_pinned": false
       }
     },
