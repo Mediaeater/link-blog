@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 18 Nov 2025 00:41:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2025 12:32:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1029,6 +1029,27 @@
             <guid>1763426435545</guid>
             <pubDate>Tue, 18 Nov 2025 00:40:35 GMT</pubDate>
             <description><![CDATA[Tags: human, health., breain, sleep, research]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Iran begins cloud seeding to induce rain during worst drought in decades]]></title>
+            <link>https://www.bbc.com/news/articles/cj4172yl0l1o</link>
+            <guid>1763428191272</guid>
+            <pubDate>Tue, 18 Nov 2025 01:09:51 GMT</pubDate>
+            <description><![CDATA[Tags: bbc, environment, climate, cloud-seeding, iran, meteorology, rain]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A16z-backed AI super PAC targeting NYC Alex Bores, sponsor of NY's AI safety bill. ]]></title>
+            <link>https://www.yahoo.com/news/articles/a16z-backed-super-pac-targeting-003250369.html</link>
+            <guid>1763428670314</guid>
+            <pubDate>Tue, 18 Nov 2025 01:17:50 GMT</pubDate>
+            <description><![CDATA[Tags: ca16z, lonsdale, anti-american, ai-pac, the-worst-humans, raise-act, citizens-united, brockman, RonConway]]></description>
+        </item>
+        <item>
+            <title><![CDATA[UK to ban resale of tickets above face value for live events]]></title>
+            <link>https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c</link>
+            <guid>1763466065449</guid>
+            <pubDate>Tue, 18 Nov 2025 11:41:05 GMT</pubDate>
+            <description><![CDATA[Tags: music, concert, tickets, legislation]]></description>
         </item>
     </channel>
 </rss>
