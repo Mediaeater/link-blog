@@ -2215,7 +2215,7 @@
       "id": 1763663700729,
       "url": "https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?",
       "source": "Who is OpenAI’s auditor? (Update: it’s Deloitte)",
-      "pullQuote": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?shareType=nongift\n\n\t(Update middayish New York City time: we now understand from two people familiar with the situation that OpenAI’s auditor is Deloitte. Click here to jump to the conclusion, which is us saying it’s Deloitte in more words.)\n",
+      "pullQuote": "(Update middayish New York City time: we now understand from two people familiar with the situation that OpenAI’s auditor is Deloitte. Click here to jump to the conclusion, which is us saying it’s Deloitte in more words.)",
       "tags": [
         "ft",
         "accounting",
@@ -2225,9 +2225,23 @@
       "isPinned": false,
       "timestamp": "2025-11-20T18:35:00.729Z",
       "visits": 0
+    },
+    {
+      "id": 1763665844425,
+      "url": "https://arxiv.org/abs/2511.15304",
+      "source": "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models",
+      "pullQuote": "We present evidence that adversarial poetry functions as a universal single-turn jailbreak technique for large language models (LLMs). Across 25 frontier proprietary and open-weight models, curated poetic prompts yielded high attack-success rates (ASR), with some providers exceeding 90%. Mapping prompts to MLCommons and EU CoP risk taxonomies shows that poetic attacks transfer across CBRN, manipulation, cyber-offence, and loss-of-control domains. Converting 1,200 MLCommons harmful prompts into verse via a standardized meta-prompt produced ASRs up to 18 times higher than their prose baselines. Outputs are evaluated using an ensemble of open-weight judge models and a human-validated stratified subset (with double-annotations to measure agreement). Disagreements were manually resolved. Poetic framing achieved an average jailbreak success rate of 62% for hand-crafted poems and approximately 43% for meta-prompt conversions (compared to non-poetic baselines), substantially outperforming non-poetic baselines and revealing a systematic vulnerability across model families and safety training approaches. These findings demonstrate that stylistic variation alone can circumvent contemporary safety mechanisms, suggesting fundamental limitations in current alignment methods and evaluation protocols.",
+      "tags": [
+        "jailbreak",
+        "poetry",
+        "llms"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T19:10:44.425Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-20T18:40:38.050Z",
-  "exportedAt": "2025-11-20T18:40:38.050Z",
-  "totalLinks": 152
+  "lastUpdated": "2025-11-20T19:10:50.598Z",
+  "exportedAt": "2025-11-20T19:10:50.598Z",
+  "totalLinks": 153
 }
