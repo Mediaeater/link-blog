@@ -2168,7 +2168,7 @@
       "id": 1763466065449,
       "url": "https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c",
       "source": "UK to ban resale of tickets above face value for live events",
-      "pullQuote": "K ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.\n\nIn plans to be announced on Wednesday, reselling a ticket above face value will be outlawed, government and industry figures told the Financial Times.\n",
+      "pullQuote": "Ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.\n\nIn plans to be announced on Wednesday, reselling a ticket above face value will be outlawed, government and industry figures told the Financial Times.\n",
       "tags": [
         "music",
         "concert",
@@ -2178,9 +2178,56 @@
       "isPinned": false,
       "timestamp": "2025-11-18T11:41:05.449Z",
       "visits": 0
+    },
+    {
+      "id": 1763662464133,
+      "url": "https://unicornriot.ninja/2025/body-cameras-show-how-police-acted-during-minneapolis-largest-mass-arrest/",
+      "source": "Body Cameras Show How Police Acted During Minneapolis’ Largest Mass Arrest - UNICORN RIOT",
+      "pullQuote": "5th graph just stunning reporting - ed \"As noted, 11 of the 45 MPD officers, or more than 24% of those whose footage is being released from the night of Nov. 4, 2020, have killed community members while on duty.\"",
+      "tags": [
+        "mpd",
+        "mn",
+        "policing",
+        "bodycamera",
+        "unicornriot"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T18:14:24.133Z",
+      "visits": 0
+    },
+    {
+      "id": 1763662602366,
+      "url": "https://psycnet.apa.org/fulltext/2026-89350-001.html",
+      "source": "Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates o",
+      "pullQuote": "Importantly, recent shifts in digital health research emphasize that it is not merely the amount of media consumed that matters, but rather the quality and nature of the content (e.g., Firth et al., 2024). To better capture these dynamics, future research should incorporate content type, user motivations, and emotional responses alongside traditional time-based metrics (e.g., duration/frequency of use). Complementary qualitative research and syntheses may also provide valuable insights into the contexts in which individuals engage with SFVs, the types of content encountered, and how users interpret and respond to such content. Together, these approaches may help clarify the mechanisms underpinning the associations identified in quantitative research.",
+      "tags": [
+        "media",
+        "mediaeater",
+        "sfv",
+        "psychology",
+        "metric"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T18:16:42.366Z",
+      "visits": 0
+    },
+    {
+      "id": 1763663700729,
+      "url": "https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?",
+      "source": "Who is OpenAI’s auditor? (Update: it’s Deloitte)",
+      "pullQuote": "\n\tPlease use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.\n\thttps://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?shareType=nongift\n\n\t(Update middayish New York City time: we now understand from two people familiar with the situation that OpenAI’s auditor is Deloitte. Click here to jump to the conclusion, which is us saying it’s Deloitte in more words.)\n",
+      "tags": [
+        "ft",
+        "accounting",
+        "open-ai",
+        "financial"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T18:35:00.729Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-18T12:32:04.455Z",
-  "exportedAt": "2025-11-18T12:32:04.455Z",
-  "totalLinks": 149
+  "lastUpdated": "2025-11-20T18:40:38.050Z",
+  "exportedAt": "2025-11-20T18:40:38.050Z",
+  "totalLinks": 152
 }

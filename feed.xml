@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 18 Nov 2025 12:32:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2025 18:40:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1050,6 +1050,27 @@
             <guid>1763466065449</guid>
             <pubDate>Tue, 18 Nov 2025 11:41:05 GMT</pubDate>
             <description><![CDATA[Tags: music, concert, tickets, legislation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Body Cameras Show How Police Acted During Minneapolis’ Largest Mass Arrest - UNICORN RIOT]]></title>
+            <link>https://unicornriot.ninja/2025/body-cameras-show-how-police-acted-during-minneapolis-largest-mass-arrest/</link>
+            <guid>1763662464133</guid>
+            <pubDate>Thu, 20 Nov 2025 18:14:24 GMT</pubDate>
+            <description><![CDATA[Tags: mpd, mn, policing, bodycamera, unicornriot]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates o]]></title>
+            <link>https://psycnet.apa.org/fulltext/2026-89350-001.html</link>
+            <guid>1763662602366</guid>
+            <pubDate>Thu, 20 Nov 2025 18:16:42 GMT</pubDate>
+            <description><![CDATA[Tags: media, mediaeater, sfv, psychology, metric]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Who is OpenAI’s auditor? (Update: it’s Deloitte)]]></title>
+            <link>https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?</link>
+            <guid>1763663700729</guid>
+            <pubDate>Thu, 20 Nov 2025 18:35:00 GMT</pubDate>
+            <description><![CDATA[Tags: ft, accounting, open-ai, financial]]></description>
         </item>
     </channel>
 </rss>
