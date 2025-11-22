@@ -2247,7 +2247,9 @@
       "pullQuote": "",
       "tags": [
         "air-travel",
-        "standards"
+        "standards",
+        "airspace",
+        "ntsb"
       ],
       "isPinned": false,
       "timestamp": "2025-11-20T22:51:02.800Z",
@@ -2299,9 +2301,23 @@
       "isPinned": false,
       "timestamp": "2025-11-22T00:08:39.607Z",
       "visits": 0
+    },
+    {
+      "id": 1763854576647,
+      "url": "https://www.theagencyre.com/single-family/clr/25621475/1635-woods-dr-los-angeles-ca-90069",
+      "source": "1635 Woods Dr, LOS ANGELES, CA 90069 For sale - 25,000,000 | The Agency Global Boutique Real Estate Brokerage",
+      "pullQuote": "Case Study House #22 --- universally known as the Stahl House --- stands as one of the most important residential works of the 20th century: a museum-grade architectural artifact preserved with exceptional care and offered now, for the first time, by the original family. Designed by Pierre Koenig for Buck and Carlotta Stahl, the home became immortalized through Julius Shulman's legendary 1960 photograph, later recognized by Time Magazine as one of the most influential images in the publication's 200-year history. I",
+      "tags": [
+        "architecture",
+        "la",
+        "design"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T23:36:16.647Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-22T00:08:56.452Z",
-  "exportedAt": "2025-11-22T00:08:56.452Z",
-  "totalLinks": 157
+  "lastUpdated": "2025-11-22T23:36:24.576Z",
+  "exportedAt": "2025-11-22T23:36:24.576Z",
+  "totalLinks": 158
 }

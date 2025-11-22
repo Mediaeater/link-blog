@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 22 Nov 2025 00:08:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Nov 2025 23:36:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1084,7 +1084,7 @@
             <link>https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx</link>
             <guid>1763679062800</guid>
             <pubDate>Thu, 20 Nov 2025 22:51:02 GMT</pubDate>
-            <description><![CDATA[Tags: air-travel, standards]]></description>
+            <description><![CDATA[Tags: air-travel, standards, airspace, ntsb]]></description>
         </item>
         <item>
             <title><![CDATA[Early experiments in accelerating science with GPT-5]]></title>
@@ -1106,6 +1106,13 @@
             <guid>1763770119607</guid>
             <pubDate>Sat, 22 Nov 2025 00:08:39 GMT</pubDate>
             <description><![CDATA[Tags: devops, monitoring, airspace, policing, real-time, tracker]]></description>
+        </item>
+        <item>
+            <title><![CDATA[1635 Woods Dr, LOS ANGELES, CA 90069 For sale - 25,000,000 | The Agency Global Boutique Real Estate Brokerage]]></title>
+            <link>https://www.theagencyre.com/single-family/clr/25621475/1635-woods-dr-los-angeles-ca-90069</link>
+            <guid>1763854576647</guid>
+            <pubDate>Sat, 22 Nov 2025 23:36:16 GMT</pubDate>
+            <description><![CDATA[Tags: architecture, la, design]]></description>
         </item>
     </channel>
 </rss>
