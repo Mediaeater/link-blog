@@ -15,6 +15,78 @@
   ],
   "items": [
     {
+      "id": "1763770119607",
+      "url": "https://lapdhelicoptertracker.com/",
+      "title": "LAPD Helicopter Tracker - Real-Time Monitoring",
+      "date_published": "2025-11-22T00:08:39.607Z",
+      "tags": [
+        "devops",
+        "monitoring",
+        "airspace",
+        "policing",
+        "real-time",
+        "tracker"
+      ],
+      "content_text": "Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units.",
+      "summary": "Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operat...",
+      "content_html": "<blockquote>Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units.</blockquote>\n<p><strong>Tags:</strong> devops, monitoring, airspace, policing, real-time, tracker</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763769982908",
+      "url": "https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/",
+      "title": "Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV",
+      "date_published": "2025-11-22T00:06:22.908Z",
+      "tags": [
+        "wamo",
+        "google",
+        "maps",
+        "automotive",
+        "addressable-mark"
+      ],
+      "content_html": "<p><strong>Tags:</strong> wamo, google, maps, automotive, addressable-mark</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763679121942",
+      "url": "https://openai.com/index/accelerating-science-gpt-5/",
+      "title": "Early experiments in accelerating science with GPT-5",
+      "date_published": "2025-11-20T22:52:01.942Z",
+      "tags": [
+        "openai",
+        "science",
+        "gpt-5"
+      ],
+      "content_text": "“Early science acceleration experiments with GPT‑5⁠(opens in a new window),” a paper co-authored with collaborators at universities and national laboratories including Vanderbilt, UC Berkeley, Columbia, Oxford, Cambridge, Lawrence Livermore National Laboratory, and The Jackson Laboratory. It compiles early case studies across math, physics, biology, computer science, astronomy, and materials science in which GPT‑5 helped researchers synthesize known results in a novel way, conduct powerful literature review, accelerate tough computations, and even generate novel proofs of unsolved propositions. The paper also documents limitations. Our goal is to give the community a clear view of what these systems can and cannot do today in research settings.",
+      "summary": "“Early science acceleration experiments with GPT‑5⁠(opens in a new window),” a paper co-authored with collaborators at universities and national labor...",
+      "content_html": "<blockquote>“Early science acceleration experiments with GPT‑5⁠(opens in a new window),” a paper co-authored with collaborators at universities and national laboratories including Vanderbilt, UC Berkeley, Columbia, Oxford, Cambridge, Lawrence Livermore National Laboratory, and The Jackson Laboratory. It compiles early case studies across math, physics, biology, computer science, astronomy, and materials science in which GPT‑5 helped researchers synthesize known results in a novel way, conduct powerful literature review, accelerate tough computations, and even generate novel proofs of unsolved propositions. The paper also documents limitations. Our goal is to give the community a clear view of what these systems can and cannot do today in research settings.</blockquote>\n<p><strong>Tags:</strong> openai, science, gpt-5</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763679062800",
+      "url": "https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx",
+      "title": "Investigations UPS Flight 2976 Crash During Takeoff",
+      "date_published": "2025-11-20T22:51:02.800Z",
+      "tags": [
+        "air-travel",
+        "standards"
+      ],
+      "content_html": "<p><strong>Tags:</strong> air-travel, standards</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1763665844425",
       "url": "https://arxiv.org/abs/2511.15304",
       "title": "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models",

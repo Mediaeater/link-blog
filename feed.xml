@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 20 Nov 2025 19:10:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Nov 2025 00:08:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1078,6 +1078,34 @@
             <guid>1763665844425</guid>
             <pubDate>Thu, 20 Nov 2025 19:10:44 GMT</pubDate>
             <description><![CDATA[Tags: jailbreak, poetry, llms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Investigations UPS Flight 2976 Crash During Takeoff]]></title>
+            <link>https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx</link>
+            <guid>1763679062800</guid>
+            <pubDate>Thu, 20 Nov 2025 22:51:02 GMT</pubDate>
+            <description><![CDATA[Tags: air-travel, standards]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Early experiments in accelerating science with GPT-5]]></title>
+            <link>https://openai.com/index/accelerating-science-gpt-5/</link>
+            <guid>1763679121942</guid>
+            <pubDate>Thu, 20 Nov 2025 22:52:01 GMT</pubDate>
+            <description><![CDATA[Tags: openai, science, gpt-5]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV]]></title>
+            <link>https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/</link>
+            <guid>1763769982908</guid>
+            <pubDate>Sat, 22 Nov 2025 00:06:22 GMT</pubDate>
+            <description><![CDATA[Tags: wamo, google, maps, automotive, addressable-mark]]></description>
+        </item>
+        <item>
+            <title><![CDATA[LAPD Helicopter Tracker - Real-Time Monitoring]]></title>
+            <link>https://lapdhelicoptertracker.com/</link>
+            <guid>1763770119607</guid>
+            <pubDate>Sat, 22 Nov 2025 00:08:39 GMT</pubDate>
+            <description><![CDATA[Tags: devops, monitoring, airspace, policing, real-time, tracker]]></description>
         </item>
     </channel>
 </rss>

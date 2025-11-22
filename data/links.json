@@ -2239,9 +2239,69 @@
       "isPinned": false,
       "timestamp": "2025-11-20T19:10:44.425Z",
       "visits": 0
+    },
+    {
+      "id": 1763679062800,
+      "url": "https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx",
+      "source": "Investigations UPS Flight 2976 Crash During Takeoff",
+      "pullQuote": "",
+      "tags": [
+        "air-travel",
+        "standards"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T22:51:02.800Z",
+      "visits": 0
+    },
+    {
+      "id": 1763679121942,
+      "url": "https://openai.com/index/accelerating-science-gpt-5/",
+      "source": "Early experiments in accelerating science with GPT-5",
+      "pullQuote": "“Early science acceleration experiments with GPT‑5⁠(opens in a new window),” a paper co-authored with collaborators at universities and national laboratories including Vanderbilt, UC Berkeley, Columbia, Oxford, Cambridge, Lawrence Livermore National Laboratory, and The Jackson Laboratory. It compiles early case studies across math, physics, biology, computer science, astronomy, and materials science in which GPT‑5 helped researchers synthesize known results in a novel way, conduct powerful literature review, accelerate tough computations, and even generate novel proofs of unsolved propositions. The paper also documents limitations. Our goal is to give the community a clear view of what these systems can and cannot do today in research settings.",
+      "tags": [
+        "openai",
+        "science",
+        "gpt-5"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T22:52:01.942Z",
+      "visits": 0
+    },
+    {
+      "id": 1763769982908,
+      "url": "https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/",
+      "source": "Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV",
+      "pullQuote": "",
+      "tags": [
+        "wamo",
+        "google",
+        "maps",
+        "automotive",
+        "addressable-mark"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T00:06:22.908Z",
+      "visits": 0
+    },
+    {
+      "id": 1763770119607,
+      "url": "https://lapdhelicoptertracker.com/",
+      "source": "LAPD Helicopter Tracker - Real-Time Monitoring",
+      "pullQuote": "Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units.",
+      "tags": [
+        "devops",
+        "monitoring",
+        "airspace",
+        "policing",
+        "real-time",
+        "tracker"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T00:08:39.607Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-20T19:10:50.598Z",
-  "exportedAt": "2025-11-20T19:10:50.598Z",
-  "totalLinks": 153
+  "lastUpdated": "2025-11-22T00:08:56.452Z",
+  "exportedAt": "2025-11-22T00:08:56.452Z",
+  "totalLinks": 157
 }
