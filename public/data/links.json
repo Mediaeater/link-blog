@@ -2321,9 +2321,38 @@
       "isPinned": false,
       "timestamp": "2025-11-22T23:46:37.406Z",
       "visits": 0
+    },
+    {
+      "id": 1763855930812,
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003456&utm_source=pr&utm_medium=email&utm_campaign=plos006",
+      "source": "Eye blinks synchronize with musical beats during music listening",
+      "pullQuote": "ditory-motor synchronization, the alignment of body movements with rhythmic patterns in music, is a universal human behavior, yet its full scope remains incompletely understood. Through four experiments with 123 young nonmusicians, integrating eye-tracking, neurophysiological recordings, white matter structural imaging, and behavioral analysis, we reveal a previously unrecognized form of synchronization: spontaneous eye blinks synchronize with musical beats. Blinks robustly synchronized with beats across a range of tempi and independently of melodic cues. Electroencephalogram recordings revealed a dynamic correspondence between blink timing and neural beat tracking. Blink synchronization performance was linked to white matter microstructure variation in the left superior longitudinal fasciculus, a key sensorimotor pathway. Additionally, the strength of blink synchronization reflected the modulation of dynamic auditory attention. ",
+      "tags": [
+        "mind-body",
+        "brain",
+        "music",
+        "synchronization study"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T23:58:50.812Z",
+      "visits": 0
+    },
+    {
+      "id": 1763856138590,
+      "url": "https://kevinboone.me/fingerprinting.html",
+      "source": "Kevin Boone: The privacy\nnightmare of browser fingerprinting",
+      "pullQuote": "Next, you need to be as unremarkable as possible. Fingerprinting is about uniqueness, so you should use the most popular browser on the most popular operating system on the kind of hardware you can buy from PC World. If you’re running the latest Chrome on the latest Windows 11 on a two-year-old, bog-standard laptop, you’re going to be one of a very large group. Of course Chrome, being a Google product, has its own privacy concerns, so you might be better off using a Chromium-based browser with reduced Google influence, like Brave.\n\nYou should endeavour to keep your computer in as near its stock configuration as possible. Don’t install anything (like fonts) that are reportable by the browser. Don’t install any extensions, and don’t change any settings. Use the same ‘light’ theme as everybody else, and use the browser with a maximized window, and always the same size. And so on.",
+      "tags": [
+        "fingerprinting",
+        "browser",
+        "opsec"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T00:02:18.590Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-22T23:46:41.340Z",
-  "exportedAt": "2025-11-22T23:46:41.340Z",
-  "totalLinks": 158
+  "lastUpdated": "2025-11-23T00:02:35.015Z",
+  "exportedAt": "2025-11-23T00:02:35.015Z",
+  "totalLinks": 160
 }
