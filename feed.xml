@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 22 Nov 2025 23:46:41 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Nov 2025 00:02:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1113,6 +1113,21 @@
             <guid>1763855197406</guid>
             <pubDate>Sat, 22 Nov 2025 23:46:37 GMT</pubDate>
             <description><![CDATA[Tags: Smartphones, technology, mentalhealth, mind, health, wellbeing, childhood, youth, development]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Eye blinks synchronize with musical beats during music listening]]></title>
+            <link>https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003456&amp;utm_source=pr&amp;utm_medium=email&amp;utm_campaign=plos006</link>
+            <guid>1763855930812</guid>
+            <pubDate>Sat, 22 Nov 2025 23:58:50 GMT</pubDate>
+            <description><![CDATA[Tags: mind-body, brain, music, synchronization study]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kevin Boone: The privacy
+nightmare of browser fingerprinting]]></title>
+            <link>https://kevinboone.me/fingerprinting.html</link>
+            <guid>1763856138590</guid>
+            <pubDate>Sun, 23 Nov 2025 00:02:18 GMT</pubDate>
+            <description><![CDATA[Tags: fingerprinting, browser, opsec]]></description>
         </item>
     </channel>
 </rss>
