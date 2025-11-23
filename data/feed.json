@@ -15,6 +15,28 @@
   ],
   "items": [
     {
+      "id": "1763858257697",
+      "url": "https://machinelearning.apple.com/research/multimodal-sensor-fusion",
+      "title": "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition",
+      "date_published": "2025-11-23T00:37:37.697Z",
+      "tags": [
+        "llm",
+        "privacy",
+        "audio",
+        "security",
+        "opsec",
+        "apple",
+        "study"
+      ],
+      "content_text": "We show that large language models (LLMs) can be used for late fusion for activity classification from audio and motion time series data. We curated a subset of data for diverse activity recognition across contexts (e.g., household activities, sports) from the Ego4D dataset. Evaluated LLMs achieved 12-class zero- and one-shot classification F1-scores significantly above chance, with no task-specific training. Zero-shot classification via LLM-based fusion from modality-specific models can enable multimodal temporal applications where there is limited aligned training data for learning a shared embedding space. Additionally, LLM-based fusion can enable model deploying without requiring additional memory and computation for targeted application-specific multimodal models.",
+      "summary": "We show that large language models (LLMs) can be used for late fusion for activity classification from audio and motion time series data. We curated a...",
+      "content_html": "<blockquote>We show that large language models (LLMs) can be used for late fusion for activity classification from audio and motion time series data. We curated a subset of data for diverse activity recognition across contexts (e.g., household activities, sports) from the Ego4D dataset. Evaluated LLMs achieved 12-class zero- and one-shot classification F1-scores significantly above chance, with no task-specific training. Zero-shot classification via LLM-based fusion from modality-specific models can enable multimodal temporal applications where there is limited aligned training data for learning a shared embedding space. Additionally, LLM-based fusion can enable model deploying without requiring additional memory and computation for targeted application-specific multimodal models.</blockquote>\n<p><strong>Tags:</strong> llm, privacy, audio, security, opsec, apple, study</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1763856138590",
       "url": "https://kevinboone.me/fingerprinting.html",
       "title": "Kevin Boone: The privacy\nnightmare of browser fingerprinting",
