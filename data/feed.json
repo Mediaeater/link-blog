@@ -15,6 +15,63 @@
   ],
   "items": [
     {
+      "id": "1763932896267",
+      "url": "https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf",
+      "title": "Big changes to the agency charged with securing elections lead to midterm worries",
+      "date_published": "2025-11-23T21:21:36.267Z",
+      "tags": [
+        "election",
+        "election-security",
+        "opsec",
+        "usa",
+        "mn"
+      ],
+      "content_text": "“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of State Steve Simon, a Democrat who until recently led the bipartisan National Association of Secretaries of State.",
+      "summary": "“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of Sta...",
+      "content_html": "<blockquote>“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of State Steve Simon, a Democrat who until recently led the bipartisan National Association of Secretaries of State.</blockquote>\n<p><strong>Tags:</strong> election, election-security, opsec, usa, mn</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763930572441",
+      "url": "https://blog.cr.yp.to/20251123-corruption.html",
+      "title": "cr.yp.to: 2025.11.23: NSA and IETF, part 2",
+      "date_published": "2025-11-23T20:42:52.441Z",
+      "tags": [
+        "encryption",
+        "usa",
+        "nsa",
+        "ietf"
+      ],
+      "content_text": "Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, overriding technical dissent, and exploiting the IETF's lack of \"balance of interest\" regulations.",
+      "summary": "Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, ...",
+      "content_html": "<blockquote>Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, overriding technical dissent, and exploiting the IETF&#039;s lack of &quot;balance of interest&quot; regulations.</blockquote>\n<p><strong>Tags:</strong> encryption, usa, nsa, ietf</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1763896923873",
+      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf",
+      "title": "Americans’ Social Media Use 2025",
+      "date_published": "2025-11-23T11:22:03.873Z",
+      "tags": [
+        "socialmedia",
+        "usa",
+        "report"
+      ],
+      "content_text": "Americans’ Social Media Use 2025 Growing shares of U.S. adults say they are using Instagram, TikTok, WhatsApp and Reddit, but YouTube still rises to the top",
+      "summary": "Americans’ Social Media Use 2025 Growing shares of U.S. adults say they are using Instagram, TikTok, WhatsApp and Reddit, but YouTube still rises to t...",
+      "content_html": "<blockquote>Americans’ Social Media Use 2025 Growing shares of U.S. adults say they are using Instagram, TikTok, WhatsApp and Reddit, but YouTube still rises to the top</blockquote>\n<p><strong>Tags:</strong> socialmedia, usa, report</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1763858257697",
       "url": "https://machinelearning.apple.com/research/multimodal-sensor-fusion",
       "title": "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition",

@@ -2368,9 +2368,54 @@
       "isPinned": false,
       "timestamp": "2025-11-23T00:37:37.697Z",
       "visits": 0
+    },
+    {
+      "id": 1763896923873,
+      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf",
+      "source": "Americans’ Social Media Use 2025",
+      "pullQuote": "Americans’ Social Media Use 2025 Growing shares of U.S. adults say they are using Instagram, TikTok, WhatsApp and Reddit, but YouTube still rises to the top",
+      "tags": [
+        "socialmedia",
+        "usa",
+        "report"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T11:22:03.873Z",
+      "visits": 0
+    },
+    {
+      "id": 1763930572441,
+      "url": "https://blog.cr.yp.to/20251123-corruption.html",
+      "source": "cr.yp.to: 2025.11.23: NSA and IETF, part 2",
+      "pullQuote": "Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, overriding technical dissent, and exploiting the IETF's lack of \"balance of interest\" regulations.",
+      "tags": [
+        "encryption",
+        "usa",
+        "nsa",
+        "ietf"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T20:42:52.441Z",
+      "visits": 0
+    },
+    {
+      "id": 1763932896267,
+      "url": "https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf",
+      "source": "Big changes to the agency charged with securing elections lead to midterm worries",
+      "pullQuote": "“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of State Steve Simon, a Democrat who until recently led the bipartisan National Association of Secretaries of State.",
+      "tags": [
+        "election",
+        "election-security",
+        "opsec",
+        "usa",
+        "mn"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T21:21:36.267Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-23T00:37:44.120Z",
-  "exportedAt": "2025-11-23T00:37:44.120Z",
-  "totalLinks": 161
+  "lastUpdated": "2025-11-23T21:21:51.294Z",
+  "exportedAt": "2025-11-23T21:21:51.294Z",
+  "totalLinks": 164
 }

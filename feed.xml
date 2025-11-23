@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 23 Nov 2025 00:37:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Nov 2025 21:21:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1135,6 +1135,27 @@ nightmare of browser fingerprinting]]></title>
             <guid>1763858257697</guid>
             <pubDate>Sun, 23 Nov 2025 00:37:37 GMT</pubDate>
             <description><![CDATA[Tags: llm, privacy, audio, security, opsec, apple, study]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Americans’ Social Media Use 2025]]></title>
+            <link>https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf</link>
+            <guid>1763896923873</guid>
+            <pubDate>Sun, 23 Nov 2025 11:22:03 GMT</pubDate>
+            <description><![CDATA[Tags: socialmedia, usa, report]]></description>
+        </item>
+        <item>
+            <title><![CDATA[cr.yp.to: 2025.11.23: NSA and IETF, part 2]]></title>
+            <link>https://blog.cr.yp.to/20251123-corruption.html</link>
+            <guid>1763930572441</guid>
+            <pubDate>Sun, 23 Nov 2025 20:42:52 GMT</pubDate>
+            <description><![CDATA[Tags: encryption, usa, nsa, ietf]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Big changes to the agency charged with securing elections lead to midterm worries]]></title>
+            <link>https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf</link>
+            <guid>1763932896267</guid>
+            <pubDate>Sun, 23 Nov 2025 21:21:36 GMT</pubDate>
+            <description><![CDATA[Tags: election, election-security, opsec, usa, mn]]></description>
         </item>
     </channel>
 </rss>
