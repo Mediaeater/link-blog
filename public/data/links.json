@@ -2413,9 +2413,70 @@
       "isPinned": false,
       "timestamp": "2025-11-23T21:21:36.267Z",
       "visits": 0
+    },
+    {
+      "id": 1763981579447,
+      "url": "https://aeon.co/essays/can-ai-tell-us-anything-meaningful-about-bob-dylans-songs",
+      "source": "Can AI tell us anything meaningful about Bob Dylan’s songs? | Aeon Essays",
+      "pullQuote": "So I fed Dylan’s official discography from 1962 to 2012 into a large language model (LLM), building a network of the concepts and connections in his songs. The model combed through each lyric, extracting pairs of related ideas or images. For example, it might detect a relationship between ‘wind’ and ‘answer’ in ‘Blowin’ in the Wind’ (1962), or between ‘joker’ and ‘thief’ in ‘All Along the Watchtower’ (1967). By assembling these relationships, we can construct a network of how Dylan’s key words and motifs braid together across his songs.",
+      "tags": [
+        "dylan",
+        "lyrics",
+        "analysis",
+        "maps"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-24T10:52:59.447Z",
+      "visits": 0
+    },
+    {
+      "id": 1763981924056,
+      "url": "https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro/xcto_fcm1253_usx?utm_source=TheNeuron&utm_medium=Email&utm_campaign=FY26Q4&_bhlid=fd9957e7fc13d60882a2dc26b576b2c467c81010",
+      "source": "Dell Pro Max Desktop with Nvidia Blackwell",
+      "pullQuote": "New Dell Pro Max with GB10 Model: FCM1253 $3,998.99 Price Match Guarantee\nprocessor NVIDIA GB10 Grace CPU (10 Cortex-X925 + 10 Cortex-A725 cores)\noperating system NVIDIA DGX OS 7 videocard NVIDIA GB10 Blackwell GPU\nmemory 128GB LPDDR5X hard drive 4 TB, SSD",
+      "tags": [
+        "hardware",
+        "ai",
+        "gear",
+        "nvidia"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-24T10:58:44.056Z",
+      "visits": 0
+    },
+    {
+      "id": 1763982876630,
+      "url": "https://www.bloodinthemachine.com/p/the-slop-layer?",
+      "source": "bloodinthemachine.com",
+      "pullQuote": "The same week that Breaking Rust was racking up Spotify plays, gamers were discovering that the newest installment of the blockbuster video game franchise Call of Duty was loaded with AI-generated art. The games blog FRVR explains (and also cites my 2024 WIRED piece on AI in the gaming industry, thanks FRVR):",
+      "tags": [
+        "ai-slop",
+        "trends",
+        "ai",
+        "media"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-24T11:14:36.630Z",
+      "visits": 0
+    },
+    {
+      "id": 1763983082025,
+      "url": "https://www.nytimes.com/2025/11/20/technology/ai-stock-boom-nvidia.html",
+      "source": "The A.I. Boom Has Found Another Gear. Why Can’t People Shake Their Worries?",
+      "pullQuote": "“What OpenAI is engaged in is the most dramatic case of ‘Fake It Until You Make It’ that we have ever seen,” said Gil Luria, head of technology research at D.A. Davidson. “They are making huge commitments that they literally can’t afford.”",
+      "tags": [
+        "ai",
+        "trends",
+        "financial",
+        "openai",
+        "business"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-24T11:18:02.025Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-23T21:21:51.294Z",
-  "exportedAt": "2025-11-23T21:21:51.294Z",
-  "totalLinks": 164
+  "lastUpdated": "2025-11-24T11:18:05.391Z",
+  "exportedAt": "2025-11-24T11:18:05.391Z",
+  "totalLinks": 168
 }
