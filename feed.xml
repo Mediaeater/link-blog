@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 23 Nov 2025 21:21:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Nov 2025 11:18:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1156,6 +1156,34 @@ nightmare of browser fingerprinting]]></title>
             <guid>1763932896267</guid>
             <pubDate>Sun, 23 Nov 2025 21:21:36 GMT</pubDate>
             <description><![CDATA[Tags: election, election-security, opsec, usa, mn]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Can AI tell us anything meaningful about Bob Dylan’s songs? | Aeon Essays]]></title>
+            <link>https://aeon.co/essays/can-ai-tell-us-anything-meaningful-about-bob-dylans-songs</link>
+            <guid>1763981579447</guid>
+            <pubDate>Mon, 24 Nov 2025 10:52:59 GMT</pubDate>
+            <description><![CDATA[Tags: dylan, lyrics, analysis, maps]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dell Pro Max Desktop with Nvidia Blackwell]]></title>
+            <link>https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro/xcto_fcm1253_usx?utm_source=TheNeuron&amp;utm_medium=Email&amp;utm_campaign=FY26Q4&amp;_bhlid=fd9957e7fc13d60882a2dc26b576b2c467c81010</link>
+            <guid>1763981924056</guid>
+            <pubDate>Mon, 24 Nov 2025 10:58:44 GMT</pubDate>
+            <description><![CDATA[Tags: hardware, ai, gear, nvidia]]></description>
+        </item>
+        <item>
+            <title><![CDATA[bloodinthemachine.com]]></title>
+            <link>https://www.bloodinthemachine.com/p/the-slop-layer?</link>
+            <guid>1763982876630</guid>
+            <pubDate>Mon, 24 Nov 2025 11:14:36 GMT</pubDate>
+            <description><![CDATA[Tags: ai-slop, trends, ai, media]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The A.I. Boom Has Found Another Gear. Why Can’t People Shake Their Worries?]]></title>
+            <link>https://www.nytimes.com/2025/11/20/technology/ai-stock-boom-nvidia.html</link>
+            <guid>1763983082025</guid>
+            <pubDate>Mon, 24 Nov 2025 11:18:02 GMT</pubDate>
+            <description><![CDATA[Tags: ai, trends, financial, openai, business]]></description>
         </item>
     </channel>
 </rss>
