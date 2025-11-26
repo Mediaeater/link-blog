@@ -2581,14 +2581,33 @@
         "tool",
         "ai",
         "measurement",
-        "token-growth"
+        "token-growth",
+        "inference"
       ],
       "isPinned": false,
       "timestamp": "2025-11-26T12:00:23.577Z",
       "visits": 0
+    },
+    {
+      "id": 1764158519702,
+      "url": "https://openrouter.ai/rankings?",
+      "source": "openrouter.ai",
+      "pullQuote": "Leaderboard - Token usage across models on OpenRouter ",
+      "tags": [
+        "token-growth",
+        "rankings",
+        "chart",
+        "measurement",
+        "ai",
+        "llm",
+        "inference"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T12:01:59.702Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-26T12:00:31.732Z",
-  "exportedAt": "2025-11-26T12:00:31.732Z",
-  "totalLinks": 175
+  "lastUpdated": "2025-11-26T12:03:33.417Z",
+  "exportedAt": "2025-11-26T12:03:33.417Z",
+  "totalLinks": 176
 }
