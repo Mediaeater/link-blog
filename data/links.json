@@ -2556,9 +2556,24 @@
       "isPinned": false,
       "timestamp": "2025-11-26T11:24:48.324Z",
       "visits": 0
+    },
+    {
+      "id": 1764157370193,
+      "url": "https://dougshapiro.substack.com/p/how-math-broke-media?",
+      "source": "How Math Broke Media dougshapiro.substack ",
+      "pullQuote": "The Trap: Current media companies (Hollywood studios, etc.) view AI merely as a tool to make current workflows cheaper (e.g., using AI for storyboards or dubbing).\nThe Reality: \"AI-Native\" companies are designing entirely new workflows that don't resemble traditional filmmaking or publishing.\nThe Outcome: Incumbents who use AI to \"do the old thing faster\" will likely be disrupted by newcomers who use AI to do entirely new things. The author suggests that even forward-thinking people are not thinking big enough about how radical this shift will be",
+      "tags": [
+        "media",
+        "technology",
+        "trend",
+        "legacy_media"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T11:42:50.193Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-26T11:31:51.031Z",
-  "exportedAt": "2025-11-26T11:31:51.031Z",
-  "totalLinks": 173
+  "lastUpdated": "2025-11-26T11:43:39.429Z",
+  "exportedAt": "2025-11-26T11:43:39.429Z",
+  "totalLinks": 174
 }

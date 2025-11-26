@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 26 Nov 2025 11:31:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 11:43:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1219,6 +1219,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764156288324</guid>
             <pubDate>Wed, 26 Nov 2025 11:24:48 GMT</pubDate>
             <description><![CDATA[Tags: health, medicine, science, brain, memory]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How Math Broke Media dougshapiro.substack ]]></title>
+            <link>https://dougshapiro.substack.com/p/how-math-broke-media?</link>
+            <guid>1764157370193</guid>
+            <pubDate>Wed, 26 Nov 2025 11:42:50 GMT</pubDate>
+            <description><![CDATA[Tags: media, technology, trend, legacy_media]]></description>
         </item>
     </channel>
 </rss>
