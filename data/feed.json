@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1764155801424",
+      "url": "https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? ",
+      "title": "home.web.cern.ch",
+      "date_published": "2025-11-26T11:16:41.424Z",
+      "tags": [
+        "cern",
+        "ai",
+        "principles",
+        "science"
+      ],
+      "content_text": "tificial intelligence (AI) can be found at CERN in many contexts: embedded in devices, software products and cloud services procured by CERN, brought on-site by individuals or developed in-house. Following the approval of a CERN-wide AI strategy, these general principles are designed to promote the responsible and ethical use, development and deployment (collectively “use”) of AI at CERN.\n\nThey are technology neutral and apply to all AI technologies as they become available.\n\nThe principles apply across all areas of CERN’s activities, including:\n\nAI for scientific and technical research: data analysis, anomaly detection, simulation, predictive maintenance and optimisation of accelerator performance or detector operations, and\nAI for productivity and administrative use: document drafting, note taking, automated translation, language correction and enhancement, coding assistants, and workflow automation.\n",
+      "summary": "tificial intelligence (AI) can be found at CERN in many contexts: embedded in devices, software products and cloud services procured by CERN, brought ...",
+      "content_html": "<blockquote>tificial intelligence (AI) can be found at CERN in many contexts: embedded in devices, software products and cloud services procured by CERN, brought on-site by individuals or developed in-house. Following the approval of a CERN-wide AI strategy, these general principles are designed to promote the responsible and ethical use, development and deployment (collectively “use”) of AI at CERN.\n\nThey are technology neutral and apply to all AI technologies as they become available.\n\nThe principles apply across all areas of CERN’s activities, including:\n\nAI for scientific and technical research: data analysis, anomaly detection, simulation, predictive maintenance and optimisation of accelerator performance or detector operations, and\nAI for productivity and administrative use: document drafting, note taking, automated translation, language correction and enhancement, coding assistants, and workflow automation.\n</blockquote>\n<p><strong>Tags:</strong> cern, ai, principles, science</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764155606824",
+      "url": "https://www.energy.gov/genesis",
+      "title": "Genesis Mission",
+      "date_published": "2025-11-26T11:13:26.824Z",
+      "tags": [
+        "gov",
+        "ai",
+        "energy",
+        "science",
+        "nuclear",
+        "fusion"
+      ],
+      "content_text": "Genesis Mission will develop an integrated platform that connects the world's best supercomputers, experimental facilities, AI systems, and unique datasets across every major scientific domain to double the productivity and impact of American research and innovation within a decade.",
+      "summary": "Genesis Mission will develop an integrated platform that connects the world's best supercomputers, experimental facilities, AI systems, and unique dat...",
+      "content_html": "<blockquote>Genesis Mission will develop an integrated platform that connects the world&#039;s best supercomputers, experimental facilities, AI systems, and unique datasets across every major scientific domain to double the productivity and impact of American research and innovation within a decade.</blockquote>\n<p><strong>Tags:</strong> gov, ai, energy, science, nuclear, fusion</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764124286412",
       "url": "https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41",
       "title": "Client Challenge",

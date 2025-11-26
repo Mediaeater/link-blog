@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 26 Nov 2025 03:15:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 11:16:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1198,6 +1198,20 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764124286412</guid>
             <pubDate>Wed, 26 Nov 2025 02:31:26 GMT</pubDate>
             <description><![CDATA[Tags: opensource, ai, cn, deepseek, open-models, adoption]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Genesis Mission]]></title>
+            <link>https://www.energy.gov/genesis</link>
+            <guid>1764155606824</guid>
+            <pubDate>Wed, 26 Nov 2025 11:13:26 GMT</pubDate>
+            <description><![CDATA[Tags: gov, ai, energy, science, nuclear, fusion]]></description>
+        </item>
+        <item>
+            <title><![CDATA[home.web.cern.ch]]></title>
+            <link>https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? </link>
+            <guid>1764155801424</guid>
+            <pubDate>Wed, 26 Nov 2025 11:16:41 GMT</pubDate>
+            <description><![CDATA[Tags: cern, ai, principles, science]]></description>
         </item>
     </channel>
 </rss>
