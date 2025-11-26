@@ -2529,7 +2529,7 @@
     {
       "id": 1764155801424,
       "url": "https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? ",
-      "source": "home.web.cern.ch",
+      "source": "General principles for the use of AI at CER",
       "pullQuote": "tificial intelligence (AI) can be found at CERN in many contexts: embedded in devices, software products and cloud services procured by CERN, brought on-site by individuals or developed in-house. Following the approval of a CERN-wide AI strategy, these general principles are designed to promote the responsible and ethical use, development and deployment (collectively “use”) of AI at CERN.\n\nThey are technology neutral and apply to all AI technologies as they become available.\n\nThe principles apply across all areas of CERN’s activities, including:\n\nAI for scientific and technical research: data analysis, anomaly detection, simulation, predictive maintenance and optimisation of accelerator performance or detector operations, and\nAI for productivity and administrative use: document drafting, note taking, automated translation, language correction and enhancement, coding assistants, and workflow automation.\n",
       "tags": [
         "cern",
@@ -2573,7 +2573,7 @@
       "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-26T11:43:39.429Z",
-  "exportedAt": "2025-11-26T11:43:39.429Z",
+  "lastUpdated": "2025-11-26T11:51:21.033Z",
+  "exportedAt": "2025-11-26T11:51:21.033Z",
   "totalLinks": 174
 }
