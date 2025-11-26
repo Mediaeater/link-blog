@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 26 Nov 2025 11:16:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 11:31:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1193,7 +1193,7 @@ nightmare of browser fingerprinting]]></title>
             <description><![CDATA[Tags: music, obit, reggae, dylan, quote, protest]]></description>
         </item>
         <item>
-            <title><![CDATA[Client Challenge]]></title>
+            <title><![CDATA[China leapfrogs US in global market for ‘open’ AI models]]></title>
             <link>https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41</link>
             <guid>1764124286412</guid>
             <pubDate>Wed, 26 Nov 2025 02:31:26 GMT</pubDate>
@@ -1212,6 +1212,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764155801424</guid>
             <pubDate>Wed, 26 Nov 2025 11:16:41 GMT</pubDate>
             <description><![CDATA[Tags: cern, ai, principles, science]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer's disease]]></title>
+            <link>https://www.sciencedirect.com/science/article/pii/S019701862500155X?</link>
+            <guid>1764156288324</guid>
+            <pubDate>Wed, 26 Nov 2025 11:24:48 GMT</pubDate>
+            <description><![CDATA[Tags: health, medicine, science, brain, memory]]></description>
         </item>
     </channel>
 </rss>
