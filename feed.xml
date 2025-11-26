@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 26 Nov 2025 11:43:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 11:51:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1207,7 +1207,7 @@ nightmare of browser fingerprinting]]></title>
             <description><![CDATA[Tags: gov, ai, energy, science, nuclear, fusion]]></description>
         </item>
         <item>
-            <title><![CDATA[home.web.cern.ch]]></title>
+            <title><![CDATA[General principles for the use of AI at CER]]></title>
             <link>https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? </link>
             <guid>1764155801424</guid>
             <pubDate>Wed, 26 Nov 2025 11:16:41 GMT</pubDate>
