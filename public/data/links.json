@@ -2495,8 +2495,8 @@
     {
       "id": 1764124286412,
       "url": "https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41",
-      "source": "Client Challenge",
-      "pullQuote": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models.\n",
+      "source": "China leapfrogs US in global market for ‘open’ AI models",
+      "pullQuote": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models. ----- China has overtaken the US in the global market for “open” artificial intelligence models, gaining a crucial edge over how the powerful technology is used around the world. A study by the Massachusetts Institute of Technology and open-source AI start-up Hugging Face found that the total share of downloads of new Chinese-made open models rose to 17 per cent in the past year. The figure surpasses the 15.8 per cent share of downloads from American developers such as Google, Meta and OpenAI — the first time Chinese groups have beaten their American counterparts. Open models — which are free to download, modify and integrate by developers — make it easier for start-ups to create products and researchers to improve them. Widespread adoption will confer outsized influence over AI’s future.\n",
       "tags": [
         "opensource",
         "ai",
@@ -2540,9 +2540,25 @@
       "isPinned": false,
       "timestamp": "2025-11-26T11:16:41.424Z",
       "visits": 0
+    },
+    {
+      "id": 1764156288324,
+      "url": "https://www.sciencedirect.com/science/article/pii/S019701862500155X?",
+      "source": "Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer's disease",
+      "pullQuote": "Arginine suppresses Aβ aggregation both in vitro and in vivo.\n•\nOral administration of arginine suppresses Aβ pathology and its toxicity in vivo.\n•\nArginine is a safe and cost-effective repositioning drug candidate for AD.",
+      "tags": [
+        "health",
+        "medicine",
+        "science",
+        "brain",
+        "memory"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T11:24:48.324Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-26T11:16:44.989Z",
-  "exportedAt": "2025-11-26T11:16:44.989Z",
-  "totalLinks": 172
+  "lastUpdated": "2025-11-26T11:31:51.031Z",
+  "exportedAt": "2025-11-26T11:31:51.031Z",
+  "totalLinks": 173
 }
