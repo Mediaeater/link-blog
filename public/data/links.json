@@ -2474,9 +2474,43 @@
       "isPinned": false,
       "timestamp": "2025-11-24T11:18:02.025Z",
       "visits": 0
+    },
+    {
+      "id": 1764023133103,
+      "url": "https://www.bbc.com/news/articles/cj4qdren425o",
+      "source": "Reggae legend Jimmy Cliff dies, aged 81",
+      "pullQuote": "He recorded a handful of singles before topping the Jamaican charts with his own composition, Hurricane Hattie.\n\nIn 1965, he relocated to London to work with Island Records - later the home of Bob Marley - but the label's attempts to make his sound palatable to rock audiences were initially unsuccessful.\n\nHe eventually struck gold with the 1969 single Wonderful World, Beautiful People - an upbeat, feelgood anthem; and the more politically-charged Vietnam, which Bob Dylan called \"the best protest song ever written\".\n\nIts lyric tells the story of a young soldier who writes from the war, promising his mother he'll be home soon; only for her to receive a telegram the next day, informing her of his death.",
+      "tags": [
+        "music",
+        "obit",
+        "reggae",
+        "dylan",
+        "quote",
+        "protest"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-24T22:25:33.103Z",
+      "visits": 0
+    },
+    {
+      "id": 1764124286412,
+      "url": "https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41",
+      "source": "Client Challenge",
+      "pullQuote": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models.\n",
+      "tags": [
+        "opensource",
+        "ai",
+        "cn",
+        "deepseek",
+        "open-models",
+        "adoption"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T02:31:26.412Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-24T11:18:05.391Z",
-  "exportedAt": "2025-11-24T11:18:05.391Z",
-  "totalLinks": 168
+  "lastUpdated": "2025-11-26T03:15:10.492Z",
+  "exportedAt": "2025-11-26T03:15:10.492Z",
+  "totalLinks": 170
 }
