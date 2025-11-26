@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1764158423577",
+      "url": "https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e",
+      "title": "AI Inference Tracker",
+      "date_published": "2025-11-26T12:00:23.577Z",
+      "tags": [
+        "tool",
+        "ai",
+        "measurement",
+        "token-growth"
+      ],
+      "content_text": "### **Reported Token Growth Rate**\n\n**+13-17% CMGR** range, in recent months.\n\n*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*\n\n*Since there's no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* \n\n*The most recent monthly growth figures to reference are shown in green.*",
+      "summary": "### **Reported Token Growth Rate**\n\n**+13-17% CMGR** range, in recent months.\n\n*The goal is to monitor whether the growth trajectory of AI inference d...",
+      "content_html": "<blockquote>### **Reported Token Growth Rate**\n\n**+13-17% CMGR** range, in recent months.\n\n*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*\n\n*Since there&#039;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* \n\n*The most recent monthly growth figures to reference are shown in green.*</blockquote>\n<p><strong>Tags:</strong> tool, ai, measurement, token-growth</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764157370193",
       "url": "https://dougshapiro.substack.com/p/how-math-broke-media?",
       "title": "How Math Broke Media dougshapiro.substack ",

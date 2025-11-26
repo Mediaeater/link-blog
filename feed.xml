@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 26 Nov 2025 11:51:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 12:00:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1226,6 +1226,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764157370193</guid>
             <pubDate>Wed, 26 Nov 2025 11:42:50 GMT</pubDate>
             <description><![CDATA[Tags: media, technology, trend, legacy_media]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI Inference Tracker]]></title>
+            <link>https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e</link>
+            <guid>1764158423577</guid>
+            <pubDate>Wed, 26 Nov 2025 12:00:23 GMT</pubDate>
+            <description><![CDATA[Tags: tool, ai, measurement, token-growth]]></description>
         </item>
     </channel>
 </rss>

@@ -2571,9 +2571,24 @@
       "isPinned": false,
       "timestamp": "2025-11-26T11:42:50.193Z",
       "visits": 0
+    },
+    {
+      "id": 1764158423577,
+      "url": "https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e",
+      "source": "AI Inference Tracker",
+      "pullQuote": "### **Reported Token Growth Rate**\n\n**+13-17% CMGR** range, in recent months.\n\n*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*\n\n*Since there's no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* \n\n*The most recent monthly growth figures to reference are shown in green.*",
+      "tags": [
+        "tool",
+        "ai",
+        "measurement",
+        "token-growth"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T12:00:23.577Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-26T11:51:21.033Z",
-  "exportedAt": "2025-11-26T11:51:21.033Z",
-  "totalLinks": 174
+  "lastUpdated": "2025-11-26T12:00:31.732Z",
+  "exportedAt": "2025-11-26T12:00:31.732Z",
+  "totalLinks": 175
 }

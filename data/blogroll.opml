@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Wed, 26 Nov 2025 11:51:26 GMT</dateCreated>
-    <dateModified>Wed, 26 Nov 2025 11:51:26 GMT</dateModified>
+    <dateCreated>Wed, 26 Nov 2025 12:00:35 GMT</dateCreated>
+    <dateModified>Wed, 26 Nov 2025 12:00:35 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -214,6 +214,15 @@ The principles apply across all areas of CERN’s activities, including:
 AI for scientific and technical research: data analysis, anomaly detection, simulation, predictive maintenance and optimisation of accelerator performance or detector operations, and
 AI for productivity and administrative use: document drafting, note taking, automated translation, language correction and enhancement, coding assistants, and workflow automation.
 " created="Wed, 26 Nov 2025 11:16:41 GMT" category="cern,ai,principles,science" />
+      <outline type="link" text="AI Inference Tracker" title="AI Inference Tracker" url="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" htmlUrl="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" description="### **Reported Token Growth Rate**
+
+**+13-17% CMGR** range, in recent months.
+
+*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*
+
+*Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
+
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
     </outline>
     <outline text="ai generative-media" title="ai generative-media">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -1298,6 +1307,17 @@ GBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (Lo
       <outline type="link" text="Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV" title="Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV" url="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/" htmlUrl="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/" created="Sat, 22 Nov 2025 00:06:22 GMT" category="wamo,google,maps,automotive,addressable-mark" />
       <outline type="link" text="Can AI tell us anything meaningful about Bob Dylan’s songs? | Aeon Essays" title="Can AI tell us anything meaningful about Bob Dylan’s songs? | Aeon Essays" url="https://aeon.co/essays/can-ai-tell-us-anything-meaningful-about-bob-dylans-songs" htmlUrl="https://aeon.co/essays/can-ai-tell-us-anything-meaningful-about-bob-dylans-songs" description="So I fed Dylan’s official discography from 1962 to 2012 into a large language model (LLM), building a network of the concepts and connections in his songs. The model combed through each lyric, extracting pairs of related ideas or images. For example, it might detect a relationship between ‘wind’ and ‘answer’ in ‘Blowin’ in the Wind’ (1962), or between ‘joker’ and ‘thief’ in ‘All Along the Watchtower’ (1967). By assembling these relationships, we can construct a network of how Dylan’s key words and motifs braid together across his songs." created="Mon, 24 Nov 2025 10:52:59 GMT" category="dylan,lyrics,analysis,maps" />
     </outline>
+    <outline text="measurement" title="measurement">
+      <outline type="link" text="AI Inference Tracker" title="AI Inference Tracker" url="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" htmlUrl="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" description="### **Reported Token Growth Rate**
+
+**+13-17% CMGR** range, in recent months.
+
+*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*
+
+*Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
+
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
+    </outline>
     <outline text="media" title="media">
       <outline type="link" text="Anatomy of a Narrative Virus - How a story spreads" title="Anatomy of a Narrative Virus - How a story spreads" url="https://www.epsilontheory.com/anatomy-of-a-narrative-virus/" htmlUrl="https://www.epsilontheory.com/anatomy-of-a-narrative-virus/" description="And don&apos;t get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn&apos;t that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.
 
@@ -2098,11 +2118,31 @@ In plans to be announced on Wednesday, reselling a ticket above face value will 
     <outline text="time" title="time">
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
     </outline>
+    <outline text="token-growth" title="token-growth">
+      <outline type="link" text="AI Inference Tracker" title="AI Inference Tracker" url="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" htmlUrl="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" description="### **Reported Token Growth Rate**
+
+**+13-17% CMGR** range, in recent months.
+
+*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*
+
+*Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
+
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
+    </outline>
     <outline text="tom_siebel" title="tom_siebel">
       <outline type="link" text="C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well." title="C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well." url="https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/" htmlUrl="https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/" created="Mon, 08 Sep 2025 18:28:59 GMT" category="surveillance,harms,ai,c3ai,tom_siebel" />
     </outline>
     <outline text="tool" title="tool">
       <outline type="link" text="Air pollution" title="Air pollution" url="https://climatetrace.org/air-pollution" htmlUrl="https://climatetrace.org/air-pollution" description="Facilities that create climate pollution also release harmful air pollution. See for yourself" created="Sun, 19 Oct 2025 10:00:50 GMT" category="map. aqi,tool" visits="1" />
+      <outline type="link" text="AI Inference Tracker" title="AI Inference Tracker" url="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" htmlUrl="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" description="### **Reported Token Growth Rate**
+
+**+13-17% CMGR** range, in recent months.
+
+*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*
+
+*Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
+
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
     </outline>
     <outline text="tracker" title="tracker">
       <outline type="link" text="LAPD Helicopter Tracker - Real-Time Monitoring" title="LAPD Helicopter Tracker - Real-Time Monitoring" url="https://lapdhelicoptertracker.com/" htmlUrl="https://lapdhelicoptertracker.com/" description="Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units." created="Sat, 22 Nov 2025 00:08:39 GMT" category="devops,monitoring,airspace,policing,real-time,tracker" />
