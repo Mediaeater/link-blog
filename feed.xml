@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 26 Nov 2025 12:00:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 12:03:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1232,7 +1232,14 @@ nightmare of browser fingerprinting]]></title>
             <link>https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e</link>
             <guid>1764158423577</guid>
             <pubDate>Wed, 26 Nov 2025 12:00:23 GMT</pubDate>
-            <description><![CDATA[Tags: tool, ai, measurement, token-growth]]></description>
+            <description><![CDATA[Tags: tool, ai, measurement, token-growth, inference]]></description>
+        </item>
+        <item>
+            <title><![CDATA[openrouter.ai]]></title>
+            <link>https://openrouter.ai/rankings?</link>
+            <guid>1764158519702</guid>
+            <pubDate>Wed, 26 Nov 2025 12:01:59 GMT</pubDate>
+            <description><![CDATA[Tags: token-growth, rankings, chart, measurement, ai, llm, inference]]></description>
         </item>
     </channel>
 </rss>

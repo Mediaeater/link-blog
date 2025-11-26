@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Wed, 26 Nov 2025 12:00:35 GMT</dateCreated>
-    <dateModified>Wed, 26 Nov 2025 12:00:35 GMT</dateModified>
+    <dateCreated>Wed, 26 Nov 2025 12:03:37 GMT</dateCreated>
+    <dateModified>Wed, 26 Nov 2025 12:03:37 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -222,7 +222,8 @@ AI for productivity and administrative use: document drafting, note taking, auto
 
 *Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
 
-*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth,inference" />
+      <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
     </outline>
     <outline text="ai generative-media" title="ai generative-media">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -543,6 +544,9 @@ AI for productivity and administrative use: document drafting, note taking, auto
     </outline>
     <outline text="character-ai" title="character-ai">
       <outline type="link" text="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" title="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" url="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" htmlUrl="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" created="Fri, 05 Sep 2025 10:30:00 GMT" category="influencers,brands,character-ai" />
+    </outline>
+    <outline text="chart" title="chart">
+      <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
     </outline>
     <outline text="charts" title="charts">
       <outline type="link" text="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" title="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" url="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" htmlUrl="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" description="I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in." created="Mon, 10 Nov 2025 03:38:08 GMT" category="music,ai-music,billboard,charts,song" />
@@ -1080,6 +1084,18 @@ If you’d rather try some features while disabling others, keep browser.ml.enab
     <outline text="india" title="india">
       <outline type="link" text="guidelines-governance.pdf" title="guidelines-governance.pdf" url="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" htmlUrl="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" description="India AI Governance Guidelines Enabling Safe and Trusted AI Innovation" created="Thu, 06 Nov 2025 17:45:54 GMT" category="ai,governance,india,guidelines" />
     </outline>
+    <outline text="inference" title="inference">
+      <outline type="link" text="AI Inference Tracker" title="AI Inference Tracker" url="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" htmlUrl="https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e" description="### **Reported Token Growth Rate**
+
+**+13-17% CMGR** range, in recent months.
+
+*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*
+
+*Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
+
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth,inference" />
+      <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
+    </outline>
     <outline text="influencers" title="influencers">
       <outline type="link" text="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" title="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" url="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" htmlUrl="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" created="Fri, 05 Sep 2025 10:30:00 GMT" category="influencers,brands,character-ai" />
     </outline>
@@ -1242,6 +1258,7 @@ Open
 We are excited to introduce Grok 4.1, which brings significant improvements to the real-world usability of Grok. Our 4.1 model is exceptionally capable in creative, emotional, and collaborative interactions. It is more perceptive to nuanced intent, compelling to speak with, and coherent in personality, while fully retaining the razor-sharp intelligence and reliability of its predecessors. To achieve this, we used the same large scale reinforcement learning infrastructure that powered Grok 4 and applied it to optimize the style, personality, helpfulness, and alignment of the model. In order to optimize these non-verifiable reward signals, we developed new methods that let us use frontier agentic reasoning models as reward models to autonomously evaluate and iterate on responses at scale
  " created="Tue, 18 Nov 2025 00:35:43 GMT" category="ai,llm,x,grok,x-ai" visits="1" />
       <outline type="link" text="Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition" title="Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition" url="https://machinelearning.apple.com/research/multimodal-sensor-fusion" htmlUrl="https://machinelearning.apple.com/research/multimodal-sensor-fusion" description="We show that large language models (LLMs) can be used for late fusion for activity classification from audio and motion time series data. We curated a subset of data for diverse activity recognition across contexts (e.g., household activities, sports) from the Ego4D dataset. Evaluated LLMs achieved 12-class zero- and one-shot classification F1-scores significantly above chance, with no task-specific training. Zero-shot classification via LLM-based fusion from modality-specific models can enable multimodal temporal applications where there is limited aligned training data for learning a shared embedding space. Additionally, LLM-based fusion can enable model deploying without requiring additional memory and computation for targeted application-specific multimodal models." created="Sun, 23 Nov 2025 00:37:37 GMT" category="llm,privacy,audio,security,opsec,apple,study" />
+      <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
     </outline>
     <outline text="llms" title="llms">
       <outline type="link" text="Language Models are Injective and Hence Invertible" title="Language Models are Injective and Hence Invertible" url="https://arxiv.org/abs/2510.15511" htmlUrl="https://arxiv.org/abs/2510.15511" description="ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. 
@@ -1316,7 +1333,8 @@ GBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (Lo
 
 *Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
 
-*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth,inference" />
+      <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
     </outline>
     <outline text="media" title="media">
       <outline type="link" text="Anatomy of a Narrative Virus - How a story spreads" title="Anatomy of a Narrative Virus - How a story spreads" url="https://www.epsilontheory.com/anatomy-of-a-narrative-virus/" htmlUrl="https://www.epsilontheory.com/anatomy-of-a-narrative-virus/" description="And don&apos;t get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn&apos;t that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.
@@ -1773,6 +1791,7 @@ The bill requires the biggest AI companies to publish safety protocols for serio
     <outline text="rankings" title="rankings">
       <outline type="link" text="Newcomer Ranking - New Rising Stars on GitHub" title="Newcomer Ranking - New Rising Stars on GitHub" url="https://git-stars.org/ranking/newcomers" htmlUrl="https://git-stars.org/ranking/newcomers" description="Newcomer Ranking - Top 100 new rising stars that recently crossed 500 stars threshold" created="Sun, 19 Oct 2025 09:56:11 GMT" category="code,rankings,github" />
       <outline type="link" text="A Network Crumb Back Story: A Baker’s Dozen Retrospective" title="A Network Crumb Back Story: A Baker’s Dozen Retrospective" url="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" htmlUrl="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" description="For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period." created="Mon, 06 Oct 2025 20:39:50 GMT" category="network,autonomous-systems,rankings,ases" />
+      <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
     </outline>
     <outline text="raspi" title="raspi">
       <outline type="link" text="TV Time Machine: A Raspberry Pi That Plays Random 90s TV" title="TV Time Machine: A Raspberry Pi That Plays Random 90s TV" url="https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html" htmlUrl="https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html" description=" Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup" created="Sun, 21 Sep 2025 10:24:51 GMT" category="tv,raspi,playlist" />
@@ -2127,7 +2146,8 @@ In plans to be announced on Wednesday, reselling a ticket above face value will 
 
 *Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
 
-*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth,inference" />
+      <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
     </outline>
     <outline text="tom_siebel" title="tom_siebel">
       <outline type="link" text="C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well." title="C3 AI Was Supposed To Speed Up Policing. It’s Not Going Well." url="https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/" htmlUrl="https://www.forbes.com/sites/thomasbrewster/2025/09/04/tom-seibel-c3-ai-sherlock-was-supposed-to-turbocharge-police-investigations/" created="Mon, 08 Sep 2025 18:28:59 GMT" category="surveillance,harms,ai,c3ai,tom_siebel" />
@@ -2142,7 +2162,7 @@ In plans to be announced on Wednesday, reselling a ticket above face value will 
 
 *Since there&apos;s no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* 
 
-*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth" />
+*The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth,inference" />
     </outline>
     <outline text="tracker" title="tracker">
       <outline type="link" text="LAPD Helicopter Tracker - Real-Time Monitoring" title="LAPD Helicopter Tracker - Real-Time Monitoring" url="https://lapdhelicoptertracker.com/" htmlUrl="https://lapdhelicoptertracker.com/" description="Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units." created="Sat, 22 Nov 2025 00:08:39 GMT" category="devops,monitoring,airspace,policing,real-time,tracker" />
