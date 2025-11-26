@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 24 Nov 2025 11:18:05 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2025 03:15:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1184,6 +1184,20 @@ nightmare of browser fingerprinting]]></title>
             <guid>1763983082025</guid>
             <pubDate>Mon, 24 Nov 2025 11:18:02 GMT</pubDate>
             <description><![CDATA[Tags: ai, trends, financial, openai, business]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Reggae legend Jimmy Cliff dies, aged 81]]></title>
+            <link>https://www.bbc.com/news/articles/cj4qdren425o</link>
+            <guid>1764023133103</guid>
+            <pubDate>Mon, 24 Nov 2025 22:25:33 GMT</pubDate>
+            <description><![CDATA[Tags: music, obit, reggae, dylan, quote, protest]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Client Challenge]]></title>
+            <link>https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41</link>
+            <guid>1764124286412</guid>
+            <pubDate>Wed, 26 Nov 2025 02:31:26 GMT</pubDate>
+            <description><![CDATA[Tags: opensource, ai, cn, deepseek, open-models, adoption]]></description>
         </item>
     </channel>
 </rss>

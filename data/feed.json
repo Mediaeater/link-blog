@@ -15,6 +15,48 @@
   ],
   "items": [
     {
+      "id": "1764124286412",
+      "url": "https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41",
+      "title": "Client Challenge",
+      "date_published": "2025-11-26T02:31:26.412Z",
+      "tags": [
+        "opensource",
+        "ai",
+        "cn",
+        "deepseek",
+        "open-models",
+        "adoption"
+      ],
+      "content_text": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models.\n",
+      "summary": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of...",
+      "content_html": "<blockquote>The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models.\n</blockquote>\n<p><strong>Tags:</strong> opensource, ai, cn, deepseek, open-models, adoption</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764023133103",
+      "url": "https://www.bbc.com/news/articles/cj4qdren425o",
+      "title": "Reggae legend Jimmy Cliff dies, aged 81",
+      "date_published": "2025-11-24T22:25:33.103Z",
+      "tags": [
+        "music",
+        "obit",
+        "reggae",
+        "dylan",
+        "quote",
+        "protest"
+      ],
+      "content_text": "He recorded a handful of singles before topping the Jamaican charts with his own composition, Hurricane Hattie.\n\nIn 1965, he relocated to London to work with Island Records - later the home of Bob Marley - but the label's attempts to make his sound palatable to rock audiences were initially unsuccessful.\n\nHe eventually struck gold with the 1969 single Wonderful World, Beautiful People - an upbeat, feelgood anthem; and the more politically-charged Vietnam, which Bob Dylan called \"the best protest song ever written\".\n\nIts lyric tells the story of a young soldier who writes from the war, promising his mother he'll be home soon; only for her to receive a telegram the next day, informing her of his death.",
+      "summary": "He recorded a handful of singles before topping the Jamaican charts with his own composition, Hurricane Hattie.\n\nIn 1965, he relocated to London to wo...",
+      "content_html": "<blockquote>He recorded a handful of singles before topping the Jamaican charts with his own composition, Hurricane Hattie.\n\nIn 1965, he relocated to London to work with Island Records - later the home of Bob Marley - but the label&#039;s attempts to make his sound palatable to rock audiences were initially unsuccessful.\n\nHe eventually struck gold with the 1969 single Wonderful World, Beautiful People - an upbeat, feelgood anthem; and the more politically-charged Vietnam, which Bob Dylan called &quot;the best protest song ever written&quot;.\n\nIts lyric tells the story of a young soldier who writes from the war, promising his mother he&#039;ll be home soon; only for her to receive a telegram the next day, informing her of his death.</blockquote>\n<p><strong>Tags:</strong> music, obit, reggae, dylan, quote, protest</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1763983082025",
       "url": "https://www.nytimes.com/2025/11/20/technology/ai-stock-boom-nvidia.html",
       "title": "The A.I. Boom Has Found Another Gear. Why Can’t People Shake Their Worries?",
