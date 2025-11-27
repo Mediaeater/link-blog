@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1764253624812",
+      "url": "https://openai.com/index/mixpanel-incident/",
+      "title": "What to know about a recent Mixpanel security incident",
+      "date_published": "2025-11-27T14:27:04.812Z",
+      "tags": [
+        "openai",
+        "security",
+        "data",
+        "breach",
+        "incident. coms",
+        "ethics"
+      ],
+      "content_text": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.",
+      "summary": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security ...",
+      "content_html": "<blockquote>Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.</blockquote>\n<p><strong>Tags:</strong> openai, security, data, breach, incident. coms, ethics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764158519702",
       "url": "https://openrouter.ai/rankings?",
       "title": "openrouter.ai",

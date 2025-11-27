@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 27 Nov 2025 14:19:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Nov 2025 14:27:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1240,6 +1240,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764158519702</guid>
             <pubDate>Wed, 26 Nov 2025 12:01:59 GMT</pubDate>
             <description><![CDATA[Tags: token-growth, rankings, chart, measurement, ai, llm, inference]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What to know about a recent Mixpanel security incident]]></title>
+            <link>https://openai.com/index/mixpanel-incident/</link>
+            <guid>1764253624812</guid>
+            <pubDate>Thu, 27 Nov 2025 14:27:04 GMT</pubDate>
+            <description><![CDATA[Tags: openai, security, data, breach, incident. coms, ethics]]></description>
         </item>
     </channel>
 </rss>

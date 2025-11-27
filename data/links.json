@@ -2605,9 +2605,26 @@
       "isPinned": false,
       "timestamp": "2025-11-26T12:01:59.702Z",
       "visits": 0
+    },
+    {
+      "id": 1764253624812,
+      "url": "https://openai.com/index/mixpanel-incident/",
+      "source": "What to know about a recent Mixpanel security incident",
+      "pullQuote": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.",
+      "tags": [
+        "openai",
+        "security",
+        "data",
+        "breach",
+        "incident. coms",
+        "ethics"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-27T14:27:04.812Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-27T14:19:25.041Z",
-  "exportedAt": "2025-11-27T14:19:25.041Z",
-  "totalLinks": 176
+  "lastUpdated": "2025-11-27T14:27:07.686Z",
+  "exportedAt": "2025-11-27T14:27:07.686Z",
+  "totalLinks": 177
 }
