@@ -15,6 +15,52 @@
   ],
   "items": [
     {
+      "id": "1764329188721",
+      "url": "https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260",
+      "title": "Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation",
+      "date_published": "2025-11-28T11:26:28.721Z",
+      "tags": [
+        "creepy-joe-lonsdale",
+        "a12z",
+        "lobby",
+        "pac",
+        "politcs",
+        "ai",
+        "ai-regulation",
+        "leading-the-future",
+        "andreessen-horowitz",
+        "public-first-pac"
+      ],
+      "content_text": "Donors have already committed well above $100 million to political-action committees involved in that fight, which has been supercharged by the wealth of some individuals and companies. Included are the venture-capital firm Andreessen Horowitz and an OpenAI co-founder, Greg Brockman. Meta Platforms is also funding several political efforts.\nSupporters of more-stringent AI regulations launched their own effort this week, aiming to raise at least $50 million to help candidates who support more AI regulation.\nThe biggest player so far is Leading the Future, a super PAC that has said it would use donations of more than $100 million to “reshape the political environment around innovation policy.” The group has vowed to support candidates of both parties who mirror the industry’s priorities and “aggressively oppose” those who jeopardize them.\nThe super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity.",
+      "summary": "Donors have already committed well above $100 million to political-action committees involved in that fight, which has been supercharged by the wealth...",
+      "content_html": "<blockquote>Donors have already committed well above $100 million to political-action committees involved in that fight, which has been supercharged by the wealth of some individuals and companies. Included are the venture-capital firm Andreessen Horowitz and an OpenAI co-founder, Greg Brockman. Meta Platforms is also funding several political efforts.\nSupporters of more-stringent AI regulations launched their own effort this week, aiming to raise at least $50 million to help candidates who support more AI regulation.\nThe biggest player so far is Leading the Future, a super PAC that has said it would use donations of more than $100 million to “reshape the political environment around innovation policy.” The group has vowed to support candidates of both parties who mirror the industry’s priorities and “aggressively oppose” those who jeopardize them.\nThe super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity.</blockquote>\n<p><strong>Tags:</strong> creepy-joe-lonsdale, a12z, lobby, pac, politcs, ai, ai-regulation, leading-the-future, andreessen-horowitz, public-first-pac</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764328949107",
+      "url": "https://arxiv.org/abs/2511.21631",
+      "title": "Qwen3-VL Technical Report",
+      "date_published": "2025-11-28T11:22:29.107Z",
+      "tags": [
+        "video",
+        "performance",
+        "optimization",
+        "qwen",
+        "ai",
+        "cn"
+      ],
+      "content_text": ". Qwen3-VL delivers three core pillars: (i) markedly stronger pure-text understanding, surpassing comparable text-only backbones in several cases; (ii) robust long-context comprehension with a native 256K-token window for both text and interleaved multimodal inputs, enabling faithful retention, retrieval, and cross-referencing across long documents and videos; and (iii) advanced multimodal reasoning across single-image, multi-image, and video tasks, demonstrating leading performance on comprehensive evaluations such as MMMU and visual-math benchmarks (e.g., MathVista and MathVision). Architecturally, we introduce three key upgrades: (i) an enhanced interleaved-MRoPE for stronger spatial-temporal modeling across images and video; (ii) DeepStack integration, which effectively leverages multi-level ViT features to tighten vision-language alignment; and (iii) text-based time alignment for video, evolving from T-RoPE to explicit textual timestamp alignment for more precise temporal grounding. Under comparable token budgets and latency constraints, Qwen3-VL achieves superior performance in both dense and Mixture-of-Experts (MoE) architectures. We envision Qwen3-VL serving as a foundational engine for image-grounded reasoning, agentic decision-making, and multimodal code intelligence in real-world workflows.",
+      "summary": ". Qwen3-VL delivers three core pillars: (i) markedly stronger pure-text understanding, surpassing comparable text-only backbones in several cases; (ii...",
+      "content_html": "<blockquote>. Qwen3-VL delivers three core pillars: (i) markedly stronger pure-text understanding, surpassing comparable text-only backbones in several cases; (ii) robust long-context comprehension with a native 256K-token window for both text and interleaved multimodal inputs, enabling faithful retention, retrieval, and cross-referencing across long documents and videos; and (iii) advanced multimodal reasoning across single-image, multi-image, and video tasks, demonstrating leading performance on comprehensive evaluations such as MMMU and visual-math benchmarks (e.g., MathVista and MathVision). Architecturally, we introduce three key upgrades: (i) an enhanced interleaved-MRoPE for stronger spatial-temporal modeling across images and video; (ii) DeepStack integration, which effectively leverages multi-level ViT features to tighten vision-language alignment; and (iii) text-based time alignment for video, evolving from T-RoPE to explicit textual timestamp alignment for more precise temporal grounding. Under comparable token budgets and latency constraints, Qwen3-VL achieves superior performance in both dense and Mixture-of-Experts (MoE) architectures. We envision Qwen3-VL serving as a foundational engine for image-grounded reasoning, agentic decision-making, and multimodal code intelligence in real-world workflows.</blockquote>\n<p><strong>Tags:</strong> video, performance, optimization, qwen, ai, cn</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764253624812",
       "url": "https://openai.com/index/mixpanel-incident/",
       "title": "What to know about a recent Mixpanel security incident",
@@ -27,9 +73,9 @@
         "incident. coms",
         "ethics"
       ],
-      "content_text": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.",
-      "summary": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security ...",
-      "content_html": "<blockquote>Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.</blockquote>\n<p><strong>Tags:</strong> openai, security, data, breach, incident. coms, ethics</p>",
+      "content_text": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPING THIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.",
+      "summary": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPING THIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security ...",
+      "content_html": "<blockquote>Transparency is important to us, (ED NOTE: SO WE ARE DROPPING THIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.</blockquote>\n<p><strong>Tags:</strong> openai, security, data, breach, incident. coms, ethics</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false

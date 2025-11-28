@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 27 Nov 2025 14:27:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 12:24:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1247,6 +1247,20 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764253624812</guid>
             <pubDate>Thu, 27 Nov 2025 14:27:04 GMT</pubDate>
             <description><![CDATA[Tags: openai, security, data, breach, incident. coms, ethics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Qwen3-VL Technical Report]]></title>
+            <link>https://arxiv.org/abs/2511.21631</link>
+            <guid>1764328949107</guid>
+            <pubDate>Fri, 28 Nov 2025 11:22:29 GMT</pubDate>
+            <description><![CDATA[Tags: video, performance, optimization, qwen, ai, cn]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation]]></title>
+            <link>https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260</link>
+            <guid>1764329188721</guid>
+            <pubDate>Fri, 28 Nov 2025 11:26:28 GMT</pubDate>
+            <description><![CDATA[Tags: creepy-joe-lonsdale, a12z, lobby, pac, politcs, ai, ai-regulation, leading-the-future, andreessen-horowitz, public-first-pac]]></description>
         </item>
     </channel>
 </rss>
