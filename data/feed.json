@@ -15,6 +15,67 @@
   ],
   "items": [
     {
+      "id": "1764343141398",
+      "url": "https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z",
+      "title": "A Remarkable Assertion from A16Z",
+      "date_published": "2025-11-28T15:19:01.398Z",
+      "tags": [
+        "book",
+        "ai",
+        "fail",
+        "a12z",
+        "nealstephenson",
+        "proof-reading",
+        "human-eyes"
+      ],
+      "content_text": "I had to read this over a few times to believe that I was seeing it. If it didn’t include the word “literally” I’d assume some poetic license on the part of whoever, or whatever, wrote this. But even then it would be crazy wrong.",
+      "summary": "I had to read this over a few times to believe that I was seeing it. If it didn’t include the word “literally” I’d assume some poetic license on the p...",
+      "content_html": "<blockquote>I had to read this over a few times to believe that I was seeing it. If it didn’t include the word “literally” I’d assume some poetic license on the part of whoever, or whatever, wrote this. But even then it would be crazy wrong.</blockquote>\n<p><strong>Tags:</strong> book, ai, fail, a12z, nealstephenson, proof-reading, human-eyes</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764342877198",
+      "url": "https://fortune.com/2025/11/26/is-openai-profitable-forecast-data-center-200-billion-shortfall-hsbc/",
+      "title": "OpenAI won’t make money by 2030 and still needs to come up with another $207 billion to power its growth plans, HSBC est",
+      "date_published": "2025-11-28T15:14:37.198Z",
+      "tags": [
+        "openai",
+        "business",
+        "financial",
+        "ai"
+      ],
+      "content_text": "The investment bank HSBC, while clarifying that it still believes AI is a “megacycle” and that its forecasts “indicate a leading position for OpenAI from a revenue standpoint,” nevertheless calculates that the company faces an extraordinary financial mountain if it is to deliver on its ambitions. HSBC Global Investment Research projects that OpenAI still won’t be profitable by 2030, even though its consumer base will grow by that point to comprise some 44% of the world’s adult population (up from 10% in 2025). Beyond that, it will need at least another $207 billion of compute to keep up with its growth plans. This stark assessment reflects soaring infrastructure costs, heightened competition, and an AI market that is surging in demand and cash-intensive to a degree beyond any technology trend in history.​",
+      "summary": "The investment bank HSBC, while clarifying that it still believes AI is a “megacycle” and that its forecasts “indicate a leading position for OpenAI f...",
+      "content_html": "<blockquote>The investment bank HSBC, while clarifying that it still believes AI is a “megacycle” and that its forecasts “indicate a leading position for OpenAI from a revenue standpoint,” nevertheless calculates that the company faces an extraordinary financial mountain if it is to deliver on its ambitions. HSBC Global Investment Research projects that OpenAI still won’t be profitable by 2030, even though its consumer base will grow by that point to comprise some 44% of the world’s adult population (up from 10% in 2025). Beyond that, it will need at least another $207 billion of compute to keep up with its growth plans. This stark assessment reflects soaring infrastructure costs, heightened competition, and an AI market that is surging in demand and cash-intensive to a degree beyond any technology trend in history.​</blockquote>\n<p><strong>Tags:</strong> openai, business, financial, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764336195193",
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404",
+      "title": "Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic",
+      "date_published": "2025-11-28T13:23:15.193Z",
+      "tags": [
+        "legislation",
+        "au",
+        "content",
+        "production",
+        "svod"
+      ],
+      "content_text": "121FZL   Meaning of Australian content expenditure requirement\n\n             (1)  The Australian content expenditure requirement for a major SVOD service for an SVOD reporting year (the relevant year ) is an amount equal to 10% of the service’s total program expenditure for Australia for the relevant year.\n\n             (2)  However, if an election under subsection 121FZM(1) is in effect for the major SVOD service for the relevant year, the service’s Australian content expenditure requirement for the relevant year is instead an amount equal to 7.5% of the revenue derived by the service from Australia in the relevant year.\n\nNote:          Revenue derived by a service from Australia may include, for example, revenue derived from:\n\n(a)    paying subscribers in Australia; and\n\n(b)    advertising to people in Australia.\n\n             (3)  The Australian content expenditure requirement for a regulated SVOD service that is not a major SVOD service for an SVOD reporting year is nil for that SVOD reporting year.",
+      "summary": "121FZL   Meaning of Australian content expenditure requirement\n\n             (1)  The Australian content expenditure requirement for a major SVOD serv...",
+      "content_html": "<blockquote>121FZL   Meaning of Australian content expenditure requirement\n\n             (1)  The Australian content expenditure requirement for a major SVOD service for an SVOD reporting year (the relevant year ) is an amount equal to 10% of the service’s total program expenditure for Australia for the relevant year.\n\n             (2)  However, if an election under subsection 121FZM(1) is in effect for the major SVOD service for the relevant year, the service’s Australian content expenditure requirement for the relevant year is instead an amount equal to 7.5% of the revenue derived by the service from Australia in the relevant year.\n\nNote:          Revenue derived by a service from Australia may include, for example, revenue derived from:\n\n(a)    paying subscribers in Australia; and\n\n(b)    advertising to people in Australia.\n\n             (3)  The Australian content expenditure requirement for a regulated SVOD service that is not a major SVOD service for an SVOD reporting year is nil for that SVOD reporting year.</blockquote>\n<p><strong>Tags:</strong> legislation, au, content, production, svod</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764329188721",
       "url": "https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260",
       "title": "Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation",

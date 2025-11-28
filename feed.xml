@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 28 Nov 2025 12:24:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 15:29:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1261,6 +1261,27 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764329188721</guid>
             <pubDate>Fri, 28 Nov 2025 11:26:28 GMT</pubDate>
             <description><![CDATA[Tags: creepy-joe-lonsdale, a12z, lobby, pac, politcs, ai, ai-regulation, leading-the-future, andreessen-horowitz, public-first-pac]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic]]></title>
+            <link>https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404</link>
+            <guid>1764336195193</guid>
+            <pubDate>Fri, 28 Nov 2025 13:23:15 GMT</pubDate>
+            <description><![CDATA[Tags: legislation, au, content, production, svod]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI won’t make money by 2030 and still needs to come up with another $207 billion to power its growth plans, HSBC est]]></title>
+            <link>https://fortune.com/2025/11/26/is-openai-profitable-forecast-data-center-200-billion-shortfall-hsbc/</link>
+            <guid>1764342877198</guid>
+            <pubDate>Fri, 28 Nov 2025 15:14:37 GMT</pubDate>
+            <description><![CDATA[Tags: openai, business, financial, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A Remarkable Assertion from A16Z]]></title>
+            <link>https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z</link>
+            <guid>1764343141398</guid>
+            <pubDate>Fri, 28 Nov 2025 15:19:01 GMT</pubDate>
+            <description><![CDATA[Tags: book, ai, fail, a12z, nealstephenson, proof-reading, human-eyes]]></description>
         </item>
     </channel>
 </rss>
