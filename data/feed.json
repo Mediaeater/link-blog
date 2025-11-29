@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1764446569064",
+      "url": "https://www.ethanheilman.com/x/12/index.html",
+      "title": "A Brief History of NSA Backdoors.",
+      "date_published": "2025-11-29T20:02:49.064Z",
+      "tags": [
+        "nsa",
+        "networks",
+        "security",
+        "backdoor"
+      ],
+      "content_text": "In response to the recent revelations about the NSA backdooring RSA libraries I've compiled a brief, incomplete, history of NSA backdoors.",
+      "summary": "In response to the recent revelations about the NSA backdooring RSA libraries I've compiled a brief, incomplete, history of NSA backdoors.",
+      "content_html": "<blockquote>In response to the recent revelations about the NSA backdooring RSA libraries I&#039;ve compiled a brief, incomplete, history of NSA backdoors.</blockquote>\n<p><strong>Tags:</strong> nsa, networks, security, backdoor</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764443400226",
       "url": "https://www.forbes.com/sites/corneliawalther/2025/03/02/ai-and-the-death-of-originality-are-we-thinking-in-circles/",
       "title": "AI And The Death Of Originality: Are We Thinking In Circles?",

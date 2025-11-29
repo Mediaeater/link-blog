@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 29 Nov 2025 19:10:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Nov 2025 20:04:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1289,6 +1289,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764443400226</guid>
             <pubDate>Sat, 29 Nov 2025 19:10:00 GMT</pubDate>
             <description><![CDATA[Tags: ai, creativity, thinking]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A Brief History of NSA Backdoors.]]></title>
+            <link>https://www.ethanheilman.com/x/12/index.html</link>
+            <guid>1764446569064</guid>
+            <pubDate>Sat, 29 Nov 2025 20:02:49 GMT</pubDate>
+            <description><![CDATA[Tags: nsa, networks, security, backdoor]]></description>
         </item>
     </channel>
 </rss>

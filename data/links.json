@@ -2723,9 +2723,24 @@
       "isPinned": false,
       "timestamp": "2025-11-29T19:10:00.226Z",
       "visits": 0
+    },
+    {
+      "id": 1764446569064,
+      "url": "https://www.ethanheilman.com/x/12/index.html",
+      "source": "A Brief History of NSA Backdoors.",
+      "pullQuote": "In response to the recent revelations about the NSA backdooring RSA libraries I've compiled a brief, incomplete, history of NSA backdoors.",
+      "tags": [
+        "nsa",
+        "networks",
+        "security",
+        "backdoor"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-29T20:02:49.064Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-29T19:10:15.601Z",
-  "exportedAt": "2025-11-29T19:10:15.601Z",
-  "totalLinks": 183
+  "lastUpdated": "2025-11-29T20:04:15.224Z",
+  "exportedAt": "2025-11-29T20:04:15.224Z",
+  "totalLinks": 184
 }
