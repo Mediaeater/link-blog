@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 28 Nov 2025 15:29:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Nov 2025 19:10:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1282,6 +1282,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764343141398</guid>
             <pubDate>Fri, 28 Nov 2025 15:19:01 GMT</pubDate>
             <description><![CDATA[Tags: book, ai, fail, a12z, nealstephenson, proof-reading, human-eyes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI And The Death Of Originality: Are We Thinking In Circles?]]></title>
+            <link>https://www.forbes.com/sites/corneliawalther/2025/03/02/ai-and-the-death-of-originality-are-we-thinking-in-circles/</link>
+            <guid>1764443400226</guid>
+            <pubDate>Sat, 29 Nov 2025 19:10:00 GMT</pubDate>
+            <description><![CDATA[Tags: ai, creativity, thinking]]></description>
         </item>
     </channel>
 </rss>

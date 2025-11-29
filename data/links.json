@@ -2709,9 +2709,23 @@
       "isPinned": false,
       "timestamp": "2025-11-28T15:19:01.398Z",
       "visits": 0
+    },
+    {
+      "id": 1764443400226,
+      "url": "https://www.forbes.com/sites/corneliawalther/2025/03/02/ai-and-the-death-of-originality-are-we-thinking-in-circles/",
+      "source": "AI And The Death Of Originality: Are We Thinking In Circles?",
+      "pullQuote": "The more we rely on AI-generated content, the more we risk intellectual homogenization — the gradual flattening of diverse perspectives into a predictable, easily digestible middle ground. It’s a dynamic not unlike the globalization of food culture, where the varied and complex flavors of regional cuisines have increasingly given way to a universal palate shaped by fast food: sweet, greasy, and engineered for maximum convenience. Just as the dominance of fast food has conditioned global tastes toward highly processed, calorie-dense meals — sacrificing nuance and nutritional diversity for appetizing ease — AI is streamlining the landscape of human knowledge, favoring the familiar over the original, the efficient over the thought-provoking.",
+      "tags": [
+        "ai",
+        "creativity",
+        "thinking"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-29T19:10:00.226Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-28T15:29:51.406Z",
-  "exportedAt": "2025-11-28T15:29:51.406Z",
-  "totalLinks": 182
+  "lastUpdated": "2025-11-29T19:10:15.601Z",
+  "exportedAt": "2025-11-29T19:10:15.601Z",
+  "totalLinks": 183
 }
