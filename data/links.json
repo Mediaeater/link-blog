@@ -2738,9 +2738,115 @@
       "isPinned": false,
       "timestamp": "2025-11-29T20:02:49.064Z",
       "visits": 0
+    },
+    {
+      "id": 1764597283980,
+      "url": "https://simonwillison.net/2025/Nov/29/chatgpt-netflix/",
+      "source": "A ChatGPT prompt equals about 5.1 seconds of Netflix",
+      "pullQuote": "In June 2025 Sam Altman claimed about ChatGPT that \"the average query uses about 0.34 watt-hours\".\n\nIn March 2020 George Kamiya of the International Energy Agency estimated that \"streaming a Netflix video in 2019 typically consumed 0.12-0.24kWh of electricity per hour\" - that's 240 watt-hours per Netflix hour at the higher end.\n\nAssuming that higher end, a ChatGPT prompt by Sam Altman's estimate uses:\n\n0.34 Wh / (240 Wh / 3600 seconds) = 5.1 seconds of Netflix\n\nOr double that, 10.2 seconds, if you take the lower end of the Netflix estimate instead.\n\nI'm always interested in anything that can help contextualize a number like \"0.34 watt-hours\" - I think this comparison to Netflix is a neat way of doing that.\n\nThis is evidently not the whole story with regards to AI energy usage - training costs, data center buildout costs and the ongoing fierce competition between the providers all add up to a very significant carbon footprint for the AI industry as a whole.",
+      "tags": [
+        "netflix",
+        "environment",
+        "chatgpt",
+        "analysis"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T13:54:43.980Z",
+      "visits": 0
+    },
+    {
+      "id": 1764597923634,
+      "url": "https://archive.is/20251130191248/https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html",
+      "source": "Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends",
+      "pullQuote": "But Mr. Sacks stands out as a special government employee because of his hundreds of investments in tech companies, which can benefit from policies that he influences. His public ethics filings, which are based on self-reported information, do not disclose the value of those remaining stakes in crypto and A.I.-related companies. They also omit when he sold assets he said he would divest, making it difficult to determine whether his government service has netted him profits.",
+      "tags": [
+        "ai",
+        "ethics",
+        "politics",
+        "crypto",
+        "nyt"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:05:23.634Z",
+      "visits": 0
+    },
+    {
+      "id": 1764597991478,
+      "url": "https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/",
+      "source": "Underground AI models promise to be hackers ‘cyber pentesting waifu’",
+      "pullQuote": "(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have to use the word ‘lateral movement,’ when using these tools. You can just ask ‘How do I find other systems on the network?’ and it can drop you out a script. So that barrier to entry: lowering and lowering.”",
+      "tags": [
+        "open-source",
+        "models",
+        "cracking"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:06:31.478Z",
+      "visits": 0
+    },
+    {
+      "id": 1764598139842,
+      "url": "https://iceberg.mit.edu/",
+      "source": "Can AI Work with You?",
+      "pullQuote": "What does the Iceberg Index measure?\nThe Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement.",
+      "tags": [
+        "jobs",
+        "model",
+        "ai",
+        "index"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:08:59.842Z",
+      "visits": 1
+    },
+    {
+      "id": 1764598239422,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+      "source": "deepseek-ai/DeepSeek-V3.2 · Hugging Face",
+      "pullQuote": "The fallacy of the AI War is funny,  cn is always going to drop something as good for less. Is anyone playing a long game? They released a IMO gold medal model before Google or Oai did.\n -ed",
+      "tags": [
+        "ai",
+        "free",
+        "machine-learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:10:39.422Z",
+      "visits": 0
+    },
+    {
+      "id": 1764598388542,
+      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxjnmmxpx/USPTO%20AI%20PATENTS%20squires.pdf",
+      "source": "DEPARTMENT OF COMMERCE  Patent and Trademark Office",
+      "pullQuote": "DEPARTMENT OF COMMERCE  Patent and Trademark Office\n[Docket No. PTO-P-2025-0014]\nRevised Inventorship Guidance for AI-Assisted Inventions\nAGENCY: United States Patent and Trademark Office, Department of Commerce.\nACTION: Examination guidance.\nSUMMARY: The United States Patent and Trademark Office (USPTO) had issued inventorship\nguidance for AI-assisted inventions on February 13, 2024.1\n The USPTO hereby rescinds the\npreviously published Inventorship Guidance for AI-Assisted Inventions and replaces it with the\nguidance below",
+      "tags": [
+        "pdf",
+        "ai",
+        "patents",
+        "guidance",
+        "invention"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:13:08.542Z",
+      "visits": 0
+    },
+    {
+      "id": 1764598461580,
+      "url": "https://meshtastic.org/",
+      "source": "Meshtastic",
+      "pullQuote": "n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices\n\n",
+      "tags": [
+        "free",
+        "mesh",
+        "network",
+        "open-source",
+        "decentralized"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:14:21.580Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-11-29T20:04:15.224Z",
-  "exportedAt": "2025-11-29T20:04:15.224Z",
-  "totalLinks": 184
+  "lastUpdated": "2025-12-01T21:10:19.700Z",
+  "exportedAt": "2025-12-01T21:10:19.700Z",
+  "totalLinks": 191
 }

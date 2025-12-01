@@ -15,6 +15,140 @@
   ],
   "items": [
     {
+      "id": "1764598461580",
+      "url": "https://meshtastic.org/",
+      "title": "Meshtastic",
+      "date_published": "2025-12-01T14:14:21.580Z",
+      "tags": [
+        "free",
+        "mesh",
+        "network",
+        "open-source",
+        "decentralized"
+      ],
+      "content_text": "n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices\n\n",
+      "summary": "n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices\n\n",
+      "content_html": "<blockquote>n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices\n\n</blockquote>\n<p><strong>Tags:</strong> free, mesh, network, open-source, decentralized</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764598388542",
+      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxjnmmxpx/USPTO%20AI%20PATENTS%20squires.pdf",
+      "title": "DEPARTMENT OF COMMERCE  Patent and Trademark Office",
+      "date_published": "2025-12-01T14:13:08.542Z",
+      "tags": [
+        "pdf",
+        "ai",
+        "patents",
+        "guidance",
+        "invention"
+      ],
+      "content_text": "DEPARTMENT OF COMMERCE  Patent and Trademark Office\n[Docket No. PTO-P-2025-0014]\nRevised Inventorship Guidance for AI-Assisted Inventions\nAGENCY: United States Patent and Trademark Office, Department of Commerce.\nACTION: Examination guidance.\nSUMMARY: The United States Patent and Trademark Office (USPTO) had issued inventorship\nguidance for AI-assisted inventions on February 13, 2024.1\n The USPTO hereby rescinds the\npreviously published Inventorship Guidance for AI-Assisted Inventions and replaces it with the\nguidance below",
+      "summary": "DEPARTMENT OF COMMERCE  Patent and Trademark Office\n[Docket No. PTO-P-2025-0014]\nRevised Inventorship Guidance for AI-Assisted Inventions\nAGENCY: Unit...",
+      "content_html": "<blockquote>DEPARTMENT OF COMMERCE  Patent and Trademark Office\n[Docket No. PTO-P-2025-0014]\nRevised Inventorship Guidance for AI-Assisted Inventions\nAGENCY: United States Patent and Trademark Office, Department of Commerce.\nACTION: Examination guidance.\nSUMMARY: The United States Patent and Trademark Office (USPTO) had issued inventorship\nguidance for AI-assisted inventions on February 13, 2024.1\n The USPTO hereby rescinds the\npreviously published Inventorship Guidance for AI-Assisted Inventions and replaces it with the\nguidance below</blockquote>\n<p><strong>Tags:</strong> pdf, ai, patents, guidance, invention</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764598239422",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+      "title": "deepseek-ai/DeepSeek-V3.2 · Hugging Face",
+      "date_published": "2025-12-01T14:10:39.422Z",
+      "tags": [
+        "ai",
+        "free",
+        "machine-learning"
+      ],
+      "content_text": "The fallacy of the AI War is funny,  cn is always going to drop something as good for less. Is anyone playing a long game? They released a IMO gold medal model before Google or Oai did.\n -ed",
+      "summary": "The fallacy of the AI War is funny,  cn is always going to drop something as good for less. Is anyone playing a long game? They released a IMO gold me...",
+      "content_html": "<blockquote>The fallacy of the AI War is funny,  cn is always going to drop something as good for less. Is anyone playing a long game? They released a IMO gold medal model before Google or Oai did.\n -ed</blockquote>\n<p><strong>Tags:</strong> ai, free, machine-learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764598139842",
+      "url": "https://iceberg.mit.edu/",
+      "title": "Can AI Work with You?",
+      "date_published": "2025-12-01T14:08:59.842Z",
+      "tags": [
+        "jobs",
+        "model",
+        "ai",
+        "index"
+      ],
+      "content_text": "What does the Iceberg Index measure?\nThe Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement.",
+      "summary": "What does the Iceberg Index measure?\nThe Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share o...",
+      "content_html": "<blockquote>What does the Iceberg Index measure?\nThe Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement.</blockquote>\n<p><strong>Tags:</strong> jobs, model, ai, index</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764597991478",
+      "url": "https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/",
+      "title": "Underground AI models promise to be hackers ‘cyber pentesting waifu’",
+      "date_published": "2025-12-01T14:06:31.478Z",
+      "tags": [
+        "open-source",
+        "models",
+        "cracking"
+      ],
+      "content_text": "(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have to use the word ‘lateral movement,’ when using these tools. You can just ask ‘How do I find other systems on the network?’ and it can drop you out a script. So that barrier to entry: lowering and lowering.”",
+      "summary": "(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have...",
+      "content_html": "<blockquote>(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have to use the word ‘lateral movement,’ when using these tools. You can just ask ‘How do I find other systems on the network?’ and it can drop you out a script. So that barrier to entry: lowering and lowering.”</blockquote>\n<p><strong>Tags:</strong> open-source, models, cracking</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764597923634",
+      "url": "https://archive.is/20251130191248/https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html",
+      "title": "Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends",
+      "date_published": "2025-12-01T14:05:23.634Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "politics",
+        "crypto",
+        "nyt"
+      ],
+      "content_text": "But Mr. Sacks stands out as a special government employee because of his hundreds of investments in tech companies, which can benefit from policies that he influences. His public ethics filings, which are based on self-reported information, do not disclose the value of those remaining stakes in crypto and A.I.-related companies. They also omit when he sold assets he said he would divest, making it difficult to determine whether his government service has netted him profits.",
+      "summary": "But Mr. Sacks stands out as a special government employee because of his hundreds of investments in tech companies, which can benefit from policies th...",
+      "content_html": "<blockquote>But Mr. Sacks stands out as a special government employee because of his hundreds of investments in tech companies, which can benefit from policies that he influences. His public ethics filings, which are based on self-reported information, do not disclose the value of those remaining stakes in crypto and A.I.-related companies. They also omit when he sold assets he said he would divest, making it difficult to determine whether his government service has netted him profits.</blockquote>\n<p><strong>Tags:</strong> ai, ethics, politics, crypto, nyt</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764597283980",
+      "url": "https://simonwillison.net/2025/Nov/29/chatgpt-netflix/",
+      "title": "A ChatGPT prompt equals about 5.1 seconds of Netflix",
+      "date_published": "2025-12-01T13:54:43.980Z",
+      "tags": [
+        "netflix",
+        "environment",
+        "chatgpt",
+        "analysis"
+      ],
+      "content_text": "In June 2025 Sam Altman claimed about ChatGPT that \"the average query uses about 0.34 watt-hours\".\n\nIn March 2020 George Kamiya of the International Energy Agency estimated that \"streaming a Netflix video in 2019 typically consumed 0.12-0.24kWh of electricity per hour\" - that's 240 watt-hours per Netflix hour at the higher end.\n\nAssuming that higher end, a ChatGPT prompt by Sam Altman's estimate uses:\n\n0.34 Wh / (240 Wh / 3600 seconds) = 5.1 seconds of Netflix\n\nOr double that, 10.2 seconds, if you take the lower end of the Netflix estimate instead.\n\nI'm always interested in anything that can help contextualize a number like \"0.34 watt-hours\" - I think this comparison to Netflix is a neat way of doing that.\n\nThis is evidently not the whole story with regards to AI energy usage - training costs, data center buildout costs and the ongoing fierce competition between the providers all add up to a very significant carbon footprint for the AI industry as a whole.",
+      "summary": "In June 2025 Sam Altman claimed about ChatGPT that \"the average query uses about 0.34 watt-hours\".\n\nIn March 2020 George Kamiya of the International E...",
+      "content_html": "<blockquote>In June 2025 Sam Altman claimed about ChatGPT that &quot;the average query uses about 0.34 watt-hours&quot;.\n\nIn March 2020 George Kamiya of the International Energy Agency estimated that &quot;streaming a Netflix video in 2019 typically consumed 0.12-0.24kWh of electricity per hour&quot; - that&#039;s 240 watt-hours per Netflix hour at the higher end.\n\nAssuming that higher end, a ChatGPT prompt by Sam Altman&#039;s estimate uses:\n\n0.34 Wh / (240 Wh / 3600 seconds) = 5.1 seconds of Netflix\n\nOr double that, 10.2 seconds, if you take the lower end of the Netflix estimate instead.\n\nI&#039;m always interested in anything that can help contextualize a number like &quot;0.34 watt-hours&quot; - I think this comparison to Netflix is a neat way of doing that.\n\nThis is evidently not the whole story with regards to AI energy usage - training costs, data center buildout costs and the ongoing fierce competition between the providers all add up to a very significant carbon footprint for the AI industry as a whole.</blockquote>\n<p><strong>Tags:</strong> netflix, environment, chatgpt, analysis</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764446569064",
       "url": "https://www.ethanheilman.com/x/12/index.html",
       "title": "A Brief History of NSA Backdoors.",

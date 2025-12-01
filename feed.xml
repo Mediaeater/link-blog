@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 29 Nov 2025 20:04:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Dec 2025 21:10:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1296,6 +1296,55 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764446569064</guid>
             <pubDate>Sat, 29 Nov 2025 20:02:49 GMT</pubDate>
             <description><![CDATA[Tags: nsa, networks, security, backdoor]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A ChatGPT prompt equals about 5.1 seconds of Netflix]]></title>
+            <link>https://simonwillison.net/2025/Nov/29/chatgpt-netflix/</link>
+            <guid>1764597283980</guid>
+            <pubDate>Mon, 01 Dec 2025 13:54:43 GMT</pubDate>
+            <description><![CDATA[Tags: netflix, environment, chatgpt, analysis]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends]]></title>
+            <link>https://archive.is/20251130191248/https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html</link>
+            <guid>1764597923634</guid>
+            <pubDate>Mon, 01 Dec 2025 14:05:23 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ethics, politics, crypto, nyt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Underground AI models promise to be hackers ‘cyber pentesting waifu’]]></title>
+            <link>https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/</link>
+            <guid>1764597991478</guid>
+            <pubDate>Mon, 01 Dec 2025 14:06:31 GMT</pubDate>
+            <description><![CDATA[Tags: open-source, models, cracking]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Can AI Work with You?]]></title>
+            <link>https://iceberg.mit.edu/</link>
+            <guid>1764598139842</guid>
+            <pubDate>Mon, 01 Dec 2025 14:08:59 GMT</pubDate>
+            <description><![CDATA[Tags: jobs, model, ai, index]]></description>
+        </item>
+        <item>
+            <title><![CDATA[deepseek-ai/DeepSeek-V3.2 · Hugging Face]]></title>
+            <link>https://huggingface.co/deepseek-ai/DeepSeek-V3.2</link>
+            <guid>1764598239422</guid>
+            <pubDate>Mon, 01 Dec 2025 14:10:39 GMT</pubDate>
+            <description><![CDATA[Tags: ai, free, machine-learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[DEPARTMENT OF COMMERCE  Patent and Trademark Office]]></title>
+            <link>https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxjnmmxpx/USPTO%20AI%20PATENTS%20squires.pdf</link>
+            <guid>1764598388542</guid>
+            <pubDate>Mon, 01 Dec 2025 14:13:08 GMT</pubDate>
+            <description><![CDATA[Tags: pdf, ai, patents, guidance, invention]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Meshtastic]]></title>
+            <link>https://meshtastic.org/</link>
+            <guid>1764598461580</guid>
+            <pubDate>Mon, 01 Dec 2025 14:14:21 GMT</pubDate>
+            <description><![CDATA[Tags: free, mesh, network, open-source, decentralized]]></description>
         </item>
     </channel>
 </rss>
