@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1764674350092",
+      "url": "https://www.vidi2.app/",
+      "title": "Vidi2 - AI Video Understanding & Creation Platform",
+      "date_published": "2025-12-02T11:19:10.092Z",
+      "tags": [
+        "video",
+        "video-gen",
+        "bytedance",
+        "ai",
+        "editing"
+      ],
+      "content_text": "AI Video Understanding & Creation in Seconds Vidi2 is powered by ByteDance's state-of-the-art multimodal video model. Temporal retrieval, spatio-temporal grounding, video QA, and intelligent editing.\n\n",
+      "summary": "AI Video Understanding & Creation in Seconds Vidi2 is powered by ByteDance's state-of-the-art multimodal video model. Temporal retrieval, spatio-tempo...",
+      "content_html": "<blockquote>AI Video Understanding &amp; Creation in Seconds Vidi2 is powered by ByteDance&#039;s state-of-the-art multimodal video model. Temporal retrieval, spatio-temporal grounding, video QA, and intelligent editing.\n\n</blockquote>\n<p><strong>Tags:</strong> video, video-gen, bytedance, ai, editing</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1764673497906",
+      "url": "https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/",
+      "title": "How Brian Eno Created “Ambient 1: Music For Airports”",
+      "date_published": "2025-12-02T11:04:57.906Z",
+      "tags": [
+        "music",
+        "brian-eno",
+        "airports",
+        "air-travel",
+        "ambient"
+      ],
+      "content_text": "“The particular piece I’m referring to was done by using a whole series of very long tape loops, like fifty, sixty, seventy feet long. There were twenty-two loops. One loop had just one piano note on it. Another one would have two piano notes. Another one would have a group of girls singing one note, sustaining it for ten seconds. There are eight loops of girls’ voices and about fourteen loops of piano. \n\nI just set all of these loops running and let them configure in whichever way they wanted to, and in fact the result is very, very nice. The interesting thing is that it doesn’t sound at all mechanical or mathematical as you would imagine. It sounds like some guy is sitting there playing the piano with quite intense feeling. The spacing and dynamics of “his” playing sound very well organized. That was an example of hardly interfering at all.“",
+      "summary": "“The particular piece I’m referring to was done by using a whole series of very long tape loops, like fifty, sixty, seventy feet long. There were twen...",
+      "content_html": "<blockquote>“The particular piece I’m referring to was done by using a whole series of very long tape loops, like fifty, sixty, seventy feet long. There were twenty-two loops. One loop had just one piano note on it. Another one would have two piano notes. Another one would have a group of girls singing one note, sustaining it for ten seconds. There are eight loops of girls’ voices and about fourteen loops of piano. \n\nI just set all of these loops running and let them configure in whichever way they wanted to, and in fact the result is very, very nice. The interesting thing is that it doesn’t sound at all mechanical or mathematical as you would imagine. It sounds like some guy is sitting there playing the piano with quite intense feeling. The spacing and dynamics of “his” playing sound very well organized. That was an example of hardly interfering at all.“</blockquote>\n<p><strong>Tags:</strong> music, brian-eno, airports, air-travel, ambient</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764598461580",
       "url": "https://meshtastic.org/",
       "title": "Meshtastic",

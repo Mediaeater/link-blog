@@ -2844,9 +2844,41 @@
       "isPinned": false,
       "timestamp": "2025-12-01T14:14:21.580Z",
       "visits": 0
+    },
+    {
+      "id": 1764673497906,
+      "url": "https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/",
+      "source": "How Brian Eno Created “Ambient 1: Music For Airports”",
+      "pullQuote": "“The particular piece I’m referring to was done by using a whole series of very long tape loops, like fifty, sixty, seventy feet long. There were twenty-two loops. One loop had just one piano note on it. Another one would have two piano notes. Another one would have a group of girls singing one note, sustaining it for ten seconds. There are eight loops of girls’ voices and about fourteen loops of piano. \n\nI just set all of these loops running and let them configure in whichever way they wanted to, and in fact the result is very, very nice. The interesting thing is that it doesn’t sound at all mechanical or mathematical as you would imagine. It sounds like some guy is sitting there playing the piano with quite intense feeling. The spacing and dynamics of “his” playing sound very well organized. That was an example of hardly interfering at all.“",
+      "tags": [
+        "music",
+        "brian-eno",
+        "airports",
+        "air-travel",
+        "ambient"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-02T11:04:57.906Z",
+      "visits": 0
+    },
+    {
+      "id": 1764674350092,
+      "url": "https://www.vidi2.app/",
+      "source": "Vidi2 - AI Video Understanding & Creation Platform",
+      "pullQuote": "AI Video Understanding & Creation in Seconds Vidi2 is powered by ByteDance's state-of-the-art multimodal video model. Temporal retrieval, spatio-temporal grounding, video QA, and intelligent editing.\n\n",
+      "tags": [
+        "video",
+        "video-gen",
+        "bytedance",
+        "ai",
+        "editing"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-02T11:19:10.092Z",
+      "visits": 0
     }
   ],
-  "lastUpdated": "2025-12-01T21:10:19.700Z",
-  "exportedAt": "2025-12-01T21:10:19.700Z",
-  "totalLinks": 191
+  "lastUpdated": "2025-12-02T11:19:13.756Z",
+  "exportedAt": "2025-12-02T11:19:13.756Z",
+  "totalLinks": 193
 }

@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 01 Dec 2025 21:10:19 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Dec 2025 11:19:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1345,6 +1345,20 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764598461580</guid>
             <pubDate>Mon, 01 Dec 2025 14:14:21 GMT</pubDate>
             <description><![CDATA[Tags: free, mesh, network, open-source, decentralized]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How Brian Eno Created “Ambient 1: Music For Airports”]]></title>
+            <link>https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/</link>
+            <guid>1764673497906</guid>
+            <pubDate>Tue, 02 Dec 2025 11:04:57 GMT</pubDate>
+            <description><![CDATA[Tags: music, brian-eno, airports, air-travel, ambient]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Vidi2 - AI Video Understanding & Creation Platform]]></title>
+            <link>https://www.vidi2.app/</link>
+            <guid>1764674350092</guid>
+            <pubDate>Tue, 02 Dec 2025 11:19:10 GMT</pubDate>
+            <description><![CDATA[Tags: video, video-gen, bytedance, ai, editing]]></description>
         </item>
     </channel>
 </rss>
