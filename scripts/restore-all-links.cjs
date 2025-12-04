@@ -1,7 +1,11 @@
 const fs = require('fs');
+const path = require('path');
 
-// Read current remote data (72 links)
-const remoteData = JSON.parse(fs.readFileSync('/Users/m/Projects/link-blog/data/links.json', 'utf8'));
+const dataPath = path.join(__dirname, '..', 'data', 'links.json');
+const publicPath = path.join(__dirname, '..', 'public', 'data', 'links.json');
+
+// Read current remote data
+const remoteData = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 // Read stashed data
 const { execSync } = require('child_process');
@@ -24,8 +28,8 @@ const finalData = {
 };
 
 // Write to both locations
-fs.writeFileSync('/Users/m/Projects/link-blog/data/links.json', JSON.stringify(finalData, null, 2));
-fs.writeFileSync('/Users/m/Projects/link-blog/public/data/links.json', JSON.stringify(finalData, null, 2));
+fs.writeFileSync(dataPath, JSON.stringify(finalData, null, 2));
+fs.writeFileSync(publicPath, JSON.stringify(finalData, null, 2));
 
 console.log(`✅ Restored all ${allLinks.length} links with duplicates`);
 console.log(`First link: ${allLinks[0].source}`);

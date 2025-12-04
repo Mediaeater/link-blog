@@ -1,7 +1,11 @@
 const fs = require('fs');
+const path = require('path');
+
+const dataPath = path.join(__dirname, '..', 'data', 'links.json');
+const publicPath = path.join(__dirname, '..', 'public', 'data', 'links.json');
 
 // Read the conflicted file
-const conflictedData = fs.readFileSync('/Users/m/Projects/link-blog/data/links.json', 'utf8');
+const conflictedData = fs.readFileSync(dataPath, 'utf8');
 
 // Find the conflict markers
 const startMarker = '<<<<<<< Updated upstream';
@@ -52,8 +56,8 @@ const finalData = {
 };
 
 // Write to both locations
-fs.writeFileSync('/Users/m/Projects/link-blog/data/links.json', JSON.stringify(finalData, null, 2));
-fs.writeFileSync('/Users/m/Projects/link-blog/public/data/links.json', JSON.stringify(finalData, null, 2));
+fs.writeFileSync(dataPath, JSON.stringify(finalData, null, 2));
+fs.writeFileSync(publicPath, JSON.stringify(finalData, null, 2));
 
 console.log(`✅ Merged successfully: ${uniqueLinks.length} unique links`);
 console.log(`   Upstream had: ${upstreamData.links.length} links`);

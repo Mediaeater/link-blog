@@ -1,17 +1,12 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const path = require('path');
-
-// Load the current links data
-const dataPath = path.join(__dirname, '..', 'data', 'links.json');
-const publicDataPath = path.join(__dirname, '..', 'public', 'data', 'links.json');
+const { loadLinks, saveLinks } = require('./lib/data-utils.cjs');
 
 console.log('Cleaning tags in links data...\n');
 
 try {
-  // Read current data
-  const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+  // Read current data using shared utility
+  const data = loadLinks();
 
   let totalFixed = 0;
   let linksModified = 0;
@@ -41,14 +36,8 @@ try {
   });
 
   if (linksModified > 0) {
-    // Write cleaned data to both locations
-    const jsonString = JSON.stringify(data, null, 2);
-
-    fs.writeFileSync(dataPath, jsonString);
-    console.log(`\n✅ Updated: ${dataPath}`);
-
-    fs.writeFileSync(publicDataPath, jsonString);
-    console.log(`✅ Updated: ${publicDataPath}`);
+    // Write cleaned data using shared utility
+    saveLinks(data.links);
 
     console.log(`\nCleaning complete!`);
     console.log(`- Links modified: ${linksModified}`);

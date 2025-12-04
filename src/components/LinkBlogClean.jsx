@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef, useDeferredValue } from 'react';
 import {
   Search,
   Plus,
@@ -56,6 +56,11 @@ export default function LinkBlogClean() {
   const searchRef = useRef(null);
   const quickPasteRef = useRef(null);
   const linkRefs = useRef({});
+
+  // React 18 performance: defer expensive filter/sort operations
+  const deferredSearchTerm = useDeferredValue(searchTerm);
+  const deferredSelectedTags = useDeferredValue(selectedTags);
+  const isSearchPending = searchTerm !== deferredSearchTerm;
 
   // Load links from storage
   const loadLinks = useCallback(async () => {
@@ -539,13 +544,13 @@ export default function LinkBlogClean() {
       .slice(0, 8);
   }, [currentTagInput, allTags, newLink.tags]);
 
-  // Filter and sort links
+  // Filter and sort links - uses deferred values for non-blocking UI
   const filteredAndSortedLinks = useMemo(() => {
     let filtered = links;
 
-    // Search filter
-    if (searchTerm) {
-      const term = searchTerm.toLowerCase();
+    // Search filter (uses deferred value for smoother typing)
+    if (deferredSearchTerm) {
+      const term = deferredSearchTerm.toLowerCase();
       filtered = filtered.filter(link =>
         link.source.toLowerCase().includes(term) ||
         link.url.toLowerCase().includes(term) ||
@@ -554,10 +559,10 @@ export default function LinkBlogClean() {
       );
     }
 
-    // Tag filter
-    if (selectedTags.length > 0) {
+    // Tag filter (uses deferred value)
+    if (deferredSelectedTags.length > 0) {
       filtered = filtered.filter(link =>
-        link.tags && selectedTags.every(tag => link.tags.includes(tag))
+        link.tags && deferredSelectedTags.every(tag => link.tags.includes(tag))
       );
     }
 
@@ -575,7 +580,7 @@ export default function LinkBlogClean() {
           return new Date(b.timestamp || 0) - new Date(a.timestamp || 0);
       }
     });
-  }, [links, searchTerm, selectedTags, sortBy]);
+  }, [links, deferredSearchTerm, deferredSelectedTags, sortBy]);
 
   return (
     <div className="min-h-screen bg-neutral-50">
@@ -607,19 +612,21 @@ export default function LinkBlogClean() {
               {/* Search */}
               <div className="flex-1 max-w-2xl">
                 <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" aria-hidden="true" />
                   <input
                     ref={searchRef}
                     type="text"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                     placeholder="Search links..."
-                    className="input w-full pl-10"
+                    className={`input w-full pl-10 ${isSearchPending ? 'opacity-70' : ''}`}
+                    aria-label="Search links"
                   />
                   {searchTerm && (
                     <button
                       onClick={() => setSearchTerm('')}
                       className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600"
+                      aria-label="Clear search"
                     >
                       <X className="w-4 h-4" />
                     </button>

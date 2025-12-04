@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
-// Read the newsfeeds JSON
-const newsfeedsPath = '/tmp/newsfeeds.json';
+// Read the newsfeeds JSON - use temp dir for cross-platform compatibility
+const newsfeedsPath = process.env.NEWSFEEDS_PATH || path.join(os.tmpdir(), 'newsfeeds.json');
 const linksPath = path.join(__dirname, '../data/links.json');
 const publicLinksPath = path.join(__dirname, '../public/data/links.json');
 

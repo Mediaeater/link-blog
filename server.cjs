@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs').promises;
 const path = require('path');
 const cors = require('cors');
+const rateLimit = require('express-rate-limit');
 const { generateRSS } = require('./utils/rss-generator.cjs');
 const activityPubRoutes = require('./routes/activitypub.cjs');
 const ArchiveManager = require('./utils/archive-manager.cjs');
@@ -9,6 +10,59 @@ const ArchiveManager = require('./utils/archive-manager.cjs');
 const app = express();
 const PORT = 3001;
 const archiveManager = new ArchiveManager();
+
+// Rate limiting - prevent abuse
+const apiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // limit each IP to 100 requests per window
+  message: { error: 'Too many requests, please try again later' },
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+
+// Stricter limit for write operations
+const writeLimiter = rateLimit({
+  windowMs: 60 * 1000, // 1 minute
+  max: 10, // limit writes to 10 per minute
+  message: { error: 'Too many save requests, please slow down' },
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+
+// Input validation helper
+function validateLink(link) {
+  if (!link || typeof link !== 'object') return false;
+  if (typeof link.url !== 'string' || !link.url.startsWith('http')) return false;
+  if (typeof link.source !== 'string') return false;
+  if (link.tags && !Array.isArray(link.tags)) return false;
+  if (link.tags && link.tags.some(tag => typeof tag !== 'string')) return false;
+  return true;
+}
+
+function validateLinksPayload(data) {
+  if (!data || typeof data !== 'object') {
+    return { valid: false, error: 'Invalid data format' };
+  }
+  if (!Array.isArray(data.links)) {
+    return { valid: false, error: 'Links must be an array' };
+  }
+  if (data.links.length > 50000) {
+    return { valid: false, error: 'Too many links (max 50000)' };
+  }
+  const invalidLinks = data.links.filter(link => !validateLink(link));
+  if (invalidLinks.length > 0) {
+    return { valid: false, error: `${invalidLinks.length} invalid links found` };
+  }
+  return { valid: true };
+}
+
+// CORS configuration - environment-aware
+const allowedOrigins = [
+  'http://localhost:5174',
+  'http://localhost:5173',
+  'http://127.0.0.1:5174',
+  process.env.SITE_URL
+].filter(Boolean);
 
 // Enable CORS for the Vite dev server (but not for ActivityPub endpoints)
 app.use((req, res, next) => {
@@ -22,24 +76,38 @@ app.use((req, res, next) => {
 
   // Apply CORS for API endpoints
   cors({
-    origin: 'http://localhost:5174',
+    origin: (origin, callback) => {
+      // Allow requests with no origin (like mobile apps or curl)
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
     methods: ['GET', 'POST'],
-    credentials: true
+    credentials: false // Disabled unless needed
   })(req, res, next);
 });
 
-app.use(express.json({ limit: '10mb' }));
+// Apply rate limiting to API routes
+app.use('/api/', apiLimiter);
+
+// Reduce JSON payload limit (2MB is plenty for links)
+app.use(express.json({ limit: '2mb' }));
 
 // ActivityPub routes
 app.use(activityPubRoutes);
 
 // Endpoint to save links (with automatic archiving)
-app.post('/api/save-links', async (req, res) => {
+app.post('/api/save-links', writeLimiter, async (req, res) => {
   try {
     const data = req.body;
 
-    if (!data || !data.links) {
-      return res.status(400).json({ error: 'Invalid data format' });
+    // Validate payload structure and content
+    const validation = validateLinksPayload(data);
+    if (!validation.valid) {
+      return res.status(400).json({ error: validation.error });
     }
 
     // Archive old links and keep only current year
@@ -100,8 +168,11 @@ app.get('/api/archives', async (req, res) => {
 app.get('/api/archive/:year', async (req, res) => {
   try {
     const year = parseInt(req.params.year);
-    if (isNaN(year)) {
-      return res.status(400).json({ error: 'Invalid year' });
+    const currentYear = new Date().getFullYear();
+
+    // Validate year is a reasonable range (2000 to next year)
+    if (isNaN(year) || year < 2000 || year > currentYear + 1) {
+      return res.status(400).json({ error: 'Invalid year (must be 2000-' + (currentYear + 1) + ')' });
     }
 
     const archive = await archiveManager.loadYearArchive(year);
