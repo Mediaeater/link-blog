@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 04 Dec 2025 12:28:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2025 20:22:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1366,6 +1366,20 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764851301178</guid>
             <pubDate>Thu, 04 Dec 2025 12:28:21 GMT</pubDate>
             <description><![CDATA[Tags: artificial-hivemind, synthetic, llms, ai, entropy, diversity, homogenization]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Aurora - Quiet Light, Pure Hearts - YouTube ]]></title>
+            <link>https://www.youtube.com/watch?v=IKdJkHffmns</link>
+            <guid>1764879526782</guid>
+            <pubDate>Thu, 04 Dec 2025 20:18:46 GMT</pubDate>
+            <description><![CDATA[Tags: music, 2025, youtube]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hum it to google  - YouTube]]></title>
+            <link>https://www.youtube.com/watch?v=poJPlsX-O5E</link>
+            <guid>1764879742012</guid>
+            <pubDate>Thu, 04 Dec 2025 20:22:22 GMT</pubDate>
+            <description><![CDATA[Tags: music, 2025, google]]></description>
         </item>
     </channel>
 </rss>
