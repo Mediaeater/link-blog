@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 15 Nov 2025 12:22:42 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Nov 2025 14:27:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -996,32 +996,257 @@
             <description><![CDATA[Tags: llm, opensource, ch]]></description>
         </item>
         <item>
-            <title><![CDATA[US Tech Market Treemap]]></title>
-            <link>https://caplocus.com/</link>
-            <guid>1763162102037</guid>
-            <pubDate>Fri, 14 Nov 2025 23:15:02 GMT</pubDate>
-            <description><![CDATA[Tags: finance, technology, maps]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Announcing the 2025 PhotoBook Awards Shortlist]]></title>
-            <link>https://aperture.org/editorial/announcing-the-2025-photobook-awards-shortlist/</link>
-            <guid>1763168756800</guid>
-            <pubDate>Sat, 15 Nov 2025 01:05:56 GMT</pubDate>
-            <description><![CDATA[Tags: awards, photography, arts]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Agentic Misalignment: How LLMs could be insider threats]]></title>
-            <link>https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share</link>
-            <guid>1763206977223</guid>
-            <pubDate>Sat, 15 Nov 2025 11:42:57 GMT</pubDate>
-            <description><![CDATA[Tags: self, agency, brain, neurotechnology, privacy]]></description>
+            <title><![CDATA[Grok 4.1]]></title>
+            <link>https://x.ai/news/grok-4-1</link>
+            <guid>1763426143913</guid>
+            <pubDate>Tue, 18 Nov 2025 00:35:43 GMT</pubDate>
+            <description><![CDATA[Tags: ai, llm, x, grok, x-ai]]></description>
         </item>
         <item>
             <title><![CDATA[Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz]]></title>
-            <link>https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php</link>
-            <guid>1763207567040</guid>
-            <pubDate>Sat, 15 Nov 2025 11:52:47 GMT</pubDate>
+            <link>justiz.bayern.de</link>
+            <guid>1763426219187</guid>
+            <pubDate>Tue, 18 Nov 2025 00:36:59 GMT</pubDate>
             <description><![CDATA[Tags: openai, ai-music, copyright, de, damages, licensing, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Big Tech Wants Direct Access to Our Brains]]></title>
+            <link>https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share</link>
+            <guid>1763426282021</guid>
+            <pubDate>Tue, 18 Nov 2025 00:38:02 GMT</pubDate>
+            <description><![CDATA[Tags: self, agency, brain, neurotechnology, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Neural data may be the most precious commodity of the century]]></title>
+            <link>Neural data may be the most precious commodity of the century</link>
+            <guid>1763426341045</guid>
+            <pubDate>Tue, 18 Nov 2025 00:39:01 GMT</pubDate>
+            <description><![CDATA[Tags: meta, neurotechnology, brain, privacy, ethics, surveillance]]></description>
+        </item>
+        <item>
+            <title><![CDATA[This is your brain without sleep]]></title>
+            <link>https://news.mit.edu/2025/your-brain-without-sleep-1029</link>
+            <guid>1763426435545</guid>
+            <pubDate>Tue, 18 Nov 2025 00:40:35 GMT</pubDate>
+            <description><![CDATA[Tags: human, health., breain, sleep, research]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Iran begins cloud seeding to induce rain during worst drought in decades]]></title>
+            <link>https://www.bbc.com/news/articles/cj4172yl0l1o</link>
+            <guid>1763428191272</guid>
+            <pubDate>Tue, 18 Nov 2025 01:09:51 GMT</pubDate>
+            <description><![CDATA[Tags: bbc, environment, climate, cloud-seeding, iran, meteorology, rain]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A16z-backed AI super PAC targeting NYC Alex Bores, sponsor of NY's AI safety bill. ]]></title>
+            <link>https://www.yahoo.com/news/articles/a16z-backed-super-pac-targeting-003250369.html</link>
+            <guid>1763428670314</guid>
+            <pubDate>Tue, 18 Nov 2025 01:17:50 GMT</pubDate>
+            <description><![CDATA[Tags: ca16z, lonsdale, anti-american, ai-pac, the-worst-humans, raise-act, citizens-united, brockman, RonConway]]></description>
+        </item>
+        <item>
+            <title><![CDATA[UK to ban resale of tickets above face value for live events]]></title>
+            <link>https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c</link>
+            <guid>1763466065449</guid>
+            <pubDate>Tue, 18 Nov 2025 11:41:05 GMT</pubDate>
+            <description><![CDATA[Tags: music, concert, tickets, legislation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Body Cameras Show How Police Acted During Minneapolis’ Largest Mass Arrest - UNICORN RIOT]]></title>
+            <link>https://unicornriot.ninja/2025/body-cameras-show-how-police-acted-during-minneapolis-largest-mass-arrest/</link>
+            <guid>1763662464133</guid>
+            <pubDate>Thu, 20 Nov 2025 18:14:24 GMT</pubDate>
+            <description><![CDATA[Tags: mpd, mn, policing, bodycamera, unicornriot]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates o]]></title>
+            <link>https://psycnet.apa.org/fulltext/2026-89350-001.html</link>
+            <guid>1763662602366</guid>
+            <pubDate>Thu, 20 Nov 2025 18:16:42 GMT</pubDate>
+            <description><![CDATA[Tags: media, mediaeater, sfv, psychology, metric]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Who is OpenAI’s auditor? (Update: it’s Deloitte)]]></title>
+            <link>https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?</link>
+            <guid>1763663700729</guid>
+            <pubDate>Thu, 20 Nov 2025 18:35:00 GMT</pubDate>
+            <description><![CDATA[Tags: ft, accounting, open-ai, financial]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models]]></title>
+            <link>https://arxiv.org/abs/2511.15304</link>
+            <guid>1763665844425</guid>
+            <pubDate>Thu, 20 Nov 2025 19:10:44 GMT</pubDate>
+            <description><![CDATA[Tags: jailbreak, poetry, llms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Investigations UPS Flight 2976 Crash During Takeoff]]></title>
+            <link>https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx</link>
+            <guid>1763679062800</guid>
+            <pubDate>Thu, 20 Nov 2025 22:51:02 GMT</pubDate>
+            <description><![CDATA[Tags: air-travel, standards, airspace, ntsb]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Early experiments in accelerating science with GPT-5]]></title>
+            <link>https://openai.com/index/accelerating-science-gpt-5/</link>
+            <guid>1763679121942</guid>
+            <pubDate>Thu, 20 Nov 2025 22:52:01 GMT</pubDate>
+            <description><![CDATA[Tags: openai, science, gpt-5]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV]]></title>
+            <link>https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/</link>
+            <guid>1763769982908</guid>
+            <pubDate>Sat, 22 Nov 2025 00:06:22 GMT</pubDate>
+            <description><![CDATA[Tags: wamo, google, maps, automotive, addressable-mark]]></description>
+        </item>
+        <item>
+            <title><![CDATA[LAPD Helicopter Tracker - Real-Time Monitoring]]></title>
+            <link>https://lapdhelicoptertracker.com/</link>
+            <guid>1763770119607</guid>
+            <pubDate>Sat, 22 Nov 2025 00:08:39 GMT</pubDate>
+            <description><![CDATA[Tags: devops, monitoring, airspace, policing, real-time, tracker]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Protecting the Developing Mind in a Digital Age: A Global Policy Imperative]]></title>
+            <link>https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313</link>
+            <guid>1763855197406</guid>
+            <pubDate>Sat, 22 Nov 2025 23:46:37 GMT</pubDate>
+            <description><![CDATA[Tags: Smartphones, technology, mentalhealth, mind, health, wellbeing, childhood, youth, development]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Eye blinks synchronize with musical beats during music listening]]></title>
+            <link>https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003456&amp;utm_source=pr&amp;utm_medium=email&amp;utm_campaign=plos006</link>
+            <guid>1763855930812</guid>
+            <pubDate>Sat, 22 Nov 2025 23:58:50 GMT</pubDate>
+            <description><![CDATA[Tags: mind-body, brain, music, synchronization study]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Kevin Boone: The privacy
+nightmare of browser fingerprinting]]></title>
+            <link>https://kevinboone.me/fingerprinting.html</link>
+            <guid>1763856138590</guid>
+            <pubDate>Sun, 23 Nov 2025 00:02:18 GMT</pubDate>
+            <description><![CDATA[Tags: fingerprinting, browser, opsec]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition]]></title>
+            <link>https://machinelearning.apple.com/research/multimodal-sensor-fusion</link>
+            <guid>1763858257697</guid>
+            <pubDate>Sun, 23 Nov 2025 00:37:37 GMT</pubDate>
+            <description><![CDATA[Tags: llm, privacy, audio, security, opsec, apple, study]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Americans’ Social Media Use 2025]]></title>
+            <link>https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf</link>
+            <guid>1763896923873</guid>
+            <pubDate>Sun, 23 Nov 2025 11:22:03 GMT</pubDate>
+            <description><![CDATA[Tags: socialmedia, usa, report]]></description>
+        </item>
+        <item>
+            <title><![CDATA[cr.yp.to: 2025.11.23: NSA and IETF, part 2]]></title>
+            <link>https://blog.cr.yp.to/20251123-corruption.html</link>
+            <guid>1763930572441</guid>
+            <pubDate>Sun, 23 Nov 2025 20:42:52 GMT</pubDate>
+            <description><![CDATA[Tags: encryption, usa, nsa, ietf]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Big changes to the agency charged with securing elections lead to midterm worries]]></title>
+            <link>https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf</link>
+            <guid>1763932896267</guid>
+            <pubDate>Sun, 23 Nov 2025 21:21:36 GMT</pubDate>
+            <description><![CDATA[Tags: election, election-security, opsec, usa, mn]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Can AI tell us anything meaningful about Bob Dylan’s songs? | Aeon Essays]]></title>
+            <link>https://aeon.co/essays/can-ai-tell-us-anything-meaningful-about-bob-dylans-songs</link>
+            <guid>1763981579447</guid>
+            <pubDate>Mon, 24 Nov 2025 10:52:59 GMT</pubDate>
+            <description><![CDATA[Tags: dylan, lyrics, analysis, maps]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dell Pro Max Desktop with Nvidia Blackwell]]></title>
+            <link>https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro/xcto_fcm1253_usx?utm_source=TheNeuron&amp;utm_medium=Email&amp;utm_campaign=FY26Q4&amp;_bhlid=fd9957e7fc13d60882a2dc26b576b2c467c81010</link>
+            <guid>1763981924056</guid>
+            <pubDate>Mon, 24 Nov 2025 10:58:44 GMT</pubDate>
+            <description><![CDATA[Tags: hardware, ai, gear, nvidia]]></description>
+        </item>
+        <item>
+            <title><![CDATA[bloodinthemachine.com]]></title>
+            <link>https://www.bloodinthemachine.com/p/the-slop-layer?</link>
+            <guid>1763982876630</guid>
+            <pubDate>Mon, 24 Nov 2025 11:14:36 GMT</pubDate>
+            <description><![CDATA[Tags: ai-slop, trends, ai, media]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The A.I. Boom Has Found Another Gear. Why Can’t People Shake Their Worries?]]></title>
+            <link>https://www.nytimes.com/2025/11/20/technology/ai-stock-boom-nvidia.html</link>
+            <guid>1763983082025</guid>
+            <pubDate>Mon, 24 Nov 2025 11:18:02 GMT</pubDate>
+            <description><![CDATA[Tags: ai, trends, financial, openai, business]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Reggae legend Jimmy Cliff dies, aged 81]]></title>
+            <link>https://www.bbc.com/news/articles/cj4qdren425o</link>
+            <guid>1764023133103</guid>
+            <pubDate>Mon, 24 Nov 2025 22:25:33 GMT</pubDate>
+            <description><![CDATA[Tags: music, obit, reggae, dylan, quote, protest]]></description>
+        </item>
+        <item>
+            <title><![CDATA[China leapfrogs US in global market for ‘open’ AI models]]></title>
+            <link>https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41</link>
+            <guid>1764124286412</guid>
+            <pubDate>Wed, 26 Nov 2025 02:31:26 GMT</pubDate>
+            <description><![CDATA[Tags: opensource, ai, cn, deepseek, open-models, adoption]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Genesis Mission]]></title>
+            <link>https://www.energy.gov/genesis</link>
+            <guid>1764155606824</guid>
+            <pubDate>Wed, 26 Nov 2025 11:13:26 GMT</pubDate>
+            <description><![CDATA[Tags: gov, ai, energy, science, nuclear, fusion]]></description>
+        </item>
+        <item>
+            <title><![CDATA[General principles for the use of AI at CER]]></title>
+            <link>https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? </link>
+            <guid>1764155801424</guid>
+            <pubDate>Wed, 26 Nov 2025 11:16:41 GMT</pubDate>
+            <description><![CDATA[Tags: cern, ai, principles, science]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer's disease]]></title>
+            <link>https://www.sciencedirect.com/science/article/pii/S019701862500155X?</link>
+            <guid>1764156288324</guid>
+            <pubDate>Wed, 26 Nov 2025 11:24:48 GMT</pubDate>
+            <description><![CDATA[Tags: health, medicine, science, brain, memory]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How Math Broke Media dougshapiro.substack ]]></title>
+            <link>https://dougshapiro.substack.com/p/how-math-broke-media?</link>
+            <guid>1764157370193</guid>
+            <pubDate>Wed, 26 Nov 2025 11:42:50 GMT</pubDate>
+            <description><![CDATA[Tags: media, technology, trend, legacy_media]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI Inference Tracker]]></title>
+            <link>https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e</link>
+            <guid>1764158423577</guid>
+            <pubDate>Wed, 26 Nov 2025 12:00:23 GMT</pubDate>
+            <description><![CDATA[Tags: tool, ai, measurement, token-growth, inference]]></description>
+        </item>
+        <item>
+            <title><![CDATA[openrouter.ai]]></title>
+            <link>https://openrouter.ai/rankings?</link>
+            <guid>1764158519702</guid>
+            <pubDate>Wed, 26 Nov 2025 12:01:59 GMT</pubDate>
+            <description><![CDATA[Tags: token-growth, rankings, chart, measurement, ai, llm, inference]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What to know about a recent Mixpanel security incident]]></title>
+            <link>https://openai.com/index/mixpanel-incident/</link>
+            <guid>1764253624812</guid>
+            <pubDate>Thu, 27 Nov 2025 14:27:04 GMT</pubDate>
+            <description><![CDATA[Tags: openai, security, data, breach, incident. coms, ethics]]></description>
         </item>
     </channel>
 </rss>
