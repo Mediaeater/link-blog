@@ -1122,7 +1122,7 @@ export default function LinkBlogClean() {
                     {/* Pull Quote */}
                     {link.pullQuote && (
                       <p className="mt-2 text-sm text-neutral-600 italic">
-                        "{link.pullQuote}"
+                        {link.pullQuote}
                       </p>
                     )}
 
