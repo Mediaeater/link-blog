@@ -52,6 +52,7 @@ export default function LinkBlogClean() {
   const [archives, setArchives] = useState([]);
   const [loadedArchives, setLoadedArchives] = useState(new Set());
   const [showArchives, setShowArchives] = useState(false);
+  const [searchExpanded, setSearchExpanded] = useState(false);
 
   const searchRef = useRef(null);
   const quickPasteRef = useRef(null);
@@ -586,61 +587,101 @@ export default function LinkBlogClean() {
     <div className="min-h-screen bg-neutral-50">
       {/* Header - Always visible for admins, hidden in minimal view for regular users */}
       {(!isMinimalView || isAdmin) && (
-        <header className="sticky top-0 z-20 bg-white/80 backdrop-blur-sm border-b border-neutral-200">
+        <header className="sticky top-0 z-20 bg-white border-b-2 border-neutral-900">
           <div className="container-width">
-            <div className="py-4 flex items-center justify-between gap-4">
-              {/* Logo/Title */}
-              <div>
-                <h1 className="text-xl font-semibold text-blue-700">
-                  <a href="/" className="hover:underline">newsfeeds.net</a>
-                </h1>
-                <div className="text-xs text-amber-700 font-medium mt-0.5">human edited and curated</div>
-                <div className="text-xs text-neutral-600 mt-1 space-y-1">
-                  <div>
-                    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:underline">RSS</a>
-                    {' / '}
-                    <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:underline">JSON Feed</a>
-                    {' / '}
-                    <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:underline">OPML</a>
+            {/* Classic Newspaper Masthead */}
+            <div className="py-3 md:py-4">
+              {/* Top rule */}
+              <div className="border-t border-neutral-300 mb-3"></div>
+
+              {/* Main masthead row */}
+              <div className="flex items-center justify-between">
+                {/* Left: Est. date */}
+                <div className="hidden sm:block text-xs tracking-wide text-neutral-500 uppercase">
+                  Est. 1994
+                </div>
+
+                {/* Center: Title block */}
+                <div className="flex-1 text-center">
+                  <div className="flex items-center justify-center gap-3">
+                    <a
+                      href="https://mediaeater.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:opacity-80 transition-opacity"
+                      title="mediaeater.com"
+                    >
+                      <img
+                        src="https://mediaeater.com/Images/mediaeater.png"
+                        alt="mediaeater"
+                        className="w-8 h-8 md:w-10 md:h-10 object-contain"
+                      />
+                    </a>
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold tracking-tight text-neutral-900">
+                      <a href="/" className="hover:text-blue-800 transition-colors">newsfeeds.net</a>
+                    </h1>
                   </div>
-                  <div>
-                    <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:underline">(c)mediaeater.inc 2025</a>
+                  <div className="text-xs md:text-sm tracking-widest uppercase text-amber-700 mt-1">
+                    Human Edited & Curated
                   </div>
                 </div>
-              </div>
 
-              {/* Search */}
-              <div className="flex-1 max-w-2xl">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" aria-hidden="true" />
-                  <input
-                    ref={searchRef}
-                    type="text"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Search links..."
-                    className={`input w-full pl-10 ${isSearchPending ? 'opacity-70' : ''}`}
-                    aria-label="Search links"
-                  />
-                  {searchTerm && (
+                {/* Right: Search icon */}
+                <div className="hidden sm:block">
+                  {searchExpanded ? (
+                    <div className="relative w-40">
+                      <input
+                        ref={searchRef}
+                        type="text"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        onBlur={() => {
+                          if (!searchTerm) {
+                            setTimeout(() => setSearchExpanded(false), 150);
+                          }
+                        }}
+                        placeholder="Search..."
+                        className={`w-full px-3 py-1.5 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500 ${isSearchPending ? 'opacity-70' : ''}`}
+                        aria-label="Search links"
+                        autoFocus
+                      />
+                    </div>
+                  ) : (
                     <button
-                      onClick={() => setSearchTerm('')}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-600"
-                      aria-label="Clear search"
+                      onClick={() => setSearchExpanded(true)}
+                      className="p-2 text-neutral-500 hover:text-neutral-700 transition-colors"
+                      aria-label="Open search"
                     >
-                      <X className="w-4 h-4" />
+                      <Search className="w-5 h-5" />
                     </button>
                   )}
                 </div>
               </div>
 
-              {/* Actions */}
-              <div className="flex items-center gap-2">
-                {!isAdmin && links.length === 0 && (
-                  <div className="text-sm text-neutral-500">
-                    No links yet. Add ?admin=password to URL to manage.
-                  </div>
-                )}
+              {/* Bottom info row */}
+              <div className="flex items-center justify-center gap-4 mt-3 pt-3 border-t border-neutral-300 text-xs text-neutral-600">
+                <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">RSS</a>
+                <span className="text-neutral-300">|</span>
+                <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">JSON</a>
+                <span className="text-neutral-300">|</span>
+                <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">OPML</a>
+                <span className="text-neutral-300">|</span>
+                <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">mediaeater.inc</a>
+              </div>
+
+              {/* Mobile search */}
+              <div className="sm:hidden mt-3">
+                <div className="relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
+                  <input
+                    type="text"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    placeholder="Search links..."
+                    className="w-full pl-10 pr-4 py-2 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500"
+                    aria-label="Search links"
+                  />
+                </div>
               </div>
             </div>
           </div>
