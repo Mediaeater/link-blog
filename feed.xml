@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 05 Dec 2025 02:43:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Dec 2025 02:45:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1394,6 +1394,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764901809151</guid>
             <pubDate>Fri, 05 Dec 2025 02:30:09 GMT</pubDate>
             <description><![CDATA[Tags: av1, video-encoding, streaming, aomedia, netflix]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Resonant Computing Manifesto]]></title>
+            <link>https://resonantcomputing.org/</link>
+            <guid>1764902702073</guid>
+            <pubDate>Fri, 05 Dec 2025 02:45:02 GMT</pubDate>
+            <description><![CDATA[Tags: computing, principles]]></description>
         </item>
     </channel>
 </rss>

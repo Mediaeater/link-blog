@@ -15,6 +15,23 @@
   ],
   "items": [
     {
+      "id": "1764902702073",
+      "url": "https://resonantcomputing.org/",
+      "title": "The Resonant Computing Manifesto",
+      "date_published": "2025-12-05T02:45:02.073Z",
+      "tags": [
+        "computing",
+        "principles"
+      ],
+      "content_text": "We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it's used.\nDedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.\nPlural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.\nAdaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.\nProsocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.\n",
+      "summary": "We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often invol...",
+      "content_html": "<blockquote>We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it&#039;s used.\nDedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.\nPlural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.\nAdaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.\nProsocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.\n</blockquote>\n<p><strong>Tags:</strong> computing, principles</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764901809151",
       "url": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
       "title": "AV1 — Now Powering 30% of Netflix Streaming",
