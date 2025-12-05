@@ -1276,9 +1276,18 @@ export default function LinkBlogClean() {
 
                     {/* Pull Quote */}
                     {link.pullQuote && (
-                      <p className="mt-2 text-sm text-neutral-600 italic">
-                        {link.pullQuote}
-                      </p>
+                      <div className="mt-2 text-sm text-neutral-600 italic space-y-2">
+                        {link.pullQuote.split('\n\n').map((paragraph, i) => (
+                          <p key={i}>
+                            {paragraph.split('\n').map((line, j, arr) => (
+                              <span key={j}>
+                                {line}
+                                {j < arr.length - 1 && <br />}
+                              </span>
+                            ))}
+                          </p>
+                        ))}
+                      </div>
                     )}
 
                     {/* Tags */}
