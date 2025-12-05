@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 04 Dec 2025 20:22:55 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Dec 2025 02:11:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1380,6 +1380,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764879742012</guid>
             <pubDate>Thu, 04 Dec 2025 20:22:22 GMT</pubDate>
             <description><![CDATA[Tags: music, 2025, google]]></description>
+        </item>
+        <item>
+            <title><![CDATA[State of AI An Empirical 100 Trillion Token Study with OpenRouter]]></title>
+            <link>https://openrouter.ai/state-of-ai</link>
+            <guid>1764900687194</guid>
+            <pubDate>Fri, 05 Dec 2025 02:11:27 GMT</pubDate>
+            <description><![CDATA[Tags: llm, benchmark, ai, openrouter]]></description>
         </item>
     </channel>
 </rss>
