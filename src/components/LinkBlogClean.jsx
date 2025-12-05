@@ -47,6 +47,7 @@ export default function LinkBlogClean() {
   const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [currentTagInput, setCurrentTagInput] = useState('');
+  const [autocompleteIndex, setAutocompleteIndex] = useState(0);
   const [isLegendExpanded, setIsLegendExpanded] = useState(false);
   const [isMinimalView, setIsMinimalView] = useState(false);
   const [archives, setArchives] = useState([]);
@@ -57,6 +58,7 @@ export default function LinkBlogClean() {
   const searchRef = useRef(null);
   const quickPasteRef = useRef(null);
   const linkRefs = useRef({});
+  const tagInputRef = useRef(null);
 
   // React 18 performance: defer expensive filter/sort operations
   const deferredSearchTerm = useDeferredValue(searchTerm);
@@ -800,65 +802,164 @@ export default function LinkBlogClean() {
 
                 <div className="relative">
                   <label className="block text-sm font-medium mb-1">
-                    Tags (comma separated)
+                    Tags <span className="text-neutral-400 font-normal">(Tab to add suggestion)</span>
                   </label>
+
+                  {/* Tag chips display */}
+                  <div className="flex flex-wrap gap-1.5 mb-2">
+                    {(newLink.tags || []).map((tag, index) => (
+                      <span
+                        key={`${tag}-${index}`}
+                        className="inline-flex items-center gap-1 px-2 py-1 bg-blue-100 text-blue-800 text-sm rounded-md"
+                      >
+                        {tag}
+                        <button
+                          type="button"
+                          onClick={() => {
+                            const updatedTags = newLink.tags.filter((_, i) => i !== index);
+                            setNewLink({
+                              ...newLink,
+                              tags: updatedTags,
+                              tagInput: ''
+                            });
+                          }}
+                          className="text-blue-600 hover:text-blue-900 ml-0.5"
+                          aria-label={`Remove ${tag}`}
+                        >
+                          <X className="w-3 h-3" />
+                        </button>
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* Tag input */}
                   <input
+                    ref={tagInputRef}
                     type="text"
-                    placeholder="tag1, tag2, tag3"
-                    value={newLink.tagInput || ''}
+                    placeholder={newLink.tags?.length ? "Add another tag..." : "Type to add tags..."}
+                    value={currentTagInput}
                     onChange={(e) => {
-                      const inputValue = e.target.value;
+                      const value = e.target.value;
 
-                      // Get the text after the last comma to use for autocomplete
-                      const parts = inputValue.split(',');
-                      const lastPart = parts[parts.length - 1].trim();
-                      setCurrentTagInput(lastPart);
-                      setShowAutocomplete(lastPart.length > 0);
+                      // Check if user typed a comma - add current tag
+                      if (value.endsWith(',')) {
+                        const tagToAdd = value.slice(0, -1).trim().toLowerCase();
+                        if (tagToAdd && !newLink.tags?.includes(tagToAdd)) {
+                          setNewLink({
+                            ...newLink,
+                            tags: [...(newLink.tags || []), tagToAdd],
+                            tagInput: ''
+                          });
+                        }
+                        setCurrentTagInput('');
+                        setShowAutocomplete(false);
+                        setAutocompleteIndex(0);
+                        return;
+                      }
 
-                      // IMPROVED: Keep tags array synchronized with input in real-time
-                      // This provides better state consistency and prevents data loss
-                      const parsedTags = inputValue.split(',')
-                        .map(tag => tag.trim())
-                        .filter(Boolean);
-
-                      setNewLink({
-                        ...newLink,
-                        tagInput: inputValue,
-                        tags: parsedTags
-                      });
+                      setCurrentTagInput(value);
+                      setShowAutocomplete(value.trim().length > 0);
+                      setAutocompleteIndex(0);
                     }}
                     onFocus={() => {
-                      const parts = (newLink.tagInput || '').split(',');
-                      const lastPart = parts[parts.length - 1].trim();
-                      setCurrentTagInput(lastPart);
-                      setShowAutocomplete(lastPart.length > 0);
+                      if (currentTagInput.trim().length > 0) {
+                        setShowAutocomplete(true);
+                      }
                     }}
-                    onBlur={(e) => {
+                    onBlur={() => {
                       setTimeout(() => {
+                        // Add current input as tag if not empty
+                        const tagToAdd = currentTagInput.trim().toLowerCase();
+                        if (tagToAdd && !newLink.tags?.includes(tagToAdd)) {
+                          setNewLink({
+                            ...newLink,
+                            tags: [...(newLink.tags || []), tagToAdd],
+                            tagInput: ''
+                          });
+                        }
+                        setCurrentTagInput('');
                         setShowAutocomplete(false);
-                        // Process tags when input loses focus
-                        const tags = e.target.value.split(',').map(tag => tag.trim()).filter(Boolean);
-                        setNewLink({
-                          ...newLink,
-                          tags: tags,
-                          tagInput: tags.join(', ')
-                        });
                       }, 200);
                     }}
                     onKeyDown={(e) => {
+                      // Escape - close dropdown
                       if (e.key === 'Escape') {
                         setShowAutocomplete(false);
                         return;
                       }
+
+                      // Tab - add first/selected suggestion or current input
+                      if (e.key === 'Tab' && currentTagInput.trim()) {
+                        e.preventDefault();
+                        let tagToAdd;
+
+                        if (showAutocomplete && filteredAutocompleteTags.length > 0) {
+                          tagToAdd = filteredAutocompleteTags[autocompleteIndex]?.tag;
+                        } else {
+                          tagToAdd = currentTagInput.trim().toLowerCase();
+                        }
+
+                        if (tagToAdd && !newLink.tags?.includes(tagToAdd)) {
+                          setNewLink({
+                            ...newLink,
+                            tags: [...(newLink.tags || []), tagToAdd],
+                            tagInput: ''
+                          });
+                        }
+                        setCurrentTagInput('');
+                        setShowAutocomplete(false);
+                        setAutocompleteIndex(0);
+                        return;
+                      }
+
+                      // Enter - add current input or selected suggestion
                       if (e.key === 'Enter') {
                         e.preventDefault();
-                        const tags = e.target.value.split(',').map(tag => tag.trim()).filter(Boolean);
+                        let tagToAdd;
+
+                        if (showAutocomplete && filteredAutocompleteTags.length > 0) {
+                          tagToAdd = filteredAutocompleteTags[autocompleteIndex]?.tag;
+                        } else {
+                          tagToAdd = currentTagInput.trim().toLowerCase();
+                        }
+
+                        if (tagToAdd && !newLink.tags?.includes(tagToAdd)) {
+                          setNewLink({
+                            ...newLink,
+                            tags: [...(newLink.tags || []), tagToAdd],
+                            tagInput: ''
+                          });
+                        }
+                        setCurrentTagInput('');
+                        setShowAutocomplete(false);
+                        setAutocompleteIndex(0);
+                        return;
+                      }
+
+                      // Arrow down - navigate suggestions
+                      if (e.key === 'ArrowDown' && showAutocomplete) {
+                        e.preventDefault();
+                        setAutocompleteIndex(prev =>
+                          Math.min(prev + 1, filteredAutocompleteTags.length - 1)
+                        );
+                        return;
+                      }
+
+                      // Arrow up - navigate suggestions
+                      if (e.key === 'ArrowUp' && showAutocomplete) {
+                        e.preventDefault();
+                        setAutocompleteIndex(prev => Math.max(prev - 1, 0));
+                        return;
+                      }
+
+                      // Backspace - remove last tag if input is empty
+                      if (e.key === 'Backspace' && !currentTagInput && newLink.tags?.length > 0) {
+                        const updatedTags = newLink.tags.slice(0, -1);
                         setNewLink({
                           ...newLink,
-                          tags: tags,
-                          tagInput: tags.join(', ')
+                          tags: updatedTags,
+                          tagInput: ''
                         });
-                        setShowAutocomplete(false);
                       }
                     }}
                     className="input w-full"
@@ -867,27 +968,31 @@ export default function LinkBlogClean() {
                   {/* Autocomplete dropdown */}
                   {showAutocomplete && filteredAutocompleteTags.length > 0 && (
                     <div className="absolute z-50 w-full mt-1 bg-white border-2 border-blue-500 rounded-md shadow-lg max-h-48 overflow-y-auto">
-                      {filteredAutocompleteTags.map(({ tag, count }) => (
+                      {filteredAutocompleteTags.map(({ tag, count }, index) => (
                         <button
                           key={tag}
                           type="button"
                           onMouseDown={(e) => {
                             e.preventDefault();
-                            const parts = (newLink.tagInput || '').split(',');
-                            parts[parts.length - 1] = tag;
-                            const updatedInput = parts.join(', ');
-                            const updatedTags = updatedInput.split(',').map(t => t.trim()).filter(Boolean);
-                            setNewLink({
-                              ...newLink,
-                              tagInput: updatedInput + ', ',
-                              tags: updatedTags
-                            });
-                            setShowAutocomplete(false);
+                            if (!newLink.tags?.includes(tag)) {
+                              setNewLink({
+                                ...newLink,
+                                tags: [...(newLink.tags || []), tag],
+                                tagInput: ''
+                              });
+                            }
                             setCurrentTagInput('');
+                            setShowAutocomplete(false);
+                            setAutocompleteIndex(0);
+                            tagInputRef.current?.focus();
                           }}
-                          className="w-full text-left px-3 py-2 text-sm hover:bg-blue-50 transition-colors flex items-center justify-between border-b border-gray-100 last:border-b-0"
+                          className={`w-full text-left px-3 py-2 text-sm transition-colors flex items-center justify-between border-b border-gray-100 last:border-b-0 ${
+                            index === autocompleteIndex
+                              ? 'bg-blue-100 text-blue-900'
+                              : 'hover:bg-blue-50'
+                          }`}
                         >
-                          <span className="font-medium text-gray-900">{tag}</span>
+                          <span className="font-medium">{tag}</span>
                           <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
                             {count}
                           </span>
@@ -895,24 +1000,26 @@ export default function LinkBlogClean() {
                       ))}
                     </div>
                   )}
+
+                  {/* Popular tags */}
                   {allTags.length > 0 && (
-                    <div className="mt-2 flex flex-wrap gap-1">
+                    <div className="mt-2 flex flex-wrap gap-1 items-center">
                       <span className="text-xs text-neutral-500">Popular:</span>
                       {allTags.slice(0, 10).map(({ tag }) => (
                         <button
                           key={tag}
+                          type="button"
                           onClick={() => {
-                            const currentTags = newLink.tags || [];
-                            if (!currentTags.includes(tag)) {
-                              const updatedTags = [...currentTags, tag];
+                            if (!newLink.tags?.includes(tag)) {
                               setNewLink({
                                 ...newLink,
-                                tags: updatedTags,
-                                tagInput: updatedTags.join(', ')
+                                tags: [...(newLink.tags || []), tag],
+                                tagInput: ''
                               });
                             }
                           }}
-                          className="tag text-xs"
+                          disabled={newLink.tags?.includes(tag)}
+                          className={`tag text-xs ${newLink.tags?.includes(tag) ? 'opacity-40 cursor-not-allowed' : ''}`}
                         >
                           {tag}
                         </button>
