@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1764901809151",
+      "url": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
+      "title": "AV1 — Now Powering 30% of Netflix Streaming",
+      "date_published": "2025-12-05T02:30:09.151Z",
+      "tags": [
+        "av1",
+        "video-encoding",
+        "streaming",
+        "aomedia",
+        "netflix"
+      ],
+      "content_text": "Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.",
+      "summary": "Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set...",
+      "content_html": "<blockquote>Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.</blockquote>\n<p><strong>Tags:</strong> av1, video-encoding, streaming, aomedia, netflix</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764900687194",
       "url": "https://openrouter.ai/state-of-ai",
       "title": "State of AI An Empirical 100 Trillion Token Study with OpenRouter",

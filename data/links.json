@@ -2937,8 +2937,25 @@
       "isPinned": false,
       "timestamp": "2025-12-05T02:11:27.194Z",
       "visits": 0
+    },
+    {
+      "id": 1764901809151,
+      "url": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
+      "source": "AV1 — Now Powering 30% of Netflix Streaming",
+      "pullQuote": "Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.",
+      "tags": [
+        "av1",
+        "video-encoding",
+        "streaming",
+        "aomedia",
+        "netflix"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-05T02:30:09.151Z",
+      "visits": 0
     }
   ],
-  "version": "1.1.0",
-  "lastUpdated": "2025-12-05T02:11:27.289Z"
+  "lastUpdated": "2025-12-05T02:43:26.445Z",
+  "exportedAt": "2025-12-05T02:43:26.445Z",
+  "totalLinks": 198
 }
