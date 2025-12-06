@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 05 Dec 2025 02:45:59 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2025 13:37:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1400,7 +1400,21 @@ nightmare of browser fingerprinting]]></title>
             <link>https://resonantcomputing.org/</link>
             <guid>1764902702073</guid>
             <pubDate>Fri, 05 Dec 2025 02:45:02 GMT</pubDate>
-            <description><![CDATA[Tags: computing, principles]]></description>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39C3: Power Cycles]]></title>
+            <link>https://events.ccc.de/congress/2025/infos/startpage.html</link>
+            <guid>1765021480540</guid>
+            <pubDate>Sat, 06 Dec 2025 11:44:40 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Have I been Flocked? ]]></title>
+            <link>https://haveibeenflocked.com/</link>
+            <guid>1765027292677</guid>
+            <pubDate>Sat, 06 Dec 2025 13:21:32 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
         </item>
     </channel>
 </rss>

@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 06 Dec 2025 13:33:09 GMT</dateCreated>
-    <dateModified>Sat, 06 Dec 2025 13:33:09 GMT</dateModified>
+    <dateCreated>Sat, 06 Dec 2025 13:38:01 GMT</dateCreated>
+    <dateModified>Sat, 06 Dec 2025 13:38:01 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -378,6 +378,11 @@ It is funded by Vertigo’s Paris-based parent company, Federation Studios. The 
 The bill requires the biggest AI companies to publish safety protocols for serious misuse use of their tech, and forces companies to disclose serious incidents. Leading the Future is backed by venture capital giant Andreessen Horowitz, Palantir cofounder Joe Lonsdale, AI search engine company Perplexity, SV Angel founder Ron Conway and numerous others. &quot;He says bring it on.&quot;
 " created="Tue, 18 Nov 2025 01:17:50 GMT" category="ca16z,lonsdale,anti-american,ai-pac,the-worst-humans,raise-act,citizens-united,brockman,RonConway" />
     </outline>
+    <outline text="aomedia" title="aomedia">
+      <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
+
+At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices." created="Fri, 05 Dec 2025 02:30:09 GMT" category="av1,video-encoding,streaming,aomedia,netflix" />
+    </outline>
     <outline text="aperture" title="aperture">
       <outline type="link" text="Paris Photo–Aperture PhotoBook Awards" title="Paris Photo–Aperture PhotoBook Awards" url="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" htmlUrl="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" description="Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.
 
@@ -508,6 +513,11 @@ Updates in real-time" created="Wed, 24 Sep 2025 01:20:14 GMT" category="surveill
     </outline>
     <outline text="autonomous-systems" title="autonomous-systems">
       <outline type="link" text="A Network Crumb Back Story: A Baker’s Dozen Retrospective" title="A Network Crumb Back Story: A Baker’s Dozen Retrospective" url="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" htmlUrl="https://www.kentik.com/blog/crumb-back-story-a-bakers-dozen-retrospective/" description="For this post, I compiled 20 years of AS rankings to see what stories they reveal about the transit industry. We even built a nifty interactive visualization that allows a user to track the rankings of individual ASes over this time period." created="Mon, 06 Oct 2025 20:39:50 GMT" category="network,autonomous-systems,rankings,ases" />
+    </outline>
+    <outline text="av1" title="av1">
+      <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
+
+At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices." created="Fri, 05 Dec 2025 02:30:09 GMT" category="av1,video-encoding,streaming,aomedia,netflix" />
     </outline>
     <outline text="awards" title="awards">
       <outline type="link" text="Paris Photo–Aperture PhotoBook Awards" title="Paris Photo–Aperture PhotoBook Awards" url="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" htmlUrl="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" description="Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.
@@ -1811,6 +1821,9 @@ This is evidently not the whole story with regards to AI energy usage - training
 To support global productions and stay aligned with best practices, we expect all production partners to share any intended use of GenAI with their Netflix contact, especially as new tools continue to emerge with different capabilities and risks. 
 
 Most low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed." created="Thu, 13 Nov 2025 12:27:59 GMT" category="hollywood-ai,netflix,gen-ai" />
+      <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
+
+At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices." created="Fri, 05 Dec 2025 02:30:09 GMT" category="av1,video-encoding,streaming,aomedia,netflix" />
     </outline>
     <outline text="network" title="network">
       <outline type="link" text="Meshtastic" title="Meshtastic" url="https://meshtastic.org/" htmlUrl="https://meshtastic.org/" description="n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices
@@ -2463,6 +2476,11 @@ balancing resilience with a more proactive strategy that adopts a two-rival forc
 would provide the United States with a framework to strengthen U.S. freedom of action in
 space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
     </outline>
+    <outline text="streaming" title="streaming">
+      <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
+
+At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices." created="Fri, 05 Dec 2025 02:30:09 GMT" category="av1,video-encoding,streaming,aomedia,netflix" />
+    </outline>
     <outline text="studio" title="studio">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
     </outline>
@@ -2713,6 +2731,11 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
  
  " created="Sun, 21 Sep 2025 02:03:31 GMT" category="video,macos,ios,apple" />
     </outline>
+    <outline text="video-encoding" title="video-encoding">
+      <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
+
+At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices." created="Fri, 05 Dec 2025 02:30:09 GMT" category="av1,video-encoding,streaming,aomedia,netflix" />
+    </outline>
     <outline text="video-gen" title="video-gen">
       <outline type="link" text="Vidi2 - AI Video Understanding &amp; Creation Platform" title="Vidi2 - AI Video Understanding &amp; Creation Platform" url="https://www.vidi2.app/" htmlUrl="https://www.vidi2.app/" description="AI Video Understanding &amp; Creation in Seconds Vidi2 is powered by ByteDance&apos;s state-of-the-art multimodal video model. Temporal retrieval, spatio-temporal grounding, video QA, and intelligent editing.
 
@@ -2824,6 +2847,24 @@ The security and privacy risks involved here still feel insurmountably high to m
 
 I&apos;d like to see a deep explanation of the steps Atlas takes to avoid prompt injection attacks. Right now it looks like the main defense is expecting the user to carefully watch what agent mode is doing at all times!" created="Wed, 22 Oct 2025 11:38:58 GMT" />
       <outline type="link" text="Active Discussions | Lobsters" title="Active Discussions | Lobsters" url="https://lobste.rs/active" htmlUrl="https://lobste.rs/active" created="Mon, 08 Sep 2025 20:55:29 GMT" />
+      <outline type="link" text="The Resonant Computing Manifesto" title="The Resonant Computing Manifesto" url="https://resonantcomputing.org/" htmlUrl="https://resonantcomputing.org/" description="We suggest these five principles as a starting place:
+
+Private: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it&apos;s used.
+
+Dedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.
+
+Plural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.
+
+Adaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.
+
+Prosocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.
+" created="Fri, 05 Dec 2025 02:45:02 GMT" />
+      <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
+
+Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
+
+Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" />
+      <outline type="link" text="Have I been Flocked? " title="Have I been Flocked? " url="https://haveibeenflocked.com/" htmlUrl="https://haveibeenflocked.com/" description="Have I been Flocked? – Check if your license plate is being watched " created="Sat, 06 Dec 2025 13:21:32 GMT" />
     </outline>
   </body>
 </opml>

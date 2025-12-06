@@ -15,17 +15,42 @@
   ],
   "items": [
     {
+      "id": "1765027292677",
+      "url": "https://haveibeenflocked.com/",
+      "title": "Have I been Flocked? ",
+      "date_published": "2025-12-06T13:21:32.677Z",
+      "tags": [],
+      "content_text": "Have I been Flocked? – Check if your license plate is being watched ",
+      "summary": "Have I been Flocked? – Check if your license plate is being watched ",
+      "content_html": "<blockquote>Have I been Flocked? – Check if your license plate is being watched </blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765021480540",
+      "url": "https://events.ccc.de/congress/2025/infos/startpage.html",
+      "title": "39C3: Power Cycles",
+      "date_published": "2025-12-06T11:44:40.540Z",
+      "tags": [],
+      "content_text": "The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.\n\nCongress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.\n\nStarting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers.",
+      "summary": "The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on te...",
+      "content_html": "<blockquote>The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.\n\nCongress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.\n\nStarting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers.</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1764902702073",
       "url": "https://resonantcomputing.org/",
       "title": "The Resonant Computing Manifesto",
       "date_published": "2025-12-05T02:45:02.073Z",
-      "tags": [
-        "computing",
-        "principles"
-      ],
-      "content_text": "We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it's used.\nDedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.\nPlural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.\nAdaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.\nProsocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.\n",
+      "tags": [],
+      "content_text": "We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it's used.\n\nDedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.\n\nPlural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.\n\nAdaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.\n\nProsocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.\n",
       "summary": "We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often invol...",
-      "content_html": "<blockquote>We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it&#039;s used.\nDedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.\nPlural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.\nAdaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.\nProsocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.\n</blockquote>\n<p><strong>Tags:</strong> computing, principles</p>",
+      "content_html": "<blockquote>We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it&#039;s used.\n\nDedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.\n\nPlural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.\n\nAdaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.\n\nProsocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.\n</blockquote>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -43,9 +68,9 @@
         "aomedia",
         "netflix"
       ],
-      "content_text": "Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.",
+      "content_text": "Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. \n\nAt Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.",
       "summary": "Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set...",
-      "content_html": "<blockquote>Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.</blockquote>\n<p><strong>Tags:</strong> av1, video-encoding, streaming, aomedia, netflix</p>",
+      "content_html": "<blockquote>Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. \n\nAt Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.</blockquote>\n<p><strong>Tags:</strong> av1, video-encoding, streaming, aomedia, netflix</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
