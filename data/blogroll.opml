@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Tue, 09 Dec 2025 12:14:59 GMT</dateCreated>
-    <dateModified>Tue, 09 Dec 2025 12:14:59 GMT</dateModified>
+    <dateCreated>Tue, 09 Dec 2025 12:43:15 GMT</dateCreated>
+    <dateModified>Tue, 09 Dec 2025 12:43:15 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -2841,10 +2841,26 @@ Congress offers lectures and workshops and various events on a multitude of topi
 Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" />
       <outline type="link" text="Have I been Flocked? " title="Have I been Flocked? " url="https://haveibeenflocked.com/" htmlUrl="https://haveibeenflocked.com/" description="Have I been Flocked? – Check if your license plate is being watched " created="Sat, 06 Dec 2025 13:21:32 GMT" />
       <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/" description="Key findings
+
 Most organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.
+
 High curiosity in AI agents: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.
+
 Positive leading indicators on impact of AI: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.
+
 High performers use AI to drive growth, innovation, and cost: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives." created="Tue, 09 Dec 2025 12:14:50 GMT" />
+      <outline type="link" text="Reasons not to use ChatGPT" title="Reasons not to use ChatGPT" url="https://www.stallman.org/chatgpt.html" htmlUrl="https://www.stallman.org/chatgpt.html" description="Reasons not to use ChatGPT  ChatGPT is not &quot;intelligence&quot;, so please don&apos;t call it &quot;AI&quot;.
+I define &quot;intelligence&quot; as being capable of knowing or understanding, at least within some domain. ChatGPT cannot know or understand anything, so it is not intelligence. It does not know what its output means. It has no idea that words can mean anything.
+
+I call it a &quot;bullshit generator&quot; because it generates output &quot;with indifference to the truth&quot;.
+
+The same applies to many other &quot;generative systems&quot;, for the same reasons
+
+The widespread public error of attributing intelligence to those systems leads millions of people to a misplaced trust for them. Please join me in spreading the word that people should not trust systems that mindlessly play with words to be correct in what those words mean.
+
+Another reason to reject ChatGPT in particular is that users cannot get a copy of it. It is unreleased software -- users cannot get even an executable to run, let alone the source code. The only way to use it is by talking to a server which keeps users at arm&apos;s length.
+
+Doing your own computing via software running on someone else&apos;s server inherently trashes your computing freedom." created="Tue, 09 Dec 2025 12:42:24 GMT" />
     </outline>
   </body>
 </opml>
