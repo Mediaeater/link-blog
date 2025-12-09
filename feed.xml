@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 06 Dec 2025 13:37:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Dec 2025 12:14:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -346,25 +346,11 @@ nightmare of browser fingerprinting]]></title>
             <description><![CDATA[Tags: human, health., breain, sleep, research]]></description>
         </item>
         <item>
-            <title><![CDATA[Neural data may be the most precious commodity of the century]]></title>
-            <link>Neural data may be the most precious commodity of the century</link>
-            <guid>1763426341045</guid>
-            <pubDate>Tue, 18 Nov 2025 00:39:01 GMT</pubDate>
-            <description><![CDATA[Tags: meta, neurotechnology, brain, privacy, ethics, surveillance]]></description>
-        </item>
-        <item>
             <title><![CDATA[Big Tech Wants Direct Access to Our Brains]]></title>
             <link>https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share</link>
             <guid>1763426282021</guid>
             <pubDate>Tue, 18 Nov 2025 00:38:02 GMT</pubDate>
             <description><![CDATA[Tags: self, agency, brain, neurotechnology, privacy]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz]]></title>
-            <link>justiz.bayern.de</link>
-            <guid>1763426219187</guid>
-            <pubDate>Tue, 18 Nov 2025 00:36:59 GMT</pubDate>
-            <description><![CDATA[Tags: openai, ai-music, copyright, de, damages, licensing, legal]]></description>
         </item>
         <item>
             <title><![CDATA[Grok 4.1]]></title>
@@ -540,13 +526,6 @@ nightmare of browser fingerprinting]]></title>
             <guid>1762293581356</guid>
             <pubDate>Tue, 04 Nov 2025 21:59:41 GMT</pubDate>
             <description><![CDATA[Tags: catalog, earth, whole earth, publishing, sf, the-well]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The Case That A.I. Is Thinking]]></title>
-            <link>The Case That A.I. Is Thinking</link>
-            <guid>1762254102486</guid>
-            <pubDate>Tue, 04 Nov 2025 11:01:42 GMT</pubDate>
-            <description><![CDATA[Tags: openai, newyorker, knowledge, thinking]]></description>
         </item>
         <item>
             <title><![CDATA[Performa 2025 Biennial]]></title>
@@ -1414,6 +1393,13 @@ nightmare of browser fingerprinting]]></title>
             <link>https://haveibeenflocked.com/</link>
             <guid>1765027292677</guid>
             <pubDate>Sat, 06 Dec 2025 13:21:32 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The state of AI in 2025: Agents, innovation, and transformation]]></title>
+            <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/</link>
+            <guid>1765282490388</guid>
+            <pubDate>Tue, 09 Dec 2025 12:14:50 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
         </item>
     </channel>

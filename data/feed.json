@@ -15,6 +15,20 @@
   ],
   "items": [
     {
+      "id": "1765282490388",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/",
+      "title": "The state of AI in 2025: Agents, innovation, and transformation",
+      "date_published": "2025-12-09T12:14:50.388Z",
+      "tags": [],
+      "content_text": "Key findings\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.\nHigh curiosity in AI agents: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.\nPositive leading indicators on impact of AI: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.\nHigh performers use AI to drive growth, innovation, and cost: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives.",
+      "summary": "Key findings\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not ...",
+      "content_html": "<blockquote>Key findings\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.\nHigh curiosity in AI agents: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.\nPositive leading indicators on impact of AI: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.\nHigh performers use AI to drive growth, innovation, and cost: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives.</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1765027292677",
       "url": "https://haveibeenflocked.com/",
       "title": "Have I been Flocked? ",
@@ -1109,27 +1123,6 @@
       }
     },
     {
-      "id": "1763426341045",
-      "url": "Neural data may be the most precious commodity of the century",
-      "title": "Neural data may be the most precious commodity of the century",
-      "date_published": "2025-11-18T00:39:01.045Z",
-      "tags": [
-        "meta",
-        "neurotechnology",
-        "brain",
-        "privacy",
-        "ethics",
-        "surveillance"
-      ],
-      "content_text": "Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.",
-      "summary": "Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thoug...",
-      "content_html": "<blockquote>Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.</blockquote>\n<p><strong>Tags:</strong> meta, neurotechnology, brain, privacy, ethics, surveillance</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
       "id": "1763426282021",
       "url": "https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share",
       "title": "Big Tech Wants Direct Access to Our Brains",
@@ -1144,28 +1137,6 @@
       "content_text": "What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten",
       "summary": "What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke Univers...",
       "content_html": "<blockquote>What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten</blockquote>\n<p><strong>Tags:</strong> self, agency, brain, neurotechnology, privacy</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1763426219187",
-      "url": "justiz.bayern.de",
-      "title": "Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz",
-      "date_published": "2025-11-18T00:36:59.187Z",
-      "tags": [
-        "openai",
-        "ai-music",
-        "copyright",
-        "de",
-        "damages",
-        "licensing",
-        "legal"
-      ],
-      "content_text": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany's major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages. \"",
-      "summary": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought ...",
-      "content_html": "<blockquote>German Court Ruling on OpenAI&#039;s Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany&#039;s major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages. &quot;</blockquote>\n<p><strong>Tags:</strong> openai, ai-music, copyright, de, damages, licensing, legal</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -1655,25 +1626,6 @@
       "content_text": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.",
       "summary": "Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published ...",
       "content_html": "<blockquote>Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes.</blockquote>\n<p><strong>Tags:</strong> catalog, earth, whole earth, publishing, sf, the-well</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1762254102486",
-      "url": "The Case That A.I. Is Thinking",
-      "title": "The Case That A.I. Is Thinking",
-      "date_published": "2025-11-04T11:01:42.486Z",
-      "tags": [
-        "openai",
-        "newyorker",
-        "knowledge",
-        "thinking"
-      ],
-      "content_text": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
-      "summary": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is...",
-      "content_html": "<blockquote>An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”</blockquote>\n<p><strong>Tags:</strong> openai, newyorker, knowledge, thinking</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
