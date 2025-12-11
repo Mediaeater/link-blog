@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 11 Dec 2025 20:21:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2025 20:24:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1386,7 +1386,7 @@ nightmare of browser fingerprinting]]></title>
             <link>https://events.ccc.de/congress/2025/infos/startpage.html</link>
             <guid>1765021480540</guid>
             <pubDate>Sat, 06 Dec 2025 11:44:40 GMT</pubDate>
-            <description><![CDATA[Tags: ]]></description>
+            <description><![CDATA[Tags: ccc, deepseek, congress, hacking, security]]></description>
         </item>
         <item>
             <title><![CDATA[Have I been Flocked? ]]></title>

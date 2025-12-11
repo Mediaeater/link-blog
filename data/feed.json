@@ -148,10 +148,16 @@
       "url": "https://events.ccc.de/congress/2025/infos/startpage.html",
       "title": "39C3: Power Cycles",
       "date_published": "2025-12-06T11:44:40.540Z",
-      "tags": [],
+      "tags": [
+        "ccc",
+        "deepseek",
+        "congress",
+        "hacking",
+        "security"
+      ],
       "content_text": "The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.\n\nCongress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.\n\nStarting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers.",
       "summary": "The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on te...",
-      "content_html": "<blockquote>The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.\n\nCongress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.\n\nStarting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers.</blockquote>",
+      "content_html": "<blockquote>The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.\n\nCongress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.\n\nStarting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers.</blockquote>\n<p><strong>Tags:</strong> ccc, deepseek, congress, hacking, security</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false

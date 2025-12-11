@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Thu, 11 Dec 2025 20:22:17 GMT</dateCreated>
-    <dateModified>Thu, 11 Dec 2025 20:22:17 GMT</dateModified>
+    <dateCreated>Thu, 11 Dec 2025 20:24:32 GMT</dateCreated>
+    <dateModified>Thu, 11 Dec 2025 20:24:32 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -665,6 +665,13 @@ The bill requires the biggest AI companies to publish safety protocols for serio
     <outline text="catalog" title="catalog">
       <outline type="link" text="Whole Earth Index" title="Whole Earth Index" url="https://wholeearth.info/" htmlUrl="https://wholeearth.info/" description="Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes." created="Tue, 04 Nov 2025 21:59:41 GMT" category="catalog,earth,whole earth,publishing,sf,the-well" />
     </outline>
+    <outline text="ccc" title="ccc">
+      <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
+
+Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
+
+Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
+    </outline>
     <outline text="censorship" title="censorship">
       <outline type="link" text="The Majority AI View - Anil Dash" title="The Majority AI View - Anil Dash" url="https://www.anildash.com//2025/10/17/the-majority-ai-view/" htmlUrl="https://www.anildash.com//2025/10/17/the-majority-ai-view/" description="Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren&apos;t lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn&apos;t centralized under the control of a handful of giant companies. Or any other definition of &quot;good AI&quot; that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced &quot;AI&quot; to the public imagination are run by authoritarian extremists with deeply destructive agendas.
 
@@ -831,6 +838,13 @@ On OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision 
 In plans to be announced on Wednesday, reselling a ticket above face value will be outlawed, government and industry figures told the Financial Times.
 " created="Tue, 18 Nov 2025 11:41:05 GMT" category="music,concert,tickets,legislation" />
     </outline>
+    <outline text="congress" title="congress">
+      <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
+
+Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
+
+Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
+    </outline>
     <outline text="content" title="content">
       <outline type="link" text="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" title="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" url="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" htmlUrl="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" description="121FZL   Meaning of Australian content expenditure requirement
 
@@ -919,6 +933,11 @@ And people do understand when they’re being fucked with." created="Sat, 27 Sep
       <outline type="link" text="China leapfrogs US in global market for ‘open’ AI models" title="China leapfrogs US in global market for ‘open’ AI models" url="https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41" htmlUrl="https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41" description="The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models. ----- China has overtaken the US in the global market for “open” artificial intelligence models, gaining a crucial edge over how the powerful technology is used around the world. A study by the Massachusetts Institute of Technology and open-source AI start-up Hugging Face found that the total share of downloads of new Chinese-made open models rose to 17 per cent in the past year. The figure surpasses the 15.8 per cent share of downloads from American developers such as Google, Meta and OpenAI — the first time Chinese groups have beaten their American counterparts. Open models — which are free to download, modify and integrate by developers — make it easier for start-ups to create products and researchers to improve them. Widespread adoption will confer outsized influence over AI’s future.
 " created="Wed, 26 Nov 2025 02:31:26 GMT" category="opensource,ai,cn,deepseek,open-models,adoption" />
       <outline type="link" text="DeepSeek researcher pessimistic over AI&apos;s impact in startup&apos;s first public appearance since success " title="DeepSeek researcher pessimistic over AI&apos;s impact in startup&apos;s first public appearance since success " url="https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/" htmlUrl="https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/" description="Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI." created="Sat, 08 Nov 2025 10:24:13 GMT" category="deepseek,ai,ai-impact" />
+      <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
+
+Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
+
+Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
     </outline>
     <outline text="democracy" title="democracy">
       <outline type="link" text="‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio" title="‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio" url="https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049" htmlUrl="https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049" description="RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that&apos;s part of what&apos;s going on.
@@ -1260,6 +1279,13 @@ guidance below" created="Mon, 01 Dec 2025 14:13:08 GMT" category="pdf,ai,patents
     </outline>
     <outline text="guidelines" title="guidelines">
       <outline type="link" text="guidelines-governance.pdf" title="guidelines-governance.pdf" url="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" htmlUrl="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" description="India AI Governance Guidelines Enabling Safe and Trusted AI Innovation" created="Thu, 06 Nov 2025 17:45:54 GMT" category="ai,governance,india,guidelines" />
+    </outline>
+    <outline text="hacking" title="hacking">
+      <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
+
+Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
+
+Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
     </outline>
     <outline text="happiness" title="happiness">
       <outline type="link" text="Happiest Countries in the World 2025" title="Happiest Countries in the World 2025" url="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world" htmlUrl="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world" description="Finland	7.74 ; Denmark	7.58 ; Iceland	7.53 ; Sweden" created="Sat, 27 Sep 2025 12:34:49 GMT" category="happiness,map,finland" />
@@ -2457,6 +2483,11 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
 " created="Sat, 27 Sep 2025 20:10:49 GMT" category="opsec,security,usa" />
       <outline type="link" text="Artificial intelligence ushers in a golden age of hacking, experts say" title="Artificial intelligence ushers in a golden age of hacking, experts say" url="https://archive.is/2uVSl" htmlUrl="https://archive.is/2uVSl" description="In many cases, the new techniques are stunningly powerful. On a recent assignment to test defenses, Dave Brauchler of the cybersecurity company NCC Group tricked a client’s AI program-writing assistant into executing programs that forked over the company’s databases and code repositories.
 “We have never been this foolish with security,” Brauchler said." created="Sun, 21 Sep 2025 10:36:40 GMT" category="ai,security,important,opsec,ai-security" />
+      <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
+
+Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
+
+Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
     </outline>
     <outline text="self" title="self">
       <outline type="link" text="Big Tech Wants Direct Access to Our Brains" title="Big Tech Wants Direct Access to Our Brains" url="https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share" htmlUrl="https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share" description="What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten" created="Tue, 18 Nov 2025 00:38:02 GMT" category="self,agency,brain,neurotechnology,privacy" />
@@ -2978,11 +3009,6 @@ Adaptable: Software should be open-ended, able to meet the specific, context-dep
 
 Prosocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.
 " created="Fri, 05 Dec 2025 02:45:02 GMT" />
-      <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
-
-Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
-
-Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" />
     </outline>
   </body>
 </opml>
