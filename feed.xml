@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 11 Dec 2025 20:27:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2025 20:30:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1443,6 +1443,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1765484766906</guid>
             <pubDate>Thu, 11 Dec 2025 20:26:06 GMT</pubDate>
             <description><![CDATA[Tags: code, github, open-source, privacy, security, networks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back.]]></title>
+            <link>https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back</link>
+            <guid>1765485048951</guid>
+            <pubDate>Thu, 11 Dec 2025 20:30:48 GMT</pubDate>
+            <description><![CDATA[Tags: aws, free, cloud, tutorial, infrastructure, privacy, verification, opesec, agents, eff]]></description>
         </item>
     </channel>
 </rss>

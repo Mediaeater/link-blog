@@ -3007,7 +3007,7 @@
       "id": 1765482512615,
       "url": "https://openai.com/index/introducing-gpt-5-2/",
       "source": "Introducing GPT-5.2",
-      "pullQuote": "GPT-5.2\n-400,000 context window\n-128,000 max output tokens\n-Aug 31 2025 knowledge cutoff",
+      "pullQuote": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
       "tags": [
         "openai",
         "chatgpt",
@@ -3049,8 +3049,29 @@
       "isPinned": false,
       "timestamp": "2025-12-11T20:26:06.906Z",
       "visits": 0
+    },
+    {
+      "id": 1765485048951,
+      "url": "https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back",
+      "source": "Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back.",
+      "pullQuote": "That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s at stake, why EFF opposes all forms of age verification, how to protect yourself, and how to join the fight for a free, open, private, and yes—safe—internet. \n\n",
+      "tags": [
+        "aws",
+        "free",
+        "cloud",
+        "tutorial",
+        "infrastructure",
+        "privacy",
+        "verification",
+        "opesec",
+        "agents",
+        "eff"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-11T20:30:48.951Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-11T20:27:03.735Z"
+  "lastUpdated": "2025-12-11T20:30:48.965Z"
 }

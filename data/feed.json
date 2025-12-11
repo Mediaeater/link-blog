@@ -15,6 +15,31 @@
   ],
   "items": [
     {
+      "id": "1765485048951",
+      "url": "https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back",
+      "title": "Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back.",
+      "date_published": "2025-12-11T20:30:48.951Z",
+      "tags": [
+        "aws",
+        "free",
+        "cloud",
+        "tutorial",
+        "infrastructure",
+        "privacy",
+        "verification",
+        "opesec",
+        "agents",
+        "eff"
+      ],
+      "content_text": "That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s at stake, why EFF opposes all forms of age verification, how to protect yourself, and how to join the fight for a free, open, private, and yes—safe—internet. \n\n",
+      "summary": "That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s...",
+      "content_html": "<blockquote>That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s at stake, why EFF opposes all forms of age verification, how to protect yourself, and how to join the fight for a free, open, private, and yes—safe—internet. \n\n</blockquote>\n<p><strong>Tags:</strong> aws, free, cloud, tutorial, infrastructure, privacy, verification, opesec, agents, eff</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1765484766906",
       "url": "https://github.com/privacyshield-ai/privacy-firewall",
       "title": "GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution",
@@ -65,9 +90,9 @@
         "model",
         "meh"
       ],
-      "content_text": "GPT-5.2\n-400,000 context window\n-128,000 max output tokens\n-Aug 31 2025 knowledge cutoff",
-      "summary": "GPT-5.2\n-400,000 context window\n-128,000 max output tokens\n-Aug 31 2025 knowledge cutoff",
-      "content_html": "<blockquote>GPT-5.2\n-400,000 context window\n-128,000 max output tokens\n-Aug 31 2025 knowledge cutoff</blockquote>\n<p><strong>Tags:</strong> openai, chatgpt, model, meh</p>",
+      "content_text": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
+      "summary": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI ...",
+      "content_html": "<blockquote>We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.</blockquote>\n<p><strong>Tags:</strong> openai, chatgpt, model, meh</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
