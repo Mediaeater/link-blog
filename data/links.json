@@ -3032,8 +3032,25 @@
       "isPinned": false,
       "timestamp": "2025-12-11T19:51:37.116Z",
       "visits": 0
+    },
+    {
+      "id": 1765484766906,
+      "url": "https://github.com/privacyshield-ai/privacy-firewall",
+      "source": "GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution",
+      "pullQuote": "PrivacyFirewall is a local-first PII and secrets firewall for AI tools like ChatGPT, Claude, and Gemini.It blocks risky paste events, warns as you type, and (optionally) uses a lightweight on-device Transformer model for deeper PII detection.\n\n**No data ever leaves your machine.**Everything runs locally in your browser or through an optional local API.You can verify this by inspecting the network panel and reading the open-source code.",
+      "tags": [
+        "code",
+        "github",
+        "open-source",
+        "privacy",
+        "security",
+        "networks"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-11T20:26:06.906Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-11T20:24:15.160Z"
+  "lastUpdated": "2025-12-11T20:26:06.916Z"
 }

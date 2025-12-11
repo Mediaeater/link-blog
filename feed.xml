@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 11 Dec 2025 20:24:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2025 20:26:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1436,6 +1436,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1765482697116</guid>
             <pubDate>Thu, 11 Dec 2025 19:51:37 GMT</pubDate>
             <description><![CDATA[Tags: video-gen, disney, openai, sora]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution]]></title>
+            <link>https://github.com/privacyshield-ai/privacy-firewall</link>
+            <guid>1765484766906</guid>
+            <pubDate>Thu, 11 Dec 2025 20:26:06 GMT</pubDate>
+            <description><![CDATA[Tags: code, github, open-source, privacy, security, networks]]></description>
         </item>
     </channel>
 </rss>
