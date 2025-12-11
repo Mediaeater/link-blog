@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Thu, 11 Dec 2025 20:26:13 GMT</dateCreated>
-    <dateModified>Thu, 11 Dec 2025 20:26:13 GMT</dateModified>
+    <dateCreated>Thu, 11 Dec 2025 20:27:09 GMT</dateCreated>
+    <dateModified>Thu, 11 Dec 2025 20:27:09 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -738,9 +738,10 @@ The widespread public error of attributing intelligence to those systems leads m
 Another reason to reject ChatGPT in particular is that users cannot get a copy of it. It is unreleased software -- users cannot get even an executable to run, let alone the source code. The only way to use it is by talking to a server which keeps users at arm&apos;s length.
 
 Doing your own computing via software running on someone else&apos;s server inherently trashes your computing freedom." created="Tue, 09 Dec 2025 12:42:24 GMT" category="openai,surveillance,harms,chatgpt" />
-      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.
-
-Already, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects." created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
+      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="GPT-5.2
+-400,000 context window
+-128,000 max output tokens
+-Aug 31 2025 knowledge cutoff" created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
     </outline>
     <outline text="childhood" title="childhood">
       <outline type="link" text="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" title="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" url="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" htmlUrl="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" description="d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations" created="Sat, 22 Nov 2025 23:46:37 GMT" category="Smartphones,technology,mentalhealth,mind,health,wellbeing,childhood,youth,development" />
@@ -1753,9 +1754,10 @@ Oral administration of arginine suppresses Aβ pathology and its toxicity in viv
 Arginine is a safe and cost-effective repositioning drug candidate for AD." created="Wed, 26 Nov 2025 11:24:48 GMT" category="health,medicine,science,brain,memory" />
     </outline>
     <outline text="meh" title="meh">
-      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.
-
-Already, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects." created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
+      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="GPT-5.2
+-400,000 context window
+-128,000 max output tokens
+-Aug 31 2025 knowledge cutoff" created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
     </outline>
     <outline text="memory" title="memory">
       <outline type="link" text="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" title="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" url="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" htmlUrl="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" description="Arginine suppresses Aβ aggregation both in vitro and in vivo.
@@ -1813,9 +1815,10 @@ Known as cloud-seeding, the process was conducted over the Urmia lake basin on S
     <outline text="model" title="model">
       <outline type="link" text="Can AI Work with You?" title="Can AI Work with You?" url="https://iceberg.mit.edu/" htmlUrl="https://iceberg.mit.edu/" description="What does the Iceberg Index measure?
 The Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement." created="Mon, 01 Dec 2025 14:08:59 GMT" category="jobs,model,ai,index" visits="1" />
-      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.
-
-Already, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects." created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
+      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="GPT-5.2
+-400,000 context window
+-128,000 max output tokens
+-Aug 31 2025 knowledge cutoff" created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
     </outline>
     <outline text="models" title="models">
       <outline type="link" text="Underground AI models promise to be hackers ‘cyber pentesting waifu’" title="Underground AI models promise to be hackers ‘cyber pentesting waifu’" url="https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/" htmlUrl="https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/" description="(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have to use the word ‘lateral movement,’ when using these tools. You can just ask ‘How do I find other systems on the network?’ and it can drop you out a script. So that barrier to entry: lowering and lowering.”" created="Mon, 01 Dec 2025 14:06:31 GMT" category="open-source,models,cracking" />
@@ -2074,9 +2077,10 @@ The widespread public error of attributing intelligence to those systems leads m
 Another reason to reject ChatGPT in particular is that users cannot get a copy of it. It is unreleased software -- users cannot get even an executable to run, let alone the source code. The only way to use it is by talking to a server which keeps users at arm&apos;s length.
 
 Doing your own computing via software running on someone else&apos;s server inherently trashes your computing freedom." created="Tue, 09 Dec 2025 12:42:24 GMT" category="openai,surveillance,harms,chatgpt" />
-      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.
-
-Already, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects." created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
+      <outline type="link" text="Introducing GPT-5.2" title="Introducing GPT-5.2" url="https://openai.com/index/introducing-gpt-5-2/" htmlUrl="https://openai.com/index/introducing-gpt-5-2/" description="GPT-5.2
+-400,000 context window
+-128,000 max output tokens
+-Aug 31 2025 knowledge cutoff" created="Thu, 11 Dec 2025 19:48:32 GMT" category="openai,chatgpt,model,meh" />
       <outline type="link" text="The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company" title="The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company" url="https://thewaltdisneycompany.com/disney-openai-sora-agreement/" htmlUrl="https://thewaltdisneycompany.com/disney-openai-sora-agreement/" description="As part of this three-year licensing agreement, Sora will be able to generate short, user-prompted social videos that can be viewed and shared by fans, drawing on more than 200 Disney, Marvel, Pixar and Star Wars characters.
 Agreement will make a selection of these fan-inspired Sora short form videos available to stream on Disney+.
 Disney and OpenAI affirm a shared commitment to responsible use of AI that protects the safety of users and the rights of creators.

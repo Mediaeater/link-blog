@@ -65,9 +65,9 @@
         "model",
         "meh"
       ],
-      "content_text": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
-      "summary": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI ...",
-      "content_html": "<blockquote>We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.</blockquote>\n<p><strong>Tags:</strong> openai, chatgpt, model, meh</p>",
+      "content_text": "GPT-5.2\n-400,000 context window\n-128,000 max output tokens\n-Aug 31 2025 knowledge cutoff",
+      "summary": "GPT-5.2\n-400,000 context window\n-128,000 max output tokens\n-Aug 31 2025 knowledge cutoff",
+      "content_html": "<blockquote>GPT-5.2\n-400,000 context window\n-128,000 max output tokens\n-Aug 31 2025 knowledge cutoff</blockquote>\n<p><strong>Tags:</strong> openai, chatgpt, model, meh</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
