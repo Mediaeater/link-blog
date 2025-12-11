@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 09 Dec 2025 12:42:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2025 19:48:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1407,6 +1407,27 @@ nightmare of browser fingerprinting]]></title>
             <link>https://www.stallman.org/chatgpt.html</link>
             <guid>1765284144190</guid>
             <pubDate>Tue, 09 Dec 2025 12:42:24 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Size of Life]]></title>
+            <link>https://neal.fun/size-of-life/</link>
+            <guid>1765387755172</guid>
+            <pubDate>Wed, 10 Dec 2025 17:29:15 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Useful patterns for building HTML tools]]></title>
+            <link>https://simonwillison.net/2025/Dec/10/html-tools/</link>
+            <guid>1765482398978</guid>
+            <pubDate>Thu, 11 Dec 2025 19:46:38 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing GPT-5.2]]></title>
+            <link>https://openai.com/index/introducing-gpt-5-2/</link>
+            <guid>1765482512615</guid>
+            <pubDate>Thu, 11 Dec 2025 19:48:32 GMT</pubDate>
             <description><![CDATA[Tags: ]]></description>
         </item>
     </channel>

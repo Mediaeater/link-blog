@@ -2953,8 +2953,38 @@
       "isPinned": false,
       "timestamp": "2025-12-09T12:42:24.190Z",
       "visits": 0
+    },
+    {
+      "id": 1765387755172,
+      "url": "https://neal.fun/size-of-life/",
+      "source": "Size of Life",
+      "pullQuote": "",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-12-10T17:29:15.172Z",
+      "visits": 0
+    },
+    {
+      "id": 1765482398978,
+      "url": "https://simonwillison.net/2025/Dec/10/html-tools/",
+      "source": "Useful patterns for building HTML tools",
+      "pullQuote": "the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way.",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-12-11T19:46:38.978Z",
+      "visits": 0
+    },
+    {
+      "id": 1765482512615,
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "source": "Introducing GPT-5.2",
+      "pullQuote": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-12-11T19:48:32.615Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-09T12:42:51.118Z"
+  "lastUpdated": "2025-12-11T19:48:32.632Z"
 }
