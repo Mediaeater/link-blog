@@ -15,14 +15,38 @@
   ],
   "items": [
     {
+      "id": "1765482697116",
+      "url": "https://thewaltdisneycompany.com/disney-openai-sora-agreement/",
+      "title": "The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company",
+      "date_published": "2025-12-11T19:51:37.116Z",
+      "tags": [
+        "video-gen",
+        "disney",
+        "openai",
+        "sora"
+      ],
+      "content_text": "As part of this three-year licensing agreement, Sora will be able to generate short, user-prompted social videos that can be viewed and shared by fans, drawing on more than 200 Disney, Marvel, Pixar and Star Wars characters.\nAgreement will make a selection of these fan-inspired Sora short form videos available to stream on Disney+.\nDisney and OpenAI affirm a shared commitment to responsible use of AI that protects the safety of users and the rights of creators.\nAlongside the licensing agreement, Disney will become a major customer of OpenAI, using its APIs to build new products, tools, and experiences, including for Disney+, and deploying ChatGPT for its employees. \nAs part of the agreement, Disney will make a $1 billion equity investment in OpenAI, and receive warrants to purchase additional equity.",
+      "summary": "As part of this three-year licensing agreement, Sora will be able to generate short, user-prompted social videos that can be viewed and shared by fans...",
+      "content_html": "<blockquote>As part of this three-year licensing agreement, Sora will be able to generate short, user-prompted social videos that can be viewed and shared by fans, drawing on more than 200 Disney, Marvel, Pixar and Star Wars characters.\nAgreement will make a selection of these fan-inspired Sora short form videos available to stream on Disney+.\nDisney and OpenAI affirm a shared commitment to responsible use of AI that protects the safety of users and the rights of creators.\nAlongside the licensing agreement, Disney will become a major customer of OpenAI, using its APIs to build new products, tools, and experiences, including for Disney+, and deploying ChatGPT for its employees. \nAs part of the agreement, Disney will make a $1 billion equity investment in OpenAI, and receive warrants to purchase additional equity.</blockquote>\n<p><strong>Tags:</strong> video-gen, disney, openai, sora</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1765482512615",
       "url": "https://openai.com/index/introducing-gpt-5-2/",
       "title": "Introducing GPT-5.2",
       "date_published": "2025-12-11T19:48:32.615Z",
-      "tags": [],
+      "tags": [
+        "openai",
+        "chatgpt",
+        "model",
+        "meh"
+      ],
       "content_text": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
       "summary": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI ...",
-      "content_html": "<blockquote>We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.</blockquote>",
+      "content_html": "<blockquote>We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.</blockquote>\n<p><strong>Tags:</strong> openai, chatgpt, model, meh</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -33,10 +57,16 @@
       "url": "https://simonwillison.net/2025/Dec/10/html-tools/",
       "title": "Useful patterns for building HTML tools",
       "date_published": "2025-12-11T19:46:38.978Z",
-      "tags": [],
+      "tags": [
+        "css",
+        "html",
+        "tools",
+        "useful",
+        "styling"
+      ],
       "content_text": "the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way.",
       "summary": "the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to pro...",
-      "content_html": "<blockquote>the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way.</blockquote>",
+      "content_html": "<blockquote>the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way.</blockquote>\n<p><strong>Tags:</strong> css, html, tools, useful, styling</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -47,7 +77,12 @@
       "url": "https://neal.fun/size-of-life/",
       "title": "Size of Life",
       "date_published": "2025-12-10T17:29:15.172Z",
-      "tags": [],
+      "tags": [
+        "size",
+        "life",
+        "scale"
+      ],
+      "content_html": "<p><strong>Tags:</strong> size, life, scale</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -58,10 +93,15 @@
       "url": "https://www.stallman.org/chatgpt.html",
       "title": "Reasons not to use ChatGPT",
       "date_published": "2025-12-09T12:42:24.190Z",
-      "tags": [],
+      "tags": [
+        "openai",
+        "surveillance",
+        "harms",
+        "chatgpt"
+      ],
       "content_text": "Reasons not to use ChatGPT  ChatGPT is not \"intelligence\", so please don't call it \"AI\".\nI define \"intelligence\" as being capable of knowing or understanding, at least within some domain. ChatGPT cannot know or understand anything, so it is not intelligence. It does not know what its output means. It has no idea that words can mean anything.\n\nI call it a \"bullshit generator\" because it generates output \"with indifference to the truth\".\n\nThe same applies to many other \"generative systems\", for the same reasons\n\nThe widespread public error of attributing intelligence to those systems leads millions of people to a misplaced trust for them. Please join me in spreading the word that people should not trust systems that mindlessly play with words to be correct in what those words mean.\n\nAnother reason to reject ChatGPT in particular is that users cannot get a copy of it. It is unreleased software -- users cannot get even an executable to run, let alone the source code. The only way to use it is by talking to a server which keeps users at arm's length.\n\nDoing your own computing via software running on someone else's server inherently trashes your computing freedom.",
       "summary": "Reasons not to use ChatGPT  ChatGPT is not \"intelligence\", so please don't call it \"AI\".\nI define \"intelligence\" as being capable of knowing or unders...",
-      "content_html": "<blockquote>Reasons not to use ChatGPT  ChatGPT is not &quot;intelligence&quot;, so please don&#039;t call it &quot;AI&quot;.\nI define &quot;intelligence&quot; as being capable of knowing or understanding, at least within some domain. ChatGPT cannot know or understand anything, so it is not intelligence. It does not know what its output means. It has no idea that words can mean anything.\n\nI call it a &quot;bullshit generator&quot; because it generates output &quot;with indifference to the truth&quot;.\n\nThe same applies to many other &quot;generative systems&quot;, for the same reasons\n\nThe widespread public error of attributing intelligence to those systems leads millions of people to a misplaced trust for them. Please join me in spreading the word that people should not trust systems that mindlessly play with words to be correct in what those words mean.\n\nAnother reason to reject ChatGPT in particular is that users cannot get a copy of it. It is unreleased software -- users cannot get even an executable to run, let alone the source code. The only way to use it is by talking to a server which keeps users at arm&#039;s length.\n\nDoing your own computing via software running on someone else&#039;s server inherently trashes your computing freedom.</blockquote>",
+      "content_html": "<blockquote>Reasons not to use ChatGPT  ChatGPT is not &quot;intelligence&quot;, so please don&#039;t call it &quot;AI&quot;.\nI define &quot;intelligence&quot; as being capable of knowing or understanding, at least within some domain. ChatGPT cannot know or understand anything, so it is not intelligence. It does not know what its output means. It has no idea that words can mean anything.\n\nI call it a &quot;bullshit generator&quot; because it generates output &quot;with indifference to the truth&quot;.\n\nThe same applies to many other &quot;generative systems&quot;, for the same reasons\n\nThe widespread public error of attributing intelligence to those systems leads millions of people to a misplaced trust for them. Please join me in spreading the word that people should not trust systems that mindlessly play with words to be correct in what those words mean.\n\nAnother reason to reject ChatGPT in particular is that users cannot get a copy of it. It is unreleased software -- users cannot get even an executable to run, let alone the source code. The only way to use it is by talking to a server which keeps users at arm&#039;s length.\n\nDoing your own computing via software running on someone else&#039;s server inherently trashes your computing freedom.</blockquote>\n<p><strong>Tags:</strong> openai, surveillance, harms, chatgpt</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -72,10 +112,14 @@
       "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/",
       "title": "The state of AI in 2025: Agents, innovation, and transformation",
       "date_published": "2025-12-09T12:14:50.388Z",
-      "tags": [],
+      "tags": [
+        "mckinsey",
+        "agents",
+        "report"
+      ],
       "content_text": "Key findings\n\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.\n\nHigh curiosity in AI agents: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.\n\nPositive leading indicators on impact of AI: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.\n\nHigh performers use AI to drive growth, innovation, and cost: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives.",
       "summary": "Key findings\n\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not...",
-      "content_html": "<blockquote>Key findings\n\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.\n\nHigh curiosity in AI agents: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.\n\nPositive leading indicators on impact of AI: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.\n\nHigh performers use AI to drive growth, innovation, and cost: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives.</blockquote>",
+      "content_html": "<blockquote>Key findings\n\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.\n\nHigh curiosity in AI agents: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.\n\nPositive leading indicators on impact of AI: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.\n\nHigh performers use AI to drive growth, innovation, and cost: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives.</blockquote>\n<p><strong>Tags:</strong> mckinsey, agents, report</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -86,10 +130,14 @@
       "url": "https://haveibeenflocked.com/",
       "title": "Have I been Flocked? ",
       "date_published": "2025-12-06T13:21:32.677Z",
-      "tags": [],
+      "tags": [
+        "flock",
+        "surveillance",
+        "tracking"
+      ],
       "content_text": "Have I been Flocked? – Check if your license plate is being watched ",
       "summary": "Have I been Flocked? – Check if your license plate is being watched ",
-      "content_html": "<blockquote>Have I been Flocked? – Check if your license plate is being watched </blockquote>",
+      "content_html": "<blockquote>Have I been Flocked? – Check if your license plate is being watched </blockquote>\n<p><strong>Tags:</strong> flock, surveillance, tracking</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
