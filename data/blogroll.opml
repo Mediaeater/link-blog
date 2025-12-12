@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 12 Dec 2025 00:09:16 GMT</dateCreated>
-    <dateModified>Fri, 12 Dec 2025 00:09:16 GMT</dateModified>
+    <dateCreated>Fri, 12 Dec 2025 12:18:11 GMT</dateCreated>
+    <dateModified>Fri, 12 Dec 2025 12:18:11 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -280,6 +280,16 @@ The past year catalyzed a step change in how the field conceives reasoning. The 
 The data show that the LLM ecosystem is structurally plural. No single model or provider dominates; instead, users select systems along multiple axes such as capability, latency, price, and trust depending on context. This heterogeneity is not a transient phase but a fundamental property of the market. It promotes rapid iteration and reduces systemic dependence on any one model or stack.
 
 " created="Fri, 05 Dec 2025 02:11:27 GMT" category="llm,benchmark,ai,openrouter" />
+      <outline type="link" text="Ensuring a National Policy Framework for Artificial Intelligence" title="Ensuring a National Policy Framework for Artificial Intelligence" url="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" htmlUrl="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" description="ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on &quot;truthful outputs&quot; and opposition to laws requiring models to &quot;alter their truthful outputs&quot; suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //
+
+
+(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.
+
+(7) &quot;That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act&apos;s prohibition on engaging in deceptive acts or practices affecting commerce.&quot;
+
+The setup for this framing appears here:
+
+(1) &quot;State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning &apos;algorithmic discrimination&apos; may even force AI models to produce false results in order to avoid a &apos;differential treatment or impact&apos; on protected groups.&quot;" created="Fri, 12 Dec 2025 12:11:11 GMT" category="ai,fact,truth,states-rights,regulation,crytpto" />
     </outline>
     <outline text="ai generative-media" title="ai generative-media">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -909,6 +919,18 @@ The super PAC said Andreessen Horowitz committed $25 million this year and $25 m
     <outline text="crypto" title="crypto">
       <outline type="link" text="Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends" title="Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends" url="https://archive.is/20251130191248/https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html" htmlUrl="https://archive.is/20251130191248/https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html" description="But Mr. Sacks stands out as a special government employee because of his hundreds of investments in tech companies, which can benefit from policies that he influences. His public ethics filings, which are based on self-reported information, do not disclose the value of those remaining stakes in crypto and A.I.-related companies. They also omit when he sold assets he said he would divest, making it difficult to determine whether his government service has netted him profits." created="Mon, 01 Dec 2025 14:05:23 GMT" category="ai,ethics,politics,crypto,nyt" />
     </outline>
+    <outline text="crytpto" title="crytpto">
+      <outline type="link" text="Ensuring a National Policy Framework for Artificial Intelligence" title="Ensuring a National Policy Framework for Artificial Intelligence" url="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" htmlUrl="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" description="ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on &quot;truthful outputs&quot; and opposition to laws requiring models to &quot;alter their truthful outputs&quot; suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //
+
+
+(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.
+
+(7) &quot;That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act&apos;s prohibition on engaging in deceptive acts or practices affecting commerce.&quot;
+
+The setup for this framing appears here:
+
+(1) &quot;State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning &apos;algorithmic discrimination&apos; may even force AI models to produce false results in order to avoid a &apos;differential treatment or impact&apos; on protected groups.&quot;" created="Fri, 12 Dec 2025 12:11:11 GMT" category="ai,fact,truth,states-rights,regulation,crytpto" />
+    </outline>
     <outline text="css" title="css">
       <outline type="link" text="Useful patterns for building HTML tools" title="Useful patterns for building HTML tools" url="https://simonwillison.net/2025/Dec/10/html-tools/" htmlUrl="https://simonwillison.net/2025/Dec/10/html-tools/" description="the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way." created="Thu, 11 Dec 2025 19:46:38 GMT" category="css,html,tools,useful,styling" />
     </outline>
@@ -1158,6 +1180,18 @@ Despite our concerns with the DMA, teams across Apple are spending thousands of 
     </outline>
     <outline text="facial-recognition" title="facial-recognition">
       <outline type="link" text="Criminal complaint against facial recognition company Clearview AI" title="Criminal complaint against facial recognition company Clearview AI" url="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" htmlUrl="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" description="Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement." created="Tue, 28 Oct 2025 10:34:40 GMT" category="frt,facial-recognition,clearview-ai,eu,privacy,legal" />
+    </outline>
+    <outline text="fact" title="fact">
+      <outline type="link" text="Ensuring a National Policy Framework for Artificial Intelligence" title="Ensuring a National Policy Framework for Artificial Intelligence" url="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" htmlUrl="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" description="ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on &quot;truthful outputs&quot; and opposition to laws requiring models to &quot;alter their truthful outputs&quot; suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //
+
+
+(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.
+
+(7) &quot;That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act&apos;s prohibition on engaging in deceptive acts or practices affecting commerce.&quot;
+
+The setup for this framing appears here:
+
+(1) &quot;State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning &apos;algorithmic discrimination&apos; may even force AI models to produce false results in order to avoid a &apos;differential treatment or impact&apos; on protected groups.&quot;" created="Fri, 12 Dec 2025 12:11:11 GMT" category="ai,fact,truth,states-rights,regulation,crytpto" />
     </outline>
     <outline text="fail" title="fail">
       <outline type="link" text="A Remarkable Assertion from A16Z" title="A Remarkable Assertion from A16Z" url="https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z" htmlUrl="https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z" description="I had to read this over a few times to believe that I was seeing it. If it didn’t include the word “literally” I’d assume some poetic license on the part of whoever, or whatever, wrote this. But even then it would be crazy wrong." created="Fri, 28 Nov 2025 15:19:01 GMT" category="book,ai,fail,a12z,nealstephenson,proof-reading,human-eyes" />
@@ -2445,6 +2479,16 @@ Its lyric tells the story of a young soldier who writes from the war, promising 
       <outline type="link" text="FAA Statement - Boeing Airworthiness Certificates" title="FAA Statement - Boeing Airworthiness Certificates" url="https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates" htmlUrl="https://www.faa.gov/newsroom/faa-statcement-boeing-airworthiness-certificates" description="The FAA will allow limited delegation to Boeing for issuing airworthiness certificates for some 737 MAX and 787 airplanes starting on Sept. 29, 2025. An airworthiness certificate confirms an aircraft is safe to operate.  
 
 Safety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely." created="Tue, 30 Sep 2025 10:50:47 GMT" category="regulation,air-travel,harms" />
+      <outline type="link" text="Ensuring a National Policy Framework for Artificial Intelligence" title="Ensuring a National Policy Framework for Artificial Intelligence" url="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" htmlUrl="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" description="ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on &quot;truthful outputs&quot; and opposition to laws requiring models to &quot;alter their truthful outputs&quot; suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //
+
+
+(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.
+
+(7) &quot;That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act&apos;s prohibition on engaging in deceptive acts or practices affecting commerce.&quot;
+
+The setup for this framing appears here:
+
+(1) &quot;State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning &apos;algorithmic discrimination&apos; may even force AI models to produce false results in order to avoid a &apos;differential treatment or impact&apos; on protected groups.&quot;" created="Fri, 12 Dec 2025 12:11:11 GMT" category="ai,fact,truth,states-rights,regulation,crytpto" />
     </outline>
     <outline text="report" title="report">
       <outline type="link" text="Americans’ Social Media Use 2025" title="Americans’ Social Media Use 2025" url="https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf" htmlUrl="https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf" description="Americans’ Social Media Use 2025 Growing shares of U.S. adults say they are using Instagram, TikTok, WhatsApp and Reddit, but YouTube still rises to the top" created="Sun, 23 Nov 2025 11:22:03 GMT" category="socialmedia,usa,report" />
@@ -2666,6 +2710,18 @@ Unfortunately, there isn’t a currently a way to prevent AI-generated &quot;mus
       <outline type="link" text="OpenAI will eventually allow “mature” ChatGPT apps." title="OpenAI will eventually allow “mature” ChatGPT apps." url="https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps" htmlUrl="https://www.theverge.com/news/793245/openai-will-eventually-allow-mature-chatgpt-apps" description="&quot;Support for mature (18+) experiences will arrive once appropriate age verification and controls are in place.&quot;
 https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 14 Oct 2025 10:14:07 GMT" category="standards,openai,ai,ethics" />
     </outline>
+    <outline text="states-rights" title="states-rights">
+      <outline type="link" text="Ensuring a National Policy Framework for Artificial Intelligence" title="Ensuring a National Policy Framework for Artificial Intelligence" url="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" htmlUrl="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" description="ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on &quot;truthful outputs&quot; and opposition to laws requiring models to &quot;alter their truthful outputs&quot; suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //
+
+
+(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.
+
+(7) &quot;That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act&apos;s prohibition on engaging in deceptive acts or practices affecting commerce.&quot;
+
+The setup for this framing appears here:
+
+(1) &quot;State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning &apos;algorithmic discrimination&apos; may even force AI models to produce false results in order to avoid a &apos;differential treatment or impact&apos; on protected groups.&quot;" created="Fri, 12 Dec 2025 12:11:11 GMT" category="ai,fact,truth,states-rights,regulation,crytpto" />
+    </outline>
     <outline text="stories" title="stories">
       <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
       <outline type="link" text="The Hunt for the World’s Oldest Story" title="The Hunt for the World’s Oldest Story" url="https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books" htmlUrl="https://www.newyorker.com/magazine/2025/10/20/review-the-roots-of-ancient-mythology-books" description="The key that Casaubon craved is particularly alluring. He wasn’t just tracing similarities; he was hunting for a primordial mythology, a long-lost ancestor dimly visible in its descendants. He happened to believe this original tradition was Christian truth, but set aside the apologetics and there’s still something intoxicating about the quest for a key: the notion that, by sifting through myth, we might retrieve the imaginative worlds of the earliest storytellers. Nor is the quest just a scholarly game; it’s an attempt to prove, against all odds, that our wild, warring species shares something irreducible at its core.
@@ -2880,6 +2936,16 @@ The Outcome: Incumbents who use AI to &quot;do the old thing faster&quot; will l
 And I know that I&apos;m not alone." created="Wed, 15 Oct 2025 22:53:02 GMT" category="truth,grok,media,narritive" />
       <outline type="link" text="AI: what will become of the truth?" title="AI: what will become of the truth?" url="https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd" htmlUrl="https://www.ft.com/content/b41735ae-3206-44c3-bab3-4e8cf28675bd" description="The film’s narrative follows Stephen Fry, playing a grandfather with dementia who uses AI to fill in gaps in his memory. While reviewing the archive of his life, his family is forced to question which memories are truly accurate and how AI is shaping our identity.
 " created="Sun, 21 Sep 2025 01:59:36 GMT" category="ai,memory,truth" />
+      <outline type="link" text="Ensuring a National Policy Framework for Artificial Intelligence" title="Ensuring a National Policy Framework for Artificial Intelligence" url="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" htmlUrl="https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" description="ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on &quot;truthful outputs&quot; and opposition to laws requiring models to &quot;alter their truthful outputs&quot; suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //
+
+
+(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.
+
+(7) &quot;That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act&apos;s prohibition on engaging in deceptive acts or practices affecting commerce.&quot;
+
+The setup for this framing appears here:
+
+(1) &quot;State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning &apos;algorithmic discrimination&apos; may even force AI models to produce false results in order to avoid a &apos;differential treatment or impact&apos; on protected groups.&quot;" created="Fri, 12 Dec 2025 12:11:11 GMT" category="ai,fact,truth,states-rights,regulation,crytpto" />
     </outline>
     <outline text="tutorial" title="tutorial">
       <outline type="link" text="Disable AI In Firefox" title="Disable AI In Firefox" url="https://flamedfury.com/posts/disable-ai-in-firefox/" htmlUrl="https://flamedfury.com/posts/disable-ai-in-firefox/" description="If you’d like to turn these features off, open about:config in the Firefox address bar, search for browser.ml.enable, set it to false, and that should disable everything.

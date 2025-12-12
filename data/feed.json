@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1765541471137",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+      "title": "Ensuring a National Policy Framework for Artificial Intelligence",
+      "date_published": "2025-12-12T12:11:11.137Z",
+      "tags": [
+        "ai",
+        "fact",
+        "truth",
+        "states-rights",
+        "regulation",
+        "crytpto"
+      ],
+      "content_text": "ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on \"truthful outputs\" and opposition to laws requiring models to \"alter their truthful outputs\" suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //\n\n\n(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.\n\n(7) \"That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act's prohibition on engaging in deceptive acts or practices affecting commerce.\"\n\nThe setup for this framing appears here:\n\n(1) \"State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning 'algorithmic discrimination' may even force AI models to produce false results in order to avoid a 'differential treatment or impact' on protected groups.\"",
+      "summary": "ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or decepti...",
+      "content_html": "<blockquote>ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on &quot;truthful outputs&quot; and opposition to laws requiring models to &quot;alter their truthful outputs&quot; suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //\n\n\n(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.\n\n(7) &quot;That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act&#039;s prohibition on engaging in deceptive acts or practices affecting commerce.&quot;\n\nThe setup for this framing appears here:\n\n(1) &quot;State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning &#039;algorithmic discrimination&#039; may even force AI models to produce false results in order to avoid a &#039;differential treatment or impact&#039; on protected groups.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, fact, truth, states-rights, regulation, crytpto</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1765496197634",
       "url": "https://anil.recoil.org/notes/principles-for-collective-knowledge",
       "title": "Four Ps for Building Massive Collective Knowledge Systems",

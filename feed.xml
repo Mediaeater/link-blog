@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 11 Dec 2025 23:36:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Dec 2025 12:17:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1457,6 +1457,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1765496197634</guid>
             <pubDate>Thu, 11 Dec 2025 23:36:37 GMT</pubDate>
             <description><![CDATA[Tags: knowledge, knowlege-graph, knowledge-system, aria, permanence, provenance, permission, placement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ensuring a National Policy Framework for Artificial Intelligence]]></title>
+            <link>https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/</link>
+            <guid>1765541471137</guid>
+            <pubDate>Fri, 12 Dec 2025 12:11:11 GMT</pubDate>
+            <description><![CDATA[Tags: ai, fact, truth, states-rights, regulation, crytpto]]></description>
         </item>
     </channel>
 </rss>
