@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1765496197634",
+      "url": "https://anil.recoil.org/notes/principles-for-collective-knowledge",
+      "title": "Four Ps for Building Massive Collective Knowledge Systems",
+      "date_published": "2025-12-11T23:36:37.634Z",
+      "tags": [
+        "knowledge",
+        "knowlege-graph",
+        "knowledge-system",
+        "aria",
+        "permanence, provenance, permission, placement"
+      ],
+      "content_text": "I found the perfect place to codify this at the ARIA Workshop on Collective Flourishing that Sadiq Jaffer and I attended in Birmingham last week. I posit there are \"4 P's\" needed for any collective knowledge system to be robust and accurate: permanence, provenance, permission and placement. If these properties exist throughout our knowledge graph, we can make robust networks for rapid evidence-based decision making. They also form a dam against the wave of agentic AI that is going to dominate the Internet next year in a big way.\n\nWill building these collective knowledge systems be a transformative capability for human society? Hot on the heels of COP30 concluding indecisively, I've been getting excited by decision making towards biodiversity going down a more positive path in IPBES. We could empower decisionmakers at all scales (local, country, international) to be able to move five times faster on actions about global species extinctions, unsustainable wildlife trade and food security, while rapidly assimilating extraordinarily complex evidence chains. I'll talk about this more while explaining the principles...\n\nThis post is split up into a few parts. First, let's introduce ARIA's convening role in this. Then I'll introduce the principles of permanence, provenance, permission, and placement. The post does assume some knowledge of Internet protocols; I'll write a more accessible one for a general audience at a future date when the ideas are more baked!",
+      "summary": "I found the perfect place to codify this at the ARIA Workshop on Collective Flourishing that Sadiq Jaffer and I attended in Birmingham last week. I po...",
+      "content_html": "<blockquote>I found the perfect place to codify this at the ARIA Workshop on Collective Flourishing that Sadiq Jaffer and I attended in Birmingham last week. I posit there are &quot;4 P&#039;s&quot; needed for any collective knowledge system to be robust and accurate: permanence, provenance, permission and placement. If these properties exist throughout our knowledge graph, we can make robust networks for rapid evidence-based decision making. They also form a dam against the wave of agentic AI that is going to dominate the Internet next year in a big way.\n\nWill building these collective knowledge systems be a transformative capability for human society? Hot on the heels of COP30 concluding indecisively, I&#039;ve been getting excited by decision making towards biodiversity going down a more positive path in IPBES. We could empower decisionmakers at all scales (local, country, international) to be able to move five times faster on actions about global species extinctions, unsustainable wildlife trade and food security, while rapidly assimilating extraordinarily complex evidence chains. I&#039;ll talk about this more while explaining the principles...\n\nThis post is split up into a few parts. First, let&#039;s introduce ARIA&#039;s convening role in this. Then I&#039;ll introduce the principles of permanence, provenance, permission, and placement. The post does assume some knowledge of Internet protocols; I&#039;ll write a more accessible one for a general audience at a future date when the ideas are more baked!</blockquote>\n<p><strong>Tags:</strong> knowledge, knowlege-graph, knowledge-system, aria, permanence, provenance, permission, placement</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1765485048951",
       "url": "https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back",
       "title": "Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back.",

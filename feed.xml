@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 11 Dec 2025 20:30:48 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2025 23:36:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1450,6 +1450,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1765485048951</guid>
             <pubDate>Thu, 11 Dec 2025 20:30:48 GMT</pubDate>
             <description><![CDATA[Tags: aws, free, cloud, tutorial, infrastructure, privacy, verification, opesec, agents, eff]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Four Ps for Building Massive Collective Knowledge Systems]]></title>
+            <link>https://anil.recoil.org/notes/principles-for-collective-knowledge</link>
+            <guid>1765496197634</guid>
+            <pubDate>Thu, 11 Dec 2025 23:36:37 GMT</pubDate>
+            <description><![CDATA[Tags: knowledge, knowlege-graph, knowledge-system, aria, permanence, provenance, permission, placement]]></description>
         </item>
     </channel>
 </rss>
