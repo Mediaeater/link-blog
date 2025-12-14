@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://newsfeeds.net</loc>
-    <lastmod>2025-12-12T12:18:10Z</lastmod>
+    <lastmod>2025-12-14T14:15:32Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -70,13 +70,13 @@
     <loc>https://newsfeeds.net#link-11</loc>
     <lastmod>2025-12-06T13:21:32Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-12</loc>
     <lastmod>2025-12-06T11:44:40Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-13</loc>
