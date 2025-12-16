@@ -74,9 +74,10 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   }, [links]);
 
   // Calculate animation duration based on content length
+  // ~1.5 seconds per link for comfortable reading speed
   const animationDuration = useMemo(() => {
-    const baseSpeed = links.length * 3;
-    return Math.max(20, Math.min(90, baseSpeed));
+    const duration = links.length * 1.5;
+    return Math.max(30, duration); // minimum 30s, no max cap
   }, [links.length]);
 
   const handleTogglePause = () => {
