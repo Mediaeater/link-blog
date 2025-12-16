@@ -15,6 +15,83 @@
   ],
   "items": [
     {
+      "id": "1765847212637",
+      "url": "https://www.flaggingdown.com/p/the-bob-dylan-concert-for-just-one",
+      "title": "The Bob Dylan Concert for Just One Person",
+      "date_published": "2025-12-16T01:06:52.637Z",
+      "tags": [
+        "dylan",
+        "experience",
+        "human",
+        "music"
+      ],
+      "content_text": "That person was Fredrik Wikingsson, a prominent TV host in Sweden. The video was part of a series called Experiment Ensam, which translates to Experiment Alone. The idea was to explore what happened when a single person did an activity typically meant for a group: Karaoke, stand-up comedy, and, in this case, attending a Bob Dylan concert. Have you ever gotten annoyed at people around you at a Dylan concert and wished they weren’t there? For Wikingsson, they weren’t.",
+      "summary": "That person was Fredrik Wikingsson, a prominent TV host in Sweden. The video was part of a series called Experiment Ensam, which translates to Experim...",
+      "content_html": "<blockquote>That person was Fredrik Wikingsson, a prominent TV host in Sweden. The video was part of a series called Experiment Ensam, which translates to Experiment Alone. The idea was to explore what happened when a single person did an activity typically meant for a group: Karaoke, stand-up comedy, and, in this case, attending a Bob Dylan concert. Have you ever gotten annoyed at people around you at a Dylan concert and wished they weren’t there? For Wikingsson, they weren’t.</blockquote>\n<p><strong>Tags:</strong> dylan, experience, human, music</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765846809658",
+      "url": "https://creativecommons.org/2025/12/12/where-cc-stands-on-pay-to-crawl/",
+      "title": "Where CC Stands on Pay-to-Crawl - Creative Commons",
+      "date_published": "2025-12-16T01:00:09.658Z",
+      "tags": [
+        "copyright",
+        "creative-commons",
+        "ai",
+        "licensing",
+        "ccc",
+        "pay-to-crawl"
+      ],
+      "content_text": "CC’s Position on Pay-to-Crawl\nImplemented responsibly, pay-to-crawl could represent a way for websites to sustain the creation and sharing of their content, and manage substitutive uses, keeping content publicly accessible where it might otherwise not be shared or would disappear behind even more restrictive paywalls.\n\nHowever, we do have significant reservations.\n\nPay-to-crawl may represent an appropriate strategy for independent websites seeking to prevent AI crawlers from knocking them offline or to generate supplementary revenue. But elsewhere, pay-to-crawl systems could be cynically exploited by rightsholders to generate excessive profits, at the expense of human access and without necessarily benefiting the original creators.\n\n",
+      "summary": "CC’s Position on Pay-to-Crawl\nImplemented responsibly, pay-to-crawl could represent a way for websites to sustain the creation and sharing of their co...",
+      "content_html": "<blockquote>CC’s Position on Pay-to-Crawl\nImplemented responsibly, pay-to-crawl could represent a way for websites to sustain the creation and sharing of their content, and manage substitutive uses, keeping content publicly accessible where it might otherwise not be shared or would disappear behind even more restrictive paywalls.\n\nHowever, we do have significant reservations.\n\nPay-to-crawl may represent an appropriate strategy for independent websites seeking to prevent AI crawlers from knocking them offline or to generate supplementary revenue. But elsewhere, pay-to-crawl systems could be cynically exploited by rightsholders to generate excessive profits, at the expense of human access and without necessarily benefiting the original creators.\n\n</blockquote>\n<p><strong>Tags:</strong> copyright, creative-commons, ai, licensing, ccc, pay-to-crawl</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765720280357",
+      "url": "https://sandyuraz.com/blogs/bourdain/",
+      "title": "Recovering Anthony Bourdain’s (really) lost Li.st’s",
+      "date_published": "2025-12-14T13:51:20.357Z",
+      "tags": [
+        "list",
+        "archive-practice",
+        "common-crawl"
+      ],
+      "content_text": "Recovering what we lost\nFrom Greg’s page, let’s go and try each entry one by one, I’ll put the table of what I wasn’t able to find in Common Crawl, but I would assume exists elsewhere—I’d be happy to take another look. And no, none of this above has been written by AI, only the code since I don’t really care about warcio encoding or writing the same python requests method for the Nth time. Enjoy!",
+      "summary": "Recovering what we lost\nFrom Greg’s page, let’s go and try each entry one by one, I’ll put the table of what I wasn’t able to find in Common Crawl, bu...",
+      "content_html": "<blockquote>Recovering what we lost\nFrom Greg’s page, let’s go and try each entry one by one, I’ll put the table of what I wasn’t able to find in Common Crawl, but I would assume exists elsewhere—I’d be happy to take another look. And no, none of this above has been written by AI, only the code since I don’t really care about warcio encoding or writing the same python requests method for the Nth time. Enjoy!</blockquote>\n<p><strong>Tags:</strong> list, archive-practice, common-crawl</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765719689458",
+      "url": "https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba",
+      "title": "Could America win the AI race but lose the war?",
+      "date_published": "2025-12-14T13:41:29.458Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "harms",
+        "cn"
+      ],
+      "content_text": "(ed note: this end days note, checks notes, in paragraph 13) There is another important difference. China is banking far more heavily on simpler, lower-cost open-source AI models. In the US, most of the leading “frontier” AI models are secret and proprietary, in part as a business model and in part due to the apocryphal fears that the wrong actors could trigger human extinction. The smaller, lower-cost Chinese models may be seeking, in that sense, to be the more nimble 1970s Toyota rivals to the giant American cars produced by General Motors.\n",
+      "summary": "(ed note: this end days note, checks notes, in paragraph 13) There is another important difference. China is banking far more heavily on simpler, lowe...",
+      "content_html": "<blockquote>(ed note: this end days note, checks notes, in paragraph 13) There is another important difference. China is banking far more heavily on simpler, lower-cost open-source AI models. In the US, most of the leading “frontier” AI models are secret and proprietary, in part as a business model and in part due to the apocryphal fears that the wrong actors could trigger human extinction. The smaller, lower-cost Chinese models may be seeking, in that sense, to be the more nimble 1970s Toyota rivals to the giant American cars produced by General Motors.\n</blockquote>\n<p><strong>Tags:</strong> ai, ethics, harms, cn</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1765541471137",
       "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
       "title": "Ensuring a National Policy Framework for Artificial Intelligence",
