@@ -1512,7 +1512,7 @@ export default function LinkBlogClean() {
       </main>
 
       {/* Times Square-style news ticker - landscape mobile only */}
-      <NewsTicker links={filteredLinks} />
+      <NewsTicker links={filteredAndSortedLinks} />
     </div>
   );
 }
