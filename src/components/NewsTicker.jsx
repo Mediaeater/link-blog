@@ -42,6 +42,17 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     });
   };
 
+  // Extract domain from URL
+  const getDomain = (url) => {
+    if (!url) return '';
+    try {
+      const hostname = new URL(url).hostname;
+      return hostname.replace(/^www\./, '');
+    } catch {
+      return '';
+    }
+  };
+
   // Advance to next link with black transition
   const nextLink = useCallback(() => {
     const list = linksWithQuotes.length > 0 ? linksWithQuotes : links;
@@ -207,20 +218,13 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     >
       {/* Main content area */}
       <div className={`ticker-card ${isTransitioning ? 'ticker-fade-out' : ''}`} onClick={handleItemClick}>
-        {/* Top row: Static metadata */}
-        <div className="ticker-meta">
+        {/* Top: Source headline + domain */}
+        <div className="ticker-headline">
           <span className="ticker-source">{currentLink.source}</span>
-          <span className="ticker-separator">•</span>
-          <span className="ticker-date">{formatDate(currentLink.timestamp)}</span>
-          {currentLink.tags && currentLink.tags.length > 0 && (
-            <>
-              <span className="ticker-separator">•</span>
-              <span className="ticker-tags">{currentLink.tags.join(', ')}</span>
-            </>
-          )}
+          <span className="ticker-domain">{getDomain(currentLink.url)}</span>
         </div>
 
-        {/* Bottom row: Quote text */}
+        {/* Middle: Quote text */}
         <div className="ticker-quote-track" ref={trackRef}>
           <div
             className={`ticker-quote ${needsScroll ? 'needs-scroll' : ''}`}
@@ -230,6 +234,17 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
           >
             {currentLink.pullQuote || currentLink.source}
           </div>
+        </div>
+
+        {/* Bottom: Date and tags */}
+        <div className="ticker-footer">
+          <span className="ticker-date">{formatDate(currentLink.timestamp)}</span>
+          {currentLink.tags && currentLink.tags.length > 0 && (
+            <>
+              <span className="ticker-separator">•</span>
+              <span className="ticker-tags">{currentLink.tags.join(', ')}</span>
+            </>
+          )}
         </div>
 
         {/* Progress indicator - auto-hides */}
