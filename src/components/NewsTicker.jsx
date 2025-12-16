@@ -50,7 +50,7 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
 
     const timer = setInterval(() => {
       nextLink();
-    }, 24000); // 24 seconds per entry to read
+    }, 28000); // 28 seconds per entry (6s hold + 21s scroll + 1s buffer)
 
     return () => clearInterval(timer);
   }, [isVisible, isPaused, currentLink, nextLink]);

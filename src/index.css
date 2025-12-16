@@ -412,7 +412,7 @@ body {
 }
 
 .ticker-quote.needs-scroll {
-  animation: ticker-fade-in 1s ease-out forwards, ticker-scroll-up 18s linear 6s forwards;
+  animation: ticker-fade-in 1s ease-out forwards, ticker-scroll-up 21s linear 6s forwards;
 }
 
 @keyframes ticker-fade-in {
