@@ -21,6 +21,7 @@ import {
 } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 import { loadArchiveMetadata, loadArchiveYear } from '../utils/storage';
+import NewsTicker from './NewsTicker';
 
 const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
 const STORAGE_KEY = 'linkBlogData';
@@ -1509,6 +1510,9 @@ export default function LinkBlogClean() {
           )}
         </div>
       </main>
+
+      {/* Times Square-style news ticker - landscape mobile only */}
+      <NewsTicker links={filteredLinks} />
     </div>
   );
 }

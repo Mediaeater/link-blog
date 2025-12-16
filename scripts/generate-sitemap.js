@@ -9,6 +9,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import https from 'https';
 
 // Get current directory for ES modules
 const __filename = fileURLToPath(import.meta.url);
@@ -101,6 +102,48 @@ function generateUrlEntry(baseUrl, link, linkId) {
 }
 
 /**
+ * Ping Google to notify about sitemap update
+ * Non-blocking - doesn't fail if ping fails
+ *
+ * Note: Google deprecated the ping endpoint. This attempts the legacy method
+ * but the recommended approach is to submit via Google Search Console.
+ */
+function pingGoogle(sitemapUrl) {
+  const pingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
+
+  console.log('  Attempting to notify Google of sitemap update...');
+
+  https.get(pingUrl, (res) => {
+    if (res.statusCode === 200) {
+      console.log('  ✓ Google ping successful');
+    } else if (res.statusCode === 404) {
+      console.log('  ℹ Google ping endpoint deprecated (status 404)');
+      console.log('  → Submit sitemap manually via Google Search Console:');
+      console.log(`    https://search.google.com/search-console`);
+    } else {
+      console.log(`  ⚠ Google ping returned status: ${res.statusCode}`);
+    }
+  }).on('error', (err) => {
+    console.log(`  ⚠ Google ping failed: ${err.message}`);
+  });
+}
+
+/**
+ * Check if we should ping Google
+ * Only ping in CI environment or when --ping flag is provided
+ */
+function shouldPingGoogle() {
+  // Check for --ping flag
+  if (process.argv.includes('--ping')) {
+    return true;
+  }
+
+  // Check for CI environment
+  const ciEnvironments = ['CI', 'GITHUB_ACTIONS', 'GITLAB_CI', 'CIRCLECI', 'TRAVIS'];
+  return ciEnvironments.some(env => process.env[env]);
+}
+
+/**
  * Main sitemap generation function
  */
 function generateSitemap() {
@@ -163,6 +206,14 @@ function generateSitemap() {
     console.log(`  Total URLs: ${sortedLinks.length + 1}`);
     console.log(`  File size: ${fileSize} KB`);
     console.log(`  Timestamp: ${new Date().toISOString()}`);
+
+    // Ping Google if appropriate
+    if (shouldPingGoogle()) {
+      const sitemapUrl = `${CONFIG.baseUrl}/sitemap.xml`;
+      pingGoogle(sitemapUrl);
+    } else {
+      console.log('  ℹ Skipping Google ping (use --ping flag or run in CI to enable)');
+    }
   } catch (error) {
     console.error('Error generating sitemap:', error.message);
     process.exit(1);

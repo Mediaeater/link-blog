@@ -321,3 +321,195 @@ body {
     gap: 2rem; /* Consistent 32px between items */
   }
 }
+
+/* =============================================================================
+   NEWS TICKER - Times Square Zipper Style
+   Shows in landscape orientation on mobile devices
+   ============================================================================= */
+
+.ticker-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 1) 10%
+  );
+  border-top: 3px solid rgb(var(--primary-500));
+  contain: layout style paint;
+  transform: translateZ(0);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Show only in landscape on mobile */
+@media (orientation: landscape) and (max-width: 926px) {
+  .ticker-container {
+    display: block;
+  }
+}
+
+.ticker-track {
+  width: 100%;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.ticker-content {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: ticker-scroll 30s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  padding-left: 100%;
+}
+
+.ticker-content.paused {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-66.666%);
+  }
+}
+
+.ticker-item-wrapper {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--duration-fast) var(--easing);
+  border-radius: var(--border-radius-sm);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  min-height: 44px;
+}
+
+.ticker-item:hover,
+.ticker-item:focus-visible {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.ticker-item:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.4);
+  outline-offset: 2px;
+}
+
+.ticker-bullet {
+  color: rgb(var(--primary-400));
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  opacity: 0.9;
+}
+
+.ticker-title {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  max-width: 50ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ticker-tags {
+  color: rgb(var(--primary-400));
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-left: 0.25rem;
+}
+
+.ticker-control {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  transition: all var(--duration-base) var(--easing);
+  backdrop-filter: blur(8px);
+}
+
+.ticker-control:hover,
+.ticker-control:focus-visible {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-50%) scale(1.05);
+}
+
+.ticker-control:focus-visible {
+  outline: 2px solid rgb(var(--primary-500));
+  outline-offset: 2px;
+}
+
+.ticker-control:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.ticker-notice {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  font-size: 0.6875rem;
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--border-radius-sm);
+  pointer-events: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .ticker-content {
+    animation-play-state: paused !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .ticker-container {
+    border-top-width: 4px;
+  }
+
+  .ticker-item:focus-visible {
+    outline-width: 3px;
+  }
+
+  .ticker-control {
+    border-width: 3px;
+  }
+}
