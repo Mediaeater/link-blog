@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react';
+import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { Pause, Play, X, SkipForward } from 'lucide-react';
 
 /**
@@ -12,6 +12,9 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   const [isLandscapeMobile, setIsLandscapeMobile] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const [needsScroll, setNeedsScroll] = useState(false);
+  const quoteRef = useRef(null);
+  const trackRef = useRef(null);
 
   // Show if forced OR landscape mobile
   const isVisible = forceShow || isLandscapeMobile;
@@ -92,6 +95,21 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     }
   }, [prefersReducedMotion]);
 
+  // Check if quote needs scrolling (content overflows container)
+  useEffect(() => {
+    const checkOverflow = () => {
+      if (quoteRef.current && trackRef.current) {
+        const quoteHeight = quoteRef.current.scrollHeight;
+        const trackHeight = trackRef.current.clientHeight;
+        setNeedsScroll(quoteHeight > trackHeight + 20); // 20px buffer
+      }
+    };
+
+    // Check after content renders
+    const timer = setTimeout(checkOverflow, 100);
+    return () => clearTimeout(timer);
+  }, [currentIndex, currentLink]);
+
   // Keyboard controls
   useEffect(() => {
     if (!isVisible) return;
@@ -147,9 +165,13 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
           )}
         </div>
 
-        {/* Bottom row: Quote text (static, readable) */}
-        <div className="ticker-quote-track">
-          <div className="ticker-quote" key={currentIndex}>
+        {/* Bottom row: Quote text */}
+        <div className="ticker-quote-track" ref={trackRef}>
+          <div
+            className={`ticker-quote ${needsScroll ? 'needs-scroll' : ''}`}
+            key={currentIndex}
+            ref={quoteRef}
+          >
             {currentLink.pullQuote || currentLink.source}
           </div>
         </div>
