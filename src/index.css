@@ -345,23 +345,24 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 2rem 4rem;
   cursor: pointer;
   transition: background var(--duration-base) var(--easing);
+  overflow: hidden;
 }
 
 .ticker-card:hover {
   background: rgba(255, 255, 255, 0.02);
 }
 
-/* Top row: Static metadata */
+/* Top row: Static metadata - fixed at top */
 .ticker-meta {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
   flex-wrap: wrap;
+  flex-shrink: 0;
 }
 
 .ticker-source {
@@ -393,28 +394,38 @@ body {
 
 /* Bottom row: Quote text */
 .ticker-quote-track {
+  flex: 1;
   width: 100%;
   max-width: 1400px;
+  overflow: hidden;
+  position: relative;
 }
 
 .ticker-quote {
   color: white;
-  font-size: clamp(1.75rem, 4vw, 3.5rem);
+  font-size: clamp(1.5rem, 3.5vw, 2.75rem);
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: -0.01em;
   white-space: pre-line;
-  animation: ticker-fade-in 1s ease-out forwards;
+  animation: ticker-fade-in 1s ease-out forwards, ticker-scroll-up 24s linear 1s forwards;
 }
 
 @keyframes ticker-fade-in {
   from {
     opacity: 0;
-    transform: translateY(10px);
   }
   to {
     opacity: 1;
+  }
+}
+
+@keyframes ticker-scroll-up {
+  from {
     transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% + 60vh));
   }
 }
 
