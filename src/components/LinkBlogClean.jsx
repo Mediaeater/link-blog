@@ -16,7 +16,8 @@ import {
   Copy,
   Check,
   Filter,
-  Info
+  Info,
+  AlertTriangle
 } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 import { loadArchiveMetadata, loadArchiveYear } from '../utils/storage';
@@ -54,8 +55,11 @@ export default function LinkBlogClean() {
   const [loadedArchives, setLoadedArchives] = useState(new Set());
   const [showArchives, setShowArchives] = useState(false);
   const [searchExpanded, setSearchExpanded] = useState(false);
+  const [saveError, setSaveError] = useState(null);
+  const [dataWarning, setDataWarning] = useState(null);
 
   const searchRef = useRef(null);
+  const autoBackupRef = useRef(null);
   const quickPasteRef = useRef(null);
   const linkRefs = useRef({});
   const tagInputRef = useRef(null);
@@ -82,16 +86,51 @@ export default function LinkBlogClean() {
           localData = JSON.parse(stored);
         }
 
-        // Use the most recent data
+        // Use the most recent data with version check warning
         if (localData && localData.lastUpdated && jsonData.lastUpdated) {
           const jsonTime = new Date(jsonData.lastUpdated).getTime();
           const localTime = new Date(localData.lastUpdated).getTime();
+          const localCount = localData.links?.length || 0;
+          const jsonCount = jsonData.links?.length || 0;
 
           if (localTime > jsonTime) {
+            // localStorage is newer - use it but warn if counts differ significantly
             setLinks(localData.links || []);
+            if (localCount > jsonCount) {
+              setDataWarning({
+                message: `Browser has ${localCount - jsonCount} more links than server. Save to sync.`,
+                localCount,
+                jsonCount,
+                localTime: new Date(localData.lastUpdated).toLocaleString(),
+                jsonTime: new Date(jsonData.lastUpdated).toLocaleString()
+              });
+            }
           } else {
-            setLinks(jsonData.links || []);
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+            // JSON is newer - but warn before overwriting if localStorage has more links
+            if (localCount > jsonCount) {
+              const useLocal = window.confirm(
+                `⚠️ Data Conflict Detected!\n\n` +
+                `Browser: ${localCount} links (${new Date(localData.lastUpdated).toLocaleString()})\n` +
+                `Server: ${jsonCount} links (${new Date(jsonData.lastUpdated).toLocaleString()})\n\n` +
+                `Your browser has ${localCount - jsonCount} more links.\n\n` +
+                `Click OK to keep browser data (recommended)\n` +
+                `Click Cancel to use server data (will lose browser-only links)`
+              );
+              if (useLocal) {
+                setLinks(localData.links || []);
+                setDataWarning({
+                  message: `Using browser data. Save to sync ${localCount - jsonCount} links to server.`,
+                  localCount,
+                  jsonCount
+                });
+              } else {
+                setLinks(jsonData.links || []);
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+              }
+            } else {
+              setLinks(jsonData.links || []);
+              localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+            }
           }
         } else {
           setLinks(jsonData.links || []);
@@ -122,6 +161,8 @@ export default function LinkBlogClean() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 
     // Then try to save to file
+    const isProduction = !window.location.hostname.includes('localhost');
+
     try {
       const response = await fetch('http://localhost:3001/api/save-links', {
         method: 'POST',
@@ -132,16 +173,23 @@ export default function LinkBlogClean() {
       if (!response.ok) {
         throw new Error('Failed to save to server');
       }
+
+      // Success - clear any errors and warnings
+      setSaveError(null);
+      setDataWarning(null);
+      console.log(`✅ Saved ${updatedLinks.length} links to server`);
     } catch (error) {
       console.error('Could not save to server:', error);
-      // On GitHub Pages (production), server save will fail - that's expected
-      // Data is still saved to localStorage and persists in the browser
-      const isProduction = !window.location.hostname.includes('localhost');
+
       if (isProduction) {
         console.log('✓ Changes saved to browser localStorage (server sync not available on static hosting)');
       } else {
-        alert('Changes saved locally. Server save failed. Is the API server running?');
-        throw error;
+        // Show persistent error banner instead of alert
+        setSaveError({
+          message: `Save failed! ${updatedLinks.length} links saved to browser only.`,
+          details: 'API server not responding. Start it with: npm run dev:save',
+          timestamp: new Date().toLocaleTimeString()
+        });
       }
     }
   }, []);
@@ -178,6 +226,43 @@ export default function LinkBlogClean() {
       await loadArchive(archive.year);
     }
   }, [archives, loadArchive]);
+
+  // Auto-backup to localStorage backup key (overwrites each time)
+  const performAutoBackup = useCallback(() => {
+    const data = localStorage.getItem(STORAGE_KEY);
+    if (data) {
+      const backupData = {
+        ...JSON.parse(data),
+        backupTimestamp: new Date().toISOString()
+      };
+      localStorage.setItem(`${STORAGE_KEY}_backup`, JSON.stringify(backupData));
+      console.log(`🔄 Auto-backup: ${backupData.links?.length || 0} links backed up at ${new Date().toLocaleTimeString()}`);
+    }
+  }, []);
+
+  // Set up auto-backup interval (every 5 minutes)
+  useEffect(() => {
+    // Only run auto-backup for admin users in dev mode
+    const isProduction = !window.location.hostname.includes('localhost');
+    if (isProduction) return;
+
+    // Initial backup after 30 seconds
+    const initialBackup = setTimeout(() => {
+      performAutoBackup();
+    }, 30000);
+
+    // Then every 5 minutes
+    autoBackupRef.current = setInterval(() => {
+      performAutoBackup();
+    }, 5 * 60 * 1000);
+
+    return () => {
+      clearTimeout(initialBackup);
+      if (autoBackupRef.current) {
+        clearInterval(autoBackupRef.current);
+      }
+    };
+  }, [performAutoBackup]);
 
   // Initialize
   // Load initial data and URL parameters
@@ -591,6 +676,60 @@ export default function LinkBlogClean() {
 
   return (
     <div className="min-h-screen bg-neutral-50">
+      {/* Save Error Banner */}
+      {saveError && (
+        <div className="sticky top-0 z-50 bg-red-600 text-white px-4 py-3 shadow-lg">
+          <div className="container-width flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <AlertTriangle className="w-5 h-5 flex-shrink-0" />
+              <div>
+                <p className="font-medium">{saveError.message}</p>
+                <p className="text-sm text-red-100">{saveError.details}</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <span className="text-xs text-red-200">{saveError.timestamp}</span>
+              <button
+                onClick={() => setSaveError(null)}
+                className="p-1 hover:bg-red-700 rounded"
+                title="Dismiss"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Data Warning Banner */}
+      {dataWarning && (
+        <div className="sticky top-0 z-50 bg-amber-500 text-amber-950 px-4 py-3 shadow-lg">
+          <div className="container-width flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <AlertTriangle className="w-5 h-5 flex-shrink-0" />
+              <p className="font-medium">{dataWarning.message}</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => {
+                  saveToFile(links);
+                }}
+                className="px-3 py-1 bg-amber-700 text-white rounded text-sm font-medium hover:bg-amber-800"
+              >
+                Sync Now
+              </button>
+              <button
+                onClick={() => setDataWarning(null)}
+                className="p-1 hover:bg-amber-600 rounded"
+                title="Dismiss"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Header - Always visible for admins, hidden in minimal view for regular users */}
       {(!isMinimalView || isAdmin) && (
         <header className="sticky top-0 z-20 bg-white border-b-2 border-neutral-900">
