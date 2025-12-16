@@ -58,6 +58,7 @@ export default function LinkBlogClean() {
   const [searchExpanded, setSearchExpanded] = useState(false);
   const [saveError, setSaveError] = useState(null);
   const [dataWarning, setDataWarning] = useState(null);
+  const [showTicker, setShowTicker] = useState(false);
 
   const searchRef = useRef(null);
   const autoBackupRef = useRef(null);
@@ -812,6 +813,13 @@ export default function LinkBlogClean() {
                 <span className="text-neutral-300">|</span>
                 <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">OPML</a>
                 <span className="text-neutral-300">|</span>
+                <button
+                  onClick={() => setShowTicker(prev => !prev)}
+                  className={`hover:text-neutral-900 transition-colors ${showTicker ? 'text-neutral-900 font-medium' : ''}`}
+                >
+                  {showTicker ? 'Ticker ●' : 'Ticker'}
+                </button>
+                <span className="text-neutral-300">|</span>
                 <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">mediaeater.inc</a>
               </div>
 
@@ -1511,8 +1519,8 @@ export default function LinkBlogClean() {
         </div>
       </main>
 
-      {/* Times Square-style news ticker - landscape mobile only */}
-      <NewsTicker links={filteredAndSortedLinks} />
+      {/* Times Square-style news ticker - landscape mobile or manual toggle */}
+      <NewsTicker links={filteredAndSortedLinks} forceShow={showTicker} onClose={() => setShowTicker(false)} />
     </div>
   );
 }

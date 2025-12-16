@@ -1,22 +1,25 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Pause, Play } from 'lucide-react';
+import { Pause, Play, X } from 'lucide-react';
 
 /**
  * Times Square-style news ticker
  * Shows in landscape orientation on mobile devices
  * Auto-scrolls link titles horizontally
  */
-export default function NewsTicker({ links = [] }) {
+export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   const [isPaused, setIsPaused] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
+  const [isLandscapeMobile, setIsLandscapeMobile] = useState(false);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+
+  // Show if forced OR landscape mobile
+  const isVisible = forceShow || isLandscapeMobile;
 
   // Detect landscape orientation on mobile
   useEffect(() => {
     const checkOrientation = () => {
       const landscape = window.matchMedia("(orientation: landscape)").matches;
       const mobile = window.matchMedia("(max-width: 768px)").matches;
-      setIsVisible(landscape && mobile);
+      setIsLandscapeMobile(landscape && mobile);
     };
 
     checkOrientation();
@@ -118,18 +121,29 @@ export default function NewsTicker({ links = [] }) {
         </div>
       </div>
 
-      <button
-        className="ticker-control"
-        onClick={handleTogglePause}
-        aria-label={isPaused ? 'Resume ticker' : 'Pause ticker'}
-        aria-pressed={isPaused}
-      >
-        {isPaused ? (
-          <Play className="w-5 h-5" />
-        ) : (
-          <Pause className="w-5 h-5" />
+      <div className="ticker-controls">
+        <button
+          className="ticker-control"
+          onClick={handleTogglePause}
+          aria-label={isPaused ? 'Resume ticker' : 'Pause ticker'}
+          aria-pressed={isPaused}
+        >
+          {isPaused ? (
+            <Play className="w-5 h-5" />
+          ) : (
+            <Pause className="w-5 h-5" />
+          )}
+        </button>
+        {onClose && (
+          <button
+            className="ticker-control"
+            onClick={onClose}
+            aria-label="Close ticker"
+          >
+            <X className="w-5 h-5" />
+          </button>
         )}
-      </button>
+      </div>
 
       {prefersReducedMotion && (
         <div className="ticker-notice">
