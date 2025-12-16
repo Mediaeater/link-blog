@@ -347,8 +347,14 @@ body {
   flex-direction: column;
   padding: 2rem 4rem;
   cursor: pointer;
-  transition: background var(--duration-base) var(--easing);
+  transition: opacity 0.5s ease-out, background var(--duration-base) var(--easing);
   overflow: hidden;
+  opacity: 1;
+}
+
+.ticker-card.ticker-fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 .ticker-card:hover {
@@ -412,7 +418,8 @@ body {
 }
 
 .ticker-quote.needs-scroll {
-  animation: ticker-fade-in 1s ease-out forwards, ticker-scroll-up 21s linear 6s forwards;
+  --scroll-duration: 25s;
+  animation: ticker-fade-in 1s ease-out forwards, ticker-scroll-up var(--scroll-duration) linear 6s forwards;
 }
 
 @keyframes ticker-fade-in {
@@ -443,6 +450,13 @@ body {
   font-weight: 500;
   letter-spacing: 0.1em;
   font-variant-numeric: tabular-nums;
+  transition: opacity 0.3s ease-out;
+}
+
+/* Hidden state for controls and progress */
+.ticker-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* Controls */
@@ -453,6 +467,7 @@ body {
   z-index: 10;
   display: flex;
   gap: 0.75rem;
+  transition: opacity 0.3s ease-out;
 }
 
 .ticker-control {

@@ -13,8 +13,12 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const [needsScroll, setNeedsScroll] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [showControls, setShowControls] = useState(true);
+  const [scrollDuration, setScrollDuration] = useState(25);
   const quoteRef = useRef(null);
   const trackRef = useRef(null);
+  const hideControlsTimer = useRef(null);
 
   // Show if forced OR landscape mobile
   const isVisible = forceShow || isLandscapeMobile;
@@ -38,22 +42,28 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     });
   };
 
-  // Advance to next link
+  // Advance to next link with black transition
   const nextLink = useCallback(() => {
     const list = linksWithQuotes.length > 0 ? linksWithQuotes : links;
-    setCurrentIndex(prev => (prev + 1) % list.length);
+    // Start transition to black
+    setIsTransitioning(true);
+    // After 1 second of black, change the story
+    setTimeout(() => {
+      setCurrentIndex(prev => (prev + 1) % list.length);
+      setIsTransitioning(false);
+    }, 1000);
   }, [linksWithQuotes, links]);
 
-  // Auto-advance every 15 seconds (slow)
+  // Auto-advance timer
   useEffect(() => {
-    if (!isVisible || isPaused || !currentLink) return;
+    if (!isVisible || isPaused || !currentLink || isTransitioning) return;
 
     const timer = setInterval(() => {
       nextLink();
-    }, 28000); // 28 seconds per entry (6s hold + 21s scroll + 1s buffer)
+    }, 32000); // 32 seconds per entry (6s hold + 25s scroll + 1s black transition)
 
     return () => clearInterval(timer);
-  }, [isVisible, isPaused, currentLink, nextLink]);
+  }, [isVisible, isPaused, currentLink, nextLink, isTransitioning]);
 
   // Detect landscape orientation on mobile
   useEffect(() => {
@@ -95,13 +105,22 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     }
   }, [prefersReducedMotion]);
 
-  // Check if quote needs scrolling (content overflows container)
+  // Check if quote needs scrolling and calculate dynamic scroll duration
   useEffect(() => {
     const checkOverflow = () => {
       if (quoteRef.current && trackRef.current) {
         const quoteHeight = quoteRef.current.scrollHeight;
         const trackHeight = trackRef.current.clientHeight;
-        setNeedsScroll(quoteHeight > trackHeight + 20); // 20px buffer
+        const overflow = quoteHeight - trackHeight;
+
+        if (overflow > 20) {
+          setNeedsScroll(true);
+          // Calculate duration based on overflow: ~40px per second for consistent speed
+          const calculatedDuration = Math.max(15, Math.min(60, overflow / 40));
+          setScrollDuration(calculatedDuration);
+        } else {
+          setNeedsScroll(false);
+        }
       }
     };
 
@@ -109,6 +128,38 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     const timer = setTimeout(checkOverflow, 100);
     return () => clearTimeout(timer);
   }, [currentIndex, currentLink]);
+
+  // Auto-hide controls after 3 seconds
+  useEffect(() => {
+    if (!isVisible) return;
+
+    const startHideTimer = () => {
+      if (hideControlsTimer.current) {
+        clearTimeout(hideControlsTimer.current);
+      }
+      hideControlsTimer.current = setTimeout(() => {
+        setShowControls(false);
+      }, 3000);
+    };
+
+    // Start timer on mount and when controls are shown
+    if (showControls) {
+      startHideTimer();
+    }
+
+    return () => {
+      if (hideControlsTimer.current) {
+        clearTimeout(hideControlsTimer.current);
+      }
+    };
+  }, [isVisible, showControls]);
+
+  // Show controls on tap/click anywhere
+  const handleScreenTap = useCallback((e) => {
+    // Don't trigger if clicking a button
+    if (e.target.closest('.ticker-control')) return;
+    setShowControls(true);
+  }, []);
 
   // Keyboard controls
   useEffect(() => {
@@ -139,7 +190,10 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     }
   };
 
-  if (!isVisible || !currentLink) return null;
+  // Don't render if not visible or still loading (prevents "no links" flash)
+  if (!isVisible) return null;
+  if (!currentLink && links.length === 0) return null;
+  if (!currentLink) return null;
 
   const list = linksWithQuotes.length > 0 ? linksWithQuotes : links;
 
@@ -149,9 +203,10 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
       role="region"
       aria-live="polite"
       aria-label="News ticker"
+      onClick={handleScreenTap}
     >
       {/* Main content area */}
-      <div className="ticker-card" onClick={handleItemClick}>
+      <div className={`ticker-card ${isTransitioning ? 'ticker-fade-out' : ''}`} onClick={handleItemClick}>
         {/* Top row: Static metadata */}
         <div className="ticker-meta">
           <span className="ticker-source">{currentLink.source}</span>
@@ -171,19 +226,20 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
             className={`ticker-quote ${needsScroll ? 'needs-scroll' : ''}`}
             key={currentIndex}
             ref={quoteRef}
+            style={needsScroll ? { '--scroll-duration': `${scrollDuration}s` } : undefined}
           >
             {currentLink.pullQuote || currentLink.source}
           </div>
         </div>
 
-        {/* Progress indicator */}
-        <div className="ticker-progress">
+        {/* Progress indicator - auto-hides */}
+        <div className={`ticker-progress ${showControls ? '' : 'ticker-hidden'}`}>
           <span>{currentIndex + 1} / {list.length}</span>
         </div>
       </div>
 
-      {/* Controls */}
-      <div className="ticker-controls">
+      {/* Controls - auto-hide */}
+      <div className={`ticker-controls ${showControls ? '' : 'ticker-hidden'}`}>
         <button
           className="ticker-control"
           onClick={(e) => { e.stopPropagation(); handleTogglePause(); }}
