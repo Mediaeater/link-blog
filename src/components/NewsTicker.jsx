@@ -111,11 +111,10 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
               >
                 <span className="ticker-bullet">+++</span>
                 <span className="ticker-title">{link.source}</span>
-                {link.tags && link.tags.length > 0 && (
-                  <span className="ticker-tags">
-                    [{link.tags.slice(0, 2).join(', ')}]
-                  </span>
+                {link.pullQuote && (
+                  <span className="ticker-quote">— {link.pullQuote}</span>
                 )}
+                <span className="ticker-bullet">+++</span>
               </button>
             </div>
           ))}
@@ -130,9 +129,9 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
           aria-pressed={isPaused}
         >
           {isPaused ? (
-            <Play className="w-5 h-5" />
+            <Play className="w-6 h-6" />
           ) : (
-            <Pause className="w-5 h-5" />
+            <Pause className="w-6 h-6" />
           )}
         </button>
         {onClose && (
@@ -141,7 +140,7 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
             onClick={onClose}
             aria-label="Close ticker"
           >
-            <X className="w-5 h-5" />
+            <X className="w-6 h-6" />
           </button>
         )}
       </div>
