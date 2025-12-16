@@ -391,36 +391,29 @@ body {
   font-style: italic;
 }
 
-/* Bottom row: Scrolling quote */
+/* Bottom row: Quote text */
 .ticker-quote-track {
   width: 100%;
-  overflow: hidden;
-  position: relative;
+  max-width: 1400px;
 }
 
 .ticker-quote {
-  display: inline-block;
   color: white;
-  font-size: clamp(2rem, 6vw, 5rem);
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
-  white-space: nowrap;
-  padding-left: 100%;
-  animation: ticker-scroll 150s linear forwards;
-  will-change: transform;
+  font-size: clamp(1.75rem, 4vw, 3.5rem);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  animation: ticker-fade-in 1s ease-out forwards;
 }
 
-.ticker-quote.paused {
-  animation-play-state: paused;
-}
-
-@keyframes ticker-scroll {
+@keyframes ticker-fade-in {
   from {
-    transform: translateX(0);
+    opacity: 0;
+    transform: translateY(10px);
   }
   to {
-    transform: translateX(-100%);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

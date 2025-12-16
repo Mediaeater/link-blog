@@ -47,7 +47,7 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
 
     const timer = setInterval(() => {
       nextLink();
-    }, 150000); // 150 seconds (2.5 min) per entry
+    }, 12000); // 12 seconds per entry to read
 
     return () => clearInterval(timer);
   }, [isVisible, isPaused, currentLink, nextLink]);
@@ -147,12 +147,9 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
           )}
         </div>
 
-        {/* Bottom row: Scrolling quote */}
+        {/* Bottom row: Quote text (static, readable) */}
         <div className="ticker-quote-track">
-          <div
-            className={`ticker-quote ${isPaused ? 'paused' : ''}`}
-            key={currentIndex} // Reset animation on index change
-          >
+          <div className="ticker-quote" key={currentIndex}>
             {currentLink.pullQuote || currentLink.source}
           </div>
         </div>
