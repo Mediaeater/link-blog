@@ -379,18 +379,13 @@ body {
 .ticker-item {
   display: inline-flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1rem 2rem;
+  gap: 2rem;
+  padding: 1rem 3rem;
   background: transparent;
   border: none;
   cursor: pointer;
-  transition: background-color var(--duration-fast) var(--easing);
+  transition: color var(--duration-fast) var(--easing);
   color: white;
-  font-size: clamp(2rem, 5vw, 4rem);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.2;
-  text-transform: uppercase;
 }
 
 .ticker-item:hover,
@@ -405,24 +400,31 @@ body {
 
 .ticker-bullet {
   color: rgb(var(--primary-500));
-  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-size: clamp(2rem, 5vw, 4rem);
   font-weight: 700;
   letter-spacing: 0.1em;
-  opacity: 0.8;
+  flex-shrink: 0;
 }
 
 .ticker-title {
   color: inherit;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  text-transform: uppercase;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
 }
 
 .ticker-quote {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: clamp(1rem, 2.5vw, 2rem);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: clamp(1.25rem, 3vw, 2.5rem);
   font-weight: 400;
   font-style: italic;
-  text-transform: none;
-  max-width: 60ch;
+  white-space: nowrap;
+  padding-left: 1rem;
+  border-left: 3px solid rgb(var(--primary-500));
 }
 
 .ticker-controls {
