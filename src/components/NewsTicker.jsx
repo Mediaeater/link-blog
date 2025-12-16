@@ -1,18 +1,56 @@
-import { useState, useEffect, useMemo } from 'react';
-import { Pause, Play, X } from 'lucide-react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
+import { Pause, Play, X, SkipForward } from 'lucide-react';
 
 /**
  * Times Square-style news ticker
- * Shows in landscape orientation on mobile devices
- * Auto-scrolls link titles horizontally
+ * Shows one entry at a time:
+ * - Top row: Source, Date, Tags (static)
+ * - Bottom row: Pull quote (scrolling)
  */
 export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   const [isPaused, setIsPaused] = useState(false);
   const [isLandscapeMobile, setIsLandscapeMobile] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
   // Show if forced OR landscape mobile
   const isVisible = forceShow || isLandscapeMobile;
+
+  // Filter to only links with pull quotes for better experience
+  const linksWithQuotes = useMemo(() => {
+    return links.filter(link => link.pullQuote && link.pullQuote.trim().length > 0);
+  }, [links]);
+
+  // Current link to display
+  const currentLink = linksWithQuotes[currentIndex] || links[currentIndex] || null;
+
+  // Format date
+  const formatDate = (timestamp) => {
+    if (!timestamp) return '';
+    const date = new Date(timestamp);
+    return date.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric'
+    });
+  };
+
+  // Advance to next link
+  const nextLink = useCallback(() => {
+    const list = linksWithQuotes.length > 0 ? linksWithQuotes : links;
+    setCurrentIndex(prev => (prev + 1) % list.length);
+  }, [linksWithQuotes, links]);
+
+  // Auto-advance every 15 seconds (slow)
+  useEffect(() => {
+    if (!isVisible || isPaused || !currentLink) return;
+
+    const timer = setInterval(() => {
+      nextLink();
+    }, 15000); // 15 seconds per entry
+
+    return () => clearInterval(timer);
+  }, [isVisible, isPaused, currentLink, nextLink]);
 
   // Detect landscape orientation on mobile
   useEffect(() => {
@@ -54,102 +92,104 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     }
   }, [prefersReducedMotion]);
 
-  // Keyboard controls (Space to pause)
+  // Keyboard controls
   useEffect(() => {
+    if (!isVisible) return;
+
     const handleKeyPress = (e) => {
-      if (e.key === ' ' && isVisible && e.target.tagName !== 'INPUT') {
+      if (e.target.tagName === 'INPUT') return;
+
+      if (e.key === ' ') {
         e.preventDefault();
         setIsPaused(prev => !prev);
+      } else if (e.key === 'ArrowRight' || e.key === 'n') {
+        nextLink();
       }
     };
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [isVisible]);
-
-  // Duplicate links for seamless infinite loop
-  const tickerItems = useMemo(() => {
-    if (links.length === 0) return [];
-    return [...links, ...links, ...links];
-  }, [links]);
-
-  // Calculate animation duration based on content length
-  // ~4 seconds per link for comfortable reading speed
-  const animationDuration = useMemo(() => {
-    const duration = links.length * 4;
-    return Math.max(60, duration); // minimum 60s, no max cap
-  }, [links.length]);
+  }, [isVisible, nextLink]);
 
   const handleTogglePause = () => {
     setIsPaused(prev => !prev);
   };
 
-  const handleItemClick = (url) => {
-    window.open(url, '_blank', 'noopener,noreferrer');
+  const handleItemClick = () => {
+    if (currentLink?.url) {
+      window.open(currentLink.url, '_blank', 'noopener,noreferrer');
+    }
   };
 
-  if (!isVisible || links.length === 0) return null;
+  if (!isVisible || !currentLink) return null;
+
+  const list = linksWithQuotes.length > 0 ? linksWithQuotes : links;
 
   return (
     <div
       className="ticker-container"
-      role="marquee"
-      aria-live="off"
+      role="region"
+      aria-live="polite"
       aria-label="News ticker"
     >
-      <div className="ticker-track">
-        <div
-          className={`ticker-content ${isPaused ? 'paused' : ''}`}
-          style={{ animationDuration: `${animationDuration}s` }}
-        >
-          {tickerItems.map((link, index) => (
-            <div key={`${link.id}-${index}`} className="ticker-item-wrapper">
-              <button
-                className="ticker-item"
-                onClick={() => handleItemClick(link.url)}
-                aria-label={`Open: ${link.source}`}
-              >
-                <span className="ticker-bullet">+++</span>
-                <span className="ticker-title">{link.source}</span>
-                {link.pullQuote && (
-                  <span className="ticker-quote">— {link.pullQuote}</span>
-                )}
-                <span className="ticker-bullet">+++</span>
-              </button>
-            </div>
-          ))}
+      {/* Main content area */}
+      <div className="ticker-card" onClick={handleItemClick}>
+        {/* Top row: Static metadata */}
+        <div className="ticker-meta">
+          <span className="ticker-source">{currentLink.source}</span>
+          <span className="ticker-separator">•</span>
+          <span className="ticker-date">{formatDate(currentLink.timestamp)}</span>
+          {currentLink.tags && currentLink.tags.length > 0 && (
+            <>
+              <span className="ticker-separator">•</span>
+              <span className="ticker-tags">{currentLink.tags.join(', ')}</span>
+            </>
+          )}
+        </div>
+
+        {/* Bottom row: Scrolling quote */}
+        <div className="ticker-quote-track">
+          <div
+            className={`ticker-quote ${isPaused ? 'paused' : ''}`}
+            key={currentIndex} // Reset animation on index change
+          >
+            {currentLink.pullQuote || currentLink.source}
+          </div>
+        </div>
+
+        {/* Progress indicator */}
+        <div className="ticker-progress">
+          <span>{currentIndex + 1} / {list.length}</span>
         </div>
       </div>
 
+      {/* Controls */}
       <div className="ticker-controls">
         <button
           className="ticker-control"
-          onClick={handleTogglePause}
-          aria-label={isPaused ? 'Resume ticker' : 'Pause ticker'}
+          onClick={(e) => { e.stopPropagation(); handleTogglePause(); }}
+          aria-label={isPaused ? 'Resume' : 'Pause'}
           aria-pressed={isPaused}
         >
-          {isPaused ? (
-            <Play className="w-6 h-6" />
-          ) : (
-            <Pause className="w-6 h-6" />
-          )}
+          {isPaused ? <Play className="w-6 h-6" /> : <Pause className="w-6 h-6" />}
+        </button>
+        <button
+          className="ticker-control"
+          onClick={(e) => { e.stopPropagation(); nextLink(); }}
+          aria-label="Next"
+        >
+          <SkipForward className="w-6 h-6" />
         </button>
         {onClose && (
           <button
             className="ticker-control"
-            onClick={onClose}
-            aria-label="Close ticker"
+            onClick={(e) => { e.stopPropagation(); onClose(); }}
+            aria-label="Close"
           >
             <X className="w-6 h-6" />
           </button>
         )}
       </div>
-
-      {prefersReducedMotion && (
-        <div className="ticker-notice">
-          Motion paused
-        </div>
-      )}
     </div>
   );
 }
