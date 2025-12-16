@@ -256,10 +256,11 @@ export default function LinkBlogClean() {
       return;
     }
 
-    // Parse tags from tagInput to ensure they're saved correctly
-    const finalTags = (newLink.tagInput || '').split(',')
-      .map(tag => tag.trim())
-      .filter(Boolean);
+    // Use tags array directly (from chip system), plus any pending input
+    const pendingTag = currentTagInput.trim().toLowerCase();
+    const finalTags = pendingTag && !newLink.tags?.includes(pendingTag)
+      ? [...(newLink.tags || []), pendingTag]
+      : (newLink.tags || []);
 
     // Build clean link object - exclude UI-only fields like tagInput
     const link = {
@@ -278,6 +279,7 @@ export default function LinkBlogClean() {
     try {
       await saveToFile(updatedLinks);
       setNewLink({ url: '', source: '', pullQuote: '', tags: [], tagInput: '', isPinned: false });
+      setCurrentTagInput('');
       if (editingLink) {
         setEditingLink(null);
       }
@@ -290,11 +292,11 @@ export default function LinkBlogClean() {
   const updateLink = async () => {
     if (!editingLink || !isAdmin) return;
 
-    // CRITICAL FIX: Parse tags from tagInput before saving
-    // This ensures tags are saved even if user clicks Update without blurring the input
-    const finalTags = (newLink.tagInput || '').split(',')
-      .map(tag => tag.trim())
-      .filter(Boolean);
+    // Use tags array directly (from chip system), plus any pending input
+    const pendingTag = currentTagInput.trim().toLowerCase();
+    const finalTags = pendingTag && !newLink.tags?.includes(pendingTag)
+      ? [...(newLink.tags || []), pendingTag]
+      : (newLink.tags || []);
 
     // Build clean updated link object - exclude UI-only fields like tagInput
     const updatedLinkData = {
@@ -316,6 +318,7 @@ export default function LinkBlogClean() {
       await saveToFile(updatedLinks);
       setEditingLink(null);
       setNewLink({ url: '', source: '', pullQuote: '', tags: [], tagInput: '', isPinned: false });
+      setCurrentTagInput('');
     } catch (error) {
       console.error('Failed to update link:', error);
     }
@@ -325,7 +328,8 @@ export default function LinkBlogClean() {
   const editLink = useCallback((link) => {
     if (!isAdmin) return;
     setEditingLink(link);
-    setNewLink({ ...link, pullQuote: link.pullQuote || '', tagInput: link.tags ? link.tags.join(', ') : '' });
+    setNewLink({ ...link, pullQuote: link.pullQuote || '', tags: link.tags || [], tagInput: '' });
+    setCurrentTagInput('');
     setShowQuickAdd(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [isAdmin]);

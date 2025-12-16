@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 04 Dec 2025 20:22:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Dec 2025 01:06:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -346,25 +346,11 @@ nightmare of browser fingerprinting]]></title>
             <description><![CDATA[Tags: human, health., breain, sleep, research]]></description>
         </item>
         <item>
-            <title><![CDATA[Neural data may be the most precious commodity of the century]]></title>
-            <link>Neural data may be the most precious commodity of the century</link>
-            <guid>1763426341045</guid>
-            <pubDate>Tue, 18 Nov 2025 00:39:01 GMT</pubDate>
-            <description><![CDATA[Tags: meta, neurotechnology, brain, privacy, ethics, surveillance]]></description>
-        </item>
-        <item>
             <title><![CDATA[Big Tech Wants Direct Access to Our Brains]]></title>
             <link>https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share</link>
             <guid>1763426282021</guid>
             <pubDate>Tue, 18 Nov 2025 00:38:02 GMT</pubDate>
             <description><![CDATA[Tags: self, agency, brain, neurotechnology, privacy]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz]]></title>
-            <link>justiz.bayern.de</link>
-            <guid>1763426219187</guid>
-            <pubDate>Tue, 18 Nov 2025 00:36:59 GMT</pubDate>
-            <description><![CDATA[Tags: openai, ai-music, copyright, de, damages, licensing, legal]]></description>
         </item>
         <item>
             <title><![CDATA[Grok 4.1]]></title>
@@ -540,13 +526,6 @@ nightmare of browser fingerprinting]]></title>
             <guid>1762293581356</guid>
             <pubDate>Tue, 04 Nov 2025 21:59:41 GMT</pubDate>
             <description><![CDATA[Tags: catalog, earth, whole earth, publishing, sf, the-well]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The Case That A.I. Is Thinking]]></title>
-            <link>The Case That A.I. Is Thinking</link>
-            <guid>1762254102486</guid>
-            <pubDate>Tue, 04 Nov 2025 11:01:42 GMT</pubDate>
-            <description><![CDATA[Tags: openai, newyorker, knowledge, thinking]]></description>
         </item>
         <item>
             <title><![CDATA[Performa 2025 Biennial]]></title>
@@ -1380,6 +1359,139 @@ nightmare of browser fingerprinting]]></title>
             <guid>1764879742012</guid>
             <pubDate>Thu, 04 Dec 2025 20:22:22 GMT</pubDate>
             <description><![CDATA[Tags: music, 2025, google]]></description>
+        </item>
+        <item>
+            <title><![CDATA[State of AI An Empirical 100 Trillion Token Study with OpenRouter]]></title>
+            <link>https://openrouter.ai/state-of-ai</link>
+            <guid>1764900687194</guid>
+            <pubDate>Fri, 05 Dec 2025 02:11:27 GMT</pubDate>
+            <description><![CDATA[Tags: llm, benchmark, ai, openrouter]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AV1 — Now Powering 30% of Netflix Streaming]]></title>
+            <link>https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80</link>
+            <guid>1764901809151</guid>
+            <pubDate>Fri, 05 Dec 2025 02:30:09 GMT</pubDate>
+            <description><![CDATA[Tags: av1, video-encoding, streaming, aomedia, netflix]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Resonant Computing Manifesto]]></title>
+            <link>https://resonantcomputing.org/</link>
+            <guid>1764902702073</guid>
+            <pubDate>Fri, 05 Dec 2025 02:45:02 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39C3: Power Cycles]]></title>
+            <link>https://events.ccc.de/congress/2025/infos/startpage.html</link>
+            <guid>1765021480540</guid>
+            <pubDate>Sat, 06 Dec 2025 11:44:40 GMT</pubDate>
+            <description><![CDATA[Tags: ccc, deepseek, congress, hacking, security]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Have I been Flocked? ]]></title>
+            <link>https://haveibeenflocked.com/</link>
+            <guid>1765027292677</guid>
+            <pubDate>Sat, 06 Dec 2025 13:21:32 GMT</pubDate>
+            <description><![CDATA[Tags: flock, surveillance, tracking]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The state of AI in 2025: Agents, innovation, and transformation]]></title>
+            <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/</link>
+            <guid>1765282490388</guid>
+            <pubDate>Tue, 09 Dec 2025 12:14:50 GMT</pubDate>
+            <description><![CDATA[Tags: mckinsey, agents, report]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Reasons not to use ChatGPT]]></title>
+            <link>https://www.stallman.org/chatgpt.html</link>
+            <guid>1765284144190</guid>
+            <pubDate>Tue, 09 Dec 2025 12:42:24 GMT</pubDate>
+            <description><![CDATA[Tags: openai, surveillance, harms, chatgpt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Size of Life]]></title>
+            <link>https://neal.fun/size-of-life/</link>
+            <guid>1765387755172</guid>
+            <pubDate>Wed, 10 Dec 2025 17:29:15 GMT</pubDate>
+            <description><![CDATA[Tags: size, life, scale]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Useful patterns for building HTML tools]]></title>
+            <link>https://simonwillison.net/2025/Dec/10/html-tools/</link>
+            <guid>1765482398978</guid>
+            <pubDate>Thu, 11 Dec 2025 19:46:38 GMT</pubDate>
+            <description><![CDATA[Tags: css, html, tools, useful, styling]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing GPT-5.2]]></title>
+            <link>https://openai.com/index/introducing-gpt-5-2/</link>
+            <guid>1765482512615</guid>
+            <pubDate>Thu, 11 Dec 2025 19:48:32 GMT</pubDate>
+            <description><![CDATA[Tags: openai, chatgpt, model, meh]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company]]></title>
+            <link>https://thewaltdisneycompany.com/disney-openai-sora-agreement/</link>
+            <guid>1765482697116</guid>
+            <pubDate>Thu, 11 Dec 2025 19:51:37 GMT</pubDate>
+            <description><![CDATA[Tags: video-gen, disney, openai, sora]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution]]></title>
+            <link>https://github.com/privacyshield-ai/privacy-firewall</link>
+            <guid>1765484766906</guid>
+            <pubDate>Thu, 11 Dec 2025 20:26:06 GMT</pubDate>
+            <description><![CDATA[Tags: code, github, open-source, privacy, security, networks]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back.]]></title>
+            <link>https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back</link>
+            <guid>1765485048951</guid>
+            <pubDate>Thu, 11 Dec 2025 20:30:48 GMT</pubDate>
+            <description><![CDATA[Tags: aws, free, cloud, tutorial, infrastructure, privacy, verification, opesec, agents, eff]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Four Ps for Building Massive Collective Knowledge Systems]]></title>
+            <link>https://anil.recoil.org/notes/principles-for-collective-knowledge</link>
+            <guid>1765496197634</guid>
+            <pubDate>Thu, 11 Dec 2025 23:36:37 GMT</pubDate>
+            <description><![CDATA[Tags: knowledge, knowlege-graph, knowledge-system, aria, permanence, provenance, permission, placement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ensuring a National Policy Framework for Artificial Intelligence]]></title>
+            <link>https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/</link>
+            <guid>1765541471137</guid>
+            <pubDate>Fri, 12 Dec 2025 12:11:11 GMT</pubDate>
+            <description><![CDATA[Tags: ai, fact, truth, states-rights, regulation, crytpto]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Could America win the AI race but lose the war?]]></title>
+            <link>https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba</link>
+            <guid>1765719689458</guid>
+            <pubDate>Sun, 14 Dec 2025 13:41:29 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ethics, harms, cn]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Recovering Anthony Bourdain’s (really) lost Li.st’s]]></title>
+            <link>https://sandyuraz.com/blogs/bourdain/</link>
+            <guid>1765720280357</guid>
+            <pubDate>Sun, 14 Dec 2025 13:51:20 GMT</pubDate>
+            <description><![CDATA[Tags: list, archive-practice, common-crawl]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Where CC Stands on Pay-to-Crawl - Creative Commons]]></title>
+            <link>https://creativecommons.org/2025/12/12/where-cc-stands-on-pay-to-crawl/</link>
+            <guid>1765846809658</guid>
+            <pubDate>Tue, 16 Dec 2025 01:00:09 GMT</pubDate>
+            <description><![CDATA[Tags: copyright, creative-commons, ai, licensing, ccc, pay-to-crawl]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Bob Dylan Concert for Just One Person]]></title>
+            <link>https://www.flaggingdown.com/p/the-bob-dylan-concert-for-just-one</link>
+            <guid>1765847212637</guid>
+            <pubDate>Tue, 16 Dec 2025 01:06:52 GMT</pubDate>
+            <description><![CDATA[Tags: dylan, experience, human, music]]></description>
         </item>
     </channel>
 </rss>
