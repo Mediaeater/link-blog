@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#2B5797"/>
+  <circle cx="128" cy="384" r="48" fill="white"/>
+  <path d="M128 256c70.7 0 128 57.3 128 128" stroke="white" stroke-width="48" fill="none" stroke-linecap="round"/>
+  <path d="M128 128c141.4 0 256 114.6 256 256" stroke="white" stroke-width="48" fill="none" stroke-linecap="round"/>
+  <text x="256" y="470" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">NEWSFEEDS.NET</text>
+</svg>
