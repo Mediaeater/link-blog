@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 16 Dec 2025 01:06:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Dec 2025 11:42:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1492,6 +1492,55 @@ nightmare of browser fingerprinting]]></title>
             <guid>1765847212637</guid>
             <pubDate>Tue, 16 Dec 2025 01:06:52 GMT</pubDate>
             <description><![CDATA[Tags: dylan, experience, human, music]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ALPR Watch – Track Surveillance Tech in Local Government]]></title>
+            <link>https://alpr.watch/</link>
+            <guid>1765914513516</guid>
+            <pubDate>Tue, 16 Dec 2025 19:48:33 GMT</pubDate>
+            <description><![CDATA[Tags: alpr, ethics, tracking, camera, surveillance]]></description>
+        </item>
+        <item>
+            <title><![CDATA[I opened a bookshop. It was the best, worst thing I’ve ever done]]></title>
+            <link>https://www.ft.com/content/cc77c2c9-3415-4b96-af76-65f04d761a85</link>
+            <guid>1765918153301</guid>
+            <pubDate>Tue, 16 Dec 2025 20:49:13 GMT</pubDate>
+            <description><![CDATA[Tags: books, community, retail]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Prediction: AI will make formal verification go mainstream — Martin Kleppmann’s blog]]></title>
+            <link>https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html</link>
+            <guid>1765926175493</guid>
+            <pubDate>Tue, 16 Dec 2025 23:02:55 GMT</pubDate>
+            <description><![CDATA[Tags: identity, ai, verification, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Texas Sues Five Major TV Companies, Including Some with Ties to the CCP, for Spying on Texans]]></title>
+            <link>https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-five-major-tv-companies-including-some-ties-ccp-spying-texans</link>
+            <guid>1765926568558</guid>
+            <pubDate>Tue, 16 Dec 2025 23:09:28 GMT</pubDate>
+            <description><![CDATA[Tags: tv, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NVIDIA Nemotron 3 Family of Models]]></title>
+            <link>https://research.nvidia.com/labs/nemotron/Nemotron-3/?ncid=ref-inor-399942</link>
+            <guid>1765940180838</guid>
+            <pubDate>Wed, 17 Dec 2025 02:56:20 GMT</pubDate>
+            <description><![CDATA[Tags: ai, model, training, nvidia, nemotron3]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Twitter.New]]></title>
+            <link>https://www.twitter.new/</link>
+            <guid>1766489902110</guid>
+            <pubDate>Tue, 23 Dec 2025 11:38:22 GMT</pubDate>
+            <description><![CDATA[Tags: twitter, trademark]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT Atlas prompt injection attacks]]></title>
+            <link>https://openai.com/index/hardening-atlas-against-prompt-injection/</link>
+            <guid>1766490145076</guid>
+            <pubDate>Tue, 23 Dec 2025 11:42:25 GMT</pubDate>
+            <description><![CDATA[Tags: chatgpt, atlas-browser, prompt-injection, opesec]]></description>
         </item>
     </channel>
 </rss>
