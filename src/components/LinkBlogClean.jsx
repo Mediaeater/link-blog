@@ -742,11 +742,20 @@ export default function LinkBlogClean() {
               <div className="border-t border-neutral-300 mb-3"></div>
 
               {/* Main masthead row */}
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between relative">
                 {/* Left: Est. date */}
                 <div className="hidden sm:block text-xs tracking-wide text-neutral-500 uppercase">
                   Est. 1994
                 </div>
+
+                {/* Right side date - positioned absolutely */}
+                <time className="hidden sm:block absolute right-6 text-xs tracking-wide text-neutral-500 uppercase" dateTime={new Date().toISOString()}>
+                  {new Date().toLocaleDateString('en-US', {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric'
+                  })}
+                </time>
 
                 {/* Center: Title block */}
                 <div className="flex-1 text-center">
@@ -764,7 +773,7 @@ export default function LinkBlogClean() {
                         className="w-8 h-8 md:w-10 md:h-10 object-contain"
                       />
                     </a>
-                    <h1 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold tracking-tight text-neutral-900">
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-neutral-900">
                       <a href="/" className="hover:text-blue-800 transition-colors">newsfeeds.net</a>
                     </h1>
                   </div>
@@ -773,40 +782,27 @@ export default function LinkBlogClean() {
                   </div>
                 </div>
 
-                {/* Right: Search icon */}
-                <div className="hidden sm:block">
-                  {searchExpanded ? (
-                    <div className="relative w-40">
-                      <input
-                        ref={searchRef}
-                        type="text"
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                        onBlur={() => {
-                          if (!searchTerm) {
-                            setTimeout(() => setSearchExpanded(false), 150);
-                          }
-                        }}
-                        placeholder="Search..."
-                        className={`w-full px-3 py-1.5 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500 ${isSearchPending ? 'opacity-70' : ''}`}
-                        aria-label="Search links"
-                        autoFocus
-                      />
-                    </div>
-                  ) : (
-                    <button
-                      onClick={() => setSearchExpanded(true)}
-                      className="p-2 text-neutral-500 hover:text-neutral-700 transition-colors"
-                      aria-label="Open search"
-                    >
-                      <Search className="w-5 h-5" />
-                    </button>
-                  )}
-                </div>
               </div>
 
               {/* Bottom info row */}
               <div className="flex items-center justify-center gap-4 mt-3 pt-3 border-t border-neutral-300 text-xs text-neutral-600">
+                <button
+                  onClick={() => setIsMinimalView(!isMinimalView)}
+                  className="hover:text-neutral-900 transition-colors"
+                  title={isMinimalView ? "Show full view" : "Show minimal view"}
+                >
+                  {filteredAndSortedLinks.length}:{links.length}
+                </button>
+                <span className="text-neutral-300">|</span>
+                <button
+                  onClick={() => setIsLegendExpanded(!isLegendExpanded)}
+                  className="hover:text-neutral-900 transition-colors flex items-center gap-1"
+                  title="Toggle legend"
+                >
+                  <Info className="w-3 h-3" />
+                  Legend
+                </button>
+                <span className="text-neutral-300">|</span>
                 <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">RSS</a>
                 <span className="text-neutral-300">|</span>
                 <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">JSON</a>
@@ -821,6 +817,35 @@ export default function LinkBlogClean() {
                 </button>
                 <span className="text-neutral-300">|</span>
                 <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">mediaeater.inc</a>
+                <span className="text-neutral-300 hidden sm:inline">|</span>
+                <div className="hidden sm:block">
+                  {searchExpanded ? (
+                    <input
+                      ref={searchRef}
+                      type="text"
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      onBlur={() => {
+                        if (!searchTerm) {
+                          setTimeout(() => setSearchExpanded(false), 150);
+                        }
+                      }}
+                      placeholder="Search..."
+                      className={`w-32 px-2 py-0.5 text-xs border border-neutral-300 rounded focus:outline-none focus:border-neutral-500 ${isSearchPending ? 'opacity-70' : ''}`}
+                      aria-label="Search links"
+                      autoFocus
+                    />
+                  ) : (
+                    <button
+                      onClick={() => setSearchExpanded(true)}
+                      className="hover:text-neutral-900 transition-colors flex items-center gap-1"
+                      aria-label="Open search"
+                    >
+                      <Search className="w-3 h-3" />
+                      Search
+                    </button>
+                  )}
+                </div>
               </div>
 
               {/* Mobile search */}
@@ -1257,44 +1282,6 @@ export default function LinkBlogClean() {
       {/* Main Content */}
       <main className="container-width section-y">
         <div className="space-y-3">
-          {/* Elegant Header: Count | Legend | Date */}
-          <div className="flex items-center justify-between text-sm mb-6 pb-4 border-b border-neutral-200">
-            {/* Left: Link count with minimal view toggle */}
-            <button
-              onClick={() => setIsMinimalView(!isMinimalView)}
-              className="flex items-center gap-1.5 text-neutral-600 hover:text-neutral-900 transition-colors font-medium"
-              title={isMinimalView ? "Show full view" : "Show minimal view"}
-            >
-              <span>{filteredAndSortedLinks.length}:{links.length}</span>
-              <ChevronRight
-                className={`w-3.5 h-3.5 transition-transform duration-200 ${isMinimalView ? 'rotate-90' : ''}`}
-              />
-            </button>
-
-            {/* Center: Legend (collapsible, no chevron) */}
-            {!isMinimalView && (
-              <button
-                onClick={() => setIsLegendExpanded(!isLegendExpanded)}
-                className="flex items-center gap-1.5 text-neutral-600 hover:text-neutral-900 transition-colors"
-                title="Toggle legend"
-              >
-                <Info className="w-3.5 h-3.5" />
-                <span className="font-medium">Legend</span>
-              </button>
-            )}
-
-            {/* Right: Date stamp */}
-            {!isMinimalView && (
-              <time className="text-neutral-500 font-normal" dateTime={new Date().toISOString()}>
-                {new Date().toLocaleDateString('en-US', {
-                  month: 'short',
-                  day: 'numeric',
-                  year: 'numeric'
-                })}
-              </time>
-            )}
-          </div>
-
           {/* Legend Content (expandable) */}
           {!isMinimalView && isLegendExpanded && (
             <div className="legend-box mb-6">
