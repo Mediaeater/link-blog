@@ -15,6 +15,136 @@
   ],
   "items": [
     {
+      "id": "1766490145076",
+      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection/",
+      "title": "ChatGPT Atlas prompt injection attacks",
+      "date_published": "2025-12-23T11:42:25.076Z",
+      "tags": [
+        "chatgpt",
+        "atlas-browser",
+        "prompt-injection",
+        "opesec"
+      ],
+      "content_text": "(a good reminder not to use AI browsers) For a browser agent like the one inside ChatGPT Atlas, prompt injection adds a new threat vector beyond traditional web security risks (like user error or software vulnerabilities). Instead of phishing humans or exploiting system vulnerabilities of the browser, the attacker targets the agent operating inside it.",
+      "summary": "(a good reminder not to use AI browsers) For a browser agent like the one inside ChatGPT Atlas, prompt injection adds a new threat vector beyond tradi...",
+      "content_html": "<blockquote>(a good reminder not to use AI browsers) For a browser agent like the one inside ChatGPT Atlas, prompt injection adds a new threat vector beyond traditional web security risks (like user error or software vulnerabilities). Instead of phishing humans or exploiting system vulnerabilities of the browser, the attacker targets the agent operating inside it.</blockquote>\n<p><strong>Tags:</strong> chatgpt, atlas-browser, prompt-injection, opesec</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766489902110",
+      "url": "https://www.twitter.new/",
+      "title": "Twitter.New",
+      "date_published": "2025-12-23T11:38:22.110Z",
+      "tags": [
+        "twitter",
+        "trademark"
+      ],
+      "content_text": "Operation Bluebird Inc. is not affiliated with X Corp or Twitter, Inc. Handle reservations are for the Operation Bluebird platform only and do not guarantee any rights to handles you may have on other platforms. -  — Claim Your Handle & Join the Waitlist.   (claiming the abandoned Larry Bird TM)",
+      "summary": "Operation Bluebird Inc. is not affiliated with X Corp or Twitter, Inc. Handle reservations are for the Operation Bluebird platform only and do not gua...",
+      "content_html": "<blockquote>Operation Bluebird Inc. is not affiliated with X Corp or Twitter, Inc. Handle reservations are for the Operation Bluebird platform only and do not guarantee any rights to handles you may have on other platforms. -  — Claim Your Handle &amp; Join the Waitlist.   (claiming the abandoned Larry Bird TM)</blockquote>\n<p><strong>Tags:</strong> twitter, trademark</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765940180838",
+      "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3/?ncid=ref-inor-399942",
+      "title": "NVIDIA Nemotron 3 Family of Models",
+      "date_published": "2025-12-17T02:56:20.838Z",
+      "tags": [
+        "ai",
+        "model",
+        "training",
+        "nvidia",
+        "nemotron3"
+      ],
+      "content_text": "We announce NVIDIA Nemotron 3, the most efficient family of open models with leading accuracy for agentic AI applications. The Nemotron 3 family consists of three models: Nano, Super, and Ultra. These models deliver strong agentic, reasoning, and conversational capabilities.\n\nNano, the smallest model, outperforms comparable models in accuracy while remaining extremely cost-efficient for inference. Super is optimized for collaborative agents and high-volume workloads such as IT ticket automation. Ultra, the largest model, provides state-of-the-art accuracy and reasoning performance.",
+      "summary": "We announce NVIDIA Nemotron 3, the most efficient family of open models with leading accuracy for agentic AI applications. The Nemotron 3 family consi...",
+      "content_html": "<blockquote>We announce NVIDIA Nemotron 3, the most efficient family of open models with leading accuracy for agentic AI applications. The Nemotron 3 family consists of three models: Nano, Super, and Ultra. These models deliver strong agentic, reasoning, and conversational capabilities.\n\nNano, the smallest model, outperforms comparable models in accuracy while remaining extremely cost-efficient for inference. Super is optimized for collaborative agents and high-volume workloads such as IT ticket automation. Ultra, the largest model, provides state-of-the-art accuracy and reasoning performance.</blockquote>\n<p><strong>Tags:</strong> ai, model, training, nvidia, nemotron3</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765926568558",
+      "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-five-major-tv-companies-including-some-ties-ccp-spying-texans",
+      "title": "Texas Sues Five Major TV Companies, Including Some with Ties to the CCP, for Spying on Texans",
+      "date_published": "2025-12-16T23:09:28.558Z",
+      "tags": [
+        "tv",
+        "privacy"
+      ],
+      "content_text": "These companies have been unlawfully collecting personal data through Automated Content Recognition (“ACR”) technology. ACR in its simplest terms is an uninvited, invisible digital invader. This software can capture screenshots of a user’s television display every 500 milliseconds, monitor viewing activity in real time, and transmit that information back to the company without the user’s knowledge or consent. The companies then sell that consumer information to target ads across platforms for a profit. This technology puts users’ privacy and sensitive information, such as passwords, bank information, and other personal information at risk.",
+      "summary": "These companies have been unlawfully collecting personal data through Automated Content Recognition (“ACR”) technology. ACR in its simplest terms is a...",
+      "content_html": "<blockquote>These companies have been unlawfully collecting personal data through Automated Content Recognition (“ACR”) technology. ACR in its simplest terms is an uninvited, invisible digital invader. This software can capture screenshots of a user’s television display every 500 milliseconds, monitor viewing activity in real time, and transmit that information back to the company without the user’s knowledge or consent. The companies then sell that consumer information to target ads across platforms for a profit. This technology puts users’ privacy and sensitive information, such as passwords, bank information, and other personal information at risk.</blockquote>\n<p><strong>Tags:</strong> tv, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765926175493",
+      "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html",
+      "title": "Prediction: AI will make formal verification go mainstream — Martin Kleppmann’s blog",
+      "date_published": "2025-12-16T23:02:55.493Z",
+      "tags": [
+        "identity",
+        "ai",
+        "verification",
+        "privacy"
+      ],
+      "content_text": "To put it in simple economic terms: for most systems, the expected cost of bugs is lower than the expected cost of using the proof techniques that would eliminate those bugs. Part of the reason is perhaps that bugs are a negative externality: it’s not the software developer who bears the cost of the bugs, but the users. But even if the software developer were to bear the cost, formal verification is simply very hard and expensive",
+      "summary": "To put it in simple economic terms: for most systems, the expected cost of bugs is lower than the expected cost of using the proof techniques that wou...",
+      "content_html": "<blockquote>To put it in simple economic terms: for most systems, the expected cost of bugs is lower than the expected cost of using the proof techniques that would eliminate those bugs. Part of the reason is perhaps that bugs are a negative externality: it’s not the software developer who bears the cost of the bugs, but the users. But even if the software developer were to bear the cost, formal verification is simply very hard and expensive</blockquote>\n<p><strong>Tags:</strong> identity, ai, verification, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765918153301",
+      "url": "https://www.ft.com/content/cc77c2c9-3415-4b96-af76-65f04d761a85",
+      "title": "I opened a bookshop. It was the best, worst thing I’ve ever done",
+      "date_published": "2025-12-16T20:49:13.301Z",
+      "tags": [
+        "books",
+        "community",
+        "retail"
+      ],
+      "content_text": "As I cash up at the end of the day, I realise I’ve sold almost 150 books. And then I realise I have no idea how to replace them. Margins are narrow and cash flow is the bookseller’s main challenge. If I replace every book I ever sell, how will I ever make a living? Best not to dwell on such questions right now.\n",
+      "summary": "As I cash up at the end of the day, I realise I’ve sold almost 150 books. And then I realise I have no idea how to replace them. Margins are narrow an...",
+      "content_html": "<blockquote>As I cash up at the end of the day, I realise I’ve sold almost 150 books. And then I realise I have no idea how to replace them. Margins are narrow and cash flow is the bookseller’s main challenge. If I replace every book I ever sell, how will I ever make a living? Best not to dwell on such questions right now.\n</blockquote>\n<p><strong>Tags:</strong> books, community, retail</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1765914513516",
+      "url": "https://alpr.watch/",
+      "title": "ALPR Watch – Track Surveillance Tech in Local Government",
+      "date_published": "2025-12-16T19:48:33.516Z",
+      "tags": [
+        "alpr",
+        "ethics",
+        "tracking",
+        "camera",
+        "surveillance"
+      ],
+      "content_text": "Your local government might be discussing surveillance tech like Flock cameras, facial recognition, or automated license plate readers right now. This map helps you find those meetings and take action",
+      "summary": "Your local government might be discussing surveillance tech like Flock cameras, facial recognition, or automated license plate readers right now. This...",
+      "content_html": "<blockquote>Your local government might be discussing surveillance tech like Flock cameras, facial recognition, or automated license plate readers right now. This map helps you find those meetings and take action</blockquote>\n<p><strong>Tags:</strong> alpr, ethics, tracking, camera, surveillance</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1765847212637",
       "url": "https://www.flaggingdown.com/p/the-bob-dylan-concert-for-just-one",
       "title": "The Bob Dylan Concert for Just One Person",
