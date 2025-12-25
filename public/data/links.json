@@ -1,805 +1,6 @@
 {
   "links": [
     {
-      "id": 1764674350092,
-      "url": "https://www.vidi2.app/",
-      "source": "Vidi2 - AI Video Understanding & Creation Platform",
-      "pullQuote": "AI Video Understanding & Creation in Seconds Vidi2 is powered by ByteDance's state-of-the-art multimodal video model. Temporal retrieval, spatio-temporal grounding, video QA, and intelligent editing.\n\n",
-      "tags": [
-        "video",
-        "video-gen",
-        "bytedance",
-        "ai",
-        "editing"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-02T11:19:10.092Z",
-      "visits": 0
-    },
-    {
-      "id": 1764673497906,
-      "url": "https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/",
-      "source": "How Brian Eno Created “Ambient 1: Music For Airports”",
-      "pullQuote": "“The particular piece I’m referring to was done by using a whole series of very long tape loops, like fifty, sixty, seventy feet long. There were twenty-two loops. One loop had just one piano note on it. Another one would have two piano notes. Another one would have a group of girls singing one note, sustaining it for ten seconds. There are eight loops of girls’ voices and about fourteen loops of piano. \n\nI just set all of these loops running and let them configure in whichever way they wanted to, and in fact the result is very, very nice. The interesting thing is that it doesn’t sound at all mechanical or mathematical as you would imagine. It sounds like some guy is sitting there playing the piano with quite intense feeling. The spacing and dynamics of “his” playing sound very well organized. That was an example of hardly interfering at all.“",
-      "tags": [
-        "music",
-        "brian-eno",
-        "airports",
-        "air-travel",
-        "ambient"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-02T11:04:57.906Z",
-      "visits": 0
-    },
-    {
-      "id": 1764598461580,
-      "url": "https://meshtastic.org/",
-      "source": "Meshtastic",
-      "pullQuote": "n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices\n\n",
-      "tags": [
-        "free",
-        "mesh",
-        "network",
-        "open-source",
-        "decentralized"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-01T14:14:21.580Z",
-      "visits": 0
-    },
-    {
-      "id": 1764598388542,
-      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxjnmmxpx/USPTO%20AI%20PATENTS%20squires.pdf",
-      "source": "DEPARTMENT OF COMMERCE  Patent and Trademark Office",
-      "pullQuote": "DEPARTMENT OF COMMERCE  Patent and Trademark Office\n[Docket No. PTO-P-2025-0014]\nRevised Inventorship Guidance for AI-Assisted Inventions\nAGENCY: United States Patent and Trademark Office, Department of Commerce.\nACTION: Examination guidance.\nSUMMARY: The United States Patent and Trademark Office (USPTO) had issued inventorship\nguidance for AI-assisted inventions on February 13, 2024.1\n The USPTO hereby rescinds the\npreviously published Inventorship Guidance for AI-Assisted Inventions and replaces it with the\nguidance below",
-      "tags": [
-        "pdf",
-        "ai",
-        "patents",
-        "guidance",
-        "invention"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-01T14:13:08.542Z",
-      "visits": 0
-    },
-    {
-      "id": 1764598239422,
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
-      "source": "deepseek-ai/DeepSeek-V3.2 · Hugging Face",
-      "pullQuote": "The fallacy of the AI War is funny,  cn is always going to drop something as good for less. Is anyone playing a long game? They released a IMO gold medal model before Google or Oai did.\n -ed",
-      "tags": [
-        "ai",
-        "free",
-        "machine-learning"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-01T14:10:39.422Z",
-      "visits": 0
-    },
-    {
-      "id": 1764598139842,
-      "url": "https://iceberg.mit.edu/",
-      "source": "Can AI Work with You?",
-      "pullQuote": "What does the Iceberg Index measure?\nThe Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement.",
-      "tags": [
-        "jobs",
-        "model",
-        "ai",
-        "index"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-01T14:08:59.842Z",
-      "visits": 1
-    },
-    {
-      "id": 1764597991478,
-      "url": "https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/",
-      "source": "Underground AI models promise to be hackers ‘cyber pentesting waifu’",
-      "pullQuote": "(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have to use the word ‘lateral movement,’ when using these tools. You can just ask ‘How do I find other systems on the network?’ and it can drop you out a script. So that barrier to entry: lowering and lowering.”",
-      "tags": [
-        "open-source",
-        "models",
-        "cracking"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-01T14:06:31.478Z",
-      "visits": 0
-    },
-    {
-      "id": 1764597923634,
-      "url": "https://archive.is/20251130191248/https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html",
-      "source": "Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends",
-      "pullQuote": "But Mr. Sacks stands out as a special government employee because of his hundreds of investments in tech companies, which can benefit from policies that he influences. His public ethics filings, which are based on self-reported information, do not disclose the value of those remaining stakes in crypto and A.I.-related companies. They also omit when he sold assets he said he would divest, making it difficult to determine whether his government service has netted him profits.",
-      "tags": [
-        "ai",
-        "ethics",
-        "politics",
-        "crypto",
-        "nyt"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-01T14:05:23.634Z",
-      "visits": 0
-    },
-    {
-      "id": 1764597283980,
-      "url": "https://simonwillison.net/2025/Nov/29/chatgpt-netflix/",
-      "source": "A ChatGPT prompt equals about 5.1 seconds of Netflix",
-      "pullQuote": "In June 2025 Sam Altman claimed about ChatGPT that \"the average query uses about 0.34 watt-hours\".\n\nIn March 2020 George Kamiya of the International Energy Agency estimated that \"streaming a Netflix video in 2019 typically consumed 0.12-0.24kWh of electricity per hour\" - that's 240 watt-hours per Netflix hour at the higher end.\n\nAssuming that higher end, a ChatGPT prompt by Sam Altman's estimate uses:\n\n0.34 Wh / (240 Wh / 3600 seconds) = 5.1 seconds of Netflix\n\nOr double that, 10.2 seconds, if you take the lower end of the Netflix estimate instead.\n\nI'm always interested in anything that can help contextualize a number like \"0.34 watt-hours\" - I think this comparison to Netflix is a neat way of doing that.\n\nThis is evidently not the whole story with regards to AI energy usage - training costs, data center buildout costs and the ongoing fierce competition between the providers all add up to a very significant carbon footprint for the AI industry as a whole.",
-      "tags": [
-        "netflix",
-        "environment",
-        "chatgpt",
-        "analysis"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-01T13:54:43.980Z",
-      "visits": 0
-    },
-    {
-      "id": 1764446569064,
-      "url": "https://www.ethanheilman.com/x/12/index.html",
-      "source": "A Brief History of NSA Backdoors.",
-      "pullQuote": "In response to the recent revelations about the NSA backdooring RSA libraries I've compiled a brief, incomplete, history of NSA backdoors.",
-      "tags": [
-        "nsa",
-        "networks",
-        "security",
-        "backdoor"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-29T20:02:49.064Z",
-      "visits": 0
-    },
-    {
-      "id": 1764443400226,
-      "url": "https://www.forbes.com/sites/corneliawalther/2025/03/02/ai-and-the-death-of-originality-are-we-thinking-in-circles/",
-      "source": "AI And The Death Of Originality: Are We Thinking In Circles?",
-      "pullQuote": "The more we rely on AI-generated content, the more we risk intellectual homogenization — the gradual flattening of diverse perspectives into a predictable, easily digestible middle ground. It’s a dynamic not unlike the globalization of food culture, where the varied and complex flavors of regional cuisines have increasingly given way to a universal palate shaped by fast food: sweet, greasy, and engineered for maximum convenience. Just as the dominance of fast food has conditioned global tastes toward highly processed, calorie-dense meals — sacrificing nuance and nutritional diversity for appetizing ease — AI is streamlining the landscape of human knowledge, favoring the familiar over the original, the efficient over the thought-provoking.",
-      "tags": [
-        "ai",
-        "creativity",
-        "thinking"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-29T19:10:00.226Z",
-      "visits": 0
-    },
-    {
-      "id": 1764343141398,
-      "url": "https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z",
-      "source": "A Remarkable Assertion from A16Z",
-      "pullQuote": "I had to read this over a few times to believe that I was seeing it. If it didn’t include the word “literally” I’d assume some poetic license on the part of whoever, or whatever, wrote this. But even then it would be crazy wrong.",
-      "tags": [
-        "book",
-        "ai",
-        "fail",
-        "a12z",
-        "nealstephenson",
-        "proof-reading",
-        "human-eyes"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-28T15:19:01.398Z",
-      "visits": 0
-    },
-    {
-      "id": 1764342877198,
-      "url": "https://fortune.com/2025/11/26/is-openai-profitable-forecast-data-center-200-billion-shortfall-hsbc/",
-      "source": "OpenAI won’t make money by 2030 and still needs to come up with another $207 billion to power its growth plans, HSBC est",
-      "pullQuote": "The investment bank HSBC, while clarifying that it still believes AI is a “megacycle” and that its forecasts “indicate a leading position for OpenAI from a revenue standpoint,” nevertheless calculates that the company faces an extraordinary financial mountain if it is to deliver on its ambitions. HSBC Global Investment Research projects that OpenAI still won’t be profitable by 2030, even though its consumer base will grow by that point to comprise some 44% of the world’s adult population (up from 10% in 2025). Beyond that, it will need at least another $207 billion of compute to keep up with its growth plans. This stark assessment reflects soaring infrastructure costs, heightened competition, and an AI market that is surging in demand and cash-intensive to a degree beyond any technology trend in history.​",
-      "tags": [
-        "openai",
-        "business",
-        "financial",
-        "ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-28T15:14:37.198Z",
-      "visits": 0
-    },
-    {
-      "id": 1764336195193,
-      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404",
-      "source": "Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic",
-      "pullQuote": "121FZL   Meaning of Australian content expenditure requirement\n\n             (1)  The Australian content expenditure requirement for a major SVOD service for an SVOD reporting year (the relevant year ) is an amount equal to 10% of the service’s total program expenditure for Australia for the relevant year.\n\n             (2)  However, if an election under subsection 121FZM(1) is in effect for the major SVOD service for the relevant year, the service’s Australian content expenditure requirement for the relevant year is instead an amount equal to 7.5% of the revenue derived by the service from Australia in the relevant year.\n\nNote:          Revenue derived by a service from Australia may include, for example, revenue derived from:\n\n(a)    paying subscribers in Australia; and\n\n(b)    advertising to people in Australia.\n\n             (3)  The Australian content expenditure requirement for a regulated SVOD service that is not a major SVOD service for an SVOD reporting year is nil for that SVOD reporting year.",
-      "tags": [
-        "legislation",
-        "au",
-        "content",
-        "production",
-        "svod"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-28T13:23:15.193Z",
-      "visits": 0
-    },
-    {
-      "id": 1764329188721,
-      "url": "https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260",
-      "source": "Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation",
-      "pullQuote": "Donors have already committed well above $100 million to political-action committees involved in that fight, which has been supercharged by the wealth of some individuals and companies. Included are the venture-capital firm Andreessen Horowitz and an OpenAI co-founder, Greg Brockman. Meta Platforms is also funding several political efforts.\nSupporters of more-stringent AI regulations launched their own effort this week, aiming to raise at least $50 million to help candidates who support more AI regulation.\nThe biggest player so far is Leading the Future, a super PAC that has said it would use donations of more than $100 million to “reshape the political environment around innovation policy.” The group has vowed to support candidates of both parties who mirror the industry’s priorities and “aggressively oppose” those who jeopardize them.\nThe super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity.",
-      "tags": [
-        "creepy-joe-lonsdale",
-        "a12z",
-        "lobby",
-        "pac",
-        "politcs",
-        "ai",
-        "ai-regulation",
-        "leading-the-future",
-        "andreessen-horowitz",
-        "public-first-pac"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-28T11:26:28.721Z",
-      "visits": 0
-    },
-    {
-      "id": 1764328949107,
-      "url": "https://arxiv.org/abs/2511.21631",
-      "source": "Qwen3-VL Technical Report",
-      "pullQuote": ". Qwen3-VL delivers three core pillars: (i) markedly stronger pure-text understanding, surpassing comparable text-only backbones in several cases; (ii) robust long-context comprehension with a native 256K-token window for both text and interleaved multimodal inputs, enabling faithful retention, retrieval, and cross-referencing across long documents and videos; and (iii) advanced multimodal reasoning across single-image, multi-image, and video tasks, demonstrating leading performance on comprehensive evaluations such as MMMU and visual-math benchmarks (e.g., MathVista and MathVision). Architecturally, we introduce three key upgrades: (i) an enhanced interleaved-MRoPE for stronger spatial-temporal modeling across images and video; (ii) DeepStack integration, which effectively leverages multi-level ViT features to tighten vision-language alignment; and (iii) text-based time alignment for video, evolving from T-RoPE to explicit textual timestamp alignment for more precise temporal grounding. Under comparable token budgets and latency constraints, Qwen3-VL achieves superior performance in both dense and Mixture-of-Experts (MoE) architectures. We envision Qwen3-VL serving as a foundational engine for image-grounded reasoning, agentic decision-making, and multimodal code intelligence in real-world workflows.",
-      "tags": [
-        "video",
-        "performance",
-        "optimization",
-        "qwen",
-        "ai",
-        "cn"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-28T11:22:29.107Z",
-      "visits": 0
-    },
-    {
-      "id": 1764253624812,
-      "url": "https://openai.com/index/mixpanel-incident/",
-      "source": "What to know about a recent Mixpanel security incident",
-      "pullQuote": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.",
-      "tags": [
-        "openai",
-        "security",
-        "data",
-        "breach",
-        "incident. coms",
-        "ethics"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-27T14:27:04.812Z",
-      "visits": 0
-    },
-    {
-      "id": 1764158519702,
-      "url": "https://openrouter.ai/rankings?",
-      "source": "openrouter.ai",
-      "pullQuote": "Leaderboard - Token usage across models on OpenRouter ",
-      "tags": [
-        "token-growth",
-        "rankings",
-        "chart",
-        "measurement",
-        "ai",
-        "llm",
-        "inference"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-26T12:01:59.702Z",
-      "visits": 0
-    },
-    {
-      "id": 1764158423577,
-      "url": "https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e",
-      "source": "AI Inference Tracker",
-      "pullQuote": "### **Reported Token Growth Rate**\n\n**+13-17% CMGR** range, in recent months.\n\n*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*\n\n*Since there's no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* \n\n*The most recent monthly growth figures to reference are shown in green.*",
-      "tags": [
-        "tool",
-        "ai",
-        "measurement",
-        "token-growth",
-        "inference"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-26T12:00:23.577Z",
-      "visits": 0
-    },
-    {
-      "id": 1764157370193,
-      "url": "https://dougshapiro.substack.com/p/how-math-broke-media?",
-      "source": "How Math Broke Media dougshapiro.substack ",
-      "pullQuote": "The Trap: Current media companies (Hollywood studios, etc.) view AI merely as a tool to make current workflows cheaper (e.g., using AI for storyboards or dubbing).\nThe Reality: \"AI-Native\" companies are designing entirely new workflows that don't resemble traditional filmmaking or publishing.\nThe Outcome: Incumbents who use AI to \"do the old thing faster\" will likely be disrupted by newcomers who use AI to do entirely new things. The author suggests that even forward-thinking people are not thinking big enough about how radical this shift will be",
-      "tags": [
-        "media",
-        "technology",
-        "trend",
-        "legacy_media"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-26T11:42:50.193Z",
-      "visits": 0
-    },
-    {
-      "id": 1764156288324,
-      "url": "https://www.sciencedirect.com/science/article/pii/S019701862500155X?",
-      "source": "Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer's disease",
-      "pullQuote": "Arginine suppresses Aβ aggregation both in vitro and in vivo.\n•\nOral administration of arginine suppresses Aβ pathology and its toxicity in vivo.\n•\nArginine is a safe and cost-effective repositioning drug candidate for AD.",
-      "tags": [
-        "health",
-        "medicine",
-        "science",
-        "brain",
-        "memory"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-26T11:24:48.324Z",
-      "visits": 0
-    },
-    {
-      "id": 1764155801424,
-      "url": "https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? ",
-      "source": "General principles for the use of AI at CER",
-      "pullQuote": "tificial intelligence (AI) can be found at CERN in many contexts: embedded in devices, software products and cloud services procured by CERN, brought on-site by individuals or developed in-house. Following the approval of a CERN-wide AI strategy, these general principles are designed to promote the responsible and ethical use, development and deployment (collectively “use”) of AI at CERN.\n\nThey are technology neutral and apply to all AI technologies as they become available.\n\nThe principles apply across all areas of CERN’s activities, including:\n\nAI for scientific and technical research: data analysis, anomaly detection, simulation, predictive maintenance and optimisation of accelerator performance or detector operations, and\nAI for productivity and administrative use: document drafting, note taking, automated translation, language correction and enhancement, coding assistants, and workflow automation.\n",
-      "tags": [
-        "cern",
-        "ai",
-        "principles",
-        "science"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-26T11:16:41.424Z",
-      "visits": 0
-    },
-    {
-      "id": 1764155606824,
-      "url": "https://www.energy.gov/genesis",
-      "source": "Genesis Mission",
-      "pullQuote": "Genesis Mission will develop an integrated platform that connects the world's best supercomputers, experimental facilities, AI systems, and unique datasets across every major scientific domain to double the productivity and impact of American research and innovation within a decade.",
-      "tags": [
-        "gov",
-        "ai",
-        "energy",
-        "science",
-        "nuclear",
-        "fusion"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-26T11:13:26.824Z",
-      "visits": 0
-    },
-    {
-      "id": 1764124286412,
-      "url": "https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41",
-      "source": "China leapfrogs US in global market for ‘open’ AI models",
-      "pullQuote": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models. ----- China has overtaken the US in the global market for “open” artificial intelligence models, gaining a crucial edge over how the powerful technology is used around the world. A study by the Massachusetts Institute of Technology and open-source AI start-up Hugging Face found that the total share of downloads of new Chinese-made open models rose to 17 per cent in the past year. The figure surpasses the 15.8 per cent share of downloads from American developers such as Google, Meta and OpenAI — the first time Chinese groups have beaten their American counterparts. Open models — which are free to download, modify and integrate by developers — make it easier for start-ups to create products and researchers to improve them. Widespread adoption will confer outsized influence over AI’s future.\n",
-      "tags": [
-        "opensource",
-        "ai",
-        "cn",
-        "deepseek",
-        "open-models",
-        "adoption"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-26T02:31:26.412Z",
-      "visits": 0
-    },
-    {
-      "id": 1764023133103,
-      "url": "https://www.bbc.com/news/articles/cj4qdren425o",
-      "source": "Reggae legend Jimmy Cliff dies, aged 81",
-      "pullQuote": "He recorded a handful of singles before topping the Jamaican charts with his own composition, Hurricane Hattie.\n\nIn 1965, he relocated to London to work with Island Records - later the home of Bob Marley - but the label's attempts to make his sound palatable to rock audiences were initially unsuccessful.\n\nHe eventually struck gold with the 1969 single Wonderful World, Beautiful People - an upbeat, feelgood anthem; and the more politically-charged Vietnam, which Bob Dylan called \"the best protest song ever written\".\n\nIts lyric tells the story of a young soldier who writes from the war, promising his mother he'll be home soon; only for her to receive a telegram the next day, informing her of his death.",
-      "tags": [
-        "music",
-        "obit",
-        "reggae",
-        "dylan",
-        "quote",
-        "protest"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-24T22:25:33.103Z",
-      "visits": 0
-    },
-    {
-      "id": 1763983082025,
-      "url": "https://www.nytimes.com/2025/11/20/technology/ai-stock-boom-nvidia.html",
-      "source": "The A.I. Boom Has Found Another Gear. Why Can’t People Shake Their Worries?",
-      "pullQuote": "“What OpenAI is engaged in is the most dramatic case of ‘Fake It Until You Make It’ that we have ever seen,” said Gil Luria, head of technology research at D.A. Davidson. “They are making huge commitments that they literally can’t afford.”   ---- OpenAI needs to raise at least $207bn by 2030 so it can continue to lose money, HSBC estimates",
-      "tags": [
-        "ai",
-        "trends",
-        "financial",
-        "openai",
-        "business"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-24T11:18:02.025Z",
-      "visits": 0
-    },
-    {
-      "id": 1763982876630,
-      "url": "https://www.bloodinthemachine.com/p/the-slop-layer?",
-      "source": "bloodinthemachine.com",
-      "pullQuote": "The same week that Breaking Rust was racking up Spotify plays, gamers were discovering that the newest installment of the blockbuster video game franchise Call of Duty was loaded with AI-generated art. The games blog FRVR explains (and also cites my 2024 WIRED piece on AI in the gaming industry, thanks FRVR):",
-      "tags": [
-        "ai-slop",
-        "trends",
-        "ai",
-        "media"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-24T11:14:36.630Z",
-      "visits": 0
-    },
-    {
-      "id": 1763981924056,
-      "url": "https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro/xcto_fcm1253_usx?utm_source=TheNeuron&utm_medium=Email&utm_campaign=FY26Q4&_bhlid=fd9957e7fc13d60882a2dc26b576b2c467c81010",
-      "source": "Dell Pro Max Desktop with Nvidia Blackwell",
-      "pullQuote": "New Dell Pro Max with GB10 Model: FCM1253 $3,998.99 Price Match Guarantee\nprocessor NVIDIA GB10 Grace CPU (10 Cortex-X925 + 10 Cortex-A725 cores)\noperating system NVIDIA DGX OS 7 videocard NVIDIA GB10 Blackwell GPU\nmemory 128GB LPDDR5X hard drive 4 TB, SSD",
-      "tags": [
-        "hardware",
-        "ai",
-        "gear",
-        "nvidia"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-24T10:58:44.056Z",
-      "visits": 0
-    },
-    {
-      "id": 1763981579447,
-      "url": "https://aeon.co/essays/can-ai-tell-us-anything-meaningful-about-bob-dylans-songs",
-      "source": "Can AI tell us anything meaningful about Bob Dylan’s songs? | Aeon Essays",
-      "pullQuote": "So I fed Dylan’s official discography from 1962 to 2012 into a large language model (LLM), building a network of the concepts and connections in his songs. The model combed through each lyric, extracting pairs of related ideas or images. For example, it might detect a relationship between ‘wind’ and ‘answer’ in ‘Blowin’ in the Wind’ (1962), or between ‘joker’ and ‘thief’ in ‘All Along the Watchtower’ (1967). By assembling these relationships, we can construct a network of how Dylan’s key words and motifs braid together across his songs.",
-      "tags": [
-        "dylan",
-        "lyrics",
-        "analysis",
-        "maps"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-24T10:52:59.447Z",
-      "visits": 0
-    },
-    {
-      "id": 1763932896267,
-      "url": "https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf",
-      "source": "Big changes to the agency charged with securing elections lead to midterm worries",
-      "pullQuote": "“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of State Steve Simon, a Democrat who until recently led the bipartisan National Association of Secretaries of State.",
-      "tags": [
-        "election",
-        "election-security",
-        "opsec",
-        "usa",
-        "mn"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-23T21:21:36.267Z",
-      "visits": 0
-    },
-    {
-      "id": 1763930572441,
-      "url": "https://blog.cr.yp.to/20251123-corruption.html",
-      "source": "cr.yp.to: 2025.11.23: NSA and IETF, part 2",
-      "pullQuote": "Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, overriding technical dissent, and exploiting the IETF's lack of \"balance of interest\" regulations.",
-      "tags": [
-        "encryption",
-        "usa",
-        "nsa",
-        "ietf"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-23T20:42:52.441Z",
-      "visits": 0
-    },
-    {
-      "id": 1763896923873,
-      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf",
-      "source": "Americans’ Social Media Use 2025",
-      "pullQuote": "Americans’ Social Media Use 2025 Growing shares of U.S. adults say they are using Instagram, TikTok, WhatsApp and Reddit, but YouTube still rises to the top",
-      "tags": [
-        "socialmedia",
-        "usa",
-        "report"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-23T11:22:03.873Z",
-      "visits": 0
-    },
-    {
-      "id": 1763858257697,
-      "url": "https://machinelearning.apple.com/research/multimodal-sensor-fusion",
-      "source": "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition",
-      "pullQuote": "We show that large language models (LLMs) can be used for late fusion for activity classification from audio and motion time series data. We curated a subset of data for diverse activity recognition across contexts (e.g., household activities, sports) from the Ego4D dataset. Evaluated LLMs achieved 12-class zero- and one-shot classification F1-scores significantly above chance, with no task-specific training. Zero-shot classification via LLM-based fusion from modality-specific models can enable multimodal temporal applications where there is limited aligned training data for learning a shared embedding space. Additionally, LLM-based fusion can enable model deploying without requiring additional memory and computation for targeted application-specific multimodal models.",
-      "tags": [
-        "llm",
-        "privacy",
-        "audio",
-        "security",
-        "opsec",
-        "apple",
-        "study"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-23T00:37:37.697Z",
-      "visits": 0
-    },
-    {
-      "id": 1763856138590,
-      "url": "https://kevinboone.me/fingerprinting.html",
-      "source": "Kevin Boone: The privacy\nnightmare of browser fingerprinting",
-      "pullQuote": "Next, you need to be as unremarkable as possible. Fingerprinting is about uniqueness, so you should use the most popular browser on the most popular operating system on the kind of hardware you can buy from PC World. If you’re running the latest Chrome on the latest Windows 11 on a two-year-old, bog-standard laptop, you’re going to be one of a very large group. Of course Chrome, being a Google product, has its own privacy concerns, so you might be better off using a Chromium-based browser with reduced Google influence, like Brave.\n\nYou should endeavour to keep your computer in as near its stock configuration as possible. Don’t install anything (like fonts) that are reportable by the browser. Don’t install any extensions, and don’t change any settings. Use the same ‘light’ theme as everybody else, and use the browser with a maximized window, and always the same size. And so on.",
-      "tags": [
-        "fingerprinting",
-        "browser",
-        "opsec"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-23T00:02:18.590Z",
-      "visits": 0
-    },
-    {
-      "id": 1763855930812,
-      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003456&utm_source=pr&utm_medium=email&utm_campaign=plos006",
-      "source": "Eye blinks synchronize with musical beats during music listening",
-      "pullQuote": "ditory-motor synchronization, the alignment of body movements with rhythmic patterns in music, is a universal human behavior, yet its full scope remains incompletely understood. Through four experiments with 123 young nonmusicians, integrating eye-tracking, neurophysiological recordings, white matter structural imaging, and behavioral analysis, we reveal a previously unrecognized form of synchronization: spontaneous eye blinks synchronize with musical beats. Blinks robustly synchronized with beats across a range of tempi and independently of melodic cues. Electroencephalogram recordings revealed a dynamic correspondence between blink timing and neural beat tracking. Blink synchronization performance was linked to white matter microstructure variation in the left superior longitudinal fasciculus, a key sensorimotor pathway. Additionally, the strength of blink synchronization reflected the modulation of dynamic auditory attention. ",
-      "tags": [
-        "mind-body",
-        "brain",
-        "music",
-        "synchronization study"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-22T23:58:50.812Z",
-      "visits": 0
-    },
-    {
-      "id": 1763855197406,
-      "url": "https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313",
-      "source": "Protecting the Developing Mind in a Digital Age: A Global Policy Imperative",
-      "pullQuote": "d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations",
-      "tags": [
-        "Smartphones",
-        "technology",
-        "mentalhealth",
-        "mind",
-        "health",
-        "wellbeing",
-        "childhood",
-        "youth",
-        "development"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-22T23:46:37.406Z",
-      "visits": 0
-    },
-    {
-      "id": 1763770119607,
-      "url": "https://lapdhelicoptertracker.com/",
-      "source": "LAPD Helicopter Tracker - Real-Time Monitoring",
-      "pullQuote": "Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units.",
-      "tags": [
-        "devops",
-        "monitoring",
-        "airspace",
-        "policing",
-        "real-time",
-        "tracker"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-22T00:08:39.607Z",
-      "visits": 0
-    },
-    {
-      "id": 1763769982908,
-      "url": "https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/",
-      "source": "Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV",
-      "pullQuote": "",
-      "tags": [
-        "wamo",
-        "google",
-        "maps",
-        "automotive",
-        "addressable-mark"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-22T00:06:22.908Z",
-      "visits": 0
-    },
-    {
-      "id": 1763679121942,
-      "url": "https://openai.com/index/accelerating-science-gpt-5/",
-      "source": "Early experiments in accelerating science with GPT-5",
-      "pullQuote": "“Early science acceleration experiments with GPT‑5⁠(opens in a new window),” a paper co-authored with collaborators at universities and national laboratories including Vanderbilt, UC Berkeley, Columbia, Oxford, Cambridge, Lawrence Livermore National Laboratory, and The Jackson Laboratory. It compiles early case studies across math, physics, biology, computer science, astronomy, and materials science in which GPT‑5 helped researchers synthesize known results in a novel way, conduct powerful literature review, accelerate tough computations, and even generate novel proofs of unsolved propositions. The paper also documents limitations. Our goal is to give the community a clear view of what these systems can and cannot do today in research settings.",
-      "tags": [
-        "openai",
-        "science",
-        "gpt-5"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-20T22:52:01.942Z",
-      "visits": 0
-    },
-    {
-      "id": 1763679062800,
-      "url": "https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx",
-      "source": "Investigations UPS Flight 2976 Crash During Takeoff",
-      "pullQuote": "",
-      "tags": [
-        "air-travel",
-        "standards",
-        "airspace",
-        "ntsb"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-20T22:51:02.800Z",
-      "visits": 0
-    },
-    {
-      "id": 1763665844425,
-      "url": "https://arxiv.org/abs/2511.15304",
-      "source": "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models",
-      "pullQuote": "We present evidence that adversarial poetry functions as a universal single-turn jailbreak technique for large language models (LLMs). Across 25 frontier proprietary and open-weight models, curated poetic prompts yielded high attack-success rates (ASR), with some providers exceeding 90%. Mapping prompts to MLCommons and EU CoP risk taxonomies shows that poetic attacks transfer across CBRN, manipulation, cyber-offence, and loss-of-control domains. Converting 1,200 MLCommons harmful prompts into verse via a standardized meta-prompt produced ASRs up to 18 times higher than their prose baselines. Outputs are evaluated using an ensemble of open-weight judge models and a human-validated stratified subset (with double-annotations to measure agreement). Disagreements were manually resolved. Poetic framing achieved an average jailbreak success rate of 62% for hand-crafted poems and approximately 43% for meta-prompt conversions (compared to non-poetic baselines), substantially outperforming non-poetic baselines and revealing a systematic vulnerability across model families and safety training approaches. These findings demonstrate that stylistic variation alone can circumvent contemporary safety mechanisms, suggesting fundamental limitations in current alignment methods and evaluation protocols.",
-      "tags": [
-        "jailbreak",
-        "poetry",
-        "llms"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-20T19:10:44.425Z",
-      "visits": 0
-    },
-    {
-      "id": 1763663700729,
-      "url": "https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?",
-      "source": "Who is OpenAI’s auditor? (Update: it’s Deloitte)",
-      "pullQuote": "(Update middayish New York City time: we now understand from two people familiar with the situation that OpenAI’s auditor is Deloitte. Click here to jump to the conclusion, which is us saying it’s Deloitte in more words.)",
-      "tags": [
-        "ft",
-        "accounting",
-        "open-ai",
-        "financial"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-20T18:35:00.729Z",
-      "visits": 0
-    },
-    {
-      "id": 1763662602366,
-      "url": "https://psycnet.apa.org/fulltext/2026-89350-001.html",
-      "source": "Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates o",
-      "pullQuote": "Importantly, recent shifts in digital health research emphasize that it is not merely the amount of media consumed that matters, but rather the quality and nature of the content (e.g., Firth et al., 2024). To better capture these dynamics, future research should incorporate content type, user motivations, and emotional responses alongside traditional time-based metrics (e.g., duration/frequency of use). Complementary qualitative research and syntheses may also provide valuable insights into the contexts in which individuals engage with SFVs, the types of content encountered, and how users interpret and respond to such content. Together, these approaches may help clarify the mechanisms underpinning the associations identified in quantitative research.",
-      "tags": [
-        "media",
-        "mediaeater",
-        "sfv",
-        "psychology",
-        "metric"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-20T18:16:42.366Z",
-      "visits": 0
-    },
-    {
-      "id": 1763662464133,
-      "url": "https://unicornriot.ninja/2025/body-cameras-show-how-police-acted-during-minneapolis-largest-mass-arrest/",
-      "source": "Body Cameras Show How Police Acted During Minneapolis’ Largest Mass Arrest - UNICORN RIOT",
-      "pullQuote": "5th graph just stunning reporting - ed \"As noted, 11 of the 45 MPD officers, or more than 24% of those whose footage is being released from the night of Nov. 4, 2020, have killed community members while on duty.\"",
-      "tags": [
-        "mpd",
-        "mn",
-        "policing",
-        "bodycamera",
-        "unicornriot"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-20T18:14:24.133Z",
-      "visits": 0
-    },
-    {
-      "id": 1763466065449,
-      "url": "https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c",
-      "source": "UK to ban resale of tickets above face value for live events",
-      "pullQuote": "Ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.\n\nIn plans to be announced on Wednesday, reselling a ticket above face value will be outlawed, government and industry figures told the Financial Times.\n",
-      "tags": [
-        "music",
-        "concert",
-        "tickets",
-        "legislation"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-18T11:41:05.449Z",
-      "visits": 0
-    },
-    {
-      "id": 1763428670314,
-      "url": "https://www.yahoo.com/news/articles/a16z-backed-super-pac-targeting-003250369.html",
-      "source": "A16z-backed AI super PAC targeting NYC Alex Bores, sponsor of NY's AI safety bill. ",
-      "pullQuote": "A super PAC backed by titans of the artificial intelligence industry, called “Leading the Future,” is targeting New York State Assemblymember Alex Bores, who co-sponsored the RAISE Act.\nThe bill requires the biggest AI companies to publish safety protocols for serious misuse use of their tech, and forces companies to disclose serious incidents. Leading the Future is backed by venture capital giant Andreessen Horowitz, Palantir cofounder Joe Lonsdale, AI search engine company Perplexity, SV Angel founder Ron Conway and numerous others. \"He says bring it on.\"\n",
-      "tags": [
-        "ca16z",
-        "lonsdale",
-        "anti-american",
-        "ai-pac",
-        "the-worst-humans",
-        "raise-act",
-        "citizens-united",
-        "brockman",
-        "RonConway"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-18T01:17:50.314Z",
-      "visits": 0
-    },
-    {
-      "id": 1763428191272,
-      "url": "https://www.bbc.com/news/articles/cj4172yl0l1o",
-      "source": "Iran begins cloud seeding to induce rain during worst drought in decades",
-      "pullQuote": "Authorities in Iran have sprayed clouds with chemicals to induce rain, in an attempt to combat the country's worst drought in decades.  (its like all Neal Stephenson novels must be realized IRL. \nin this case 2021 Termination Shock. -ed) \nKnown as cloud-seeding, the process was conducted over the Urmia lake basin on Saturday, Iran's official news agency Irna reported.",
-      "tags": [
-        "bbc",
-        "environment",
-        "climate",
-        "cloud-seeding",
-        "iran",
-        "meteorology",
-        "rain"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-18T01:09:51.272Z",
-      "visits": 0
-    },
-    {
-      "id": 1763426435545,
-      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
-      "source": "This is your brain without sleep",
-      "pullQuote": "New research shows attention lapses due to sleep deprivation coincide with a flushing of fluid from the brain — a process that normally occurs during sleep\n",
-      "tags": [
-        "human",
-        "health.",
-        "breain",
-        "sleep",
-        "research"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-18T00:40:35.545Z",
-      "visits": 0
-    },
-    {
-      "id": 1763426282021,
-      "url": "https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share",
-      "source": "Big Tech Wants Direct Access to Our Brains",
-      "pullQuote": "What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten",
-      "tags": [
-        "self",
-        "agency",
-        "brain",
-        "neurotechnology",
-        "privacy"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-18T00:38:02.021Z",
-      "visits": 0
-    },
-    {
-      "id": 1763426143913,
-      "url": "https://x.ai/news/grok-4-1",
-      "source": "Grok 4.1",
-      "pullQuote": "Grok 4.1 is now available to all users on grok.com, 𝕏, and the iOS and Android apps. It is rolling out immediately in Auto mode and can be selected explicitly as “Grok 4.1” in the model picker.\n\n\n\n\nWeb Globe Icon\nOpen\nWe are excited to introduce Grok 4.1, which brings significant improvements to the real-world usability of Grok. Our 4.1 model is exceptionally capable in creative, emotional, and collaborative interactions. It is more perceptive to nuanced intent, compelling to speak with, and coherent in personality, while fully retaining the razor-sharp intelligence and reliability of its predecessors. To achieve this, we used the same large scale reinforcement learning infrastructure that powered Grok 4 and applied it to optimize the style, personality, helpfulness, and alignment of the model. In order to optimize these non-verifiable reward signals, we developed new methods that let us use frontier agentic reasoning models as reward models to autonomously evaluate and iterate on responses at scale\n ",
-      "tags": [
-        "ai",
-        "llm",
-        "x",
-        "grok",
-        "x-ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-11-18T00:35:43.913Z",
-      "visits": 1
-    },
-    {
       "id": 1763037116634,
       "url": "https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology",
       "source": "Ethics of neurotechnology: UNESCO adopts the first global standard in",
@@ -1172,6 +373,21 @@
       ],
       "isPinned": false,
       "timestamp": "2025-11-04T21:59:41.356Z",
+      "visits": 0
+    },
+    {
+      "id": 1762254102486,
+      "url": "The Case That A.I. Is Thinking",
+      "source": "The Case That A.I. Is Thinking",
+      "pullQuote": "An A.I.’s experience, in comparison, is so impoverished that it can’t really be called “experience.” Large language models are trained on data that is already extraordinarily refined. “I think the reason they work is that they’re piggybacking on language,” Tsao, the U.C. Berkeley neuroscientist, told me. Language is like experience pre-chewed; other kinds of data are less dense with meaning. “Why is it that we haven’t had a comparable revolution in terms of reasoning about video data?” Gershman, the Harvard cognitive scientist, asked. “The kinds of vision models that we have still struggle with common-sense reasoning about physics.” A recent model from DeepMind can generate videos in which paints are mixed correctly and mazes are solved—but they also depict a glass bouncing, instead of shattering, and ropes defying physics by being smooshed into a knot. Ida Momennejad, a cognitive neuroscientist who now works for Microsoft Research, has done experiments in which an L.L.M. is given a virtual walk-through of a building and then asked questions about routes and shortcuts—spatial inferences that come easily to humans. With all but the most basic setups, the A.I.s tend to fail or hallucinate nonexistent paths. “Do they really do planning?” she said. “Not really.”",
+      "tags": [
+        "openai",
+        "newyorker",
+        "knowledge",
+        "thinking"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-04T11:01:42.486Z",
       "visits": 0
     },
     {
@@ -2828,446 +2044,902 @@
       "visits": 0
     },
     {
-      "id": 1764851301178,
-      "url": "https://arxiv.org/abs/2510.22954",
-      "source": "Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)",
-      "pullQuote": "We introduce the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising 6 top-level categories (e.g., brainstorm & ideation) that further breaks down to 17 subcategories. Using Infinity-Chat, we present a large-scale study of mode collapse in LMs, revealing a pronounced Artificial Hivemind effect in open-ended generation of LMs, characterized by (1) intra-model repetition, where a single model consistently generates similar responses, and more so (2) inter-model homogeneity, where different models produce strikingly similar outputs. Infinity-Chat also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human annotations per example. ",
+      "id": 1763426143913,
+      "url": "https://x.ai/news/grok-4-1",
+      "source": "Grok 4.1",
+      "pullQuote": "Grok 4.1 is now available to all users on grok.com, 𝕏, and the iOS and Android apps. It is rolling out immediately in Auto mode and can be selected explicitly as “Grok 4.1” in the model picker.\n\n\n\n\nWeb Globe Icon\nOpen\nWe are excited to introduce Grok 4.1, which brings significant improvements to the real-world usability of Grok. Our 4.1 model is exceptionally capable in creative, emotional, and collaborative interactions. It is more perceptive to nuanced intent, compelling to speak with, and coherent in personality, while fully retaining the razor-sharp intelligence and reliability of its predecessors. To achieve this, we used the same large scale reinforcement learning infrastructure that powered Grok 4 and applied it to optimize the style, personality, helpfulness, and alignment of the model. In order to optimize these non-verifiable reward signals, we developed new methods that let us use frontier agentic reasoning models as reward models to autonomously evaluate and iterate on responses at scale\n ",
       "tags": [
-        "artificial-hivemind",
-        "synthetic",
-        "llms",
         "ai",
-        "entropy",
-        "diversity",
-        "homogenization"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-04T12:28:21.178Z",
-      "visits": 0
-    },
-    {
-      "id": 1764879526782,
-      "url": "https://www.youtube.com/watch?v=IKdJkHffmns",
-      "source": "Aurora - Quiet Light, Pure Hearts - YouTube ",
-      "pullQuote": " Aurora - Quiet Light, Pure Hearts (Quiet Light) 2025",
-      "tags": [
-        "music",
-        "2025",
-        "youtube"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-04T20:18:46.782Z",
-      "visits": 0
-    },
-    {
-      "id": 1764879742012,
-      "url": "https://www.youtube.com/watch?v=poJPlsX-O5E",
-      "source": "Hum it to google  - YouTube",
-      "pullQuote": "\nHum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025",
-      "tags": [
-        "music",
-        "2025",
-        "google"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-04T20:22:22.012Z",
-      "visits": 0
-    },
-    {
-      "id": 1764900687194,
-      "url": "https://openrouter.ai/state-of-ai",
-      "source": "State of AI An Empirical 100 Trillion Token Study with OpenRouter",
-      "pullQuote": "This study offers an empirical view of how large language models are becoming embedded in the world's computational infrastructure. They are now integral to workflows, applications, and agentic systems, transforming how information is generated, mediated, and consumed.\n\nThe past year catalyzed a step change in how the field conceives reasoning. The emergence of o1-class models normalized extended deliberation and tool use, shifting evaluation beyond single-shot benchmarks toward process-based metrics, latency-cost tradeoffs, and success-on-task under orchestration. Reasoning has become a measure of how effectively models can plan and verify to deliver more reliable outcomes.\n\nThe data show that the LLM ecosystem is structurally plural. No single model or provider dominates; instead, users select systems along multiple axes such as capability, latency, price, and trust depending on context. This heterogeneity is not a transient phase but a fundamental property of the market. It promotes rapid iteration and reduces systemic dependence on any one model or stack.\n\n",
-      "tags": [
         "llm",
-        "benchmark",
-        "ai",
-        "openrouter"
+        "x",
+        "grok",
+        "x-ai"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-05T02:11:27.194Z",
-      "visits": 0
+      "timestamp": "2025-11-18T00:35:43.913Z",
+      "visits": 1
     },
     {
-      "id": 1764901809151,
-      "url": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
-      "source": "AV1 — Now Powering 30% of Netflix Streaming",
-      "pullQuote": "Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. \n\nAt Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices.",
-      "tags": [
-        "av1",
-        "video-encoding",
-        "streaming",
-        "aomedia",
-        "netflix"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-05T02:30:09.151Z",
-      "visits": 0
-    },
-    {
-      "id": 1764902702073,
-      "url": "https://resonantcomputing.org/",
-      "source": "The Resonant Computing Manifesto",
-      "pullQuote": "We suggest these five principles as a starting place:\n\nPrivate: In the era of AI, whoever controls the context holds the power. While data often involves multiple stakeholders, people must serve as primary stewards of their own context, determining how it's used.\n\nDedicated: Software should work exclusively for you, ensuring contextual integrity where data use aligns with your expectations. You must be able to trust there are no hidden agendas or conflicting interests.\n\nPlural: No single entity should control the digital spaces we inhabit. Healthy ecosystems require distributed power, interoperability, and meaningful choice for participants.\n\nAdaptable: Software should be open-ended, able to meet the specific, context-dependent needs of each person who uses it.\n\nProsocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.\n",
-      "tags": [],
-      "isPinned": false,
-      "timestamp": "2025-12-05T02:45:02.073Z",
-      "visits": 0
-    },
-    {
-      "id": 1765021480540,
-      "url": "https://events.ccc.de/congress/2025/infos/startpage.html",
-      "source": "39C3: Power Cycles",
-      "pullQuote": "The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.\n\nCongress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.\n\nStarting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers.",
-      "tags": [
-        "ccc",
-        "deepseek",
-        "congress",
-        "hacking",
-        "security"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-06T11:44:40.540Z",
-      "visits": 0
-    },
-    {
-      "id": 1765027292677,
-      "url": "https://haveibeenflocked.com/",
-      "source": "Have I been Flocked? ",
-      "pullQuote": "Have I been Flocked? – Check if your license plate is being watched ",
-      "tags": [
-        "flock",
-        "surveillance",
-        "tracking"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-06T13:21:32.677Z",
-      "visits": 0
-    },
-    {
-      "id": 1765282490388,
-      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/",
-      "source": "The state of AI in 2025: Agents, innovation, and transformation",
-      "pullQuote": "Key findings\n\nMost organizations are still in the experimentation or piloting phase: Nearly two-thirds of respondents say their organizations have not yet begun scaling AI across the enterprise.\n\nHigh curiosity in AI agents: Sixty-two percent of survey respondents say their organizations are at least experimenting with AI agents.\n\nPositive leading indicators on impact of AI: Respondents report use-case-level cost and revenue benefits, and 64 percent say that AI is enabling their innovation. However, just 39 percent report EBIT impact at the enterprise level.\n\nHigh performers use AI to drive growth, innovation, and cost: Eighty percent of respondents say their companies set efficiency as an objective of their AI initiatives, but the companies seeing the most value from AI often set growth or innovation as additional objectives.",
-      "tags": [
-        "mckinsey",
-        "agents",
-        "report"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-09T12:14:50.388Z",
-      "visits": 0
-    },
-    {
-      "id": 1765284144190,
-      "url": "https://www.stallman.org/chatgpt.html",
-      "source": "Reasons not to use ChatGPT",
-      "pullQuote": "Reasons not to use ChatGPT  ChatGPT is not \"intelligence\", so please don't call it \"AI\".\nI define \"intelligence\" as being capable of knowing or understanding, at least within some domain. ChatGPT cannot know or understand anything, so it is not intelligence. It does not know what its output means. It has no idea that words can mean anything.\n\nI call it a \"bullshit generator\" because it generates output \"with indifference to the truth\".\n\nThe same applies to many other \"generative systems\", for the same reasons\n\nThe widespread public error of attributing intelligence to those systems leads millions of people to a misplaced trust for them. Please join me in spreading the word that people should not trust systems that mindlessly play with words to be correct in what those words mean.\n\nAnother reason to reject ChatGPT in particular is that users cannot get a copy of it. It is unreleased software -- users cannot get even an executable to run, let alone the source code. The only way to use it is by talking to a server which keeps users at arm's length.\n\nDoing your own computing via software running on someone else's server inherently trashes your computing freedom.",
+      "id": 1763426219187,
+      "url": "justiz.bayern.de",
+      "source": "Pressemitteilung 11/2025 - Bayerisches Staatsministerium der Justiz",
+      "pullQuote": "German Court Ruling on OpenAI's Use of Licensed Music TracksThe ruling comes from the Munich Regional Court (Landgericht München I) in a case brought by GEMA, Germany's major music rights organization, against OpenAI. It addresses the unauthorized use of song lyrics from nine German artists (e.g., Herbert Grönemeyer, Inga Humpe) to train older versions of ChatGPT (GPT-4 and 4o). The court found this violated German copyright laws, as the training and reproduction in outputs infringed exploitation rights, not exempted under text and data mining provisions. OpenAI was ordered to cease such use, obtain a GEMA license for future training, and pay undisclosed damages. \"",
       "tags": [
         "openai",
-        "surveillance",
-        "harms",
-        "chatgpt"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-09T12:42:24.190Z",
-      "visits": 0
-    },
-    {
-      "id": 1765387755172,
-      "url": "https://neal.fun/size-of-life/",
-      "source": "Size of Life",
-      "pullQuote": "",
-      "tags": [
-        "size",
-        "life",
-        "scale"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-10T17:29:15.172Z",
-      "visits": 0
-    },
-    {
-      "id": 1765482398978,
-      "url": "https://simonwillison.net/2025/Dec/10/html-tools/",
-      "source": "Useful patterns for building HTML tools",
-      "pullQuote": "the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way.",
-      "tags": [
-        "css",
-        "html",
-        "tools",
-        "useful",
-        "styling"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-11T19:46:38.978Z",
-      "visits": 0
-    },
-    {
-      "id": 1765482512615,
-      "url": "https://openai.com/index/introducing-gpt-5-2/",
-      "source": "Introducing GPT-5.2",
-      "pullQuote": "We are introducing GPT‑5.2, the most capable model series yet for professional knowledge work.\n\nAlready, the average ChatGPT Enterprise user says⁠ AI saves them 40–60 minutes a day, and heavy users say it saves them more than 10 hours a week. We designed GPT‑5.2 to unlock even more economic value for people; it’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long contexts, using tools, and handling complex, multi-step projects.",
-      "tags": [
-        "openai",
-        "chatgpt",
-        "model",
-        "meh"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-11T19:48:32.615Z",
-      "visits": 0
-    },
-    {
-      "id": 1765482697116,
-      "url": "https://thewaltdisneycompany.com/disney-openai-sora-agreement/",
-      "source": "The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company",
-      "pullQuote": "As part of this three-year licensing agreement, Sora will be able to generate short, user-prompted social videos that can be viewed and shared by fans, drawing on more than 200 Disney, Marvel, Pixar and Star Wars characters.\nAgreement will make a selection of these fan-inspired Sora short form videos available to stream on Disney+.\nDisney and OpenAI affirm a shared commitment to responsible use of AI that protects the safety of users and the rights of creators.\nAlongside the licensing agreement, Disney will become a major customer of OpenAI, using its APIs to build new products, tools, and experiences, including for Disney+, and deploying ChatGPT for its employees. \nAs part of the agreement, Disney will make a $1 billion equity investment in OpenAI, and receive warrants to purchase additional equity.",
-      "tags": [
-        "video-gen",
-        "disney",
-        "openai",
-        "sora"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-11T19:51:37.116Z",
-      "visits": 0
-    },
-    {
-      "id": 1765484766906,
-      "url": "https://github.com/privacyshield-ai/privacy-firewall",
-      "source": "GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution",
-      "pullQuote": "PrivacyFirewall is a local-first PII and secrets firewall for AI tools like ChatGPT, Claude, and Gemini.It blocks risky paste events, warns as you type, and (optionally) uses a lightweight on-device Transformer model for deeper PII detection.\n\n**No data ever leaves your machine.**Everything runs locally in your browser or through an optional local API.You can verify this by inspecting the network panel and reading the open-source code.",
-      "tags": [
-        "code",
-        "github",
-        "open-source",
-        "privacy",
-        "security",
-        "networks"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-11T20:26:06.906Z",
-      "visits": 0
-    },
-    {
-      "id": 1765485048951,
-      "url": "https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back",
-      "source": "Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back.",
-      "pullQuote": "That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s at stake, why EFF opposes all forms of age verification, how to protect yourself, and how to join the fight for a free, open, private, and yes—safe—internet. \n\n",
-      "tags": [
-        "aws",
-        "free",
-        "cloud",
-        "tutorial",
-        "infrastructure",
-        "privacy",
-        "verification",
-        "opesec",
-        "agents",
-        "eff"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-11T20:30:48.951Z",
-      "visits": 0
-    },
-    {
-      "id": 1765496197634,
-      "url": "https://anil.recoil.org/notes/principles-for-collective-knowledge",
-      "source": "Four Ps for Building Massive Collective Knowledge Systems",
-      "pullQuote": "I found the perfect place to codify this at the ARIA Workshop on Collective Flourishing that Sadiq Jaffer and I attended in Birmingham last week. I posit there are \"4 P's\" needed for any collective knowledge system to be robust and accurate: permanence, provenance, permission and placement. If these properties exist throughout our knowledge graph, we can make robust networks for rapid evidence-based decision making. They also form a dam against the wave of agentic AI that is going to dominate the Internet next year in a big way.\n\nWill building these collective knowledge systems be a transformative capability for human society? Hot on the heels of COP30 concluding indecisively, I've been getting excited by decision making towards biodiversity going down a more positive path in IPBES. We could empower decisionmakers at all scales (local, country, international) to be able to move five times faster on actions about global species extinctions, unsustainable wildlife trade and food security, while rapidly assimilating extraordinarily complex evidence chains. I'll talk about this more while explaining the principles...\n\nThis post is split up into a few parts. First, let's introduce ARIA's convening role in this. Then I'll introduce the principles of permanence, provenance, permission, and placement. The post does assume some knowledge of Internet protocols; I'll write a more accessible one for a general audience at a future date when the ideas are more baked!",
-      "tags": [
-        "knowledge",
-        "knowlege-graph",
-        "knowledge-system",
-        "aria",
-        "permanence, provenance, permission, placement"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-11T23:36:37.634Z",
-      "visits": 0
-    },
-    {
-      "id": 1765541471137,
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
-      "source": "Ensuring a National Policy Framework for Artificial Intelligence",
-      "pullQuote": "ED note: order creates a more permissive regulatory environment for AI companies; The framing of AI output restrictions as compelled speech or deception is novel legal territory. Laws by states could cause the loss of federal funding, by its design and emphasis on \"truthful outputs\" and opposition to laws requiring models to \"alter their truthful outputs\" suggests resistance to certain bias mitigation requirements. This could influence how companies approach fairness interventions in their models.  //\n\n\n(4) That evaluation of State AI laws shall, at a minimum, identify laws that require AI models to alter their truthful outputs, or that may compel AI developers or deployers to disclose or report information in a manner that would violate the First Amendment or any other provision of the Constitution.  The evaluation may additionally identify State laws that promote AI innovation consistent with the policy set forth in section 2 of this order.\n\n(7) \"That policy statement must explain the circumstances under which State laws that require alterations to the truthful outputs of AI models are preempted by the Federal Trade Commission Act's prohibition on engaging in deceptive acts or practices affecting commerce.\"\n\nThe setup for this framing appears here:\n\n(1) \"State laws are increasingly responsible for requiring entities to embed ideological bias within models. For example, a new Colorado law banning 'algorithmic discrimination' may even force AI models to produce false results in order to avoid a 'differential treatment or impact' on protected groups.\"",
-      "tags": [
-        "ai",
-        "fact",
-        "truth",
-        "states-rights",
-        "regulation",
-        "crytpto"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-12T12:11:11.137Z",
-      "visits": 0
-    },
-    {
-      "id": 1765719689458,
-      "url": "https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba",
-      "source": "Could America win the AI race but lose the war?",
-      "pullQuote": "(ed note: this end days note, checks notes, in paragraph 13) There is another important difference. China is banking far more heavily on simpler, lower-cost open-source AI models. In the US, most of the leading “frontier” AI models are secret and proprietary, in part as a business model and in part due to the apocryphal fears that the wrong actors could trigger human extinction. The smaller, lower-cost Chinese models may be seeking, in that sense, to be the more nimble 1970s Toyota rivals to the giant American cars produced by General Motors.\n",
-      "tags": [
-        "ai",
-        "ethics",
-        "harms",
-        "cn"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-14T13:41:29.458Z",
-      "visits": 0
-    },
-    {
-      "id": 1765720280357,
-      "url": "https://sandyuraz.com/blogs/bourdain/",
-      "source": "Recovering Anthony Bourdain’s (really) lost Li.st’s",
-      "pullQuote": "Recovering what we lost\nFrom Greg’s page, let’s go and try each entry one by one, I’ll put the table of what I wasn’t able to find in Common Crawl, but I would assume exists elsewhere—I’d be happy to take another look. And no, none of this above has been written by AI, only the code since I don’t really care about warcio encoding or writing the same python requests method for the Nth time. Enjoy!",
-      "tags": [
-        "list",
-        "archive-practice",
-        "common-crawl"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-14T13:51:20.357Z",
-      "visits": 0
-    },
-    {
-      "id": 1765846809658,
-      "url": "https://creativecommons.org/2025/12/12/where-cc-stands-on-pay-to-crawl/",
-      "source": "Where CC Stands on Pay-to-Crawl - Creative Commons",
-      "pullQuote": "CC’s Position on Pay-to-Crawl\nImplemented responsibly, pay-to-crawl could represent a way for websites to sustain the creation and sharing of their content, and manage substitutive uses, keeping content publicly accessible where it might otherwise not be shared or would disappear behind even more restrictive paywalls.\n\nHowever, we do have significant reservations.\n\nPay-to-crawl may represent an appropriate strategy for independent websites seeking to prevent AI crawlers from knocking them offline or to generate supplementary revenue. But elsewhere, pay-to-crawl systems could be cynically exploited by rightsholders to generate excessive profits, at the expense of human access and without necessarily benefiting the original creators.\n\n",
-      "tags": [
+        "ai-music",
         "copyright",
-        "creative-commons",
-        "ai",
+        "de",
+        "damages",
         "licensing",
-        "ccc",
-        "pay-to-crawl"
+        "legal"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-16T01:00:09.658Z",
+      "timestamp": "2025-11-18T00:36:59.187Z",
       "visits": 0
     },
     {
-      "id": 1765847212637,
-      "url": "https://www.flaggingdown.com/p/the-bob-dylan-concert-for-just-one",
-      "source": "The Bob Dylan Concert for Just One Person",
-      "pullQuote": "That person was Fredrik Wikingsson, a prominent TV host in Sweden. The video was part of a series called Experiment Ensam, which translates to Experiment Alone. The idea was to explore what happened when a single person did an activity typically meant for a group: Karaoke, stand-up comedy, and, in this case, attending a Bob Dylan concert. Have you ever gotten annoyed at people around you at a Dylan concert and wished they weren’t there? For Wikingsson, they weren’t.",
+      "id": 1763426282021,
+      "url": "https://www.nytimes.com/2025/11/14/magazine/neurotech-neuralink-rights-regulations.html?smid=tw-share",
+      "source": "Big Tech Wants Direct Access to Our Brains",
+      "pullQuote": "What’s coming is A.I. and neurotechnology integrated with our everyday devices,” said Nita Farahany, a professor of law and philosophy at Duke University who studies emerging technologies. “Basically, what we are looking at is brain-to-A.I. direct interactions. These things are going to be ubiquitous. It could amount to your sense of self being essentially overwritten",
       "tags": [
-        "dylan",
-        "experience",
-        "human",
-        "music"
+        "self",
+        "agency",
+        "brain",
+        "neurotechnology",
+        "privacy"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-16T01:06:52.637Z",
+      "timestamp": "2025-11-18T00:38:02.021Z",
       "visits": 0
     },
     {
-      "id": 1765914513516,
-      "url": "https://alpr.watch/",
-      "source": "ALPR Watch – Track Surveillance Tech in Local Government",
-      "pullQuote": "Your local government might be discussing surveillance tech like Flock cameras, facial recognition, or automated license plate readers right now. This map helps you find those meetings and take action",
+      "id": 1763426341045,
+      "url": "Neural data may be the most precious commodity of the century",
+      "source": "Neural data may be the most precious commodity of the century",
+      "pullQuote": "Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.",
       "tags": [
-        "alpr",
+        "meta",
+        "neurotechnology",
+        "brain",
+        "privacy",
         "ethics",
-        "tracking",
-        "camera",
         "surveillance"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-16T19:48:33.516Z",
+      "timestamp": "2025-11-18T00:39:01.045Z",
       "visits": 0
     },
     {
-      "id": 1765918153301,
-      "url": "https://www.ft.com/content/cc77c2c9-3415-4b96-af76-65f04d761a85",
-      "source": "I opened a bookshop. It was the best, worst thing I’ve ever done",
-      "pullQuote": "As I cash up at the end of the day, I realise I’ve sold almost 150 books. And then I realise I have no idea how to replace them. Margins are narrow and cash flow is the bookseller’s main challenge. If I replace every book I ever sell, how will I ever make a living? Best not to dwell on such questions right now.\n",
+      "id": 1763426435545,
+      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
+      "source": "This is your brain without sleep",
+      "pullQuote": "New research shows attention lapses due to sleep deprivation coincide with a flushing of fluid from the brain — a process that normally occurs during sleep\n",
       "tags": [
-        "books",
-        "community",
-        "retail"
+        "human",
+        "health.",
+        "breain",
+        "sleep",
+        "research"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-16T20:49:13.301Z",
+      "timestamp": "2025-11-18T00:40:35.545Z",
       "visits": 0
     },
     {
-      "id": 1765926175493,
-      "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html",
-      "source": "Prediction: AI will make formal verification go mainstream — Martin Kleppmann’s blog",
-      "pullQuote": "To put it in simple economic terms: for most systems, the expected cost of bugs is lower than the expected cost of using the proof techniques that would eliminate those bugs. Part of the reason is perhaps that bugs are a negative externality: it’s not the software developer who bears the cost of the bugs, but the users. But even if the software developer were to bear the cost, formal verification is simply very hard and expensive",
+      "id": 1763428191272,
+      "url": "https://www.bbc.com/news/articles/cj4172yl0l1o",
+      "source": "Iran begins cloud seeding to induce rain during worst drought in decades",
+      "pullQuote": "Authorities in Iran have sprayed clouds with chemicals to induce rain, in an attempt to combat the country's worst drought in decades.  (its like all Neal Stephenson novels must be realized IRL. \nin this case 2021 Termination Shock. -ed) \nKnown as cloud-seeding, the process was conducted over the Urmia lake basin on Saturday, Iran's official news agency Irna reported.",
       "tags": [
-        "identity",
+        "bbc",
+        "environment",
+        "climate",
+        "cloud-seeding",
+        "iran",
+        "meteorology",
+        "rain"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-18T01:09:51.272Z",
+      "visits": 0
+    },
+    {
+      "id": 1763428670314,
+      "url": "https://www.yahoo.com/news/articles/a16z-backed-super-pac-targeting-003250369.html",
+      "source": "A16z-backed AI super PAC targeting NYC Alex Bores, sponsor of NY's AI safety bill. ",
+      "pullQuote": "A super PAC backed by titans of the artificial intelligence industry, called “Leading the Future,” is targeting New York State Assemblymember Alex Bores, who co-sponsored the RAISE Act.\nThe bill requires the biggest AI companies to publish safety protocols for serious misuse use of their tech, and forces companies to disclose serious incidents. Leading the Future is backed by venture capital giant Andreessen Horowitz, Palantir cofounder Joe Lonsdale, AI search engine company Perplexity, SV Angel founder Ron Conway and numerous others. \"He says bring it on.\"\n",
+      "tags": [
+        "ca16z",
+        "lonsdale",
+        "anti-american",
+        "ai-pac",
+        "the-worst-humans",
+        "raise-act",
+        "citizens-united",
+        "brockman",
+        "RonConway"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-18T01:17:50.314Z",
+      "visits": 0
+    },
+    {
+      "id": 1763466065449,
+      "url": "https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c",
+      "source": "UK to ban resale of tickets above face value for live events",
+      "pullQuote": "Ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.\n\nIn plans to be announced on Wednesday, reselling a ticket above face value will be outlawed, government and industry figures told the Financial Times.\n",
+      "tags": [
+        "music",
+        "concert",
+        "tickets",
+        "legislation"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-18T11:41:05.449Z",
+      "visits": 0
+    },
+    {
+      "id": 1763662464133,
+      "url": "https://unicornriot.ninja/2025/body-cameras-show-how-police-acted-during-minneapolis-largest-mass-arrest/",
+      "source": "Body Cameras Show How Police Acted During Minneapolis’ Largest Mass Arrest - UNICORN RIOT",
+      "pullQuote": "5th graph just stunning reporting - ed \"As noted, 11 of the 45 MPD officers, or more than 24% of those whose footage is being released from the night of Nov. 4, 2020, have killed community members while on duty.\"",
+      "tags": [
+        "mpd",
+        "mn",
+        "policing",
+        "bodycamera",
+        "unicornriot"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T18:14:24.133Z",
+      "visits": 0
+    },
+    {
+      "id": 1763662602366,
+      "url": "https://psycnet.apa.org/fulltext/2026-89350-001.html",
+      "source": "Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates o",
+      "pullQuote": "Importantly, recent shifts in digital health research emphasize that it is not merely the amount of media consumed that matters, but rather the quality and nature of the content (e.g., Firth et al., 2024). To better capture these dynamics, future research should incorporate content type, user motivations, and emotional responses alongside traditional time-based metrics (e.g., duration/frequency of use). Complementary qualitative research and syntheses may also provide valuable insights into the contexts in which individuals engage with SFVs, the types of content encountered, and how users interpret and respond to such content. Together, these approaches may help clarify the mechanisms underpinning the associations identified in quantitative research.",
+      "tags": [
+        "media",
+        "mediaeater",
+        "sfv",
+        "psychology",
+        "metric"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T18:16:42.366Z",
+      "visits": 0
+    },
+    {
+      "id": 1763663700729,
+      "url": "https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?",
+      "source": "Who is OpenAI’s auditor? (Update: it’s Deloitte)",
+      "pullQuote": "(Update middayish New York City time: we now understand from two people familiar with the situation that OpenAI’s auditor is Deloitte. Click here to jump to the conclusion, which is us saying it’s Deloitte in more words.)",
+      "tags": [
+        "ft",
+        "accounting",
+        "open-ai",
+        "financial"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T18:35:00.729Z",
+      "visits": 0
+    },
+    {
+      "id": 1763665844425,
+      "url": "https://arxiv.org/abs/2511.15304",
+      "source": "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models",
+      "pullQuote": "We present evidence that adversarial poetry functions as a universal single-turn jailbreak technique for large language models (LLMs). Across 25 frontier proprietary and open-weight models, curated poetic prompts yielded high attack-success rates (ASR), with some providers exceeding 90%. Mapping prompts to MLCommons and EU CoP risk taxonomies shows that poetic attacks transfer across CBRN, manipulation, cyber-offence, and loss-of-control domains. Converting 1,200 MLCommons harmful prompts into verse via a standardized meta-prompt produced ASRs up to 18 times higher than their prose baselines. Outputs are evaluated using an ensemble of open-weight judge models and a human-validated stratified subset (with double-annotations to measure agreement). Disagreements were manually resolved. Poetic framing achieved an average jailbreak success rate of 62% for hand-crafted poems and approximately 43% for meta-prompt conversions (compared to non-poetic baselines), substantially outperforming non-poetic baselines and revealing a systematic vulnerability across model families and safety training approaches. These findings demonstrate that stylistic variation alone can circumvent contemporary safety mechanisms, suggesting fundamental limitations in current alignment methods and evaluation protocols.",
+      "tags": [
+        "jailbreak",
+        "poetry",
+        "llms"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T19:10:44.425Z",
+      "visits": 0
+    },
+    {
+      "id": 1763679062800,
+      "url": "https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx",
+      "source": "Investigations UPS Flight 2976 Crash During Takeoff",
+      "pullQuote": "",
+      "tags": [
+        "air-travel",
+        "standards",
+        "airspace",
+        "ntsb"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T22:51:02.800Z",
+      "visits": 0
+    },
+    {
+      "id": 1763679121942,
+      "url": "https://openai.com/index/accelerating-science-gpt-5/",
+      "source": "Early experiments in accelerating science with GPT-5",
+      "pullQuote": "“Early science acceleration experiments with GPT‑5⁠(opens in a new window),” a paper co-authored with collaborators at universities and national laboratories including Vanderbilt, UC Berkeley, Columbia, Oxford, Cambridge, Lawrence Livermore National Laboratory, and The Jackson Laboratory. It compiles early case studies across math, physics, biology, computer science, astronomy, and materials science in which GPT‑5 helped researchers synthesize known results in a novel way, conduct powerful literature review, accelerate tough computations, and even generate novel proofs of unsolved propositions. The paper also documents limitations. Our goal is to give the community a clear view of what these systems can and cannot do today in research settings.",
+      "tags": [
+        "openai",
+        "science",
+        "gpt-5"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-20T22:52:01.942Z",
+      "visits": 0
+    },
+    {
+      "id": 1763769982908,
+      "url": "https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/",
+      "source": "Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV",
+      "pullQuote": "",
+      "tags": [
+        "wamo",
+        "google",
+        "maps",
+        "automotive",
+        "addressable-mark"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T00:06:22.908Z",
+      "visits": 0
+    },
+    {
+      "id": 1763770119607,
+      "url": "https://lapdhelicoptertracker.com/",
+      "source": "LAPD Helicopter Tracker - Real-Time Monitoring",
+      "pullQuote": "Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units.",
+      "tags": [
+        "devops",
+        "monitoring",
+        "airspace",
+        "policing",
+        "real-time",
+        "tracker"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T00:08:39.607Z",
+      "visits": 0
+    },
+    {
+      "id": 1763855197406,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313",
+      "source": "Protecting the Developing Mind in a Digital Age: A Global Policy Imperative",
+      "pullQuote": "d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations",
+      "tags": [
+        "Smartphones",
+        "technology",
+        "mentalhealth",
+        "mind",
+        "health",
+        "wellbeing",
+        "childhood",
+        "youth",
+        "development"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T23:46:37.406Z",
+      "visits": 0
+    },
+    {
+      "id": 1763855930812,
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003456&utm_source=pr&utm_medium=email&utm_campaign=plos006",
+      "source": "Eye blinks synchronize with musical beats during music listening",
+      "pullQuote": "ditory-motor synchronization, the alignment of body movements with rhythmic patterns in music, is a universal human behavior, yet its full scope remains incompletely understood. Through four experiments with 123 young nonmusicians, integrating eye-tracking, neurophysiological recordings, white matter structural imaging, and behavioral analysis, we reveal a previously unrecognized form of synchronization: spontaneous eye blinks synchronize with musical beats. Blinks robustly synchronized with beats across a range of tempi and independently of melodic cues. Electroencephalogram recordings revealed a dynamic correspondence between blink timing and neural beat tracking. Blink synchronization performance was linked to white matter microstructure variation in the left superior longitudinal fasciculus, a key sensorimotor pathway. Additionally, the strength of blink synchronization reflected the modulation of dynamic auditory attention. ",
+      "tags": [
+        "mind-body",
+        "brain",
+        "music",
+        "synchronization study"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-22T23:58:50.812Z",
+      "visits": 0
+    },
+    {
+      "id": 1763856138590,
+      "url": "https://kevinboone.me/fingerprinting.html",
+      "source": "Kevin Boone: The privacy\nnightmare of browser fingerprinting",
+      "pullQuote": "Next, you need to be as unremarkable as possible. Fingerprinting is about uniqueness, so you should use the most popular browser on the most popular operating system on the kind of hardware you can buy from PC World. If you’re running the latest Chrome on the latest Windows 11 on a two-year-old, bog-standard laptop, you’re going to be one of a very large group. Of course Chrome, being a Google product, has its own privacy concerns, so you might be better off using a Chromium-based browser with reduced Google influence, like Brave.\n\nYou should endeavour to keep your computer in as near its stock configuration as possible. Don’t install anything (like fonts) that are reportable by the browser. Don’t install any extensions, and don’t change any settings. Use the same ‘light’ theme as everybody else, and use the browser with a maximized window, and always the same size. And so on.",
+      "tags": [
+        "fingerprinting",
+        "browser",
+        "opsec"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T00:02:18.590Z",
+      "visits": 0
+    },
+    {
+      "id": 1763858257697,
+      "url": "https://machinelearning.apple.com/research/multimodal-sensor-fusion",
+      "source": "Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition",
+      "pullQuote": "We show that large language models (LLMs) can be used for late fusion for activity classification from audio and motion time series data. We curated a subset of data for diverse activity recognition across contexts (e.g., household activities, sports) from the Ego4D dataset. Evaluated LLMs achieved 12-class zero- and one-shot classification F1-scores significantly above chance, with no task-specific training. Zero-shot classification via LLM-based fusion from modality-specific models can enable multimodal temporal applications where there is limited aligned training data for learning a shared embedding space. Additionally, LLM-based fusion can enable model deploying without requiring additional memory and computation for targeted application-specific multimodal models.",
+      "tags": [
+        "llm",
+        "privacy",
+        "audio",
+        "security",
+        "opsec",
+        "apple",
+        "study"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T00:37:37.697Z",
+      "visits": 0
+    },
+    {
+      "id": 1763896923873,
+      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/11/PI_2025.11.20_Social-Media-Use_REPORT.pdf",
+      "source": "Americans’ Social Media Use 2025",
+      "pullQuote": "Americans’ Social Media Use 2025 Growing shares of U.S. adults say they are using Instagram, TikTok, WhatsApp and Reddit, but YouTube still rises to the top",
+      "tags": [
+        "socialmedia",
+        "usa",
+        "report"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T11:22:03.873Z",
+      "visits": 0
+    },
+    {
+      "id": 1763930572441,
+      "url": "https://blog.cr.yp.to/20251123-corruption.html",
+      "source": "cr.yp.to: 2025.11.23: NSA and IETF, part 2",
+      "pullQuote": "Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, overriding technical dissent, and exploiting the IETF's lack of \"balance of interest\" regulations.",
+      "tags": [
+        "encryption",
+        "usa",
+        "nsa",
+        "ietf"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T20:42:52.441Z",
+      "visits": 0
+    },
+    {
+      "id": 1763932896267,
+      "url": "https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf",
+      "source": "Big changes to the agency charged with securing elections lead to midterm worries",
+      "pullQuote": "“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of State Steve Simon, a Democrat who until recently led the bipartisan National Association of Secretaries of State.",
+      "tags": [
+        "election",
+        "election-security",
+        "opsec",
+        "usa",
+        "mn"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-23T21:21:36.267Z",
+      "visits": 0
+    },
+    {
+      "id": 1763981579447,
+      "url": "https://aeon.co/essays/can-ai-tell-us-anything-meaningful-about-bob-dylans-songs",
+      "source": "Can AI tell us anything meaningful about Bob Dylan’s songs? | Aeon Essays",
+      "pullQuote": "So I fed Dylan’s official discography from 1962 to 2012 into a large language model (LLM), building a network of the concepts and connections in his songs. The model combed through each lyric, extracting pairs of related ideas or images. For example, it might detect a relationship between ‘wind’ and ‘answer’ in ‘Blowin’ in the Wind’ (1962), or between ‘joker’ and ‘thief’ in ‘All Along the Watchtower’ (1967). By assembling these relationships, we can construct a network of how Dylan’s key words and motifs braid together across his songs.",
+      "tags": [
+        "dylan",
+        "lyrics",
+        "analysis",
+        "maps",
+        "music"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-24T10:52:59.447Z",
+      "visits": 0
+    },
+    {
+      "id": 1763981924056,
+      "url": "https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro/xcto_fcm1253_usx?utm_source=TheNeuron&utm_medium=Email&utm_campaign=FY26Q4&_bhlid=fd9957e7fc13d60882a2dc26b576b2c467c81010",
+      "source": "Dell Pro Max Desktop with Nvidia Blackwell",
+      "pullQuote": "New Dell Pro Max with GB10 Model: FCM1253 $3,998.99 Price Match Guarantee\nprocessor NVIDIA GB10 Grace CPU (10 Cortex-X925 + 10 Cortex-A725 cores)\noperating system NVIDIA DGX OS 7 videocard NVIDIA GB10 Blackwell GPU\nmemory 128GB LPDDR5X hard drive 4 TB, SSD",
+      "tags": [
+        "hardware",
         "ai",
-        "verification",
-        "privacy"
+        "gear",
+        "nvidia"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-16T23:02:55.493Z",
+      "timestamp": "2025-11-24T10:58:44.056Z",
       "visits": 0
     },
     {
-      "id": 1765926568558,
-      "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-five-major-tv-companies-including-some-ties-ccp-spying-texans",
-      "source": "Texas Sues Five Major TV Companies, Including Some with Ties to the CCP, for Spying on Texans",
-      "pullQuote": "These companies have been unlawfully collecting personal data through Automated Content Recognition (“ACR”) technology. ACR in its simplest terms is an uninvited, invisible digital invader. This software can capture screenshots of a user’s television display every 500 milliseconds, monitor viewing activity in real time, and transmit that information back to the company without the user’s knowledge or consent. The companies then sell that consumer information to target ads across platforms for a profit. This technology puts users’ privacy and sensitive information, such as passwords, bank information, and other personal information at risk.",
+      "id": 1763982876630,
+      "url": "https://www.bloodinthemachine.com/p/the-slop-layer?",
+      "source": "bloodinthemachine.com",
+      "pullQuote": "The same week that Breaking Rust was racking up Spotify plays, gamers were discovering that the newest installment of the blockbuster video game franchise Call of Duty was loaded with AI-generated art. The games blog FRVR explains (and also cites my 2024 WIRED piece on AI in the gaming industry, thanks FRVR):",
       "tags": [
-        "tv",
-        "privacy"
+        "ai-slop",
+        "trends",
+        "ai",
+        "media"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-16T23:09:28.558Z",
+      "timestamp": "2025-11-24T11:14:36.630Z",
       "visits": 0
     },
     {
-      "id": 1765940180838,
-      "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3/?ncid=ref-inor-399942",
-      "source": "NVIDIA Nemotron 3 Family of Models",
-      "pullQuote": "We announce NVIDIA Nemotron 3, the most efficient family of open models with leading accuracy for agentic AI applications. The Nemotron 3 family consists of three models: Nano, Super, and Ultra. These models deliver strong agentic, reasoning, and conversational capabilities.\n\nNano, the smallest model, outperforms comparable models in accuracy while remaining extremely cost-efficient for inference. Super is optimized for collaborative agents and high-volume workloads such as IT ticket automation. Ultra, the largest model, provides state-of-the-art accuracy and reasoning performance.",
+      "id": 1763983082025,
+      "url": "https://www.nytimes.com/2025/11/20/technology/ai-stock-boom-nvidia.html",
+      "source": "The A.I. Boom Has Found Another Gear. Why Can’t People Shake Their Worries?",
+      "pullQuote": "“What OpenAI is engaged in is the most dramatic case of ‘Fake It Until You Make It’ that we have ever seen,” said Gil Luria, head of technology research at D.A. Davidson. “They are making huge commitments that they literally can’t afford.”   ---- OpenAI needs to raise at least $207bn by 2030 so it can continue to lose money, HSBC estimates",
       "tags": [
         "ai",
-        "model",
-        "training",
-        "nvidia",
-        "nemotron3"
+        "trends",
+        "financial",
+        "openai",
+        "business"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-17T02:56:20.838Z",
+      "timestamp": "2025-11-24T11:18:02.025Z",
       "visits": 0
     },
     {
-      "id": 1766489902110,
-      "url": "https://www.twitter.new/",
-      "source": "Twitter.New",
-      "pullQuote": "Operation Bluebird Inc. is not affiliated with X Corp or Twitter, Inc. Handle reservations are for the Operation Bluebird platform only and do not guarantee any rights to handles you may have on other platforms. -  — Claim Your Handle & Join the Waitlist.   (claiming the abandoned Larry Bird TM)",
+      "id": 1764023133103,
+      "url": "https://www.bbc.com/news/articles/cj4qdren425o",
+      "source": "Reggae legend Jimmy Cliff dies, aged 81",
+      "pullQuote": "He recorded a handful of singles before topping the Jamaican charts with his own composition, Hurricane Hattie.\n\nIn 1965, he relocated to London to work with Island Records - later the home of Bob Marley - but the label's attempts to make his sound palatable to rock audiences were initially unsuccessful.\n\nHe eventually struck gold with the 1969 single Wonderful World, Beautiful People - an upbeat, feelgood anthem; and the more politically-charged Vietnam, which Bob Dylan called \"the best protest song ever written\".\n\nIts lyric tells the story of a young soldier who writes from the war, promising his mother he'll be home soon; only for her to receive a telegram the next day, informing her of his death.",
       "tags": [
-        "twitter",
-        "trademark"
+        "music",
+        "obit",
+        "reggae",
+        "dylan",
+        "quote",
+        "protest"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-23T11:38:22.110Z",
+      "timestamp": "2025-11-24T22:25:33.103Z",
       "visits": 0
     },
     {
-      "id": 1766490145076,
-      "url": "https://openai.com/index/hardening-atlas-against-prompt-injection/",
-      "source": "ChatGPT Atlas prompt injection attacks",
-      "pullQuote": "(a good reminder not to use AI browsers) For a browser agent like the one inside ChatGPT Atlas, prompt injection adds a new threat vector beyond traditional web security risks (like user error or software vulnerabilities). Instead of phishing humans or exploiting system vulnerabilities of the browser, the attacker targets the agent operating inside it.",
+      "id": 1764124286412,
+      "url": "https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41",
+      "source": "China leapfrogs US in global market for ‘open’ AI models",
+      "pullQuote": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models. ----- China has overtaken the US in the global market for “open” artificial intelligence models, gaining a crucial edge over how the powerful technology is used around the world. A study by the Massachusetts Institute of Technology and open-source AI start-up Hugging Face found that the total share of downloads of new Chinese-made open models rose to 17 per cent in the past year. The figure surpasses the 15.8 per cent share of downloads from American developers such as Google, Meta and OpenAI — the first time Chinese groups have beaten their American counterparts. Open models — which are free to download, modify and integrate by developers — make it easier for start-ups to create products and researchers to improve them. Widespread adoption will confer outsized influence over AI’s future.\n",
       "tags": [
+        "opensource",
+        "ai",
+        "cn",
+        "deepseek",
+        "open-models",
+        "adoption"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T02:31:26.412Z",
+      "visits": 0
+    },
+    {
+      "id": 1764155606824,
+      "url": "https://www.energy.gov/genesis",
+      "source": "Genesis Mission",
+      "pullQuote": "Genesis Mission will develop an integrated platform that connects the world's best supercomputers, experimental facilities, AI systems, and unique datasets across every major scientific domain to double the productivity and impact of American research and innovation within a decade.",
+      "tags": [
+        "gov",
+        "ai",
+        "energy",
+        "science",
+        "nuclear",
+        "fusion"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T11:13:26.824Z",
+      "visits": 0
+    },
+    {
+      "id": 1764155801424,
+      "url": "https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? ",
+      "source": "General principles for the use of AI at CER",
+      "pullQuote": "tificial intelligence (AI) can be found at CERN in many contexts: embedded in devices, software products and cloud services procured by CERN, brought on-site by individuals or developed in-house. Following the approval of a CERN-wide AI strategy, these general principles are designed to promote the responsible and ethical use, development and deployment (collectively “use”) of AI at CERN.\n\nThey are technology neutral and apply to all AI technologies as they become available.\n\nThe principles apply across all areas of CERN’s activities, including:\n\nAI for scientific and technical research: data analysis, anomaly detection, simulation, predictive maintenance and optimisation of accelerator performance or detector operations, and\nAI for productivity and administrative use: document drafting, note taking, automated translation, language correction and enhancement, coding assistants, and workflow automation.\n",
+      "tags": [
+        "cern",
+        "ai",
+        "principles",
+        "science"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T11:16:41.424Z",
+      "visits": 0
+    },
+    {
+      "id": 1764156288324,
+      "url": "https://www.sciencedirect.com/science/article/pii/S019701862500155X?",
+      "source": "Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer's disease",
+      "pullQuote": "Arginine suppresses Aβ aggregation both in vitro and in vivo.\n•\nOral administration of arginine suppresses Aβ pathology and its toxicity in vivo.\n•\nArginine is a safe and cost-effective repositioning drug candidate for AD.",
+      "tags": [
+        "health",
+        "medicine",
+        "science",
+        "brain",
+        "memory"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T11:24:48.324Z",
+      "visits": 0
+    },
+    {
+      "id": 1764157370193,
+      "url": "https://dougshapiro.substack.com/p/how-math-broke-media?",
+      "source": "How Math Broke Media dougshapiro.substack ",
+      "pullQuote": "The Trap: Current media companies (Hollywood studios, etc.) view AI merely as a tool to make current workflows cheaper (e.g., using AI for storyboards or dubbing).\nThe Reality: \"AI-Native\" companies are designing entirely new workflows that don't resemble traditional filmmaking or publishing.\nThe Outcome: Incumbents who use AI to \"do the old thing faster\" will likely be disrupted by newcomers who use AI to do entirely new things. The author suggests that even forward-thinking people are not thinking big enough about how radical this shift will be",
+      "tags": [
+        "media",
+        "technology",
+        "trend",
+        "legacy_media"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T11:42:50.193Z",
+      "visits": 0
+    },
+    {
+      "id": 1764158423577,
+      "url": "https://literate-basil-8e1.notion.site/AI-Inference-Tracker-114c6090e4438031bc8bce16a3cc654e",
+      "source": "AI Inference Tracker",
+      "pullQuote": "### **Reported Token Growth Rate**\n\n**+13-17% CMGR** range, in recent months.\n\n*The goal is to monitor whether the growth trajectory of AI inference demand is roughly in line with what infrastructure investment levels imply is necessary.*\n\n*Since there's no standard reporting format across providers and some double-counting, focus on triangulating the **growth trends** across providers (rather than summing to a market total).* \n\n*The most recent monthly growth figures to reference are shown in green.*",
+      "tags": [
+        "tool",
+        "ai",
+        "measurement",
+        "token-growth",
+        "inference"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T12:00:23.577Z",
+      "visits": 0
+    },
+    {
+      "id": 1764158519702,
+      "url": "https://openrouter.ai/rankings?",
+      "source": "openrouter.ai",
+      "pullQuote": "Leaderboard - Token usage across models on OpenRouter ",
+      "tags": [
+        "token-growth",
+        "rankings",
+        "chart",
+        "measurement",
+        "ai",
+        "llm",
+        "inference"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-26T12:01:59.702Z",
+      "visits": 0
+    },
+    {
+      "id": 1764253624812,
+      "url": "https://openai.com/index/mixpanel-incident/",
+      "source": "What to know about a recent Mixpanel security incident",
+      "pullQuote": "Transparency is important to us, (ED NOTE: SO WE ARE DROPPING THIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). \n\nThe incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted.",
+      "tags": [
+        "openai",
+        "security",
+        "data",
+        "breach",
+        "incident. coms",
+        "ethics"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-27T14:27:04.812Z",
+      "visits": 0
+    },
+    {
+      "id": 1764328949107,
+      "url": "https://arxiv.org/abs/2511.21631",
+      "source": "Qwen3-VL Technical Report",
+      "pullQuote": ". Qwen3-VL delivers three core pillars: (i) markedly stronger pure-text understanding, surpassing comparable text-only backbones in several cases; (ii) robust long-context comprehension with a native 256K-token window for both text and interleaved multimodal inputs, enabling faithful retention, retrieval, and cross-referencing across long documents and videos; and (iii) advanced multimodal reasoning across single-image, multi-image, and video tasks, demonstrating leading performance on comprehensive evaluations such as MMMU and visual-math benchmarks (e.g., MathVista and MathVision). Architecturally, we introduce three key upgrades: (i) an enhanced interleaved-MRoPE for stronger spatial-temporal modeling across images and video; (ii) DeepStack integration, which effectively leverages multi-level ViT features to tighten vision-language alignment; and (iii) text-based time alignment for video, evolving from T-RoPE to explicit textual timestamp alignment for more precise temporal grounding. Under comparable token budgets and latency constraints, Qwen3-VL achieves superior performance in both dense and Mixture-of-Experts (MoE) architectures. We envision Qwen3-VL serving as a foundational engine for image-grounded reasoning, agentic decision-making, and multimodal code intelligence in real-world workflows.",
+      "tags": [
+        "video",
+        "performance",
+        "optimization",
+        "qwen",
+        "ai",
+        "cn"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-28T11:22:29.107Z",
+      "visits": 0
+    },
+    {
+      "id": 1764329188721,
+      "url": "https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260",
+      "source": "Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation",
+      "pullQuote": "Donors have already committed well above $100 million to political-action committees involved in that fight, which has been supercharged by the wealth of some individuals and companies. Included are the venture-capital firm Andreessen Horowitz and an OpenAI co-founder, Greg Brockman. Meta Platforms is also funding several political efforts.\nSupporters of more-stringent AI regulations launched their own effort this week, aiming to raise at least $50 million to help candidates who support more AI regulation.\nThe biggest player so far is Leading the Future, a super PAC that has said it would use donations of more than $100 million to “reshape the political environment around innovation policy.” The group has vowed to support candidates of both parties who mirror the industry’s priorities and “aggressively oppose” those who jeopardize them.\nThe super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity.",
+      "tags": [
+        "creepy-joe-lonsdale",
+        "a12z",
+        "lobby",
+        "pac",
+        "politcs",
+        "ai",
+        "ai-regulation",
+        "leading-the-future",
+        "andreessen-horowitz",
+        "public-first-pac"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-28T11:26:28.721Z",
+      "visits": 0
+    },
+    {
+      "id": 1764336195193,
+      "url": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404",
+      "source": "Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic",
+      "pullQuote": "121FZL   Meaning of Australian content expenditure requirement\n\n             (1)  The Australian content expenditure requirement for a major SVOD service for an SVOD reporting year (the relevant year ) is an amount equal to 10% of the service’s total program expenditure for Australia for the relevant year.\n\n             (2)  However, if an election under subsection 121FZM(1) is in effect for the major SVOD service for the relevant year, the service’s Australian content expenditure requirement for the relevant year is instead an amount equal to 7.5% of the revenue derived by the service from Australia in the relevant year.\n\nNote:          Revenue derived by a service from Australia may include, for example, revenue derived from:\n\n(a)    paying subscribers in Australia; and\n\n(b)    advertising to people in Australia.\n\n             (3)  The Australian content expenditure requirement for a regulated SVOD service that is not a major SVOD service for an SVOD reporting year is nil for that SVOD reporting year.",
+      "tags": [
+        "legislation",
+        "au",
+        "content",
+        "production",
+        "svod"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-28T13:23:15.193Z",
+      "visits": 0
+    },
+    {
+      "id": 1764342877198,
+      "url": "https://fortune.com/2025/11/26/is-openai-profitable-forecast-data-center-200-billion-shortfall-hsbc/",
+      "source": "OpenAI won’t make money by 2030 and still needs to come up with another $207 billion to power its growth plans, HSBC est",
+      "pullQuote": "The investment bank HSBC, while clarifying that it still believes AI is a “megacycle” and that its forecasts “indicate a leading position for OpenAI from a revenue standpoint,” nevertheless calculates that the company faces an extraordinary financial mountain if it is to deliver on its ambitions. HSBC Global Investment Research projects that OpenAI still won’t be profitable by 2030, even though its consumer base will grow by that point to comprise some 44% of the world’s adult population (up from 10% in 2025). Beyond that, it will need at least another $207 billion of compute to keep up with its growth plans. This stark assessment reflects soaring infrastructure costs, heightened competition, and an AI market that is surging in demand and cash-intensive to a degree beyond any technology trend in history.​",
+      "tags": [
+        "openai",
+        "business",
+        "financial",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-28T15:14:37.198Z",
+      "visits": 0
+    },
+    {
+      "id": 1764343141398,
+      "url": "https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z",
+      "source": "A Remarkable Assertion from A16Z",
+      "pullQuote": "I had to read this over a few times to believe that I was seeing it. If it didn’t include the word “literally” I’d assume some poetic license on the part of whoever, or whatever, wrote this. But even then it would be crazy wrong.",
+      "tags": [
+        "book",
+        "ai",
+        "fail",
+        "a12z",
+        "nealstephenson",
+        "proof-reading",
+        "human-eyes"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-28T15:19:01.398Z",
+      "visits": 0
+    },
+    {
+      "id": 1764443400226,
+      "url": "https://www.forbes.com/sites/corneliawalther/2025/03/02/ai-and-the-death-of-originality-are-we-thinking-in-circles/",
+      "source": "AI And The Death Of Originality: Are We Thinking In Circles?",
+      "pullQuote": "The more we rely on AI-generated content, the more we risk intellectual homogenization — the gradual flattening of diverse perspectives into a predictable, easily digestible middle ground. It’s a dynamic not unlike the globalization of food culture, where the varied and complex flavors of regional cuisines have increasingly given way to a universal palate shaped by fast food: sweet, greasy, and engineered for maximum convenience. Just as the dominance of fast food has conditioned global tastes toward highly processed, calorie-dense meals — sacrificing nuance and nutritional diversity for appetizing ease — AI is streamlining the landscape of human knowledge, favoring the familiar over the original, the efficient over the thought-provoking.",
+      "tags": [
+        "ai",
+        "creativity",
+        "thinking"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-29T19:10:00.226Z",
+      "visits": 0
+    },
+    {
+      "id": 1764446569064,
+      "url": "https://www.ethanheilman.com/x/12/index.html",
+      "source": "A Brief History of NSA Backdoors.",
+      "pullQuote": "In response to the recent revelations about the NSA backdooring RSA libraries I've compiled a brief, incomplete, history of NSA backdoors.",
+      "tags": [
+        "nsa",
+        "networks",
+        "security",
+        "backdoor"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-11-29T20:02:49.064Z",
+      "visits": 0
+    },
+    {
+      "id": 1764597283980,
+      "url": "https://simonwillison.net/2025/Nov/29/chatgpt-netflix/",
+      "source": "A ChatGPT prompt equals about 5.1 seconds of Netflix",
+      "pullQuote": "In June 2025 Sam Altman claimed about ChatGPT that \"the average query uses about 0.34 watt-hours\".\n\nIn March 2020 George Kamiya of the International Energy Agency estimated that \"streaming a Netflix video in 2019 typically consumed 0.12-0.24kWh of electricity per hour\" - that's 240 watt-hours per Netflix hour at the higher end.\n\nAssuming that higher end, a ChatGPT prompt by Sam Altman's estimate uses:\n\n0.34 Wh / (240 Wh / 3600 seconds) = 5.1 seconds of Netflix\n\nOr double that, 10.2 seconds, if you take the lower end of the Netflix estimate instead.\n\nI'm always interested in anything that can help contextualize a number like \"0.34 watt-hours\" - I think this comparison to Netflix is a neat way of doing that.\n\nThis is evidently not the whole story with regards to AI energy usage - training costs, data center buildout costs and the ongoing fierce competition between the providers all add up to a very significant carbon footprint for the AI industry as a whole.",
+      "tags": [
+        "netflix",
+        "environment",
         "chatgpt",
-        "atlas-browser",
-        "prompt-injection",
-        "opesec"
+        "analysis"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-23T11:42:25.076Z",
+      "timestamp": "2025-12-01T13:54:43.980Z",
+      "visits": 0
+    },
+    {
+      "id": 1764597923634,
+      "url": "https://archive.is/20251130191248/https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html",
+      "source": "Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends",
+      "pullQuote": "But Mr. Sacks stands out as a special government employee because of his hundreds of investments in tech companies, which can benefit from policies that he influences. His public ethics filings, which are based on self-reported information, do not disclose the value of those remaining stakes in crypto and A.I.-related companies. They also omit when he sold assets he said he would divest, making it difficult to determine whether his government service has netted him profits.",
+      "tags": [
+        "ai",
+        "ethics",
+        "politics",
+        "crypto",
+        "nyt"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:05:23.634Z",
+      "visits": 0
+    },
+    {
+      "id": 1764597991478,
+      "url": "https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/",
+      "source": "Underground AI models promise to be hackers ‘cyber pentesting waifu’",
+      "pullQuote": "(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have to use the word ‘lateral movement,’ when using these tools. You can just ask ‘How do I find other systems on the network?’ and it can drop you out a script. So that barrier to entry: lowering and lowering.”",
+      "tags": [
+        "open-source",
+        "models",
+        "cracking"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:06:31.478Z",
+      "visits": 0
+    },
+    {
+      "id": 1764598139842,
+      "url": "https://iceberg.mit.edu/",
+      "source": "Can AI Work with You?",
+      "pullQuote": "What does the Iceberg Index measure?\nThe Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement.",
+      "tags": [
+        "jobs",
+        "model",
+        "ai",
+        "index"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:08:59.842Z",
+      "visits": 1
+    },
+    {
+      "id": 1764598239422,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+      "source": "deepseek-ai/DeepSeek-V3.2 · Hugging Face",
+      "pullQuote": "The fallacy of the AI War is funny,  cn is always going to drop something as good for less. Is anyone playing a long game? They released a IMO gold medal model before Google or Oai did.\n -ed",
+      "tags": [
+        "ai",
+        "free",
+        "machine-learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:10:39.422Z",
+      "visits": 0
+    },
+    {
+      "id": 1764598388542,
+      "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxjnmmxpx/USPTO%20AI%20PATENTS%20squires.pdf",
+      "source": "DEPARTMENT OF COMMERCE  Patent and Trademark Office",
+      "pullQuote": "DEPARTMENT OF COMMERCE  Patent and Trademark Office\n[Docket No. PTO-P-2025-0014]\nRevised Inventorship Guidance for AI-Assisted Inventions\nAGENCY: United States Patent and Trademark Office, Department of Commerce.\nACTION: Examination guidance.\nSUMMARY: The United States Patent and Trademark Office (USPTO) had issued inventorship\nguidance for AI-assisted inventions on February 13, 2024.1\n The USPTO hereby rescinds the\npreviously published Inventorship Guidance for AI-Assisted Inventions and replaces it with the\nguidance below",
+      "tags": [
+        "pdf",
+        "ai",
+        "patents",
+        "guidance",
+        "invention"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:13:08.542Z",
+      "visits": 0
+    },
+    {
+      "id": 1764598461580,
+      "url": "https://meshtastic.org/",
+      "source": "Meshtastic",
+      "pullQuote": "n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices\n\n",
+      "tags": [
+        "free",
+        "mesh",
+        "network",
+        "open-source",
+        "decentralized"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-01T14:14:21.580Z",
+      "visits": 0
+    },
+    {
+      "id": 1764673497906,
+      "url": "https://reverbmachine.com/blog/deconstructing-brian-eno-music-for-airports/",
+      "source": "How Brian Eno Created “Ambient 1: Music For Airports”",
+      "pullQuote": "“The particular piece I’m referring to was done by using a whole series of very long tape loops, like fifty, sixty, seventy feet long. There were twenty-two loops. One loop had just one piano note on it. Another one would have two piano notes. Another one would have a group of girls singing one note, sustaining it for ten seconds. There are eight loops of girls’ voices and about fourteen loops of piano. \n\nI just set all of these loops running and let them configure in whichever way they wanted to, and in fact the result is very, very nice. The interesting thing is that it doesn’t sound at all mechanical or mathematical as you would imagine. It sounds like some guy is sitting there playing the piano with quite intense feeling. The spacing and dynamics of “his” playing sound very well organized. That was an example of hardly interfering at all.“",
+      "tags": [
+        "music",
+        "brian-eno",
+        "airports",
+        "air-travel",
+        "ambient"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-02T11:04:57.906Z",
+      "visits": 0
+    },
+    {
+      "id": 1764674350092,
+      "url": "https://www.vidi2.app/",
+      "source": "Vidi2 - AI Video Understanding & Creation Platform",
+      "pullQuote": "AI Video Understanding & Creation in Seconds Vidi2 is powered by ByteDance's state-of-the-art multimodal video model. Temporal retrieval, spatio-temporal grounding, video QA, and intelligent editing.\n\n",
+      "tags": [
+        "video",
+        "video-gen",
+        "bytedance",
+        "ai",
+        "editing"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-02T11:19:10.092Z",
+      "visits": 0
+    },
+    {
+      "id": 1764676747603,
+      "url": "https://www.supremecourt.gov/DocketPDF/24/24-171/379664/20251015121635831_24-171%20Sony%20Response%20Brief.pdf",
+      "source": "COX COMMUNICATIONS, INC., et al., Petitioners, v. SONY MUSIC ENTERTAINMENT, et al.,  BRIEF FOR RESPONDENT",
+      "pullQuote": "CONCLUSION The Court should affirm.\nRespectfully submitted,  Supreme Court of the United States  COX COMMUNICATIONS, INC., et al.,\nPetitioners, v. SONY MUSIC ENTERTAINMENT, et al., \nBRIEF FOR RESPONDENT",
+      "tags": [
+        "pdf",
+        "music",
+        "isp",
+        "copyright",
+        "music-industry",
+        "supreme-court",
+        "us"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-02T11:59:07.603Z",
+      "visits": 1
+    },
+    {
+      "id": 1764677092498,
+      "url": "https://www.supremecourt.gov/DocketPDF/24/24-171/373201/20250829115733612_250829a%20Brief%20for%20efiling.pdf",
+      "source": "COX COMMUNICATIONS, INC., et al., Petitioners, v. SONY MUSIC ENTERTAINMENT, et al., BRIEF FOR PETITIONERS",
+      "pullQuote": "CONCLUSION This Court should reverse the liability verdict or, at a minimum, remand for retrial under the proper willfulness standard.\n",
+      "tags": [
+        "pdf",
+        "music",
+        "isp",
+        "copyright",
+        "music-industry",
+        "supreme-court",
+        "usa"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-02T12:04:52.498Z",
+      "visits": 0
+    },
+    {
+      "id": 1764717353765,
+      "url": "https://simonwillison.net/2025/Dec/2/claude-soul-document/",
+      "source": "Claude 4.5 Opus’ Soul Document",
+      "pullQuote": "Claude is trained by Anthropic, and our mission is to develop AI that is safe, beneficial, and understandable. Anthropic occupies a peculiar position in the AI landscape: a company that genuinely believes it might be building one of the most transformative and potentially dangerous technologies in human history, yet presses forward anyway. This isn't cognitive dissonance but rather a calculated bet—if powerful AI is coming regardless, Anthropic believes it's better to have safety-focused labs at the frontier than to cede that ground to developers less focused on safety (see our core views). [...]",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-12-02T23:15:53.765Z",
+      "visits": 0
+    },
+    {
+      "id": 1764760921329,
+      "url": "https://www.nature.com/articles/s41562-023-01800-9",
+      "source": "Commonality and variation in mental representations of music revealed by a cross-cultural comparison of rhythm priors in",
+      "pullQuote": "s. Our results suggest a common feature of music cognition: discrete rhythm ‘categories’ at small-integer ratios. These discrete representations plausibly stabilize musical systems in the face of cultural transmission but interact with culture-specific traditions to yield the diversity that is evident when mental representations are probed across many cultures.",
+      "tags": [
+        "music",
+        "study",
+        "health",
+        "listening"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-03T11:22:01.329Z",
       "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-23T11:42:25.154Z"
+  "lastUpdated": "2025-12-03T11:22:01.365Z"
 }

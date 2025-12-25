@@ -37,8 +37,7 @@ function normalizeUrl(url) {
 }
 
 function mergeLinks(localLinks, remoteLinks) {
-  console.log(`📊 Local links: ${localLinks.length}`);
-  console.log(`📊 Remote links: ${remoteLinks.length}`);
+  console.log(`📊 Local links: ${localLinks.length}:${remoteLinks.length}`);
 
   // Create a map of local links by normalized URL
   const localMap = new Map();
