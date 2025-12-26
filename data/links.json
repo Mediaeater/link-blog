@@ -3403,8 +3403,23 @@
       "isPinned": false,
       "timestamp": "2025-12-26T17:46:42.383Z",
       "visits": 0
+    },
+    {
+      "id": 1766786446944,
+      "url": "https://continuations.com/the-imperative-for-moral-progress-in-the-face-of-technological-acceleration",
+      "source": "The Imperative for Moral Progress in the Face of Technological Acceleration",
+      "pullQuote": "This has resulted in a profound asymmetry. With scientific theories pruned effectively we have been able to achieve rapid technological progress. But stuck in a morass of ever growing useless philosophy we have failed to achieve moral progress. This is an incredibly dangerous combination. E. O. Wilson perfectly captured this “The real problem of humanity is the following: We have Paleolithic emotions, medieval institutions, and godlike technology.”",
+      "tags": [
+        "learning",
+        "progress",
+        "human",
+        "science"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T22:00:46.944Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-26T17:46:42.402Z"
+  "lastUpdated": "2025-12-26T22:00:46.962Z"
 }
