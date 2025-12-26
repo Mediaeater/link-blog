@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 26 Dec 2025 23:50:20 GMT</dateCreated>
-    <dateModified>Fri, 26 Dec 2025 23:50:20 GMT</dateModified>
+    <dateCreated>Fri, 26 Dec 2025 23:56:20 GMT</dateCreated>
+    <dateModified>Fri, 26 Dec 2025 23:56:20 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -38,6 +38,7 @@
       <outline type="link" text="Aurora - Quiet Light, Pure Hearts - YouTube " title="Aurora - Quiet Light, Pure Hearts - YouTube " url="https://www.youtube.com/watch?v=IKdJkHffmns" htmlUrl="https://www.youtube.com/watch?v=IKdJkHffmns" description=" Aurora - Quiet Light, Pure Hearts (Quiet Light) 2025" created="Thu, 04 Dec 2025 20:18:46 GMT" category="music,2025,youtube" />
       <outline type="link" text="Hum it to google  - YouTube" title="Hum it to google  - YouTube" url="https://www.youtube.com/watch?v=poJPlsX-O5E" htmlUrl="https://www.youtube.com/watch?v=poJPlsX-O5E" description="
 Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" created="Thu, 04 Dec 2025 20:22:22 GMT" category="music,2025,google" />
+      <outline type="link" text="Google’s Year in Search" title="Google’s Year in Search" url="https://trends.withgoogle.com/year-in-search/2025/us/" htmlUrl="https://trends.withgoogle.com/year-in-search/2025/us/" created="Fri, 26 Dec 2025 23:55:55 GMT" category="google,search,2025" />
     </outline>
     <outline text="39c3" title="39c3">
       <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" />
@@ -1432,6 +1433,7 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
       <outline type="link" text="Hum it to google  - YouTube" title="Hum it to google  - YouTube" url="https://www.youtube.com/watch?v=poJPlsX-O5E" htmlUrl="https://www.youtube.com/watch?v=poJPlsX-O5E" description="
 Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" created="Thu, 04 Dec 2025 20:22:22 GMT" category="music,2025,google" />
+      <outline type="link" text="Google’s Year in Search" title="Google’s Year in Search" url="https://trends.withgoogle.com/year-in-search/2025/us/" htmlUrl="https://trends.withgoogle.com/year-in-search/2025/us/" created="Fri, 26 Dec 2025 23:55:55 GMT" category="google,search,2025" />
     </outline>
     <outline text="gov" title="gov">
       <outline type="link" text="Genesis Mission" title="Genesis Mission" url="https://www.energy.gov/genesis" htmlUrl="https://www.energy.gov/genesis" description="Genesis Mission will develop an integrated platform that connects the world&apos;s best supercomputers, experimental facilities, AI systems, and unique datasets across every major scientific domain to double the productivity and impact of American research and innovation within a decade." created="Wed, 26 Nov 2025 11:13:26 GMT" category="gov,ai,energy,science,nuclear,fusion" />
@@ -2793,6 +2795,7 @@ This change is being implemented due to the unmanageable influx of review articl
     </outline>
     <outline text="search" title="search">
       <outline type="link" text="GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search" title="GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search" url="https://simonwillison.net/2025/Sep/6/research-goblin/" htmlUrl="https://simonwillison.net/2025/Sep/6/research-goblin/" created="Sat, 06 Sep 2025 23:55:07 GMT" category="llm,search,chain-of-thought,chatgpt,gpt-5" />
+      <outline type="link" text="Google’s Year in Search" title="Google’s Year in Search" url="https://trends.withgoogle.com/year-in-search/2025/us/" htmlUrl="https://trends.withgoogle.com/year-in-search/2025/us/" created="Fri, 26 Dec 2025 23:55:55 GMT" category="google,search,2025" />
     </outline>
     <outline text="security" title="security">
       <outline type="link" text="A Brief History of NSA Backdoors." title="A Brief History of NSA Backdoors." url="https://www.ethanheilman.com/x/12/index.html" htmlUrl="https://www.ethanheilman.com/x/12/index.html" description="In response to the recent revelations about the NSA backdooring RSA libraries I&apos;ve compiled a brief, incomplete, history of NSA backdoors." created="Sat, 29 Nov 2025 20:02:49 GMT" category="nsa,networks,security,backdoor" />
