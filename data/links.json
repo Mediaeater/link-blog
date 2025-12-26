@@ -3365,8 +3365,46 @@
       "isPinned": false,
       "timestamp": "2025-12-26T17:23:44.595Z",
       "visits": 0
+    },
+    {
+      "id": 1766769970957,
+      "url": "https://events.ccc.de/congress/2025/hub/en/wiki/start",
+      "source": "39C3 39th Chaos Communications Congress - start",
+      "pullQuote": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It's collaboratively edited and grows rapidly during the event.\n\n",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:26:10.957Z",
+      "visits": 0
+    },
+    {
+      "id": 1766770004237,
+      "url": "https://events.ccc.de/congress/2025/hub/en/wiki/start",
+      "source": "39C3 39th Chaos Communications Congress - start",
+      "pullQuote": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It's collaboratively edited and grows rapidly during the event.\n\n",
+      "tags": [
+        "39c3",
+        "congress",
+        "wiki"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:26:44.237Z",
+      "visits": 0
+    },
+    {
+      "id": 1766771202383,
+      "url": "https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/",
+      "source": "Four Frictions: or, How to Resist AI in Education",
+      "pullQuote": "Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education.",
+      "tags": [
+        "ai",
+        "education",
+        "learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:46:42.383Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-26T17:24:29.504Z"
+  "lastUpdated": "2025-12-26T17:46:42.402Z"
 }

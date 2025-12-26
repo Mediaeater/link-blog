@@ -15,6 +15,56 @@
   ],
   "items": [
     {
+      "id": "1766771202383",
+      "url": "https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/",
+      "title": "Four Frictions: or, How to Resist AI in Education",
+      "date_published": "2025-12-26T17:46:42.383Z",
+      "tags": [
+        "ai",
+        "education",
+        "learning"
+      ],
+      "content_text": "Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education.",
+      "summary": "Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understan...",
+      "content_html": "<blockquote>Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education.</blockquote>\n<p><strong>Tags:</strong> ai, education, learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766770004237",
+      "url": "https://events.ccc.de/congress/2025/hub/en/wiki/start",
+      "title": "39C3 39th Chaos Communications Congress - start",
+      "date_published": "2025-12-26T17:26:44.237Z",
+      "tags": [
+        "39c3",
+        "congress",
+        "wiki"
+      ],
+      "content_text": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It's collaboratively edited and grows rapidly during the event.\n\n",
+      "summary": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks si...",
+      "content_html": "<blockquote>39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&#039;s collaboratively edited and grows rapidly during the event.\n\n</blockquote>\n<p><strong>Tags:</strong> 39c3, congress, wiki</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766769970957",
+      "url": "https://events.ccc.de/congress/2025/hub/en/wiki/start",
+      "title": "39C3 39th Chaos Communications Congress - start",
+      "date_published": "2025-12-26T17:26:10.957Z",
+      "tags": [],
+      "content_text": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It's collaboratively edited and grows rapidly during the event.\n\n",
+      "summary": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks si...",
+      "content_html": "<blockquote>39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&#039;s collaboratively edited and grows rapidly during the event.\n\n</blockquote>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1766769824595",
       "url": "https://events.ccc.de/congress/2025/hub/en/assembly/detail/art",
       "title": "39c3 Art",

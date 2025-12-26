@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 26 Dec 2025 17:24:52 GMT</dateCreated>
-    <dateModified>Fri, 26 Dec 2025 17:24:52 GMT</dateModified>
+    <dateCreated>Fri, 26 Dec 2025 17:47:07 GMT</dateCreated>
+    <dateModified>Fri, 26 Dec 2025 17:47:07 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -50,6 +50,9 @@ Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" cre
       <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
 
 " created="Fri, 26 Dec 2025 17:23:44 GMT" category="39c3,art,congress" />
+      <outline type="link" text="39C3 39th Chaos Communications Congress - start" title="39C3 39th Chaos Communications Congress - start" url="https://events.ccc.de/congress/2025/hub/en/wiki/start" htmlUrl="https://events.ccc.de/congress/2025/hub/en/wiki/start" description="39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&apos;s collaboratively edited and grows rapidly during the event.
+
+" created="Fri, 26 Dec 2025 17:26:44 GMT" category="39c3,congress,wiki" />
     </outline>
     <outline text="AI" title="AI">
       <outline type="link" text="Opinion | The A.I. Bubble Looks Real" title="Opinion | The A.I. Bubble Looks Real" url="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" htmlUrl="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" description="Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points." created="Tue, 14 Oct 2025 10:08:38 GMT" category="AI,business" />
@@ -321,6 +324,7 @@ Nano, the smallest model, outperforms comparable models in accuracy while remain
 Just fuck you. Fuck you all.
 
 I can&apos;t remember the last time I was this angry." created="Fri, 26 Dec 2025 16:19:19 GMT" category="ai,ethics,harms" />
+      <outline type="link" text="Four Frictions: or, How to Resist AI in Education" title="Four Frictions: or, How to Resist AI in Education" url="https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/" htmlUrl="https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/" description="Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education." created="Fri, 26 Dec 2025 17:46:42 GMT" category="ai,education,learning" />
     </outline>
     <outline text="ai generative-media" title="ai generative-media">
       <outline type="link" text="aistudio.google" title="aistudio.google" url="https://aistudio.google.com/gen-media" htmlUrl="https://aistudio.google.com/gen-media" description="Google generative media portal " created="Sat, 11 Oct 2025 18:24:44 GMT" category="google,studio,ai generative-media,media" />
@@ -951,6 +955,9 @@ Starting in 1984, Congress has been organized by the community and appreciates a
       <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
 
 " created="Fri, 26 Dec 2025 17:23:44 GMT" category="39c3,art,congress" />
+      <outline type="link" text="39C3 39th Chaos Communications Congress - start" title="39C3 39th Chaos Communications Congress - start" url="https://events.ccc.de/congress/2025/hub/en/wiki/start" htmlUrl="https://events.ccc.de/congress/2025/hub/en/wiki/start" description="39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&apos;s collaboratively edited and grows rapidly during the event.
+
+" created="Fri, 26 Dec 2025 17:26:44 GMT" category="39c3,congress,wiki" />
     </outline>
     <outline text="content" title="content">
       <outline type="link" text="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" title="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" url="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" htmlUrl="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" description="121FZL   Meaning of Australian content expenditure requirement
@@ -1163,6 +1170,7 @@ Its lyric tells the story of a young soldier who writes from the war, promising 
 5   	► Zhejiang University China closed chart	6.2	115
 " created="Mon, 29 Sep 2025 11:40:44 GMT" category="learning,education,university." />
       <outline type="link" text="KanaDojo かな道場" title="KanaDojo かな道場" url="https://kanadojo.com/" htmlUrl="https://kanadojo.com/" created="Sun, 07 Sep 2025 00:01:30 GMT" category="japan,language,education,learning,ux" visits="1" />
+      <outline type="link" text="Four Frictions: or, How to Resist AI in Education" title="Four Frictions: or, How to Resist AI in Education" url="https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/" htmlUrl="https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/" description="Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education." created="Fri, 26 Dec 2025 17:46:42 GMT" category="ai,education,learning" />
     </outline>
     <outline text="eff" title="eff">
       <outline type="link" text="Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back." title="Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back." url="https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back" htmlUrl="https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back" description="That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s at stake, why EFF opposes all forms of age verification, how to protect yourself, and how to join the fight for a free, open, private, and yes—safe—internet. 
@@ -1745,6 +1753,7 @@ Animals and fungi, the two multicellular respiratory (in this context, as oppose
 " created="Mon, 29 Sep 2025 11:40:44 GMT" category="learning,education,university." />
       <outline type="link" text="LLM Visualization" title="LLM Visualization" url="https://bbycroft.net/llm" htmlUrl="https://bbycroft.net/llm" created="Sun, 07 Sep 2025 00:05:43 GMT" category="llm,learning,visualization,dataviz" />
       <outline type="link" text="KanaDojo かな道場" title="KanaDojo かな道場" url="https://kanadojo.com/" htmlUrl="https://kanadojo.com/" created="Sun, 07 Sep 2025 00:01:30 GMT" category="japan,language,education,learning,ux" visits="1" />
+      <outline type="link" text="Four Frictions: or, How to Resist AI in Education" title="Four Frictions: or, How to Resist AI in Education" url="https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/" htmlUrl="https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/" description="Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education." created="Fri, 26 Dec 2025 17:46:42 GMT" category="ai,education,learning" />
     </outline>
     <outline text="legacy_media" title="legacy_media">
       <outline type="link" text="How Math Broke Media dougshapiro.substack " title="How Math Broke Media dougshapiro.substack " url="https://dougshapiro.substack.com/p/how-math-broke-media?" htmlUrl="https://dougshapiro.substack.com/p/how-math-broke-media?" description="The Trap: Current media companies (Hollywood studios, etc.) view AI merely as a tool to make current workflows cheaper (e.g., using AI for storyboards or dubbing).
@@ -3276,6 +3285,11 @@ As part of the agreement, Disney will make a $1 billion equity investment in Ope
     <outline text="whole earth" title="whole earth">
       <outline type="link" text="Whole Earth Index" title="Whole Earth Index" url="https://wholeearth.info/" htmlUrl="https://wholeearth.info/" description="Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes." created="Tue, 04 Nov 2025 21:59:41 GMT" category="catalog,earth,whole earth,publishing,sf,the-well" />
     </outline>
+    <outline text="wiki" title="wiki">
+      <outline type="link" text="39C3 39th Chaos Communications Congress - start" title="39C3 39th Chaos Communications Congress - start" url="https://events.ccc.de/congress/2025/hub/en/wiki/start" htmlUrl="https://events.ccc.de/congress/2025/hub/en/wiki/start" description="39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&apos;s collaboratively edited and grows rapidly during the event.
+
+" created="Fri, 26 Dec 2025 17:26:44 GMT" category="39c3,congress,wiki" />
+    </outline>
     <outline text="wireguard" title="wireguard">
       <outline type="link" text="WireGuard topologies for self-hosting at home" title="WireGuard topologies for self-hosting at home" url="https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/" htmlUrl="https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/" description="Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one more moving part in your system, the cost of which is justified only by what it affords you to do. The constraints that I outline below should provide clarity as to why using WireGuard is appropriate for my needs." created="Mon, 06 Oct 2025 20:37:21 GMT" category="networks,wireguard,vpn" />
     </outline>
@@ -3373,6 +3387,9 @@ Adaptable: Software should be open-ended, able to meet the specific, context-dep
 
 Prosocial: Technology should enable connection and coordination, helping us become better neighbors, collaborators, and stewards of shared spaces, both online and off.
 " created="Fri, 05 Dec 2025 02:45:02 GMT" />
+      <outline type="link" text="39C3 39th Chaos Communications Congress - start" title="39C3 39th Chaos Communications Congress - start" url="https://events.ccc.de/congress/2025/hub/en/wiki/start" htmlUrl="https://events.ccc.de/congress/2025/hub/en/wiki/start" description="39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&apos;s collaboratively edited and grows rapidly during the event.
+
+" created="Fri, 26 Dec 2025 17:26:10 GMT" />
     </outline>
   </body>
 </opml>

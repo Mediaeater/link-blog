@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 26 Dec 2025 17:24:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2025 17:46:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1591,6 +1591,27 @@ nightmare of browser fingerprinting]]></title>
             <guid>1766769824595</guid>
             <pubDate>Fri, 26 Dec 2025 17:23:44 GMT</pubDate>
             <description><![CDATA[Tags: 39c3, art, congress]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39C3 39th Chaos Communications Congress - start]]></title>
+            <link>https://events.ccc.de/congress/2025/hub/en/wiki/start</link>
+            <guid>1766769970957</guid>
+            <pubDate>Fri, 26 Dec 2025 17:26:10 GMT</pubDate>
+            <description><![CDATA[Tags: ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39C3 39th Chaos Communications Congress - start]]></title>
+            <link>https://events.ccc.de/congress/2025/hub/en/wiki/start</link>
+            <guid>1766770004237</guid>
+            <pubDate>Fri, 26 Dec 2025 17:26:44 GMT</pubDate>
+            <description><![CDATA[Tags: 39c3, congress, wiki]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Four Frictions: or, How to Resist AI in Education]]></title>
+            <link>https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/</link>
+            <guid>1766771202383</guid>
+            <pubDate>Fri, 26 Dec 2025 17:46:42 GMT</pubDate>
+            <description><![CDATA[Tags: ai, education, learning]]></description>
         </item>
     </channel>
 </rss>
