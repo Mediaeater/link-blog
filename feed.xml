@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 23 Dec 2025 11:42:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2025 16:19:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1541,6 +1541,20 @@ nightmare of browser fingerprinting]]></title>
             <guid>1766490145076</guid>
             <pubDate>Tue, 23 Dec 2025 11:42:25 GMT</pubDate>
             <description><![CDATA[Tags: chatgpt, atlas-browser, prompt-injection, opesec]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spotify, Live Nation and the role of the music industry baddie]]></title>
+            <link>https://www.ft.com/content/ab3fc412-02e9-4573-a70b-c0e3f8306971</link>
+            <guid>1766750036558</guid>
+            <pubDate>Fri, 26 Dec 2025 11:53:56 GMT</pubDate>
+            <description><![CDATA[Tags: music, ethics, spotify]]></description>
+        </item>
+        <item>
+            <title><![CDATA[rob pike (@robpike.io)]]></title>
+            <link>https://bsky.app/profile/robpike.io/post/3matwg6w3ic2s</link>
+            <guid>1766765959449</guid>
+            <pubDate>Fri, 26 Dec 2025 16:19:19 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ethics, harms]]></description>
         </item>
     </channel>
 </rss>

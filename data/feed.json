@@ -15,6 +15,42 @@
   ],
   "items": [
     {
+      "id": "1766765959449",
+      "url": "https://bsky.app/profile/robpike.io/post/3matwg6w3ic2s",
+      "title": "rob pike (@robpike.io)",
+      "date_published": "2025-12-26T16:19:19.449Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "harms"
+      ],
+      "content_text": "Fuck you people. Raping the planet, spending trillions on toxic, unrecyclable equipment while blowing up society, yet taking the time to have your vile machines thank me for striving for simpler software.\n\nJust fuck you. Fuck you all.\n\nI can't remember the last time I was this angry.",
+      "summary": "Fuck you people. Raping the planet, spending trillions on toxic, unrecyclable equipment while blowing up society, yet taking the time to have your vil...",
+      "content_html": "<blockquote>Fuck you people. Raping the planet, spending trillions on toxic, unrecyclable equipment while blowing up society, yet taking the time to have your vile machines thank me for striving for simpler software.\n\nJust fuck you. Fuck you all.\n\nI can&#039;t remember the last time I was this angry.</blockquote>\n<p><strong>Tags:</strong> ai, ethics, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766750036558",
+      "url": "https://www.ft.com/content/ab3fc412-02e9-4573-a70b-c0e3f8306971",
+      "title": "Spotify, Live Nation and the role of the music industry baddie",
+      "date_published": "2025-12-26T11:53:56.558Z",
+      "tags": [
+        "music",
+        "ethics",
+        "spotify"
+      ],
+      "content_text": "Massive Attack are among acts to have removed their work from the platform after a venture capital firm founded by its CEO Daniel Ek invested €600mn in a company developing military AI weaponry. This surely marks the point at which a Hollywood studio contemplating a biopic of Ek might consider a casting call to Mads Mikkelsen, Scandinavian specialist in movie villa\n",
+      "summary": "Massive Attack are among acts to have removed their work from the platform after a venture capital firm founded by its CEO Daniel Ek invested €600mn i...",
+      "content_html": "<blockquote>Massive Attack are among acts to have removed their work from the platform after a venture capital firm founded by its CEO Daniel Ek invested €600mn in a company developing military AI weaponry. This surely marks the point at which a Hollywood studio contemplating a biopic of Ek might consider a casting call to Mads Mikkelsen, Scandinavian specialist in movie villa\n</blockquote>\n<p><strong>Tags:</strong> music, ethics, spotify</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1766490145076",
       "url": "https://openai.com/index/hardening-atlas-against-prompt-injection/",
       "title": "ChatGPT Atlas prompt injection attacks",
