@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 26 Dec 2025 16:19:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2025 17:24:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1555,6 +1555,42 @@ nightmare of browser fingerprinting]]></title>
             <guid>1766765959449</guid>
             <pubDate>Fri, 26 Dec 2025 16:19:19 GMT</pubDate>
             <description><![CDATA[Tags: ai, ethics, harms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The 23andMe Collapse Exposes the Cracks in Genomic Data Governance]]></title>
+            <link>https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/</link>
+            <guid>1766769175578</guid>
+            <pubDate>Fri, 26 Dec 2025 17:12:55 GMT</pubDate>
+            <description><![CDATA[Tags: genomic-data, dna, governance, ethics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39C3 C3VOC Streaming]]></title>
+            <link>https://streaming.media.ccc.de/</link>
+            <guid>1766769598475</guid>
+            <pubDate>Fri, 26 Dec 2025 17:19:58 GMT</pubDate>
+            <description><![CDATA[Tags: video, 39c3, congress]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39C3 Fahrplan  ]]></title>
+            <link>https://fahrplan.events.ccc.de/congress/2025/fahrplan/</link>
+            <guid>1766769655309</guid>
+            <pubDate>Fri, 26 Dec 2025 17:20:55 GMT</pubDate>
+            <description><![CDATA[Tags: 39c3, congress, schedule]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39C3: Power Cycles
+- media.ccc.de]]></title>
+            <link>https://media.ccc.de/c/39c3</link>
+            <guid>1766769690423</guid>
+            <pubDate>Fri, 26 Dec 2025 17:21:30 GMT</pubDate>
+            <description><![CDATA[Tags: video, 39c3, congress]]></description>
+        </item>
+        <item>
+            <title><![CDATA[39c3 Art]]></title>
+            <link>https://events.ccc.de/congress/2025/hub/en/assembly/detail/art</link>
+            <guid>1766769824595</guid>
+            <pubDate>Fri, 26 Dec 2025 17:23:44 GMT</pubDate>
+            <description><![CDATA[Tags: 39c3, art, congress]]></description>
         </item>
     </channel>
 </rss>

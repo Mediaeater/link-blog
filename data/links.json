@@ -3294,8 +3294,79 @@
       "isPinned": false,
       "timestamp": "2025-12-26T16:19:19.449Z",
       "visits": 0
+    },
+    {
+      "id": 1766769175578,
+      "url": "https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/",
+      "source": "The 23andMe Collapse Exposes the Cracks in Genomic Data Governance",
+      "pullQuote": "The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.\n\nAs biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue.",
+      "tags": [
+        "genomic-data",
+        "dna",
+        "governance",
+        "ethics"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:12:55.578Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769598475,
+      "url": "https://streaming.media.ccc.de/",
+      "source": "39C3 C3VOC Streaming",
+      "pullQuote": "See you soon … somewhere else! – ",
+      "tags": [
+        "video",
+        "39c3",
+        "congress"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:19:58.475Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769655309,
+      "url": "https://fahrplan.events.ccc.de/congress/2025/fahrplan/",
+      "source": "39C3 Fahrplan  ",
+      "pullQuote": "Official Schedule (Fahrplan) \n\n",
+      "tags": [
+        "39c3",
+        "congress",
+        "schedule"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:20:55.309Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769690423,
+      "url": "https://media.ccc.de/c/39c3",
+      "source": "39C3: Power Cycles\n- media.ccc.de",
+      "pullQuote": "Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)",
+      "tags": [
+        "video",
+        "39c3",
+        "congress"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:21:30.423Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769824595,
+      "url": "https://events.ccc.de/congress/2025/hub/en/assembly/detail/art",
+      "source": "39c3 Art",
+      "pullQuote": "Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).\n\n",
+      "tags": [
+        "39c3",
+        "art",
+        "congress"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:23:44.595Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-26T16:19:19.479Z"
+  "lastUpdated": "2025-12-26T17:24:29.504Z"
 }

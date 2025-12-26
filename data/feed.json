@@ -15,6 +15,97 @@
   ],
   "items": [
     {
+      "id": "1766769824595",
+      "url": "https://events.ccc.de/congress/2025/hub/en/assembly/detail/art",
+      "title": "39c3 Art",
+      "date_published": "2025-12-26T17:23:44.595Z",
+      "tags": [
+        "39c3",
+        "art",
+        "congress"
+      ],
+      "content_text": "Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).\n\n",
+      "summary": "Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).\n\n",
+      "content_html": "<blockquote>Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).\n\n</blockquote>\n<p><strong>Tags:</strong> 39c3, art, congress</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766769690423",
+      "url": "https://media.ccc.de/c/39c3",
+      "title": "39C3: Power Cycles\n- media.ccc.de",
+      "date_published": "2025-12-26T17:21:30.423Z",
+      "tags": [
+        "video",
+        "39c3",
+        "congress"
+      ],
+      "content_text": "Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)",
+      "summary": "Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)",
+      "content_html": "<blockquote>Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)</blockquote>\n<p><strong>Tags:</strong> video, 39c3, congress</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766769655309",
+      "url": "https://fahrplan.events.ccc.de/congress/2025/fahrplan/",
+      "title": "39C3 Fahrplan  ",
+      "date_published": "2025-12-26T17:20:55.309Z",
+      "tags": [
+        "39c3",
+        "congress",
+        "schedule"
+      ],
+      "content_text": "Official Schedule (Fahrplan) \n\n",
+      "summary": "Official Schedule (Fahrplan) \n\n",
+      "content_html": "<blockquote>Official Schedule (Fahrplan) \n\n</blockquote>\n<p><strong>Tags:</strong> 39c3, congress, schedule</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766769598475",
+      "url": "https://streaming.media.ccc.de/",
+      "title": "39C3 C3VOC Streaming",
+      "date_published": "2025-12-26T17:19:58.475Z",
+      "tags": [
+        "video",
+        "39c3",
+        "congress"
+      ],
+      "content_text": "See you soon … somewhere else! – ",
+      "summary": "See you soon … somewhere else! – ",
+      "content_html": "<blockquote>See you soon … somewhere else! – </blockquote>\n<p><strong>Tags:</strong> video, 39c3, congress</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766769175578",
+      "url": "https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/",
+      "title": "The 23andMe Collapse Exposes the Cracks in Genomic Data Governance",
+      "date_published": "2025-12-26T17:12:55.578Z",
+      "tags": [
+        "genomic-data",
+        "dna",
+        "governance",
+        "ethics"
+      ],
+      "content_text": "The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.\n\nAs biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue.",
+      "summary": "The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles...",
+      "content_html": "<blockquote>The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.\n\nAs biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue.</blockquote>\n<p><strong>Tags:</strong> genomic-data, dna, governance, ethics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1766765959449",
       "url": "https://bsky.app/profile/robpike.io/post/3matwg6w3ic2s",
       "title": "rob pike (@robpike.io)",

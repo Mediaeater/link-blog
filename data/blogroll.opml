@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 26 Dec 2025 16:59:48 GMT</dateCreated>
-    <dateModified>Fri, 26 Dec 2025 16:59:48 GMT</dateModified>
+    <dateCreated>Fri, 26 Dec 2025 17:24:52 GMT</dateCreated>
+    <dateModified>Fri, 26 Dec 2025 17:24:52 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -38,6 +38,18 @@
       <outline type="link" text="Aurora - Quiet Light, Pure Hearts - YouTube " title="Aurora - Quiet Light, Pure Hearts - YouTube " url="https://www.youtube.com/watch?v=IKdJkHffmns" htmlUrl="https://www.youtube.com/watch?v=IKdJkHffmns" description=" Aurora - Quiet Light, Pure Hearts (Quiet Light) 2025" created="Thu, 04 Dec 2025 20:18:46 GMT" category="music,2025,youtube" />
       <outline type="link" text="Hum it to google  - YouTube" title="Hum it to google  - YouTube" url="https://www.youtube.com/watch?v=poJPlsX-O5E" htmlUrl="https://www.youtube.com/watch?v=poJPlsX-O5E" description="
 Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" created="Thu, 04 Dec 2025 20:22:22 GMT" category="music,2025,google" />
+    </outline>
+    <outline text="39c3" title="39c3">
+      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39C3 Fahrplan  " title="39C3 Fahrplan  " url="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" htmlUrl="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" description="Official Schedule (Fahrplan) 
+
+" created="Fri, 26 Dec 2025 17:20:55 GMT" category="39c3,congress,schedule" />
+      <outline type="link" text="39C3: Power Cycles
+- media.ccc.de" title="39C3: Power Cycles
+- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
+
+" created="Fri, 26 Dec 2025 17:23:44 GMT" category="39c3,art,congress" />
     </outline>
     <outline text="AI" title="AI">
       <outline type="link" text="Opinion | The A.I. Bubble Looks Real" title="Opinion | The A.I. Bubble Looks Real" url="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" htmlUrl="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" description="Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points." created="Tue, 14 Oct 2025 10:08:38 GMT" category="AI,business" />
@@ -486,6 +498,9 @@ This marks the first collaboration between Performa and Diller Scofidio + Renfro
 	 “With today’s tools — including AI — it’s no longer necessary for artists to learn a craft. What matters is the content, the idea. It doesn’t matter what tools you use if you achieve it.” But even Abramović has found fabricators indispensable. On her carved self-portraits Five Stages of Maya Dance (2013), she spent seven years collaborating with Factum Arte co-founder Adam Lowe
 " created="Mon, 29 Sep 2025 11:29:00 GMT" category="art,authorship" />
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
+      <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
+
+" created="Fri, 26 Dec 2025 17:23:44 GMT" category="39c3,art,congress" />
     </outline>
     <outline text="artificial-hivemind" title="artificial-hivemind">
       <outline type="link" text="Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)" title="Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)" url="https://arxiv.org/abs/2510.22954" htmlUrl="https://arxiv.org/abs/2510.22954" description="We introduce the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising 6 top-level categories (e.g., brainstorm &amp; ideation) that further breaks down to 17 subcategories. Using Infinity-Chat, we present a large-scale study of mode collapse in LMs, revealing a pronounced Artificial Hivemind effect in open-ended generation of LMs, characterized by (1) intra-model repetition, where a single model consistently generates similar responses, and more so (2) inter-model homogeneity, where different models produce strikingly similar outputs. Infinity-Chat also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human annotations per example. " created="Thu, 04 Dec 2025 12:28:21 GMT" category="artificial-hivemind,synthetic,llms,ai,entropy,diversity,homogenization" />
@@ -926,6 +941,16 @@ In plans to be announced on Wednesday, reselling a ticket above face value will 
 Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
 
 Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
+      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39C3 Fahrplan  " title="39C3 Fahrplan  " url="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" htmlUrl="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" description="Official Schedule (Fahrplan) 
+
+" created="Fri, 26 Dec 2025 17:20:55 GMT" category="39c3,congress,schedule" />
+      <outline type="link" text="39C3: Power Cycles
+- media.ccc.de" title="39C3: Power Cycles
+- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
+
+" created="Fri, 26 Dec 2025 17:23:44 GMT" category="39c3,art,congress" />
     </outline>
     <outline text="content" title="content">
       <outline type="link" text="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" title="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" url="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" htmlUrl="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" description="121FZL   Meaning of Australian content expenditure requirement
@@ -1086,6 +1111,11 @@ As part of the agreement, Disney will make a $1 billion equity investment in Ope
     <outline text="dma" title="dma">
       <outline type="link" text="The Digital Markets Act’s impacts on EU users" title="The Digital Markets Act’s impacts on EU users" url="https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/" htmlUrl="https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/" description="The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own agendas — to collect more data from EU citizens, or to get Apple’s technology for free.
 Despite our concerns with the DMA, teams across Apple are spending thousands of hours to bring new features to the European Union while meeting the law’s requirements. But it’s become clear that we can’t solve every problem the DMA creates." created="Sat, 27 Sep 2025 12:24:05 GMT" category="apple,eu,dma,music" />
+    </outline>
+    <outline text="dna" title="dna">
+      <outline type="link" text="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" title="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" url="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" htmlUrl="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" description="The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.
+
+As biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue." created="Fri, 26 Dec 2025 17:12:55 GMT" category="genomic-data,dna,governance,ethics" />
     </outline>
     <outline text="documentation" title="documentation">
       <outline type="link" text="Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites" title="Don’t Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites" url="https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf" htmlUrl="https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf" description="Geosynchronous (GEO) satellite links provide IP backhaul to remote critical infrastructure for utilities, telecom, government, military, and commercial users. To date, academic studies of GEO infrastructure have focused on a handful of satellites and specific use cases. 
@@ -1250,6 +1280,9 @@ We think this would be a step towards mass surveillance and digital control, and
 Just fuck you. Fuck you all.
 
 I can&apos;t remember the last time I was this angry." created="Fri, 26 Dec 2025 16:19:19 GMT" category="ai,ethics,harms" />
+      <outline type="link" text="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" title="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" url="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" htmlUrl="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" description="The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.
+
+As biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue." created="Fri, 26 Dec 2025 17:12:55 GMT" category="genomic-data,dna,governance,ethics" />
     </outline>
     <outline text="eu" title="eu">
       <outline type="link" text="Criminal complaint against facial recognition company Clearview AI" title="Criminal complaint against facial recognition company Clearview AI" url="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" htmlUrl="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" description="Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement." created="Tue, 28 Oct 2025 10:34:40 GMT" category="frt,facial-recognition,clearview-ai,eu,privacy,legal" />
@@ -1356,6 +1389,11 @@ To support global productions and stay aligned with best practices, we expect al
 Most low-risk use cases that follow the guiding principles below are unlikely to require legal review. However, if the output includes final deliverables, talent likeness, personal data, or third-party IP, written approval will be required before you proceed." created="Thu, 13 Nov 2025 12:27:59 GMT" category="hollywood-ai,netflix,gen-ai" />
       <outline type="link" text="search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to" title="search giant becomes the biggest name yet to generate an ad entirely with its Veo 3 and other artificial-intelligence to" url="https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662" htmlUrl="https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662" description="The tech giant’s first completely AI-generated spot depicts a toylike plush turkey using AI Mode in Google Search to escape the farm to a destination that doesn’t celebrate Thanksgiving. It will begin running today on television, and in movie theaters and on social and digital media starting Saturday, according to the company. A Christmas-themed installment is set to follow." created="Fri, 31 Oct 2025 11:55:00 GMT" category="advertising,gen-ai,video-gen" />
     </outline>
+    <outline text="genomic-data" title="genomic-data">
+      <outline type="link" text="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" title="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" url="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" htmlUrl="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" description="The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.
+
+As biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue." created="Fri, 26 Dec 2025 17:12:55 GMT" category="genomic-data,dna,governance,ethics" />
+    </outline>
     <outline text="genre" title="genre">
       <outline type="link" text="Space DJ: Navigating a Musical Universe" title="Space DJ: Navigating a Musical Universe" url="https://magenta.withgoogle.com/spacedj-announce" htmlUrl="https://magenta.withgoogle.com/spacedj-announce" description="oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellation of sounds. You pilot a spaceship through a galaxy where each star represents a musical genre. As you navigate this universe, Space DJ uses the Lyria RealTime API to generate a continuous stream of music that reflects your position and selections in real-time." created="Wed, 12 Nov 2025 16:11:06 GMT" category="music,genre,ai-music,app,google" />
     </outline>
@@ -1392,6 +1430,9 @@ Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" cre
     </outline>
     <outline text="governance" title="governance">
       <outline type="link" text="guidelines-governance.pdf" title="guidelines-governance.pdf" url="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" htmlUrl="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" description="India AI Governance Guidelines Enabling Safe and Trusted AI Innovation" created="Thu, 06 Nov 2025 17:45:54 GMT" category="ai,governance,india,guidelines" />
+      <outline type="link" text="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" title="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" url="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" htmlUrl="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" description="The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.
+
+As biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue." created="Fri, 26 Dec 2025 17:12:55 GMT" category="genomic-data,dna,governance,ethics" />
     </outline>
     <outline text="gpt-5" title="gpt-5">
       <outline type="link" text="Early experiments in accelerating science with GPT-5" title="Early experiments in accelerating science with GPT-5" url="https://openai.com/index/accelerating-science-gpt-5/" htmlUrl="https://openai.com/index/accelerating-science-gpt-5/" description="“Early science acceleration experiments with GPT‑5⁠(opens in a new window),” a paper co-authored with collaborators at universities and national laboratories including Vanderbilt, UC Berkeley, Columbia, Oxford, Cambridge, Lawrence Livermore National Laboratory, and The Jackson Laboratory. It compiles early case studies across math, physics, biology, computer science, astronomy, and materials science in which GPT‑5 helped researchers synthesize known results in a novel way, conduct powerful literature review, accelerate tough computations, and even generate novel proofs of unsolved propositions. The paper also documents limitations. Our goal is to give the community a clear view of what these systems can and cannot do today in research settings." created="Thu, 20 Nov 2025 22:52:01 GMT" category="openai,science,gpt-5" />
@@ -2709,6 +2750,11 @@ Animals and fungi, the two multicellular respiratory (in this context, as oppose
     <outline text="scale" title="scale">
       <outline type="link" text="Size of Life" title="Size of Life" url="https://neal.fun/size-of-life/" htmlUrl="https://neal.fun/size-of-life/" created="Wed, 10 Dec 2025 17:29:15 GMT" category="size,life,scale" />
     </outline>
+    <outline text="schedule" title="schedule">
+      <outline type="link" text="39C3 Fahrplan  " title="39C3 Fahrplan  " url="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" htmlUrl="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" description="Official Schedule (Fahrplan) 
+
+" created="Fri, 26 Dec 2025 17:20:55 GMT" category="39c3,congress,schedule" />
+    </outline>
     <outline text="science" title="science">
       <outline type="link" text="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" title="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" url="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" htmlUrl="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" description="Arginine suppresses Aβ aggregation both in vitro and in vivo.
 •
@@ -3189,6 +3235,10 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
 
  
  " created="Sun, 21 Sep 2025 02:03:31 GMT" category="video,macos,ios,apple" />
+      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39C3: Power Cycles
+- media.ccc.de" title="39C3: Power Cycles
+- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" />
     </outline>
     <outline text="video-encoding" title="video-encoding">
       <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
