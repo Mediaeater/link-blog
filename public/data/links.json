@@ -3266,8 +3266,160 @@
       "isPinned": false,
       "timestamp": "2025-12-23T11:42:25.076Z",
       "visits": 0
+    },
+    {
+      "id": 1766750036558,
+      "url": "https://www.ft.com/content/ab3fc412-02e9-4573-a70b-c0e3f8306971",
+      "source": "Spotify, Live Nation and the role of the music industry baddie",
+      "pullQuote": "Massive Attack are among acts to have removed their work from the platform after a venture capital firm founded by its CEO Daniel Ek invested €600mn in a company developing military AI weaponry. This surely marks the point at which a Hollywood studio contemplating a biopic of Ek might consider a casting call to Mads Mikkelsen, Scandinavian specialist in movie villa\n",
+      "tags": [
+        "music",
+        "ethics",
+        "spotify"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T11:53:56.558Z",
+      "visits": 0
+    },
+    {
+      "id": 1766765959449,
+      "url": "https://bsky.app/profile/robpike.io/post/3matwg6w3ic2s",
+      "source": "rob pike (@robpike.io)",
+      "pullQuote": "Fuck you people. Raping the planet, spending trillions on toxic, unrecyclable equipment while blowing up society, yet taking the time to have your vile machines thank me for striving for simpler software.\n\nJust fuck you. Fuck you all.\n\nI can't remember the last time I was this angry.",
+      "tags": [
+        "ai",
+        "ethics",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T16:19:19.449Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769175578,
+      "url": "https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/",
+      "source": "The 23andMe Collapse Exposes the Cracks in Genomic Data Governance",
+      "pullQuote": "The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.\n\nAs biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue.",
+      "tags": [
+        "genomic-data",
+        "dna",
+        "governance",
+        "ethics"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:12:55.578Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769598475,
+      "url": "https://streaming.media.ccc.de/",
+      "source": "39C3 C3VOC Streaming",
+      "pullQuote": "See you soon … somewhere else! – ",
+      "tags": [
+        "video",
+        "39c3",
+        "congress"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:19:58.475Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769655309,
+      "url": "https://fahrplan.events.ccc.de/congress/2025/fahrplan/",
+      "source": "39C3 Fahrplan  ",
+      "pullQuote": "Official Schedule (Fahrplan) \n\n",
+      "tags": [
+        "39c3",
+        "congress",
+        "schedule"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:20:55.309Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769690423,
+      "url": "https://media.ccc.de/c/39c3",
+      "source": "39C3: Power Cycles\n- media.ccc.de",
+      "pullQuote": "Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)",
+      "tags": [
+        "video",
+        "39c3",
+        "congress"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:21:30.423Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769824595,
+      "url": "https://events.ccc.de/congress/2025/hub/en/assembly/detail/art",
+      "source": "39c3 Art",
+      "pullQuote": "Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).\n\n",
+      "tags": [
+        "39c3",
+        "art",
+        "congress"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:23:44.595Z",
+      "visits": 0
+    },
+    {
+      "id": 1766769970957,
+      "url": "https://events.ccc.de/congress/2025/hub/en/wiki/start",
+      "source": "39C3 39th Chaos Communications Congress - start",
+      "pullQuote": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It's collaboratively edited and grows rapidly during the event.\n\n",
+      "tags": [],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:26:10.957Z",
+      "visits": 0
+    },
+    {
+      "id": 1766770004237,
+      "url": "https://events.ccc.de/congress/2025/hub/en/wiki/start",
+      "source": "39C3 39th Chaos Communications Congress - start",
+      "pullQuote": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It's collaboratively edited and grows rapidly during the event.\n\n",
+      "tags": [
+        "39c3",
+        "congress",
+        "wiki"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:26:44.237Z",
+      "visits": 0
+    },
+    {
+      "id": 1766771202383,
+      "url": "https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/",
+      "source": "Four Frictions: or, How to Resist AI in Education",
+      "pullQuote": "Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education.",
+      "tags": [
+        "ai",
+        "education",
+        "learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T17:46:42.383Z",
+      "visits": 0
+    },
+    {
+      "id": 1766786446944,
+      "url": "https://continuations.com/the-imperative-for-moral-progress-in-the-face-of-technological-acceleration",
+      "source": "The Imperative for Moral Progress in the Face of Technological Acceleration",
+      "pullQuote": "This has resulted in a profound asymmetry. With scientific theories pruned effectively we have been able to achieve rapid technological progress. But stuck in a morass of ever growing useless philosophy we have failed to achieve moral progress. This is an incredibly dangerous combination. E. O. Wilson perfectly captured this “The real problem of humanity is the following: We have Paleolithic emotions, medieval institutions, and godlike technology.”",
+      "tags": [
+        "learning",
+        "progress",
+        "human",
+        "science"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T22:00:46.944Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-23T11:42:25.154Z"
+  "lastUpdated": "2025-12-26T22:00:46.962Z"
 }

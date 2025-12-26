@@ -757,26 +757,26 @@ export default function LinkBlogClean() {
                   })}
                 </time>
 
+                {/* Left: Logo */}
+                <a
+                  href="https://mediaeater.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute left-6 md:left-12 hover:opacity-80 transition-opacity"
+                  title="mediaeater.com"
+                >
+                  <img
+                    src="https://mediaeater.com/Images/mediaeater.png"
+                    alt="mediaeater"
+                    className="w-16 h-16 md:w-20 md:h-20 object-contain"
+                  />
+                </a>
+
                 {/* Center: Title block */}
                 <div className="flex-1 text-center">
-                  <div className="flex items-center justify-center gap-3">
-                    <a
-                      href="https://mediaeater.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:opacity-80 transition-opacity"
-                      title="mediaeater.com"
-                    >
-                      <img
-                        src="https://mediaeater.com/Images/mediaeater.png"
-                        alt="mediaeater"
-                        className="w-8 h-8 md:w-10 md:h-10 object-contain"
-                      />
-                    </a>
-                    <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-neutral-900">
-                      <a href="/" className="hover:text-blue-800 transition-colors">newsfeeds.net</a>
-                    </h1>
-                  </div>
+                  <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-neutral-900">
+                    <a href="/" className="hover:text-blue-800 transition-colors">newsfeeds.net</a>
+                  </h1>
                   <div className="text-xs md:text-sm tracking-widest uppercase text-amber-700 mt-1">
                     Human Edited & Curated
                   </div>

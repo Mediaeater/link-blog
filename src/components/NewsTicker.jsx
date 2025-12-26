@@ -19,6 +19,7 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   const quoteRef = useRef(null);
   const trackRef = useRef(null);
   const hideControlsTimer = useRef(null);
+  const nextLinkRef = useRef(null);
 
   // Show if forced OR landscape mobile
   const isVisible = forceShow || isLandscapeMobile;
@@ -56,6 +57,8 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   // Advance to next link with black transition
   const nextLink = useCallback(() => {
     const list = linksWithQuotes.length > 0 ? linksWithQuotes : links;
+    if (list.length === 0) return;
+
     // Start transition to black
     setIsTransitioning(true);
     // After 1 second of black, change the story
@@ -65,16 +68,26 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     }, 1000);
   }, [linksWithQuotes, links]);
 
-  // Auto-advance timer
+  // Keep ref updated with latest nextLink
   useEffect(() => {
-    if (!isVisible || isPaused || !currentLink || isTransitioning) return;
+    nextLinkRef.current = nextLink;
+  }, [nextLink]);
+
+  // Auto-advance timer - uses ref to avoid resetting interval on nextLink changes
+  useEffect(() => {
+    if (!isVisible || isPaused || isTransitioning) return;
+
+    const list = linksWithQuotes.length > 0 ? linksWithQuotes : links;
+    if (list.length === 0) return;
 
     const timer = setInterval(() => {
-      nextLink();
+      if (nextLinkRef.current) {
+        nextLinkRef.current();
+      }
     }, 32000); // 32 seconds per entry (6s hold + 25s scroll + 1s black transition)
 
     return () => clearInterval(timer);
-  }, [isVisible, isPaused, currentLink, nextLink, isTransitioning]);
+  }, [isVisible, isPaused, isTransitioning, linksWithQuotes.length, links.length]);
 
   // Detect landscape orientation on mobile
   useEffect(() => {
