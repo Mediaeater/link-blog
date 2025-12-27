@@ -3432,8 +3432,24 @@
       "isPinned": false,
       "timestamp": "2025-12-26T23:55:55.946Z",
       "visits": 0
+    },
+    {
+      "id": 1766849068409,
+      "url": "https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence",
+      "source": "What Workers Really Want from Artificial Intelligence | Stanford HAI",
+      "pullQuote": "Here they found some interesting patterns. Their analysis suggests that current high-wage skills — such as data analysis and process monitoring — may diminish in value. In contrast, skills related to prioritizing and organizing work, training and teaching, and effective communication will grow in importance.",
+      "tags": [
+        "ai",
+        "learning",
+        "workforce",
+        "automation",
+        "technology"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T15:24:28.409Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-27T11:38:26.179Z"
+  "lastUpdated": "2025-12-27T15:24:28.423Z"
 }

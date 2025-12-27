@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 27 Dec 2025 11:38:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Dec 2025 15:24:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1626,6 +1626,13 @@ nightmare of browser fingerprinting]]></title>
             <guid>1766793355946</guid>
             <pubDate>Fri, 26 Dec 2025 23:55:55 GMT</pubDate>
             <description><![CDATA[Tags: google, search, 2025]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What Workers Really Want from Artificial Intelligence | Stanford HAI]]></title>
+            <link>https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence</link>
+            <guid>1766849068409</guid>
+            <pubDate>Sat, 27 Dec 2025 15:24:28 GMT</pubDate>
+            <description><![CDATA[Tags: ai, learning, workforce, automation, technology]]></description>
         </item>
     </channel>
 </rss>

@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1766849068409",
+      "url": "https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence",
+      "title": "What Workers Really Want from Artificial Intelligence | Stanford HAI",
+      "date_published": "2025-12-27T15:24:28.409Z",
+      "tags": [
+        "ai",
+        "learning",
+        "workforce",
+        "automation",
+        "technology"
+      ],
+      "content_text": "Here they found some interesting patterns. Their analysis suggests that current high-wage skills — such as data analysis and process monitoring — may diminish in value. In contrast, skills related to prioritizing and organizing work, training and teaching, and effective communication will grow in importance.",
+      "summary": "Here they found some interesting patterns. Their analysis suggests that current high-wage skills — such as data analysis and process monitoring — may ...",
+      "content_html": "<blockquote>Here they found some interesting patterns. Their analysis suggests that current high-wage skills — such as data analysis and process monitoring — may diminish in value. In contrast, skills related to prioritizing and organizing work, training and teaching, and effective communication will grow in importance.</blockquote>\n<p><strong>Tags:</strong> ai, learning, workforce, automation, technology</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1766793355946",
       "url": "https://trends.withgoogle.com/year-in-search/2025/us/",
       "title": "Google’s Year in Search",
