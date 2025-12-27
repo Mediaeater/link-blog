@@ -3322,7 +3322,7 @@
       ],
       "isPinned": false,
       "timestamp": "2025-12-26T17:19:58.475Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1766769655309,
@@ -3350,7 +3350,7 @@
       ],
       "isPinned": false,
       "timestamp": "2025-12-26T17:21:30.423Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1766769824595,
@@ -3374,7 +3374,7 @@
       "tags": [],
       "isPinned": false,
       "timestamp": "2025-12-26T17:26:10.957Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1766770004237,
@@ -3418,8 +3418,22 @@
       "isPinned": false,
       "timestamp": "2025-12-26T22:00:46.944Z",
       "visits": 0
+    },
+    {
+      "id": 1766793355946,
+      "url": "https://trends.withgoogle.com/year-in-search/2025/us/",
+      "source": "Google’s Year in Search",
+      "pullQuote": "",
+      "tags": [
+        "google",
+        "search",
+        "2025"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-26T23:55:55.946Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-26T22:00:46.962Z"
+  "lastUpdated": "2025-12-27T11:38:26.179Z"
 }

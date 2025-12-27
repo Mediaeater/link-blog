@@ -762,7 +762,7 @@ export default function LinkBlogClean() {
                   href="https://mediaeater.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute left-6 md:left-12 hover:opacity-80 transition-opacity"
+                  className="absolute left-[18%] md:left-[20%] hover:opacity-80 transition-opacity"
                   title="mediaeater.com"
                 >
                   <img
