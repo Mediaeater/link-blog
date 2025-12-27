@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://newsfeeds.net</loc>
-    <lastmod>2025-12-26T23:56:19Z</lastmod>
+    <lastmod>2025-12-27T13:07:12Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -34,7 +34,7 @@
     <loc>https://newsfeeds.net#link-5</loc>
     <lastmod>2025-12-26T17:26:10Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-6</loc>
@@ -46,7 +46,7 @@
     <loc>https://newsfeeds.net#link-7</loc>
     <lastmod>2025-12-26T17:21:30Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-8</loc>
@@ -58,7 +58,7 @@
     <loc>https://newsfeeds.net#link-9</loc>
     <lastmod>2025-12-26T17:19:58Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newsfeeds.net#link-10</loc>

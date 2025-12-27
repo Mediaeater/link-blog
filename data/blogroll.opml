@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 26 Dec 2025 23:56:20 GMT</dateCreated>
-    <dateModified>Fri, 26 Dec 2025 23:56:20 GMT</dateModified>
+    <dateCreated>Sat, 27 Dec 2025 13:07:13 GMT</dateCreated>
+    <dateModified>Sat, 27 Dec 2025 13:07:13 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -41,13 +41,13 @@ Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" cre
       <outline type="link" text="Google’s Year in Search" title="Google’s Year in Search" url="https://trends.withgoogle.com/year-in-search/2025/us/" htmlUrl="https://trends.withgoogle.com/year-in-search/2025/us/" created="Fri, 26 Dec 2025 23:55:55 GMT" category="google,search,2025" />
     </outline>
     <outline text="39c3" title="39c3">
-      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" visits="1" />
       <outline type="link" text="39C3 Fahrplan  " title="39C3 Fahrplan  " url="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" htmlUrl="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" description="Official Schedule (Fahrplan) 
 
 " created="Fri, 26 Dec 2025 17:20:55 GMT" category="39c3,congress,schedule" />
       <outline type="link" text="39C3: Power Cycles
 - media.ccc.de" title="39C3: Power Cycles
-- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" />
+- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" visits="1" />
       <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
 
 " created="Fri, 26 Dec 2025 17:23:44 GMT" category="39c3,art,congress" />
@@ -946,13 +946,13 @@ In plans to be announced on Wednesday, reselling a ticket above face value will 
 Congress offers lectures and workshops and various events on a multitude of topics including (but not limited to) information technology and generally a critical-creative attitude towards technology and the discussion about the effects of technological advances on society.
 
 Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
-      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" visits="1" />
       <outline type="link" text="39C3 Fahrplan  " title="39C3 Fahrplan  " url="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" htmlUrl="https://fahrplan.events.ccc.de/congress/2025/fahrplan/" description="Official Schedule (Fahrplan) 
 
 " created="Fri, 26 Dec 2025 17:20:55 GMT" category="39c3,congress,schedule" />
       <outline type="link" text="39C3: Power Cycles
 - media.ccc.de" title="39C3: Power Cycles
-- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" />
+- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" visits="1" />
       <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
 
 " created="Fri, 26 Dec 2025 17:23:44 GMT" category="39c3,art,congress" />
@@ -3253,10 +3253,10 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
 
  
  " created="Sun, 21 Sep 2025 02:03:31 GMT" category="video,macos,ios,apple" />
-      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" />
+      <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" visits="1" />
       <outline type="link" text="39C3: Power Cycles
 - media.ccc.de" title="39C3: Power Cycles
-- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" />
+- media.ccc.de" url="https://media.ccc.de/c/39c3" htmlUrl="https://media.ccc.de/c/39c3" description="Recordings and On-Demand Videos – Talks are uploaded here shortly after they end (native/high-quality formats)" created="Fri, 26 Dec 2025 17:21:30 GMT" category="video,39c3,congress" visits="1" />
     </outline>
     <outline text="video-encoding" title="video-encoding">
       <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
@@ -3398,7 +3398,7 @@ Prosocial: Technology should enable connection and coordination, helping us beco
 " created="Fri, 05 Dec 2025 02:45:02 GMT" />
       <outline type="link" text="39C3 39th Chaos Communications Congress - start" title="39C3 39th Chaos Communications Congress - start" url="https://events.ccc.de/congress/2025/hub/en/wiki/start" htmlUrl="https://events.ccc.de/congress/2025/hub/en/wiki/start" description="39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&apos;s collaboratively edited and grows rapidly during the event.
 
-" created="Fri, 26 Dec 2025 17:26:10 GMT" />
+" created="Fri, 26 Dec 2025 17:26:10 GMT" visits="1" />
     </outline>
   </body>
 </opml>
