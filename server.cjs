@@ -32,11 +32,18 @@ const writeLimiter = rateLimit({
 // Input validation helper
 function validateLink(link) {
   if (!link || typeof link !== 'object') return false;
-  if (typeof link.url !== 'string' || !link.url.startsWith('http')) return false;
-  if (typeof link.source !== 'string') return false;
-  if (link.tags && !Array.isArray(link.tags)) return false;
-  if (link.tags && link.tags.some(tag => typeof tag !== 'string')) return false;
+  // Be lenient - just require url exists
+  if (!link.url) return false;
   return true;
+}
+
+function fixLink(link) {
+  // Auto-fix common issues
+  if (!link.source) link.source = link.url;
+  if (!link.tags) link.tags = [];
+  if (!Array.isArray(link.tags)) link.tags = [];
+  link.tags = link.tags.filter(t => typeof t === 'string');
+  return link;
 }
 
 function validateLinksPayload(data) {
@@ -111,6 +118,11 @@ app.use(activityPubRoutes);
 app.post('/api/save-links', writeLimiter, async (req, res) => {
   try {
     const data = req.body;
+
+    // Auto-fix links before validation
+    if (data && Array.isArray(data.links)) {
+      data.links = data.links.map(fixLink);
+    }
 
     // Validate payload structure and content
     const validation = validateLinksPayload(data);

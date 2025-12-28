@@ -163,10 +163,10 @@ export default function LinkBlogClean() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 
     // Then try to save to file
-    const isProduction = !window.location.hostname.includes('localhost');
+    const isProduction = !['localhost', '127.0.0.1', 'newsfeeds.net'].some(h => window.location.hostname.includes(h));
 
     try {
-      const response = await fetch('http://localhost:3001/api/save-links', {
+      const response = await fetch('http://127.0.0.1:3001/api/save-links', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
@@ -245,7 +245,7 @@ export default function LinkBlogClean() {
   // Set up auto-backup interval (every 5 minutes)
   useEffect(() => {
     // Only run auto-backup for admin users in dev mode
-    const isProduction = !window.location.hostname.includes('localhost');
+    const isProduction = !['localhost', '127.0.0.1', 'newsfeeds.net'].some(h => window.location.hostname.includes(h));
     if (isProduction) return;
 
     // Initial backup after 30 seconds
