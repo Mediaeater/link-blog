@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 27 Dec 2025 21:23:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 12:43:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1649,11 +1649,18 @@ nightmare of browser fingerprinting]]></title>
             <description><![CDATA[Tags: art, analogue, digital art]]></description>
         </item>
         <item>
-            <title><![CDATA[excerpt from a letter to a friend – The Homebound Symphony]]></title>
-            <link>https://blog.ayjay.org/excerpt-from-a-letter-to-a-friend</link>
-            <guid>1766870610293</guid>
-            <pubDate>Sat, 27 Dec 2025 21:23:30 GMT</pubDate>
-            <description><![CDATA[Tags: how-to, knowledge, learning, ai]]></description>
+            <title><![CDATA[The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story]]></title>
+            <link>The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.</link>
+            <guid>1766871354647</guid>
+            <pubDate>Sat, 27 Dec 2025 21:35:54 GMT</pubDate>
+            <description><![CDATA[Tags: technology, film, motion, machine]]></description>
+        </item>
+        <item>
+            <title><![CDATA[excerpt from a letter to a friend]]></title>
+            <link>https://blog.ayjay.org/motion-and-machine</link>
+            <guid>1766871479115</guid>
+            <pubDate>Sat, 27 Dec 2025 21:37:59 GMT</pubDate>
+            <description><![CDATA[Tags: learning, knowledge, ai, motion]]></description>
         </item>
     </channel>
 </rss>

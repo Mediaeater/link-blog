@@ -3481,21 +3481,36 @@
       "visits": 0
     },
     {
-      "id": 1766870610293,
-      "url": "https://blog.ayjay.org/excerpt-from-a-letter-to-a-friend",
-      "source": "excerpt from a letter to a friend – The Homebound Symphony",
-      "pullQuote": "I don’t know what’s happening elsewhere, but in the Honors College here at Baylor — or rather among those of us who teach the humanities — it’s been fun to see what we’re doing to banish the LLM demons. Most of us are incorporating a lot of handwriting into our teaching: several colleagues have been doing blue-book exams, a couple have bought their students cheap composition books from Walmart and are making them create commonplace books, and I am regularly handing out passages from the texts we’re reading, printed out with very wide margins, and asking students to annotate them. I tell them I want their pages to look like Balzac’s galley proofs.",
+      "id": 1766871354647,
+      "url": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
+      "source": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story",
+      "pullQuote": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
       "tags": [
-        "how-to",
-        "knowledge",
-        "learning",
-        "ai"
+        "technology",
+        "film",
+        "motion",
+        "machine"
       ],
       "isPinned": false,
-      "timestamp": "2025-12-27T21:23:30.293Z",
+      "timestamp": "2025-12-27T21:35:54.647Z",
+      "visits": 0
+    },
+    {
+      "id": 1766871479115,
+      "url": "https://blog.ayjay.org/motion-and-machine",
+      "source": "excerpt from a letter to a friend",
+      "pullQuote": "I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun to see what we’re doing to banish the LLM demons. Most of us are incor­po­rating a lot of hand­writing into our teaching: sev­eral col­leagues have been doing blue-book exams, a couple have bought their stu­dents cheap com­po­si­tion books from Wal­mart and are making them create com­mon­place books, and I am reg­u­larly handing out pas­sages from the texts we’re reading, printed out with very wide margins, and asking stu­dents to anno­tate them. I tell them I want their pages to look like Balzac’s galley proofs.",
+      "tags": [
+        "learning",
+        "knowledge",
+        "ai",
+        "motion"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T21:37:59.115Z",
       "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-27T21:23:30.347Z"
+  "lastUpdated": "2025-12-28T12:43:14.865Z"
 }
