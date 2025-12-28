@@ -66,6 +66,9 @@ const allowedOrigins = [
   'http://127.0.0.1:5174',
   'http://127.0.0.1:5175',
   'http://127.0.0.1:5176',
+  'http://newsfeeds.net:5174',
+  'http://newsfeeds.net:5173',
+  'https://newsfeeds.net',
   process.env.SITE_URL
 ].filter(Boolean);
 
