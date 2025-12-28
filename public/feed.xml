@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 26 Dec 2025 23:55:55 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 13:44:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1550,13 +1550,6 @@ nightmare of browser fingerprinting]]></title>
             <description><![CDATA[Tags: music, ethics, spotify]]></description>
         </item>
         <item>
-            <title><![CDATA[rob pike (@robpike.io)]]></title>
-            <link>https://bsky.app/profile/robpike.io/post/3matwg6w3ic2s</link>
-            <guid>1766765959449</guid>
-            <pubDate>Fri, 26 Dec 2025 16:19:19 GMT</pubDate>
-            <description><![CDATA[Tags: ai, ethics, harms]]></description>
-        </item>
-        <item>
             <title><![CDATA[The 23andMe Collapse Exposes the Cracks in Genomic Data Governance]]></title>
             <link>https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/</link>
             <guid>1766769175578</guid>
@@ -1626,6 +1619,48 @@ nightmare of browser fingerprinting]]></title>
             <guid>1766793355946</guid>
             <pubDate>Fri, 26 Dec 2025 23:55:55 GMT</pubDate>
             <description><![CDATA[Tags: google, search, 2025]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What Workers Really Want from Artificial Intelligence | Stanford HAI]]></title>
+            <link>https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence</link>
+            <guid>1766849068409</guid>
+            <pubDate>Sat, 27 Dec 2025 15:24:28 GMT</pubDate>
+            <description><![CDATA[Tags: ai, learning, workforce, automation, technology]]></description>
+        </item>
+        <item>
+            <title><![CDATA[10 Artworks That Spoke Truth to Power in 2025]]></title>
+            <link>https://hyperallergic.com/10-artworks-that-spoke-truth-to-power-in-2025/?ref=weekly-newsletter</link>
+            <guid>1766852027221</guid>
+            <pubDate>Sat, 27 Dec 2025 16:13:47 GMT</pubDate>
+            <description><![CDATA[Tags: art, resistance movements, harms, society]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TN - SB1493]]></title>
+            <link>https://www.billtrack50.com/billdetail/1919298</link>
+            <guid>1766852228091</guid>
+            <pubDate>Sat, 27 Dec 2025 16:17:08 GMT</pubDate>
+            <description><![CDATA[Tags: ai, machine-learning, harms, legislation, tn]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Comment | The worlds of analogue and digital art may be splintering]]></title>
+            <link>https://www.theartnewspaper.com/2025/12/12/analogue-digital-art-worlds-splintering</link>
+            <guid>1766862240828</guid>
+            <pubDate>Sat, 27 Dec 2025 19:04:00 GMT</pubDate>
+            <description><![CDATA[Tags: art, analogue, digital art]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story]]></title>
+            <link>The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.</link>
+            <guid>1766871354647</guid>
+            <pubDate>Sat, 27 Dec 2025 21:35:54 GMT</pubDate>
+            <description><![CDATA[Tags: technology, film, motion, machine]]></description>
+        </item>
+        <item>
+            <title><![CDATA[excerpt from a letter to a friend]]></title>
+            <link>https://blog.ayjay.org/motion-and-machine</link>
+            <guid>1766871479115</guid>
+            <pubDate>Sat, 27 Dec 2025 21:37:59 GMT</pubDate>
+            <description><![CDATA[Tags: learning, knowledge, ai, motion]]></description>
         </item>
     </channel>
 </rss>

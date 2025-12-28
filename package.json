@@ -29,7 +29,9 @@
     "archive:migrate": "node scripts/migrate-to-archive.cjs",
     "activitypub:setup": "node scripts/setup-activitypub.cjs",
     "activitypub:status": "node scripts/activitypub-status.cjs",
-    "activitypub:deliver": "node scripts/deliver-links.cjs"
+    "activitypub:deliver": "node scripts/deliver-links.cjs",
+    "digest:check": "node scripts/digest-check.cjs",
+    "digest:generate": "node scripts/generate-digest.cjs"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",

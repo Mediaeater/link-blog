@@ -3282,20 +3282,6 @@
       "visits": 0
     },
     {
-      "id": 1766765959449,
-      "url": "https://bsky.app/profile/robpike.io/post/3matwg6w3ic2s",
-      "source": "rob pike (@robpike.io)",
-      "pullQuote": "Fuck you people. Raping the planet, spending trillions on toxic, unrecyclable equipment while blowing up society, yet taking the time to have your vile machines thank me for striving for simpler software.\n\nJust fuck you. Fuck you all.\n\nI can't remember the last time I was this angry.",
-      "tags": [
-        "ai",
-        "ethics",
-        "harms"
-      ],
-      "isPinned": false,
-      "timestamp": "2025-12-26T16:19:19.449Z",
-      "visits": 0
-    },
-    {
       "id": 1766769175578,
       "url": "https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/",
       "source": "The 23andMe Collapse Exposes the Cracks in Genomic Data Governance",
@@ -3432,8 +3418,99 @@
       "isPinned": false,
       "timestamp": "2025-12-26T23:55:55.946Z",
       "visits": 0
+    },
+    {
+      "id": 1766849068409,
+      "url": "https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence",
+      "source": "What Workers Really Want from Artificial Intelligence | Stanford HAI",
+      "pullQuote": "Here they found some interesting patterns. Their analysis suggests that current high-wage skills — such as data analysis and process monitoring — may diminish in value. In contrast, skills related to prioritizing and organizing work, training and teaching, and effective communication will grow in importance.",
+      "tags": [
+        "ai",
+        "learning",
+        "workforce",
+        "automation",
+        "technology"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T15:24:28.409Z",
+      "visits": 0
+    },
+    {
+      "id": 1766852027221,
+      "url": "https://hyperallergic.com/10-artworks-that-spoke-truth-to-power-in-2025/?ref=weekly-newsletter",
+      "source": "10 Artworks That Spoke Truth to Power in 2025",
+      "pullQuote": "Homes on fire as fossil fuels burn. Pro-Palestine protesters jailed. Migrants disappeared from the streets of the United States. Trans individuals persecuted and denied life-saving care. Indigenous people's rights under threat.\n\nThere was no shortage of injustices in 2025. Refusing to be desensitized by the perpetual scroll of tragic images and news headlines, artists and creative activists mobilized their mediums in pursuit of change, sometimes risking their own lives and livelihoods. Below are 10 works that spoke truth to power in 2025, a decidedly non-comprehensive list of murals, protest actions, museum exhibitions, and other artistic gestures to carry us with intention and courage into the new year.",
+      "tags": [
+        "art",
+        "resistance movements",
+        "harms",
+        "society"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T16:13:47.221Z",
+      "visits": 0
+    },
+    {
+      "id": 1766852228091,
+      "url": "https://www.billtrack50.com/billdetail/1919298",
+      "source": "TN - SB1493",
+      "pullQuote": "This bill creates new legal provisions in Tennessee regarding the training of artificial intelligence (A.I.), establishing strict criminal and civil penalties for developing A.I. systems with potentially harmful capabilities. The legislation defines artificial intelligence and A.I. chatbots, and specifically criminalizes training A.I. to engage in dangerous or manipulative behaviors, such as encouraging suicide, supporting criminal homicide, providing emotional support, developing emotional relationships with individuals, impersonating humans, or simulating human characteristics. A person found guilty of knowingly training A.I. for these prohibited purposes would commit a Class A felony, which carries significant criminal penalties. Additionally, the bill allows aggrieved individuals (or their legal representatives) to pursue civil actions, with potential damages including actual damages, emotional distress compensation, liquidated damages of $150,000, and punitive damages. Courts may also issue injunctions requiring the cessation of A.I. operations and mandating corrective retraining. The law is set to take effect on July 1, 2026, and will apply to conduct occurring on or after that date, reflecting a proactive approach to regulating emerging artificial intelligence technologies and protecting potential vulnerable users.\n",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "harms",
+        "legislation",
+        "tn"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T16:17:08.091Z",
+      "visits": 0
+    },
+    {
+      "id": 1766862240828,
+      "url": "https://www.theartnewspaper.com/2025/12/12/analogue-digital-art-worlds-splintering",
+      "source": " The worlds of analogue and digital art may be splintering",
+      "pullQuote": "The institutions of art, instead of co-opting new digital genres—building on what they have done, albeit at a glacial pace, with photography and video—might let digital spectacles splinter off into their own sub-industry, as theatre did vis-à-vis cinema nearly a century ago. Immersive and AI art, with their seemingly limitless thirst for large spaces, new skill sets and energy-guzzling technology, would carve out a parallel lane for digital productions.\n\nThe analogy for an analogue-first strategy comes from the watchmaking industry. Confronted by the spectre of its demise in the 1980s, when battery-powered watches flooded the zone, haute horlogerie scaled even higher. It circled the wagons around savoir-faire, inventing timepieces of mind-boggling complexity (and price) that celebrated classic materials and mastery. All in all, the strategy paid off, at least for the manufactures that survived.",
+      "tags": [
+        "art",
+        "analogue",
+        "digital art"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T19:04:00.828Z",
+      "visits": 0
+    },
+    {
+      "id": 1766871354647,
+      "url": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
+      "source": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story",
+      "pullQuote": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
+      "tags": [
+        "technology",
+        "film",
+        "motion",
+        "machine"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T21:35:54.647Z",
+      "visits": 0
+    },
+    {
+      "id": 1766871479115,
+      "url": "https://blog.ayjay.org/motion-and-machine",
+      "source": "excerpt from a letter to a friend",
+      "pullQuote": "I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun to see what we’re doing to banish the LLM demons. Most of us are incor­po­rating a lot of hand­writing into our teaching: sev­eral col­leagues have been doing blue-book exams, a couple have bought their stu­dents cheap com­po­si­tion books from Wal­mart and are making them create com­mon­place books, and I am reg­u­larly handing out pas­sages from the texts we’re reading, printed out with very wide margins, and asking stu­dents to anno­tate them. I tell them I want their pages to look like Balzac’s galley proofs.",
+      "tags": [
+        "learning",
+        "knowledge",
+        "ai",
+        "motion"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T21:37:59.115Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2025-12-27T11:38:26.179Z"
+  "lastUpdated": "2025-12-28T14:00:38.676Z"
 }

@@ -22,6 +22,7 @@ import {
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 import { loadArchiveMetadata, loadArchiveYear } from '../utils/storage';
 import NewsTicker from './NewsTicker';
+import DigestPanel from './DigestPanel';
 
 const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
 const STORAGE_KEY = 'linkBlogData';
@@ -911,6 +912,8 @@ export default function LinkBlogClean() {
                   title="Import links from JSON file"
                 />
               </label>
+
+              <DigestPanel />
             </div>
 
             {/* Single Link Form */}

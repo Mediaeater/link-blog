@@ -6,8 +6,10 @@ const rateLimit = require('express-rate-limit');
 const { generateRSS } = require('./utils/rss-generator.cjs');
 const activityPubRoutes = require('./routes/activitypub.cjs');
 const ArchiveManager = require('./utils/archive-manager.cjs');
+const DigestManager = require('./utils/digest-manager.cjs');
 
 const app = express();
+const digestManager = new DigestManager();
 const PORT = 3001;
 const archiveManager = new ArchiveManager();
 
@@ -200,6 +202,28 @@ app.get('/api/archive/:year', async (req, res) => {
   } catch (error) {
     console.error(`Error reading archive for ${req.params.year}:`, error);
     res.status(500).json({ error: 'Failed to read archive' });
+  }
+});
+
+// Digest endpoints
+app.get('/api/digest/status', async (req, res) => {
+  try {
+    const status = await digestManager.getStatus();
+    res.json(status);
+  } catch (error) {
+    console.error('Error getting digest status:', error);
+    res.status(500).json({ error: 'Failed to get digest status' });
+  }
+});
+
+app.post('/api/digest/generate', async (req, res) => {
+  try {
+    const { markAsDigested = false } = req.body || {};
+    const result = await digestManager.createDigest(markAsDigested);
+    res.json(result);
+  } catch (error) {
+    console.error('Error generating digest:', error);
+    res.status(500).json({ error: 'Failed to generate digest' });
   }
 });
 
