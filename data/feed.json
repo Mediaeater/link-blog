@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1767007493341",
+      "url": "https://www.wsj.com/tech/ai/ai-chatbot-psychosis-link-1abf9d57",
+      "title": "AI Chatbots Linked to Psychosis, Say Doctors",
+      "date_published": "2025-12-29T11:24:53.341Z",
+      "tags": [
+        "ai",
+        "harms",
+        "openai",
+        "psychosis"
+      ],
+      "content_text": "OpenAI said that, in a given week, the slice of users who indicate possible signs of mental-health emergencies related to psychosis or mania is a minuscule 0.07%. Yet with more than 800 million active weekly users, that amounts to 560,000 people.",
+      "summary": "OpenAI said that, in a given week, the slice of users who indicate possible signs of mental-health emergencies related to psychosis or mania is a minu...",
+      "content_html": "<blockquote>OpenAI said that, in a given week, the slice of users who indicate possible signs of mental-health emergencies related to psychosis or mania is a minuscule 0.07%. Yet with more than 800 million active weekly users, that amounts to 560,000 people.</blockquote>\n<p><strong>Tags:</strong> ai, harms, openai, psychosis</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1766871479115",
       "url": "https://blog.ayjay.org/motion-and-machine",
       "title": "excerpt from a letter to a friend",
