@@ -806,9 +806,12 @@ export default function LinkBlogClean() {
                 <span className="text-neutral-300">|</span>
                 <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">RSS</a>
                 <span className="text-neutral-300">|</span>
-                <a href="/data/feed.json" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">JSON</a>
-                <span className="text-neutral-300">|</span>
-                <a href="/data/blogroll.opml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">OPML</a>
+                <button
+                  onClick={() => document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="hover:text-neutral-900 transition-colors"
+                >
+                  Archive
+                </button>
                 <span className="text-neutral-300">|</span>
                 <button
                   onClick={() => setShowTicker(prev => !prev)}
@@ -1310,7 +1313,7 @@ export default function LinkBlogClean() {
 
           {/* Archive Loader */}
           {archives.length > 0 && (
-            <div className="mb-6 p-4 bg-neutral-50 rounded-lg border border-neutral-200">
+            <div id="archives-section" className="mb-6 p-4 bg-neutral-50 rounded-lg border border-neutral-200">
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-2">
                   <Download className="w-4 h-4 text-neutral-600" />

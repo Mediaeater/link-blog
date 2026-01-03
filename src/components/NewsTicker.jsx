@@ -21,8 +21,8 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   const hideControlsTimer = useRef(null);
   const nextLinkRef = useRef(null);
 
-  // Show if forced OR landscape mobile
-  const isVisible = forceShow || isLandscapeMobile;
+  // Show only when manually toggled
+  const isVisible = forceShow;
 
   // Filter to only links with pull quotes for better experience
   const linksWithQuotes = useMemo(() => {
