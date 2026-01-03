@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 29 Dec 2025 11:24:53 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 14:00:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1661,13 +1661,6 @@ nightmare of browser fingerprinting]]></title>
             <guid>1766871479115</guid>
             <pubDate>Sat, 27 Dec 2025 21:37:59 GMT</pubDate>
             <description><![CDATA[Tags: learning, knowledge, ai, motion]]></description>
-        </item>
-        <item>
-            <title><![CDATA[AI Chatbots Linked to Psychosis, Say Doctors]]></title>
-            <link>https://www.wsj.com/tech/ai/ai-chatbot-psychosis-link-1abf9d57</link>
-            <guid>1767007493341</guid>
-            <pubDate>Mon, 29 Dec 2025 11:24:53 GMT</pubDate>
-            <description><![CDATA[Tags: ai, harms, openai, psychosis]]></description>
         </item>
     </channel>
 </rss>
