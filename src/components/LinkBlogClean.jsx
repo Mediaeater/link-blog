@@ -807,7 +807,10 @@ export default function LinkBlogClean() {
                 <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">RSS</a>
                 <span className="text-neutral-300">|</span>
                 <button
-                  onClick={() => document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => {
+                    loadAllArchives();
+                    document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
                   className="hover:text-neutral-900 transition-colors"
                 >
                   Archive
@@ -1311,57 +1314,6 @@ export default function LinkBlogClean() {
             </div>
           )}
 
-          {/* Archive Loader */}
-          {archives.length > 0 && (
-            <div id="archives-section" className="mb-6 p-4 bg-neutral-50 rounded-lg border border-neutral-200">
-              <div className="flex items-center justify-between mb-3">
-                <div className="flex items-center gap-2">
-                  <Download className="w-4 h-4 text-neutral-600" />
-                  <span className="font-medium text-neutral-900">Archives</span>
-                  <span className="text-sm text-neutral-500">
-                    ({archives.reduce((sum, a) => sum + a.count, 0)} archived links)
-                  </span>
-                </div>
-                <button
-                  onClick={() => setShowArchives(!showArchives)}
-                  className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors"
-                >
-                  {showArchives ? 'Hide' : 'Show'}
-                </button>
-              </div>
-
-              {showArchives && (
-                <div className="space-y-2">
-                  <div className="flex flex-wrap gap-2">
-                    {archives.map(archive => (
-                      <button
-                        key={archive.year}
-                        onClick={() => loadArchive(archive.year)}
-                        disabled={loadedArchives.has(archive.year)}
-                        className={`px-3 py-1.5 rounded text-sm transition-all ${
-                          loadedArchives.has(archive.year)
-                            ? 'bg-green-100 text-green-800 cursor-default'
-                            : 'bg-white border border-neutral-300 hover:border-primary-500 hover:bg-primary-50'
-                        }`}
-                      >
-                        {archive.year} ({archive.count})
-                        {loadedArchives.has(archive.year) && ' ✓'}
-                      </button>
-                    ))}
-                  </div>
-                  <button
-                    onClick={loadAllArchives}
-                    disabled={loadedArchives.size === archives.length}
-                    className="w-full px-4 py-2 bg-primary-500 text-white rounded hover:bg-primary-600 disabled:bg-neutral-300 disabled:cursor-not-allowed transition-colors text-sm font-medium"
-                  >
-                    {loadedArchives.size === archives.length
-                      ? 'All Archives Loaded'
-                      : 'Load All Archives'}
-                  </button>
-                </div>
-              )}
-            </div>
-          )}
 
           {/* Links List */}
           {filteredAndSortedLinks.length === 0 ? (
@@ -1369,145 +1321,127 @@ export default function LinkBlogClean() {
               <p className="text-neutral-500">No links found</p>
             </div>
           ) : (
-            filteredAndSortedLinks.map((link, index) => (
-              <article
-                key={link.id}
-                ref={(el) => linkRefs.current[index] = el}
-                className={`link-card group ${
-                  focusedLinkIndex === index ? 'ring-2 ring-primary-500 ring-offset-2' : ''
-                }`}
-              >
-                <div className="flex gap-4">
-                  {/* Content */}
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-start gap-2">
-                      {link.isPinned && (
-                        <Pin className="w-4 h-4 text-neutral-400 mt-1 flex-shrink-0" />
-                      )}
+            filteredAndSortedLinks.map((link, index) => {
+              const linkYear = new Date(link.timestamp).getFullYear();
+              const prevLink = filteredAndSortedLinks[index - 1];
+              const prevYear = prevLink ? new Date(prevLink.timestamp).getFullYear() : null;
+              const showYearHeader = prevYear !== null && linkYear !== prevYear;
+
+              return (
+                <React.Fragment key={link.id}>
+                  {showYearHeader && (
+                    <div id="archives-section" className="py-4 mt-6 mb-2 border-t-2 border-neutral-300">
+                      <h2 className="text-xl font-bold text-neutral-700">{linkYear}</h2>
+                    </div>
+                  )}
+                  <article
+                    ref={(el) => linkRefs.current[index] = el}
+                    className={`link-card group ${focusedLinkIndex === index ? 'ring-2 ring-primary-500 ring-offset-2' : ''}`}
+                  >
+                    <div className="flex gap-4">
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-medium text-neutral-900 truncate">
-                          <a
-                            href={link.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-primary-600 transition-colors"
-                            onClick={() => {
-                              // Track visit if admin
-                              if (isAdmin) {
-                                const updatedLinks = links.map(l =>
-                                  l.id === link.id
-                                    ? { ...l, visits: (l.visits || 0) + 1 }
-                                    : l
-                                );
-                                setLinks(updatedLinks);
-                                saveToFile(updatedLinks);
-                              }
-                            }}
-                          >
-                            {link.source}
-                          </a>
-                        </h3>
-                        <p className="text-sm text-neutral-500 truncate">
-                          {(() => {
-                            try {
-                              return new URL(link.url).hostname.replace('www.', '');
-                            } catch {
-                              return link.url;
-                            }
-                          })()}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Pull Quote */}
-                    {link.pullQuote && (
-                      <div className="mt-2 text-sm text-neutral-600 italic space-y-2">
-                        {link.pullQuote.split('\n\n').map((paragraph, i) => (
-                          <p key={i}>
-                            {paragraph.split('\n').map((line, j, arr) => (
-                              <span key={j}>
-                                {line}
-                                {j < arr.length - 1 && <br />}
-                              </span>
+                        <div className="flex items-start gap-2">
+                          {link.isPinned && (
+                            <Pin className="w-4 h-4 text-neutral-400 mt-1 flex-shrink-0" />
+                          )}
+                          <div className="flex-1 min-w-0">
+                            <h3 className="font-medium text-neutral-900 truncate">
+                              <a
+                                href={link.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-primary-600 transition-colors"
+                                onClick={() => {
+                                  if (isAdmin) {
+                                    const updatedLinks = links.map(l =>
+                                      l.id === link.id ? { ...l, visits: (l.visits || 0) + 1 } : l
+                                    );
+                                    setLinks(updatedLinks);
+                                    saveToFile(updatedLinks);
+                                  }
+                                }}
+                              >
+                                {link.source}
+                              </a>
+                            </h3>
+                            <p className="text-sm text-neutral-500 truncate">
+                              {(() => {
+                                try {
+                                  return new URL(link.url).hostname.replace('www.', '');
+                                } catch {
+                                  return link.url;
+                                }
+                              })()}
+                            </p>
+                          </div>
+                        </div>
+                        {link.pullQuote && (
+                          <div className="mt-2 text-sm text-neutral-600 italic space-y-2">
+                            {link.pullQuote.split('\n\n').map((paragraph, i) => (
+                              <p key={i}>
+                                {paragraph.split('\n').map((line, j, arr) => (
+                                  <span key={j}>
+                                    {line}
+                                    {j < arr.length - 1 && <br />}
+                                  </span>
+                                ))}
+                              </p>
                             ))}
-                          </p>
-                        ))}
+                          </div>
+                        )}
+                        {link.tags && link.tags.length > 0 && (
+                          <div className="mt-3 flex flex-wrap gap-1">
+                            {link.tags.map((tag) => (
+                              <button
+                                key={tag}
+                                onClick={() => {
+                                  if (selectedTags.includes(tag)) {
+                                    setSelectedTags(selectedTags.filter(t => t !== tag));
+                                  } else {
+                                    setSelectedTags([...selectedTags, tag]);
+                                  }
+                                }}
+                                className="tag"
+                              >
+                                {tag}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+                        <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">
+                          <span>
+                            {new Date(link.timestamp).toLocaleDateString()}
+                            {link.visits > 0 && ` [${link.visits}]`}
+                          </span>
+                        </div>
                       </div>
-                    )}
-
-                    {/* Tags */}
-                    {link.tags && link.tags.length > 0 && (
-                      <div className="mt-3 flex flex-wrap gap-1">
-                        {link.tags.map((tag) => (
-                          <button
-                            key={tag}
-                            onClick={() => {
-                              if (selectedTags.includes(tag)) {
-                                setSelectedTags(selectedTags.filter(t => t !== tag));
-                              } else {
-                                setSelectedTags([...selectedTags, tag]);
-                              }
-                            }}
-                            className="tag"
-                          >
-                            {tag}
-                          </button>
-                        ))}
+                      <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <button onClick={() => copyLink(link)} className="btn-ghost p-2" title="Copy link">
+                          {copiedLinkId === link.id ? (
+                            <Check className="w-4 h-4 text-success" />
+                          ) : (
+                            <Copy className="w-4 h-4" />
+                          )}
+                        </button>
+                        {isAdmin && (
+                          <>
+                            <button onClick={() => editLink(link)} className="btn-ghost p-2" title="Edit link">
+                              <Edit2 className="w-4 h-4" />
+                            </button>
+                            <button onClick={() => togglePin(link.id)} className="btn-ghost p-2" title="Pin link">
+                              <Pin className={`w-4 h-4 ${link.isPinned ? 'fill-current' : ''}`} />
+                            </button>
+                            <button onClick={() => deleteLink(link.id)} className="btn-ghost p-2 text-error" title="Delete link">
+                              <Trash2 className="w-4 h-4" />
+                            </button>
+                          </>
+                        )}
                       </div>
-                    )}
-
-                    {/* Metadata */}
-                    <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">
-                      <span>
-                        {new Date(link.timestamp).toLocaleDateString()}
-                        {link.visits > 0 && ` [${link.visits}]`}
-                      </span>
                     </div>
-                  </div>
-
-                  {/* Actions */}
-                  <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <button
-                      onClick={() => copyLink(link)}
-                      className="btn-ghost p-2"
-                      title="Copy link"
-                    >
-                      {copiedLinkId === link.id ? (
-                        <Check className="w-4 h-4 text-success" />
-                      ) : (
-                        <Copy className="w-4 h-4" />
-                      )}
-                    </button>
-
-                    {isAdmin && (
-                      <>
-                        <button
-                          onClick={() => editLink(link)}
-                          className="btn-ghost p-2"
-                          title="Edit link"
-                        >
-                          <Edit2 className="w-4 h-4" />
-                        </button>
-                        <button
-                          onClick={() => togglePin(link.id)}
-                          className="btn-ghost p-2"
-                          title="Pin link"
-                        >
-                          <Pin className={`w-4 h-4 ${link.isPinned ? 'fill-current' : ''}`} />
-                        </button>
-                        <button
-                          onClick={() => deleteLink(link.id)}
-                          className="btn-ghost p-2 text-error"
-                          title="Delete link"
-                        >
-                          <Trash2 className="w-4 h-4" />
-                        </button>
-                      </>
-                    )}
-                  </div>
-                </div>
-              </article>
-            ))
+                  </article>
+                </React.Fragment>
+              );
+            })
           )}
         </div>
       </main>
