@@ -2,99 +2,12 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 03 Jan 2026 12:40:28 GMT</dateCreated>
-    <dateModified>Sat, 03 Jan 2026 12:40:28 GMT</dateModified>
+    <dateCreated>Sat, 03 Jan 2026 12:42:44 GMT</dateCreated>
+    <dateModified>Sat, 03 Jan 2026 12:42:44 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
-    <outline text="2026" title="2026">
-      <outline type="link" text="What Will Happen In 2026" title="What Will Happen In 2026" url="https://avc.xyz/what-will-happen-in-2026" htmlUrl="https://avc.xyz/what-will-happen-in-2026" description="(ed note, strong list, excellent track record) 1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.
-
-2/ The Democrats take control of the House in the Nov 2026 elections, bringing to an end Trump&apos;s complete control of the US government.
-
-3/ Smartglasses finally reach product market fit in 2026, but it won&apos;t be Meta that delivers the winning approach.
-
-4/ A majority of venture capital deals close without lawyers on either side due to standardized documents (like the NVCA ones) and AI tools for review and legal diligence. .." created="Sat, 03 Jan 2026 12:16:20 GMT" category="2026,prediction,list" />
-    </outline>
-    <outline text="ai" title="ai">
-      <outline type="link" text="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" title="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" url="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" htmlUrl="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" description="LeCun calls Wang, who was hired to lead the organisation, “young” and “inexperienced”.
-
-“He learns fast, he knows what he doesn’t know . . . There’s no experience with research or how you practise research, how you do it. Or what would be attractive or repulsive to a researcher.”
-
-Wang also became LeCun’s manager. I ask LeCun how he felt about this shift in hierarchy. He initially brushes it off, saying he’s used to working with young people. “The average age of a Facebook engineer at the time was 27. I was twice the age of the average engineer.”
-
-But those 27-year-olds weren’t telling him what to do, I point out.
-
-“Alex [Wang] isn’t telling me what to do either,” he says. “You don’t tell a researcher what to do. You certainly don’t tell a researcher like me what to do.”
-" created="Sat, 03 Jan 2026 12:37:50 GMT" category="ft,ai,meta,corporate-culture,research" />
-    </outline>
-    <outline text="corporate-culture" title="corporate-culture">
-      <outline type="link" text="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" title="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" url="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" htmlUrl="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" description="LeCun calls Wang, who was hired to lead the organisation, “young” and “inexperienced”.
-
-“He learns fast, he knows what he doesn’t know . . . There’s no experience with research or how you practise research, how you do it. Or what would be attractive or repulsive to a researcher.”
-
-Wang also became LeCun’s manager. I ask LeCun how he felt about this shift in hierarchy. He initially brushes it off, saying he’s used to working with young people. “The average age of a Facebook engineer at the time was 27. I was twice the age of the average engineer.”
-
-But those 27-year-olds weren’t telling him what to do, I point out.
-
-“Alex [Wang] isn’t telling me what to do either,” he says. “You don’t tell a researcher what to do. You certainly don’t tell a researcher like me what to do.”
-" created="Sat, 03 Jan 2026 12:37:50 GMT" category="ft,ai,meta,corporate-culture,research" />
-    </outline>
-    <outline text="ft" title="ft">
-      <outline type="link" text="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" title="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" url="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" htmlUrl="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" description="LeCun calls Wang, who was hired to lead the organisation, “young” and “inexperienced”.
-
-“He learns fast, he knows what he doesn’t know . . . There’s no experience with research or how you practise research, how you do it. Or what would be attractive or repulsive to a researcher.”
-
-Wang also became LeCun’s manager. I ask LeCun how he felt about this shift in hierarchy. He initially brushes it off, saying he’s used to working with young people. “The average age of a Facebook engineer at the time was 27. I was twice the age of the average engineer.”
-
-But those 27-year-olds weren’t telling him what to do, I point out.
-
-“Alex [Wang] isn’t telling me what to do either,” he says. “You don’t tell a researcher what to do. You certainly don’t tell a researcher like me what to do.”
-" created="Sat, 03 Jan 2026 12:37:50 GMT" category="ft,ai,meta,corporate-culture,research" />
-    </outline>
-    <outline text="list" title="list">
-      <outline type="link" text="What Will Happen In 2026" title="What Will Happen In 2026" url="https://avc.xyz/what-will-happen-in-2026" htmlUrl="https://avc.xyz/what-will-happen-in-2026" description="(ed note, strong list, excellent track record) 1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.
-
-2/ The Democrats take control of the House in the Nov 2026 elections, bringing to an end Trump&apos;s complete control of the US government.
-
-3/ Smartglasses finally reach product market fit in 2026, but it won&apos;t be Meta that delivers the winning approach.
-
-4/ A majority of venture capital deals close without lawyers on either side due to standardized documents (like the NVCA ones) and AI tools for review and legal diligence. .." created="Sat, 03 Jan 2026 12:16:20 GMT" category="2026,prediction,list" />
-    </outline>
-    <outline text="meta" title="meta">
-      <outline type="link" text="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" title="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" url="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" htmlUrl="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" description="LeCun calls Wang, who was hired to lead the organisation, “young” and “inexperienced”.
-
-“He learns fast, he knows what he doesn’t know . . . There’s no experience with research or how you practise research, how you do it. Or what would be attractive or repulsive to a researcher.”
-
-Wang also became LeCun’s manager. I ask LeCun how he felt about this shift in hierarchy. He initially brushes it off, saying he’s used to working with young people. “The average age of a Facebook engineer at the time was 27. I was twice the age of the average engineer.”
-
-But those 27-year-olds weren’t telling him what to do, I point out.
-
-“Alex [Wang] isn’t telling me what to do either,” he says. “You don’t tell a researcher what to do. You certainly don’t tell a researcher like me what to do.”
-" created="Sat, 03 Jan 2026 12:37:50 GMT" category="ft,ai,meta,corporate-culture,research" />
-    </outline>
-    <outline text="prediction" title="prediction">
-      <outline type="link" text="What Will Happen In 2026" title="What Will Happen In 2026" url="https://avc.xyz/what-will-happen-in-2026" htmlUrl="https://avc.xyz/what-will-happen-in-2026" description="(ed note, strong list, excellent track record) 1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.
-
-2/ The Democrats take control of the House in the Nov 2026 elections, bringing to an end Trump&apos;s complete control of the US government.
-
-3/ Smartglasses finally reach product market fit in 2026, but it won&apos;t be Meta that delivers the winning approach.
-
-4/ A majority of venture capital deals close without lawyers on either side due to standardized documents (like the NVCA ones) and AI tools for review and legal diligence. .." created="Sat, 03 Jan 2026 12:16:20 GMT" category="2026,prediction,list" />
-    </outline>
-    <outline text="research" title="research">
-      <outline type="link" text="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" title="Computer scientist Yann LeCun: ‘Intelligence really is about learning’" url="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" htmlUrl="https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2" description="LeCun calls Wang, who was hired to lead the organisation, “young” and “inexperienced”.
-
-“He learns fast, he knows what he doesn’t know . . . There’s no experience with research or how you practise research, how you do it. Or what would be attractive or repulsive to a researcher.”
-
-Wang also became LeCun’s manager. I ask LeCun how he felt about this shift in hierarchy. He initially brushes it off, saying he’s used to working with young people. “The average age of a Facebook engineer at the time was 27. I was twice the age of the average engineer.”
-
-But those 27-year-olds weren’t telling him what to do, I point out.
-
-“Alex [Wang] isn’t telling me what to do either,” he says. “You don’t tell a researcher what to do. You certainly don’t tell a researcher like me what to do.”
-" created="Sat, 03 Jan 2026 12:37:50 GMT" category="ft,ai,meta,corporate-culture,research" />
-    </outline>
   </body>
 </opml>

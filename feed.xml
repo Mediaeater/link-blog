@@ -4,23 +4,9 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 03 Jan 2026 12:37:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Jan 2026 12:40:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[What Will Happen In 2026]]></title>
-            <link>https://avc.xyz/what-will-happen-in-2026</link>
-            <guid>1767442580937</guid>
-            <pubDate>Sat, 03 Jan 2026 12:16:20 GMT</pubDate>
-            <description><![CDATA[Tags: 2026, prediction, list]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Computer scientist Yann LeCun: ‘Intelligence really is about learning’]]></title>
-            <link>https://www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2</link>
-            <guid>1767443870981</guid>
-            <pubDate>Sat, 03 Jan 2026 12:37:50 GMT</pubDate>
-            <description><![CDATA[Tags: ft, ai, meta, corporate-culture, research]]></description>
-        </item>
     </channel>
 </rss>
