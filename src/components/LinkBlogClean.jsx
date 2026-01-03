@@ -737,11 +737,11 @@ export default function LinkBlogClean() {
       {(!isMinimalView || isAdmin) && (
         <header className="sticky top-0 z-20 bg-white" style={{ maxHeight: '120px' }}>
           {/* Top Utility Bar */}
-          <div className="bg-neutral-50 border-b border-neutral-200">
+          <div className="bg-neutral-100 border-b border-neutral-200">
             <div className="container-width flex justify-between items-center py-1">
-              <span className="text-[11px] text-neutral-400 uppercase tracking-wide">Est. 1994</span>
+              <span className="text-[11px] text-neutral-500 uppercase tracking-wide">Est. 1994</span>
               <time
-                className="text-[11px] text-neutral-400 uppercase tracking-wide"
+                className="text-[11px] text-neutral-500 uppercase tracking-wide"
                 dateTime={new Date().toISOString()}
               >
                 {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
@@ -750,50 +750,35 @@ export default function LinkBlogClean() {
           </div>
 
           {/* Main Branding Row */}
-          <div className="container-width py-3">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-0">
-              {/* Mobile: Logo stacked above */}
-              <a
-                href="https://mediaeater.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="md:hidden hover:opacity-80 transition-opacity"
-                title="mediaeater.com"
-              >
-                <img
-                  src="https://mediaeater.com/Images/mediaeater.png"
-                  alt="mediaeater"
-                  className="w-10 h-10 object-contain"
-                />
-              </a>
-
-              {/* Title with inline logo (desktop) */}
+          <div className="container-width py-2">
+            <div className="flex flex-col items-center justify-center">
+              {/* Title with inline logo */}
               <h1 className="flex items-center gap-2">
                 <a
                   href="https://mediaeater.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hidden md:block hover:opacity-80 transition-opacity"
+                  className="hover:opacity-80 transition-opacity"
                   title="mediaeater.com"
                 >
                   <img
                     src="https://mediaeater.com/Images/mediaeater.png"
                     alt="mediaeater"
-                    className="h-8 w-8 object-contain"
+                    className="h-7 w-7 md:h-8 md:w-8 object-contain"
                   />
                 </a>
                 <a
                   href="/"
-                  className="text-2xl md:text-3xl font-medium text-neutral-900 hover:text-neutral-600 transition-colors"
+                  className="text-xl md:text-2xl font-medium text-neutral-900 hover:text-neutral-600 transition-colors"
                   style={{ fontFamily: "'JetBrains Mono', monospace" }}
                 >
                   newsfeeds.net
                 </a>
               </h1>
 
-              {/* Tagline */}
+              {/* Tagline - always below title */}
               <div
-                className="text-[10px] md:text-[11px] uppercase text-amber-700 mt-1 md:mt-0 md:ml-0"
+                className="text-[10px] md:text-[11px] uppercase text-amber-700 mt-0.5"
                 style={{ letterSpacing: '0.2em', fontFamily: "'Inter', sans-serif" }}
               >
                 Human Edited & Curated
