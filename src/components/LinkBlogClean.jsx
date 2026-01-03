@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo, useRef, useDeferredValue } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef, useDeferredValue, Fragment } from 'react';
 import {
   Search,
   Plus,
@@ -733,99 +733,137 @@ export default function LinkBlogClean() {
         </div>
       )}
 
-      {/* Header - Always visible for admins, hidden in minimal view for regular users */}
+      {/* Header - Redesigned with max-height 120px */}
       {(!isMinimalView || isAdmin) && (
-        <header className="sticky top-0 z-20 bg-white border-b-2 border-neutral-900">
-          <div className="container-width">
-            {/* Classic Newspaper Masthead */}
-            <div className="py-3 md:py-4">
-              {/* Top rule */}
-              <div className="border-t border-neutral-300 mb-3"></div>
+        <header className="sticky top-0 z-20 bg-white" style={{ maxHeight: '120px' }}>
+          {/* Top Utility Bar */}
+          <div className="bg-neutral-50 border-b border-neutral-200">
+            <div className="container-width flex justify-between items-center py-1">
+              <span className="text-[11px] text-neutral-400 uppercase tracking-wide">Est. 1994</span>
+              <time
+                className="text-[11px] text-neutral-400 uppercase tracking-wide"
+                dateTime={new Date().toISOString()}
+              >
+                {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+              </time>
+            </div>
+          </div>
 
-              {/* Main masthead row */}
-              <div className="flex items-center justify-between relative">
-                {/* Left: Est. date */}
-                <div className="hidden sm:block text-xs tracking-wide text-neutral-500 uppercase">
-                  Est. 1994
-                </div>
+          {/* Main Branding Row */}
+          <div className="container-width py-3">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-0">
+              {/* Mobile: Logo stacked above */}
+              <a
+                href="https://mediaeater.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="md:hidden hover:opacity-80 transition-opacity"
+                title="mediaeater.com"
+              >
+                <img
+                  src="https://mediaeater.com/Images/mediaeater.png"
+                  alt="mediaeater"
+                  className="w-10 h-10 object-contain"
+                />
+              </a>
 
-                {/* Right side date - positioned absolutely */}
-                <time className="hidden sm:block absolute right-6 text-xs tracking-wide text-neutral-500 uppercase" dateTime={new Date().toISOString()}>
-                  {new Date().toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric',
-                    year: 'numeric'
-                  })}
-                </time>
-
-                {/* Left: Logo */}
+              {/* Title with inline logo (desktop) */}
+              <h1 className="flex items-center gap-2">
                 <a
                   href="https://mediaeater.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute left-[18%] md:left-[20%] hover:opacity-80 transition-opacity"
+                  className="hidden md:block hover:opacity-80 transition-opacity"
                   title="mediaeater.com"
                 >
                   <img
                     src="https://mediaeater.com/Images/mediaeater.png"
                     alt="mediaeater"
-                    className="w-16 h-16 md:w-20 md:h-20 object-contain"
+                    className="h-8 w-8 object-contain"
                   />
                 </a>
+                <a
+                  href="/"
+                  className="text-2xl md:text-3xl font-medium text-neutral-900 hover:text-neutral-600 transition-colors"
+                  style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                >
+                  newsfeeds.net
+                </a>
+              </h1>
 
-                {/* Center: Title block */}
-                <div className="flex-1 text-center">
-                  <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold tracking-tight text-neutral-900">
-                    <a href="/" className="hover:text-blue-800 transition-colors">newsfeeds.net</a>
-                  </h1>
-                  <div className="text-xs md:text-sm tracking-widest uppercase text-amber-700 mt-1">
-                    Human Edited & Curated
-                  </div>
-                </div>
-
+              {/* Tagline */}
+              <div
+                className="text-[10px] md:text-[11px] uppercase text-amber-700 mt-1 md:mt-0 md:ml-0"
+                style={{ letterSpacing: '0.2em', fontFamily: "'Inter', sans-serif" }}
+              >
+                Human Edited & Curated
               </div>
+            </div>
+          </div>
 
-              {/* Bottom info row */}
-              <div className="flex items-center justify-center gap-4 mt-3 pt-3 border-t border-neutral-300 text-xs text-neutral-600">
-                <button
-                  onClick={() => setIsMinimalView(!isMinimalView)}
-                  className="hover:text-neutral-900 transition-colors"
-                  title={isMinimalView ? "Show full view" : "Show minimal view"}
-                >
-                  {filteredAndSortedLinks.length}:{links.length}
-                </button>
-                <span className="text-neutral-300">|</span>
-                <button
-                  onClick={() => setIsLegendExpanded(!isLegendExpanded)}
-                  className="hover:text-neutral-900 transition-colors flex items-center gap-1"
-                  title="Toggle legend"
-                >
-                  <Info className="w-3 h-3" />
-                  Legend
-                </button>
-                <span className="text-neutral-300">|</span>
-                <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">RSS</a>
-                <span className="text-neutral-300">|</span>
-                <button
-                  onClick={() => {
-                    loadAllArchives();
-                    document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                  className="hover:text-neutral-900 transition-colors"
-                >
-                  Archive
-                </button>
-                <span className="text-neutral-300">|</span>
-                <button
-                  onClick={() => setShowTicker(prev => !prev)}
-                  className={`hover:text-neutral-900 transition-colors ${showTicker ? 'text-neutral-900 font-medium' : ''}`}
-                >
-                  {showTicker ? 'Ticker ●' : 'Ticker'}
-                </button>
-                <span className="text-neutral-300">|</span>
-                <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-900 transition-colors">mediaeater.inc</a>
-                <span className="text-neutral-300 hidden sm:inline">|</span>
-                <div className="hidden sm:block">
+          {/* Navigation Bar */}
+          <nav className="border-t border-neutral-200">
+            <div className="container-width">
+              {/* Desktop Navigation */}
+              <ul className="hidden md:flex items-center justify-center py-2 text-sm text-neutral-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+                <li>
+                  <button
+                    onClick={() => setIsMinimalView(!isMinimalView)}
+                    className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
+                    title={isMinimalView ? "Show full view" : "Show minimal view"}
+                  >
+                    {filteredAndSortedLinks.length}:{links.length}
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => setIsLegendExpanded(!isLegendExpanded)}
+                    className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
+                    title="Toggle legend"
+                  >
+                    Legend
+                  </button>
+                </li>
+                <li>
+                  <a
+                    href="/feed.xml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
+                  >
+                    RSS
+                  </a>
+                </li>
+                <li>
+                  <button
+                    onClick={() => {
+                      loadAllArchives();
+                      document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
+                  >
+                    Archive
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => setShowTicker(prev => !prev)}
+                    className={`px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors ${showTicker ? 'text-neutral-900 font-medium' : ''}`}
+                  >
+                    {showTicker ? 'Ticker ●' : 'Ticker'}
+                  </button>
+                </li>
+                <li>
+                  <a
+                    href="https://ghuneim.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
+                  >
+                    mediaeater.inc
+                  </a>
+                </li>
+                <li>
                   {searchExpanded ? (
                     <input
                       ref={searchRef}
@@ -838,39 +876,111 @@ export default function LinkBlogClean() {
                         }
                       }}
                       placeholder="Search..."
-                      className={`w-32 px-2 py-0.5 text-xs border border-neutral-300 rounded focus:outline-none focus:border-neutral-500 ${isSearchPending ? 'opacity-70' : ''}`}
+                      className={`w-32 px-2 py-1 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500 ${isSearchPending ? 'opacity-70' : ''}`}
                       aria-label="Search links"
                       autoFocus
                     />
                   ) : (
                     <button
                       onClick={() => setSearchExpanded(true)}
-                      className="hover:text-neutral-900 transition-colors flex items-center gap-1"
+                      className="px-3 flex items-center gap-1.5 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
                       aria-label="Open search"
                     >
-                      <Search className="w-3 h-3" />
-                      Search
+                      <Search className="w-3.5 h-3.5" />
+                      <span>Search</span>
                     </button>
                   )}
-                </div>
+                </li>
+              </ul>
+
+              {/* Mobile Navigation - Horizontal scroll */}
+              <div className="md:hidden overflow-x-auto scrollbar-hide">
+                <ul className="flex items-center py-2 text-sm text-neutral-600 whitespace-nowrap" style={{ fontFamily: "'Inter', sans-serif" }}>
+                  <li>
+                    <button
+                      onClick={() => setIsMinimalView(!isMinimalView)}
+                      className="px-3 hover:text-neutral-900 transition-colors"
+                    >
+                      {filteredAndSortedLinks.length}:{links.length}
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => setIsLegendExpanded(!isLegendExpanded)}
+                      className="px-3 hover:text-neutral-900 transition-colors"
+                    >
+                      Legend
+                    </button>
+                  </li>
+                  <li>
+                    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="px-3 hover:text-neutral-900 transition-colors">
+                      RSS
+                    </a>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => {
+                        loadAllArchives();
+                        document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' });
+                      }}
+                      className="px-3 hover:text-neutral-900 transition-colors"
+                    >
+                      Archive
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => setShowTicker(prev => !prev)}
+                      className={`px-3 hover:text-neutral-900 transition-colors ${showTicker ? 'font-medium' : ''}`}
+                    >
+                      Ticker
+                    </button>
+                  </li>
+                  <li>
+                    <a href="https://ghuneim.com" target="_blank" rel="noopener noreferrer" className="px-3 hover:text-neutral-900 transition-colors">
+                      mediaeater.inc
+                    </a>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => setSearchExpanded(true)}
+                      className="px-3 flex items-center gap-1.5 hover:text-neutral-900 transition-colors"
+                    >
+                      <Search className="w-3.5 h-3.5" />
+                      <span>Search</span>
+                    </button>
+                  </li>
+                </ul>
               </div>
 
-              {/* Mobile search */}
-              <div className="sm:hidden mt-3">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
-                  <input
-                    type="text"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Search links..."
-                    className="w-full pl-10 pr-4 py-2 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500"
-                    aria-label="Search links"
-                  />
+              {/* Mobile Search Expanded */}
+              {searchExpanded && (
+                <div className="md:hidden pb-2">
+                  <div className="relative">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-400" />
+                    <input
+                      ref={searchRef}
+                      type="text"
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      onBlur={() => {
+                        if (!searchTerm) {
+                          setTimeout(() => setSearchExpanded(false), 150);
+                        }
+                      }}
+                      placeholder="Search links..."
+                      className="w-full pl-10 pr-4 py-2 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500"
+                      aria-label="Search links"
+                      autoFocus
+                    />
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
-          </div>
+          </nav>
+
+          {/* Single-pixel divider to content */}
+          <div className="border-b border-neutral-300"></div>
         </header>
       )}
 
@@ -1328,7 +1438,7 @@ export default function LinkBlogClean() {
               const showYearHeader = prevYear !== null && linkYear !== prevYear;
 
               return (
-                <React.Fragment key={link.id}>
+                <Fragment key={link.id}>
                   {showYearHeader && (
                     <div id="archives-section" className="py-4 mt-6 mb-2 border-t-2 border-neutral-300">
                       <h2 className="text-xl font-bold text-neutral-700">{linkYear}</h2>
@@ -1439,7 +1549,7 @@ export default function LinkBlogClean() {
                       </div>
                     </div>
                   </article>
-                </React.Fragment>
+                </Fragment>
               );
             })
           )}
