@@ -24,8 +24,38 @@
       "isPinned": false,
       "timestamp": "2026-01-04T21:47:14.531Z",
       "visits": 0
+    },
+    {
+      "id": 1767614707289,
+      "url": "https://dougshapiro.substack.com/p/infinite-content-chapter-2",
+      "source": "Infinite Content: Chapter 2",
+      "pullQuote": "You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc.",
+      "tags": [
+        "media",
+        "consumption",
+        "content"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-05T12:05:07.289Z",
+      "visits": 0
+    },
+    {
+      "id": 1767614916387,
+      "url": "https://lethain.com/agents-series/",
+      "source": "Building internal agents",
+      "pullQuote": "Building your intuition for agents\nAs more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:\n\nReading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of\nBuild a script that uses a basic LLM API to respond to a prompt\nExtend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ....",
+      "tags": [
+        "code",
+        "howto",
+        "agents",
+        "llm",
+        "internal-agent"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-05T12:08:36.387Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-04T21:47:14.546Z"
+  "lastUpdated": "2026-01-05T12:08:36.395Z"
 }

@@ -2,23 +2,72 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sun, 04 Jan 2026 21:57:04 GMT</dateCreated>
-    <dateModified>Sun, 04 Jan 2026 21:57:04 GMT</dateModified>
+    <dateCreated>Mon, 05 Jan 2026 12:09:49 GMT</dateCreated>
+    <dateModified>Mon, 05 Jan 2026 12:09:49 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
   </head>
   <body>
+    <outline text="agents" title="agents">
+      <outline type="link" text="Building internal agents" title="Building internal agents" url="https://lethain.com/agents-series/" htmlUrl="https://lethain.com/agents-series/" description="Building your intuition for agents
+As more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:
+
+Reading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of
+Build a script that uses a basic LLM API to respond to a prompt
+Extend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ...." created="Mon, 05 Jan 2026 12:08:36 GMT" category="code,howto,agents,llm,internal-agent" />
+    </outline>
     <outline text="capitalism" title="capitalism">
       <outline type="link" text="Democracy Will Not Survive the Age of Consumption" title="Democracy Will Not Survive the Age of Consumption" url="https://kasurian.com/p/democracy-will-not-survive-consumption" htmlUrl="https://kasurian.com/p/democracy-will-not-survive-consumption" description="In this schema, the productive middle occupies an increasingly untenable position. They are too numerous to ignore but too dispersed to organise effectively. They lack the cultural capital to dominate elite discourse and the electoral weight to dominate mass politics. Their interests are in lower taxes, less regulation, stable money, and predictable institutions; precisely those that the top-bottom coalition has no incentive to provide. What, then, are their options?" created="Sun, 04 Jan 2026 21:47:14 GMT" category="democracy,capitalism" />
     </outline>
+    <outline text="code" title="code">
+      <outline type="link" text="Building internal agents" title="Building internal agents" url="https://lethain.com/agents-series/" htmlUrl="https://lethain.com/agents-series/" description="Building your intuition for agents
+As more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:
+
+Reading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of
+Build a script that uses a basic LLM API to respond to a prompt
+Extend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ...." created="Mon, 05 Jan 2026 12:08:36 GMT" category="code,howto,agents,llm,internal-agent" />
+    </outline>
+    <outline text="consumption" title="consumption">
+      <outline type="link" text="Infinite Content: Chapter 2" title="Infinite Content: Chapter 2" url="https://dougshapiro.substack.com/p/infinite-content-chapter-2" htmlUrl="https://dougshapiro.substack.com/p/infinite-content-chapter-2" description="You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc." created="Mon, 05 Jan 2026 12:05:07 GMT" category="media,consumption,content" />
+    </outline>
+    <outline text="content" title="content">
+      <outline type="link" text="Infinite Content: Chapter 2" title="Infinite Content: Chapter 2" url="https://dougshapiro.substack.com/p/infinite-content-chapter-2" htmlUrl="https://dougshapiro.substack.com/p/infinite-content-chapter-2" description="You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc." created="Mon, 05 Jan 2026 12:05:07 GMT" category="media,consumption,content" />
+    </outline>
     <outline text="democracy" title="democracy">
       <outline type="link" text="Democracy Will Not Survive the Age of Consumption" title="Democracy Will Not Survive the Age of Consumption" url="https://kasurian.com/p/democracy-will-not-survive-consumption" htmlUrl="https://kasurian.com/p/democracy-will-not-survive-consumption" description="In this schema, the productive middle occupies an increasingly untenable position. They are too numerous to ignore but too dispersed to organise effectively. They lack the cultural capital to dominate elite discourse and the electoral weight to dominate mass politics. Their interests are in lower taxes, less regulation, stable money, and predictable institutions; precisely those that the top-bottom coalition has no incentive to provide. What, then, are their options?" created="Sun, 04 Jan 2026 21:47:14 GMT" category="democracy,capitalism" />
+    </outline>
+    <outline text="howto" title="howto">
+      <outline type="link" text="Building internal agents" title="Building internal agents" url="https://lethain.com/agents-series/" htmlUrl="https://lethain.com/agents-series/" description="Building your intuition for agents
+As more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:
+
+Reading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of
+Build a script that uses a basic LLM API to respond to a prompt
+Extend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ...." created="Mon, 05 Jan 2026 12:08:36 GMT" category="code,howto,agents,llm,internal-agent" />
+    </outline>
+    <outline text="internal-agent" title="internal-agent">
+      <outline type="link" text="Building internal agents" title="Building internal agents" url="https://lethain.com/agents-series/" htmlUrl="https://lethain.com/agents-series/" description="Building your intuition for agents
+As more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:
+
+Reading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of
+Build a script that uses a basic LLM API to respond to a prompt
+Extend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ...." created="Mon, 05 Jan 2026 12:08:36 GMT" category="code,howto,agents,llm,internal-agent" />
     </outline>
     <outline text="list" title="list">
       <outline type="link" text="What Will Happen In 2026" title="What Will Happen In 2026" url="https://avc.xyz/what-will-happen-in-2026" htmlUrl="https://avc.xyz/what-will-happen-in-2026" description="1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.
 2/ The Democrats take control of the House in the Nov 2026 elections, bringing to an end Trump&apos;s complete control of the US government.
 3/ Smartglasses finally reach product market fit in 2026, but it won&apos;t be Meta that delivers the winning approach." created="Sun, 04 Jan 2026 21:22:16 GMT" category="list" />
+    </outline>
+    <outline text="llm" title="llm">
+      <outline type="link" text="Building internal agents" title="Building internal agents" url="https://lethain.com/agents-series/" htmlUrl="https://lethain.com/agents-series/" description="Building your intuition for agents
+As more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:
+
+Reading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of
+Build a script that uses a basic LLM API to respond to a prompt
+Extend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ...." created="Mon, 05 Jan 2026 12:08:36 GMT" category="code,howto,agents,llm,internal-agent" />
+    </outline>
+    <outline text="media" title="media">
+      <outline type="link" text="Infinite Content: Chapter 2" title="Infinite Content: Chapter 2" url="https://dougshapiro.substack.com/p/infinite-content-chapter-2" htmlUrl="https://dougshapiro.substack.com/p/infinite-content-chapter-2" description="You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc." created="Mon, 05 Jan 2026 12:05:07 GMT" category="media,consumption,content" />
     </outline>
   </body>
 </opml>

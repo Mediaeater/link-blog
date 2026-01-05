@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 04 Jan 2026 21:47:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2026 12:08:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -21,6 +21,20 @@
             <guid>1767563234531</guid>
             <pubDate>Sun, 04 Jan 2026 21:47:14 GMT</pubDate>
             <description><![CDATA[Tags: democracy, capitalism]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Infinite Content: Chapter 2]]></title>
+            <link>https://dougshapiro.substack.com/p/infinite-content-chapter-2</link>
+            <guid>1767614707289</guid>
+            <pubDate>Mon, 05 Jan 2026 12:05:07 GMT</pubDate>
+            <description><![CDATA[Tags: media, consumption, content]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Building internal agents]]></title>
+            <link>https://lethain.com/agents-series/</link>
+            <guid>1767614916387</guid>
+            <pubDate>Mon, 05 Jan 2026 12:08:36 GMT</pubDate>
+            <description><![CDATA[Tags: code, howto, agents, llm, internal-agent]]></description>
         </item>
     </channel>
 </rss>

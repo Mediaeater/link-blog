@@ -15,6 +15,44 @@
   ],
   "items": [
     {
+      "id": "1767614916387",
+      "url": "https://lethain.com/agents-series/",
+      "title": "Building internal agents",
+      "date_published": "2026-01-05T12:08:36.387Z",
+      "tags": [
+        "code",
+        "howto",
+        "agents",
+        "llm",
+        "internal-agent"
+      ],
+      "content_text": "Building your intuition for agents\nAs more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:\n\nReading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of\nBuild a script that uses a basic LLM API to respond to a prompt\nExtend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ....",
+      "summary": "Building your intuition for agents\nAs more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t...",
+      "content_html": "<blockquote>Building your intuition for agents\nAs more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:\n\nReading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of\nBuild a script that uses a basic LLM API to respond to a prompt\nExtend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ....</blockquote>\n<p><strong>Tags:</strong> code, howto, agents, llm, internal-agent</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767614707289",
+      "url": "https://dougshapiro.substack.com/p/infinite-content-chapter-2",
+      "title": "Infinite Content: Chapter 2",
+      "date_published": "2026-01-05T12:05:07.289Z",
+      "tags": [
+        "media",
+        "consumption",
+        "content"
+      ],
+      "content_text": "You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc.",
+      "summary": "You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75%...",
+      "content_html": "<blockquote>You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc.</blockquote>\n<p><strong>Tags:</strong> media, consumption, content</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1767563234531",
       "url": "https://kasurian.com/p/democracy-will-not-survive-consumption",
       "title": "Democracy Will Not Survive the Age of Consumption",
