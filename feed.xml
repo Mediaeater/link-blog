@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 05 Jan 2026 12:08:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2026 13:58:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -35,6 +35,27 @@
             <guid>1767614916387</guid>
             <pubDate>Mon, 05 Jan 2026 12:08:36 GMT</pubDate>
             <description><![CDATA[Tags: code, howto, agents, llm, internal-agent]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AGI is here (and I feel fine)]]></title>
+            <link>https://www.robinsloan.com/winter-garden/agi-is-here/</link>
+            <guid>1767615580391</guid>
+            <pubDate>Mon, 05 Jan 2026 12:19:40 GMT</pubDate>
+            <description><![CDATA[Tags: ai, agi, lexicon, language]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Christian Marclay on Time, Abstraction and Berlin Nightlife]]></title>
+            <link>https://news.artnet.com/art-world/the-clock-christian-marclay-2723438</link>
+            <guid>1767616645316</guid>
+            <pubDate>Mon, 05 Jan 2026 12:37:25 GMT</pubDate>
+            <description><![CDATA[Tags: time, clock, art, christian-marclay]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Why Civilizations Flourish—and Fail]]></title>
+            <link>https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg</link>
+            <guid>1767621496736</guid>
+            <pubDate>Mon, 05 Jan 2026 13:58:16 GMT</pubDate>
+            <description><![CDATA[Tags: capitalism, consumption, trade, global, civilization, open-mindset, history]]></description>
         </item>
     </channel>
 </rss>

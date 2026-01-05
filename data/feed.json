@@ -15,6 +15,66 @@
   ],
   "items": [
     {
+      "id": "1767621496736",
+      "url": "https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg",
+      "title": "Why Civilizations Flourish—and Fail",
+      "date_published": "2026-01-05T13:58:16.736Z",
+      "tags": [
+        "capitalism",
+        "consumption",
+        "trade",
+        "global",
+        "civilization",
+        "open-mindset",
+        "history"
+      ],
+      "content_text": "Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads and sea-lanes unsafe, as in Rome and during the late Renaissance. In a reaction against the openness of Song China, the subsequent Ming dynasty banned foreign trade altogether, and the militarization of the Roman and Abbasid economies extinguished commerce.\n\nSuch reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great.",
+      "summary": "Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads...",
+      "content_html": "<blockquote>Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads and sea-lanes unsafe, as in Rome and during the late Renaissance. In a reaction against the openness of Song China, the subsequent Ming dynasty banned foreign trade altogether, and the militarization of the Roman and Abbasid economies extinguished commerce.\n\nSuch reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great.</blockquote>\n<p><strong>Tags:</strong> capitalism, consumption, trade, global, civilization, open-mindset, history</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767616645316",
+      "url": "https://news.artnet.com/art-world/the-clock-christian-marclay-2723438",
+      "title": "Christian Marclay on Time, Abstraction and Berlin Nightlife",
+      "date_published": "2026-01-05T12:37:25.316Z",
+      "tags": [
+        "time",
+        "clock",
+        "art",
+        "christian-marclay"
+      ],
+      "content_text": "“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but time is an abstraction. I think we’re always trying to make it more concrete, but it’s a mental thing. It’s very elastic. And cinema usually plays with that elasticity. Here, I’m setting the clock back on time.”",
+      "summary": "“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but...",
+      "content_html": "<blockquote>“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but time is an abstraction. I think we’re always trying to make it more concrete, but it’s a mental thing. It’s very elastic. And cinema usually plays with that elasticity. Here, I’m setting the clock back on time.”</blockquote>\n<p><strong>Tags:</strong> time, clock, art, christian-marclay</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767615580391",
+      "url": "https://www.robinsloan.com/winter-garden/agi-is-here/",
+      "title": "AGI is here (and I feel fine)",
+      "date_published": "2026-01-05T12:19:40.391Z",
+      "tags": [
+        "ai",
+        "agi",
+        "lexicon",
+        "language"
+      ],
+      "content_text": "Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language & intelligence; it’s more fun to define a cool new standard than go along with a boring old one; the feeling of every creative project, upon completion, is the same: It’s not quite how I imagined it …  None of this should prevent us from using plain language to acknowledge an obvious capability.",
+      "summary": "Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language & intelli...",
+      "content_html": "<blockquote>Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language &amp; intelligence; it’s more fun to define a cool new standard than go along with a boring old one; the feeling of every creative project, upon completion, is the same: It’s not quite how I imagined it …  None of this should prevent us from using plain language to acknowledge an obvious capability.</blockquote>\n<p><strong>Tags:</strong> ai, agi, lexicon, language</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1767614916387",
       "url": "https://lethain.com/agents-series/",
       "title": "Building internal agents",

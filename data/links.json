@@ -54,8 +54,56 @@
       "isPinned": false,
       "timestamp": "2026-01-05T12:08:36.387Z",
       "visits": 0
+    },
+    {
+      "id": 1767615580391,
+      "url": "https://www.robinsloan.com/winter-garden/agi-is-here/",
+      "source": "AGI is here (and I feel fine)",
+      "pullQuote": "Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language & intelligence; it’s more fun to define a cool new standard than go along with a boring old one; the feeling of every creative project, upon completion, is the same: It’s not quite how I imagined it …  None of this should prevent us from using plain language to acknowledge an obvious capability.",
+      "tags": [
+        "ai",
+        "agi",
+        "lexicon",
+        "language"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-05T12:19:40.391Z",
+      "visits": 0
+    },
+    {
+      "id": 1767616645316,
+      "url": "https://news.artnet.com/art-world/the-clock-christian-marclay-2723438",
+      "source": "Christian Marclay on Time, Abstraction and Berlin Nightlife",
+      "pullQuote": "“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but time is an abstraction. I think we’re always trying to make it more concrete, but it’s a mental thing. It’s very elastic. And cinema usually plays with that elasticity. Here, I’m setting the clock back on time.”",
+      "tags": [
+        "time",
+        "clock",
+        "art",
+        "christian-marclay"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-05T12:37:25.316Z",
+      "visits": 0
+    },
+    {
+      "id": 1767621496736,
+      "url": "https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg",
+      "source": "Why Civilizations Flourish—and Fail",
+      "pullQuote": "Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads and sea-lanes unsafe, as in Rome and during the late Renaissance. In a reaction against the openness of Song China, the subsequent Ming dynasty banned foreign trade altogether, and the militarization of the Roman and Abbasid economies extinguished commerce.\n\nSuch reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great.",
+      "tags": [
+        "capitalism",
+        "consumption",
+        "trade",
+        "global",
+        "civilization",
+        "open-mindset",
+        "history"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-05T13:58:16.736Z",
+      "visits": 0
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-05T12:08:36.395Z"
+  "lastUpdated": "2026-01-05T13:58:33.050Z"
 }
