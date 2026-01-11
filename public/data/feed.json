@@ -15,6 +15,137 @@
   ],
   "items": [
     {
+      "id": "1767621496736",
+      "url": "https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg",
+      "title": "Why Civilizations Flourish—and Fail",
+      "date_published": "2026-01-05T13:58:16.736Z",
+      "tags": [
+        "capitalism",
+        "consumption",
+        "trade",
+        "global",
+        "civilization",
+        "open-mindset",
+        "history"
+      ],
+      "content_text": "Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads and sea-lanes unsafe, as in Rome and during the late Renaissance. In a reaction against the openness of Song China, the subsequent Ming dynasty banned foreign trade altogether, and the militarization of the Roman and Abbasid economies extinguished commerce.\n\nSuch reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great.",
+      "summary": "Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads...",
+      "content_html": "<blockquote>Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads and sea-lanes unsafe, as in Rome and during the late Renaissance. In a reaction against the openness of Song China, the subsequent Ming dynasty banned foreign trade altogether, and the militarization of the Roman and Abbasid economies extinguished commerce.\n\nSuch reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great.</blockquote>\n<p><strong>Tags:</strong> capitalism, consumption, trade, global, civilization, open-mindset, history</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767616645316",
+      "url": "https://news.artnet.com/art-world/the-clock-christian-marclay-2723438",
+      "title": "Christian Marclay on Time, Abstraction and Berlin Nightlife",
+      "date_published": "2026-01-05T12:37:25.316Z",
+      "tags": [
+        "time",
+        "clock",
+        "art",
+        "christian-marclay"
+      ],
+      "content_text": "“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but time is an abstraction. I think we’re always trying to make it more concrete, but it’s a mental thing. It’s very elastic. And cinema usually plays with that elasticity. Here, I’m setting the clock back on time.”",
+      "summary": "“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but...",
+      "content_html": "<blockquote>“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but time is an abstraction. I think we’re always trying to make it more concrete, but it’s a mental thing. It’s very elastic. And cinema usually plays with that elasticity. Here, I’m setting the clock back on time.”</blockquote>\n<p><strong>Tags:</strong> time, clock, art, christian-marclay</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767615580391",
+      "url": "https://www.robinsloan.com/winter-garden/agi-is-here/",
+      "title": "AGI is here (and I feel fine)",
+      "date_published": "2026-01-05T12:19:40.391Z",
+      "tags": [
+        "ai",
+        "agi",
+        "lexicon",
+        "language"
+      ],
+      "content_text": "Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language & intelligence; it’s more fun to define a cool new standard than go along with a boring old one; the feeling of every creative project, upon completion, is the same: It’s not quite how I imagined it …  None of this should prevent us from using plain language to acknowledge an obvious capability.",
+      "summary": "Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language & intelli...",
+      "content_html": "<blockquote>Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language &amp; intelligence; it’s more fun to define a cool new standard than go along with a boring old one; the feeling of every creative project, upon completion, is the same: It’s not quite how I imagined it …  None of this should prevent us from using plain language to acknowledge an obvious capability.</blockquote>\n<p><strong>Tags:</strong> ai, agi, lexicon, language</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767614916387",
+      "url": "https://lethain.com/agents-series/",
+      "title": "Building internal agents",
+      "date_published": "2026-01-05T12:08:36.387Z",
+      "tags": [
+        "code",
+        "howto",
+        "agents",
+        "llm",
+        "internal-agent"
+      ],
+      "content_text": "Building your intuition for agents\nAs more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:\n\nReading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of\nBuild a script that uses a basic LLM API to respond to a prompt\nExtend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ....",
+      "summary": "Building your intuition for agents\nAs more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t...",
+      "content_html": "<blockquote>Building your intuition for agents\nAs more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:\n\nReading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of\nBuild a script that uses a basic LLM API to respond to a prompt\nExtend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ....</blockquote>\n<p><strong>Tags:</strong> code, howto, agents, llm, internal-agent</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767614707289",
+      "url": "https://dougshapiro.substack.com/p/infinite-content-chapter-2",
+      "title": "Infinite Content: Chapter 2",
+      "date_published": "2026-01-05T12:05:07.289Z",
+      "tags": [
+        "media",
+        "consumption",
+        "content"
+      ],
+      "content_text": "You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc.",
+      "summary": "You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75%...",
+      "content_html": "<blockquote>You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc.</blockquote>\n<p><strong>Tags:</strong> media, consumption, content</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767563234531",
+      "url": "https://kasurian.com/p/democracy-will-not-survive-consumption",
+      "title": "Democracy Will Not Survive the Age of Consumption",
+      "date_published": "2026-01-04T21:47:14.531Z",
+      "tags": [
+        "democracy",
+        "capitalism"
+      ],
+      "content_text": "In this schema, the productive middle occupies an increasingly untenable position. They are too numerous to ignore but too dispersed to organise effectively. They lack the cultural capital to dominate elite discourse and the electoral weight to dominate mass politics. Their interests are in lower taxes, less regulation, stable money, and predictable institutions; precisely those that the top-bottom coalition has no incentive to provide. What, then, are their options?",
+      "summary": "In this schema, the productive middle occupies an increasingly untenable position. They are too numerous to ignore but too dispersed to organise effec...",
+      "content_html": "<blockquote>In this schema, the productive middle occupies an increasingly untenable position. They are too numerous to ignore but too dispersed to organise effectively. They lack the cultural capital to dominate elite discourse and the electoral weight to dominate mass politics. Their interests are in lower taxes, less regulation, stable money, and predictable institutions; precisely those that the top-bottom coalition has no incentive to provide. What, then, are their options?</blockquote>\n<p><strong>Tags:</strong> democracy, capitalism</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1767561736034",
+      "url": "https://avc.xyz/what-will-happen-in-2026",
+      "title": "What Will Happen In 2026",
+      "date_published": "2026-01-04T21:22:16.034Z",
+      "tags": [
+        "list"
+      ],
+      "content_text": "1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.\n2/ The Democrats take control of the House in the Nov 2026 elections, bringing to an end Trump's complete control of the US government.\n3/ Smartglasses finally reach product market fit in 2026, but it won't be Meta that delivers the winning approach.",
+      "summary": "1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.\n2/ The Democrats take co...",
+      "content_html": "<blockquote>1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.\n2/ The Democrats take control of the House in the Nov 2026 elections, bringing to an end Trump&#039;s complete control of the US government.\n3/ Smartglasses finally reach product market fit in 2026, but it won&#039;t be Meta that delivers the winning approach.</blockquote>\n<p><strong>Tags:</strong> list</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1766871479115",
       "url": "https://blog.ayjay.org/motion-and-machine",
       "title": "excerpt from a letter to a friend",
@@ -55,16 +186,16 @@
     {
       "id": "1766862240828",
       "url": "https://www.theartnewspaper.com/2025/12/12/analogue-digital-art-worlds-splintering",
-      "title": "Comment | The worlds of analogue and digital art may be splintering",
+      "title": " The worlds of analogue and digital art may be splintering",
       "date_published": "2025-12-27T19:04:00.828Z",
       "tags": [
         "art",
         "analogue",
         "digital art"
       ],
-      "content_text": "Comment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splintering",
-      "summary": "Comment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The wo...",
-      "content_html": "<blockquote>Comment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splinteringComment | The worlds of analogue and digital art may be splintering</blockquote>\n<p><strong>Tags:</strong> art, analogue, digital art</p>",
+      "content_text": "The institutions of art, instead of co-opting new digital genres—building on what they have done, albeit at a glacial pace, with photography and video—might let digital spectacles splinter off into their own sub-industry, as theatre did vis-à-vis cinema nearly a century ago. Immersive and AI art, with their seemingly limitless thirst for large spaces, new skill sets and energy-guzzling technology, would carve out a parallel lane for digital productions.\n\nThe analogy for an analogue-first strategy comes from the watchmaking industry. Confronted by the spectre of its demise in the 1980s, when battery-powered watches flooded the zone, haute horlogerie scaled even higher. It circled the wagons around savoir-faire, inventing timepieces of mind-boggling complexity (and price) that celebrated classic materials and mastery. All in all, the strategy paid off, at least for the manufactures that survived.",
+      "summary": "The institutions of art, instead of co-opting new digital genres—building on what they have done, albeit at a glacial pace, with photography and video...",
+      "content_html": "<blockquote>The institutions of art, instead of co-opting new digital genres—building on what they have done, albeit at a glacial pace, with photography and video—might let digital spectacles splinter off into their own sub-industry, as theatre did vis-à-vis cinema nearly a century ago. Immersive and AI art, with their seemingly limitless thirst for large spaces, new skill sets and energy-guzzling technology, would carve out a parallel lane for digital productions.\n\nThe analogy for an analogue-first strategy comes from the watchmaking industry. Confronted by the spectre of its demise in the 1980s, when battery-powered watches flooded the zone, haute horlogerie scaled even higher. It circled the wagons around savoir-faire, inventing timepieces of mind-boggling complexity (and price) that celebrated classic materials and mastery. All in all, the strategy paid off, at least for the manufactures that survived.</blockquote>\n<p><strong>Tags:</strong> art, analogue, digital art</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -177,24 +308,6 @@
       "content_text": "Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education.",
       "summary": "Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understan...",
       "content_html": "<blockquote>Most fundamentally, we believe that learning is the result of human grappling with the parts of the world that resist us and our capacity to understand. This conception of education is antithetical to the transactional and antihuman program of “optimized” and “efficient” delivery of learning outcomes, promised by proponents of AI’s incursion into the space of education.</blockquote>\n<p><strong>Tags:</strong> ai, education, learning</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1766770004237",
-      "url": "https://events.ccc.de/congress/2025/hub/en/wiki/start",
-      "title": "39C3 39th Chaos Communications Congress - start",
-      "date_published": "2025-12-26T17:26:44.237Z",
-      "tags": [
-        "39c3",
-        "congress",
-        "wiki"
-      ],
-      "content_text": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It's collaboratively edited and grows rapidly during the event.\n\n",
-      "summary": "39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks si...",
-      "content_html": "<blockquote>39C3 Hub Wiki Main Page – The official public wiki: Start here for general info, ride-sharing, dating (non-romantic skill-sharing), lightning talks sign-ups, upcoming hacker events, apps, and more. It&#039;s collaboratively edited and grows rapidly during the event.\n\n</blockquote>\n<p><strong>Tags:</strong> 39c3, congress, wiki</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -2447,25 +2560,6 @@
       "content_text": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n",
       "summary": "There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its au...",
       "content_html": "<blockquote>There is a strong case to be made for data poisoning. Many machine learning systems are built on data that was collected without the consent of its authors. In many cases, the resulting products are being used to replace labour, or at least fire and re-hire workers at lower rates. Some of these models cost many billions of dollars to train, so the prospect that a few hundred samples could do irreperable damage to their product should rightfully worry those that are training such systems on stolen data.\n\n</blockquote>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1761935441225",
-      "url": "https://news.mit.edu/2025/your-brain-without-sleep-1029",
-      "title": "This is your brain without sleep",
-      "date_published": "2025-10-31T18:30:41.225Z",
-      "tags": [
-        "behavior",
-        "human",
-        "sleep",
-        "brain"
-      ],
-      "content_text": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.",
-      "summary": "“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional trad...",
-      "content_html": "<blockquote>“If you don’t sleep, the CSF waves start to intrude into wakefulness where normally you wouldn’t see them. However, they come with an attentional tradeoff, where attention fails during the moments that you have this wave of fluid flow,” says Laura Lewis, the Athinoula A. Martinos Associate Professor of Electrical Engineering and Computer Science, a member of MIT’s Institute for Medical Engineering and Science and the Research Laboratory of Electronics, and an associate member of the Picower Institute for Learning and Memory.</blockquote>\n<p><strong>Tags:</strong> behavior, human, sleep, brain</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
