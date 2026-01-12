@@ -1,6 +1,20 @@
 {
   "links": [
     {
+      "id": 1768225932458,
+      "url": "https://www.anthropic.com/news/claude-4",
+      "source": "Introducing Claude 4",
+      "pullQuote": "Our most capable model yet.",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T13:52:12.458Z",
+      "visits": 0
+    },
+    {
       "id": 1768225737621,
       "url": "https://www.schmidtsciences.org/schmidt-observatory-system/",
       "source": "The Eric and Wendy Schmidt Observatory System ",
@@ -3685,5 +3699,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-12T13:48:57.638Z"
+  "lastUpdated": "2026-01-12T13:52:12.472Z"
 }

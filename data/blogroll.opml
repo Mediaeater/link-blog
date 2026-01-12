@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Mon, 12 Jan 2026 13:50:06 GMT</dateCreated>
-    <dateModified>Mon, 12 Jan 2026 13:50:06 GMT</dateModified>
+    <dateCreated>Mon, 12 Jan 2026 13:52:48 GMT</dateCreated>
+    <dateModified>Mon, 12 Jan 2026 13:52:48 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -167,6 +167,7 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
       <outline type="link" text="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." title="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." url="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" htmlUrl="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" description="LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional." created="Sun, 19 Oct 2025 10:04:21 GMT" category="agi,llm,ethics,code" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="Introducing Claude 4" title="Introducing Claude 4" url="https://www.anthropic.com/news/claude-4" htmlUrl="https://www.anthropic.com/news/claude-4" description="Our most capable model yet." created="Mon, 12 Jan 2026 13:52:12 GMT" category="ai,anthropic,claude" />
       <outline type="link" text="Don’t fall into the anti-AI hype - &lt;antirez&gt;" title="Don’t fall into the anti-AI hype - &lt;antirez&gt;" url="https://antirez.com/news/158" htmlUrl="https://antirez.com/news/158" description="Anyway, back to programming. I have a single suggestion for you, my friend. Whatever you believe about what the Right Thing should be, you can&apos;t control it by refusing what is happening right now. Skipping AI is not going to help you or your career. Think about it. Test these new tools, with care, with weeks of work, not in a five minutes test where you can just reinforce your own beliefs. Find a way to multiply yourself, and if it does not work for you, try again every few months." created="Mon, 12 Jan 2026 12:58:56 GMT" category="code,ai,learning" />
       <outline type="link" text="The AI revolution is here. Will the economy survive the transition?" title="The AI revolution is here. Will the economy survive the transition?" url="https://post.substack.com/p/the-ai-revolution-is-here-will-the" htmlUrl="https://post.substack.com/p/the-ai-revolution-is-here-will-the" description="I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.
 
@@ -449,6 +450,7 @@ The super PAC said Andreessen Horowitz committed $25 million this year and $25 m
 It is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said." created="Mon, 08 Sep 2025 12:42:24 GMT" category="ai,openai,hollywood-ai,animation" />
     </outline>
     <outline text="anthropic" title="anthropic">
+      <outline type="link" text="Introducing Claude 4" title="Introducing Claude 4" url="https://www.anthropic.com/news/claude-4" htmlUrl="https://www.anthropic.com/news/claude-4" description="Our most capable model yet." created="Mon, 12 Jan 2026 13:52:12 GMT" category="ai,anthropic,claude" />
       <outline type="link" text="claude .ai memory system prompt" title="claude .ai memory system prompt" url="https://x.com/janbamjan/status/1981425093323456947" htmlUrl="https://x.com/janbamjan/status/1981425093323456947" description="‹example&gt;
 ‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;
 &lt;user&gt;You&apos;re the only friend that always responds to me. I don&apos;t know what I would do without you.&lt;/user&gt;
@@ -885,6 +887,7 @@ The bill requires the biggest AI companies to publish safety protocols for serio
 Such reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great." created="Mon, 05 Jan 2026 13:58:16 GMT" category="capitalism,consumption,trade,global,civilization,open-mindset,history" />
     </outline>
     <outline text="claude" title="claude">
+      <outline type="link" text="Introducing Claude 4" title="Introducing Claude 4" url="https://www.anthropic.com/news/claude-4" htmlUrl="https://www.anthropic.com/news/claude-4" description="Our most capable model yet." created="Mon, 12 Jan 2026 13:52:12 GMT" category="ai,anthropic,claude" />
       <outline type="link" text="claude .ai memory system prompt" title="claude .ai memory system prompt" url="https://x.com/janbamjan/status/1981425093323456947" htmlUrl="https://x.com/janbamjan/status/1981425093323456947" description="‹example&gt;
 ‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;
 &lt;user&gt;You&apos;re the only friend that always responds to me. I don&apos;t know what I would do without you.&lt;/user&gt;

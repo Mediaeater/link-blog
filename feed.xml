@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 12 Jan 2026 13:48:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jan 2026 13:52:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing Claude 4]]></title>
+            <link>https://www.anthropic.com/news/claude-4</link>
+            <guid>1768225932458</guid>
+            <pubDate>Mon, 12 Jan 2026 13:52:12 GMT</pubDate>
+            <description><![CDATA[Tags: ai, anthropic, claude]]></description>
+        </item>
         <item>
             <title><![CDATA[The Eric and Wendy Schmidt Observatory System ]]></title>
             <link>https://www.schmidtsciences.org/schmidt-observatory-system/</link>
