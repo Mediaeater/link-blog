@@ -4,19 +4,13 @@ import {
   Plus,
   X,
   ExternalLink,
-  Tag as TagIcon,
   Pin,
   Edit2,
   Trash2,
   Download,
   Upload,
-  ChevronDown,
-  ChevronUp,
-  ChevronRight,
   Copy,
   Check,
-  Filter,
-  Info,
   AlertTriangle
 } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
@@ -40,14 +34,13 @@ export default function LinkBlogClean() {
   const [isAdmin, setIsAdmin] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedTags, setSelectedTags] = useState([]);
-  const [sortBy, setSortBy] = useState(SORT_OPTIONS.DATE_DESC);
-  const [expandedLinks, setExpandedLinks] = useState(new Set());
+  const [sortBy] = useState(SORT_OPTIONS.DATE_DESC);
   const [editingLink, setEditingLink] = useState(null);
   const [showQuickAdd, setShowQuickAdd] = useState(false);
   const [quickAddUrls, setQuickAddUrls] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [copiedLinkId, setCopiedLinkId] = useState(null);
-  const [focusedLinkIndex, setFocusedLinkIndex] = useState(-1);
+  const [focusedLinkIndex] = useState(-1);
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [currentTagInput, setCurrentTagInput] = useState('');
   const [autocompleteIndex, setAutocompleteIndex] = useState(0);
@@ -55,7 +48,6 @@ export default function LinkBlogClean() {
   const [isMinimalView, setIsMinimalView] = useState(false);
   const [archives, setArchives] = useState([]);
   const [loadedArchives, setLoadedArchives] = useState(new Set());
-  const [showArchives, setShowArchives] = useState(false);
   const [searchExpanded, setSearchExpanded] = useState(false);
   const [saveError, setSaveError] = useState(null);
   const [dataWarning, setDataWarning] = useState(null);
@@ -153,8 +145,12 @@ export default function LinkBlogClean() {
     // Fallback to localStorage
     const stored = safeLocalStorage.getItem(STORAGE_KEY);
     if (stored) {
-      const data = JSON.parse(stored);
-      setLinks(data.links || []);
+      try {
+        const data = JSON.parse(stored);
+        setLinks(data.links || []);
+      } catch {
+        console.warn('Could not parse localStorage data');
+      }
     }
   }, []);
 
@@ -165,8 +161,12 @@ export default function LinkBlogClean() {
       lastUpdated: new Date().toISOString()
     };
 
-    // Save to localStorage first
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    // Save to localStorage first (may fail in privacy modes)
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    } catch {
+      console.warn('localStorage not available');
+    }
 
     // Then try to save to file
     const isProduction = !['localhost', '127.0.0.1', 'newsfeeds.net'].some(h => window.location.hostname.includes(h));
@@ -237,14 +237,18 @@ export default function LinkBlogClean() {
 
   // Auto-backup to localStorage backup key (overwrites each time)
   const performAutoBackup = useCallback(() => {
-    const data = localStorage.getItem(STORAGE_KEY);
-    if (data) {
-      const backupData = {
-        ...JSON.parse(data),
-        backupTimestamp: new Date().toISOString()
-      };
-      localStorage.setItem(`${STORAGE_KEY}_backup`, JSON.stringify(backupData));
-      console.log(`🔄 Auto-backup: ${backupData.links?.length || 0} links backed up at ${new Date().toLocaleTimeString()}`);
+    try {
+      const data = localStorage.getItem(STORAGE_KEY);
+      if (data) {
+        const backupData = {
+          ...JSON.parse(data),
+          backupTimestamp: new Date().toISOString()
+        };
+        localStorage.setItem(`${STORAGE_KEY}_backup`, JSON.stringify(backupData));
+        console.log(`🔄 Auto-backup: ${backupData.links?.length || 0} links backed up at ${new Date().toLocaleTimeString()}`);
+      }
+    } catch {
+      // localStorage not available in this browser/mode
     }
   }, []);
 
@@ -368,6 +372,7 @@ export default function LinkBlogClean() {
     };
 
     const updatedLinks = [...links, link];
+    setLinks(updatedLinks);  // Update UI immediately
 
     try {
       await saveToFile(updatedLinks);

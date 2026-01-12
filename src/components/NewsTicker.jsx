@@ -9,7 +9,7 @@ import { Pause, Play, X, SkipForward } from 'lucide-react';
  */
 export default function NewsTicker({ links = [], forceShow = false, onClose }) {
   const [isPaused, setIsPaused] = useState(false);
-  const [isLandscapeMobile, setIsLandscapeMobile] = useState(false);
+  const [, setIsLandscapeMobile] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const [needsScroll, setNeedsScroll] = useState(false);

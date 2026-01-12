@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 11 Jan 2026 12:32:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jan 2026 12:27:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The AI revolution is here. Will the economy survive the transition?]]></title>
+            <link>https://post.substack.com/p/the-ai-revolution-is-here-will-the</link>
+            <guid>1768220834671</guid>
+            <pubDate>Mon, 12 Jan 2026 12:27:14 GMT</pubDate>
+            <description><![CDATA[Tags: ai, palantir, economics]]></description>
+        </item>
         <item>
             <title><![CDATA[Why Civilizations Flourish—and Fail]]></title>
             <link>https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg</link>
