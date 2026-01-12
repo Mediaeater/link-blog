@@ -4,10 +4,52 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 12 Jan 2026 12:27:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jan 2026 13:48:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Eric and Wendy Schmidt Observatory System ]]></title>
+            <link>https://www.schmidtsciences.org/schmidt-observatory-system/</link>
+            <guid>1768225737621</guid>
+            <pubDate>Mon, 12 Jan 2026 13:48:57 GMT</pubDate>
+            <description><![CDATA[Tags: science]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Routing Information ]]></title>
+            <link>https://radar.cloudflare.com/routing/ir</link>
+            <guid>1768222970006</guid>
+            <pubDate>Mon, 12 Jan 2026 13:02:50 GMT</pubDate>
+            <description><![CDATA[Tags: networks, government, access, iran]]></description>
+        </item>
+        <item>
+            <title><![CDATA[We’re going to be friends Live at Rock & Roll Hall Of Fame]]></title>
+            <link>https://www.youtube.com/watch?v=n-kZVmddPtY&amp;t=121s</link>
+            <guid>1768222846971</guid>
+            <pubDate>Mon, 12 Jan 2026 13:00:46 GMT</pubDate>
+            <description><![CDATA[Tags: video, youtube, music, duet, rockhall]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Don’t fall into the anti-AI hype - <antirez>]]></title>
+            <link>https://antirez.com/news/158</link>
+            <guid>1768222736369</guid>
+            <pubDate>Mon, 12 Jan 2026 12:58:56 GMT</pubDate>
+            <description><![CDATA[Tags: code, ai, learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How Markdown took over the world - Anil Dash]]></title>
+            <link>https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/</link>
+            <guid>1768222665168</guid>
+            <pubDate>Mon, 12 Jan 2026 12:57:45 GMT</pubDate>
+            <description><![CDATA[Tags: markdown, language, code]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The AI revolution is here. Will the economy survive the transition?]]></title>
+            <link>https://post.substack.com/p/the-ai-revolution-is-here-will-the</link>
+            <guid>1768222514173</guid>
+            <pubDate>Mon, 12 Jan 2026 12:55:14 GMT</pubDate>
+            <description><![CDATA[Tags: ai, economics, palantir]]></description>
+        </item>
         <item>
             <title><![CDATA[The AI revolution is here. Will the economy survive the transition?]]></title>
             <link>https://post.substack.com/p/the-ai-revolution-is-here-will-the</link>
