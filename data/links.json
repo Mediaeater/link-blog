@@ -1,6 +1,20 @@
 {
   "links": [
     {
+      "id": 1768220834671,
+      "url": "https://post.substack.com/p/the-ai-revolution-is-here-will-the",
+      "source": "The AI revolution is here. Will the economy survive the transition?",
+      "pullQuote": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.",
+      "tags": [
+        "ai",
+        "palantir",
+        "economics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T12:27:14.671Z",
+      "visits": 0
+    },
+    {
       "id": 1767621496736,
       "url": "https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg",
       "source": "Why Civilizations Flourish—and Fail",
@@ -3585,5 +3599,6 @@
       "visits": 0
     }
   ],
-  "lastUpdated": "2026-01-11T12:32:51.583Z"
+  "version": "1.1.0",
+  "lastUpdated": "2026-01-12T12:27:14.713Z"
 }
