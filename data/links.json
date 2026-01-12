@@ -1,6 +1,91 @@
 {
   "links": [
     {
+      "id": 1768225737621,
+      "url": "https://www.schmidtsciences.org/schmidt-observatory-system/",
+      "source": "The Eric and Wendy Schmidt Observatory System ",
+      "pullQuote": "- Schmidt Sciences",
+      "tags": [
+        "science"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T13:48:57.621Z",
+      "visits": 0
+    },
+    {
+      "id": 1768222970006,
+      "url": "https://radar.cloudflare.com/routing/ir",
+      "source": "Routing Information ",
+      "pullQuote": "When unrest happens, networks of mass communication can not be relied on. ",
+      "tags": [
+        "networks",
+        "government",
+        "access",
+        "iran"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T13:02:50.006Z",
+      "visits": 0
+    },
+    {
+      "id": 1768222846971,
+      "url": "https://www.youtube.com/watch?v=n-kZVmddPtY&t=121s",
+      "source": "We’re going to be friends Live at Rock & Roll Hall Of Fame",
+      "pullQuote": "Olivia Rodrigo, FEIST duet",
+      "tags": [
+        "video",
+        "youtube",
+        "music",
+        "duet",
+        "rockhall"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T13:00:46.971Z",
+      "visits": 0
+    },
+    {
+      "id": 1768222736369,
+      "url": "https://antirez.com/news/158",
+      "source": "Don’t fall into the anti-AI hype - <antirez>",
+      "pullQuote": "Anyway, back to programming. I have a single suggestion for you, my friend. Whatever you believe about what the Right Thing should be, you can't control it by refusing what is happening right now. Skipping AI is not going to help you or your career. Think about it. Test these new tools, with care, with weeks of work, not in a five minutes test where you can just reinforce your own beliefs. Find a way to multiply yourself, and if it does not work for you, try again every few months.",
+      "tags": [
+        "code",
+        "ai",
+        "learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T12:58:56.369Z",
+      "visits": 0
+    },
+    {
+      "id": 1768222665168,
+      "url": "https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/",
+      "source": "How Markdown took over the world - Anil Dash",
+      "pullQuote": "The trillion-dollar AI industry's system for controlling their most advanced platforms is a plain text format one guy made up for his blog and then bounced off of a 17-year-old kid before sharing it with the world for free. You're welcome, Time Magazine's people of the year, The Architects of AI. Their achievement is every bit as impressive as yours.",
+      "tags": [
+        "markdown",
+        "language",
+        "code"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T12:57:45.168Z",
+      "visits": 0
+    },
+    {
+      "id": 1768222514173,
+      "url": "https://post.substack.com/p/the-ai-revolution-is-here-will-the",
+      "source": "The AI revolution is here. Will the economy survive the transition?",
+      "pullQuote": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.",
+      "tags": [
+        "ai",
+        "economics",
+        "palantir"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T12:55:14.173Z",
+      "visits": 0
+    },
+    {
       "id": 1768220834671,
       "url": "https://post.substack.com/p/the-ai-revolution-is-here-will-the",
       "source": "The AI revolution is here. Will the economy survive the transition?",
@@ -3600,5 +3685,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-12T12:27:14.713Z"
+  "lastUpdated": "2026-01-12T13:48:57.638Z"
 }
