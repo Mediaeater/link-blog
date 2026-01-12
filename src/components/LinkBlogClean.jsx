@@ -96,40 +96,34 @@ export default function LinkBlogClean() {
           const localCount = localData.links?.length || 0;
           const jsonCount = jsonData.links?.length || 0;
 
-          if (localTime > jsonTime) {
-            // localStorage is newer - use it but warn if counts differ significantly
+          // Key insight: after git pull, JSON has the authoritative data
+          // Priority: more links wins, then newer timestamp
+
+          if (jsonCount > localCount) {
+            // JSON has more links (e.g., after git pull) - use JSON, sync to localStorage
+            console.log(`Syncing from JSON: ${jsonCount} links (vs ${localCount} in browser)`);
+            setLinks(jsonData.links || []);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+            setDataWarning({
+              message: `Synced ${jsonCount - localCount} new links from server.`,
+              localCount,
+              jsonCount,
+              synced: true
+            });
+          } else if (localCount > jsonCount) {
+            // localStorage has more links - warn user to save
             setLinks(localData.links || []);
-            if (localCount > jsonCount) {
-              setDataWarning({
-                message: `Browser has ${localCount - jsonCount} more links than server. Save to sync.`,
-                localCount,
-                jsonCount,
-                localTime: new Date(localData.lastUpdated).toLocaleString(),
-                jsonTime: new Date(jsonData.lastUpdated).toLocaleString()
-              });
-            }
+            setDataWarning({
+              message: `Browser has ${localCount - jsonCount} more links than server. Save to sync.`,
+              localCount,
+              jsonCount,
+              localTime: new Date(localData.lastUpdated).toLocaleString(),
+              jsonTime: new Date(jsonData.lastUpdated).toLocaleString()
+            });
           } else {
-            // JSON is newer - but warn before overwriting if localStorage has more links
-            if (localCount > jsonCount) {
-              const useLocal = window.confirm(
-                `⚠️ Data Conflict Detected!\n\n` +
-                `Browser: ${localCount} links (${new Date(localData.lastUpdated).toLocaleString()})\n` +
-                `Server: ${jsonCount} links (${new Date(jsonData.lastUpdated).toLocaleString()})\n\n` +
-                `Your browser has ${localCount - jsonCount} more links.\n\n` +
-                `Click OK to keep browser data (recommended)\n` +
-                `Click Cancel to use server data (will lose browser-only links)`
-              );
-              if (useLocal) {
-                setLinks(localData.links || []);
-                setDataWarning({
-                  message: `Using browser data. Save to sync ${localCount - jsonCount} links to server.`,
-                  localCount,
-                  jsonCount
-                });
-              } else {
-                setLinks(jsonData.links || []);
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
-              }
+            // Same count - use newer timestamp
+            if (localTime > jsonTime) {
+              setLinks(localData.links || []);
             } else {
               setLinks(jsonData.links || []);
               localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));

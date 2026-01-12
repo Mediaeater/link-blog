@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "setup": "node scripts/setup.js",
+    "start": "git pull && npm run dev:save",
     "dev": "vite",
     "dev:save": "node scripts/dev-with-save.cjs",
     "api": "node server.cjs",

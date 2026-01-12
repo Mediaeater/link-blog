@@ -116,7 +116,7 @@ app.use(express.json({ limit: '2mb' }));
 // ActivityPub routes
 app.use(activityPubRoutes);
 
-// Endpoint to save links (with automatic archiving)
+// Endpoint to save links (saves all links without auto-archiving)
 app.post('/api/save-links', writeLimiter, async (req, res) => {
   try {
     const data = req.body;
@@ -132,30 +132,32 @@ app.post('/api/save-links', writeLimiter, async (req, res) => {
       return res.status(400).json({ error: validation.error });
     }
 
-    // Archive old links and keep only current year
-    const currentYearData = await archiveManager.archiveOldLinks(data.links);
+    // Sort links by timestamp (newest first)
+    data.links.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
 
-    // Add metadata
-    currentYearData.version = data.version || '1.1.0';
-    currentYearData.lastUpdated = new Date().toISOString();
+    // Prepare data with metadata
+    const saveData = {
+      links: data.links,
+      version: data.version || '1.1.0',
+      lastUpdated: new Date().toISOString()
+    };
 
-    const jsonContent = JSON.stringify(currentYearData, null, 2);
+    const jsonContent = JSON.stringify(saveData, null, 2);
 
-    // Save current year to both locations
+    // Save to both locations
     const publicPath = path.join(__dirname, 'public', 'data', 'links.json');
     const dataPath = path.join(__dirname, 'data', 'links.json');
 
     await fs.writeFile(publicPath, jsonContent);
     await fs.writeFile(dataPath, jsonContent);
 
-    console.log(`✅ Saved ${currentYearData.links.length} current links at ${new Date().toLocaleTimeString()}`);
+    console.log(`✅ Saved ${data.links.length} links at ${new Date().toLocaleTimeString()}`);
 
     res.json({
       success: true,
       message: 'Links saved successfully',
-      count: currentYearData.links.length,
-      archived: data.links.length - currentYearData.links.length,
-      lastUpdated: currentYearData.lastUpdated
+      count: data.links.length,
+      lastUpdated: saveData.lastUpdated
     });
   } catch (error) {
     console.error('Error saving links:', error);
@@ -172,6 +174,28 @@ app.get('/api/links', async (req, res) => {
   } catch (error) {
     console.error('Error reading links:', error);
     res.status(500).json({ error: 'Failed to read links' });
+  }
+});
+
+// Sync status - shows current state for debugging multi-location workflow
+app.get('/api/sync-status', async (req, res) => {
+  try {
+    const dataPath = path.join(__dirname, 'public', 'data', 'links.json');
+    const content = await fs.readFile(dataPath, 'utf8');
+    const data = JSON.parse(content);
+    const currentYear = new Date().getFullYear();
+    const thisYearLinks = data.links.filter(l =>
+      l.timestamp && l.timestamp.startsWith(String(currentYear))
+    );
+    res.json({
+      totalLinks: data.links.length,
+      thisYearLinks: thisYearLinks.length,
+      lastUpdated: data.lastUpdated,
+      message: `${data.links.length} total links, ${thisYearLinks.length} from ${currentYear}`
+    });
+  } catch (error) {
+    console.error('Error reading sync status:', error);
+    res.status(500).json({ error: 'Failed to read sync status' });
   }
 });
 
