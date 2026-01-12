@@ -74,6 +74,16 @@ export default function LinkBlogClean() {
 
   // Load links from storage
   const loadLinks = useCallback(async () => {
+    // Helper to safely access localStorage (may be blocked by privacy settings)
+    const safeLocalStorage = {
+      getItem: (key) => {
+        try { return localStorage.getItem(key); } catch { return null; }
+      },
+      setItem: (key, value) => {
+        try { localStorage.setItem(key, value); } catch { /* ignored */ }
+      }
+    };
+
     try {
       console.log('Loading links from storage...');
       // Try to load from JSON first
@@ -82,8 +92,8 @@ export default function LinkBlogClean() {
         const jsonData = await response.json();
         console.log('Loaded JSON data:', jsonData);
 
-        // Also check localStorage
-        const stored = localStorage.getItem(STORAGE_KEY);
+        // Also check localStorage (may fail in some browsers)
+        const stored = safeLocalStorage.getItem(STORAGE_KEY);
         let localData = null;
         if (stored) {
           localData = JSON.parse(stored);
@@ -103,7 +113,7 @@ export default function LinkBlogClean() {
             // JSON has more links (e.g., after git pull) - use JSON, sync to localStorage
             console.log(`Syncing from JSON: ${jsonCount} links (vs ${localCount} in browser)`);
             setLinks(jsonData.links || []);
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+            safeLocalStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
             setDataWarning({
               message: `Synced ${jsonCount - localCount} new links from server.`,
               localCount,
@@ -126,12 +136,13 @@ export default function LinkBlogClean() {
               setLinks(localData.links || []);
             } else {
               setLinks(jsonData.links || []);
-              localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+              safeLocalStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
             }
           }
         } else {
+          // No localStorage data or missing timestamps - just use JSON
           setLinks(jsonData.links || []);
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
+          safeLocalStorage.setItem(STORAGE_KEY, JSON.stringify(jsonData));
         }
         return;
       }
@@ -140,7 +151,7 @@ export default function LinkBlogClean() {
     }
 
     // Fallback to localStorage
-    const stored = localStorage.getItem(STORAGE_KEY);
+    const stored = safeLocalStorage.getItem(STORAGE_KEY);
     if (stored) {
       const data = JSON.parse(stored);
       setLinks(data.links || []);
