@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 17 Jan 2026 12:08:23 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2026 16:53:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AI and the Corporate Capture of Knowledge - Schneier on Security]]></title>
+            <link>https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html</link>
+            <guid>1768668784706</guid>
+            <pubDate>Sat, 17 Jan 2026 16:53:04 GMT</pubDate>
+            <description><![CDATA[Tags: ai, copyright, knowledge, aaron_swartz]]></description>
+        </item>
         <item>
             <title><![CDATA[Mad magazine autostereogram, cutecore]]></title>
             <link>https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/</link>

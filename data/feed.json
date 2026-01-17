@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1768668784706",
+      "url": "https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html",
+      "title": "AI and the Corporate Capture of Knowledge - Schneier on Security",
+      "date_published": "2026-01-17T16:53:04.706Z",
+      "tags": [
+        "ai",
+        "copyright",
+        "knowledge",
+        "aaron_swartz"
+      ],
+      "content_text": "More than a decade after Aaron Swartz’s death, the United States is still living inside the contradiction that destroyed him.\n\nSwartz believed that knowledge, especially publicly funded knowledge, should be freely accessible. Acting on that, he downloaded thousands of academic articles from the JSTOR archive with the intention of making them publicly available. For this, the federal government charged him with a felony and threatened decades in prison. After two years of prosecutorial pressure, Swartz died by suicide on Jan. 11, 2013.\n\nThe still-unresolved questions raised by his case have resurfaced in today’s debates over artificial intelligence, copyright and the ultimate control of knowledge.\n\n",
+      "summary": "More than a decade after Aaron Swartz’s death, the United States is still living inside the contradiction that destroyed him.\n\nSwartz believed that kn...",
+      "content_html": "<blockquote>More than a decade after Aaron Swartz’s death, the United States is still living inside the contradiction that destroyed him.\n\nSwartz believed that knowledge, especially publicly funded knowledge, should be freely accessible. Acting on that, he downloaded thousands of academic articles from the JSTOR archive with the intention of making them publicly available. For this, the federal government charged him with a felony and threatened decades in prison. After two years of prosecutorial pressure, Swartz died by suicide on Jan. 11, 2013.\n\nThe still-unresolved questions raised by his case have resurfaced in today’s debates over artificial intelligence, copyright and the ultimate control of knowledge.\n\n</blockquote>\n<p><strong>Tags:</strong> ai, copyright, knowledge, aaron_swartz</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1768651703142",
       "url": "https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/",
       "title": "Mad magazine autostereogram, cutecore",
