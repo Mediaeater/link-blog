@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1768668784706,
+      "url": "https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html",
+      "source": "AI and the Corporate Capture of Knowledge - Schneier on Security",
+      "pullQuote": "More than a decade after Aaron Swartz’s death, the United States is still living inside the contradiction that destroyed him.\n\nSwartz believed that knowledge, especially publicly funded knowledge, should be freely accessible. Acting on that, he downloaded thousands of academic articles from the JSTOR archive with the intention of making them publicly available. For this, the federal government charged him with a felony and threatened decades in prison. After two years of prosecutorial pressure, Swartz died by suicide on Jan. 11, 2013.\n\nThe still-unresolved questions raised by his case have resurfaced in today’s debates over artificial intelligence, copyright and the ultimate control of knowledge.\n\n",
+      "tags": [
+        "ai",
+        "copyright",
+        "knowledge",
+        "aaron_swartz"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-17T16:53:04.706Z",
+      "visits": 0
+    },
+    {
       "id": 1768651703142,
       "url": "https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/",
       "source": "Mad magazine autostereogram, cutecore",
@@ -3715,5 +3730,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-17T12:08:23.208Z"
+  "lastUpdated": "2026-01-17T16:53:04.874Z"
 }
