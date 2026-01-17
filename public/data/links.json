@@ -1,6 +1,36 @@
 {
   "links": [
     {
+      "id": 1768651703142,
+      "url": "https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/",
+      "source": "Mad magazine autostereogram, cutecore",
+      "pullQuote": "Three things have changed:\n\nThe long tail means that there’s room for more. Always. As many as 25% of all Spotify songs have only been listened to a few times. The average video on YouTube is seen once a day.\nAI generation of art, music, video and writing means that the pace of creation is going to grow exponentially.\nMemetic identities, genres and codewords are easier for AI to begin with than complex images. And so, new genres multiply, get exaggerated, evolve and morph into new genres. It’s genetic material, run amok.",
+      "tags": [
+        "memes",
+        "media",
+        "pop-culture",
+        "popular"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-17T12:08:23.142Z",
+      "visits": 0
+    },
+    {
+      "id": 1768649980480,
+      "url": "https://www.theartnewspaper.com/2026/01/16/in-age-of-ai-can-art-expertise-be-digitised",
+      "source": "In the age of AI, can art expertise be digitised?",
+      "pullQuote": "In his 1992 book Technopoly: The Surrender of Culture to Technology, the media theorist Neil Postman predicted that technology would eventually smother culture by reducing complex issues to quantifiable data and numerical calculations. He noted a fundamental difference between naturally occurring processes, which can be studied scientifically, and human practices, which are not governed by natural laws. Connoisseurship is not a “dubious science”, because it’s not a science at all. AI potentially deceives by offering the illusion of objective certainty in a field—art—that is inherently subjective.",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "art",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-17T11:39:40.480Z",
+      "visits": 0
+    },
+    {
       "id": 1768225737621,
       "url": "https://www.schmidtsciences.org/schmidt-observatory-system/",
       "source": "The Eric and Wendy Schmidt Observatory System ",
@@ -3685,5 +3715,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-12T13:59:13.711Z"
+  "lastUpdated": "2026-01-17T12:08:23.208Z"
 }

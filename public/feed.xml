@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 12 Jan 2026 13:59:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2026 12:08:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Mad magazine autostereogram, cutecore]]></title>
+            <link>https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/</link>
+            <guid>1768651703142</guid>
+            <pubDate>Sat, 17 Jan 2026 12:08:23 GMT</pubDate>
+            <description><![CDATA[Tags: memes, media, pop-culture, popular]]></description>
+        </item>
+        <item>
+            <title><![CDATA[In the age of AI, can art expertise be digitised?]]></title>
+            <link>https://www.theartnewspaper.com/2026/01/16/in-age-of-ai-can-art-expertise-be-digitised</link>
+            <guid>1768649980480</guid>
+            <pubDate>Sat, 17 Jan 2026 11:39:40 GMT</pubDate>
+            <description><![CDATA[Tags: ai, machine-learning, art, culture]]></description>
+        </item>
         <item>
             <title><![CDATA[The Eric and Wendy Schmidt Observatory System ]]></title>
             <link>https://www.schmidtsciences.org/schmidt-observatory-system/</link>
