@@ -153,11 +153,28 @@ app.post('/api/save-links', writeLimiter, async (req, res) => {
 
     console.log(`✅ Saved ${data.links.length} links at ${new Date().toLocaleTimeString()}`);
 
+    // Check if digest should be auto-generated
+    let digestResult = null;
+    try {
+      digestResult = await digestManager.checkAndAutoGenerate();
+      if (digestResult.success) {
+        console.log(`📧 Auto-generated Digest #${digestResult.digestNumber} with ${digestResult.count} links → ${digestResult.filename}`);
+      }
+    } catch (digestError) {
+      console.error('Digest auto-check error:', digestError.message);
+    }
+
     res.json({
       success: true,
       message: 'Links saved successfully',
       count: data.links.length,
-      lastUpdated: saveData.lastUpdated
+      lastUpdated: saveData.lastUpdated,
+      digest: digestResult?.success ? {
+        generated: true,
+        number: digestResult.digestNumber,
+        count: digestResult.count,
+        filename: digestResult.filename
+      } : null
     });
   } catch (error) {
     console.error('Error saving links:', error);
