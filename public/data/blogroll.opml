@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 17 Jan 2026 16:53:33 GMT</dateCreated>
-    <dateModified>Sat, 17 Jan 2026 16:53:33 GMT</dateModified>
+    <dateCreated>Sun, 18 Jan 2026 12:04:47 GMT</dateCreated>
+    <dateModified>Sun, 18 Jan 2026 12:04:47 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -1011,6 +1011,10 @@ On OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision 
 
 In plans to be announced on Wednesday, reselling a ticket above face value will be outlawed, government and industry figures told the Financial Times.
 " created="Tue, 18 Nov 2025 11:41:05 GMT" category="music,concert,tickets,legislation" />
+    </outline>
+    <outline text="conference" title="conference">
+      <outline type="link" text="transmediale 2026 | schedule" title="transmediale 2026 | schedule" url="https://transmediale.de/en/2026/schedule-2026" htmlUrl="https://transmediale.de/en/2026/schedule-2026" description="
+transmediale 2026 reimagines the festival as a living recursive carrier net – a hammock of relational technologies in practice that stretch across latitudes, rhythms, and root systems – converging in Berlin from 28 January to 1 February 2026 at silent green Kulturquartier and CANK." created="Sun, 18 Jan 2026 11:29:10 GMT" category="media,transmedia,conference" />
     </outline>
     <outline text="congress" title="congress">
       <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
@@ -2144,6 +2148,8 @@ High performers use AI to drive growth, innovation, and cost: Eighty percent of 
 *The most recent monthly growth figures to reference are shown in green.*" created="Wed, 26 Nov 2025 12:00:23 GMT" category="tool,ai,measurement,token-growth,inference" />
     </outline>
     <outline text="media" title="media">
+      <outline type="link" text="transmediale 2026 | schedule" title="transmediale 2026 | schedule" url="https://transmediale.de/en/2026/schedule-2026" htmlUrl="https://transmediale.de/en/2026/schedule-2026" description="
+transmediale 2026 reimagines the festival as a living recursive carrier net – a hammock of relational technologies in practice that stretch across latitudes, rhythms, and root systems – converging in Berlin from 28 January to 1 February 2026 at silent green Kulturquartier and CANK." created="Sun, 18 Jan 2026 11:29:10 GMT" category="media,transmedia,conference" />
       <outline type="link" text="Mad magazine autostereogram, cutecore" title="Mad magazine autostereogram, cutecore" url="https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/" htmlUrl="https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/" description="Three things have changed:
 
 The long tail means that there’s room for more. Always. As many as 25% of all Spotify songs have only been listened to a few times. The average video on YouTube is seen once a day.
@@ -3373,6 +3379,10 @@ Such reactions reduced their ability to adapt locally to changing circumstances.
       <outline type="link" text="NVIDIA Nemotron 3 Family of Models" title="NVIDIA Nemotron 3 Family of Models" url="https://research.nvidia.com/labs/nemotron/Nemotron-3/?ncid=ref-inor-399942" htmlUrl="https://research.nvidia.com/labs/nemotron/Nemotron-3/?ncid=ref-inor-399942" description="We announce NVIDIA Nemotron 3, the most efficient family of open models with leading accuracy for agentic AI applications. The Nemotron 3 family consists of three models: Nano, Super, and Ultra. These models deliver strong agentic, reasoning, and conversational capabilities.
 
 Nano, the smallest model, outperforms comparable models in accuracy while remaining extremely cost-efficient for inference. Super is optimized for collaborative agents and high-volume workloads such as IT ticket automation. Ultra, the largest model, provides state-of-the-art accuracy and reasoning performance." created="Wed, 17 Dec 2025 02:56:20 GMT" category="ai,model,training,nvidia,nemotron3" />
+    </outline>
+    <outline text="transmedia" title="transmedia">
+      <outline type="link" text="transmediale 2026 | schedule" title="transmediale 2026 | schedule" url="https://transmediale.de/en/2026/schedule-2026" htmlUrl="https://transmediale.de/en/2026/schedule-2026" description="
+transmediale 2026 reimagines the festival as a living recursive carrier net – a hammock of relational technologies in practice that stretch across latitudes, rhythms, and root systems – converging in Berlin from 28 January to 1 February 2026 at silent green Kulturquartier and CANK." created="Sun, 18 Jan 2026 11:29:10 GMT" category="media,transmedia,conference" />
     </outline>
     <outline text="trend" title="trend">
       <outline type="link" text="How Math Broke Media dougshapiro.substack " title="How Math Broke Media dougshapiro.substack " url="https://dougshapiro.substack.com/p/how-math-broke-media?" htmlUrl="https://dougshapiro.substack.com/p/how-math-broke-media?" description="The Trap: Current media companies (Hollywood studios, etc.) view AI merely as a tool to make current workflows cheaper (e.g., using AI for storyboards or dubbing).

@@ -1,6 +1,20 @@
 {
   "links": [
     {
+      "id": 1768735750173,
+      "url": "https://transmediale.de/en/2026/schedule-2026",
+      "source": "transmediale 2026 | schedule",
+      "pullQuote": "\ntransmediale 2026 reimagines the festival as a living recursive carrier net – a hammock of relational technologies in practice that stretch across latitudes, rhythms, and root systems – converging in Berlin from 28 January to 1 February 2026 at silent green Kulturquartier and CANK.",
+      "tags": [
+        "media",
+        "transmedia",
+        "conference"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-18T11:29:10.173Z",
+      "visits": 0
+    },
+    {
       "id": 1768668784706,
       "url": "https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html",
       "source": "AI and the Corporate Capture of Knowledge - Schneier on Security",
@@ -3730,5 +3744,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-17T16:53:04.874Z"
+  "lastUpdated": "2026-01-18T11:29:10.240Z"
 }

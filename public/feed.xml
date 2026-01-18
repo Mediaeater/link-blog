@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 17 Jan 2026 16:53:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2026 11:29:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[transmediale 2026 | schedule]]></title>
+            <link>https://transmediale.de/en/2026/schedule-2026</link>
+            <guid>1768735750173</guid>
+            <pubDate>Sun, 18 Jan 2026 11:29:10 GMT</pubDate>
+            <description><![CDATA[Tags: media, transmedia, conference]]></description>
+        </item>
         <item>
             <title><![CDATA[AI and the Corporate Capture of Knowledge - Schneier on Security]]></title>
             <link>https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html</link>
