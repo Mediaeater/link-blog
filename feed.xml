@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 18 Jan 2026 20:59:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2026 11:09:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Using Proxies to Hide Secrets from Claude Code - Formal]]></title>
+            <link>https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/</link>
+            <guid>1768820949645</guid>
+            <pubDate>Mon, 19 Jan 2026 11:09:09 GMT</pubDate>
+            <description><![CDATA[Tags: llm, sandbox, proxies, networking, opsec]]></description>
+        </item>
+        <item>
+            <title><![CDATA[bitchat]]></title>
+            <link>https://bitchat.free/</link>
+            <guid>1768820672671</guid>
+            <pubDate>Mon, 19 Jan 2026 11:04:32 GMT</pubDate>
+            <description><![CDATA[Tags: bluetooth, peer-to-peer, mesh]]></description>
+        </item>
         <item>
             <title><![CDATA[America is slow-walking into a Polymarket disaster]]></title>
             <link>https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb</link>
@@ -147,6 +161,13 @@
             <guid>1766871479115</guid>
             <pubDate>Sat, 27 Dec 2025 21:37:59 GMT</pubDate>
             <description><![CDATA[Tags: learning, knowledge, ai, motion]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story]]></title>
+            <link>The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.</link>
+            <guid>1766871354647</guid>
+            <pubDate>Sat, 27 Dec 2025 21:35:54 GMT</pubDate>
+            <description><![CDATA[Tags: technology, film, motion, machine]]></description>
         </item>
         <item>
             <title><![CDATA[ The worlds of analogue and digital art may be splintering]]></title>

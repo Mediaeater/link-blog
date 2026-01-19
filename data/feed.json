@@ -15,6 +15,44 @@
   ],
   "items": [
     {
+      "id": "1768820949645",
+      "url": "https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/",
+      "title": "Using Proxies to Hide Secrets from Claude Code - Formal",
+      "date_published": "2026-01-19T11:09:09.645Z",
+      "tags": [
+        "llm",
+        "sandbox",
+        "proxies",
+        "networking",
+        "opsec"
+      ],
+      "content_text": "Sandboxing agentic coding tools is a networking problem\nAllowlisting commands on a trusted host for an agentic coding tool can be somewhat fraught. Taking inspiration from Simon Willison:",
+      "summary": "Sandboxing agentic coding tools is a networking problem\nAllowlisting commands on a trusted host for an agentic coding tool can be somewhat fraught. Ta...",
+      "content_html": "<blockquote>Sandboxing agentic coding tools is a networking problem\nAllowlisting commands on a trusted host for an agentic coding tool can be somewhat fraught. Taking inspiration from Simon Willison:</blockquote>\n<p><strong>Tags:</strong> llm, sandbox, proxies, networking, opsec</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768820672671",
+      "url": "https://bitchat.free/",
+      "title": "bitchat",
+      "date_published": "2026-01-19T11:04:32.671Z",
+      "tags": [
+        "bluetooth",
+        "peer-to-peer",
+        "mesh"
+      ],
+      "content_text": "bitchat is a decentralized peer-to-peer messaging application that operates over bluetooth mesh networks. no internet required, no servers, no phone numbers.\n\ntraditional messaging apps depend on centralized infrastructure that can be monitored, censored, or disabled. bitchat creates ad-hoc communication networks using only the devices present in physical proximity. each device acts as both client and server, automatically discovering peers and relaying messages across multiple hops to extend the network's reach.\n\nthis approach provides censorship resistance, surveillance resistance, and infrastructure independence. the network remains functional during internet outages, natural disasters, protests, or in regions with limited connectivity.",
+      "summary": "bitchat is a decentralized peer-to-peer messaging application that operates over bluetooth mesh networks. no internet required, no servers, no phone n...",
+      "content_html": "<blockquote>bitchat is a decentralized peer-to-peer messaging application that operates over bluetooth mesh networks. no internet required, no servers, no phone numbers.\n\ntraditional messaging apps depend on centralized infrastructure that can be monitored, censored, or disabled. bitchat creates ad-hoc communication networks using only the devices present in physical proximity. each device acts as both client and server, automatically discovering peers and relaying messages across multiple hops to extend the network&#039;s reach.\n\nthis approach provides censorship resistance, surveillance resistance, and infrastructure independence. the network remains functional during internet outages, natural disasters, protests, or in regions with limited connectivity.</blockquote>\n<p><strong>Tags:</strong> bluetooth, peer-to-peer, mesh</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1768769943083",
       "url": "https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb",
       "title": "America is slow-walking into a Polymarket disaster",
@@ -380,6 +418,25 @@
       "content_text": "I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun to see what we’re doing to banish the LLM demons. Most of us are incor­po­rating a lot of hand­writing into our teaching: sev­eral col­leagues have been doing blue-book exams, a couple have bought their stu­dents cheap com­po­si­tion books from Wal­mart and are making them create com­mon­place books, and I am reg­u­larly handing out pas­sages from the texts we’re reading, printed out with very wide margins, and asking stu­dents to anno­tate them. I tell them I want their pages to look like Balzac’s galley proofs.",
       "summary": "I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun...",
       "content_html": "<blockquote>I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun to see what we’re doing to banish the LLM demons. Most of us are incor­po­rating a lot of hand­writing into our teaching: sev­eral col­leagues have been doing blue-book exams, a couple have bought their stu­dents cheap com­po­si­tion books from Wal­mart and are making them create com­mon­place books, and I am reg­u­larly handing out pas­sages from the texts we’re reading, printed out with very wide margins, and asking stu­dents to anno­tate them. I tell them I want their pages to look like Balzac’s galley proofs.</blockquote>\n<p><strong>Tags:</strong> learning, knowledge, ai, motion</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1766871354647",
+      "url": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
+      "title": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story",
+      "date_published": "2025-12-27T21:35:54.647Z",
+      "tags": [
+        "technology",
+        "film",
+        "motion",
+        "machine"
+      ],
+      "content_text": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
+      "summary": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ met...",
+      "content_html": "<blockquote>The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.</blockquote>\n<p><strong>Tags:</strong> technology, film, motion, machine</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
