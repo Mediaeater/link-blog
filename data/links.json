@@ -1,6 +1,36 @@
 {
   "links": [
     {
+      "id": 1768820949645,
+      "url": "https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/",
+      "source": "Using Proxies to Hide Secrets from Claude Code - Formal",
+      "pullQuote": "Sandboxing agentic coding tools is a networking problem\nAllowlisting commands on a trusted host for an agentic coding tool can be somewhat fraught. Taking inspiration from Simon Willison:",
+      "tags": [
+        "llm",
+        "sandbox",
+        "proxies",
+        "networking",
+        "opsec"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-19T11:09:09.645Z",
+      "visits": 0
+    },
+    {
+      "id": 1768820672671,
+      "url": "https://bitchat.free/",
+      "source": "bitchat",
+      "pullQuote": "bitchat is a decentralized peer-to-peer messaging application that operates over bluetooth mesh networks. no internet required, no servers, no phone numbers.\n\ntraditional messaging apps depend on centralized infrastructure that can be monitored, censored, or disabled. bitchat creates ad-hoc communication networks using only the devices present in physical proximity. each device acts as both client and server, automatically discovering peers and relaying messages across multiple hops to extend the network's reach.\n\nthis approach provides censorship resistance, surveillance resistance, and infrastructure independence. the network remains functional during internet outages, natural disasters, protests, or in regions with limited connectivity.",
+      "tags": [
+        "bluetooth",
+        "peer-to-peer",
+        "mesh"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-19T11:04:32.671Z",
+      "visits": 0
+    },
+    {
       "id": 1768769943083,
       "url": "https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb",
       "source": "America is slow-walking into a Polymarket disaster",
@@ -289,6 +319,21 @@
       ],
       "isPinned": false,
       "timestamp": "2025-12-27T21:37:59.115Z",
+      "visits": 0
+    },
+    {
+      "id": 1766871354647,
+      "url": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
+      "source": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story",
+      "pullQuote": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
+      "tags": [
+        "technology",
+        "film",
+        "motion",
+        "machine"
+      ],
+      "isPinned": false,
+      "timestamp": "2025-12-27T21:35:54.647Z",
       "visits": 0
     },
     {
@@ -3744,5 +3789,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-18T20:59:03.304Z"
+  "lastUpdated": "2026-01-19T11:09:09.705Z"
 }
