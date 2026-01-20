@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 19 Jan 2026 11:09:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2026 20:44:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Digital Embassies for Sovereign AI]]></title>
+            <link>https://www.youtube.com/watch?v=GRT2evXI8DY</link>
+            <guid>1768941795632</guid>
+            <pubDate>Tue, 20 Jan 2026 20:43:15 GMT</pubDate>
+            <description><![CDATA[Tags: wef, video, opensource, 2026, data, infrastructure, borders, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Corporate Ladders, AI Reshuffled]]></title>
+            <link>https://www.youtube.com/watch?v=NCwEw7pI7JY</link>
+            <guid>1768941183914</guid>
+            <pubDate>Tue, 20 Jan 2026 20:33:03 GMT</pubDate>
+            <description><![CDATA[Tags: video, youtube, wef, 2026, workforce]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI Power Play, No Referees - YouTube]]></title>
+            <link>https://www.youtube.com/watch?v=GVFs_V8l5-E</link>
+            <guid>1768941103140</guid>
+            <pubDate>Tue, 20 Jan 2026 20:31:43 GMT</pubDate>
+            <description><![CDATA[Tags: ai, wef, 2026, datacenters, energy, water]]></description>
+        </item>
         <item>
             <title><![CDATA[Using Proxies to Hide Secrets from Claude Code - Formal]]></title>
             <link>https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/</link>

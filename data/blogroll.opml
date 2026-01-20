@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Mon, 19 Jan 2026 15:15:21 GMT</dateCreated>
-    <dateModified>Mon, 19 Jan 2026 15:15:21 GMT</dateModified>
+    <dateCreated>Tue, 20 Jan 2026 20:44:30 GMT</dateCreated>
+    <dateModified>Tue, 20 Jan 2026 20:44:30 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -39,6 +39,19 @@ Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" cre
 9/ The workforce impact is foggy. 32% expect cuts, 13% expect growth, everyone else is guessing.
 
 10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
+    </outline>
+    <outline text="2026" title="2026">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
+      <outline type="link" text="Corporate Ladders, AI Reshuffled" title="Corporate Ladders, AI Reshuffled" url="https://www.youtube.com/watch?v=NCwEw7pI7JY" htmlUrl="https://www.youtube.com/watch?v=NCwEw7pI7JY" description="AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  
+
+How can companies and workers adapt to ensure that career growth is still possible despite disruptions?" created="Tue, 20 Jan 2026 20:33:03 GMT" category="video,youtube,wef,2026,workforce" />
+      <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
+
+As alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?
+
+" created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
     </outline>
     <outline text="39c3" title="39c3">
       <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
@@ -176,6 +189,14 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
       <outline type="link" text="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." title="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." url="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" htmlUrl="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" description="LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional." created="Sun, 19 Oct 2025 10:04:21 GMT" category="agi,llm,ethics,code" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
+      <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
+
+As alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?
+
+" created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
       <outline type="link" text="AI and the Corporate Capture of Knowledge - Schneier on Security" title="AI and the Corporate Capture of Knowledge - Schneier on Security" url="https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html" htmlUrl="https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html" description="More than a decade after Aaron Swartz’s death, the United States is still living inside the contradiction that destroyed him.
 
 Swartz believed that knowledge, especially publicly funded knowledge, should be freely accessible. Acting on that, he downloaded thousands of academic articles from the JSTOR archive with the intention of making them publicly available. For this, the federal government charged him with a felony and threatened decades in prison. After two years of prosecutorial pressure, Swartz died by suicide on Jan. 11, 2013.
@@ -711,6 +732,11 @@ Animals and fungi, the two multicellular respiratory (in this context, as oppose
     <outline text="bootleg" title="bootleg">
       <outline type="link" text="a Clock" title="a Clock" url="https://www.aclock.live/" htmlUrl="https://www.aclock.live/" created="Sun, 21 Sep 2025 01:50:26 GMT" category="art,clock,time,copyright,bootleg" />
     </outline>
+    <outline text="borders" title="borders">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
+    </outline>
     <outline text="botany" title="botany">
       <outline type="link" text="Root System Drawings" title="Root System Drawings" url="https://images.wur.nl/digital/collection/coll13/search" htmlUrl="https://images.wur.nl/digital/collection/coll13/search" description="Browsing items in: Root System Drawings" created="Sat, 18 Oct 2025 14:21:01 GMT" category="root,system,plants,botany,collection,drawing" />
     </outline>
@@ -1137,6 +1163,9 @@ The setup for this framing appears here:
 If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="data" title="data">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
       <outline type="link" text="What to know about a recent Mixpanel security incident" title="What to know about a recent Mixpanel security incident" url="https://openai.com/index/mixpanel-incident/" htmlUrl="https://openai.com/index/mixpanel-incident/" description="Transparency is important to us, (ED NOTE: SO WE ARE DROPPIN GTHIS AT MIDNIGHT ON THANKSGIVING EVE.) so we want to inform you about a recent security incident at Mixpanel, a data analytics provider OpenAI used for web analytics on the frontend interface for our API product (platform.openai.com⁠(opens in a new window)). 
 
 The incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted." created="Thu, 27 Nov 2025 14:27:04 GMT" category="openai,security,data,breach,incident. coms,ethics" />
@@ -1147,6 +1176,13 @@ The incident occurred within Mixpanel’s systems and involved limited analytics
 “Introducing new procedural tools requires acceptance and a change of mindset.”
 
 In this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained." created="Fri, 24 Oct 2025 11:40:24 GMT" category="ai,data-science,machine-learning" />
+    </outline>
+    <outline text="datacenters" title="datacenters">
+      <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
+
+As alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?
+
+" created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
     </outline>
     <outline text="dataviz" title="dataviz">
       <outline type="link" text="LLM Visualization" title="LLM Visualization" url="https://bbycroft.net/llm" htmlUrl="https://bbycroft.net/llm" created="Sun, 07 Sep 2025 00:05:43 GMT" category="llm,learning,visualization,dataviz" />
@@ -1326,6 +1362,11 @@ Palantir’s CEO compared me to [bad actors] because of an imagined billion-doll
       <outline type="link" text="cr.yp.to: 2025.11.23: NSA and IETF, part 2" title="cr.yp.to: 2025.11.23: NSA and IETF, part 2" url="https://blog.cr.yp.to/20251123-corruption.html" htmlUrl="https://blog.cr.yp.to/20251123-corruption.html" description="Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, overriding technical dissent, and exploiting the IETF&apos;s lack of &quot;balance of interest&quot; regulations." created="Sun, 23 Nov 2025 20:42:52 GMT" category="encryption,usa,nsa,ietf" />
     </outline>
     <outline text="energy" title="energy">
+      <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
+
+As alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?
+
+" created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
       <outline type="link" text="Genesis Mission" title="Genesis Mission" url="https://www.energy.gov/genesis" htmlUrl="https://www.energy.gov/genesis" description="Genesis Mission will develop an integrated platform that connects the world&apos;s best supercomputers, experimental facilities, AI systems, and unique datasets across every major scientific domain to double the productivity and impact of American research and innovation within a decade." created="Wed, 26 Nov 2025 11:13:26 GMT" category="gov,ai,energy,science,nuclear,fusion" />
     </outline>
     <outline text="entropy" title="entropy">
@@ -1781,6 +1822,9 @@ The Index measures where AI systems overlap with the skills used in each occupat
       <outline type="link" text="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" title="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" url="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" htmlUrl="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" created="Fri, 05 Sep 2025 10:30:00 GMT" category="influencers,brands,character-ai" />
     </outline>
     <outline text="infrastructure" title="infrastructure">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
       <outline type="link" text="Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back." title="Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back." url="https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back" htmlUrl="https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back" description="That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s at stake, why EFF opposes all forms of age verification, how to protect yourself, and how to join the fight for a free, open, private, and yes—safe—internet. 
 
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
@@ -2573,6 +2617,9 @@ The data show that the LLM ecosystem is structurally plural. No single model or 
 " created="Fri, 05 Dec 2025 02:11:27 GMT" category="llm,benchmark,ai,openrouter" />
     </outline>
     <outline text="opensource" title="opensource">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
       <outline type="link" text="China leapfrogs US in global market for ‘open’ AI models" title="China leapfrogs US in global market for ‘open’ AI models" url="https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41" htmlUrl="https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41" description="The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models. ----- China has overtaken the US in the global market for “open” artificial intelligence models, gaining a crucial edge over how the powerful technology is used around the world. A study by the Massachusetts Institute of Technology and open-source AI start-up Hugging Face found that the total share of downloads of new Chinese-made open models rose to 17 per cent in the past year. The figure surpasses the 15.8 per cent share of downloads from American developers such as Google, Meta and OpenAI — the first time Chinese groups have beaten their American counterparts. Open models — which are free to download, modify and integrate by developers — make it easier for start-ups to create products and researchers to improve them. Widespread adoption will confer outsized influence over AI’s future.
 " created="Wed, 26 Nov 2025 02:31:26 GMT" category="opensource,ai,cn,deepseek,open-models,adoption" />
       <outline type="link" text="Nuclear – Open Source Music Player (GitHub)" title="Nuclear – Open Source Music Player (GitHub)" url="https://github.com/nukeop/nuclear" htmlUrl="https://github.com/nukeop/nuclear" description="Streaming music player that finds free music for you" created="Sun, 19 Oct 2025 10:02:27 GMT" category="music,player,opensource" visits="1" />
@@ -3540,6 +3587,12 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
     </outline>
     <outline text="video" title="video">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
+      <outline type="link" text="Corporate Ladders, AI Reshuffled" title="Corporate Ladders, AI Reshuffled" url="https://www.youtube.com/watch?v=NCwEw7pI7JY" htmlUrl="https://www.youtube.com/watch?v=NCwEw7pI7JY" description="AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  
+
+How can companies and workers adapt to ensure that career growth is still possible despite disruptions?" created="Tue, 20 Jan 2026 20:33:03 GMT" category="video,youtube,wef,2026,workforce" />
       <outline type="link" text="We’re going to be friends Live at Rock &amp; Roll Hall Of Fame" title="We’re going to be friends Live at Rock &amp; Roll Hall Of Fame" url="https://www.youtube.com/watch?v=n-kZVmddPtY&amp;t=121s" htmlUrl="https://www.youtube.com/watch?v=n-kZVmddPtY&amp;t=121s" description="Olivia Rodrigo, FEIST duet" created="Mon, 12 Jan 2026 13:00:46 GMT" category="video,youtube,music,duet,rockhall" />
       <outline type="link" text="39C3: Power Cycles
 - media.ccc.de" title="39C3: Power Cycles
@@ -3585,7 +3638,25 @@ As part of the agreement, Disney will make a $1 billion equity investment in Ope
       <outline type="link" text="Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV" title="Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV" url="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/" htmlUrl="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/" created="Sat, 22 Nov 2025 00:06:22 GMT" category="wamo,google,maps,automotive,addressable-mark" />
     </outline>
     <outline text="water" title="water">
+      <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
+
+As alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?
+
+" created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
       <outline type="link" text="Deciphering complex coral reef soundscapes with spatial audio and 360° video" title="Deciphering complex coral reef soundscapes with spatial audio and 360° video" url="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149" htmlUrl="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149" description="We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings." created="Sat, 11 Oct 2025 18:20:40 GMT" category="audio,fish,water,recordings,paper" />
+    </outline>
+    <outline text="wef" title="wef">
+      <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
+      <outline type="link" text="Corporate Ladders, AI Reshuffled" title="Corporate Ladders, AI Reshuffled" url="https://www.youtube.com/watch?v=NCwEw7pI7JY" htmlUrl="https://www.youtube.com/watch?v=NCwEw7pI7JY" description="AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  
+
+How can companies and workers adapt to ensure that career growth is still possible despite disruptions?" created="Tue, 20 Jan 2026 20:33:03 GMT" category="video,youtube,wef,2026,workforce" />
+      <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
+
+As alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?
+
+" created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
     </outline>
     <outline text="wellbeing" title="wellbeing">
       <outline type="link" text="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" title="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" url="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" htmlUrl="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" description="d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations" created="Sat, 22 Nov 2025 23:46:37 GMT" category="Smartphones,technology,mentalhealth,mind,health,wellbeing,childhood,youth,development" />
@@ -3600,6 +3671,9 @@ As part of the agreement, Disney will make a $1 billion equity investment in Ope
       <outline type="link" text="AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit." title="AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit." url="https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/" htmlUrl="https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/" description=" We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks." created="Sun, 09 Nov 2025 18:21:57 GMT" category="tasks,learning,knowledge,workflow,proficiency,machine-learning" />
     </outline>
     <outline text="workforce" title="workforce">
+      <outline type="link" text="Corporate Ladders, AI Reshuffled" title="Corporate Ladders, AI Reshuffled" url="https://www.youtube.com/watch?v=NCwEw7pI7JY" htmlUrl="https://www.youtube.com/watch?v=NCwEw7pI7JY" description="AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  
+
+How can companies and workers adapt to ensure that career growth is still possible despite disruptions?" created="Tue, 20 Jan 2026 20:33:03 GMT" category="video,youtube,wef,2026,workforce" />
       <outline type="link" text="What Workers Really Want from Artificial Intelligence | Stanford HAI" title="What Workers Really Want from Artificial Intelligence | Stanford HAI" url="https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence" htmlUrl="https://hai.stanford.edu/news/what-workers-really-want-from-artificial-intelligence" description="Here they found some interesting patterns. Their analysis suggests that current high-wage skills — such as data analysis and process monitoring — may diminish in value. In contrast, skills related to prioritizing and organizing work, training and teaching, and effective communication will grow in importance." created="Sat, 27 Dec 2025 15:24:28 GMT" category="ai,learning,workforce,automation,technology" />
       <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" description="/ 90% of companies “use AI,” but 67% are still stuck in pilot mode. 
 
@@ -3647,6 +3721,9 @@ We are excited to introduce Grok 4.1, which brings significant improvements to t
       <outline type="link" text="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" title="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" url="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" htmlUrl="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" description="d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations" created="Sat, 22 Nov 2025 23:46:37 GMT" category="Smartphones,technology,mentalhealth,mind,health,wellbeing,childhood,youth,development" />
     </outline>
     <outline text="youtube" title="youtube">
+      <outline type="link" text="Corporate Ladders, AI Reshuffled" title="Corporate Ladders, AI Reshuffled" url="https://www.youtube.com/watch?v=NCwEw7pI7JY" htmlUrl="https://www.youtube.com/watch?v=NCwEw7pI7JY" description="AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  
+
+How can companies and workers adapt to ensure that career growth is still possible despite disruptions?" created="Tue, 20 Jan 2026 20:33:03 GMT" category="video,youtube,wef,2026,workforce" />
       <outline type="link" text="We’re going to be friends Live at Rock &amp; Roll Hall Of Fame" title="We’re going to be friends Live at Rock &amp; Roll Hall Of Fame" url="https://www.youtube.com/watch?v=n-kZVmddPtY&amp;t=121s" htmlUrl="https://www.youtube.com/watch?v=n-kZVmddPtY&amp;t=121s" description="Olivia Rodrigo, FEIST duet" created="Mon, 12 Jan 2026 13:00:46 GMT" category="video,youtube,music,duet,rockhall" />
       <outline type="link" text="Aurora - Quiet Light, Pure Hearts - YouTube " title="Aurora - Quiet Light, Pure Hearts - YouTube " url="https://www.youtube.com/watch?v=IKdJkHffmns" htmlUrl="https://www.youtube.com/watch?v=IKdJkHffmns" description=" Aurora - Quiet Light, Pure Hearts (Quiet Light) 2025" created="Thu, 04 Dec 2025 20:18:46 GMT" category="music,2025,youtube" />
     </outline>

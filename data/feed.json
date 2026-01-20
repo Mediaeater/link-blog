@@ -15,6 +15,70 @@
   ],
   "items": [
     {
+      "id": "1768941795632",
+      "url": "https://www.youtube.com/watch?v=GRT2evXI8DY",
+      "title": "Digital Embassies for Sovereign AI",
+      "date_published": "2026-01-20T20:43:15.632Z",
+      "tags": [
+        "wef",
+        "video",
+        "opensource",
+        "2026",
+        "data",
+        "infrastructure",
+        "borders",
+        "ai"
+      ],
+      "content_text": "Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.\n\nThe Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide.",
+      "summary": "Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining contro...",
+      "content_html": "<blockquote>Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.\n\nThe Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide.</blockquote>\n<p><strong>Tags:</strong> wef, video, opensource, 2026, data, infrastructure, borders, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768941183914",
+      "url": "https://www.youtube.com/watch?v=NCwEw7pI7JY",
+      "title": "Corporate Ladders, AI Reshuffled",
+      "date_published": "2026-01-20T20:33:03.914Z",
+      "tags": [
+        "video",
+        "youtube",
+        "wef",
+        "2026",
+        "workforce"
+      ],
+      "content_text": "AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  \n\nHow can companies and workers adapt to ensure that career growth is still possible despite disruptions?",
+      "summary": "AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions th...",
+      "content_html": "<blockquote>AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  \n\nHow can companies and workers adapt to ensure that career growth is still possible despite disruptions?</blockquote>\n<p><strong>Tags:</strong> video, youtube, wef, 2026, workforce</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768941103140",
+      "url": "https://www.youtube.com/watch?v=GVFs_V8l5-E",
+      "title": "AI Power Play, No Referees - YouTube",
+      "date_published": "2026-01-20T20:31:43.140Z",
+      "tags": [
+        "ai",
+        "wef",
+        "2026",
+        "datacenters",
+        "energy",
+        "water"
+      ],
+      "content_text": "Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. \n\nAs alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?\n\n",
+      "summary": "Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. \n\nAs al...",
+      "content_html": "<blockquote>Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. \n\nAs alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?\n\n</blockquote>\n<p><strong>Tags:</strong> ai, wef, 2026, datacenters, energy, water</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1768820949645",
       "url": "https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/",
       "title": "Using Proxies to Hide Secrets from Claude Code - Formal",
