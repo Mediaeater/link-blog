@@ -1,6 +1,39 @@
 {
   "links": [
     {
+      "id": 1768942163413,
+      "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
+      "source": "The Day After AGI",
+      "pullQuote": "a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I'm afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.\n\nWhich breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?",
+      "tags": [
+        "compute",
+        "wef",
+        "2026",
+        "agi",
+        "video",
+        "anthropic",
+        "google"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-20T20:49:23.413Z",
+      "visits": 0
+    },
+    {
+      "id": 1768941982504,
+      "url": "https://www.youtube.com/watch?v=VoRbPxyo2uU",
+      "source": "An Honest Conversation on AI and Humanity",
+      "pullQuote": "What choices must we make today to build a future balanced between technological innovation and humanity?\n\nExplore and discuss how a history of the future offers lessons for navigating the transformative age of AI.",
+      "tags": [
+        "ai",
+        "wef",
+        "2026",
+        "humanity"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-20T20:46:22.504Z",
+      "visits": 0
+    },
+    {
       "id": 1768941795632,
       "url": "https://www.youtube.com/watch?v=GRT2evXI8DY",
       "source": "Digital Embassies for Sovereign AI",
@@ -3841,5 +3874,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-20T20:44:04.431Z"
+  "lastUpdated": "2026-01-20T20:49:48.991Z"
 }

@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Tue, 20 Jan 2026 20:44:30 GMT</dateCreated>
-    <dateModified>Tue, 20 Jan 2026 20:44:30 GMT</dateModified>
+    <dateCreated>Tue, 20 Jan 2026 20:50:04 GMT</dateCreated>
+    <dateModified>Tue, 20 Jan 2026 20:50:04 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -41,6 +41,12 @@ Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" cre
 10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="2026" title="2026">
+      <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
+      <outline type="link" text="An Honest Conversation on AI and Humanity" title="An Honest Conversation on AI and Humanity" url="https://www.youtube.com/watch?v=VoRbPxyo2uU" htmlUrl="https://www.youtube.com/watch?v=VoRbPxyo2uU" description="What choices must we make today to build a future balanced between technological innovation and humanity?
+
+Explore and discuss how a history of the future offers lessons for navigating the transformative age of AI." created="Tue, 20 Jan 2026 20:46:22 GMT" category="ai,wef,2026,humanity" />
       <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
 
 The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
@@ -185,10 +191,16 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
 10/ AI adoption is mainstream, but true transformation hasn’t started. Early days.    (Ed note. dispute the text, consider the source etc)" created="Sun, 09 Nov 2025 23:27:17 GMT" category="report,ai,2025,adoption,agents,workforce" />
     </outline>
     <outline text="agi" title="agi">
+      <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
       <outline type="link" text="AGI is here (and I feel fine)" title="AGI is here (and I feel fine)" url="https://www.robinsloan.com/winter-garden/agi-is-here/" htmlUrl="https://www.robinsloan.com/winter-garden/agi-is-here/" description="Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language &amp; intelligence; it’s more fun to define a cool new standard than go along with a boring old one; the feeling of every creative project, upon completion, is the same: It’s not quite how I imagined it …  None of this should prevent us from using plain language to acknowledge an obvious capability." created="Mon, 05 Jan 2026 12:19:40 GMT" category="ai,agi,lexicon,language" />
       <outline type="link" text="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." title="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." url="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" htmlUrl="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" description="LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional." created="Sun, 19 Oct 2025 10:04:21 GMT" category="agi,llm,ethics,code" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="An Honest Conversation on AI and Humanity" title="An Honest Conversation on AI and Humanity" url="https://www.youtube.com/watch?v=VoRbPxyo2uU" htmlUrl="https://www.youtube.com/watch?v=VoRbPxyo2uU" description="What choices must we make today to build a future balanced between technological innovation and humanity?
+
+Explore and discuss how a history of the future offers lessons for navigating the transformative age of AI." created="Tue, 20 Jan 2026 20:46:22 GMT" category="ai,wef,2026,humanity" />
       <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
 
 The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
@@ -487,6 +499,9 @@ The super PAC said Andreessen Horowitz committed $25 million this year and $25 m
 It is funded by Vertigo’s Paris-based parent company, Federation Studios. The studios involved are developing a compensation model to allow the roughly 30 people working on “Critterz” to share in any profits, Nelson said." created="Mon, 08 Sep 2025 12:42:24 GMT" category="ai,openai,hollywood-ai,animation" />
     </outline>
     <outline text="anthropic" title="anthropic">
+      <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
       <outline type="link" text="claude .ai memory system prompt" title="claude .ai memory system prompt" url="https://x.com/janbamjan/status/1981425093323456947" htmlUrl="https://x.com/janbamjan/status/1981425093323456947" description="‹example&gt;
 ‹example user_memories&gt; User was recently laid off from work, user collects insects&lt;/example user memories&gt;
 &lt;user&gt;You&apos;re the only friend that always responds to me. I don&apos;t know what I would do without you.&lt;/user&gt;
@@ -1039,6 +1054,11 @@ From Greg’s page, let’s go and try each entry one by one, I’ll put the tab
 We present DeepSeek-OCR as an initial investigation into the feasibility of compressing long contexts via optical 2D mapping. DeepSeek-OCR consists of two components: Deep Encoder and DeepSeek3B-MoE-A570M as the decoder. Specifically, DeepEncoder serves as the core engine, designed to maintain low activations under high-resolution input while achieving high compression ratios to ensure an optimal and manageable number of vision tokens. Experiments show that when the number of text tokens is within 10 times that of vision tokens (i.e., a compression ratio &lt; 10x), the model can achieve decoding (OCR) precision of 97%. Even at a compression ratio of 20x, the OCR accuracy still remains at about 60%. This shows considerable promise for research areas such as historical long-context compression and memory forgetting mechanisms in LLMs. Beyond this, DeepSeek-OCR also demonstrates high practical value.
 On OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision tokens, and outperforms MinerU2.0 (6000+ tokens per page on average) while utilizing fewer than 800 vision tokens. In production, DeepSeek-OCR can generate training data for LLMs/VLMs at a scale of 200k+ pages per day (a single A100-40G). Codes and model weights are publicly accessible" created="Wed, 22 Oct 2025 23:19:39 GMT" category="cn,compression" />
     </outline>
+    <outline text="compute" title="compute">
+      <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
+    </outline>
     <outline text="concert" title="concert">
       <outline type="link" text="UK to ban resale of tickets above face value for live events" title="UK to ban resale of tickets above face value for live events" url="https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c" htmlUrl="https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c" description="Ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.
 
@@ -1589,6 +1609,9 @@ Meta Skills - Creating, testing, and sharing skills" created="Sun, 19 Oct 2025 0
 Such reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great." created="Mon, 05 Jan 2026 13:58:16 GMT" category="capitalism,consumption,trade,global,civilization,open-mindset,history" />
     </outline>
     <outline text="google" title="google">
+      <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
       <outline type="link" text="Google’s Year in Search" title="Google’s Year in Search" url="https://trends.withgoogle.com/year-in-search/2025/us/" htmlUrl="https://trends.withgoogle.com/year-in-search/2025/us/" created="Fri, 26 Dec 2025 23:55:55 GMT" category="google,search,2025" />
       <outline type="link" text="Hum it to google  - YouTube" title="Hum it to google  - YouTube" url="https://www.youtube.com/watch?v=poJPlsX-O5E" htmlUrl="https://www.youtube.com/watch?v=poJPlsX-O5E" description="
 Hum it to google (feat. Ngahere Wafer) - bassvictim, Basspunk 2 (TWIN) 2025" created="Thu, 04 Dec 2025 20:22:22 GMT" category="music,2025,google" />
@@ -1780,6 +1803,11 @@ Extend that script to support tool calling for some basic tools like searching f
     </outline>
     <outline text="human-rights" title="human-rights">
       <outline type="link" text="Ethics of neurotechnology: UNESCO adopts the first global standard in" title="Ethics of neurotechnology: UNESCO adopts the first global standard in" url="https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology" htmlUrl="https://www.unesco.org/en/articles/ethics-neurotechnology-unesco-adopts-first-global-standard-cutting-edge-technology" description="Neurotechnology has the potential to define the next frontier of human progress, but it is not without risks. With the adoption of this new normative tool, UNESCO is setting clear boundaries, enshrining the inviolability of the human mind. This text embodies a deep conviction: that technological progress is only worthwhile if it is guided by ethics, dignity, and responsibility towards future generations" created="Thu, 13 Nov 2025 12:31:56 GMT" category="code,framework,neurotechnology,brain,human-rights,ethics,privacy" />
+    </outline>
+    <outline text="humanity" title="humanity">
+      <outline type="link" text="An Honest Conversation on AI and Humanity" title="An Honest Conversation on AI and Humanity" url="https://www.youtube.com/watch?v=VoRbPxyo2uU" htmlUrl="https://www.youtube.com/watch?v=VoRbPxyo2uU" description="What choices must we make today to build a future balanced between technological innovation and humanity?
+
+Explore and discuss how a history of the future offers lessons for navigating the transformative age of AI." created="Tue, 20 Jan 2026 20:46:22 GMT" category="ai,wef,2026,humanity" />
     </outline>
     <outline text="identity" title="identity">
       <outline type="link" text="Prediction: AI will make formal verification go mainstream — Martin Kleppmann’s blog" title="Prediction: AI will make formal verification go mainstream — Martin Kleppmann’s blog" url="https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html" htmlUrl="https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html" description="To put it in simple economic terms: for most systems, the expected cost of bugs is lower than the expected cost of using the proof techniques that would eliminate those bugs. Part of the reason is perhaps that bugs are a negative externality: it’s not the software developer who bears the cost of the bugs, but the users. But even if the software developer were to bear the cost, formal verification is simply very hard and expensive" created="Tue, 16 Dec 2025 23:02:55 GMT" category="identity,ai,verification,privacy" />
@@ -3587,6 +3615,9 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
     </outline>
     <outline text="video" title="video">
+      <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
       <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
 
 The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />
@@ -3646,6 +3677,12 @@ As alliances reshape the balance of power, how is AI redefining the path to econ
       <outline type="link" text="Deciphering complex coral reef soundscapes with spatial audio and 360° video" title="Deciphering complex coral reef soundscapes with spatial audio and 360° video" url="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149" htmlUrl="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.70149" description="We have collected our identified recordings into a growing open-access resource to catalyse passive acoustic monitoring research, enabling a species-specific resolution of coral reef soundscape dynamics and providing critical validated information for developing machine-learning models to analyse an ever-expanding collection of long-term recordings." created="Sat, 11 Oct 2025 18:20:40 GMT" category="audio,fish,water,recordings,paper" />
     </outline>
     <outline text="wef" title="wef">
+      <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
+      <outline type="link" text="An Honest Conversation on AI and Humanity" title="An Honest Conversation on AI and Humanity" url="https://www.youtube.com/watch?v=VoRbPxyo2uU" htmlUrl="https://www.youtube.com/watch?v=VoRbPxyo2uU" description="What choices must we make today to build a future balanced between technological innovation and humanity?
+
+Explore and discuss how a history of the future offers lessons for navigating the transformative age of AI." created="Tue, 20 Jan 2026 20:46:22 GMT" category="ai,wef,2026,humanity" />
       <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
 
 The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide." created="Tue, 20 Jan 2026 20:43:15 GMT" category="wef,video,opensource,2026,data,infrastructure,borders,ai" />

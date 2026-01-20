@@ -15,6 +15,47 @@
   ],
   "items": [
     {
+      "id": "1768942163413",
+      "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
+      "title": "The Day After AGI",
+      "date_published": "2026-01-20T20:49:23.413Z",
+      "tags": [
+        "compute",
+        "wef",
+        "2026",
+        "agi",
+        "video",
+        "anthropic",
+        "google"
+      ],
+      "content_text": "a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I'm afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.\n\nWhich breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?",
+      "summary": "a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I'm afraid got most A credible pathway to artificial general intelli...",
+      "content_html": "<blockquote>a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&#039;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.\n\nWhich breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?</blockquote>\n<p><strong>Tags:</strong> compute, wef, 2026, agi, video, anthropic, google</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768941982504",
+      "url": "https://www.youtube.com/watch?v=VoRbPxyo2uU",
+      "title": "An Honest Conversation on AI and Humanity",
+      "date_published": "2026-01-20T20:46:22.504Z",
+      "tags": [
+        "ai",
+        "wef",
+        "2026",
+        "humanity"
+      ],
+      "content_text": "What choices must we make today to build a future balanced between technological innovation and humanity?\n\nExplore and discuss how a history of the future offers lessons for navigating the transformative age of AI.",
+      "summary": "What choices must we make today to build a future balanced between technological innovation and humanity?\n\nExplore and discuss how a history of the fu...",
+      "content_html": "<blockquote>What choices must we make today to build a future balanced between technological innovation and humanity?\n\nExplore and discuss how a history of the future offers lessons for navigating the transformative age of AI.</blockquote>\n<p><strong>Tags:</strong> ai, wef, 2026, humanity</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1768941795632",
       "url": "https://www.youtube.com/watch?v=GRT2evXI8DY",
       "title": "Digital Embassies for Sovereign AI",

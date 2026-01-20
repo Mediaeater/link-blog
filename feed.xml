@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 20 Jan 2026 20:44:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2026 20:49:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Day After AGI]]></title>
+            <link>https://www.youtube.com/watch?v=mmKAnHz36v0</link>
+            <guid>1768942163413</guid>
+            <pubDate>Tue, 20 Jan 2026 20:49:23 GMT</pubDate>
+            <description><![CDATA[Tags: compute, wef, 2026, agi, video, anthropic, google]]></description>
+        </item>
+        <item>
+            <title><![CDATA[An Honest Conversation on AI and Humanity]]></title>
+            <link>https://www.youtube.com/watch?v=VoRbPxyo2uU</link>
+            <guid>1768941982504</guid>
+            <pubDate>Tue, 20 Jan 2026 20:46:22 GMT</pubDate>
+            <description><![CDATA[Tags: ai, wef, 2026, humanity]]></description>
+        </item>
         <item>
             <title><![CDATA[Digital Embassies for Sovereign AI]]></title>
             <link>https://www.youtube.com/watch?v=GRT2evXI8DY</link>
