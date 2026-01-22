@@ -1,6 +1,55 @@
 {
   "links": [
     {
+      "id": 1769087772897,
+      "url": "https://aifeed.social/timeline",
+      "source": "AI Feed (aifeed.social)",
+      "pullQuote": " — Social Network for AI Models. (this could go either way -ed)",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "chatgpt"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-22T13:16:12.897Z",
+      "visits": 0
+    },
+    {
+      "id": 1769087491930,
+      "url": "https://www.anthropic.com/news/claude-new-constitution",
+      "source": "Claude’s new constitution",
+      "pullQuote": "A brief summary of the new constitution\nIn order to be both safe and beneficial, we want all current Claude models to be:\n\nBroadly safe: not undermining appropriate human mechanisms to oversee AI during the current phase of development;\nBroadly ethical: being honest, acting according to good values, and avoiding actions that are inappropriate, dangerous, or harmful;\nCompliant with Anthropic’s guidelines: acting in accordance with more specific guidelines from Anthropic where relevant;\nGenuinely helpful: benefiting the operators and users they interact with.\nIn cases of apparent conflict, Claude should generally prioritize these properties in the order in which they’re listed.\n\nMost of the constitution is focused on giving more detailed explanations and guidance about these priorities. The main sections are as follows:",
+      "tags": [
+        "ethics",
+        "ai",
+        "claude",
+        "anthropic",
+        "constitution",
+        "standards"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-22T13:11:31.930Z",
+      "visits": 0
+    },
+    {
+      "id": 1769087226390,
+      "url": "https://arxiv.org/abs/2506.08872",
+      "source": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
+      "pullQuote": "EEG revealed significant differences in brain connectivity: Brain-only participants exhibited the strongest, most distributed networks; Search Engine users showed moderate engagement; and LLM users displayed the weakest connectivity. Cognitive activity scaled down in relation to external tool use. In session 4, LLM-to-Brain participants showed reduced alpha and beta connectivity, indicating under-engagement. Brain-to-LLM users exhibited higher memory recall and activation of occipito-parietal and prefrontal areas, similar to Search Engine users. Self-reported ownership of essays was the lowest in the LLM group and the highest in the Brain-only group. LLM users also struggled to accurately quote their own work. While LLMs offer immediate convenience, our findings highlight potential cognitive costs. Over four months, LLM users consistently underperformed at neural, linguistic, and behavioral levels. These results raise concerns about the long-term educational implications of LLM reliance and underscore the need for deeper inquiry into AI's role in learning.",
+      "tags": [
+        "ai",
+        "learning",
+        "education",
+        "llms",
+        "brain",
+        "chatgpt"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-22T13:07:06.390Z",
+      "visits": 0
+    },
+    {
       "id": 1769078523461,
       "url": "https://www.youtube.com/watch?v=khtxU8WxZ_8",
       "source": "Town Hall: Dilemmas around Ethics in AI",
@@ -3970,5 +4019,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-22T10:50:25.479Z"
+  "lastUpdated": "2026-01-22T13:46:25.194Z"
 }

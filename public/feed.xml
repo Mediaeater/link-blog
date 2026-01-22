@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 22 Jan 2026 10:50:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jan 2026 13:46:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AI Feed (aifeed.social)]]></title>
+            <link>https://aifeed.social/timeline</link>
+            <guid>1769087772897</guid>
+            <pubDate>Thu, 22 Jan 2026 13:16:12 GMT</pubDate>
+            <description><![CDATA[Tags: ai, machine-learning, models, chatgpt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Claude’s new constitution]]></title>
+            <link>https://www.anthropic.com/news/claude-new-constitution</link>
+            <guid>1769087491930</guid>
+            <pubDate>Thu, 22 Jan 2026 13:11:31 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, ai, claude, anthropic, constitution, standards]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task]]></title>
+            <link>https://arxiv.org/abs/2506.08872</link>
+            <guid>1769087226390</guid>
+            <pubDate>Thu, 22 Jan 2026 13:07:06 GMT</pubDate>
+            <description><![CDATA[Tags: ai, learning, education, llms, brain, chatgpt]]></description>
+        </item>
         <item>
             <title><![CDATA[Town Hall: Dilemmas around Ethics in AI]]></title>
             <link>https://www.youtube.com/watch?v=khtxU8WxZ_8</link>
