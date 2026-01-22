@@ -4,10 +4,52 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 20 Jan 2026 20:49:48 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jan 2026 10:50:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Town Hall: Dilemmas around Ethics in AI]]></title>
+            <link>https://www.youtube.com/watch?v=khtxU8WxZ_8</link>
+            <guid>1769078523461</guid>
+            <pubDate>Thu, 22 Jan 2026 10:42:03 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ethics, video, wef, 2026]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Converging Technologies to Win - YouTube]]></title>
+            <link>https://www.youtube.com/watch?v=k2cE3Qa5bCQ</link>
+            <guid>1769078489163</guid>
+            <pubDate>Thu, 22 Jan 2026 10:41:29 GMT</pubDate>
+            <description><![CDATA[Tags: video, wef, 2026, ai, technology]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ Next Phase of Intelligence  ]]></title>
+            <link>https://www.youtube.com/watch?v=MdGnCIl-_hU</link>
+            <guid>1769001791763</guid>
+            <pubDate>Wed, 21 Jan 2026 13:23:11 GMT</pubDate>
+            <description><![CDATA[Tags: ai, intelligence, cn, wef, video, 2026]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Building AI for the Long Term - YouTube]]></title>
+            <link>https://www.youtube.com/watch?v=34WoOp1EEfo</link>
+            <guid>1769000638841</guid>
+            <pubDate>Wed, 21 Jan 2026 13:03:58 GMT</pubDate>
+            <description><![CDATA[Tags: video, ai, scale, ruthless-adoption, compute, openai, advertising]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mechanistic Interpretability]]></title>
+            <link>https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J</link>
+            <guid>1768942332372</guid>
+            <pubDate>Tue, 20 Jan 2026 20:52:12 GMT</pubDate>
+            <description><![CDATA[Tags: ai, weights, interpretability, audit]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mechanistic Interpretability]]></title>
+            <link>https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J</link>
+            <guid>1768942322078</guid>
+            <pubDate>Tue, 20 Jan 2026 20:52:02 GMT</pubDate>
+            <description><![CDATA[Tags: ai, weights, interpretability]]></description>
+        </item>
         <item>
             <title><![CDATA[The Day After AGI]]></title>
             <link>https://www.youtube.com/watch?v=mmKAnHz36v0</link>

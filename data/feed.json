@@ -15,6 +15,126 @@
   ],
   "items": [
     {
+      "id": "1769078523461",
+      "url": "https://www.youtube.com/watch?v=khtxU8WxZ_8",
+      "title": "Town Hall: Dilemmas around Ethics in AI",
+      "date_published": "2026-01-22T10:42:03.461Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "video",
+        "wef",
+        "2026"
+      ],
+      "content_text": "As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. \n\nHow can humanity navigate the promises and perils of AI, and what values should define us in an age of advanced artificial intelligence?\n\n",
+      "summary": "As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. \n\nHow c...",
+      "content_html": "<blockquote>As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. \n\nHow can humanity navigate the promises and perils of AI, and what values should define us in an age of advanced artificial intelligence?\n\n</blockquote>\n<p><strong>Tags:</strong> ai, ethics, video, wef, 2026</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769078489163",
+      "url": "https://www.youtube.com/watch?v=k2cE3Qa5bCQ",
+      "title": "Converging Technologies to Win - YouTube",
+      "date_published": "2026-01-22T10:41:29.163Z",
+      "tags": [
+        "video",
+        "wef",
+        "2026",
+        "ai",
+        "technology"
+      ],
+      "content_text": "The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent industrial strategies. While AI dominates headlines, it is its interplay with advanced technologies such as compute, robotics, materials and energy that will decide which countries can scale and sustain future growth.\n\nWhat capabilities and governance structures must countries build for (re)industrialization and resilience?",
+      "summary": "The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent...",
+      "content_html": "<blockquote>The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent industrial strategies. While AI dominates headlines, it is its interplay with advanced technologies such as compute, robotics, materials and energy that will decide which countries can scale and sustain future growth.\n\nWhat capabilities and governance structures must countries build for (re)industrialization and resilience?</blockquote>\n<p><strong>Tags:</strong> video, wef, 2026, ai, technology</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769001791763",
+      "url": "https://www.youtube.com/watch?v=MdGnCIl-_hU",
+      "title": " Next Phase of Intelligence  ",
+      "date_published": "2026-01-21T13:23:11.763Z",
+      "tags": [
+        "ai",
+        "intelligence",
+        "cn",
+        "wef",
+        "video",
+        "2026"
+      ],
+      "content_text": "AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026",
+      "summary": "AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale...",
+      "content_html": "<blockquote>AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026</blockquote>\n<p><strong>Tags:</strong> ai, intelligence, cn, wef, video, 2026</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769000638841",
+      "url": "https://www.youtube.com/watch?v=34WoOp1EEfo",
+      "title": "Building AI for the Long Term - YouTube",
+      "date_published": "2026-01-21T13:03:58.841Z",
+      "tags": [
+        "video",
+        "ai",
+        "scale",
+        "ruthless-adoption",
+        "compute",
+        "openai",
+        "advertising"
+      ],
+      "content_text": "AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. As the boom demands more capital, technological considerations are giving way to economic ones. ",
+      "summary": "AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. ...",
+      "content_html": "<blockquote>AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. As the boom demands more capital, technological considerations are giving way to economic ones. </blockquote>\n<p><strong>Tags:</strong> video, ai, scale, ruthless-adoption, compute, openai, advertising</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768942332372",
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "title": "Mechanistic Interpretability",
+      "date_published": "2026-01-20T20:52:12.372Z",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability",
+        "audit"
+      ],
+      "content_text": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "summary": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human...",
+      "content_html": "<blockquote>MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code</blockquote>\n<p><strong>Tags:</strong> ai, weights, interpretability, audit</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768942322078",
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "title": "Mechanistic Interpretability",
+      "date_published": "2026-01-20T20:52:02.078Z",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability"
+      ],
+      "content_text": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "summary": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human...",
+      "content_html": "<blockquote>MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code</blockquote>\n<p><strong>Tags:</strong> ai, weights, interpretability</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1768942163413",
       "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
       "title": "The Day After AGI",

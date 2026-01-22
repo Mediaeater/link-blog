@@ -1,6 +1,102 @@
 {
   "links": [
     {
+      "id": 1769078523461,
+      "url": "https://www.youtube.com/watch?v=khtxU8WxZ_8",
+      "source": "Town Hall: Dilemmas around Ethics in AI",
+      "pullQuote": "As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. \n\nHow can humanity navigate the promises and perils of AI, and what values should define us in an age of advanced artificial intelligence?\n\n",
+      "tags": [
+        "ai",
+        "ethics",
+        "video",
+        "wef",
+        "2026"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-22T10:42:03.461Z",
+      "visits": 0
+    },
+    {
+      "id": 1769078489163,
+      "url": "https://www.youtube.com/watch?v=k2cE3Qa5bCQ",
+      "source": "Converging Technologies to Win - YouTube",
+      "pullQuote": "The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent industrial strategies. While AI dominates headlines, it is its interplay with advanced technologies such as compute, robotics, materials and energy that will decide which countries can scale and sustain future growth.\n\nWhat capabilities and governance structures must countries build for (re)industrialization and resilience?",
+      "tags": [
+        "video",
+        "wef",
+        "2026",
+        "ai",
+        "technology"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-22T10:41:29.163Z",
+      "visits": 0
+    },
+    {
+      "id": 1769001791763,
+      "url": "https://www.youtube.com/watch?v=MdGnCIl-_hU",
+      "source": " Next Phase of Intelligence  ",
+      "pullQuote": "AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026",
+      "tags": [
+        "ai",
+        "intelligence",
+        "cn",
+        "wef",
+        "video",
+        "2026"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-21T13:23:11.763Z",
+      "visits": 0
+    },
+    {
+      "id": 1769000638841,
+      "url": "https://www.youtube.com/watch?v=34WoOp1EEfo",
+      "source": "Building AI for the Long Term - YouTube",
+      "pullQuote": "AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. As the boom demands more capital, technological considerations are giving way to economic ones. ",
+      "tags": [
+        "video",
+        "ai",
+        "scale",
+        "ruthless-adoption",
+        "compute",
+        "openai",
+        "advertising"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-21T13:03:58.841Z",
+      "visits": 0
+    },
+    {
+      "id": 1768942332372,
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "source": "Mechanistic Interpretability",
+      "pullQuote": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability",
+        "audit"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-20T20:52:12.372Z",
+      "visits": 0
+    },
+    {
+      "id": 1768942322078,
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "source": "Mechanistic Interpretability",
+      "pullQuote": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-20T20:52:02.078Z",
+      "visits": 0
+    },
+    {
       "id": 1768942163413,
       "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
       "source": "The Day After AGI",
@@ -3874,5 +3970,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-20T20:49:48.991Z"
+  "lastUpdated": "2026-01-22T10:50:25.479Z"
 }
