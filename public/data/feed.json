@@ -15,6 +15,231 @@
   ],
   "items": [
     {
+      "id": "1769078523461",
+      "url": "https://www.youtube.com/watch?v=khtxU8WxZ_8",
+      "title": "Town Hall: Dilemmas around Ethics in AI",
+      "date_published": "2026-01-22T10:42:03.461Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "video",
+        "wef",
+        "2026"
+      ],
+      "content_text": "As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. \n\nHow can humanity navigate the promises and perils of AI, and what values should define us in an age of advanced artificial intelligence?\n\n",
+      "summary": "As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. \n\nHow c...",
+      "content_html": "<blockquote>As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. \n\nHow can humanity navigate the promises and perils of AI, and what values should define us in an age of advanced artificial intelligence?\n\n</blockquote>\n<p><strong>Tags:</strong> ai, ethics, video, wef, 2026</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769078489163",
+      "url": "https://www.youtube.com/watch?v=k2cE3Qa5bCQ",
+      "title": "Converging Technologies to Win - YouTube",
+      "date_published": "2026-01-22T10:41:29.163Z",
+      "tags": [
+        "video",
+        "wef",
+        "2026",
+        "ai",
+        "technology"
+      ],
+      "content_text": "The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent industrial strategies. While AI dominates headlines, it is its interplay with advanced technologies such as compute, robotics, materials and energy that will decide which countries can scale and sustain future growth.\n\nWhat capabilities and governance structures must countries build for (re)industrialization and resilience?",
+      "summary": "The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent...",
+      "content_html": "<blockquote>The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent industrial strategies. While AI dominates headlines, it is its interplay with advanced technologies such as compute, robotics, materials and energy that will decide which countries can scale and sustain future growth.\n\nWhat capabilities and governance structures must countries build for (re)industrialization and resilience?</blockquote>\n<p><strong>Tags:</strong> video, wef, 2026, ai, technology</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769001791763",
+      "url": "https://www.youtube.com/watch?v=MdGnCIl-_hU",
+      "title": " Next Phase of Intelligence  ",
+      "date_published": "2026-01-21T13:23:11.763Z",
+      "tags": [
+        "ai",
+        "intelligence",
+        "cn",
+        "wef",
+        "video",
+        "2026"
+      ],
+      "content_text": "AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026",
+      "summary": "AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale...",
+      "content_html": "<blockquote>AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026</blockquote>\n<p><strong>Tags:</strong> ai, intelligence, cn, wef, video, 2026</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769000638841",
+      "url": "https://www.youtube.com/watch?v=34WoOp1EEfo",
+      "title": "Building AI for the Long Term - YouTube",
+      "date_published": "2026-01-21T13:03:58.841Z",
+      "tags": [
+        "video",
+        "ai",
+        "scale",
+        "ruthless-adoption",
+        "compute",
+        "openai",
+        "advertising"
+      ],
+      "content_text": "AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. As the boom demands more capital, technological considerations are giving way to economic ones. ",
+      "summary": "AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. ...",
+      "content_html": "<blockquote>AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. As the boom demands more capital, technological considerations are giving way to economic ones. </blockquote>\n<p><strong>Tags:</strong> video, ai, scale, ruthless-adoption, compute, openai, advertising</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768942332372",
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "title": "Mechanistic Interpretability",
+      "date_published": "2026-01-20T20:52:12.372Z",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability",
+        "audit"
+      ],
+      "content_text": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "summary": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human...",
+      "content_html": "<blockquote>MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code</blockquote>\n<p><strong>Tags:</strong> ai, weights, interpretability, audit</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768942322078",
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "title": "Mechanistic Interpretability",
+      "date_published": "2026-01-20T20:52:02.078Z",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability"
+      ],
+      "content_text": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "summary": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human...",
+      "content_html": "<blockquote>MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code</blockquote>\n<p><strong>Tags:</strong> ai, weights, interpretability</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768942163413",
+      "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
+      "title": "The Day After AGI",
+      "date_published": "2026-01-20T20:49:23.413Z",
+      "tags": [
+        "compute",
+        "wef",
+        "2026",
+        "agi",
+        "video",
+        "anthropic",
+        "google"
+      ],
+      "content_text": "a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I'm afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.\n\nWhich breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?",
+      "summary": "a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I'm afraid got most A credible pathway to artificial general intelli...",
+      "content_html": "<blockquote>a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&#039;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.\n\nWhich breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?</blockquote>\n<p><strong>Tags:</strong> compute, wef, 2026, agi, video, anthropic, google</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768941982504",
+      "url": "https://www.youtube.com/watch?v=VoRbPxyo2uU",
+      "title": "An Honest Conversation on AI and Humanity",
+      "date_published": "2026-01-20T20:46:22.504Z",
+      "tags": [
+        "ai",
+        "wef",
+        "2026",
+        "humanity"
+      ],
+      "content_text": "What choices must we make today to build a future balanced between technological innovation and humanity?\n\nExplore and discuss how a history of the future offers lessons for navigating the transformative age of AI.",
+      "summary": "What choices must we make today to build a future balanced between technological innovation and humanity?\n\nExplore and discuss how a history of the fu...",
+      "content_html": "<blockquote>What choices must we make today to build a future balanced between technological innovation and humanity?\n\nExplore and discuss how a history of the future offers lessons for navigating the transformative age of AI.</blockquote>\n<p><strong>Tags:</strong> ai, wef, 2026, humanity</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768941795632",
+      "url": "https://www.youtube.com/watch?v=GRT2evXI8DY",
+      "title": "Digital Embassies for Sovereign AI",
+      "date_published": "2026-01-20T20:43:15.632Z",
+      "tags": [
+        "wef",
+        "video",
+        "opensource",
+        "2026",
+        "data",
+        "infrastructure",
+        "borders",
+        "ai"
+      ],
+      "content_text": "Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.\n\nThe Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide.",
+      "summary": "Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining contro...",
+      "content_html": "<blockquote>Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.\n\nThe Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide.</blockquote>\n<p><strong>Tags:</strong> wef, video, opensource, 2026, data, infrastructure, borders, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768941183914",
+      "url": "https://www.youtube.com/watch?v=NCwEw7pI7JY",
+      "title": "Corporate Ladders, AI Reshuffled",
+      "date_published": "2026-01-20T20:33:03.914Z",
+      "tags": [
+        "video",
+        "youtube",
+        "wef",
+        "2026",
+        "workforce"
+      ],
+      "content_text": "AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  \n\nHow can companies and workers adapt to ensure that career growth is still possible despite disruptions?",
+      "summary": "AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions th...",
+      "content_html": "<blockquote>AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  \n\nHow can companies and workers adapt to ensure that career growth is still possible despite disruptions?</blockquote>\n<p><strong>Tags:</strong> video, youtube, wef, 2026, workforce</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768941103140",
+      "url": "https://www.youtube.com/watch?v=GVFs_V8l5-E",
+      "title": "AI Power Play, No Referees - YouTube",
+      "date_published": "2026-01-20T20:31:43.140Z",
+      "tags": [
+        "ai",
+        "wef",
+        "2026",
+        "datacenters",
+        "energy",
+        "water"
+      ],
+      "content_text": "Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. \n\nAs alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?\n\n",
+      "summary": "Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. \n\nAs al...",
+      "content_html": "<blockquote>Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. \n\nAs alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?\n\n</blockquote>\n<p><strong>Tags:</strong> ai, wef, 2026, datacenters, energy, water</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1768820949645",
       "url": "https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/",
       "title": "Using Proxies to Hide Secrets from Claude Code - Formal",
