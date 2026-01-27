@@ -15,6 +15,88 @@
   ],
   "items": [
     {
+      "id": "1769516404893",
+      "url": "https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html",
+      "title": "The Constitutionality of Geofence Warrants - Schneier on Security",
+      "date_published": "2026-01-27T12:20:04.893Z",
+      "tags": [
+        "security",
+        "mobile",
+        "geo-fence",
+        "scotus",
+        "constitution",
+        "privacy",
+        "surveillance"
+      ],
+      "content_text": "The US Supreme Court is considering the constitutionality of geofence warrants.\n\nThe case centers on the trial of Okello Chatrie, a Virginia man who pleaded guilty to a 2019 robbery outside of Richmond and was sentenced to almost 12 years in prison for stealing $195,000 at gunpoint.\n\nPolice probing the crime found security camera footage showing a man on a cell phone near the credit union that was robbed and asked Google to produce anonymized location data near the robbery site so they could determine who committed the crime. They did so, providing police with subscriber data for three people, one of whom was Chatrie. Police then searched Chatrie’s home and allegedly surfaced a gun, almost $100,000 in cash and incriminating notes.\n\nChatrie’s appeal challenges the constitutionality of geofence warrants, arguing that they violate individuals’ Fourth Amendment rights protecting against unreasonable searches.",
+      "summary": "The US Supreme Court is considering the constitutionality of geofence warrants.\n\nThe case centers on the trial of Okello Chatrie, a Virginia man who p...",
+      "content_html": "<blockquote>The US Supreme Court is considering the constitutionality of geofence warrants.\n\nThe case centers on the trial of Okello Chatrie, a Virginia man who pleaded guilty to a 2019 robbery outside of Richmond and was sentenced to almost 12 years in prison for stealing $195,000 at gunpoint.\n\nPolice probing the crime found security camera footage showing a man on a cell phone near the credit union that was robbed and asked Google to produce anonymized location data near the robbery site so they could determine who committed the crime. They did so, providing police with subscriber data for three people, one of whom was Chatrie. Police then searched Chatrie’s home and allegedly surfaced a gun, almost $100,000 in cash and incriminating notes.\n\nChatrie’s appeal challenges the constitutionality of geofence warrants, arguing that they violate individuals’ Fourth Amendment rights protecting against unreasonable searches.</blockquote>\n<p><strong>Tags:</strong> security, mobile, geo-fence, scotus, constitution, privacy, surveillance</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769514807140",
+      "url": "https://www.wired.com/story/palantir-ice-dhs-alex-pretti-killing-workers-slack-minneapolis/",
+      "title": "Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti",
+      "date_published": "2026-01-27T11:53:27.140Z",
+      "tags": [
+        "surveillance",
+        "ethics",
+        "palantir",
+        "anti-american",
+        "surveillance-ai",
+        "government",
+        "data"
+      ],
+      "content_text": "“In my opinion ICE are the bad guys. I am not proud that the company I enjoy so much working for is part of this,” one worker wrote on Slack.\n",
+      "summary": "“In my opinion ICE are the bad guys. I am not proud that the company I enjoy so much working for is part of this,” one worker wrote on Slack.\n",
+      "content_html": "<blockquote>“In my opinion ICE are the bad guys. I am not proud that the company I enjoy so much working for is part of this,” one worker wrote on Slack.\n</blockquote>\n<p><strong>Tags:</strong> surveillance, ethics, palantir, anti-american, surveillance-ai, government, data</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769513839214",
+      "url": "https://x.com/karpathy/status/2015883857489522876",
+      "title": "A few random notes from claude coding quite a bit last few weeks",
+      "date_published": "2026-01-27T11:37:19.214Z",
+      "tags": [
+        "ai",
+        "coding",
+        "llms"
+      ],
+      "content_text": "Questions. A few of the questions on my mind:\n- What happens to the \"10X engineer\" - the ratio of productivity between the mean and the max engineer? It's quite possible that this grows *a lot*.\n- Armed with LLMs, do generalists increasingly outperform specialists? LLMs are a lot better at fill in the blanks (the micro) than grand strategy (the macro).\n- What does LLM coding feel like in the future? Is it like playing StarCraft? Playing Factorio? Playing music?\n- How much of society is bottlenecked by digital knowledge work?\n",
+      "summary": "Questions. A few of the questions on my mind:\n- What happens to the \"10X engineer\" - the ratio of productivity between the mean and the max engineer? ...",
+      "content_html": "<blockquote>Questions. A few of the questions on my mind:\n- What happens to the &quot;10X engineer&quot; - the ratio of productivity between the mean and the max engineer? It&#039;s quite possible that this grows *a lot*.\n- Armed with LLMs, do generalists increasingly outperform specialists? LLMs are a lot better at fill in the blanks (the micro) than grand strategy (the macro).\n- What does LLM coding feel like in the future? Is it like playing StarCraft? Playing Factorio? Playing music?\n- How much of society is bottlenecked by digital knowledge work?\n</blockquote>\n<p><strong>Tags:</strong> ai, coding, llms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769109251214",
+      "url": "https://linernotesxr.substack.com/p/when-music-stopped-mattering",
+      "title": "When Music Stopped Mattering",
+      "date_published": "2026-01-22T19:14:11.214Z",
+      "tags": [
+        "music",
+        "culture",
+        "collective-culture",
+        "society",
+        "community"
+      ],
+      "content_text": "There used to be albums everyone experienced together. Thriller. Nevermind. OK Computer. Collective moments where music was the beating heart of the zeitgeist.\n\nStreaming and algorithmic personalization shattered that. Now we inhabit our own taste bubbles. Every algorithm a unique echo chamber. Shared reference points lost.\n\nIt makes connecting with strangers harder and makes feeling part of something larger nearly impossible. Music that used to create community now often reflects existing isolation.",
+      "summary": "There used to be albums everyone experienced together. Thriller. Nevermind. OK Computer. Collective moments where music was the beating heart of the z...",
+      "content_html": "<blockquote>There used to be albums everyone experienced together. Thriller. Nevermind. OK Computer. Collective moments where music was the beating heart of the zeitgeist.\n\nStreaming and algorithmic personalization shattered that. Now we inhabit our own taste bubbles. Every algorithm a unique echo chamber. Shared reference points lost.\n\nIt makes connecting with strangers harder and makes feeling part of something larger nearly impossible. Music that used to create community now often reflects existing isolation.</blockquote>\n<p><strong>Tags:</strong> music, culture, collective-culture, society, community</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1769087772897",
       "url": "https://aifeed.social/timeline",
       "title": "AI Feed (aifeed.social)",
