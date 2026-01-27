@@ -1,6 +1,39 @@
 {
   "links": [
     {
+      "id": 1769522356743,
+      "url": "https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/",
+      "source": "How Silicon Valley built AI: Buying, scanning and discarding millions of books",
+      "pullQuote": " In early 2024, executives at artificial intelligence start-up Anthropic\n   ramped up an ambitious project they sought to keep quiet. \"Project\n   Panama is our effort to destructively scan all the books in the world,\"\n   an internal planning document unsealed in legal filings last week said.\n   \"We don't want it to be known that we are working on this.\"",
+      "tags": [
+        "ip",
+        "books",
+        "anthropic",
+        "wapo",
+        "copyright"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-27T13:59:16.743Z",
+      "visits": 0
+    },
+    {
+      "id": 1769517655551,
+      "url": "https://iceout.tech/",
+      "source": "Tech demands ICE out of our cities",
+      "pullQuote": "ech professionals are speaking up against this brutality, and we call on all our colleagues who share our values to use their voice. We know our industry leaders have leverage: in October, they persuaded Trump to call off a planned ICE surge in San Francisco, and big tech CEOs are in the White House tonight. Now they need to go further, and join us in demanding ICE out of all of our cities.\" ",
+      "tags": [
+        "python",
+        "analytics",
+        "data-science",
+        "ethics",
+        "protest",
+        "government"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-27T12:40:55.551Z",
+      "visits": 0
+    },
+    {
       "id": 1769516404893,
       "url": "https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html",
       "source": "The Constitutionality of Geofence Warrants - Schneier on Security",
@@ -4085,5 +4118,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-27T12:20:04.931Z"
+  "lastUpdated": "2026-01-27T13:59:16.785Z"
 }

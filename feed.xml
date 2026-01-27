@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 27 Jan 2026 12:20:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2026 13:59:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How Silicon Valley built AI: Buying, scanning and discarding millions of books]]></title>
+            <link>https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/</link>
+            <guid>1769522356743</guid>
+            <pubDate>Tue, 27 Jan 2026 13:59:16 GMT</pubDate>
+            <description><![CDATA[Tags: ip, books, anthropic, wapo, copyright]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Tech demands ICE out of our cities]]></title>
+            <link>https://iceout.tech/</link>
+            <guid>1769517655551</guid>
+            <pubDate>Tue, 27 Jan 2026 12:40:55 GMT</pubDate>
+            <description><![CDATA[Tags: python, analytics, data-science, ethics, protest, government]]></description>
+        </item>
         <item>
             <title><![CDATA[The Constitutionality of Geofence Warrants - Schneier on Security]]></title>
             <link>https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html</link>
