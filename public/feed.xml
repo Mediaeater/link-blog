@@ -4,10 +4,38 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 22 Jan 2026 13:46:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2026 12:20:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Constitutionality of Geofence Warrants - Schneier on Security]]></title>
+            <link>https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html</link>
+            <guid>1769516404893</guid>
+            <pubDate>Tue, 27 Jan 2026 12:20:04 GMT</pubDate>
+            <description><![CDATA[Tags: security, mobile, geo-fence, scotus, constitution, privacy, surveillance]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti]]></title>
+            <link>https://www.wired.com/story/palantir-ice-dhs-alex-pretti-killing-workers-slack-minneapolis/</link>
+            <guid>1769514807140</guid>
+            <pubDate>Tue, 27 Jan 2026 11:53:27 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, ethics, palantir, anti-american, surveillance-ai, government, data]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A few random notes from claude coding quite a bit last few weeks]]></title>
+            <link>https://x.com/karpathy/status/2015883857489522876</link>
+            <guid>1769513839214</guid>
+            <pubDate>Tue, 27 Jan 2026 11:37:19 GMT</pubDate>
+            <description><![CDATA[Tags: ai, coding, llms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[When Music Stopped Mattering]]></title>
+            <link>https://linernotesxr.substack.com/p/when-music-stopped-mattering</link>
+            <guid>1769109251214</guid>
+            <pubDate>Thu, 22 Jan 2026 19:14:11 GMT</pubDate>
+            <description><![CDATA[Tags: music, culture, collective-culture, society, community]]></description>
+        </item>
         <item>
             <title><![CDATA[AI Feed (aifeed.social)]]></title>
             <link>https://aifeed.social/timeline</link>
