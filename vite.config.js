@@ -28,6 +28,10 @@ export default defineConfig({
     assetsInlineLimit: 4096,
     copyPublicDir: true, // Ensure public files are copied
   },
+  test: {
+    environment: 'node',
+    include: ['tests/**/*.test.js'],
+  },
   resolve: {
     alias: {
       '@': '/src', // Shorten import paths

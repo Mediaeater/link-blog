@@ -302,8 +302,9 @@ app.get('/feed.json', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`
 🚀 Link Blog API Server running on http://localhost:${PORT}
 
    This server handles saving your links to the JSON files.
@@ -333,5 +334,11 @@ app.listen(PORT, () => {
 
    📦 Archive System: Links are automatically archived by year on save.
       Current year stays in links.json, older years move to archive/
-  `);
-});
+    `);
+  });
+}
+
+module.exports = app;
+module.exports.validateLink = validateLink;
+module.exports.fixLink = fixLink;
+module.exports.validateLinksPayload = validateLinksPayload;
