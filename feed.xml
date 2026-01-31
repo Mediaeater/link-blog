@@ -4,10 +4,52 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 31 Jan 2026 01:10:43 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 23:46:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Anish Kapoor to show some of his most ambitious projects—realised or not—in Venice]]></title>
+            <link>https://www.theartnewspaper.com/2026/01/28/anish-kapoor-to-show-some-of-his-most-ambitious-projectsrealised-or-notin-venice</link>
+            <guid>1769903166050</guid>
+            <pubDate>Sat, 31 Jan 2026 23:46:06 GMT</pubDate>
+            <description><![CDATA[Tags: art, space, anish_kapoor, venice, venice-biennale]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Outsourcing thinking – Erik Johannes Husom]]></title>
+            <link>https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html</link>
+            <guid>1769902897698</guid>
+            <pubDate>Sat, 31 Jan 2026 23:41:37 GMT</pubDate>
+            <description><![CDATA[Tags: ai, learning, thinking, tasks, knowledge, human, adapting, behavior]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Aesthetica Magazine - Between Words and Breath: <br> Gabrielle Goliath at MoMA PS1]]></title>
+            <link>https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/</link>
+            <guid>1769902678937</guid>
+            <pubDate>Sat, 31 Jan 2026 23:37:58 GMT</pubDate>
+            <description><![CDATA[Tags: video, art, gabrielle_goliath, moma, exhibition, global, violence]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The music industry’s cautious embrace of AI]]></title>
+            <link>https://www.ft.com/content/a6b657ef-1034-4748-92fd-e24b37fb726e?sharetype=blocked</link>
+            <guid>1769902153782</guid>
+            <pubDate>Sat, 31 Jan 2026 23:29:13 GMT</pubDate>
+            <description><![CDATA[Tags: ai, music, strategy, licensing, copyright, recordings, record-label]]></description>
+        </item>
+        <item>
+            <title><![CDATA[spectrum.ieee.org]]></title>
+            <link>https://spectrum.ieee.org/norway-ev-policy-electric-vehicles</link>
+            <guid>1769902022396</guid>
+            <pubDate>Sat, 31 Jan 2026 23:27:02 GMT</pubDate>
+            <description><![CDATA[Tags: automotive, transportation, environment, norway]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Social Media Agent Protocol]]></title>
+            <link>https://ativz.substack.com/p/social-media-agent-protocol</link>
+            <guid>1769901164558</guid>
+            <pubDate>Sat, 31 Jan 2026 23:12:44 GMT</pubDate>
+            <description><![CDATA[Tags: agents, security, opsec, ai]]></description>
+        </item>
         <item>
             <title><![CDATA[Introducing OpenClaw — OpenClaw Blog]]></title>
             <link>https://openclaw.ai/blog/introducing-openclaw</link>
