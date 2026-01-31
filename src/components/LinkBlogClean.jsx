@@ -17,7 +17,6 @@ import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 import { loadArchiveMetadata, loadArchiveYear } from '../utils/storage';
 import NewsTicker from './NewsTicker';
 import DigestPanel from './DigestPanel';
-import ArchivePanel from './ArchivePanel';
 
 const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
 const STORAGE_KEY = 'linkBlogData';
@@ -49,7 +48,6 @@ export default function LinkBlogClean() {
   const [isMinimalView, setIsMinimalView] = useState(false);
   const [archives, setArchives] = useState([]);
   const [loadedArchives, setLoadedArchives] = useState(new Set());
-  const [showArchivePanel, setShowArchivePanel] = useState(false);
   const [searchExpanded, setSearchExpanded] = useState(false);
   const [saveError, setSaveError] = useState(null);
   const [dataWarning, setDataWarning] = useState(null);
@@ -1027,12 +1025,6 @@ export default function LinkBlogClean() {
               </label>
 
               <DigestPanel />
-              <button
-                onClick={() => setShowArchivePanel(true)}
-                className="px-3 py-1.5 rounded text-sm font-medium bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600"
-              >
-                Archive
-              </button>
             </div>
 
             {/* Single Link Form */}
@@ -1561,9 +1553,6 @@ export default function LinkBlogClean() {
 
       {/* Times Square-style news ticker - landscape mobile or manual toggle */}
       <NewsTicker links={filteredAndSortedLinks} forceShow={showTicker} onClose={() => setShowTicker(false)} />
-
-      {/* Digest Archive Panel */}
-      <ArchivePanel isOpen={showArchivePanel} onClose={() => setShowArchivePanel(false)} />
     </div>
   );
 }
