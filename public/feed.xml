@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 27 Jan 2026 13:59:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 01:10:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing OpenClaw — OpenClaw Blog]]></title>
+            <link>https://openclaw.ai/blog/introducing-openclaw</link>
+            <guid>1769821843253</guid>
+            <pubDate>Sat, 31 Jan 2026 01:10:43 GMT</pubDate>
+            <description><![CDATA[Tags: agents, openclaw, platform, assitant]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How AI Impacts Skill Formation]]></title>
+            <link>https://arxiv.org/abs/2601.20245</link>
+            <guid>1769820932007</guid>
+            <pubDate>Sat, 31 Jan 2026 00:55:32 GMT</pubDate>
+            <description><![CDATA[Tags: ai, learning, harms, productivity]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Disempowerment patterns in real-world AI usage]]></title>
+            <link>https://www.anthropic.com/research/disempowerment-patterns</link>
+            <guid>1769820678732</guid>
+            <pubDate>Sat, 31 Jan 2026 00:51:18 GMT</pubDate>
+            <description><![CDATA[Tags: ai, agency, disempowerment, learning, anthropic]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How AI assistance impacts the formation of coding skills]]></title>
+            <link>https://www.anthropic.com/research/AI-assistance-coding-skills</link>
+            <guid>1769820580971</guid>
+            <pubDate>Sat, 31 Jan 2026 00:49:40 GMT</pubDate>
+            <description><![CDATA[Tags: anthropic, learning, agency, human]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Opinion | Young People Are Using A.I. to Skip the Hardest Part of Growing Up]]></title>
+            <link>https://www.nytimes.com/2026/01/30/opinion/ai-social-skills-relationships.html</link>
+            <guid>1769820522474</guid>
+            <pubDate>Sat, 31 Jan 2026 00:48:42 GMT</pubDate>
+            <description><![CDATA[Tags: ai, machine-learning, knowledge]]></description>
+        </item>
         <item>
             <title><![CDATA[How Silicon Valley built AI: Buying, scanning and discarding millions of books]]></title>
             <link>https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/</link>
