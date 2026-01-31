@@ -268,6 +268,53 @@ app.post('/api/digest/generate', async (req, res) => {
   }
 });
 
+// Digest archive endpoints
+app.get('/api/digests', async (req, res) => {
+  try {
+    const digestsPath = path.join(__dirname, 'data', 'digests.json');
+    const content = await fs.readFile(digestsPath, 'utf8');
+    const data = JSON.parse(content);
+    // Return digests with id > 0 (exclude the initial digest), sorted by date desc
+    const digests = data.digests
+      .filter(d => d.id > 0 && d.filename)
+      .map(d => ({
+        id: d.id,
+        timestamp: d.timestamp,
+        count: d.count,
+        filename: d.filename
+      }))
+      .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+    res.json({ digests });
+  } catch (error) {
+    console.error('Error reading digests:', error);
+    res.status(500).json({ error: 'Failed to read digests' });
+  }
+});
+
+app.get('/api/digest/:id', async (req, res) => {
+  try {
+    const digestId = parseInt(req.params.id);
+    const digestsPath = path.join(__dirname, 'data', 'digests.json');
+    const content = await fs.readFile(digestsPath, 'utf8');
+    const data = JSON.parse(content);
+    const digest = data.digests.find(d => d.id === digestId);
+    if (!digest || !digest.filename) {
+      return res.status(404).json({ error: 'Digest not found' });
+    }
+    const htmlPath = path.join(__dirname, 'data', 'digests', digest.filename);
+    const html = await fs.readFile(htmlPath, 'utf8');
+    res.json({
+      id: digest.id,
+      timestamp: digest.timestamp,
+      count: digest.count,
+      html
+    });
+  } catch (error) {
+    console.error('Error reading digest:', error);
+    res.status(500).json({ error: 'Failed to read digest' });
+  }
+});
+
 // RSS Feed endpoints
 app.get('/feed.xml', async (req, res) => {
   try {
