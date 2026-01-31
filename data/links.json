@@ -1,6 +1,81 @@
 {
   "links": [
     {
+      "id": 1769821843253,
+      "url": "https://openclaw.ai/blog/introducing-openclaw",
+      "source": "Introducing OpenClaw — OpenClaw Blog",
+      "pullQuote": "Two months ago, I hacked together a weekend project. What started as “WhatsApp Relay” now has over 100,000 GitHub stars and drew 2 million visitors in a single week.\n\nToday, I’m excited to announce our new name: OpenClaw.\n\n",
+      "tags": [
+        "agents",
+        "openclaw",
+        "platform",
+        "assitant"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T01:10:43.253Z",
+      "visits": 0
+    },
+    {
+      "id": 1769820932007,
+      "url": "https://arxiv.org/abs/2601.20245",
+      "source": "How AI Impacts Skill Formation",
+      "pullQuote": "AI assistance produces significant productivity gains across professional domains, particularly for novice workers. Yet how this assistance affects the development of skills required to effectively supervise AI remains unclear. Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process. We conduct randomized experiments to study how developers gained mastery of a new asynchronous programming library with and without the assistance of AI. We find that AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average. Participants who fully delegated coding tasks showed some productivity improvements, but at the cost of learning the library. We identify six distinct AI interaction patterns, three of which involve cognitive engagement and preserve learning outcomes even when participants receive AI assistance. Our findings suggest that AI-enhanced productivity is not a shortcut to competence and AI assistance should be carefully adopted into workflows to preserve skill formation -- particularly in safety-critical domains.",
+      "tags": [
+        "ai",
+        "learning",
+        "harms",
+        "productivity"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T00:55:32.007Z",
+      "visits": 0
+    },
+    {
+      "id": 1769820678732,
+      "url": "https://www.anthropic.com/research/disempowerment-patterns",
+      "source": "Disempowerment patterns in real-world AI usage",
+      "pullQuote": "In our dataset, which is made up of 1.5 million Claude.ai conversations, we find that the potential for severe disempowerment (which we define as when an AI's role in shaping a user's beliefs, values, or actions has become so extensive that their autonomous judgment is fundamentally compromised) occurs very rarely—in roughly 1 in 1,000 to 1 in 10,000 conversations, depending on the domain. However, given the sheer number of people who use AI, and how frequently it’s used, even a very low rate affects a substantial number of people.",
+      "tags": [
+        "ai",
+        "agency",
+        "disempowerment",
+        "learning",
+        "anthropic"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T00:51:18.732Z",
+      "visits": 0
+    },
+    {
+      "id": 1769820580971,
+      "url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "source": "How AI assistance impacts the formation of coding skills",
+      "pullQuote": "We found that using AI assistance led to a statistically significant decrease in mastery. On a quiz that covered concepts they’d used just a few minutes before, participants in the AI group scored 17% lower than those who coded by hand, or the equivalent of nearly two letter grades. Using AI sped up the task slightly, but this didn’t reach the threshold of statistical significance.",
+      "tags": [
+        "anthropic",
+        "learning",
+        "agency",
+        "human"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T00:49:40.971Z",
+      "visits": 0
+    },
+    {
+      "id": 1769820522474,
+      "url": "https://www.nytimes.com/2026/01/30/opinion/ai-social-skills-relationships.html",
+      "source": "Opinion | Young People Are Using A.I. to Skip the Hardest Part of Growing Up",
+      "pullQuote": "A generation gap has formed around A.I. use. One study found that 18-to-25-year-olds alone accounted for 46 percent of ChatGPT use. And this analysis didn’t even include users 17 and under.",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "knowledge"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T00:48:42.474Z",
+      "visits": 0
+    },
+    {
       "id": 1769522356743,
       "url": "https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/",
       "source": "How Silicon Valley built AI: Buying, scanning and discarding millions of books",
@@ -4118,5 +4193,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-27T13:59:16.785Z"
+  "lastUpdated": "2026-01-31T01:10:43.275Z"
 }
