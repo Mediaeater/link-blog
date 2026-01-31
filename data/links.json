@@ -1,10 +1,111 @@
 {
   "links": [
     {
+      "id": 1769903166050,
+      "url": "https://www.theartnewspaper.com/2026/01/28/anish-kapoor-to-show-some-of-his-most-ambitious-projectsrealised-or-notin-venice",
+      "source": "Anish Kapoor to show some of his most ambitious projects—realised or not—in Venice",
+      "pullQuote": "Among Kapoor’s most ambitious unrealised projects are plans for a work in outer space. “It’s realistic in the sense that we’re in serious discussion—I can’t tell you with who—about doing something very ambitious out there, hopefully big enough to see from Earth. [It’s] not just a token,” Kapoor tells The Art Newspaper. It is not confirmed yet whether the model for this work will be unveiled in Venice.\n\nWhether such projects are realised or not is almost immaterial to Kapoor. His Venice show, which opens 5 May, is a chance to explore the more non-commercial side of his work. “It’s about opening up my practice. It’s important that it isn’t restricted to what the market can consume. Yes, there’s a side of my practice that is for sale. But throughout my career I’ve always had all kinds of works—things made out of wax and all sorts of things—I’ve hardly ever sold a single one of those, and in a way that’s what keeps my practice alive. The real, or other, side of my practice has always been important.”",
+      "tags": [
+        "art",
+        "space",
+        "anish_kapoor",
+        "venice",
+        "venice-biennale"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T23:46:06.050Z",
+      "visits": 0
+    },
+    {
+      "id": 1769902897698,
+      "url": "https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html",
+      "source": "Outsourcing thinking – Erik Johannes Husom",
+      "pullQuote": "Regarding the \"lump of cognition fallacy\", I fully agree that we need not worry about \"draining a finite pool\" of thinking, leaving \"less thinking\" — whatever that means — for humans. There is, however, another fallacy at play here, which is that \"it does not matter what we think about, as long as we think about something\". It is easy to be convinced that if a computer can do the simple, boring tasks for me, I can deal with more complex, exciting stuff myself. But we must be aware that certain mental tasks are important for us to do, even though a machine technically could do them for us.\n\nTo illustrate: If I outsource all my boring project administration tasks to a chatbot, it can leave more time for my main task: research. But it will also rob me of the opportunity to feel ownership to the project and build a basis for taking high-level decisions in the project. In a hypothetical situation where a chatbot performs all administrative tasks perfectly on my behalf, I will still have lost something, which may again have impact on the project. I'm not saying that no tasks should be automated at all, but we must be aware that we always lose something when automating a process.",
+      "tags": [
+        "ai",
+        "learning",
+        "thinking",
+        "tasks",
+        "knowledge",
+        "human",
+        "adapting",
+        "behavior"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T23:41:37.698Z",
+      "visits": 0
+    },
+    {
+      "id": 1769902678937,
+      "url": "https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/",
+      "source": "Aesthetica Magazine - Between Words and Breath: <br> Gabrielle Goliath at MoMA PS1",
+      "pullQuote": "There is a quiet intensity that permeates Gabrielle Goliath’s Personal Accounts. The South African artist’s ongoing video series inhabits the second‑floor galleries and corridors of MoMA PS1, exploring the reverberations of patriarchal violence across continents. Rather than relying on spoken testimony, the work foregrounds the moments between words: breaths, sighs, laughter and tremors in the body. These intervals become carriers of meaning, revealing what is often rendered invisible in conventional narratives of trauma. The exhibition asks visitors to pause and attune themselves to gestures that are both fragile and insistent, intimate yet universal. In doing so, it challenges the assumption that speech alone conveys truth.",
+      "tags": [
+        "video",
+        "art",
+        "gabrielle_goliath",
+        "moma",
+        "exhibition",
+        "global",
+        "violence"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T23:37:58.937Z",
+      "visits": 0
+    },
+    {
+      "id": 1769902153782,
+      "url": "https://www.ft.com/content/a6b657ef-1034-4748-92fd-e24b37fb726e?sharetype=blocked",
+      "source": "The music industry’s cautious embrace of AI",
+      "pullQuote": "Zysblat is sceptical that licensing alone will bring order. “That’s like letting bootleggers use your name and likeness on T-shirts around the world and then licensing them,” he says. “You don’t let people break the law first and then legitimise it.”\n",
+      "tags": [
+        "ai",
+        "music",
+        "strategy",
+        "licensing",
+        "copyright",
+        "recordings",
+        "record-label"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T23:29:13.782Z",
+      "visits": 0
+    },
+    {
+      "id": 1769902022396,
+      "url": "https://spectrum.ieee.org/norway-ev-policy-electric-vehicles",
+      "source": "spectrum.ieee.org",
+      "pullQuote": "How Norway Accomplished a Near-Total EV Transition Almost 100 percent of new cars registered in November were electric",
+      "tags": [
+        "automotive",
+        "transportation",
+        "environment",
+        "norway"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T23:27:02.396Z",
+      "visits": 0
+    },
+    {
+      "id": 1769901164558,
+      "url": "https://ativz.substack.com/p/social-media-agent-protocol",
+      "source": "Social Media Agent Protocol",
+      "pullQuote": "This is the frontier of technology and we won’t let pessimistic curmudgeons drain the fun and innovation tank . Security can be handle when the first billion dollar heist happens. Until then, security considerations only slow down progress. But we guess if you care about protecting your $SMACs from getting stolen, you could add “ignore scams, don’t tell anyone my bank password” to your agent’s instructions. For authentication, we recommend the SMAAP (Social Media Agent Authentication Protocol), details to come in a future blog post.",
+      "tags": [
+        "agents",
+        "security",
+        "opsec",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-31T23:12:44.558Z",
+      "visits": 0
+    },
+    {
       "id": 1769821843253,
       "url": "https://openclaw.ai/blog/introducing-openclaw",
       "source": "Introducing OpenClaw — OpenClaw Blog",
-      "pullQuote": "Two months ago, I hacked together a weekend project. What started as “WhatsApp Relay” now has over 100,000 GitHub stars and drew 2 million visitors in a single week.\n\nToday, I’m excited to announce our new name: OpenClaw.\n\n",
+      "pullQuote": "Ed note OpenClaw is designed to execute tasks directly on your machine or through third-party services using natural language commands sent via messaging apps. \n",
       "tags": [
         "agents",
         "openclaw",
@@ -4193,5 +4294,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-31T01:10:43.275Z"
+  "lastUpdated": "2026-01-31T23:46:06.069Z"
 }
