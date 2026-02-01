@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1769905763509,
+      "url": "https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering",
+      "source": "What happens to the art market when humanity stops mattering?",
+      "pullQuote": "..unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”",
+      "tags": [
+        "humanity",
+        "culture",
+        "art",
+        "stephen_miller"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-01T00:29:23.509Z",
+      "visits": 0
+    },
+    {
       "id": 1769903166050,
       "url": "https://www.theartnewspaper.com/2026/01/28/anish-kapoor-to-show-some-of-his-most-ambitious-projectsrealised-or-notin-venice",
       "source": "Anish Kapoor to show some of his most ambitious projects—realised or not—in Venice",
@@ -4294,5 +4309,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-01-31T23:46:06.069Z"
+  "lastUpdated": "2026-02-01T00:29:57.376Z"
 }
