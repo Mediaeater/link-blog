@@ -4,10 +4,38 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 01 Feb 2026 00:29:57 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Feb 2026 15:15:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[- YouTube]]></title>
+            <link>https://www.youtube.com/watch?v=NQ15amJm2PI</link>
+            <guid>1769958952131</guid>
+            <pubDate>Sun, 01 Feb 2026 15:15:52 GMT</pubDate>
+            <description><![CDATA[Tags: video, youtube, america, black-history, architecture, democracy, history, social-contract]]></description>
+        </item>
+        <item>
+            <title><![CDATA[‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid]]></title>
+            <link>https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/</link>
+            <guid>1769958690799</guid>
+            <pubDate>Sun, 01 Feb 2026 15:11:30 GMT</pubDate>
+            <description><![CDATA[Tags: palantir, hhs, ice, data]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Meredith Whittaker (@mer__edith) on X]]></title>
+            <link>https://x.com/mer__edith/status/2016813653501096027</link>
+            <guid>1769958579407</guid>
+            <pubDate>Sun, 01 Feb 2026 15:09:39 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, palantir, corporate-culture, elite-tool]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Why France just dumped Microsoft Teams and Zoom - and what’s replacing them]]></title>
+            <link>https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/</link>
+            <guid>1769958426970</guid>
+            <pubDate>Sun, 01 Feb 2026 15:07:06 GMT</pubDate>
+            <description><![CDATA[Tags: nationstate, opsec, opensource, zoom, msft, digital-sovereignty]]></description>
+        </item>
         <item>
             <title><![CDATA[What happens to the art market when humanity stops mattering?]]></title>
             <link>https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering</link>

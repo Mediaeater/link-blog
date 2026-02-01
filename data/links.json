@@ -1,10 +1,76 @@
 {
   "links": [
     {
+      "id": 1769958952131,
+      "url": "https://www.youtube.com/watch?v=NQ15amJm2PI",
+      "source": "- YouTube",
+      "pullQuote": "This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.\n\nWilson explores the vision of statesman, architect, and planter Thomas Jefferson in designing Virginia’s new statehouse, a neoclassical building based on a Roman temple to symbolize and enable the power of “the people” to govern. She argues that by analyzing Jefferson’s “Notes on the State of Virginia” (1785), which includes an aesthetic and intellectual appraisal of works by enslaved poet Phillis Wheatley and was written during the same period he designed the capitol, we can better understand the complex relationship between democratic ideals and racial difference that shaped the nation’s new civic architecture.",
+      "tags": [
+        "video",
+        "youtube",
+        "america",
+        "black-history",
+        "architecture",
+        "democracy",
+        "history",
+        "social-contract"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-01T15:15:52.131Z",
+      "visits": 0
+    },
+    {
+      "id": 1769958690799,
+      "url": "https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/",
+      "source": "‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid",
+      "pullQuote": "The findings, based on internal ICE material obtained by 404 Media, public procurement records, and recent sworn testimony from an ICE official, show the clearest link yet between the technological infrastructure Palantir is building for ICE and the agency’s activities on the ground. The tool receives peoples’ addresses from the Department of Health and Human Services (HHS) among a range of other sources, according to the material.",
+      "tags": [
+        "palantir",
+        "hhs",
+        "ice",
+        "data"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-01T15:11:30.799Z",
+      "visits": 0
+    },
+    {
+      "id": 1769958579407,
+      "url": "https://x.com/mer__edith/status/2016813653501096027",
+      "source": "Meredith Whittaker (@mer__edith) on X",
+      "pullQuote": "I read it. And I'll engage here in good faith. But before I get into substance, I implore you to open the window, touch grass, and let yourself connect with the reality of what’s happening right now. This is a world historical moment. Please recognize what ICE is at this time, what it’s doing, and what it really means for your company, Palantir, to be supporting them with targeting and surveillance technologies that aid their attacks on freedom, liberty, and the constitution. \n\nNow to the substance of your post. I’ll address the three key claims you make in defense of your work with ICE: ",
+      "tags": [
+        "ethics",
+        "palantir",
+        "corporate-culture",
+        "elite-tool"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-01T15:09:39.407Z",
+      "visits": 0
+    },
+    {
+      "id": 1769958426970,
+      "url": "https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/",
+      "source": "Why France just dumped Microsoft Teams and Zoom - and what’s replacing them",
+      "pullQuote": "France is dropping US videoconferencing for its own open-source tool\n",
+      "tags": [
+        "nationstate",
+        "opsec",
+        "opensource",
+        "zoom",
+        "msft",
+        "digital-sovereignty"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-01T15:07:06.970Z",
+      "visits": 0
+    },
+    {
       "id": 1769905763509,
       "url": "https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering",
       "source": "What happens to the art market when humanity stops mattering?",
-      "pullQuote": "..unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”",
+      "pullQuote": "Loudest Voices on the Left, recently pointed out in an interview with the Nobel Prize-winning economist Paul Krugman that today’s technogarchs, unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”",
       "tags": [
         "humanity",
         "culture",
@@ -4309,5 +4375,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-01T00:29:57.376Z"
+  "lastUpdated": "2026-02-01T15:15:52.149Z"
 }

@@ -15,6 +15,88 @@
   ],
   "items": [
     {
+      "id": "1769958952131",
+      "url": "https://www.youtube.com/watch?v=NQ15amJm2PI",
+      "title": "- YouTube",
+      "date_published": "2026-02-01T15:15:52.131Z",
+      "tags": [
+        "video",
+        "youtube",
+        "america",
+        "black-history",
+        "architecture",
+        "democracy",
+        "history",
+        "social-contract"
+      ],
+      "content_text": "This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.\n\nWilson explores the vision of statesman, architect, and planter Thomas Jefferson in designing Virginia’s new statehouse, a neoclassical building based on a Roman temple to symbolize and enable the power of “the people” to govern. She argues that by analyzing Jefferson’s “Notes on the State of Virginia” (1785), which includes an aesthetic and intellectual appraisal of works by enslaved poet Phillis Wheatley and was written during the same period he designed the capitol, we can better understand the complex relationship between democratic ideals and racial difference that shaped the nation’s new civic architecture.",
+      "summary": "This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Ma...",
+      "content_html": "<blockquote>This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.\n\nWilson explores the vision of statesman, architect, and planter Thomas Jefferson in designing Virginia’s new statehouse, a neoclassical building based on a Roman temple to symbolize and enable the power of “the people” to govern. She argues that by analyzing Jefferson’s “Notes on the State of Virginia” (1785), which includes an aesthetic and intellectual appraisal of works by enslaved poet Phillis Wheatley and was written during the same period he designed the capitol, we can better understand the complex relationship between democratic ideals and racial difference that shaped the nation’s new civic architecture.</blockquote>\n<p><strong>Tags:</strong> video, youtube, america, black-history, architecture, democracy, history, social-contract</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769958690799",
+      "url": "https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/",
+      "title": "‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid",
+      "date_published": "2026-02-01T15:11:30.799Z",
+      "tags": [
+        "palantir",
+        "hhs",
+        "ice",
+        "data"
+      ],
+      "content_text": "The findings, based on internal ICE material obtained by 404 Media, public procurement records, and recent sworn testimony from an ICE official, show the clearest link yet between the technological infrastructure Palantir is building for ICE and the agency’s activities on the ground. The tool receives peoples’ addresses from the Department of Health and Human Services (HHS) among a range of other sources, according to the material.",
+      "summary": "The findings, based on internal ICE material obtained by 404 Media, public procurement records, and recent sworn testimony from an ICE official, show ...",
+      "content_html": "<blockquote>The findings, based on internal ICE material obtained by 404 Media, public procurement records, and recent sworn testimony from an ICE official, show the clearest link yet between the technological infrastructure Palantir is building for ICE and the agency’s activities on the ground. The tool receives peoples’ addresses from the Department of Health and Human Services (HHS) among a range of other sources, according to the material.</blockquote>\n<p><strong>Tags:</strong> palantir, hhs, ice, data</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769958579407",
+      "url": "https://x.com/mer__edith/status/2016813653501096027",
+      "title": "Meredith Whittaker (@mer__edith) on X",
+      "date_published": "2026-02-01T15:09:39.407Z",
+      "tags": [
+        "ethics",
+        "palantir",
+        "corporate-culture",
+        "elite-tool"
+      ],
+      "content_text": "I read it. And I'll engage here in good faith. But before I get into substance, I implore you to open the window, touch grass, and let yourself connect with the reality of what’s happening right now. This is a world historical moment. Please recognize what ICE is at this time, what it’s doing, and what it really means for your company, Palantir, to be supporting them with targeting and surveillance technologies that aid their attacks on freedom, liberty, and the constitution. \n\nNow to the substance of your post. I’ll address the three key claims you make in defense of your work with ICE: ",
+      "summary": "I read it. And I'll engage here in good faith. But before I get into substance, I implore you to open the window, touch grass, and let yourself connec...",
+      "content_html": "<blockquote>I read it. And I&#039;ll engage here in good faith. But before I get into substance, I implore you to open the window, touch grass, and let yourself connect with the reality of what’s happening right now. This is a world historical moment. Please recognize what ICE is at this time, what it’s doing, and what it really means for your company, Palantir, to be supporting them with targeting and surveillance technologies that aid their attacks on freedom, liberty, and the constitution. \n\nNow to the substance of your post. I’ll address the three key claims you make in defense of your work with ICE: </blockquote>\n<p><strong>Tags:</strong> ethics, palantir, corporate-culture, elite-tool</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1769958426970",
+      "url": "https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/",
+      "title": "Why France just dumped Microsoft Teams and Zoom - and what’s replacing them",
+      "date_published": "2026-02-01T15:07:06.970Z",
+      "tags": [
+        "nationstate",
+        "opsec",
+        "opensource",
+        "zoom",
+        "msft",
+        "digital-sovereignty"
+      ],
+      "content_text": "France is dropping US videoconferencing for its own open-source tool\n",
+      "summary": "France is dropping US videoconferencing for its own open-source tool\n",
+      "content_html": "<blockquote>France is dropping US videoconferencing for its own open-source tool\n</blockquote>\n<p><strong>Tags:</strong> nationstate, opsec, opensource, zoom, msft, digital-sovereignty</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1769905763509",
       "url": "https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering",
       "title": "What happens to the art market when humanity stops mattering?",
@@ -25,9 +107,9 @@
         "art",
         "stephen_miller"
       ],
-      "content_text": "..unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”",
-      "summary": "..unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe...",
-      "content_html": "<blockquote>..unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”</blockquote>\n<p><strong>Tags:</strong> humanity, culture, art, stephen_miller</p>",
+      "content_text": "Loudest Voices on the Left, recently pointed out in an interview with the Nobel Prize-winning economist Paul Krugman that today’s technogarchs, unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”",
+      "summary": "Loudest Voices on the Left, recently pointed out in an interview with the Nobel Prize-winning economist Paul Krugman that today’s technogarchs, unlike...",
+      "content_html": "<blockquote>Loudest Voices on the Left, recently pointed out in an interview with the Nobel Prize-winning economist Paul Krugman that today’s technogarchs, unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”</blockquote>\n<p><strong>Tags:</strong> humanity, culture, art, stephen_miller</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
