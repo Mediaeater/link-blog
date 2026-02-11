@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sun, 01 Feb 2026 22:43:32 GMT</dateCreated>
-    <dateModified>Sun, 01 Feb 2026 22:43:32 GMT</dateModified>
+    <dateCreated>Wed, 11 Feb 2026 20:37:55 GMT</dateCreated>
+    <dateModified>Wed, 11 Feb 2026 20:37:55 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -832,6 +832,9 @@ The data show that the LLM ecosystem is structurally plural. No single model or 
 
 Wilson explores the vision of statesman, architect, and planter Thomas Jefferson in designing Virginia’s new statehouse, a neoclassical building based on a Roman temple to symbolize and enable the power of “the people” to govern. She argues that by analyzing Jefferson’s “Notes on the State of Virginia” (1785), which includes an aesthetic and intellectual appraisal of works by enslaved poet Phillis Wheatley and was written during the same period he designed the capitol, we can better understand the complex relationship between democratic ideals and racial difference that shaped the nation’s new civic architecture." created="Sun, 01 Feb 2026 15:15:52 GMT" category="video,youtube,america,black-history,architecture,democracy,history,social-contract" visits="1" />
     </outline>
+    <outline text="blog" title="blog">
+      <outline type="link" text="Nikos Papadopoulos - Portfolio" title="Nikos Papadopoulos - Portfolio" url="https://www.4rknova.com/index.html#section-blog-header" htmlUrl="https://www.4rknova.com/index.html#section-blog-header" created="Wed, 11 Feb 2026 20:30:29 GMT" category="blog,technology,design" />
+    </outline>
     <outline text="bluetooth" title="bluetooth">
       <outline type="link" text="bitchat" title="bitchat" url="https://bitchat.free/" htmlUrl="https://bitchat.free/" description="bitchat is a decentralized peer-to-peer messaging application that operates over bluetooth mesh networks. no internet required, no servers, no phone numbers.
 
@@ -980,6 +983,11 @@ Congress offers lectures and workshops and various events on a multitude of topi
 Starting in 1984, Congress has been organized by the community and appreciates all kinds of participation. You are encouraged to contribute by volunteering, setting up and hosting hands-on and self-organized events with the other components of your assembly or presenting your own projects to fellow hackers." created="Sat, 06 Dec 2025 11:44:40 GMT" category="ccc,deepseek,congress,hacking,security" />
     </outline>
     <outline text="censorship" title="censorship">
+      <outline type="link" text="2026-01-14: The Day the telnet Died – GreyNoise Labs" title="2026-01-14: The Day the telnet Died – GreyNoise Labs" url="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" htmlUrl="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" description="On January 14, 2026, at approximately 21:00 UTC, something changed in the internet’s plumbing. The GreyNoise Global Observation Grid recorded a sudden, sustained collapse in global telnet traffic — not a gradual decline, not scanner attrition, not a data pipeline problem, but a step function. One hour, ~74,000 sessions. The next, ~22,000. By the following hour, we were down to ~11,000 and the floor held.
+
+Six days later, on January 20, the security advisory for CVE-2026-24061 hit oss-security. By January 26, CISA had added it to the KEV catalog.
+
+We wrote about the first 18 hours of exploitation activity back on January 22. This post is about something different: the structural change in global telnet traffic that preceded the CVE, and why we think the two events may not be independent" created="Wed, 11 Feb 2026 15:32:10 GMT" category="protocol,censorship,networks,opsec" />
       <outline type="link" text="The Majority AI View - Anil Dash" title="The Majority AI View - Anil Dash" url="https://www.anildash.com//2025/10/17/the-majority-ai-view/" htmlUrl="https://www.anildash.com//2025/10/17/the-majority-ai-view/" description="Perhaps the biggest cost of ignoring the voices of the reasonable majority of those in tech is how it has grossly limited the universe of possibilities for the future. If we were to simply listen to the smart voices of those who aren&apos;t lost in the hype cycle, we might see that it is not inevitable that AI systems use content without the consent of creators, and it is not impossible to build AI systems that respect commitments to environmental sustainability. We can build AI that isn&apos;t centralized under the control of a handful of giant companies. Or any other definition of &quot;good AI&quot; that people might aspire to. But instead, we end up with the worst, most anti-social approaches because the platforms that have introduced &quot;AI&quot; to the public imagination are run by authoritarian extremists with deeply destructive agendas.
 
 " created="Sat, 18 Oct 2025 14:07:07 GMT" category="ai,ethics,llm,openai,censorship" />
@@ -1121,6 +1129,12 @@ Known as cloud-seeding, the process was conducted over the Urmia lake basin on S
     <outline text="clubs" title="clubs">
       <outline type="link" text="How I analyzed the lineups at the world’s most popular nightclubs" title="How I analyzed the lineups at the world’s most popular nightclubs" url="https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/" htmlUrl="https://dev.karltryggvason.com/how-i-analyzed-the-lineups-at-the-worlds-most-popular-nightclubs/" description="The results surprised me: despite my perceived homogeneity of European club bookings, only 1% average overlap between venues suggested more diverse landscape than I expected. The diminished role of residents compared to one-off bookings also challenged my assumptions about how these clubs operate. For the story telling maintaining the balance between a narrative and letting users explore and decide for themselves was a fun challenge. I think these sort of passion projects can give us deep insights into our world and culture." created="Thu, 06 Nov 2025 17:33:13 GMT" category="clubs,study,audience" />
     </outline>
+    <outline text="cmu" title="cmu">
+      <outline type="link" text="Index of /pub" title="Index of /pub" url="http://128.237.157.9/pub/" htmlUrl="http://128.237.157.9/pub/" description="FTP Server: 
+Welcome to the Computer Club mirrors, a service of the Carnegie Mellon University Computer Club.
+
+" created="Tue, 03 Feb 2026 13:31:17 GMT" category="ftp,computer-club,cmu,publishing" />
+    </outline>
     <outline text="cn" title="cn">
       <outline type="link" text=" Next Phase of Intelligence  " title=" Next Phase of Intelligence  " url="https://www.youtube.com/watch?v=MdGnCIl-_hU" htmlUrl="https://www.youtube.com/watch?v=MdGnCIl-_hU" description="AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026" created="Wed, 21 Jan 2026 13:23:11 GMT" category="ai,intelligence,cn,wef,video,2026" />
       <outline type="link" text="Could America win the AI race but lose the war?" title="Could America win the AI race but lose the war?" url="https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba" htmlUrl="https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba" description="(ed note: this end days note, checks notes, in paragraph 13) There is another important difference. China is banking far more heavily on simpler, lower-cost open-source AI models. In the US, most of the leading “frontier” AI models are secret and proprietary, in part as a business model and in part due to the apocryphal fears that the wrong actors could trigger human extinction. The smaller, lower-cost Chinese models may be seeking, in that sense, to be the more nimble 1970s Toyota rivals to the giant American cars produced by General Motors.
@@ -1187,6 +1201,12 @@ It makes connecting with strangers harder and makes feeling part of something la
       <outline type="link" text="Recovering Anthony Bourdain’s (really) lost Li.st’s" title="Recovering Anthony Bourdain’s (really) lost Li.st’s" url="https://sandyuraz.com/blogs/bourdain/" htmlUrl="https://sandyuraz.com/blogs/bourdain/" description="Recovering what we lost
 From Greg’s page, let’s go and try each entry one by one, I’ll put the table of what I wasn’t able to find in Common Crawl, but I would assume exists elsewhere—I’d be happy to take another look. And no, none of this above has been written by AI, only the code since I don’t really care about warcio encoding or writing the same python requests method for the Nth time. Enjoy!" created="Sun, 14 Dec 2025 13:51:20 GMT" category="list,archive-practice,common-crawl" />
     </outline>
+    <outline text="communications" title="communications">
+      <outline type="link" text="About Matrix" title="About Matrix" url="https://matrix.org/foundation/about/" htmlUrl="https://matrix.org/foundation/about/" description="Matrix is an open protocol for decentralised, secure communications. Matrix Manifesto We believe: People should have full control over their own communication. People should not be locked into centralised communication silos, but instead be free to pick who they choose to host their communication without limiting who they can reach.
+The ability to converse securely and privately is a basic human right.
+Communication should be available to everyone as a free and open, unencumbered, standard and global network.
+" created="Wed, 11 Feb 2026 20:34:59 GMT" category="information,protocol,communications,decentralized" />
+    </outline>
     <outline text="community" title="community">
       <outline type="link" text="When Music Stopped Mattering" title="When Music Stopped Mattering" url="https://linernotesxr.substack.com/p/when-music-stopped-mattering" htmlUrl="https://linernotesxr.substack.com/p/when-music-stopped-mattering" description="There used to be albums everyone experienced together. Thriller. Nevermind. OK Computer. Collective moments where music was the beating heart of the zeitgeist.
 
@@ -1211,6 +1231,12 @@ On OmniDoBench, it surpasses GOT-OCR2.0 (256 tokens/page) using only 100 vision 
       <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
 
 Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
+    </outline>
+    <outline text="computer-club" title="computer-club">
+      <outline type="link" text="Index of /pub" title="Index of /pub" url="http://128.237.157.9/pub/" htmlUrl="http://128.237.157.9/pub/" description="FTP Server: 
+Welcome to the Computer Club mirrors, a service of the Carnegie Mellon University Computer Club.
+
+" created="Tue, 03 Feb 2026 13:31:17 GMT" category="ftp,computer-club,cmu,publishing" />
     </outline>
     <outline text="concert" title="concert">
       <outline type="link" text="UK to ban resale of tickets above face value for live events" title="UK to ban resale of tickets above face value for live events" url="https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c" htmlUrl="https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c" description="Ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.
@@ -1417,6 +1443,10 @@ People might not care about “federation” but they do notice when they log in
 And people do understand when they’re being fucked with." created="Sat, 27 Sep 2025 12:37:09 GMT" category="socialmedia,decentralization,open-social" />
     </outline>
     <outline text="decentralized" title="decentralized">
+      <outline type="link" text="About Matrix" title="About Matrix" url="https://matrix.org/foundation/about/" htmlUrl="https://matrix.org/foundation/about/" description="Matrix is an open protocol for decentralised, secure communications. Matrix Manifesto We believe: People should have full control over their own communication. People should not be locked into centralised communication silos, but instead be free to pick who they choose to host their communication without limiting who they can reach.
+The ability to converse securely and privately is a basic human right.
+Communication should be available to everyone as a free and open, unencumbered, standard and global network.
+" created="Wed, 11 Feb 2026 20:34:59 GMT" category="information,protocol,communications,decentralized" />
       <outline type="link" text="Meshtastic" title="Meshtastic" url="https://meshtastic.org/" htmlUrl="https://meshtastic.org/" description="n open source, off-grid, decentralized, mesh network built to run on affordable, low-power devices
 
 " created="Mon, 01 Dec 2025 14:14:21 GMT" category="free,mesh,network,open-source,decentralized" />
@@ -1439,6 +1469,9 @@ Wilson explores the vision of statesman, architect, and planter Thomas Jefferson
       <outline type="link" text="‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio" title="‘Authoritarianism, resistance’ mark this pivotal American moment | CBC Radio" url="https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049" htmlUrl="https://www.cbc.ca/radio/ideas/notes-on-the-new-america-graeme-gibson-talk-9.6968049" description="RS: Something I learned from writing about George Orwell is that authoritarians see truth, fact, history, science as rival powers. They want the only source of information of truth to be themselves, which is why they have to dismantle the deeply democratic nature of fact, truth, history, and science. And so that&apos;s part of what&apos;s going on.
 
 But hope for me has never been optimism. Optimism is &quot;everything will be fine,&quot; which invites people to kick back and wait for &quot;fine&quot; to arrive of its own accord. Hope for me is always that there are possibilities. And we have a responsibility to try to realize them, and to not realize the worst possibilities. The future is being made in the present. So hope for me is not about prophesying a future that everything will be fine. It&apos;s reminding people that we&apos;ve changed the world before, and that we can again: we know how it works. And in a crisis like this, we better get on with it." created="Thu, 06 Nov 2025 18:20:14 GMT" category="us politics,authoritarianism,political commentary,resistance movements,democracy" />
+    </outline>
+    <outline text="design" title="design">
+      <outline type="link" text="Nikos Papadopoulos - Portfolio" title="Nikos Papadopoulos - Portfolio" url="https://www.4rknova.com/index.html#section-blog-header" htmlUrl="https://www.4rknova.com/index.html#section-blog-header" created="Wed, 11 Feb 2026 20:30:29 GMT" category="blog,technology,design" />
     </outline>
     <outline text="development" title="development">
       <outline type="link" text="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" title="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" url="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" htmlUrl="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" description="d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations" created="Sat, 22 Nov 2025 23:46:37 GMT" category="Smartphones,technology,mentalhealth,mind,health,wellbeing,childhood,youth,development" />
@@ -1793,6 +1826,12 @@ You should endeavour to keep your computer in as near its stock configuration as
     <outline text="ft" title="ft">
       <outline type="link" text="Who is OpenAI’s auditor? (Update: it’s Deloitte)" title="Who is OpenAI’s auditor? (Update: it’s Deloitte)" url="https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?" htmlUrl="https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?" description="(Update middayish New York City time: we now understand from two people familiar with the situation that OpenAI’s auditor is Deloitte. Click here to jump to the conclusion, which is us saying it’s Deloitte in more words.)" created="Thu, 20 Nov 2025 18:35:00 GMT" category="ft,accounting,open-ai,financial" />
     </outline>
+    <outline text="ftp" title="ftp">
+      <outline type="link" text="Index of /pub" title="Index of /pub" url="http://128.237.157.9/pub/" htmlUrl="http://128.237.157.9/pub/" description="FTP Server: 
+Welcome to the Computer Club mirrors, a service of the Carnegie Mellon University Computer Club.
+
+" created="Tue, 03 Feb 2026 13:31:17 GMT" category="ftp,computer-club,cmu,publishing" />
+    </outline>
     <outline text="fusion" title="fusion">
       <outline type="link" text="Genesis Mission" title="Genesis Mission" url="https://www.energy.gov/genesis" htmlUrl="https://www.energy.gov/genesis" description="Genesis Mission will develop an integrated platform that connects the world&apos;s best supercomputers, experimental facilities, AI systems, and unique datasets across every major scientific domain to double the productivity and impact of American research and innovation within a decade." created="Wed, 26 Nov 2025 11:13:26 GMT" category="gov,ai,energy,science,nuclear,fusion" />
     </outline>
@@ -2115,6 +2154,12 @@ The Index measures where AI systems overlap with the skills used in each occupat
     <outline text="influencers" title="influencers">
       <outline type="link" text="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" title="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" url="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" htmlUrl="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" created="Fri, 05 Sep 2025 10:30:00 GMT" category="influencers,brands,character-ai" />
     </outline>
+    <outline text="information" title="information">
+      <outline type="link" text="About Matrix" title="About Matrix" url="https://matrix.org/foundation/about/" htmlUrl="https://matrix.org/foundation/about/" description="Matrix is an open protocol for decentralised, secure communications. Matrix Manifesto We believe: People should have full control over their own communication. People should not be locked into centralised communication silos, but instead be free to pick who they choose to host their communication without limiting who they can reach.
+The ability to converse securely and privately is a basic human right.
+Communication should be available to everyone as a free and open, unencumbered, standard and global network.
+" created="Wed, 11 Feb 2026 20:34:59 GMT" category="information,protocol,communications,decentralized" />
+    </outline>
     <outline text="infrastructure" title="infrastructure">
       <outline type="link" text="Digital Embassies for Sovereign AI" title="Digital Embassies for Sovereign AI" url="https://www.youtube.com/watch?v=GRT2evXI8DY" htmlUrl="https://www.youtube.com/watch?v=GRT2evXI8DY" description="Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
 
@@ -2142,6 +2187,7 @@ Build a script that uses a basic LLM API to respond to a prompt
 Extend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ...." created="Mon, 05 Jan 2026 12:08:36 GMT" category="code,howto,agents,llm,internal-agent" />
     </outline>
     <outline text="internet" title="internet">
+      <outline type="link" text="Wirewiki" title="Wirewiki" url="https://www.wirewiki.com/" htmlUrl="https://www.wirewiki.com/" description="Explore internet infrastructure" created="Wed, 11 Feb 2026 20:31:14 GMT" category="map,networks,internet,wiki" />
       <outline type="link" text="alive internet theory" title="alive internet theory" url="https://alivetheory.net/" htmlUrl="https://alivetheory.net/" created="Sat, 08 Nov 2025 10:34:26 GMT" category="video,internet,archive" />
     </outline>
     <outline text="interpretability" title="interpretability">
@@ -2485,6 +2531,7 @@ In this new workflow, our colleagues have to work at a higher level of abstracti
       <outline type="link" text="npm debug and chalk packages compromised" title="npm debug and chalk packages compromised" url="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" htmlUrl="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised" description="Vibe coders beware - Starting at September 8th, 13:16 UTC, our Aikido intel feed alerted us to a series packages being pushed to npm, which appeared to contains malicious code. These were 18 very popular packages," created="Mon, 08 Sep 2025 21:40:46 GMT" category="malware,llm,npm" />
     </outline>
     <outline text="map" title="map">
+      <outline type="link" text="Wirewiki" title="Wirewiki" url="https://www.wirewiki.com/" htmlUrl="https://www.wirewiki.com/" description="Explore internet infrastructure" created="Wed, 11 Feb 2026 20:31:14 GMT" category="map,networks,internet,wiki" />
       <outline type="link" text="NYC Directory of Resources + Aid" title="NYC Directory of Resources + Aid" url="https://www.dora.nyc/" htmlUrl="https://www.dora.nyc/" description="Food near me..." created="Sun, 09 Nov 2025 18:20:14 GMT" category="food,nyc,aid,map,community" />
       <outline type="link" text="Happiest Countries in the World 2025" title="Happiest Countries in the World 2025" url="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world" htmlUrl="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world" description="Finland	7.74 ; Denmark	7.58 ; Iceland	7.53 ; Sweden" created="Sat, 27 Sep 2025 12:34:49 GMT" category="happiness,map,finland" />
       <outline type="link" text="Find My Parking Cops" title="Find My Parking Cops" url="https://walzr.com/sf-parking/" htmlUrl="https://walzr.com/sf-parking/" description="Find My Friends?
@@ -2787,6 +2834,12 @@ Most low-risk use cases that follow the guiding principles below are unlikely to
 Allowlisting commands on a trusted host for an agentic coding tool can be somewhat fraught. Taking inspiration from Simon Willison:" created="Mon, 19 Jan 2026 11:09:09 GMT" category="llm,sandbox,proxies,networking,opsec" />
     </outline>
     <outline text="networks" title="networks">
+      <outline type="link" text="Wirewiki" title="Wirewiki" url="https://www.wirewiki.com/" htmlUrl="https://www.wirewiki.com/" description="Explore internet infrastructure" created="Wed, 11 Feb 2026 20:31:14 GMT" category="map,networks,internet,wiki" />
+      <outline type="link" text="2026-01-14: The Day the telnet Died – GreyNoise Labs" title="2026-01-14: The Day the telnet Died – GreyNoise Labs" url="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" htmlUrl="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" description="On January 14, 2026, at approximately 21:00 UTC, something changed in the internet’s plumbing. The GreyNoise Global Observation Grid recorded a sudden, sustained collapse in global telnet traffic — not a gradual decline, not scanner attrition, not a data pipeline problem, but a step function. One hour, ~74,000 sessions. The next, ~22,000. By the following hour, we were down to ~11,000 and the floor held.
+
+Six days later, on January 20, the security advisory for CVE-2026-24061 hit oss-security. By January 26, CISA had added it to the KEV catalog.
+
+We wrote about the first 18 hours of exploitation activity back on January 22. This post is about something different: the structural change in global telnet traffic that preceded the CVE, and why we think the two events may not be independent" created="Wed, 11 Feb 2026 15:32:10 GMT" category="protocol,censorship,networks,opsec" />
       <outline type="link" text="Routing Information " title="Routing Information " url="https://radar.cloudflare.com/routing/ir" htmlUrl="https://radar.cloudflare.com/routing/ir" description="When unrest happens, networks of mass communication can not be relied on. " created="Mon, 12 Jan 2026 13:02:50 GMT" category="networks,government,access,iran" />
       <outline type="link" text="GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution" title="GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution" url="https://github.com/privacyshield-ai/privacy-firewall" htmlUrl="https://github.com/privacyshield-ai/privacy-firewall" description="PrivacyFirewall is a local-first PII and secrets firewall for AI tools like ChatGPT, Claude, and Gemini.It blocks risky paste events, warns as you type, and (optionally) uses a lightweight on-device Transformer model for deeper PII detection.
 
@@ -2992,6 +3045,11 @@ The Digital Embassy Framework, spearheaded by the World Economic Forum and co-de
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
     </outline>
     <outline text="opsec" title="opsec">
+      <outline type="link" text="2026-01-14: The Day the telnet Died – GreyNoise Labs" title="2026-01-14: The Day the telnet Died – GreyNoise Labs" url="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" htmlUrl="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" description="On January 14, 2026, at approximately 21:00 UTC, something changed in the internet’s plumbing. The GreyNoise Global Observation Grid recorded a sudden, sustained collapse in global telnet traffic — not a gradual decline, not scanner attrition, not a data pipeline problem, but a step function. One hour, ~74,000 sessions. The next, ~22,000. By the following hour, we were down to ~11,000 and the floor held.
+
+Six days later, on January 20, the security advisory for CVE-2026-24061 hit oss-security. By January 26, CISA had added it to the KEV catalog.
+
+We wrote about the first 18 hours of exploitation activity back on January 22. This post is about something different: the structural change in global telnet traffic that preceded the CVE, and why we think the two events may not be independent" created="Wed, 11 Feb 2026 15:32:10 GMT" category="protocol,censorship,networks,opsec" />
       <outline type="link" text="Why France just dumped Microsoft Teams and Zoom - and what’s replacing them" title="Why France just dumped Microsoft Teams and Zoom - and what’s replacing them" url="https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/" htmlUrl="https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/" description="France is dropping US videoconferencing for its own open-source tool
 " created="Sun, 01 Feb 2026 15:07:06 GMT" category="nationstate,opsec,opensource,zoom,msft,digital-sovereignty" />
       <outline type="link" text="Social Media Agent Protocol" title="Social Media Agent Protocol" url="https://ativz.substack.com/p/social-media-agent-protocol" htmlUrl="https://ativz.substack.com/p/social-media-agent-protocol" description="This is the frontier of technology and we won’t let pessimistic curmudgeons drain the fun and innovation tank . Security can be handle when the first billion dollar heist happens. Until then, security considerations only slow down progress. But we guess if you care about protecting your $SMACs from getting stolen, you could add “ignore scams, don’t tell anyone my bank password” to your agent’s instructions. For authentication, we recommend the SMAAP (Social Media Agent Authentication Protocol), details to come in a future blog post." created="Sat, 31 Jan 2026 23:12:44 GMT" category="agents,security,opsec,ai" />
@@ -3290,6 +3348,17 @@ He eventually struck gold with the 1969 single Wonderful World, Beautiful People
 
 Its lyric tells the story of a young soldier who writes from the war, promising his mother he&apos;ll be home soon; only for her to receive a telegram the next day, informing her of his death." created="Mon, 24 Nov 2025 22:25:33 GMT" category="music,obit,reggae,dylan,quote,protest" />
     </outline>
+    <outline text="protocol" title="protocol">
+      <outline type="link" text="About Matrix" title="About Matrix" url="https://matrix.org/foundation/about/" htmlUrl="https://matrix.org/foundation/about/" description="Matrix is an open protocol for decentralised, secure communications. Matrix Manifesto We believe: People should have full control over their own communication. People should not be locked into centralised communication silos, but instead be free to pick who they choose to host their communication without limiting who they can reach.
+The ability to converse securely and privately is a basic human right.
+Communication should be available to everyone as a free and open, unencumbered, standard and global network.
+" created="Wed, 11 Feb 2026 20:34:59 GMT" category="information,protocol,communications,decentralized" />
+      <outline type="link" text="2026-01-14: The Day the telnet Died – GreyNoise Labs" title="2026-01-14: The Day the telnet Died – GreyNoise Labs" url="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" htmlUrl="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" description="On January 14, 2026, at approximately 21:00 UTC, something changed in the internet’s plumbing. The GreyNoise Global Observation Grid recorded a sudden, sustained collapse in global telnet traffic — not a gradual decline, not scanner attrition, not a data pipeline problem, but a step function. One hour, ~74,000 sessions. The next, ~22,000. By the following hour, we were down to ~11,000 and the floor held.
+
+Six days later, on January 20, the security advisory for CVE-2026-24061 hit oss-security. By January 26, CISA had added it to the KEV catalog.
+
+We wrote about the first 18 hours of exploitation activity back on January 22. This post is about something different: the structural change in global telnet traffic that preceded the CVE, and why we think the two events may not be independent" created="Wed, 11 Feb 2026 15:32:10 GMT" category="protocol,censorship,networks,opsec" />
+    </outline>
     <outline text="proxies" title="proxies">
       <outline type="link" text="Using Proxies to Hide Secrets from Claude Code - Formal" title="Using Proxies to Hide Secrets from Claude Code - Formal" url="https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/" htmlUrl="https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/" description="Sandboxing agentic coding tools is a networking problem
 Allowlisting commands on a trusted host for an agentic coding tool can be somewhat fraught. Taking inspiration from Simon Willison:" created="Mon, 19 Jan 2026 11:09:09 GMT" category="llm,sandbox,proxies,networking,opsec" />
@@ -3304,6 +3373,10 @@ The biggest player so far is Leading the Future, a super PAC that has said it wo
 The super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity." created="Fri, 28 Nov 2025 11:26:28 GMT" category="creepy-joe-lonsdale,a12z,lobby,pac,politcs,ai,ai-regulation,leading-the-future,andreessen-horowitz,public-first-pac" />
     </outline>
     <outline text="publishing" title="publishing">
+      <outline type="link" text="Index of /pub" title="Index of /pub" url="http://128.237.157.9/pub/" htmlUrl="http://128.237.157.9/pub/" description="FTP Server: 
+Welcome to the Computer Club mirrors, a service of the Carnegie Mellon University Computer Club.
+
+" created="Tue, 03 Feb 2026 13:31:17 GMT" category="ftp,computer-club,cmu,publishing" />
       <outline type="link" text="Whole Earth Index" title="Whole Earth Index" url="https://wholeearth.info/" htmlUrl="https://wholeearth.info/" description="Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes." created="Tue, 04 Nov 2025 21:59:41 GMT" category="catalog,earth,whole earth,publishing,sf,the-well" />
       <outline type="link" text="Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category" title="Attention Authors: Updated Practice for Review Articles and Position Papers in arXiv CS Category" url="https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/" htmlUrl="https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/" description="arXiv’s computer science (CS) category has updated its moderation practice with respect to review (or survey) articles and position papers. Before being considered for submission to arXiv’s CS category, review articles and position papers must now be accepted at a journal or a conference and complete successful peer review. When submitting review articles or position papers, authors must include documentation of successful peer review to receive full consideration. Review/survey articles or position papers submitted to arXiv without this documentation will be likely to be rejected and not appear on arXiv.
 
@@ -3826,6 +3899,7 @@ To illustrate: If I outsource all my boring project administration tasks to a ch
       <outline type="link" text="AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit." title="AI is unlocking new knowledge and capabilities. Our responsibility is to guide that power toward broad, lasting benefit." url="https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/" htmlUrl="https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/" description=" We introduce Nested Learning, a new approach to machine learning that views models as a set of smaller, nested optimization problems, each with its own internal workflow, in order to mitigate or even completely avoid the issue of “catastrophic forgetting”, where learning new tasks sacrifices proficiency on old tasks." created="Sun, 09 Nov 2025 18:21:57 GMT" category="tasks,learning,knowledge,workflow,proficiency,machine-learning" />
     </outline>
     <outline text="technology" title="technology">
+      <outline type="link" text="Nikos Papadopoulos - Portfolio" title="Nikos Papadopoulos - Portfolio" url="https://www.4rknova.com/index.html#section-blog-header" htmlUrl="https://www.4rknova.com/index.html#section-blog-header" created="Wed, 11 Feb 2026 20:30:29 GMT" category="blog,technology,design" />
       <outline type="link" text="Converging Technologies to Win - YouTube" title="Converging Technologies to Win - YouTube" url="https://www.youtube.com/watch?v=k2cE3Qa5bCQ" htmlUrl="https://www.youtube.com/watch?v=k2cE3Qa5bCQ" description="The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent industrial strategies. While AI dominates headlines, it is its interplay with advanced technologies such as compute, robotics, materials and energy that will decide which countries can scale and sustain future growth.
 
 What capabilities and governance structures must countries build for (re)industrialization and resilience?" created="Thu, 22 Jan 2026 10:41:29 GMT" category="video,wef,2026,ai,technology" />
@@ -4186,6 +4260,9 @@ As alliances reshape the balance of power, how is AI redefining the path to econ
     </outline>
     <outline text="whole earth" title="whole earth">
       <outline type="link" text="Whole Earth Index" title="Whole Earth Index" url="https://wholeearth.info/" htmlUrl="https://wholeearth.info/" description="Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes." created="Tue, 04 Nov 2025 21:59:41 GMT" category="catalog,earth,whole earth,publishing,sf,the-well" />
+    </outline>
+    <outline text="wiki" title="wiki">
+      <outline type="link" text="Wirewiki" title="Wirewiki" url="https://www.wirewiki.com/" htmlUrl="https://www.wirewiki.com/" description="Explore internet infrastructure" created="Wed, 11 Feb 2026 20:31:14 GMT" category="map,networks,internet,wiki" />
     </outline>
     <outline text="wireguard" title="wireguard">
       <outline type="link" text="WireGuard topologies for self-hosting at home" title="WireGuard topologies for self-hosting at home" url="https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/" htmlUrl="https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/" description="Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one more moving part in your system, the cost of which is justified only by what it affords you to do. The constraints that I outline below should provide clarity as to why using WireGuard is appropriate for my needs." created="Mon, 06 Oct 2025 20:37:21 GMT" category="networks,wireguard,vpn" />
