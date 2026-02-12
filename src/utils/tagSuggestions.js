@@ -127,79 +127,82 @@ const KEYWORD_TAG_MAP = {
  * @param {string} description - The description text
  * @returns {string[]} Array of suggested tags
  */
+// Stop words to filter out when extracting tags from headlines
+const STOP_WORDS = new Set([
+  'a', 'an', 'the', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+  'of', 'with', 'by', 'from', 'as', 'is', 'was', 'are', 'were', 'be',
+  'been', 'being', 'have', 'has', 'had', 'do', 'does', 'did', 'will',
+  'would', 'could', 'should', 'may', 'might', 'can', 'shall', 'must',
+  'it', 'its', 'he', 'she', 'they', 'we', 'you', 'i', 'me', 'my',
+  'his', 'her', 'their', 'our', 'your', 'this', 'that', 'these', 'those',
+  'what', 'which', 'who', 'whom', 'how', 'when', 'where', 'why',
+  'not', 'no', 'nor', 'so', 'if', 'then', 'than', 'too', 'very',
+  'just', 'about', 'up', 'out', 'into', 'over', 'after', 'before',
+  'between', 'under', 'again', 'further', 'once', 'here', 'there',
+  'all', 'each', 'every', 'both', 'few', 'more', 'most', 'other',
+  'some', 'such', 'only', 'own', 'same', 'also', 'any', 'many',
+  'new', 'old', 'first', 'last', 'long', 'great', 'little', 'right',
+  'big', 'high', 'small', 'large', 'next', 'early', 'young', 'way',
+  'via', 'get', 'got', 'go', 'goes', 'gone', 'come', 'came', 'make',
+  'made', 'take', 'took', 'give', 'gave', 'say', 'said', 'know',
+  'think', 'see', 'look', 'find', 'use', 'used', 'using', 'tell',
+  'show', 'try', 'leave', 'call', 'keep', 'let', 'begin', 'seem',
+  'help', 'set', 'put', 'read', 'run', 'move', 'live', 'back',
+  'still', 'well', 'even', 'now', 'much', 'need', 'want', 'like',
+  'part', 'turn', 'start', 'hand', 'while', 'through', 'during',
+  'without', 'within', 'along', 'against', 'since', 'until', 'among',
+  'wide', 'array', 'personal', 'data', 'day', 'full', 'real', 'based',
+  'index', 'page', 'home', 'site', 'web', 'www', 'http', 'https',
+  'com', 'org', 'net', 'html', 'portfolio', 'welcome', 'about',
+]);
+
+/**
+ * Extract meaningful keywords from a headline to use as tags
+ * @param {string} text - headline or title text
+ * @returns {string[]} extracted keywords suitable as tags
+ */
+function extractHeadlineKeywords(text) {
+  if (!text) return [];
+
+  return text
+    .toLowerCase()
+    .replace(/['']/g, '')           // remove apostrophes
+    .replace(/[^a-z0-9\s-]/g, ' ') // keep letters, numbers, hyphens
+    .split(/\s+/)
+    .map(w => w.replace(/^-+|-+$/g, '')) // trim hyphens from edges
+    .filter(w => w.length >= 3 && !STOP_WORDS.has(w))
+    .filter(w => !/^\d[\d-]*$/.test(w)) // skip dates and pure numbers
+    .filter((w, i, arr) => arr.indexOf(w) === i); // dedupe
+}
+
 export function suggestTagsFromUrl(url, title = '', description = '') {
-  const suggestions = new Set();
-  
+  const tags = [];
+
+  // Primary source: extract keywords from the title/headline
+  const headlineKeywords = extractHeadlineKeywords(title);
+  tags.push(...headlineKeywords);
+
+  // Secondary: add a few description keywords not already covered
+  const descKeywords = extractHeadlineKeywords(description);
+  for (const kw of descKeywords) {
+    if (!tags.includes(kw)) tags.push(kw);
+  }
+
   try {
     const urlObj = new URL(url);
     const domain = urlObj.hostname.toLowerCase().replace(/^www\./, '');
-    const path = urlObj.pathname.toLowerCase();
-    
-    // Domain-based suggestions
+
+    // Add domain-based tags only if they're specific (skip generic ones)
     if (DOMAIN_TAG_MAP[domain]) {
-      DOMAIN_TAG_MAP[domain].forEach(tag => suggestions.add(tag));
-    }
-    
-    // Path analysis for additional context
-    if (path.includes('/blog')) suggestions.add('blog');
-    if (path.includes('/tutorial')) suggestions.add('tutorial');
-    if (path.includes('/guide')) suggestions.add('guide');
-    if (path.includes('/docs') || path.includes('/documentation')) suggestions.add('documentation');
-    if (path.includes('/api')) suggestions.add('api');
-    if (path.includes('/reference')) suggestions.add('reference');
-    if (path.includes('/example')) suggestions.add('example');
-    if (path.includes('/demo')) suggestions.add('demo');
-    if (path.includes('/video')) suggestions.add('video');
-    if (path.includes('/course')) suggestions.add('course');
-    if (path.includes('/tool')) suggestions.add('tools');
-    
-    // Combine title and description for keyword analysis
-    const content = `${title} ${description}`.toLowerCase();
-    
-    // Keyword-based suggestions
-    Object.keys(KEYWORD_TAG_MAP).forEach(keyword => {
-      if (content.includes(keyword)) {
-        KEYWORD_TAG_MAP[keyword].forEach(tag => suggestions.add(tag));
+      for (const tag of DOMAIN_TAG_MAP[domain]) {
+        if (!tags.includes(tag)) tags.push(tag);
       }
-    });
-    
-    // File extension detection
-    if (url.match(/\.(pdf)$/i)) suggestions.add('pdf');
-    if (url.match(/\.(mp4|mov|avi|mkv)$/i)) suggestions.add('video');
-    if (url.match(/\.(mp3|wav|flac)$/i)) suggestions.add('audio');
-    if (url.match(/\.(zip|tar|gz|rar)$/i)) suggestions.add('download');
-    
-    // Content type suggestions from title/description
-    if (content.match(/\b(how to|tutorial|guide|walkthrough)\b/)) {
-      suggestions.add('tutorial');
     }
-    if (content.match(/\b(tips|tricks|best practices)\b/)) {
-      suggestions.add('tips');
-    }
-    if (content.match(/\b(breaking|news|announcement)\b/)) {
-      suggestions.add('news');
-    }
-    if (content.match(/\b(free|open source|libre)\b/)) {
-      suggestions.add('free');
-    }
-    if (content.match(/\b(awesome|amazing|incredible|must)\b/)) {
-      suggestions.add('interesting');
-    }
-    
   } catch (error) {
-    console.warn('Error parsing URL for tag suggestions:', error);
+    // invalid URL, skip domain analysis
   }
-  
-  // Convert to array and sort by relevance (more specific first)
-  const tagArray = Array.from(suggestions);
-  
-  // Sort by length (shorter, more general tags last) and alphabetically
-  return tagArray
-    .sort((a, b) => {
-      if (a.length !== b.length) return a.length - b.length;
-      return a.localeCompare(b);
-    })
-    .slice(0, 8); // Limit to 8 suggestions
+
+  return tags.slice(0, 8);
 }
 
 /**
