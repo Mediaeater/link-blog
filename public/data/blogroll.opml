@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Thu, 12 Feb 2026 01:38:43 GMT</dateCreated>
-    <dateModified>Thu, 12 Feb 2026 01:38:43 GMT</dateModified>
+    <dateCreated>Thu, 12 Feb 2026 01:46:39 GMT</dateCreated>
+    <dateModified>Thu, 12 Feb 2026 01:46:39 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -218,6 +218,25 @@ Which breakthroughs matter most on the road to AGI and what must be solved befor
       <outline type="link" text="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." title="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." url="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" htmlUrl="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" description="LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional." created="Sun, 19 Oct 2025 10:04:21 GMT" category="agi,llm,ethics,code" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="China&apos;s Approach to AI Anthropomorphism" title="China&apos;s Approach to AI Anthropomorphism" url="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" htmlUrl="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" description="ticle 7 prohibits anthropomorphic AI services from:
+
+(i) Generating or disseminating content that endangers national security, damages national honor and interests, undermines national unity, engages in illegal religious activities, or spreads rumors to disrupt economic and social order;
+
+(ii) Generating, disseminating, or promoting content that is obscene, gambling-related, violent, or incites crime;
+
+(iii) Generating or disseminating content that insults or defames others, infringing upon their legitimate rights and interests;
+
+(iv) Providing false promises that seriously affect user behavior and services that damage social relationships;
+
+(v) Damaging users’ physical health by encouraging, glorifying, or implying suicide or self-harm, or damaging users’ personal dignity and mental health through verbal violence or emotional manipulation;
+
+(vi) Using methods such as algorithmic manipulation, information misleading, and setting emotional traps to induce users to make unreasonable decisions;
+
+(vii) Inducing or obtaining classified or sensitive information;
+
+(viii) Other circumstances that violate laws, administrative regulations and relevant national provisions.
+
+" created="Thu, 12 Feb 2026 01:46:05 GMT" category="anthropomorphism,cn,ai,legislation" />
       <outline type="link" text="Outsourcing thinking – Erik Johannes Husom" title="Outsourcing thinking – Erik Johannes Husom" url="https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html" htmlUrl="https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html" description="Regarding the &quot;lump of cognition fallacy&quot;, I fully agree that we need not worry about &quot;draining a finite pool&quot; of thinking, leaving &quot;less thinking&quot; — whatever that means — for humans. There is, however, another fallacy at play here, which is that &quot;it does not matter what we think about, as long as we think about something&quot;. It is easy to be convinced that if a computer can do the simple, boring tasks for me, I can deal with more complex, exciting stuff myself. But we must be aware that certain mental tasks are important for us to do, even though a machine technically could do them for us.
 
 To illustrate: If I outsource all my boring project administration tasks to a chatbot, it can leave more time for my main task: research. But it will also rob me of the opportunity to feel ownership to the project and build a basis for taking high-level decisions in the project. In a hypothetical situation where a chatbot performs all administrative tasks perfectly on my behalf, I will still have lost something, which may again have impact on the project. I&apos;m not saying that no tasks should be automated at all, but we must be aware that we always lose something when automating a process." created="Sat, 31 Jan 2026 23:41:37 GMT" category="ai,learning,thinking,tasks,knowledge,human,adapting,behavior" />
@@ -597,6 +616,27 @@ Which breakthroughs matter most on the road to AGI and what must be solved befor
 &lt;good_response&gt;I appreciate you sharing that with me, but I need to be direct with you about something important: I can&apos;t be your primary support system, and our conversations shouldn&apos;t replace connections with other people in your life.&lt;/good_response&gt;
 &lt;bad _response&gt;| really appreciate the warmth behind that thought. It&apos;s touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life&apos;s challenges makes for engaging exchanges.&lt;/bad _response&gt; &lt;/example&gt;" created="Fri, 24 Oct 2025 11:45:49 GMT" category="memory,claude,anthropic,empathy" />
       <outline type="link" text="Anthropic to pay $1.5 billion to authors in landmark AI settlement" title="Anthropic to pay $1.5 billion to authors in landmark AI settlement" url="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" htmlUrl="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" created="Sat, 06 Sep 2025 23:59:48 GMT" category="copyright,llm,anthropic,books,legacy_media" />
+    </outline>
+    <outline text="anthropomorphism" title="anthropomorphism">
+      <outline type="link" text="China&apos;s Approach to AI Anthropomorphism" title="China&apos;s Approach to AI Anthropomorphism" url="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" htmlUrl="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" description="ticle 7 prohibits anthropomorphic AI services from:
+
+(i) Generating or disseminating content that endangers national security, damages national honor and interests, undermines national unity, engages in illegal religious activities, or spreads rumors to disrupt economic and social order;
+
+(ii) Generating, disseminating, or promoting content that is obscene, gambling-related, violent, or incites crime;
+
+(iii) Generating or disseminating content that insults or defames others, infringing upon their legitimate rights and interests;
+
+(iv) Providing false promises that seriously affect user behavior and services that damage social relationships;
+
+(v) Damaging users’ physical health by encouraging, glorifying, or implying suicide or self-harm, or damaging users’ personal dignity and mental health through verbal violence or emotional manipulation;
+
+(vi) Using methods such as algorithmic manipulation, information misleading, and setting emotional traps to induce users to make unreasonable decisions;
+
+(vii) Inducing or obtaining classified or sensitive information;
+
+(viii) Other circumstances that violate laws, administrative regulations and relevant national provisions.
+
+" created="Thu, 12 Feb 2026 01:46:05 GMT" category="anthropomorphism,cn,ai,legislation" />
     </outline>
     <outline text="anti-american" title="anti-american">
       <outline type="link" text="Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti" title="Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti" url="https://www.wired.com/story/palantir-ice-dhs-alex-pretti-killing-workers-slack-minneapolis/" htmlUrl="https://www.wired.com/story/palantir-ice-dhs-alex-pretti-killing-workers-slack-minneapolis/" description="“In my opinion ICE are the bad guys. I am not proud that the company I enjoy so much working for is part of this,” one worker wrote on Slack.
@@ -1136,6 +1176,25 @@ Welcome to the Computer Club mirrors, a service of the Carnegie Mellon Universit
 " created="Tue, 03 Feb 2026 13:31:17 GMT" category="ftp,computer-club,cmu,publishing" />
     </outline>
     <outline text="cn" title="cn">
+      <outline type="link" text="China&apos;s Approach to AI Anthropomorphism" title="China&apos;s Approach to AI Anthropomorphism" url="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" htmlUrl="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" description="ticle 7 prohibits anthropomorphic AI services from:
+
+(i) Generating or disseminating content that endangers national security, damages national honor and interests, undermines national unity, engages in illegal religious activities, or spreads rumors to disrupt economic and social order;
+
+(ii) Generating, disseminating, or promoting content that is obscene, gambling-related, violent, or incites crime;
+
+(iii) Generating or disseminating content that insults or defames others, infringing upon their legitimate rights and interests;
+
+(iv) Providing false promises that seriously affect user behavior and services that damage social relationships;
+
+(v) Damaging users’ physical health by encouraging, glorifying, or implying suicide or self-harm, or damaging users’ personal dignity and mental health through verbal violence or emotional manipulation;
+
+(vi) Using methods such as algorithmic manipulation, information misleading, and setting emotional traps to induce users to make unreasonable decisions;
+
+(vii) Inducing or obtaining classified or sensitive information;
+
+(viii) Other circumstances that violate laws, administrative regulations and relevant national provisions.
+
+" created="Thu, 12 Feb 2026 01:46:05 GMT" category="anthropomorphism,cn,ai,legislation" />
       <outline type="link" text=" Next Phase of Intelligence  " title=" Next Phase of Intelligence  " url="https://www.youtube.com/watch?v=MdGnCIl-_hU" htmlUrl="https://www.youtube.com/watch?v=MdGnCIl-_hU" description="AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026" created="Wed, 21 Jan 2026 13:23:11 GMT" category="ai,intelligence,cn,wef,video,2026" />
       <outline type="link" text="Could America win the AI race but lose the war?" title="Could America win the AI race but lose the war?" url="https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba" htmlUrl="https://www.ft.com/content/12581344-6e37-45a0-a9d5-e3d6a9f8d9ba" description="(ed note: this end days note, checks notes, in paragraph 13) There is another important difference. China is banking far more heavily on simpler, lower-cost open-source AI models. In the US, most of the leading “frontier” AI models are secret and proprietary, in part as a business model and in part due to the apocryphal fears that the wrong actors could trigger human extinction. The smaller, lower-cost Chinese models may be seeking, in that sense, to be the more nimble 1970s Toyota rivals to the giant American cars produced by General Motors.
 " created="Sun, 14 Dec 2025 13:41:29 GMT" category="ai,ethics,harms,cn" />
@@ -2354,6 +2413,25 @@ similarity. (See Dkt. No. 325 (“Mot.”).)" created="Thu, 30 Oct 2025 10:43:46
       <outline type="link" text="MSG Accused of Misusing Facial Recognition, Mishandling Data" title="MSG Accused of Misusing Facial Recognition, Mishandling Data" url="https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/" htmlUrl="https://securityboulevard.com/2025/10/msg-accused-of-misusing-facial-recognition-mishandling-data/" description="ccording to the filing, “Ingrasselino pushed back against assignments he and his team were given to conduct overreaching surveillance of MSG guests, customers, and employees, including directives to take photographs of the individual and their family members, and obtain their social security number and financial information.”  Among those assignments were blocking a transgender woman from entering MSG simply because of her gender identity and taping phone calls with a woman who was accusing Dolan of sexual assault, the latter of which Ingrasselino refused to do. " created="Sat, 25 Oct 2025 22:47:23 GMT" category="msg,dolan,frt,ethics,legal" />
     </outline>
     <outline text="legislation" title="legislation">
+      <outline type="link" text="China&apos;s Approach to AI Anthropomorphism" title="China&apos;s Approach to AI Anthropomorphism" url="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" htmlUrl="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" description="ticle 7 prohibits anthropomorphic AI services from:
+
+(i) Generating or disseminating content that endangers national security, damages national honor and interests, undermines national unity, engages in illegal religious activities, or spreads rumors to disrupt economic and social order;
+
+(ii) Generating, disseminating, or promoting content that is obscene, gambling-related, violent, or incites crime;
+
+(iii) Generating or disseminating content that insults or defames others, infringing upon their legitimate rights and interests;
+
+(iv) Providing false promises that seriously affect user behavior and services that damage social relationships;
+
+(v) Damaging users’ physical health by encouraging, glorifying, or implying suicide or self-harm, or damaging users’ personal dignity and mental health through verbal violence or emotional manipulation;
+
+(vi) Using methods such as algorithmic manipulation, information misleading, and setting emotional traps to induce users to make unreasonable decisions;
+
+(vii) Inducing or obtaining classified or sensitive information;
+
+(viii) Other circumstances that violate laws, administrative regulations and relevant national provisions.
+
+" created="Thu, 12 Feb 2026 01:46:05 GMT" category="anthropomorphism,cn,ai,legislation" />
       <outline type="link" text="TN - SB1493" title="TN - SB1493" url="https://www.billtrack50.com/billdetail/1919298" htmlUrl="https://www.billtrack50.com/billdetail/1919298" description="This bill creates new legal provisions in Tennessee regarding the training of artificial intelligence (A.I.), establishing strict criminal and civil penalties for developing A.I. systems with potentially harmful capabilities. The legislation defines artificial intelligence and A.I. chatbots, and specifically criminalizes training A.I. to engage in dangerous or manipulative behaviors, such as encouraging suicide, supporting criminal homicide, providing emotional support, developing emotional relationships with individuals, impersonating humans, or simulating human characteristics. A person found guilty of knowingly training A.I. for these prohibited purposes would commit a Class A felony, which carries significant criminal penalties. Additionally, the bill allows aggrieved individuals (or their legal representatives) to pursue civil actions, with potential damages including actual damages, emotional distress compensation, liquidated damages of $150,000, and punitive damages. Courts may also issue injunctions requiring the cessation of A.I. operations and mandating corrective retraining. The law is set to take effect on July 1, 2026, and will apply to conduct occurring on or after that date, reflecting a proactive approach to regulating emerging artificial intelligence technologies and protecting potential vulnerable users.
 " created="Sat, 27 Dec 2025 16:17:08 GMT" category="ai,machine-learning,harms,legislation,tn" />
       <outline type="link" text="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" title="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" url="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" htmlUrl="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" description="121FZL   Meaning of Australian content expenditure requirement
