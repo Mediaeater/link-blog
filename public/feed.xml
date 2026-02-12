@@ -4,10 +4,52 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 01 Feb 2026 22:39:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Feb 2026 21:16:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Google provided ICE with a wide array of personal data student activist]]></title>
+            <link>https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/</link>
+            <guid>1770844613723</guid>
+            <pubDate>Wed, 11 Feb 2026 21:16:53 GMT</pubDate>
+            <description><![CDATA[Tags: google, privacy, ice]]></description>
+        </item>
+        <item>
+            <title><![CDATA[About Matrix]]></title>
+            <link>https://matrix.org/foundation/about/</link>
+            <guid>1770842099486</guid>
+            <pubDate>Wed, 11 Feb 2026 20:34:59 GMT</pubDate>
+            <description><![CDATA[Tags: information, protocol, communications, decentralized]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Wirewiki]]></title>
+            <link>https://www.wirewiki.com/</link>
+            <guid>1770841874128</guid>
+            <pubDate>Wed, 11 Feb 2026 20:31:14 GMT</pubDate>
+            <description><![CDATA[Tags: map, networks, internet, wiki]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nikos Papadopoulos - Portfolio]]></title>
+            <link>https://www.4rknova.com/index.html#section-blog-header</link>
+            <guid>1770841829384</guid>
+            <pubDate>Wed, 11 Feb 2026 20:30:29 GMT</pubDate>
+            <description><![CDATA[Tags: blog, technology, design]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2026-01-14: The Day the telnet Died – GreyNoise Labs]]></title>
+            <link>https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/</link>
+            <guid>1770823930012</guid>
+            <pubDate>Wed, 11 Feb 2026 15:32:10 GMT</pubDate>
+            <description><![CDATA[Tags: protocol, censorship, networks, opsec]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Index of /pub]]></title>
+            <link>http://128.237.157.9/pub/</link>
+            <guid>1770125477736</guid>
+            <pubDate>Tue, 03 Feb 2026 13:31:17 GMT</pubDate>
+            <description><![CDATA[Tags: ftp, computer-club, cmu, publishing]]></description>
+        </item>
         <item>
             <title><![CDATA[ I. The Architecture of “We the People”  National Gallery of Art]]></title>
             <link>https://www.youtube.com/watch?v=NQ15amJm2PI</link>
