@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Wed, 11 Feb 2026 20:37:55 GMT</dateCreated>
-    <dateModified>Wed, 11 Feb 2026 20:37:55 GMT</dateModified>
+    <dateCreated>Thu, 12 Feb 2026 01:21:26 GMT</dateCreated>
+    <dateModified>Thu, 12 Feb 2026 01:21:26 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -1896,6 +1896,9 @@ Meta Skills - Creating, testing, and sharing skills" created="Sun, 19 Oct 2025 0
 Such reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great." created="Mon, 05 Jan 2026 13:58:16 GMT" category="capitalism,consumption,trade,global,civilization,open-mindset,history" />
     </outline>
     <outline text="google" title="google">
+      <outline type="link" text="Google provided ICE with a wide array of personal data student activist" title="Google provided ICE with a wide array of personal data student activist" url="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" htmlUrl="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" description="Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank account numbers.
+
+" created="Wed, 11 Feb 2026 21:16:53 GMT" category="google,privacy,ice" />
       <outline type="link" text="The Day After AGI" title="The Day After AGI" url="https://www.youtube.com/watch?v=mmKAnHz36v0" htmlUrl="https://www.youtube.com/watch?v=mmKAnHz36v0" description="a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&apos;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
 
 Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?" created="Tue, 20 Jan 2026 20:49:23 GMT" category="compute,wef,2026,agi,video,anthropic,google" />
@@ -2112,6 +2115,9 @@ To illustrate: If I outsource all my boring project administration tasks to a ch
 Explore and discuss how a history of the future offers lessons for navigating the transformative age of AI." created="Tue, 20 Jan 2026 20:46:22 GMT" category="ai,wef,2026,humanity" />
     </outline>
     <outline text="ice" title="ice">
+      <outline type="link" text="Google provided ICE with a wide array of personal data student activist" title="Google provided ICE with a wide array of personal data student activist" url="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" htmlUrl="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" description="Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank account numbers.
+
+" created="Wed, 11 Feb 2026 21:16:53 GMT" category="google,privacy,ice" />
       <outline type="link" text="‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid" title="‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid" url="https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/" htmlUrl="https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/" description="The findings, based on internal ICE material obtained by 404 Media, public procurement records, and recent sworn testimony from an ICE official, show the clearest link yet between the technological infrastructure Palantir is building for ICE and the agency’s activities on the ground. The tool receives peoples’ addresses from the Department of Health and Human Services (HHS) among a range of other sources, according to the material." created="Sun, 01 Feb 2026 15:11:30 GMT" category="palantir,hhs,ice,data" />
     </outline>
     <outline text="identity" title="identity">
@@ -3266,6 +3272,9 @@ AI for productivity and administrative use: document drafting, note taking, auto
 " created="Wed, 26 Nov 2025 11:16:41 GMT" category="cern,ai,principles,science" />
     </outline>
     <outline text="privacy" title="privacy">
+      <outline type="link" text="Google provided ICE with a wide array of personal data student activist" title="Google provided ICE with a wide array of personal data student activist" url="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" htmlUrl="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" description="Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank account numbers.
+
+" created="Wed, 11 Feb 2026 21:16:53 GMT" category="google,privacy,ice" />
       <outline type="link" text="The Constitutionality of Geofence Warrants - Schneier on Security" title="The Constitutionality of Geofence Warrants - Schneier on Security" url="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html" htmlUrl="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html" description="The US Supreme Court is considering the constitutionality of geofence warrants.
 
 The case centers on the trial of Okello Chatrie, a Virginia man who pleaded guilty to a 2019 robbery outside of Richmond and was sentenced to almost 12 years in prison for stealing $195,000 at gunpoint.

@@ -15,6 +15,24 @@
   ],
   "items": [
     {
+      "id": "1770844613723",
+      "url": "https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/",
+      "title": "Google provided ICE with a wide array of personal data student activist",
+      "date_published": "2026-02-11T21:16:53.723Z",
+      "tags": [
+        "google",
+        "privacy",
+        "ice"
+      ],
+      "content_text": "Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank account numbers.\n\n",
+      "summary": "Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank acco...",
+      "content_html": "<blockquote>Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank account numbers.\n\n</blockquote>\n<p><strong>Tags:</strong> google, privacy, ice</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1770842099486",
       "url": "https://matrix.org/foundation/about/",
       "title": "About Matrix",
