@@ -15,6 +15,108 @@
   ],
   "items": [
     {
+      "id": "1771030168570",
+      "url": "https://www.nytimes.com/2026/02/13/technology/meta-facial-recognition-smart-glasses.html",
+      "title": "Meta Plans to Add Facial Recognition Technology to Its Smart Glasses",
+      "date_published": "2026-02-14T00:49:28.570Z",
+      "tags": [
+        "meta",
+        "facial",
+        "recognition",
+        "frt",
+        "ethics"
+      ],
+      "content_text": "Meta, Facebook’s parent company, plans to add the feature to its smart glasses, which it makes with the owner of Ray-Ban and Oakley, as soon as this year, according to four people involved with the plans who were not authorized to speak publicly about confidential discussions. The feature, internally called “Name Tag,” would let wearers of smart glasses identify people and get information about them via Meta’s artificial intelligence assistant.",
+      "summary": "Meta, Facebook’s parent company, plans to add the feature to its smart glasses, which it makes with the owner of Ray-Ban and Oakley, as soon as this y...",
+      "content_html": "<blockquote>Meta, Facebook’s parent company, plans to add the feature to its smart glasses, which it makes with the owner of Ray-Ban and Oakley, as soon as this year, according to four people involved with the plans who were not authorized to speak publicly about confidential discussions. The feature, internally called “Name Tag,” would let wearers of smart glasses identify people and get information about them via Meta’s artificial intelligence assistant.</blockquote>\n<p><strong>Tags:</strong> meta, facial, recognition, frt, ethics</p>",
+      "_link_blog": {
+        "visits": 1,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1771028229880",
+      "url": "https://www.republik.ch/2025/12/08/wie-hartnaeckig-palantir-die-schweiz-umwarb",
+      "title": "Überwachungstechnologie: Wie hartnäckig Palantir die Schweiz umwarb",
+      "date_published": "2026-02-14T00:17:09.880Z",
+      "tags": [
+        "ethics",
+        "press",
+        "palantir",
+        "legal",
+        "media",
+        "republik"
+      ],
+      "content_text": "article Palantir Republik Palantir Technologies filed a lawsuit in Zurich's Commercial Court against Republik magazine for a December 2025 series on its unsuccessful bids for Swiss contracts since 2018. The articles detailed high-level meetings with officials like Finance Minister Ueli Maurer and army chief Thomas Süssli, plus pro bono offers for COVID tracking and military tools, all rejected nine times over data security fears and sovereignty risks. Republik stands by its reporting based on documents, while Palantir calls it distorted; the case highlights tensions between tech firms and press scrutiny, drawing international attention including UK MPs questioning Palantir's deals.",
+      "summary": "article Palantir Republik Palantir Technologies filed a lawsuit in Zurich's Commercial Court against Republik magazine for a December 2025 series on i...",
+      "content_html": "<blockquote>article Palantir Republik Palantir Technologies filed a lawsuit in Zurich&#039;s Commercial Court against Republik magazine for a December 2025 series on its unsuccessful bids for Swiss contracts since 2018. The articles detailed high-level meetings with officials like Finance Minister Ueli Maurer and army chief Thomas Süssli, plus pro bono offers for COVID tracking and military tools, all rejected nine times over data security fears and sovereignty risks. Republik stands by its reporting based on documents, while Palantir calls it distorted; the case highlights tensions between tech firms and press scrutiny, drawing international attention including UK MPs questioning Palantir&#039;s deals.</blockquote>\n<p><strong>Tags:</strong> ethics, press, palantir, legal, media, republik</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1771023478094",
+      "url": "https://simonwillison.net/",
+      "title": "Simon Willison’s Weblog",
+      "date_published": "2026-02-13T22:57:58.094Z",
+      "tags": [
+        "coding",
+        "opensource",
+        "ai",
+        "learning",
+        "knowledge"
+      ],
+      "content_html": "<p><strong>Tags:</strong> coding, opensource, ai, learning, knowledge</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1770986786457",
+      "url": "https://www.theverge.com/news/878447/ring-flock-partnership-canceled",
+      "title": "Ring cancels its partnership with Flock Safety after surveillance backlash",
+      "date_published": "2026-02-13T12:46:26.457Z",
+      "tags": [
+        "ring",
+        "partnership",
+        "flock",
+        "safety",
+        "security",
+        "surveillance"
+      ],
+      "content_text": "(BOTH ARE EVIL - ED NOTE)   Ring cancels its partnership with Flock Safety after surveillance backlashFollowing mounting pressure and a questionable Super Bowl ad, the Amazon-owned company walked back its plan to integrate with the controversial law-enforcement technology company.",
+      "summary": "(BOTH ARE EVIL - ED NOTE)   Ring cancels its partnership with Flock Safety after surveillance backlashFollowing mounting pressure and a questionable S...",
+      "content_html": "<blockquote>(BOTH ARE EVIL - ED NOTE)   Ring cancels its partnership with Flock Safety after surveillance backlashFollowing mounting pressure and a questionable Super Bowl ad, the Amazon-owned company walked back its plan to integrate with the controversial law-enforcement technology company.</blockquote>\n<p><strong>Tags:</strong> ring, partnership, flock, safety, security, surveillance</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1770986679080",
+      "url": "https://nickbostrom.com/optimal.pdf",
+      "title": "Optimal Timing for Superintelligence",
+      "date_published": "2026-02-13T12:44:39.080Z",
+      "tags": [
+        "timing",
+        "superintelligence",
+        "ai",
+        "human",
+        "humanity",
+        "knowledge",
+        "knowledge-system"
+      ],
+      "content_text": "Developing superintelligence is not like playing Russian roulette; it is more like\nundergoing risky surgery for a condition that will otherwise prove fatal. We\nexamine optimal timing from a person-affecting stance (and set aside simulation\nhypotheses and other arcane considerations). Models incorporating safety\nprogress, temporal discounting, quality-of-life differentials, and concave QALY\nutilities suggest that even high catastrophe probabilities are often worth\naccepting. Prioritarian weighting further shortens timelines. For many parameter\nsettings, the optimal strategy would involve moving quickly to AGI capability, then\npausing briefly before full deployment: swift to harbor, slow to berth. But poorly\nimplemented pauses could do more harm than g",
+      "summary": "Developing superintelligence is not like playing Russian roulette; it is more like\nundergoing risky surgery for a condition that will otherwise prove ...",
+      "content_html": "<blockquote>Developing superintelligence is not like playing Russian roulette; it is more like\nundergoing risky surgery for a condition that will otherwise prove fatal. We\nexamine optimal timing from a person-affecting stance (and set aside simulation\nhypotheses and other arcane considerations). Models incorporating safety\nprogress, temporal discounting, quality-of-life differentials, and concave QALY\nutilities suggest that even high catastrophe probabilities are often worth\naccepting. Prioritarian weighting further shortens timelines. For many parameter\nsettings, the optimal strategy would involve moving quickly to AGI capability, then\npausing briefly before full deployment: swift to harbor, slow to berth. But poorly\nimplemented pauses could do more harm than g</blockquote>\n<p><strong>Tags:</strong> timing, superintelligence, ai, human, humanity, knowledge, knowledge-system</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1770860765554",
       "url": "https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism",
       "title": "China's Approach to AI Anthropomorphism",

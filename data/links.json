@@ -1,6 +1,90 @@
 {
   "links": [
     {
+      "id": 1771030168570,
+      "url": "https://www.nytimes.com/2026/02/13/technology/meta-facial-recognition-smart-glasses.html",
+      "source": "Meta Plans to Add Facial Recognition Technology to Its Smart Glasses",
+      "pullQuote": "Meta, Facebook’s parent company, plans to add the feature to its smart glasses, which it makes with the owner of Ray-Ban and Oakley, as soon as this year, according to four people involved with the plans who were not authorized to speak publicly about confidential discussions. The feature, internally called “Name Tag,” would let wearers of smart glasses identify people and get information about them via Meta’s artificial intelligence assistant.",
+      "tags": [
+        "meta",
+        "facial",
+        "recognition",
+        "frt",
+        "ethics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-14T00:49:28.570Z",
+      "visits": 1
+    },
+    {
+      "id": 1771028229880,
+      "url": "https://www.republik.ch/2025/12/08/wie-hartnaeckig-palantir-die-schweiz-umwarb",
+      "source": "Überwachungstechnologie: Wie hartnäckig Palantir die Schweiz umwarb",
+      "pullQuote": "article Palantir Republik Palantir Technologies filed a lawsuit in Zurich's Commercial Court against Republik magazine for a December 2025 series on its unsuccessful bids for Swiss contracts since 2018. The articles detailed high-level meetings with officials like Finance Minister Ueli Maurer and army chief Thomas Süssli, plus pro bono offers for COVID tracking and military tools, all rejected nine times over data security fears and sovereignty risks. Republik stands by its reporting based on documents, while Palantir calls it distorted; the case highlights tensions between tech firms and press scrutiny, drawing international attention including UK MPs questioning Palantir's deals.",
+      "tags": [
+        "ethics",
+        "press",
+        "palantir",
+        "legal",
+        "media",
+        "republik"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-14T00:17:09.880Z",
+      "visits": 0
+    },
+    {
+      "id": 1771023478094,
+      "url": "https://simonwillison.net/",
+      "source": "Simon Willison’s Weblog",
+      "pullQuote": "",
+      "tags": [
+        "coding",
+        "opensource",
+        "ai",
+        "learning",
+        "knowledge"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-13T22:57:58.094Z",
+      "visits": 0
+    },
+    {
+      "id": 1770986786457,
+      "url": "https://www.theverge.com/news/878447/ring-flock-partnership-canceled",
+      "source": "Ring cancels its partnership with Flock Safety after surveillance backlash",
+      "pullQuote": "(BOTH ARE EVIL - ED NOTE)   Ring cancels its partnership with Flock Safety after surveillance backlashFollowing mounting pressure and a questionable Super Bowl ad, the Amazon-owned company walked back its plan to integrate with the controversial law-enforcement technology company.",
+      "tags": [
+        "ring",
+        "partnership",
+        "flock",
+        "safety",
+        "security",
+        "surveillance"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-13T12:46:26.457Z",
+      "visits": 0
+    },
+    {
+      "id": 1770986679080,
+      "url": "https://nickbostrom.com/optimal.pdf",
+      "source": "Optimal Timing for Superintelligence",
+      "pullQuote": "Developing superintelligence is not like playing Russian roulette; it is more like\nundergoing risky surgery for a condition that will otherwise prove fatal. We\nexamine optimal timing from a person-affecting stance (and set aside simulation\nhypotheses and other arcane considerations). Models incorporating safety\nprogress, temporal discounting, quality-of-life differentials, and concave QALY\nutilities suggest that even high catastrophe probabilities are often worth\naccepting. Prioritarian weighting further shortens timelines. For many parameter\nsettings, the optimal strategy would involve moving quickly to AGI capability, then\npausing briefly before full deployment: swift to harbor, slow to berth. But poorly\nimplemented pauses could do more harm than g",
+      "tags": [
+        "timing",
+        "superintelligence",
+        "ai",
+        "human",
+        "humanity",
+        "knowledge",
+        "knowledge-system"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-13T12:44:39.080Z",
+      "visits": 0
+    },
+    {
       "id": 1770860765554,
       "url": "https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism",
       "source": "China's Approach to AI Anthropomorphism",
@@ -4478,5 +4562,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-12T01:46:05.592Z"
+  "lastUpdated": "2026-02-14T00:50:40.000Z"
 }

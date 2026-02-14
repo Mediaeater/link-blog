@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 12 Feb 2026 01:46:05 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Feb 2026 00:50:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Meta Plans to Add Facial Recognition Technology to Its Smart Glasses]]></title>
+            <link>https://www.nytimes.com/2026/02/13/technology/meta-facial-recognition-smart-glasses.html</link>
+            <guid>1771030168570</guid>
+            <pubDate>Sat, 14 Feb 2026 00:49:28 GMT</pubDate>
+            <description><![CDATA[Tags: meta, facial, recognition, frt, ethics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Überwachungstechnologie: Wie hartnäckig Palantir die Schweiz umwarb]]></title>
+            <link>https://www.republik.ch/2025/12/08/wie-hartnaeckig-palantir-die-schweiz-umwarb</link>
+            <guid>1771028229880</guid>
+            <pubDate>Sat, 14 Feb 2026 00:17:09 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, press, palantir, legal, media, republik]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Simon Willison’s Weblog]]></title>
+            <link>https://simonwillison.net/</link>
+            <guid>1771023478094</guid>
+            <pubDate>Fri, 13 Feb 2026 22:57:58 GMT</pubDate>
+            <description><![CDATA[Tags: coding, opensource, ai, learning, knowledge]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ring cancels its partnership with Flock Safety after surveillance backlash]]></title>
+            <link>https://www.theverge.com/news/878447/ring-flock-partnership-canceled</link>
+            <guid>1770986786457</guid>
+            <pubDate>Fri, 13 Feb 2026 12:46:26 GMT</pubDate>
+            <description><![CDATA[Tags: ring, partnership, flock, safety, security, surveillance]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Optimal Timing for Superintelligence]]></title>
+            <link>https://nickbostrom.com/optimal.pdf</link>
+            <guid>1770986679080</guid>
+            <pubDate>Fri, 13 Feb 2026 12:44:39 GMT</pubDate>
+            <description><![CDATA[Tags: timing, superintelligence, ai, human, humanity, knowledge, knowledge-system]]></description>
+        </item>
         <item>
             <title><![CDATA[China's Approach to AI Anthropomorphism]]></title>
             <link>https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism</link>
