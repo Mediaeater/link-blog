@@ -4,10 +4,38 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 21 Feb 2026 01:05:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2026 15:26:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Cyhaus: Bela Lugosi’s Bed – greg.org]]></title>
+            <link>https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html</link>
+            <guid>1771687615051</guid>
+            <pubDate>Sat, 21 Feb 2026 15:26:55 GMT</pubDate>
+            <description><![CDATA[Tags: bed, art, cy-twombly, bela-lugosi, bauhaus, pun, green, lamp]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The industrial owners selling to ICE]]></title>
+            <link>https://therealdeal.com/national/2026/02/19/the-industrial-owners-selling-to-ice/</link>
+            <guid>1771687298558</guid>
+            <pubDate>Sat, 21 Feb 2026 15:21:38 GMT</pubDate>
+            <description><![CDATA[Tags: ice, federal, real-estate, private-prison]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Making frontier cybersecurity capabilities available to defenders]]></title>
+            <link>https://www.anthropic.com/news/claude-code-security</link>
+            <guid>1771687160724</guid>
+            <pubDate>Sat, 21 Feb 2026 15:19:20 GMT</pubDate>
+            <description><![CDATA[Tags: cybersecurity, claude, verification]]></description>
+        </item>
+        <item>
+            <title><![CDATA[I Verified My LinkedIn Identity. Here’s What I Actually Handed Over.]]></title>
+            <link>https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/</link>
+            <guid>1771687066125</guid>
+            <pubDate>Sat, 21 Feb 2026 15:17:46 GMT</pubDate>
+            <description><![CDATA[Tags: identity, verification, linkedin, security, opsec, wtf, dark-ux]]></description>
+        </item>
         <item>
             <title><![CDATA[The unauthorized tool call problem – Answer.AI]]></title>
             <link>https://www.answer.ai/posts/2026-01-20-toolcalling.html</link>
