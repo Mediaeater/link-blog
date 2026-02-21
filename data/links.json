@@ -1,6 +1,72 @@
 {
   "links": [
     {
+      "id": 1771687615051,
+      "url": "https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html",
+      "source": "Cyhaus: Bela Lugosi’s Bed – greg.org",
+      "pullQuote": "Is this where the mattress ended up? The bedroom is not in Horst, and this Mulas is not in Homes & Studios. Green carpet, green velvet, green sheets, Twombly’s love affair with green didn’t start in Bassano. The Kiss (Bela Lugosi) is one of Warhol’s earliest screenprints, which he made himself, on paper. On November 22, 1963.",
+      "tags": [
+        "bed",
+        "art",
+        "cy-twombly",
+        "bela-lugosi",
+        "bauhaus",
+        "pun",
+        "green",
+        "lamp"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-21T15:26:55.051Z",
+      "visits": 0
+    },
+    {
+      "id": 1771687298558,
+      "url": "https://therealdeal.com/national/2026/02/19/the-industrial-owners-selling-to-ice/",
+      "source": "The industrial owners selling to ICE",
+      "pullQuote": "The other owners who have been reported to have sold buildings to ICE through subsidiaries or affiliates are: Crestlight Capital, Oakmont Industrial Group, Rockefeller Group, PCCP, Fundrise, Flint Development, and retailer Big Lots. Those companies did not respond to requests for comment. ",
+      "tags": [
+        "ice",
+        "federal",
+        "real-estate",
+        "private-prison"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-21T15:21:38.558Z",
+      "visits": 0
+    },
+    {
+      "id": 1771687160724,
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "source": "Making frontier cybersecurity capabilities available to defenders",
+      "pullQuote": "Rather than scanning for known patterns, Claude Code Security reads and reasons about your code the way a human security researcher would: understanding how components interact, tracing how data moves through your application, and catching complex vulnerabilities that rule-based tools miss.\n\nEvery finding goes through a multi-stage verification process before it reaches an analyst. Claude re-examines each result, attempting to prove or disprove its own findings and filter out false positives. Findings are also assigned severity ratings so teams can focus on the most important fixes first.",
+      "tags": [
+        "cybersecurity",
+        "claude",
+        "verification"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-21T15:19:20.724Z",
+      "visits": 0
+    },
+    {
+      "id": 1771687066125,
+      "url": "https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/",
+      "source": "I Verified My LinkedIn Identity. Here’s What I Actually Handed Over.",
+      "pullQuote": "The whole thing took three minutes. Scan, selfie, done.\n\nUnderstanding what I actually agreed to took me an entire weekend reading 34 pages of legal documents.\n\nI handed a US company my passport, my face, and the mathematical geometry of my skull. They cross-referenced me against credit agencies and government databases. They’ll use my documents to train their AI. And if the US government comes knocking, they’ll hand it all over — even if it’s stored in Europe, even if I’m European, and possibly without ever telling me.\n\nAll for a small blue checkmark on a professional networking site.\n\nI’m not telling you to skip verification. But I am telling you to know what you’re trading. Because Persona does. LinkedIn does. The only person in the dark is the one holding their passport up to the camera.",
+      "tags": [
+        "identity",
+        "verification",
+        "linkedin",
+        "security",
+        "opsec",
+        "wtf",
+        "dark-ux"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-21T15:17:46.125Z",
+      "visits": 0
+    },
+    {
       "id": 1771635735805,
       "url": "https://www.answer.ai/posts/2026-01-20-toolcalling.html",
       "source": "The unauthorized tool call problem – Answer.AI",
@@ -4537,5 +4603,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-21T01:05:22.826Z"
+  "lastUpdated": "2026-02-21T15:26:55.075Z"
 }

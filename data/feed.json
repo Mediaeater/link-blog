@@ -15,6 +15,88 @@
   ],
   "items": [
     {
+      "id": "1771687615051",
+      "url": "https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html",
+      "title": "Cyhaus: Bela Lugosi’s Bed – greg.org",
+      "date_published": "2026-02-21T15:26:55.051Z",
+      "tags": [
+        "bed",
+        "art",
+        "cy-twombly",
+        "bela-lugosi",
+        "bauhaus",
+        "pun",
+        "green",
+        "lamp"
+      ],
+      "content_text": "Is this where the mattress ended up? The bedroom is not in Horst, and this Mulas is not in Homes & Studios. Green carpet, green velvet, green sheets, Twombly’s love affair with green didn’t start in Bassano. The Kiss (Bela Lugosi) is one of Warhol’s earliest screenprints, which he made himself, on paper. On November 22, 1963.",
+      "summary": "Is this where the mattress ended up? The bedroom is not in Horst, and this Mulas is not in Homes & Studios. Green carpet, green velvet, green sheets, ...",
+      "content_html": "<blockquote>Is this where the mattress ended up? The bedroom is not in Horst, and this Mulas is not in Homes &amp; Studios. Green carpet, green velvet, green sheets, Twombly’s love affair with green didn’t start in Bassano. The Kiss (Bela Lugosi) is one of Warhol’s earliest screenprints, which he made himself, on paper. On November 22, 1963.</blockquote>\n<p><strong>Tags:</strong> bed, art, cy-twombly, bela-lugosi, bauhaus, pun, green, lamp</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1771687298558",
+      "url": "https://therealdeal.com/national/2026/02/19/the-industrial-owners-selling-to-ice/",
+      "title": "The industrial owners selling to ICE",
+      "date_published": "2026-02-21T15:21:38.558Z",
+      "tags": [
+        "ice",
+        "federal",
+        "real-estate",
+        "private-prison"
+      ],
+      "content_text": "The other owners who have been reported to have sold buildings to ICE through subsidiaries or affiliates are: Crestlight Capital, Oakmont Industrial Group, Rockefeller Group, PCCP, Fundrise, Flint Development, and retailer Big Lots. Those companies did not respond to requests for comment. ",
+      "summary": "The other owners who have been reported to have sold buildings to ICE through subsidiaries or affiliates are: Crestlight Capital, Oakmont Industrial G...",
+      "content_html": "<blockquote>The other owners who have been reported to have sold buildings to ICE through subsidiaries or affiliates are: Crestlight Capital, Oakmont Industrial Group, Rockefeller Group, PCCP, Fundrise, Flint Development, and retailer Big Lots. Those companies did not respond to requests for comment. </blockquote>\n<p><strong>Tags:</strong> ice, federal, real-estate, private-prison</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1771687160724",
+      "url": "https://www.anthropic.com/news/claude-code-security",
+      "title": "Making frontier cybersecurity capabilities available to defenders",
+      "date_published": "2026-02-21T15:19:20.724Z",
+      "tags": [
+        "cybersecurity",
+        "claude",
+        "verification"
+      ],
+      "content_text": "Rather than scanning for known patterns, Claude Code Security reads and reasons about your code the way a human security researcher would: understanding how components interact, tracing how data moves through your application, and catching complex vulnerabilities that rule-based tools miss.\n\nEvery finding goes through a multi-stage verification process before it reaches an analyst. Claude re-examines each result, attempting to prove or disprove its own findings and filter out false positives. Findings are also assigned severity ratings so teams can focus on the most important fixes first.",
+      "summary": "Rather than scanning for known patterns, Claude Code Security reads and reasons about your code the way a human security researcher would: understandi...",
+      "content_html": "<blockquote>Rather than scanning for known patterns, Claude Code Security reads and reasons about your code the way a human security researcher would: understanding how components interact, tracing how data moves through your application, and catching complex vulnerabilities that rule-based tools miss.\n\nEvery finding goes through a multi-stage verification process before it reaches an analyst. Claude re-examines each result, attempting to prove or disprove its own findings and filter out false positives. Findings are also assigned severity ratings so teams can focus on the most important fixes first.</blockquote>\n<p><strong>Tags:</strong> cybersecurity, claude, verification</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1771687066125",
+      "url": "https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/",
+      "title": "I Verified My LinkedIn Identity. Here’s What I Actually Handed Over.",
+      "date_published": "2026-02-21T15:17:46.125Z",
+      "tags": [
+        "identity",
+        "verification",
+        "linkedin",
+        "security",
+        "opsec",
+        "wtf",
+        "dark-ux"
+      ],
+      "content_text": "The whole thing took three minutes. Scan, selfie, done.\n\nUnderstanding what I actually agreed to took me an entire weekend reading 34 pages of legal documents.\n\nI handed a US company my passport, my face, and the mathematical geometry of my skull. They cross-referenced me against credit agencies and government databases. They’ll use my documents to train their AI. And if the US government comes knocking, they’ll hand it all over — even if it’s stored in Europe, even if I’m European, and possibly without ever telling me.\n\nAll for a small blue checkmark on a professional networking site.\n\nI’m not telling you to skip verification. But I am telling you to know what you’re trading. Because Persona does. LinkedIn does. The only person in the dark is the one holding their passport up to the camera.",
+      "summary": "The whole thing took three minutes. Scan, selfie, done.\n\nUnderstanding what I actually agreed to took me an entire weekend reading 34 pages of legal d...",
+      "content_html": "<blockquote>The whole thing took three minutes. Scan, selfie, done.\n\nUnderstanding what I actually agreed to took me an entire weekend reading 34 pages of legal documents.\n\nI handed a US company my passport, my face, and the mathematical geometry of my skull. They cross-referenced me against credit agencies and government databases. They’ll use my documents to train their AI. And if the US government comes knocking, they’ll hand it all over — even if it’s stored in Europe, even if I’m European, and possibly without ever telling me.\n\nAll for a small blue checkmark on a professional networking site.\n\nI’m not telling you to skip verification. But I am telling you to know what you’re trading. Because Persona does. LinkedIn does. The only person in the dark is the one holding their passport up to the camera.</blockquote>\n<p><strong>Tags:</strong> identity, verification, linkedin, security, opsec, wtf, dark-ux</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1771635735805",
       "url": "https://www.answer.ai/posts/2026-01-20-toolcalling.html",
       "title": "The unauthorized tool call problem – Answer.AI",
