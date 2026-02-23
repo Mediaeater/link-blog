@@ -1,6 +1,67 @@
 {
   "links": [
     {
+      "id": 1771853077536,
+      "url": "https://x.com/karpathy/status/2024987174077432126",
+      "source": "Andrej Karpathy (@karpathy) on X",
+      "pullQuote": "I'm definitely a bit sus'd to run OpenClaw specifically - giving my private data/keys to 400K lines of vibe coded monster that is being actively attacked at scale is not very appealing at all. Already seeing reports of exposed instances, RCE vulnerabilities, supply chain poisoning, malicious or compromised skills in the registry, it feels like a complete wild west and a security nightmare. But I do love the concept and I think that just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.\n\nLooking around, and given that the high level idea is clear, there are a lot of smaller Claws starting to pop out. For example, on a quick skim NanoClaw looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default. I also love their approach to configurability - it's not done via config files it's done via skills! For example, /add-telegram instructs your AI agent how to modify the actual code to integrate Telegram. I haven't come across this yet and it slightly blew my mind earlier today as a new, AI-enabled approach to preventing config mess and if-then-else monsters. Basically - the implied new meta is to write the most maximally forkable repo and then have skills that fork it into any desired more exotic configuration. Very cool.",
+      "tags": [
+        "karpathy",
+        "mac",
+        "mac-mini",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-23T13:24:37.536Z",
+      "visits": 0
+    },
+    {
+      "id": 1771852889068,
+      "url": "https://studio.firebase.google.com/",
+      "source": "Firebase Studio",
+      "pullQuote": "What do you want to build? Prototype an app with AI",
+      "tags": [
+        "firebase",
+        "studio",
+        "google",
+        "interpretability",
+        "code"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-23T13:21:29.068Z",
+      "visits": 0
+    },
+    {
+      "id": 1771852817683,
+      "url": "https://www.youtube.com/watch?v=rGAA59JTBtg",
+      "source": " Harari and Tegmark on Humanity and AI - YouTube",
+      "pullQuote": "Yuval Noah Harari, Historian, Philosopher & Bestselling Author and Max Tegmark, Co-Founder, Future of Life Institute; Professor, Massachusetts Institute of Technology (MIT) discuss human agency, governing AI and the future of humanity with Bloomberg's Francine Lacqua at Bloomberg House in Davos on the sidelines of the 2026 World Economic Forum.\n--------",
+      "tags": [
+        "video",
+        "ai",
+        "wef",
+        "2026"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-23T13:20:17.683Z",
+      "visits": 0
+    },
+    {
+      "id": 1771852751434,
+      "url": "https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/",
+      "source": "Password managers’ promise that they can’t see your vaults isn’t always true",
+      "pullQuote": "Over the past 15 years, password managers have grown from a niche security tool used by the technology savvy into an indispensable security tool for the masses, with an estimated 94 million US adults—or roughly 36 percent of them—having adopted them. They store not only passwords for pension, financial, and email accounts, but also cryptocurrency credentials, payment card numbers, and other sensitive data.\n\nAll eight of the top password managers have adopted the term “zero knowledge” to describe the complex encryption system they use to protect the data vaults that users store on their servers. The definitions vary slightly from vendor to vendor, but they generally boil down to one bold assurance: that there is no way for malicious insiders or hackers who manage to compromise the cloud infrastructure to steal vaults or data stored in them. These promises make sense, given previous breaches of LastPass and the reasonable expectation that state-level hackers have both the motive and capability to obtain password vaults belonging to high-value targets.",
+      "tags": [
+        "vaults",
+        "opsec",
+        "passwords",
+        "security"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-23T13:19:11.434Z",
+      "visits": 0
+    },
+    {
       "id": 1771687615051,
       "url": "https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html",
       "source": "Cyhaus: Bela Lugosi’s Bed – greg.org",
@@ -4603,5 +4664,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-21T15:26:55.075Z"
+  "lastUpdated": "2026-02-23T13:25:40.665Z"
 }
