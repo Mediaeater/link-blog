@@ -87,6 +87,7 @@ export default function NewsTicker({ links = [], forceShow = false, onClose }) {
     }, 32000); // 32 seconds per entry (6s hold + 25s scroll + 1s black transition)
 
     return () => clearInterval(timer);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isVisible, isPaused, isTransitioning, linksWithQuotes.length, links.length]);
 
   // Detect landscape orientation on mobile

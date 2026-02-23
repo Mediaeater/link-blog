@@ -292,7 +292,7 @@ export default function LinkBlogClean() {
     if (tagParam) {
       setSelectedTags([tagParam]);
     }
-  }, [loadLinks]);
+  }, [loadLinks, loadArchivesList]);
 
   // Update URL when tags change
   useEffect(() => {

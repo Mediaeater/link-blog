@@ -57,68 +57,6 @@ const DOMAIN_TAG_MAP = {
   'pypi.org': ['python', 'package', 'pip']
 };
 
-// Keyword-based tag suggestions
-const KEYWORD_TAG_MAP = {
-  // Programming languages
-  'javascript': ['javascript', 'web-development'],
-  'python': ['python', 'programming'],
-  'react': ['react', 'javascript', 'frontend'],
-  'vue': ['vue', 'javascript', 'frontend'],
-  'angular': ['angular', 'javascript', 'frontend'],
-  'node': ['nodejs', 'javascript', 'backend'],
-  'typescript': ['typescript', 'javascript'],
-  'css': ['css', 'frontend', 'styling'],
-  'html': ['html', 'frontend', 'web-development'],
-  'sql': ['sql', 'database'],
-  'mongodb': ['mongodb', 'database', 'nosql'],
-  'postgresql': ['postgresql', 'database', 'sql'],
-  'mysql': ['mysql', 'database', 'sql'],
-  
-  // Technologies
-  'api': ['api', 'backend', 'integration'],
-  'rest': ['api', 'rest', 'backend'],
-  'graphql': ['graphql', 'api', 'backend'],
-  'docker': ['docker', 'containers', 'devops'],
-  'kubernetes': ['kubernetes', 'devops', 'containers'],
-  'aws': ['aws', 'cloud', 'infrastructure'],
-  'firebase': ['firebase', 'backend', 'google'],
-  'redis': ['redis', 'cache', 'database'],
-  'nginx': ['nginx', 'web-server', 'devops'],
-  'apache': ['apache', 'web-server'],
-  
-  // Concepts
-  'tutorial': ['tutorial', 'learning'],
-  'guide': ['guide', 'tutorial'],
-  'documentation': ['documentation', 'reference'],
-  'cheatsheet': ['reference', 'cheatsheet'],
-  'best practices': ['best-practices', 'guide'],
-  'performance': ['performance', 'optimization'],
-  'security': ['security', 'important'],
-  'testing': ['testing', 'quality'],
-  'deployment': ['deployment', 'devops'],
-  'monitoring': ['monitoring', 'devops'],
-  'analytics': ['analytics', 'data'],
-  'machine learning': ['machine-learning', 'ai', 'data-science'],
-  'artificial intelligence': ['ai', 'machine-learning'],
-  'data science': ['data-science', 'analytics', 'python'],
-  'blockchain': ['blockchain', 'crypto'],
-  'cryptocurrency': ['crypto', 'blockchain'],
-  
-  // Content types
-  'blog': ['blog', 'article'],
-  'article': ['article', 'blog'],
-  'video': ['video'],
-  'course': ['course', 'learning'],
-  'book': ['book', 'resource'],
-  'podcast': ['podcast', 'audio'],
-  'newsletter': ['newsletter'],
-  'tool': ['tools', 'useful'],
-  'library': ['library', 'code'],
-  'framework': ['framework', 'code'],
-  'plugin': ['plugin', 'extension'],
-  'theme': ['theme', 'design'],
-  'template': ['template', 'design']
-};
 
 /**
  * Suggests tags based on URL, title, and description
