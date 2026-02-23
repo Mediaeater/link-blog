@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 23 Feb 2026 13:25:40 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2026 14:26:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Lyria — Gemini AI music & song generator]]></title>
+            <link>https://gemini.google/overview/music-generation/</link>
+            <guid>1771856789784</guid>
+            <pubDate>Mon, 23 Feb 2026 14:26:29 GMT</pubDate>
+            <description><![CDATA[Tags: lyria, gemini, music, song, generator, musicvideo, google]]></description>
+        </item>
         <item>
             <title><![CDATA[Andrej Karpathy (@karpathy) on X]]></title>
             <link>https://x.com/karpathy/status/2024987174077432126</link>

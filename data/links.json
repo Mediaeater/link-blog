@@ -1,6 +1,24 @@
 {
   "links": [
     {
+      "id": 1771856789784,
+      "url": "https://gemini.google/overview/music-generation/",
+      "source": "Lyria — Gemini AI music & song generator",
+      "pullQuote": "Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack.",
+      "tags": [
+        "lyria",
+        "gemini",
+        "music",
+        "song",
+        "generator",
+        "musicvideo",
+        "google"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-23T14:26:29.784Z",
+      "visits": 0
+    },
+    {
       "id": 1771853077536,
       "url": "https://x.com/karpathy/status/2024987174077432126",
       "source": "Andrej Karpathy (@karpathy) on X",
@@ -4664,5 +4682,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-23T13:25:40.665Z"
+  "lastUpdated": "2026-02-23T14:26:29.832Z"
 }
