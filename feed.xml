@@ -4,10 +4,38 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 21 Feb 2026 15:26:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2026 13:25:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Andrej Karpathy (@karpathy) on X]]></title>
+            <link>https://x.com/karpathy/status/2024987174077432126</link>
+            <guid>1771853077536</guid>
+            <pubDate>Mon, 23 Feb 2026 13:24:37 GMT</pubDate>
+            <description><![CDATA[Tags: karpathy, mac, mac-mini, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Firebase Studio]]></title>
+            <link>https://studio.firebase.google.com/</link>
+            <guid>1771852889068</guid>
+            <pubDate>Mon, 23 Feb 2026 13:21:29 GMT</pubDate>
+            <description><![CDATA[Tags: firebase, studio, google, interpretability, code]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ Harari and Tegmark on Humanity and AI - YouTube]]></title>
+            <link>https://www.youtube.com/watch?v=rGAA59JTBtg</link>
+            <guid>1771852817683</guid>
+            <pubDate>Mon, 23 Feb 2026 13:20:17 GMT</pubDate>
+            <description><![CDATA[Tags: video, ai, wef, 2026]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Password managers’ promise that they can’t see your vaults isn’t always true]]></title>
+            <link>https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/</link>
+            <guid>1771852751434</guid>
+            <pubDate>Mon, 23 Feb 2026 13:19:11 GMT</pubDate>
+            <description><![CDATA[Tags: vaults, opsec, passwords, security]]></description>
+        </item>
         <item>
             <title><![CDATA[Cyhaus: Bela Lugosi’s Bed – greg.org]]></title>
             <link>https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html</link>
