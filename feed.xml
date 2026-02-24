@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 23 Feb 2026 14:26:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Feb 2026 00:47:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection]]></title>
+            <link>https://spectrum.ieee.org/age-verification</link>
+            <guid>1771893993578</guid>
+            <pubDate>Tue, 24 Feb 2026 00:46:33 GMT</pubDate>
+            <description><![CDATA[Tags: security, identity, agents]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dike Blair, Untitled 2026 | KARMA Bookstore]]></title>
+            <link>https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/</link>
+            <guid>1771891566164</guid>
+            <pubDate>Tue, 24 Feb 2026 00:06:06 GMT</pubDate>
+            <description><![CDATA[Tags: art, archival-pigment-print, karma, print, gallery]]></description>
+        </item>
         <item>
             <title><![CDATA[Lyria — Gemini AI music & song generator]]></title>
             <link>https://gemini.google/overview/music-generation/</link>

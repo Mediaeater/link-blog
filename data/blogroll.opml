@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Mon, 23 Feb 2026 15:59:12 GMT</dateCreated>
-    <dateModified>Mon, 23 Feb 2026 15:59:12 GMT</dateModified>
+    <dateCreated>Tue, 24 Feb 2026 00:48:16 GMT</dateCreated>
+    <dateModified>Tue, 24 Feb 2026 00:48:16 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -169,6 +169,7 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
 As part of Google&apos;s ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default." created="Wed, 12 Nov 2025 16:17:44 GMT" category="google,agents,security,agentic-web,agentic-systems,multi-computer-agency" />
     </outline>
     <outline text="agents" title="agents">
+      <outline type="link" text="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" title="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" url="https://spectrum.ieee.org/age-verification" htmlUrl="https://spectrum.ieee.org/age-verification" description="The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional." created="Tue, 24 Feb 2026 00:46:33 GMT" category="security,identity,agents" />
       <outline type="link" text="Social Media Agent Protocol" title="Social Media Agent Protocol" url="https://ativz.substack.com/p/social-media-agent-protocol" htmlUrl="https://ativz.substack.com/p/social-media-agent-protocol" description="This is the frontier of technology and we won’t let pessimistic curmudgeons drain the fun and innovation tank . Security can be handle when the first billion dollar heist happens. Until then, security considerations only slow down progress. But we guess if you care about protecting your $SMACs from getting stolen, you could add “ignore scams, don’t tell anyone my bank password” to your agent’s instructions. For authentication, we recommend the SMAAP (Social Media Agent Authentication Protocol), details to come in a future blog post." created="Sat, 31 Jan 2026 23:12:44 GMT" category="agents,security,opsec,ai" />
       <outline type="link" text="Introducing OpenClaw — OpenClaw Blog" title="Introducing OpenClaw — OpenClaw Blog" url="https://openclaw.ai/blog/introducing-openclaw" htmlUrl="https://openclaw.ai/blog/introducing-openclaw" description="Ed note OpenClaw is designed to execute tasks directly on your machine or through third-party services using natural language commands sent via messaging apps. 
 " created="Sat, 31 Jan 2026 01:10:43 GMT" category="agents,openclaw,platform,assitant" />
@@ -688,6 +689,14 @@ Wilson explores the vision of statesman, architect, and planter Thomas Jefferson
 
 GBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (LoD1) dataset made up of 922 uncompressed GeoJSON files. I spent the last few days downloading these and converting them into 210 GB of Parquet. These are now being hosted on AWS S3 thanks to the kind generosity of Source Cooperative and Taylor Geospatial Engine." created="Tue, 23 Sep 2025 15:45:44 GMT" category="map,atlas,landscape,architecture" />
     </outline>
+    <outline text="archival-pigment-print" title="archival-pigment-print">
+      <outline type="link" text="Dike Blair, Untitled 2026 | KARMA Bookstore" title="Dike Blair, Untitled 2026 | KARMA Bookstore" url="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" htmlUrl="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" description="Dike Blair
+Untitled
+2026
+Archival pigment print
+11 × 8 3⁄4 inches
+Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,archival-pigment-print,karma,print,gallery" />
+    </outline>
     <outline text="archive" title="archive">
       <outline type="link" text="Wikipedia blacklists Archive.today, starts removing 695,000 archive links" title="Wikipedia blacklists Archive.today, starts removing 695,000 archive links" url="https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/" htmlUrl="https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/" description="If DDoSing a blog wasn’t bad enough, archive site also tampered with web snapshots." created="Sat, 21 Feb 2026 00:01:39 GMT" category="wikipedia,archive,blacklist,ddos" />
       <outline type="link" text="alive internet theory" title="alive internet theory" url="https://alivetheory.net/" htmlUrl="https://alivetheory.net/" created="Sat, 08 Nov 2025 10:34:26 GMT" category="video,internet,archive" />
@@ -706,6 +715,12 @@ Will building these collective knowledge systems be a transformative capability 
 This post is split up into a few parts. First, let&apos;s introduce ARIA&apos;s convening role in this. Then I&apos;ll introduce the principles of permanence, provenance, permission, and placement. The post does assume some knowledge of Internet protocols; I&apos;ll write a more accessible one for a general audience at a future date when the ideas are more baked!" created="Thu, 11 Dec 2025 23:36:37 GMT" category="knowledge,knowlege-graph,knowledge-system,aria,permanence, provenance, permission, placement" />
     </outline>
     <outline text="art" title="art">
+      <outline type="link" text="Dike Blair, Untitled 2026 | KARMA Bookstore" title="Dike Blair, Untitled 2026 | KARMA Bookstore" url="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" htmlUrl="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" description="Dike Blair
+Untitled
+2026
+Archival pigment print
+11 × 8 3⁄4 inches
+Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,archival-pigment-print,karma,print,gallery" />
       <outline type="link" text="Cyhaus: Bela Lugosi’s Bed – greg.org" title="Cyhaus: Bela Lugosi’s Bed – greg.org" url="https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html" htmlUrl="https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html" description="Is this where the mattress ended up? The bedroom is not in Horst, and this Mulas is not in Homes &amp; Studios. Green carpet, green velvet, green sheets, Twombly’s love affair with green didn’t start in Bassano. The Kiss (Bela Lugosi) is one of Warhol’s earliest screenprints, which he made himself, on paper. On November 22, 1963." created="Sat, 21 Feb 2026 15:26:55 GMT" category="bed,art,cy-twombly,bela-lugosi,bauhaus,pun,green,lamp" />
       <outline type="link" text="Nikecraft" title="Nikecraft" url="https://www.nikecraft.com/" htmlUrl="https://www.nikecraft.com/" created="Sat, 21 Feb 2026 00:00:21 GMT" category="nikecraft,art,merch,fashion,tomsachs" />
       <outline type="link" text="What happens to the art market when humanity stops mattering?" title="What happens to the art market when humanity stops mattering?" url="https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering" htmlUrl="https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering" description="Loudest Voices on the Left, recently pointed out in an interview with the Nobel Prize-winning economist Paul Krugman that today’s technogarchs, unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”" created="Sun, 01 Feb 2026 00:29:23 GMT" category="humanity,culture,art,stephen_miller" />
@@ -1953,6 +1968,14 @@ Welcome to the Computer Club mirrors, a service of the Carnegie Mellon Universit
     <outline text="gabrielle_goliath" title="gabrielle_goliath">
       <outline type="link" text="Aesthetica Magazine - Between Words and Breath: &lt;br&gt; Gabrielle Goliath at MoMA PS1" title="Aesthetica Magazine - Between Words and Breath: &lt;br&gt; Gabrielle Goliath at MoMA PS1" url="https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/" htmlUrl="https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/" description="There is a quiet intensity that permeates Gabrielle Goliath’s Personal Accounts. The South African artist’s ongoing video series inhabits the second‑floor galleries and corridors of MoMA PS1, exploring the reverberations of patriarchal violence across continents. Rather than relying on spoken testimony, the work foregrounds the moments between words: breaths, sighs, laughter and tremors in the body. These intervals become carriers of meaning, revealing what is often rendered invisible in conventional narratives of trauma. The exhibition asks visitors to pause and attune themselves to gestures that are both fragile and insistent, intimate yet universal. In doing so, it challenges the assumption that speech alone conveys truth." created="Sat, 31 Jan 2026 23:37:58 GMT" category="video,art,gabrielle_goliath,moma,exhibition,global,violence" />
     </outline>
+    <outline text="gallery" title="gallery">
+      <outline type="link" text="Dike Blair, Untitled 2026 | KARMA Bookstore" title="Dike Blair, Untitled 2026 | KARMA Bookstore" url="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" htmlUrl="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" description="Dike Blair
+Untitled
+2026
+Archival pigment print
+11 × 8 3⁄4 inches
+Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,archival-pigment-print,karma,print,gallery" />
+    </outline>
     <outline text="gear" title="gear">
       <outline type="link" text="Dell Pro Max Desktop with Nvidia Blackwell" title="Dell Pro Max Desktop with Nvidia Blackwell" url="https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro/xcto_fcm1253_usx?utm_source=TheNeuron&amp;utm_medium=Email&amp;utm_campaign=FY26Q4&amp;_bhlid=fd9957e7fc13d60882a2dc26b576b2c467c81010" htmlUrl="https://www.dell.com/en-us/shop/desktop-computers/dell-pro-max-with-gb10/spd/dell-pro-max-fcm1253-micro/xcto_fcm1253_usx?utm_source=TheNeuron&amp;utm_medium=Email&amp;utm_campaign=FY26Q4&amp;_bhlid=fd9957e7fc13d60882a2dc26b576b2c467c81010" description="New Dell Pro Max with GB10 Model: FCM1253 $3,998.99 Price Match Guarantee
 processor NVIDIA GB10 Grace CPU (10 Cortex-X925 + 10 Cortex-A725 cores)
@@ -2248,6 +2271,7 @@ Explore and discuss how a history of the future offers lessons for navigating th
       <outline type="link" text="‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid" title="‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid" url="https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/" htmlUrl="https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/" description="The findings, based on internal ICE material obtained by 404 Media, public procurement records, and recent sworn testimony from an ICE official, show the clearest link yet between the technological infrastructure Palantir is building for ICE and the agency’s activities on the ground. The tool receives peoples’ addresses from the Department of Health and Human Services (HHS) among a range of other sources, according to the material." created="Sun, 01 Feb 2026 15:11:30 GMT" category="palantir,hhs,ice,data" />
     </outline>
     <outline text="identity" title="identity">
+      <outline type="link" text="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" title="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" url="https://spectrum.ieee.org/age-verification" htmlUrl="https://spectrum.ieee.org/age-verification" description="The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional." created="Tue, 24 Feb 2026 00:46:33 GMT" category="security,identity,agents" />
       <outline type="link" text="I Verified My LinkedIn Identity. Here’s What I Actually Handed Over." title="I Verified My LinkedIn Identity. Here’s What I Actually Handed Over." url="https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/" htmlUrl="https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/" description="The whole thing took three minutes. Scan, selfie, done.
 
 Understanding what I actually agreed to took me an entire weekend reading 34 pages of legal documents.
@@ -2380,6 +2404,14 @@ Known as cloud-seeding, the process was conducted over the Urmia lake basin on S
     <outline text="jobs" title="jobs">
       <outline type="link" text="Can AI Work with You?" title="Can AI Work with You?" url="https://iceberg.mit.edu/" htmlUrl="https://iceberg.mit.edu/" description="What does the Iceberg Index measure?
 The Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement." created="Mon, 01 Dec 2025 14:08:59 GMT" category="jobs,model,ai,index" visits="1" />
+    </outline>
+    <outline text="karma" title="karma">
+      <outline type="link" text="Dike Blair, Untitled 2026 | KARMA Bookstore" title="Dike Blair, Untitled 2026 | KARMA Bookstore" url="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" htmlUrl="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" description="Dike Blair
+Untitled
+2026
+Archival pigment print
+11 × 8 3⁄4 inches
+Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,archival-pigment-print,karma,print,gallery" />
     </outline>
     <outline text="karpathy" title="karpathy">
       <outline type="link" text="Andrej Karpathy (@karpathy) on X" title="Andrej Karpathy (@karpathy) on X" url="https://x.com/karpathy/status/2024987174077432126" htmlUrl="https://x.com/karpathy/status/2024987174077432126" description="I&apos;m definitely a bit sus&apos;d to run OpenClaw specifically - giving my private data/keys to 400K lines of vibe coded monster that is being actively attacked at scale is not very appealing at all. Already seeing reports of exposed instances, RCE vulnerabilities, supply chain poisoning, malicious or compromised skills in the registry, it feels like a complete wild west and a security nightmare. But I do love the concept and I think that just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.
@@ -3486,6 +3518,14 @@ AI for scientific and technical research: data analysis, anomaly detection, simu
 AI for productivity and administrative use: document drafting, note taking, automated translation, language correction and enhancement, coding assistants, and workflow automation.
 " created="Wed, 26 Nov 2025 11:16:41 GMT" category="cern,ai,principles,science" />
     </outline>
+    <outline text="print" title="print">
+      <outline type="link" text="Dike Blair, Untitled 2026 | KARMA Bookstore" title="Dike Blair, Untitled 2026 | KARMA Bookstore" url="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" htmlUrl="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" description="Dike Blair
+Untitled
+2026
+Archival pigment print
+11 × 8 3⁄4 inches
+Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,archival-pigment-print,karma,print,gallery" />
+    </outline>
     <outline text="privacy" title="privacy">
       <outline type="link" text="Google provided ICE with a wide array of personal data student activist" title="Google provided ICE with a wide array of personal data student activist" url="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" htmlUrl="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" description="Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank account numbers.
 
@@ -3840,6 +3880,7 @@ Chatrie’s appeal challenges the constitutionality of geofence warrants, arguin
       <outline type="link" text="GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search" title="GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search" url="https://simonwillison.net/2025/Sep/6/research-goblin/" htmlUrl="https://simonwillison.net/2025/Sep/6/research-goblin/" created="Sat, 06 Sep 2025 23:55:07 GMT" category="llm,search,chain-of-thought,chatgpt,gpt-5" />
     </outline>
     <outline text="security" title="security">
+      <outline type="link" text="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" title="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" url="https://spectrum.ieee.org/age-verification" htmlUrl="https://spectrum.ieee.org/age-verification" description="The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional." created="Tue, 24 Feb 2026 00:46:33 GMT" category="security,identity,agents" />
       <outline type="link" text="Password managers’ promise that they can’t see your vaults isn’t always true" title="Password managers’ promise that they can’t see your vaults isn’t always true" url="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/" htmlUrl="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/" description="Over the past 15 years, password managers have grown from a niche security tool used by the technology savvy into an indispensable security tool for the masses, with an estimated 94 million US adults—or roughly 36 percent of them—having adopted them. They store not only passwords for pension, financial, and email accounts, but also cryptocurrency credentials, payment card numbers, and other sensitive data.
 
 All eight of the top password managers have adopted the term “zero knowledge” to describe the complex encryption system they use to protect the data vaults that users store on their servers. The definitions vary slightly from vendor to vendor, but they generally boil down to one bold assurance: that there is no way for malicious insiders or hackers who manage to compromise the cloud infrastructure to steal vaults or data stored in them. These promises make sense, given previous breaches of LastPass and the reasonable expectation that state-level hackers have both the motive and capability to obtain password vaults belonging to high-value targets." created="Mon, 23 Feb 2026 13:19:11 GMT" category="vaults,opsec,passwords,security" />

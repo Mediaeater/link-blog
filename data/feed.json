@@ -15,6 +15,44 @@
   ],
   "items": [
     {
+      "id": "1771893993578",
+      "url": "https://spectrum.ieee.org/age-verification",
+      "title": "The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection",
+      "date_published": "2026-02-24T00:46:33.578Z",
+      "tags": [
+        "security",
+        "identity",
+        "agents"
+      ],
+      "content_text": "The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional.",
+      "summary": "The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional.",
+      "content_html": "<blockquote>The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional.</blockquote>\n<p><strong>Tags:</strong> security, identity, agents</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1771891566164",
+      "url": "https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/",
+      "title": "Dike Blair, Untitled 2026 | KARMA Bookstore",
+      "date_published": "2026-02-24T00:06:06.164Z",
+      "tags": [
+        "art",
+        "archival-pigment-print",
+        "karma",
+        "print",
+        "gallery"
+      ],
+      "content_text": "Dike Blair\nUntitled\n2026\nArchival pigment print\n11 × 8 3⁄4 inches\nSigned edition of 100",
+      "summary": "Dike Blair\nUntitled\n2026\nArchival pigment print\n11 × 8 3⁄4 inches\nSigned edition of 100",
+      "content_html": "<blockquote>Dike Blair\nUntitled\n2026\nArchival pigment print\n11 × 8 3⁄4 inches\nSigned edition of 100</blockquote>\n<p><strong>Tags:</strong> art, archival-pigment-print, karma, print, gallery</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1771856789784",
       "url": "https://gemini.google/overview/music-generation/",
       "title": "Lyria — Gemini AI music & song generator",
