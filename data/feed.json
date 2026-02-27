@@ -15,6 +15,84 @@
   ],
   "items": [
     {
+      "id": "1772194089766",
+      "url": "https://www.anthropic.com/news/statement-department-of-war",
+      "title": "Statement from Dario Amodei on our discussions with the Department of War",
+      "date_published": "2026-02-27T12:08:09.766Z",
+      "tags": [
+        "statement",
+        "anthropic",
+        "government",
+        "state-deptment",
+        "democracy",
+        "standards"
+      ],
+      "content_text": "Regardless, these threats do not change our position: we cannot in good conscience accede to their request.",
+      "summary": "Regardless, these threats do not change our position: we cannot in good conscience accede to their request.",
+      "content_html": "<blockquote>Regardless, these threats do not change our position: we cannot in good conscience accede to their request.</blockquote>\n<p><strong>Tags:</strong> statement, anthropic, government, state-deptment, democracy, standards</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772194022107",
+      "url": "https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/",
+      "title": "The 2026 Global Intelligence Crisis - Citadel Securities",
+      "date_published": "2026-02-27T12:07:02.107Z",
+      "tags": [
+        "global",
+        "intelligence",
+        "citadel",
+        "securities"
+      ],
+      "content_text": "Despite the macroeconomic community struggling to forecast 2-month-forward payroll growth with any reliable accuracy, the forward path of labor destruction can apparently be inferred with significant certainty from a hypothetical scenario posted on Substack: The 2028 Global Intelligence Crisis.\n\nWe wrote last week that we see the near-term dynamics around the AI capex story as inflationary, but given markets are focused on the forward narrative, we outline a more constructive take on the end state below. Before that, however, it’s worth reflecting that the imminent disintermediation narrative rests on the speed of diffusion.\n\n",
+      "summary": "Despite the macroeconomic community struggling to forecast 2-month-forward payroll growth with any reliable accuracy, the forward path of labor destru...",
+      "content_html": "<blockquote>Despite the macroeconomic community struggling to forecast 2-month-forward payroll growth with any reliable accuracy, the forward path of labor destruction can apparently be inferred with significant certainty from a hypothetical scenario posted on Substack: The 2028 Global Intelligence Crisis.\n\nWe wrote last week that we see the near-term dynamics around the AI capex story as inflationary, but given markets are focused on the forward narrative, we outline a more constructive take on the end state below. Before that, however, it’s worth reflecting that the imminent disintermediation narrative rests on the speed of diffusion.\n\n</blockquote>\n<p><strong>Tags:</strong> global, intelligence, citadel, securities</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772193970005",
+      "url": "https://github.com/Polymarket/polymarket-cli ",
+      "title": "GitHub - Polymarket/polymarket-cli",
+      "date_published": "2026-02-27T12:06:10.005Z",
+      "tags": [
+        "github",
+        "polymarket",
+        "polymarket-cli",
+        "development",
+        "climate"
+      ],
+      "content_html": "<p><strong>Tags:</strong> github, polymarket, polymarket-cli, development, climate</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772193783415",
+      "url": "https://missing.csail.mit.edu/",
+      "title": "The Missing Semester of Your CS Education",
+      "date_published": "2026-02-27T12:03:03.415Z",
+      "tags": [
+        "education",
+        "css",
+        "learing",
+        "knowledge",
+        "computers"
+      ],
+      "content_text": "hese days, many aspects of software engineering are also in flux through the introduction of AI-enabled and AI-enhanced tools and workflows. When used appropriately and with awareness of their shortcomings, these can often provide significant benefits to CS practitioners and are thus worth developing working knowledge of. Since AI is a cross-functional enabling technology, there is not a standalone AI lecture; we’ve instead folded the use of the latest applicable AI tools and techniques into each lecture directly.",
+      "summary": "hese days, many aspects of software engineering are also in flux through the introduction of AI-enabled and AI-enhanced tools and workflows. When used...",
+      "content_html": "<blockquote>hese days, many aspects of software engineering are also in flux through the introduction of AI-enabled and AI-enhanced tools and workflows. When used appropriately and with awareness of their shortcomings, these can often provide significant benefits to CS practitioners and are thus worth developing working knowledge of. Since AI is a cross-functional enabling technology, there is not a standalone AI lecture; we’ve instead folded the use of the latest applicable AI tools and techniques into each lecture directly.</blockquote>\n<p><strong>Tags:</strong> education, css, learing, knowledge, computers</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1771893993578",
       "url": "https://spectrum.ieee.org/age-verification",
       "title": "The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection",
