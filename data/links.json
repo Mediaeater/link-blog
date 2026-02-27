@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "id": 1772198495212,
+      "url": "https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x",
+      "source": "How will OpenAI compete? — Benedict Evans",
+      "pullQuote": "This engagement is a clearly a ‘glass half full or half empty?’ question, but this is supposed to be a transformation in how you use computers. If people are only using this a couple of times a week at most, and can’t think of anything to do with it on the average day, it hasn’t changed their life. OpenAI itself admits the problem, talking about a ‘capability gap’ between what the models can do and what people do with them, which seems to me like a way to avoid saying that you don’t have clear product-market fit. ",
+      "tags": [
+        "openai",
+        "compete",
+        "benedict",
+        "evans",
+        "questions",
+        "engagement"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-27T13:21:35.212Z",
+      "visits": 0
+    },
+    {
+      "id": 1772194663703,
+      "url": "https://e.issuu.com/embed.html?d=gaming-2026_v2.15_v2&pageLayout=singlePage&u=ballmatthew",
+      "source": "PRESENTATION: The State of Video Gaming in 2026 ",
+      "pullQuote": "Matthew Ball annual gaming report - PRESENTATION: The State of Video Gaming in 2026 (Early Access Edition)\n",
+      "tags": [
+        "gaming",
+        "presentation",
+        "2026"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-27T12:17:43.703Z",
+      "visits": 0
+    },
+    {
       "id": 1772194089766,
       "url": "https://www.anthropic.com/news/statement-department-of-war",
       "source": "Statement from Dario Amodei on our discussions with the Department of War",
@@ -4776,5 +4807,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-27T12:08:09.789Z"
+  "lastUpdated": "2026-02-27T13:21:35.236Z"
 }
