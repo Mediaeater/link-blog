@@ -1,301 +1,149 @@
 {
   "links": [
     {
-      "id": 1772194089766,
-      "url": "https://www.anthropic.com/news/statement-department-of-war",
-      "source": "Statement from Dario Amodei on our discussions with the Department of War",
-      "pullQuote": "Regardless, these threats do not change our position: we cannot in good conscience accede to their request.",
-      "tags": [
-        "statement",
-        "anthropic",
-        "government",
-        "state-deptment",
-        "democracy",
-        "standards"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-27T12:08:09.766Z",
-      "visits": 0
-    },
-    {
-      "id": 1772194022107,
-      "url": "https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/",
-      "source": "The 2026 Global Intelligence Crisis - Citadel Securities",
-      "pullQuote": "Despite the macroeconomic community struggling to forecast 2-month-forward payroll growth with any reliable accuracy, the forward path of labor destruction can apparently be inferred with significant certainty from a hypothetical scenario posted on Substack: The 2028 Global Intelligence Crisis.\n\nWe wrote last week that we see the near-term dynamics around the AI capex story as inflationary, but given markets are focused on the forward narrative, we outline a more constructive take on the end state below. Before that, however, it’s worth reflecting that the imminent disintermediation narrative rests on the speed of diffusion.\n\n",
-      "tags": [
-        "global",
-        "intelligence",
-        "citadel",
-        "securities"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-27T12:07:02.107Z",
-      "visits": 0
-    },
-    {
-      "id": 1772193970005,
-      "url": "https://github.com/Polymarket/polymarket-cli ",
-      "source": "GitHub - Polymarket/polymarket-cli",
+      "id": 1771115109117,
+      "url": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95",
+      "source": "microgpt",
       "pullQuote": "",
       "tags": [
+        "microgpt",
         "github",
-        "polymarket",
-        "polymarket-cli",
-        "development",
-        "climate"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-27T12:06:10.005Z",
-      "visits": 0
-    },
-    {
-      "id": 1772193783415,
-      "url": "https://missing.csail.mit.edu/",
-      "source": "The Missing Semester of Your CS Education",
-      "pullQuote": "hese days, many aspects of software engineering are also in flux through the introduction of AI-enabled and AI-enhanced tools and workflows. When used appropriately and with awareness of their shortcomings, these can often provide significant benefits to CS practitioners and are thus worth developing working knowledge of. Since AI is a cross-functional enabling technology, there is not a standalone AI lecture; we’ve instead folded the use of the latest applicable AI tools and techniques into each lecture directly.",
-      "tags": [
-        "education",
-        "css",
-        "learing",
-        "knowledge",
-        "computers"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-27T12:03:03.415Z",
-      "visits": 0
-    },
-    {
-      "id": 1771893993578,
-      "url": "https://spectrum.ieee.org/age-verification",
-      "source": "The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection",
-      "pullQuote": "The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional.",
-      "tags": [
-        "security",
-        "identity",
-        "agents"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-24T00:46:33.578Z",
-      "visits": 0
-    },
-    {
-      "id": 1771891566164,
-      "url": "https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/",
-      "source": "Dike Blair, Untitled 2026 | KARMA Bookstore",
-      "pullQuote": "Dike Blair\nUntitled\n2026\nArchival pigment print\n11 × 8 3⁄4 inches\nSigned edition of 100",
-      "tags": [
-        "art",
-        "archival-pigment-print",
-        "karma",
-        "print",
-        "gallery"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-24T00:06:06.164Z",
-      "visits": 0
-    },
-    {
-      "id": 1771856789784,
-      "url": "https://gemini.google/overview/music-generation/",
-      "source": "Lyria — Gemini AI music & song generator",
-      "pullQuote": "Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack.",
-      "tags": [
-        "lyria",
-        "gemini",
-        "music",
-        "song",
-        "generator",
-        "musicvideo",
-        "google"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-23T14:26:29.784Z",
-      "visits": 0
-    },
-    {
-      "id": 1771853077536,
-      "url": "https://x.com/karpathy/status/2024987174077432126",
-      "source": "Andrej Karpathy (@karpathy) on X",
-      "pullQuote": "I'm definitely a bit sus'd to run OpenClaw specifically - giving my private data/keys to 400K lines of vibe coded monster that is being actively attacked at scale is not very appealing at all. Already seeing reports of exposed instances, RCE vulnerabilities, supply chain poisoning, malicious or compromised skills in the registry, it feels like a complete wild west and a security nightmare. But I do love the concept and I think that just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.\n\nLooking around, and given that the high level idea is clear, there are a lot of smaller Claws starting to pop out. For example, on a quick skim NanoClaw looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default. I also love their approach to configurability - it's not done via config files it's done via skills! For example, /add-telegram instructs your AI agent how to modify the actual code to integrate Telegram. I haven't come across this yet and it slightly blew my mind earlier today as a new, AI-enabled approach to preventing config mess and if-then-else monsters. Basically - the implied new meta is to write the most maximally forkable repo and then have skills that fork it into any desired more exotic configuration. Very cool.",
-      "tags": [
-        "karpathy",
-        "mac",
-        "mac-mini",
-        "ai"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-23T13:24:37.536Z",
-      "visits": 0
-    },
-    {
-      "id": 1771852889068,
-      "url": "https://studio.firebase.google.com/",
-      "source": "Firebase Studio",
-      "pullQuote": "What do you want to build? Prototype an app with AI",
-      "tags": [
-        "firebase",
-        "studio",
-        "google",
-        "interpretability",
-        "code"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-23T13:21:29.068Z",
-      "visits": 0
-    },
-    {
-      "id": 1771852817683,
-      "url": "https://www.youtube.com/watch?v=rGAA59JTBtg",
-      "source": " Harari and Tegmark on Humanity and AI - YouTube",
-      "pullQuote": "Yuval Noah Harari, Historian, Philosopher & Bestselling Author and Max Tegmark, Co-Founder, Future of Life Institute; Professor, Massachusetts Institute of Technology (MIT) discuss human agency, governing AI and the future of humanity with Bloomberg's Francine Lacqua at Bloomberg House in Davos on the sidelines of the 2026 World Economic Forum.\n--------",
-      "tags": [
-        "video",
+        "gist",
         "ai",
-        "wef",
-        "2026"
+        "llm",
+        "python"
       ],
       "isPinned": false,
-      "timestamp": "2026-02-23T13:20:17.683Z",
+      "timestamp": "2026-02-15T00:25:09.117Z",
       "visits": 0
     },
     {
-      "id": 1771852751434,
-      "url": "https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/",
-      "source": "Password managers’ promise that they can’t see your vaults isn’t always true",
-      "pullQuote": "Over the past 15 years, password managers have grown from a niche security tool used by the technology savvy into an indispensable security tool for the masses, with an estimated 94 million US adults—or roughly 36 percent of them—having adopted them. They store not only passwords for pension, financial, and email accounts, but also cryptocurrency credentials, payment card numbers, and other sensitive data.\n\nAll eight of the top password managers have adopted the term “zero knowledge” to describe the complex encryption system they use to protect the data vaults that users store on their servers. The definitions vary slightly from vendor to vendor, but they generally boil down to one bold assurance: that there is no way for malicious insiders or hackers who manage to compromise the cloud infrastructure to steal vaults or data stored in them. These promises make sense, given previous breaches of LastPass and the reasonable expectation that state-level hackers have both the motive and capability to obtain password vaults belonging to high-value targets.",
-      "tags": [
-        "vaults",
-        "opsec",
-        "passwords",
-        "security"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-23T13:19:11.434Z",
-      "visits": 0
-    },
-    {
-      "id": 1771687615051,
-      "url": "https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html",
-      "source": "Cyhaus: Bela Lugosi’s Bed – greg.org",
-      "pullQuote": "Is this where the mattress ended up? The bedroom is not in Horst, and this Mulas is not in Homes & Studios. Green carpet, green velvet, green sheets, Twombly’s love affair with green didn’t start in Bassano. The Kiss (Bela Lugosi) is one of Warhol’s earliest screenprints, which he made himself, on paper. On November 22, 1963.",
-      "tags": [
-        "bed",
-        "art",
-        "cy-twombly",
-        "bela-lugosi",
-        "bauhaus",
-        "pun",
-        "green",
-        "lamp"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-21T15:26:55.051Z",
-      "visits": 0
-    },
-    {
-      "id": 1771687298558,
-      "url": "https://therealdeal.com/national/2026/02/19/the-industrial-owners-selling-to-ice/",
-      "source": "The industrial owners selling to ICE",
-      "pullQuote": "The other owners who have been reported to have sold buildings to ICE through subsidiaries or affiliates are: Crestlight Capital, Oakmont Industrial Group, Rockefeller Group, PCCP, Fundrise, Flint Development, and retailer Big Lots. Those companies did not respond to requests for comment. ",
-      "tags": [
-        "ice",
-        "federal",
-        "real-estate",
-        "private-prison"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-21T15:21:38.558Z",
-      "visits": 0
-    },
-    {
-      "id": 1771687160724,
-      "url": "https://www.anthropic.com/news/claude-code-security",
-      "source": "Making frontier cybersecurity capabilities available to defenders",
-      "pullQuote": "Rather than scanning for known patterns, Claude Code Security reads and reasons about your code the way a human security researcher would: understanding how components interact, tracing how data moves through your application, and catching complex vulnerabilities that rule-based tools miss.\n\nEvery finding goes through a multi-stage verification process before it reaches an analyst. Claude re-examines each result, attempting to prove or disprove its own findings and filter out false positives. Findings are also assigned severity ratings so teams can focus on the most important fixes first.",
-      "tags": [
-        "cybersecurity",
-        "claude",
-        "verification"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-21T15:19:20.724Z",
-      "visits": 0
-    },
-    {
-      "id": 1771687066125,
-      "url": "https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/",
-      "source": "I Verified My LinkedIn Identity. Here’s What I Actually Handed Over.",
-      "pullQuote": "The whole thing took three minutes. Scan, selfie, done.\n\nUnderstanding what I actually agreed to took me an entire weekend reading 34 pages of legal documents.\n\nI handed a US company my passport, my face, and the mathematical geometry of my skull. They cross-referenced me against credit agencies and government databases. They’ll use my documents to train their AI. And if the US government comes knocking, they’ll hand it all over — even if it’s stored in Europe, even if I’m European, and possibly without ever telling me.\n\nAll for a small blue checkmark on a professional networking site.\n\nI’m not telling you to skip verification. But I am telling you to know what you’re trading. Because Persona does. LinkedIn does. The only person in the dark is the one holding their passport up to the camera.",
-      "tags": [
-        "identity",
-        "verification",
-        "linkedin",
-        "security",
-        "opsec",
-        "wtf",
-        "dark-ux"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-21T15:17:46.125Z",
-      "visits": 0
-    },
-    {
-      "id": 1771635735805,
-      "url": "https://www.answer.ai/posts/2026-01-20-toolcalling.html",
-      "source": "The unauthorized tool call problem – Answer.AI",
-      "pullQuote": "So you can imagine my surprise when, during a conversation in solveit, Claude 4.5 hallucinated access to a tool I hadn’t given it yet, made up the parameters, tried to run it, and the tool actually worked - the API didn’t block it. The tool name was a valid function from the dialoghelper module, add_msg, so instead of “I’m sorry I was confused…”, I read, “Message added as requested” and a new note popped into existence! (And before you think this is Claude-specific - I’ve reproduced similar behavior with Gemini and Grok.)",
-      "tags": [
-        "unauthorized",
-        "tool",
-        "trust"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-21T01:02:15.805Z",
-      "visits": 0
-    },
-    {
-      "id": 1771635574730,
-      "url": "https://worldwideweb.cern.ch/",
-      "source": "CERN 2019 WorldWideWeb Rebuild",
-      "pullQuote": "In December 1990, an application called WorldWideWeb was developed on a NeXT machine at The European Organization for Nuclear Research (known as CERN) just outside of Geneva. This program – WorldWideWeb — is the antecedent of most of what we consider or know of as \"the web\" today.",
-      "tags": [
-        "cern",
-        "worldwideweb",
-        "rebuild"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-21T00:59:34.730Z",
-      "visits": 0
-    },
-    {
-      "id": 1771632099835,
-      "url": "https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/",
-      "source": "Wikipedia blacklists Archive.today, starts removing 695,000 archive links",
-      "pullQuote": "If DDoSing a blog wasn’t bad enough, archive site also tampered with web snapshots.",
-      "tags": [
-        "wikipedia",
-        "archive",
-        "blacklist",
-        "ddos"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-02-21T00:01:39.835Z",
-      "visits": 0
-    },
-    {
-      "id": 1771632021533,
-      "url": "https://www.nikecraft.com/",
-      "source": "Nikecraft",
+      "id": 1771079955856,
+      "url": "https://seed.bytedance.com/en/seedance",
+      "source": "Seedance",
       "pullQuote": "",
       "tags": [
-        "nikecraft",
-        "art",
-        "merch",
-        "fashion",
-        "tomsachs"
+        "seedance",
+        "video",
+        "bytedance"
       ],
       "isPinned": false,
-      "timestamp": "2026-02-21T00:00:21.533Z",
+      "timestamp": "2026-02-14T14:39:15.856Z",
+      "visits": 0
+    },
+    {
+      "id": 1771115109117,
+      "url": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95",
+      "source": "microgpt",
+      "pullQuote": "",
+      "tags": [
+        "microgpt",
+        "github",
+        "gist",
+        "ai",
+        "llm",
+        "python"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-15T00:25:09.117Z",
+      "visits": 0
+    },
+    {
+      "id": 1771079955856,
+      "url": "https://seed.bytedance.com/en/seedance",
+      "source": "Seedance",
+      "pullQuote": "",
+      "tags": [
+        "seedance",
+        "video",
+        "bytedance"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-14T14:39:15.856Z",
+      "visits": 0
+    },
+    {
+      "id": 1771030168570,
+      "url": "https://www.nytimes.com/2026/02/13/technology/meta-facial-recognition-smart-glasses.html",
+      "source": "Meta Plans to Add Facial Recognition Technology to Its Smart Glasses",
+      "pullQuote": "Meta, Facebook’s parent company, plans to add the feature to its smart glasses, which it makes with the owner of Ray-Ban and Oakley, as soon as this year, according to four people involved with the plans who were not authorized to speak publicly about confidential discussions. The feature, internally called “Name Tag,” would let wearers of smart glasses identify people and get information about them via Meta’s artificial intelligence assistant.",
+      "tags": [
+        "meta",
+        "facial",
+        "recognition",
+        "frt",
+        "ethics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-14T00:49:28.570Z",
+      "visits": 1
+    },
+    {
+      "id": 1771028229880,
+      "url": "https://www.republik.ch/2025/12/08/wie-hartnaeckig-palantir-die-schweiz-umwarb",
+      "source": "Überwachungstechnologie: Wie hartnäckig Palantir die Schweiz umwarb",
+      "pullQuote": "article Palantir Republik Palantir Technologies filed a lawsuit in Zurich's Commercial Court against Republik magazine for a December 2025 series on its unsuccessful bids for Swiss contracts since 2018. The articles detailed high-level meetings with officials like Finance Minister Ueli Maurer and army chief Thomas Süssli, plus pro bono offers for COVID tracking and military tools, all rejected nine times over data security fears and sovereignty risks. Republik stands by its reporting based on documents, while Palantir calls it distorted; the case highlights tensions between tech firms and press scrutiny, drawing international attention including UK MPs questioning Palantir's deals.",
+      "tags": [
+        "ethics",
+        "press",
+        "palantir",
+        "legal",
+        "media",
+        "republik"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-14T00:17:09.880Z",
+      "visits": 0
+    },
+    {
+      "id": 1771023478094,
+      "url": "https://simonwillison.net/",
+      "source": "Simon Willison’s Weblog",
+      "pullQuote": "",
+      "tags": [
+        "coding",
+        "opensource",
+        "ai",
+        "learning",
+        "knowledge"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-13T22:57:58.094Z",
+      "visits": 0
+    },
+    {
+      "id": 1770986786457,
+      "url": "https://www.theverge.com/news/878447/ring-flock-partnership-canceled",
+      "source": "Ring cancels its partnership with Flock Safety after surveillance backlash",
+      "pullQuote": "(BOTH ARE EVIL - ED NOTE)   Ring cancels its partnership with Flock Safety after surveillance backlashFollowing mounting pressure and a questionable Super Bowl ad, the Amazon-owned company walked back its plan to integrate with the controversial law-enforcement technology company.",
+      "tags": [
+        "ring",
+        "partnership",
+        "flock",
+        "safety",
+        "security",
+        "surveillance"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-13T12:46:26.457Z",
+      "visits": 0
+    },
+    {
+      "id": 1770986679080,
+      "url": "https://nickbostrom.com/optimal.pdf",
+      "source": "Optimal Timing for Superintelligence",
+      "pullQuote": "Developing superintelligence is not like playing Russian roulette; it is more like\nundergoing risky surgery for a condition that will otherwise prove fatal. We\nexamine optimal timing from a person-affecting stance (and set aside simulation\nhypotheses and other arcane considerations). Models incorporating safety\nprogress, temporal discounting, quality-of-life differentials, and concave QALY\nutilities suggest that even high catastrophe probabilities are often worth\naccepting. Prioritarian weighting further shortens timelines. For many parameter\nsettings, the optimal strategy would involve moving quickly to AGI capability, then\npausing briefly before full deployment: swift to harbor, slow to berth. But poorly\nimplemented pauses could do more harm than g",
+      "tags": [
+        "timing",
+        "superintelligence",
+        "ai",
+        "human",
+        "humanity",
+        "knowledge",
+        "knowledge-system"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-13T12:44:39.080Z",
       "visits": 0
     },
     {
@@ -4776,5 +4624,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-27T12:08:09.789Z"
+  "lastUpdated": "2026-02-15T00:25:09.117Z"
 }
