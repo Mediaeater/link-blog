@@ -4,23 +4,23 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 28 Feb 2026 13:03:05 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 13:10:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[microgpt]]></title>
-            <link>https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95</link>
-            <guid>1771115109117</guid>
-            <pubDate>Sun, 15 Feb 2026 00:25:09 GMT</pubDate>
-            <description><![CDATA[Tags: microgpt, github, gist, ai, llm, python]]></description>
+            <title><![CDATA[What AI coding costs you | Tom Wojcik]]></title>
+            <link>https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/</link>
+            <guid>1772284241410</guid>
+            <pubDate>Sat, 28 Feb 2026 13:10:41 GMT</pubDate>
+            <description><![CDATA[Tags: coding, atrophy, brain, effect, flow, agents]]></description>
         </item>
         <item>
-            <title><![CDATA[Seedance]]></title>
-            <link>https://seed.bytedance.com/en/seedance</link>
-            <guid>1771079955856</guid>
-            <pubDate>Sat, 14 Feb 2026 14:39:15 GMT</pubDate>
-            <description><![CDATA[Tags: seedance, video, bytedance]]></description>
+            <title><![CDATA[How to delete your account | OpenAI Help Center]]></title>
+            <link>https://help.openai.com/en/articles/6378407-how-to-delete-your-account</link>
+            <guid>1772284060775</guid>
+            <pubDate>Sat, 28 Feb 2026 13:07:40 GMT</pubDate>
+            <description><![CDATA[Tags: delete, account, openai, howto, hostile-co, surveillance, ethics]]></description>
         </item>
         <item>
             <title><![CDATA[Statement from Dario Amodei on our discussions with the Department of War]]></title>
@@ -154,6 +154,20 @@
             <guid>1771632021533</guid>
             <pubDate>Sat, 21 Feb 2026 00:00:21 GMT</pubDate>
             <description><![CDATA[Tags: nikecraft, art, merch, fashion, tomsachs]]></description>
+        </item>
+        <item>
+            <title><![CDATA[microgpt]]></title>
+            <link>https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95</link>
+            <guid>1771115109117</guid>
+            <pubDate>Sun, 15 Feb 2026 00:25:09 GMT</pubDate>
+            <description><![CDATA[Tags: microgpt, github, gist, ai, llm, python]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Seedance]]></title>
+            <link>https://seed.bytedance.com/en/seedance</link>
+            <guid>1771079955856</guid>
+            <pubDate>Sat, 14 Feb 2026 14:39:15 GMT</pubDate>
+            <description><![CDATA[Tags: seedance, video, bytedance]]></description>
         </item>
         <item>
             <title><![CDATA[China's Approach to AI Anthropomorphism]]></title>

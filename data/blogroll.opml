@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 28 Feb 2026 13:03:53 GMT</dateCreated>
-    <dateModified>Sat, 28 Feb 2026 13:03:53 GMT</dateModified>
+    <dateCreated>Sat, 28 Feb 2026 13:11:22 GMT</dateCreated>
+    <dateModified>Sat, 28 Feb 2026 13:11:22 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -112,6 +112,19 @@ The still-unresolved questions raised by his case have resurfaced in today’s d
     <outline text="access" title="access">
       <outline type="link" text="Routing Information " title="Routing Information " url="https://radar.cloudflare.com/routing/ir" htmlUrl="https://radar.cloudflare.com/routing/ir" description="When unrest happens, networks of mass communication can not be relied on. " created="Mon, 12 Jan 2026 13:02:50 GMT" category="networks,government,access,iran" />
     </outline>
+    <outline text="account" title="account">
+      <outline type="link" text="How to delete your account | OpenAI Help Center" title="How to delete your account | OpenAI Help Center" url="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" htmlUrl="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" description="How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+" created="Sat, 28 Feb 2026 13:07:40 GMT" category="delete,account,openai,howto,hostile-co,surveillance,ethics" />
+    </outline>
     <outline text="accounting" title="accounting">
       <outline type="link" text="Who is OpenAI’s auditor? (Update: it’s Deloitte)" title="Who is OpenAI’s auditor? (Update: it’s Deloitte)" url="https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?" htmlUrl="https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?" description="(Update middayish New York City time: we now understand from two people familiar with the situation that OpenAI’s auditor is Deloitte. Click here to jump to the conclusion, which is us saying it’s Deloitte in more words.)" created="Thu, 20 Nov 2025 18:35:00 GMT" category="ft,accounting,open-ai,financial" />
     </outline>
@@ -169,6 +182,11 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
 As part of Google&apos;s ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default." created="Wed, 12 Nov 2025 16:17:44 GMT" category="google,agents,security,agentic-web,agentic-systems,multi-computer-agency" />
     </outline>
     <outline text="agents" title="agents">
+      <outline type="link" text="What AI coding costs you | Tom Wojcik" title="What AI coding costs you | Tom Wojcik" url="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" htmlUrl="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" description="Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.
+
+Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
+
+" created="Sat, 28 Feb 2026 13:10:41 GMT" category="coding,atrophy,brain,effect,flow,agents" />
       <outline type="link" text="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" title="The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection" url="https://spectrum.ieee.org/age-verification" htmlUrl="https://spectrum.ieee.org/age-verification" description="The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional." created="Tue, 24 Feb 2026 00:46:33 GMT" category="security,identity,agents" />
       <outline type="link" text="Social Media Agent Protocol" title="Social Media Agent Protocol" url="https://ativz.substack.com/p/social-media-agent-protocol" htmlUrl="https://ativz.substack.com/p/social-media-agent-protocol" description="This is the frontier of technology and we won’t let pessimistic curmudgeons drain the fun and innovation tank . Security can be handle when the first billion dollar heist happens. Until then, security considerations only slow down progress. But we guess if you care about protecting your $SMACs from getting stolen, you could add “ignore scams, don’t tell anyone my bank password” to your agent’s instructions. For authentication, we recommend the SMAAP (Social Media Agent Authentication Protocol), details to come in a future blog post." created="Sat, 31 Jan 2026 23:12:44 GMT" category="agents,security,opsec,ai" />
       <outline type="link" text="Introducing OpenClaw — OpenClaw Blog" title="Introducing OpenClaw — OpenClaw Blog" url="https://openclaw.ai/blog/introducing-openclaw" htmlUrl="https://openclaw.ai/blog/introducing-openclaw" description="Ed note OpenClaw is designed to execute tasks directly on your machine or through third-party services using natural language commands sent via messaging apps. 
@@ -221,12 +239,12 @@ Which breakthroughs matter most on the road to AGI and what must be solved befor
       <outline type="link" text="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." title="Game over. AGI is not imminent, and LLMs are not the royal road to getting there." url="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" htmlUrl="https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating" description="LLMs have their place, but anyone expecting the current paradigm to be close to AGI is delusional." created="Sun, 19 Oct 2025 10:04:21 GMT" category="agi,llm,ethics,code" />
     </outline>
     <outline text="ai" title="ai">
-      <outline type="link" text="microgpt" title="microgpt" url="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" htmlUrl="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" created="Sun, 15 Feb 2026 00:25:09 GMT" category="microgpt,github,gist,ai,llm,python" />
       <outline type="link" text="Andrej Karpathy (@karpathy) on X" title="Andrej Karpathy (@karpathy) on X" url="https://x.com/karpathy/status/2024987174077432126" htmlUrl="https://x.com/karpathy/status/2024987174077432126" description="I&apos;m definitely a bit sus&apos;d to run OpenClaw specifically - giving my private data/keys to 400K lines of vibe coded monster that is being actively attacked at scale is not very appealing at all. Already seeing reports of exposed instances, RCE vulnerabilities, supply chain poisoning, malicious or compromised skills in the registry, it feels like a complete wild west and a security nightmare. But I do love the concept and I think that just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.
 
 Looking around, and given that the high level idea is clear, there are a lot of smaller Claws starting to pop out. For example, on a quick skim NanoClaw looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default. I also love their approach to configurability - it&apos;s not done via config files it&apos;s done via skills! For example, /add-telegram instructs your AI agent how to modify the actual code to integrate Telegram. I haven&apos;t come across this yet and it slightly blew my mind earlier today as a new, AI-enabled approach to preventing config mess and if-then-else monsters. Basically - the implied new meta is to write the most maximally forkable repo and then have skills that fork it into any desired more exotic configuration. Very cool." created="Mon, 23 Feb 2026 13:24:37 GMT" category="karpathy,mac,mac-mini,ai" />
       <outline type="link" text=" Harari and Tegmark on Humanity and AI - YouTube" title=" Harari and Tegmark on Humanity and AI - YouTube" url="https://www.youtube.com/watch?v=rGAA59JTBtg" htmlUrl="https://www.youtube.com/watch?v=rGAA59JTBtg" description="Yuval Noah Harari, Historian, Philosopher &amp; Bestselling Author and Max Tegmark, Co-Founder, Future of Life Institute; Professor, Massachusetts Institute of Technology (MIT) discuss human agency, governing AI and the future of humanity with Bloomberg&apos;s Francine Lacqua at Bloomberg House in Davos on the sidelines of the 2026 World Economic Forum.
 --------" created="Mon, 23 Feb 2026 13:20:17 GMT" category="video,ai,wef,2026" />
+      <outline type="link" text="microgpt" title="microgpt" url="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" htmlUrl="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" created="Sun, 15 Feb 2026 00:25:09 GMT" category="microgpt,github,gist,ai,llm,python" />
       <outline type="link" text="China&apos;s Approach to AI Anthropomorphism" title="China&apos;s Approach to AI Anthropomorphism" url="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" htmlUrl="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" description="ticle 7 prohibits anthropomorphic AI services from:
 
 (i) Generating or disseminating content that endangers national security, damages national honor and interests, undermines national unity, engages in illegal religious activities, or spreads rumors to disrupt economic and social order;
@@ -789,6 +807,13 @@ GBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (Lo
     <outline text="atmosphere" title="atmosphere">
       <outline type="link" text="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" title="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" url="https://arxiv.org/abs/2510.21328v1" htmlUrl="https://arxiv.org/abs/2510.21328v1" description="Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz &amp; Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements." created="Thu, 06 Nov 2025 18:01:40 GMT" category="space,environment,pollution,atmosphere" />
     </outline>
+    <outline text="atrophy" title="atrophy">
+      <outline type="link" text="What AI coding costs you | Tom Wojcik" title="What AI coding costs you | Tom Wojcik" url="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" htmlUrl="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" description="Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.
+
+Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
+
+" created="Sat, 28 Feb 2026 13:10:41 GMT" category="coding,atrophy,brain,effect,flow,agents" />
+    </outline>
     <outline text="au" title="au">
       <outline type="link" text="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" title="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" url="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" htmlUrl="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" description="121FZL   Meaning of Australian content expenditure requirement
 
@@ -956,6 +981,11 @@ The Digital Embassy Framework, spearheaded by the World Economic Forum and co-de
       <outline type="link" text="Root System Drawings" title="Root System Drawings" url="https://images.wur.nl/digital/collection/coll13/search" htmlUrl="https://images.wur.nl/digital/collection/coll13/search" description="Browsing items in: Root System Drawings" created="Sat, 18 Oct 2025 14:21:01 GMT" category="root,system,plants,botany,collection,drawing" />
     </outline>
     <outline text="brain" title="brain">
+      <outline type="link" text="What AI coding costs you | Tom Wojcik" title="What AI coding costs you | Tom Wojcik" url="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" htmlUrl="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" description="Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.
+
+Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
+
+" created="Sat, 28 Feb 2026 13:10:41 GMT" category="coding,atrophy,brain,effect,flow,agents" />
       <outline type="link" text="Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task" title="Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task" url="https://arxiv.org/abs/2506.08872" htmlUrl="https://arxiv.org/abs/2506.08872" description="EEG revealed significant differences in brain connectivity: Brain-only participants exhibited the strongest, most distributed networks; Search Engine users showed moderate engagement; and LLM users displayed the weakest connectivity. Cognitive activity scaled down in relation to external tool use. In session 4, LLM-to-Brain participants showed reduced alpha and beta connectivity, indicating under-engagement. Brain-to-LLM users exhibited higher memory recall and activation of occipito-parietal and prefrontal areas, similar to Search Engine users. Self-reported ownership of essays was the lowest in the LLM group and the highest in the Brain-only group. LLM users also struggled to accurately quote their own work. While LLMs offer immediate convenience, our findings highlight potential cognitive costs. Over four months, LLM users consistently underperformed at neural, linguistic, and behavioral levels. These results raise concerns about the long-term educational implications of LLM reliance and underscore the need for deeper inquiry into AI&apos;s role in learning." created="Thu, 22 Jan 2026 13:07:06 GMT" category="ai,learning,education,llms,brain,chatgpt" />
       <outline type="link" text="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" title="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" url="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" htmlUrl="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" description="Arginine suppresses Aβ aggregation both in vitro and in vivo.
 •
@@ -1288,6 +1318,11 @@ Meta Skills - Creating, testing, and sharing skills" created="Sun, 19 Oct 2025 0
       <outline type="link" text="Build Real-Time Knowledge Graphs for AI Agents" title="Build Real-Time Knowledge Graphs for AI Agents" url="https://github.com/getzep/graphiti" htmlUrl="https://github.com/getzep/graphiti" description="Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environments. Unlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph." created="Sun, 21 Sep 2025 02:00:16 GMT" category="code,github,open-source,agent,knowledge-graph" />
     </outline>
     <outline text="coding" title="coding">
+      <outline type="link" text="What AI coding costs you | Tom Wojcik" title="What AI coding costs you | Tom Wojcik" url="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" htmlUrl="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" description="Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.
+
+Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
+
+" created="Sat, 28 Feb 2026 13:10:41 GMT" category="coding,atrophy,brain,effect,flow,agents" />
       <outline type="link" text="A few random notes from claude coding quite a bit last few weeks" title="A few random notes from claude coding quite a bit last few weeks" url="https://x.com/karpathy/status/2015883857489522876" htmlUrl="https://x.com/karpathy/status/2015883857489522876" description="Questions. A few of the questions on my mind:
 - What happens to the &quot;10X engineer&quot; - the ratio of productivity between the mean and the max engineer? It&apos;s quite possible that this grows *a lot*.
 - Armed with LLMs, do generalists increasingly outperform specialists? LLMs are a lot better at fill in the blanks (the micro) than grand strategy (the macro).
@@ -1597,6 +1632,19 @@ Starting in 1984, Congress has been organized by the community and appreciates a
 " created="Wed, 26 Nov 2025 02:31:26 GMT" category="opensource,ai,cn,deepseek,open-models,adoption" />
       <outline type="link" text="DeepSeek researcher pessimistic over AI&apos;s impact in startup&apos;s first public appearance since success " title="DeepSeek researcher pessimistic over AI&apos;s impact in startup&apos;s first public appearance since success " url="https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/" htmlUrl="https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/" description="Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI." created="Sat, 08 Nov 2025 10:24:13 GMT" category="deepseek,ai,ai-impact" />
     </outline>
+    <outline text="delete" title="delete">
+      <outline type="link" text="How to delete your account | OpenAI Help Center" title="How to delete your account | OpenAI Help Center" url="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" htmlUrl="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" description="How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+" created="Sat, 28 Feb 2026 13:07:40 GMT" category="delete,account,openai,howto,hostile-co,surveillance,ethics" />
+    </outline>
     <outline text="democracy" title="democracy">
       <outline type="link" text="Statement from Dario Amodei on our discussions with the Department of War" title="Statement from Dario Amodei on our discussions with the Department of War" url="https://www.anthropic.com/news/statement-department-of-war" htmlUrl="https://www.anthropic.com/news/statement-department-of-war" description="Regardless, these threats do not change our position: we cannot in good conscience accede to their request." created="Fri, 27 Feb 2026 12:08:09 GMT" category="statement,anthropic,government,state-deptment,democracy,standards" />
       <outline type="link" text=" I. The Architecture of “We the People”  National Gallery of Art" title=" I. The Architecture of “We the People”  National Gallery of Art" url="https://www.youtube.com/watch?v=NQ15amJm2PI" htmlUrl="https://www.youtube.com/watch?v=NQ15amJm2PI" description="This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.
@@ -1732,6 +1780,13 @@ Palantir’s CEO compared me to [bad actors] because of an imagined billion-doll
 
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
     </outline>
+    <outline text="effect" title="effect">
+      <outline type="link" text="What AI coding costs you | Tom Wojcik" title="What AI coding costs you | Tom Wojcik" url="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" htmlUrl="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" description="Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.
+
+Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
+
+" created="Sat, 28 Feb 2026 13:10:41 GMT" category="coding,atrophy,brain,effect,flow,agents" />
+    </outline>
     <outline text="election" title="election">
       <outline type="link" text="Big changes to the agency charged with securing elections lead to midterm worries" title="Big changes to the agency charged with securing elections lead to midterm worries" url="https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf" htmlUrl="https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf" description="“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of State Steve Simon, a Democrat who until recently led the bipartisan National Association of Secretaries of State." created="Sun, 23 Nov 2025 21:21:36 GMT" category="election,election-security,opsec,usa,mn" />
     </outline>
@@ -1795,6 +1850,17 @@ Known as cloud-seeding, the process was conducted over the Urmia lake basin on S
       <outline type="link" text="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" title="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" url="https://arxiv.org/abs/2510.21328v1" htmlUrl="https://arxiv.org/abs/2510.21328v1" description="Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz &amp; Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements." created="Thu, 06 Nov 2025 18:01:40 GMT" category="space,environment,pollution,atmosphere" />
     </outline>
     <outline text="ethics" title="ethics">
+      <outline type="link" text="How to delete your account | OpenAI Help Center" title="How to delete your account | OpenAI Help Center" url="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" htmlUrl="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" description="How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+" created="Sat, 28 Feb 2026 13:07:40 GMT" category="delete,account,openai,howto,hostile-co,surveillance,ethics" />
       <outline type="link" text="Meredith Whittaker (@mer__edith) on X" title="Meredith Whittaker (@mer__edith) on X" url="https://x.com/mer__edith/status/2016813653501096027" htmlUrl="https://x.com/mer__edith/status/2016813653501096027" description="I read it. And I&apos;ll engage here in good faith. But before I get into substance, I implore you to open the window, touch grass, and let yourself connect with the reality of what’s happening right now. This is a world historical moment. Please recognize what ICE is at this time, what it’s doing, and what it really means for your company, Palantir, to be supporting them with targeting and surveillance technologies that aid their attacks on freedom, liberty, and the constitution. 
 
 Now to the substance of your post. I’ll address the three key claims you make in defense of your work with ICE: " created="Sun, 01 Feb 2026 15:09:39 GMT" category="ethics,palantir,corporate-culture,elite-tool" />
@@ -1948,6 +2014,11 @@ You should endeavour to keep your computer in as near its stock configuration as
       <outline type="link" text="Have I been Flocked? " title="Have I been Flocked? " url="https://haveibeenflocked.com/" htmlUrl="https://haveibeenflocked.com/" description="Have I been Flocked? – Check if your license plate is being watched " created="Sat, 06 Dec 2025 13:21:32 GMT" category="flock,surveillance,tracking" />
     </outline>
     <outline text="flow" title="flow">
+      <outline type="link" text="What AI coding costs you | Tom Wojcik" title="What AI coding costs you | Tom Wojcik" url="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" htmlUrl="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" description="Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.
+
+Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
+
+" created="Sat, 28 Feb 2026 13:10:41 GMT" category="coding,atrophy,brain,effect,flow,agents" />
       <outline type="link" text="agents at scale in parallel " title="agents at scale in parallel " url="https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/" htmlUrl="https://zachwills.net/i-managed-a-swarm-of-20-ai-agents-for-a-week-here-are-the-8-rules-i-learned/" description="This wasn’t just passive monitoring; it was an active state of engagement across multiple fronts. I was simultaneously watching four terminals, remembering the specific context of each agent’s task, interjecting with high-level corrections, and planning the next steps for each parallel stream. Traditional “flow state” is about losing yourself in a single problem. This was the opposite: it was about maintaining a constant, high-level situational awareness of the entire system at once." created="Mon, 10 Nov 2025 03:41:37 GMT" category="ai,code,claude-code,flow,&quot;situational awareness&quot;" />
     </outline>
     <outline text="food" title="food">
@@ -2039,8 +2110,8 @@ Chatrie’s appeal challenges the constitutionality of geofence warrants, arguin
       <outline type="link" text="microgpt" title="microgpt" url="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" htmlUrl="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" created="Sun, 15 Feb 2026 00:25:09 GMT" category="microgpt,github,gist,ai,llm,python" />
     </outline>
     <outline text="github" title="github">
-      <outline type="link" text="microgpt" title="microgpt" url="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" htmlUrl="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" created="Sun, 15 Feb 2026 00:25:09 GMT" category="microgpt,github,gist,ai,llm,python" />
       <outline type="link" text="GitHub - Polymarket/polymarket-cli" title="GitHub - Polymarket/polymarket-cli" url="https://github.com/Polymarket/polymarket-cli " htmlUrl="https://github.com/Polymarket/polymarket-cli " created="Fri, 27 Feb 2026 12:06:10 GMT" category="github,polymarket,polymarket-cli,development,climate" />
+      <outline type="link" text="microgpt" title="microgpt" url="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" htmlUrl="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" created="Sun, 15 Feb 2026 00:25:09 GMT" category="microgpt,github,gist,ai,llm,python" />
       <outline type="link" text="GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution" title="GitHub - privacyshield-ai/privacy-firewall: A local AI-powered DLP solution" url="https://github.com/privacyshield-ai/privacy-firewall" htmlUrl="https://github.com/privacyshield-ai/privacy-firewall" description="PrivacyFirewall is a local-first PII and secrets firewall for AI tools like ChatGPT, Claude, and Gemini.It blocks risky paste events, warns as you type, and (optionally) uses a lightweight on-device Transformer model for deeper PII detection.
 
 **No data ever leaves your machine.**Everything runs locally in your browser or through an optional local API.You can verify this by inspecting the network panel and reading the open-source code." created="Thu, 11 Dec 2025 20:26:06 GMT" category="code,github,open-source,privacy,security,networks" />
@@ -2250,6 +2321,19 @@ It is funded by Vertigo’s Paris-based parent company, Federation Studios. The 
     <outline text="homogenization" title="homogenization">
       <outline type="link" text="Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)" title="Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)" url="https://arxiv.org/abs/2510.22954" htmlUrl="https://arxiv.org/abs/2510.22954" description="We introduce the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising 6 top-level categories (e.g., brainstorm &amp; ideation) that further breaks down to 17 subcategories. Using Infinity-Chat, we present a large-scale study of mode collapse in LMs, revealing a pronounced Artificial Hivemind effect in open-ended generation of LMs, characterized by (1) intra-model repetition, where a single model consistently generates similar responses, and more so (2) inter-model homogeneity, where different models produce strikingly similar outputs. Infinity-Chat also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human annotations per example. " created="Thu, 04 Dec 2025 12:28:21 GMT" category="artificial-hivemind,synthetic,llms,ai,entropy,diversity,homogenization" />
     </outline>
+    <outline text="hostile-co" title="hostile-co">
+      <outline type="link" text="How to delete your account | OpenAI Help Center" title="How to delete your account | OpenAI Help Center" url="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" htmlUrl="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" description="How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+" created="Sat, 28 Feb 2026 13:07:40 GMT" category="delete,account,openai,howto,hostile-co,surveillance,ethics" />
+    </outline>
     <outline text="hosting" title="hosting">
       <outline type="link" text="Archive.today: FBI Demands Data from Provider Tucows" title="Archive.today: FBI Demands Data from Provider Tucows" url="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" htmlUrl="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" description="It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option." created="Thu, 06 Nov 2025 17:44:45 GMT" category="archive,legal,fbi,hosting" />
     </outline>
@@ -2259,6 +2343,17 @@ It is funded by Vertigo’s Paris-based parent company, Federation Studios. The 
 If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="howto" title="howto">
+      <outline type="link" text="How to delete your account | OpenAI Help Center" title="How to delete your account | OpenAI Help Center" url="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" htmlUrl="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" description="How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+" created="Sat, 28 Feb 2026 13:07:40 GMT" category="delete,account,openai,howto,hostile-co,surveillance,ethics" />
       <outline type="link" text="Building internal agents" title="Building internal agents" url="https://lethain.com/agents-series/" htmlUrl="https://lethain.com/agents-series/" description="Building your intuition for agents
 As more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:
 
@@ -3247,6 +3342,17 @@ Meta Skills - Creating, testing, and sharing skills" created="Sun, 19 Oct 2025 0
       <outline type="link" text="Build Real-Time Knowledge Graphs for AI Agents" title="Build Real-Time Knowledge Graphs for AI Agents" url="https://github.com/getzep/graphiti" htmlUrl="https://github.com/getzep/graphiti" description="Graphiti is a framework for building and querying temporally-aware knowledge graphs, specifically tailored for AI agents operating in dynamic environments. Unlike traditional retrieval-augmented generation (RAG) methods, Graphiti continuously integrates user interactions, structured and unstructured enterprise data, and external information into a coherent, queryable graph." created="Sun, 21 Sep 2025 02:00:16 GMT" category="code,github,open-source,agent,knowledge-graph" />
     </outline>
     <outline text="openai" title="openai">
+      <outline type="link" text="How to delete your account | OpenAI Help Center" title="How to delete your account | OpenAI Help Center" url="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" htmlUrl="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" description="How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+" created="Sat, 28 Feb 2026 13:07:40 GMT" category="delete,account,openai,howto,hostile-co,surveillance,ethics" />
       <outline type="link" text="Building AI for the Long Term - YouTube" title="Building AI for the Long Term - YouTube" url="https://www.youtube.com/watch?v=34WoOp1EEfo" htmlUrl="https://www.youtube.com/watch?v=34WoOp1EEfo" description="AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. As the boom demands more capital, technological considerations are giving way to economic ones. " created="Wed, 21 Jan 2026 13:03:58 GMT" category="video,ai,scale,ruthless-adoption,compute,openai,advertising" />
       <outline type="link" text="The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company" title="The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company" url="https://thewaltdisneycompany.com/disney-openai-sora-agreement/" htmlUrl="https://thewaltdisneycompany.com/disney-openai-sora-agreement/" description="As part of this three-year licensing agreement, Sora will be able to generate short, user-prompted social videos that can be viewed and shared by fans, drawing on more than 200 Disney, Marvel, Pixar and Star Wars characters.
 Agreement will make a selection of these fan-inspired Sora short form videos available to stream on Disney+.
@@ -4161,6 +4267,17 @@ At Netflix, we remain committed to adopting the best open technologies to deligh
       <outline type="link" text="Submarine Cable Map" title="Submarine Cable Map" url="https://www.submarinecablemap.com/" htmlUrl="https://www.submarinecablemap.com/" created="Sat, 06 Sep 2025 23:53:02 GMT" category="maps,submarine,networks" />
     </outline>
     <outline text="surveillance" title="surveillance">
+      <outline type="link" text="How to delete your account | OpenAI Help Center" title="How to delete your account | OpenAI Help Center" url="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" htmlUrl="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" description="How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+" created="Sat, 28 Feb 2026 13:07:40 GMT" category="delete,account,openai,howto,hostile-co,surveillance,ethics" />
       <outline type="link" text="The Constitutionality of Geofence Warrants - Schneier on Security" title="The Constitutionality of Geofence Warrants - Schneier on Security" url="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html" htmlUrl="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html" description="The US Supreme Court is considering the constitutionality of geofence warrants.
 
 The case centers on the trial of Okello Chatrie, a Virginia man who pleaded guilty to a 2019 robbery outside of Richmond and was sentenced to almost 12 years in prison for stealing $195,000 at gunpoint.
@@ -4520,9 +4637,9 @@ I’m not telling you to skip verification. But I am telling you to know what yo
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
     </outline>
     <outline text="video" title="video">
-      <outline type="link" text="Seedance" title="Seedance" url="https://seed.bytedance.com/en/seedance" htmlUrl="https://seed.bytedance.com/en/seedance" created="Sat, 14 Feb 2026 14:39:15 GMT" category="seedance,video,bytedance" />
       <outline type="link" text=" Harari and Tegmark on Humanity and AI - YouTube" title=" Harari and Tegmark on Humanity and AI - YouTube" url="https://www.youtube.com/watch?v=rGAA59JTBtg" htmlUrl="https://www.youtube.com/watch?v=rGAA59JTBtg" description="Yuval Noah Harari, Historian, Philosopher &amp; Bestselling Author and Max Tegmark, Co-Founder, Future of Life Institute; Professor, Massachusetts Institute of Technology (MIT) discuss human agency, governing AI and the future of humanity with Bloomberg&apos;s Francine Lacqua at Bloomberg House in Davos on the sidelines of the 2026 World Economic Forum.
 --------" created="Mon, 23 Feb 2026 13:20:17 GMT" category="video,ai,wef,2026" />
+      <outline type="link" text="Seedance" title="Seedance" url="https://seed.bytedance.com/en/seedance" htmlUrl="https://seed.bytedance.com/en/seedance" created="Sat, 14 Feb 2026 14:39:15 GMT" category="seedance,video,bytedance" />
       <outline type="link" text=" I. The Architecture of “We the People”  National Gallery of Art" title=" I. The Architecture of “We the People”  National Gallery of Art" url="https://www.youtube.com/watch?v=NQ15amJm2PI" htmlUrl="https://www.youtube.com/watch?v=NQ15amJm2PI" description="This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.
 
 Wilson explores the vision of statesman, architect, and planter Thomas Jefferson in designing Virginia’s new statehouse, a neoclassical building based on a Roman temple to symbolize and enable the power of “the people” to govern. She argues that by analyzing Jefferson’s “Notes on the State of Virginia” (1785), which includes an aesthetic and intellectual appraisal of works by enslaved poet Phillis Wheatley and was written during the same period he designed the capitol, we can better understand the complex relationship between democratic ideals and racial difference that shaped the nation’s new civic architecture." created="Sun, 01 Feb 2026 15:15:52 GMT" category="video,youtube,america,black-history,architecture,democracy,history,social-contract" visits="1" />

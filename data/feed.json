@@ -15,6 +15,49 @@
   ],
   "items": [
     {
+      "id": "1772284241410",
+      "url": "https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/",
+      "title": "What AI coding costs you | Tom Wojcik",
+      "date_published": "2026-02-28T13:10:41.410Z",
+      "tags": [
+        "coding",
+        "atrophy",
+        "brain",
+        "effect",
+        "flow",
+        "agents"
+      ],
+      "content_text": "Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.\n\nApply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.\n\n",
+      "summary": "Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cog...",
+      "content_html": "<blockquote>Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.\n\nApply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.\n\n</blockquote>\n<p><strong>Tags:</strong> coding, atrophy, brain, effect, flow, agents</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772284060775",
+      "url": "https://help.openai.com/en/articles/6378407-how-to-delete-your-account",
+      "title": "How to delete your account | OpenAI Help Center",
+      "date_published": "2026-02-28T13:07:40.775Z",
+      "tags": [
+        "delete",
+        "account",
+        "openai",
+        "howto",
+        "hostile-co",
+        "surveillance",
+        "ethics"
+      ],
+      "content_text": "How to delete your OpenAI account\nOption A: Submit a request to our Privacy Portal\nGo to Privacy Portal at https://privacy.openai.com/\n\nClick on “Make a Privacy Request” in top right corner\n\nSelect \"I have a consumer ChatGPT account”\n\nSelect “Delete my ChatGPT account” and follow the steps on the screen.\n\n",
+      "summary": "How to delete your OpenAI account\nOption A: Submit a request to our Privacy Portal\nGo to Privacy Portal at https://privacy.openai.com/\n\nClick on “Make...",
+      "content_html": "<blockquote>How to delete your OpenAI account\nOption A: Submit a request to our Privacy Portal\nGo to Privacy Portal at https://privacy.openai.com/\n\nClick on “Make a Privacy Request” in top right corner\n\nSelect &quot;I have a consumer ChatGPT account”\n\nSelect “Delete my ChatGPT account” and follow the steps on the screen.\n\n</blockquote>\n<p><strong>Tags:</strong> delete, account, openai, howto, hostile-co, surveillance, ethics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772194089766",
       "url": "https://www.anthropic.com/news/statement-department-of-war",
       "title": "Statement from Dario Amodei on our discussions with the Department of War",
