@@ -1,34 +1,38 @@
 {
   "links": [
     {
-      "id": 1771115109117,
-      "url": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95",
-      "source": "microgpt",
-      "pullQuote": "",
+      "id": 1772284241410,
+      "url": "https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/",
+      "source": "What AI coding costs you | Tom Wojcik",
+      "pullQuote": "Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.\n\nApply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.\n\n",
       "tags": [
-        "microgpt",
-        "github",
-        "gist",
-        "ai",
-        "llm",
-        "python"
+        "coding",
+        "atrophy",
+        "brain",
+        "effect",
+        "flow",
+        "agents"
       ],
       "isPinned": false,
-      "timestamp": "2026-02-15T00:25:09.117Z",
+      "timestamp": "2026-02-28T13:10:41.410Z",
       "visits": 0
     },
     {
-      "id": 1771079955856,
-      "url": "https://seed.bytedance.com/en/seedance",
-      "source": "Seedance",
-      "pullQuote": "",
+      "id": 1772284060775,
+      "url": "https://help.openai.com/en/articles/6378407-how-to-delete-your-account",
+      "source": "How to delete your account | OpenAI Help Center",
+      "pullQuote": "How to delete your OpenAI account\nOption A: Submit a request to our Privacy Portal\nGo to Privacy Portal at https://privacy.openai.com/\n\nClick on “Make a Privacy Request” in top right corner\n\nSelect \"I have a consumer ChatGPT account”\n\nSelect “Delete my ChatGPT account” and follow the steps on the screen.\n\n",
       "tags": [
-        "seedance",
-        "video",
-        "bytedance"
+        "delete",
+        "account",
+        "openai",
+        "howto",
+        "hostile-co",
+        "surveillance",
+        "ethics"
       ],
       "isPinned": false,
-      "timestamp": "2026-02-14T14:39:15.856Z",
+      "timestamp": "2026-02-28T13:07:40.775Z",
       "visits": 0
     },
     {
@@ -327,6 +331,37 @@
       ],
       "isPinned": false,
       "timestamp": "2026-02-21T00:00:21.533Z",
+      "visits": 0
+    },
+    {
+      "id": 1771115109117,
+      "url": "https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95",
+      "source": "microgpt",
+      "pullQuote": "",
+      "tags": [
+        "microgpt",
+        "github",
+        "gist",
+        "ai",
+        "llm",
+        "python"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-15T00:25:09.117Z",
+      "visits": 0
+    },
+    {
+      "id": 1771079955856,
+      "url": "https://seed.bytedance.com/en/seedance",
+      "source": "Seedance",
+      "pullQuote": "",
+      "tags": [
+        "seedance",
+        "video",
+        "bytedance"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-02-14T14:39:15.856Z",
       "visits": 0
     },
     {
@@ -4807,5 +4842,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-02-28T13:03:05.198Z"
+  "lastUpdated": "2026-02-28T13:10:41.423Z"
 }
