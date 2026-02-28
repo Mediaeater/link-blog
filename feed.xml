@@ -4,156 +4,72 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 27 Feb 2026 13:21:35 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Feb 2026 00:25:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[How will OpenAI compete? — Benedict Evans]]></title>
-            <link>https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x</link>
-            <guid>1772198495212</guid>
-            <pubDate>Fri, 27 Feb 2026 13:21:35 GMT</pubDate>
-            <description><![CDATA[Tags: openai, compete, benedict, evans, questions, engagement]]></description>
+            <title><![CDATA[microgpt]]></title>
+            <link>https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95</link>
+            <guid>1771115109117</guid>
+            <pubDate>Sun, 15 Feb 2026 00:25:09 GMT</pubDate>
+            <description><![CDATA[Tags: microgpt, github, gist, ai, llm, python]]></description>
         </item>
         <item>
-            <title><![CDATA[PRESENTATION: The State of Video Gaming in 2026 ]]></title>
-            <link>https://e.issuu.com/embed.html?d=gaming-2026_v2.15_v2&amp;pageLayout=singlePage&amp;u=ballmatthew</link>
-            <guid>1772194663703</guid>
-            <pubDate>Fri, 27 Feb 2026 12:17:43 GMT</pubDate>
-            <description><![CDATA[Tags: gaming, presentation, 2026]]></description>
+            <title><![CDATA[Seedance]]></title>
+            <link>https://seed.bytedance.com/en/seedance</link>
+            <guid>1771079955856</guid>
+            <pubDate>Sat, 14 Feb 2026 14:39:15 GMT</pubDate>
+            <description><![CDATA[Tags: seedance, video, bytedance]]></description>
         </item>
         <item>
-            <title><![CDATA[Statement from Dario Amodei on our discussions with the Department of War]]></title>
-            <link>https://www.anthropic.com/news/statement-department-of-war</link>
-            <guid>1772194089766</guid>
-            <pubDate>Fri, 27 Feb 2026 12:08:09 GMT</pubDate>
-            <description><![CDATA[Tags: statement, anthropic, government, state-deptment, democracy, standards]]></description>
+            <title><![CDATA[microgpt]]></title>
+            <link>https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95</link>
+            <guid>1771115109117</guid>
+            <pubDate>Sun, 15 Feb 2026 00:25:09 GMT</pubDate>
+            <description><![CDATA[Tags: microgpt, github, gist, ai, llm, python]]></description>
         </item>
         <item>
-            <title><![CDATA[The 2026 Global Intelligence Crisis - Citadel Securities]]></title>
-            <link>https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/</link>
-            <guid>1772194022107</guid>
-            <pubDate>Fri, 27 Feb 2026 12:07:02 GMT</pubDate>
-            <description><![CDATA[Tags: global, intelligence, citadel, securities]]></description>
+            <title><![CDATA[Seedance]]></title>
+            <link>https://seed.bytedance.com/en/seedance</link>
+            <guid>1771079955856</guid>
+            <pubDate>Sat, 14 Feb 2026 14:39:15 GMT</pubDate>
+            <description><![CDATA[Tags: seedance, video, bytedance]]></description>
         </item>
         <item>
-            <title><![CDATA[GitHub - Polymarket/polymarket-cli]]></title>
-            <link>https://github.com/Polymarket/polymarket-cli </link>
-            <guid>1772193970005</guid>
-            <pubDate>Fri, 27 Feb 2026 12:06:10 GMT</pubDate>
-            <description><![CDATA[Tags: github, polymarket, polymarket-cli, development, climate]]></description>
+            <title><![CDATA[Meta Plans to Add Facial Recognition Technology to Its Smart Glasses]]></title>
+            <link>https://www.nytimes.com/2026/02/13/technology/meta-facial-recognition-smart-glasses.html</link>
+            <guid>1771030168570</guid>
+            <pubDate>Sat, 14 Feb 2026 00:49:28 GMT</pubDate>
+            <description><![CDATA[Tags: meta, facial, recognition, frt, ethics]]></description>
         </item>
         <item>
-            <title><![CDATA[The Missing Semester of Your CS Education]]></title>
-            <link>https://missing.csail.mit.edu/</link>
-            <guid>1772193783415</guid>
-            <pubDate>Fri, 27 Feb 2026 12:03:03 GMT</pubDate>
-            <description><![CDATA[Tags: education, css, learing, knowledge, computers]]></description>
+            <title><![CDATA[Überwachungstechnologie: Wie hartnäckig Palantir die Schweiz umwarb]]></title>
+            <link>https://www.republik.ch/2025/12/08/wie-hartnaeckig-palantir-die-schweiz-umwarb</link>
+            <guid>1771028229880</guid>
+            <pubDate>Sat, 14 Feb 2026 00:17:09 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, press, palantir, legal, media, republik]]></description>
         </item>
         <item>
-            <title><![CDATA[The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection]]></title>
-            <link>https://spectrum.ieee.org/age-verification</link>
-            <guid>1771893993578</guid>
-            <pubDate>Tue, 24 Feb 2026 00:46:33 GMT</pubDate>
-            <description><![CDATA[Tags: security, identity, agents]]></description>
+            <title><![CDATA[Simon Willison’s Weblog]]></title>
+            <link>https://simonwillison.net/</link>
+            <guid>1771023478094</guid>
+            <pubDate>Fri, 13 Feb 2026 22:57:58 GMT</pubDate>
+            <description><![CDATA[Tags: coding, opensource, ai, learning, knowledge]]></description>
         </item>
         <item>
-            <title><![CDATA[Dike Blair, Untitled 2026 | KARMA Bookstore]]></title>
-            <link>https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/</link>
-            <guid>1771891566164</guid>
-            <pubDate>Tue, 24 Feb 2026 00:06:06 GMT</pubDate>
-            <description><![CDATA[Tags: art, archival-pigment-print, karma, print, gallery]]></description>
+            <title><![CDATA[Ring cancels its partnership with Flock Safety after surveillance backlash]]></title>
+            <link>https://www.theverge.com/news/878447/ring-flock-partnership-canceled</link>
+            <guid>1770986786457</guid>
+            <pubDate>Fri, 13 Feb 2026 12:46:26 GMT</pubDate>
+            <description><![CDATA[Tags: ring, partnership, flock, safety, security, surveillance]]></description>
         </item>
         <item>
-            <title><![CDATA[Lyria — Gemini AI music & song generator]]></title>
-            <link>https://gemini.google/overview/music-generation/</link>
-            <guid>1771856789784</guid>
-            <pubDate>Mon, 23 Feb 2026 14:26:29 GMT</pubDate>
-            <description><![CDATA[Tags: lyria, gemini, music, song, generator, musicvideo, google]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Andrej Karpathy (@karpathy) on X]]></title>
-            <link>https://x.com/karpathy/status/2024987174077432126</link>
-            <guid>1771853077536</guid>
-            <pubDate>Mon, 23 Feb 2026 13:24:37 GMT</pubDate>
-            <description><![CDATA[Tags: karpathy, mac, mac-mini, ai]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Firebase Studio]]></title>
-            <link>https://studio.firebase.google.com/</link>
-            <guid>1771852889068</guid>
-            <pubDate>Mon, 23 Feb 2026 13:21:29 GMT</pubDate>
-            <description><![CDATA[Tags: firebase, studio, google, interpretability, code]]></description>
-        </item>
-        <item>
-            <title><![CDATA[ Harari and Tegmark on Humanity and AI - YouTube]]></title>
-            <link>https://www.youtube.com/watch?v=rGAA59JTBtg</link>
-            <guid>1771852817683</guid>
-            <pubDate>Mon, 23 Feb 2026 13:20:17 GMT</pubDate>
-            <description><![CDATA[Tags: video, ai, wef, 2026]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Password managers’ promise that they can’t see your vaults isn’t always true]]></title>
-            <link>https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/</link>
-            <guid>1771852751434</guid>
-            <pubDate>Mon, 23 Feb 2026 13:19:11 GMT</pubDate>
-            <description><![CDATA[Tags: vaults, opsec, passwords, security]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Cyhaus: Bela Lugosi’s Bed – greg.org]]></title>
-            <link>https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html</link>
-            <guid>1771687615051</guid>
-            <pubDate>Sat, 21 Feb 2026 15:26:55 GMT</pubDate>
-            <description><![CDATA[Tags: bed, art, cy-twombly, bela-lugosi, bauhaus, pun, green, lamp]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The industrial owners selling to ICE]]></title>
-            <link>https://therealdeal.com/national/2026/02/19/the-industrial-owners-selling-to-ice/</link>
-            <guid>1771687298558</guid>
-            <pubDate>Sat, 21 Feb 2026 15:21:38 GMT</pubDate>
-            <description><![CDATA[Tags: ice, federal, real-estate, private-prison]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Making frontier cybersecurity capabilities available to defenders]]></title>
-            <link>https://www.anthropic.com/news/claude-code-security</link>
-            <guid>1771687160724</guid>
-            <pubDate>Sat, 21 Feb 2026 15:19:20 GMT</pubDate>
-            <description><![CDATA[Tags: cybersecurity, claude, verification]]></description>
-        </item>
-        <item>
-            <title><![CDATA[I Verified My LinkedIn Identity. Here’s What I Actually Handed Over.]]></title>
-            <link>https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/</link>
-            <guid>1771687066125</guid>
-            <pubDate>Sat, 21 Feb 2026 15:17:46 GMT</pubDate>
-            <description><![CDATA[Tags: identity, verification, linkedin, security, opsec, wtf, dark-ux]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The unauthorized tool call problem – Answer.AI]]></title>
-            <link>https://www.answer.ai/posts/2026-01-20-toolcalling.html</link>
-            <guid>1771635735805</guid>
-            <pubDate>Sat, 21 Feb 2026 01:02:15 GMT</pubDate>
-            <description><![CDATA[Tags: unauthorized, tool, trust]]></description>
-        </item>
-        <item>
-            <title><![CDATA[CERN 2019 WorldWideWeb Rebuild]]></title>
-            <link>https://worldwideweb.cern.ch/</link>
-            <guid>1771635574730</guid>
-            <pubDate>Sat, 21 Feb 2026 00:59:34 GMT</pubDate>
-            <description><![CDATA[Tags: cern, worldwideweb, rebuild]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Wikipedia blacklists Archive.today, starts removing 695,000 archive links]]></title>
-            <link>https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/</link>
-            <guid>1771632099835</guid>
-            <pubDate>Sat, 21 Feb 2026 00:01:39 GMT</pubDate>
-            <description><![CDATA[Tags: wikipedia, archive, blacklist, ddos]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Nikecraft]]></title>
-            <link>https://www.nikecraft.com/</link>
-            <guid>1771632021533</guid>
-            <pubDate>Sat, 21 Feb 2026 00:00:21 GMT</pubDate>
-            <description><![CDATA[Tags: nikecraft, art, merch, fashion, tomsachs]]></description>
+            <title><![CDATA[Optimal Timing for Superintelligence]]></title>
+            <link>https://nickbostrom.com/optimal.pdf</link>
+            <guid>1770986679080</guid>
+            <pubDate>Fri, 13 Feb 2026 12:44:39 GMT</pubDate>
+            <description><![CDATA[Tags: timing, superintelligence, ai, human, humanity, knowledge, knowledge-system]]></description>
         </item>
         <item>
             <title><![CDATA[China's Approach to AI Anthropomorphism]]></title>
