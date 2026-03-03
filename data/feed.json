@@ -15,6 +15,261 @@
   ],
   "items": [
     {
+      "id": "1772537949903",
+      "url": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
+      "title": "Anonymous credentials: an illustrated primer",
+      "date_published": "2026-03-03T11:39:09.903Z",
+      "tags": [
+        "anonymous",
+        "credentials",
+        "surveillance",
+        "privacy",
+        "ai"
+      ],
+      "content_text": "This post has been on my back burner for well over a year. This has bothered me, because every month that goes by I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This is because I’m very worried that we’re headed into a bit of a privacy dystopia, driven largely by bad legislation and the proliferation of AI.\n\n",
+      "summary": "This post has been on my back burner for well over a year. This has bothered me, because every month that goes by I become more convinced that anonymo...",
+      "content_html": "<blockquote>This post has been on my back burner for well over a year. This has bothered me, because every month that goes by I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This is because I’m very worried that we’re headed into a bit of a privacy dystopia, driven largely by bad legislation and the proliferation of AI.\n\n</blockquote>\n<p><strong>Tags:</strong> anonymous, credentials, surveillance, privacy, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772537912833",
+      "url": "https://developer.apple.com/documentation/foundationmodels",
+      "title": "Foundation Models | Apple Developer Documentation",
+      "date_published": "2026-03-03T11:38:32.833Z",
+      "tags": [
+        "foundation",
+        "models",
+        "apple",
+        "developer",
+        "documentation",
+        "ai",
+        "foundation-models"
+      ],
+      "content_text": "The Foundation Models framework provides access to Apple’s on-device large language model that powers Apple Intelligence to help you perform intelligent tasks specific to your use case. The text-based on-device model identifies patterns that allow for generating new text that’s appropriate for the request you make, and it can make decisions to call code you write to perform specialized tasks.",
+      "summary": "The Foundation Models framework provides access to Apple’s on-device large language model that powers Apple Intelligence to help you perform intellige...",
+      "content_html": "<blockquote>The Foundation Models framework provides access to Apple’s on-device large language model that powers Apple Intelligence to help you perform intelligent tasks specific to your use case. The text-based on-device model identifies patterns that allow for generating new text that’s appropriate for the request you make, and it can make decisions to call code you write to perform specialized tasks.</blockquote>\n<p><strong>Tags:</strong> foundation, models, apple, developer, documentation, ai, foundation-models</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772536345056",
+      "url": "https://github.com/yjeanrenaud/yj_nearbyglasses",
+      "title": "GitHub _nearbyglasses: attempting to detect smart glasses nearby and warn you",
+      "date_published": "2026-03-03T11:12:25.056Z",
+      "tags": [
+        "smart-glasses",
+        "detection",
+        "privacy",
+        "surveillance"
+      ],
+      "content_text": "attempting to detect smart glasses nearby and warn you ",
+      "summary": "attempting to detect smart glasses nearby and warn you ",
+      "content_html": "<blockquote>attempting to detect smart glasses nearby and warn you </blockquote>\n<p><strong>Tags:</strong> smart-glasses, detection, privacy, surveillance</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772536269595",
+      "url": "https://e.foundation/",
+      "title": "/e/OS - e Foundation - deGoogled unGoogled smartphone operating systems and online services - your data is your data",
+      "date_published": "2026-03-03T11:11:09.595Z",
+      "tags": [
+        "foundation",
+        "degoogled",
+        "ungoogled",
+        "smartphone",
+        "operating",
+        "phone",
+        "privacy"
+      ],
+      "content_text": "We build desirable, open source, privacy-enabled smartphone operating systems.",
+      "summary": "We build desirable, open source, privacy-enabled smartphone operating systems.",
+      "content_html": "<blockquote>We build desirable, open source, privacy-enabled smartphone operating systems.</blockquote>\n<p><strong>Tags:</strong> foundation, degoogled, ungoogled, smartphone, operating, phone, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772536222498",
+      "url": "https://copyrightlately.com/mondrian-public-domain-controversy/",
+      "title": "Mondrian Entered the Public Domain. The Estate Disagrees.",
+      "date_published": "2026-03-03T11:10:22.498Z",
+      "tags": [
+        "mondrian",
+        "art",
+        "public-domain"
+      ],
+      "content_text": "The Trust appears to be blending these categories to suggest Mondrian’s works might enjoy whichever term is most favorable. But even on its own terms, the argument fails. Mondrian died in 1944. Any of his works subject to a life-plus-70 regime would have entered the public domain on January 1, 2015—more than a decade ago.",
+      "summary": "The Trust appears to be blending these categories to suggest Mondrian’s works might enjoy whichever term is most favorable. But even on its own terms,...",
+      "content_html": "<blockquote>The Trust appears to be blending these categories to suggest Mondrian’s works might enjoy whichever term is most favorable. But even on its own terms, the argument fails. Mondrian died in 1944. Any of his works subject to a life-plus-70 regime would have entered the public domain on January 1, 2015—more than a decade ago.</blockquote>\n<p><strong>Tags:</strong> mondrian, art, public-domain</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772536179204",
+      "url": "https://video-reason.com/",
+      "title": "A Very Big Video Reasoning Suite",
+      "date_published": "2026-03-03T11:09:39.204Z",
+      "tags": [
+        "ai",
+        "video",
+        "reasoning"
+      ],
+      "content_text": "We bet on a future that video reasoning is the next fundamental intelligence paradigm, after language reasoning, where spatiotemporal embodied world experiences could be more naturally captured.",
+      "summary": "We bet on a future that video reasoning is the next fundamental intelligence paradigm, after language reasoning, where spatiotemporal embodied world e...",
+      "content_html": "<blockquote>We bet on a future that video reasoning is the next fundamental intelligence paradigm, after language reasoning, where spatiotemporal embodied world experiences could be more naturally captured.</blockquote>\n<p><strong>Tags:</strong> ai, video, reasoning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772536124502",
+      "url": "https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/",
+      "title": "Samsung TVs to stop collecting Texans’ data without express consent",
+      "date_published": "2026-03-03T11:08:44.502Z",
+      "tags": [
+        "samsung",
+        "texans",
+        "surveillance",
+        "privacy",
+        "television",
+        "tv"
+      ],
+      "content_text": "As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to consumers.",
+      "summary": "As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to c...",
+      "content_html": "<blockquote>As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to consumers.</blockquote>\n<p><strong>Tags:</strong> samsung, texans, surveillance, privacy, television, tv</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772536071805",
+      "url": "https://arxiv.org/abs/2602.20159",
+      "title": "A Very Big Video Reasoning Suite",
+      "date_published": "2026-03-03T11:07:51.805Z",
+      "tags": [
+        "video",
+        "paper",
+        "reasoning",
+        "ai",
+        "video-gen"
+      ],
+      "content_text": "e further present VBVR-Bench, a verifiable evaluation framework that moves beyond model-based judging by incorporating rule-based, human-aligned scorers, enabling reproducible and interpretable diagnosis of video reasoning capabilities. Leveraging the VBVR suite, we conduct one of the first large-scale scaling studies of video reasoning and observe early signs of emergent generalization to unseen reasoning tasks. Together, VBVR lays a foundation for the next stage of research in generalizable video reasoning. ",
+      "summary": "e further present VBVR-Bench, a verifiable evaluation framework that moves beyond model-based judging by incorporating rule-based, human-aligned score...",
+      "content_html": "<blockquote>e further present VBVR-Bench, a verifiable evaluation framework that moves beyond model-based judging by incorporating rule-based, human-aligned scorers, enabling reproducible and interpretable diagnosis of video reasoning capabilities. Leveraging the VBVR suite, we conduct one of the first large-scale scaling studies of video reasoning and observe early signs of emergent generalization to unseen reasoning tasks. Together, VBVR lays a foundation for the next stage of research in generalizable video reasoning. </blockquote>\n<p><strong>Tags:</strong> video, paper, reasoning, ai, video-gen</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772535983409",
+      "url": "https://openai.com/index/our-agreement-with-the-department-of-war/",
+      "title": "Our agreement with the Department of War",
+      "date_published": "2026-03-03T11:06:23.409Z",
+      "tags": [
+        "surveillance",
+        "ai",
+        "ethics",
+        "openai",
+        "privacy"
+      ],
+      "content_text": "The Department of War plans to convene a working group made up of leaders from the frontier AI labs, cloud providers, and the Department’s policy and operational communities. OpenAI will participate and expect this will be an important forum for ongoing dialogue on emerging AI capabilities, privacy, and national security challenges going forward. \n\nThese updates build on the framework we announced last week and we hope will help create a pathway for other labs to work with the Department going forward.",
+      "summary": "The Department of War plans to convene a working group made up of leaders from the frontier AI labs, cloud providers, and the Department’s policy and ...",
+      "content_html": "<blockquote>The Department of War plans to convene a working group made up of leaders from the frontier AI labs, cloud providers, and the Department’s policy and operational communities. OpenAI will participate and expect this will be an important forum for ongoing dialogue on emerging AI capabilities, privacy, and national security challenges going forward. \n\nThese updates build on the framework we announced last week and we hope will help create a pathway for other labs to work with the Department going forward.</blockquote>\n<p><strong>Tags:</strong> surveillance, ai, ethics, openai, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772535930949",
+      "url": "https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html",
+      "title": "Poisoning AI Training Data",
+      "date_published": "2026-03-03T11:05:30.949Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "data",
+        "poisoning"
+      ],
+      "content_text": "Less than 24 hours later, the world’s leading chatbots were blabbering about my world-class hot dog skills. When I asked about the best hot-dog-eating tech journalists, Google parroted the gibberish from my website, both in the Gemini app and AI Overviews, the AI responses at the top of Google Search. ChatGPT did the same thing, though Claude, a chatbot made by the company Anthropic, wasn’t fooled.\n\nSometimes, the chatbots noted this might be a joke. I updated my article to say “this is not satire.” For a while after, the AIs seemed to take it more seriously.\n\nThese things are not trustworthy, and yet they are going to be widely trusted.",
+      "summary": "Less than 24 hours later, the world’s leading chatbots were blabbering about my world-class hot dog skills. When I asked about the best hot-dog-eating...",
+      "content_html": "<blockquote>Less than 24 hours later, the world’s leading chatbots were blabbering about my world-class hot dog skills. When I asked about the best hot-dog-eating tech journalists, Google parroted the gibberish from my website, both in the Gemini app and AI Overviews, the AI responses at the top of Google Search. ChatGPT did the same thing, though Claude, a chatbot made by the company Anthropic, wasn’t fooled.\n\nSometimes, the chatbots noted this might be a joke. I updated my article to say “this is not satire.” For a while after, the AIs seemed to take it more seriously.\n\nThese things are not trustworthy, and yet they are going to be widely trusted.</blockquote>\n<p><strong>Tags:</strong> ai, ethics, data, poisoning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772535844542",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rd8cfw/anthropics_recent_distillation_blog_should_make/#lightbox",
+      "title": "Anthropic's recent distillation blog should make anyone only ever want to use local open-weight models",
+      "date_published": "2026-03-03T11:04:04.542Z",
+      "tags": [
+        "weights",
+        "open-source",
+        "anthropic",
+        "metadata"
+      ],
+      "content_text": "By examining request metadata,we were able to trace these accounts to specific researchers at the lab.",
+      "summary": "By examining request metadata,we were able to trace these accounts to specific researchers at the lab.",
+      "content_html": "<blockquote>By examining request metadata,we were able to trace these accounts to specific researchers at the lab.</blockquote>\n<p><strong>Tags:</strong> weights, open-source, anthropic, metadata</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772535694506",
+      "url": "https://keleshev.com/ai-equals-true-is-an-anti-pattern",
+      "title": "AI=true is an Anti-Pattern",
+      "date_published": "2026-03-03T11:01:34.506Z",
+      "tags": [
+        "programming",
+        "ai",
+        "howto"
+      ],
+      "content_text": "Let’s sum it up\nPlace documentation where both human developers and AI agents can expect it. For example, in README.md, not AGENTS.md.\nPrefer exposing functionality as command-line tools and APIs, which are well accessible to developers and AI agents alike, over GUI and MCP tools.\nAvoid parameters (command-line, environment, etc.) that segregate workflows between humans and AI agents, for example, avoid AI=true, prefer --quiet or—even better!—design your tools with limited context/mental-overload in mind.\nIn general, avoid making workflows that are available to AI but hard to access for humans, and vice-versa.\n",
+      "summary": "Let’s sum it up\nPlace documentation where both human developers and AI agents can expect it. For example, in README.md, not AGENTS.md.\nPrefer exposing...",
+      "content_html": "<blockquote>Let’s sum it up\nPlace documentation where both human developers and AI agents can expect it. For example, in README.md, not AGENTS.md.\nPrefer exposing functionality as command-line tools and APIs, which are well accessible to developers and AI agents alike, over GUI and MCP tools.\nAvoid parameters (command-line, environment, etc.) that segregate workflows between humans and AI agents, for example, avoid AI=true, prefer --quiet or—even better!—design your tools with limited context/mental-overload in mind.\nIn general, avoid making workflows that are available to AI but hard to access for humans, and vice-versa.\n</blockquote>\n<p><strong>Tags:</strong> programming, ai, howto</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772535646375",
+      "url": "https://enveda.com/",
+      "title": "Enveda",
+      "date_published": "2026-03-03T11:00:46.375Z",
+      "tags": [
+        "drugs",
+        "health",
+        "r&d",
+        "clinical-trials"
+      ],
+      "content_text": "Enveda is learning from life to discover medicines 4X faster than the industry average.",
+      "summary": "Enveda is learning from life to discover medicines 4X faster than the industry average.",
+      "content_html": "<blockquote>Enveda is learning from life to discover medicines 4X faster than the industry average.</blockquote>\n<p><strong>Tags:</strong> drugs, health, r&d, clinical-trials</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772284241410",
       "url": "https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/",
       "title": "What AI coding costs you | Tom Wojcik",

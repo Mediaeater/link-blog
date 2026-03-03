@@ -4,10 +4,101 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 28 Feb 2026 13:10:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Mar 2026 11:39:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Anonymous credentials: an illustrated primer]]></title>
+            <link>https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/</link>
+            <guid>1772537949903</guid>
+            <pubDate>Tue, 03 Mar 2026 11:39:09 GMT</pubDate>
+            <description><![CDATA[Tags: anonymous, credentials, surveillance, privacy, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Foundation Models | Apple Developer Documentation]]></title>
+            <link>https://developer.apple.com/documentation/foundationmodels</link>
+            <guid>1772537912833</guid>
+            <pubDate>Tue, 03 Mar 2026 11:38:32 GMT</pubDate>
+            <description><![CDATA[Tags: foundation, models, apple, developer, documentation, ai, foundation-models]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub _nearbyglasses: attempting to detect smart glasses nearby and warn you]]></title>
+            <link>https://github.com/yjeanrenaud/yj_nearbyglasses</link>
+            <guid>1772536345056</guid>
+            <pubDate>Tue, 03 Mar 2026 11:12:25 GMT</pubDate>
+            <description><![CDATA[Tags: smart-glasses, detection, privacy, surveillance]]></description>
+        </item>
+        <item>
+            <title><![CDATA[/e/OS - e Foundation - deGoogled unGoogled smartphone operating systems and online services - your data is your data]]></title>
+            <link>https://e.foundation/</link>
+            <guid>1772536269595</guid>
+            <pubDate>Tue, 03 Mar 2026 11:11:09 GMT</pubDate>
+            <description><![CDATA[Tags: foundation, degoogled, ungoogled, smartphone, operating, phone, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mondrian Entered the Public Domain. The Estate Disagrees.]]></title>
+            <link>https://copyrightlately.com/mondrian-public-domain-controversy/</link>
+            <guid>1772536222498</guid>
+            <pubDate>Tue, 03 Mar 2026 11:10:22 GMT</pubDate>
+            <description><![CDATA[Tags: mondrian, art, public-domain]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A Very Big Video Reasoning Suite]]></title>
+            <link>https://video-reason.com/</link>
+            <guid>1772536179204</guid>
+            <pubDate>Tue, 03 Mar 2026 11:09:39 GMT</pubDate>
+            <description><![CDATA[Tags: ai, video, reasoning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Samsung TVs to stop collecting Texans’ data without express consent]]></title>
+            <link>https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/</link>
+            <guid>1772536124502</guid>
+            <pubDate>Tue, 03 Mar 2026 11:08:44 GMT</pubDate>
+            <description><![CDATA[Tags: samsung, texans, surveillance, privacy, television, tv]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A Very Big Video Reasoning Suite]]></title>
+            <link>https://arxiv.org/abs/2602.20159</link>
+            <guid>1772536071805</guid>
+            <pubDate>Tue, 03 Mar 2026 11:07:51 GMT</pubDate>
+            <description><![CDATA[Tags: video, paper, reasoning, ai, video-gen]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Our agreement with the Department of War]]></title>
+            <link>https://openai.com/index/our-agreement-with-the-department-of-war/</link>
+            <guid>1772535983409</guid>
+            <pubDate>Tue, 03 Mar 2026 11:06:23 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, ai, ethics, openai, privacy]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Poisoning AI Training Data]]></title>
+            <link>https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html</link>
+            <guid>1772535930949</guid>
+            <pubDate>Tue, 03 Mar 2026 11:05:30 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ethics, data, poisoning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic's recent distillation blog should make anyone only ever want to use local open-weight models]]></title>
+            <link>https://www.reddit.com/r/LocalLLaMA/comments/1rd8cfw/anthropics_recent_distillation_blog_should_make/#lightbox</link>
+            <guid>1772535844542</guid>
+            <pubDate>Tue, 03 Mar 2026 11:04:04 GMT</pubDate>
+            <description><![CDATA[Tags: weights, open-source, anthropic, metadata]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI=true is an Anti-Pattern]]></title>
+            <link>https://keleshev.com/ai-equals-true-is-an-anti-pattern</link>
+            <guid>1772535694506</guid>
+            <pubDate>Tue, 03 Mar 2026 11:01:34 GMT</pubDate>
+            <description><![CDATA[Tags: programming, ai, howto]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Enveda]]></title>
+            <link>https://enveda.com/</link>
+            <guid>1772535646375</guid>
+            <pubDate>Tue, 03 Mar 2026 11:00:46 GMT</pubDate>
+            <description><![CDATA[Tags: drugs, health, r&d, clinical-trials]]></description>
+        </item>
         <item>
             <title><![CDATA[What AI coding costs you | Tom Wojcik]]></title>
             <link>https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/</link>
