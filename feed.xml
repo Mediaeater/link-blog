@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 03 Mar 2026 11:39:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Mar 2026 12:50:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X]]></title>
+            <link>https://x.com/elvissun/status/2028483837496635809</link>
+            <guid>1772542233642</guid>
+            <pubDate>Tue, 03 Mar 2026 12:50:33 GMT</pubDate>
+            <description><![CDATA[Tags: agents, opsec, howto, security, data, openclaw]]></description>
+        </item>
         <item>
             <title><![CDATA[Anonymous credentials: an illustrated primer]]></title>
             <link>https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/</link>

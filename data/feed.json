@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1772542233642",
+      "url": "https://x.com/elvissun/status/2028483837496635809",
+      "title": "alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X",
+      "date_published": "2026-03-03T12:50:33.642Z",
+      "tags": [
+        "agents",
+        "opsec",
+        "howto",
+        "security",
+        "data",
+        "openclaw"
+      ],
+      "content_text": "lright here’s every practical security tip i have on agents:\n\n- move critical data to a USB stick, unplug when sleeping\n- security by least privilege, not by prompts\n- billing cap on everything AI touches\n- limit reads of external data, wrap in <UNTRUSTED_EXTERNAL_CONTEXT> always\n- don’t post about what access your agent has publicly - those are prompt injection invitations (unless \n@levelsio\n already posted about it, then it’s a race)\n- don’t connect to moltbook (lol?)\n- roll every skill yourself\n- sandbox browser access\n- readonly prod access\n- allow prod writes only for specific use cases (i have /admin/zoe/* for zoe to handle support cases like credit topups)\n- one-time access for anything sensitive (eg gmail) with human in the loop, self-revoke access on script finish\n- create dedicated scripts, avoid improvised bash\n- use better models\n- audit trails everywhere -> security self-improvements\n\nmistakes will happen. limit worst case, embrace the rest",
+      "summary": "lright here’s every practical security tip i have on agents:\n\n- move critical data to a USB stick, unplug when sleeping\n- security by least privilege,...",
+      "content_html": "<blockquote>lright here’s every practical security tip i have on agents:\n\n- move critical data to a USB stick, unplug when sleeping\n- security by least privilege, not by prompts\n- billing cap on everything AI touches\n- limit reads of external data, wrap in &lt;UNTRUSTED_EXTERNAL_CONTEXT&gt; always\n- don’t post about what access your agent has publicly - those are prompt injection invitations (unless \n@levelsio\n already posted about it, then it’s a race)\n- don’t connect to moltbook (lol?)\n- roll every skill yourself\n- sandbox browser access\n- readonly prod access\n- allow prod writes only for specific use cases (i have /admin/zoe/* for zoe to handle support cases like credit topups)\n- one-time access for anything sensitive (eg gmail) with human in the loop, self-revoke access on script finish\n- create dedicated scripts, avoid improvised bash\n- use better models\n- audit trails everywhere -&gt; security self-improvements\n\nmistakes will happen. limit worst case, embrace the rest</blockquote>\n<p><strong>Tags:</strong> agents, opsec, howto, security, data, openclaw</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772537949903",
       "url": "https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/",
       "title": "Anonymous credentials: an illustrated primer",
