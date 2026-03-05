@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 05 Mar 2026 12:50:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 13:28:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Apple Music Specification 5.3.25]]></title>
+            <link>https://help.apple.com/itc/musicspec/en.lproj/static.html</link>
+            <guid>1772717326597</guid>
+            <pubDate>Thu, 05 Mar 2026 13:28:46 GMT</pubDate>
+            <description><![CDATA[Tags: apple, music, specification, document, ai, ai-music, transparency]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes]]></title>
+            <link>https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776</link>
+            <guid>1772717066421</guid>
+            <pubDate>Thu, 05 Mar 2026 13:24:26 GMT</pubDate>
+            <description><![CDATA[Tags: hacked, app, coms, digital-war, cracking, war, infosec]]></description>
+        </item>
+        <item>
+            <title><![CDATA[In an age of endless scroll, can photographs entice collectors again?]]></title>
+            <link>https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58</link>
+            <guid>1772715170999</guid>
+            <pubDate>Thu, 05 Mar 2026 12:52:50 GMT</pubDate>
+            <description><![CDATA[Tags: photography, art, collecting]]></description>
+        </item>
         <item>
             <title><![CDATA[Helsinki just went a full year without a single traffic death]]></title>
             <link>https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/</link>

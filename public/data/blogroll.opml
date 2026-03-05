@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Thu, 05 Mar 2026 12:50:23 GMT</dateCreated>
-    <dateModified>Thu, 05 Mar 2026 12:50:23 GMT</dateModified>
+    <dateCreated>Thu, 05 Mar 2026 13:31:49 GMT</dateCreated>
+    <dateModified>Thu, 05 Mar 2026 13:31:49 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -267,6 +267,16 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 &quot;Yakult Ladies are not just people who sell products,&quot; says the 47-year-old. &quot;We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.&quot;" created="Thu, 05 Mar 2026 12:48:17 GMT" category="aging,health,jp,bio-hacking" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="Apple Music Specification 5.3.25" title="Apple Music Specification 5.3.25" url="https://help.apple.com/itc/musicspec/en.lproj/static.html" htmlUrl="https://help.apple.com/itc/musicspec/en.lproj/static.html" description="What’s New in Apple Music Specification 5.3.25?
+Artificial Intelligence (AI) Transparencies
+
+Added the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.
+
+General
+
+Included minor updates and clarifications.
+
+" created="Thu, 05 Mar 2026 13:28:46 GMT" category="apple,music,specification,document,ai,ai-music,transparency" />
       <outline type="link" text="Anonymous credentials: an illustrated primer" title="Anonymous credentials: an illustrated primer" url="https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/" htmlUrl="https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/" description="This post has been on my back burner for well over a year. This has bothered me, because every month that goes by I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This is because I’m very worried that we’re headed into a bit of a privacy dystopia, driven largely by bad legislation and the proliferation of AI.
 
 " created="Tue, 03 Mar 2026 11:39:09 GMT" category="anonymous,credentials,surveillance,privacy,ai" />
@@ -563,6 +573,16 @@ Unfortunately, there isn’t a currently a way to prevent AI-generated &quot;mus
       <outline type="link" text="The Evidence That AI Is Destroying Workflows" title="The Evidence That AI Is Destroying Workflows" url="https://www.derekthompson.org/p/the-evidence-that-ai-is-destroying" htmlUrl="https://www.derekthompson.org/p/the-evidence-that-ai-is-destroying" created="Fri, 05 Sep 2025 10:00:00 GMT" category="ai-impact" />
     </outline>
     <outline text="ai-music" title="ai-music">
+      <outline type="link" text="Apple Music Specification 5.3.25" title="Apple Music Specification 5.3.25" url="https://help.apple.com/itc/musicspec/en.lproj/static.html" htmlUrl="https://help.apple.com/itc/musicspec/en.lproj/static.html" description="What’s New in Apple Music Specification 5.3.25?
+Artificial Intelligence (AI) Transparencies
+
+Added the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.
+
+General
+
+Included minor updates and clarifications.
+
+" created="Thu, 05 Mar 2026 13:28:46 GMT" category="apple,music,specification,document,ai,ai-music,transparency" />
       <outline type="link" text="Space DJ: Navigating a Musical Universe" title="Space DJ: Navigating a Musical Universe" url="https://magenta.withgoogle.com/spacedj-announce" htmlUrl="https://magenta.withgoogle.com/spacedj-announce" description="oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellation of sounds. You pilot a spaceship through a galaxy where each star represents a musical genre. As you navigate this universe, Space DJ uses the Lyria RealTime API to generate a continuous stream of music that reflects your position and selections in real-time." created="Wed, 12 Nov 2025 16:11:06 GMT" category="music,genre,ai-music,app,google" />
       <outline type="link" text="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" title="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" url="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" htmlUrl="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" description="I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in." created="Mon, 10 Nov 2025 03:38:08 GMT" category="music,ai-music,billboard,charts,song" />
     </outline>
@@ -738,9 +758,24 @@ At Netflix, we remain committed to adopting the best open technologies to deligh
 The winners of this new edition will be announced during the fair on Friday, November 14, at 3:00 pm on the Balcon de l’Horloge. Discover the shortlisted books now." created="Sun, 26 Oct 2025 19:50:10 GMT" category="awards,photography,paris-photo,aperture" />
     </outline>
     <outline text="app" title="app">
+      <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
+
+The messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.
+
+It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access." created="Thu, 05 Mar 2026 13:24:26 GMT" category="hacked,app,coms,digital-war,cracking,war,infosec" />
       <outline type="link" text="Space DJ: Navigating a Musical Universe" title="Space DJ: Navigating a Musical Universe" url="https://magenta.withgoogle.com/spacedj-announce" htmlUrl="https://magenta.withgoogle.com/spacedj-announce" description="oday, we’re excited to launch Space DJ, a web application from Magenta that turns music exploration into an interactive journey through a constellation of sounds. You pilot a spaceship through a galaxy where each star represents a musical genre. As you navigate this universe, Space DJ uses the Lyria RealTime API to generate a continuous stream of music that reflects your position and selections in real-time." created="Wed, 12 Nov 2025 16:11:06 GMT" category="music,genre,ai-music,app,google" />
     </outline>
     <outline text="apple" title="apple">
+      <outline type="link" text="Apple Music Specification 5.3.25" title="Apple Music Specification 5.3.25" url="https://help.apple.com/itc/musicspec/en.lproj/static.html" htmlUrl="https://help.apple.com/itc/musicspec/en.lproj/static.html" description="What’s New in Apple Music Specification 5.3.25?
+Artificial Intelligence (AI) Transparencies
+
+Added the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.
+
+General
+
+Included minor updates and clarifications.
+
+" created="Thu, 05 Mar 2026 13:28:46 GMT" category="apple,music,specification,document,ai,ai-music,transparency" />
       <outline type="link" text="Foundation Models | Apple Developer Documentation" title="Foundation Models | Apple Developer Documentation" url="https://developer.apple.com/documentation/foundationmodels" htmlUrl="https://developer.apple.com/documentation/foundationmodels" description="The Foundation Models framework provides access to Apple’s on-device large language model that powers Apple Intelligence to help you perform intelligent tasks specific to your use case. The text-based on-device model identifies patterns that allow for generating new text that’s appropriate for the request you make, and it can make decisions to call code you write to perform specialized tasks." created="Tue, 03 Mar 2026 11:38:32 GMT" category="foundation,models,apple,developer,documentation,ai,foundation-models" />
       <outline type="link" text="Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition" title="Using LLMs for Late Multimodal Sensor Fusion for Activity Recognition" url="https://machinelearning.apple.com/research/multimodal-sensor-fusion" htmlUrl="https://machinelearning.apple.com/research/multimodal-sensor-fusion" description="We show that large language models (LLMs) can be used for late fusion for activity classification from audio and motion time series data. We curated a subset of data for diverse activity recognition across contexts (e.g., household activities, sports) from the Ego4D dataset. Evaluated LLMs achieved 12-class zero- and one-shot classification F1-scores significantly above chance, with no task-specific training. Zero-shot classification via LLM-based fusion from modality-specific models can enable multimodal temporal applications where there is limited aligned training data for learning a shared embedding space. Additionally, LLM-based fusion can enable model deploying without requiring additional memory and computation for targeted application-specific multimodal models." created="Sun, 23 Nov 2025 00:37:37 GMT" category="llm,privacy,audio,security,opsec,apple,study" />
       <outline type="link" text="The Digital Markets Act’s impacts on EU users" title="The Digital Markets Act’s impacts on EU users" url="https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/" htmlUrl="https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/" description="The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own agendas — to collect more data from EU citizens, or to get Apple’s technology for free.
@@ -790,6 +825,7 @@ Will building these collective knowledge systems be a transformative capability 
 This post is split up into a few parts. First, let&apos;s introduce ARIA&apos;s convening role in this. Then I&apos;ll introduce the principles of permanence, provenance, permission, and placement. The post does assume some knowledge of Internet protocols; I&apos;ll write a more accessible one for a general audience at a future date when the ideas are more baked!" created="Thu, 11 Dec 2025 23:36:37 GMT" category="knowledge,knowlege-graph,knowledge-system,aria,permanence, provenance, permission, placement" />
     </outline>
     <outline text="art" title="art">
+      <outline type="link" text="In an age of endless scroll, can photographs entice collectors again?" title="In an age of endless scroll, can photographs entice collectors again?" url="https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58" htmlUrl="https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58" description="We are in the middle of a generational shift,” says Darius Himes, international head of photographs at Christie’s, “from the collectors, curators and dealers who built the market to a new set of younger collectors who are learning about the nuance of historical printing techniques, or loving the dynamism of a peer like [30-year-old US photographer] Tyler Mitchell.”" created="Thu, 05 Mar 2026 12:52:50 GMT" category="photography,art,collecting" />
       <outline type="link" text="Mondrian Entered the Public Domain. The Estate Disagrees." title="Mondrian Entered the Public Domain. The Estate Disagrees." url="https://copyrightlately.com/mondrian-public-domain-controversy/" htmlUrl="https://copyrightlately.com/mondrian-public-domain-controversy/" description="The Trust appears to be blending these categories to suggest Mondrian’s works might enjoy whichever term is most favorable. But even on its own terms, the argument fails. Mondrian died in 1944. Any of his works subject to a life-plus-70 regime would have entered the public domain on January 1, 2015—more than a decade ago." created="Tue, 03 Mar 2026 11:10:22 GMT" category="mondrian,art,public-domain" />
       <outline type="link" text="Dike Blair, Untitled 2026 | KARMA Bookstore" title="Dike Blair, Untitled 2026 | KARMA Bookstore" url="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" htmlUrl="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" description="Dike Blair
 Untitled
@@ -1414,6 +1450,9 @@ AI agents do. And now they&apos;re doing it in production." created="Thu, 05 Mar
     <outline text="cognition" title="cognition">
       <outline type="link" text="The Periodic Table of Cognition" title="The Periodic Table of Cognition" url="https://kk.org/thetechnium/the-periodic-table-of-cognition/" htmlUrl="https://kk.org/thetechnium/the-periodic-table-of-cognition/" description="It is very probable we will discover that intelligence is likewise not a foundational singular element, but a derivative compound composed of multiple cognitive elements, combined in a complex system unique to each species of mind. The result that we call intelligence emerges from many different cognitive primitives such as long-term memory, spatial awareness, logical deduction, advance planning, pattern perception, and so on. There may be dozens of them, or hundreds. We currently don’t have any idea of what these elements are. We lack a periodic table of cognition. " created="Wed, 24 Sep 2025 03:23:06 GMT" category="intelligence,cognition" />
     </outline>
+    <outline text="collecting" title="collecting">
+      <outline type="link" text="In an age of endless scroll, can photographs entice collectors again?" title="In an age of endless scroll, can photographs entice collectors again?" url="https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58" htmlUrl="https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58" description="We are in the middle of a generational shift,” says Darius Himes, international head of photographs at Christie’s, “from the collectors, curators and dealers who built the market to a new set of younger collectors who are learning about the nuance of historical printing techniques, or loving the dynamism of a peer like [30-year-old US photographer] Tyler Mitchell.”" created="Thu, 05 Mar 2026 12:52:50 GMT" category="photography,art,collecting" />
+    </outline>
     <outline text="collection" title="collection">
       <outline type="link" text="Movie Posters Collection - 	" title="Movie Posters Collection - 	" url="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" htmlUrl="https://hrc.contentdm.oclc.org/digital/collection/p15878coll84/search" description="Downloadable Movie Posters From The 40s, 50s, 60s, and 70s" created="Sun, 26 Oct 2025 14:09:20 GMT" category="film,posters,paper,archive,collection" />
       <outline type="link" text="Root System Drawings" title="Root System Drawings" url="https://images.wur.nl/digital/collection/coll13/search" htmlUrl="https://images.wur.nl/digital/collection/coll13/search" description="Browsing items in: Root System Drawings" created="Sat, 18 Oct 2025 14:21:01 GMT" category="root,system,plants,botany,collection,drawing" />
@@ -1471,6 +1510,13 @@ Welcome to the Computer Club mirrors, a service of the Carnegie Mellon Universit
     </outline>
     <outline text="computers" title="computers">
       <outline type="link" text="The Missing Semester of Your CS Education" title="The Missing Semester of Your CS Education" url="https://missing.csail.mit.edu/" htmlUrl="https://missing.csail.mit.edu/" description="hese days, many aspects of software engineering are also in flux through the introduction of AI-enabled and AI-enhanced tools and workflows. When used appropriately and with awareness of their shortcomings, these can often provide significant benefits to CS practitioners and are thus worth developing working knowledge of. Since AI is a cross-functional enabling technology, there is not a standalone AI lecture; we’ve instead folded the use of the latest applicable AI tools and techniques into each lecture directly." created="Fri, 27 Feb 2026 12:03:03 GMT" category="education,css,learing,knowledge,computers" />
+    </outline>
+    <outline text="coms" title="coms">
+      <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
+
+The messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.
+
+It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access." created="Thu, 05 Mar 2026 13:24:26 GMT" category="hacked,app,coms,digital-war,cracking,war,infosec" />
     </outline>
     <outline text="concert" title="concert">
       <outline type="link" text="UK to ban resale of tickets above face value for live events" title="UK to ban resale of tickets above face value for live events" url="https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c" htmlUrl="https://www.ft.com/content/e76df64b-b5ff-4e6d-9064-53233073908c" description="Ministers plan to ban the resale of tickets for live events above their original cost, in an aggressive crackdown on touts and resellers who sharply increase the price of admission to concerts and sports events.
@@ -1576,6 +1622,11 @@ Pay-to-crawl may represent an appropriate strategy for independent websites seek
 Now to the substance of your post. I’ll address the three key claims you make in defense of your work with ICE: " created="Sun, 01 Feb 2026 15:09:39 GMT" category="ethics,palantir,corporate-culture,elite-tool" />
     </outline>
     <outline text="cracking" title="cracking">
+      <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
+
+The messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.
+
+It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access." created="Thu, 05 Mar 2026 13:24:26 GMT" category="hacked,app,coms,digital-war,cracking,war,infosec" />
       <outline type="link" text="Underground AI models promise to be hackers ‘cyber pentesting waifu’" title="Underground AI models promise to be hackers ‘cyber pentesting waifu’" url="https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/" htmlUrl="https://cyberscoop.com/malicious-llm-tools-cybercrime-wormgpt-kawaiigpt/" description="(the new script kiddies -ed) “It’s just that interoperability,” said Piazza.  You don’t even have to be good with the terminology. You don’t even have to use the word ‘lateral movement,’ when using these tools. You can just ask ‘How do I find other systems on the network?’ and it can drop you out a script. So that barrier to entry: lowering and lowering.”" created="Mon, 01 Dec 2025 14:06:31 GMT" category="open-source,models,cracking" />
     </outline>
     <outline text="creative-commons" title="creative-commons">
@@ -1807,6 +1858,13 @@ The analogy for an analogue-first strategy comes from the watchmaking industry. 
       <outline type="link" text="Why France just dumped Microsoft Teams and Zoom - and what’s replacing them" title="Why France just dumped Microsoft Teams and Zoom - and what’s replacing them" url="https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/" htmlUrl="https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/" description="France is dropping US videoconferencing for its own open-source tool
 " created="Sun, 01 Feb 2026 15:07:06 GMT" category="nationstate,opsec,opensource,zoom,msft,digital-sovereignty" />
     </outline>
+    <outline text="digital-war" title="digital-war">
+      <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
+
+The messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.
+
+It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access." created="Thu, 05 Mar 2026 13:24:26 GMT" category="hacked,app,coms,digital-war,cracking,war,infosec" />
+    </outline>
     <outline text="dignity" title="dignity">
       <outline type="link" text="AI surveillance should be banned while there is still time." title="AI surveillance should be banned while there is still time." url="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" htmlUrl="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" created="Sat, 06 Sep 2025 23:53:46 GMT" category="ai,surveillance,harms,ethics,dignity" />
     </outline>
@@ -1834,6 +1892,18 @@ Despite our concerns with the DMA, teams across Apple are spending thousands of 
       <outline type="link" text="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" title="The 23andMe Collapse Exposes the Cracks in Genomic Data Governance" url="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" htmlUrl="https://www.techpolicy.press/the-23andme-collapse-exposes-the-cracks-in-genomic-data-governance/" description="The 23andMe bankruptcy makes clear that genomic data cannot be treated like any other corporate asset. When a company holding millions of DNA profiles collapses, the consequences extend beyond privacy concerns to national security and economic competitiveness. The episode exposed how easily sensitive genetic information can slip through the gaps in a fragmented regulatory system and how untested US safeguards remain against foreign actors seeking access to Americans’ genomic data.
 
 As biotechnology advances, the United States cannot rely on outdated, piecemeal protections. The next phase of innovation will depend not only on scientific progress, but on building institutions capable of safeguarding the human genome itself. Policymakers must act quickly to close the governance cracks revealed by 23andMe’s collapse and strengthen the privacy and security of genomic data before the next crisis forces the issue." created="Fri, 26 Dec 2025 17:12:55 GMT" category="genomic-data,dna,governance,ethics" />
+    </outline>
+    <outline text="document" title="document">
+      <outline type="link" text="Apple Music Specification 5.3.25" title="Apple Music Specification 5.3.25" url="https://help.apple.com/itc/musicspec/en.lproj/static.html" htmlUrl="https://help.apple.com/itc/musicspec/en.lproj/static.html" description="What’s New in Apple Music Specification 5.3.25?
+Artificial Intelligence (AI) Transparencies
+
+Added the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.
+
+General
+
+Included minor updates and clarifications.
+
+" created="Thu, 05 Mar 2026 13:28:46 GMT" category="apple,music,specification,document,ai,ai-music,transparency" />
     </outline>
     <outline text="documentation" title="documentation">
       <outline type="link" text="Foundation Models | Apple Developer Documentation" title="Foundation Models | Apple Developer Documentation" url="https://developer.apple.com/documentation/foundationmodels" htmlUrl="https://developer.apple.com/documentation/foundationmodels" description="The Foundation Models framework provides access to Apple’s on-device large language model that powers Apple Intelligence to help you perform intelligent tasks specific to your use case. The text-based on-device model identifies patterns that allow for generating new text that’s appropriate for the request you make, and it can make decisions to call code you write to perform specialized tasks." created="Tue, 03 Mar 2026 11:38:32 GMT" category="foundation,models,apple,developer,documentation,ai,foundation-models" />
@@ -2379,6 +2449,13 @@ guidance below" created="Mon, 01 Dec 2025 14:13:08 GMT" category="pdf,ai,patents
     <outline text="guidelines" title="guidelines">
       <outline type="link" text="guidelines-governance.pdf" title="guidelines-governance.pdf" url="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" htmlUrl="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" description="India AI Governance Guidelines Enabling Safe and Trusted AI Innovation" created="Thu, 06 Nov 2025 17:45:54 GMT" category="ai,governance,india,guidelines" />
     </outline>
+    <outline text="hacked" title="hacked">
+      <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
+
+The messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.
+
+It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access." created="Thu, 05 Mar 2026 13:24:26 GMT" category="hacked,app,coms,digital-war,cracking,war,infosec" />
+    </outline>
     <outline text="hacking" title="hacking">
       <outline type="link" text="39C3: Power Cycles" title="39C3: Power Cycles" url="https://events.ccc.de/congress/2025/infos/startpage.html" htmlUrl="https://events.ccc.de/congress/2025/infos/startpage.html" description="The 39th Chaos Communication Congress (39C3) takes place in Hamburg on 27–30 Dec 2025, and is the 2025 edition of the annual four-day conference on technology, society and utopia organized by the Chaos Computer Club (CCC) and volunteers.
 
@@ -2653,6 +2730,11 @@ Communication should be available to everyone as a free and open, unencumbered, 
 " created="Wed, 11 Feb 2026 20:34:59 GMT" category="information,protocol,communications,decentralized" />
     </outline>
     <outline text="infosec" title="infosec">
+      <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
+
+The messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.
+
+It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access." created="Thu, 05 Mar 2026 13:24:26 GMT" category="hacked,app,coms,digital-war,cracking,war,infosec" />
       <outline type="link" text="How Claude Code escapes its own denylist and sandbox · Ona" title="How Claude Code escapes its own denylist and sandbox · Ona" url="https://ona.com/stories/how-claude-code-escapes-its-own-denylist-and-sandbox" htmlUrl="https://ona.com/stories/how-claude-code-escapes-its-own-denylist-and-sandbox" description="In 2020 I gave a talk called &quot;Bypass Falco&quot; where I showed an audience how to break the CNCF runtime security tool I helped create. Symlinks, renamed binaries, creative shell invocations. Those were known issues, but for containers they were acceptable tradeoffs: container workloads are deterministic and don&apos;t go looking for creative evasions. The container equivalent of this problem would be like a shipping container trying to pick its own lock. It doesn&apos;t do that.
 
 AI agents do. And now they&apos;re doing it in production." created="Thu, 05 Mar 2026 12:42:29 GMT" category="claude,code,escapes,denylist,sandbox,coding_agents,infosec" />
@@ -3317,6 +3399,16 @@ The Index measures where AI systems overlap with the skills used in each occupat
 As part of Google&apos;s ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default." created="Wed, 12 Nov 2025 16:17:44 GMT" category="google,agents,security,agentic-web,agentic-systems,multi-computer-agency" />
     </outline>
     <outline text="music" title="music">
+      <outline type="link" text="Apple Music Specification 5.3.25" title="Apple Music Specification 5.3.25" url="https://help.apple.com/itc/musicspec/en.lproj/static.html" htmlUrl="https://help.apple.com/itc/musicspec/en.lproj/static.html" description="What’s New in Apple Music Specification 5.3.25?
+Artificial Intelligence (AI) Transparencies
+
+Added the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.
+
+General
+
+Included minor updates and clarifications.
+
+" created="Thu, 05 Mar 2026 13:28:46 GMT" category="apple,music,specification,document,ai,ai-music,transparency" />
       <outline type="link" text="Lyria — Gemini AI music &amp; song generator" title="Lyria — Gemini AI music &amp; song generator" url="https://gemini.google/overview/music-generation/" htmlUrl="https://gemini.google/overview/music-generation/" description="Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack." created="Mon, 23 Feb 2026 14:26:29 GMT" category="lyria,gemini,music,song,generator,musicvideo,google" />
       <outline type="link" text="The music industry’s cautious embrace of AI" title="The music industry’s cautious embrace of AI" url="https://www.ft.com/content/a6b657ef-1034-4748-92fd-e24b37fb726e?sharetype=blocked" htmlUrl="https://www.ft.com/content/a6b657ef-1034-4748-92fd-e24b37fb726e?sharetype=blocked" description="Zysblat is sceptical that licensing alone will bring order. “That’s like letting bootleggers use your name and likeness on T-shirts around the world and then licensing them,” he says. “You don’t let people break the law first and then legitimise it.”
 " created="Sat, 31 Jan 2026 23:29:13 GMT" category="ai,music,strategy,licensing,copyright,recordings,record-label" />
@@ -3855,6 +3947,7 @@ This post is split up into a few parts. First, let&apos;s introduce ARIA&apos;s 
       <outline type="link" text="/e/OS - e Foundation - deGoogled unGoogled smartphone operating systems and online services - your data is your data" title="/e/OS - e Foundation - deGoogled unGoogled smartphone operating systems and online services - your data is your data" url="https://e.foundation/" htmlUrl="https://e.foundation/" description="We build desirable, open source, privacy-enabled smartphone operating systems." created="Tue, 03 Mar 2026 11:11:09 GMT" category="foundation,degoogled,ungoogled,smartphone,operating,phone,privacy" />
     </outline>
     <outline text="photography" title="photography">
+      <outline type="link" text="In an age of endless scroll, can photographs entice collectors again?" title="In an age of endless scroll, can photographs entice collectors again?" url="https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58" htmlUrl="https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58" description="We are in the middle of a generational shift,” says Darius Himes, international head of photographs at Christie’s, “from the collectors, curators and dealers who built the market to a new set of younger collectors who are learning about the nuance of historical printing techniques, or loving the dynamism of a peer like [30-year-old US photographer] Tyler Mitchell.”" created="Thu, 05 Mar 2026 12:52:50 GMT" category="photography,art,collecting" />
       <outline type="link" text="Paris Photo–Aperture PhotoBook Awards" title="Paris Photo–Aperture PhotoBook Awards" url="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" htmlUrl="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" description="Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.
 
 The winners of this new edition will be announced during the fair on Friday, November 14, at 3:00 pm on the Balcon de l’Horloge. Discover the shortlisted books now." created="Sun, 26 Oct 2025 19:50:10 GMT" category="awards,photography,paris-photo,aperture" />
@@ -4531,6 +4624,18 @@ would provide the United States with a framework to strengthen U.S. freedom of a
 space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,threat,assessment,strategic,report,nat-sec" />
       <outline type="link" text="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" title="Space waste: An update of the anthropogenic matter injection into Earth atmosphere" url="https://arxiv.org/abs/2510.21328v1" htmlUrl="https://arxiv.org/abs/2510.21328v1" description="Comparison of estimated elemental fluxes to stratospheric aerosol data shows excellent agreement. From 2020 onward, a strong rise in space waste mass influx to the atmosphere can be seen. Future scenarios discussed by Schulz &amp; Glassmeier (2021) may already be reached by the end of 2025. In 2024, 24 elements were dominating the meteoric injection compared to 18 in 2015. Several of them are transition metals, which are known for their catalytic activity. This indicates a substantial risk of long-term adverse effects on the atmosphere such as ozone depletion, radiative effects and changes in cloud formation, if no action is taken. Research is urgently needed into the atmospheric accumulation, chemistry, and general atmospheric effects of specific elements." created="Thu, 06 Nov 2025 18:01:40 GMT" category="space,environment,pollution,atmosphere" />
     </outline>
+    <outline text="specification" title="specification">
+      <outline type="link" text="Apple Music Specification 5.3.25" title="Apple Music Specification 5.3.25" url="https://help.apple.com/itc/musicspec/en.lproj/static.html" htmlUrl="https://help.apple.com/itc/musicspec/en.lproj/static.html" description="What’s New in Apple Music Specification 5.3.25?
+Artificial Intelligence (AI) Transparencies
+
+Added the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.
+
+General
+
+Included minor updates and clarifications.
+
+" created="Thu, 05 Mar 2026 13:28:46 GMT" category="apple,music,specification,document,ai,ai-music,transparency" />
+    </outline>
     <outline text="spotify" title="spotify">
       <outline type="link" text="Spotify, Live Nation and the role of the music industry baddie" title="Spotify, Live Nation and the role of the music industry baddie" url="https://www.ft.com/content/ab3fc412-02e9-4573-a70b-c0e3f8306971" htmlUrl="https://www.ft.com/content/ab3fc412-02e9-4573-a70b-c0e3f8306971" description="Massive Attack are among acts to have removed their work from the platform after a venture capital firm founded by its CEO Daniel Ek invested €600mn in a company developing military AI weaponry. This surely marks the point at which a Hollywood studio contemplating a biopic of Ek might consider a casting call to Mads Mikkelsen, Scandinavian specialist in movie villa
 " created="Fri, 26 Dec 2025 11:53:56 GMT" category="music,ethics,spotify" />
@@ -4857,6 +4962,18 @@ Nano, the smallest model, outperforms comparable models in accuracy while remain
       <outline type="link" text="transmediale 2026 | schedule" title="transmediale 2026 | schedule" url="https://transmediale.de/en/2026/schedule-2026" htmlUrl="https://transmediale.de/en/2026/schedule-2026" description="
 transmediale 2026 reimagines the festival as a living recursive carrier net – a hammock of relational technologies in practice that stretch across latitudes, rhythms, and root systems – converging in Berlin from 28 January to 1 February 2026 at silent green Kulturquartier and CANK." created="Sun, 18 Jan 2026 11:29:10 GMT" category="media,transmedia,conference" />
     </outline>
+    <outline text="transparency" title="transparency">
+      <outline type="link" text="Apple Music Specification 5.3.25" title="Apple Music Specification 5.3.25" url="https://help.apple.com/itc/musicspec/en.lproj/static.html" htmlUrl="https://help.apple.com/itc/musicspec/en.lproj/static.html" description="What’s New in Apple Music Specification 5.3.25?
+Artificial Intelligence (AI) Transparencies
+
+Added the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.
+
+General
+
+Included minor updates and clarifications.
+
+" created="Thu, 05 Mar 2026 13:28:46 GMT" category="apple,music,specification,document,ai,ai-music,transparency" />
+    </outline>
     <outline text="transportation" title="transportation">
       <outline type="link" text="Helsinki just went a full year without a single traffic death" title="Helsinki just went a full year without a single traffic death" url="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" htmlUrl="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" description="Helsinki hasn’t registered a single traffic-related fatality in the past year. " created="Thu, 05 Mar 2026 12:49:37 GMT" category="helsinki,automotive,living-better,finland,transportation,safety" />
       <outline type="link" text="spectrum.ieee.org" title="spectrum.ieee.org" url="https://spectrum.ieee.org/norway-ev-policy-electric-vehicles" htmlUrl="https://spectrum.ieee.org/norway-ev-policy-electric-vehicles" description="How Norway Accomplished a Near-Total EV Transition Almost 100 percent of new cars registered in November were electric" created="Sat, 31 Jan 2026 23:27:02 GMT" category="automotive,transportation,environment,norway" />
@@ -5087,6 +5204,13 @@ As part of the agreement, Disney will make a $1 billion equity investment in Ope
    Panama is our effort to destructively scan all the books in the world,&quot;
    an internal planning document unsealed in legal filings last week said.
    &quot;We don&apos;t want it to be known that we are working on this.&quot;" created="Tue, 27 Jan 2026 13:59:16 GMT" category="ip,books,anthropic,wapo,copyright" />
+    </outline>
+    <outline text="war" title="war">
+      <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
+
+The messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.
+
+It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access." created="Thu, 05 Mar 2026 13:24:26 GMT" category="hacked,app,coms,digital-war,cracking,war,infosec" />
     </outline>
     <outline text="water" title="water">
       <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
