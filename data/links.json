@@ -1,6 +1,71 @@
 {
   "links": [
     {
+      "id": 1772714977714,
+      "url": "https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/",
+      "source": "Helsinki just went a full year without a single traffic death",
+      "pullQuote": "Helsinki hasn’t registered a single traffic-related fatality in the past year. ",
+      "tags": [
+        "helsinki",
+        "automotive",
+        "living-better",
+        "finland",
+        "transportation",
+        "safety"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-05T12:49:37.714Z",
+      "visits": 0
+    },
+    {
+      "id": 1772714897826,
+      "url": "https://www.bbc.com/travel/article/20260302-the-yoghurt-delivery-women-combatting-loneliness-in-japan",
+      "source": "The yoghurt delivery women combatting loneliness in Japan",
+      "pullQuote": "\nAsuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers are elderly, and she feels a deep sense of pride in being able to offer them both companionship and a watchful eye.\n\n\"Yakult Ladies are not just people who sell products,\" says the 47-year-old. \"We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.\"",
+      "tags": [
+        "aging",
+        "health",
+        "jp",
+        "bio-hacking"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-05T12:48:17.826Z",
+      "visits": 0
+    },
+    {
+      "id": 1772714684754,
+      "url": "https://earth-garden.alen.ro/",
+      "source": "Earth Garden",
+      "pullQuote": "Adding this to TV and Radio Garden grouping - Earth Garden. ",
+      "tags": [
+        "earth",
+        "garden",
+        "audio",
+        "environment"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-05T12:44:44.754Z",
+      "visits": 0
+    },
+    {
+      "id": 1772714549819,
+      "url": "https://ona.com/stories/how-claude-code-escapes-its-own-denylist-and-sandbox",
+      "source": "How Claude Code escapes its own denylist and sandbox · Ona",
+      "pullQuote": "In 2020 I gave a talk called \"Bypass Falco\" where I showed an audience how to break the CNCF runtime security tool I helped create. Symlinks, renamed binaries, creative shell invocations. Those were known issues, but for containers they were acceptable tradeoffs: container workloads are deterministic and don't go looking for creative evasions. The container equivalent of this problem would be like a shipping container trying to pick its own lock. It doesn't do that.\n\nAI agents do. And now they're doing it in production.",
+      "tags": [
+        "claude",
+        "code",
+        "escapes",
+        "denylist",
+        "sandbox",
+        "coding_agents",
+        "infosec"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-05T12:42:29.819Z",
+      "visits": 0
+    },
+    {
       "id": 1772542233642,
       "url": "https://x.com/elvissun/status/2028483837496635809",
       "source": "alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X",
@@ -5093,5 +5158,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-03-03T12:50:53.796Z"
+  "lastUpdated": "2026-03-05T12:50:00.762Z"
 }
