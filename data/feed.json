@@ -15,6 +15,45 @@
   ],
   "items": [
     {
+      "id": "1772741577779",
+      "url": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
+      "title": "Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch",
+      "date_published": "2026-03-05T20:12:57.779Z",
+      "tags": [
+        "meta",
+        "glasses",
+        "privacy",
+        "surveillance",
+        "ethics",
+        "ai"
+      ],
+      "content_text": "Meta is facing a new lawsuit over its AI smart glasses and their lack of privacy, after an investigation by Swedish newspapers found that workers at a Kenya-based subcontractor are reviewing footage from customers’ glasses, which included sensitive content, like nudity, people having sex, and using the toilet.",
+      "summary": "Meta is facing a new lawsuit over its AI smart glasses and their lack of privacy, after an investigation by Swedish newspapers found that workers at a...",
+      "content_html": "<blockquote>Meta is facing a new lawsuit over its AI smart glasses and their lack of privacy, after an investigation by Swedish newspapers found that workers at a Kenya-based subcontractor are reviewing footage from customers’ glasses, which included sensitive content, like nudity, people having sex, and using the toilet.</blockquote>\n<p><strong>Tags:</strong> meta, glasses, privacy, surveillance, ethics, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772741530750",
+      "url": "https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities",
+      "title": "I underestimated AI capabilities (again)",
+      "date_published": "2026-03-05T20:12:10.750Z",
+      "tags": [
+        "ai",
+        "coding",
+        "benchmarks"
+      ],
+      "content_text": "Fully automating AI R&D still seems like a tall order. Even fully automating software engineering seems like it requires an aggressive read of the evidence, and AI R&D is not just software engineering — it seems like automating it would require a surprising amount of progress on “research judgment” and “creativity” and other ephemeral skills that AI systems still appear to be worse at than human researchers. I think it’s a lot more likely in the coming three or five years than this year.\n\nBut for the first time, I don’t see any solid trend we can extrapolate to say it won’t happen soon.11 AI R&D really could be automated this year.",
+      "summary": "Fully automating AI R&D still seems like a tall order. Even fully automating software engineering seems like it requires an aggressive read of the evi...",
+      "content_html": "<blockquote>Fully automating AI R&amp;D still seems like a tall order. Even fully automating software engineering seems like it requires an aggressive read of the evidence, and AI R&amp;D is not just software engineering — it seems like automating it would require a surprising amount of progress on “research judgment” and “creativity” and other ephemeral skills that AI systems still appear to be worse at than human researchers. I think it’s a lot more likely in the coming three or five years than this year.\n\nBut for the first time, I don’t see any solid trend we can extrapolate to say it won’t happen soon.11 AI R&amp;D really could be automated this year.</blockquote>\n<p><strong>Tags:</strong> ai, coding, benchmarks</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772721379233",
       "url": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
       "title": "Coruna: The Mysterious Journey of a Powerful iOS Exploit Kit | Google Cloud Blog",
