@@ -15,6 +15,68 @@
   ],
   "items": [
     {
+      "id": "1772717326597",
+      "url": "https://help.apple.com/itc/musicspec/en.lproj/static.html",
+      "title": "Apple Music Specification 5.3.25",
+      "date_published": "2026-03-05T13:28:46.597Z",
+      "tags": [
+        "apple",
+        "music",
+        "specification",
+        "document",
+        "ai",
+        "ai-music",
+        "transparency"
+      ],
+      "content_text": "What’s New in Apple Music Specification 5.3.25?\nArtificial Intelligence (AI) Transparencies\n\nAdded the <ai_transparencies> tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.\n\nGeneral\n\nIncluded minor updates and clarifications.\n\n",
+      "summary": "What’s New in Apple Music Specification 5.3.25?\nArtificial Intelligence (AI) Transparencies\n\nAdded the <ai_transparencies> tag for disclosing when art...",
+      "content_html": "<blockquote>What’s New in Apple Music Specification 5.3.25?\nArtificial Intelligence (AI) Transparencies\n\nAdded the &lt;ai_transparencies&gt; tag for disclosing when artificial intelligence is used to generate a material portion of the content. See Basic Music Album Metadata Annotated.\n\nGeneral\n\nIncluded minor updates and clarifications.\n\n</blockquote>\n<p><strong>Tags:</strong> apple, music, specification, document, ai, ai-music, transparency</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772717066421",
+      "url": "https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776",
+      "title": "Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes",
+      "date_published": "2026-03-05T13:24:26.421Z",
+      "tags": [
+        "hacked",
+        "app",
+        "coms",
+        "digital-war",
+        "cracking",
+        "war",
+        "infosec"
+      ],
+      "content_text": "Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.\n\nThe messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.\n\nIt happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access.",
+      "summary": "Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising cauti...",
+      "content_html": "<blockquote>Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.\n\nThe messages arrived in quick succession over a period of 30 minutes, starting with the phrase ‘Help has arrived’ at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.\n\nIt happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access.</blockquote>\n<p><strong>Tags:</strong> hacked, app, coms, digital-war, cracking, war, infosec</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772715170999",
+      "url": "https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58",
+      "title": "In an age of endless scroll, can photographs entice collectors again?",
+      "date_published": "2026-03-05T12:52:50.999Z",
+      "tags": [
+        "photography",
+        "art",
+        "collecting"
+      ],
+      "content_text": "We are in the middle of a generational shift,” says Darius Himes, international head of photographs at Christie’s, “from the collectors, curators and dealers who built the market to a new set of younger collectors who are learning about the nuance of historical printing techniques, or loving the dynamism of a peer like [30-year-old US photographer] Tyler Mitchell.”",
+      "summary": "We are in the middle of a generational shift,” says Darius Himes, international head of photographs at Christie’s, “from the collectors, curators and ...",
+      "content_html": "<blockquote>We are in the middle of a generational shift,” says Darius Himes, international head of photographs at Christie’s, “from the collectors, curators and dealers who built the market to a new set of younger collectors who are learning about the nuance of historical printing techniques, or loving the dynamism of a peer like [30-year-old US photographer] Tyler Mitchell.”</blockquote>\n<p><strong>Tags:</strong> photography, art, collecting</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772714977714",
       "url": "https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/",
       "title": "Helsinki just went a full year without a single traffic death",
