@@ -1,6 +1,39 @@
 {
   "links": [
     {
+      "id": 1772721379233,
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
+      "source": "Coruna: The Mysterious Journey of a Powerful iOS Exploit Kit | Google Cloud Blog",
+      "pullQuote": "Google Threat Intelligence Group (GTIG) has identified a new and powerful exploit kit targeting Apple iPhone models running iOS version 13.0 (released in September 2019) up to version 17.2.1 (released in December 2023). The exploit kit, named “Coruna” by its developers, contained five full iOS exploit chains and a total of 23 exploits. The core technical value of this exploit kit lies in its comprehensive collection of iOS exploits, with the most advanced ones using non-public exploitation techniques and mitigation bypasses. \n\n",
+      "tags": [
+        "coruna",
+        "ios",
+        "zero-day",
+        "infosec"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-05T14:36:19.233Z",
+      "visits": 0
+    },
+    {
+      "id": 1772717768209,
+      "url": "https://www.kcl.ac.uk/news/almost-a-third-of-gen-z-men-agree-a-wife-should-obey-her-husband",
+      "source": "Almost a third of Gen Z men agree a wife should obey her husband | King’s College London",
+      "pullQuote": "\"This year’s survey shows us that we are witnessing perhaps a great re-negotiation of how both men and women inhabit gender roles in today’s society. Particularly among Gen Z, our data shows an interesting duality: they are both the group most likely to agree that women who have a successful career are more attractive to men but are simultaneously most likely to agree that a wife should always obey her husband and that a woman should never appear too self-sufficient or independent.  <----",
+      "tags": [
+        "society",
+        "societal-norms",
+        "anthropology",
+        "gender",
+        "mentalhealth",
+        "woman",
+        "gen-z"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-05T13:36:08.209Z",
+      "visits": 0
+    },
+    {
       "id": 1772717326597,
       "url": "https://help.apple.com/itc/musicspec/en.lproj/static.html",
       "source": "Apple Music Specification 5.3.25",
@@ -5208,5 +5241,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-03-05T13:28:46.627Z"
+  "lastUpdated": "2026-03-05T14:36:19.287Z"
 }
