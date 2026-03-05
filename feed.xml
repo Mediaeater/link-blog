@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 05 Mar 2026 13:28:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 14:36:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Coruna: The Mysterious Journey of a Powerful iOS Exploit Kit | Google Cloud Blog]]></title>
+            <link>https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit</link>
+            <guid>1772721379233</guid>
+            <pubDate>Thu, 05 Mar 2026 14:36:19 GMT</pubDate>
+            <description><![CDATA[Tags: coruna, ios, zero-day, infosec]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Almost a third of Gen Z men agree a wife should obey her husband | King’s College London]]></title>
+            <link>https://www.kcl.ac.uk/news/almost-a-third-of-gen-z-men-agree-a-wife-should-obey-her-husband</link>
+            <guid>1772717768209</guid>
+            <pubDate>Thu, 05 Mar 2026 13:36:08 GMT</pubDate>
+            <description><![CDATA[Tags: society, societal-norms, anthropology, gender, mentalhealth, woman, gen-z]]></description>
+        </item>
         <item>
             <title><![CDATA[Apple Music Specification 5.3.25]]></title>
             <link>https://help.apple.com/itc/musicspec/en.lproj/static.html</link>
