@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 05 Mar 2026 21:25:38 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2026 22:37:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Worst Acquisition in History, Again]]></title>
+            <link>https://www.profgmedia.com/p/the-worst-acquisition-in-history</link>
+            <guid>1772836666365</guid>
+            <pubDate>Fri, 06 Mar 2026 22:37:46 GMT</pubDate>
+            <description><![CDATA[Tags: acquisition, warnerbros, m&a]]></description>
+        </item>
+        <item>
+            <title><![CDATA[this css proves me human]]></title>
+            <link>https://will-keleher.com/posts/this-css-makes-me-human/</link>
+            <guid>1772836567275</guid>
+            <pubDate>Fri, 06 Mar 2026 22:36:07 GMT</pubDate>
+            <description><![CDATA[Tags: ai, human, error, imperfection]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Where things stand with the Department of War]]></title>
+            <link>https://www.anthropic.com/news/where-stand-department-war</link>
+            <guid>1772802984855</guid>
+            <pubDate>Fri, 06 Mar 2026 13:16:24 GMT</pubDate>
+            <description><![CDATA[Tags: anthropic, us-gov, business]]></description>
+        </item>
         <item>
             <title><![CDATA[livenow.news]]></title>
             <link>https://livenow.news/</link>
