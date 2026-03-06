@@ -1,6 +1,24 @@
 {
   "links": [
     {
+      "id": 1772838232539,
+      "url": "https://code.claude.com/docs/en/desktop",
+      "source": "Use Claude Code Desktop - Claude Code Docs",
+      "pullQuote": "Say hello to your new staff member - Create a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.",
+      "tags": [
+        "claude",
+        "code",
+        "desktop",
+        "docs",
+        "parallel",
+        "agents",
+        "workforce"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-06T23:03:52.539Z",
+      "visits": 0
+    },
+    {
       "id": 1772836666365,
       "url": "https://www.profgmedia.com/p/the-worst-acquisition-in-history",
       "source": "The Worst Acquisition in History, Again",
@@ -23,7 +41,8 @@
         "ai",
         "human",
         "error",
-        "imperfection"
+        "imperfection",
+        "css"
       ],
       "isPinned": false,
       "timestamp": "2026-03-06T22:36:07.275Z",
@@ -5360,5 +5379,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-03-06T22:37:46.385Z"
+  "lastUpdated": "2026-03-06T23:23:09.608Z"
 }

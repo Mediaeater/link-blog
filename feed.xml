@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 06 Mar 2026 22:37:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2026 23:23:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Use Claude Code Desktop - Claude Code Docs]]></title>
+            <link>https://code.claude.com/docs/en/desktop</link>
+            <guid>1772838232539</guid>
+            <pubDate>Fri, 06 Mar 2026 23:03:52 GMT</pubDate>
+            <description><![CDATA[Tags: claude, code, desktop, docs, parallel, agents, workforce]]></description>
+        </item>
         <item>
             <title><![CDATA[The Worst Acquisition in History, Again]]></title>
             <link>https://www.profgmedia.com/p/the-worst-acquisition-in-history</link>
@@ -20,7 +27,7 @@
             <link>https://will-keleher.com/posts/this-css-makes-me-human/</link>
             <guid>1772836567275</guid>
             <pubDate>Fri, 06 Mar 2026 22:36:07 GMT</pubDate>
-            <description><![CDATA[Tags: ai, human, error, imperfection]]></description>
+            <description><![CDATA[Tags: ai, human, error, imperfection, css]]></description>
         </item>
         <item>
             <title><![CDATA[Where things stand with the Department of War]]></title>

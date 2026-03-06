@@ -15,6 +15,28 @@
   ],
   "items": [
     {
+      "id": "1772838232539",
+      "url": "https://code.claude.com/docs/en/desktop",
+      "title": "Use Claude Code Desktop - Claude Code Docs",
+      "date_published": "2026-03-06T23:03:52.539Z",
+      "tags": [
+        "claude",
+        "code",
+        "desktop",
+        "docs",
+        "parallel",
+        "agents",
+        "workforce"
+      ],
+      "content_text": "Say hello to your new staff member - Create a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.",
+      "summary": "Say hello to your new staff member - Create a schedule for tasks that you want to run regularly. They'll run as long as your computer is awake.",
+      "content_html": "<blockquote>Say hello to your new staff member - Create a schedule for tasks that you want to run regularly. They&#039;ll run as long as your computer is awake.</blockquote>\n<p><strong>Tags:</strong> claude, code, desktop, docs, parallel, agents, workforce</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772836666365",
       "url": "https://www.profgmedia.com/p/the-worst-acquisition-in-history",
       "title": "The Worst Acquisition in History, Again",
@@ -41,11 +63,12 @@
         "ai",
         "human",
         "error",
-        "imperfection"
+        "imperfection",
+        "css"
       ],
       "content_text": "imperfection css ",
       "summary": "imperfection css ",
-      "content_html": "<blockquote>imperfection css </blockquote>\n<p><strong>Tags:</strong> ai, human, error, imperfection</p>",
+      "content_html": "<blockquote>imperfection css </blockquote>\n<p><strong>Tags:</strong> ai, human, error, imperfection, css</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
