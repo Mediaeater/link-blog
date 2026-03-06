@@ -6,6 +6,12 @@ Quick reference for all npm commands in the link-blog repository.
 
 ## 🚀 Development
 
+### Start Everything
+```bash
+npm start               # Settle (pull + sync + rebuild) then dev servers
+npm run settle          # Just settle: git pull, sync JSON, rebuild artifacts
+```
+
 ### Start Development Server
 ```bash
 npm run dev:save        # Full dev environment (Vite + API server)
@@ -13,7 +19,7 @@ npm run dev             # Frontend only (Vite dev server)
 npm run api             # API server only (port 3001)
 ```
 
-**Use `dev:save` for normal development** - it runs both frontend and backend so link saves work.
+**Use `npm start` when picking up work.** Use `dev:save` if you're already settled.
 
 ---
 
@@ -31,7 +37,7 @@ npm run serve           # Serve built files with serve package
 npm run deploy          # Build + deploy to gh-pages branch
 ```
 
-**Note:** `npm run build` automatically runs `sitemap` and `feeds` via the `prebuild` hook.
+**Note:** `npm run build` automatically runs `sitemap`, `feeds`, `prerender`, and `itemlist` via the `prebuild` hook.
 
 ---
 
@@ -55,7 +61,7 @@ npm run sync                # Manual localStorage sync utility
 
 ### Generate All Feeds
 ```bash
-npm run feeds               # Generate RSS, JSON Feed, and OPML
+npm run feeds               # Generate RSS, JSON Feed, OPML, and Digest feed
 ```
 
 ### Individual Feed Generators
@@ -63,15 +69,18 @@ npm run feeds               # Generate RSS, JSON Feed, and OPML
 npm run rss                 # Generate RSS 2.0 feed (feed.xml)
 npm run json-feed           # Generate JSON Feed (data/feed.json)
 npm run opml                # Generate OPML blogroll (data/blogroll.opml)
+npm run digest-feed         # Generate Digest RSS feed (feed-digests.xml)
 ```
 
 ---
 
 ## 🗺️ SEO & Sitemap
 
-### Generate Sitemap
+### Generate Sitemap & Prerender
 ```bash
 npm run sitemap             # Generate sitemap.xml from links
+npm run prerender           # Inject <noscript> HTML into index.html for crawlers
+npm run itemlist            # Inject Schema.org ItemList JSON-LD into index.html
 ```
 
 **When to run:**
@@ -118,12 +127,17 @@ npm run test                # Run Vitest tests
 ```bash
 npm install                 # Install dependencies
 npm run setup               # Run setup script
-npm run dev:save            # Start developing
+npm start                   # Settle + start developing
+```
+
+### Picking Up Work
+```bash
+npm start                   # Git pull, sync JSON, rebuild, start servers
 ```
 
 ### Daily Development
 ```bash
-npm run dev:save            # Start dev environment
+npm run dev:save            # Start dev environment (already settled)
 # Make changes, save links via UI
 # Changes auto-save to data/links.json
 ```
@@ -158,6 +172,8 @@ git push
 
 | Command | What It Does | When to Use |
 |---------|-------------|-------------|
+| `start` | Settle + start dev servers | Picking up work |
+| `settle` | Git pull + sync JSON + rebuild | Reconcile after pull |
 | `dev:save` | Start full dev environment | Daily development |
 | `dev` | Frontend only | When API not needed |
 | `api` | Backend only | Testing API separately |
@@ -172,6 +188,9 @@ git push
 | `rss` | Generate RSS feed | Individual feed update |
 | `json-feed` | Generate JSON Feed | Individual feed update |
 | `opml` | Generate OPML blogroll | Individual feed update |
+| `digest-feed` | Generate Digest RSS feed | Individual feed update |
+| `prerender` | Inject crawler HTML into index.html | Build-time SEO |
+| `itemlist` | Inject ItemList JSON-LD | Build-time SEO |
 | `lint` | Check code quality | Before committing |
 | `format` | Auto-format code | Clean up code style |
 | `test` | Run tests | Verify functionality |
@@ -186,6 +205,13 @@ git push
 Some commands automatically run others:
 
 ```
+npm start
+  ↳ npm run settle
+    ↳ git pull
+    ↳ sync data/links.json <-> public/data/links.json
+    ↳ npm run prebuild (see below)
+  ↳ npm run dev:save
+
 npm run build
   ↳ prebuild hook
     ↳ npm run sitemap
@@ -193,6 +219,9 @@ npm run build
       ↳ npm run rss
       ↳ npm run json-feed
       ↳ npm run opml
+      ↳ npm run digest-feed
+    ↳ npm run prerender
+    ↳ npm run itemlist
 
 npm run deploy
   ↳ predeploy hook
@@ -251,5 +280,5 @@ npm run sitemap && npm run feeds
 
 ---
 
-**Last Updated:** 2025-11-14
-**Version:** 1.1.0
+**Last Updated:** 2026-03-05
+**Version:** 1.2.0

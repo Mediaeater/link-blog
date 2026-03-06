@@ -2,6 +2,27 @@
 
 This directory contains utility scripts for managing the link blog data.
 
+## Settlement
+
+### `settle.js`
+**Purpose**: Single command to reconcile everything when picking up work.
+
+**Usage**:
+```bash
+npm run settle
+npm start          # settle + dev servers
+```
+
+**What it does** (in order):
+1. `git pull` — fetch latest from remote
+2. Sync `data/links.json` and `public/data/links.json` — copies the one with more links (or newer timestamp) to the other location
+3. `npm run prebuild` — regenerates sitemap, feeds, prerender HTML, and itemlist JSON-LD
+4. Prints a status report: link count, digest count, git branch, sync result, generated file sizes
+
+**When to use**: Every time you sit down to work, especially on a new machine or after time away. Idempotent — safe to run multiple times.
+
+---
+
 ## Data Management Scripts
 
 ### `import-newsfeeds.cjs`
@@ -112,6 +133,29 @@ node scripts/shutdown.cjs
 - To clean up orphaned processes
 
 **Recommended**: Add to package.json scripts as `"shutdown": "node scripts/shutdown.cjs"`
+
+## Feed & SEO Generation Scripts
+
+### `generate-rss.js`
+Generates RSS 2.0 feed from links data.
+
+### `generate-json-feed.js`
+Generates JSON Feed 1.1 from links data.
+
+### `generate-opml.js`
+Generates OPML blogroll organized by tags.
+
+### `generate-digest-feed.js`
+Generates RSS 2.0 feed for digest roundups from `data/digests.json` and digest HTML files.
+
+### `generate-prerender.js`
+Injects semantic HTML (100 most recent links as `<article>` elements) wrapped in `<noscript>` into `index.html` at build time. Crawlers index this content; React hydration is unaffected. Uses marker comments for idempotent re-runs.
+
+### `generate-itemlist.js`
+Injects Schema.org `ItemList` JSON-LD (50 most recent links as `ListItem` > `Article` entries) into `index.html` before `</head>`. Uses marker comments for idempotent re-runs.
+
+### `generate-sitemap.js`
+Generates XML sitemap with priority calculation based on visit counts and recency.
 
 ## Development Scripts (from package.json)
 

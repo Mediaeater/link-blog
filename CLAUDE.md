@@ -89,6 +89,9 @@
   - `import-bookmarks.js` - Bookmark parsing utilities
   - `update-links.js` - Data update utilities
   - `generate-rss.js` - RSS feed generation
+  - `generate-prerender.js` - Build-time `<noscript>` HTML injection for crawlers
+  - `generate-itemlist.js` - Schema.org ItemList JSON-LD injection
+  - `generate-digest-feed.js` - Digest RSS feed generation
   - `fetch-from-newsfeeds.cjs` - Pull links from newsfeeds.net
   - `merge-newsfeeds.cjs` - Merge remote and local links
 
@@ -130,6 +133,7 @@ link-blog/
 │   ├── main.jsx                  ✅ Entry point
 │   └── index.css                 ✅ Global styles
 ├── scripts/
+│   ├── settle.js                 ✅ Settlement (pull + sync + rebuild)
 │   ├── dev-with-save.cjs         ✅ Dev server wrapper
 │   ├── import-bookmarks.js       ✅ Import logic
 │   ├── sync-from-browser.js      ✅ Manual sync
@@ -142,6 +146,8 @@ link-blog/
 ├── public/
 │   ├── data/
 │   │   └── links.json            ✅ Public data store
+│   ├── _headers                  ✅ CDN cache headers (Netlify/Cloudflare)
+│   ├── feed-digests.xml          ✅ Digest RSS feed (generated)
 │   └── save-tool.html            ✅ Save tool interface
 ├── data/
 │   └── links.json                ✅ Primary data store
@@ -196,6 +202,12 @@ link-blog/
 ### 🎯 Quick Commands
 
 ```bash
+# Pick up work (git pull + sync + rebuild + dev servers)
+npm start
+
+# Just settle (git pull + sync + rebuild, no servers)
+npm run settle
+
 # Full development environment
 npm run dev:save
 
@@ -221,7 +233,10 @@ npm run pull:newsfeeds
 npm run fetch:newsfeeds   # Fetch from remote
 npm run merge:newsfeeds   # Merge with local
 npm run sitemap           # Regenerate sitemap
-npm run feeds             # Regenerate feeds
+npm run feeds             # Regenerate feeds (RSS, JSON, OPML, Digest)
+npm run prerender         # Inject <noscript> HTML for crawlers
+npm run itemlist          # Inject Schema.org ItemList JSON-LD
+npm run digest-feed       # Generate Digest RSS feed
 ```
 
 ### ⚠️ Critical Notes for Claude Code

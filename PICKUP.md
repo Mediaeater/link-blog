@@ -15,14 +15,13 @@ Everything is committed, pushed, and deployed. Clean working tree on `main`.
 
 ```bash
 cd ~/Projects/link-blog
-git pull
 npm install
-npm run dev:save
+npm start
 ```
 
-This starts both:
-- Vite frontend on http://localhost:5174
-- Express API on port 3001
+`npm start` runs `settle` (git pull + JSON sync + rebuild artifacts) then starts the dev servers (Vite on :5174, Express API on :3001).
+
+To settle without starting servers: `npm run settle`
 
 ## Common Workflows
 
@@ -42,7 +41,7 @@ npm run deploy
 4. After deploy, commit regenerated feeds:
 
 ```bash
-git add public/data/blogroll.opml public/data/feed.json public/feed.xml public/sitemap.xml
+git add public/data/blogroll.opml public/data/feed.json public/feed.xml public/feed-digests.xml public/sitemap.xml
 git commit -m "Regenerate feeds after deploy"
 git push
 ```
@@ -59,7 +58,7 @@ npm run pull:newsfeeds
 npm run deploy
 ```
 
-This runs `prebuild` (sitemap + feeds) then `vite build` then `gh-pages -d dist`.
+This runs `prebuild` (sitemap + feeds + prerender + itemlist) then `vite build` then `gh-pages -d dist`.
 
 ## Key Files
 
