@@ -1,6 +1,8 @@
 const express = require('express');
 const fs = require('fs').promises;
+const fsSync = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 const { generateRSS } = require('./utils/rss-generator.cjs');
@@ -268,12 +270,20 @@ app.post('/api/digest/generate', async (req, res) => {
   }
 });
 
+// Cache helper for feed responses
+function sendWithCache(res, body, contentType, maxAge) {
+  const etag = crypto.createHash('md5').update(body).digest('hex');
+  res.set('Content-Type', contentType);
+  res.set('Cache-Control', `public, max-age=${maxAge}`);
+  res.set('ETag', `"${etag}"`);
+  res.send(body);
+}
+
 // RSS Feed endpoints
 app.get('/feed.xml', async (req, res) => {
   try {
     const feeds = await generateRSS();
-    res.set('Content-Type', 'application/rss+xml; charset=utf-8');
-    res.send(feeds.rss);
+    sendWithCache(res, feeds.rss, 'application/rss+xml; charset=utf-8', 3600);
   } catch (error) {
     console.error('Error generating RSS feed:', error);
     res.status(500).send('Error generating RSS feed');
@@ -283,8 +293,7 @@ app.get('/feed.xml', async (req, res) => {
 app.get('/atom.xml', async (req, res) => {
   try {
     const feeds = await generateRSS();
-    res.set('Content-Type', 'application/atom+xml; charset=utf-8');
-    res.send(feeds.atom);
+    sendWithCache(res, feeds.atom, 'application/atom+xml; charset=utf-8', 3600);
   } catch (error) {
     console.error('Error generating Atom feed:', error);
     res.status(500).send('Error generating Atom feed');
@@ -294,11 +303,22 @@ app.get('/atom.xml', async (req, res) => {
 app.get('/feed.json', async (req, res) => {
   try {
     const feeds = await generateRSS();
-    res.set('Content-Type', 'application/feed+json; charset=utf-8');
-    res.send(feeds.json);
+    sendWithCache(res, feeds.json, 'application/feed+json; charset=utf-8', 3600);
   } catch (error) {
     console.error('Error generating JSON feed:', error);
     res.status(500).send('Error generating JSON feed');
+  }
+});
+
+// Sitemap endpoint with 24h cache
+app.get('/sitemap.xml', async (req, res) => {
+  try {
+    const sitemapPath = path.join(__dirname, 'public', 'sitemap.xml');
+    const content = await fs.readFile(sitemapPath, 'utf8');
+    sendWithCache(res, content, 'application/xml; charset=utf-8', 86400);
+  } catch (error) {
+    console.error('Error serving sitemap:', error);
+    res.status(500).send('Error serving sitemap');
   }
 });
 
