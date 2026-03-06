@@ -78,7 +78,22 @@ Generated automatically on build using the `feed` npm package.
 1. File → Import Subscriptions
 2. Select `blogroll.opml`
 
-### 4. Sitemap (sitemap.xml)
+### 4. Digest Feed (feed-digests.xml)
+
+**Standard**: RSS 2.0
+**URL**: `/feed-digests.xml`
+**Use Case**: Subscribe to periodic digest roundups
+
+**Features**:
+- Full HTML content from each digest
+- Publication dates
+- Link counts per digest
+
+**Access**:
+- Direct: `https://newsfeeds.net/feed-digests.xml`
+- Auto-discovery via `<link>` tag in HTML
+
+### 5. Sitemap (sitemap.xml)
 
 **Standard**: XML Sitemap Protocol 0.9
 **URL**: `/sitemap.xml`
@@ -100,11 +115,14 @@ npm run build    # Generates all feeds + builds
 
 Individual generation:
 ```bash
-npm run feeds        # Generate all feeds
+npm run feeds        # Generate all feeds (RSS, JSON, OPML, Digest)
 npm run rss          # RSS only
 npm run json-feed    # JSON Feed only
 npm run opml         # OPML only
+npm run digest-feed  # Digest RSS only
 npm run sitemap      # Sitemap only
+npm run prerender    # Inject <noscript> HTML for crawlers
+npm run itemlist     # Inject Schema.org ItemList JSON-LD
 ```
 
 ### Build Hook
@@ -113,12 +131,12 @@ Configured in `package.json`:
 ```json
 {
   "scripts": {
-    "prebuild": "npm run sitemap && npm run feeds"
+    "prebuild": "npm run sitemap && npm run feeds && npm run prerender && npm run itemlist"
   }
 }
 ```
 
-Feeds regenerate automatically on every deployment.
+Feeds, prerender content, and structured data regenerate automatically on every deployment.
 
 ## Validation
 
@@ -142,6 +160,8 @@ Feeds are discoverable via HTML `<link>` tags in `index.html`:
       title="RSS Feed" href="/feed.xml">
 <link rel="alternate" type="application/feed+json"
       title="JSON Feed" href="/data/feed.json">
+<link rel="alternate" type="application/rss+xml"
+      title="Digests Feed" href="/feed-digests.xml">
 <link rel="sitemap" type="application/xml"
       href="/sitemap.xml">
 ```

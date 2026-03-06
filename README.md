@@ -23,7 +23,7 @@ Open **http://localhost:5174** and add `?admin=YourPassword` for admin access.
 
 - 📚 **Link Management** - Full CRUD with intelligent tag suggestions
 - 🔍 **Search & Filter** - Real-time search, tag filtering with URL parameters
-- 📡 **Syndication** - RSS, JSON Feed, OPML, XML Sitemap
+- 📡 **Syndication** - RSS, JSON Feed, OPML, Digest Feed, XML Sitemap
 - 🌐 **ActivityPub** - Fediverse integration (Mastodon-compatible)
 - 🎨 **Clean UI** - Trust blue branding, human-curated tagline
 - ⚡ **Fast** - Vite-powered dev experience, optimized production builds
@@ -489,6 +489,9 @@ link-blog/
 │   ├── import-bookmarks.js    # Bookmark parsing logic
 │   ├── generate-rss.js        # RSS feed generation
 │   ├── generate-opml.js       # OPML blogroll generation
+│   ├── generate-digest-feed.js # Digest RSS feed generation
+│   ├── generate-prerender.js  # Build-time <noscript> HTML for crawlers
+│   ├── generate-itemlist.js   # Schema.org ItemList JSON-LD injection
 │   ├── sync-from-browser.js   # Manual sync utility
 │   ├── dev-with-save.cjs      # Development server wrapper
 │   ├── update-links.js        # Data update utility
@@ -563,8 +566,11 @@ const feed = new Feed({
 
 // Usage:
 npm run opml                    // Generate OPML only
-npm run feeds                   // Generate RSS, JSON Feed, and OPML
-npm run build                   // Auto-generates all feeds
+npm run digest-feed             // Generate Digest RSS feed
+npm run feeds                   // Generate RSS, JSON Feed, OPML, and Digest feed
+npm run prerender               // Inject <noscript> HTML for crawlers
+npm run itemlist                // Inject Schema.org ItemList JSON-LD
+npm run build                   // Auto-generates all feeds + prerender + itemlist
 ```
 
 **Features:**

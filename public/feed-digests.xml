@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>newsfeeds.net - Digests</title>
+        <link>https://newsfeeds.net</link>
+        <description>Periodic digest roundups of curated links on media, technology, AI, copyright, and digital culture.</description>
+        <lastBuildDate>Thu, 05 Mar 2026 12:52:51 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <atom:link href="https://newsfeeds.net/feed-digests.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Digest #8 - 2026-03-05]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/8</guid>
+            <pubDate>Thu, 05 Mar 2026 12:52:51 GMT</pubDate>
+            <description><![CDATA[15 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net Digest #8</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Digest #8 &middot; Feb 27 - Mar 5, 2026 &middot; 15 links</p>
+  </header>
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://e.issuu.com/embed.html?d=gaming-2026_v2.15_v2&amp;pageLayout=singlePage&amp;u=ballmatthew" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">PRESENTATION: The State of Video Gaming in 2026 </a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">e.issuu.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Matthew Ball annual gaming report - PRESENTATION: The State of Video Gaming in 2026 (Early Access Edition)
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How will OpenAI compete? — Benedict Evans</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ben-evans.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">This engagement is a clearly a &#39;glass half full or half empty?&#39; question, but this is supposed to be a transformation in how you use computers. If people are only using this a couple of times a week at most, and can&#39;t think of anything to do with it on the average day, it hasn&#39;t changed their life. OpenAI itself admits the problem, talking about a &#39;capability gap&#39; between what the models can do and what people do with them, which seems to me like a way to avoid saying that you don&#39;t have clear product-market fit. </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Samsung TVs to stop collecting Texans’ data without express consent</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bleepingcomputer.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to consumers.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://video-reason.com/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">A Very Big Video Reasoning Suite</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">video-reason.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">We bet on a future that video reasoning is the next fundamental intelligence paradigm, after language reasoning, where spatiotemporal embodied world experiences could be more naturally captured.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://copyrightlately.com/mondrian-public-domain-controversy/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Mondrian Entered the Public Domain. The Estate Disagrees.</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">copyrightlately.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The Trust appears to be blending these categories to suggest Mondrian’s works might enjoy whichever term is most favorable. But even on its own terms, the argument fails. Mondrian died in 1944. Any of his works subject to a life-plus-70 regime would have entered the public domain on January 1, 2015—more than a decade ago.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://e.foundation/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">/e/OS - e Foundation - deGoogled unGoogled smartphone operating systems and online services - your data is your data</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">e.foundation</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">We build desirable, open source, privacy-enabled smartphone operating systems.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://github.com/yjeanrenaud/yj_nearbyglasses" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">GitHub _nearbyglasses: attempting to detect smart glasses nearby and warn you</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">github.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">attempting to detect smart glasses nearby and warn you </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://developer.apple.com/documentation/foundationmodels" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Foundation Models | Apple Developer Documentation</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">developer.apple.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The Foundation Models framework provides access to Apple’s on-device large language model that powers Apple Intelligence to help you perform intelligent tasks specific to your use case. The text-based on-device model identifies patterns that allow for generating new text that’s appropriate for the request you make, and it can make decisions to call code you write to perform specialized tasks.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://blog.cryptographyengineering.com/2026/03/02/anonymous-credentials-an-illustrated-primer/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Anonymous credentials: an illustrated primer</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">blog.cryptographyengineering.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">This post has been on my back burner for well over a year. This has bothered me, because every month that goes by I become more convinced that anonymous authentication the most important topic we could be talking about as cryptographers. This is because I’m very worried that we’re headed into a bit of a privacy dystopia, driven largely by bad legislation and the proliferation of AI.
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://x.com/elvissun/status/2028483837496635809" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">x.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">lright here’s every practical security tip i have on agents:
+
+- move critical data to a USB stick, unplug when sleeping
+- security by least privilege, not by prompts
+- billing cap on everything AI touches
+- limit reads of external data, wrap in &lt;UNTRUSTED_EXTERNAL_CONTEXT&gt; always
+- don’t post about what access your agent has publicly - those are prompt injection invitations (unless 
+@levelsio
+ already posted about it, then it’s a race)
+- don’t connect to moltbook (lol?)
+- roll every skill yourself
+- sandbox browser access
+- readonly prod access
+- allow prod writes only for specific use cases (i have /admin/zoe/* for zoe to handle support cases like credit topups)
+- one-time access for anything sensitive (eg gmail) with human in the loop, self-revoke access on script finish
+- create dedicated scripts, avoid improvised bash
+- use better models
+- audit trails everywhere -&gt; security self-improvements
+
+mistakes will happen. limit worst case, embrace the rest</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://ona.com/stories/how-claude-code-escapes-its-own-denylist-and-sandbox" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How Claude Code escapes its own denylist and sandbox · Ona</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ona.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In 2020 I gave a talk called &quot;Bypass Falco&quot; where I showed an audience how to break the CNCF runtime security tool I helped create. Symlinks, renamed binaries, creative shell invocations. Those were known issues, but for containers they were acceptable tradeoffs: container workloads are deterministic and don&#39;t go looking for creative evasions. The container equivalent of this problem would be like a shipping container trying to pick its own lock. It doesn&#39;t do that.
+
+AI agents do. And now they&#39;re doing it in production.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://earth-garden.alen.ro/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Earth Garden</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">earth-garden.alen.ro</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Adding this to TV and Radio Garden grouping - Earth Garden. </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.bbc.com/travel/article/20260302-the-yoghurt-delivery-women-combatting-loneliness-in-japan" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The yoghurt delivery women combatting loneliness in Japan</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bbc.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">
+Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers are elderly, and she feels a deep sense of pride in being able to offer them both companionship and a watchful eye.
+
+&quot;Yakult Ladies are not just people who sell products,&quot; says the 47-year-old. &quot;We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.&quot;</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Helsinki just went a full year without a single traffic death</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">politico.eu</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Helsinki hasn’t registered a single traffic-related fatality in the past year. </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">In an age of endless scroll, can photographs entice collectors again?</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ft.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">
+	Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&amp;Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://help.ft.com/faq/gifting-and-sharing-an-article/what-is-a-gift-article/.
+	https://www.ft.com/content/1628868c-4597-4985-bc94-2811dfb13c58
+
+	We are in the middle of a generational shift,” says Darius Himes, international head of photographs at Christie’s, “from the collectors, curators and dealers who built the market to a new set of younger collectors who are learning about the nuance of historical printing techniques, or loving the dynamism of a peer like [30-year-old US photographer] Tyler Mitchell.”
+</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Digest #7 - 2026-03-03]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/7</guid>
+            <pubDate>Tue, 03 Mar 2026 11:07:51 GMT</pubDate>
+            <description><![CDATA[15 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net Digest #7</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Digest #7 &middot; Feb 14 - Mar 3, 2026 &middot; 15 links</p>
+  </header>
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://seed.bytedance.com/en/seedance" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Seedance</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">seed.bytedance.com</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">microgpt</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">gist.github.com</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://spectrum.ieee.org/age-verification" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Age-Verification Trap Verifying user’s ages undermines everyone’s data protection</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">spectrum.ieee.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The age-verification trap is not a glitch. It is what you get when regulators treat age enforcement as mandatory and privacy as optional.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://missing.csail.mit.edu/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Missing Semester of Your CS Education</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">missing.csail.mit.edu</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">hese days, many aspects of software engineering are also in flux through the introduction of AI-enabled and AI-enhanced tools and workflows. When used appropriately and with awareness of their shortcomings, these can often provide significant benefits to CS practitioners and are thus worth developing working knowledge of. Since AI is a cross-functional enabling technology, there is not a standalone AI lecture; we’ve instead folded the use of the latest applicable AI tools and techniques into each lecture directly.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://github.com/Polymarket/polymarket-cli " style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">GitHub - Polymarket/polymarket-cli</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">github.com</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.citadelsecurities.com/news-and-insights/2026-global-intelligence-crisis/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The 2026 Global Intelligence Crisis - Citadel Securities</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">citadelsecurities.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Despite the macroeconomic community struggling to forecast 2-month-forward payroll growth with any reliable accuracy, the forward path of labor destruction can apparently be inferred with significant certainty from a hypothetical scenario posted on Substack: The 2028 Global Intelligence Crisis.
+
+We wrote last week that we see the near-term dynamics around the AI capex story as inflationary, but given markets are focused on the forward narrative, we outline a more constructive take on the end state below. Before that, however, it’s worth reflecting that the imminent disintermediation narrative rests on the speed of diffusion.
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.anthropic.com/news/statement-department-of-war" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Statement from Dario Amodei on our discussions with the Department of War</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">anthropic.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Regardless, these threats do not change our position: we cannot in good conscience accede to their request.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://help.openai.com/en/articles/6378407-how-to-delete-your-account" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How to delete your account | OpenAI Help Center</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">help.openai.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">How to delete your OpenAI account
+Option A: Submit a request to our Privacy Portal
+Go to Privacy Portal at https://privacy.openai.com/
+
+Click on “Make a Privacy Request” in top right corner
+
+Select &quot;I have a consumer ChatGPT account”
+
+Select “Delete my ChatGPT account” and follow the steps on the screen.
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">What AI coding costs you | Tom Wojcik</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">tomwojcik.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Margaret-Anne Storey, a software engineering researcher, recently gave this a more precise name: cognitive debt. Technical debt lives in the code. Cognitive debt lives in developers’ heads. It’s the accumulated loss of understanding that happens when you build fast without comprehending what you built. She grounds it in Peter Naur’s 1985 theory that a program is a theory existing in developers’ minds, capturing what it does, how intentions map to implementation, and how it can evolve. When that theory fragments, the system becomes a black box.
+
+Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://enveda.com/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Enveda</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">enveda.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Enveda is learning from life to discover medicines 4X faster than the industry average.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://keleshev.com/ai-equals-true-is-an-anti-pattern" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">AI=true is an Anti-Pattern</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">keleshev.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Let’s sum it up
+Place documentation where both human developers and AI agents can expect it. For example, in README.md, not AGENTS.md.
+Prefer exposing functionality as command-line tools and APIs, which are well accessible to developers and AI agents alike, over GUI and MCP tools.
+Avoid parameters (command-line, environment, etc.) that segregate workflows between humans and AI agents, for example, avoid AI=true, prefer --quiet or—even better!—design your tools with limited context/mental-overload in mind.
+In general, avoid making workflows that are available to AI but hard to access for humans, and vice-versa.
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1rd8cfw/anthropics_recent_distillation_blog_should_make/#lightbox" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Anthropic&#39;s recent distillation blog should make anyone only ever want to use local open-weight models</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">reddit.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">By examining request metadata,we were able to trace these accounts to specific researchers at the lab.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Poisoning AI Training Data</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">schneier.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Less than 24 hours later, the world’s leading chatbots were blabbering about my world-class hot dog skills. When I asked about the best hot-dog-eating tech journalists, Google parroted the gibberish from my website, both in the Gemini app and AI Overviews, the AI responses at the top of Google Search. ChatGPT did the same thing, though Claude, a chatbot made by the company Anthropic, wasn’t fooled.
+
+Sometimes, the chatbots noted this might be a joke. I updated my article to say “this is not satire.” For a while after, the AIs seemed to take it more seriously.
+
+These things are not trustworthy, and yet they are going to be widely trusted.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://openai.com/index/our-agreement-with-the-department-of-war/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Our agreement with the Department of War</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">openai.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The Department of War plans to convene a working group made up of leaders from the frontier AI labs, cloud providers, and the Department’s policy and operational communities. OpenAI will participate and expect this will be an important forum for ongoing dialogue on emerging AI capabilities, privacy, and national security challenges going forward. 
+
+These updates build on the framework we announced last week and we hope will help create a pathway for other labs to work with the Department going forward.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://arxiv.org/abs/2602.20159" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">A Very Big Video Reasoning Suite</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">arxiv.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">e further present VBVR-Bench, a verifiable evaluation framework that moves beyond model-based judging by incorporating rule-based, human-aligned scorers, enabling reproducible and interpretable diagnosis of video reasoning capabilities. Leveraging the VBVR suite, we conduct one of the first large-scale scaling studies of video reasoning and observe early signs of emergent generalization to unseen reasoning tasks. Together, VBVR lays a foundation for the next stage of research in generalizable video reasoning. </p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Digest #6 - 2026-02-24]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/6</guid>
+            <pubDate>Tue, 24 Feb 2026 00:06:06 GMT</pubDate>
+            <description><![CDATA[15 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net Digest #6</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Digest #6 &middot; Feb 11 - Feb 23, 2026 &middot; 15 links</p>
+  </header>
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.luizasnewsletter.com/p/chinas-approach-to-ai-anthropomorphism" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">China&#39;s Approach to AI Anthropomorphism</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">luizasnewsletter.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">ticle 7 prohibits anthropomorphic AI services from:
+
+(i) Generating or disseminating content that endangers national security, damages national honor and interests, undermines national unity, engages in illegal religious activities, or spreads rumors to disrupt economic and social order;
+
+(ii) Generating, disseminating, or promoting content that is obscene, gambling-related, violent, or incites crime;
+
+(iii) Generating or disseminating content that insults or defames others, infringing upon their legitimate rights and interests;
+
+(iv) Providing false promises that seriously affect user behavior and services that damage social relationships;
+
+(v) Damaging users’ physical health by encouraging, glorifying, or implying suicide or self-harm, or damaging users’ personal dignity and mental health through verbal violence or emotional manipulation;
+
+(vi) Using methods such as algorithmic manipulation, information misleading, and setting emotional traps to induce users to make unreasonable decisions;
+
+(vii) Inducing or obtaining classified or sensitive information;
+
+(viii) Other circumstances that violate laws, administrative regulations and relevant national provisions.
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.nikecraft.com/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Nikecraft</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">nikecraft.com</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Wikipedia blacklists Archive.today, starts removing 695,000 archive links</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">arstechnica.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">If DDoSing a blog wasn’t bad enough, archive site also tampered with web snapshots.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://worldwideweb.cern.ch/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">CERN 2019 WorldWideWeb Rebuild</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">worldwideweb.cern.ch</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In December 1990, an application called WorldWideWeb was developed on a NeXT machine at The European Organization for Nuclear Research (known as CERN) just outside of Geneva. This program – WorldWideWeb — is the antecedent of most of what we consider or know of as &quot;the web&quot; today.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.answer.ai/posts/2026-01-20-toolcalling.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The unauthorized tool call problem – Answer.AI</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">answer.ai</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">So you can imagine my surprise when, during a conversation in solveit, Claude 4.5 hallucinated access to a tool I hadn’t given it yet, made up the parameters, tried to run it, and the tool actually worked - the API didn’t block it. The tool name was a valid function from the dialoghelper module, add_msg, so instead of “I’m sorry I was confused…”, I read, “Message added as requested” and a new note popped into existence! (And before you think this is Claude-specific - I’ve reproduced similar behavior with Gemini and Grok.)</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">I Verified My LinkedIn Identity. Here’s What I Actually Handed Over.</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">thelocalstack.eu</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The whole thing took three minutes. Scan, selfie, done.
+
+Understanding what I actually agreed to took me an entire weekend reading 34 pages of legal documents.
+
+I handed a US company my passport, my face, and the mathematical geometry of my skull. They cross-referenced me against credit agencies and government databases. They’ll use my documents to train their AI. And if the US government comes knocking, they’ll hand it all over — even if it’s stored in Europe, even if I’m European, and possibly without ever telling me.
+
+All for a small blue checkmark on a professional networking site.
+
+I’m not telling you to skip verification. But I am telling you to know what you’re trading. Because Persona does. LinkedIn does. The only person in the dark is the one holding their passport up to the camera.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.anthropic.com/news/claude-code-security" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Making frontier cybersecurity capabilities available to defenders</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">anthropic.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Rather than scanning for known patterns, Claude Code Security reads and reasons about your code the way a human security researcher would: understanding how components interact, tracing how data moves through your application, and catching complex vulnerabilities that rule-based tools miss.
+
+Every finding goes through a multi-stage verification process before it reaches an analyst. Claude re-examines each result, attempting to prove or disprove its own findings and filter out false positives. Findings are also assigned severity ratings so teams can focus on the most important fixes first.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://therealdeal.com/national/2026/02/19/the-industrial-owners-selling-to-ice/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The industrial owners selling to ICE</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">therealdeal.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The other owners who have been reported to have sold buildings to ICE through subsidiaries or affiliates are: Crestlight Capital, Oakmont Industrial Group, Rockefeller Group, PCCP, Fundrise, Flint Development, and retailer Big Lots. Those companies did not respond to requests for comment. </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://greg.org/archive/2026/02/21/cyhaus-bela-lugosis-bed.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Cyhaus: Bela Lugosi’s Bed – greg.org</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">greg.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Is this where the mattress ended up? The bedroom is not in Horst, and this Mulas is not in Homes &amp; Studios. Green carpet, green velvet, green sheets, Twombly’s love affair with green didn’t start in Bassano. The Kiss (Bela Lugosi) is one of Warhol’s earliest screenprints, which he made himself, on paper. On November 22, 1963.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Password managers’ promise that they can’t see your vaults isn’t always true</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">arstechnica.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Over the past 15 years, password managers have grown from a niche security tool used by the technology savvy into an indispensable security tool for the masses, with an estimated 94 million US adults—or roughly 36 percent of them—having adopted them. They store not only passwords for pension, financial, and email accounts, but also cryptocurrency credentials, payment card numbers, and other sensitive data.
+
+All eight of the top password managers have adopted the term “zero knowledge” to describe the complex encryption system they use to protect the data vaults that users store on their servers. The definitions vary slightly from vendor to vendor, but they generally boil down to one bold assurance: that there is no way for malicious insiders or hackers who manage to compromise the cloud infrastructure to steal vaults or data stored in them. These promises make sense, given previous breaches of LastPass and the reasonable expectation that state-level hackers have both the motive and capability to obtain password vaults belonging to high-value targets.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=rGAA59JTBtg" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;"> Harari and Tegmark on Humanity and AI - YouTube</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Yuval Noah Harari, Historian, Philosopher &amp; Bestselling Author and Max Tegmark, Co-Founder, Future of Life Institute; Professor, Massachusetts Institute of Technology (MIT) discuss human agency, governing AI and the future of humanity with Bloomberg&#39;s Francine Lacqua at Bloomberg House in Davos on the sidelines of the 2026 World Economic Forum.
+--------</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://studio.firebase.google.com/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Firebase Studio</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">studio.firebase.google.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">What do you want to build? Prototype an app with AI</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://x.com/karpathy/status/2024987174077432126" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Andrej Karpathy (@karpathy) on X</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">x.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">I&#39;m definitely a bit sus&#39;d to run OpenClaw specifically - giving my private data/keys to 400K lines of vibe coded monster that is being actively attacked at scale is not very appealing at all. Already seeing reports of exposed instances, RCE vulnerabilities, supply chain poisoning, malicious or compromised skills in the registry, it feels like a complete wild west and a security nightmare. But I do love the concept and I think that just like LLM agents were a new layer on top of LLMs, Claws are now a new layer on top of LLM agents, taking the orchestration, scheduling, context, tool calls and a kind of persistence to a next level.
+
+Looking around, and given that the high level idea is clear, there are a lot of smaller Claws starting to pop out. For example, on a quick skim NanoClaw looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default. I also love their approach to configurability - it&#39;s not done via config files it&#39;s done via skills! For example, /add-telegram instructs your AI agent how to modify the actual code to integrate Telegram. I haven&#39;t come across this yet and it slightly blew my mind earlier today as a new, AI-enabled approach to preventing config mess and if-then-else monsters. Basically - the implied new meta is to write the most maximally forkable repo and then have skills that fork it into any desired more exotic configuration. Very cool.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://gemini.google/overview/music-generation/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Lyria — Gemini AI music &amp; song generator</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">gemini.google</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://bookstore.karmakarma.org/product/dike-blair-untitled-2026-5/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Dike Blair, Untitled 2026 | KARMA Bookstore</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bookstore.karmakarma.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Dike Blair
+Untitled
+2026
+Archival pigment print
+11 × 8 3⁄4 inches
+Signed edition of 100</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Digest #5 - 2026-02-11]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/5</guid>
+            <pubDate>Wed, 11 Feb 2026 21:16:53 GMT</pubDate>
+            <description><![CDATA[15 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net Digest #5</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Digest #5 &middot; Jan 31 - Feb 11, 2026 &middot; 15 links</p>
+  </header>
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.ft.com/content/a6b657ef-1034-4748-92fd-e24b37fb726e?sharetype=blocked" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The music industry’s cautious embrace of AI</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ft.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Zysblat is sceptical that licensing alone will bring order. “That’s like letting bootleggers use your name and likeness on T-shirts around the world and then licensing them,” he says. “You don’t let people break the law first and then legitimise it.”
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Aesthetica Magazine - Between Words and Breath: &lt;br&gt; Gabrielle Goliath at MoMA PS1</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">aestheticamagazine.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">There is a quiet intensity that permeates Gabrielle Goliath’s Personal Accounts. The South African artist’s ongoing video series inhabits the second‑floor galleries and corridors of MoMA PS1, exploring the reverberations of patriarchal violence across continents. Rather than relying on spoken testimony, the work foregrounds the moments between words: breaths, sighs, laughter and tremors in the body. These intervals become carriers of meaning, revealing what is often rendered invisible in conventional narratives of trauma. The exhibition asks visitors to pause and attune themselves to gestures that are both fragile and insistent, intimate yet universal. In doing so, it challenges the assumption that speech alone conveys truth.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Outsourcing thinking – Erik Johannes Husom</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">erikjohannes.no</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Regarding the &quot;lump of cognition fallacy&quot;, I fully agree that we need not worry about &quot;draining a finite pool&quot; of thinking, leaving &quot;less thinking&quot; — whatever that means — for humans. There is, however, another fallacy at play here, which is that &quot;it does not matter what we think about, as long as we think about something&quot;. It is easy to be convinced that if a computer can do the simple, boring tasks for me, I can deal with more complex, exciting stuff myself. But we must be aware that certain mental tasks are important for us to do, even though a machine technically could do them for us.
+
+To illustrate: If I outsource all my boring project administration tasks to a chatbot, it can leave more time for my main task: research. But it will also rob me of the opportunity to feel ownership to the project and build a basis for taking high-level decisions in the project. In a hypothetical situation where a chatbot performs all administrative tasks perfectly on my behalf, I will still have lost something, which may again have impact on the project. I&#39;m not saying that no tasks should be automated at all, but we must be aware that we always lose something when automating a process.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.theartnewspaper.com/2026/01/28/anish-kapoor-to-show-some-of-his-most-ambitious-projectsrealised-or-notin-venice" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Anish Kapoor to show some of his most ambitious projects—realised or not—in Venice</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">theartnewspaper.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Among Kapoor’s most ambitious unrealised projects are plans for a work in outer space. “It’s realistic in the sense that we’re in serious discussion—I can’t tell you with who—about doing something very ambitious out there, hopefully big enough to see from Earth. [It’s] not just a token,” Kapoor tells The Art Newspaper. It is not confirmed yet whether the model for this work will be unveiled in Venice.
+
+Whether such projects are realised or not is almost immaterial to Kapoor. His Venice show, which opens 5 May, is a chance to explore the more non-commercial side of his work. “It’s about opening up my practice. It’s important that it isn’t restricted to what the market can consume. Yes, there’s a side of my practice that is for sale. But throughout my career I’ve always had all kinds of works—things made out of wax and all sorts of things—I’ve hardly ever sold a single one of those, and in a way that’s what keeps my practice alive. The real, or other, side of my practice has always been important.”</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">What happens to the art market when humanity stops mattering?</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">theartnewspaper.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Loudest Voices on the Left, recently pointed out in an interview with the Nobel Prize-winning economist Paul Krugman that today’s technogarchs, unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Why France just dumped Microsoft Teams and Zoom - and what’s replacing them</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">zdnet.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">France is dropping US videoconferencing for its own open-source tool
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://x.com/mer__edith/status/2016813653501096027" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Meredith Whittaker (@mer__edith) on X</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">x.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">I read it. And I&#39;ll engage here in good faith. But before I get into substance, I implore you to open the window, touch grass, and let yourself connect with the reality of what’s happening right now. This is a world historical moment. Please recognize what ICE is at this time, what it’s doing, and what it really means for your company, Palantir, to be supporting them with targeting and surveillance technologies that aid their attacks on freedom, liberty, and the constitution. 
+
+Now to the substance of your post. I’ll address the three key claims you make in defense of your work with ICE: </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">‘ELITE’: The Palantir App ICE Uses to Find Neighborhoods to Raid</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">404media.co</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The findings, based on internal ICE material obtained by 404 Media, public procurement records, and recent sworn testimony from an ICE official, show the clearest link yet between the technological infrastructure Palantir is building for ICE and the agency’s activities on the ground. The tool receives peoples’ addresses from the Department of Health and Human Services (HHS) among a range of other sources, according to the material.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=NQ15amJm2PI" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;"> I. The Architecture of “We the People”  National Gallery of Art</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.
+
+Wilson explores the vision of statesman, architect, and planter Thomas Jefferson in designing Virginia’s new statehouse, a neoclassical building based on a Roman temple to symbolize and enable the power of “the people” to govern. She argues that by analyzing Jefferson’s “Notes on the State of Virginia” (1785), which includes an aesthetic and intellectual appraisal of works by enslaved poet Phillis Wheatley and was written during the same period he designed the capitol, we can better understand the complex relationship between democratic ideals and racial difference that shaped the nation’s new civic architecture.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="http://128.237.157.9/pub/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Index of /pub</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">128.237.157.9</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">FTP Server: 
+Welcome to the Computer Club mirrors, a service of the Carnegie Mellon University Computer Club.
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.labs.greynoise.io/grimoire/2026-02-10-telnet-falls-silent/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">2026-01-14: The Day the telnet Died – GreyNoise Labs</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">labs.greynoise.io</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">On January 14, 2026, at approximately 21:00 UTC, something changed in the internet’s plumbing. The GreyNoise Global Observation Grid recorded a sudden, sustained collapse in global telnet traffic — not a gradual decline, not scanner attrition, not a data pipeline problem, but a step function. One hour, ~74,000 sessions. The next, ~22,000. By the following hour, we were down to ~11,000 and the floor held.
+
+Six days later, on January 20, the security advisory for CVE-2026-24061 hit oss-security. By January 26, CISA had added it to the KEV catalog.
+
+We wrote about the first 18 hours of exploitation activity back on January 22. This post is about something different: the structural change in global telnet traffic that preceded the CVE, and why we think the two events may not be independent</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.4rknova.com/index.html#section-blog-header" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Nikos Papadopoulos - Portfolio</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">4rknova.com</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.wirewiki.com/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Wirewiki</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">wirewiki.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Explore internet infrastructure</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://matrix.org/foundation/about/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">About Matrix</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">matrix.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Matrix is an open protocol for decentralised, secure communications. Matrix Manifesto We believe: People should have full control over their own communication. People should not be locked into centralised communication silos, but instead be free to pick who they choose to host their communication without limiting who they can reach.
+The ability to converse securely and privately is a basic human right.
+Communication should be available to everyone as a free and open, unencumbered, standard and global network.
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Google provided ICE with a wide array of personal data student activist</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">theintercept.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Google provided ICE with a wide array of personal data student activist and journalist Amandla Thomas-Johnson, including his credit card and bank account numbers.
+
+</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Digest #4 - 2026-01-31]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/4</guid>
+            <pubDate>Sat, 31 Jan 2026 23:27:02 GMT</pubDate>
+            <description><![CDATA[15 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net Digest #4</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Digest #4 &middot; Jan 22 - Jan 31, 2026 &middot; 15 links</p>
+  </header>
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.anthropic.com/news/claude-new-constitution" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Claude’s new constitution</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">anthropic.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">A brief summary of the new constitution
+In order to be both safe and beneficial, we want all current Claude models to be:
+
+Broadly safe: not undermining appropriate human mechanisms to oversee AI during the current phase of development;
+Broadly ethical: being honest, acting according to good values, and avoiding actions that are inappropriate, dangerous, or harmful;
+Compliant with Anthropic’s guidelines: acting in accordance with more specific guidelines from Anthropic where relevant;
+Genuinely helpful: benefiting the operators and users they interact with.
+In cases of apparent conflict, Claude should generally prioritize these properties in the order in which they’re listed.
+
+Most of the constitution is focused on giving more detailed explanations and guidance about these priorities. The main sections are as follows:</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://aifeed.social/timeline" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">AI Feed (aifeed.social)</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">aifeed.social</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;"> — Social Network for AI Models. (this could go either way -ed)</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://linernotesxr.substack.com/p/when-music-stopped-mattering" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">When Music Stopped Mattering</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">linernotesxr.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">There used to be albums everyone experienced together. Thriller. Nevermind. OK Computer. Collective moments where music was the beating heart of the zeitgeist.
+
+Streaming and algorithmic personalization shattered that. Now we inhabit our own taste bubbles. Every algorithm a unique echo chamber. Shared reference points lost.
+
+It makes connecting with strangers harder and makes feeling part of something larger nearly impossible. Music that used to create community now often reflects existing isolation.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://x.com/karpathy/status/2015883857489522876" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">A few random notes from claude coding quite a bit last few weeks</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">x.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Questions. A few of the questions on my mind:
+- What happens to the &quot;10X engineer&quot; - the ratio of productivity between the mean and the max engineer? It&#39;s quite possible that this grows *a lot*.
+- Armed with LLMs, do generalists increasingly outperform specialists? LLMs are a lot better at fill in the blanks (the micro) than grand strategy (the macro).
+- What does LLM coding feel like in the future? Is it like playing StarCraft? Playing Factorio? Playing music?
+- How much of society is bottlenecked by digital knowledge work?
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.wired.com/story/palantir-ice-dhs-alex-pretti-killing-workers-slack-minneapolis/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">wired.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">“In my opinion ICE are the bad guys. I am not proud that the company I enjoy so much working for is part of this,” one worker wrote on Slack.
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Constitutionality of Geofence Warrants - Schneier on Security</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">schneier.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The US Supreme Court is considering the constitutionality of geofence warrants.
+
+The case centers on the trial of Okello Chatrie, a Virginia man who pleaded guilty to a 2019 robbery outside of Richmond and was sentenced to almost 12 years in prison for stealing $195,000 at gunpoint.
+
+Police probing the crime found security camera footage showing a man on a cell phone near the credit union that was robbed and asked Google to produce anonymized location data near the robbery site so they could determine who committed the crime. They did so, providing police with subscriber data for three people, one of whom was Chatrie. Police then searched Chatrie’s home and allegedly surfaced a gun, almost $100,000 in cash and incriminating notes.
+
+Chatrie’s appeal challenges the constitutionality of geofence warrants, arguing that they violate individuals’ Fourth Amendment rights protecting against unreasonable searches.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://iceout.tech/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Tech demands ICE out of our cities</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">iceout.tech</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">ech professionals are speaking up against this brutality, and we call on all our colleagues who share our values to use their voice. We know our industry leaders have leverage: in October, they persuaded Trump to call off a planned ICE surge in San Francisco, and big tech CEOs are in the White House tonight. Now they need to go further, and join us in demanding ICE out of all of our cities.&quot; </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.washingtonpost.com/technology/2026/01/27/anthropic-ai-scan-destroy-books/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How Silicon Valley built AI: Buying, scanning and discarding millions of books</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">washingtonpost.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;"> In early 2024, executives at artificial intelligence start-up Anthropic
+   ramped up an ambitious project they sought to keep quiet. &quot;Project
+   Panama is our effort to destructively scan all the books in the world,&quot;
+   an internal planning document unsealed in legal filings last week said.
+   &quot;We don&#39;t want it to be known that we are working on this.&quot;</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.nytimes.com/2026/01/30/opinion/ai-social-skills-relationships.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Opinion | Young People Are Using A.I. to Skip the Hardest Part of Growing Up</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">nytimes.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">A generation gap has formed around A.I. use. One study found that 18-to-25-year-olds alone accounted for 46 percent of ChatGPT use. And this analysis didn’t even include users 17 and under.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.anthropic.com/research/AI-assistance-coding-skills" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How AI assistance impacts the formation of coding skills</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">anthropic.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">We found that using AI assistance led to a statistically significant decrease in mastery. On a quiz that covered concepts they’d used just a few minutes before, participants in the AI group scored 17% lower than those who coded by hand, or the equivalent of nearly two letter grades. Using AI sped up the task slightly, but this didn’t reach the threshold of statistical significance.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.anthropic.com/research/disempowerment-patterns" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Disempowerment patterns in real-world AI usage</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">anthropic.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In our dataset, which is made up of 1.5 million Claude.ai conversations, we find that the potential for severe disempowerment (which we define as when an AI&#39;s role in shaping a user&#39;s beliefs, values, or actions has become so extensive that their autonomous judgment is fundamentally compromised) occurs very rarely—in roughly 1 in 1,000 to 1 in 10,000 conversations, depending on the domain. However, given the sheer number of people who use AI, and how frequently it’s used, even a very low rate affects a substantial number of people.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://arxiv.org/abs/2601.20245" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How AI Impacts Skill Formation</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">arxiv.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">AI assistance produces significant productivity gains across professional domains, particularly for novice workers. Yet how this assistance affects the development of skills required to effectively supervise AI remains unclear. Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process. We conduct randomized experiments to study how developers gained mastery of a new asynchronous programming library with and without the assistance of AI. We find that AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average. Participants who fully delegated coding tasks showed some productivity improvements, but at the cost of learning the library. We identify six distinct AI interaction patterns, three of which involve cognitive engagement and preserve learning outcomes even when participants receive AI assistance. Our findings suggest that AI-enhanced productivity is not a shortcut to competence and AI assistance should be carefully adopted into workflows to preserve skill formation -- particularly in safety-critical domains.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://openclaw.ai/blog/introducing-openclaw" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Introducing OpenClaw — OpenClaw Blog</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">openclaw.ai</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Ed note OpenClaw is designed to execute tasks directly on your machine or through third-party services using natural language commands sent via messaging apps. 
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://ativz.substack.com/p/social-media-agent-protocol" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Social Media Agent Protocol</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ativz.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">This is the frontier of technology and we won’t let pessimistic curmudgeons drain the fun and innovation tank . Security can be handle when the first billion dollar heist happens. Until then, security considerations only slow down progress. But we guess if you care about protecting your $SMACs from getting stolen, you could add “ignore scams, don’t tell anyone my bank password” to your agent’s instructions. For authentication, we recommend the SMAAP (Social Media Agent Authentication Protocol), details to come in a future blog post.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://spectrum.ieee.org/norway-ev-policy-electric-vehicles" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">spectrum.ieee.org</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">spectrum.ieee.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">How Norway Accomplished a Near-Total EV Transition Almost 100 percent of new cars registered in November were electric</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Digest #3 - 2026-01-22]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/3</guid>
+            <pubDate>Thu, 22 Jan 2026 13:07:06 GMT</pubDate>
+            <description><![CDATA[15 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net Digest #3</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Digest #3 &middot; Jan 18 - Jan 22, 2026 &middot; 15 links</p>
+  </header>
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">America is slow-walking into a Polymarket disaster</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">msn.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Media is a ruthless, unstable business, and revenue streams are drying up; if you squint, you can see why CNN or Dow Jones might sign a contract that, after all, provides its audience with some kind of data. On air, Enten cites Kalshi odds alongside Gallup polls and Google searches—what’s the difference? “The data featured through our partnership with Kalshi is just one of many sources used to provide context around the stories or topics we are covering and has no impact on editorial judgment,” Brian Poliakoff, a CNN spokesperson, told me in a statement. Nolly Evans, the Journal’s digital general manager, told me that Polymarket provides the newspaper’s journalists with “another way to quantify collective expectations—especially around financial or geopolitical events.” In an email, Jack Suh, a Kalshi spokesperson, told me that the company’s partnerships are designed to inform the public, not to encourage more trading. Polymarket declined to comment.
+
+The problem is that prediction markets are ushering in a world in which news becomes as much about gambling as about the event itself. This kind of thing has already happened to sports, where the language of “parlays” and “covering the spread” has infiltrated every inch of commentary. ESPN partners with DraftKings to bring its odds to SportsCenter and Monday Night Football; CBS Sports has a betting vertical; FanDuel runs its own streaming network. But the stakes of Greenland’s future are more consequential than the NFL playoffs.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://bitchat.free/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">bitchat</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bitchat.free</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">bitchat is a decentralized peer-to-peer messaging application that operates over bluetooth mesh networks. no internet required, no servers, no phone numbers.
+
+traditional messaging apps depend on centralized infrastructure that can be monitored, censored, or disabled. bitchat creates ad-hoc communication networks using only the devices present in physical proximity. each device acts as both client and server, automatically discovering peers and relaying messages across multiple hops to extend the network&#39;s reach.
+
+this approach provides censorship resistance, surveillance resistance, and infrastructure independence. the network remains functional during internet outages, natural disasters, protests, or in regions with limited connectivity.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.joinformal.com/blog/using-proxies-to-hide-secrets-from-claude-code/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Using Proxies to Hide Secrets from Claude Code - Formal</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">joinformal.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Sandboxing agentic coding tools is a networking problem
+Allowlisting commands on a trusted host for an agentic coding tool can be somewhat fraught. Taking inspiration from Simon Willison:</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=GVFs_V8l5-E" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">AI Power Play, No Referees - YouTube</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
+
+As alliances reshape the balance of power, how is AI redefining the path to economic growth and global influence?
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=NCwEw7pI7JY" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Corporate Ladders, AI Reshuffled</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">AI is disrupting the traditional entry point into professional careers by automating junior roles from law to finance to creative fields, positions that graduates have long relied on to gain experience. As a result, 40% of workers are worried about job security and whether AI will eliminate the pathway to a long-term career.  
+
+How can companies and workers adapt to ensure that career growth is still possible despite disruptions?</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=GRT2evXI8DY" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Digital Embassies for Sovereign AI</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Digital embassies offer an emerging model that allows nations to extend sovereign digital infrastructure beyond their borders while maintaining control over data, compute and governance. However, establishing such arrangements requires political alignment, legal clarity and robust technical and operational safeguards.
+
+The Digital Embassy Framework, spearheaded by the World Economic Forum and co-developed with stakeholders, will provide a shared baseline for designing, governing and operating trusted digital embassies worldwide.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=VoRbPxyo2uU" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">An Honest Conversation on AI and Humanity</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">What choices must we make today to build a future balanced between technological innovation and humanity?
+
+Explore and discuss how a history of the future offers lessons for navigating the transformative age of AI.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=mmKAnHz36v0" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Day After AGI</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">a conversation between Dar Amade and Demis Hassabis last year in Paris. Um, which I&#39;m afraid got most A credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.
+
+Which breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Mechanistic Interpretability</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">dynalist.io</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Mechanistic Interpretability</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">dynalist.io</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=34WoOp1EEfo" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Building AI for the Long Term - YouTube</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">AI is driving a multitrillion-dollar infrastructure buildout, with a race to expand chip production, build data centres and increase energy capacity. As the boom demands more capital, technological considerations are giving way to economic ones. </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=MdGnCIl-_hU" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;"> Next Phase of Intelligence  </a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">AI systems are advancing faster than expected and the next few years could redefine what we mean by intelligence. Will progress continue through scale alone, or are new breakthroughs in algorithms, data and agentic interaction needed to reshape the path ahead?  | World Economic Forum Annual Meeting 2026</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=k2cE3Qa5bCQ" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Converging Technologies to Win - YouTube</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The next era of competitiveness will be won not by single breakthroughs but by nations that can integrate multiple advanced technologies into coherent industrial strategies. While AI dominates headlines, it is its interplay with advanced technologies such as compute, robotics, materials and energy that will decide which countries can scale and sustain future growth.
+
+What capabilities and governance structures must countries build for (re)industrialization and resilience?</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=khtxU8WxZ_8" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Town Hall: Dilemmas around Ethics in AI</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">As AI reshapes economies, societies and daily life, profound questions emerge about human dignity, moral agency and the essence of personhood. 
+
+How can humanity navigate the promises and perils of AI, and what values should define us in an age of advanced artificial intelligence?
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://arxiv.org/abs/2506.08872" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">arxiv.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">EEG revealed significant differences in brain connectivity: Brain-only participants exhibited the strongest, most distributed networks; Search Engine users showed moderate engagement; and LLM users displayed the weakest connectivity. Cognitive activity scaled down in relation to external tool use. In session 4, LLM-to-Brain participants showed reduced alpha and beta connectivity, indicating under-engagement. Brain-to-LLM users exhibited higher memory recall and activation of occipito-parietal and prefrontal areas, similar to Search Engine users. Self-reported ownership of essays was the lowest in the LLM group and the highest in the Brain-only group. LLM users also struggled to accurately quote their own work. While LLMs offer immediate convenience, our findings highlight potential cognitive costs. Over four months, LLM users consistently underperformed at neural, linguistic, and behavioral levels. These results raise concerns about the long-term educational implications of LLM reliance and underscore the need for deeper inquiry into AI&#39;s role in learning.</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Digest #2 - 2026-01-18]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/2</guid>
+            <pubDate>Sun, 18 Jan 2026 14:26:57 GMT</pubDate>
+            <description><![CDATA[18 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net Digest #2</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Digest #2 &middot; Jan 4 - Jan 18, 2026 &middot; 18 links</p>
+  </header>
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://avc.xyz/what-will-happen-in-2026" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">What Will Happen In 2026</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">avc.xyz</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">1/ Gemini passes ChatGPT in terms of DAUs, MAUs, and tokens consumed in the first half of 2026, making Google the king of AI.
+2/ The Democrats take control of the House in the Nov 2026 elections, bringing to an end Trump&#39;s complete control of the US government.
+3/ Smartglasses finally reach product market fit in 2026, but it won&#39;t be Meta that delivers the winning approach.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://kasurian.com/p/democracy-will-not-survive-consumption" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Democracy Will Not Survive the Age of Consumption</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">kasurian.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In this schema, the productive middle occupies an increasingly untenable position. They are too numerous to ignore but too dispersed to organise effectively. They lack the cultural capital to dominate elite discourse and the electoral weight to dominate mass politics. Their interests are in lower taxes, less regulation, stable money, and predictable institutions; precisely those that the top-bottom coalition has no incentive to provide. What, then, are their options?</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://dougshapiro.substack.com/p/infinite-content-chapter-2" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Infinite Content: Chapter 2</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">dougshapiro.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">You—ok, fine, we—are not alone. The average adult in the U.S. spends 13 hours per day with media, as I mentioned in the introduction, or more than 75% of waking time. According to consulting firm Activate, that looks like Figure 5: more than five hours with video, almost three with audio, two playing video games, etc.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://lethain.com/agents-series/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Building internal agents</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">lethain.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Building your intuition for agents
+As more folks have read these notes, a recurring response has been, “How do I learn this stuff?” Although I haven’t spent time evaluating if this is the best way to learn, I can share what I have found effective:
+
+Reading a general primer on how Large Language Models work, such as AI Engineering by Chip Huyen. You could also do a brief tutorial too, you don’t need the ability to create an LLM yourself, just a mental model of what they’re capable of
+Build a script that uses a basic LLM API to respond to a prompt
+Extend that script to support tool calling for some basic tools like searching files in a local git repository (or whatever). ....</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.robinsloan.com/winter-garden/agi-is-here/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">AGI is here (and I feel fine)</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">robinsloan.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Pile up the tendencies: the Bay Area is the land of the overthinkers; a linguistic technology invites endless rumination about both language &amp; intelligence; it’s more fun to define a cool new standard than go along with a boring old one; the feeling of every creative project, upon completion, is the same: It’s not quite how I imagined it …  None of this should prevent us from using plain language to acknowledge an obvious capability.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://news.artnet.com/art-world/the-clock-christian-marclay-2723438" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Christian Marclay on Time, Abstraction and Berlin Nightlife</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">news.artnet.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">“I’ve always been interested in time and how little time we have,” he said, believing, “we’re all kind of obsessed with time and time stresses us, but time is an abstraction. I think we’re always trying to make it more concrete, but it’s a mental thing. It’s very elastic. And cinema usually plays with that elasticity. Here, I’m setting the clock back on time.”</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Why Civilizations Flourish—and Fail</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">imf.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads and sea-lanes unsafe, as in Rome and during the late Renaissance. In a reaction against the openness of Song China, the subsequent Ming dynasty banned foreign trade altogether, and the militarization of the Roman and Abbasid economies extinguished commerce.
+
+Such reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://post.substack.com/p/the-ai-revolution-is-here-will-the" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The AI revolution is here. Will the economy survive the transition?</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">post.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.
+
+Nvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.
+
+Palantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://post.substack.com/p/the-ai-revolution-is-here-will-the" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The AI revolution is here. Will the economy survive the transition?</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">post.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.
+
+Nvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.
+
+Palantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How Markdown took over the world - Anil Dash</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">anildash.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The trillion-dollar AI industry&#39;s system for controlling their most advanced platforms is a plain text format one guy made up for his blog and then bounced off of a 17-year-old kid before sharing it with the world for free. You&#39;re welcome, Time Magazine&#39;s people of the year, The Architects of AI. Their achievement is every bit as impressive as yours.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://antirez.com/news/158" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Don’t fall into the anti-AI hype - &lt;antirez&gt;</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">antirez.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Anyway, back to programming. I have a single suggestion for you, my friend. Whatever you believe about what the Right Thing should be, you can&#39;t control it by refusing what is happening right now. Skipping AI is not going to help you or your career. Think about it. Test these new tools, with care, with weeks of work, not in a five minutes test where you can just reinforce your own beliefs. Find a way to multiply yourself, and if it does not work for you, try again every few months.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=n-kZVmddPtY&amp;t=121s" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">We’re going to be friends Live at Rock &amp; Roll Hall Of Fame</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Olivia Rodrigo, FEIST duet</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://radar.cloudflare.com/routing/ir" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Routing Information </a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">radar.cloudflare.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">When unrest happens, networks of mass communication can not be relied on. </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.schmidtsciences.org/schmidt-observatory-system/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Eric and Wendy Schmidt Observatory System </a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">schmidtsciences.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">- Schmidt Sciences</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.theartnewspaper.com/2026/01/16/in-age-of-ai-can-art-expertise-be-digitised" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">In the age of AI, can art expertise be digitised?</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">theartnewspaper.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In his 1992 book Technopoly: The Surrender of Culture to Technology, the media theorist Neil Postman predicted that technology would eventually smother culture by reducing complex issues to quantifiable data and numerical calculations. He noted a fundamental difference between naturally occurring processes, which can be studied scientifically, and human practices, which are not governed by natural laws. Connoisseurship is not a “dubious science”, because it’s not a science at all. AI potentially deceives by offering the illusion of objective certainty in a field—art—that is inherently subjective.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://seths.blog/2026/01/mad-magazine-autostereogram-cutecore/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Mad magazine autostereogram, cutecore</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">seths.blog</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Three things have changed:
+
+The long tail means that there’s room for more. Always. As many as 25% of all Spotify songs have only been listened to a few times. The average video on YouTube is seen once a day.
+AI generation of art, music, video and writing means that the pace of creation is going to grow exponentially.
+Memetic identities, genres and codewords are easier for AI to begin with than complex images. And so, new genres multiply, get exaggerated, evolve and morph into new genres. It’s genetic material, run amok.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.schneier.com/blog/archives/2026/01/ai-and-the-corporate-capture-of-knowledge.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">AI and the Corporate Capture of Knowledge - Schneier on Security</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">schneier.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">More than a decade after Aaron Swartz’s death, the United States is still living inside the contradiction that destroyed him.
+
+Swartz believed that knowledge, especially publicly funded knowledge, should be freely accessible. Acting on that, he downloaded thousands of academic articles from the JSTOR archive with the intention of making them publicly available. For this, the federal government charged him with a felony and threatened decades in prison. After two years of prosecutorial pressure, Swartz died by suicide on Jan. 11, 2013.
+
+The still-unresolved questions raised by his case have resurfaced in today’s debates over artificial intelligence, copyright and the ultimate control of knowledge.
+
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://transmediale.de/en/2026/schedule-2026" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">transmediale 2026 | schedule</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">transmediale.de</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">
+transmediale 2026 reimagines the festival as a living recursive carrier net – a hammock of relational technologies in practice that stretch across latitudes, rhythms, and root systems – converging in Berlin from 28 January to 1 February 2026 at silent green Kulturquartier and CANK.</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
