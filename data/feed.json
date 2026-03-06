@@ -15,6 +15,63 @@
   ],
   "items": [
     {
+      "id": "1772745938811",
+      "url": "https://livenow.news/",
+      "title": "livenow.news",
+      "date_published": "2026-03-05T21:25:38.811Z",
+      "tags": [
+        "news",
+        "television",
+        "tv",
+        "live",
+        "index"
+      ],
+      "content_text": "Official streams for live English television news channels from across the world\n\nChoose a channel above, or use arrow keys to switch channel.\nFinancial news channels have been removed to focus on breaking news.",
+      "summary": "Official streams for live English television news channels from across the world\n\nChoose a channel above, or use arrow keys to switch channel.\nFinanci...",
+      "content_html": "<blockquote>Official streams for live English television news channels from across the world\n\nChoose a channel above, or use arrow keys to switch channel.\nFinancial news channels have been removed to focus on breaking news.</blockquote>\n<p><strong>Tags:</strong> news, television, tv, live, index</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772745504860",
+      "url": "https://about.netflix.com/en/news/why-interpositive-is-joining-netflix",
+      "title": "Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix",
+      "date_published": "2026-03-05T21:18:24.860Z",
+      "tags": [
+        "ai",
+        "ai-hollywood",
+        "netflix"
+      ],
+      "content_text": "For more than two decades, Netflix has paired technology with artistry to help great films and shows find their audience. By bringing InterPositive’s entire team into Netflix through this acquisition, and with Affleck joining as Senior Advisor, we’re investing in creator-led innovation that keeps filmmakers at the center of the process.  ",
+      "summary": "For more than two decades, Netflix has paired technology with artistry to help great films and shows find their audience. By bringing InterPositive’s ...",
+      "content_html": "<blockquote>For more than two decades, Netflix has paired technology with artistry to help great films and shows find their audience. By bringing InterPositive’s entire team into Netflix through this acquisition, and with Affleck joining as Senior Advisor, we’re investing in creator-led innovation that keeps filmmakers at the center of the process.  </blockquote>\n<p><strong>Tags:</strong> ai, ai-hollywood, netflix</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1772744774764",
+      "url": "https://paulgraham.com/brandage.html",
+      "title": "The Brand Age",
+      "date_published": "2026-03-05T21:06:14.764Z",
+      "tags": [
+        "brand",
+        "consumerism",
+        "luxury",
+        "signaling"
+      ],
+      "content_text": "ai/DR ignore brand hype and follow interesting problems instead \n\n",
+      "summary": "ai/DR ignore brand hype and follow interesting problems instead \n\n",
+      "content_html": "<blockquote>ai/DR ignore brand hype and follow interesting problems instead \n\n</blockquote>\n<p><strong>Tags:</strong> brand, consumerism, luxury, signaling</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772741577779",
       "url": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
       "title": "Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch",

@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Thu, 05 Mar 2026 20:18:14 GMT</dateCreated>
-    <dateModified>Thu, 05 Mar 2026 20:18:14 GMT</dateModified>
+    <dateCreated>Fri, 06 Mar 2026 13:13:06 GMT</dateCreated>
+    <dateModified>Fri, 06 Mar 2026 13:13:06 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -267,6 +267,7 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 &quot;Yakult Ladies are not just people who sell products,&quot; says the 47-year-old. &quot;We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.&quot;" created="Thu, 05 Mar 2026 12:48:17 GMT" category="aging,health,jp,bio-hacking" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix" title="Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix" url="https://about.netflix.com/en/news/why-interpositive-is-joining-netflix" htmlUrl="https://about.netflix.com/en/news/why-interpositive-is-joining-netflix" description="For more than two decades, Netflix has paired technology with artistry to help great films and shows find their audience. By bringing InterPositive’s entire team into Netflix through this acquisition, and with Affleck joining as Senior Advisor, we’re investing in creator-led innovation that keeps filmmakers at the center of the process.  " created="Thu, 05 Mar 2026 21:18:24 GMT" category="ai,ai-hollywood,netflix" />
       <outline type="link" text="Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch" title="Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch" url="https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/" htmlUrl="https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/" description="Meta is facing a new lawsuit over its AI smart glasses and their lack of privacy, after an investigation by Swedish newspapers found that workers at a Kenya-based subcontractor are reviewing footage from customers’ glasses, which included sensitive content, like nudity, people having sex, and using the toilet." created="Thu, 05 Mar 2026 20:12:57 GMT" category="meta,glasses,privacy,surveillance,ethics,ai" />
       <outline type="link" text="I underestimated AI capabilities (again)" title="I underestimated AI capabilities (again)" url="https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities" htmlUrl="https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities" description="Fully automating AI R&amp;D still seems like a tall order. Even fully automating software engineering seems like it requires an aggressive read of the evidence, and AI R&amp;D is not just software engineering — it seems like automating it would require a surprising amount of progress on “research judgment” and “creativity” and other ephemeral skills that AI systems still appear to be worse at than human researchers. I think it’s a lot more likely in the coming three or five years than this year.
 
@@ -570,6 +571,7 @@ It is funded by Vertigo’s Paris-based parent company, Federation Studios. The 
 Unfortunately, there isn’t a currently a way to prevent AI-generated &quot;music&quot; from showing up in playlists, such as those that are Made for you by Spotify." created="Tue, 09 Sep 2025 11:38:00 GMT" category="spotify,music,ai-backlash" />
     </outline>
     <outline text="ai-hollywood" title="ai-hollywood">
+      <outline type="link" text="Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix" title="Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix" url="https://about.netflix.com/en/news/why-interpositive-is-joining-netflix" htmlUrl="https://about.netflix.com/en/news/why-interpositive-is-joining-netflix" description="For more than two decades, Netflix has paired technology with artistry to help great films and shows find their audience. By bringing InterPositive’s entire team into Netflix through this acquisition, and with Affleck joining as Senior Advisor, we’re investing in creator-led innovation that keeps filmmakers at the center of the process.  " created="Thu, 05 Mar 2026 21:18:24 GMT" category="ai,ai-hollywood,netflix" />
       <outline type="link" text=" film-with-ai-director-imagines-a-future-where-most-jobs-are-automated" title=" film-with-ai-director-imagines-a-future-where-most-jobs-are-automated" url="https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated" htmlUrl="https://www.forbes.com/sites/lesliekatz/2025/10/07/film-with-ai-director-imagines-a-future-where-most-jobs-are-automated" description="An AI system called &quot;FellinAI&quot; takes the director&apos;s chair for &quot;The Sweet Idleness&quot; from Italian producer Andrea Iervolino. The film depicts a world ruled by automation." created="Tue, 14 Oct 2025 10:24:05 GMT" category="ai,hollywood,trailer,ai-hollywood" />
     </outline>
     <outline text="ai-impact" title="ai-impact">
@@ -1116,6 +1118,11 @@ Arginine is a safe and cost-effective repositioning drug candidate for AD." crea
 	Because brain patterns are unique to each individual, losing control of this data poses a direct threat to our mental privacy and our freedom of thought — two core human rights. Neurotechnology can manipulate our thoughts and mental states: side effects of deep brain stimulation for Parkinson’s patients shows it is possible to induce undesirable behaviours such as compulsive buying.
 " created="Thu, 13 Nov 2025 12:25:16 GMT" category="meta,neurotechnology,brain,privacy,ethics,surveillance" />
     </outline>
+    <outline text="brand" title="brand">
+      <outline type="link" text="The Brand Age" title="The Brand Age" url="https://paulgraham.com/brandage.html" htmlUrl="https://paulgraham.com/brandage.html" description="ai/DR ignore brand hype and follow interesting problems instead 
+
+" created="Thu, 05 Mar 2026 21:06:14 GMT" category="brand,consumerism,luxury,signaling" />
+    </outline>
     <outline text="brands" title="brands">
       <outline type="link" text="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" title="They&apos;re Famous. They&apos;re Everywhere. And They&apos;re Fake" url="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" htmlUrl="https://www.nytimes.com/2025/09/03/style/ai-influencers-til-miquela-mia-zelu.html" created="Fri, 05 Sep 2025 10:30:00 GMT" category="influencers,brands,character-ai" />
     </outline>
@@ -1578,6 +1585,11 @@ Genuinely helpful: benefiting the operators and users they interact with.
 In cases of apparent conflict, Claude should generally prioritize these properties in the order in which they’re listed.
 
 Most of the constitution is focused on giving more detailed explanations and guidance about these priorities. The main sections are as follows:" created="Thu, 22 Jan 2026 13:11:31 GMT" category="ethics,ai,claude,anthropic,constitution,standards" />
+    </outline>
+    <outline text="consumerism" title="consumerism">
+      <outline type="link" text="The Brand Age" title="The Brand Age" url="https://paulgraham.com/brandage.html" htmlUrl="https://paulgraham.com/brandage.html" description="ai/DR ignore brand hype and follow interesting problems instead 
+
+" created="Thu, 05 Mar 2026 21:06:14 GMT" category="brand,consumerism,luxury,signaling" />
     </outline>
     <outline text="consumption" title="consumption">
       <outline type="link" text="Why Civilizations Flourish—and Fail" title="Why Civilizations Flourish—and Fail" url="https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg" htmlUrl="https://www.imf.org/en/publications/fandd/issues/2025/12/why-civilizations-flourish-and-fail-johan-norberg" description="Often they abandoned the international trade that had brought them wealth and sparked creativity. Sometimes commerce collapsed because wars made roads and sea-lanes unsafe, as in Rome and during the late Renaissance. In a reaction against the openness of Song China, the subsequent Ming dynasty banned foreign trade altogether, and the militarization of the Roman and Abbasid economies extinguished commerce.
@@ -2732,6 +2744,10 @@ I’m not telling you to skip verification. But I am telling you to know what yo
 The incident occurred within Mixpanel’s systems and involved limited analytics data related to some users of the API. Users of ChatGPT and other products were not impacted." created="Thu, 27 Nov 2025 14:27:04 GMT" category="openai,security,data,breach,incident. coms,ethics" />
     </outline>
     <outline text="index" title="index">
+      <outline type="link" text="livenow.news" title="livenow.news" url="https://livenow.news/" htmlUrl="https://livenow.news/" description="Official streams for live English television news channels from across the world
+
+Choose a channel above, or use arrow keys to switch channel.
+Financial news channels have been removed to focus on breaking news." created="Thu, 05 Mar 2026 21:25:38 GMT" category="news,television,tv,live,index" />
       <outline type="link" text="Can AI Work with You?" title="Can AI Work with You?" url="https://iceberg.mit.edu/" htmlUrl="https://iceberg.mit.edu/" description="What does the Iceberg Index measure?
 The Index measures where AI systems overlap with the skills used in each occupation. A score reflects the share of wage value linked to skills where current AI systems show technical capability. For example, a score of 12% means AI overlaps with skills representing 12% of that occupation’s wage value, not 12% of jobs. This reflects skill overlap, not job displacement." created="Mon, 01 Dec 2025 14:08:59 GMT" category="jobs,model,ai,index" visits="1" />
     </outline>
@@ -3094,6 +3110,12 @@ I’m not telling you to skip verification. But I am telling you to know what yo
 From Greg’s page, let’s go and try each entry one by one, I’ll put the table of what I wasn’t able to find in Common Crawl, but I would assume exists elsewhere—I’d be happy to take another look. And no, none of this above has been written by AI, only the code since I don’t really care about warcio encoding or writing the same python requests method for the Nth time. Enjoy!" created="Sun, 14 Dec 2025 13:51:20 GMT" category="list,archive-practice,common-crawl" />
       <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
     </outline>
+    <outline text="live" title="live">
+      <outline type="link" text="livenow.news" title="livenow.news" url="https://livenow.news/" htmlUrl="https://livenow.news/" description="Official streams for live English television news channels from across the world
+
+Choose a channel above, or use arrow keys to switch channel.
+Financial news channels have been removed to focus on breaking news." created="Thu, 05 Mar 2026 21:25:38 GMT" category="news,television,tv,live,index" />
+    </outline>
     <outline text="living-better" title="living-better">
       <outline type="link" text="Helsinki just went a full year without a single traffic death" title="Helsinki just went a full year without a single traffic death" url="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" htmlUrl="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" description="Helsinki hasn’t registered a single traffic-related fatality in the past year. " created="Thu, 05 Mar 2026 12:49:37 GMT" category="helsinki,automotive,living-better,finland,transportation,safety" />
     </outline>
@@ -3175,6 +3197,11 @@ The bill requires the biggest AI companies to publish safety protocols for serio
     </outline>
     <outline text="lunch_with_the_ft" title="lunch_with_the_ft">
       <outline type="link" text="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" title="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" url="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" htmlUrl="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" created="Sun, 07 Sep 2025 00:10:53 GMT" category="financial_times,geoffrey_hinton,lunch_with_the_ft,ai,ethics" />
+    </outline>
+    <outline text="luxury" title="luxury">
+      <outline type="link" text="The Brand Age" title="The Brand Age" url="https://paulgraham.com/brandage.html" htmlUrl="https://paulgraham.com/brandage.html" description="ai/DR ignore brand hype and follow interesting problems instead 
+
+" created="Thu, 05 Mar 2026 21:06:14 GMT" category="brand,consumerism,luxury,signaling" />
     </outline>
     <outline text="lyria" title="lyria">
       <outline type="link" text="Lyria — Gemini AI music &amp; song generator" title="Lyria — Gemini AI music &amp; song generator" url="https://gemini.google/overview/music-generation/" htmlUrl="https://gemini.google/overview/music-generation/" description="Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack." created="Mon, 23 Feb 2026 14:26:29 GMT" category="lyria,gemini,music,song,generator,musicvideo,google" />
@@ -3524,6 +3551,7 @@ space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,thr
 Nano, the smallest model, outperforms comparable models in accuracy while remaining extremely cost-efficient for inference. Super is optimized for collaborative agents and high-volume workloads such as IT ticket automation. Ultra, the largest model, provides state-of-the-art accuracy and reasoning performance." created="Wed, 17 Dec 2025 02:56:20 GMT" category="ai,model,training,nvidia,nemotron3" />
     </outline>
     <outline text="netflix" title="netflix">
+      <outline type="link" text="Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix" title="Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix" url="https://about.netflix.com/en/news/why-interpositive-is-joining-netflix" htmlUrl="https://about.netflix.com/en/news/why-interpositive-is-joining-netflix" description="For more than two decades, Netflix has paired technology with artistry to help great films and shows find their audience. By bringing InterPositive’s entire team into Netflix through this acquisition, and with Affleck joining as Senior Advisor, we’re investing in creator-led innovation that keeps filmmakers at the center of the process.  " created="Thu, 05 Mar 2026 21:18:24 GMT" category="ai,ai-hollywood,netflix" />
       <outline type="link" text="AV1 — Now Powering 30% of Netflix Streaming" title="AV1 — Now Powering 30% of Netflix Streaming" url="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" htmlUrl="https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80" description="Looking ahead, we are excited about the forthcoming release of AV2, announced by the Alliance for Open Media for the end of 2025. AV2 is poised to set a new benchmark for compression efficiency and streaming capabilities, building on the solid foundation laid by AV1. 
 
 At Netflix, we remain committed to adopting the best open technologies to delight our members around the globe. While AV2 represents the future of streaming, AV1 is very much the present — serving as the backbone of our platform and powering exceptional entertainment experiences across a vast and ever-expanding ecosystem of devices." created="Fri, 05 Dec 2025 02:30:09 GMT" category="av1,video-encoding,streaming,aomedia,netflix" />
@@ -3583,6 +3611,10 @@ We wrote about the first 18 hours of exploitation activity back on January 22. T
 " created="Thu, 13 Nov 2025 12:25:16 GMT" category="meta,neurotechnology,brain,privacy,ethics,surveillance" />
     </outline>
     <outline text="news" title="news">
+      <outline type="link" text="livenow.news" title="livenow.news" url="https://livenow.news/" htmlUrl="https://livenow.news/" description="Official streams for live English television news channels from across the world
+
+Choose a channel above, or use arrow keys to switch channel.
+Financial news channels have been removed to focus on breaking news." created="Thu, 05 Mar 2026 21:25:38 GMT" category="news,television,tv,live,index" />
       <outline type="link" text="Chyrons" title="Chyrons" url="https://walzr.com/chyrons" htmlUrl="https://walzr.com/chyrons" created="Fri, 12 Sep 2025 11:35:09 GMT" category="broadcast,news,chryon" />
     </outline>
     <outline text="newyorkcity" title="newyorkcity">
@@ -4583,6 +4615,11 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
     <outline text="shopping" title="shopping">
       <outline type="link" text="Way past its prime: how did Amazon get so rubbish?" title="Way past its prime: how did Amazon get so rubbish?" url="https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish" htmlUrl="https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish" description="The Amazon flywheel is designed to fit neatly into the consumer welfare framework. It proclaims itself to be an enemy to merchants on behalf of consumers. The flywheel is all about lowering prices, and the consumer welfare standard theory prizes low prices above all else." created="Mon, 06 Oct 2025 20:44:17 GMT" category="amazon,shopping,ux,shitification" />
     </outline>
+    <outline text="signaling" title="signaling">
+      <outline type="link" text="The Brand Age" title="The Brand Age" url="https://paulgraham.com/brandage.html" htmlUrl="https://paulgraham.com/brandage.html" description="ai/DR ignore brand hype and follow interesting problems instead 
+
+" created="Thu, 05 Mar 2026 21:06:14 GMT" category="brand,consumerism,luxury,signaling" />
+    </outline>
     <outline text="size" title="size">
       <outline type="link" text="Size of Life" title="Size of Life" url="https://neal.fun/size-of-life/" htmlUrl="https://neal.fun/size-of-life/" created="Wed, 10 Dec 2025 17:29:15 GMT" category="size,life,scale" />
     </outline>
@@ -4894,6 +4931,10 @@ The Outcome: Incumbents who use AI to &quot;do the old thing faster&quot; will l
       <outline type="link" text="NYC Telecom Raid: What’s Up With Those Weird SIM Banks?" title="NYC Telecom Raid: What’s Up With Those Weird SIM Banks?" url="https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/" htmlUrl="https://tedium.co/2025/09/23/secret-service-raid-sim-bank-telecom-hardware/" created="Wed, 24 Sep 2025 01:23:17 GMT" category="surveillance,telcom" />
     </outline>
     <outline text="television" title="television">
+      <outline type="link" text="livenow.news" title="livenow.news" url="https://livenow.news/" htmlUrl="https://livenow.news/" description="Official streams for live English television news channels from across the world
+
+Choose a channel above, or use arrow keys to switch channel.
+Financial news channels have been removed to focus on breaking news." created="Thu, 05 Mar 2026 21:25:38 GMT" category="news,television,tv,live,index" />
       <outline type="link" text="Samsung TVs to stop collecting Texans’ data without express consent" title="Samsung TVs to stop collecting Texans’ data without express consent" url="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" htmlUrl="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" description="As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to consumers." created="Tue, 03 Mar 2026 11:08:44 GMT" category="samsung,texans,surveillance,privacy,television,tv" />
     </outline>
     <outline text="texans" title="texans">
@@ -5060,6 +5101,10 @@ And I know that I&apos;m not alone." created="Wed, 15 Oct 2025 22:53:02 GMT" cat
 If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="tv" title="tv">
+      <outline type="link" text="livenow.news" title="livenow.news" url="https://livenow.news/" htmlUrl="https://livenow.news/" description="Official streams for live English television news channels from across the world
+
+Choose a channel above, or use arrow keys to switch channel.
+Financial news channels have been removed to focus on breaking news." created="Thu, 05 Mar 2026 21:25:38 GMT" category="news,television,tv,live,index" />
       <outline type="link" text="Samsung TVs to stop collecting Texans’ data without express consent" title="Samsung TVs to stop collecting Texans’ data without express consent" url="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" htmlUrl="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" description="As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to consumers." created="Tue, 03 Mar 2026 11:08:44 GMT" category="samsung,texans,surveillance,privacy,television,tv" />
       <outline type="link" text="Texas Sues Five Major TV Companies, Including Some with Ties to the CCP, for Spying on Texans" title="Texas Sues Five Major TV Companies, Including Some with Ties to the CCP, for Spying on Texans" url="https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-five-major-tv-companies-including-some-ties-ccp-spying-texans" htmlUrl="https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-sues-five-major-tv-companies-including-some-ties-ccp-spying-texans" description="These companies have been unlawfully collecting personal data through Automated Content Recognition (“ACR”) technology. ACR in its simplest terms is an uninvited, invisible digital invader. This software can capture screenshots of a user’s television display every 500 milliseconds, monitor viewing activity in real time, and transmit that information back to the company without the user’s knowledge or consent. The companies then sell that consumer information to target ads across platforms for a profit. This technology puts users’ privacy and sensitive information, such as passwords, bank information, and other personal information at risk." created="Tue, 16 Dec 2025 23:09:28 GMT" category="tv,privacy" />
       <outline type="link" text="TV Time Machine: A Raspberry Pi That Plays Random 90s TV" title="TV Time Machine: A Raspberry Pi That Plays Random 90s TV" url="https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html" htmlUrl="https://quarters.captaintouch.com/blog/posts/2025-09-20-tv-time-machine-a-raspberry-pi-that-plays-random-90s-tv.html" description=" Take a Raspberry Pi (I used a cheap tiny Raspberry Pi 3A+), - Fill the SD card with all your favorite shows from your childhood - Add a script that starts playing those shows in a random order at startup" created="Sun, 21 Sep 2025 10:24:51 GMT" category="tv,raspi,playlist" />
