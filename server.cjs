@@ -7,13 +7,11 @@ const cors = require('cors');
 const rateLimit = require('express-rate-limit');
 const { generateRSS } = require('./utils/rss-generator.cjs');
 const activityPubRoutes = require('./routes/activitypub.cjs');
-const ArchiveManager = require('./utils/archive-manager.cjs');
 const DigestManager = require('./utils/digest-manager.cjs');
 
 const app = express();
 const digestManager = new DigestManager();
 const PORT = 3001;
-const archiveManager = new ArchiveManager();
 
 // Rate limiting - prevent abuse
 const apiLimiter = rateLimit({
@@ -155,28 +153,11 @@ app.post('/api/save-links', writeLimiter, async (req, res) => {
 
     console.log(`✅ Saved ${data.links.length} links at ${new Date().toLocaleTimeString()}`);
 
-    // Check if digest should be auto-generated
-    let digestResult = null;
-    try {
-      digestResult = await digestManager.checkAndAutoGenerate();
-      if (digestResult.success) {
-        console.log(`📧 Auto-generated Digest #${digestResult.digestNumber} with ${digestResult.count} links → ${digestResult.filename}`);
-      }
-    } catch (digestError) {
-      console.error('Digest auto-check error:', digestError.message);
-    }
-
     res.json({
       success: true,
       message: 'Links saved successfully',
       count: data.links.length,
-      lastUpdated: saveData.lastUpdated,
-      digest: digestResult?.success ? {
-        generated: true,
-        number: digestResult.digestNumber,
-        count: digestResult.count,
-        filename: digestResult.filename
-      } : null
+      lastUpdated: saveData.lastUpdated
     });
   } catch (error) {
     console.error('Error saving links:', error);
@@ -218,37 +199,16 @@ app.get('/api/sync-status', async (req, res) => {
   }
 });
 
-// Get list of archived years
-app.get('/api/archives', async (req, res) => {
-  try {
-    const metadata = await archiveManager.getArchiveMetadata();
-    res.json(metadata);
-  } catch (error) {
-    console.error('Error reading archive metadata:', error);
-    res.status(500).json({ error: 'Failed to read archive metadata' });
-  }
-});
-
-// Get archive for a specific year
-app.get('/api/archive/:year', async (req, res) => {
-  try {
-    const year = parseInt(req.params.year);
-    const currentYear = new Date().getFullYear();
-
-    // Validate year is a reasonable range (2000 to next year)
-    if (isNaN(year) || year < 2000 || year > currentYear + 1) {
-      return res.status(400).json({ error: 'Invalid year (must be 2000-' + (currentYear + 1) + ')' });
-    }
-
-    const archive = await archiveManager.loadYearArchive(year);
-    res.json(archive);
-  } catch (error) {
-    console.error(`Error reading archive for ${req.params.year}:`, error);
-    res.status(500).json({ error: 'Failed to read archive' });
-  }
-});
-
 // Digest endpoints
+app.get('/api/digests', async (req, res) => {
+  try {
+    const digestsData = await digestManager.loadDigests();
+    res.json(digestsData);
+  } catch (error) {
+    console.error('Error reading digests:', error);
+    res.status(500).json({ error: 'Failed to read digests' });
+  }
+});
 app.get('/api/digest/status', async (req, res) => {
   try {
     const status = await digestManager.getStatus();
@@ -261,8 +221,8 @@ app.get('/api/digest/status', async (req, res) => {
 
 app.post('/api/digest/generate', async (req, res) => {
   try {
-    const { markAsDigested = false } = req.body || {};
-    const result = await digestManager.createDigest(markAsDigested);
+    const { writeup = '', markAsDigested = false } = req.body || {};
+    const result = await digestManager.createDigest(writeup, markAsDigested);
     res.json(result);
   } catch (error) {
     console.error('Error generating digest:', error);
@@ -331,10 +291,10 @@ if (require.main === module) {
    Keep this running alongside your Vite dev server.
 
    API Endpoints:
-   - POST /api/save-links - Save links to JSON files (auto-archives old years)
+   - POST /api/save-links - Save links to JSON files
    - GET  /api/links      - Get current links
-   - GET  /api/archives   - Get archive metadata
-   - GET  /api/archive/:year - Get links from specific year
+   - GET  /api/digests    - Get digests data
+   - POST /api/digest/generate - Generate a new digest
 
    RSS Feed Endpoints:
    - GET  /feed.xml       - RSS 2.0 feed
@@ -352,8 +312,6 @@ if (require.main === module) {
    🌐 To enable federation, ensure this server is accessible at:
       https://newsfeeds.net
 
-   📦 Archive System: Links are automatically archived by year on save.
-      Current year stays in links.json, older years move to archive/
     `);
   });
 }

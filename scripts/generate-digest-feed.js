@@ -32,8 +32,8 @@ function generate() {
     .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
 
   const feed = new Feed({
-    title: 'newsfeeds.net - Digests',
-    description: 'Periodic digest roundups of curated links on media, technology, AI, copyright, and digital culture.',
+    title: 'newsfeeds.net - Weekly Digests',
+    description: 'Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.',
     id: `${CONFIG.siteUrl}/feed-digests.xml`,
     link: CONFIG.siteUrl,
     language: 'en',
@@ -57,8 +57,13 @@ function generate() {
       console.warn(`  Warning: ${digest.filename} not found, skipping content`);
     }
 
-    const dateStr = digest.filename.match(/\d{4}-\d{2}-\d{2}/)?.[0] || '';
-    const title = `Digest #${digest.id}${dateStr ? ` - ${dateStr}` : ''}`;
+    // Prepend writeup to content if present
+    if (digest.writeup) {
+      const writeupHtml = `<blockquote><p>${digest.writeup.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p></blockquote>`;
+      content = writeupHtml + content;
+    }
+
+    const title = digest.title || `Digest #${digest.id}`;
 
     feed.addItem({
       title,

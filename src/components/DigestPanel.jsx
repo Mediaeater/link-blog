@@ -8,6 +8,7 @@ export default function DigestPanel() {
   const [generating, setGenerating] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [generatedHtml, setGeneratedHtml] = useState('');
+  const [writeup, setWriteup] = useState('');
   const [copied, setCopied] = useState(false);
   const [error, setError] = useState(null);
 
@@ -30,27 +31,48 @@ export default function DigestPanel() {
     fetchStatus();
   }, [fetchStatus]);
 
-  const handleGenerate = async (markAsDigested = false) => {
+  const handlePreview = async () => {
     setGenerating(true);
     setCopied(false);
     try {
       const response = await fetch(`${API_BASE}/api/digest/generate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ markAsDigested })
+        body: JSON.stringify({ writeup, markAsDigested: false })
       });
       const data = await response.json();
       if (data.success) {
         setGeneratedHtml(data.html);
         setShowModal(true);
-        if (markAsDigested) {
-          fetchStatus();
-        }
       } else {
         setError(data.error || 'Failed to generate digest');
       }
     } catch (err) {
       setError('Failed to generate digest');
+    } finally {
+      setGenerating(false);
+    }
+  };
+
+  const handlePublish = async () => {
+    setGenerating(true);
+    try {
+      const response = await fetch(`${API_BASE}/api/digest/generate`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ writeup, markAsDigested: true })
+      });
+      const data = await response.json();
+      if (data.success) {
+        setShowModal(false);
+        setWriteup('');
+        setGeneratedHtml('');
+        fetchStatus();
+      } else {
+        setError(data.error || 'Failed to publish digest');
+      }
+    } catch (err) {
+      setError('Failed to publish digest');
     } finally {
       setGenerating(false);
     }
@@ -71,29 +93,28 @@ export default function DigestPanel() {
     }
   };
 
-  const handleMarkAsDigested = async () => {
-    await handleGenerate(true);
-    setShowModal(false);
-  };
-
   if (loading) return null;
+
+  const dateRange = status?.weekStart && status?.weekEnd
+    ? `${status.weekStart} to ${status.weekEnd}`
+    : 'no links yet';
 
   return (
     <>
       <div className="flex items-center gap-2">
         <button
-          onClick={() => handleGenerate(false)}
+          onClick={handlePreview}
           disabled={generating || !status || status.undigestedCount === 0}
           className={`px-3 py-1.5 rounded text-sm font-medium flex items-center gap-2 ${
-            status?.ready
+            status?.undigestedCount > 0
               ? 'bg-amber-500 hover:bg-amber-600 text-white'
               : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
           } disabled:opacity-50 disabled:cursor-not-allowed`}
         >
-          {generating ? 'Generating...' : 'WP Digest'}
+          {generating ? 'Working...' : 'Digest'}
           {status && (
             <span className={`px-1.5 py-0.5 rounded text-xs ${
-              status.ready ? 'bg-amber-600' : 'bg-gray-400 dark:bg-gray-600'
+              status.undigestedCount > 0 ? 'bg-amber-600' : 'bg-gray-400 dark:bg-gray-600'
             }`}>
               {status.undigestedCount}
             </span>
@@ -106,7 +127,7 @@ export default function DigestPanel() {
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] flex flex-col">
             <div className="p-4 border-b dark:border-gray-700 flex justify-between items-center">
               <h2 className="text-lg font-semibold">
-                WordPress Digest ({status?.undigestedCount} links)
+                Publish Digest ({status?.undigestedCount} links, {dateRange})
               </h2>
               <button
                 onClick={() => setShowModal(false)}
@@ -117,11 +138,19 @@ export default function DigestPanel() {
             </div>
 
             <div className="p-4 flex-1 overflow-auto">
+              <label className="block text-sm font-medium mb-2">Editorial writeup (optional):</label>
+              <textarea
+                value={writeup}
+                onChange={(e) => setWriteup(e.target.value)}
+                placeholder="A short paragraph about this week's links..."
+                className="w-full h-24 p-2 text-sm border rounded dark:bg-gray-900 dark:border-gray-600 mb-4"
+              />
+
               <label className="block text-sm font-medium mb-2">HTML Output:</label>
               <textarea
                 readOnly
                 value={generatedHtml}
-                className="w-full h-48 p-2 font-mono text-sm border rounded dark:bg-gray-900 dark:border-gray-600"
+                className="w-full h-32 p-2 font-mono text-sm border rounded dark:bg-gray-900 dark:border-gray-600"
               />
 
               <label className="block text-sm font-medium mt-4 mb-2">Preview:</label>
@@ -146,16 +175,15 @@ export default function DigestPanel() {
                     : 'bg-blue-500 hover:bg-blue-600 text-white'
                 }`}
               >
-                {copied ? '✓ Copied!' : 'Copy HTML'}
+                {copied ? 'Copied!' : 'Copy HTML'}
               </button>
-              {copied && (
-                <button
-                  onClick={handleMarkAsDigested}
-                  className="px-4 py-2 rounded bg-amber-500 hover:bg-amber-600 text-white"
-                >
-                  Mark as Digested
-                </button>
-              )}
+              <button
+                onClick={handlePublish}
+                disabled={generating}
+                className="px-4 py-2 rounded bg-amber-500 hover:bg-amber-600 text-white disabled:opacity-50"
+              >
+                {generating ? 'Publishing...' : 'Publish Digest'}
+              </button>
             </div>
           </div>
         </div>

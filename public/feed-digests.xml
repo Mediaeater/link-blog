@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>newsfeeds.net - Digests</title>
+        <title>newsfeeds.net - Weekly Digests</title>
         <link>https://newsfeeds.net</link>
-        <description>Periodic digest roundups of curated links on media, technology, AI, copyright, and digital culture.</description>
+        <description>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</description>
         <lastBuildDate>Thu, 05 Mar 2026 12:52:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <atom:link href="https://newsfeeds.net/feed-digests.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Digest #8 - 2026-03-05]]></title>
+            <title><![CDATA[Feb 26 - Mar 4, 2026]]></title>
             <link>https://newsfeeds.net</link>
             <guid>https://newsfeeds.net/digest/8</guid>
             <pubDate>Thu, 05 Mar 2026 12:52:51 GMT</pubDate>
@@ -131,7 +131,7 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 </html>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digest #7 - 2026-03-03]]></title>
+            <title><![CDATA[Feb 13 - Mar 2, 2026]]></title>
             <link>https://newsfeeds.net</link>
             <guid>https://newsfeeds.net/digest/7</guid>
             <pubDate>Tue, 03 Mar 2026 11:07:51 GMT</pubDate>
@@ -249,7 +249,7 @@ These updates build on the framework we announced last week and we hope will hel
 </html>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digest #6 - 2026-02-24]]></title>
+            <title><![CDATA[Feb 11-23, 2026]]></title>
             <link>https://newsfeeds.net</link>
             <guid>https://newsfeeds.net/digest/6</guid>
             <pubDate>Tue, 24 Feb 2026 00:06:06 GMT</pubDate>
@@ -376,7 +376,7 @@ Signed edition of 100</p>
 </html>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digest #5 - 2026-02-11]]></title>
+            <title><![CDATA[Jan 30 - Feb 10, 2026]]></title>
             <link>https://newsfeeds.net</link>
             <guid>https://newsfeeds.net/digest/5</guid>
             <pubDate>Wed, 11 Feb 2026 21:16:53 GMT</pubDate>
@@ -487,7 +487,7 @@ Communication should be available to everyone as a free and open, unencumbered, 
 </html>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digest #4 - 2026-01-31]]></title>
+            <title><![CDATA[Jan 21-30, 2026]]></title>
             <link>https://newsfeeds.net</link>
             <guid>https://newsfeeds.net/digest/4</guid>
             <pubDate>Sat, 31 Jan 2026 23:27:02 GMT</pubDate>
@@ -606,7 +606,7 @@ Chatrie’s appeal challenges the constitutionality of geofence warrants, arguin
 </html>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digest #3 - 2026-01-22]]></title>
+            <title><![CDATA[Jan 17-21, 2026]]></title>
             <link>https://newsfeeds.net</link>
             <guid>https://newsfeeds.net/digest/3</guid>
             <pubDate>Thu, 22 Jan 2026 13:07:06 GMT</pubDate>
@@ -720,7 +720,7 @@ How can humanity navigate the promises and perils of AI, and what values should 
 </html>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Digest #2 - 2026-01-18]]></title>
+            <title><![CDATA[Jan 3-17, 2026]]></title>
             <link>https://newsfeeds.net</link>
             <guid>https://newsfeeds.net/digest/2</guid>
             <pubDate>Sun, 18 Jan 2026 14:26:57 GMT</pubDate>

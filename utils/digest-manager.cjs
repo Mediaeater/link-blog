@@ -14,7 +14,7 @@ class DigestManager {
       const content = await fs.readFile(this.digestsPath, 'utf8');
       return JSON.parse(content);
     } catch (error) {
-      return { version: '1.0.0', threshold: 15, digests: [] };
+      return { version: '2.0.0', cadence: 'weekly', digests: [] };
     }
   }
 
@@ -51,14 +51,43 @@ class DigestManager {
       .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   }
 
+  /**
+   * Compute date range from a set of links
+   */
+  getWeekRange(links) {
+    if (links.length === 0) return { weekStart: null, weekEnd: null };
+    const sorted = [...links].sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+    const weekStart = new Date(sorted[0].timestamp).toISOString().split('T')[0];
+    const weekEnd = new Date(sorted[sorted.length - 1].timestamp).toISOString().split('T')[0];
+    return { weekStart, weekEnd };
+  }
+
+  /**
+   * Format a date range title: "Mar 3-9, 2026" or "Feb 24 - Mar 2, 2026"
+   */
+  formatDigestTitle(weekStart, weekEnd) {
+    const start = new Date(weekStart + 'T12:00:00Z');
+    const end = new Date(weekEnd + 'T12:00:00Z');
+    const opts = { month: 'short', day: 'numeric' };
+    const startStr = start.toLocaleDateString('en-US', opts);
+    const sameMonth = start.getMonth() === end.getMonth() && start.getFullYear() === end.getFullYear();
+
+    if (sameMonth) {
+      return `${startStr}-${end.getUTCDate()}, ${end.getUTCFullYear()}`;
+    }
+    const endStr = end.toLocaleDateString('en-US', opts);
+    return `${startStr} - ${endStr}, ${end.getUTCFullYear()}`;
+  }
+
   async getStatus() {
     const digestsData = await this.loadDigests();
     const undigestedLinks = await this.getUndigestedLinks();
+    const { weekStart, weekEnd } = this.getWeekRange(undigestedLinks);
 
     return {
-      threshold: digestsData.threshold,
       undigestedCount: undigestedLinks.length,
-      ready: undigestedLinks.length >= digestsData.threshold,
+      weekStart,
+      weekEnd,
       totalDigests: digestsData.digests.length,
       lastDigest: digestsData.digests[digestsData.digests.length - 1] || null
     };
@@ -76,38 +105,39 @@ class DigestManager {
     return `<ul>\n${items.join('\n')}\n</ul>`;
   }
 
-  generateEmailHtml(links, digestNumber, dateStr) {
+  generateEmailHtml(links, digestNumber, title, writeup) {
     if (links.length === 0) return '';
 
     const items = links.map(link => {
-      const title = this.escapeHtml(link.source || link.url);
+      const linkTitle = this.escapeHtml(link.source || link.url);
       const url = this.escapeHtml(link.url);
       const domain = this.extractDomain(link.url);
       const quote = link.pullQuote ? `<p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">${this.escapeHtml(link.pullQuote)}</p>` : '';
 
       return `<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
-  <a href="${url}" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">${title}</a>
+  <a href="${url}" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">${linkTitle}</a>
   <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">${domain}</p>${quote}
 </div>`;
     }).join('\n');
 
-    const firstDate = new Date(links[0].timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-    const lastDate = new Date(links[links.length - 1].timestamp).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-    const dateRange = firstDate === lastDate ? lastDate : `${firstDate} - ${lastDate}`;
+    const writeupHtml = writeup
+      ? `<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;">${this.escapeHtml(writeup)}</div>`
+      : '';
 
     return `<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>newsfeeds.net Digest #${digestNumber}</title>
+  <title>newsfeeds.net - ${this.escapeHtml(title)}</title>
 </head>
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
   <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
     <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
-    <p style="margin: 0; color: #666; font-size: 14px;">Digest #${digestNumber} &middot; ${dateRange} &middot; ${links.length} links</p>
+    <p style="margin: 0; color: #666; font-size: 14px;">${this.escapeHtml(title)} &middot; ${links.length} links</p>
   </header>
 
+${writeupHtml}
   <main>
 ${items}
   </main>
@@ -137,7 +167,7 @@ ${items}
       .replace(/'/g, '&#39;');
   }
 
-  async createDigest(markAsDigested = true) {
+  async createDigest(writeup = '', markAsDigested = true) {
     const undigestedLinks = await this.getUndigestedLinks();
 
     if (undigestedLinks.length === 0) {
@@ -146,89 +176,62 @@ ${items}
 
     const html = this.generateHtml(undigestedLinks);
     const linkIds = undigestedLinks.map(link => link.id);
+    const { weekStart, weekEnd } = this.getWeekRange(undigestedLinks);
+    const title = this.formatDigestTitle(weekStart, weekEnd);
 
     if (markAsDigested) {
       const digestsData = await this.loadDigests();
+      const digestNumber = digestsData.digests.length + 1;
+
+      // Save HTML file
+      const { filename } = await this.saveDigestToFile(undigestedLinks, digestNumber, title, writeup);
+
       const newDigest = {
-        id: digestsData.digests.length + 1,
+        id: digestNumber,
         timestamp: new Date().toISOString(),
-        linkIds: linkIds,
-        count: linkIds.length
+        linkIds,
+        count: linkIds.length,
+        filename,
+        weekStart,
+        weekEnd,
+        title,
+        writeup
       };
       digestsData.digests.push(newDigest);
       await this.saveDigests(digestsData);
+
+      return {
+        success: true,
+        html,
+        count: undigestedLinks.length,
+        marked: true,
+        digestNumber,
+        filename,
+        title
+      };
     }
 
     return {
       success: true,
-      html: html,
+      html,
       count: undigestedLinks.length,
-      marked: markAsDigested
+      marked: false,
+      title
     };
   }
 
-  async saveDigestToFile(links, digestNumber) {
+  async saveDigestToFile(links, digestNumber, title, writeup) {
     const dateStr = new Date().toISOString().split('T')[0];
     const paddedNum = String(digestNumber).padStart(3, '0');
     const filename = `digest-${paddedNum}-${dateStr}.html`;
     const filepath = path.join(this.digestsDir, filename);
 
-    // Ensure directory exists
     await fs.mkdir(this.digestsDir, { recursive: true });
 
-    const emailHtml = this.generateEmailHtml(links, digestNumber, dateStr);
+    const emailHtml = this.generateEmailHtml(links, digestNumber, title, writeup);
     await fs.writeFile(filepath, emailHtml, 'utf8');
 
     return { filename, filepath };
-  }
-
-  async createAndSaveDigest() {
-    const undigestedLinks = await this.getUndigestedLinks();
-
-    if (undigestedLinks.length === 0) {
-      return { success: false, error: 'No undigested links' };
-    }
-
-    const digestsData = await this.loadDigests();
-    const digestNumber = digestsData.digests.length + 1;
-    const linkIds = undigestedLinks.map(link => link.id);
-
-    // Save to file
-    const { filename, filepath } = await this.saveDigestToFile(undigestedLinks, digestNumber);
-
-    // Mark as digested
-    const newDigest = {
-      id: digestNumber,
-      timestamp: new Date().toISOString(),
-      linkIds: linkIds,
-      count: linkIds.length,
-      filename: filename
-    };
-    digestsData.digests.push(newDigest);
-    await this.saveDigests(digestsData);
-
-    return {
-      success: true,
-      digestNumber,
-      count: undigestedLinks.length,
-      filename,
-      filepath
-    };
-  }
-
-  async checkAndAutoGenerate() {
-    const status = await this.getStatus();
-
-    if (status.undigestedCount >= status.threshold) {
-      return await this.createAndSaveDigest();
-    }
-
-    return {
-      success: false,
-      reason: 'threshold_not_met',
-      undigestedCount: status.undigestedCount,
-      threshold: status.threshold
-    };
   }
 }
 

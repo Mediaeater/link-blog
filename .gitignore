@@ -57,6 +57,11 @@ data/activitypub/activities.json
 # scripts/dev-with-save.cjs
 # scripts/sync-from-browser.js
 
+# Removed components and utilities (kept locally, not tracked)
+src/components/NewsTicker.jsx
+utils/archive-manager.cjs
+scripts/migrate-to-archive.cjs
+
 # Generated public assets (auto-generated during build)
 public/feed.xml
 public/sitemap.xml

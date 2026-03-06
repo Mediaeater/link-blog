@@ -14,9 +14,8 @@ import {
   AlertTriangle
 } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
-import { loadArchiveMetadata, loadArchiveYear } from '../utils/storage';
-import NewsTicker from './NewsTicker';
 import DigestPanel from './DigestPanel';
+import DigestView from './DigestView';
 
 const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
 const STORAGE_KEY = 'linkBlogData';
@@ -46,12 +45,11 @@ export default function LinkBlogClean() {
   const [autocompleteIndex, setAutocompleteIndex] = useState(0);
   const [isLegendExpanded, setIsLegendExpanded] = useState(false);
   const [isMinimalView, setIsMinimalView] = useState(false);
-  const [archives, setArchives] = useState([]);
-  const [loadedArchives, setLoadedArchives] = useState(new Set());
   const [searchExpanded, setSearchExpanded] = useState(false);
   const [saveError, setSaveError] = useState(null);
   const [dataWarning, setDataWarning] = useState(null);
-  const [showTicker, setShowTicker] = useState(false);
+  const [showDigests, setShowDigests] = useState(false);
+  const [digestsData, setDigestsData] = useState(null);
 
   const searchRef = useRef(null);
   const autoBackupRef = useRef(null);
@@ -202,38 +200,21 @@ export default function LinkBlogClean() {
     }
   }, []);
 
-  // Load archive metadata
-  const loadArchivesList = useCallback(async () => {
+  const API_BASE = import.meta.env.DEV ? 'http://127.0.0.1:3001' : '';
+
+  const loadDigests = useCallback(async () => {
     try {
-      const metadata = await loadArchiveMetadata();
-      setArchives(metadata);
+      const response = import.meta.env.DEV
+        ? await fetch(`${API_BASE}/api/digests`)
+        : await fetch('/data/digests.json?' + Date.now());
+      if (response.ok) {
+        const data = await response.json();
+        setDigestsData(data);
+      }
     } catch (error) {
-      console.error('Error loading archive metadata:', error);
+      console.error('Error loading digests:', error);
     }
   }, []);
-
-  // Load a specific archive year
-  const loadArchive = useCallback(async (year) => {
-    if (loadedArchives.has(year)) {
-      return; // Already loaded
-    }
-
-    try {
-      const archiveLinks = await loadArchiveYear(year);
-      setLinks(currentLinks => [...currentLinks, ...archiveLinks]);
-      setLoadedArchives(prev => new Set([...prev, year]));
-      console.log(`Loaded ${archiveLinks.length} links from ${year} archive`);
-    } catch (error) {
-      console.error(`Error loading archive ${year}:`, error);
-    }
-  }, [loadedArchives]);
-
-  // Load all archives at once
-  const loadAllArchives = useCallback(async () => {
-    for (const archive of archives) {
-      await loadArchive(archive.year);
-    }
-  }, [archives, loadArchive]);
 
   // Auto-backup to localStorage backup key (overwrites each time)
   const performAutoBackup = useCallback(() => {
@@ -280,7 +261,6 @@ export default function LinkBlogClean() {
   // Load initial data and URL parameters
   useEffect(() => {
     loadLinks();
-    loadArchivesList();
     const urlParams = new URLSearchParams(window.location.search);
     const adminParam = urlParams.get('admin');
     // Clean the admin parameter - remove any trailing special characters or whitespace
@@ -292,7 +272,7 @@ export default function LinkBlogClean() {
     if (tagParam) {
       setSelectedTags([tagParam]);
     }
-  }, [loadLinks, loadArchivesList]);
+  }, [loadLinks]);
 
   // Update URL when tags change
   useEffect(() => {
@@ -314,6 +294,13 @@ export default function LinkBlogClean() {
     const newUrl = newParams.toString() ? `?${newParams.toString()}` : window.location.pathname;
     window.history.replaceState({}, '', newUrl);
   }, [selectedTags]);
+
+  // Load digests when panel is opened
+  useEffect(() => {
+    if (showDigests && !digestsData) {
+      loadDigests();
+    }
+  }, [showDigests, digestsData, loadDigests]);
 
   // Fetch URL metadata
   const fetchUrlMetadata = async (url) => {
@@ -831,21 +818,10 @@ export default function LinkBlogClean() {
                 </li>
                 <li>
                   <button
-                    onClick={() => {
-                      loadAllArchives();
-                      document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' });
-                    }}
-                    className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
+                    onClick={() => setShowDigests(prev => !prev)}
+                    className={`px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors ${showDigests ? 'text-neutral-900 font-medium' : ''}`}
                   >
-                    Archive
-                  </button>
-                </li>
-                <li>
-                  <button
-                    onClick={() => setShowTicker(prev => !prev)}
-                    className={`px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors ${showTicker ? 'text-neutral-900 font-medium' : ''}`}
-                  >
-                    {showTicker ? 'Ticker ●' : 'Ticker'}
+                    Digests
                   </button>
                 </li>
                 <li>
@@ -914,21 +890,10 @@ export default function LinkBlogClean() {
                   </li>
                   <li>
                     <button
-                      onClick={() => {
-                        loadAllArchives();
-                        document.getElementById('archives-section')?.scrollIntoView({ behavior: 'smooth' });
-                      }}
-                      className="px-3 hover:text-neutral-900 transition-colors"
+                      onClick={() => setShowDigests(prev => !prev)}
+                      className={`px-3 hover:text-neutral-900 transition-colors ${showDigests ? 'font-medium' : ''}`}
                     >
-                      Archive
-                    </button>
-                  </li>
-                  <li>
-                    <button
-                      onClick={() => setShowTicker(prev => !prev)}
-                      className={`px-3 hover:text-neutral-900 transition-colors ${showTicker ? 'font-medium' : ''}`}
-                    >
-                      Ticker
+                      Digests
                     </button>
                   </li>
                   <li>
@@ -1420,8 +1385,25 @@ export default function LinkBlogClean() {
           )}
 
 
-          {/* Links List */}
-          {filteredAndSortedLinks.length === 0 ? (
+          {/* Digest View or Links List */}
+          {showDigests ? (
+            digestsData ? (
+              <DigestView
+                digests={digestsData.digests}
+                links={links}
+                onTagClick={(tag) => {
+                  setShowDigests(false);
+                  setSelectedTags(prev =>
+                    prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
+                  );
+                }}
+              />
+            ) : (
+              <div className="text-center py-16">
+                <p className="text-neutral-500">Loading digests...</p>
+              </div>
+            )
+          ) : filteredAndSortedLinks.length === 0 ? (
             <div className="text-center py-16">
               <p className="text-neutral-500">No links found</p>
             </div>
@@ -1435,7 +1417,7 @@ export default function LinkBlogClean() {
               return (
                 <Fragment key={link.id}>
                   {showYearHeader && (
-                    <div id="archives-section" className="py-4 mt-6 mb-2 border-t-2 border-neutral-300">
+                    <div className="py-4 mt-6 mb-2 border-t-2 border-neutral-300">
                       <h2 className="text-xl font-bold text-neutral-700">{linkYear}</h2>
                     </div>
                   )}
@@ -1551,8 +1533,6 @@ export default function LinkBlogClean() {
         </div>
       </main>
 
-      {/* Times Square-style news ticker - landscape mobile or manual toggle */}
-      <NewsTicker links={filteredAndSortedLinks} forceShow={showTicker} onClose={() => setShowTicker(false)} />
     </div>
   );
 }
