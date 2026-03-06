@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 05 Mar 2026 14:36:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 21:25:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[livenow.news]]></title>
+            <link>https://livenow.news/</link>
+            <guid>1772745938811</guid>
+            <pubDate>Thu, 05 Mar 2026 21:25:38 GMT</pubDate>
+            <description><![CDATA[Tags: news, television, tv, live, index]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix]]></title>
+            <link>https://about.netflix.com/en/news/why-interpositive-is-joining-netflix</link>
+            <guid>1772745504860</guid>
+            <pubDate>Thu, 05 Mar 2026 21:18:24 GMT</pubDate>
+            <description><![CDATA[Tags: ai, ai-hollywood, netflix]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Brand Age]]></title>
+            <link>https://paulgraham.com/brandage.html</link>
+            <guid>1772744774764</guid>
+            <pubDate>Thu, 05 Mar 2026 21:06:14 GMT</pubDate>
+            <description><![CDATA[Tags: brand, consumerism, luxury, signaling]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch]]></title>
+            <link>https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/</link>
+            <guid>1772741577779</guid>
+            <pubDate>Thu, 05 Mar 2026 20:12:57 GMT</pubDate>
+            <description><![CDATA[Tags: meta, glasses, privacy, surveillance, ethics, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[I underestimated AI capabilities (again)]]></title>
+            <link>https://www.planned-obsolescence.org/p/i-underestimated-ai-capabilities</link>
+            <guid>1772741530750</guid>
+            <pubDate>Thu, 05 Mar 2026 20:12:10 GMT</pubDate>
+            <description><![CDATA[Tags: ai, coding, benchmarks]]></description>
+        </item>
         <item>
             <title><![CDATA[Coruna: The Mysterious Journey of a Powerful iOS Exploit Kit | Google Cloud Blog]]></title>
             <link>https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit</link>
