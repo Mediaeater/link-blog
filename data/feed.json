@@ -15,6 +15,69 @@
   ],
   "items": [
     {
+      "id": "1774115479194",
+      "url": "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills",
+      "title": "How to create custom Skills | Claude Help Center",
+      "date_published": "2026-03-21T17:51:19.194Z",
+      "tags": [
+        "custom",
+        "skills",
+        "claude",
+        "ai"
+      ],
+      "content_text": "Custom Skills let you enhance Claude with specialized knowledge and workflows specific to your organization or personal work style. This article explains how to create, structure, and test your own Skills.\n\n \n\nSkills can be as simple as a few lines of instructions or as complex as multi-file packages with executable code. The best Skills:\n\nSolve a specific, repeatable task\n\nHave clear instructions that Claude can follow\n\nInclude examples when helpful\n\nDefine when they should be used\n\nAre focused on one workflow rather than trying to do everything",
+      "summary": "Custom Skills let you enhance Claude with specialized knowledge and workflows specific to your organization or personal work style. This article expla...",
+      "content_html": "<blockquote>Custom Skills let you enhance Claude with specialized knowledge and workflows specific to your organization or personal work style. This article explains how to create, structure, and test your own Skills.\n\n \n\nSkills can be as simple as a few lines of instructions or as complex as multi-file packages with executable code. The best Skills:\n\nSolve a specific, repeatable task\n\nHave clear instructions that Claude can follow\n\nInclude examples when helpful\n\nDefine when they should be used\n\nAre focused on one workflow rather than trying to do everything</blockquote>\n<p><strong>Tags:</strong> custom, skills, claude, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774115434927",
+      "url": "https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/",
+      "title": "Cryptography in Home Entertainment ",
+      "date_published": "2026-03-21T17:50:34.927Z",
+      "tags": [
+        "cryptography",
+        "entertainment",
+        "content",
+        "scrambling",
+        "dvds",
+        "drm"
+      ],
+      "content_text": "- A look at content scrambling in DVDs",
+      "summary": "- A look at content scrambling in DVDs",
+      "content_html": "<blockquote>- A look at content scrambling in DVDs</blockquote>\n<p><strong>Tags:</strong> cryptography, entertainment, content, scrambling, dvds, drm</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774115399094",
+      "url": "https://github.com/Mediaeater/On-the-Calculation-of-The-Human-AI-Agency-Spectrum/blob/main/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md",
+      "title": "On-the-Calculation-of-The-Human-AI-Agency-Spectrum/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md at main · Media",
+      "date_published": "2026-03-21T17:49:59.094Z",
+      "tags": [
+        "on-the-calculation-of-the-human-ai-agency-spectrum",
+        "calculation",
+        "human-ai",
+        "agency",
+        "spectrum",
+        "publishing",
+        "ai",
+        "authorship"
+      ],
+      "content_text": "This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.\n\nAt this technological inflection point, creators, studios, and industry professionals find themselves navigating without a shared vocabulary, allowing for a shared feeling of \"you're on your own.\" The existing language (\"AI-generated,\" \"AI-assisted,\" \"human-written\") fails to capture the spectrum of configurations actually in use. The scaffolding to build from is needed. Guild contracts reference \"human-led\" processes without defining the threshold. Copyright law requires \"significant human control\" without specifying what qualifies. Tool interfaces make design choices that shape agency without making those choices visible. Everyone operates from intuition where precision is needed.",
+      "summary": "This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape crea...",
+      "content_html": "<blockquote>This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.\n\nAt this technological inflection point, creators, studios, and industry professionals find themselves navigating without a shared vocabulary, allowing for a shared feeling of &quot;you&#039;re on your own.&quot; The existing language (&quot;AI-generated,&quot; &quot;AI-assisted,&quot; &quot;human-written&quot;) fails to capture the spectrum of configurations actually in use. The scaffolding to build from is needed. Guild contracts reference &quot;human-led&quot; processes without defining the threshold. Copyright law requires &quot;significant human control&quot; without specifying what qualifies. Tool interfaces make design choices that shape agency without making those choices visible. Everyone operates from intuition where precision is needed.</blockquote>\n<p><strong>Tags:</strong> on-the-calculation-of-the-human-ai-agency-spectrum, calculation, human-ai, agency, spectrum, publishing, ai, authorship</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1772838232539",
       "url": "https://code.claude.com/docs/en/desktop",
       "title": "Use Claude Code Desktop - Claude Code Docs",

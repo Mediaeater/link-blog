@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 21 Mar 2026 13:25:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Mar 2026 17:51:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How to create custom Skills | Claude Help Center]]></title>
+            <link>https://support.claude.com/en/articles/12512198-how-to-create-custom-skills</link>
+            <guid>1774115479194</guid>
+            <pubDate>Sat, 21 Mar 2026 17:51:19 GMT</pubDate>
+            <description><![CDATA[Tags: custom, skills, claude, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Cryptography in Home Entertainment ]]></title>
+            <link>https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/</link>
+            <guid>1774115434927</guid>
+            <pubDate>Sat, 21 Mar 2026 17:50:34 GMT</pubDate>
+            <description><![CDATA[Tags: cryptography, entertainment, content, scrambling, dvds, drm]]></description>
+        </item>
+        <item>
+            <title><![CDATA[On-the-Calculation-of-The-Human-AI-Agency-Spectrum/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md at main · Media]]></title>
+            <link>https://github.com/Mediaeater/On-the-Calculation-of-The-Human-AI-Agency-Spectrum/blob/main/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md</link>
+            <guid>1774115399094</guid>
+            <pubDate>Sat, 21 Mar 2026 17:49:59 GMT</pubDate>
+            <description><![CDATA[Tags: on-the-calculation-of-the-human-ai-agency-spectrum, calculation, human-ai, agency, spectrum, publishing, ai, authorship]]></description>
+        </item>
         <item>
             <title><![CDATA[Use Claude Code Desktop - Claude Code Docs]]></title>
             <link>https://code.claude.com/docs/en/desktop</link>
