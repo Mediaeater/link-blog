@@ -151,7 +151,7 @@ document.querySelector('link[rel="sitemap"]').href
 
 // Check canonical link
 document.querySelector('link[rel="canonical"]').href
-// Expected: "https://mediaeater.com/"
+// Expected: "https://newsfeeds.net/"
 
 // Check schema markup
 JSON.parse(document.querySelector('script[type="application/ld+json"]').textContent)
@@ -181,25 +181,25 @@ ls -la dist/robots.txt
 npm run deploy
 
 # Wait for GitHub Actions to complete
-# Check: https://github.com/yourusername/link-blog/deployments
+# Check: https://github.com/Mediaeater/link-blog/deployments
 ```
 
 ### 3. Verify Production Deployment
 
 ```bash
 # Test sitemap accessibility
-curl -I https://mediaeater.com/sitemap.xml
+curl -I https://newsfeeds.net/sitemap.xml
 # Expected: HTTP/1.1 200 OK
 
 # Test robots.txt accessibility
-curl -I https://mediaeater.com/robots.txt
+curl -I https://newsfeeds.net/robots.txt
 # Expected: HTTP/1.1 200 OK
 
 # Check sitemap content
-curl https://mediaeater.com/sitemap.xml | head -20
+curl https://newsfeeds.net/sitemap.xml | head -20
 
 # Verify sitemap is valid XML
-curl https://mediaeater.com/sitemap.xml | xmllint --noout -
+curl https://newsfeeds.net/sitemap.xml | xmllint --noout -
 # Expected: validates successfully
 ```
 
@@ -211,7 +211,7 @@ curl https://mediaeater.com/sitemap.xml | xmllint --noout -
 
 - [ ] Go to https://search.google.com/search-console
 - [ ] Click "Add property"
-- [ ] Choose "URL prefix" and enter: `https://mediaeater.com`
+- [ ] Choose "URL prefix" and enter: `https://newsfeeds.net`
 - [ ] Verify ownership (DNS, file upload, meta tag, or Google Account)
 - [ ] Navigate to Sitemaps section (left menu)
 - [ ] Click "Add/test sitemap"
@@ -220,7 +220,7 @@ curl https://mediaeater.com/sitemap.xml | xmllint --noout -
 
 **Verification:**
 ```
-Home → Sitemaps → https://mediaeater.com/sitemap.xml
+Home → Sitemaps → https://newsfeeds.net/sitemap.xml
 Status: Success
 URLs submitted: 91
 URLs indexed: (will update after crawl)
@@ -237,11 +237,11 @@ URLs indexed: (will update after crawl)
 
 - [ ] Go to https://www.bing.com/webmasters
 - [ ] Click "Add a site"
-- [ ] Enter: `https://mediaeater.com`
+- [ ] Enter: `https://newsfeeds.net`
 - [ ] Verify ownership
 - [ ] Go to Sitemaps section
 - [ ] Click "Submit a sitemap"
-- [ ] Enter: `https://mediaeater.com/sitemap.xml`
+- [ ] Enter: `https://newsfeeds.net/sitemap.xml`
 - [ ] Click Submit
 
 **Verification:**
@@ -299,7 +299,7 @@ npm run build
 npm run deploy
 
 # 4. Check web server configuration
-curl -v https://mediaeater.com/sitemap.xml
+curl -v https://newsfeeds.net/sitemap.xml
 ```
 
 ### Issue: Invalid XML in Sitemap
@@ -337,7 +337,7 @@ ls -la public/robots.txt
 chmod 644 public/robots.txt
 
 # 3. Verify web server serves .txt files
-curl -I https://mediaeater.com/robots.txt
+curl -I https://newsfeeds.net/robots.txt
 ```
 
 ### Issue: URLs Not Indexed
@@ -356,7 +356,7 @@ curl -I https://mediaeater.com/robots.txt
 ```bash
 # Fetch URL as Googlebot
 curl -I -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" \
-  https://mediaeater.com/
+  https://newsfeeds.net/
 ```
 
 ## Performance Optimization

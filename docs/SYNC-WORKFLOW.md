@@ -14,7 +14,7 @@ This runs the complete workflow:
 1. Fetches links from newsfeeds.net using Puppeteer
 2. Merges remote links with local data (deduplicates, preserves local changes)
 3. Regenerates sitemap.xml
-4. Regenerates all feeds (RSS, Atom, JSON, OPML)
+4. Regenerates all feeds (RSS, JSON Feed, OPML, Digest)
 
 ## Individual Steps
 
@@ -64,7 +64,7 @@ npm run merge:newsfeeds
 ### 3. Regenerate SEO Files
 ```bash
 npm run sitemap  # Regenerate sitemap.xml
-npm run feeds    # Regenerate RSS, Atom, JSON, OPML
+npm run feeds    # Regenerate RSS, JSON Feed, OPML, Digest
 ```
 
 ## Merge Logic
@@ -104,7 +104,7 @@ When the same URL exists in both local and remote:
 ### During Regeneration
 - `public/sitemap.xml` - Updated sitemap (142 URLs)
 - `public/feed.xml` - RSS 2.0 feed
-- `public/feed.atom` - Atom feed
+- `public/feed-digests.xml` - Digest RSS feed
 - `public/data/feed.json` - JSON Feed
 - `public/data/blogroll.opml` - OPML blogroll
 
@@ -255,5 +255,5 @@ npm run deploy
 
 ---
 
-**Last Updated:** 2025-11-14
-**Version:** 1.1.0
+**Last Updated:** 2026-03-21
+**Version:** 1.2.0

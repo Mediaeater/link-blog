@@ -131,7 +131,7 @@ Configured in `package.json`:
 ```json
 {
   "scripts": {
-    "prebuild": "npm run sitemap && npm run feeds && npm run prerender && npm run itemlist"
+    "prebuild": "cp data/digests.json public/data/digests.json && npm run sitemap && npm run feeds && npm run prerender && npm run itemlist"
   }
 }
 ```
@@ -140,13 +140,7 @@ Feeds, prerender content, and structured data regenerate automatically on every 
 
 ## Validation
 
-Validate your feeds:
-
-```bash
-npm run validate:feeds    # Validate all
-```
-
-Or use online validators:
+Validate your feeds using online validators or the individual scripts:
 - RSS: https://validator.w3.org/feed/
 - JSON Feed: https://validator.jsonfeed.org/
 - Sitemap: https://www.xml-sitemaps.com/validate-xml-sitemap.html
@@ -171,9 +165,8 @@ Browsers and feed readers auto-detect these.
 ## Stats
 
 Current feed content (as of last build):
-- **90 links** across all feeds
-- **183 unique tags** in OPML
-- **91 URLs** in sitemap (1 homepage + 90 links)
+- **353 links** across all feeds
+- **353+ URLs** in sitemap
 
 ## Customization
 

@@ -90,15 +90,6 @@ npm run itemlist            # Inject Schema.org ItemList JSON-LD into index.html
 
 ---
 
-## 🗄️ Archive Management
-
-### Archive Operations
-```bash
-npm run archive:migrate     # Migrate old links to archive
-```
-
----
-
 ## 🌐 ActivityPub (Experimental)
 
 ### ActivityPub Setup
@@ -196,7 +187,6 @@ git push
 | `test` | Run tests | Verify functionality |
 | `preview` | Preview built site | Test before deploy |
 | `serve` | Serve dist/ folder | Alternative preview |
-| `archive:migrate` | Move to archive | Old link management |
 
 ---
 

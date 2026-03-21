@@ -128,7 +128,7 @@ The generated OPML file can be imported into:
 ## Script Details
 
 ### File Path
-`/Users/imac/Projects/link-blog/scripts/generate-opml.js`
+`scripts/generate-opml.js`
 
 ### Dependencies
 - Node.js built-in modules only (fs, path, url)

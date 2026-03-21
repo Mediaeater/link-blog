@@ -76,10 +76,10 @@ The Link Blog is a client-server application with a React frontend and an Expres
 ### Technology Stack
 
 - **Frontend Framework**: React 18.2 with Hooks
-- **Build Tool**: Vite 4.4.5 for optimal development experience
-- **Styling**: Tailwind CSS 3.3.3 with custom UI components
+- **Build Tool**: Vite 6.x for optimal development experience
+- **Styling**: Tailwind CSS 3.x with custom UI components
 - **Icons**: Lucide React for comprehensive icon library
-- **Backend**: Express 5.1.0 for API services
+- **Backend**: Express 5.x for API services
 - **Data Format**: JSON for universal compatibility
 - **Package Manager**: npm with lockfile for dependency consistency
 
@@ -93,7 +93,7 @@ The Link Blog is a client-server application with a React frontend and an Expres
 
 ## Core Components
 
-### LinkBlog.jsx (Main Component)
+### LinkBlogClean.jsx (Main Component)
 
 The central component managing the entire application state and UI. Key responsibilities:
 
@@ -241,16 +241,14 @@ const debouncedSearch = useMemo(() =>
 
 ### Storage Locations
 
-1. **localStorage**: Primary storage for immediate access
-   - Key: `linkBlogData`
-   - Format: JSON string
-   - Includes: links array + metadata
-
-2. **JSON Files**: Persistent storage for backup/sharing
-   - Public: `/public/data/links.json`
-   - Data: `/data/links.json`
+1. **JSON Files**: Source of truth for persistence
+   - Primary: `/data/links.json`
+   - Public copy: `/public/data/links.json`
    - Synchronized on save
 
+2. **localStorage**: Secondary storage for immediate access
+   - Key: `linkBlogData`
+   - Format: JSON string
 ### Data Synchronization
 
 The system maintains consistency between storage locations:
@@ -303,7 +301,7 @@ cors({
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/link-blog.git
+git clone https://github.com/Mediaeater/link-blog.git
 cd link-blog
 
 # 2. Install dependencies
@@ -327,13 +325,21 @@ npm run dev:save  # Starts both Vite and API server
 
 | Command | Description | Usage |
 |---------|-------------|-------|
-| `npm run dev` | Start Vite dev server only | Frontend development |
-| `npm run dev:save` | Start Vite + API server | Full development with saving |
+| `npm start` | Settle + start dev servers | Picking up work |
+| `npm run settle` | Git pull + sync + rebuild | Reconcile after pull |
+| `npm run dev:save` | Start Vite + API server | Daily development |
+| `npm run dev` | Start Vite dev server only | Frontend only |
 | `npm run api` | Start API server only | Backend testing |
-| `npm run build` | Production build | Before deployment |
-| `npm run preview` | Preview production build | Test before deploy |
-| `npm run sync` | Sync browser data to JSON | Manual data sync |
-| `npm run deploy` | Deploy to GitHub Pages | Publish to production |
+| `npm run build` | Production build (auto-generates feeds) | Before deployment |
+| `npm run deploy` | Build + deploy to GitHub Pages | Publish to production |
+| `npm run pull:newsfeeds` | Fetch + merge from newsfeeds.net | Sync remote links |
+| `npm run feeds` | Generate all feeds (RSS, JSON, OPML, Digest) | After link changes |
+| `npm run sitemap` | Generate sitemap.xml | After link changes |
+| `npm run prerender` | Inject crawler HTML | Build-time SEO |
+| `npm run lint` | Run ESLint | Before committing |
+| `npm run test` | Run Vitest | Verify functionality |
+
+See [docs/NPM-COMMANDS.md](docs/NPM-COMMANDS.md) for the full command reference.
 
 ### Development with Auto-Save
 
@@ -471,41 +477,58 @@ const PRIVATE_URL_PATTERNS = [
 link-blog/
 ├── src/
 │   ├── components/
-│   │   ├── LinkBlog.jsx         # Main application component
+│   │   ├── LinkBlogClean.jsx    # Main application component
 │   │   ├── BookmarkImporter.jsx # Import functionality
+│   │   ├── DigestPanel.jsx      # Digest sidebar
+│   │   ├── DigestView.jsx       # Full digest view
+│   │   ├── ErrorBoundary.jsx    # Error boundary
+│   │   ├── SEOHead.jsx          # SEO meta tags
 │   │   └── ui/                  # Reusable UI components
-│   │       ├── button.jsx
-│   │       ├── card.jsx
-│   │       └── input.jsx
 │   ├── utils/
-│   │   ├── storage.js          # Storage utilities
-│   │   └── tagSuggestions.js   # Tag generation logic
+│   │   ├── storage.js           # Storage utilities
+│   │   └── tagSuggestions.js    # Tag generation logic
 │   ├── lib/
-│   │   └── utils.js           # General utilities
-│   ├── App.jsx                # App wrapper
-│   ├── main.jsx               # Entry point
-│   └── index.css              # Global styles
-├── scripts/
-│   ├── import-bookmarks.js    # Bookmark parsing logic
-│   ├── generate-rss.js        # RSS feed generation
-│   ├── generate-opml.js       # OPML blogroll generation
-│   ├── generate-digest-feed.js # Digest RSS feed generation
-│   ├── generate-prerender.js  # Build-time <noscript> HTML for crawlers
-│   ├── generate-itemlist.js   # Schema.org ItemList JSON-LD injection
-│   ├── sync-from-browser.js   # Manual sync utility
-│   ├── dev-with-save.cjs      # Development server wrapper
-│   ├── update-links.js        # Data update utility
-│   └── README-OPML.md         # OPML documentation
+│   │   └── utils.js             # General utilities
+│   ├── App.jsx                  # App wrapper
+│   ├── main.jsx                 # Entry point
+│   └── index.css                # Global styles
+├── scripts/                     # ~40 automation scripts
+│   ├── settle.js                # Pull + sync + rebuild
+│   ├── generate-rss.js          # RSS feed generation
+│   ├── generate-json-feed.js    # JSON Feed generation
+│   ├── generate-opml.js         # OPML blogroll generation
+│   ├── generate-digest-feed.js  # Digest RSS feed
+│   ├── generate-prerender.js    # <noscript> HTML for crawlers
+│   ├── generate-itemlist.js     # Schema.org ItemList JSON-LD
+│   ├── generate-sitemap.js      # XML sitemap
+│   ├── fetch-from-newsfeeds.cjs # Pull from newsfeeds.net
+│   ├── merge-newsfeeds.cjs      # Merge remote + local
+│   └── dev-with-save.cjs        # Dev server wrapper
+├── routes/
+│   └── activitypub.cjs          # ActivityPub endpoints
+├── services/                    # ActivityPub services
+├── utils/                       # Digest & RSS helpers
 ├── public/
-│   └── data/
-│       └── links.json         # Public data storage
+│   ├── data/
+│   │   ├── links.json           # Public data store
+│   │   ├── feed.json            # JSON Feed (generated)
+│   │   └── blogroll.opml        # OPML blogroll (generated)
+│   ├── feed.xml                 # RSS feed (generated)
+│   ├── feed-digests.xml         # Digest RSS (generated)
+│   ├── sitemap.xml              # Sitemap (generated)
+│   └── robots.txt               # Bot rules
 ├── data/
-│   └── links.json            # Backup data storage
-├── server.cjs                # Express API server
-├── vite.config.js            # Vite configuration
-├── tailwind.config.js        # Tailwind configuration
-├── package.json              # Dependencies and scripts
-└── .env                      # Environment variables (git-ignored)
+│   ├── links.json               # Primary data store (source of truth)
+│   ├── digests.json             # Digest metadata
+│   └── digests/                 # Weekly digest HTML files
+├── tests/                       # Vitest test suite
+├── docs/                        # Project documentation
+├── server.cjs                   # Express API server
+├── PICKUP.md                    # Session handoff notes
+├── package.json                 # Dependencies and scripts
+├── vite.config.js               # Vite configuration
+├── tailwind.config.js           # Tailwind configuration
+└── .env                         # Environment variables (git-ignored)
 ```
 
 ### Component Architecture
@@ -513,7 +536,7 @@ link-blog/
 **Component Hierarchy:**
 ```
 App
-└── LinkBlog
+└── LinkBlogClean
     ├── Header (Search, Filters, Theme Toggle)
     ├── AdminPanel (Add/Edit Links)
     ├── BookmarkImporter (Import Modal)
@@ -526,7 +549,7 @@ App
 
 **Local State with Hooks:**
 ```javascript
-// Primary state in LinkBlog component
+// Primary state in LinkBlogClean component
 const [links, setLinks] = useState([]);
 
 // Derived state with useMemo
@@ -578,12 +601,12 @@ npm run build                   // Auto-generates all feeds + prerender + itemli
 - Links organized by tags as categories
 - Multi-tagged links appear under each tag
 - Includes full metadata (title, url, description, dates)
-- 90 links across 183 categories
+- 353 links across all categories
 - Compatible with all major RSS readers and blogroll tools
 
 **File:** `https://mediaeater.github.io/link-blog/data/blogroll.opml`
 
-**Documentation:** See `OPML-SETUP.md` for complete setup guide and `scripts/README-OPML.md` for technical details.
+**Documentation:** See `scripts/README-OPML.md` for technical details.
 
 ### Bookmark Import System
 
@@ -708,22 +731,17 @@ mergeDuplicateLinks(duplicates: Duplicate[]) → Link[]
 
 1. **Browser Extension**: Quick-add from any webpage
 2. **Categories/Collections**: Organize links into groups
-3. **Archive Functionality**: Hide old links without deletion
-4. **API Access**: RESTful API for external integration
-5. **Collaboration**: Share collections with teams
-6. **Analytics Dashboard**: Detailed usage statistics
-7. **AI-Powered Tagging**: Machine learning for better suggestions
-8. **Full-Text Search**: Search within linked content
-9. **Scheduled Publishing**: Queue links for future sharing
-10. **Export Formats**: Markdown, CSV, Notion integration
+3. **Collaboration**: Share collections with teams
+4. **Analytics Dashboard**: Detailed usage statistics
+5. **Full-Text Search**: Search within linked content
+6. **Scheduled Publishing**: Queue links for future sharing
+7. **Export Formats**: Markdown, CSV, Notion integration
 
 ### Technical Improvements
 
 1. **TypeScript Migration**: Type safety and better IDE support
-2. **Testing Suite**: Unit and integration tests
-3. **CI/CD Pipeline**: Automated testing and deployment
-4. **Performance Monitoring**: Real-user metrics
-5. **Error Tracking**: Sentry or similar integration
+2. **Performance Monitoring**: Real-user metrics
+3. **Error Tracking**: Sentry or similar integration
 
 ## Contributing
 
@@ -731,7 +749,7 @@ mergeDuplicateLinks(duplicates: Duplicate[]) → Link[]
 
 ```bash
 # Fork and clone
-git clone https://github.com/yourusername/link-blog.git
+git clone https://github.com/Mediaeater/link-blog.git
 
 # Create feature branch
 git checkout -b feature/your-feature
@@ -777,7 +795,7 @@ MIT License - See LICENSE file for details
 ## Support
 
 For issues, questions, or suggestions:
-- GitHub Issues: [Create an issue](https://github.com/yourusername/link-blog/issues)
+- GitHub Issues: [Create an issue](https://github.com/Mediaeater/link-blog/issues)
 - Documentation: This README
 - Community: Discussions tab on GitHub
 

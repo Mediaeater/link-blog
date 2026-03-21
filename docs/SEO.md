@@ -168,7 +168,7 @@ Run before each build (automatically via `prebuild` script).
 
 ### Allow List
 - Main content (`/`)
-- RSS feeds (`/feed.xml`, `/feed.atom`)
+- RSS feeds (`/feed.xml`, `/feed-digests.xml`)
 - JSON feed (`/data/feed.json`)
 - OPML blogroll (`/data/blogroll.opml`)
 - Digest feed (`/feed-digests.xml`)
@@ -222,8 +222,7 @@ Blocked user-agents (to protect curated content):
 
 ### Available Feeds
 1. **RSS 2.0** - `/feed.xml`
-2. **Atom** - `/feed.atom`
-3. **JSON Feed** - `/data/feed.json`
+2. **JSON Feed** - `/data/feed.json`
 4. **OPML Blogroll** - `/data/blogroll.opml`
 5. **Digest Feed** - `/feed-digests.xml`
 
@@ -231,7 +230,6 @@ Blocked user-agents (to protect curated content):
 ```html
 <link rel="alternate" type="application/rss+xml" title="mediaeater RSS Feed" href="/feed.xml">
 <link rel="alternate" type="application/feed+json" title="mediaeater JSON Feed" href="/data/feed.json">
-<link rel="alternate" type="application/atom+xml" title="mediaeater Atom Feed" href="/feed.atom">
 <link rel="alternate" type="application/rss+xml" title="mediaeater Digests Feed" href="/feed-digests.xml">
 ```
 

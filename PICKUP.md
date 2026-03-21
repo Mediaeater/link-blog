@@ -1,15 +1,16 @@
 # Pickup Instructions
 
-## Current State (2026-02-11)
+## Current State (2026-03-21)
 
 Everything is committed, pushed, and deployed. Clean working tree on `main`.
 
-**298 links total.** Site is live at newsfeeds.net.
+**353 links total.** Site is live at newsfeeds.net.
 
-## What Changed This Session
+## What Changed Last Session
 
-1. Added 6 new links (292 -> 298)
-2. Rewrote auto-fetch tag extraction (`src/utils/tagSuggestions.js`) — tags now come from headline keywords instead of useless generic domain/keyword maps
+- Deduplicated links and regenerated feeds
+- Replaced Archive with weekly Digests, removed Ticker
+- Added ETag caching to feed endpoints and sitemap route
 
 ## Starting Up
 

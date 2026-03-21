@@ -56,10 +56,10 @@ Each archive file looks like:
 
 ### Running Migration
 
-If you have existing links to migrate:
+If you have existing links to migrate, run the archive manager manually:
 
 ```bash
-npm run archive:migrate
+node utils/archive-manager.cjs
 ```
 
 This will:
@@ -67,6 +67,8 @@ This will:
 - Split links by year
 - Create archive files for past years
 - Keep only current year in main links.json
+
+> **Note:** There is no `npm run archive:migrate` script. Run the utility directly.
 
 ### API Endpoints
 
@@ -141,7 +143,7 @@ jq '.links | length' data/links.json
 ls -lh data/archive/
 
 # Get archive summary
-npm run archive:migrate --dry-run  # (if implemented)
+node utils/archive-manager.cjs --dry-run  # (if implemented)
 ```
 
 ### Backup Strategy
@@ -176,7 +178,7 @@ The system automatically handles archiving. Here's what happens:
 ### "Payload too large" error
 - Make sure you're using updated `server.cjs` with 10MB limit
 - Check if archive files are being created
-- Run `npm run archive:migrate` if needed
+- Run the archive manager manually if needed
 
 ## Future Improvements
 

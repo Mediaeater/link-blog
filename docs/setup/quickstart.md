@@ -44,8 +44,9 @@ When you run `npm run dev:save`, two servers start:
 ## Next Steps
 
 - Add your first link using the admin panel
-- Explore the [Development Guide](development.md) for more details
-- Check out [Features](../features/feeds.md) to learn about RSS, JSON Feed, and more
+- Read the [Full Documentation](../README.md)
+- Check out [Feeds & Syndication](../features/feeds.md) to learn about RSS, JSON Feed, and more
+- See the [NPM Commands Cheat Sheet](../NPM-COMMANDS.md) for all available commands
 
 ## Troubleshooting
 
@@ -58,5 +59,5 @@ When you run `npm run dev:save`, two servers start:
 - Look for errors in the terminal
 
 **Need help?**
-- Check [Development Guide](development.md)
-- Review [Troubleshooting](../reference/architecture.md#troubleshooting)
+- Check the [Development Workflow](../WORKFLOW.md)
+- See the [Full Documentation](../README.md#troubleshooting)

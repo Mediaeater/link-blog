@@ -71,10 +71,6 @@ Output: `public/sitemap.xml`
 Sync localStorage to JSON files manually.
 Uses: `scripts/sync-from-browser.cjs`
 
-#### `npm run force-save`
-Force save with manual data input.
-Uses: `scripts/force-save.js`
-
 ### ActivityPub
 
 #### `npm run activitypub:setup`
@@ -109,12 +105,6 @@ Located in `/scripts` directory.
 node scripts/sync-from-browser.cjs
 ```
 Manually sync localStorage to JSON files.
-
-#### `force-save.js`
-```bash
-node scripts/force-save.js
-```
-Force save with custom data input.
 
 #### `fetch-and-save.js`
 ```bash
@@ -201,7 +191,6 @@ npm run build
 ```bash
 # Regenerate and validate
 npm run feeds
-npm run validate:feeds
 ```
 
 ## Development Workflow
@@ -242,7 +231,7 @@ Scripts configured in `package.json`:
     "dev": "vite",
     "dev:save": "node scripts/dev-with-save.cjs",
     "build": "vite build",
-    "prebuild": "npm run sitemap && npm run feeds",
+    "prebuild": "cp data/digests.json public/data/digests.json && npm run sitemap && npm run feeds && npm run prerender && npm run itemlist",
     "deploy": "gh-pages -d dist",
     // ... etc
   }

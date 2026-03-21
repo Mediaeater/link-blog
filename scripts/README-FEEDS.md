@@ -16,6 +16,23 @@ This directory contains scripts for generating syndication feeds for the link bl
 - **Standard**: Modern JSON-based feed format (https://jsonfeed.org/)
 - **Command**: `npm run json-feed`
 
+### OPML Blogroll (`generate-opml.js`)
+- **Format**: OPML 2.0
+- **Output**: `/public/data/blogroll.opml`
+- **Standard**: Subscription list / blogroll format
+- **Command**: `npm run opml`
+
+### Digest Feed (`generate-digest-feed.js`)
+- **Format**: RSS 2.0
+- **Output**: `/public/feed-digests.xml`
+- **Standard**: Weekly digest roundups as RSS
+- **Command**: `npm run digest-feed`
+
+### Sitemap (`generate-sitemap.js`)
+- **Format**: XML Sitemap Protocol 0.9
+- **Output**: `/public/sitemap.xml`
+- **Command**: `npm run sitemap`
+
 ## Usage
 
 ### Generate Individual Feeds
@@ -142,5 +159,4 @@ Potential improvements for the feed generation:
 - Include external URLs for related content
 - Add support for content warnings
 - Implement feed pagination for large datasets
-- Add Atom feed format
 - Generate category-specific feeds (filtered by tags)

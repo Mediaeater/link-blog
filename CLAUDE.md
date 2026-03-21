@@ -2,17 +2,17 @@
 
 ## Project Overview
 **Name**: Link Blog
-**Version**: 1.1.0
+**Version**: 1.2.0
 **Type**: React + Vite Bookmark Management System
 **Status**: Production-ready with active development
-**Last Updated**: 2025-09-21
+**Last Updated**: 2026-03-21
 
 ## Current Implementation State
 
 ### ✅ Completed Features
 
 #### Core Application
-- [x] **Main LinkBlog Component** (`src/components/LinkBlog.jsx`)
+- [x] **Main LinkBlog Component** (`src/components/LinkBlogClean.jsx`)
   - Full CRUD operations for links
   - Admin mode with password protection
   - Real-time search and filtering
@@ -107,23 +107,19 @@
   - gh-pages integration
   - Static site generation
 
-### 🔄 Currently Running Processes
-
-As of this session, the following processes are active:
-1. **Background Bash 02982c**: Node server.cjs (API server)
-2. **Background Bash 4d7538**: npm run dev:save (Development environment)
-3. **Background Bash ea39b6**: Node server.cjs (Additional API instance)
-
 ### 📁 File Structure
 
 ```
 link-blog/
 ├── src/
 │   ├── components/
-│   │   ├── LinkBlog.jsx          ✅ Main application
-│   │   ├── LinkBlogClean.jsx     ✅ Alternative clean version
+│   │   ├── LinkBlogClean.jsx     ✅ Main application
 │   │   ├── BookmarkImporter.jsx  ✅ Import functionality
-│   │   └── ui/                   ✅ Reusable components
+│   │   ├── DigestPanel.jsx       ✅ Digest sidebar
+│   │   ├── DigestView.jsx        ✅ Full digest view
+│   │   ├── ErrorBoundary.jsx     ✅ Error boundary
+│   │   ├── SEOHead.jsx           ✅ SEO meta tags
+│   │   └── ui/                   ✅ Reusable components (button, card, input)
 │   ├── utils/
 │   │   ├── storage.js            ✅ Storage operations
 │   │   └── tagSuggestions.js     ✅ Tag generation
@@ -132,27 +128,52 @@ link-blog/
 │   ├── App.jsx                   ✅ App wrapper
 │   ├── main.jsx                  ✅ Entry point
 │   └── index.css                 ✅ Global styles
-├── scripts/
+├── scripts/                      ✅ ~40 automation scripts
 │   ├── settle.js                 ✅ Settlement (pull + sync + rebuild)
 │   ├── dev-with-save.cjs         ✅ Dev server wrapper
-│   ├── import-bookmarks.js       ✅ Import logic
-│   ├── sync-from-browser.js      ✅ Manual sync
-│   ├── update-links.js           ✅ Data updates
-│   ├── generate-rss.js           ✅ RSS generation
-│   ├── force-save.js             ✅ Force save utility
-│   ├── fetch-and-save.js         ✅ Fetch and save
-│   ├── sync-links.js             ✅ Link synchronization
-│   └── manual-save.html          ✅ Manual save interface
+│   ├── generate-rss.js           ✅ RSS feed generation
+│   ├── generate-json-feed.js     ✅ JSON Feed generation
+│   ├── generate-opml.js          ✅ OPML blogroll generation
+│   ├── generate-digest-feed.js   ✅ Digest RSS feed
+│   ├── generate-digest.cjs       ✅ Weekly digest generation
+│   ├── generate-prerender.js     ✅ <noscript> HTML for crawlers
+│   ├── generate-itemlist.js      ✅ Schema.org ItemList JSON-LD
+│   ├── generate-sitemap.js       ✅ XML sitemap
+│   ├── fetch-from-newsfeeds.cjs  ✅ Pull links from newsfeeds.net
+│   ├── merge-newsfeeds.cjs       ✅ Merge remote and local links
+│   ├── sync-from-browser.cjs     ✅ Manual localStorage sync
+│   └── setup.js                  ✅ Initial project setup
+├── routes/
+│   └── activitypub.cjs           ✅ ActivityPub endpoints
+├── services/
+│   ├── activitypub.cjs           ✅ ActivityPub protocol
+│   ├── crypto.cjs                ✅ Crypto signing
+│   └── delivery.cjs              ✅ AP message delivery
+├── utils/
+│   ├── digest-manager.cjs        ✅ Digest utilities
+│   └── rss-generator.cjs         ✅ RSS helpers
 ├── public/
 │   ├── data/
-│   │   └── links.json            ✅ Public data store
-│   ├── _headers                  ✅ CDN cache headers (Netlify/Cloudflare)
+│   │   ├── links.json            ✅ Public data store
+│   │   ├── feed.json             ✅ JSON Feed (generated)
+│   │   ├── digests.json          ✅ Digest metadata (generated)
+│   │   └── blogroll.opml         ✅ OPML blogroll (generated)
+│   ├── feed.xml                  ✅ RSS feed (generated)
 │   ├── feed-digests.xml          ✅ Digest RSS feed (generated)
-│   └── save-tool.html            ✅ Save tool interface
+│   ├── sitemap.xml               ✅ XML sitemap (generated)
+│   ├── robots.txt                ✅ Bot crawling rules
+│   ├── _headers                  ✅ CDN cache headers
+│   └── CNAME                     ✅ GitHub Pages domain
 ├── data/
-│   └── links.json                ✅ Primary data store
+│   ├── links.json                ✅ Primary data store (353 links)
+│   ├── digests.json              ✅ Digest metadata
+│   ├── digests/                  ✅ Weekly digest HTML files
+│   └── archive/                  ✅ Archived links by year
+├── tests/                        ✅ Vitest test suite
+├── docs/                         ✅ Project documentation
 ├── server.cjs                    ✅ Express API
-├── package.json                  ✅ Dependencies
+├── PICKUP.md                     ✅ Session handoff notes
+├── package.json                  ✅ Dependencies & scripts
 ├── vite.config.js                ✅ Vite config
 ├── tailwind.config.js            ✅ Tailwind config
 ├── eslint.config.js              ✅ Linting rules
@@ -171,7 +192,7 @@ link-blog/
 ### 🔧 Common Tasks & Solutions
 
 #### Adding New Features
-1. Check if feature already exists in `LinkBlog.jsx`
+1. Check if feature already exists in `LinkBlogClean.jsx`
 2. Look for existing utilities in `src/utils/`
 3. Follow existing component patterns in `src/components/ui/`
 
@@ -250,17 +271,12 @@ npm run digest-feed       # Generate Digest RSS feed
 7. **Tag suggestions are intelligent**: Algorithm in `tagSuggestions.js`
 8. **Keyboard shortcuts work**: J/K navigation, Cmd+K search, etc.
 
-### 🔄 Recent Updates (Last Commit)
-
-- Fixed security vulnerabilities in dependencies
-- Updated links with latest entries
-- Meta descriptions updated to 'mediaeater - dispute the text'
-
 ### 📊 Current Data Statistics
 
-- Active link storage in `data/links.json`
-- Backup storage in `public/data/links.json`
+- **353 links** in `data/links.json` (primary) and `public/data/links.json` (public copy)
+- **7 weekly digests** in `data/digests/`
 - localStorage key: `linkBlogData`
+- Production site: https://newsfeeds.net
 - Default admin password fallback: `YourNewPassword`
 
 ### 🚀 Next Potential Improvements
@@ -286,4 +302,4 @@ These are suggestions only - do not implement unless specifically requested:
 
 **Important**: This document represents the CURRENT STATE of the application. All listed features are ALREADY IMPLEMENTED and working. Do not recreate existing functionality. Use this as a reference to understand what exists and where to find it.
 
-Last verified: 2025-09-21
+Last verified: 2026-03-21

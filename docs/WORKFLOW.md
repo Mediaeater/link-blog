@@ -106,7 +106,7 @@ npm run dev:save
 2. **Create component file** following naming convention
 3. **Use existing UI components** from `src/components/ui/`
 4. **Import in parent component**
-5. **Add to LinkBlog.jsx if needed**
+5. **Add to LinkBlogClean.jsx if needed**
 6. **Test with different data states**
 
 Example:
@@ -119,12 +119,12 @@ export function NewFeature({ data }) {
   // Implementation
 }
 
-// In LinkBlog.jsx
+// In LinkBlogClean.jsx
 import { NewFeature } from './NewFeature';
 ```
 
 #### Modifying Existing Features
-1. **Locate feature** in `src/components/LinkBlog.jsx`
+1. **Locate feature** in `src/components/LinkBlogClean.jsx`
 2. **Check for utilities** in `src/utils/`
 3. **Make changes** preserving existing structure
 4. **Test all related functionality**
@@ -467,5 +467,5 @@ Recommended for this project:
 
 ---
 
-Last Updated: 2025-09-21
-Version: 1.0.0
+Last Updated: 2026-03-21
+Version: 1.2.0
