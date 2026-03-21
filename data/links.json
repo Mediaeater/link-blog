@@ -1492,20 +1492,6 @@
       "visits": 0
     },
     {
-      "id": 1768942322078,
-      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
-      "source": "Mechanistic Interpretability",
-      "pullQuote": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
-      "tags": [
-        "ai",
-        "weights",
-        "interpretability"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-01-20T20:52:02.078Z",
-      "visits": 0
-    },
-    {
       "id": 1768942163413,
       "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
       "source": "The Day After AGI",
@@ -1777,20 +1763,6 @@
       ],
       "isPinned": false,
       "timestamp": "2026-01-12T12:55:14.173Z",
-      "visits": 0
-    },
-    {
-      "id": 1768220834671,
-      "url": "https://post.substack.com/p/the-ai-revolution-is-here-will-the",
-      "source": "The AI revolution is here. Will the economy survive the transition?",
-      "pullQuote": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.",
-      "tags": [
-        "ai",
-        "palantir",
-        "economics"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-01-12T12:27:14.671Z",
       "visits": 0
     },
     {
@@ -5378,6 +5350,5 @@
       "visits": 0
     }
   ],
-  "version": "1.1.0",
-  "lastUpdated": "2026-03-06T23:23:09.608Z"
+  "lastUpdated": "2026-03-21T13:25:45.004Z"
 }

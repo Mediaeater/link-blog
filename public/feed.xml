@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 06 Mar 2026 23:23:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Mar 2026 13:25:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -667,13 +667,6 @@
             <description><![CDATA[Tags: ai, weights, interpretability, audit]]></description>
         </item>
         <item>
-            <title><![CDATA[Mechanistic Interpretability]]></title>
-            <link>https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J</link>
-            <guid>1768942322078</guid>
-            <pubDate>Tue, 20 Jan 2026 20:52:02 GMT</pubDate>
-            <description><![CDATA[Tags: ai, weights, interpretability]]></description>
-        </item>
-        <item>
             <title><![CDATA[The Day After AGI]]></title>
             <link>https://www.youtube.com/watch?v=mmKAnHz36v0</link>
             <guid>1768942163413</guid>
@@ -798,13 +791,6 @@
             <guid>1768222514173</guid>
             <pubDate>Mon, 12 Jan 2026 12:55:14 GMT</pubDate>
             <description><![CDATA[Tags: ai, economics, palantir]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The AI revolution is here. Will the economy survive the transition?]]></title>
-            <link>https://post.substack.com/p/the-ai-revolution-is-here-will-the</link>
-            <guid>1768220834671</guid>
-            <pubDate>Mon, 12 Jan 2026 12:27:14 GMT</pubDate>
-            <description><![CDATA[Tags: ai, palantir, economics]]></description>
         </item>
         <item>
             <title><![CDATA[Why Civilizations Flourish—and Fail]]></title>
