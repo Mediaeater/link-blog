@@ -1,6 +1,21 @@
 import { useState } from 'react';
 import { ExternalLink } from 'lucide-react';
 
+function getTopTags(digestLinks, max = 5) {
+  const counts = {};
+  for (const link of digestLinks) {
+    if (link.tags) {
+      for (const tag of link.tags) {
+        counts[tag] = (counts[tag] || 0) + 1;
+      }
+    }
+  }
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, max)
+    .map(([tag]) => tag);
+}
+
 export default function DigestView({ digests, links, onTagClick }) {
   // Latest digest expanded by default, older ones collapsed
   const [expandedId, setExpandedId] = useState(() => {
@@ -50,6 +65,22 @@ export default function DigestView({ digests, links, onTagClick }) {
                 </span>
               </div>
             </button>
+
+            {!isExpanded && (
+              digest.summary ? (
+                <p className="mt-2 text-sm text-neutral-500">
+                  {digest.summary}
+                </p>
+              ) : digestLinks.length > 0 ? (
+                <div className="mt-2 flex flex-wrap gap-1">
+                  {getTopTags(digestLinks).map(tag => (
+                    <span key={tag} className="text-xs text-neutral-400">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              ) : null
+            )}
 
             {digest.writeup && (
               <p className="mt-2 text-sm text-neutral-600 italic leading-relaxed max-w-[65ch]">

@@ -35,7 +35,8 @@
     "activitypub:status": "node scripts/activitypub-status.cjs",
     "activitypub:deliver": "node scripts/deliver-links.cjs",
     "digest:check": "node scripts/digest-check.cjs",
-    "digest:generate": "node scripts/generate-digest.cjs"
+    "digest:generate": "node scripts/generate-digest.cjs",
+    "digest:summaries": "node scripts/generate-digest-summaries.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.4",
