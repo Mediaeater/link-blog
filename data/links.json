@@ -1,6 +1,82 @@
 {
   "links": [
     {
+      "id": 1774176814800,
+      "url": "https://about.doordash.com/en-us/news/introducing-doordash-tasks",
+      "source": "Introducing DoorDash Tasks",
+      "pullQuote": "DoorDash's new app pays delivery drivers to strap on body cameras and film themselves doing household chores to train AI robots... \n\nDashers have a new way to earn on their own terms by completing short activities like taking photos of a dish or recording everyday tasks, helping businesses get real-world insights. ",
+      "tags": [
+        "doordash",
+        "tasks",
+        "robots",
+        "training",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-22T10:53:34.800Z",
+      "visits": 0
+    },
+    {
+      "id": 1774172911713,
+      "url": "https://www.time.gov",
+      "source": "The Official U.S. Time | NIST",
+      "pullQuote": "When a user connects to www.time.gov on a computer or mobile device, the Javascript in the client's browser checks the local clock on the device and then requests the time from a NIST server, which has been synchronized with UTC(NIST). When the packets containing the NIST time stamp arrive at the client's browser, the device clock is checked again and compared to the first check of the local clock. The result is a measurement the round-trip delay of requesting/receiving the time stamp. It is estimated that one-half of the round-trip delay happens in each direction. The time on the clocks shown on the web page have been corrected for the estimated one-way path delay of the timestamp from the server to the client and the server delay. Your device's clock is also shown, with the error compared to NIST time.",
+      "tags": [
+        "official",
+        "time",
+        "nist"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-22T09:48:31.713Z",
+      "visits": 0
+    },
+    {
+      "id": 1774172866461,
+      "url": "https://www.timekeep.cc",
+      "source": "Time Keep",
+      "pullQuote": "World clock with DST-aware timezone comparison. Focus timers, alarms, and countdowns that run side by side. Box breathing for resets between sessions. Discord timestamp generation. Ethereum block time tracking. A day planner to keep everything in order. Share timer pages with anyone, and subscribe to get emailed when they complete.\n\nAll of it in one place, always running, always quiet.",
+      "tags": [
+        "time",
+        "world",
+        "clock",
+        "timer"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-22T09:47:46.461Z",
+      "visits": 0
+    },
+    {
+      "id": 1774143247372,
+      "url": "https://cand-uscourts.zoomgov.com/j/1602081619?pwd=NFVFWjA2MHFFVzlqRXVNclNVVVFFQT09",
+      "source": "INTERVENOR STATES’ OPPOSITION TO ADMINISTRATIVE MOTION TO FILE UNDER SEAL CERTAIN TUNNEY ACT BRIEFING MATERIALS",
+      "pullQuote": "A coalition of states filed this legal opposition to contest a motion by Hewlett Packard Enterprise and Juniper Networks to seal sensitive briefing materials in an antitrust lawsuit. The intervenor states argue that the defendants failed to provide \"compelling reasons\" to overcome the public's right of access to records involving settlement negotiations, pretrial documents, and expert data. The filing maintains that transparency is essential under the Tunney Act to allow for public accountability and a proper determination of whether the proposed settlement serves the public interest.\n\nMonday March 23 at 10am Pacific Time \n  https://storage.courtlistener.com/recap/gov.uscourts.cand.443490/gov.uscourts.cand.443490.451.0.pdf\n\nZoom link ",
+      "tags": [
+        "antitrust",
+        "law",
+        "hp",
+        "m&a"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-22T01:34:07.372Z",
+      "visits": 0
+    },
+    {
+      "id": 1774142725973,
+      "url": "https://substack.com/home/post/p-191342187",
+      "source": "Delve - Fake Compliance as a Service - Part I",
+      "pullQuote": "lve, a YC-backed compliance startup that raised $32 million, has been accused of systematically faking SOC 2, ISO 27001, HIPAA, and GDPR compliance reports for hundreds of clients. According to a detailed Substack investigation by DeepDelver, a leaked Google spreadsheet containing links to hundreds of confidential draft audit reports revealed that Delve generates auditor conclusions before any auditor reviews evidence, uses the same template across 99.8% of reports, and relies on Indian certification mills operating through empty US shells instead of the \"US-based CPA firms\" they advertise. Here's the breakdown:",
+      "tags": [
+        "delve",
+        "fake",
+        "compliance",
+        "soc2",
+        "yc"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-22T01:25:25.973Z",
+      "visits": 0
+    },
+    {
       "id": 1774115479194,
       "url": "https://support.claude.com/en/articles/12512198-how-to-create-custom-skills",
       "source": "How to create custom Skills | Claude Help Center",
@@ -5402,5 +5478,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-03-21T17:51:19.208Z"
+  "lastUpdated": "2026-03-22T10:53:34.844Z"
 }

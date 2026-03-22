@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 21 Mar 2026 17:51:19 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Mar 2026 10:53:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing DoorDash Tasks]]></title>
+            <link>https://about.doordash.com/en-us/news/introducing-doordash-tasks</link>
+            <guid>1774176814800</guid>
+            <pubDate>Sun, 22 Mar 2026 10:53:34 GMT</pubDate>
+            <description><![CDATA[Tags: doordash, tasks, robots, training, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Official U.S. Time | NIST]]></title>
+            <link>https://www.time.gov</link>
+            <guid>1774172911713</guid>
+            <pubDate>Sun, 22 Mar 2026 09:48:31 GMT</pubDate>
+            <description><![CDATA[Tags: official, time, nist]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Time Keep]]></title>
+            <link>https://www.timekeep.cc</link>
+            <guid>1774172866461</guid>
+            <pubDate>Sun, 22 Mar 2026 09:47:46 GMT</pubDate>
+            <description><![CDATA[Tags: time, world, clock, timer]]></description>
+        </item>
+        <item>
+            <title><![CDATA[INTERVENOR STATES’ OPPOSITION TO ADMINISTRATIVE MOTION TO FILE UNDER SEAL CERTAIN TUNNEY ACT BRIEFING MATERIALS]]></title>
+            <link>https://cand-uscourts.zoomgov.com/j/1602081619?pwd=NFVFWjA2MHFFVzlqRXVNclNVVVFFQT09</link>
+            <guid>1774143247372</guid>
+            <pubDate>Sun, 22 Mar 2026 01:34:07 GMT</pubDate>
+            <description><![CDATA[Tags: antitrust, law, hp, m&a]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Delve - Fake Compliance as a Service - Part I]]></title>
+            <link>https://substack.com/home/post/p-191342187</link>
+            <guid>1774142725973</guid>
+            <pubDate>Sun, 22 Mar 2026 01:25:25 GMT</pubDate>
+            <description><![CDATA[Tags: delve, fake, compliance, soc2, yc]]></description>
+        </item>
         <item>
             <title><![CDATA[How to create custom Skills | Claude Help Center]]></title>
             <link>https://support.claude.com/en/articles/12512198-how-to-create-custom-skills</link>
