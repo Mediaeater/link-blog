@@ -275,7 +275,8 @@
       "weekStart": "2026-01-04",
       "weekEnd": "2026-01-18",
       "title": "Jan 3-17, 2026",
-      "writeup": ""
+      "writeup": "",
+      "summary": "AI economics, democracy under capitalism, art in the age of machines, and the quiet rise of markdown"
     },
     {
       "id": 3,
@@ -302,7 +303,8 @@
       "weekStart": "2026-01-18",
       "weekEnd": "2026-01-22",
       "title": "Jan 17-21, 2026",
-      "writeup": ""
+      "writeup": "",
+      "summary": "WEF 2026 deep-dive: AI governance, sovereign data, AGI timelines, and the cognitive cost of ChatGPT"
     },
     {
       "id": 4,
@@ -329,7 +331,8 @@
       "weekStart": "2026-01-22",
       "weekEnd": "2026-01-31",
       "title": "Jan 21-30, 2026",
-      "writeup": ""
+      "writeup": "",
+      "summary": "AI's erosion of learning and agency, Palantir-ICE surveillance, and Claude's new constitution"
     },
     {
       "id": 5,
@@ -356,7 +359,8 @@
       "weekStart": "2026-01-31",
       "weekEnd": "2026-02-11",
       "title": "Jan 30 - Feb 10, 2026",
-      "writeup": ""
+      "writeup": "",
+      "summary": "Art world vs AI, France drops Teams for sovereignty, ICE raids via Palantir, and the death of telnet"
     },
     {
       "id": 6,
@@ -383,7 +387,8 @@
       "weekStart": "2026-02-12",
       "weekEnd": "2026-02-24",
       "title": "Feb 11-23, 2026",
-      "writeup": ""
+      "writeup": "",
+      "summary": "China regulates AI anthropomorphism, Wikipedia blacklists Archive.today, and LinkedIn's identity trap"
     },
     {
       "id": 7,
@@ -410,7 +415,8 @@
       "weekStart": "2026-02-14",
       "weekEnd": "2026-03-03",
       "title": "Feb 13 - Mar 2, 2026",
-      "writeup": ""
+      "writeup": "",
+      "summary": "AI-military partnerships at Anthropic and OpenAI, coding atrophy, data poisoning, and the intelligence crisis"
     },
     {
       "id": 8,
@@ -437,7 +443,8 @@
       "weekStart": "2026-02-27",
       "weekEnd": "2026-03-05",
       "title": "Feb 26 - Mar 4, 2026",
-      "writeup": ""
+      "writeup": "",
+      "summary": "Smart glasses detection, de-Googled phones, agent security, Mondrian's public domain fight, and zero traffic deaths in Helsinki"
     }
   ],
   "cadence": "weekly"

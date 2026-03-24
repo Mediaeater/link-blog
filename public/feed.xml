@@ -4,10 +4,87 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 21 Mar 2026 13:25:45 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Mar 2026 17:56:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
+            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
+            <guid>1774202160999</guid>
+            <pubDate>Sun, 22 Mar 2026 17:56:00 GMT</pubDate>
+            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement, cryptography, quantum-cryptography]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
+            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
+            <guid>1774202148259</guid>
+            <pubDate>Sun, 22 Mar 2026 17:55:48 GMT</pubDate>
+            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement, cryptography]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
+            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
+            <guid>1774202140543</guid>
+            <pubDate>Sun, 22 Mar 2026 17:55:40 GMT</pubDate>
+            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing DoorDash Tasks]]></title>
+            <link>https://about.doordash.com/en-us/news/introducing-doordash-tasks</link>
+            <guid>1774176814800</guid>
+            <pubDate>Sun, 22 Mar 2026 10:53:34 GMT</pubDate>
+            <description><![CDATA[Tags: doordash, tasks, robots, training, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Official U.S. Time | NIST]]></title>
+            <link>https://www.time.gov</link>
+            <guid>1774172911713</guid>
+            <pubDate>Sun, 22 Mar 2026 09:48:31 GMT</pubDate>
+            <description><![CDATA[Tags: official, time, nist]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Time Keep]]></title>
+            <link>https://www.timekeep.cc</link>
+            <guid>1774172866461</guid>
+            <pubDate>Sun, 22 Mar 2026 09:47:46 GMT</pubDate>
+            <description><![CDATA[Tags: time, world, clock, timer]]></description>
+        </item>
+        <item>
+            <title><![CDATA[INTERVENOR STATES’ OPPOSITION TO ADMINISTRATIVE MOTION TO FILE UNDER SEAL CERTAIN TUNNEY ACT BRIEFING MATERIALS]]></title>
+            <link>https://cand-uscourts.zoomgov.com/j/1602081619?pwd=NFVFWjA2MHFFVzlqRXVNclNVVVFFQT09</link>
+            <guid>1774143247372</guid>
+            <pubDate>Sun, 22 Mar 2026 01:34:07 GMT</pubDate>
+            <description><![CDATA[Tags: antitrust, law, hp, m&a]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Delve - Fake Compliance as a Service - Part I]]></title>
+            <link>https://substack.com/home/post/p-191342187</link>
+            <guid>1774142725973</guid>
+            <pubDate>Sun, 22 Mar 2026 01:25:25 GMT</pubDate>
+            <description><![CDATA[Tags: delve, fake, compliance, soc2, yc]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to create custom Skills | Claude Help Center]]></title>
+            <link>https://support.claude.com/en/articles/12512198-how-to-create-custom-skills</link>
+            <guid>1774115479194</guid>
+            <pubDate>Sat, 21 Mar 2026 17:51:19 GMT</pubDate>
+            <description><![CDATA[Tags: custom, skills, claude, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Cryptography in Home Entertainment ]]></title>
+            <link>https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/</link>
+            <guid>1774115434927</guid>
+            <pubDate>Sat, 21 Mar 2026 17:50:34 GMT</pubDate>
+            <description><![CDATA[Tags: cryptography, entertainment, content, scrambling, dvds, drm]]></description>
+        </item>
+        <item>
+            <title><![CDATA[On-the-Calculation-of-The-Human-AI-Agency-Spectrum/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md at main · Media]]></title>
+            <link>https://github.com/Mediaeater/On-the-Calculation-of-The-Human-AI-Agency-Spectrum/blob/main/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md</link>
+            <guid>1774115399094</guid>
+            <pubDate>Sat, 21 Mar 2026 17:49:59 GMT</pubDate>
+            <description><![CDATA[Tags: on-the-calculation-of-the-human-ai-agency-spectrum, calculation, human-ai, agency, spectrum, publishing, ai, authorship]]></description>
+        </item>
         <item>
             <title><![CDATA[Use Claude Code Desktop - Claude Code Docs]]></title>
             <link>https://code.claude.com/docs/en/desktop</link>
