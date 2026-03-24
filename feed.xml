@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 24 Mar 2026 11:21:56 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 13:07:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Claude Code Cheat Sheet]]></title>
+            <link>https://cc.storyfox.cz/</link>
+            <guid>1774357655514</guid>
+            <pubDate>Tue, 24 Mar 2026 13:07:35 GMT</pubDate>
+            <description><![CDATA[Tags: claude, code, cheat-sheet]]></description>
+        </item>
         <item>
             <title><![CDATA[Everything Is Broken]]></title>
             <link>https://www.tabletmag.com/sections/news/articles/everything-is-broken</link>
