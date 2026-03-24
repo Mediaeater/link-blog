@@ -1,6 +1,20 @@
 {
   "links": [
     {
+      "id": 1774357655514,
+      "url": "https://cc.storyfox.cz/",
+      "source": "Claude Code Cheat Sheet",
+      "pullQuote": "",
+      "tags": [
+        "claude",
+        "code",
+        "cheat-sheet"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-24T13:07:35.514Z",
+      "visits": 0
+    },
+    {
       "id": 1774351316724,
       "url": "https://www.tabletmag.com/sections/news/articles/everything-is-broken",
       "source": "Everything Is Broken",
@@ -5592,5 +5606,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-03-24T11:21:56.768Z"
+  "lastUpdated": "2026-03-24T13:07:35.671Z"
 }

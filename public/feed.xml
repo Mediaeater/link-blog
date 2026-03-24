@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 22 Mar 2026 17:56:01 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 13:07:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Claude Code Cheat Sheet]]></title>
+            <link>https://cc.storyfox.cz/</link>
+            <guid>1774357655514</guid>
+            <pubDate>Tue, 24 Mar 2026 13:07:35 GMT</pubDate>
+            <description><![CDATA[Tags: claude, code, cheat-sheet]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Everything Is Broken]]></title>
+            <link>https://www.tabletmag.com/sections/news/articles/everything-is-broken</link>
+            <guid>1774351316724</guid>
+            <pubDate>Tue, 24 Mar 2026 11:21:56 GMT</pubDate>
+            <description><![CDATA[Tags: experience, life, broken]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - shaochenze/calm: Official implementation of “Continuous Autoregressive Language Models”]]></title>
+            <link>https://github.com/shaochenze/calm</link>
+            <guid>1774350672507</guid>
+            <pubDate>Tue, 24 Mar 2026 11:11:12 GMT</pubDate>
+            <description><![CDATA[Tags: github, calm, implementation, llm, continuous-vector, autoregressive-prediction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CONTINUOUS AUTOREGRESSIVE LANGUAGE MODELS]]></title>
+            <link>https://arxiv.org/pdf/2510.27688</link>
+            <guid>1774350469425</guid>
+            <pubDate>Tue, 24 Mar 2026 11:07:49 GMT</pubDate>
+            <description><![CDATA[Tags: preprint, paper, ai, llm, semantic, bandwidth]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Cowork: Claude Code power for knowledge work | Claude by Anthropic]]></title>
+            <link>https://claude.com/product/cowork</link>
+            <guid>1774350332174</guid>
+            <pubDate>Tue, 24 Mar 2026 11:05:32 GMT</pubDate>
+            <description><![CDATA[Tags: cowork, claude, code, ai]]></description>
+        </item>
         <item>
             <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
             <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>

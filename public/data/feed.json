@@ -15,6 +15,101 @@
   ],
   "items": [
     {
+      "id": "1774357655514",
+      "url": "https://cc.storyfox.cz/",
+      "title": "Claude Code Cheat Sheet",
+      "date_published": "2026-03-24T13:07:35.514Z",
+      "tags": [
+        "claude",
+        "code",
+        "cheat-sheet"
+      ],
+      "content_html": "<p><strong>Tags:</strong> claude, code, cheat-sheet</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774351316724",
+      "url": "https://www.tabletmag.com/sections/news/articles/everything-is-broken",
+      "title": "Everything Is Broken",
+      "date_published": "2026-03-24T11:21:56.724Z",
+      "tags": [
+        "experience",
+        "life",
+        "broken"
+      ],
+      "content_text": "This disconnect between culturally mandated politics and the actual demonstrated preferences of most Americans has created an enormous reserve of unmet needs—and a generational opportunity. Build new things! Create great art! Understand and accept that sensory information is the brain’s food, and that Silicon Valley is systematically starving us of it. Avoid going entirely tree-blind. Make a friend and don’t talk politics with them. Do things that generate love and attention from three people you actually know instead of hundreds you don’t. Abandon the blighted Ivy League, please, I beg of you. Start a publishing house that puts out books that anger, surprise and delight people and which make them want to read. Be brave enough to make film and TV that appeals to actual audiences and not 14 people on Twitter. Establish a newspaper, one people can see themselves in and hold in their hands. Go back to a house of worship—every week. Give up on our current institutions; they already gave up on us.",
+      "summary": "This disconnect between culturally mandated politics and the actual demonstrated preferences of most Americans has created an enormous reserve of unme...",
+      "content_html": "<blockquote>This disconnect between culturally mandated politics and the actual demonstrated preferences of most Americans has created an enormous reserve of unmet needs—and a generational opportunity. Build new things! Create great art! Understand and accept that sensory information is the brain’s food, and that Silicon Valley is systematically starving us of it. Avoid going entirely tree-blind. Make a friend and don’t talk politics with them. Do things that generate love and attention from three people you actually know instead of hundreds you don’t. Abandon the blighted Ivy League, please, I beg of you. Start a publishing house that puts out books that anger, surprise and delight people and which make them want to read. Be brave enough to make film and TV that appeals to actual audiences and not 14 people on Twitter. Establish a newspaper, one people can see themselves in and hold in their hands. Go back to a house of worship—every week. Give up on our current institutions; they already gave up on us.</blockquote>\n<p><strong>Tags:</strong> experience, life, broken</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774350672507",
+      "url": "https://github.com/shaochenze/calm",
+      "title": "GitHub - shaochenze/calm: Official implementation of “Continuous Autoregressive Language Models”",
+      "date_published": "2026-03-24T11:11:12.507Z",
+      "tags": [
+        "github",
+        "calm",
+        "implementation",
+        "llm",
+        "continuous-vector",
+        "autoregressive-prediction"
+      ],
+      "content_text": "Modern Large Language Models (LLMs) are constrained by a fundamental bottleneck: they generate text one token at a time. CALM (Continuous Autoregressive Language Models) confronts this challenge by introducing a paradigm shift in language modeling. Instead of predicting one discrete token at a time, CALM learns to predict a single continuous vector that represents an entire chunk of K tokens.",
+      "summary": "Modern Large Language Models (LLMs) are constrained by a fundamental bottleneck: they generate text one token at a time. CALM (Continuous Autoregressi...",
+      "content_html": "<blockquote>Modern Large Language Models (LLMs) are constrained by a fundamental bottleneck: they generate text one token at a time. CALM (Continuous Autoregressive Language Models) confronts this challenge by introducing a paradigm shift in language modeling. Instead of predicting one discrete token at a time, CALM learns to predict a single continuous vector that represents an entire chunk of K tokens.</blockquote>\n<p><strong>Tags:</strong> github, calm, implementation, llm, continuous-vector, autoregressive-prediction</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774350469425",
+      "url": "https://arxiv.org/pdf/2510.27688",
+      "title": "CONTINUOUS AUTOREGRESSIVE LANGUAGE MODELS",
+      "date_published": "2026-03-24T11:07:49.425Z",
+      "tags": [
+        "preprint",
+        "paper",
+        "ai",
+        "llm",
+        "semantic",
+        "bandwidth"
+      ],
+      "content_text": "The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token\nprediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from\nwhich the original tokens can be reconstructed with over 99.9% accuracy. This\nallows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The\nparadigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. Experiments show that CALM\nsignificantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost.\nMore importantly, these findings establish next-vector prediction as a powerful\nand scalable pathway towards ultra-efficient language models.",
+      "summary": "The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcomi...",
+      "content_html": "<blockquote>The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token\nprediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from\nwhich the original tokens can be reconstructed with over 99.9% accuracy. This\nallows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The\nparadigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. Experiments show that CALM\nsignificantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost.\nMore importantly, these findings establish next-vector prediction as a powerful\nand scalable pathway towards ultra-efficient language models.</blockquote>\n<p><strong>Tags:</strong> preprint, paper, ai, llm, semantic, bandwidth</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774350332174",
+      "url": "https://claude.com/product/cowork",
+      "title": "Cowork: Claude Code power for knowledge work | Claude by Anthropic",
+      "date_published": "2026-03-24T11:05:32.174Z",
+      "tags": [
+        "cowork",
+        "claude",
+        "code",
+        "ai"
+      ],
+      "content_text": "You can now have one conversation with Claude that follows you from your phone to your desktop. Claude can use your computer, remember context across sessions, and run tasks on a schedule. Available in Cowork and Code.",
+      "summary": "You can now have one conversation with Claude that follows you from your phone to your desktop. Claude can use your computer, remember context across ...",
+      "content_html": "<blockquote>You can now have one conversation with Claude that follows you from your phone to your desktop. Claude can use your computer, remember context across sessions, and run tasks on a schedule. Available in Cowork and Code.</blockquote>\n<p><strong>Tags:</strong> cowork, claude, code, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1774202160999",
       "url": "https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award",
       "title": "The IBM scientist who rewrote the rules of information just won computing’s highest prize",
