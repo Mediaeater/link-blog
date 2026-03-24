@@ -4,10 +4,59 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 22 Mar 2026 10:53:34 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 11:21:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Everything Is Broken]]></title>
+            <link>https://www.tabletmag.com/sections/news/articles/everything-is-broken</link>
+            <guid>1774351316724</guid>
+            <pubDate>Tue, 24 Mar 2026 11:21:56 GMT</pubDate>
+            <description><![CDATA[Tags: experience, life, broken]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - shaochenze/calm: Official implementation of “Continuous Autoregressive Language Models”]]></title>
+            <link>https://github.com/shaochenze/calm</link>
+            <guid>1774350672507</guid>
+            <pubDate>Tue, 24 Mar 2026 11:11:12 GMT</pubDate>
+            <description><![CDATA[Tags: github, calm, implementation, llm, continuous-vector, autoregressive-prediction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CONTINUOUS AUTOREGRESSIVE LANGUAGE MODELS]]></title>
+            <link>https://arxiv.org/pdf/2510.27688</link>
+            <guid>1774350469425</guid>
+            <pubDate>Tue, 24 Mar 2026 11:07:49 GMT</pubDate>
+            <description><![CDATA[Tags: preprint, paper, ai, llm, semantic, bandwidth]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Cowork: Claude Code power for knowledge work | Claude by Anthropic]]></title>
+            <link>https://claude.com/product/cowork</link>
+            <guid>1774350332174</guid>
+            <pubDate>Tue, 24 Mar 2026 11:05:32 GMT</pubDate>
+            <description><![CDATA[Tags: cowork, claude, code, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
+            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
+            <guid>1774202160999</guid>
+            <pubDate>Sun, 22 Mar 2026 17:56:00 GMT</pubDate>
+            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement, cryptography, quantum-cryptography]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
+            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
+            <guid>1774202148259</guid>
+            <pubDate>Sun, 22 Mar 2026 17:55:48 GMT</pubDate>
+            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement, cryptography]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
+            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
+            <guid>1774202140543</guid>
+            <pubDate>Sun, 22 Mar 2026 17:55:40 GMT</pubDate>
+            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement]]></description>
+        </item>
         <item>
             <title><![CDATA[Introducing DoorDash Tasks]]></title>
             <link>https://about.doordash.com/en-us/news/introducing-doordash-tasks</link>
