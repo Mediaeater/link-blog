@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo, useRef, useDeferredValue, Fragment } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef, useDeferredValue } from 'react';
 import {
   Search,
   Plus,
@@ -16,6 +16,7 @@ import {
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
 import DigestPanel from './DigestPanel';
 import DigestView from './DigestView';
+import VirtualLinkList from './VirtualLinkList';
 
 const ADMIN_USER = import.meta.env.VITE_ADMIN_PASSWORD || 'YourNewPassword';
 const STORAGE_KEY = 'linkBlogData';
@@ -1408,17 +1409,13 @@ export default function LinkBlogClean() {
               <p className="text-neutral-500">No links found</p>
             </div>
           ) : (
-            filteredAndSortedLinks.map((link, index) => {
-              const linkYear = new Date(link.timestamp).getFullYear();
-              const prevLink = filteredAndSortedLinks[index - 1];
-              const prevYear = prevLink ? new Date(prevLink.timestamp).getFullYear() : null;
-              const showYearHeader = prevYear !== null && linkYear !== prevYear;
-
-              return (
-                <Fragment key={link.id}>
+            <VirtualLinkList
+              links={filteredAndSortedLinks}
+              renderItem={(link, index, showYearHeader, year) => (
+                <>
                   {showYearHeader && (
                     <div className="py-4 mt-6 mb-2 border-t-2 border-neutral-300">
-                      <h2 className="text-xl font-bold text-neutral-700">{linkYear}</h2>
+                      <h2 className="text-xl font-bold text-neutral-700">{year}</h2>
                     </div>
                   )}
                   <article
@@ -1526,9 +1523,9 @@ export default function LinkBlogClean() {
                       </div>
                     </div>
                   </article>
-                </Fragment>
-              );
-            })
+                </>
+              )}
+            />
           )}
         </div>
       </main>
