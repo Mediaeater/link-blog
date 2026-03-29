@@ -18,10 +18,7 @@ function getTopTags(digestLinks, max = 5) {
 
 export default function DigestView({ digests, links, onTagClick }) {
   // Latest digest expanded by default, older ones collapsed
-  const [expandedId, setExpandedId] = useState(() => {
-    const visible = digests.filter(d => d.id !== 0);
-    return visible.length > 0 ? visible[visible.length - 1].id : null;
-  });
+  const [expandedId, setExpandedId] = useState(null);
 
   // Build link lookup
   const linkMap = new Map();
@@ -83,9 +80,24 @@ export default function DigestView({ digests, links, onTagClick }) {
             )}
 
             {digest.writeup && (
-              <p className="mt-2 text-sm text-neutral-600 italic leading-relaxed max-w-[65ch]">
-                {digest.writeup}
-              </p>
+              isExpanded ? (
+                <div className="mt-3 text-sm text-neutral-600 italic leading-relaxed max-w-[65ch] space-y-4">
+                  {digest.writeup.split('\n\n').map((paragraph, i) => (
+                    <p key={i}>
+                      {paragraph.split('\n').map((line, j, arr) => (
+                        <span key={j}>
+                          {line}
+                          {j < arr.length - 1 && <br />}
+                        </span>
+                      ))}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-2 text-sm text-neutral-500 line-clamp-2">
+                  {digest.writeup}
+                </p>
+              )
             )}
 
             {isExpanded && (
