@@ -1,6 +1,79 @@
 {
   "links": [
     {
+      "id": 1774825528328,
+      "url": "https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54",
+      "source": "The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind",
+      "pullQuote": "“Hassabis administered a subtle test on him. The two men discussed the potential of AI, and Zuckerberg expressed appropriate excitement. But then, as the dinner continued, Hassabis brought up other hot technologies: virtual reality, augmented reality, 3-D printing. Zuckerberg sounded equally excited about all of them. ‘That told me what I needed to know,’ Hassabis said.”",
+      "tags": [
+        "wsj",
+        "deepmind",
+        "google",
+        "psychology",
+        "zuckerberg",
+        "tells"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-29T23:05:28.328Z",
+      "visits": 0
+    },
+    {
+      "id": 1774824667241,
+      "url": "https://spectrum.ieee.org/doctorow-interoperability",
+      "source": "Interoperability Can Save the Open Web ",
+      "pullQuote": "Cory Doctorow: Interoperability Can Save the Open Web How to free users from Big Tech’s walled gardens ----I want to go after tech because it has this characteristic interoperability that makes it a soft target. We start with tech, and that gives us the momentum, the credibility, and the political will to go after everybody else.",
+      "tags": [
+        "open-web",
+        "internet",
+        "network-effects",
+        "regulation"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-29T22:51:07.241Z",
+      "visits": 0
+    },
+    {
+      "id": 1774824587454,
+      "url": "https://project-backbone-fai.vercel.app/",
+      "source": "Project Backbone",
+      "pullQuote": "Project backbone maps the real world infrastructure your data travels through every time you load a page.\n\ncables under oceans, satellites overhead, fiber under cities, all turned into one live interactive map.",
+      "tags": [
+        "backbone",
+        "map",
+        "internet",
+        "infrastructure"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-29T22:49:47.454Z",
+      "visits": 0
+    },
+    {
+      "id": 1774820625605,
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "source": "ChatGPT Won’t Let You Type Until Cloudflare Reads Your React State. I Decrypted the Program That Does It.",
+      "pullQuote": "Every ChatGPT message triggers a Cloudflare Turnstile program that runs silently in your browser. I decrypted 377 of these programs from network traffic and found something that goes beyond standard browser fingerprinting.\n\nThe program checks 55 properties spanning three layers: your browser (GPU, screen, fonts), the Cloudflare network (your city, your IP, your region from edge headers), and the ChatGPT React application itself (__reactRouterContext, loaderData, clientBootstrap). Turnstile doesn't just verify that you're running a real browser. It verifies that you're running a real browser that has fully booted a specific React application.\n\nA bot that spoofs browser fingerprints but doesn't render the actual ChatGPT SPA will fail.",
+      "tags": [
+        "chatgpt"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-29T21:43:45.605Z",
+      "visits": 0
+    },
+    {
+      "id": 1774820548458,
+      "url": "https://github.com/chenglou/pretext",
+      "source": "GitHub - chenglou/pretext",
+      "pullQuote": "Pure JavaScript/TypeScript library for multiline text measurement & layout. Fast, accurate & supports all the languages you didn't even know about. Allows rendering to DOM, Canvas, SVG and soon, server-side. (check the demos-ed - implemented here)",
+      "tags": [
+        "pretext",
+        "display",
+        "text"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-29T21:42:28.458Z",
+      "visits": 0
+    },
+    {
       "id": 1774357655514,
       "url": "https://cc.storyfox.cz/",
       "source": "Claude Code Cheat Sheet",
@@ -12,7 +85,7 @@
       ],
       "isPinned": false,
       "timestamp": "2026-03-24T13:07:35.514Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1774351316724,
@@ -49,7 +122,7 @@
       "id": 1774350469425,
       "url": "https://arxiv.org/pdf/2510.27688",
       "source": "CONTINUOUS AUTOREGRESSIVE LANGUAGE MODELS",
-      "pullQuote": "The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token\nprediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from\nwhich the original tokens can be reconstructed with over 99.9% accuracy. This\nallows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The\nparadigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. Experiments show that CALM\nsignificantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost.\nMore importantly, these findings establish next-vector prediction as a powerful\nand scalable pathway towards ultra-efficient language models.",
+      "pullQuote": "The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token prediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from which the original tokens can be reconstructed with over 99.9% accuracy. This allows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The paradigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. \n\nExperiments show that CALM significantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost. More importantly, these findings establish next-vector prediction as a powerful and scalable pathway towards ultra-efficient language models.",
       "tags": [
         "preprint",
         "paper",
@@ -253,6 +326,22 @@
       ],
       "isPinned": false,
       "timestamp": "2026-03-21T17:49:59.094Z",
+      "visits": 0
+    },
+    {
+      "id": 1774023636025,
+      "url": "https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two",
+      "source": "THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.",
+      "pullQuote": "THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.\nA Caltech astronomer shot on his porch. Three AFRL employees dead in one night. A charge dismissed eleven days before a killing. And the same institution at the center of every single case.",
+      "tags": [
+        "intelligence",
+        "security",
+        "afrl",
+        "air-force",
+        "usaf"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-20T16:20:36.025Z",
       "visits": 0
     },
     {
@@ -1747,6 +1836,20 @@
       "visits": 0
     },
     {
+      "id": 1768942322078,
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "source": "Mechanistic Interpretability",
+      "pullQuote": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-20T20:52:02.078Z",
+      "visits": 0
+    },
+    {
       "id": 1768942163413,
       "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
       "source": "The Day After AGI",
@@ -2018,6 +2121,20 @@
       ],
       "isPinned": false,
       "timestamp": "2026-01-12T12:55:14.173Z",
+      "visits": 0
+    },
+    {
+      "id": 1768220834671,
+      "url": "https://post.substack.com/p/the-ai-revolution-is-here-will-the",
+      "source": "The AI revolution is here. Will the economy survive the transition?",
+      "pullQuote": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.",
+      "tags": [
+        "ai",
+        "palantir",
+        "economics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-01-12T12:27:14.671Z",
       "visits": 0
     },
     {
@@ -5606,5 +5723,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-03-24T13:07:35.671Z"
+  "lastUpdated": "2026-03-29T23:08:43.609Z"
 }
