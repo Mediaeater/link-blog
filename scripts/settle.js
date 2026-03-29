@@ -3,12 +3,13 @@
 /**
  * Link Blog - Settlement Script
  *
- * Single command to reconcile everything after a git pull or
- * when picking up work on a new machine:
+ * Single command to get fully current:
  * 1. Git pull latest
- * 2. Sync the two JSON copies
- * 3. Regenerate build artifacts (feeds, sitemap, prerender, itemlist)
- * 4. Print status report
+ * 2. Fetch + merge from newsfeeds.net (skipped gracefully if unreachable)
+ * 3. Sync the two JSON copies
+ * 4. Regenerate build artifacts (feeds, sitemap, prerender, itemlist)
+ * 5. Clean up old backups
+ * 6. Print status report
  */
 
 import { execSync } from 'child_process';
@@ -18,6 +19,9 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.join(__dirname, '..');
+
+const NEWSFEEDS_URL = 'https://newsfeeds.net/data/links.json';
+const MAX_BACKUPS = 3;
 
 const colors = {
   reset: '\x1b[0m',
@@ -58,9 +62,108 @@ function gitPull() {
   }
 }
 
-// Step 2: Sync JSON files
+// Step 2: Fetch + merge from newsfeeds.net
+async function syncNewsfeeds() {
+  log('\n2. Syncing from newsfeeds.net...', 'blue');
+
+  const primaryPath = path.join(projectRoot, 'data', 'links.json');
+
+  // Fetch remote data
+  let remoteData;
+  try {
+    const response = await fetch(NEWSFEEDS_URL, { signal: AbortSignal.timeout(10000) });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    remoteData = await response.json();
+  } catch (error) {
+    log(`   Unreachable — skipping (${error.message})`, 'yellow');
+    return { synced: false, skipped: true };
+  }
+
+  const remoteLinks = remoteData.links || [];
+  if (remoteLinks.length === 0) {
+    log('   Remote returned 0 links — skipping', 'yellow');
+    return { synced: false, skipped: true };
+  }
+
+  // Load local data
+  let localData;
+  try {
+    localData = JSON.parse(fs.readFileSync(primaryPath, 'utf-8'));
+  } catch {
+    log('   Local data/links.json missing — skipping merge', 'yellow');
+    return { synced: false, skipped: true };
+  }
+
+  const localLinks = localData.links || [];
+
+  // Build local URL set
+  const localUrls = new Set(localLinks.map(l => l.url.toLowerCase().replace(/\/$/, '').trim()));
+
+  // Find new links from remote
+  const newLinks = remoteLinks.filter(link => {
+    const normalized = link.url.toLowerCase().replace(/\/$/, '').trim();
+    return !localUrls.has(normalized);
+  });
+
+  // Update visit counts where remote is higher
+  let updatedVisits = 0;
+  const localByUrl = new Map(localLinks.map(l => [l.url.toLowerCase().replace(/\/$/, '').trim(), l]));
+  for (const remoteLink of remoteLinks) {
+    const normalized = remoteLink.url.toLowerCase().replace(/\/$/, '').trim();
+    const localLink = localByUrl.get(normalized);
+    if (localLink && remoteLink.visits > localLink.visits) {
+      localLink.visits = remoteLink.visits;
+      updatedVisits++;
+    }
+  }
+
+  if (newLinks.length === 0 && updatedVisits === 0) {
+    log(`   Already current (${remoteLinks.length} remote, ${localLinks.length} local)`, 'green');
+    return { synced: true, added: 0, updated: 0 };
+  }
+
+  // Backup before modifying
+  backupFile(primaryPath);
+
+  // Merge: append new links, re-sort by timestamp
+  const merged = [...localLinks, ...newLinks].sort(
+    (a, b) => new Date(b.timestamp) - new Date(a.timestamp)
+  );
+
+  const output = { links: merged, lastUpdated: new Date().toISOString() };
+  fs.writeFileSync(primaryPath, JSON.stringify(output, null, 2));
+
+  if (newLinks.length > 0) log(`   Added ${newLinks.length} new links from remote`, 'green');
+  if (updatedVisits > 0) log(`   Updated ${updatedVisits} visit counts`, 'green');
+
+  return { synced: true, added: newLinks.length, updated: updatedVisits };
+}
+
+function backupFile(filePath) {
+  const dir = path.dirname(filePath);
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+  const backupPath = path.join(dir, `links.json.backup-${timestamp}`);
+  fs.copyFileSync(filePath, backupPath);
+  log(`   Backup: ${path.basename(backupPath)}`, 'dim');
+  cleanupBackups(dir);
+}
+
+function cleanupBackups(dir) {
+  const backups = fs.readdirSync(dir)
+    .filter(f => f.startsWith('links.json.backup-'))
+    .sort()
+    .reverse();
+
+  const toDelete = backups.slice(MAX_BACKUPS);
+  for (const file of toDelete) {
+    fs.unlinkSync(path.join(dir, file));
+    log(`   Removed old backup: ${file}`, 'dim');
+  }
+}
+
+// Step 3: Sync JSON files
 function syncJson() {
-  log('\n2. Syncing JSON files...', 'blue');
+  log('\n3. Syncing JSON copies...', 'blue');
 
   const primaryPath = path.join(projectRoot, 'data', 'links.json');
   const publicPath = path.join(projectRoot, 'public', 'data', 'links.json');
@@ -87,7 +190,6 @@ function syncJson() {
   const publicCount = publicData.links.length;
 
   if (primaryCount === publicCount) {
-    // Quick content check
     const primaryStr = JSON.stringify(primaryData);
     const publicStr = JSON.stringify(publicData);
     if (primaryStr === publicStr) {
@@ -103,7 +205,6 @@ function syncJson() {
   } else if (publicCount > primaryCount) {
     winner = 'public';
   } else {
-    // Same count but different content — use newer timestamp
     const primaryTime = new Date(primaryData.lastUpdated || 0).getTime();
     const publicTime = new Date(publicData.lastUpdated || 0).getTime();
     winner = primaryTime >= publicTime ? 'primary' : 'public';
@@ -120,9 +221,9 @@ function syncJson() {
   }
 }
 
-// Step 3: Run prebuild
+// Step 4: Run prebuild
 function runPrebuild() {
-  log('\n3. Regenerating build artifacts...', 'blue');
+  log('\n4. Regenerating build artifacts...', 'blue');
   try {
     execSync('npm run prebuild', {
       cwd: projectRoot,
@@ -136,8 +237,8 @@ function runPrebuild() {
   }
 }
 
-// Step 4: Status report
-function printReport(syncResult) {
+// Step 5: Status report
+function printReport(newsfeedsResult, syncResult) {
   log('\n' + '='.repeat(50), 'bright');
   log(' Status Report', 'bright');
   log('='.repeat(50), 'bright');
@@ -175,7 +276,18 @@ function printReport(syncResult) {
     // git not available
   }
 
-  // Sync status
+  // Newsfeeds sync status
+  if (newsfeedsResult) {
+    if (newsfeedsResult.skipped) {
+      log('  Newsfeeds:    skipped (unreachable)', 'yellow');
+    } else if (newsfeedsResult.added > 0 || newsfeedsResult.updated > 0) {
+      log(`  Newsfeeds:    +${newsfeedsResult.added} new, ${newsfeedsResult.updated} updated`, 'green');
+    } else {
+      log('  Newsfeeds:    current', 'green');
+    }
+  }
+
+  // JSON sync status
   if (syncResult) {
     const color = syncResult.action === 'already in sync' ? 'green' : 'yellow';
     log(`  JSON sync:    ${syncResult.action}`, color);
@@ -205,9 +317,10 @@ async function main() {
   log('\n Settling link-blog...', 'bright');
 
   gitPull();
+  const newsfeedsResult = await syncNewsfeeds();
   const syncResult = syncJson();
   runPrebuild();
-  printReport(syncResult);
+  printReport(newsfeedsResult, syncResult);
 }
 
 main();
