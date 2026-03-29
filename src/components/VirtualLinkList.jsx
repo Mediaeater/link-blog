@@ -9,6 +9,9 @@ export default function VirtualLinkList({ links, renderItem }) {
   const [viewportH, setViewportH] = useState(window.innerHeight)
   const [containerWidth, setContainerWidth] = useState(0)
   const containerTop = useRef(0)
+  const heightCache = useRef(new Map())
+  const [measureVersion, setMeasureVersion] = useState(0)
+  const pendingUpdate = useRef(false)
 
   // Observe container width for responsive re-measurement
   useEffect(() => {
@@ -18,10 +21,18 @@ export default function VirtualLinkList({ links, renderItem }) {
     const ro = new ResizeObserver((entries) => {
       const width = entries[0].contentRect.width
       setContainerWidth(width)
+      heightCache.current.clear()
     })
     ro.observe(el)
     return () => ro.disconnect()
   }, [])
+
+  // Clear height cache when link list changes (filtering/sorting)
+  const prevLinksRef = useRef(links)
+  if (prevLinksRef.current !== links) {
+    heightCache.current.clear()
+    prevLinksRef.current = links
+  }
 
   // Track container's offset from page top
   const updateContainerTop = useCallback(() => {
@@ -48,91 +59,98 @@ export default function VirtualLinkList({ links, renderItem }) {
     }
   }, [updateContainerTop])
 
-  // Build virtual items with pretext-measured heights
-  const virtualItems = useMemo(() => {
-    if (containerWidth === 0) return []
-
-    let offset = 0
+  // Precompute item metadata
+  const itemMeta = useMemo(() => {
     return links.map((link, index) => {
       const prevLink = links[index - 1]
       const linkYear = new Date(link.timestamp).getFullYear()
       const prevYear = prevLink ? new Date(prevLink.timestamp).getFullYear() : null
       const showYearHeader = prevYear !== null && linkYear !== prevYear
-
-      let height = measureLinkHeight(link, containerWidth)
-      if (showYearHeader) height += YEAR_HEADER_HEIGHT
-
-      const item = { link, index, showYearHeader, year: linkYear, offset, height }
-      offset += height
-      return item
+      return { link, index, showYearHeader, year: linkYear }
     })
-  }, [links, containerWidth])
+  }, [links])
 
-  const totalHeight = virtualItems.length > 0
-    ? virtualItems[virtualItems.length - 1].offset + virtualItems[virtualItems.length - 1].height
-    : 0
+  // Calculate offsets using cached DOM heights or pretext estimates
+  const { offsets, totalHeight } = useMemo(() => {
+    if (containerWidth === 0) return { offsets: [], totalHeight: 0 }
+
+    const offs = [0]
+    for (let i = 0; i < links.length; i++) {
+      const link = links[i]
+      const meta = itemMeta[i]
+
+      let h = heightCache.current.get(link.id)
+      if (h === undefined) {
+        h = measureLinkHeight(link, containerWidth)
+        if (meta.showYearHeader) h += YEAR_HEADER_HEIGHT
+      }
+
+      offs.push(offs[i] + h)
+    }
+
+    return { offsets: offs, totalHeight: offs[offs.length - 1] || 0 }
+  }, [links, containerWidth, itemMeta, measureVersion])
 
   // Binary search for visible range
   const { start, end } = useMemo(() => {
-    if (virtualItems.length === 0) return { start: 0, end: -1 }
+    if (offsets.length <= 1) return { start: 0, end: -1 }
 
     const relScroll = scrollY - containerTop.current
     const top = Math.max(0, relScroll)
     const bottom = relScroll + viewportH
 
-    // Find first visible item
-    let lo = 0
-    let hi = virtualItems.length - 1
-    let startIdx = 0
+    let lo = 0, hi = links.length - 1, startIdx = 0
     while (lo <= hi) {
       const mid = (lo + hi) >>> 1
-      if (virtualItems[mid].offset + virtualItems[mid].height <= top) {
-        lo = mid + 1
-      } else {
-        startIdx = mid
-        hi = mid - 1
-      }
+      if (offsets[mid + 1] <= top) lo = mid + 1
+      else { startIdx = mid; hi = mid - 1 }
     }
     startIdx = Math.max(0, startIdx - OVERSCAN)
 
-    // Find last visible item
-    lo = startIdx
-    hi = virtualItems.length - 1
-    let endIdx = virtualItems.length - 1
+    lo = startIdx; hi = links.length - 1; let endIdx = links.length - 1
     while (lo <= hi) {
       const mid = (lo + hi) >>> 1
-      if (virtualItems[mid].offset <= bottom) {
-        endIdx = mid
-        lo = mid + 1
-      } else {
-        hi = mid - 1
-      }
+      if (offsets[mid] <= bottom) { endIdx = mid; lo = mid + 1 }
+      else hi = mid - 1
     }
-    endIdx = Math.min(virtualItems.length - 1, endIdx + OVERSCAN)
+    endIdx = Math.min(links.length - 1, endIdx + OVERSCAN)
 
     return { start: startIdx, end: endIdx }
-  }, [scrollY, viewportH, virtualItems])
+  }, [scrollY, viewportH, offsets, links.length])
 
-  // Before width is measured, render nothing (avoids flash of wrong layout)
+  // Measure actual DOM heights and correct
+  const measureItem = useCallback((el, linkId) => {
+    if (!el) return
+    const actual = el.getBoundingClientRect().height
+    const cached = heightCache.current.get(linkId)
+    if (cached === undefined || Math.abs(actual - cached) > 1) {
+      heightCache.current.set(linkId, actual)
+      if (!pendingUpdate.current) {
+        pendingUpdate.current = true
+        requestAnimationFrame(() => {
+          pendingUpdate.current = false
+          setMeasureVersion(v => v + 1)
+        })
+      }
+    }
+  }, [])
+
   if (containerWidth === 0) {
     return <div ref={containerRef} style={{ minHeight: 1 }} />
   }
 
+  const topSpacerH = offsets[start] || 0
+  const bottomSpacerH = totalHeight - (offsets[end + 1] || totalHeight)
+
   return (
-    <div ref={containerRef} style={{ height: totalHeight, position: 'relative' }}>
-      {virtualItems.slice(start, end + 1).map((item) => (
-        <div
-          key={item.link.id}
-          style={{
-            position: 'absolute',
-            top: item.offset,
-            left: 0,
-            right: 0,
-          }}
-        >
-          {renderItem(item.link, item.index, item.showYearHeader, item.year)}
+    <div ref={containerRef}>
+      {topSpacerH > 0 && <div style={{ height: topSpacerH }} />}
+      {itemMeta.slice(start, end + 1).map((meta) => (
+        <div key={meta.link.id} ref={(el) => measureItem(el, meta.link.id)}>
+          {renderItem(meta.link, meta.index, meta.showYearHeader, meta.year)}
         </div>
       ))}
+      {bottomSpacerH > 0 && <div style={{ height: bottomSpacerH }} />}
     </div>
   )
 }
