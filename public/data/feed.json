@@ -15,6 +15,99 @@
   ],
   "items": [
     {
+      "id": "1774825528328",
+      "url": "https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54",
+      "title": "The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind",
+      "date_published": "2026-03-29T23:05:28.328Z",
+      "tags": [
+        "wsj",
+        "deepmind",
+        "google",
+        "psychology",
+        "zuckerberg",
+        "tells"
+      ],
+      "content_text": "“Hassabis administered a subtle test on him. The two men discussed the potential of AI, and Zuckerberg expressed appropriate excitement. But then, as the dinner continued, Hassabis brought up other hot technologies: virtual reality, augmented reality, 3-D printing. Zuckerberg sounded equally excited about all of them. ‘That told me what I needed to know,’ Hassabis said.”",
+      "summary": "“Hassabis administered a subtle test on him. The two men discussed the potential of AI, and Zuckerberg expressed appropriate excitement. But then, as ...",
+      "content_html": "<blockquote>“Hassabis administered a subtle test on him. The two men discussed the potential of AI, and Zuckerberg expressed appropriate excitement. But then, as the dinner continued, Hassabis brought up other hot technologies: virtual reality, augmented reality, 3-D printing. Zuckerberg sounded equally excited about all of them. ‘That told me what I needed to know,’ Hassabis said.”</blockquote>\n<p><strong>Tags:</strong> wsj, deepmind, google, psychology, zuckerberg, tells</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774824667241",
+      "url": "https://spectrum.ieee.org/doctorow-interoperability",
+      "title": "Interoperability Can Save the Open Web ",
+      "date_published": "2026-03-29T22:51:07.241Z",
+      "tags": [
+        "open-web",
+        "internet",
+        "network-effects",
+        "regulation"
+      ],
+      "content_text": "Cory Doctorow: Interoperability Can Save the Open Web How to free users from Big Tech’s walled gardens ----I want to go after tech because it has this characteristic interoperability that makes it a soft target. We start with tech, and that gives us the momentum, the credibility, and the political will to go after everybody else.",
+      "summary": "Cory Doctorow: Interoperability Can Save the Open Web How to free users from Big Tech’s walled gardens ----I want to go after tech because it has this...",
+      "content_html": "<blockquote>Cory Doctorow: Interoperability Can Save the Open Web How to free users from Big Tech’s walled gardens ----I want to go after tech because it has this characteristic interoperability that makes it a soft target. We start with tech, and that gives us the momentum, the credibility, and the political will to go after everybody else.</blockquote>\n<p><strong>Tags:</strong> open-web, internet, network-effects, regulation</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774824587454",
+      "url": "https://project-backbone-fai.vercel.app/",
+      "title": "Project Backbone",
+      "date_published": "2026-03-29T22:49:47.454Z",
+      "tags": [
+        "backbone",
+        "map",
+        "internet",
+        "infrastructure"
+      ],
+      "content_text": "Project backbone maps the real world infrastructure your data travels through every time you load a page.\n\ncables under oceans, satellites overhead, fiber under cities, all turned into one live interactive map.",
+      "summary": "Project backbone maps the real world infrastructure your data travels through every time you load a page.\n\ncables under oceans, satellites overhead, f...",
+      "content_html": "<blockquote>Project backbone maps the real world infrastructure your data travels through every time you load a page.\n\ncables under oceans, satellites overhead, fiber under cities, all turned into one live interactive map.</blockquote>\n<p><strong>Tags:</strong> backbone, map, internet, infrastructure</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774820625605",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "title": "ChatGPT Won’t Let You Type Until Cloudflare Reads Your React State. I Decrypted the Program That Does It.",
+      "date_published": "2026-03-29T21:43:45.605Z",
+      "tags": [
+        "chatgpt"
+      ],
+      "content_text": "Every ChatGPT message triggers a Cloudflare Turnstile program that runs silently in your browser. I decrypted 377 of these programs from network traffic and found something that goes beyond standard browser fingerprinting.\n\nThe program checks 55 properties spanning three layers: your browser (GPU, screen, fonts), the Cloudflare network (your city, your IP, your region from edge headers), and the ChatGPT React application itself (__reactRouterContext, loaderData, clientBootstrap). Turnstile doesn't just verify that you're running a real browser. It verifies that you're running a real browser that has fully booted a specific React application.\n\nA bot that spoofs browser fingerprints but doesn't render the actual ChatGPT SPA will fail.",
+      "summary": "Every ChatGPT message triggers a Cloudflare Turnstile program that runs silently in your browser. I decrypted 377 of these programs from network traff...",
+      "content_html": "<blockquote>Every ChatGPT message triggers a Cloudflare Turnstile program that runs silently in your browser. I decrypted 377 of these programs from network traffic and found something that goes beyond standard browser fingerprinting.\n\nThe program checks 55 properties spanning three layers: your browser (GPU, screen, fonts), the Cloudflare network (your city, your IP, your region from edge headers), and the ChatGPT React application itself (__reactRouterContext, loaderData, clientBootstrap). Turnstile doesn&#039;t just verify that you&#039;re running a real browser. It verifies that you&#039;re running a real browser that has fully booted a specific React application.\n\nA bot that spoofs browser fingerprints but doesn&#039;t render the actual ChatGPT SPA will fail.</blockquote>\n<p><strong>Tags:</strong> chatgpt</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774820548458",
+      "url": "https://github.com/chenglou/pretext",
+      "title": "GitHub - chenglou/pretext",
+      "date_published": "2026-03-29T21:42:28.458Z",
+      "tags": [
+        "pretext",
+        "display",
+        "text"
+      ],
+      "content_text": "Pure JavaScript/TypeScript library for multiline text measurement & layout. Fast, accurate & supports all the languages you didn't even know about. Allows rendering to DOM, Canvas, SVG and soon, server-side. (check the demos-ed - implemented here)",
+      "summary": "Pure JavaScript/TypeScript library for multiline text measurement & layout. Fast, accurate & supports all the languages you didn't even know about. Al...",
+      "content_html": "<blockquote>Pure JavaScript/TypeScript library for multiline text measurement &amp; layout. Fast, accurate &amp; supports all the languages you didn&#039;t even know about. Allows rendering to DOM, Canvas, SVG and soon, server-side. (check the demos-ed - implemented here)</blockquote>\n<p><strong>Tags:</strong> pretext, display, text</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1774357655514",
       "url": "https://cc.storyfox.cz/",
       "title": "Claude Code Cheat Sheet",
@@ -26,7 +119,7 @@
       ],
       "content_html": "<p><strong>Tags:</strong> claude, code, cheat-sheet</p>",
       "_link_blog": {
-        "visits": 0,
+        "visits": 1,
         "is_pinned": false
       }
     },
@@ -82,9 +175,9 @@
         "semantic",
         "bandwidth"
       ],
-      "content_text": "The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token\nprediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from\nwhich the original tokens can be reconstructed with over 99.9% accuracy. This\nallows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The\nparadigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. Experiments show that CALM\nsignificantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost.\nMore importantly, these findings establish next-vector prediction as a powerful\nand scalable pathway towards ultra-efficient language models.",
+      "content_text": "The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token prediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from which the original tokens can be reconstructed with over 99.9% accuracy. This allows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The paradigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. \n\nExperiments show that CALM significantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost. More importantly, these findings establish next-vector prediction as a powerful and scalable pathway towards ultra-efficient language models.",
       "summary": "The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcomi...",
-      "content_html": "<blockquote>The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token\nprediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from\nwhich the original tokens can be reconstructed with over 99.9% accuracy. This\nallows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The\nparadigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. Experiments show that CALM\nsignificantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost.\nMore importantly, these findings establish next-vector prediction as a powerful\nand scalable pathway towards ultra-efficient language models.</blockquote>\n<p><strong>Tags:</strong> preprint, paper, ai, llm, semantic, bandwidth</p>",
+      "content_html": "<blockquote>The efficiency of large language models (LLMs) is fundamentally limited by their sequential, token-by-token generation process. We argue that overcoming this bottleneck requires a new design axis for LLM scaling: increasing the semantic bandwidth of each generative step. To this end, we introduce Continuous Autoregressive Language Models (CALM), a paradigm shift from discrete next-token prediction to continuous next-vector prediction. CALM uses a high-fidelity autoencoder to compress a chunk of K tokens into a single continuous vector, from which the original tokens can be reconstructed with over 99.9% accuracy. This allows us to model language as a sequence of continuous vectors instead of discrete tokens, which reduces the number of generative steps by a factor of K. The paradigm shift necessitates a new modeling toolkit; therefore, we develop a comprehensive likelihood-free framework that enables robust training, evaluation, and\ncontrollable sampling in the continuous domain. \n\nExperiments show that CALM significantly improves the performance-compute trade-off, achieving the performance of strong discrete baselines at a significantly lower computational cost. More importantly, these findings establish next-vector prediction as a powerful and scalable pathway towards ultra-efficient language models.</blockquote>\n<p><strong>Tags:</strong> preprint, paper, ai, llm, semantic, bandwidth</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -326,6 +419,26 @@
       "content_text": "This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.\n\nAt this technological inflection point, creators, studios, and industry professionals find themselves navigating without a shared vocabulary, allowing for a shared feeling of \"you're on your own.\" The existing language (\"AI-generated,\" \"AI-assisted,\" \"human-written\") fails to capture the spectrum of configurations actually in use. The scaffolding to build from is needed. Guild contracts reference \"human-led\" processes without defining the threshold. Copyright law requires \"significant human control\" without specifying what qualifies. Tool interfaces make design choices that shape agency without making those choices visible. Everyone operates from intuition where precision is needed.",
       "summary": "This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape crea...",
       "content_html": "<blockquote>This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.\n\nAt this technological inflection point, creators, studios, and industry professionals find themselves navigating without a shared vocabulary, allowing for a shared feeling of &quot;you&#039;re on your own.&quot; The existing language (&quot;AI-generated,&quot; &quot;AI-assisted,&quot; &quot;human-written&quot;) fails to capture the spectrum of configurations actually in use. The scaffolding to build from is needed. Guild contracts reference &quot;human-led&quot; processes without defining the threshold. Copyright law requires &quot;significant human control&quot; without specifying what qualifies. Tool interfaces make design choices that shape agency without making those choices visible. Everyone operates from intuition where precision is needed.</blockquote>\n<p><strong>Tags:</strong> on-the-calculation-of-the-human-ai-agency-spectrum, calculation, human-ai, agency, spectrum, publishing, ai, authorship</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774023636025",
+      "url": "https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two",
+      "title": "THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.",
+      "date_published": "2026-03-20T16:20:36.025Z",
+      "tags": [
+        "intelligence",
+        "security",
+        "afrl",
+        "air-force",
+        "usaf"
+      ],
+      "content_text": "THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.\nA Caltech astronomer shot on his porch. Three AFRL employees dead in one night. A charge dismissed eleven days before a killing. And the same institution at the center of every single case.",
+      "summary": "THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.\nA Caltech astronomer shot on his porch. Three AFRL employees dead in one night. A cha...",
+      "content_html": "<blockquote>THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.\nA Caltech astronomer shot on his porch. Three AFRL employees dead in one night. A charge dismissed eleven days before a killing. And the same institution at the center of every single case.</blockquote>\n<p><strong>Tags:</strong> intelligence, security, afrl, air-force, usaf</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -2189,6 +2302,24 @@
       }
     },
     {
+      "id": "1768942322078",
+      "url": "https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J",
+      "title": "Mechanistic Interpretability",
+      "date_published": "2026-01-20T20:52:02.078Z",
+      "tags": [
+        "ai",
+        "weights",
+        "interpretability"
+      ],
+      "content_text": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code",
+      "summary": "MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human...",
+      "content_html": "<blockquote>MI/mech int/mech interp/mechanistic interpretability: The field of study of reverse engineering neural networks from the learned weights down to human-interpretable algorithms. Analogous to reverse engineering a compiled program binary back to source code</blockquote>\n<p><strong>Tags:</strong> ai, weights, interpretability</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1768942163413",
       "url": "https://www.youtube.com/watch?v=mmKAnHz36v0",
       "title": "The Day After AGI",
@@ -2529,6 +2660,24 @@
       "content_text": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.",
       "summary": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well...",
       "content_html": "<blockquote>I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.</blockquote>\n<p><strong>Tags:</strong> ai, economics, palantir</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1768220834671",
+      "url": "https://post.substack.com/p/the-ai-revolution-is-here-will-the",
+      "title": "The AI revolution is here. Will the economy survive the transition?",
+      "date_published": "2026-01-12T12:27:14.671Z",
+      "tags": [
+        "ai",
+        "palantir",
+        "economics"
+      ],
+      "content_text": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.",
+      "summary": "I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well...",
+      "content_html": "<blockquote>I think the market is most wrong about the two poster children for AI: Nvidia and Palantir. These are two of the luckiest companies. They adapted well, but they are lucky because when this all started, neither had designed a product for AI. But they are getting used as such.\n\nNvidia’s advantage is not durable. SLMs and ASICs are the future for most use cases in AI. They will be backward-compatible with CUDA [Nvidia’s parallel computing platform and programming model] if at all necessary. Nvidia is the power-hungry, dirty solution holding the fort until the competition comes in with a completely different approach.\n\nPalantir’s CEO compared me to [bad actors] because of an imagined billion-dollar bet against his company. That is not a confident CEO. He’s marketing as hard as he can to keep this going, but it will slip. There are virtually no earnings after stock-based compensation.</blockquote>\n<p><strong>Tags:</strong> ai, palantir, economics</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false

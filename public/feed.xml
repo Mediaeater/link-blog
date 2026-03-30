@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 24 Mar 2026 13:07:35 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Mar 2026 23:08:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind]]></title>
+            <link>https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54</link>
+            <guid>1774825528328</guid>
+            <pubDate>Sun, 29 Mar 2026 23:05:28 GMT</pubDate>
+            <description><![CDATA[Tags: wsj, deepmind, google, psychology, zuckerberg, tells]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Interoperability Can Save the Open Web ]]></title>
+            <link>https://spectrum.ieee.org/doctorow-interoperability</link>
+            <guid>1774824667241</guid>
+            <pubDate>Sun, 29 Mar 2026 22:51:07 GMT</pubDate>
+            <description><![CDATA[Tags: open-web, internet, network-effects, regulation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Project Backbone]]></title>
+            <link>https://project-backbone-fai.vercel.app/</link>
+            <guid>1774824587454</guid>
+            <pubDate>Sun, 29 Mar 2026 22:49:47 GMT</pubDate>
+            <description><![CDATA[Tags: backbone, map, internet, infrastructure]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT Won’t Let You Type Until Cloudflare Reads Your React State. I Decrypted the Program That Does It.]]></title>
+            <link>https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/</link>
+            <guid>1774820625605</guid>
+            <pubDate>Sun, 29 Mar 2026 21:43:45 GMT</pubDate>
+            <description><![CDATA[Tags: chatgpt]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - chenglou/pretext]]></title>
+            <link>https://github.com/chenglou/pretext</link>
+            <guid>1774820548458</guid>
+            <pubDate>Sun, 29 Mar 2026 21:42:28 GMT</pubDate>
+            <description><![CDATA[Tags: pretext, display, text]]></description>
+        </item>
         <item>
             <title><![CDATA[Claude Code Cheat Sheet]]></title>
             <link>https://cc.storyfox.cz/</link>
@@ -119,6 +154,13 @@
             <guid>1774115399094</guid>
             <pubDate>Sat, 21 Mar 2026 17:49:59 GMT</pubDate>
             <description><![CDATA[Tags: on-the-calculation-of-the-human-ai-agency-spectrum, calculation, human-ai, agency, spectrum, publishing, ai, authorship]]></description>
+        </item>
+        <item>
+            <title><![CDATA[THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.]]></title>
+            <link>https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two</link>
+            <guid>1774023636025</guid>
+            <pubDate>Fri, 20 Mar 2026 16:20:36 GMT</pubDate>
+            <description><![CDATA[Tags: intelligence, security, afrl, air-force, usaf]]></description>
         </item>
         <item>
             <title><![CDATA[Use Claude Code Desktop - Claude Code Docs]]></title>
@@ -779,6 +821,13 @@
             <description><![CDATA[Tags: ai, weights, interpretability, audit]]></description>
         </item>
         <item>
+            <title><![CDATA[Mechanistic Interpretability]]></title>
+            <link>https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J</link>
+            <guid>1768942322078</guid>
+            <pubDate>Tue, 20 Jan 2026 20:52:02 GMT</pubDate>
+            <description><![CDATA[Tags: ai, weights, interpretability]]></description>
+        </item>
+        <item>
             <title><![CDATA[The Day After AGI]]></title>
             <link>https://www.youtube.com/watch?v=mmKAnHz36v0</link>
             <guid>1768942163413</guid>
@@ -903,6 +952,13 @@
             <guid>1768222514173</guid>
             <pubDate>Mon, 12 Jan 2026 12:55:14 GMT</pubDate>
             <description><![CDATA[Tags: ai, economics, palantir]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The AI revolution is here. Will the economy survive the transition?]]></title>
+            <link>https://post.substack.com/p/the-ai-revolution-is-here-will-the</link>
+            <guid>1768220834671</guid>
+            <pubDate>Mon, 12 Jan 2026 12:27:14 GMT</pubDate>
+            <description><![CDATA[Tags: ai, palantir, economics]]></description>
         </item>
         <item>
             <title><![CDATA[Why Civilizations Flourish—and Fail]]></title>
