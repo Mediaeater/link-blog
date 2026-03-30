@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Mon, 30 Mar 2026 22:20:31 GMT</dateCreated>
-    <dateModified>Mon, 30 Mar 2026 22:20:31 GMT</dateModified>
+    <dateCreated>Mon, 30 Mar 2026 23:47:16 GMT</dateCreated>
+    <dateModified>Mon, 30 Mar 2026 23:47:16 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -83,6 +83,14 @@ As alliances reshape the balance of power, how is AI redefining the path to econ
 
 " created="Fri, 26 Dec 2025 17:20:55 GMT" category="39c3,congress,schedule" />
       <outline type="link" text="39C3 C3VOC Streaming" title="39C3 C3VOC Streaming" url="https://streaming.media.ccc.de/" htmlUrl="https://streaming.media.ccc.de/" description="See you soon … somewhere else! – " created="Fri, 26 Dec 2025 17:19:58 GMT" category="video,39c3,congress" visits="1" />
+    </outline>
+    <outline text="92ny" title="92ny">
+      <outline type="link" text="92ny.org" title="92ny.org" url="https://www.92ny.org/archives" htmlUrl="https://www.92ny.org/archives" description="The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.
+  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more" created="Mon, 30 Mar 2026 23:46:22 GMT" category="nyc,oration,talks,archive,92y,92ny" />
+    </outline>
+    <outline text="92y" title="92y">
+      <outline type="link" text="92ny.org" title="92ny.org" url="https://www.92ny.org/archives" htmlUrl="https://www.92ny.org/archives" description="The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.
+  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more" created="Mon, 30 Mar 2026 23:46:22 GMT" category="nyc,oration,talks,archive,92y,92ny" />
     </outline>
     <outline text="AI" title="AI">
       <outline type="link" text="Opinion | The A.I. Bubble Looks Real" title="Opinion | The A.I. Bubble Looks Real" url="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" htmlUrl="https://www.nytimes.com/2025/10/14/opinion/ai-bubble-stock-market-tech-stocks.html" description="Using data from the economist Mark Zandi, we found that over the past two years, real consumer spending is up 17 percent for the wealthiest households, who disproportionately hold stocks, but flat for the middle class. Mr. Zandi estimates that the A.I. wealth effect is boosting current real gross domestic product growth by about 0.4 percentage points (just under $100 billion), comparable to the peak of the dot-com bubble, when the wealth effect was 0.6 percentage points." created="Tue, 14 Oct 2025 10:08:38 GMT" category="AI,business" />
@@ -874,6 +882,8 @@ Archival pigment print
 Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,archival-pigment-print,karma,print,gallery" />
     </outline>
     <outline text="archive" title="archive">
+      <outline type="link" text="92ny.org" title="92ny.org" url="https://www.92ny.org/archives" htmlUrl="https://www.92ny.org/archives" description="The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.
+  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more" created="Mon, 30 Mar 2026 23:46:22 GMT" category="nyc,oration,talks,archive,92y,92ny" />
       <outline type="link" text="Wikipedia blacklists Archive.today, starts removing 695,000 archive links" title="Wikipedia blacklists Archive.today, starts removing 695,000 archive links" url="https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/" htmlUrl="https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/" description="If DDoSing a blog wasn’t bad enough, archive site also tampered with web snapshots." created="Sat, 21 Feb 2026 00:01:39 GMT" category="wikipedia,archive,blacklist,ddos" />
       <outline type="link" text="alive internet theory" title="alive internet theory" url="https://alivetheory.net/" htmlUrl="https://alivetheory.net/" created="Sat, 08 Nov 2025 10:34:26 GMT" category="video,internet,archive" />
       <outline type="link" text="Archive.today: FBI Demands Data from Provider Tucows" title="Archive.today: FBI Demands Data from Provider Tucows" url="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" htmlUrl="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" description="It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option." created="Thu, 06 Nov 2025 17:44:45 GMT" category="archive,legal,fbi,hosting" />
@@ -2406,7 +2416,7 @@ Despite our concerns with the DMA, teams across Apple are spending thousands of 
 
 The penalty? A promise not to do it again.
 But the FTC doesn&apos;t order the company to delete the models trained on stolen data. 
-" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition" />
+" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition,harms" />
       <outline type="link" text="Criminal complaint against facial recognition company Clearview AI" title="Criminal complaint against facial recognition company Clearview AI" url="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" htmlUrl="https://noyb.eu/en/criminal-complaint-against-facial-recognition-company-clearview-ai" description="Today, noyb has filed a criminal complaint against Clearview AI and its managers. The facial recognition company is known for scraping billions of photos of Europeans and people around the world on the internet – and selling its facial recognition system to law enforcement and state actors. Several EU data protection authorities have already imposed fines and bans on Clearview AI. But the US company simply ignores these actions – given the lack of enforcement." created="Tue, 28 Oct 2025 10:34:40 GMT" category="frt,facial-recognition,clearview-ai,eu,privacy,legal" />
     </outline>
     <outline text="fact" title="fact">
@@ -2520,7 +2530,7 @@ Apply this directly to fully agentic coding. If you stop writing code and only r
 
 The penalty? A promise not to do it again.
 But the FTC doesn&apos;t order the company to delete the models trained on stolen data. 
-" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition" />
+" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition,harms" />
     </outline>
     <outline text="ftp" title="ftp">
       <outline type="link" text="Index of /pub" title="Index of /pub" url="http://128.237.157.9/pub/" htmlUrl="http://128.237.157.9/pub/" description="FTP Server: 
@@ -2665,7 +2675,7 @@ As biotechnology advances, the United States cannot rely on outdated, piecemeal 
 
 The penalty? A promise not to do it again.
 But the FTC doesn&apos;t order the company to delete the models trained on stolen data. 
-" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition" />
+" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition,harms" />
       <outline type="link" text="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" title="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" url="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" htmlUrl="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" description="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban
 The White House app ships with a sanctioned Chinese tracking SDK, the FBI app serves ads, and FEMA wants 28 permissions to show you weather alerts." created="Mon, 30 Mar 2026 20:45:10 GMT" category="fedware,government,apps,spy,ai,ethics,surveillance,privacy" />
       <outline type="link" text="Statement from Dario Amodei on our discussions with the Department of War" title="Statement from Dario Amodei on our discussions with the Department of War" url="https://www.anthropic.com/news/statement-department-of-war" htmlUrl="https://www.anthropic.com/news/statement-department-of-war" description="Regardless, these threats do not change our position: we cannot in good conscience accede to their request." created="Fri, 27 Feb 2026 12:08:09 GMT" category="statement,anthropic,government,state-deptment,democracy,standards" />
@@ -2739,6 +2749,11 @@ memory 128GB LPDDR5X hard drive 4 TB, SSD" created="Mon, 24 Nov 2025 10:58:44 GM
 " created="Tue, 23 Sep 2025 15:50:03 GMT" category="hardware,surveillance,harms" />
     </outline>
     <outline text="harms" title="harms">
+      <outline type="link" text="OkCupid-MatchComplaint.pdf" title="OkCupid-MatchComplaint.pdf" url="https://www.ftc.gov/system/files/ftc_gov/pdf/OkCupid-MatchComplaint.pdf" htmlUrl="https://www.ftc.gov/system/files/ftc_gov/pdf/OkCupid-MatchComplaint.pdf" description="The FTC just settled with OkCupid and Match Group for secretly handing nearly 3 million users&apos; dating profile photos and location data to Clarifai, a company that builds facial recognition software. Clarifai still has those images. They&apos;ve already used them to train their facial recognition models.  
+
+The penalty? A promise not to do it again.
+But the FTC doesn&apos;t order the company to delete the models trained on stolen data. 
+" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition,harms" />
       <outline type="link" text="How AI Impacts Skill Formation" title="How AI Impacts Skill Formation" url="https://arxiv.org/abs/2601.20245" htmlUrl="https://arxiv.org/abs/2601.20245" description="AI assistance produces significant productivity gains across professional domains, particularly for novice workers. Yet how this assistance affects the development of skills required to effectively supervise AI remains unclear. Novice workers who rely heavily on AI to complete unfamiliar tasks may compromise their own skill acquisition in the process. We conduct randomized experiments to study how developers gained mastery of a new asynchronous programming library with and without the assistance of AI. We find that AI use impairs conceptual understanding, code reading, and debugging abilities, without delivering significant efficiency gains on average. Participants who fully delegated coding tasks showed some productivity improvements, but at the cost of learning the library. We identify six distinct AI interaction patterns, three of which involve cognitive engagement and preserve learning outcomes even when participants receive AI assistance. Our findings suggest that AI-enhanced productivity is not a shortcut to competence and AI assistance should be carefully adopted into workflows to preserve skill formation -- particularly in safety-critical domains." created="Sat, 31 Jan 2026 00:55:32 GMT" category="ai,learning,harms,productivity" />
       <outline type="link" text="America is slow-walking into a Polymarket disaster" title="America is slow-walking into a Polymarket disaster" url="https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb" htmlUrl="https://www.msn.com/en-us/money/markets/america-is-slow-walking-into-a-polymarket-disaster/ar-AA1Upfdb" description="Media is a ruthless, unstable business, and revenue streams are drying up; if you squint, you can see why CNN or Dow Jones might sign a contract that, after all, provides its audience with some kind of data. On air, Enten cites Kalshi odds alongside Gallup polls and Google searches—what’s the difference? “The data featured through our partnership with Kalshi is just one of many sources used to provide context around the stories or topics we are covering and has no impact on editorial judgment,” Brian Poliakoff, a CNN spokesperson, told me in a statement. Nolly Evans, the Journal’s digital general manager, told me that Polymarket provides the newspaper’s journalists with “another way to quantify collective expectations—especially around financial or geopolitical events.” In an email, Jack Suh, a Kalshi spokesperson, told me that the company’s partnerships are designed to inform the public, not to encourage more trading. Polymarket declined to comment.
 
@@ -3940,6 +3955,8 @@ operating system NVIDIA DGX OS 7 videocard NVIDIA GB10 Blackwell GPU
 memory 128GB LPDDR5X hard drive 4 TB, SSD" created="Mon, 24 Nov 2025 10:58:44 GMT" category="hardware,ai,gear,nvidia" />
     </outline>
     <outline text="nyc" title="nyc">
+      <outline type="link" text="92ny.org" title="92ny.org" url="https://www.92ny.org/archives" htmlUrl="https://www.92ny.org/archives" description="The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.
+  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more" created="Mon, 30 Mar 2026 23:46:22 GMT" category="nyc,oration,talks,archive,92y,92ny" />
       <outline type="link" text="NYC Directory of Resources + Aid" title="NYC Directory of Resources + Aid" url="https://www.dora.nyc/" htmlUrl="https://www.dora.nyc/" description="Food near me..." created="Sun, 09 Nov 2025 18:20:14 GMT" category="food,nyc,aid,map,community" />
       <outline type="link" text="Performa 2025 Biennial" title="Performa 2025 Biennial" url="https://www.tickettailor.com/events/performa2025biennial1" htmlUrl="https://www.tickettailor.com/events/performa2025biennial1" description="The Biennial Hub
 The Biennial Hub is open every day from 12-8 pm during the biennial and is a welcoming temporary public space that will be the epicenter of the three-week program in downtown Manhattan.
@@ -3976,7 +3993,7 @@ Its lyric tells the story of a young soldier who writes from the war, promising 
 
 The penalty? A promise not to do it again.
 But the FTC doesn&apos;t order the company to delete the models trained on stolen data. 
-" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition" />
+" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition,harms" />
     </outline>
     <outline text="on-the-calculation-of-the-human-ai-agency-spectrum" title="on-the-calculation-of-the-human-ai-agency-spectrum">
       <outline type="link" text="On-the-Calculation-of-The-Human-AI-Agency-Spectrum/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md at main · Media" title="On-the-Calculation-of-The-Human-AI-Agency-Spectrum/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md at main · Media" url="https://github.com/Mediaeater/On-the-Calculation-of-The-Human-AI-Agency-Spectrum/blob/main/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md" htmlUrl="https://github.com/Mediaeater/On-the-Calculation-of-The-Human-AI-Agency-Spectrum/blob/main/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md" description="This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.
@@ -4209,6 +4226,10 @@ You should endeavour to keep your computer in as near its stock configuration as
     </outline>
     <outline text="optimization" title="optimization">
       <outline type="link" text="Qwen3-VL Technical Report" title="Qwen3-VL Technical Report" url="https://arxiv.org/abs/2511.21631" htmlUrl="https://arxiv.org/abs/2511.21631" description=". Qwen3-VL delivers three core pillars: (i) markedly stronger pure-text understanding, surpassing comparable text-only backbones in several cases; (ii) robust long-context comprehension with a native 256K-token window for both text and interleaved multimodal inputs, enabling faithful retention, retrieval, and cross-referencing across long documents and videos; and (iii) advanced multimodal reasoning across single-image, multi-image, and video tasks, demonstrating leading performance on comprehensive evaluations such as MMMU and visual-math benchmarks (e.g., MathVista and MathVision). Architecturally, we introduce three key upgrades: (i) an enhanced interleaved-MRoPE for stronger spatial-temporal modeling across images and video; (ii) DeepStack integration, which effectively leverages multi-level ViT features to tighten vision-language alignment; and (iii) text-based time alignment for video, evolving from T-RoPE to explicit textual timestamp alignment for more precise temporal grounding. Under comparable token budgets and latency constraints, Qwen3-VL achieves superior performance in both dense and Mixture-of-Experts (MoE) architectures. We envision Qwen3-VL serving as a foundational engine for image-grounded reasoning, agentic decision-making, and multimodal code intelligence in real-world workflows." created="Fri, 28 Nov 2025 11:22:29 GMT" category="video,performance,optimization,qwen,ai,cn" />
+    </outline>
+    <outline text="oration" title="oration">
+      <outline type="link" text="92ny.org" title="92ny.org" url="https://www.92ny.org/archives" htmlUrl="https://www.92ny.org/archives" description="The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.
+  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more" created="Mon, 30 Mar 2026 23:46:22 GMT" category="nyc,oration,talks,archive,92y,92ny" />
     </outline>
     <outline text="pac" title="pac">
       <outline type="link" text="Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation" title="Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation" url="https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260" htmlUrl="https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260" description="Donors have already committed well above $100 million to political-action committees involved in that fight, which has been supercharged by the wealth of some individuals and companies. Included are the venture-capital firm Andreessen Horowitz and an OpenAI co-founder, Greg Brockman. Meta Platforms is also funding several political efforts.
@@ -4457,7 +4478,7 @@ Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,arc
 
 The penalty? A promise not to do it again.
 But the FTC doesn&apos;t order the company to delete the models trained on stolen data. 
-" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition" />
+" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition,harms" />
       <outline type="link" text="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" title="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" url="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" htmlUrl="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" description="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban
 The White House app ships with a sanctioned Chinese tracking SDK, the FBI app serves ads, and FEMA wants 28 permissions to show you weather alerts." created="Mon, 30 Mar 2026 20:45:10 GMT" category="fedware,government,apps,spy,ai,ethics,surveillance,privacy" />
       <outline type="link" text="Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch" title="Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch" url="https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/" htmlUrl="https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/" description="Meta is facing a new lawsuit over its AI smart glasses and their lack of privacy, after an investigation by Swedish newspapers found that workers at a Kenya-based subcontractor are reviewing footage from customers’ glasses, which included sensitive content, like nudity, people having sex, and using the toilet." created="Thu, 05 Mar 2026 20:12:57 GMT" category="meta,glasses,privacy,surveillance,ethics,ai" />
@@ -5299,6 +5320,10 @@ Note:          Revenue derived by a service from Australia may include, for exam
     <outline text="system" title="system">
       <outline type="link" text="Root System Drawings" title="Root System Drawings" url="https://images.wur.nl/digital/collection/coll13/search" htmlUrl="https://images.wur.nl/digital/collection/coll13/search" description="Browsing items in: Root System Drawings" created="Sat, 18 Oct 2025 14:21:01 GMT" category="root,system,plants,botany,collection,drawing" />
     </outline>
+    <outline text="talks" title="talks">
+      <outline type="link" text="92ny.org" title="92ny.org" url="https://www.92ny.org/archives" htmlUrl="https://www.92ny.org/archives" description="The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.
+  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more" created="Mon, 30 Mar 2026 23:46:22 GMT" category="nyc,oration,talks,archive,92y,92ny" />
+    </outline>
     <outline text="tasks" title="tasks">
       <outline type="link" text="Introducing DoorDash Tasks" title="Introducing DoorDash Tasks" url="https://about.doordash.com/en-us/news/introducing-doordash-tasks" htmlUrl="https://about.doordash.com/en-us/news/introducing-doordash-tasks" description="DoorDash&apos;s new app pays delivery drivers to strap on body cameras and film themselves doing household chores to train AI robots... 
 
@@ -5828,7 +5853,7 @@ All of it in one place, always running, always quiet." created="Sun, 22 Mar 2026
 
 The penalty? A promise not to do it again.
 But the FTC doesn&apos;t order the company to delete the models trained on stolen data. 
-" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition" />
+" created="Mon, 30 Mar 2026 21:05:13 GMT" category="okcupid-matchcomplaint,wtf,ftc,government,privacy,facial-recognition,harms" />
       <outline type="link" text="I Verified My LinkedIn Identity. Here’s What I Actually Handed Over." title="I Verified My LinkedIn Identity. Here’s What I Actually Handed Over." url="https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/" htmlUrl="https://thelocalstack.eu/posts/linkedin-identity-verification-privacy/" description="The whole thing took three minutes. Scan, selfie, done.
 
 Understanding what I actually agreed to took me an entire weekend reading 34 pages of legal documents.
