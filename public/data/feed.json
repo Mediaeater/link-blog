@@ -15,6 +15,72 @@
   ],
   "items": [
     {
+      "id": "1774914382590",
+      "url": "https://www.92ny.org/archives",
+      "title": "92ny.org",
+      "date_published": "2026-03-30T23:46:22.590Z",
+      "tags": [
+        "nyc",
+        "oration",
+        "talks",
+        "archive",
+        "92y",
+        "92ny"
+      ],
+      "content_text": "The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.\n  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more",
+      "summary": "The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.\n  T.S. Eliot, William Carlos Williams, Edmund Wilson, M...",
+      "content_html": "<blockquote>The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.\n  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more</blockquote>\n<p><strong>Tags:</strong> nyc, oration, talks, archive, 92y, 92ny</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774904713344",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/OkCupid-MatchComplaint.pdf",
+      "title": "OkCupid-MatchComplaint.pdf",
+      "date_published": "2026-03-30T21:05:13.344Z",
+      "tags": [
+        "okcupid-matchcomplaint",
+        "wtf",
+        "ftc",
+        "government",
+        "privacy",
+        "facial-recognition",
+        "harms"
+      ],
+      "content_text": "The FTC just settled with OkCupid and Match Group for secretly handing nearly 3 million users' dating profile photos and location data to Clarifai, a company that builds facial recognition software. Clarifai still has those images. They've already used them to train their facial recognition models.  \n\nThe penalty? A promise not to do it again.\nBut the FTC doesn't order the company to delete the models trained on stolen data. \n",
+      "summary": "The FTC just settled with OkCupid and Match Group for secretly handing nearly 3 million users' dating profile photos and location data to Clarifai, a ...",
+      "content_html": "<blockquote>The FTC just settled with OkCupid and Match Group for secretly handing nearly 3 million users&#039; dating profile photos and location data to Clarifai, a company that builds facial recognition software. Clarifai still has those images. They&#039;ve already used them to train their facial recognition models.  \n\nThe penalty? A promise not to do it again.\nBut the FTC doesn&#039;t order the company to delete the models trained on stolen data. \n</blockquote>\n<p><strong>Tags:</strong> okcupid-matchcomplaint, wtf, ftc, government, privacy, facial-recognition, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1774903510645",
+      "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/",
+      "title": "Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban",
+      "date_published": "2026-03-30T20:45:10.645Z",
+      "tags": [
+        "fedware",
+        "government",
+        "apps",
+        "spy",
+        "ai",
+        "ethics",
+        "surveillance",
+        "privacy"
+      ],
+      "content_text": "Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban\nThe White House app ships with a sanctioned Chinese tracking SDK, the FBI app serves ads, and FEMA wants 28 permissions to show you weather alerts.",
+      "summary": "Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban\nThe White House app ships with a sanctioned Chinese tracking SDK, the FBI app serve...",
+      "content_html": "<blockquote>Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban\nThe White House app ships with a sanctioned Chinese tracking SDK, the FBI app serves ads, and FEMA wants 28 permissions to show you weather alerts.</blockquote>\n<p><strong>Tags:</strong> fedware, government, apps, spy, ai, ethics, surveillance, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1774825528328",
       "url": "https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54",
       "title": "The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind",

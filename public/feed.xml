@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 29 Mar 2026 23:08:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Mar 2026 23:46:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[92ny.org]]></title>
+            <link>https://www.92ny.org/archives</link>
+            <guid>1774914382590</guid>
+            <pubDate>Mon, 30 Mar 2026 23:46:22 GMT</pubDate>
+            <description><![CDATA[Tags: nyc, oration, talks, archive, 92y, 92ny]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OkCupid-MatchComplaint.pdf]]></title>
+            <link>https://www.ftc.gov/system/files/ftc_gov/pdf/OkCupid-MatchComplaint.pdf</link>
+            <guid>1774904713344</guid>
+            <pubDate>Mon, 30 Mar 2026 21:05:13 GMT</pubDate>
+            <description><![CDATA[Tags: okcupid-matchcomplaint, wtf, ftc, government, privacy, facial-recognition, harms]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban]]></title>
+            <link>https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/</link>
+            <guid>1774903510645</guid>
+            <pubDate>Mon, 30 Mar 2026 20:45:10 GMT</pubDate>
+            <description><![CDATA[Tags: fedware, government, apps, spy, ai, ethics, surveillance, privacy]]></description>
+        </item>
         <item>
             <title><![CDATA[The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind]]></title>
             <link>https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54</link>
