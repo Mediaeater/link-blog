@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 30 Mar 2026 23:46:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2026 15:49:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[7,655 Ransomware Claims From March 2025 to March 2026: Which Groups Are Behind Them]]></title>
+            <link>https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026</link>
+            <guid>1774972175402</guid>
+            <pubDate>Tue, 31 Mar 2026 15:49:35 GMT</pubDate>
+            <description><![CDATA[Tags: ransomware, cracking, vulns, cryptography]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The world's greatest song that simply shouldn't exist]]></title>
+            <link>https://www.youtube.com/watch?v=WPKHKkylciI</link>
+            <guid>1774972119381</guid>
+            <pubDate>Tue, 31 Mar 2026 15:48:39 GMT</pubDate>
+            <description><![CDATA[Tags: colaboration, music, creative-process, art, creativity]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Seeing like a spreadsheet]]></title>
+            <link>https://davidoks.blog/p/how-the-spreadsheet-reshaped-america</link>
+            <guid>1774919967357</guid>
+            <pubDate>Tue, 31 Mar 2026 01:19:27 GMT</pubDate>
+            <description><![CDATA[Tags: spreadsheet, commercial]]></description>
+        </item>
         <item>
             <title><![CDATA[92ny.org]]></title>
             <link>https://www.92ny.org/archives</link>

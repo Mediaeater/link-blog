@@ -1,6 +1,50 @@
 {
   "links": [
     {
+      "id": 1774972175402,
+      "url": "https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026",
+      "source": "7,655 Ransomware Claims From March 2025 to March 2026: Which Groups Are Behind Them",
+      "pullQuote": "Basically a map of cryptos utility. ",
+      "tags": [
+        "ransomware",
+        "cracking",
+        "vulns",
+        "cryptography"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-31T15:49:35.402Z",
+      "visits": 0
+    },
+    {
+      "id": 1774972119381,
+      "url": "https://www.youtube.com/watch?v=WPKHKkylciI",
+      "source": "The world's greatest song that simply shouldn't exist",
+      "pullQuote": "Martin's translation in the creative process is incredible ",
+      "tags": [
+        "colaboration",
+        "music",
+        "creative-process",
+        "art",
+        "creativity"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-31T15:48:39.381Z",
+      "visits": 0
+    },
+    {
+      "id": 1774919967357,
+      "url": "https://davidoks.blog/p/how-the-spreadsheet-reshaped-america",
+      "source": "Seeing like a spreadsheet",
+      "pullQuote": "But as long as we are fitting AI systems into human-dominated organizations, AI will be useful to companies in the way that the spreadsheet was useful—as a dramatic improvement in the ability to process information and coordinate action. Companies will be able to take the unstructured jumble of information—customer complaints and service calls and internal emails and Slack threads and meeting transcripts and engineering postmortems and sales call recordings—and make them, often for the first time, truly useful.",
+      "tags": [
+        "spreadsheet",
+        "commercial"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-03-31T01:19:27.357Z",
+      "visits": 0
+    },
+    {
       "id": 1774914382590,
       "url": "https://www.92ny.org/archives",
       "source": "92ny.org",
@@ -5777,5 +5821,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-03-30T23:46:22.640Z"
+  "lastUpdated": "2026-03-31T15:49:35.421Z"
 }
