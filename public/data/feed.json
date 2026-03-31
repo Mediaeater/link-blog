@@ -17,7 +17,7 @@
     {
       "id": "1774972175402",
       "url": "https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026",
-      "title": "7,655 Ransomware Claims From March 2025 to March 2026: Which Groups Are Behind Them",
+      "title": "7,655 Ransomware Claims From March 2025 to March 2026",
       "date_published": "2026-03-31T15:49:35.402Z",
       "tags": [
         "ransomware",
@@ -25,9 +25,9 @@
         "vulns",
         "cryptography"
       ],
-      "content_text": "Basically a map of cryptos utility. ",
-      "summary": "Basically a map of cryptos utility. ",
-      "content_html": "<blockquote>Basically a map of cryptos utility. </blockquote>\n<p><strong>Tags:</strong> ransomware, cracking, vulns, cryptography</p>",
+      "content_text": "Basically a map of crypto/bitcoin utility. -ed",
+      "summary": "Basically a map of crypto/bitcoin utility. -ed",
+      "content_html": "<blockquote>Basically a map of crypto/bitcoin utility. -ed</blockquote>\n<p><strong>Tags:</strong> ransomware, cracking, vulns, cryptography</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
