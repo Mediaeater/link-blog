@@ -15,6 +15,102 @@
   ],
   "items": [
     {
+      "id": "1775217866026",
+      "url": "https://webinartv.us/",
+      "title": "Company that Secretly Records and Publishes Zoom Meetings ",
+      "date_published": "2026-04-03T12:04:26.026Z",
+      "tags": [
+        "zoom",
+        "eithics",
+        "meetings",
+        "opsec",
+        "publishing"
+      ],
+      "content_text": "Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly records them, and publishes the recordings. It doesn’t use the Zoom record feature, so Zoom can’t do anything about it.",
+      "summary": "Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly record...",
+      "content_html": "<blockquote>Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly records them, and publishes the recordings. It doesn’t use the Zoom record feature, so Zoom can’t do anything about it.</blockquote>\n<p><strong>Tags:</strong> zoom, eithics, meetings, opsec, publishing</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775216476007",
+      "url": "https://blog.cloudflare.com/emdash-wordpress/",
+      "title": "Introducing EmDash — the spiritual successor to WordPress that solves plugin security",
+      "date_published": "2026-04-03T11:41:16.007Z",
+      "tags": [
+        "emdash",
+        "wordpress",
+        "blogging",
+        "open-source"
+      ],
+      "content_text": "Our name for this new CMS is EmDash. We think of it as the spiritual successor to WordPress. It's written entirely in TypeScript. It is serverless, but you can run it on your own hardware or any platform you choose. Plugins are securely sandboxed and can run in their own isolate, via Dynamic Workers, solving the fundamental security problem with the WordPress plugin architecture. And under the hood, EmDash is powered by Astro, the fastest web framework for content-driven websites.   - (playground - https://emdashcms.com/playground)",
+      "summary": "Our name for this new CMS is EmDash. We think of it as the spiritual successor to WordPress. It's written entirely in TypeScript. It is serverless, bu...",
+      "content_html": "<blockquote>Our name for this new CMS is EmDash. We think of it as the spiritual successor to WordPress. It&#039;s written entirely in TypeScript. It is serverless, but you can run it on your own hardware or any platform you choose. Plugins are securely sandboxed and can run in their own isolate, via Dynamic Workers, solving the fundamental security problem with the WordPress plugin architecture. And under the hood, EmDash is powered by Astro, the fastest web framework for content-driven websites.   - (playground - https://emdashcms.com/playground)</blockquote>\n<p><strong>Tags:</strong> emdash, wordpress, blogging, open-source</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775216195136",
+      "url": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+      "title": "CERT-EU: European Commission hack exposes data of 30 EU entities",
+      "date_published": "2026-04-03T11:36:35.136Z",
+      "tags": [
+        "hacked",
+        "breach",
+        "eu",
+        "teampcp"
+      ],
+      "content_text": "\"The dataset also contains at least 51,992 files related to outbound email communications, totalling 2.22 GB. The majority of these are automated notifications with little to no content. However, 'bounce-back' notifications, which are responses to incoming messages from users, may contain the original user-submitted content, posing a risk of personal data exposure.\"\n\nThe European Commission publicly disclosed the incident on March 27 after BleepingComputer reached out for confirmation that the Amazon cloud environment of the European Union's main executive body had been breached.",
+      "summary": "\"The dataset also contains at least 51,992 files related to outbound email communications, totalling 2.22 GB. The majority of these are automated noti...",
+      "content_html": "<blockquote>&quot;The dataset also contains at least 51,992 files related to outbound email communications, totalling 2.22 GB. The majority of these are automated notifications with little to no content. However, &#039;bounce-back&#039; notifications, which are responses to incoming messages from users, may contain the original user-submitted content, posing a risk of personal data exposure.&quot;\n\nThe European Commission publicly disclosed the incident on March 27 after BleepingComputer reached out for confirmation that the Amazon cloud environment of the European Union&#039;s main executive body had been breached.</blockquote>\n<p><strong>Tags:</strong> hacked, breach, eu, teampcp</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775216010323",
+      "url": "https://undark.org/2026/04/01/sweden-schools-books/",
+      "title": "Why Swedish Schools Are Bringing Back Books",
+      "date_published": "2026-04-03T11:33:30.323Z",
+      "tags": [
+        "learning",
+        "books",
+        "knowledge"
+      ],
+      "content_text": "Why Swedish Schools Are Bringing Back Books - amid declining test scores, the country has pivoted away from screens and invested in back-to-basics school materials.",
+      "summary": "Why Swedish Schools Are Bringing Back Books - amid declining test scores, the country has pivoted away from screens and invested in back-to-basics sch...",
+      "content_html": "<blockquote>Why Swedish Schools Are Bringing Back Books - amid declining test scores, the country has pivoted away from screens and invested in back-to-basics school materials.</blockquote>\n<p><strong>Tags:</strong> learning, books, knowledge</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775215892410",
+      "url": "https://deepmind.google/models/gemma/gemma-4/",
+      "title": "Gemma 4",
+      "date_published": "2026-04-03T11:31:32.410Z",
+      "tags": [
+        "gemma",
+        "ai",
+        "llm",
+        "google",
+        "deepmind"
+      ],
+      "content_text": "Our most intelligent open models, built from Gemini 3 research and technology to maximize intelligence-per-parameter",
+      "summary": "Our most intelligent open models, built from Gemini 3 research and technology to maximize intelligence-per-parameter",
+      "content_html": "<blockquote>Our most intelligent open models, built from Gemini 3 research and technology to maximize intelligence-per-parameter</blockquote>\n<p><strong>Tags:</strong> gemma, ai, llm, google, deepmind</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1774972175402",
       "url": "https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026",
       "title": "7,655 Ransomware Claims From March 2025 to March 2026",
