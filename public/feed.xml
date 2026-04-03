@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 31 Mar 2026 16:00:35 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 12:04:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Introducing EmDash — the spiritual successor to WordPress that solves plugin security]]></title>
+            <link>https://blog.cloudflare.com/emdash-wordpress/</link>
+            <guid>1775216476007</guid>
+            <pubDate>Fri, 03 Apr 2026 11:41:16 GMT</pubDate>
+            <description><![CDATA[Tags: emdash, wordpress, blogging, open-source]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CERT-EU: European Commission hack exposes data of 30 EU entities]]></title>
+            <link>https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/</link>
+            <guid>1775216195136</guid>
+            <pubDate>Fri, 03 Apr 2026 11:36:35 GMT</pubDate>
+            <description><![CDATA[Tags: hacked, breach, eu, teampcp]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Why Swedish Schools Are Bringing Back Books]]></title>
+            <link>https://undark.org/2026/04/01/sweden-schools-books/</link>
+            <guid>1775216010323</guid>
+            <pubDate>Fri, 03 Apr 2026 11:33:30 GMT</pubDate>
+            <description><![CDATA[Tags: learning, books, knowledge]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Gemma 4]]></title>
+            <link>https://deepmind.google/models/gemma/gemma-4/</link>
+            <guid>1775215892410</guid>
+            <pubDate>Fri, 03 Apr 2026 11:31:32 GMT</pubDate>
+            <description><![CDATA[Tags: gemma, ai, llm, google, deepmind]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Company that Secretly Records and Publishes Zoom Meetings ]]></title>
+            <link>https://webinartv.us/</link>
+            <guid>1775217866026</guid>
+            <pubDate>Fri, 03 Apr 2026 12:04:26 GMT</pubDate>
+            <description><![CDATA[Tags: zoom, eithics, meetings, opsec, publishing]]></description>
+        </item>
         <item>
             <title><![CDATA[7,655 Ransomware Claims From March 2025 to March 2026]]></title>
             <link>https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026</link>
