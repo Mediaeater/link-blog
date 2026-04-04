@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 03 Apr 2026 12:04:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Apr 2026 00:10:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[netflix void mode]]></title>
+            <link>https://huggingface.co/netflix/void-model</link>
+            <guid>1775260652887</guid>
+            <pubDate>Fri, 03 Apr 2026 23:57:32 GMT</pubDate>
+            <description><![CDATA[Tags: huggingface, netflix, open-source, segmentation, video-production, video-editing, physics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Company that Secretly Records and Publishes Zoom Meetings ]]></title>
+            <link>https://webinartv.us/</link>
+            <guid>1775217866026</guid>
+            <pubDate>Fri, 03 Apr 2026 12:04:26 GMT</pubDate>
+            <description><![CDATA[Tags: zoom, eithics, meetings, opsec, publishing]]></description>
+        </item>
         <item>
             <title><![CDATA[Introducing EmDash — the spiritual successor to WordPress that solves plugin security]]></title>
             <link>https://blog.cloudflare.com/emdash-wordpress/</link>
@@ -35,13 +49,6 @@
             <guid>1775215892410</guid>
             <pubDate>Fri, 03 Apr 2026 11:31:32 GMT</pubDate>
             <description><![CDATA[Tags: gemma, ai, llm, google, deepmind]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Company that Secretly Records and Publishes Zoom Meetings ]]></title>
-            <link>https://webinartv.us/</link>
-            <guid>1775217866026</guid>
-            <pubDate>Fri, 03 Apr 2026 12:04:26 GMT</pubDate>
-            <description><![CDATA[Tags: zoom, eithics, meetings, opsec, publishing]]></description>
         </item>
         <item>
             <title><![CDATA[7,655 Ransomware Claims From March 2025 to March 2026]]></title>

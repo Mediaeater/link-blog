@@ -4,11 +4,124 @@
         <title>newsfeeds.net - Weekly Digests</title>
         <link>https://newsfeeds.net</link>
         <description>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</description>
-        <lastBuildDate>Tue, 24 Mar 2026 13:17:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Apr 2026 16:24:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <atom:link href="https://newsfeeds.net/feed-digests.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Mar 20 - Apr 3, 2026]]></title>
+            <link>https://newsfeeds.net</link>
+            <guid>https://newsfeeds.net/digest/10</guid>
+            <pubDate>Fri, 03 Apr 2026 16:24:06 GMT</pubDate>
+            <description><![CDATA[17 curated links]]></description>
+            <content:encoded><![CDATA[<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net - Mar 20 - Apr 3, 2026</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Mar 20 - Apr 3, 2026 &middot; 17 links</p>
+  </header>
+
+
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">thesentinelnetwork.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.
+A Caltech astronomer shot on his porch. Three AFRL employees dead in one night. A charge dismissed eleven days before a killing. And the same institution at the center of every single case.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://github.com/chenglou/pretext" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">GitHub - chenglou/pretext</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">github.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Pure JavaScript/TypeScript library for multiline text measurement &amp; layout. Fast, accurate &amp; supports all the languages you didn&#39;t even know about. Allows rendering to DOM, Canvas, SVG and soon, server-side. (check the demos-ed - implemented here)</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">ChatGPT Won’t Let You Type Until Cloudflare Reads Your React State. I Decrypted the Program That Does It.</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">buchodi.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Every ChatGPT message triggers a Cloudflare Turnstile program that runs silently in your browser. I decrypted 377 of these programs from network traffic and found something that goes beyond standard browser fingerprinting.
+
+The program checks 55 properties spanning three layers: your browser (GPU, screen, fonts), the Cloudflare network (your city, your IP, your region from edge headers), and the ChatGPT React application itself (__reactRouterContext, loaderData, clientBootstrap). Turnstile doesn&#39;t just verify that you&#39;re running a real browser. It verifies that you&#39;re running a real browser that has fully booted a specific React application.
+
+A bot that spoofs browser fingerprints but doesn&#39;t render the actual ChatGPT SPA will fail.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://project-backbone-fai.vercel.app/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Project Backbone</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">project-backbone-fai.vercel.app</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Project backbone maps the real world infrastructure your data travels through every time you load a page.
+
+cables under oceans, satellites overhead, fiber under cities, all turned into one live interactive map.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://spectrum.ieee.org/doctorow-interoperability" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Interoperability Can Save the Open Web </a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">spectrum.ieee.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Cory Doctorow: Interoperability Can Save the Open Web How to free users from Big Tech’s walled gardens ----I want to go after tech because it has this characteristic interoperability that makes it a soft target. We start with tech, and that gives us the momentum, the credibility, and the political will to go after everybody else.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">wsj.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">“Hassabis administered a subtle test on him. The two men discussed the potential of AI, and Zuckerberg expressed appropriate excitement. But then, as the dinner continued, Hassabis brought up other hot technologies: virtual reality, augmented reality, 3-D printing. Zuckerberg sounded equally excited about all of them. ‘That told me what I needed to know,’ Hassabis said.”</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">sambent.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban
+The White House app ships with a sanctioned Chinese tracking SDK, the FBI app serves ads, and FEMA wants 28 permissions to show you weather alerts.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/OkCupid-MatchComplaint.pdf" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">OkCupid-MatchComplaint.pdf</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ftc.gov</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The FTC just settled with OkCupid and Match Group for secretly handing nearly 3 million users&#39; dating profile photos and location data to Clarifai, a company that builds facial recognition software. Clarifai still has those images. They&#39;ve already used them to train their facial recognition models.  
+
+The penalty? A promise not to do it again.
+But the FTC doesn&#39;t order the company to delete the models trained on stolen data. 
+</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.92ny.org/archives" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">92ny.org</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">92ny.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The 92nd street Y has uploaded hundreds of recordings of speakers who have graced their stage.
+  T.S. Eliot, William Carlos Williams, Edmund Wilson, Mary McCarthy, Irving Howe, and much more</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://davidoks.blog/p/how-the-spreadsheet-reshaped-america" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Seeing like a spreadsheet</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">davidoks.blog</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">But as long as we are fitting AI systems into human-dominated organizations, AI will be useful to companies in the way that the spreadsheet was useful—as a dramatic improvement in the ability to process information and coordinate action. Companies will be able to take the unstructured jumble of information—customer complaints and service calls and internal emails and Slack threads and meeting transcripts and engineering postmortems and sales call recordings—and make them, often for the first time, truly useful.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=WPKHKkylciI" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The world&#39;s greatest song that simply shouldn&#39;t exist</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Martin&#39;s translation in the creative process is incredible </p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://ciphercue.com/blog/7655-ransomware-claims-march-2025-to-march-2026" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">7,655 Ransomware Claims From March 2025 to March 2026</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ciphercue.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Basically a map of crypto/bitcoin utility. -ed</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://deepmind.google/models/gemma/gemma-4/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Gemma 4</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">deepmind.google</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Our most intelligent open models, built from Gemini 3 research and technology to maximize intelligence-per-parameter</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://undark.org/2026/04/01/sweden-schools-books/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Why Swedish Schools Are Bringing Back Books</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">undark.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Why Swedish Schools Are Bringing Back Books - amid declining test scores, the country has pivoted away from screens and invested in back-to-basics school materials.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">CERT-EU: European Commission hack exposes data of 30 EU entities</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bleepingcomputer.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">&quot;The dataset also contains at least 51,992 files related to outbound email communications, totalling 2.22 GB. The majority of these are automated notifications with little to no content. However, &#39;bounce-back&#39; notifications, which are responses to incoming messages from users, may contain the original user-submitted content, posing a risk of personal data exposure.&quot;
+
+The European Commission publicly disclosed the incident on March 27 after BleepingComputer reached out for confirmation that the Amazon cloud environment of the European Union&#39;s main executive body had been breached.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://blog.cloudflare.com/emdash-wordpress/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Introducing EmDash — the spiritual successor to WordPress that solves plugin security</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">blog.cloudflare.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Our name for this new CMS is EmDash. We think of it as the spiritual successor to WordPress. It&#39;s written entirely in TypeScript. It is serverless, but you can run it on your own hardware or any platform you choose. Plugins are securely sandboxed and can run in their own isolate, via Dynamic Workers, solving the fundamental security problem with the WordPress plugin architecture. And under the hood, EmDash is powered by Astro, the fastest web framework for content-driven websites.   - (playground - https://emdashcms.com/playground)</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://webinartv.us/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Company that Secretly Records and Publishes Zoom Meetings </a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">webinartv.us</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly records them, and publishes the recordings. It doesn’t use the Zoom record feature, so Zoom can’t do anything about it.</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Mar 5-24, 2026]]></title>
             <link>https://newsfeeds.net</link>
