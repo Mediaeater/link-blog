@@ -486,6 +486,35 @@
       "weekEnd": "2026-03-24",
       "title": "Mar 5-24, 2026",
       "writeup": "This collection of information covers contemporary developments in cybersecurity, artificial intelligence (AI) architecture, legal proceedings, and sociopolitical research.\n\nCyber and Technical Security\nThe data includes reports on the weaponization of software, such as a hacked Iranian prayer app used for psychological messaging and the technical analysis of the Coruna iOS exploit kit. Privacy concerns are highlighted by litigation against Meta regarding the human review of sensitive footage from smart glasses. Additionally, Delve outlines \"Fake Compliance as a Service,\" while another entry demonstrates a CSS-based method for human verification.\n\nArtificial Intelligence and Development\nTechnical documentation and research papers focus on the Human-AI Agency Spectrum and Continuous Autoregressive Language Models (CALM). Development tools are represented by Anthropic’s Claude Code—including its desktop application, skill customization guides, and expansion into general knowledge work (Cowork). Opinion pieces and cheat sheets further address the rapid scaling of AI capabilities and user implementation.\n\nLegal, Corporate, and Social Data\nSociological data from King’s College London details shifting gender role perspectives among Gen Z men. Corporate shifts include Netflix’s acquisition of InterPositive for filmmaking innovation and DoorDash’s expansion into task-based services. Legal filings focus on the Tunney Act regarding government transparency, while historical/administrative context is provided for the Department of War.\n\nStandards and Recognition\nThe list contains authoritative technical references, including NIST official U.S. time, Apple Music specifications, and the recognition of an IBM scientist with a top computing prize for foundational information theory."
+    },
+    {
+      "id": 10,
+      "timestamp": "2026-04-03T16:24:06.528Z",
+      "linkIds": [
+        1774023636025,
+        1774820548458,
+        1774820625605,
+        1774824587454,
+        1774824667241,
+        1774825528328,
+        1774903510645,
+        1774904713344,
+        1774914382590,
+        1774919967357,
+        1774972119381,
+        1774972175402,
+        1775215892410,
+        1775216010323,
+        1775216195136,
+        1775216476007,
+        1775217866026
+      ],
+      "count": 17,
+      "filename": "digest-010-2026-04-03.html",
+      "weekStart": "2026-03-20",
+      "weekEnd": "2026-04-03",
+      "title": "Mar 20 - Apr 3, 2026",
+      "writeup": ""
     }
   ],
   "cadence": "weekly"

@@ -1,6 +1,40 @@
 {
   "links": [
     {
+      "id": 1775260652887,
+      "url": "https://huggingface.co/netflix/void-model",
+      "source": "netflix void mode",
+      "pullQuote": "VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed.\n\n",
+      "tags": [
+        "huggingface",
+        "netflix",
+        "open-source",
+        "segmentation",
+        "video-production",
+        "video-editing",
+        "physics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-03T23:57:32.887Z",
+      "visits": 0
+    },
+    {
+      "id": 1775217866026,
+      "url": "https://webinartv.us/",
+      "source": "Company that Secretly Records and Publishes Zoom Meetings ",
+      "pullQuote": "Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly records them, and publishes the recordings. It doesn’t use the Zoom record feature, so Zoom can’t do anything about it.",
+      "tags": [
+        "zoom",
+        "eithics",
+        "meetings",
+        "opsec",
+        "publishing"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-03T12:04:26.026Z",
+      "visits": 0
+    },
+    {
       "id": 1775216476007,
       "url": "https://blog.cloudflare.com/emdash-wordpress/",
       "source": "Introducing EmDash — the spiritual successor to WordPress that solves plugin security",
@@ -58,22 +92,6 @@
       ],
       "isPinned": false,
       "timestamp": "2026-04-03T11:31:32.410Z",
-      "visits": 0
-    },
-    {
-      "id": 1775217866026,
-      "url": "https://webinartv.us/",
-      "source": "Company that Secretly Records and Publishes Zoom Meetings ",
-      "pullQuote": "Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly records them, and publishes the recordings. It doesn’t use the Zoom record feature, so Zoom can’t do anything about it.",
-      "tags": [
-        "zoom",
-        "eithics",
-        "meetings",
-        "opsec",
-        "publishing"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-04-03T12:04:26.026Z",
       "visits": 0
     },
     {
@@ -5897,5 +5915,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-03T12:04:26.049Z"
+  "lastUpdated": "2026-04-04T00:10:46.363Z"
 }

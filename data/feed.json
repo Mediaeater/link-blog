@@ -15,6 +15,28 @@
   ],
   "items": [
     {
+      "id": "1775260652887",
+      "url": "https://huggingface.co/netflix/void-model",
+      "title": "netflix void mode",
+      "date_published": "2026-04-03T23:57:32.887Z",
+      "tags": [
+        "huggingface",
+        "netflix",
+        "open-source",
+        "segmentation",
+        "video-production",
+        "video-editing",
+        "physics"
+      ],
+      "content_text": "VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed.\n\n",
+      "summary": "VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but p...",
+      "content_html": "<blockquote>VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed.\n\n</blockquote>\n<p><strong>Tags:</strong> huggingface, netflix, open-source, segmentation, video-production, video-editing, physics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1775217866026",
       "url": "https://webinartv.us/",
       "title": "Company that Secretly Records and Publishes Zoom Meetings ",
