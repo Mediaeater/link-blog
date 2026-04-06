@@ -15,6 +15,45 @@
   ],
   "items": [
     {
+      "id": "1775473158653",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+      "title": "Sam Altman May Control Our Future—Can He Be Trusted?",
+      "date_published": "2026-04-06T10:59:18.653Z",
+      "tags": [
+        "ai",
+        "openai",
+        "sam-altman",
+        "trust",
+        "llms"
+      ],
+      "content_text": "“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetical scenario in alignment research involves a contest of wills between a human and a high-powered A.I. In such a contest, researchers usually argue, the A.I. would surely win, much the way a grandmaster will beat a child at chess. Watching Altman outmaneuver the people around him during the Blip, the executive continued, had been like watching “an A.G.I. breaking out of the box.”",
+      "summary": "“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetic...",
+      "content_html": "<blockquote>“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetical scenario in alignment research involves a contest of wills between a human and a high-powered A.I. In such a contest, researchers usually argue, the A.I. would surely win, much the way a grandmaster will beat a child at chess. Watching Altman outmaneuver the people around him during the Blip, the executive continued, had been like watching “an A.G.I. breaking out of the box.”</blockquote>\n<p><strong>Tags:</strong> ai, openai, sam-altman, trust, llms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775441874991",
+      "url": "https://github.com/santifer/career-ops",
+      "title": "GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener",
+      "date_published": "2026-04-06T02:17:54.991Z",
+      "tags": [
+        "career-ops",
+        "job",
+        "search",
+        "hr"
+      ],
+      "content_text": " AI job search system for Claude Code that scored 700+ job applications and actually got him a job. \n\nAND IT'S NOW OPEN-SOURCE.\n\nIt scans multiple company career pages, rewrites your CV per job, and even fills application forms. The repo has:\n> 14 skill modes (evaluate, scan, PDF, ...)\n> Go terminal dashboard\n> ATS-optimized PDF generation via Playwright\n> 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Stripe...)",
+      "summary": " AI job search system for Claude Code that scored 700+ job applications and actually got him a job. \n\nAND IT'S NOW OPEN-SOURCE.\n\nIt scans multiple com...",
+      "content_html": "<blockquote> AI job search system for Claude Code that scored 700+ job applications and actually got him a job. \n\nAND IT&#039;S NOW OPEN-SOURCE.\n\nIt scans multiple company career pages, rewrites your CV per job, and even fills application forms. The repo has:\n&gt; 14 skill modes (evaluate, scan, PDF, ...)\n&gt; Go terminal dashboard\n&gt; ATS-optimized PDF generation via Playwright\n&gt; 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Stripe...)</blockquote>\n<p><strong>Tags:</strong> career-ops, job, search, hr</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1775260652887",
       "url": "https://huggingface.co/netflix/void-model",
       "title": "netflix void mode",

@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sat, 04 Apr 2026 00:11:45 GMT</dateCreated>
-    <dateModified>Sat, 04 Apr 2026 00:11:45 GMT</dateModified>
+    <dateCreated>Mon, 06 Apr 2026 11:00:06 GMT</dateCreated>
+    <dateModified>Mon, 06 Apr 2026 11:00:06 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -286,6 +286,7 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 &quot;Yakult Ladies are not just people who sell products,&quot; says the 47-year-old. &quot;We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.&quot;" created="Thu, 05 Mar 2026 12:48:17 GMT" category="aging,health,jp,bio-hacking" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="Sam Altman May Control Our Future—Can He Be Trusted?" title="Sam Altman May Control Our Future—Can He Be Trusted?" url="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" htmlUrl="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" description="“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetical scenario in alignment research involves a contest of wills between a human and a high-powered A.I. In such a contest, researchers usually argue, the A.I. would surely win, much the way a grandmaster will beat a child at chess. Watching Altman outmaneuver the people around him during the Blip, the executive continued, had been like watching “an A.G.I. breaking out of the box.”" created="Mon, 06 Apr 2026 10:59:18 GMT" category="ai,openai,sam-altman,trust,llms" />
       <outline type="link" text="Gemma 4" title="Gemma 4" url="https://deepmind.google/models/gemma/gemma-4/" htmlUrl="https://deepmind.google/models/gemma/gemma-4/" description="Our most intelligent open models, built from Gemini 3 research and technology to maximize intelligence-per-parameter" created="Fri, 03 Apr 2026 11:31:32 GMT" category="gemma,ai,llm,google,deepmind" />
       <outline type="link" text="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" title="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" url="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" htmlUrl="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" description="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban
 The White House app ships with a sanctioned Chinese tracking SDK, the FBI app serves ads, and FEMA wants 28 permissions to show you weather alerts." created="Mon, 30 Mar 2026 20:45:10 GMT" category="fedware,government,apps,spy,ai,ethics,surveillance,privacy" />
@@ -1300,6 +1301,17 @@ At this technological inflection point, creators, studios, and industry professi
 
 Such reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great." created="Mon, 05 Jan 2026 13:58:16 GMT" category="capitalism,consumption,trade,global,civilization,open-mindset,history" />
       <outline type="link" text="Democracy Will Not Survive the Age of Consumption" title="Democracy Will Not Survive the Age of Consumption" url="https://kasurian.com/p/democracy-will-not-survive-consumption" htmlUrl="https://kasurian.com/p/democracy-will-not-survive-consumption" description="In this schema, the productive middle occupies an increasingly untenable position. They are too numerous to ignore but too dispersed to organise effectively. They lack the cultural capital to dominate elite discourse and the electoral weight to dominate mass politics. Their interests are in lower taxes, less regulation, stable money, and predictable institutions; precisely those that the top-bottom coalition has no incentive to provide. What, then, are their options?" created="Sun, 04 Jan 2026 21:47:14 GMT" category="democracy,capitalism" />
+    </outline>
+    <outline text="career-ops" title="career-ops">
+      <outline type="link" text="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" title="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" url="https://github.com/santifer/career-ops" htmlUrl="https://github.com/santifer/career-ops" description=" AI job search system for Claude Code that scored 700+ job applications and actually got him a job. 
+
+AND IT&apos;S NOW OPEN-SOURCE.
+
+It scans multiple company career pages, rewrites your CV per job, and even fills application forms. The repo has:
+&gt; 14 skill modes (evaluate, scan, PDF, ...)
+&gt; Go terminal dashboard
+&gt; ATS-optimized PDF generation via Playwright
+&gt; 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Stripe...)" created="Mon, 06 Apr 2026 02:17:54 GMT" category="career-ops,job,search,hr" />
     </outline>
     <outline text="catalog" title="catalog">
       <outline type="link" text="Whole Earth Index" title="Whole Earth Index" url="https://wholeearth.info/" htmlUrl="https://wholeearth.info/" description="Here lies a nearly-complete archive of Whole Earth publications, a series of journals and magazines descended from the Whole Earth Catalog, published by Stewart Brand and the POINT Foundation between 1968 and 2002. They are made available here for scholarship, education, and research purposes." created="Tue, 04 Nov 2025 21:59:41 GMT" category="catalog,earth,whole earth,publishing,sf,the-well" />
@@ -2965,6 +2977,17 @@ Monday March 23 at 10am Pacific Time
 
 Zoom link " created="Sun, 22 Mar 2026 01:34:07 GMT" category="antitrust,law,hp,m&amp;a" />
     </outline>
+    <outline text="hr" title="hr">
+      <outline type="link" text="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" title="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" url="https://github.com/santifer/career-ops" htmlUrl="https://github.com/santifer/career-ops" description=" AI job search system for Claude Code that scored 700+ job applications and actually got him a job. 
+
+AND IT&apos;S NOW OPEN-SOURCE.
+
+It scans multiple company career pages, rewrites your CV per job, and even fills application forms. The repo has:
+&gt; 14 skill modes (evaluate, scan, PDF, ...)
+&gt; Go terminal dashboard
+&gt; ATS-optimized PDF generation via Playwright
+&gt; 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Stripe...)" created="Mon, 06 Apr 2026 02:17:54 GMT" category="career-ops,job,search,hr" />
+    </outline>
     <outline text="html" title="html">
       <outline type="link" text="Useful patterns for building HTML tools" title="Useful patterns for building HTML tools" url="https://simonwillison.net/2025/Dec/10/html-tools/" htmlUrl="https://simonwillison.net/2025/Dec/10/html-tools/" description="the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way." created="Thu, 11 Dec 2025 19:46:38 GMT" category="css,html,tools,useful,styling" />
     </outline>
@@ -3187,6 +3210,17 @@ Known as cloud-seeding, the process was conducted over the Urmia lake basin on S
     </outline>
     <outline text="japan" title="japan">
       <outline type="link" text="KanaDojo かな道場" title="KanaDojo かな道場" url="https://kanadojo.com/" htmlUrl="https://kanadojo.com/" created="Sun, 07 Sep 2025 00:01:30 GMT" category="japan,language,education,learning,ux" visits="1" />
+    </outline>
+    <outline text="job" title="job">
+      <outline type="link" text="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" title="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" url="https://github.com/santifer/career-ops" htmlUrl="https://github.com/santifer/career-ops" description=" AI job search system for Claude Code that scored 700+ job applications and actually got him a job. 
+
+AND IT&apos;S NOW OPEN-SOURCE.
+
+It scans multiple company career pages, rewrites your CV per job, and even fills application forms. The repo has:
+&gt; 14 skill modes (evaluate, scan, PDF, ...)
+&gt; Go terminal dashboard
+&gt; ATS-optimized PDF generation via Playwright
+&gt; 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Stripe...)" created="Mon, 06 Apr 2026 02:17:54 GMT" category="career-ops,job,search,hr" />
     </outline>
     <outline text="jobs" title="jobs">
       <outline type="link" text="Can AI Work with You?" title="Can AI Work with You?" url="https://iceberg.mit.edu/" htmlUrl="https://iceberg.mit.edu/" description="What does the Iceberg Index measure?
@@ -3502,6 +3536,7 @@ Claude will only access a skill when it&apos;s relevant to the task at hand. Whe
       <outline type="link" text="Apertus: Switzerland&apos;s First Open Multilingual LLM (EPFL/ETH/CSCS)" title="Apertus: Switzerland&apos;s First Open Multilingual LLM (EPFL/ETH/CSCS)" url="https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html" htmlUrl="https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html" created="Fri, 05 Sep 2025 09:00:00 GMT" category="llm,opensource,ch" />
     </outline>
     <outline text="llms" title="llms">
+      <outline type="link" text="Sam Altman May Control Our Future—Can He Be Trusted?" title="Sam Altman May Control Our Future—Can He Be Trusted?" url="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" htmlUrl="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" description="“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetical scenario in alignment research involves a contest of wills between a human and a high-powered A.I. In such a contest, researchers usually argue, the A.I. would surely win, much the way a grandmaster will beat a child at chess. Watching Altman outmaneuver the people around him during the Blip, the executive continued, had been like watching “an A.G.I. breaking out of the box.”" created="Mon, 06 Apr 2026 10:59:18 GMT" category="ai,openai,sam-altman,trust,llms" />
       <outline type="link" text="A few random notes from claude coding quite a bit last few weeks" title="A few random notes from claude coding quite a bit last few weeks" url="https://x.com/karpathy/status/2015883857489522876" htmlUrl="https://x.com/karpathy/status/2015883857489522876" description="Questions. A few of the questions on my mind:
 - What happens to the &quot;10X engineer&quot; - the ratio of productivity between the mean and the max engineer? It&apos;s quite possible that this grows *a lot*.
 - Armed with LLMs, do generalists increasingly outperform specialists? LLMs are a lot better at fill in the blanks (the micro) than grand strategy (the macro).
@@ -4111,6 +4146,7 @@ Meta Skills - Creating, testing, and sharing skills" created="Sun, 19 Oct 2025 0
       <outline type="link" text="Interoperability Can Save the Open Web " title="Interoperability Can Save the Open Web " url="https://spectrum.ieee.org/doctorow-interoperability" htmlUrl="https://spectrum.ieee.org/doctorow-interoperability" description="Cory Doctorow: Interoperability Can Save the Open Web How to free users from Big Tech’s walled gardens ----I want to go after tech because it has this characteristic interoperability that makes it a soft target. We start with tech, and that gives us the momentum, the credibility, and the political will to go after everybody else." created="Sun, 29 Mar 2026 22:51:07 GMT" category="open-web,internet,network-effects,regulation" />
     </outline>
     <outline text="openai" title="openai">
+      <outline type="link" text="Sam Altman May Control Our Future—Can He Be Trusted?" title="Sam Altman May Control Our Future—Can He Be Trusted?" url="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" htmlUrl="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" description="“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetical scenario in alignment research involves a contest of wills between a human and a high-powered A.I. In such a contest, researchers usually argue, the A.I. would surely win, much the way a grandmaster will beat a child at chess. Watching Altman outmaneuver the people around him during the Blip, the executive continued, had been like watching “an A.G.I. breaking out of the box.”" created="Mon, 06 Apr 2026 10:59:18 GMT" category="ai,openai,sam-altman,trust,llms" />
       <outline type="link" text="Our agreement with the Department of War" title="Our agreement with the Department of War" url="https://openai.com/index/our-agreement-with-the-department-of-war/" htmlUrl="https://openai.com/index/our-agreement-with-the-department-of-war/" description="The Department of War plans to convene a working group made up of leaders from the frontier AI labs, cloud providers, and the Department’s policy and operational communities. OpenAI will participate and expect this will be an important forum for ongoing dialogue on emerging AI capabilities, privacy, and national security challenges going forward. 
 
 These updates build on the framework we announced last week and we hope will help create a pathway for other labs to work with the Department going forward." created="Tue, 03 Mar 2026 11:06:23 GMT" category="surveillance,ai,ethics,openai,privacy" />
@@ -4899,6 +4935,9 @@ Dashers have a new way to earn on their own terms by completing short activities
       <outline type="link" text="Helsinki just went a full year without a single traffic death" title="Helsinki just went a full year without a single traffic death" url="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" htmlUrl="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" description="Helsinki hasn’t registered a single traffic-related fatality in the past year. " created="Thu, 05 Mar 2026 12:49:37 GMT" category="helsinki,automotive,living-better,finland,transportation,safety" />
       <outline type="link" text="OpenAI pressed on safety after deaths of ChatGPT users" title="OpenAI pressed on safety after deaths of ChatGPT users" url="https://www.ft.com/content/f4be38b3-2de9-4b81-bc47-24119c2d5aef" htmlUrl="https://www.ft.com/content/f4be38b3-2de9-4b81-bc47-24119c2d5aef" created="Sun, 07 Sep 2025 00:09:05 GMT" category="openai,ethics,safety,chatgpt,death" />
     </outline>
+    <outline text="sam-altman" title="sam-altman">
+      <outline type="link" text="Sam Altman May Control Our Future—Can He Be Trusted?" title="Sam Altman May Control Our Future—Can He Be Trusted?" url="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" htmlUrl="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" description="“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetical scenario in alignment research involves a contest of wills between a human and a high-powered A.I. In such a contest, researchers usually argue, the A.I. would surely win, much the way a grandmaster will beat a child at chess. Watching Altman outmaneuver the people around him during the Blip, the executive continued, had been like watching “an A.G.I. breaking out of the box.”" created="Mon, 06 Apr 2026 10:59:18 GMT" category="ai,openai,sam-altman,trust,llms" />
+    </outline>
     <outline text="samsung" title="samsung">
       <outline type="link" text="Samsung TVs to stop collecting Texans’ data without express consent" title="Samsung TVs to stop collecting Texans’ data without express consent" url="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" htmlUrl="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" description="As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to consumers." created="Tue, 03 Mar 2026 11:08:44 GMT" category="samsung,texans,surveillance,privacy,television,tv" />
     </outline>
@@ -4957,6 +4996,15 @@ Chatrie’s appeal challenges the constitutionality of geofence warrants, arguin
       <outline type="link" text="Cryptography in Home Entertainment " title="Cryptography in Home Entertainment " url="https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/" htmlUrl="https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/" description="- A look at content scrambling in DVDs" created="Sat, 21 Mar 2026 17:50:34 GMT" category="cryptography,entertainment,content,scrambling,dvds,drm" />
     </outline>
     <outline text="search" title="search">
+      <outline type="link" text="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" title="GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener" url="https://github.com/santifer/career-ops" htmlUrl="https://github.com/santifer/career-ops" description=" AI job search system for Claude Code that scored 700+ job applications and actually got him a job. 
+
+AND IT&apos;S NOW OPEN-SOURCE.
+
+It scans multiple company career pages, rewrites your CV per job, and even fills application forms. The repo has:
+&gt; 14 skill modes (evaluate, scan, PDF, ...)
+&gt; Go terminal dashboard
+&gt; ATS-optimized PDF generation via Playwright
+&gt; 45+ companies pre-configured (Anthropic, OpenAI, ElevenLabs, Stripe...)" created="Mon, 06 Apr 2026 02:17:54 GMT" category="career-ops,job,search,hr" />
       <outline type="link" text="Google’s Year in Search" title="Google’s Year in Search" url="https://trends.withgoogle.com/year-in-search/2025/us/" htmlUrl="https://trends.withgoogle.com/year-in-search/2025/us/" created="Fri, 26 Dec 2025 23:55:55 GMT" category="google,search,2025" />
       <outline type="link" text="GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search" title="GPT-5 Thinking in ChatGPT (aka Research Goblin) is shockingly good at search" url="https://simonwillison.net/2025/Sep/6/research-goblin/" htmlUrl="https://simonwillison.net/2025/Sep/6/research-goblin/" created="Sat, 06 Sep 2025 23:55:07 GMT" category="llm,search,chain-of-thought,chatgpt,gpt-5" />
     </outline>
@@ -5591,6 +5639,7 @@ The Outcome: Incumbents who use AI to &quot;do the old thing faster&quot; will l
       <outline type="link" text="bloodinthemachine.com" title="bloodinthemachine.com" url="https://www.bloodinthemachine.com/p/the-slop-layer?" htmlUrl="https://www.bloodinthemachine.com/p/the-slop-layer?" description="The same week that Breaking Rust was racking up Spotify plays, gamers were discovering that the newest installment of the blockbuster video game franchise Call of Duty was loaded with AI-generated art. The games blog FRVR explains (and also cites my 2024 WIRED piece on AI in the gaming industry, thanks FRVR):" created="Mon, 24 Nov 2025 11:14:36 GMT" category="ai-slop,trends,ai,media" />
     </outline>
     <outline text="trust" title="trust">
+      <outline type="link" text="Sam Altman May Control Our Future—Can He Be Trusted?" title="Sam Altman May Control Our Future—Can He Be Trusted?" url="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" htmlUrl="https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted" description="“He’s unbelievably persuasive. Like, Jedi mind tricks,” a tech executive who has worked with Altman said. “He’s just next level.” A classic hypothetical scenario in alignment research involves a contest of wills between a human and a high-powered A.I. In such a contest, researchers usually argue, the A.I. would surely win, much the way a grandmaster will beat a child at chess. Watching Altman outmaneuver the people around him during the Blip, the executive continued, had been like watching “an A.G.I. breaking out of the box.”" created="Mon, 06 Apr 2026 10:59:18 GMT" category="ai,openai,sam-altman,trust,llms" />
       <outline type="link" text="The unauthorized tool call problem – Answer.AI" title="The unauthorized tool call problem – Answer.AI" url="https://www.answer.ai/posts/2026-01-20-toolcalling.html" htmlUrl="https://www.answer.ai/posts/2026-01-20-toolcalling.html" description="So you can imagine my surprise when, during a conversation in solveit, Claude 4.5 hallucinated access to a tool I hadn’t given it yet, made up the parameters, tried to run it, and the tool actually worked - the API didn’t block it. The tool name was a valid function from the dialoghelper module, add_msg, so instead of “I’m sorry I was confused…”, I read, “Message added as requested” and a new note popped into existence! (And before you think this is Claude-specific - I’ve reproduced similar behavior with Gemini and Grok.)" created="Sat, 21 Feb 2026 01:02:15 GMT" category="unauthorized,tool,trust" />
     </outline>
     <outline text="truth" title="truth">
