@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 07 Apr 2026 01:57:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 10:25:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[GitHub - Netflix/void-model]]></title>
+            <link>https://github.com/Netflix/void-model</link>
+            <guid>1775557523122</guid>
+            <pubDate>Tue, 07 Apr 2026 10:25:23 GMT</pubDate>
+            <description><![CDATA[Tags: github, netflix, void-model, contribute, inpainting]]></description>
+        </item>
         <item>
             <title><![CDATA[New York Real Estate and the Ruin of American Art*]]></title>
             <link>https://direct.mit.edu/octo/article/doi/10.1162/OCTO.a.539/135707/New-York-Real-Estate-and-the-Ruin-of-American-Art</link>

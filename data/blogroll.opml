@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Tue, 07 Apr 2026 01:58:55 GMT</dateCreated>
-    <dateModified>Tue, 07 Apr 2026 01:58:55 GMT</dateModified>
+    <dateCreated>Tue, 07 Apr 2026 10:48:46 GMT</dateCreated>
+    <dateModified>Tue, 07 Apr 2026 10:48:46 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -1803,6 +1803,14 @@ Note:          Revenue derived by a service from Australia may include, for exam
     <outline text="continuous-vector" title="continuous-vector">
       <outline type="link" text="GitHub - shaochenze/calm: Official implementation of “Continuous Autoregressive Language Models”" title="GitHub - shaochenze/calm: Official implementation of “Continuous Autoregressive Language Models”" url="https://github.com/shaochenze/calm" htmlUrl="https://github.com/shaochenze/calm" description="Modern Large Language Models (LLMs) are constrained by a fundamental bottleneck: they generate text one token at a time. CALM (Continuous Autoregressive Language Models) confronts this challenge by introducing a paradigm shift in language modeling. Instead of predicting one discrete token at a time, CALM learns to predict a single continuous vector that represents an entire chunk of K tokens." created="Tue, 24 Mar 2026 11:11:12 GMT" category="github,calm,implementation,llm,continuous-vector,autoregressive-prediction" />
     </outline>
+    <outline text="contribute" title="contribute">
+      <outline type="link" text="GitHub - Netflix/void-model" title="GitHub - Netflix/void-model" url="https://github.com/Netflix/void-model" htmlUrl="https://github.com/Netflix/void-model" description="VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed. It is built on top of CogVideoX and fine-tuned for video inpainting with interaction-aware mask conditioning.
+
+Example: If a person holding a guitar is removed, VOID also removes the person&apos;s effect on the guitar — causing it to fall naturally.
+
+
+" created="Tue, 07 Apr 2026 10:25:23 GMT" category="github,netflix,void-model,contribute,inpainting" />
+    </outline>
     <outline text="copyright" title="copyright">
       <outline type="link" text="The music industry’s cautious embrace of AI" title="The music industry’s cautious embrace of AI" url="https://www.ft.com/content/a6b657ef-1034-4748-92fd-e24b37fb726e?sharetype=blocked" htmlUrl="https://www.ft.com/content/a6b657ef-1034-4748-92fd-e24b37fb726e?sharetype=blocked" description="Zysblat is sceptical that licensing alone will bring order. “That’s like letting bootleggers use your name and likeness on T-shirts around the world and then licensing them,” he says. “You don’t let people break the law first and then legitimise it.”
 " created="Sat, 31 Jan 2026 23:29:13 GMT" category="ai,music,strategy,licensing,copyright,recordings,record-label" />
@@ -2683,6 +2691,12 @@ Chatrie’s appeal challenges the constitutionality of geofence warrants, arguin
       <outline type="link" text="microgpt" title="microgpt" url="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" htmlUrl="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" created="Sun, 15 Feb 2026 00:25:09 GMT" category="microgpt,github,gist,ai,llm,python" />
     </outline>
     <outline text="github" title="github">
+      <outline type="link" text="GitHub - Netflix/void-model" title="GitHub - Netflix/void-model" url="https://github.com/Netflix/void-model" htmlUrl="https://github.com/Netflix/void-model" description="VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed. It is built on top of CogVideoX and fine-tuned for video inpainting with interaction-aware mask conditioning.
+
+Example: If a person holding a guitar is removed, VOID also removes the person&apos;s effect on the guitar — causing it to fall naturally.
+
+
+" created="Tue, 07 Apr 2026 10:25:23 GMT" category="github,netflix,void-model,contribute,inpainting" />
       <outline type="link" text="GitHub - shaochenze/calm: Official implementation of “Continuous Autoregressive Language Models”" title="GitHub - shaochenze/calm: Official implementation of “Continuous Autoregressive Language Models”" url="https://github.com/shaochenze/calm" htmlUrl="https://github.com/shaochenze/calm" description="Modern Large Language Models (LLMs) are constrained by a fundamental bottleneck: they generate text one token at a time. CALM (Continuous Autoregressive Language Models) confronts this challenge by introducing a paradigm shift in language modeling. Instead of predicting one discrete token at a time, CALM learns to predict a single continuous vector that represents an entire chunk of K tokens." created="Tue, 24 Mar 2026 11:11:12 GMT" category="github,calm,implementation,llm,continuous-vector,autoregressive-prediction" />
       <outline type="link" text="GitHub - Polymarket/polymarket-cli" title="GitHub - Polymarket/polymarket-cli" url="https://github.com/Polymarket/polymarket-cli " htmlUrl="https://github.com/Polymarket/polymarket-cli " created="Fri, 27 Feb 2026 12:06:10 GMT" category="github,polymarket,polymarket-cli,development,climate" />
       <outline type="link" text="microgpt" title="microgpt" url="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" htmlUrl="https://gist.github.com/karpathy/8627fe009c40f57531cb18360106ce95" created="Sun, 15 Feb 2026 00:25:09 GMT" category="microgpt,github,gist,ai,llm,python" />
@@ -3157,6 +3171,14 @@ The Digital Embassy Framework, spearheaded by the World Economic Forum and co-de
       <outline type="link" text="Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back." title="Age Verification Is Coming For the Internet. We Built You a Resource Hub to Fight Back." url="https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back" htmlUrl="https://www.eff.org/deeplinks/2025/12/age-verification-coming-internet-we-built-you-resource-hub-fight-back" description="That’s why today, we’re launching EFF’s Age Verification Resource Hub (EFF.org/Age): a one-stop shop to understand what these laws actually do, what’s at stake, why EFF opposes all forms of age verification, how to protect yourself, and how to join the fight for a free, open, private, and yes—safe—internet. 
 
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
+    </outline>
+    <outline text="inpainting" title="inpainting">
+      <outline type="link" text="GitHub - Netflix/void-model" title="GitHub - Netflix/void-model" url="https://github.com/Netflix/void-model" htmlUrl="https://github.com/Netflix/void-model" description="VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed. It is built on top of CogVideoX and fine-tuned for video inpainting with interaction-aware mask conditioning.
+
+Example: If a person holding a guitar is removed, VOID also removes the person&apos;s effect on the guitar — causing it to fall naturally.
+
+
+" created="Tue, 07 Apr 2026 10:25:23 GMT" category="github,netflix,void-model,contribute,inpainting" />
     </outline>
     <outline text="intelligence" title="intelligence">
       <outline type="link" text="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop." title="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop." url="https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two" htmlUrl="https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two" description="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.
@@ -3968,6 +3990,12 @@ space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,thr
 Nano, the smallest model, outperforms comparable models in accuracy while remaining extremely cost-efficient for inference. Super is optimized for collaborative agents and high-volume workloads such as IT ticket automation. Ultra, the largest model, provides state-of-the-art accuracy and reasoning performance." created="Wed, 17 Dec 2025 02:56:20 GMT" category="ai,model,training,nvidia,nemotron3" />
     </outline>
     <outline text="netflix" title="netflix">
+      <outline type="link" text="GitHub - Netflix/void-model" title="GitHub - Netflix/void-model" url="https://github.com/Netflix/void-model" htmlUrl="https://github.com/Netflix/void-model" description="VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed. It is built on top of CogVideoX and fine-tuned for video inpainting with interaction-aware mask conditioning.
+
+Example: If a person holding a guitar is removed, VOID also removes the person&apos;s effect on the guitar — causing it to fall naturally.
+
+
+" created="Tue, 07 Apr 2026 10:25:23 GMT" category="github,netflix,void-model,contribute,inpainting" />
       <outline type="link" text="netflix void mode" title="netflix void mode" url="https://huggingface.co/netflix/void-model" htmlUrl="https://huggingface.co/netflix/void-model" description="VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed.
 
 " created="Fri, 03 Apr 2026 23:57:32 GMT" category="huggingface,netflix,open-source,segmentation,video-production,video-editing,physics" />
@@ -5912,6 +5940,14 @@ As part of the agreement, Disney will make a $1 billion equity investment in Ope
     </outline>
     <outline text="visualization" title="visualization">
       <outline type="link" text="LLM Visualization" title="LLM Visualization" url="https://bbycroft.net/llm" htmlUrl="https://bbycroft.net/llm" created="Sun, 07 Sep 2025 00:05:43 GMT" category="llm,learning,visualization,dataviz" />
+    </outline>
+    <outline text="void-model" title="void-model">
+      <outline type="link" text="GitHub - Netflix/void-model" title="GitHub - Netflix/void-model" url="https://github.com/Netflix/void-model" htmlUrl="https://github.com/Netflix/void-model" description="VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed. It is built on top of CogVideoX and fine-tuned for video inpainting with interaction-aware mask conditioning.
+
+Example: If a person holding a guitar is removed, VOID also removes the person&apos;s effect on the guitar — causing it to fall naturally.
+
+
+" created="Tue, 07 Apr 2026 10:25:23 GMT" category="github,netflix,void-model,contribute,inpainting" />
     </outline>
     <outline text="vpn" title="vpn">
       <outline type="link" text="WireGuard topologies for self-hosting at home" title="WireGuard topologies for self-hosting at home" url="https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/" htmlUrl="https://garrido.io/notes/wireguard-topologies-for-self-hosting-at-home/" description="Before starting, it’s worth emphasizing that using WireGuard (or a VPN altogether) is ont strictly required for self-hosting. WireGuard implies one more moving part in your system, the cost of which is justified only by what it affords you to do. The constraints that I outline below should provide clarity as to why using WireGuard is appropriate for my needs." created="Mon, 06 Oct 2025 20:37:21 GMT" category="networks,wireguard,vpn" />
