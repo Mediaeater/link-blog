@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1775557523122",
+      "url": "https://github.com/Netflix/void-model",
+      "title": "GitHub - Netflix/void-model",
+      "date_published": "2026-04-07T10:25:23.122Z",
+      "tags": [
+        "github",
+        "netflix",
+        "void-model",
+        "contribute",
+        "inpainting"
+      ],
+      "content_text": "VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed. It is built on top of CogVideoX and fine-tuned for video inpainting with interaction-aware mask conditioning.\n\nExample: If a person holding a guitar is removed, VOID also removes the person's effect on the guitar — causing it to fall naturally.\n\n\n",
+      "summary": "VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but p...",
+      "content_html": "<blockquote>VOID removes objects from videos along with all interactions they induce on the scene — not just secondary effects like shadows and reflections, but physical interactions like objects falling when a person is removed. It is built on top of CogVideoX and fine-tuned for video inpainting with interaction-aware mask conditioning.\n\nExample: If a person holding a guitar is removed, VOID also removes the person&#039;s effect on the guitar — causing it to fall naturally.\n\n\n</blockquote>\n<p><strong>Tags:</strong> github, netflix, void-model, contribute, inpainting</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1775527038502",
       "url": "https://direct.mit.edu/octo/article/doi/10.1162/OCTO.a.539/135707/New-York-Real-Estate-and-the-Ruin-of-American-Art",
       "title": "New York Real Estate and the Ruin of American Art*",
