@@ -15,6 +15,63 @@
   ],
   "items": [
     {
+      "id": "1775786439697",
+      "url": "https://www.bbc.com/news/articles/c2evppm30p7o",
+      "title": "Afrika Bambaataa, hip-hop music pioneer, dies aged 67",
+      "date_published": "2026-04-10T02:00:39.697Z",
+      "tags": [
+        "hip-hop",
+        "music",
+        "pioneer",
+        "obit",
+        "afrika-bambaataa",
+        "art"
+      ],
+      "content_text": "His vision for hip-hop transformed the Bronx borough into \"the birthplace of a culture that now reaches every corner of the world\", said Reverend Dr Kurtis Blow Walker, the executive director of Hip Hop Alliance.\n\nThroughout the 1980s and beyond, he continued to collaborate widely, working with musicians including James Brown and John Lydon, and contributing to politically conscious projects such as the anti-apartheid song Sun City in 1985.",
+      "summary": "His vision for hip-hop transformed the Bronx borough into \"the birthplace of a culture that now reaches every corner of the world\", said Reverend Dr K...",
+      "content_html": "<blockquote>His vision for hip-hop transformed the Bronx borough into &quot;the birthplace of a culture that now reaches every corner of the world&quot;, said Reverend Dr Kurtis Blow Walker, the executive director of Hip Hop Alliance.\n\nThroughout the 1980s and beyond, he continued to collaborate widely, working with musicians including James Brown and John Lydon, and contributing to politically conscious projects such as the anti-apartheid song Sun City in 1985.</blockquote>\n<p><strong>Tags:</strong> hip-hop, music, pioneer, obit, afrika-bambaataa, art</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775782581261",
+      "url": "https://arstechnica.com/culture/2026/04/how-our-digital-devices-are-putting-our-right-to-privacy-at-risk/",
+      "title": "How our digital devices are putting our right to privacy at risk",
+      "date_published": "2026-04-10T00:56:21.261Z",
+      "tags": [
+        "privacy",
+        "law"
+      ],
+      "content_text": "There’s a different theory. One of the real harms that the Fourth Amendment was designed to protect against was this idea of rummaging, that British agents would be going into your home and rummaging through your goods and services, probably because you weren’t paying taxes on it, which was illegal. Or you were writing seditious treasonous letters complaining about the king. That’s really why we had the Fourth Amendment. Digital rummaging tests would protect against this idea of over-broad and expansive surveillance.\n\n",
+      "summary": "There’s a different theory. One of the real harms that the Fourth Amendment was designed to protect against was this idea of rummaging, that British a...",
+      "content_html": "<blockquote>There’s a different theory. One of the real harms that the Fourth Amendment was designed to protect against was this idea of rummaging, that British agents would be going into your home and rummaging through your goods and services, probably because you weren’t paying taxes on it, which was illegal. Or you were writing seditious treasonous letters complaining about the king. That’s really why we had the Fourth Amendment. Digital rummaging tests would protect against this idea of over-broad and expansive surveillance.\n\n</blockquote>\n<p><strong>Tags:</strong> privacy, law</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775740924672",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "date_published": "2026-04-09T13:22:04.672Z",
+      "tags": [
+        "meta",
+        "closed",
+        "llm",
+        "muse-spark"
+      ],
+      "content_text": "The model is closed to ensure Meta retains control over its \"Muse\" reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the \"path forward\" to joining the ranks of closed-model providers to justify a $135 billion R&D expenditure.",
+      "summary": "The model is closed to ensure Meta retains control over its \"Muse\" reasoning architecture and to monetize the technology via a private API and inferen...",
+      "content_html": "<blockquote>The model is closed to ensure Meta retains control over its &quot;Muse&quot; reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the &quot;path forward&quot; to joining the ranks of closed-model providers to justify a $135 billion R&amp;D expenditure.</blockquote>\n<p><strong>Tags:</strong> meta, closed, llm, muse-spark</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1775557523122",
       "url": "https://github.com/Netflix/void-model",
       "title": "GitHub - Netflix/void-model",

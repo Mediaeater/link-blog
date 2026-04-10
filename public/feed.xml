@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 07 Apr 2026 10:25:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 11:30:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Afrika Bambaataa, hip-hop music pioneer, dies aged 67]]></title>
+            <link>https://www.bbc.com/news/articles/c2evppm30p7o</link>
+            <guid>1775786439697</guid>
+            <pubDate>Fri, 10 Apr 2026 02:00:39 GMT</pubDate>
+            <description><![CDATA[Tags: hip-hop, music, pioneer, obit, afrika-bambaataa, art]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How our digital devices are putting our right to privacy at risk]]></title>
+            <link>https://arstechnica.com/culture/2026/04/how-our-digital-devices-are-putting-our-right-to-privacy-at-risk/</link>
+            <guid>1775782581261</guid>
+            <pubDate>Fri, 10 Apr 2026 00:56:21 GMT</pubDate>
+            <description><![CDATA[Tags: privacy, law]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Muse Spark: Scaling Towards Personal Superintelligence]]></title>
+            <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+            <guid>1775740924672</guid>
+            <pubDate>Thu, 09 Apr 2026 13:22:04 GMT</pubDate>
+            <description><![CDATA[Tags: meta, closed, llm, muse-spark]]></description>
+        </item>
         <item>
             <title><![CDATA[GitHub - Netflix/void-model]]></title>
             <link>https://github.com/Netflix/void-model</link>

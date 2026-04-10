@@ -1,6 +1,65 @@
 {
   "links": [
     {
+      "id": 1775820802040,
+      "url": "https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1",
+      "source": "US officials deny threatening Vatican over Pope Leo’s criticisms",
+      "pullQuote": "But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.\n\nThe unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.\n",
+      "tags": [
+        "vatican",
+        "usa-gov",
+        "religion"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-10T11:33:22.040Z",
+      "visits": 0
+    },
+    {
+      "id": 1775786439697,
+      "url": "https://www.bbc.com/news/articles/c2evppm30p7o",
+      "source": "Afrika Bambaataa, hip-hop music pioneer, dies aged 67",
+      "pullQuote": "His vision for hip-hop transformed the Bronx borough into \"the birthplace of a culture that now reaches every corner of the world\", said Reverend Dr Kurtis Blow Walker, the executive director of Hip Hop Alliance.\n\nThroughout the 1980s and beyond, he continued to collaborate widely, working with musicians including James Brown and John Lydon, and contributing to politically conscious projects such as the anti-apartheid song Sun City in 1985.",
+      "tags": [
+        "hip-hop",
+        "music",
+        "pioneer",
+        "obit",
+        "afrika-bambaataa",
+        "art"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-10T02:00:39.697Z",
+      "visits": 0
+    },
+    {
+      "id": 1775782581261,
+      "url": "https://arstechnica.com/culture/2026/04/how-our-digital-devices-are-putting-our-right-to-privacy-at-risk/",
+      "source": "How our digital devices are putting our right to privacy at risk",
+      "pullQuote": "There’s a different theory. One of the real harms that the Fourth Amendment was designed to protect against was this idea of rummaging, that British agents would be going into your home and rummaging through your goods and services, probably because you weren’t paying taxes on it, which was illegal. Or you were writing seditious treasonous letters complaining about the king. That’s really why we had the Fourth Amendment. Digital rummaging tests would protect against this idea of over-broad and expansive surveillance.\n\n",
+      "tags": [
+        "privacy",
+        "law"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-10T00:56:21.261Z",
+      "visits": 0
+    },
+    {
+      "id": 1775740924672,
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "source": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "pullQuote": "The model is closed to ensure Meta retains control over its \"Muse\" reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the \"path forward\" to joining the ranks of closed-model providers to justify a $135 billion R&D expenditure.",
+      "tags": [
+        "meta",
+        "closed",
+        "llm",
+        "muse-spark"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-09T13:22:04.672Z",
+      "visits": 0
+    },
+    {
       "id": 1775557523122,
       "url": "https://github.com/Netflix/void-model",
       "source": "GitHub - Netflix/void-model",
@@ -6008,5 +6067,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-07T10:25:40.518Z"
+  "lastUpdated": "2026-04-10T11:33:22.062Z"
 }
