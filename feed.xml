@@ -4,51 +4,23 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 07 Apr 2026 10:25:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 01:13:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[GitHub - Netflix/void-model]]></title>
-            <link>https://github.com/Netflix/void-model</link>
-            <guid>1775557523122</guid>
-            <pubDate>Tue, 07 Apr 2026 10:25:23 GMT</pubDate>
-            <description><![CDATA[Tags: github, netflix, void-model, contribute, inpainting]]></description>
+            <title><![CDATA[How our digital devices are putting our right to privacy at risk]]></title>
+            <link>https://arstechnica.com/culture/2026/04/how-our-digital-devices-are-putting-our-right-to-privacy-at-risk/</link>
+            <guid>1775782581261</guid>
+            <pubDate>Fri, 10 Apr 2026 00:56:21 GMT</pubDate>
+            <description><![CDATA[Tags: privacy, law]]></description>
         </item>
         <item>
-            <title><![CDATA[New York Real Estate and the Ruin of American Art*]]></title>
-            <link>https://direct.mit.edu/octo/article/doi/10.1162/OCTO.a.539/135707/New-York-Real-Estate-and-the-Ruin-of-American-Art</link>
-            <guid>1775527038502</guid>
-            <pubDate>Tue, 07 Apr 2026 01:57:18 GMT</pubDate>
-            <description><![CDATA[Tags: art, nyc, josh-klien, culture, real-estate]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Why Schools Shouldn’t Teach Current Events]]></title>
-            <link>https://anandsanwal.me/current-events-education-information-diet/</link>
-            <guid>1775478315153</guid>
-            <pubDate>Mon, 06 Apr 2026 12:25:15 GMT</pubDate>
-            <description><![CDATA[Tags: checking, browser, seconds]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Surveillance Findings: Age Verification as Mass Surveillance Infrastructure]]></title>
-            <link>https://tboteproject.com/surveillancefindings/</link>
-            <guid>1775478278719</guid>
-            <pubDate>Mon, 06 Apr 2026 12:24:38 GMT</pubDate>
-            <description><![CDATA[Tags: surveillance, identity, surveillance-ai, age, the-worst-humans]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Sam Altman May Control Our Future—Can He Be Trusted?]]></title>
-            <link>https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted</link>
-            <guid>1775473158653</guid>
-            <pubDate>Mon, 06 Apr 2026 10:59:18 GMT</pubDate>
-            <description><![CDATA[Tags: ai, openai, sam-altman, trust, llms]]></description>
-        </item>
-        <item>
-            <title><![CDATA[GitHub - santifer/career-ops: AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF gener]]></title>
-            <link>https://github.com/santifer/career-ops</link>
-            <guid>1775441874991</guid>
-            <pubDate>Mon, 06 Apr 2026 02:17:54 GMT</pubDate>
-            <description><![CDATA[Tags: career-ops, job, search, hr]]></description>
+            <title><![CDATA[Introducing Muse Spark: Scaling Towards Personal Superintelligence]]></title>
+            <link>https://ai.meta.com/blog/introducing-muse-spark-msl/</link>
+            <guid>1775740924672</guid>
+            <pubDate>Thu, 09 Apr 2026 13:22:04 GMT</pubDate>
+            <description><![CDATA[Tags: meta, closed, llm, muse-spark]]></description>
         </item>
         <item>
             <title><![CDATA[netflix void mode]]></title>
