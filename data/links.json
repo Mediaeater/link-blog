@@ -1,17 +1,78 @@
 {
   "links": [
     {
-      "id": 1775820802040,
-      "url": "https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1",
-      "source": "US officials deny threatening Vatican over Pope Leo’s criticisms",
-      "pullQuote": "But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.\n\nThe unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.\n",
+      "id": 1776163746822,
+      "url": "https://archive.org/details/@aadam_jacobs_collection",
+      "source": "Aadam Jacobs Collection",
+      "pullQuote": "",
       "tags": [
-        "vatican",
-        "usa-gov",
-        "religion"
+        "music",
+        "concert",
+        "live",
+        "recordings"
       ],
       "isPinned": false,
-      "timestamp": "2026-04-10T11:33:22.040Z",
+      "timestamp": "2026-04-14T10:49:06.822Z",
+      "visits": 0
+    },
+    {
+      "id": 1776163688128,
+      "url": "https://www.trainjazz.com/",
+      "source": "Every train, a note.",
+      "pullQuote": "",
+      "tags": [
+        "nyc",
+        "subway",
+        "transportation",
+        "music",
+        "urban-hack"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-14T10:48:08.128Z",
+      "visits": 0
+    },
+    {
+      "id": 1776163651886,
+      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report?utm_source=chatgpt.com",
+      "source": "Inside the AI Index: 12 Takeaways from the 2026 Report | Stanford HAI",
+      "pullQuote": "s AI's capabilities improve, its environmental impact increases. Grok 4's estimated training emissions reached 72,816 tons of CO2 equivalent, or roughly the same amount of greenhouse gas emissions created from driving 17,000 cars for one year. AI data center power capacity rose to 29.6 GW, or about what it takes to power the entire state of New York at peak demand, and annual GPT-4o inference water use (the water used to cool data servers or run them off hydroelectricity) alone may exceed the drinking water needs of 12 million people.",
+      "tags": [
+        "stanford",
+        "hai",
+        "ai",
+        "environment"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-14T10:47:31.886Z",
+      "visits": 0
+    },
+    {
+      "id": 1776163590374,
+      "url": "https://nskyc.com/",
+      "source": "NSKYC",
+      "pullQuote": "",
+      "tags": [
+        "color",
+        "nyc",
+        "ariel"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-14T10:46:30.374Z",
+      "visits": 0
+    },
+    {
+      "id": 1776163528907,
+      "url": "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and",
+      "source": "AI Will Be Met With Violence, and Nothing Good Will Come of It",
+      "pullQuote": "If people feel that they have no place in the future.\n\nIf they feel expelled from the system—they’re unable to buy stuff, their skills become obsolete, their chance at earning a living is replaced by a swarm of AI agents, they think we are truly going to die (so far, the violence has been tied mostly to safety AI movements)—then they will feel they have nothing to lose.\n\nAnd then, and I’m sorry to be so blunt, then it’s die or kill.",
+      "tags": [
+        "violence",
+        "ai",
+        "backlash",
+        "technology"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-14T10:45:28.907Z",
       "visits": 0
     },
     {
@@ -57,6 +118,22 @@
       ],
       "isPinned": false,
       "timestamp": "2026-04-09T13:22:04.672Z",
+      "visits": 0
+    },
+    {
+      "id": 1775559467651,
+      "url": "https://www.youtube.com/watch?v=IyBJmQ3kf94",
+      "source": "The Making of a Dye-Transfer | William Eggleston ",
+      "pullQuote": "Dye-transfer is a full-color photographic print process favored by American photographer William Eggleston. In this video, Eggelston’s long-time collaborators, renowned dye-transfer specialists Guy Stricherz and Irene Malli give a step-by-step tutorial of the technique behind creating a Dye-Transfer print.\n\nGuy Stricherz and Irene Malli have printed Eggleston’s works for the last twenty-five years. Eggleston’s discovery of the dye-transfer process in the 1970s was crucial to his move from primarily working in black-and-white to producing color photograph",
+      "tags": [
+        "video",
+        "art",
+        "photography",
+        "printing",
+        "dye-transfer"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-07T10:57:47.651Z",
       "visits": 0
     },
     {
@@ -6067,5 +6144,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-10T11:33:22.062Z"
+  "lastUpdated": "2026-04-14T10:49:22.425Z"
 }
