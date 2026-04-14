@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1776163914010,
+      "url": "https://xinwen.bjd.com.cn/content/s69d8d495e4b0cd719ea0539f.html",
+      "source": "CN: nterim Measures for the Administration of Humanized Interactive Services Based on Artificial Intelligence",
+      "pullQuote": "Chapter 1 General Provisions\n\nArticle 1 This Regulation is formulated in accordance with the Cybersecurity Law of the People's Republic of China, the Data Security Law of the People's Republic of China, the Personal Information Protection Law of the People's Republic of China, the Regulations on the Protection of Minors Online, and other laws and administrative regulations, in order to promote the healthy development and standardized application of artificial intelligence-based anthropomorphic interactive services, safeguard national security and public interests, and protect the legitimate rights and interests of citizens, legal persons and other organizations.\n\nArticle 2 This regulation applies to the provision of continuous emotional interaction services (hereinafter referred to as anthropomorphic interaction services) to the public within the territory of the People's Republic of China that utilize artificial intelligence technology to simulate the personality characteristics, thinking patterns, and communication styles of natural persons.",
+      "tags": [
+        "ai",
+        "cn",
+        "legislation",
+        "anthropomorphism"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-14T10:51:54.010Z",
+      "visits": 0
+    },
+    {
       "id": 1776163746822,
       "url": "https://archive.org/details/@aadam_jacobs_collection",
       "source": "Aadam Jacobs Collection",
@@ -6144,5 +6159,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-14T10:49:22.425Z"
+  "lastUpdated": "2026-04-14T10:52:03.569Z"
 }
