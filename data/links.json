@@ -3,36 +3,27 @@
     {
       "id": 1776602385239.299,
       "url": "https://www.youtube.com/watch?v=d2Zrj6DL8aw",
-      "source": "BLKNWS: TERMS & CONDITIONS | TRACK 01. THE ENCYCLOPEDIA",
-      "pullQuote": "The first single from Kahlil Joseph’s debut feature film, BLKNWS: Terms & Conditions. \n",
+      "source": "youtube.com",
+      "pullQuote": "",
       "tags": [
-        "video",
-        "music",
-        "art",
-        "history",
-        "mashup",
-        "music-video"
+        "youtube",
+        "video"
       ],
-      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 1
+      "visits": 0
     },
     {
       "id": 1776602385239.9043,
       "url": "https://www.wired.com/story/madison-square-garden-jim-dolan-surveillance-machine/",
       "source": "The Shocking Secrets of Madison Square Garden’s Surveillance Machine",
-      "pullQuote": "The Shocking Secrets of Madison Square Garden’s Surveillance Machine\nFamously vengeful Knicks owner Jim Dolan has long spied on people at his iconic arenas. WIRED goes deep inside the operation that allegedly tracked a trans woman, lawyers, protesters, and more.",
+      "pullQuote": "",
       "tags": [
         "surveillance",
         "privacy",
-        "wired",
-        "msg",
-        "frt",
-        "facial-recognition"
+        "wired"
       ],
-      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 1
+      "visits": 0
     },
     {
       "id": 1776602385239.5269,
@@ -46,35 +37,44 @@
         "wired"
       ],
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 1,
-      "isPinned": false
+      "visits": 0
     },
     {
       "id": 1776602385239.901,
       "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
       "source": "Qwen Studio",
-      "pullQuote": "Following the launch of Qwen3.6-Plus, we are excited to open-source Qwen3.6-35B-A3B — a sparse yet remarkably capable mixture-of-experts (MoE) model with 35 billion total parameters and only 3 billion active parameters. Despite its efficiency, Qwen3.6-35B-A3B delivers outstanding agentic coding performance, surpassing its predecessor Qwen3.5-35B-A3B by a wide margin and rivaling much larger dense models such as Qwen3.5-27B and Gemma4-31B. Still supporting both multimodal thinking and non-thinking modes, Qwen3.6-35B-A3B works as one of the most versatile open-source models available today. Now, Qwen3.6-35B-A3B is live on Qwen Studio, available through our API, and released as open weights for the community.",
+      "pullQuote": "",
       "tags": [
         "ai",
         "llm",
-        "open-source",
-        "qwen"
+        "open-source"
       ],
-      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 1
+      "visits": 0
     },
     {
       "id": 1776602385239.8545,
       "url": "https://dansinker.com/posts/2026-04-17-notre-dame/",
       "source": "A Well-Aimed Potato: The Klan, Notre Dame, and Today | dansinker.com",
-      "pullQuote": "The hate of today and the hate of a hundred years ago is the same hate, it's just wearing different masks. And just like then it can be defeated. But as the students at Notre Dame over a hundred years ago understood, hate doesn't go down without a fight.",
+      "pullQuote": "",
       "tags": [
         "history",
         "culture",
         "essay"
       ],
-      "isPinned": false,
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.424,
+      "url": "https://x.com/TFTC21/status/2045250949216895058",
+      "source": "TFTC (@TFTC21) on X",
+      "pullQuote": "",
+      "tags": [
+        "ai",
+        "anthropic",
+        "twitter"
+      ],
       "timestamp": "2026-04-19T12:39:45.239Z",
       "visits": 0
     },
@@ -89,8 +89,7 @@
         "research"
       ],
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0,
-      "isPinned": false
+      "visits": 0
     },
     {
       "id": 1776602385239.3643,
@@ -103,8 +102,34 @@
         "artemis"
       ],
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0,
-      "isPinned": false
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.9084,
+      "url": "https://x.com/TheAhmadOsman/status/2045617447567339937",
+      "source": "Ahmad (@TheAhmadOsman) on X",
+      "pullQuote": "",
+      "tags": [
+        "ai",
+        "economics",
+        "twitter"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776167791993,
+      "url": "https://www.stickermule.com/claudecode",
+      "source": "Claude Code stickers | Sticker Mule",
+      "pullQuote": "from the /stickers prompt in claude code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "merch"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-14T11:56:31.993Z",
+      "visits": 0
     },
     {
       "id": 1776163914010,
@@ -119,7 +144,7 @@
       ],
       "isPinned": false,
       "timestamp": "2026-04-14T10:51:54.010Z",
-      "visits": 1
+      "visits": 0
     },
     {
       "id": 1776163746822,
@@ -6265,5 +6290,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-19T13:54:51.977Z"
+  "lastUpdated": "2026-04-19T14:01:11.585Z"
 }
