@@ -3,14 +3,15 @@
     {
       "id": 1776602385239.299,
       "url": "https://www.youtube.com/watch?v=d2Zrj6DL8aw",
-      "source": "youtube.com",
+      "source": "BLKNWS: TERMS & CONDITIONS | TRACK 01. THE ENCYCLOPEDIA",
       "pullQuote": "",
       "tags": [
         "youtube",
         "video"
       ],
+      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1776602385239.9043,
@@ -66,19 +67,6 @@
       "visits": 0
     },
     {
-      "id": 1776602385239.424,
-      "url": "https://x.com/TFTC21/status/2045250949216895058",
-      "source": "TFTC (@TFTC21) on X",
-      "pullQuote": "",
-      "tags": [
-        "ai",
-        "anthropic",
-        "twitter"
-      ],
-      "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0
-    },
-    {
       "id": 1776602385239.0964,
       "url": "https://metr.org/",
       "source": "METR",
@@ -100,19 +88,6 @@
         "nasa",
         "space",
         "artemis"
-      ],
-      "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0
-    },
-    {
-      "id": 1776602385239.9084,
-      "url": "https://x.com/TheAhmadOsman/status/2045617447567339937",
-      "source": "Ahmad (@TheAhmadOsman) on X",
-      "pullQuote": "",
-      "tags": [
-        "ai",
-        "economics",
-        "twitter"
       ],
       "timestamp": "2026-04-19T12:39:45.239Z",
       "visits": 0
@@ -6290,5 +6265,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-19T14:01:11.585Z"
+  "lastUpdated": "2026-04-19T14:44:02.632Z"
 }
