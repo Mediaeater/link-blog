@@ -37,9 +37,12 @@
       "tags": [
         "surveillance",
         "privacy",
-        "wired"
+        "wired",
+        "frt",
+        "facial-recognition",
+        "creepy-jim-dolan"
       ],
-      "content_html": "<p><strong>Tags:</strong> surveillance, privacy, wired</p>",
+      "content_html": "<p><strong>Tags:</strong> surveillance, privacy, wired, frt, facial-recognition, creepy-jim-dolan</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -72,25 +75,11 @@
         "llm",
         "open-source"
       ],
-      "content_html": "<p><strong>Tags:</strong> ai, llm, open-source</p>",
+      "content_text": "open-source Qwen3.6-35B-A3B — a sparse yet remarkably capable mixture-of-experts (MoE) model with 35 billion total parameters and only 3 billion active parameters. Despite its efficiency, Qwen3.6-35B-A3B delivers outstanding agentic coding performance, surpassing its predecessor Qwen3.5-35B-A3B by a wide margin and rivaling much larger dense models such as Qwen3.5-27B and Gemma4-31B. Still supporting both multimodal thinking and non-thinking modes, Qwen3.6-35B-A3B works as one of the most versatile open-source models available today. ",
+      "summary": "open-source Qwen3.6-35B-A3B — a sparse yet remarkably capable mixture-of-experts (MoE) model with 35 billion total parameters and only 3 billion activ...",
+      "content_html": "<blockquote>open-source Qwen3.6-35B-A3B — a sparse yet remarkably capable mixture-of-experts (MoE) model with 35 billion total parameters and only 3 billion active parameters. Despite its efficiency, Qwen3.6-35B-A3B delivers outstanding agentic coding performance, surpassing its predecessor Qwen3.5-35B-A3B by a wide margin and rivaling much larger dense models such as Qwen3.5-27B and Gemma4-31B. Still supporting both multimodal thinking and non-thinking modes, Qwen3.6-35B-A3B works as one of the most versatile open-source models available today. </blockquote>\n<p><strong>Tags:</strong> ai, llm, open-source</p>",
       "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1776602385239.8545",
-      "url": "https://dansinker.com/posts/2026-04-17-notre-dame/",
-      "title": "A Well-Aimed Potato: The Klan, Notre Dame, and Today | dansinker.com",
-      "date_published": "2026-04-19T12:39:45.239Z",
-      "tags": [
-        "history",
-        "culture",
-        "essay"
-      ],
-      "content_html": "<p><strong>Tags:</strong> history, culture, essay</p>",
-      "_link_blog": {
-        "visits": 0,
+        "visits": 1,
         "is_pinned": false
       }
     },
@@ -104,23 +93,29 @@
         "safety",
         "research"
       ],
-      "content_html": "<p><strong>Tags:</strong> ai, safety, research</p>",
+      "content_text": "Model Evaluation & Threat Research\nMETR conducts research and evaluations to improve public understanding of the capabilities and risks of frontier AI systems.",
+      "summary": "Model Evaluation & Threat Research\nMETR conducts research and evaluations to improve public understanding of the capabilities and risks of frontier AI...",
+      "content_html": "<blockquote>Model Evaluation &amp; Threat Research\nMETR conducts research and evaluations to improve public understanding of the capabilities and risks of frontier AI systems.</blockquote>\n<p><strong>Tags:</strong> ai, safety, research</p>",
       "_link_blog": {
-        "visits": 0,
+        "visits": 1,
         "is_pinned": false
       }
     },
     {
       "id": "1776602385239.3643",
       "url": "https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/",
-      "title": "NASA Artemis II Moon Mission",
+      "title": "NASA Artemis II Moon Mission (Scroll effect)",
       "date_published": "2026-04-19T12:39:45.239Z",
       "tags": [
         "nasa",
         "space",
-        "artemis"
+        "artemis",
+        "ui",
+        "ux",
+        "scroll",
+        "design"
       ],
-      "content_html": "<p><strong>Tags:</strong> nasa, space, artemis</p>",
+      "content_html": "<p><strong>Tags:</strong> nasa, space, artemis, ui, ux, scroll, design</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
