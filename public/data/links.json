@@ -1,6 +1,137 @@
 {
   "links": [
     {
+      "id": 1776602385239.299,
+      "url": "https://www.youtube.com/watch?v=d2Zrj6DL8aw",
+      "source": "youtube.com",
+      "pullQuote": "",
+      "tags": [
+        "youtube",
+        "video"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.9043,
+      "url": "https://www.wired.com/story/madison-square-garden-jim-dolan-surveillance-machine/",
+      "source": "The Shocking Secrets of Madison Square Garden’s Surveillance Machine",
+      "pullQuote": "",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "wired"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.5269,
+      "url": "https://www.wired.com/story/gazing-into-sam-altmans-orb-now-proves-youre-human-on-tinder/",
+      "source": "Gazing Into Sam Altman’s Orb Now Proves You’re Human on Tinder",
+      "pullQuote": "",
+      "tags": [
+        "ai",
+        "worldcoin",
+        "identity",
+        "wired"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.901,
+      "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+      "source": "Qwen Studio",
+      "pullQuote": "",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.8545,
+      "url": "https://dansinker.com/posts/2026-04-17-notre-dame/",
+      "source": "A Well-Aimed Potato: The Klan, Notre Dame, and Today | dansinker.com",
+      "pullQuote": "",
+      "tags": [
+        "history",
+        "culture",
+        "essay"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.424,
+      "url": "https://x.com/TFTC21/status/2045250949216895058",
+      "source": "TFTC (@TFTC21) on X",
+      "pullQuote": "",
+      "tags": [
+        "ai",
+        "anthropic",
+        "twitter"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.0964,
+      "url": "https://metr.org/",
+      "source": "METR",
+      "pullQuote": "",
+      "tags": [
+        "ai",
+        "safety",
+        "research"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.3643,
+      "url": "https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/",
+      "source": "NASA Artemis II Moon Mission",
+      "pullQuote": "",
+      "tags": [
+        "nasa",
+        "space",
+        "artemis"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776602385239.9084,
+      "url": "https://x.com/TheAhmadOsman/status/2045617447567339937",
+      "source": "Ahmad (@TheAhmadOsman) on X",
+      "pullQuote": "",
+      "tags": [
+        "ai",
+        "economics",
+        "twitter"
+      ],
+      "timestamp": "2026-04-19T12:39:45.239Z",
+      "visits": 0
+    },
+    {
+      "id": 1776167791993,
+      "url": "https://www.stickermule.com/claudecode",
+      "source": "Claude Code stickers | Sticker Mule",
+      "pullQuote": "from the /stickers prompt in claude code",
+      "tags": [
+        "claude",
+        "anthropic",
+        "merch"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-14T11:56:31.993Z",
+      "visits": 0
+    },
+    {
       "id": 1776163914010,
       "url": "https://xinwen.bjd.com.cn/content/s69d8d495e4b0cd719ea0539f.html",
       "source": "CN: nterim Measures for the Administration of Humanized Interactive Services Based on Artificial Intelligence",
@@ -6159,5 +6290,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-14T10:52:03.569Z"
+  "lastUpdated": "2026-04-19T12:39:45.272Z"
 }
