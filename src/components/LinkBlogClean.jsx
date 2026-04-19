@@ -661,7 +661,7 @@ export default function LinkBlogClean() {
 
     // Sort
     return [...filtered].sort((a, b) => {
-      if (a.isPinned !== b.isPinned) return b.isPinned ? 1 : -1;
+      if (Boolean(a.isPinned) !== Boolean(b.isPinned)) return b.isPinned ? 1 : -1;
 
       switch (sortBy) {
         case SORT_OPTIONS.DATE_ASC:
