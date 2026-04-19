@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 19 Apr 2026 14:55:42 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Apr 2026 15:34:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AI: Fragility of today’s Claude Cowork type AI Agent Apps. RTZ 1061]]></title>
+            <link>https://michaelparekh.substack.com/p/ai-fragility-of-todays-claude-cowork</link>
+            <guid>1776612850639</guid>
+            <pubDate>Sun, 19 Apr 2026 15:34:10 GMT</pubDate>
+            <description><![CDATA[Tags: fragility, claude, cowork, type, memory, agents]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The creative software industry has declared war on Adobe﻿]]></title>
+            <link>https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates</link>
+            <guid>1776611135313</guid>
+            <pubDate>Sun, 19 Apr 2026 15:05:35 GMT</pubDate>
+            <description><![CDATA[Tags: scorched-earth-strategy, adobe, software, open-source, pricing]]></description>
+        </item>
         <item>
             <title><![CDATA[BLKNWS: TERMS & CONDITIONS | TRACK 01. THE ENCYCLOPEDIA]]></title>
             <link>https://www.youtube.com/watch?v=d2Zrj6DL8aw</link>
@@ -881,7 +895,7 @@
             <link>https://www.zdnet.com/article/france-dumps-teams-zoom-digital-sovereignty-replacement/</link>
             <guid>1769958426970</guid>
             <pubDate>Sun, 01 Feb 2026 15:07:06 GMT</pubDate>
-            <description><![CDATA[Tags: nationstate, opsec, opensource, zoom, msft, digital-sovereignty]]></description>
+            <description><![CDATA[Tags: nationstate, opsec, zoom, msft, digital-sovereignty, open-source]]></description>
         </item>
         <item>
             <title><![CDATA[What happens to the art market when humanity stops mattering?]]></title>
@@ -1091,7 +1105,7 @@
             <link>https://www.youtube.com/watch?v=GRT2evXI8DY</link>
             <guid>1768941795632</guid>
             <pubDate>Tue, 20 Jan 2026 20:43:15 GMT</pubDate>
-            <description><![CDATA[Tags: wef, video, opensource, 2026, data, infrastructure, borders, ai]]></description>
+            <description><![CDATA[Tags: wef, video, 2026, data, infrastructure, borders, ai, open-source]]></description>
         </item>
         <item>
             <title><![CDATA[Corporate Ladders, AI Reshuffled]]></title>
@@ -1736,7 +1750,7 @@
             <link>https://www.ft.com/content/931c8218-a9d7-4cbd-8b08-27516637ff41</link>
             <guid>1764124286412</guid>
             <pubDate>Wed, 26 Nov 2025 02:31:26 GMT</pubDate>
-            <description><![CDATA[Tags: opensource, ai, cn, deepseek, open-models, adoption]]></description>
+            <description><![CDATA[Tags: ai, cn, deepseek, adoption]]></description>
         </item>
         <item>
             <title><![CDATA[Reggae legend Jimmy Cliff dies, aged 81]]></title>
@@ -2332,7 +2346,7 @@ nightmare of browser fingerprinting]]></title>
             <link>https://github.com/nukeop/nuclear</link>
             <guid>1725540004</guid>
             <pubDate>Sun, 19 Oct 2025 10:02:27 GMT</pubDate>
-            <description><![CDATA[Tags: music, player, opensource]]></description>
+            <description><![CDATA[Tags: music, player, open-source]]></description>
         </item>
         <item>
             <title><![CDATA[Air pollution]]></title>
@@ -2892,7 +2906,7 @@ nightmare of browser fingerprinting]]></title>
             <link>https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html</link>
             <guid>1757344635340.3992</guid>
             <pubDate>Fri, 05 Sep 2025 09:00:00 GMT</pubDate>
-            <description><![CDATA[Tags: llm, opensource, ch]]></description>
+            <description><![CDATA[Tags: llm, ch, open-source]]></description>
         </item>
     </channel>
 </rss>

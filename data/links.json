@@ -1,6 +1,39 @@
 {
   "links": [
     {
+      "id": 1776612850639,
+      "url": "https://michaelparekh.substack.com/p/ai-fragility-of-todays-claude-cowork",
+      "source": "AI: Fragility of today’s Claude Cowork type AI Agent Apps. RTZ 1061",
+      "pullQuote": "The Bigger Picture I'd like to unpack today is how memory fragility is a key bumpy road for today's AI Agents. And my take on how long our best AI companies will take researching and commercializing solutions for it all. Likely done over stages across several years. Taking longer than we’d like. Let's get started.",
+      "tags": [
+        "fragility",
+        "claude",
+        "cowork",
+        "type",
+        "memory",
+        "agents"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-19T15:34:10.639Z",
+      "visits": 0
+    },
+    {
+      "id": 1776611135313,
+      "url": "https://www.theverge.com/tech/913765/adobe-rivals-free-creative-software-app-updates",
+      "source": "The creative software industry has declared war on Adobe﻿",
+      "pullQuote": "Perhaps coincidently, Canva also dropped its own bomb on Adobe’s After Effects this week. Canva has made the full version of Cavalry available for free instead of locking the motion graphics software behind its own user subscriptions, after the design platform acquired it back in February. If that sounds familiar, it’s because Canva did a similar thing last year with Affinity — a trio of apps it acquired that provide similar features to Adobe’s Illustrator, Photoshop, and InDesign software. While Affinity Designer 2, Affinity Photo 2, and Affinity Publisher 2 were each a one-off $69.99 payment before (or $169.99 for all three), they’ve since been combined into a single, entirely free app.",
+      "tags": [
+        "scorched-earth-strategy",
+        "adobe",
+        "software",
+        "open-source",
+        "pricing"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-19T15:05:35.313Z",
+      "visits": 0
+    },
+    {
       "id": 1776602385239.299,
       "url": "https://www.youtube.com/watch?v=d2Zrj6DL8aw",
       "source": "BLKNWS: TERMS & CONDITIONS | TRACK 01. THE ENCYCLOPEDIA",
@@ -1947,10 +1980,10 @@
       "tags": [
         "nationstate",
         "opsec",
-        "opensource",
         "zoom",
         "msft",
-        "digital-sovereignty"
+        "digital-sovereignty",
+        "open-source"
       ],
       "isPinned": false,
       "timestamp": "2026-02-01T15:07:06.970Z",
@@ -2432,12 +2465,12 @@
       "tags": [
         "wef",
         "video",
-        "opensource",
         "2026",
         "data",
         "infrastructure",
         "borders",
-        "ai"
+        "ai",
+        "open-source"
       ],
       "isPinned": false,
       "timestamp": "2026-01-20T20:43:15.632Z",
@@ -3825,11 +3858,9 @@
       "source": "China leapfrogs US in global market for ‘open’ AI models",
       "pullQuote": "The release raised questions about whether better resourced US AI labs could defend their competitive edge. It also raised doubts over the billions of dollars being spent to build the data centres needed to operate powerful models. ----- China has overtaken the US in the global market for “open” artificial intelligence models, gaining a crucial edge over how the powerful technology is used around the world. A study by the Massachusetts Institute of Technology and open-source AI start-up Hugging Face found that the total share of downloads of new Chinese-made open models rose to 17 per cent in the past year. The figure surpasses the 15.8 per cent share of downloads from American developers such as Google, Meta and OpenAI — the first time Chinese groups have beaten their American counterparts. Open models — which are free to download, modify and integrate by developers — make it easier for start-ups to create products and researchers to improve them. Widespread adoption will confer outsized influence over AI’s future.\n",
       "tags": [
-        "opensource",
         "ai",
         "cn",
         "deepseek",
-        "open-models",
         "adoption"
       ],
       "isPinned": false,
@@ -5095,7 +5126,7 @@
       "tags": [
         "music",
         "player",
-        "opensource"
+        "open-source"
       ],
       "isPinned": false,
       "timestamp": "2025-10-19T10:02:27.738Z",
@@ -6256,8 +6287,8 @@
       "pullQuote": "",
       "tags": [
         "llm",
-        "opensource",
-        "ch"
+        "ch",
+        "open-source"
       ],
       "isPinned": false,
       "timestamp": "2025-09-05T09:00:00.000Z",
@@ -6265,5 +6296,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-19T14:55:42.001Z"
+  "lastUpdated": "2026-04-19T15:34:10.696Z"
 }
