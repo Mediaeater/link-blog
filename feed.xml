@@ -4,23 +4,23 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 19 Apr 2026 12:39:45 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Apr 2026 13:52:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[youtube.com]]></title>
+            <title><![CDATA[Coachella Live youtube.com]]></title>
             <link>https://www.youtube.com/watch?v=d2Zrj6DL8aw</link>
             <guid>1776602385239.299</guid>
             <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
-            <description><![CDATA[Tags: youtube, video]]></description>
+            <description><![CDATA[Tags: video, coachella, music, live]]></description>
         </item>
         <item>
             <title><![CDATA[The Shocking Secrets of Madison Square Garden’s Surveillance Machine]]></title>
             <link>https://www.wired.com/story/madison-square-garden-jim-dolan-surveillance-machine/</link>
             <guid>1776602385239.9043</guid>
             <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
-            <description><![CDATA[Tags: surveillance, privacy, wired]]></description>
+            <description><![CDATA[Tags: surveillance, privacy, wired, msg, frt, facial-recognition]]></description>
         </item>
         <item>
             <title><![CDATA[Gazing Into Sam Altman’s Orb Now Proves You’re Human on Tinder]]></title>
@@ -34,7 +34,7 @@
             <link>https://qwen.ai/blog?id=qwen3.6-35b-a3b</link>
             <guid>1776602385239.901</guid>
             <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
-            <description><![CDATA[Tags: ai, llm, open-source]]></description>
+            <description><![CDATA[Tags: ai, llm, open-source, qwen]]></description>
         </item>
         <item>
             <title><![CDATA[A Well-Aimed Potato: The Klan, Notre Dame, and Today | dansinker.com]]></title>
@@ -42,13 +42,6 @@
             <guid>1776602385239.8545</guid>
             <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
             <description><![CDATA[Tags: history, culture, essay]]></description>
-        </item>
-        <item>
-            <title><![CDATA[TFTC (@TFTC21) on X]]></title>
-            <link>https://x.com/TFTC21/status/2045250949216895058</link>
-            <guid>1776602385239.424</guid>
-            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
-            <description><![CDATA[Tags: ai, anthropic, twitter]]></description>
         </item>
         <item>
             <title><![CDATA[METR]]></title>
@@ -63,20 +56,6 @@
             <guid>1776602385239.3643</guid>
             <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
             <description><![CDATA[Tags: nasa, space, artemis]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Ahmad (@TheAhmadOsman) on X]]></title>
-            <link>https://x.com/TheAhmadOsman/status/2045617447567339937</link>
-            <guid>1776602385239.9084</guid>
-            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
-            <description><![CDATA[Tags: ai, economics, twitter]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Claude Code stickers | Sticker Mule]]></title>
-            <link>https://www.stickermule.com/claudecode</link>
-            <guid>1776167791993</guid>
-            <pubDate>Tue, 14 Apr 2026 11:56:31 GMT</pubDate>
-            <description><![CDATA[Tags: claude, anthropic, merch]]></description>
         </item>
         <item>
             <title><![CDATA[CN: nterim Measures for the Administration of Humanized Interactive Services Based on Artificial Intelligence]]></title>
