@@ -4,16 +4,121 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 10 Apr 2026 11:33:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Apr 2026 12:39:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[US officials deny threatening Vatican over Pope Leo’s criticisms]]></title>
-            <link>https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1</link>
-            <guid>1775820802040</guid>
-            <pubDate>Fri, 10 Apr 2026 11:33:22 GMT</pubDate>
-            <description><![CDATA[Tags: vatican, usa-gov, religion]]></description>
+            <title><![CDATA[youtube.com]]></title>
+            <link>https://www.youtube.com/watch?v=d2Zrj6DL8aw</link>
+            <guid>1776602385239.299</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: youtube, video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Shocking Secrets of Madison Square Garden’s Surveillance Machine]]></title>
+            <link>https://www.wired.com/story/madison-square-garden-jim-dolan-surveillance-machine/</link>
+            <guid>1776602385239.9043</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, privacy, wired]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Gazing Into Sam Altman’s Orb Now Proves You’re Human on Tinder]]></title>
+            <link>https://www.wired.com/story/gazing-into-sam-altmans-orb-now-proves-youre-human-on-tinder/</link>
+            <guid>1776602385239.5269</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: ai, worldcoin, identity, wired]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Qwen Studio]]></title>
+            <link>https://qwen.ai/blog?id=qwen3.6-35b-a3b</link>
+            <guid>1776602385239.901</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: ai, llm, open-source]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A Well-Aimed Potato: The Klan, Notre Dame, and Today | dansinker.com]]></title>
+            <link>https://dansinker.com/posts/2026-04-17-notre-dame/</link>
+            <guid>1776602385239.8545</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: history, culture, essay]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TFTC (@TFTC21) on X]]></title>
+            <link>https://x.com/TFTC21/status/2045250949216895058</link>
+            <guid>1776602385239.424</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: ai, anthropic, twitter]]></description>
+        </item>
+        <item>
+            <title><![CDATA[METR]]></title>
+            <link>https://metr.org/</link>
+            <guid>1776602385239.0964</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: ai, safety, research]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NASA Artemis II Moon Mission]]></title>
+            <link>https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/</link>
+            <guid>1776602385239.3643</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: nasa, space, artemis]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ahmad (@TheAhmadOsman) on X]]></title>
+            <link>https://x.com/TheAhmadOsman/status/2045617447567339937</link>
+            <guid>1776602385239.9084</guid>
+            <pubDate>Sun, 19 Apr 2026 12:39:45 GMT</pubDate>
+            <description><![CDATA[Tags: ai, economics, twitter]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code stickers | Sticker Mule]]></title>
+            <link>https://www.stickermule.com/claudecode</link>
+            <guid>1776167791993</guid>
+            <pubDate>Tue, 14 Apr 2026 11:56:31 GMT</pubDate>
+            <description><![CDATA[Tags: claude, anthropic, merch]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CN: nterim Measures for the Administration of Humanized Interactive Services Based on Artificial Intelligence]]></title>
+            <link>https://xinwen.bjd.com.cn/content/s69d8d495e4b0cd719ea0539f.html</link>
+            <guid>1776163914010</guid>
+            <pubDate>Tue, 14 Apr 2026 10:51:54 GMT</pubDate>
+            <description><![CDATA[Tags: ai, cn, legislation, anthropomorphism]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Aadam Jacobs Collection]]></title>
+            <link>https://archive.org/details/@aadam_jacobs_collection</link>
+            <guid>1776163746822</guid>
+            <pubDate>Tue, 14 Apr 2026 10:49:06 GMT</pubDate>
+            <description><![CDATA[Tags: music, concert, live, recordings]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Every train, a note.]]></title>
+            <link>https://www.trainjazz.com/</link>
+            <guid>1776163688128</guid>
+            <pubDate>Tue, 14 Apr 2026 10:48:08 GMT</pubDate>
+            <description><![CDATA[Tags: nyc, subway, transportation, music, urban-hack]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Inside the AI Index: 12 Takeaways from the 2026 Report | Stanford HAI]]></title>
+            <link>https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report?utm_source=chatgpt.com</link>
+            <guid>1776163651886</guid>
+            <pubDate>Tue, 14 Apr 2026 10:47:31 GMT</pubDate>
+            <description><![CDATA[Tags: stanford, hai, ai, environment]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NSKYC]]></title>
+            <link>https://nskyc.com/</link>
+            <guid>1776163590374</guid>
+            <pubDate>Tue, 14 Apr 2026 10:46:30 GMT</pubDate>
+            <description><![CDATA[Tags: color, nyc, ariel]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI Will Be Met With Violence, and Nothing Good Will Come of It]]></title>
+            <link>https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and</link>
+            <guid>1776163528907</guid>
+            <pubDate>Tue, 14 Apr 2026 10:45:28 GMT</pubDate>
+            <description><![CDATA[Tags: violence, ai, backlash, technology]]></description>
         </item>
         <item>
             <title><![CDATA[Afrika Bambaataa, hip-hop music pioneer, dies aged 67]]></title>
@@ -35,6 +140,13 @@
             <guid>1775740924672</guid>
             <pubDate>Thu, 09 Apr 2026 13:22:04 GMT</pubDate>
             <description><![CDATA[Tags: meta, closed, llm, muse-spark]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Making of a Dye-Transfer | William Eggleston ]]></title>
+            <link>https://www.youtube.com/watch?v=IyBJmQ3kf94</link>
+            <guid>1775559467651</guid>
+            <pubDate>Tue, 07 Apr 2026 10:57:47 GMT</pubDate>
+            <description><![CDATA[Tags: video, art, photography, printing, dye-transfer]]></description>
         </item>
         <item>
             <title><![CDATA[GitHub - Netflix/void-model]]></title>

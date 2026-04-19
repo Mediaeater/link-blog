@@ -15,18 +15,270 @@
   ],
   "items": [
     {
-      "id": "1775820802040",
-      "url": "https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1",
-      "title": "US officials deny threatening Vatican over Pope Leo’s criticisms",
-      "date_published": "2026-04-10T11:33:22.040Z",
+      "id": "1776602385239.299",
+      "url": "https://www.youtube.com/watch?v=d2Zrj6DL8aw",
+      "title": "youtube.com",
+      "date_published": "2026-04-19T12:39:45.239Z",
       "tags": [
-        "vatican",
-        "usa-gov",
-        "religion"
+        "youtube",
+        "video"
       ],
-      "content_text": "But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.\n\nThe unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.\n",
-      "summary": "But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another ...",
-      "content_html": "<blockquote>But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.\n\nThe unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.\n</blockquote>\n<p><strong>Tags:</strong> vatican, usa-gov, religion</p>",
+      "content_html": "<p><strong>Tags:</strong> youtube, video</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.9043",
+      "url": "https://www.wired.com/story/madison-square-garden-jim-dolan-surveillance-machine/",
+      "title": "The Shocking Secrets of Madison Square Garden’s Surveillance Machine",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "wired"
+      ],
+      "content_html": "<p><strong>Tags:</strong> surveillance, privacy, wired</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.5269",
+      "url": "https://www.wired.com/story/gazing-into-sam-altmans-orb-now-proves-youre-human-on-tinder/",
+      "title": "Gazing Into Sam Altman’s Orb Now Proves You’re Human on Tinder",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "ai",
+        "worldcoin",
+        "identity",
+        "wired"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai, worldcoin, identity, wired</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.901",
+      "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+      "title": "Qwen Studio",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai, llm, open-source</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.8545",
+      "url": "https://dansinker.com/posts/2026-04-17-notre-dame/",
+      "title": "A Well-Aimed Potato: The Klan, Notre Dame, and Today | dansinker.com",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "history",
+        "culture",
+        "essay"
+      ],
+      "content_html": "<p><strong>Tags:</strong> history, culture, essay</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.424",
+      "url": "https://x.com/TFTC21/status/2045250949216895058",
+      "title": "TFTC (@TFTC21) on X",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "ai",
+        "anthropic",
+        "twitter"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai, anthropic, twitter</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.0964",
+      "url": "https://metr.org/",
+      "title": "METR",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "ai",
+        "safety",
+        "research"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai, safety, research</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.3643",
+      "url": "https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/",
+      "title": "NASA Artemis II Moon Mission",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "nasa",
+        "space",
+        "artemis"
+      ],
+      "content_html": "<p><strong>Tags:</strong> nasa, space, artemis</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776602385239.9084",
+      "url": "https://x.com/TheAhmadOsman/status/2045617447567339937",
+      "title": "Ahmad (@TheAhmadOsman) on X",
+      "date_published": "2026-04-19T12:39:45.239Z",
+      "tags": [
+        "ai",
+        "economics",
+        "twitter"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai, economics, twitter</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776167791993",
+      "url": "https://www.stickermule.com/claudecode",
+      "title": "Claude Code stickers | Sticker Mule",
+      "date_published": "2026-04-14T11:56:31.993Z",
+      "tags": [
+        "claude",
+        "anthropic",
+        "merch"
+      ],
+      "content_text": "from the /stickers prompt in claude code",
+      "summary": "from the /stickers prompt in claude code",
+      "content_html": "<blockquote>from the /stickers prompt in claude code</blockquote>\n<p><strong>Tags:</strong> claude, anthropic, merch</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776163914010",
+      "url": "https://xinwen.bjd.com.cn/content/s69d8d495e4b0cd719ea0539f.html",
+      "title": "CN: nterim Measures for the Administration of Humanized Interactive Services Based on Artificial Intelligence",
+      "date_published": "2026-04-14T10:51:54.010Z",
+      "tags": [
+        "ai",
+        "cn",
+        "legislation",
+        "anthropomorphism"
+      ],
+      "content_text": "Chapter 1 General Provisions\n\nArticle 1 This Regulation is formulated in accordance with the Cybersecurity Law of the People's Republic of China, the Data Security Law of the People's Republic of China, the Personal Information Protection Law of the People's Republic of China, the Regulations on the Protection of Minors Online, and other laws and administrative regulations, in order to promote the healthy development and standardized application of artificial intelligence-based anthropomorphic interactive services, safeguard national security and public interests, and protect the legitimate rights and interests of citizens, legal persons and other organizations.\n\nArticle 2 This regulation applies to the provision of continuous emotional interaction services (hereinafter referred to as anthropomorphic interaction services) to the public within the territory of the People's Republic of China that utilize artificial intelligence technology to simulate the personality characteristics, thinking patterns, and communication styles of natural persons.",
+      "summary": "Chapter 1 General Provisions\n\nArticle 1 This Regulation is formulated in accordance with the Cybersecurity Law of the People's Republic of China, the ...",
+      "content_html": "<blockquote>Chapter 1 General Provisions\n\nArticle 1 This Regulation is formulated in accordance with the Cybersecurity Law of the People&#039;s Republic of China, the Data Security Law of the People&#039;s Republic of China, the Personal Information Protection Law of the People&#039;s Republic of China, the Regulations on the Protection of Minors Online, and other laws and administrative regulations, in order to promote the healthy development and standardized application of artificial intelligence-based anthropomorphic interactive services, safeguard national security and public interests, and protect the legitimate rights and interests of citizens, legal persons and other organizations.\n\nArticle 2 This regulation applies to the provision of continuous emotional interaction services (hereinafter referred to as anthropomorphic interaction services) to the public within the territory of the People&#039;s Republic of China that utilize artificial intelligence technology to simulate the personality characteristics, thinking patterns, and communication styles of natural persons.</blockquote>\n<p><strong>Tags:</strong> ai, cn, legislation, anthropomorphism</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776163746822",
+      "url": "https://archive.org/details/@aadam_jacobs_collection",
+      "title": "Aadam Jacobs Collection",
+      "date_published": "2026-04-14T10:49:06.822Z",
+      "tags": [
+        "music",
+        "concert",
+        "live",
+        "recordings"
+      ],
+      "content_html": "<p><strong>Tags:</strong> music, concert, live, recordings</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776163688128",
+      "url": "https://www.trainjazz.com/",
+      "title": "Every train, a note.",
+      "date_published": "2026-04-14T10:48:08.128Z",
+      "tags": [
+        "nyc",
+        "subway",
+        "transportation",
+        "music",
+        "urban-hack"
+      ],
+      "content_html": "<p><strong>Tags:</strong> nyc, subway, transportation, music, urban-hack</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776163651886",
+      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report?utm_source=chatgpt.com",
+      "title": "Inside the AI Index: 12 Takeaways from the 2026 Report | Stanford HAI",
+      "date_published": "2026-04-14T10:47:31.886Z",
+      "tags": [
+        "stanford",
+        "hai",
+        "ai",
+        "environment"
+      ],
+      "content_text": "s AI's capabilities improve, its environmental impact increases. Grok 4's estimated training emissions reached 72,816 tons of CO2 equivalent, or roughly the same amount of greenhouse gas emissions created from driving 17,000 cars for one year. AI data center power capacity rose to 29.6 GW, or about what it takes to power the entire state of New York at peak demand, and annual GPT-4o inference water use (the water used to cool data servers or run them off hydroelectricity) alone may exceed the drinking water needs of 12 million people.",
+      "summary": "s AI's capabilities improve, its environmental impact increases. Grok 4's estimated training emissions reached 72,816 tons of CO2 equivalent, or rough...",
+      "content_html": "<blockquote>s AI&#039;s capabilities improve, its environmental impact increases. Grok 4&#039;s estimated training emissions reached 72,816 tons of CO2 equivalent, or roughly the same amount of greenhouse gas emissions created from driving 17,000 cars for one year. AI data center power capacity rose to 29.6 GW, or about what it takes to power the entire state of New York at peak demand, and annual GPT-4o inference water use (the water used to cool data servers or run them off hydroelectricity) alone may exceed the drinking water needs of 12 million people.</blockquote>\n<p><strong>Tags:</strong> stanford, hai, ai, environment</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776163590374",
+      "url": "https://nskyc.com/",
+      "title": "NSKYC",
+      "date_published": "2026-04-14T10:46:30.374Z",
+      "tags": [
+        "color",
+        "nyc",
+        "ariel"
+      ],
+      "content_html": "<p><strong>Tags:</strong> color, nyc, ariel</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1776163528907",
+      "url": "https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and",
+      "title": "AI Will Be Met With Violence, and Nothing Good Will Come of It",
+      "date_published": "2026-04-14T10:45:28.907Z",
+      "tags": [
+        "violence",
+        "ai",
+        "backlash",
+        "technology"
+      ],
+      "content_text": "If people feel that they have no place in the future.\n\nIf they feel expelled from the system—they’re unable to buy stuff, their skills become obsolete, their chance at earning a living is replaced by a swarm of AI agents, they think we are truly going to die (so far, the violence has been tied mostly to safety AI movements)—then they will feel they have nothing to lose.\n\nAnd then, and I’m sorry to be so blunt, then it’s die or kill.",
+      "summary": "If people feel that they have no place in the future.\n\nIf they feel expelled from the system—they’re unable to buy stuff, their skills become obsolete...",
+      "content_html": "<blockquote>If people feel that they have no place in the future.\n\nIf they feel expelled from the system—they’re unable to buy stuff, their skills become obsolete, their chance at earning a living is replaced by a swarm of AI agents, they think we are truly going to die (so far, the violence has been tied mostly to safety AI movements)—then they will feel they have nothing to lose.\n\nAnd then, and I’m sorry to be so blunt, then it’s die or kill.</blockquote>\n<p><strong>Tags:</strong> violence, ai, backlash, technology</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
@@ -84,6 +336,26 @@
       "content_text": "The model is closed to ensure Meta retains control over its \"Muse\" reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the \"path forward\" to joining the ranks of closed-model providers to justify a $135 billion R&D expenditure.",
       "summary": "The model is closed to ensure Meta retains control over its \"Muse\" reasoning architecture and to monetize the technology via a private API and inferen...",
       "content_html": "<blockquote>The model is closed to ensure Meta retains control over its &quot;Muse&quot; reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the &quot;path forward&quot; to joining the ranks of closed-model providers to justify a $135 billion R&amp;D expenditure.</blockquote>\n<p><strong>Tags:</strong> meta, closed, llm, muse-spark</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1775559467651",
+      "url": "https://www.youtube.com/watch?v=IyBJmQ3kf94",
+      "title": "The Making of a Dye-Transfer | William Eggleston ",
+      "date_published": "2026-04-07T10:57:47.651Z",
+      "tags": [
+        "video",
+        "art",
+        "photography",
+        "printing",
+        "dye-transfer"
+      ],
+      "content_text": "Dye-transfer is a full-color photographic print process favored by American photographer William Eggleston. In this video, Eggelston’s long-time collaborators, renowned dye-transfer specialists Guy Stricherz and Irene Malli give a step-by-step tutorial of the technique behind creating a Dye-Transfer print.\n\nGuy Stricherz and Irene Malli have printed Eggleston’s works for the last twenty-five years. Eggleston’s discovery of the dye-transfer process in the 1970s was crucial to his move from primarily working in black-and-white to producing color photograph",
+      "summary": "Dye-transfer is a full-color photographic print process favored by American photographer William Eggleston. In this video, Eggelston’s long-time colla...",
+      "content_html": "<blockquote>Dye-transfer is a full-color photographic print process favored by American photographer William Eggleston. In this video, Eggelston’s long-time collaborators, renowned dye-transfer specialists Guy Stricherz and Irene Malli give a step-by-step tutorial of the technique behind creating a Dye-Transfer print.\n\nGuy Stricherz and Irene Malli have printed Eggleston’s works for the last twenty-five years. Eggleston’s discovery of the dye-transfer process in the 1970s was crucial to his move from primarily working in black-and-white to producing color photograph</blockquote>\n<p><strong>Tags:</strong> video, art, photography, printing, dye-transfer</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
