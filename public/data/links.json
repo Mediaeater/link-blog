@@ -21,8 +21,12 @@
       "tags": [
         "surveillance",
         "privacy",
-        "wired"
+        "wired",
+        "frt",
+        "facial-recognition",
+        "creepy-jim-dolan"
       ],
+      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
       "visits": 0
     },
@@ -44,51 +48,45 @@
       "id": 1776602385239.901,
       "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
       "source": "Qwen Studio",
-      "pullQuote": "",
+      "pullQuote": "open-source Qwen3.6-35B-A3B — a sparse yet remarkably capable mixture-of-experts (MoE) model with 35 billion total parameters and only 3 billion active parameters. Despite its efficiency, Qwen3.6-35B-A3B delivers outstanding agentic coding performance, surpassing its predecessor Qwen3.5-35B-A3B by a wide margin and rivaling much larger dense models such as Qwen3.5-27B and Gemma4-31B. Still supporting both multimodal thinking and non-thinking modes, Qwen3.6-35B-A3B works as one of the most versatile open-source models available today. ",
       "tags": [
         "ai",
         "llm",
         "open-source"
       ],
+      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0
-    },
-    {
-      "id": 1776602385239.8545,
-      "url": "https://dansinker.com/posts/2026-04-17-notre-dame/",
-      "source": "A Well-Aimed Potato: The Klan, Notre Dame, and Today | dansinker.com",
-      "pullQuote": "",
-      "tags": [
-        "history",
-        "culture",
-        "essay"
-      ],
-      "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1776602385239.0964,
       "url": "https://metr.org/",
       "source": "METR",
-      "pullQuote": "",
+      "pullQuote": "Model Evaluation & Threat Research\nMETR conducts research and evaluations to improve public understanding of the capabilities and risks of frontier AI systems.",
       "tags": [
         "ai",
         "safety",
         "research"
       ],
+      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1776602385239.3643,
       "url": "https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/",
-      "source": "NASA Artemis II Moon Mission",
+      "source": "NASA Artemis II Moon Mission (Scroll effect)",
       "pullQuote": "",
       "tags": [
         "nasa",
         "space",
-        "artemis"
+        "artemis",
+        "ui",
+        "ux",
+        "scroll",
+        "design"
       ],
+      "isPinned": false,
       "timestamp": "2026-04-19T12:39:45.239Z",
       "visits": 0
     },
@@ -6265,5 +6263,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-19T14:44:02.632Z"
+  "lastUpdated": "2026-04-19T14:52:08.796Z"
 }
