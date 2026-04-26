@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 19 Apr 2026 15:34:10 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Apr 2026 11:33:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Here Are the Artists on the 2026 Turner Prize Shortlist]]></title>
+            <link>https://news.artnet.com/art-world/turner-prize-2026-artists-shortlist-2767359</link>
+            <guid>1777203195605</guid>
+            <pubDate>Sun, 26 Apr 2026 11:33:15 GMT</pubDate>
+            <description><![CDATA[Tags: turner-prize, art, 2026]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Thom Yorke and Stanley Donwood Plot a Mysterious Art Show in Venice]]></title>
+            <link>https://news.artnet.com/art-world/thom-yorke-stanley-donwood-venice-2767441</link>
+            <guid>1777202333441</guid>
+            <pubDate>Sun, 26 Apr 2026 11:18:53 GMT</pubDate>
+            <description><![CDATA[Tags: art, music, veinice-biennale, thom-yorke]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068]]></title>
+            <link>https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal</link>
+            <guid>1777201744810</guid>
+            <pubDate>Sun, 26 Apr 2026 11:09:04 GMT</pubDate>
+            <description><![CDATA[Tags: anthropic, internal, test, agents, ai, trust]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Note on the Relationship Between Artificial Intelligence and Human Intelligence]]></title>
+            <link>https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html</link>
+            <guid>1777201550804</guid>
+            <pubDate>Sun, 26 Apr 2026 11:05:50 GMT</pubDate>
+            <description><![CDATA[Tags: ai, religon, pope, doctrine]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing OpenAI Privacy Filter]]></title>
+            <link>https://openai.com/index/introducing-openai-privacy-filter/</link>
+            <guid>1777201244312</guid>
+            <pubDate>Sun, 26 Apr 2026 11:00:44 GMT</pubDate>
+            <description><![CDATA[Tags: openai, privacy]]></description>
+        </item>
         <item>
             <title><![CDATA[AI: Fragility of today’s Claude Cowork type AI Agent Apps. RTZ 1061]]></title>
             <link>https://michaelparekh.substack.com/p/ai-fragility-of-todays-claude-cowork</link>
@@ -343,20 +378,6 @@
             <guid>1774202160999</guid>
             <pubDate>Sun, 22 Mar 2026 17:56:00 GMT</pubDate>
             <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement, cryptography, quantum-cryptography]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
-            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
-            <guid>1774202148259</guid>
-            <pubDate>Sun, 22 Mar 2026 17:55:48 GMT</pubDate>
-            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement, cryptography]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The IBM scientist who rewrote the rules of information just won computing’s highest prize]]></title>
-            <link>https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award</link>
-            <guid>1774202140543</guid>
-            <pubDate>Sun, 22 Mar 2026 17:55:40 GMT</pubDate>
-            <description><![CDATA[Tags: ibm, information, quantum, encryption, entanglement]]></description>
         </item>
         <item>
             <title><![CDATA[Introducing DoorDash Tasks]]></title>
@@ -1080,13 +1101,6 @@
             <description><![CDATA[Tags: ai, weights, interpretability, audit]]></description>
         </item>
         <item>
-            <title><![CDATA[Mechanistic Interpretability]]></title>
-            <link>https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J</link>
-            <guid>1768942322078</guid>
-            <pubDate>Tue, 20 Jan 2026 20:52:02 GMT</pubDate>
-            <description><![CDATA[Tags: ai, weights, interpretability]]></description>
-        </item>
-        <item>
             <title><![CDATA[The Day After AGI]]></title>
             <link>https://www.youtube.com/watch?v=mmKAnHz36v0</link>
             <guid>1768942163413</guid>
@@ -1211,13 +1225,6 @@
             <guid>1768222514173</guid>
             <pubDate>Mon, 12 Jan 2026 12:55:14 GMT</pubDate>
             <description><![CDATA[Tags: ai, economics, palantir]]></description>
-        </item>
-        <item>
-            <title><![CDATA[The AI revolution is here. Will the economy survive the transition?]]></title>
-            <link>https://post.substack.com/p/the-ai-revolution-is-here-will-the</link>
-            <guid>1768220834671</guid>
-            <pubDate>Mon, 12 Jan 2026 12:27:14 GMT</pubDate>
-            <description><![CDATA[Tags: ai, palantir, economics]]></description>
         </item>
         <item>
             <title><![CDATA[Why Civilizations Flourish—and Fail]]></title>
