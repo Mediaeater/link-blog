@@ -554,6 +554,32 @@
       "weekEnd": "2026-04-19",
       "title": "Apr 3-19, 2026",
       "writeup": "Explores the intersection of emerging technology, societal control, and cultural preservation. A significant portion of the links focuses on the governance and surveillance implications of AI, ranging from Stanford HAI’s 2026 Index and China’s interim AI measures to the ethics of Sam Altman’s leadership and biometric verification via Worldcoin. These technical entries, alongside tools like GitHub’s Career-Ops and Netflix’s Void Model, highlight a shift toward automated systems that increasingly manage human labor and digital infrastructure.\n\nIn contrast, the collection balances these high-tech developments with artistic legacy and social critique. It references the death of hip-hop pioneer Afrika Bambaataa and the preservation of visual arts through the Aadam Jacobs and William Eggleston collections. Interspersed with these are warnings regarding the erosion of privacy through \"mass surveillance infrastructure\" and the potential for AI-driven societal conflict. Collectively, the content reflects a tension between the rapid scaling of \"personal superintelligence\" and the preservation of historical, physical, and creative autonomy."
+    },
+    {
+      "id": 12,
+      "timestamp": "2026-04-27T22:50:09.275Z",
+      "linkIds": [
+        1776611135313,
+        1776612850639,
+        1777201244312,
+        1777201550804,
+        1777201744810,
+        1777202333441,
+        1777203195605,
+        1777329296032,
+        1777329404966,
+        1777329483925,
+        1777329682288,
+        1777329721888,
+        1777329866271,
+        1777330044753
+      ],
+      "count": 14,
+      "filename": "digest-012-2026-04-27.html",
+      "weekStart": "2026-04-19",
+      "weekEnd": "2026-04-27",
+      "title": "Apr 19-27, 2026",
+      "writeup": "The current landscape is defined by a push for digital and biological sovereignty as individuals and industries resist centralized control. This is evident in the creative sector's revolt against Adobe's dominance, the \"fight\" against Palantir’s surveillance, and legal challenges regarding geofence data privacy. Concurrently, the evolution of Artificial Intelligence is shifting from theoretical intelligence to functional \"Agentic\" workflows (Claude, Anthropic), though these systems remain fragile. This technological shift is prompting radical responses, ranging from the implementation of privacy filters and biometrics like World ID to extreme proposals for human cognitive enhancement to remain competitive. Finally, a cultural and philosophical undercurrent—seen in the Turner Prize shortlist, Venice art shows, and discussions on the \"Post-Christian\" condition—explores the intersection of SDR/DSP technology, human psyche, and the search for meaning in a machine-augmented world."
     }
   ],
   "cadence": "weekly"
