@@ -4,10 +4,59 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 26 Apr 2026 11:33:15 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Apr 2026 22:47:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[nytimes.comhttps://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html]]></title>
+            <link>https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html</link>
+            <guid>1777330044753</guid>
+            <pubDate>Mon, 27 Apr 2026 22:47:24 GMT</pubDate>
+            <description><![CDATA[Tags: geo-fence, privacy, security, surveillance, law-enforcement, scotus]]></description>
+        </item>
+        <item>
+            <title><![CDATA[U.S. companies back Sam Altman’s World ID even as much of the world pushes back]]></title>
+            <link>https://restofworld.org/2026/sam-altman-worldcoin-zoom-tinder-partnerships/</link>
+            <guid>1777329866271</guid>
+            <pubDate>Mon, 27 Apr 2026 22:44:26 GMT</pubDate>
+            <description><![CDATA[Tags: biometics, identity, wordcoin, sam-altman, creepy-sam-altman]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PySDR: A Guide to SDR and DSP using Python]]></title>
+            <link>https://pysdr.org/</link>
+            <guid>1777329721888</guid>
+            <pubDate>Mon, 27 Apr 2026 22:42:01 GMT</pubDate>
+            <description><![CDATA[Tags: pysdr, guide, sdr, python, rf, radio]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)]]></title>
+            <link>https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ </link>
+            <guid>1777329682288</guid>
+            <pubDate>Mon, 27 Apr 2026 22:41:22 GMT</pubDate>
+            <description><![CDATA[Tags: creepy-elon-musk, genetic-optimization, genetics, dna]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The Post-Christian Condition]]></title>
+            <link> https://critiqueanddigest.substack.com/p/the-post-christian-condition-and</link>
+            <guid>1777329483925</guid>
+            <pubDate>Mon, 27 Apr 2026 22:38:03 GMT</pubDate>
+            <description><![CDATA[Tags: post-christian, spectacle, recoil]]></description>
+        </item>
+        <item>
+            <title><![CDATA[‘Why we must fight Palantir’ ]]></title>
+            <link>https://www.techradar.com/vpn/vpn-privacy-security/why-we-must-fight-palantir-nymvpn-ceo-shares-his-anti-palantir-manifesto</link>
+            <guid>1777329404966</guid>
+            <pubDate>Mon, 27 Apr 2026 22:36:44 GMT</pubDate>
+            <description><![CDATA[Tags: palantir, privacy, surveillance, creepy-alex-karp, culture]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sovereignty Over Our Psyche — ABDI ASSADI]]></title>
+            <link>https://abdiassadi.com/podcast/sovereignty-over-our-psyche</link>
+            <guid>1777329296032</guid>
+            <pubDate>Mon, 27 Apr 2026 22:34:56 GMT</pubDate>
+            <description><![CDATA[Tags: sovereignty, psyche, health]]></description>
+        </item>
         <item>
             <title><![CDATA[Here Are the Artists on the 2026 Turner Prize Shortlist]]></title>
             <link>https://news.artnet.com/art-world/turner-prize-2026-artists-shortlist-2767359</link>

@@ -1,6 +1,115 @@
 {
   "links": [
     {
+      "id": 1777330044753,
+      "url": "https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html",
+      "source": "nytimes.comhttps://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html",
+      "pullQuote": "During two hours of oral arguments that scrambled the court’s usual ideological alliances, the justices debated how the Constitution’s traditional protections apply to the rapidly changing technology that has made it easier for the police to scoop up vast amounts of data to assemble a detailed look at a person’s movements and activities.\n\nJustice Neil M. Gorsuch, a conservative, and Justice Sonia Sotomayor, a liberal, lobbed the toughest questions at the Justice Department’s lawyer, expressing a deep concern that the government’s position on accessing location data would apply similarly to other forms of electronic data, including emails, photos and documents.\n\nOn the other side, Justices Samuel A. Alito Jr. and Brett M. Kavanaugh seemed most worried about disrupting the work of law enforcement. Justice Kavanaugh asked Mr. Chatrie’s lawyer to explain how the detective’s actions constituted “bad police work,” suggesting that he had gone through “a lot of the steps that should be applauded.”",
+      "tags": [
+        "geo-fence",
+        "privacy",
+        "security",
+        "surveillance",
+        "law-enforcement",
+        "scotus"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-27T22:47:24.753Z",
+      "visits": 0
+    },
+    {
+      "id": 1777329866271,
+      "url": "https://restofworld.org/2026/sam-altman-worldcoin-zoom-tinder-partnerships/",
+      "source": "U.S. companies back Sam Altman’s World ID even as much of the world pushes back",
+      "pullQuote": "In the last three years, several governments in Asia and Africa have halted World’s operations due to concerns about the collection of biometric information from their citizens and the violation of privacy laws. Parts of Europe have banned it outright and called for the deletion of logged data. In Latin America, sign-ups are on pause, with several probes underway.",
+      "tags": [
+        "biometics",
+        "identity",
+        "wordcoin",
+        "sam-altman",
+        "creepy-sam-altman"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-27T22:44:26.271Z",
+      "visits": 0
+    },
+    {
+      "id": 1777329721888,
+      "url": "https://pysdr.org/",
+      "source": "PySDR: A Guide to SDR and DSP using Python",
+      "pullQuote": "Welcome to PySDR, a free online textbook (not a Python library!) that provides a gentle introduction to wireless communications and software-defined radio (SDR) using an abundance of diagrams, animations, and Python code examples. From FFTs to filters to digital modulation to receiving and transmitting from SDRs in Python, PySDR has you covered!",
+      "tags": [
+        "pysdr",
+        "guide",
+        "sdr",
+        "python",
+        "rf",
+        "radio"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-27T22:42:01.888Z",
+      "visits": 0
+    },
+    {
+      "id": 1777329682288,
+      "url": "https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ ",
+      "source": "Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)",
+      "pullQuote": "After clients review their embryo options for serious health risks, particularly ­hereditary conditions, “then, fine,” he says. “If you care about IQ, maybe you kind of look at it.”\n\n“Some don’t care about it at all and some care a lot,” adds Anomaly, who seems to be among the latter. A former Duke University philosophy lecturer, he wrote in a 2018 paper, titled “Defending Eugenics,” that he was concerned about successful, well-educated women “substituting cats for kids,” which would result in “bad effects on the gene pool” over time. “The current demographics of Western countries are troubling,” he wrote, “as people with a higher IQ, more education, and greater income reproduce at relatively low levels.”\n\nMusk shares a similar perspective, which helps explain why he’s had at least 14 children, including four with Shivon Zilis, an executive at his company Neuralink. “He really wants smart people to have kids,” Zilis, a Yale-educated AI specialist, told Musk biographer Walter Isaacson.",
+      "tags": [
+        "creepy-elon-musk",
+        "genetic-optimization",
+        "genetics",
+        "dna"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-27T22:41:22.288Z",
+      "visits": 0
+    },
+    {
+      "id": 1777329483925,
+      "url": " https://critiqueanddigest.substack.com/p/the-post-christian-condition-and",
+      "source": "The Post-Christian Condition",
+      "pullQuote": "What we are living through now is the latest phase of the post-Christian condition: the Recoil. This Recoil is not a recoil from the post-Christian condition itself — nobody in the Recoil has actually seen the condition clearly enough, yet, to recoil from it as such. It is a recoil from the discovered dependency. The post-Christian condition slowly realized that the goods it claimed as its own achievements of prosperity, democracy, freedom, rights, human dignity, and the will to defend civilization were never its own production. They were borrowed capital, running on the Biblical substrate, and it had been spending down for two centuries without being able to reproduce it. The Recoil is the moment the account approaches zero, and the response is a desperate attempt at refinancing — reaching back toward Christianity, or what they imagine Christianity to be, to extract from it one more round of civilizational credit, to graft the goods back onto the root they were cut from.\n\n",
+      "tags": [
+        "post-christian",
+        "spectacle",
+        "recoil"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-27T22:38:03.925Z",
+      "visits": 0
+    },
+    {
+      "id": 1777329404966,
+      "url": "https://www.techradar.com/vpn/vpn-privacy-security/why-we-must-fight-palantir-nymvpn-ceo-shares-his-anti-palantir-manifesto",
+      "source": "‘Why we must fight Palantir’ ",
+      "pullQuote": "In his anti-Palantir manifesto, Halpin argues that the internet was designed as a universal system, not the property of any single government, rejecting Palantir's call for nationalistic engineering.\n\n\"Programmers working on the Internet have a moral responsibility to the entire world, not a single country,\" he wrote.",
+      "tags": [
+        "palantir",
+        "privacy",
+        "surveillance",
+        "creepy-alex-karp",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-27T22:36:44.966Z",
+      "visits": 0
+    },
+    {
+      "id": 1777329296032,
+      "url": "https://abdiassadi.com/podcast/sovereignty-over-our-psyche",
+      "source": "Sovereignty Over Our Psyche — ABDI ASSADI",
+      "pullQuote": "Schumann Resonances",
+      "tags": [
+        "sovereignty",
+        "psyche",
+        "health"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-04-27T22:34:56.032Z",
+      "visits": 0
+    },
+    {
       "id": 1777203195605,
       "url": "https://news.artnet.com/art-world/turner-prize-2026-artists-shortlist-2767359",
       "source": "Here Are the Artists on the 2026 Turner Prize Shortlist",
@@ -6309,5 +6418,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-04-26T11:33:15.631Z"
+  "lastUpdated": "2026-04-27T22:47:24.780Z"
 }
