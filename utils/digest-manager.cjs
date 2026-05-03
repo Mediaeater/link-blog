@@ -113,8 +113,8 @@ class DigestManager {
       const url = this.escapeHtml(link.url);
       const domain = this.extractDomain(link.url);
       const quote = link.pullQuote
-        ? this.escapeHtml(link.pullQuote).split(/\n\n+/).map(p => p.trim()).filter(Boolean).map((p, i) =>
-            `<p style="margin: ${i === 0 ? '8px' : '12px'} 0 0 0; color: #666; font-style: italic; font-size: 14px;">${p.replace(/\n/g, '<br>')}</p>`
+        ? this.escapeHtml(link.pullQuote).split(/\n\n+/).map(p => p.replace(/\n/g, ' ').trim()).filter(Boolean).map((p, i) =>
+            `<p style="margin: ${i === 0 ? '8px' : '12px'} 0 0 0; color: #666; font-style: italic; font-size: 14px;">${p}</p>`
           ).join('')
         : '';
 
