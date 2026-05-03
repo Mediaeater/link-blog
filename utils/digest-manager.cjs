@@ -121,7 +121,7 @@ class DigestManager {
     }).join('\n');
 
     const writeupHtml = writeup
-      ? `<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;">${this.escapeHtml(writeup)}</div>`
+      ? `<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;">${this.escapeHtml(writeup).split(/\n\n+/).map(p => `<p style="margin: 0 0 12px 0;">${p.replace(/\n/g, '<br>')}</p>`).join('')}</div>`
       : '';
 
     return `<!DOCTYPE html>
