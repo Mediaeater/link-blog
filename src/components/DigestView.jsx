@@ -49,19 +49,32 @@ export default function DigestView({ digests, links, onTagClick }) {
 
         return (
           <div key={digest.id} className="border-b border-neutral-200 pb-6">
-            <button
-              onClick={() => setExpandedId(isExpanded ? null : digest.id)}
-              className="w-full text-left group"
-            >
-              <div className="flex items-baseline justify-between gap-4">
+            <div className="flex items-baseline justify-between gap-4">
+              <button
+                onClick={() => setExpandedId(isExpanded ? null : digest.id)}
+                className="flex-1 text-left group"
+              >
                 <h2 className="text-lg font-medium text-neutral-900 group-hover:text-primary-600 transition-colors">
                   {digest.title || `Digest #${digest.id}`}
                 </h2>
-                <span className="text-xs text-neutral-400 flex-shrink-0">
+              </button>
+              <div className="flex items-center gap-3 flex-shrink-0">
+                <span className="text-xs text-neutral-400">
                   {digestLinks.length} links
                 </span>
+                {digest.filename && (
+                  <a
+                    href={`/digests/${digest.filename}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-primary-600 hover:underline inline-flex items-center gap-1"
+                    title="Open standalone digest page"
+                  >
+                    view <ExternalLink className="w-3 h-3" />
+                  </a>
+                )}
               </div>
-            </button>
+            </div>
 
             {!isExpanded && (
               digest.summary ? (
