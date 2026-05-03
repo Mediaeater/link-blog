@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sun, 03 May 2026 11:36:06 GMT</dateCreated>
-    <dateModified>Sun, 03 May 2026 11:36:06 GMT</dateModified>
+    <dateCreated>Sun, 03 May 2026 11:40:41 GMT</dateCreated>
+    <dateModified>Sun, 03 May 2026 11:40:41 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -5368,12 +5368,6 @@ The setup for this framing appears here:
 
 Safety drives everything we do, and the FAA will only allow this step forward because we are confident it can be done safely." created="Tue, 30 Sep 2025 10:50:47 GMT" category="regulation,air-travel,harms" />
     </outline>
-    <outline text="religion" title="religion">
-      <outline type="link" text="US officials deny threatening Vatican over Pope Leo’s criticisms" title="US officials deny threatening Vatican over Pope Leo’s criticisms" url="https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1" description="But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.
-
-The unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.
-" created="Fri, 10 Apr 2026 11:33:22 GMT" category="vatican,usa-gov,religion" />
-    </outline>
     <outline text="religon" title="religon">
       <outline type="link" text="Note on the Relationship Between Artificial Intelligence and Human Intelligence" title="Note on the Relationship Between Artificial Intelligence and Human Intelligence" url="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html" htmlUrl="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html" description="It is within this perspective that the present Note addresses the anthropological and ethical challenges raised by AI—issues that are particularly significant, as one of the goals of this technology is to imitate the human intelligence that designed it. For instance, unlike many other human creations, AI can be trained on the results of human creativity and then generate new “artifacts” with a level of speed and skill that often rivals or surpasses what humans can do, such as producing text or images indistinguishable from human compositions. This raises critical concerns about AI’s potential role in the growing crisis of truth in the public forum. Moreover, this technology is designed to learn and make certain choices autonomously, adapting to new situations and providing solutions not foreseen by its programmers, and thus, it raises fundamental questions about ethical responsibility and human safety, with broader implications for society as a whole. This new situation has prompted many people to reflect on what it means to be human and the role of humanity in the world.
 
@@ -6388,12 +6382,6 @@ But hope for me has never been optimism. Optimism is &quot;everything will be fi
 
 " created="Sat, 27 Sep 2025 20:10:49 GMT" category="opsec,security,usa" />
     </outline>
-    <outline text="usa-gov" title="usa-gov">
-      <outline type="link" text="US officials deny threatening Vatican over Pope Leo’s criticisms" title="US officials deny threatening Vatican over Pope Leo’s criticisms" url="https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1" description="But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.
-
-The unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.
-" created="Fri, 10 Apr 2026 11:33:22 GMT" category="vatican,usa-gov,religion" />
-    </outline>
     <outline text="usaf" title="usaf">
       <outline type="link" text="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop." title="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop." url="https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two" htmlUrl="https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two" description="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.
 A Caltech astronomer shot on his porch. Three AFRL employees dead in one night. A charge dismissed eleven days before a killing. And the same institution at the center of every single case." created="Fri, 20 Mar 2026 16:20:36 GMT" category="intelligence,security,afrl,air-force,usaf" />
@@ -6405,12 +6393,6 @@ A Caltech astronomer shot on his porch. Three AFRL employees dead in one night. 
       <outline type="link" text="NASA Artemis II Moon Mission (Scroll effect)" title="NASA Artemis II Moon Mission (Scroll effect)" url="https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/" htmlUrl="https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/" created="Sun, 19 Apr 2026 12:39:45 GMT" category="nasa,space,artemis,ui,ux,scroll,design" />
       <outline type="link" text="Way past its prime: how did Amazon get so rubbish?" title="Way past its prime: how did Amazon get so rubbish?" url="https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish" htmlUrl="https://www.theguardian.com/technology/2025/oct/05/way-past-its-prime-how-did-amazon-get-so-rubbish" description="The Amazon flywheel is designed to fit neatly into the consumer welfare framework. It proclaims itself to be an enemy to merchants on behalf of consumers. The flywheel is all about lowering prices, and the consumer welfare standard theory prizes low prices above all else." created="Mon, 06 Oct 2025 20:44:17 GMT" category="amazon,shopping,ux,shitification" />
       <outline type="link" text="KanaDojo かな道場" title="KanaDojo かな道場" url="https://kanadojo.com/" htmlUrl="https://kanadojo.com/" created="Sun, 07 Sep 2025 00:01:30 GMT" category="japan,language,education,learning,ux" visits="1" />
-    </outline>
-    <outline text="vatican" title="vatican">
-      <outline type="link" text="US officials deny threatening Vatican over Pope Leo’s criticisms" title="US officials deny threatening Vatican over Pope Leo’s criticisms" url="https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1" description="But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.
-
-The unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.
-" created="Fri, 10 Apr 2026 11:33:22 GMT" category="vatican,usa-gov,religion" />
     </outline>
     <outline text="vaults" title="vaults">
       <outline type="link" text="Password managers’ promise that they can’t see your vaults isn’t always true" title="Password managers’ promise that they can’t see your vaults isn’t always true" url="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/" htmlUrl="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/" description="Over the past 15 years, password managers have grown from a niche security tool used by the technology savvy into an indispensable security tool for the masses, with an estimated 94 million US adults—or roughly 36 percent of them—having adopted them. They store not only passwords for pension, financial, and email accounts, but also cryptocurrency credentials, payment card numbers, and other sensitive data.
