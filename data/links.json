@@ -84,14 +84,15 @@
       "id": 1777771454219.2576,
       "url": "https://www.abbaziasangiorgio.it/2026/04/23/barry-x-ball-the-shape-of-time/",
       "source": "BARRY X BALL – THE SHAPE OF TIME - Abbazia di San Giorgio Maggiore",
-      "pullQuote": "",
+      "pullQuote": "dvanced digital technologies meet traditional craftsmanship at the Basilica of San Giorgio Maggiore Barry X Ball reinvents historic masterpieces using new materials and forms from May 9 to November 22, 2026 Curated by Bob Nickas The Basilica of San Giorgio Maggiore presents The Shape of Time, a major retrospective dedicated to the sculptural practice ",
       "tags": [
-        "barry",
-        "ball",
-        "shape",
-        "time",
-        "abbazia"
+        "venice",
+        "labiennale",
+        "2026",
+        "art",
+        "biennale"
       ],
+      "isPinned": false,
       "timestamp": "2026-05-03T01:24:14.219Z",
       "visits": 0
     },
@@ -99,10 +100,17 @@
       "id": 1777771454219.3718,
       "url": "https://www.barryxball.com/sangiorgiomaggiore",
       "source": "barryxball.com",
-      "pullQuote": "",
+      "pullQuote": "arry X Ball was born in 1955 in Pasadena, CA and lives and works in New York.\n\nHe has reinvigorated the age-old tradition of figurative sculpture through the use of unconventional materials and methods. Ball employs a complex array of equipment and procedures to realize his sculptures, ranging from the cutting edge to the traditional, from 3D digital scanning, virtual modeling, 3D printing, and computer-controlled milling to hyper-detailed hand carving and polishing. Although paying reverent homage to their historical antecedents, they are completely new. With their simultaneous fever-pitch intensity and surreal stillness, Barry X Ball’s bravura works make an expansive case for the reconsideration of contemporary sculptural practice.\n",
       "tags": [
-        "barryxball"
+        "barryxball",
+        "art",
+        "labiennale",
+        "artists",
+        "2026",
+        "venice",
+        "venice-biennale"
       ],
+      "isPinned": false,
       "timestamp": "2026-05-03T01:24:14.219Z",
       "visits": 0
     },
@@ -153,21 +161,6 @@
       "visits": 0
     },
     {
-      "id": 1777771454219.227,
-      "url": "https://www.kunst.dk/english/art-forms/visual-arts/maja-malou-lyses-things-to-come-at-la-biennale-di-venezia",
-      "source": "Maja Malou Lyse’s Things To Come at La Biennale di Venezia",
-      "pullQuote": "",
-      "tags": [
-        "maja",
-        "malou",
-        "lyse",
-        "things",
-        "biennale"
-      ],
-      "timestamp": "2026-05-03T01:24:14.219Z",
-      "visits": 1
-    },
-    {
       "id": 1777771454219.6038,
       "url": "https://egnyte.suttoncomms.com/fl/RkkVMXHybxFM#folder-link/1.%20Press%20kit/Images",
       "source": "1. Press kit on Egnyte",
@@ -186,14 +179,16 @@
       "id": 1777771454219.5393,
       "url": "https://www.labiennale.org/en/art/2026",
       "source": "Biennale Arte 2026 | Homepage 2026",
-      "pullQuote": "",
+      "pullQuote": "The 61st International Art Exhibition of La Biennale di Venezia – In Minor Keys by Koyo Kouoh – will run from Saturday 9 May to Sunday 22 November 2026 (preview 6, 7, 8 May) at the Giardini and the Arsenale venues, and in various locations around Venice.\n\nWith the full support of Koyo Kouoh’s family, La Biennale di Venezia decided to carry out her Exhibition. It will do so by following the project just as she conceived and defined it, with the purpose of preserving, enhancing and disseminating her ideas and the work she pursued.",
       "tags": [
         "biennale",
-        "arte",
-        "homepage",
-        "61st",
-        "international"
+        "international",
+        "venice",
+        "veinice-biennale",
+        "art",
+        "2026"
       ],
+      "isPinned": false,
       "timestamp": "2026-05-03T01:24:14.219Z",
       "visits": 0
     },
@@ -6631,5 +6626,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-03T13:19:43.403Z"
+  "lastUpdated": "2026-05-03T13:32:54.364Z"
 }
