@@ -647,20 +647,6 @@
       "visits": 0
     },
     {
-      "id": 1775820802040,
-      "url": "https://www.ft.com/content/1e172f5e-b45a-422e-a5aa-70e8bba506d6?syn-25a6b1a6=1",
-      "source": "US officials deny threatening Vatican over Pope Leo’s criticisms",
-      "pullQuote": "But the meeting went badly “wrong” after Pierre said Pope Leo would follow his own course guided by Church values, Sisci said. At that point, another official — not Colby — reportedly invoked the spectre of Avignon, a 70-year period between 1309 and 1376 when the powerful king of France had its own loyal “antipope” in opposition to Rome, Sisci said.\n\nThe unexpected invocation of the Avignon papacy was read as an implicit threat that Washington could set up a rival pope in opposition to Leo if the Chicago-born Catholic leader did not more closely toe Washington’s line, Sisci said.\n",
-      "tags": [
-        "vatican",
-        "usa-gov",
-        "religion"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-04-10T11:33:22.040Z",
-      "visits": 0
-    },
-    {
       "id": 1775786439697,
       "url": "https://www.bbc.com/news/articles/c2evppm30p7o",
       "source": "Afrika Bambaataa, hip-hop music pioneer, dies aged 67",
@@ -6668,5 +6654,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-03T13:48:07.977Z"
+  "lastUpdated": "2026-05-03T14:30:08.997Z"
 }
