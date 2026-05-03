@@ -4,7 +4,7 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 03 May 2026 02:04:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 May 2026 11:35:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -55,21 +55,21 @@
             <link>https://www.barryxball.com/sangiorgiomaggiore</link>
             <guid>1777771454219.3718</guid>
             <pubDate>Sun, 03 May 2026 01:24:14 GMT</pubDate>
-            <description><![CDATA[Tags: barryxball]]></description>
+            <description><![CDATA[Tags: barryxball, venice, labiennale, 2026, art, 3d]]></description>
         </item>
         <item>
             <title><![CDATA[Biennale Arte 2026 | Biennale Arte 2026: the invited artists]]></title>
             <link>https://www.labiennale.org/en/news/biennale-arte-2026-invited-artists</link>
             <guid>1777771454219.4897</guid>
             <pubDate>Sun, 03 May 2026 01:24:14 GMT</pubDate>
-            <description><![CDATA[Tags: biennale, arte, invited, artists, 61st]]></description>
+            <description><![CDATA[Tags: biennale, arte, invited, artists, 61st, venice]]></description>
         </item>
         <item>
             <title><![CDATA[Maja Malou Lyse’s Things To Come at La Biennale di Venezia]]></title>
             <link>https://www.kunst.dk/english/art-forms/visual-arts/maja-malou-lyses-things-to-come-at-la-biennale-di-venezia</link>
             <guid>1777771454219.5178</guid>
             <pubDate>Sun, 03 May 2026 01:24:14 GMT</pubDate>
-            <description><![CDATA[Tags: maja, malou, lyse, things, biennale]]></description>
+            <description><![CDATA[Tags: venice, labiennale, 2026, majamaloulyse, art]]></description>
         </item>
         <item>
             <title><![CDATA[Artist Maja Malou Lyse]]></title>
@@ -77,13 +77,6 @@
             <guid>1777771454219.8079</guid>
             <pubDate>Sun, 03 May 2026 01:24:14 GMT</pubDate>
             <description><![CDATA[Tags: artist, majamaloulyse, venice, 2026, labiennale]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Maja Malou Lyse’s Things To Come at La Biennale di Venezia]]></title>
-            <link>https://www.kunst.dk/english/art-forms/visual-arts/maja-malou-lyses-things-to-come-at-la-biennale-di-venezia</link>
-            <guid>1777771454219.227</guid>
-            <pubDate>Sun, 03 May 2026 01:24:14 GMT</pubDate>
-            <description><![CDATA[Tags: maja, malou, lyse, things, biennale]]></description>
         </item>
         <item>
             <title><![CDATA[1. Press kit on Egnyte]]></title>
@@ -97,7 +90,7 @@
             <link>https://www.labiennale.org/en/art/2026</link>
             <guid>1777771454219.5393</guid>
             <pubDate>Sun, 03 May 2026 01:24:14 GMT</pubDate>
-            <description><![CDATA[Tags: biennale, arte, homepage, 61st, international]]></description>
+            <description><![CDATA[Tags: biennale, venice, art, labiennale, 2026]]></description>
         </item>
         <item>
             <title><![CDATA[Supreme Court Wrangles With Police Use of Cell Location Data to Find Suspects]]></title>
