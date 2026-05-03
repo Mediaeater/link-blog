@@ -65,10 +65,12 @@ function generate() {
 
     const title = digest.title || `Digest #${digest.id}`;
 
+    const digestUrl = `${CONFIG.siteUrl}/digests/${digest.filename}`;
+
     feed.addItem({
       title,
-      id: `${CONFIG.siteUrl}/digest/${digest.id}`,
-      link: CONFIG.siteUrl,
+      id: digestUrl,
+      link: digestUrl,
       description: `${digest.count} curated links`,
       content,
       date: new Date(digest.timestamp),

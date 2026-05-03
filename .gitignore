@@ -67,6 +67,7 @@ public/feed.xml
 public/sitemap.xml
 public/data/feed.json
 public/data/blogroll.opml
+public/digests/
 
 # OS files
 .AppleDouble
