@@ -15,6 +15,9 @@ dist-ssr
 # Vite cache
 .vite/
 
+# Claude Code
+.claude/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
