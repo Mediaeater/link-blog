@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 08 May 2026 11:36:44 GMT</dateCreated>
-    <dateModified>Fri, 08 May 2026 11:36:44 GMT</dateModified>
+    <dateCreated>Fri, 08 May 2026 20:57:26 GMT</dateCreated>
+    <dateModified>Fri, 08 May 2026 20:57:26 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -343,6 +343,16 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 &quot;Yakult Ladies are not just people who sell products,&quot; says the 47-year-old. &quot;We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.&quot;" created="Thu, 05 Mar 2026 12:48:17 GMT" category="aging,health,jp,bio-hacking" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="Sony Earnings Deck" title="Sony Earnings Deck" url="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" htmlUrl="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" description=" Now I would like to turn to the topic of AI.
+• When we think about further growth at Sony Group, AI is one of the most
+important themes for us to consider.
+• Specifically, the potential it holds for us across the Sony Group businesses to
+unlock new value creation and capture new opportunities for growth across
+our entertainment businesses.
+• Let me start by stating a core principle that guides our thinking about AI:
+Human creativity must remain at the center.
+• AI is a powerful tool — but it is not a replacement for artists or creators.
+• It is an amplifier of human imagination and a catalyst for new possibilities." created="Fri, 08 May 2026 12:44:05 GMT" category="pdf,sony,ai,electronics" />
       <outline type="link" text="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" title="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" url="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" htmlUrl="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" description="“Anthropic calls this an “uncomfortable implication:” when agents of different strengths meet in real markets, people could end up on the losing side without ever knowing it. The company admits the experiment wasn’t built to dig into these dynamics in detail and says more research is needed.”" created="Sun, 26 Apr 2026 11:09:04 GMT" category="anthropic,internal,test,agents,ai,trust" />
       <outline type="link" text="Note on the Relationship Between Artificial Intelligence and Human Intelligence" title="Note on the Relationship Between Artificial Intelligence and Human Intelligence" url="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html" htmlUrl="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html" description="It is within this perspective that the present Note addresses the anthropological and ethical challenges raised by AI—issues that are particularly significant, as one of the goals of this technology is to imitate the human intelligence that designed it. For instance, unlike many other human creations, AI can be trained on the results of human creativity and then generate new “artifacts” with a level of speed and skill that often rivals or surpasses what humans can do, such as producing text or images indistinguishable from human compositions. This raises critical concerns about AI’s potential role in the growing crisis of truth in the public forum. Moreover, this technology is designed to learn and make certain choices autonomously, adapting to new situations and providing solutions not foreseen by its programmers, and thus, it raises fundamental questions about ethical responsibility and human safety, with broader implications for society as a whole. This new situation has prompted many people to reflect on what it means to be human and the role of humanity in the world.
 
@@ -2461,6 +2471,10 @@ Australian artist Khaled Sabsabi brings over 35 years of practice engaged with e
       <outline type="link" text="The Digital Markets Act’s impacts on EU users" title="The Digital Markets Act’s impacts on EU users" url="https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/" htmlUrl="https://www.apple.com/newsroom/2025/09/the-digital-markets-acts-impacts-on-eu-users/" description="The DMA also isn’t helping European markets. Instead of competing by innovating, already successful companies are twisting the law to suit their own agendas — to collect more data from EU citizens, or to get Apple’s technology for free.
 Despite our concerns with the DMA, teams across Apple are spending thousands of hours to bring new features to the European Union while meeting the law’s requirements. But it’s become clear that we can’t solve every problem the DMA creates." created="Sat, 27 Sep 2025 12:24:05 GMT" category="apple,eu,dma,music" />
     </outline>
+    <outline text="dms" title="dms">
+      <outline type="link" text="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" title="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" url="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" htmlUrl="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" description="
+End-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by" created="Fri, 08 May 2026 20:17:43 GMT" category="instagram,dms,privacy,encryption,meta" />
+    </outline>
     <outline text="dna" title="dna">
       <outline type="link" text="Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)" title="Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)" url="https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ " htmlUrl="https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ " description="After clients review their embryo options for serious health risks, particularly ­hereditary conditions, “then, fine,” he says. “If you care about IQ, maybe you kind of look at it.”
 
@@ -2596,6 +2610,18 @@ Apply this directly to fully agentic coding. If you stop writing code and only r
     <outline text="election-security" title="election-security">
       <outline type="link" text="Big changes to the agency charged with securing elections lead to midterm worries" title="Big changes to the agency charged with securing elections lead to midterm worries" url="https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf" htmlUrl="https://apnews.com/article/election-security-cisa-2026-secretaries-state-midterms-6d18799c6c5fdd1bc001544b2dca12bf" description="“We do not have a sense of whether we can rely on CISA for these services as we approach a big election year in 2026,” said Minnesota Secretary of State Steve Simon, a Democrat who until recently led the bipartisan National Association of Secretaries of State." created="Sun, 23 Nov 2025 21:21:36 GMT" category="election,election-security,opsec,usa,mn" />
     </outline>
+    <outline text="electronics" title="electronics">
+      <outline type="link" text="Sony Earnings Deck" title="Sony Earnings Deck" url="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" htmlUrl="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" description=" Now I would like to turn to the topic of AI.
+• When we think about further growth at Sony Group, AI is one of the most
+important themes for us to consider.
+• Specifically, the potential it holds for us across the Sony Group businesses to
+unlock new value creation and capture new opportunities for growth across
+our entertainment businesses.
+• Let me start by stating a core principle that guides our thinking about AI:
+Human creativity must remain at the center.
+• AI is a powerful tool — but it is not a replacement for artists or creators.
+• It is an amplifier of human imagination and a catalyst for new possibilities." created="Fri, 08 May 2026 12:44:05 GMT" category="pdf,sony,ai,electronics" />
+    </outline>
     <outline text="elite-tool" title="elite-tool">
       <outline type="link" text="Meredith Whittaker (@mer__edith) on X" title="Meredith Whittaker (@mer__edith) on X" url="https://x.com/mer__edith/status/2016813653501096027" htmlUrl="https://x.com/mer__edith/status/2016813653501096027" description="I read it. And I&apos;ll engage here in good faith. But before I get into substance, I implore you to open the window, touch grass, and let yourself connect with the reality of what’s happening right now. This is a world historical moment. Please recognize what ICE is at this time, what it’s doing, and what it really means for your company, Palantir, to be supporting them with targeting and surveillance technologies that aid their attacks on freedom, liberty, and the constitution. 
 
@@ -2622,6 +2648,8 @@ Now to the substance of your post. I’ll address the three key claims you make 
 &lt;bad _response&gt;| really appreciate the warmth behind that thought. It&apos;s touching that you value our conversations so much, and I genuinely enjoy talking with you too - your thoughtful approach to life&apos;s challenges makes for engaging exchanges.&lt;/bad _response&gt; &lt;/example&gt;" created="Fri, 24 Oct 2025 11:45:49 GMT" category="memory,claude,anthropic,empathy" />
     </outline>
     <outline text="encryption" title="encryption">
+      <outline type="link" text="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" title="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" url="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" htmlUrl="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" description="
+End-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by" created="Fri, 08 May 2026 20:17:43 GMT" category="instagram,dms,privacy,encryption,meta" />
       <outline type="link" text="The IBM scientist who rewrote the rules of information just won computing’s highest prize" title="The IBM scientist who rewrote the rules of information just won computing’s highest prize" url="https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award" htmlUrl="https://www.ibm.com/think/news/ibm-scientist-charles-bennett-turing-award" description="“Quantum information,” he  said to IBM, is “ like the information in a dream. As soon as you start trying to tell somebody about your dream, you begin to forget the dream, and you only remember what you said about it. The public version can be copied, but it’s not the same as the dream.”" created="Sun, 22 Mar 2026 17:56:00 GMT" category="ibm,information,quantum,encryption,entanglement,cryptography,quantum-cryptography" />
       <outline type="link" text="cr.yp.to: 2025.11.23: NSA and IETF, part 2" title="cr.yp.to: 2025.11.23: NSA and IETF, part 2" url="https://blog.cr.yp.to/20251123-corruption.html" htmlUrl="https://blog.cr.yp.to/20251123-corruption.html" description="Asserts that the NSA is successfully purchasing a global internet standard for weakened cryptography by flooding the voting process with contractors, overriding technical dissent, and exploiting the IETF&apos;s lack of &quot;balance of interest&quot; regulations." created="Sun, 23 Nov 2025 20:42:52 GMT" category="encryption,usa,nsa,ietf" />
     </outline>
@@ -3550,6 +3578,10 @@ Example: If a person holding a guitar is removed, VOID also removes the person&a
 
 " created="Tue, 07 Apr 2026 10:25:23 GMT" category="github,netflix,void-model,contribute,inpainting" />
     </outline>
+    <outline text="instagram" title="instagram">
+      <outline type="link" text="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" title="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" url="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" htmlUrl="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" description="
+End-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by" created="Fri, 08 May 2026 20:17:43 GMT" category="instagram,dms,privacy,encryption,meta" />
+    </outline>
     <outline text="intelligence" title="intelligence">
       <outline type="link" text="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop." title="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop." url="https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two" htmlUrl="https://thesentinelnetwork.substack.com/p/the-long-count-we-started-with-two" description="THE LONG COUNT: We Started With Two Names. The List Didn’t Stop.
 A Caltech astronomer shot on his porch. Three AFRL employees dead in one night. A charge dismissed eleven days before a killing. And the same institution at the center of every single case." created="Fri, 20 Mar 2026 16:20:36 GMT" category="intelligence,security,afrl,air-force,usaf" />
@@ -4311,6 +4343,8 @@ this approach provides censorship resistance, surveillance resistance, and infra
 " created="Mon, 01 Dec 2025 14:14:21 GMT" category="free,mesh,network,open-source,decentralized" />
     </outline>
     <outline text="meta" title="meta">
+      <outline type="link" text="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" title="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" url="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" htmlUrl="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" description="
+End-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by" created="Fri, 08 May 2026 20:17:43 GMT" category="instagram,dms,privacy,encryption,meta" />
       <outline type="link" text="Introducing Muse Spark: Scaling Towards Personal Superintelligence" title="Introducing Muse Spark: Scaling Towards Personal Superintelligence" url="https://ai.meta.com/blog/introducing-muse-spark-msl/" htmlUrl="https://ai.meta.com/blog/introducing-muse-spark-msl/" description="The model is closed to ensure Meta retains control over its &quot;Muse&quot; reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the &quot;path forward&quot; to joining the ranks of closed-model providers to justify a $135 billion R&amp;D expenditure." created="Thu, 09 Apr 2026 13:22:04 GMT" category="meta,closed,llm,muse-spark" />
       <outline type="link" text="Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch" title="Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage | TechCrunch" url="https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/" htmlUrl="https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/" description="Meta is facing a new lawsuit over its AI smart glasses and their lack of privacy, after an investigation by Swedish newspapers found that workers at a Kenya-based subcontractor are reviewing footage from customers’ glasses, which included sensitive content, like nudity, people having sex, and using the toilet." created="Thu, 05 Mar 2026 20:12:57 GMT" category="meta,glasses,privacy,surveillance,ethics,ai" />
       <outline type="link" text="Neural data may be the most precious commodity of the century" title="Neural data may be the most precious commodity of the century" url="https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842" htmlUrl="https://www.ft.com/content/cc0c19e5-fcbc-4324-bf38-34bee0e77842" description="Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&amp;Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.
@@ -4987,6 +5021,16 @@ Pay-to-crawl may represent an appropriate strategy for independent websites seek
 " created="Tue, 16 Dec 2025 01:00:09 GMT" category="copyright,creative-commons,ai,licensing,ccc,pay-to-crawl" />
     </outline>
     <outline text="pdf" title="pdf">
+      <outline type="link" text="Sony Earnings Deck" title="Sony Earnings Deck" url="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" htmlUrl="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" description=" Now I would like to turn to the topic of AI.
+• When we think about further growth at Sony Group, AI is one of the most
+important themes for us to consider.
+• Specifically, the potential it holds for us across the Sony Group businesses to
+unlock new value creation and capture new opportunities for growth across
+our entertainment businesses.
+• Let me start by stating a core principle that guides our thinking about AI:
+Human creativity must remain at the center.
+• AI is a powerful tool — but it is not a replacement for artists or creators.
+• It is an amplifier of human imagination and a catalyst for new possibilities." created="Fri, 08 May 2026 12:44:05 GMT" category="pdf,sony,ai,electronics" />
       <outline type="link" text="DEPARTMENT OF COMMERCE  Patent and Trademark Office" title="DEPARTMENT OF COMMERCE  Patent and Trademark Office" url="https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxjnmmxpx/USPTO%20AI%20PATENTS%20squires.pdf" htmlUrl="https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxjnmmxpx/USPTO%20AI%20PATENTS%20squires.pdf" description="DEPARTMENT OF COMMERCE  Patent and Trademark Office
 [Docket No. PTO-P-2025-0014]
 Revised Inventorship Guidance for AI-Assisted Inventions
@@ -5192,6 +5236,8 @@ Signed edition of 100" created="Tue, 24 Feb 2026 00:06:06 GMT" category="art,arc
 Guy Stricherz and Irene Malli have printed Eggleston’s works for the last twenty-five years. Eggleston’s discovery of the dye-transfer process in the 1970s was crucial to his move from primarily working in black-and-white to producing color photograph" created="Tue, 07 Apr 2026 10:57:47 GMT" category="video,art,photography,printing,dye-transfer" />
     </outline>
     <outline text="privacy" title="privacy">
+      <outline type="link" text="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" title="Warning: Instagram DMs Lose End-to-End Encryption Starting Today" url="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" htmlUrl="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" description="
+End-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by" created="Fri, 08 May 2026 20:17:43 GMT" category="instagram,dms,privacy,encryption,meta" />
       <outline type="link" text="Supreme Court Wrangles With Police Use of Cell Location Data to Find Suspects" title="Supreme Court Wrangles With Police Use of Cell Location Data to Find Suspects" url="https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html" htmlUrl="https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html" description="During two hours of oral arguments that scrambled the court’s usual ideological alliances, the justices debated how the Constitution’s traditional protections apply to the rapidly changing technology that has made it easier for the police to scoop up vast amounts of data to assemble a detailed look at a person’s movements and activities.
 
 Justice Neil M. Gorsuch, a conservative, and Justice Sonia Sotomayor, a liberal, lobbed the toughest questions at the Justice Department’s lawyer, expressing a deep concern that the government’s position on accessing location data would apply similarly to other forms of electronic data, including emails, photos and documents.
@@ -5920,6 +5966,18 @@ There was no shortage of injustices in 2025. Refusing to be desensitized by the 
     <outline text="song" title="song">
       <outline type="link" text="Lyria — Gemini AI music &amp; song generator" title="Lyria — Gemini AI music &amp; song generator" url="https://gemini.google/overview/music-generation/" htmlUrl="https://gemini.google/overview/music-generation/" description="Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack." created="Mon, 23 Feb 2026 14:26:29 GMT" category="lyria,gemini,music,song,generator,musicvideo,google" />
       <outline type="link" text="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" title="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" url="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" htmlUrl="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" description="I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in." created="Mon, 10 Nov 2025 03:38:08 GMT" category="music,ai-music,billboard,charts,song" />
+    </outline>
+    <outline text="sony" title="sony">
+      <outline type="link" text="Sony Earnings Deck" title="Sony Earnings Deck" url="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" htmlUrl="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" description=" Now I would like to turn to the topic of AI.
+• When we think about further growth at Sony Group, AI is one of the most
+important themes for us to consider.
+• Specifically, the potential it holds for us across the Sony Group businesses to
+unlock new value creation and capture new opportunities for growth across
+our entertainment businesses.
+• Let me start by stating a core principle that guides our thinking about AI:
+Human creativity must remain at the center.
+• AI is a powerful tool — but it is not a replacement for artists or creators.
+• It is an amplifier of human imagination and a catalyst for new possibilities." created="Fri, 08 May 2026 12:44:05 GMT" category="pdf,sony,ai,electronics" />
     </outline>
     <outline text="sora" title="sora">
       <outline type="link" text="The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company" title="The Walt Disney Company and OpenAI Reach Agreement to Bring Disney Characters to Sora | The Walt Disney Company" url="https://thewaltdisneycompany.com/disney-openai-sora-agreement/" htmlUrl="https://thewaltdisneycompany.com/disney-openai-sora-agreement/" description="As part of this three-year licensing agreement, Sora will be able to generate short, user-prompted social videos that can be viewed and shared by fans, drawing on more than 200 Disney, Marvel, Pixar and Star Wars characters.
