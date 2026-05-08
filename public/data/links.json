@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "id": 1778271463891,
+      "url": "https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/",
+      "source": "Warning: Instagram DMs Lose End-to-End Encryption Starting Today",
+      "pullQuote": "\nEnd-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by",
+      "tags": [
+        "instagram",
+        "dms",
+        "privacy",
+        "encryption",
+        "meta"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-08T20:17:43.891Z",
+      "visits": 0
+    },
+    {
+      "id": 1778244245150,
+      "url": "https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf",
+      "source": "Sony Earnings Deck",
+      "pullQuote": " Now I would like to turn to the topic of AI.\n• When we think about further growth at Sony Group, AI is one of the most\nimportant themes for us to consider.\n• Specifically, the potential it holds for us across the Sony Group businesses to\nunlock new value creation and capture new opportunities for growth across\nour entertainment businesses.\n• Let me start by stating a core principle that guides our thinking about AI:\nHuman creativity must remain at the center.\n• AI is a powerful tool — but it is not a replacement for artists or creators.\n• It is an amplifier of human imagination and a catalyst for new possibilities.",
+      "tags": [
+        "pdf",
+        "sony",
+        "ai",
+        "electronics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-08T12:44:05.150Z",
+      "visits": 0
+    },
+    {
       "id": 1778157179336,
       "url": "https://tercek.substack.com/p/ai-wont-kill-hollywood",
       "source": "AI Won’t Kill Hollywood",
@@ -6670,5 +6701,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-07T12:32:59.405Z"
+  "lastUpdated": "2026-05-08T20:17:43.927Z"
 }

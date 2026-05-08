@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 07 May 2026 12:32:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 08 May 2026 20:17:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Warning: Instagram DMs Lose End-to-End Encryption Starting Today]]></title>
+            <link>https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/</link>
+            <guid>1778271463891</guid>
+            <pubDate>Fri, 08 May 2026 20:17:43 GMT</pubDate>
+            <description><![CDATA[Tags: instagram, dms, privacy, encryption, meta]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Sony Earnings Deck]]></title>
+            <link>https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf</link>
+            <guid>1778244245150</guid>
+            <pubDate>Fri, 08 May 2026 12:44:05 GMT</pubDate>
+            <description><![CDATA[Tags: pdf, sony, ai, electronics]]></description>
+        </item>
         <item>
             <title><![CDATA[AI Won’t Kill Hollywood]]></title>
             <link>https://tercek.substack.com/p/ai-wont-kill-hollywood</link>
