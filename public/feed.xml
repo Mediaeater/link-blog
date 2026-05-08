@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 03 May 2026 14:30:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 May 2026 12:32:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AI Won’t Kill Hollywood]]></title>
+            <link>https://tercek.substack.com/p/ai-wont-kill-hollywood</link>
+            <guid>1778157179336</guid>
+            <pubDate>Thu, 07 May 2026 12:32:59 GMT</pubDate>
+            <description><![CDATA[Tags: hollywood, industry, transformation, ai-hollywood, media]]></description>
+        </item>
         <item>
             <title><![CDATA[SEAWORLD VENICE]]></title>
             <link>https://www.seaworldvenice.at/about/artist</link>
