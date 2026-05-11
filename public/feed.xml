@@ -4,10 +4,24 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 11 May 2026 13:30:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2026 20:44:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Prompting best practices]]></title>
+            <link>https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices</link>
+            <guid>1778532272281</guid>
+            <pubDate>Mon, 11 May 2026 20:44:32 GMT</pubDate>
+            <description><![CDATA[Tags: prompting, guide, claude, best-practices]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Trevor Paglen: The Lizard People are Here!]]></title>
+            <link>https://www.guggenheim.org/event/trevor-paglen-the-lizard-people-are-here/2026-05-18?utm_medium=Email&amp;utm_source=SFMC&amp;utm_campaign=PP_LGProgramDedicated_050826</link>
+            <guid>1778532222207</guid>
+            <pubDate>Mon, 11 May 2026 20:43:42 GMT</pubDate>
+            <description><![CDATA[Tags: nyc, ai, art, event]]></description>
+        </item>
         <item>
             <title><![CDATA[Project Overview ‹ Your Brain on ChatGPT – MIT Media Lab]]></title>
             <link>https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/</link>
