@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 08 May 2026 20:17:43 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 May 2026 13:30:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Project Overview ‹ Your Brain on ChatGPT – MIT Media Lab]]></title>
+            <link>https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/</link>
+            <guid>1778506207922</guid>
+            <pubDate>Mon, 11 May 2026 13:30:07 GMT</pubDate>
+            <description><![CDATA[Tags: brain, chatgpt, mit, study, ai, cognitive-debt]]></description>
+        </item>
         <item>
             <title><![CDATA[Warning: Instagram DMs Lose End-to-End Encryption Starting Today]]></title>
             <link>https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/</link>
