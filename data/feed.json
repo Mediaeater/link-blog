@@ -15,6 +15,44 @@
   ],
   "items": [
     {
+      "id": "1778532272281",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "title": "Prompting best practices",
+      "date_published": "2026-05-11T20:44:32.281Z",
+      "tags": [
+        "prompting",
+        "guide",
+        "claude",
+        "best-practices"
+      ],
+      "content_text": "Prompting best practices\n\nCopy page\n\nComprehensive guide to prompt engineering techniques for Claude's latest models, covering clarity, examples, XML structuring, thinking, and agentic systems.\nThis is the single reference for prompt engineering with Claude's latest models, including Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 4.6, and Claude Haiku 4.5. It covers foundational techniques, output control, tool use, thinking, and agentic systems. Jump to the section that matches your situation.",
+      "summary": "Prompting best practices\n\nCopy page\n\nComprehensive guide to prompt engineering techniques for Claude's latest models, covering clarity, examples, XML ...",
+      "content_html": "<blockquote>Prompting best practices\n\nCopy page\n\nComprehensive guide to prompt engineering techniques for Claude&#039;s latest models, covering clarity, examples, XML structuring, thinking, and agentic systems.\nThis is the single reference for prompt engineering with Claude&#039;s latest models, including Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 4.6, and Claude Haiku 4.5. It covers foundational techniques, output control, tool use, thinking, and agentic systems. Jump to the section that matches your situation.</blockquote>\n<p><strong>Tags:</strong> prompting, guide, claude, best-practices</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1778532222207",
+      "url": "https://www.guggenheim.org/event/trevor-paglen-the-lizard-people-are-here/2026-05-18?utm_medium=Email&utm_source=SFMC&utm_campaign=PP_LGProgramDedicated_050826",
+      "title": "Trevor Paglen: The Lizard People are Here!",
+      "date_published": "2026-05-11T20:43:42.207Z",
+      "tags": [
+        "nyc",
+        "ai",
+        "art",
+        "event"
+      ],
+      "content_text": "This performance-lecture invites audiences to consider whether we are entering a new era of invisible architectures and algorithmic systems shaping perception, knowledge, and power. In the program, 2026 LG Guggenheim Award recipient, artist, and author Trevor Paglen traces a dense network of ideas spanning philosophy, belief, deception, and speculation.\n\nBringing together psyops, artificial intelligence, magic, mind control, UFOs, the secret of the Ark of the Covenant, and the figure of a new demiurge, Paglen examines historical precedents for the manipulation of human perception and cognition at a moment when artificial intelligence is becoming increasingly pervasive.",
+      "summary": "This performance-lecture invites audiences to consider whether we are entering a new era of invisible architectures and algorithmic systems shaping pe...",
+      "content_html": "<blockquote>This performance-lecture invites audiences to consider whether we are entering a new era of invisible architectures and algorithmic systems shaping perception, knowledge, and power. In the program, 2026 LG Guggenheim Award recipient, artist, and author Trevor Paglen traces a dense network of ideas spanning philosophy, belief, deception, and speculation.\n\nBringing together psyops, artificial intelligence, magic, mind control, UFOs, the secret of the Ark of the Covenant, and the figure of a new demiurge, Paglen examines historical precedents for the manipulation of human perception and cognition at a moment when artificial intelligence is becoming increasingly pervasive.</blockquote>\n<p><strong>Tags:</strong> nyc, ai, art, event</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1778506207922",
       "url": "https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/",
       "title": "Project Overview ‹ Your Brain on ChatGPT – MIT Media Lab",
