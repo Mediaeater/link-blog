@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 11 May 2026 20:44:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 May 2026 22:29:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Trillions of miles of data: Your car is spying on you, and it's only just the beginning]]></title>
+            <link>https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse</link>
+            <guid>1778711381012</guid>
+            <pubDate>Wed, 13 May 2026 22:29:41 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, privacy, surveillance, automotive]]></description>
+        </item>
         <item>
             <title><![CDATA[Prompting best practices]]></title>
             <link>https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices</link>
