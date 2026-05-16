@@ -15,6 +15,80 @@
   ],
   "items": [
     {
+      "id": "1778895239671",
+      "url": "https://www.youtube.com/live/luU57hMhkak",
+      "title": "F.03 Livestream - Day 3",
+      "date_published": "2026-05-16T01:33:59.671Z",
+      "tags": [
+        "youtube",
+        "video",
+        "robots",
+        "labor"
+      ],
+      "content_text": "Robot at work ",
+      "summary": "Robot at work ",
+      "content_html": "<blockquote>Robot at work </blockquote>\n<p><strong>Tags:</strong> youtube, video, robots, labor</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1778895151401",
+      "url": " https://github.com/anthropics/claude-for-legal",
+      "title": "GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows",
+      "date_published": "2026-05-16T01:32:31.401Z",
+      "tags": [
+        "ai",
+        "legal",
+        "claude",
+        "anthropic"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ai, legal, claude, anthropic</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1778887005281",
+      "url": " https://www.bbc.com/news/articles/c2l2j1lxdk5o",
+      "title": "UK saves ‘millions’ of pounds by ditching Palantir for refugee system",
+      "date_published": "2026-05-15T23:16:45.281Z",
+      "tags": [
+        "palantir",
+        "surveillance",
+        "ai",
+        "ethics"
+      ],
+      "content_text": "Millions of pounds have been saved by replacing a Palantir IT system which helps to find homes for Ukrainian refugees with one built by its own experts, a government department has said.\n\nThe Homes for Ukraine scheme matched people fleeing the conflict with offers of accommodation - a complex task Palantir initially supported for free but which grew to cost millions.",
+      "summary": "Millions of pounds have been saved by replacing a Palantir IT system which helps to find homes for Ukrainian refugees with one built by its own expert...",
+      "content_html": "<blockquote>Millions of pounds have been saved by replacing a Palantir IT system which helps to find homes for Ukrainian refugees with one built by its own experts, a government department has said.\n\nThe Homes for Ukraine scheme matched people fleeing the conflict with offers of accommodation - a complex task Palantir initially supported for free but which grew to cost millions.</blockquote>\n<p><strong>Tags:</strong> palantir, surveillance, ai, ethics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1778711381012",
+      "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
+      "title": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning",
+      "date_published": "2026-05-13T22:29:41.012Z",
+      "tags": [
+        "ethics",
+        "privacy",
+        "surveillance",
+        "automotive"
+      ],
+      "content_text": "This is a privacy problem that can cost you money. Among the biggest customers for car data are insurance companies, and they're using it to charge some people higher prices. But there's no telling where your information is going. Some car companies admit they sell your data, but they don't have to say who's buying. That's to say nothing of the fact that you might find it a little creepy. Most consumers, experts say, have no idea it's even happening. ",
+      "summary": "This is a privacy problem that can cost you money. Among the biggest customers for car data are insurance companies, and they're using it to charge so...",
+      "content_html": "<blockquote>This is a privacy problem that can cost you money. Among the biggest customers for car data are insurance companies, and they&#039;re using it to charge some people higher prices. But there&#039;s no telling where your information is going. Some car companies admit they sell your data, but they don&#039;t have to say who&#039;s buying. That&#039;s to say nothing of the fact that you might find it a little creepy. Most consumers, experts say, have no idea it&#039;s even happening. </blockquote>\n<p><strong>Tags:</strong> ethics, privacy, surveillance, automotive</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1778532272281",
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
       "title": "Prompting best practices",

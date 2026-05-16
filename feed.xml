@@ -4,10 +4,38 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 11 May 2026 20:44:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 May 2026 01:33:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[F.03 Livestream - Day 3]]></title>
+            <link>https://www.youtube.com/live/luU57hMhkak</link>
+            <guid>1778895239671</guid>
+            <pubDate>Sat, 16 May 2026 01:33:59 GMT</pubDate>
+            <description><![CDATA[Tags: youtube, video, robots, labor]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows]]></title>
+            <link> https://github.com/anthropics/claude-for-legal</link>
+            <guid>1778895151401</guid>
+            <pubDate>Sat, 16 May 2026 01:32:31 GMT</pubDate>
+            <description><![CDATA[Tags: ai, legal, claude, anthropic]]></description>
+        </item>
+        <item>
+            <title><![CDATA[UK saves ‘millions’ of pounds by ditching Palantir for refugee system]]></title>
+            <link> https://www.bbc.com/news/articles/c2l2j1lxdk5o</link>
+            <guid>1778887005281</guid>
+            <pubDate>Fri, 15 May 2026 23:16:45 GMT</pubDate>
+            <description><![CDATA[Tags: palantir, surveillance, ai, ethics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Trillions of miles of data: Your car is spying on you, and it's only just the beginning]]></title>
+            <link>https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse</link>
+            <guid>1778711381012</guid>
+            <pubDate>Wed, 13 May 2026 22:29:41 GMT</pubDate>
+            <description><![CDATA[Tags: ethics, privacy, surveillance, automotive]]></description>
+        </item>
         <item>
             <title><![CDATA[Prompting best practices]]></title>
             <link>https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices</link>
