@@ -178,9 +178,20 @@ ${items}
       return { success: false, error: 'No undigested links', html: '' };
     }
 
-    const html = this.generateHtml(undigestedLinks);
+    // Dedup by URL for the rendered output (the admin UI can produce
+    // duplicate-URL rows with different ids from rapid double-submits).
+    // Both ids are still tracked as digested below so neither dupe
+    // resurfaces in the next digest.
+    const seen = new Set();
+    const dedupedLinks = undigestedLinks.filter(link => {
+      if (seen.has(link.url)) return false;
+      seen.add(link.url);
+      return true;
+    });
+
+    const html = this.generateHtml(dedupedLinks);
     const linkIds = undigestedLinks.map(link => link.id);
-    const { weekStart, weekEnd } = this.getWeekRange(undigestedLinks);
+    const { weekStart, weekEnd } = this.getWeekRange(dedupedLinks);
     const title = this.formatDigestTitle(weekStart, weekEnd);
 
     if (markAsDigested) {
@@ -188,13 +199,13 @@ ${items}
       const digestNumber = digestsData.digests.length + 1;
 
       // Save HTML file
-      const { filename } = await this.saveDigestToFile(undigestedLinks, digestNumber, title, writeup);
+      const { filename } = await this.saveDigestToFile(dedupedLinks, digestNumber, title, writeup);
 
       const newDigest = {
         id: digestNumber,
         timestamp: new Date().toISOString(),
         linkIds,
-        count: linkIds.length,
+        count: dedupedLinks.length,
         filename,
         weekStart,
         weekEnd,
@@ -207,7 +218,7 @@ ${items}
       return {
         success: true,
         html,
-        count: undigestedLinks.length,
+        count: dedupedLinks.length,
         marked: true,
         digestNumber,
         filename,
@@ -218,7 +229,7 @@ ${items}
     return {
       success: true,
       html,
-      count: undigestedLinks.length,
+      count: dedupedLinks.length,
       marked: false,
       title
     };
