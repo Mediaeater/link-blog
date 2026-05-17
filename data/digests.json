@@ -606,6 +606,34 @@
       "weekEnd": "2026-05-03",
       "title": "Apr 10 - May 3, 2026",
       "writeup": "Biennale Arte 2026\n61st International Art Exhibition\nLa Biennale di Venezia"
+    },
+    {
+      "id": 14,
+      "timestamp": "2026-05-17T20:01:39.549Z",
+      "linkIds": [
+        1778157179336,
+        1778244245150,
+        1778271463891,
+        1778506207922,
+        1778532222207,
+        1778532272281,
+        1778711381012,
+        1778887005281,
+        1778895151401,
+        1778895239671,
+        1779047466165,
+        1779047495631,
+        1779047511032,
+        1779047555615,
+        1779047597082,
+        1779047620731
+      ],
+      "count": 16,
+      "filename": "digest-014-2026-05-17.html",
+      "weekStart": "2026-05-07",
+      "weekEnd": "2026-05-17",
+      "title": "May 7-17, 2026",
+      "writeup": "The current technological landscape centers on a structural tension between expanding artificial intelligence infrastructure and growing pushback against systemic digital surveillance. Operational integration of AI is accelerating through initiatives like Malta provisioning ChatGPT Plus for its citizens, MIT studying the cognitive impacts of large language models, Anthropic optimizing specialized legal workflows, Andon Labs testing AI-automated radio broadcasting, and industry shifts toward prompting standardization—all occurring alongside routine corporate outputs like Sony’s financial tracking and technical design system standardizations. Concurrently, data privacy boundaries are contracting as automotive tracking scales, Instagram removes end-to-end encryption from direct messages, and Canadian legislation moves to weaken message encryption. This dual trajectory of automated media production and tracking is driving both creative critiques of tech oversight and direct behavioral resistance, manifested institutionally by the UK government canceling Palantir data contracts and civically by individuals physically sabotaging Flock surveillance cameras."
     }
   ],
   "cadence": "weekly"
