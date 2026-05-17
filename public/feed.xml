@@ -4,10 +4,66 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 13 May 2026 22:29:41 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 20:39:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Americans Are Smashing Flock Cameras. The Surveillance State Has a Sabotage Problem. - State of Surveillance]]></title>
+            <link> https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/</link>
+            <guid>1779047620731</guid>
+            <pubDate>Sun, 17 May 2026 19:53:40 GMT</pubDate>
+            <description><![CDATA[Tags: flock, cameras, surveillance, backlash]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Canada is about to weaken every lock on your private messages — dontsurveil.me]]></title>
+            <link>https://opencivics-labs.github.io/dontsurveil.me/c22.html</link>
+            <guid>1779047597082</guid>
+            <pubDate>Sun, 17 May 2026 19:53:17 GMT</pubDate>
+            <description><![CDATA[Tags: surveillance, application, canada]]></description>
+        </item>
+        <item>
+            <title><![CDATA[We let four AIs run radio stations. Here’s what happened. | Andon Labs]]></title>
+            <link>https://andonlabs.com/blog/andon-fm</link>
+            <guid>1779047555615</guid>
+            <pubDate>Sun, 17 May 2026 19:52:35 GMT</pubDate>
+            <description><![CDATA[Tags: radio, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Acme — Design System Reference]]></title>
+            <link>https://thariqs.github.io/html-effectiveness/05-design-system.html</link>
+            <guid>1779047511032</guid>
+            <pubDate>Sun, 17 May 2026 19:51:51 GMT</pubDate>
+            <description><![CDATA[Tags: design, reference, generated]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OpenAI and Malta partner to bring ChatGPT Plus to all citizens]]></title>
+            <link>https://openai.com/index/malta-chatgpt-plus-partnership/</link>
+            <guid>1779047495631</guid>
+            <pubDate>Sun, 17 May 2026 19:51:35 GMT</pubDate>
+            <description><![CDATA[Tags: openai, malta, chatgpt, anthropology, experiment]]></description>
+        </item>
+        <item>
+            <title><![CDATA[F.03 Livestream - Day 3]]></title>
+            <link>https://www.youtube.com/live/luU57hMhkak</link>
+            <guid>1778895239671</guid>
+            <pubDate>Sat, 16 May 2026 01:33:59 GMT</pubDate>
+            <description><![CDATA[Tags: youtube, video, robots, labor]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows]]></title>
+            <link> https://github.com/anthropics/claude-for-legal</link>
+            <guid>1778895151401</guid>
+            <pubDate>Sat, 16 May 2026 01:32:31 GMT</pubDate>
+            <description><![CDATA[Tags: ai, legal, claude, anthropic]]></description>
+        </item>
+        <item>
+            <title><![CDATA[UK saves ‘millions’ of pounds by ditching Palantir for refugee system]]></title>
+            <link> https://www.bbc.com/news/articles/c2l2j1lxdk5o</link>
+            <guid>1778887005281</guid>
+            <pubDate>Fri, 15 May 2026 23:16:45 GMT</pubDate>
+            <description><![CDATA[Tags: palantir, surveillance, ai, ethics]]></description>
+        </item>
         <item>
             <title><![CDATA[Trillions of miles of data: Your car is spying on you, and it's only just the beginning]]></title>
             <link>https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse</link>

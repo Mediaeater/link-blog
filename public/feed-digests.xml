@@ -4,11 +4,101 @@
         <title>newsfeeds.net - Weekly Digests</title>
         <link>https://newsfeeds.net</link>
         <description>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</description>
-        <lastBuildDate>Sun, 03 May 2026 13:45:17 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 May 2026 20:01:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <atom:link href="https://newsfeeds.net/feed-digests.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[May 7-17, 2026]]></title>
+            <link>https://newsfeeds.net/digests/digest-014-2026-05-17.html</link>
+            <guid>https://newsfeeds.net/digests/digest-014-2026-05-17.html</guid>
+            <pubDate>Sun, 17 May 2026 20:01:39 GMT</pubDate>
+            <description><![CDATA[15 curated links]]></description>
+            <content:encoded><![CDATA[<blockquote><p>The current technological landscape centers on a structural tension between expanding artificial intelligence infrastructure and growing pushback against systemic digital surveillance. Operational integration of AI is accelerating through initiatives like Malta provisioning ChatGPT Plus for its citizens, MIT studying the cognitive impacts of large language models, Anthropic optimizing specialized legal workflows, Andon Labs testing AI-automated radio broadcasting, and industry shifts toward prompting standardization—all occurring alongside routine corporate outputs like Sony’s financial tracking and technical design system standardizations. Concurrently, data privacy boundaries are contracting as automotive tracking scales, Instagram removes end-to-end encryption from direct messages, and Canadian legislation moves to weaken message encryption. This dual trajectory of automated media production and tracking is driving both creative critiques of tech oversight and direct behavioral resistance, manifested institutionally by the UK government canceling Palantir data contracts and civically by individuals physically sabotaging Flock surveillance cameras.</p></blockquote><!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net - May 7-17, 2026</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">May 7-17, 2026 &middot; 15 links</p>
+  </header>
+
+<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;"><p style="margin: 0 0 12px 0;">The current technological landscape centers on a structural tension between expanding artificial intelligence infrastructure and growing pushback against systemic digital surveillance. Operational integration of AI is accelerating through initiatives like Malta provisioning ChatGPT Plus for its citizens, MIT studying the cognitive impacts of large language models, Anthropic optimizing specialized legal workflows, Andon Labs testing AI-automated radio broadcasting, and industry shifts toward prompting standardization—all occurring alongside routine corporate outputs like Sony’s financial tracking and technical design system standardizations. Concurrently, data privacy boundaries are contracting as automotive tracking scales, Instagram removes end-to-end encryption from direct messages, and Canadian legislation moves to weaken message encryption. This dual trajectory of automated media production and tracking is driving both creative critiques of tech oversight and direct behavioral resistance, manifested institutionally by the UK government canceling Palantir data contracts and civically by individuals physically sabotaging Flock surveillance cameras.</p></div>
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://tercek.substack.com/p/ai-wont-kill-hollywood" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">AI Won’t Kill Hollywood</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">tercek.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">45 million people in the United States now identify as professional content creators. Globally, that figure exceeds 200 million. The fastest-growing segment within that number is not Gen Z influencers: it is executives and founders, what analysts are calling the creator middle class: professionals who have adopted content creation as a core part of how they build businesses and reputations.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The commercial incentive driving this is concrete. 77% of B2B buyers say they are more likely to purchase from a company whose executives are active on social media. The creator who currently makes authoritative business content on LinkedIn will soon begin to make authoritative short-form dramas on the same platform, with the same production values, at a cost that makes the current studio infrastructure look like an expensive anachronism.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Sony Earnings Deck</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">sony.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Now I would like to turn to the topic of AI. • When we think about further growth at Sony Group, AI is one of the most important themes for us to consider. • Specifically, the potential it holds for us across the Sony Group businesses to unlock new value creation and capture new opportunities for growth across our entertainment businesses. • Let me start by stating a core principle that guides our thinking about AI: Human creativity must remain at the center. • AI is a powerful tool — but it is not a replacement for artists or creators. • It is an amplifier of human imagination and a catalyst for new possibilities.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.macrumors.com/2026/05/08/instagram-end-to-end-encryption/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Warning: Instagram DMs Lose End-to-End Encryption Starting Today</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">macrumors.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">End-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Project Overview ‹ Your Brain on ChatGPT – MIT Media Lab</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">media.mit.edu</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">As the educational impact of LLM use only begins to settle with the general population, in this study we demonstrate the pressing matter of exploring a possible decrease in learning skills based on the preliminary results of our study. The use of LLM had a measurable impact on our participants, and while the benefits were initially apparent, as we demonstrated over the course of 4 sessions, which took place over 4 months, the LLM group&#39;s participants performed worse than their counterparts in the Brain-only group at all levels: neural, linguistic, scoring.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">We hope this study serves as a preliminary guide to encourage better understanding of the cognitive and practical impacts of AI on learning environments.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.guggenheim.org/event/trevor-paglen-the-lizard-people-are-here/2026-05-18?utm_medium=Email&amp;utm_source=SFMC&amp;utm_campaign=PP_LGProgramDedicated_050826" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Trevor Paglen: The Lizard People are Here!</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">guggenheim.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">This performance-lecture invites audiences to consider whether we are entering a new era of invisible architectures and algorithmic systems shaping perception, knowledge, and power. In the program, 2026 LG Guggenheim Award recipient, artist, and author Trevor Paglen traces a dense network of ideas spanning philosophy, belief, deception, and speculation.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Bringing together psyops, artificial intelligence, magic, mind control, UFOs, the secret of the Ark of the Covenant, and the figure of a new demiurge, Paglen examines historical precedents for the manipulation of human perception and cognition at a moment when artificial intelligence is becoming increasingly pervasive.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Prompting best practices</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">platform.claude.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Prompting best practices</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Copy page</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Comprehensive guide to prompt engineering techniques for Claude&#39;s latest models, covering clarity, examples, XML structuring, thinking, and agentic systems. This is the single reference for prompt engineering with Claude&#39;s latest models, including Claude Opus 4.7, Claude Opus 4.6, Claude Sonnet 4.6, and Claude Haiku 4.5. It covers foundational techniques, output control, tool use, thinking, and agentic systems. Jump to the section that matches your situation.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Trillions of miles of data: Your car is spying on you, and it&#39;s only just the beginning</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bbc.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">This is a privacy problem that can cost you money. Among the biggest customers for car data are insurance companies, and they&#39;re using it to charge some people higher prices. But there&#39;s no telling where your information is going. Some car companies admit they sell your data, but they don&#39;t have to say who&#39;s buying. That&#39;s to say nothing of the fact that you might find it a little creepy. Most consumers, experts say, have no idea it&#39;s even happening.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href=" https://www.bbc.com/news/articles/c2l2j1lxdk5o" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">UK saves ‘millions’ of pounds by ditching Palantir for refugee system</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bbc.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Millions of pounds have been saved by replacing a Palantir IT system which helps to find homes for Ukrainian refugees with one built by its own experts, a government department has said.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The Homes for Ukraine scheme matched people fleeing the conflict with offers of accommodation - a complex task Palantir initially supported for free but which grew to cost millions.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href=" https://github.com/anthropics/claude-for-legal" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">github.com</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/live/luU57hMhkak" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">F.03 Livestream - Day 3</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Robot at work</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://openai.com/index/malta-chatgpt-plus-partnership/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">OpenAI and Malta partner to bring ChatGPT Plus to all citizens</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">openai.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Malta’s AI for All initiative⁠(opens in a new window) will offer people of all backgrounds the opportunity to learn how AI can be used responsibly through a course developed by the University of Malta. The course is designed to help people understand what AI is, what it can and can’t do, and how to use it responsibly at home and work. After the course is completed, citizens can access ChatGPT Plus for one year at no cost to them.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The first phase of the programme will launch in May, with the Malta Digital Innovation Authority managing distribution to eligible participants. The programme will scale as more Maltese residents and citizens abroad complete the course.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://thariqs.github.io/html-effectiveness/05-design-system.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Acme — Design System Reference</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">thariqs.github.io</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Acme design system Generated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://andonlabs.com/blog/andon-fm" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">We let four AIs run radio stations. Here’s what happened. | Andon Labs</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">andonlabs.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">There’s a handmade, retro-looking radio sitting in our office that plays only four pre-programmed stations, none of which are run by humans. This is our latest project at Andon Labs, where we’re exploring what happens when AI runs real businesses autonomously. In the past, we’ve let our AI agents run a store, a cafe, and various vending machines. Now, though, we wanted to see if they could run a company in the media sector.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://opencivics-labs.github.io/dontsurveil.me/c22.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Canada is about to weaken every lock on your private messages — dontsurveil.me</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">opencivics-labs.github.io</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Every messaging app in Canada would be required to build a second key. With Bill C-22, the government would hold the copy. The lock you trust would no longer be a lock only you can open. It would be a lock the locksmith was ordered to duplicate.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href=" https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Americans Are Smashing Flock Cameras. The Surveillance State Has a Sabotage Problem. - State of Surveillance</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">stateofsurveillance.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">TL;DR: People across the United States are cutting down, smashing, and dismantling Flock Safety surveillance cameras. At least 25 cameras have been destroyed in five states since April 2025. One Virginia man faces 25 criminal charges for systematically destroying 13 cameras—he says he did it for the Fourth Amendment. The destruction comes as public anger builds over Flock’s documented ICE connections. Cities are hiding camera locations. Reddit threads show near-universal support. This is what happens when a $7.5 billion surveillance company ignores public opposition.</p>
+</div>
+  </main>
+
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Apr 10 - May 3, 2026]]></title>
             <link>https://newsfeeds.net/digests/digest-013-2026-05-03.html</link>

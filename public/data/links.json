@@ -73,21 +73,6 @@
       "visits": 0
     },
     {
-      "id": 1779047466165,
-      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
-      "source": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "pullQuote": "Malta’s AI for All initiative⁠(opens in a new window) will offer people of all backgrounds the opportunity to learn how AI can be used responsibly through a course developed by the University of Malta. The course is designed to help people understand what AI is, what it can and can’t do, and how to use it responsibly at home and work. After the course is completed, citizens can access ChatGPT Plus for one year at no cost to them. \n\nThe first phase of the programme will launch in May, with the Malta Digital Innovation Authority managing distribution to eligible participants. The programme will scale as more Maltese residents and citizens abroad complete the course.",
-      "tags": [
-        "openai",
-        "malta",
-        "chatgpt",
-        "anthropology"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-05-17T19:51:06.165Z",
-      "visits": 0
-    },
-    {
       "id": 1778895239671,
       "url": "https://www.youtube.com/live/luU57hMhkak",
       "source": "F.03 Livestream - Day 3",
@@ -6895,5 +6880,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-17T20:00:24.920Z"
+  "lastUpdated": "2026-05-17T20:39:50.331Z"
 }
