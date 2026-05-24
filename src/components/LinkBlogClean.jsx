@@ -65,6 +65,13 @@ export default function LinkBlogClean() {
 
   // Load links from storage
   const loadLinks = useCallback(async () => {
+    // Self-contained single-file build: links are inlined on the page,
+    // so skip the network fetch entirely (it would fail under file://).
+    if (typeof window !== 'undefined' && window.__LINKS_DATA__) {
+      setLinks(window.__LINKS_DATA__.links || []);
+      return;
+    }
+
     // Helper to safely access localStorage (may be blocked by privacy settings)
     const safeLocalStorage = {
       getItem: (key) => {
@@ -204,6 +211,12 @@ export default function LinkBlogClean() {
   const API_BASE = import.meta.env.DEV ? 'http://127.0.0.1:3001' : '';
 
   const loadDigests = useCallback(async () => {
+    // Self-contained single-file build: digests are inlined on the page.
+    if (typeof window !== 'undefined' && window.__DIGESTS_DATA__) {
+      setDigestsData(window.__DIGESTS_DATA__);
+      return;
+    }
+
     try {
       const response = import.meta.env.DEV
         ? await fetch(`${API_BASE}/api/digests`)
