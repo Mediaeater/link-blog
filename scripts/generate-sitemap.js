@@ -19,6 +19,7 @@ const __dirname = path.dirname(__filename);
 const CONFIG = {
   baseUrl: process.env.SITE_URL || 'https://newsfeeds.net',
   linksDataPath: path.join(__dirname, '../data/links.json'),
+  digestsDataPath: path.join(__dirname, '../data/digests.json'),
   outputPath: path.join(__dirname, '../public/sitemap.xml'),
   maxUrls: 50000, // XML Sitemap limit
 };
@@ -84,17 +85,18 @@ function sanitizeUrl(url) {
 }
 
 /**
- * Generate URL entry for sitemap
- * For SPAs, use URL fragments to create unique entries
+ * Generate a <url> entry for a real, crawlable URL.
+ *
+ * NOTE: Earlier versions emitted one fragment URL per link
+ * (https://newsfeeds.net#link-N). Google rejects fragment URLs in
+ * sitemaps — to crawlers they all resolve to the same page, so the
+ * whole sitemap registered as 1 URL or was flagged invalid. This
+ * SPA has exactly one HTML route (the homepage) plus N digest pages,
+ * so that's what the sitemap now lists.
  */
-function generateUrlEntry(baseUrl, link, linkId) {
-  const url = `${baseUrl}#link-${linkId}`;
-  const lastMod = formatLastMod(link.timestamp);
-  const priority = calculatePriority(link.visits || 0, link.timestamp);
-  const changeFreq = getChangeFrequency(link.visits || 0);
-
+function urlEntry({ loc, lastMod, changeFreq, priority }) {
   return `  <url>
-    <loc>${sanitizeUrl(url)}</loc>
+    <loc>${sanitizeUrl(loc)}</loc>
     <lastmod>${lastMod}</lastmod>
     <changefreq>${changeFreq}</changefreq>
     <priority>${priority}</priority>
@@ -162,26 +164,46 @@ function generateSitemap() {
       console.warn('Warning: No links found in data file');
     }
 
-    // Sort links by timestamp (newest first)
-    const sortedLinks = links
-      .sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))
-      .slice(0, CONFIG.maxUrls);
+    // Load digests (each one is a real /digests/<filename>.html page)
+    let digests = [];
+    try {
+      const rawDigests = fs.readFileSync(CONFIG.digestsDataPath, 'utf8');
+      const parsed = JSON.parse(rawDigests);
+      digests = (Array.isArray(parsed) ? parsed : parsed.digests || [])
+        .filter(d => d && d.filename);
+    } catch {
+      console.warn('Warning: digests.json not found or unreadable — sitemap will only contain homepage');
+    }
+
+    // Homepage lastmod = newest link timestamp (the page genuinely
+    // changed when the most recent link was added)
+    const sortedLinks = links.sort(
+      (a, b) => new Date(b.timestamp) - new Date(a.timestamp)
+    );
+    const homeLastMod = sortedLinks.length > 0
+      ? formatLastMod(sortedLinks[0].timestamp)
+      : formatLastMod(new Date().toISOString());
 
     // Start XML document
     const xmlEntries = ['<?xml version="1.0" encoding="UTF-8"?>'];
     xmlEntries.push('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
 
-    // Add main index entry
-    xmlEntries.push(`  <url>
-    <loc>${sanitizeUrl(CONFIG.baseUrl)}</loc>
-    <lastmod>${formatLastMod(new Date().toISOString())}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>`);
+    // Homepage
+    xmlEntries.push(urlEntry({
+      loc: `${CONFIG.baseUrl}/`,
+      lastMod: homeLastMod,
+      changeFreq: 'daily',
+      priority: '1.0',
+    }));
 
-    // Add link entries with index-based IDs
-    sortedLinks.forEach((link, index) => {
-      xmlEntries.push(generateUrlEntry(CONFIG.baseUrl, link, index + 1));
+    // One entry per digest page (real URLs, not fragments)
+    digests.forEach(d => {
+      xmlEntries.push(urlEntry({
+        loc: `${CONFIG.baseUrl}/digests/${d.filename}`,
+        lastMod: formatLastMod(d.timestamp),
+        changeFreq: 'monthly', // digests don't change once published
+        priority: '0.8',
+      }));
     });
 
     // Close XML document
@@ -203,7 +225,7 @@ function generateSitemap() {
     console.log('✓ Sitemap generated successfully');
     console.log(`  Location: ${CONFIG.outputPath}`);
     console.log(`  Base URL: ${CONFIG.baseUrl}`);
-    console.log(`  Total URLs: ${sortedLinks.length + 1}`);
+    console.log(`  Total URLs: ${1 + digests.length} (1 homepage + ${digests.length} digests)`);
     console.log(`  File size: ${fileSize} KB`);
     console.log(`  Timestamp: ${new Date().toISOString()}`);
 
