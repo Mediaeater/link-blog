@@ -1,6 +1,92 @@
 {
   "links": [
     {
+      "id": 1779619150042,
+      "url": "https://michaeljctaylorphd.substack.com/p/part-of-the-solution-or-part-of-the",
+      "source": "Part of the Solution or Part of the Problem",
+      "pullQuote": "Americans are often influenced by their chosen media to expect and depend on binary choices, reducing perceptions to simple black-and-white options. Instead of accepting life’s nuances, they favor straightforward decisions, complicating rational political understanding. This approach also causes them to see opposing views as wholly evil, fueling strong opposition to rivals’ proposals. Ultimately, this leads to a deeply divided society, enabling a minority to seize power for their benefit. Therefore, one should be cautious of binary choices from the start.Americans are often influenced by their chosen media to expect and depend on binary choices, reducing perceptions to simple black-and-white options. Instead of accepting life’s nuances, they favor straightforward decisions, complicating rational political understanding. This approach also causes them to see opposing views as wholly evil, fueling strong opposition to rivals’ proposals. Ultimately, this leads to a deeply divided society, enabling a minority to seize power for their benefit. Therefore, one should be cautious of binary choices from the start.",
+      "tags": [
+        "politics",
+        "binary",
+        "problem-solution",
+        "mindset"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T10:39:10.042Z",
+      "visits": 0
+    },
+    {
+      "id": 1779619012193,
+      "url": "https://www.sleek-mag.com/article/the-internet-after-failed-utopias/",
+      "source": "The Internet After Failed Utopias The Internet After Failed Utopias",
+      "pullQuote": "Vuk Ćosić looks back at the promises that once surrounded the internet and their afterlives. In conversation with Anika Meier for SLEEK, he speaks about nettime, browser art, artistic resistance, and the institutionalization of internet culture. He also reflects on the moment the community he believed in became, in his words, “an audience and a springboard for careers.” Looking at today’s debates around AI and crypto, he sees echoes of the promises that once surrounded the early internet. “We believed in some of the utopias because we wanted them to happen,” he says. “But we were also among the first to criticize them.”",
+      "tags": [
+        "internet",
+        "art",
+        "utopias"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T10:36:52.193Z",
+      "visits": 0
+    },
+    {
+      "id": 1779618838041,
+      "url": "https://thariqs.github.io/html-effectiveness/05-design-system.html",
+      "source": "Acme — Design System Reference",
+      "pullQuote": "Acme design system\nGenerated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.",
+      "tags": [
+        "design",
+        "reference"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T10:33:58.041Z",
+      "visits": 0
+    },
+    {
+      "id": 1779618731226,
+      "url": "https://gist.github.com/aparente/e48c353755958621b3c0004593105a90",
+      "source": "tufte-viz Claude Code skill ",
+      "pullQuote": "— Edward Tufte data visualization principles",
+      "tags": [
+        "skill",
+        "dataviz",
+        "data",
+        "data-visualization"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T10:32:11.226Z",
+      "visits": 0
+    },
+    {
+      "id": 1779618609877,
+      "url": "https://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/colorists",
+      "source": "The Colorist Archive",
+      "pullQuote": "A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.",
+      "tags": [
+        "color",
+        "design",
+        "archive",
+        "reference"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T10:30:09.877Z",
+      "visits": 0
+    },
+    {
+      "id": 1779450595742,
+      "url": "https://airesistlist.org/",
+      "source": "The AI Resist List",
+      "pullQuote": "Nothing about the current trajectory of AI development is inevitable. It was shaped by the thousands of subjective decisions of a tiny elite, and continues its march based on the active participation and tacit consent of people globally.\n\nInspired by Choose Democracy’s Resist List against authoritarianism, we organized the AI resistance movements we documented based on how they pressure different “Pillars of Support” that uphold and perpetuate the empires.\n\nOur list is not meant to be comprehensive. Rather we selected a sample of movements to show different approaches to resistance and to illustrate how anyone can help shape the future of AI development.",
+      "tags": [
+        "resist",
+        "ai",
+        "list"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-22T11:49:55.742Z",
+      "visits": 0
+    },
+    {
       "id": 1779047620731,
       "url": " https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/",
       "source": "Americans Are Smashing Flock Cameras. The Surveillance State Has a Sabotage Problem. - State of Surveillance",
@@ -6880,5 +6966,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-17T20:39:50.331Z"
+  "lastUpdated": "2026-05-24T10:39:10.061Z"
 }
