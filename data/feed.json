@@ -15,6 +15,116 @@
   ],
   "items": [
     {
+      "id": "1779619150042",
+      "url": "https://michaeljctaylorphd.substack.com/p/part-of-the-solution-or-part-of-the",
+      "title": "Part of the Solution or Part of the Problem",
+      "date_published": "2026-05-24T10:39:10.042Z",
+      "tags": [
+        "politics",
+        "binary",
+        "problem-solution",
+        "mindset"
+      ],
+      "content_text": "Americans are often influenced by their chosen media to expect and depend on binary choices, reducing perceptions to simple black-and-white options. Instead of accepting life’s nuances, they favor straightforward decisions, complicating rational political understanding. This approach also causes them to see opposing views as wholly evil, fueling strong opposition to rivals’ proposals. Ultimately, this leads to a deeply divided society, enabling a minority to seize power for their benefit. Therefore, one should be cautious of binary choices from the start.Americans are often influenced by their chosen media to expect and depend on binary choices, reducing perceptions to simple black-and-white options. Instead of accepting life’s nuances, they favor straightforward decisions, complicating rational political understanding. This approach also causes them to see opposing views as wholly evil, fueling strong opposition to rivals’ proposals. Ultimately, this leads to a deeply divided society, enabling a minority to seize power for their benefit. Therefore, one should be cautious of binary choices from the start.",
+      "summary": "Americans are often influenced by their chosen media to expect and depend on binary choices, reducing perceptions to simple black-and-white options. I...",
+      "content_html": "<blockquote>Americans are often influenced by their chosen media to expect and depend on binary choices, reducing perceptions to simple black-and-white options. Instead of accepting life’s nuances, they favor straightforward decisions, complicating rational political understanding. This approach also causes them to see opposing views as wholly evil, fueling strong opposition to rivals’ proposals. Ultimately, this leads to a deeply divided society, enabling a minority to seize power for their benefit. Therefore, one should be cautious of binary choices from the start.Americans are often influenced by their chosen media to expect and depend on binary choices, reducing perceptions to simple black-and-white options. Instead of accepting life’s nuances, they favor straightforward decisions, complicating rational political understanding. This approach also causes them to see opposing views as wholly evil, fueling strong opposition to rivals’ proposals. Ultimately, this leads to a deeply divided society, enabling a minority to seize power for their benefit. Therefore, one should be cautious of binary choices from the start.</blockquote>\n<p><strong>Tags:</strong> politics, binary, problem-solution, mindset</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779619012193",
+      "url": "https://www.sleek-mag.com/article/the-internet-after-failed-utopias/",
+      "title": "The Internet After Failed Utopias The Internet After Failed Utopias",
+      "date_published": "2026-05-24T10:36:52.193Z",
+      "tags": [
+        "internet",
+        "art",
+        "utopias"
+      ],
+      "content_text": "Vuk Ćosić looks back at the promises that once surrounded the internet and their afterlives. In conversation with Anika Meier for SLEEK, he speaks about nettime, browser art, artistic resistance, and the institutionalization of internet culture. He also reflects on the moment the community he believed in became, in his words, “an audience and a springboard for careers.” Looking at today’s debates around AI and crypto, he sees echoes of the promises that once surrounded the early internet. “We believed in some of the utopias because we wanted them to happen,” he says. “But we were also among the first to criticize them.”",
+      "summary": "Vuk Ćosić looks back at the promises that once surrounded the internet and their afterlives. In conversation with Anika Meier for SLEEK, he speaks abo...",
+      "content_html": "<blockquote>Vuk Ćosić looks back at the promises that once surrounded the internet and their afterlives. In conversation with Anika Meier for SLEEK, he speaks about nettime, browser art, artistic resistance, and the institutionalization of internet culture. He also reflects on the moment the community he believed in became, in his words, “an audience and a springboard for careers.” Looking at today’s debates around AI and crypto, he sees echoes of the promises that once surrounded the early internet. “We believed in some of the utopias because we wanted them to happen,” he says. “But we were also among the first to criticize them.”</blockquote>\n<p><strong>Tags:</strong> internet, art, utopias</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779618838041",
+      "url": "https://thariqs.github.io/html-effectiveness/05-design-system.html",
+      "title": "Acme — Design System Reference",
+      "date_published": "2026-05-24T10:33:58.041Z",
+      "tags": [
+        "design",
+        "reference"
+      ],
+      "content_text": "Acme design system\nGenerated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.",
+      "summary": "Acme design system\nGenerated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.",
+      "content_html": "<blockquote>Acme design system\nGenerated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.</blockquote>\n<p><strong>Tags:</strong> design, reference</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779618731226",
+      "url": "https://gist.github.com/aparente/e48c353755958621b3c0004593105a90",
+      "title": "tufte-viz Claude Code skill ",
+      "date_published": "2026-05-24T10:32:11.226Z",
+      "tags": [
+        "skill",
+        "dataviz",
+        "data",
+        "data-visualization"
+      ],
+      "content_text": "— Edward Tufte data visualization principles",
+      "summary": "— Edward Tufte data visualization principles",
+      "content_html": "<blockquote>— Edward Tufte data visualization principles</blockquote>\n<p><strong>Tags:</strong> skill, dataviz, data, data-visualization</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779618609877",
+      "url": "https://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/colorists",
+      "title": "The Colorist Archive",
+      "date_published": "2026-05-24T10:30:09.877Z",
+      "tags": [
+        "color",
+        "design",
+        "archive",
+        "reference"
+      ],
+      "content_text": "A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.",
+      "summary": "A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic ...",
+      "content_html": "<blockquote>A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.</blockquote>\n<p><strong>Tags:</strong> color, design, archive, reference</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779450595742",
+      "url": "https://airesistlist.org/",
+      "title": "The AI Resist List",
+      "date_published": "2026-05-22T11:49:55.742Z",
+      "tags": [
+        "resist",
+        "ai",
+        "list"
+      ],
+      "content_text": "Nothing about the current trajectory of AI development is inevitable. It was shaped by the thousands of subjective decisions of a tiny elite, and continues its march based on the active participation and tacit consent of people globally.\n\nInspired by Choose Democracy’s Resist List against authoritarianism, we organized the AI resistance movements we documented based on how they pressure different “Pillars of Support” that uphold and perpetuate the empires.\n\nOur list is not meant to be comprehensive. Rather we selected a sample of movements to show different approaches to resistance and to illustrate how anyone can help shape the future of AI development.",
+      "summary": "Nothing about the current trajectory of AI development is inevitable. It was shaped by the thousands of subjective decisions of a tiny elite, and cont...",
+      "content_html": "<blockquote>Nothing about the current trajectory of AI development is inevitable. It was shaped by the thousands of subjective decisions of a tiny elite, and continues its march based on the active participation and tacit consent of people globally.\n\nInspired by Choose Democracy’s Resist List against authoritarianism, we organized the AI resistance movements we documented based on how they pressure different “Pillars of Support” that uphold and perpetuate the empires.\n\nOur list is not meant to be comprehensive. Rather we selected a sample of movements to show different approaches to resistance and to illustrate how anyone can help shape the future of AI development.</blockquote>\n<p><strong>Tags:</strong> resist, ai, list</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1779047620731",
       "url": " https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/",
       "title": "Americans Are Smashing Flock Cameras. The Surveillance State Has a Sabotage Problem. - State of Surveillance",
