@@ -1,6 +1,73 @@
 {
   "links": [
     {
+      "id": 1779622801936,
+      "url": "https://www.harvarddesignmagazine.org/articles/ai-as-a-design-medium-rodenbeck/",
+      "source": "The Future Perfect",
+      "pullQuote": "If you treat AI as a tool, you ask: how do I get the right answer? If you treat it as a medium, you ask: what happens if I push this?\n\nThe difference is immediate. A prompt stops being an instruction that returns a correct (or not) answer and starts being a sketch—something provisional, something you can revise, distort, overwork. The point is not to nail it on the first try. You are trying to see what these models do under pressure.\n\nIn my class, the first principle is simple: Do not take what comes back from prompts at face value. Interrogate it. Iterate on it. Stay with it longer than feels efficient.\n\nOne of the clearest examples of this came from Roy Zhang, a student in the Master of Design Studies (MDes) program who graduated in 2025, who asked what sounds like a trivial question: what happens if you ask the same thing over and over again?\n\nHe took a single image from the collection at Harvard’s Houghton Library and asked ChatGPT to generate twenty keywords describing it. Then he did it again. And again. Twenty times using the same prompt. He compared the returned lists of keywords with each successive list and found something fascinating.\n\n",
+      "tags": [
+        "design",
+        "ai",
+        "archive-practice"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T11:40:01.936Z",
+      "visits": 0
+    },
+    {
+      "id": 1779622504405,
+      "url": "https://www.youtube.com/watch?v=6NVAzWEgTXo",
+      "source": "Shape of Dreams, starring Zendaya.",
+      "pullQuote": "Welcome to Zendaya’s Dream Lab - Film written and directed by Spike Jonze.",
+      "tags": [
+        "video",
+        "imagination",
+        "dreams",
+        "zendaya",
+        "spikejonze",
+        "dance"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T11:35:04.405Z",
+      "visits": 0
+    },
+    {
+      "id": 1779620385250,
+      "url": "https://www.documentcloud.org/documents/25051283-cmg-pitch-deck-on-voice-data-advertising-active-listening/",
+      "source": "CMG Pitch Deck on Voice-Data Advertising 'Active Listening'",
+      "pullQuote": ". Consumers leave a data trail based on their conversations and onlinebehavior2. A.I. collects and analyzes this behavioral and voice data from 470+sources3. Processing voice data with behavioral data identifies an audience who is“ready-to-buy”4. We take this data, and align it with your products and services, to build anaudience list in a defined 10-mile radius5. This audience list is uploaded into our ad platforms to target your digitaladvertising6. Once launched, the technology automatically analyzes your site trafficand customers to fuel audience targeting on an ongoing basis",
+      "tags": [
+        "ftc",
+        "media",
+        "cox-media",
+        "cmg-media",
+        "listening",
+        "active-listening",
+        "pitch-deck",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T10:59:45.250Z",
+      "visits": 0
+    },
+    {
+      "id": 1779620267715,
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived",
+      "source": "FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About",
+      "pullQuote": "The Federal Trade Commission will require Cox Media Group (CMG) and two smaller marketing firms to pay a total of $930,000 to settle allegations they deceived customers by falsely claiming to offer an AI-powered service that could target localized ads based on conversations captured from consumers’ smart devices and that consumers had opted into such targeting.",
+      "tags": [
+        "ftc",
+        "media",
+        "cox-media",
+        "active-listening",
+        "government",
+        "cmg-media"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-24T10:57:47.715Z",
+      "visits": 0
+    },
+    {
       "id": 1779619150042,
       "url": "https://michaeljctaylorphd.substack.com/p/part-of-the-solution-or-part-of-the",
       "source": "Part of the Solution or Part of the Problem",
@@ -6966,5 +7033,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-24T10:39:10.061Z"
+  "lastUpdated": "2026-05-24T11:40:01.964Z"
 }
