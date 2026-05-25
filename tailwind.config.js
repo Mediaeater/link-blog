@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: ['Fira Code', ...defaultTheme.fontFamily.mono],
+        mono: ['JetBrains Mono', ...defaultTheme.fontFamily.mono],
       },
       colors: {
         primary: '#1DA1F2',
