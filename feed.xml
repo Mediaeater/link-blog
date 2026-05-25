@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 24 May 2026 11:40:01 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 May 2026 10:37:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Wrong Side of the C's]]></title>
+            <link>https://ghuneim.us/blog/the-alteration-of-the-cs/</link>
+            <guid>1779704317351</guid>
+            <pubDate>Mon, 25 May 2026 10:18:37 GMT</pubDate>
+            <description><![CDATA[Tags: networks, binary, essay, alliteration]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Fully automatic censorship removal for language models]]></title>
+            <link>https://github.com/p-e-w/heretic</link>
+            <guid>1779704175481</guid>
+            <pubDate>Mon, 25 May 2026 10:16:15 GMT</pubDate>
+            <description><![CDATA[Tags: heretic, abliteration, jailbreak, code, llms, open-source]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Pope Leo’s ‘Magnifica humanitas’: AI must serve humanity not concentrate power - Vatican News]]></title>
+            <link>https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-encyclical-magnifica-humanitas-ai.html</link>
+            <guid>1779703648438</guid>
+            <pubDate>Mon, 25 May 2026 10:07:28 GMT</pubDate>
+            <description><![CDATA[Tags: pope, magnifica-humanitas, ai, ethics, religon]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AudioMass]]></title>
+            <link>https://audiomass.co/?multitrack=1</link>
+            <guid>1779676895175</guid>
+            <pubDate>Mon, 25 May 2026 02:41:35 GMT</pubDate>
+            <description><![CDATA[Tags: audiomass, free, web-based, audio]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Cybersecurity Will Swallow Digital Policy in the AI Age]]></title>
+            <link>https://www.techpolicy.press/cybersecurity-will-swallow-digital-policy-in-the-ai-age/</link>
+            <guid>1779660895853</guid>
+            <pubDate>Sun, 24 May 2026 22:14:55 GMT</pubDate>
+            <description><![CDATA[Tags: cybersecurity, policy, surveillance, rights, trends, language]]></description>
+        </item>
         <item>
             <title><![CDATA[The Future Perfect]]></title>
             <link>https://www.harvarddesignmagazine.org/articles/ai-as-a-design-medium-rodenbeck/</link>
@@ -66,7 +101,7 @@
         </item>
         <item>
             <title><![CDATA[The Colorist Archive]]></title>
-            <link>https://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/coloristshttps://meditationsincolor.com/colorists</link>
+            <link>https://meditationsincolor.com/colorists</link>
             <guid>1779618609877</guid>
             <pubDate>Sun, 24 May 2026 10:30:09 GMT</pubDate>
             <description><![CDATA[Tags: color, design, archive, reference]]></description>
@@ -112,6 +147,13 @@
             <guid>1779047495631</guid>
             <pubDate>Sun, 17 May 2026 19:51:35 GMT</pubDate>
             <description><![CDATA[Tags: openai, malta, chatgpt, anthropology, experiment]]></description>
+        </item>
+        <item>
+            <title><![CDATA[F.03 Livestream - Day 3]]></title>
+            <link>https://www.youtube.com/@figureai</link>
+            <guid>1778895239671</guid>
+            <pubDate>Sat, 16 May 2026 01:33:59 GMT</pubDate>
+            <description><![CDATA[Tags: youtube, video, robots, labor]]></description>
         </item>
         <item>
             <title><![CDATA[F.03 Livestream - Day 3]]></title>
