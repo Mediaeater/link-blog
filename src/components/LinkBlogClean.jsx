@@ -773,8 +773,12 @@ export default function LinkBlogClean() {
                   title="mediaeater.com"
                 >
                   <img
-                    src="https://mediaeater.com/Images/mediaeater.png"
+                    src="/mediaeater.png"
                     alt="mediaeater"
+                    width="32"
+                    height="32"
+                    loading="eager"
+                    decoding="async"
                     className="h-7 w-7 md:h-8 md:w-8 object-contain"
                   />
                 </a>
