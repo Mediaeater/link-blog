@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sun, 24 May 2026 11:46:27 GMT</dateCreated>
-    <dateModified>Sun, 24 May 2026 11:46:27 GMT</dateModified>
+    <dateCreated>Sun, 24 May 2026 21:01:00 GMT</dateCreated>
+    <dateModified>Sun, 24 May 2026 21:01:00 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -2366,7 +2366,7 @@ I’m not telling you to skip verification. But I am telling you to know what yo
 If you’d rather try some features while disabling others, keep browser.ml.enable set to true and toggle each feature individually." created="Fri, 24 Oct 2025 21:21:25 GMT" category="tutorial,ai,dark-ux,how-to" />
     </outline>
     <outline text="data" title="data">
-      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" />
+      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" visits="1" />
       <outline type="link" text="alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X" title="alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X" url="https://x.com/elvissun/status/2028483837496635809" htmlUrl="https://x.com/elvissun/status/2028483837496635809" description="lright here’s every practical security tip i have on agents:
 
 - move critical data to a USB stick, unplug when sleeping
@@ -2411,7 +2411,7 @@ The incident occurred within Mixpanel’s systems and involved limited analytics
 In this new workflow, our colleagues have to work at a higher level of abstraction: instead of deciding animation curves, they describe movement behaviors that the machine learning should respect. Similarly, our game designers aren’t able to decide exact movements for an agent. Instead, they provide goals and instructions that are then fulfilled by the agent based on how it was trained." created="Fri, 24 Oct 2025 11:40:24 GMT" category="ai,data-science,machine-learning" />
     </outline>
     <outline text="data-visualization" title="data-visualization">
-      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" />
+      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" visits="1" />
     </outline>
     <outline text="datacenters" title="datacenters">
       <outline type="link" text="AI Power Play, No Referees - YouTube" title="AI Power Play, No Referees - YouTube" url="https://www.youtube.com/watch?v=GVFs_V8l5-E" htmlUrl="https://www.youtube.com/watch?v=GVFs_V8l5-E" description="Leading AI nations are racing to preserve dominance while new contenders rise and others struggle to break dependence on foreign capabilities. 
@@ -2421,7 +2421,7 @@ As alliances reshape the balance of power, how is AI redefining the path to econ
 " created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
     </outline>
     <outline text="dataviz" title="dataviz">
-      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" />
+      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" visits="1" />
       <outline type="link" text="LLM Visualization" title="LLM Visualization" url="https://bbycroft.net/llm" htmlUrl="https://bbycroft.net/llm" created="Sun, 07 Sep 2025 00:05:43 GMT" category="llm,learning,visualization,dataviz" />
     </outline>
     <outline text="ddos" title="ddos">
@@ -3986,6 +3986,7 @@ Maja Malou Lyse (b. 1993, Denmark) is a multidisciplinary artist whose bold and 
 Her work situates itself within the very platforms that dominate our visual environment—television, magazines, tabloids, billboards, and social media. By appropriating and reconfiguring these familiar spaces, she performs incisive interventions that unravel the symbiotic relationship between art and media reality. In doing so, she exposes the spectacle that defines contemporary culture: one that seduces as much as it subjugates, embedding itself deep within our collective consciousness." created="Sun, 03 May 2026 01:24:14 GMT" category="artist,majamaloulyse,venice,2026,labiennale" />
     </outline>
     <outline text="labor" title="labor">
+      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
     </outline>
     <outline text="lamp" title="lamp">
@@ -5864,6 +5865,7 @@ Animals and fungi, the two multicellular respiratory (in this context, as oppose
       <outline type="link" text="Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app" title="Legal experts condemn Apple bowing to White House’s request to remove ICE tracking app" url="https://text.npr.org/nx-s1-5561999" htmlUrl="https://text.npr.org/nx-s1-5561999" description="Since the app never had an Android version, it was not on Google&apos;s Play Store. Still, a company spokesperson told NPR that it, too, &quot;removed similar apps for violations of our policies,&quot; falling in line with Apple&apos;s actions." created="Mon, 06 Oct 2025 20:36:31 GMT" category="distribution,censorship,1A,rights" />
     </outline>
     <outline text="robots" title="robots">
+      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="Introducing DoorDash Tasks" title="Introducing DoorDash Tasks" url="https://about.doordash.com/en-us/news/introducing-doordash-tasks" htmlUrl="https://about.doordash.com/en-us/news/introducing-doordash-tasks" description="DoorDash&apos;s new app pays delivery drivers to strap on body cameras and film themselves doing household chores to train AI robots... 
 
@@ -6126,7 +6128,7 @@ Angelidakis is representing Greece at this year’s Venice Biennale, which opens
       <outline type="link" text="Size of Life" title="Size of Life" url="https://neal.fun/size-of-life/" htmlUrl="https://neal.fun/size-of-life/" created="Wed, 10 Dec 2025 17:29:15 GMT" category="size,life,scale" />
     </outline>
     <outline text="skill" title="skill">
-      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" />
+      <outline type="link" text="tufte-viz Claude Code skill " title="tufte-viz Claude Code skill " url="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" htmlUrl="https://gist.github.com/aparente/e48c353755958621b3c0004593105a90" description="— Edward Tufte data visualization principles" created="Sun, 24 May 2026 10:32:11 GMT" category="skill,dataviz,data,data-visualization" visits="1" />
     </outline>
     <outline text="skills" title="skills">
       <outline type="link" text="How to create custom Skills | Claude Help Center" title="How to create custom Skills | Claude Help Center" url="https://support.claude.com/en/articles/12512198-how-to-create-custom-skills" htmlUrl="https://support.claude.com/en/articles/12512198-how-to-create-custom-skills" description="Custom Skills let you enhance Claude with specialized knowledge and workflows specific to your organization or personal work style. This article explains how to create, structure, and test your own Skills.
@@ -6976,6 +6978,7 @@ I’m not telling you to skip verification. But I am telling you to know what yo
     </outline>
     <outline text="video" title="video">
       <outline type="link" text="Shape of Dreams, starring Zendaya." title="Shape of Dreams, starring Zendaya." url="https://www.youtube.com/watch?v=6NVAzWEgTXo" htmlUrl="https://www.youtube.com/watch?v=6NVAzWEgTXo" description="Welcome to Zendaya’s Dream Lab - Film written and directed by Spike Jonze." created="Sun, 24 May 2026 11:35:04 GMT" category="video,imagination,dreams,zendaya,spikejonze,dance" />
+      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="BLKNWS: TERMS &amp; CONDITIONS | TRACK 01. THE ENCYCLOPEDIA" title="BLKNWS: TERMS &amp; CONDITIONS | TRACK 01. THE ENCYCLOPEDIA" url="https://www.youtube.com/watch?v=d2Zrj6DL8aw" htmlUrl="https://www.youtube.com/watch?v=d2Zrj6DL8aw" description="Kahlil Joseph’s debut feature film, BLKNWS: Terms &amp; Conditions. 
 " created="Sun, 19 Apr 2026 12:39:45 GMT" category="video,music,culture,art" visits="1" />
@@ -7267,6 +7270,7 @@ We are excited to introduce Grok 4.1, which brings significant improvements to t
       <outline type="link" text="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" title="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" url="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" htmlUrl="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" description="d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations" created="Sat, 22 Nov 2025 23:46:37 GMT" category="Smartphones,technology,mentalhealth,mind,health,wellbeing,childhood,youth,development" />
     </outline>
     <outline text="youtube" title="youtube">
+      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text=" I. The Architecture of “We the People”  National Gallery of Art" title=" I. The Architecture of “We the People”  National Gallery of Art" url="https://www.youtube.com/watch?v=NQ15amJm2PI" htmlUrl="https://www.youtube.com/watch?v=NQ15amJm2PI" description="This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.
 
