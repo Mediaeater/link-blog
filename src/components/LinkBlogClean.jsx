@@ -43,7 +43,7 @@ export default function LinkBlogClean() {
   const [focusedLinkIndex] = useState(-1);
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [currentTagInput, setCurrentTagInput] = useState('');
-  const [autocompleteIndex, setAutocompleteIndex] = useState(0);
+  const [autocompleteIndex, setAutocompleteIndex] = useState(-1);
   const [isLegendExpanded, setIsLegendExpanded] = useState(false);
   const [isMinimalView, setIsMinimalView] = useState(false);
   const [searchExpanded, setSearchExpanded] = useState(false);
@@ -1127,13 +1127,13 @@ export default function LinkBlogClean() {
                         }
                         setCurrentTagInput('');
                         setShowAutocomplete(false);
-                        setAutocompleteIndex(0);
+                        setAutocompleteIndex(-1);
                         return;
                       }
 
                       setCurrentTagInput(value);
                       setShowAutocomplete(value.trim().length > 0);
-                      setAutocompleteIndex(0);
+                      setAutocompleteIndex(-1);
                     }}
                     onFocus={() => {
                       if (currentTagInput.trim().length > 0) {
@@ -1162,13 +1162,14 @@ export default function LinkBlogClean() {
                         return;
                       }
 
-                      // Tab - add first/selected suggestion or current input
+                      // Tab - always accept a suggestion (or fall back to literal input)
                       if (e.key === 'Tab' && currentTagInput.trim()) {
                         e.preventDefault();
                         let tagToAdd;
 
                         if (showAutocomplete && filteredAutocompleteTags.length > 0) {
-                          tagToAdd = filteredAutocompleteTags[autocompleteIndex]?.tag;
+                          const idx = autocompleteIndex >= 0 ? autocompleteIndex : 0;
+                          tagToAdd = filteredAutocompleteTags[idx]?.tag;
                         } else {
                           tagToAdd = currentTagInput.trim().toLowerCase();
                         }
@@ -1182,16 +1183,16 @@ export default function LinkBlogClean() {
                         }
                         setCurrentTagInput('');
                         setShowAutocomplete(false);
-                        setAutocompleteIndex(0);
+                        setAutocompleteIndex(-1);
                         return;
                       }
 
-                      // Enter - add current input or selected suggestion
+                      // Enter - create literal tag unless user explicitly arrowed into a suggestion
                       if (e.key === 'Enter') {
                         e.preventDefault();
                         let tagToAdd;
 
-                        if (showAutocomplete && filteredAutocompleteTags.length > 0) {
+                        if (showAutocomplete && autocompleteIndex >= 0 && filteredAutocompleteTags.length > 0) {
                           tagToAdd = filteredAutocompleteTags[autocompleteIndex]?.tag;
                         } else {
                           tagToAdd = currentTagInput.trim().toLowerCase();
@@ -1206,7 +1207,7 @@ export default function LinkBlogClean() {
                         }
                         setCurrentTagInput('');
                         setShowAutocomplete(false);
-                        setAutocompleteIndex(0);
+                        setAutocompleteIndex(-1);
                         return;
                       }
 
@@ -1257,7 +1258,7 @@ export default function LinkBlogClean() {
                             }
                             setCurrentTagInput('');
                             setShowAutocomplete(false);
-                            setAutocompleteIndex(0);
+                            setAutocompleteIndex(-1);
                             tagInputRef.current?.focus();
                           }}
                           className={`w-full text-left px-3 py-2 text-sm transition-colors flex items-center justify-between border-b border-gray-100 last:border-b-0 ${
