@@ -19,6 +19,7 @@ newsfeeds-standalone.html
 
 # Claude Code
 .claude/
+.strategic-claude-basic/
 plans/
 
 # Editor directories and files
@@ -82,4 +83,5 @@ Thumbs.db
 *.swp
 *.swo
 venv/
+.venv/
 *.backup-*
