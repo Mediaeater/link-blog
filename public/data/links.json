@@ -276,20 +276,6 @@
       "visits": 0
     },
     {
-      "id": 1779047511032,
-      "url": "https://thariqs.github.io/html-effectiveness/05-design-system.html",
-      "source": "Acme — Design System Reference",
-      "pullQuote": "Acme design system\nGenerated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.\n\n",
-      "tags": [
-        "design",
-        "reference",
-        "generated"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-05-17T19:51:51.032Z",
-      "visits": 0
-    },
-    {
       "id": 1779047495631,
       "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
       "source": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
@@ -7127,6 +7113,5 @@
       "visits": 0
     }
   ],
-  "version": "1.1.0",
-  "lastUpdated": "2026-05-25T10:37:00.376Z"
+  "lastUpdated": "2026-05-28T11:09:15.554Z"
 }
