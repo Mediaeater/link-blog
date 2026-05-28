@@ -4,10 +4,66 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 28 May 2026 11:09:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 May 2026 12:00:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Panmure Liberum  ]]></title>
+            <link>https://research.panmureliberum.com/view/FD91B03A-3DB8-4EF8-99B3-478C1AFC983A?uid=michael.finney@panmureliberum.com&amp;jobRef=1032205_20260512_150546</link>
+            <guid>1779969647696</guid>
+            <pubDate>Thu, 28 May 2026 12:00:47 GMT</pubDate>
+            <description><![CDATA[Tags: panmure, liberum, log, having, trouble, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What made the DoJ go after this particular prediction market insider?]]></title>
+            <link>https://www.ft.com/content/393182f4-26bf-437d-8e82-c9a4bd10ea65</link>
+            <guid>1779969521690</guid>
+            <pubDate>Thu, 28 May 2026 11:58:41 GMT</pubDate>
+            <description><![CDATA[Tags: doj, prediction, market, prediction-markets, betting, regulation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[I’m Getting Into Mesh Networks... (Meshtastic, MeshCore, and Reticulum)]]></title>
+            <link>https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/</link>
+            <guid>1779967673046</guid>
+            <pubDate>Thu, 28 May 2026 11:27:53 GMT</pubDate>
+            <description><![CDATA[Tags: mesh, networks, meshtastic, meshcore, mesh-networks, community, reticulum]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - microsoft/echo-rl]]></title>
+            <link>https://github.com/microsoft/echo-rl</link>
+            <guid>1779967513552</guid>
+            <pubDate>Thu, 28 May 2026 11:25:13 GMT</pubDate>
+            <description><![CDATA[Tags: github, microsoft, echo-rl, training]]></description>
+        </item>
+        <item>
+            <title><![CDATA[OpenClaw-RL: Train Any Agent Simply by Talking]]></title>
+            <link>https://arxiv.org/abs/2603.10165v1</link>
+            <guid>1779967428294</guid>
+            <pubDate>Thu, 28 May 2026 11:23:48 GMT</pubDate>
+            <description><![CDATA[Tags: openclaw-rl, agent, voice]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Epicure: Navigating the Emergent Geometry of Food Ingredient Embeddings]]></title>
+            <link>https://arxiv.org/html/2605.22391v1</link>
+            <guid>1779967316448</guid>
+            <pubDate>Thu, 28 May 2026 11:21:56 GMT</pubDate>
+            <description><![CDATA[Tags: epicure, geometry, food, recipes, diet, health]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Current Rothko]]></title>
+            <link>https://rothko.joonas.wtf/</link>
+            <guid>1779967111047</guid>
+            <pubDate>Thu, 28 May 2026 11:18:31 GMT</pubDate>
+            <description><![CDATA[Tags: rothko, art, weather, mashup, color]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Gemini, Gophers, and Fingers. Oh My! Alternative Internets Beyond HTTPS]]></title>
+            <link>https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/</link>
+            <guid>1779966985441</guid>
+            <pubDate>Thu, 28 May 2026 11:16:25 GMT</pubDate>
+            <description><![CDATA[Tags: brennan, smallweb, internet, protocol]]></description>
+        </item>
         <item>
             <title><![CDATA[The Wrong Side of the C's]]></title>
             <link>https://ghuneim.us/blog/the-alteration-of-the-cs/</link>

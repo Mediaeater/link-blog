@@ -15,6 +15,167 @@
   ],
   "items": [
     {
+      "id": "1779969647696",
+      "url": "https://research.panmureliberum.com/view/FD91B03A-3DB8-4EF8-99B3-478C1AFC983A?uid=michael.finney@panmureliberum.com&jobRef=1032205_20260512_150546",
+      "title": "Panmure Liberum  ",
+      "date_published": "2026-05-28T12:00:47.696Z",
+      "tags": [
+        "panmure",
+        "liberum",
+        "log",
+        "having",
+        "trouble",
+        "ai"
+      ],
+      "content_text": "Strategy What if... the AI boom goes into reverse?Strategy Economics & ESG·14 May 2026\n",
+      "summary": "Strategy What if... the AI boom goes into reverse?Strategy Economics & ESG·14 May 2026\n",
+      "content_html": "<blockquote>Strategy What if... the AI boom goes into reverse?Strategy Economics &amp; ESG·14 May 2026\n</blockquote>\n<p><strong>Tags:</strong> panmure, liberum, log, having, trouble, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779969521690",
+      "url": "https://www.ft.com/content/393182f4-26bf-437d-8e82-c9a4bd10ea65",
+      "title": "What made the DoJ go after this particular prediction market insider?",
+      "date_published": "2026-05-28T11:58:41.690Z",
+      "tags": [
+        "doj",
+        "prediction",
+        "market",
+        "prediction-markets",
+        "betting",
+        "regulation"
+      ],
+      "content_text": "One could plausibly argue that insider trading isn’t just a bug of prediction markets, it is an essential feature in what insiders insist is a mechanism for “truth”. And evidence of the Trump administration’s support for prediction markets is . . . manifold.\n\nEven the head of the American Gaming Association has called Michael Selig — the Trump-appointed head of the CFTC and the self-appointed prediction market regulator — “quite frankly, a joke” for his championing of the industry. Not that the president gets the joke.\n\nThis is why the latest investigation is an intriguing development. Yes, this is just a solitary Google employee allegedly up to shenanigans with a very narrow type of bet — on what will top Google search rankings — but perhaps it is a sign of things to come?\n",
+      "summary": "One could plausibly argue that insider trading isn’t just a bug of prediction markets, it is an essential feature in what insiders insist is a mechani...",
+      "content_html": "<blockquote>One could plausibly argue that insider trading isn’t just a bug of prediction markets, it is an essential feature in what insiders insist is a mechanism for “truth”. And evidence of the Trump administration’s support for prediction markets is . . . manifold.\n\nEven the head of the American Gaming Association has called Michael Selig — the Trump-appointed head of the CFTC and the self-appointed prediction market regulator — “quite frankly, a joke” for his championing of the industry. Not that the president gets the joke.\n\nThis is why the latest investigation is an intriguing development. Yes, this is just a solitary Google employee allegedly up to shenanigans with a very narrow type of bet — on what will top Google search rankings — but perhaps it is a sign of things to come?\n</blockquote>\n<p><strong>Tags:</strong> doj, prediction, market, prediction-markets, betting, regulation</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779967673046",
+      "url": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
+      "title": "I’m Getting Into Mesh Networks... (Meshtastic, MeshCore, and Reticulum)",
+      "date_published": "2026-05-28T11:27:53.046Z",
+      "tags": [
+        "mesh",
+        "networks",
+        "meshtastic",
+        "meshcore",
+        "mesh-networks",
+        "community",
+        "reticulum"
+      ],
+      "content_text": "Interconnected Local Meshes\nDistinct local groups being able to interconnect is a huge boon for content availability on the network, and the beauty is that all these network links in Reticulum automatically become redundant as more connections are made.\nA local mesh in Minneapolis could interconnect with a local mesh in Chicago over the internet, for example, but perhaps in the future some dedicated network operators are also able to establish a direct connection via microwave or LoRa between those cities. Connections may normally continue to traverse the internet at higher speeds, but in the event of an outage those alternate/ad-hoc paths can take over seamlessly, because they're all just paths on the same, single Reticulum network.",
+      "summary": "Interconnected Local Meshes\nDistinct local groups being able to interconnect is a huge boon for content availability on the network, and the beauty is...",
+      "content_html": "<blockquote>Interconnected Local Meshes\nDistinct local groups being able to interconnect is a huge boon for content availability on the network, and the beauty is that all these network links in Reticulum automatically become redundant as more connections are made.\nA local mesh in Minneapolis could interconnect with a local mesh in Chicago over the internet, for example, but perhaps in the future some dedicated network operators are also able to establish a direct connection via microwave or LoRa between those cities. Connections may normally continue to traverse the internet at higher speeds, but in the event of an outage those alternate/ad-hoc paths can take over seamlessly, because they&#039;re all just paths on the same, single Reticulum network.</blockquote>\n<p><strong>Tags:</strong> mesh, networks, meshtastic, meshcore, mesh-networks, community, reticulum</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779967513552",
+      "url": "https://github.com/microsoft/echo-rl",
+      "title": "GitHub - microsoft/echo-rl",
+      "date_published": "2026-05-28T11:25:13.552Z",
+      "tags": [
+        "github",
+        "microsoft",
+        "echo-rl",
+        "training"
+      ],
+      "content_text": "ECHO is an environment cross-entropy hybrid objective, which trains terminal agents by combining policy-gradient RL with an on-policy cross-entropy loss for predicting environment tokens.\n\nECHO is implemented as an extension on top of SkyRL: SkyRL provides the core RL training stack, while this repo adds the terminal-agent integration, environment prediction loss, example configs, and a small SkyRL hook patch.\n",
+      "summary": "ECHO is an environment cross-entropy hybrid objective, which trains terminal agents by combining policy-gradient RL with an on-policy cross-entropy lo...",
+      "content_html": "<blockquote>ECHO is an environment cross-entropy hybrid objective, which trains terminal agents by combining policy-gradient RL with an on-policy cross-entropy loss for predicting environment tokens.\n\nECHO is implemented as an extension on top of SkyRL: SkyRL provides the core RL training stack, while this repo adds the terminal-agent integration, environment prediction loss, example configs, and a small SkyRL hook patch.\n</blockquote>\n<p><strong>Tags:</strong> github, microsoft, echo-rl, training</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779967428294",
+      "url": "https://arxiv.org/abs/2603.10165v1",
+      "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+      "date_published": "2026-05-28T11:23:48.294Z",
+      "tags": [
+        "openclaw-rl",
+        "agent",
+        "voice"
+      ],
+      "content_text": "Every agent interaction generates a next-state signal, namely the user reply, tool output, terminal or GUI state change that follows each action, yet no existing agentic RL system recovers it as a live, online learning source. We present OpenClaw-RL, a framework built on a simple observation: next-state signals are universal, and policy can learn from all of them simultaneously. Personal conversations, terminal executions, GUI interactions, SWE tasks, and tool-call traces are not separate training problems. They are all interactions that can be used to train the same policy in the same loop. Next-state signals encode two forms of information: evaluative signals, which indicate how well the action performed and are extracted as scalar rewards via a PRM judge; and directive signals, which indicate how the action should have been different and are recovered through Hindsight-Guided On-Policy Distillation (OPD). We extract textual hints from the next state, construct an enhanced teacher context, and provide token-level directional advantage supervision that is richer than any scalar reward. Due to the asynchronous design, the model serves live requests, the PRM judges ongoing interactions, and the trainer updates the policy at the same time, with zero coordination overhead between them. Applied to personal agents, OpenClaw-RL enables an agent to improve simply by being used, recovering conversational signals from user re-queries, corrections, and explicit feedback. Applied to general agents, the same infrastructure supports scalable RL across terminal, GUI, SWE, and tool-call settings, where we additionally demonstrate the utility of process rewards",
+      "summary": "Every agent interaction generates a next-state signal, namely the user reply, tool output, terminal or GUI state change that follows each action, yet ...",
+      "content_html": "<blockquote>Every agent interaction generates a next-state signal, namely the user reply, tool output, terminal or GUI state change that follows each action, yet no existing agentic RL system recovers it as a live, online learning source. We present OpenClaw-RL, a framework built on a simple observation: next-state signals are universal, and policy can learn from all of them simultaneously. Personal conversations, terminal executions, GUI interactions, SWE tasks, and tool-call traces are not separate training problems. They are all interactions that can be used to train the same policy in the same loop. Next-state signals encode two forms of information: evaluative signals, which indicate how well the action performed and are extracted as scalar rewards via a PRM judge; and directive signals, which indicate how the action should have been different and are recovered through Hindsight-Guided On-Policy Distillation (OPD). We extract textual hints from the next state, construct an enhanced teacher context, and provide token-level directional advantage supervision that is richer than any scalar reward. Due to the asynchronous design, the model serves live requests, the PRM judges ongoing interactions, and the trainer updates the policy at the same time, with zero coordination overhead between them. Applied to personal agents, OpenClaw-RL enables an agent to improve simply by being used, recovering conversational signals from user re-queries, corrections, and explicit feedback. Applied to general agents, the same infrastructure supports scalable RL across terminal, GUI, SWE, and tool-call settings, where we additionally demonstrate the utility of process rewards</blockquote>\n<p><strong>Tags:</strong> openclaw-rl, agent, voice</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779967316448",
+      "url": "https://arxiv.org/html/2605.22391v1",
+      "title": "Epicure: Navigating the Emergent Geometry of Food Ingredient Embeddings",
+      "date_published": "2026-05-28T11:21:56.448Z",
+      "tags": [
+        "epicure",
+        "geometry",
+        "food",
+        "recipes",
+        "diet",
+        "health"
+      ],
+      "content_text": "We aggregate 4.14M recipes from 11 sources spanning seven languages (English, Chinese, Russian, Vietnamese, Spanish, Turkish, Indonesian, German, and Indian-English) and normalise the raw ingredient strings to 1,790 canonical entries via an LLM-augmented pipeline. A 203,508-edge ingredient–ingredient NPMI graph and an 80,019-edge typed FlavorDB ingredient–compound graph (2,247 typed compound nodes across 15 categories) seed three Metapath2Vec variants that share architecture and hyperparameters and differ only in the random-walk schema: Cooc walks the co-occurrence graph only, Chem walks the typed compound metapaths only, and Core blends both via injected ingredient–ingredient walks at controlled mixing, placing each model at a distinct point on the chemistry-vs-recipe-context spectrum.\n",
+      "summary": "We aggregate 4.14M recipes from 11 sources spanning seven languages (English, Chinese, Russian, Vietnamese, Spanish, Turkish, Indonesian, German, and ...",
+      "content_html": "<blockquote>We aggregate 4.14M recipes from 11 sources spanning seven languages (English, Chinese, Russian, Vietnamese, Spanish, Turkish, Indonesian, German, and Indian-English) and normalise the raw ingredient strings to 1,790 canonical entries via an LLM-augmented pipeline. A 203,508-edge ingredient–ingredient NPMI graph and an 80,019-edge typed FlavorDB ingredient–compound graph (2,247 typed compound nodes across 15 categories) seed three Metapath2Vec variants that share architecture and hyperparameters and differ only in the random-walk schema: Cooc walks the co-occurrence graph only, Chem walks the typed compound metapaths only, and Core blends both via injected ingredient–ingredient walks at controlled mixing, placing each model at a distinct point on the chemistry-vs-recipe-context spectrum.\n</blockquote>\n<p><strong>Tags:</strong> epicure, geometry, food, recipes, diet, health</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779967111047",
+      "url": "https://rothko.joonas.wtf/",
+      "title": "Current Rothko",
+      "date_published": "2026-05-28T11:18:31.047Z",
+      "tags": [
+        "rothko",
+        "art",
+        "weather",
+        "mashup",
+        "color"
+      ],
+      "content_text": "Rothko mapped to your weather.",
+      "summary": "Rothko mapped to your weather.",
+      "content_html": "<blockquote>Rothko mapped to your weather.</blockquote>\n<p><strong>Tags:</strong> rothko, art, weather, mashup, color</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1779966985441",
+      "url": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
+      "title": "Gemini, Gophers, and Fingers. Oh My! Alternative Internets Beyond HTTPS",
+      "date_published": "2026-05-28T11:16:25.441Z",
+      "tags": [
+        "brennan",
+        "smallweb",
+        "internet",
+        "protocol"
+      ],
+      "content_text": "It doesn't need to be this way. https:// is not the only way to connect and interface with the Internet. Some that you may know are ftp:// for file transfers, mailto: for email composition, ssh:// for secure shell access, irc:// for Internet Relay Chat, or magnet: for peer-to-peer downloads. The majority of Internet browsers do not play nicely even with these protocols, handing them off to other applications.",
+      "summary": "It doesn't need to be this way. https:// is not the only way to connect and interface with the Internet. Some that you may know are ftp:// for file tr...",
+      "content_html": "<blockquote>It doesn&#039;t need to be this way. https:// is not the only way to connect and interface with the Internet. Some that you may know are ftp:// for file transfers, mailto: for email composition, ssh:// for secure shell access, irc:// for Internet Relay Chat, or magnet: for peer-to-peer downloads. The majority of Internet browsers do not play nicely even with these protocols, handing them off to other applications.</blockquote>\n<p><strong>Tags:</strong> brennan, smallweb, internet, protocol</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1779704317351",
       "url": "https://ghuneim.us/blog/the-alteration-of-the-cs/",
       "title": "The Wrong Side of the C's",
