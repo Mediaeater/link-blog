@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Mon, 25 May 2026 11:27:00 GMT</dateCreated>
-    <dateModified>Mon, 25 May 2026 11:27:00 GMT</dateModified>
+    <dateCreated>Thu, 28 May 2026 11:12:44 GMT</dateCreated>
+    <dateModified>Thu, 28 May 2026 11:12:44 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -2554,10 +2554,6 @@ He took a single image from the collection at Harvard’s Houghton Library and a
       <outline type="link" text="Acme — Design System Reference" title="Acme — Design System Reference" url="https://thariqs.github.io/html-effectiveness/05-design-system.html" htmlUrl="https://thariqs.github.io/html-effectiveness/05-design-system.html" description="Acme design system
 Generated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting." created="Sun, 24 May 2026 10:33:58 GMT" category="design,reference" />
       <outline type="link" text="The Colorist Archive" title="The Colorist Archive" url="https://meditationsincolor.com/colorists" htmlUrl="https://meditationsincolor.com/colorists" description="A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections." created="Sun, 24 May 2026 10:30:09 GMT" category="color,design,archive,reference" />
-      <outline type="link" text="Acme — Design System Reference" title="Acme — Design System Reference" url="https://thariqs.github.io/html-effectiveness/05-design-system.html" htmlUrl="https://thariqs.github.io/html-effectiveness/05-design-system.html" description="Acme design system
-Generated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.
-
-" created="Sun, 17 May 2026 19:51:51 GMT" category="design,reference,generated" />
       <outline type="link" text="NASA Artemis II Moon Mission (Scroll effect)" title="NASA Artemis II Moon Mission (Scroll effect)" url="https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/" htmlUrl="https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/" created="Sun, 19 Apr 2026 12:39:45 GMT" category="nasa,space,artemis,ui,ux,scroll,design" />
       <outline type="link" text="Nikos Papadopoulos - Portfolio" title="Nikos Papadopoulos - Portfolio" url="https://www.4rknova.com/index.html#section-blog-header" htmlUrl="https://www.4rknova.com/index.html#section-blog-header" created="Wed, 11 Feb 2026 20:30:29 GMT" category="blog,technology,design" />
     </outline>
@@ -3234,12 +3230,6 @@ Most low-risk use cases that follow the guiding principles below are unlikely to
     </outline>
     <outline text="gender" title="gender">
       <outline type="link" text="Almost a third of Gen Z men agree a wife should obey her husband | King’s College London" title="Almost a third of Gen Z men agree a wife should obey her husband | King’s College London" url="https://www.kcl.ac.uk/news/almost-a-third-of-gen-z-men-agree-a-wife-should-obey-her-husband" htmlUrl="https://www.kcl.ac.uk/news/almost-a-third-of-gen-z-men-agree-a-wife-should-obey-her-husband" description="&quot;This year’s survey shows us that we are witnessing perhaps a great re-negotiation of how both men and women inhabit gender roles in today’s society. Particularly among Gen Z, our data shows an interesting duality: they are both the group most likely to agree that women who have a successful career are more attractive to men but are simultaneously most likely to agree that a wife should always obey her husband and that a woman should never appear too self-sufficient or independent.  &lt;----" created="Thu, 05 Mar 2026 13:36:08 GMT" category="society,societal-norms,anthropology,gender,mentalhealth,woman,gen-z" />
-    </outline>
-    <outline text="generated" title="generated">
-      <outline type="link" text="Acme — Design System Reference" title="Acme — Design System Reference" url="https://thariqs.github.io/html-effectiveness/05-design-system.html" htmlUrl="https://thariqs.github.io/html-effectiveness/05-design-system.html" description="Acme design system
-Generated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.
-
-" created="Sun, 17 May 2026 19:51:51 GMT" category="design,reference,generated" />
     </outline>
     <outline text="generator" title="generator">
       <outline type="link" text="Lyria — Gemini AI music &amp; song generator" title="Lyria — Gemini AI music &amp; song generator" url="https://gemini.google/overview/music-generation/" htmlUrl="https://gemini.google/overview/music-generation/" description="Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack." created="Mon, 23 Feb 2026 14:26:29 GMT" category="lyria,gemini,music,song,generator,musicvideo,google" />
@@ -5830,10 +5820,6 @@ Part of October&apos;s “Art Communities at Risk” series, Josh Kline&apos;s e
       <outline type="link" text="Acme — Design System Reference" title="Acme — Design System Reference" url="https://thariqs.github.io/html-effectiveness/05-design-system.html" htmlUrl="https://thariqs.github.io/html-effectiveness/05-design-system.html" description="Acme design system
 Generated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting." created="Sun, 24 May 2026 10:33:58 GMT" category="design,reference" />
       <outline type="link" text="The Colorist Archive" title="The Colorist Archive" url="https://meditationsincolor.com/colorists" htmlUrl="https://meditationsincolor.com/colorists" description="A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections.A living archive of how artists work with color across time. Each artist profile scans publicly available works to trace dominant colors, a chromatic fingerprint, and the arc of a palette across a lifetime.256 Artists, 19,144 Works, 15 Collections." created="Sun, 24 May 2026 10:30:09 GMT" category="color,design,archive,reference" />
-      <outline type="link" text="Acme — Design System Reference" title="Acme — Design System Reference" url="https://thariqs.github.io/html-effectiveness/05-design-system.html" htmlUrl="https://thariqs.github.io/html-effectiveness/05-design-system.html" description="Acme design system
-Generated from src/styles/tokens.ts and src/components/ — use as a portable reference when prompting.
-
-" created="Sun, 17 May 2026 19:51:51 GMT" category="design,reference,generated" />
     </outline>
     <outline text="reggae" title="reggae">
       <outline type="link" text="Reggae legend Jimmy Cliff dies, aged 81" title="Reggae legend Jimmy Cliff dies, aged 81" url="https://www.bbc.com/news/articles/cj4qdren425o" htmlUrl="https://www.bbc.com/news/articles/cj4qdren425o" description="He recorded a handful of singles before topping the Jamaican charts with his own composition, Hurricane Hattie.
