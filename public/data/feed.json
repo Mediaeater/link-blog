@@ -15,6 +15,126 @@
   ],
   "items": [
     {
+      "id": "1780227921535",
+      "url": "https://av2.aomedia.org/",
+      "title": "AV2 Specification",
+      "date_published": "2026-05-31T11:45:21.535Z",
+      "tags": [
+        "av2",
+        "specification",
+        "next-generation",
+        "video",
+        "coding"
+      ],
+      "content_text": "AV2 is the next-generation video coding specification from the Alliance for Open Media (AOMedia). Building on the foundation of AV1, AV2 is engineered to provide superior compression efficiency, enabling high-quality video delivery at significantly lower bitrates. It is optimized for the evolving demands of streaming, broadcasting, and real-time video conferencing.\n\nThis specification serves as the definitive technical reference for AV2 implementations. It outlines the bitstream syntax, semantics, and decoding processes required to ensure full conformance.\n\nAV2 provides enhanced support for AR/VR applications, split-screen delivery of multiple programs, improved handling of screen content, and an ability to operate over a wider visual quality range.",
+      "summary": "AV2 is the next-generation video coding specification from the Alliance for Open Media (AOMedia). Building on the foundation of AV1, AV2 is engineered...",
+      "content_html": "<blockquote>AV2 is the next-generation video coding specification from the Alliance for Open Media (AOMedia). Building on the foundation of AV1, AV2 is engineered to provide superior compression efficiency, enabling high-quality video delivery at significantly lower bitrates. It is optimized for the evolving demands of streaming, broadcasting, and real-time video conferencing.\n\nThis specification serves as the definitive technical reference for AV2 implementations. It outlines the bitstream syntax, semantics, and decoding processes required to ensure full conformance.\n\nAV2 provides enhanced support for AR/VR applications, split-screen delivery of multiple programs, improved handling of screen content, and an ability to operate over a wider visual quality range.</blockquote>\n<p><strong>Tags:</strong> av2, specification, next-generation, video, coding</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780227903268",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "title": "Domain Expertise Has Always Been the Real Moat | Aaron Brethorst",
+      "date_published": "2026-05-31T11:45:03.268Z",
+      "tags": [
+        "expertise",
+        "moat"
+      ],
+      "content_text": "So the most valuable person in this new world is the one who has both skills because they can verify at both layers. They know the generated code is sound and they know the answers it produces are true. They can write the test that encodes “a driver can’t exceed eleven hours” because they know the rule, and they can tell that the test itself is meaningful because they know what they’re testing. The agent does the transcription. They do the judging, twice.",
+      "summary": "So the most valuable person in this new world is the one who has both skills because they can verify at both layers. They know the generated code is s...",
+      "content_html": "<blockquote>So the most valuable person in this new world is the one who has both skills because they can verify at both layers. They know the generated code is sound and they know the answers it produces are true. They can write the test that encodes “a driver can’t exceed eleven hours” because they know the rule, and they can tell that the test itself is meaningful because they know what they’re testing. The agent does the transcription. They do the judging, twice.</blockquote>\n<p><strong>Tags:</strong> expertise, moat</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780227861135",
+      "url": "https://secret-archive.org/the-archive/",
+      "title": "Security Envelope Pattern Archive – a collection by S.E.C.R.E.T.",
+      "date_published": "2026-05-31T11:44:21.135Z",
+      "tags": [
+        "security",
+        "envelope",
+        "pattern",
+        "archive",
+        "collection"
+      ],
+      "content_text": "\nWelcome to the security envelope pattern archive, the living heart of the S.E.C.R.E.T. Project. Here you’ll find a meticulously classified portfolio of patterns that once guarded confidential contents—from banking slips to bureaucratic missives. Each entry is cataloged by visual taxonomy, poetic description, and historical context. This is no ordinary collection; it is a hidden museum of miniature marvels, each one whispering of secrecy, intention, and the artistry of concealment. Begin your exploration, and join us in proudly overthinking the under-appreciated.",
+      "summary": "\nWelcome to the security envelope pattern archive, the living heart of the S.E.C.R.E.T. Project. Here you’ll find a meticulously classified portfolio ...",
+      "content_html": "<blockquote>\nWelcome to the security envelope pattern archive, the living heart of the S.E.C.R.E.T. Project. Here you’ll find a meticulously classified portfolio of patterns that once guarded confidential contents—from banking slips to bureaucratic missives. Each entry is cataloged by visual taxonomy, poetic description, and historical context. This is no ordinary collection; it is a hidden museum of miniature marvels, each one whispering of secrecy, intention, and the artistry of concealment. Begin your exploration, and join us in proudly overthinking the under-appreciated.</blockquote>\n<p><strong>Tags:</strong> security, envelope, pattern, archive, collection</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780227836616",
+      "url": "https://arxiv.org/abs/2406.03476",
+      "title": "Does your data spark joy? Performance gains from domain upsampling at the end of training",
+      "date_published": "2026-05-31T11:43:56.616Z",
+      "tags": [
+        "joy",
+        "performance",
+        "data",
+        "training",
+        "ai",
+        "ml"
+      ],
+      "content_text": "In this work, we show how to leverage the smaller domain specific datasets by upsampling them relative to CC at the end of training to drive performance improvements on difficult benchmarks. This simple technique allows us to improve up to 6.90 pp on MMLU, 8.26 pp on GSM8K, and 6.17 pp on HumanEval relative to the base data mix for a 7B model trained for 1 trillion (T) tokens, thus rivaling Llama-2 (7B)—a model trained for twice as long. We experiment with ablating the duration of domain upsampling from 5% to 30% of training and find that 10% to 20% percent is optimal for navigating the tradeoff between general language modeling capabilities and targeted benchmarks. We also use domain upsampling to characterize at scale the utility of individual datasets for improving various benchmarks by removing them during this final phase of training. This tool opens up the ability to experiment with the impact of different pretraining datasets at scale, but at an order of magnitude lower cost compared to full pretraining runs.",
+      "summary": "In this work, we show how to leverage the smaller domain specific datasets by upsampling them relative to CC at the end of training to drive performan...",
+      "content_html": "<blockquote>In this work, we show how to leverage the smaller domain specific datasets by upsampling them relative to CC at the end of training to drive performance improvements on difficult benchmarks. This simple technique allows us to improve up to 6.90 pp on MMLU, 8.26 pp on GSM8K, and 6.17 pp on HumanEval relative to the base data mix for a 7B model trained for 1 trillion (T) tokens, thus rivaling Llama-2 (7B)—a model trained for twice as long. We experiment with ablating the duration of domain upsampling from 5% to 30% of training and find that 10% to 20% percent is optimal for navigating the tradeoff between general language modeling capabilities and targeted benchmarks. We also use domain upsampling to characterize at scale the utility of individual datasets for improving various benchmarks by removing them during this final phase of training. This tool opens up the ability to experiment with the impact of different pretraining datasets at scale, but at an order of magnitude lower cost compared to full pretraining runs.</blockquote>\n<p><strong>Tags:</strong> joy, performance, data, training, ai, ml</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780162946032",
+      "url": "https://www.techpolicy.press/big-tech-is-becoming-the-executor-of-the-dead/",
+      "title": "Big Tech is Becoming the Executor of the Dead",
+      "date_published": "2026-05-30T17:42:26.032Z",
+      "tags": [
+        "digital",
+        "death",
+        "digital-afterlife",
+        "data",
+        "privacy",
+        "meta",
+        "patents"
+      ],
+      "content_text": "Much of the current guidance on digital legacies urges individuals to take control of their digital lives before they die. Tech companies offer various features to provide users with a sense of posthumous agency, such as Google’s Inactive Account Manager, Apple’s Digital Legacy Program, and Meta’s Legacy Contact and Memorialization settings. While these tools are marketed as a means of establishing posthumous control, they are little more than a façade of agency that ends where the corporate fine print begins. Ultimately, any authority we exercise remains subordinate to corporate terms of service, which are perpetually rewritten at the platform’s discretion and largely without oversight.\n\nWhat makes Meta’s patent such an effective warning sign is that it imagines a future where posthumous agency isn’t primarily about heirs accessing or closing an account. It turns to platforms retaining the right to keep an account operationally ‘present,’ producing engagement as if the user were still there.",
+      "summary": "Much of the current guidance on digital legacies urges individuals to take control of their digital lives before they die. Tech companies offer variou...",
+      "content_html": "<blockquote>Much of the current guidance on digital legacies urges individuals to take control of their digital lives before they die. Tech companies offer various features to provide users with a sense of posthumous agency, such as Google’s Inactive Account Manager, Apple’s Digital Legacy Program, and Meta’s Legacy Contact and Memorialization settings. While these tools are marketed as a means of establishing posthumous control, they are little more than a façade of agency that ends where the corporate fine print begins. Ultimately, any authority we exercise remains subordinate to corporate terms of service, which are perpetually rewritten at the platform’s discretion and largely without oversight.\n\nWhat makes Meta’s patent such an effective warning sign is that it imagines a future where posthumous agency isn’t primarily about heirs accessing or closing an account. It turns to platforms retaining the right to keep an account operationally ‘present,’ producing engagement as if the user were still there.</blockquote>\n<p><strong>Tags:</strong> digital, death, digital-afterlife, data, privacy, meta, patents</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780152329548",
+      "url": "https://www.anthropic.com/news/series-h",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "date_published": "2026-05-30T14:45:29.548Z",
+      "tags": [
+        "anthropic",
+        "funding",
+        "ai",
+        "ipo",
+        "financial"
+      ],
+      "content_text": "Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed $47 billion earlier this month.",
+      "summary": "Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed $47 billion earlie...",
+      "content_html": "<blockquote>Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed $47 billion earlier this month.</blockquote>\n<p><strong>Tags:</strong> anthropic, funding, ai, ipo, financial</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1779969647696",
       "url": "https://research.panmureliberum.com/view/FD91B03A-3DB8-4EF8-99B3-478C1AFC983A?uid=michael.finney@panmureliberum.com&jobRef=1032205_20260512_150546",
       "title": "Panmure Liberum  ",

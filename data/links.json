@@ -1,6 +1,102 @@
 {
   "links": [
     {
+      "id": 1780227921535,
+      "url": "https://av2.aomedia.org/",
+      "source": "AV2 Specification",
+      "pullQuote": "AV2 is the next-generation video coding specification from the Alliance for Open Media (AOMedia). Building on the foundation of AV1, AV2 is engineered to provide superior compression efficiency, enabling high-quality video delivery at significantly lower bitrates. It is optimized for the evolving demands of streaming, broadcasting, and real-time video conferencing.\n\nThis specification serves as the definitive technical reference for AV2 implementations. It outlines the bitstream syntax, semantics, and decoding processes required to ensure full conformance.\n\nAV2 provides enhanced support for AR/VR applications, split-screen delivery of multiple programs, improved handling of screen content, and an ability to operate over a wider visual quality range.",
+      "tags": [
+        "av2",
+        "specification",
+        "next-generation",
+        "video",
+        "coding"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-31T11:45:21.535Z",
+      "visits": 0
+    },
+    {
+      "id": 1780227903268,
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "source": "Domain Expertise Has Always Been the Real Moat | Aaron Brethorst",
+      "pullQuote": "So the most valuable person in this new world is the one who has both skills because they can verify at both layers. They know the generated code is sound and they know the answers it produces are true. They can write the test that encodes “a driver can’t exceed eleven hours” because they know the rule, and they can tell that the test itself is meaningful because they know what they’re testing. The agent does the transcription. They do the judging, twice.",
+      "tags": [
+        "expertise",
+        "moat"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-31T11:45:03.268Z",
+      "visits": 0
+    },
+    {
+      "id": 1780227861135,
+      "url": "https://secret-archive.org/the-archive/",
+      "source": "Security Envelope Pattern Archive – a collection by S.E.C.R.E.T.",
+      "pullQuote": "\nWelcome to the security envelope pattern archive, the living heart of the S.E.C.R.E.T. Project. Here you’ll find a meticulously classified portfolio of patterns that once guarded confidential contents—from banking slips to bureaucratic missives. Each entry is cataloged by visual taxonomy, poetic description, and historical context. This is no ordinary collection; it is a hidden museum of miniature marvels, each one whispering of secrecy, intention, and the artistry of concealment. Begin your exploration, and join us in proudly overthinking the under-appreciated.",
+      "tags": [
+        "security",
+        "envelope",
+        "pattern",
+        "archive",
+        "collection"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-31T11:44:21.135Z",
+      "visits": 0
+    },
+    {
+      "id": 1780227836616,
+      "url": "https://arxiv.org/abs/2406.03476",
+      "source": "Does your data spark joy? Performance gains from domain upsampling at the end of training",
+      "pullQuote": "In this work, we show how to leverage the smaller domain specific datasets by upsampling them relative to CC at the end of training to drive performance improvements on difficult benchmarks. This simple technique allows us to improve up to 6.90 pp on MMLU, 8.26 pp on GSM8K, and 6.17 pp on HumanEval relative to the base data mix for a 7B model trained for 1 trillion (T) tokens, thus rivaling Llama-2 (7B)—a model trained for twice as long. We experiment with ablating the duration of domain upsampling from 5% to 30% of training and find that 10% to 20% percent is optimal for navigating the tradeoff between general language modeling capabilities and targeted benchmarks. We also use domain upsampling to characterize at scale the utility of individual datasets for improving various benchmarks by removing them during this final phase of training. This tool opens up the ability to experiment with the impact of different pretraining datasets at scale, but at an order of magnitude lower cost compared to full pretraining runs.",
+      "tags": [
+        "joy",
+        "performance",
+        "data",
+        "training",
+        "ai",
+        "ml"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-31T11:43:56.616Z",
+      "visits": 0
+    },
+    {
+      "id": 1780162946032,
+      "url": "https://www.techpolicy.press/big-tech-is-becoming-the-executor-of-the-dead/",
+      "source": "Big Tech is Becoming the Executor of the Dead",
+      "pullQuote": "Much of the current guidance on digital legacies urges individuals to take control of their digital lives before they die. Tech companies offer various features to provide users with a sense of posthumous agency, such as Google’s Inactive Account Manager, Apple’s Digital Legacy Program, and Meta’s Legacy Contact and Memorialization settings. While these tools are marketed as a means of establishing posthumous control, they are little more than a façade of agency that ends where the corporate fine print begins. Ultimately, any authority we exercise remains subordinate to corporate terms of service, which are perpetually rewritten at the platform’s discretion and largely without oversight.\n\nWhat makes Meta’s patent such an effective warning sign is that it imagines a future where posthumous agency isn’t primarily about heirs accessing or closing an account. It turns to platforms retaining the right to keep an account operationally ‘present,’ producing engagement as if the user were still there.",
+      "tags": [
+        "digital",
+        "death",
+        "digital-afterlife",
+        "data",
+        "privacy",
+        "meta",
+        "patents"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-30T17:42:26.032Z",
+      "visits": 0
+    },
+    {
+      "id": 1780152329548,
+      "url": "https://www.anthropic.com/news/series-h",
+      "source": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "pullQuote": "Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed $47 billion earlier this month.",
+      "tags": [
+        "anthropic",
+        "funding",
+        "ai",
+        "ipo",
+        "financial"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-05-30T14:45:29.548Z",
+      "visits": 0
+    },
+    {
       "id": 1779969647696,
       "url": "https://research.panmureliberum.com/view/FD91B03A-3DB8-4EF8-99B3-478C1AFC983A?uid=michael.finney@panmureliberum.com&jobRef=1032205_20260512_150546",
       "source": "Panmure Liberum  ",
@@ -7243,5 +7339,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-28T12:00:47.712Z"
+  "lastUpdated": "2026-05-31T11:45:21.574Z"
 }
