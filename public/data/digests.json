@@ -656,6 +656,31 @@
       "weekEnd": "2026-05-24",
       "title": "May 22-24, 2026",
       "writeup": "A grab bag of resistance and reckoning: catalogs of refusal (The AI Resist List, Part of the Solution or Part of the Problem) sit alongside the FTC's settlement with Cox Media Group over deceptive ad practices and CMG's own pitch deck pushing \"Active Listening\" voice-data targeting ; the practice and the punishment in the same week. Underneath, a quieter thread on craft and memory: The Colorist Archive, the tufte-viz Claude Code skill, and the Acme design system reference all argue for considered tools over generic ones. Rounding it out, two essays mourning what the web became (The Internet After Failed Utopias, The Future  Perfect) and Zendaya's Shape of Dreams as the cultural beat between them."
+    },
+    {
+      "id": 16,
+      "timestamp": "2026-05-30T11:22:11.829Z",
+      "linkIds": [
+        1779660895853,
+        1779676895175,
+        1779703648438,
+        1779704175481,
+        1779704317351,
+        1779966985441,
+        1779967111047,
+        1779967316448,
+        1779967428294,
+        1779967513552,
+        1779967673046,
+        1779969521690,
+        1779969647696
+      ],
+      "count": 13,
+      "filename": "digest-016-2026-05-30.html",
+      "weekStart": "2026-05-24",
+      "weekEnd": "2026-05-28",
+      "title": "May 24-28, 2026",
+      "writeup": "Here's a paragraph that ties the collection together:\nThis issue circles a single tension: who gets to hold power as machine intelligence saturates everything. The lead argues cybersecurity is quietly absorbing the whole of digital policy, while Pope Leo's Magnifica humanitas makes the moral version of the same case — AI should serve humanity rather than concentrate control. From there the thread runs in two directions. One is the impulse to wrest the stack back into human hands: tools to strip the guardrails off language models, a tour of internets that predate and sidestep HTTPS, and a hands-on dispatch from the mesh-networking underground where Meshtastic and Reticulum promise infrastructure no platform owns. The other is the frontier of agents that train themselves — reinforcement learning you steer by talking, and Microsoft's own entry into the field. Around the edges, the usual pleasures: an in-browser audio editor, a perpetually-current Rothko, the strange geometry hiding inside food-ingredient embeddings, and a couple of market dispatches on why the DoJ picked one prediction-market insider to make an example of.\n"
     }
   ],
   "cadence": "weekly"
