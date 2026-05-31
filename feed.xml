@@ -4,10 +4,52 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 28 May 2026 12:00:47 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 May 2026 11:45:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AV2 Specification]]></title>
+            <link>https://av2.aomedia.org/</link>
+            <guid>1780227921535</guid>
+            <pubDate>Sun, 31 May 2026 11:45:21 GMT</pubDate>
+            <description><![CDATA[Tags: av2, specification, next-generation, video, coding]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Domain Expertise Has Always Been the Real Moat | Aaron Brethorst]]></title>
+            <link>https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/</link>
+            <guid>1780227903268</guid>
+            <pubDate>Sun, 31 May 2026 11:45:03 GMT</pubDate>
+            <description><![CDATA[Tags: expertise, moat]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Security Envelope Pattern Archive – a collection by S.E.C.R.E.T.]]></title>
+            <link>https://secret-archive.org/the-archive/</link>
+            <guid>1780227861135</guid>
+            <pubDate>Sun, 31 May 2026 11:44:21 GMT</pubDate>
+            <description><![CDATA[Tags: security, envelope, pattern, archive, collection]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Does your data spark joy? Performance gains from domain upsampling at the end of training]]></title>
+            <link>https://arxiv.org/abs/2406.03476</link>
+            <guid>1780227836616</guid>
+            <pubDate>Sun, 31 May 2026 11:43:56 GMT</pubDate>
+            <description><![CDATA[Tags: joy, performance, data, training, ai, ml]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Big Tech is Becoming the Executor of the Dead]]></title>
+            <link>https://www.techpolicy.press/big-tech-is-becoming-the-executor-of-the-dead/</link>
+            <guid>1780162946032</guid>
+            <pubDate>Sat, 30 May 2026 17:42:26 GMT</pubDate>
+            <description><![CDATA[Tags: digital, death, digital-afterlife, data, privacy, meta, patents]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Anthropic raises $65B in Series H funding at $965B post-money valuation]]></title>
+            <link>https://www.anthropic.com/news/series-h</link>
+            <guid>1780152329548</guid>
+            <pubDate>Sat, 30 May 2026 14:45:29 GMT</pubDate>
+            <description><![CDATA[Tags: anthropic, funding, ai, ipo, financial]]></description>
+        </item>
         <item>
             <title><![CDATA[Panmure Liberum  ]]></title>
             <link>https://research.panmureliberum.com/view/FD91B03A-3DB8-4EF8-99B3-478C1AFC983A?uid=michael.finney@panmureliberum.com&amp;jobRef=1032205_20260512_150546</link>
