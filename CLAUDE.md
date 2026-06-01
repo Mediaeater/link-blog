@@ -258,7 +258,16 @@ npm run feeds             # Regenerate feeds (RSS, JSON, OPML, Digest)
 npm run prerender         # Inject <noscript> HTML for crawlers
 npm run itemlist          # Inject Schema.org ItemList JSON-LD
 npm run digest-feed       # Generate Digest RSS feed
+
+# Patch ONE static page to gh-pages without a full rebuild
+# (static-HTML-only changes, e.g. a digest page; fix the source under public/ first)
+npm run patch:page -- digests/digest-016-2026-05-30.html
 ```
+
+> **patch:page vs deploy**: `patch:page` pushes a single file from `public/` straight to
+> `gh-pages` via a throwaway worktree — fast, no `vite build`. Use it ONLY for static-HTML
+> changes. Anything read by the React app or RSS feeds (`links.json`, `digests.json`, feeds)
+> needs the full `npm run deploy`.
 
 ### ⚠️ Critical Notes for Claude Code
 

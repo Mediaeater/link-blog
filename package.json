@@ -33,6 +33,7 @@
     "prebuild": "cp data/digests.json public/data/digests.json && npm run copy-digests && npm run sitemap && npm run feeds && npm run prerender && npm run itemlist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "patch:page": "node scripts/patch-page.cjs",
     "activitypub:setup": "node scripts/setup-activitypub.cjs",
     "activitypub:status": "node scripts/activitypub-status.cjs",
     "activitypub:deliver": "node scripts/deliver-links.cjs",
