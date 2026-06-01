@@ -15,6 +15,122 @@
   ],
   "items": [
     {
+      "id": "1780314432223",
+      "url": "https://hannesweissteiner.com/pdfs/frost.pdf",
+      "title": "FROST: Fingerprinting Remotely using OPFS-based SSD Timing",
+      "date_published": "2026-06-01T11:47:12.223Z",
+      "tags": [
+        "fingerprinting",
+        "remote",
+        "ssd",
+        "storage"
+      ],
+      "content_text": "Abstract. Prior work showed that variations in SSD access time can be\nused to leak information about user activity, e.g., the websites a user accesses, and for covert data transmission. To achieve this, SSD contention\nside channels require accurate high-resolution timing measurements of\nI/O operations, e.g., through the io_uring kernel API. However, the\nimpact of these attacks is limited in",
+      "summary": "Abstract. Prior work showed that variations in SSD access time can be\nused to leak information about user activity, e.g., the websites a user accesses...",
+      "content_html": "<blockquote>Abstract. Prior work showed that variations in SSD access time can be\nused to leak information about user activity, e.g., the websites a user accesses, and for covert data transmission. To achieve this, SSD contention\nside channels require accurate high-resolution timing measurements of\nI/O operations, e.g., through the io_uring kernel API. However, the\nimpact of these attacks is limited in</blockquote>\n<p><strong>Tags:</strong> fingerprinting, remote, ssd, storage</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780314174491",
+      "url": "https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/",
+      "title": "In northern Ukraine, it was boy vs. Russian drone. The boy won.",
+      "date_published": "2026-06-01T11:42:54.491Z",
+      "tags": [
+        "drone",
+        "defense",
+        "method",
+        "tether"
+      ],
+      "content_text": "Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. \n\n“In winter, it’s actually beautiful in its own way,” Poltoratskyi said. “They hang across the road and on the trees like garlands, and frost forms on them.”",
+      "summary": "Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. \n\n“In winter, it’s actua...",
+      "content_html": "<blockquote>Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. \n\n“In winter, it’s actually beautiful in its own way,” Poltoratskyi said. “They hang across the road and on the trees like garlands, and frost forms on them.”</blockquote>\n<p><strong>Tags:</strong> drone, defense, method, tether</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780313940427",
+      "url": "https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1",
+      "title": "Durex sales hit by China’s condom crackdown",
+      "date_published": "2026-06-01T11:39:00.427Z",
+      "tags": [
+        "cn",
+        "algorithms",
+        "birthrate"
+      ],
+      "content_text": "“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social platforms in China,” the person said, adding that Reckitt was adjusting to the changes.",
+      "summary": "“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social pla...",
+      "content_html": "<blockquote>“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social platforms in China,” the person said, adding that Reckitt was adjusting to the changes.</blockquote>\n<p><strong>Tags:</strong> cn, algorithms, birthrate</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780313862994",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "title": "ChatGPT for Google Sheets Exfiltrates Workbooks",
+      "date_published": "2026-06-01T11:37:42.994Z",
+      "tags": [
+        "chatgpt",
+        "exfiltrate",
+        "infosec",
+        "attack"
+      ],
+      "content_text": "his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled external script, which executes leveraging permissions the user has granted to the ChatGPT for Google Sheets extension.\n\nThis vulnerability was responsibly disclosed to OpenAI. Despite multiple follow-ups, we received no communication beyond an automated reply to our initial disclosure. OpenAI's documentation fails to describe sensitive capabilities granted to the model (e.g., running privileged scripts) or risks of model manipulation via indirect prompt injection, instead focusing solely on functional limitations and data-handling concerns. As such, we are publishing our findings to enable informed decision-making regarding the risk surface.",
+      "summary": "his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled...",
+      "content_html": "<blockquote>his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled external script, which executes leveraging permissions the user has granted to the ChatGPT for Google Sheets extension.\n\nThis vulnerability was responsibly disclosed to OpenAI. Despite multiple follow-ups, we received no communication beyond an automated reply to our initial disclosure. OpenAI&#039;s documentation fails to describe sensitive capabilities granted to the model (e.g., running privileged scripts) or risks of model manipulation via indirect prompt injection, instead focusing solely on functional limitations and data-handling concerns. As such, we are publishing our findings to enable informed decision-making regarding the risk surface.</blockquote>\n<p><strong>Tags:</strong> chatgpt, exfiltrate, infosec, attack</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780313780926",
+      "url": "https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565",
+      "title": "23andMe inherits lawsuit over ‘disturbing’ DNA data breach",
+      "date_published": "2026-06-01T11:36:20.926Z",
+      "tags": [
+        "23andme",
+        "lawsuit",
+        "dna",
+        "biometics",
+        "ethics",
+        "opsec",
+        "genetics"
+      ],
+      "content_text": "\"The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.\"\n\nThe lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe's assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe's CEO at the time of the breach and one of the company's co-founders.",
+      "summary": "\"The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violen...",
+      "content_html": "<blockquote>&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;\n\nThe lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&#039;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&#039;s CEO at the time of the breach and one of the company&#039;s co-founders.</blockquote>\n<p><strong>Tags:</strong> 23andme, lawsuit, dna, biometics, ethics, opsec, genetics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780313688160",
+      "url": "https://everymuseum.org",
+      "title": "everymuseum.org",
+      "date_published": "2026-06-01T11:34:48.160Z",
+      "tags": [
+        "everymuseum",
+        "art",
+        "access",
+        "museum"
+      ],
+      "content_text": " EveryMuseum dot org\n- Tell AI: \"connect the EveryMuseum MCP\"\n\n• 'Shuffle' to discover something unexpected\n• Browse by origin, date, collection, medium, and more\n• Download high-resolution public-domain works\n• Save favorites and build your own collection\n• Free, forever\n\nMuseums have a complicated history wrt ownership, theft, access, etc. So, I felt like making them as accessible as possible to as many people as possible, in the simplest interface possible, was a small step in the right direction. If you like the site, please share it with friends and sign up for the newsletter.\n\nYou can spend multiple lifetimes crawling every artifact and still have new stuff to investigate. There's art, science, architecture, design, research, sculpture, and I'm adding more all the time. The goal is 1M+ artifacts; we'll be there soon. The archive will always be incomplete, but I'll continue to push to include more artifacts to create as well-rounded a picture of history as possible.\n",
+      "summary": " EveryMuseum dot org\n- Tell AI: \"connect the EveryMuseum MCP\"\n\n• 'Shuffle' to discover something unexpected\n• Browse by origin, date, collection, medi...",
+      "content_html": "<blockquote> EveryMuseum dot org\n- Tell AI: &quot;connect the EveryMuseum MCP&quot;\n\n• &#039;Shuffle&#039; to discover something unexpected\n• Browse by origin, date, collection, medium, and more\n• Download high-resolution public-domain works\n• Save favorites and build your own collection\n• Free, forever\n\nMuseums have a complicated history wrt ownership, theft, access, etc. So, I felt like making them as accessible as possible to as many people as possible, in the simplest interface possible, was a small step in the right direction. If you like the site, please share it with friends and sign up for the newsletter.\n\nYou can spend multiple lifetimes crawling every artifact and still have new stuff to investigate. There&#039;s art, science, architecture, design, research, sculpture, and I&#039;m adding more all the time. The goal is 1M+ artifacts; we&#039;ll be there soon. The archive will always be incomplete, but I&#039;ll continue to push to include more artifacts to create as well-rounded a picture of history as possible.\n</blockquote>\n<p><strong>Tags:</strong> everymuseum, art, access, museum</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1780227921535",
       "url": "https://av2.aomedia.org/",
       "title": "AV2 Specification",
