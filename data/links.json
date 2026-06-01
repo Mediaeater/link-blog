@@ -1,6 +1,98 @@
 {
   "links": [
     {
+      "id": 1780314432223,
+      "url": "https://hannesweissteiner.com/pdfs/frost.pdf",
+      "source": "FROST: Fingerprinting Remotely using OPFS-based SSD Timing",
+      "pullQuote": "Abstract. Prior work showed that variations in SSD access time can be\nused to leak information about user activity, e.g., the websites a user accesses, and for covert data transmission. To achieve this, SSD contention\nside channels require accurate high-resolution timing measurements of\nI/O operations, e.g., through the io_uring kernel API. However, the\nimpact of these attacks is limited in",
+      "tags": [
+        "fingerprinting",
+        "remote",
+        "ssd",
+        "storage"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-01T11:47:12.223Z",
+      "visits": 0
+    },
+    {
+      "id": 1780314174491,
+      "url": "https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/",
+      "source": "In northern Ukraine, it was boy vs. Russian drone. The boy won.",
+      "pullQuote": "Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. \n\n“In winter, it’s actually beautiful in its own way,” Poltoratskyi said. “They hang across the road and on the trees like garlands, and frost forms on them.”",
+      "tags": [
+        "drone",
+        "defense",
+        "method",
+        "tether"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-01T11:42:54.491Z",
+      "visits": 0
+    },
+    {
+      "id": 1780313940427,
+      "url": "https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1",
+      "source": "Durex sales hit by China’s condom crackdown",
+      "pullQuote": "“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social platforms in China,” the person said, adding that Reckitt was adjusting to the changes.",
+      "tags": [
+        "cn",
+        "algorithms",
+        "birthrate"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-01T11:39:00.427Z",
+      "visits": 0
+    },
+    {
+      "id": 1780313862994,
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "source": "ChatGPT for Google Sheets Exfiltrates Workbooks",
+      "pullQuote": "his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled external script, which executes leveraging permissions the user has granted to the ChatGPT for Google Sheets extension.\n\nThis vulnerability was responsibly disclosed to OpenAI. Despite multiple follow-ups, we received no communication beyond an automated reply to our initial disclosure. OpenAI's documentation fails to describe sensitive capabilities granted to the model (e.g., running privileged scripts) or risks of model manipulation via indirect prompt injection, instead focusing solely on functional limitations and data-handling concerns. As such, we are publishing our findings to enable informed decision-making regarding the risk surface.",
+      "tags": [
+        "chatgpt",
+        "exfiltrate",
+        "infosec",
+        "attack"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-01T11:37:42.994Z",
+      "visits": 0
+    },
+    {
+      "id": 1780313780926,
+      "url": "https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565",
+      "source": "23andMe inherits lawsuit over ‘disturbing’ DNA data breach",
+      "pullQuote": "\"The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.\"\n\nThe lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe's assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe's CEO at the time of the breach and one of the company's co-founders.",
+      "tags": [
+        "23andme",
+        "lawsuit",
+        "dna",
+        "biometics",
+        "ethics",
+        "opsec",
+        "genetics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-01T11:36:20.926Z",
+      "visits": 0
+    },
+    {
+      "id": 1780313688160,
+      "url": "https://everymuseum.org",
+      "source": "everymuseum.org",
+      "pullQuote": " EveryMuseum dot org\n- Tell AI: \"connect the EveryMuseum MCP\"\n\n• 'Shuffle' to discover something unexpected\n• Browse by origin, date, collection, medium, and more\n• Download high-resolution public-domain works\n• Save favorites and build your own collection\n• Free, forever\n\nMuseums have a complicated history wrt ownership, theft, access, etc. So, I felt like making them as accessible as possible to as many people as possible, in the simplest interface possible, was a small step in the right direction. If you like the site, please share it with friends and sign up for the newsletter.\n\nYou can spend multiple lifetimes crawling every artifact and still have new stuff to investigate. There's art, science, architecture, design, research, sculpture, and I'm adding more all the time. The goal is 1M+ artifacts; we'll be there soon. The archive will always be incomplete, but I'll continue to push to include more artifacts to create as well-rounded a picture of history as possible.\n",
+      "tags": [
+        "everymuseum",
+        "art",
+        "access",
+        "museum"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-01T11:34:48.160Z",
+      "visits": 0
+    },
+    {
       "id": 1780227921535,
       "url": "https://av2.aomedia.org/",
       "source": "AV2 Specification",
@@ -7339,5 +7431,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-05-31T11:45:21.574Z"
+  "lastUpdated": "2026-06-01T11:51:24.842Z"
 }
