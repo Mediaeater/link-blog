@@ -4,10 +4,52 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 31 May 2026 11:45:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2026 11:51:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[FROST: Fingerprinting Remotely using OPFS-based SSD Timing]]></title>
+            <link>https://hannesweissteiner.com/pdfs/frost.pdf</link>
+            <guid>1780314432223</guid>
+            <pubDate>Mon, 01 Jun 2026 11:47:12 GMT</pubDate>
+            <description><![CDATA[Tags: fingerprinting, remote, ssd, storage]]></description>
+        </item>
+        <item>
+            <title><![CDATA[In northern Ukraine, it was boy vs. Russian drone. The boy won.]]></title>
+            <link>https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/</link>
+            <guid>1780314174491</guid>
+            <pubDate>Mon, 01 Jun 2026 11:42:54 GMT</pubDate>
+            <description><![CDATA[Tags: drone, defense, method, tether]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Durex sales hit by China’s condom crackdown]]></title>
+            <link>https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1</link>
+            <guid>1780313940427</guid>
+            <pubDate>Mon, 01 Jun 2026 11:39:00 GMT</pubDate>
+            <description><![CDATA[Tags: cn, algorithms, birthrate]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ChatGPT for Google Sheets Exfiltrates Workbooks]]></title>
+            <link>https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration</link>
+            <guid>1780313862994</guid>
+            <pubDate>Mon, 01 Jun 2026 11:37:42 GMT</pubDate>
+            <description><![CDATA[Tags: chatgpt, exfiltrate, infosec, attack]]></description>
+        </item>
+        <item>
+            <title><![CDATA[23andMe inherits lawsuit over ‘disturbing’ DNA data breach]]></title>
+            <link>https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565</link>
+            <guid>1780313780926</guid>
+            <pubDate>Mon, 01 Jun 2026 11:36:20 GMT</pubDate>
+            <description><![CDATA[Tags: 23andme, lawsuit, dna, biometics, ethics, opsec, genetics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[everymuseum.org]]></title>
+            <link>https://everymuseum.org</link>
+            <guid>1780313688160</guid>
+            <pubDate>Mon, 01 Jun 2026 11:34:48 GMT</pubDate>
+            <description><![CDATA[Tags: everymuseum, art, access, museum]]></description>
+        </item>
         <item>
             <title><![CDATA[AV2 Specification]]></title>
             <link>https://av2.aomedia.org/</link>

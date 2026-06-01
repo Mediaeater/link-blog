@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Sun, 31 May 2026 12:08:17 GMT</dateCreated>
-    <dateModified>Sun, 31 May 2026 12:08:17 GMT</dateModified>
+    <dateCreated>Mon, 01 Jun 2026 13:28:01 GMT</dateCreated>
+    <dateModified>Mon, 01 Jun 2026 13:28:01 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -116,6 +116,11 @@ As alliances reshape the balance of power, how is AI redefining the path to econ
 
 " created="Tue, 20 Jan 2026 20:31:43 GMT" category="ai,wef,2026,datacenters,energy,water" />
     </outline>
+    <outline text="23andme" title="23andme">
+      <outline type="link" text="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" title="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" url="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" htmlUrl="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" description="&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;
+
+The lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&apos;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&apos;s CEO at the time of the breach and one of the company&apos;s co-founders." created="Mon, 01 Jun 2026 11:36:20 GMT" category="23andme,lawsuit,dna,biometics,ethics,opsec,genetics" />
+    </outline>
     <outline text="39c3" title="39c3">
       <outline type="link" text="39c3 Art" title="39c3 Art" url="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" htmlUrl="https://events.ccc.de/congress/2025/hub/en/assembly/detail/art" description="Art Assembly – Generative art, AI creatures, interactive installations (39 projects!).
 
@@ -167,6 +172,19 @@ The still-unresolved questions raised by his case have resurfaced in today’s d
       <outline type="link" text="Fully automatic censorship removal for language models" title="Fully automatic censorship removal for language models" url="https://github.com/p-e-w/heretic" htmlUrl="https://github.com/p-e-w/heretic" description="Heretic is a tool that removes censorship (aka &quot;safety alignment&quot;) from transformer-based language models without expensive post-training. It combines an advanced implementation of directional ablation, also known as &quot;abliteration&quot; (Arditi et al. 2024, Lai 2025 (1, 2)), with a TPE-based parameter optimizer powered by Optuna." created="Mon, 25 May 2026 10:16:15 GMT" category="heretic,abliteration,jailbreak,code,llms,open-source" />
     </outline>
     <outline text="access" title="access">
+      <outline type="link" text="everymuseum.org" title="everymuseum.org" url="https://everymuseum.org" htmlUrl="https://everymuseum.org" description=" EveryMuseum dot org
+- Tell AI: &quot;connect the EveryMuseum MCP&quot;
+
+• &apos;Shuffle&apos; to discover something unexpected
+• Browse by origin, date, collection, medium, and more
+• Download high-resolution public-domain works
+• Save favorites and build your own collection
+• Free, forever
+
+Museums have a complicated history wrt ownership, theft, access, etc. So, I felt like making them as accessible as possible to as many people as possible, in the simplest interface possible, was a small step in the right direction. If you like the site, please share it with friends and sign up for the newsletter.
+
+You can spend multiple lifetimes crawling every artifact and still have new stuff to investigate. There&apos;s art, science, architecture, design, research, sculpture, and I&apos;m adding more all the time. The goal is 1M+ artifacts; we&apos;ll be there soon. The archive will always be incomplete, but I&apos;ll continue to push to include more artifacts to create as well-rounded a picture of history as possible.
+" created="Mon, 01 Jun 2026 11:34:48 GMT" category="everymuseum,art,access,museum" />
       <outline type="link" text="Routing Information " title="Routing Information " url="https://radar.cloudflare.com/routing/ir" htmlUrl="https://radar.cloudflare.com/routing/ir" description="When unrest happens, networks of mass communication can not be relied on. " created="Mon, 12 Jan 2026 13:02:50 GMT" category="networks,government,access,iran" />
     </outline>
     <outline text="account" title="account">
@@ -820,6 +838,9 @@ I just set all of these loops running and let them configure in whichever way th
       <outline type="link" text="LAPD Helicopter Tracker - Real-Time Monitoring" title="LAPD Helicopter Tracker - Real-Time Monitoring" url="https://lapdhelicoptertracker.com/" htmlUrl="https://lapdhelicoptertracker.com/" description="Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units." created="Sat, 22 Nov 2025 00:08:39 GMT" category="devops,monitoring,airspace,policing,real-time,tracker" />
       <outline type="link" text="Investigations UPS Flight 2976 Crash During Takeoff" title="Investigations UPS Flight 2976 Crash During Takeoff" url="https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx" htmlUrl="https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx" created="Thu, 20 Nov 2025 22:51:02 GMT" category="air-travel,standards,airspace,ntsb" />
     </outline>
+    <outline text="algorithms" title="algorithms">
+      <outline type="link" text="Durex sales hit by China’s condom crackdown" title="Durex sales hit by China’s condom crackdown" url="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" description="“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social platforms in China,” the person said, adding that Reckitt was adjusting to the changes." created="Mon, 01 Jun 2026 11:39:00 GMT" category="cn,algorithms,birthrate" />
+    </outline>
     <outline text="alliteration" title="alliteration">
       <outline type="link" text="The Wrong Side of the C&apos;s" title="The Wrong Side of the C&apos;s" url="https://ghuneim.us/blog/the-alteration-of-the-cs/" htmlUrl="https://ghuneim.us/blog/the-alteration-of-the-cs/" description="Four phases of the network, four sets of C-words. The five that describe how the network governs us are the same five that name the controls of the studio. Same words, different sides." created="Mon, 25 May 2026 10:18:37 GMT" category="networks,binary,essay,alliteration" />
     </outline>
@@ -1071,6 +1092,19 @@ This post is split up into a few parts. First, let&apos;s introduce ARIA&apos;s 
       <outline type="link" text="NSKYC" title="NSKYC" url="https://nskyc.com/" htmlUrl="https://nskyc.com/" created="Tue, 14 Apr 2026 10:46:30 GMT" category="color,nyc,ariel" />
     </outline>
     <outline text="art" title="art">
+      <outline type="link" text="everymuseum.org" title="everymuseum.org" url="https://everymuseum.org" htmlUrl="https://everymuseum.org" description=" EveryMuseum dot org
+- Tell AI: &quot;connect the EveryMuseum MCP&quot;
+
+• &apos;Shuffle&apos; to discover something unexpected
+• Browse by origin, date, collection, medium, and more
+• Download high-resolution public-domain works
+• Save favorites and build your own collection
+• Free, forever
+
+Museums have a complicated history wrt ownership, theft, access, etc. So, I felt like making them as accessible as possible to as many people as possible, in the simplest interface possible, was a small step in the right direction. If you like the site, please share it with friends and sign up for the newsletter.
+
+You can spend multiple lifetimes crawling every artifact and still have new stuff to investigate. There&apos;s art, science, architecture, design, research, sculpture, and I&apos;m adding more all the time. The goal is 1M+ artifacts; we&apos;ll be there soon. The archive will always be incomplete, but I&apos;ll continue to push to include more artifacts to create as well-rounded a picture of history as possible.
+" created="Mon, 01 Jun 2026 11:34:48 GMT" category="everymuseum,art,access,museum" />
       <outline type="link" text="Current Rothko" title="Current Rothko" url="https://rothko.joonas.wtf/" htmlUrl="https://rothko.joonas.wtf/" description="Rothko mapped to your weather." created="Thu, 28 May 2026 11:18:31 GMT" category="rothko,art,weather,mashup,color" />
       <outline type="link" text="The Internet After Failed Utopias The Internet After Failed Utopias" title="The Internet After Failed Utopias The Internet After Failed Utopias" url="https://www.sleek-mag.com/article/the-internet-after-failed-utopias/" htmlUrl="https://www.sleek-mag.com/article/the-internet-after-failed-utopias/" description="Vuk Ćosić looks back at the promises that once surrounded the internet and their afterlives. In conversation with Anika Meier for SLEEK, he speaks about nettime, browser art, artistic resistance, and the institutionalization of internet culture. He also reflects on the moment the community he believed in became, in his words, “an audience and a springboard for careers.” Looking at today’s debates around AI and crypto, he sees echoes of the promises that once surrounded the early internet. “We believed in some of the utopias because we wanted them to happen,” he says. “But we were also among the first to criticize them.”" created="Sun, 24 May 2026 10:36:52 GMT" category="internet,art,utopias" />
       <outline type="link" text="Trevor Paglen: The Lizard People are Here!" title="Trevor Paglen: The Lizard People are Here!" url="https://www.guggenheim.org/event/trevor-paglen-the-lizard-people-are-here/2026-05-18?utm_medium=Email&amp;utm_source=SFMC&amp;utm_campaign=PP_LGProgramDedicated_050826" htmlUrl="https://www.guggenheim.org/event/trevor-paglen-the-lizard-people-are-here/2026-05-18?utm_medium=Email&amp;utm_source=SFMC&amp;utm_campaign=PP_LGProgramDedicated_050826" description="This performance-lecture invites audiences to consider whether we are entering a new era of invisible architectures and algorithmic systems shaping perception, knowledge, and power. In the program, 2026 LG Guggenheim Award recipient, artist, and author Trevor Paglen traces a dense network of ideas spanning philosophy, belief, deception, and speculation.
@@ -1267,6 +1301,11 @@ GBA is broken up into two datasets. The first is a 1.1 TB, level-of-detail 1 (Lo
 Apply this directly to fully agentic coding. If you stop writing code and only review AI output, your ability to reason about code atrophies. Slowly, invisibly, but inevitably. You can’t deeply review what you can no longer deeply understand.
 
 " created="Sat, 28 Feb 2026 13:10:41 GMT" category="coding,atrophy,brain,effect,flow,agents" />
+    </outline>
+    <outline text="attack" title="attack">
+      <outline type="link" text="ChatGPT for Google Sheets Exfiltrates Workbooks" title="ChatGPT for Google Sheets Exfiltrates Workbooks" url="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" htmlUrl="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" description="his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled external script, which executes leveraging permissions the user has granted to the ChatGPT for Google Sheets extension.
+
+This vulnerability was responsibly disclosed to OpenAI. Despite multiple follow-ups, we received no communication beyond an automated reply to our initial disclosure. OpenAI&apos;s documentation fails to describe sensitive capabilities granted to the model (e.g., running privileged scripts) or risks of model manipulation via indirect prompt injection, instead focusing solely on functional limitations and data-handling concerns. As such, we are publishing our findings to enable informed decision-making regarding the risk surface." created="Mon, 01 Jun 2026 11:37:42 GMT" category="chatgpt,exfiltrate,infosec,attack" />
     </outline>
     <outline text="au" title="au">
       <outline type="link" text="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" title="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" url="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" htmlUrl="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" description="121FZL   Meaning of Australian content expenditure requirement
@@ -1503,7 +1542,13 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 &quot;Yakult Ladies are not just people who sell products,&quot; says the 47-year-old. &quot;We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.&quot;" created="Thu, 05 Mar 2026 12:48:17 GMT" category="aging,health,jp,bio-hacking" />
     </outline>
     <outline text="biometics" title="biometics">
+      <outline type="link" text="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" title="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" url="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" htmlUrl="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" description="&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;
+
+The lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&apos;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&apos;s CEO at the time of the breach and one of the company&apos;s co-founders." created="Mon, 01 Jun 2026 11:36:20 GMT" category="23andme,lawsuit,dna,biometics,ethics,opsec,genetics" />
       <outline type="link" text="U.S. companies back Sam Altman’s World ID even as much of the world pushes back" title="U.S. companies back Sam Altman’s World ID even as much of the world pushes back" url="https://restofworld.org/2026/sam-altman-worldcoin-zoom-tinder-partnerships/" htmlUrl="https://restofworld.org/2026/sam-altman-worldcoin-zoom-tinder-partnerships/" description="In the last three years, several governments in Asia and Africa have halted World’s operations due to concerns about the collection of biometric information from their citizens and the violation of privacy laws. Parts of Europe have banned it outright and called for the deletion of logged data. In Latin America, sign-ups are on pause, with several probes underway." created="Mon, 27 Apr 2026 22:44:26 GMT" category="biometics,identity,wordcoin,sam-altman,creepy-sam-altman" />
+    </outline>
+    <outline text="birthrate" title="birthrate">
+      <outline type="link" text="Durex sales hit by China’s condom crackdown" title="Durex sales hit by China’s condom crackdown" url="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" description="“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social platforms in China,” the person said, adding that Reckitt was adjusting to the changes." created="Mon, 01 Jun 2026 11:39:00 GMT" category="cn,algorithms,birthrate" />
     </outline>
     <outline text="black mountain college" title="black mountain college">
       <outline type="link" text="Ruth Asawa Arrives in New York with a Monumental Retrospective" title="Ruth Asawa Arrives in New York with a Monumental Retrospective" url="https://ruthasawa.com/" htmlUrl="https://ruthasawa.com/" description="“I’m not so interested in the expression of something. I’m more interested in what the material can do. So that’s why I keep exploring,” said artist, educator, and civic leader Ruth Asawa, reflecting on a six-decade-long career. Featuring some 300 artworks, Ruth Asawa: A Retrospective charts the artist’s lifelong explorations of materials and forms in a variety of mediums, including wire sculpture, bronze casts, drawings, paintings, prints, and public works. This first posthumous survey celebrates the ways in which Asawa continuously transformed materials and objects into subjects of contemplation, unsettling distinctions between abstraction and figuration, figure and ground, and negative and positive space." created="Sat, 18 Oct 2025 14:03:09 GMT" category="art,ruth asawa,sf,nyc,moma,black mountain college" />
@@ -1780,6 +1825,9 @@ AI for productivity and administrative use: document drafting, note taking, auto
       <outline type="link" text="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" title="An AI-Generated Country Song Is Topping A Billboard Chart, And That Should Infuriate Us All" url="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" htmlUrl="https://www.whiskeyriff.com/2025/11/08/an-ai-generated-country-song-is-topping-a-billboard-chart-and-that-should-infuriate-us-all/" description="I reached out to Billboard for comment on Breaking Rust’s single topping the chart, and asked whether the publication has any policy regarding AI songs on their charts, and to this point have not gotten a response. But in their article listing the AI artists who have appeared on the charts, there’s no indication that they see it as a problem or something that needs to be reigned in." created="Mon, 10 Nov 2025 03:38:08 GMT" category="music,ai-music,billboard,charts,song" />
     </outline>
     <outline text="chatgpt" title="chatgpt">
+      <outline type="link" text="ChatGPT for Google Sheets Exfiltrates Workbooks" title="ChatGPT for Google Sheets Exfiltrates Workbooks" url="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" htmlUrl="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" description="his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled external script, which executes leveraging permissions the user has granted to the ChatGPT for Google Sheets extension.
+
+This vulnerability was responsibly disclosed to OpenAI. Despite multiple follow-ups, we received no communication beyond an automated reply to our initial disclosure. OpenAI&apos;s documentation fails to describe sensitive capabilities granted to the model (e.g., running privileged scripts) or risks of model manipulation via indirect prompt injection, instead focusing solely on functional limitations and data-handling concerns. As such, we are publishing our findings to enable informed decision-making regarding the risk surface." created="Mon, 01 Jun 2026 11:37:42 GMT" category="chatgpt,exfiltrate,infosec,attack" />
       <outline type="link" text="OpenAI and Malta partner to bring ChatGPT Plus to all citizens" title="OpenAI and Malta partner to bring ChatGPT Plus to all citizens" url="https://openai.com/index/malta-chatgpt-plus-partnership/" htmlUrl="https://openai.com/index/malta-chatgpt-plus-partnership/" description="Malta’s AI for All initiative⁠(opens in a new window) will offer people of all backgrounds the opportunity to learn how AI can be used responsibly through a course developed by the University of Malta. The course is designed to help people understand what AI is, what it can and can’t do, and how to use it responsibly at home and work. After the course is completed, citizens can access ChatGPT Plus for one year at no cost to them. 
 
 The first phase of the programme will launch in May, with the Malta Digital Innovation Authority managing distribution to eligible participants. The programme will scale as more Maltese residents and citizens abroad complete the course." created="Sun, 17 May 2026 19:51:35 GMT" category="openai,malta,chatgpt,anthropology,experiment" />
@@ -1975,6 +2023,7 @@ Welcome to the Computer Club mirrors, a service of the Carnegie Mellon Universit
 " created="Tue, 03 Feb 2026 13:31:17 GMT" category="ftp,computer-club,cmu,publishing" />
     </outline>
     <outline text="cn" title="cn">
+      <outline type="link" text="Durex sales hit by China’s condom crackdown" title="Durex sales hit by China’s condom crackdown" url="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" description="“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social platforms in China,” the person said, adding that Reckitt was adjusting to the changes." created="Mon, 01 Jun 2026 11:39:00 GMT" category="cn,algorithms,birthrate" />
       <outline type="link" text="CN: nterim Measures for the Administration of Humanized Interactive Services Based on Artificial Intelligence" title="CN: nterim Measures for the Administration of Humanized Interactive Services Based on Artificial Intelligence" url="https://xinwen.bjd.com.cn/content/s69d8d495e4b0cd719ea0539f.html" htmlUrl="https://xinwen.bjd.com.cn/content/s69d8d495e4b0cd719ea0539f.html" description="Chapter 1 General Provisions
 
 Article 1 This Regulation is formulated in accordance with the Cybersecurity Law of the People&apos;s Republic of China, the Data Security Law of the People&apos;s Republic of China, the Personal Information Protection Law of the People&apos;s Republic of China, the Regulations on the Protection of Minors Online, and other laws and administrative regulations, in order to promote the healthy development and standardized application of artificial intelligence-based anthropomorphic interactive services, safeguard national security and public interests, and protect the legitimate rights and interests of citizens, legal persons and other organizations.
@@ -2550,6 +2599,11 @@ Starting in 1984, Congress has been organized by the community and appreciates a
 " created="Wed, 26 Nov 2025 02:31:26 GMT" category="opensource,ai,cn,deepseek,open-models,adoption" />
       <outline type="link" text="DeepSeek researcher pessimistic over AI&apos;s impact in startup&apos;s first public appearance since success " title="DeepSeek researcher pessimistic over AI&apos;s impact in startup&apos;s first public appearance since success " url="https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/" htmlUrl="https://www.reuters.com/world/asia-pacific/deepseek-researcher-pessimistic-over-ais-impact-startups-first-public-appearance-2025-11-07/" description="Poison Pill uses multiple AI model attacks, including adversarial noise algorithms, to give musicians a way to protect your work. We apply multiple, invisible, adversarial techniques to audio files to disrupt unauthorized model training; so you can take back control over AI." created="Sat, 08 Nov 2025 10:24:13 GMT" category="deepseek,ai,ai-impact" />
     </outline>
+    <outline text="defense" title="defense">
+      <outline type="link" text="In northern Ukraine, it was boy vs. Russian drone. The boy won." title="In northern Ukraine, it was boy vs. Russian drone. The boy won." url="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" htmlUrl="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" description="Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. 
+
+“In winter, it’s actually beautiful in its own way,” Poltoratskyi said. “They hang across the road and on the trees like garlands, and frost forms on them.”" created="Mon, 01 Jun 2026 11:42:54 GMT" category="drone,defense,method,tether" />
+    </outline>
     <outline text="degoogled" title="degoogled">
       <outline type="link" text="/e/OS - e Foundation - deGoogled unGoogled smartphone operating systems and online services - your data is your data" title="/e/OS - e Foundation - deGoogled unGoogled smartphone operating systems and online services - your data is your data" url="https://e.foundation/" htmlUrl="https://e.foundation/" description="We build desirable, open source, privacy-enabled smartphone operating systems." created="Tue, 03 Mar 2026 11:11:09 GMT" category="foundation,degoogled,ungoogled,smartphone,operating,phone,privacy" />
     </outline>
@@ -2701,6 +2755,9 @@ Despite our concerns with the DMA, teams across Apple are spending thousands of 
 End-to-end encryption has been an opt-in messaging feature on Instagram since 2023, but Meta quietly removed it. Meta told The Guardian earlier this year that it is removing the encryption feature because not enough people adopted it. At the same time, Meta did not turn it on by" created="Fri, 08 May 2026 20:17:43 GMT" category="instagram,dms,privacy,encryption,meta" />
     </outline>
     <outline text="dna" title="dna">
+      <outline type="link" text="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" title="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" url="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" htmlUrl="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" description="&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;
+
+The lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&apos;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&apos;s CEO at the time of the breach and one of the company&apos;s co-founders." created="Mon, 01 Jun 2026 11:36:20 GMT" category="23andme,lawsuit,dna,biometics,ethics,opsec,genetics" />
       <outline type="link" text="Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)" title="Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)" url="https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ " htmlUrl="https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ " description="After clients review their embryo options for serious health risks, particularly ­hereditary conditions, “then, fine,” he says. “If you care about IQ, maybe you kind of look at it.”
 
 “Some don’t care about it at all and some care a lot,” adds Anomaly, who seems to be among the latter. A former Duke University philosophy lecturer, he wrote in a 2018 paper, titled “Defending Eugenics,” that he was concerned about successful, well-educated women “substituting cats for kids,” which would result in “bad effects on the gene pool” over time. “The current demographics of Western countries are troubling,” he wrote, “as people with a higher IQ, more education, and greater income reproduce at relatively low levels.”
@@ -2760,6 +2817,11 @@ Dashers have a new way to earn on their own terms by completing short activities
     </outline>
     <outline text="drm" title="drm">
       <outline type="link" text="Cryptography in Home Entertainment " title="Cryptography in Home Entertainment " url="https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/" htmlUrl="https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/" description="- A look at content scrambling in DVDs" created="Sat, 21 Mar 2026 17:50:34 GMT" category="cryptography,entertainment,content,scrambling,dvds,drm" />
+    </outline>
+    <outline text="drone" title="drone">
+      <outline type="link" text="In northern Ukraine, it was boy vs. Russian drone. The boy won." title="In northern Ukraine, it was boy vs. Russian drone. The boy won." url="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" htmlUrl="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" description="Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. 
+
+“In winter, it’s actually beautiful in its own way,” Poltoratskyi said. “They hang across the road and on the trees like garlands, and frost forms on them.”" created="Mon, 01 Jun 2026 11:42:54 GMT" category="drone,defense,method,tether" />
     </outline>
     <outline text="drugs" title="drugs">
       <outline type="link" text="Enveda" title="Enveda" url="https://enveda.com/" htmlUrl="https://enveda.com/" description="Enveda is learning from life to discover medicines 4X faster than the industry average." created="Tue, 03 Mar 2026 11:00:46 GMT" category="drugs,health,r&amp;d,clinical-trials" />
@@ -2965,6 +3027,9 @@ AI agents do. And now they&apos;re doing it in production." created="Thu, 05 Mar
       <outline type="link" text="The Wrong Side of the C&apos;s" title="The Wrong Side of the C&apos;s" url="https://ghuneim.us/blog/the-alteration-of-the-cs/" htmlUrl="https://ghuneim.us/blog/the-alteration-of-the-cs/" description="Four phases of the network, four sets of C-words. The five that describe how the network governs us are the same five that name the controls of the studio. Same words, different sides." created="Mon, 25 May 2026 10:18:37 GMT" category="networks,binary,essay,alliteration" />
     </outline>
     <outline text="ethics" title="ethics">
+      <outline type="link" text="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" title="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" url="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" htmlUrl="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" description="&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;
+
+The lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&apos;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&apos;s CEO at the time of the breach and one of the company&apos;s co-founders." created="Mon, 01 Jun 2026 11:36:20 GMT" category="23andme,lawsuit,dna,biometics,ethics,opsec,genetics" />
       <outline type="link" text="Pope Leo’s ‘Magnifica humanitas’: AI must serve humanity not concentrate power - Vatican News" title="Pope Leo’s ‘Magnifica humanitas’: AI must serve humanity not concentrate power - Vatican News" url="https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-encyclical-magnifica-humanitas-ai.html" htmlUrl="https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-encyclical-magnifica-humanitas-ai.html" description="government regulation of the private companies that are driving the development of A.I.
 
 protection and retraining for workers whose jobs are threatened
@@ -3095,6 +3160,26 @@ Despite our concerns with the DMA, teams across Apple are spending thousands of 
 
 Bringing together psyops, artificial intelligence, magic, mind control, UFOs, the secret of the Ark of the Covenant, and the figure of a new demiurge, Paglen examines historical precedents for the manipulation of human perception and cognition at a moment when artificial intelligence is becoming increasingly pervasive." created="Mon, 11 May 2026 20:43:42 GMT" category="nyc,ai,art,event" />
     </outline>
+    <outline text="everymuseum" title="everymuseum">
+      <outline type="link" text="everymuseum.org" title="everymuseum.org" url="https://everymuseum.org" htmlUrl="https://everymuseum.org" description=" EveryMuseum dot org
+- Tell AI: &quot;connect the EveryMuseum MCP&quot;
+
+• &apos;Shuffle&apos; to discover something unexpected
+• Browse by origin, date, collection, medium, and more
+• Download high-resolution public-domain works
+• Save favorites and build your own collection
+• Free, forever
+
+Museums have a complicated history wrt ownership, theft, access, etc. So, I felt like making them as accessible as possible to as many people as possible, in the simplest interface possible, was a small step in the right direction. If you like the site, please share it with friends and sign up for the newsletter.
+
+You can spend multiple lifetimes crawling every artifact and still have new stuff to investigate. There&apos;s art, science, architecture, design, research, sculpture, and I&apos;m adding more all the time. The goal is 1M+ artifacts; we&apos;ll be there soon. The archive will always be incomplete, but I&apos;ll continue to push to include more artifacts to create as well-rounded a picture of history as possible.
+" created="Mon, 01 Jun 2026 11:34:48 GMT" category="everymuseum,art,access,museum" />
+    </outline>
+    <outline text="exfiltrate" title="exfiltrate">
+      <outline type="link" text="ChatGPT for Google Sheets Exfiltrates Workbooks" title="ChatGPT for Google Sheets Exfiltrates Workbooks" url="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" htmlUrl="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" description="his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled external script, which executes leveraging permissions the user has granted to the ChatGPT for Google Sheets extension.
+
+This vulnerability was responsibly disclosed to OpenAI. Despite multiple follow-ups, we received no communication beyond an automated reply to our initial disclosure. OpenAI&apos;s documentation fails to describe sensitive capabilities granted to the model (e.g., running privileged scripts) or risks of model manipulation via indirect prompt injection, instead focusing solely on functional limitations and data-handling concerns. As such, we are publishing our findings to enable informed decision-making regarding the risk surface." created="Mon, 01 Jun 2026 11:37:42 GMT" category="chatgpt,exfiltrate,infosec,attack" />
+    </outline>
     <outline text="exhibition" title="exhibition">
       <outline type="link" text="Aesthetica Magazine - Between Words and Breath: &lt;br&gt; Gabrielle Goliath at MoMA PS1" title="Aesthetica Magazine - Between Words and Breath: &lt;br&gt; Gabrielle Goliath at MoMA PS1" url="https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/" htmlUrl="https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/" description="There is a quiet intensity that permeates Gabrielle Goliath’s Personal Accounts. The South African artist’s ongoing video series inhabits the second‑floor galleries and corridors of MoMA PS1, exploring the reverberations of patriarchal violence across continents. Rather than relying on spoken testimony, the work foregrounds the moments between words: breaths, sighs, laughter and tremors in the body. These intervals become carriers of meaning, revealing what is often rendered invisible in conventional narratives of trauma. The exhibition asks visitors to pause and attune themselves to gestures that are both fragile and insistent, intimate yet universal. In doing so, it challenges the assumption that speech alone conveys truth." created="Sat, 31 Jan 2026 23:37:58 GMT" category="video,art,gabrielle_goliath,moma,exhibition,global,violence" />
     </outline>
@@ -3168,6 +3253,11 @@ The White House app ships with a sanctioned Chinese tracking SDK, the FBI app se
       <outline type="link" text="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" title="Computer scientist Geoffrey Hinton: ‘AI will make a few people much richer and most people poorer’" url="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" htmlUrl="https://www.ft.com/content/31feb335-4945-475e-baaa-3b880d9cf8ce" created="Sun, 07 Sep 2025 00:10:53 GMT" category="financial_times,geoffrey_hinton,lunch_with_the_ft,ai,ethics" />
     </outline>
     <outline text="fingerprinting" title="fingerprinting">
+      <outline type="link" text="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" title="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" url="https://hannesweissteiner.com/pdfs/frost.pdf" htmlUrl="https://hannesweissteiner.com/pdfs/frost.pdf" description="Abstract. Prior work showed that variations in SSD access time can be
+used to leak information about user activity, e.g., the websites a user accesses, and for covert data transmission. To achieve this, SSD contention
+side channels require accurate high-resolution timing measurements of
+I/O operations, e.g., through the io_uring kernel API. However, the
+impact of these attacks is limited in" created="Mon, 01 Jun 2026 11:47:12 GMT" category="fingerprinting,remote,ssd,storage" />
       <outline type="link" text="Kevin Boone: The privacy
 nightmare of browser fingerprinting" title="Kevin Boone: The privacy
 nightmare of browser fingerprinting" url="https://kevinboone.me/fingerprinting.html" htmlUrl="https://kevinboone.me/fingerprinting.html" description="Next, you need to be as unremarkable as possible. Fingerprinting is about uniqueness, so you should use the most popular browser on the most popular operating system on the kind of hardware you can buy from PC World. If you’re running the latest Chrome on the latest Windows 11 on a two-year-old, bog-standard laptop, you’re going to be one of a very large group. Of course Chrome, being a Google product, has its own privacy concerns, so you might be better off using a Chromium-based browser with reduced Google influence, like Brave.
@@ -3330,6 +3420,9 @@ Most low-risk use cases that follow the guiding principles below are unlikely to
 Musk shares a similar perspective, which helps explain why he’s had at least 14 children, including four with Shivon Zilis, an executive at his company Neuralink. “He really wants smart people to have kids,” Zilis, a Yale-educated AI specialist, told Musk biographer Walter Isaacson." created="Mon, 27 Apr 2026 22:41:22 GMT" category="creepy-elon-musk,genetic-optimization,genetics,dna" />
     </outline>
     <outline text="genetics" title="genetics">
+      <outline type="link" text="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" title="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" url="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" htmlUrl="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" description="&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;
+
+The lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&apos;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&apos;s CEO at the time of the breach and one of the company&apos;s co-founders." created="Mon, 01 Jun 2026 11:36:20 GMT" category="23andme,lawsuit,dna,biometics,ethics,opsec,genetics" />
       <outline type="link" text="Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)" title="Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)" url="https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ " htmlUrl="https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ " description="After clients review their embryo options for serious health risks, particularly ­hereditary conditions, “then, fine,” he says. “If you care about IQ, maybe you kind of look at it.”
 
 “Some don’t care about it at all and some care a lot,” adds Anomaly, who seems to be among the latter. A former Duke University philosophy lecturer, he wrote in a 2018 paper, titled “Defending Eugenics,” that he was concerned about successful, well-educated women “substituting cats for kids,” which would result in “bad effects on the gene pool” over time. “The current demographics of Western countries are troubling,” he wrote, “as people with a higher IQ, more education, and greater income reproduce at relatively low levels.”
@@ -3872,6 +3965,9 @@ Communication should be available to everyone as a free and open, unencumbered, 
 " created="Wed, 11 Feb 2026 20:34:59 GMT" category="information,protocol,communications,decentralized" />
     </outline>
     <outline text="infosec" title="infosec">
+      <outline type="link" text="ChatGPT for Google Sheets Exfiltrates Workbooks" title="ChatGPT for Google Sheets Exfiltrates Workbooks" url="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" htmlUrl="https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration" description="his attack occurs when any untrusted data source (e.g., from an imported sheet or ChatGPT connector) manipulates ChatGPT to run an attacker-controlled external script, which executes leveraging permissions the user has granted to the ChatGPT for Google Sheets extension.
+
+This vulnerability was responsibly disclosed to OpenAI. Despite multiple follow-ups, we received no communication beyond an automated reply to our initial disclosure. OpenAI&apos;s documentation fails to describe sensitive capabilities granted to the model (e.g., running privileged scripts) or risks of model manipulation via indirect prompt injection, instead focusing solely on functional limitations and data-handling concerns. As such, we are publishing our findings to enable informed decision-making regarding the risk surface." created="Mon, 01 Jun 2026 11:37:42 GMT" category="chatgpt,exfiltrate,infosec,attack" />
       <outline type="link" text="Coruna: The Mysterious Journey of a Powerful iOS Exploit Kit | Google Cloud Blog" title="Coruna: The Mysterious Journey of a Powerful iOS Exploit Kit | Google Cloud Blog" url="https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit" htmlUrl="https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit" description="Google Threat Intelligence Group (GTIG) has identified a new and powerful exploit kit targeting Apple iPhone models running iOS version 13.0 (released in September 2019) up to version 17.2.1 (released in December 2023). The exploit kit, named “Coruna” by its developers, contained five full iOS exploit chains and a total of 23 exploits. The core technical value of this exploit kit lies in its comprehensive collection of iOS exploits, with the most advanced ones using non-public exploitation techniques and mitigation bypasses. 
 
 " created="Thu, 05 Mar 2026 14:36:19 GMT" category="coruna,ios,zero-day,infosec" />
@@ -4185,6 +4281,11 @@ Zoom link " created="Sun, 22 Mar 2026 01:34:07 GMT" category="antitrust,law,hp,m
 Justice Neil M. Gorsuch, a conservative, and Justice Sonia Sotomayor, a liberal, lobbed the toughest questions at the Justice Department’s lawyer, expressing a deep concern that the government’s position on accessing location data would apply similarly to other forms of electronic data, including emails, photos and documents.
 
 On the other side, Justices Samuel A. Alito Jr. and Brett M. Kavanaugh seemed most worried about disrupting the work of law enforcement. Justice Kavanaugh asked Mr. Chatrie’s lawyer to explain how the detective’s actions constituted “bad police work,” suggesting that he had gone through “a lot of the steps that should be applauded.”" created="Mon, 27 Apr 2026 22:47:24 GMT" category="geo-fence,privacy,security,surveillance,law-enforcement,scotus" />
+    </outline>
+    <outline text="lawsuit" title="lawsuit">
+      <outline type="link" text="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" title="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" url="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" htmlUrl="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" description="&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;
+
+The lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&apos;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&apos;s CEO at the time of the breach and one of the company&apos;s co-founders." created="Mon, 01 Jun 2026 11:36:20 GMT" category="23andme,lawsuit,dna,biometics,ethics,opsec,genetics" />
     </outline>
     <outline text="leading-the-future" title="leading-the-future">
       <outline type="link" text="Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation" title="Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation" url="https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260" htmlUrl="https://archive.is/20251128072343/https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1#selection-891.0-913.260" description="Donors have already committed well above $100 million to political-action committees involved in that fight, which has been supercharged by the wealth of some individuals and companies. Included are the venture-capital firm Andreessen Horowitz and an OpenAI co-founder, Greg Brockman. Meta Platforms is also funding several political efforts.
@@ -4768,6 +4869,11 @@ End-to-end encryption has been an opt-in messaging feature on Instagram since 20
 in this case 2021 Termination Shock. -ed) 
 Known as cloud-seeding, the process was conducted over the Urmia lake basin on Saturday, Iran&apos;s official news agency Irna reported." created="Tue, 18 Nov 2025 01:09:51 GMT" category="bbc,environment,climate,cloud-seeding,iran,meteorology,rain" />
     </outline>
+    <outline text="method" title="method">
+      <outline type="link" text="In northern Ukraine, it was boy vs. Russian drone. The boy won." title="In northern Ukraine, it was boy vs. Russian drone. The boy won." url="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" htmlUrl="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" description="Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. 
+
+“In winter, it’s actually beautiful in its own way,” Poltoratskyi said. “They hang across the road and on the trees like garlands, and frost forms on them.”" created="Mon, 01 Jun 2026 11:42:54 GMT" category="drone,defense,method,tether" />
+    </outline>
     <outline text="metric" title="metric">
       <outline type="link" text="Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates o" title="Feeds, Feelings, and Focus: A Systematic Review and Meta-Analysis Examining the Cognitive and Mental Health Correlates o" url="https://psycnet.apa.org/fulltext/2026-89350-001.html" htmlUrl="https://psycnet.apa.org/fulltext/2026-89350-001.html" description="Importantly, recent shifts in digital health research emphasize that it is not merely the amount of media consumed that matters, but rather the quality and nature of the content (e.g., Firth et al., 2024). To better capture these dynamics, future research should incorporate content type, user motivations, and emotional responses alongside traditional time-based metrics (e.g., duration/frequency of use). Complementary qualitative research and syntheses may also provide valuable insights into the contexts in which individuals engage with SFVs, the types of content encountered, and how users interpret and respond to such content. Together, these approaches may help clarify the mechanisms underpinning the associations identified in quantitative research." created="Thu, 20 Nov 2025 18:16:42 GMT" category="media,mediaeater,sfv,psychology,metric" />
     </outline>
@@ -4872,6 +4978,21 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
     </outline>
     <outline text="muse-spark" title="muse-spark">
       <outline type="link" text="Introducing Muse Spark: Scaling Towards Personal Superintelligence" title="Introducing Muse Spark: Scaling Towards Personal Superintelligence" url="https://ai.meta.com/blog/introducing-muse-spark-msl/" htmlUrl="https://ai.meta.com/blog/introducing-muse-spark-msl/" description="The model is closed to ensure Meta retains control over its &quot;Muse&quot; reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the &quot;path forward&quot; to joining the ranks of closed-model providers to justify a $135 billion R&amp;D expenditure." created="Thu, 09 Apr 2026 13:22:04 GMT" category="meta,closed,llm,muse-spark" />
+    </outline>
+    <outline text="museum" title="museum">
+      <outline type="link" text="everymuseum.org" title="everymuseum.org" url="https://everymuseum.org" htmlUrl="https://everymuseum.org" description=" EveryMuseum dot org
+- Tell AI: &quot;connect the EveryMuseum MCP&quot;
+
+• &apos;Shuffle&apos; to discover something unexpected
+• Browse by origin, date, collection, medium, and more
+• Download high-resolution public-domain works
+• Save favorites and build your own collection
+• Free, forever
+
+Museums have a complicated history wrt ownership, theft, access, etc. So, I felt like making them as accessible as possible to as many people as possible, in the simplest interface possible, was a small step in the right direction. If you like the site, please share it with friends and sign up for the newsletter.
+
+You can spend multiple lifetimes crawling every artifact and still have new stuff to investigate. There&apos;s art, science, architecture, design, research, sculpture, and I&apos;m adding more all the time. The goal is 1M+ artifacts; we&apos;ll be there soon. The archive will always be incomplete, but I&apos;ll continue to push to include more artifacts to create as well-rounded a picture of history as possible.
+" created="Mon, 01 Jun 2026 11:34:48 GMT" category="everymuseum,art,access,museum" />
     </outline>
     <outline text="music" title="music">
       <outline type="link" text="Thom Yorke and Stanley Donwood Plot a Mysterious Art Show in Venice" title="Thom Yorke and Stanley Donwood Plot a Mysterious Art Show in Venice" url="https://news.artnet.com/art-world/thom-yorke-stanley-donwood-venice-2767441" htmlUrl="https://news.artnet.com/art-world/thom-yorke-stanley-donwood-venice-2767441" description="Something cryptic is unfolding in Venice next month. Coinciding with the Venice Biennale, artists Thom Yorke and Stanley Donwood will unveil a new body of work in a small gallery on the Fondamenta dei Penini—except details are elusive. What can we expect? “Your guess is as good as ours,” Yorke told me over email." created="Sun, 26 Apr 2026 11:18:53 GMT" category="art,music,veinice-biennale,thom-yorke" />
@@ -5335,6 +5456,9 @@ The Digital Embassy Framework, spearheaded by the World Economic Forum and co-de
 " created="Thu, 11 Dec 2025 20:30:48 GMT" category="aws,free,cloud,tutorial,infrastructure,privacy,verification,opesec,agents,eff" />
     </outline>
     <outline text="opsec" title="opsec">
+      <outline type="link" text="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" title="23andMe inherits lawsuit over ‘disturbing’ DNA data breach" url="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" htmlUrl="https://www.theregister.com/legal/2026/05/29/rob-bonta-sues-23andmes-new-owners-over-2023-breach/5248565" description="&quot;The sale of this data on the dark web took place amidst a period of mounting anti-Asian American and Pacific Islander and antisemitic hate and violence – and explicitly called attention to the deeply personal and identifying nature of that information. This is disturbing and incredibly dangerous. Today, my office is suing 23andMe for its categorical failure to comply with California law.&quot;
+
+The lawsuit was filed against Chrome Holding Co., formerly known as 23andMe. TTAM Research Institute bought 23andMe&apos;s assets last year. TTAM Research Institute was founded and is led by Anne Wojcicki, who was also 23andMe&apos;s CEO at the time of the breach and one of the company&apos;s co-founders." created="Mon, 01 Jun 2026 11:36:20 GMT" category="23andme,lawsuit,dna,biometics,ethics,opsec,genetics" />
       <outline type="link" text="Company that Secretly Records and Publishes Zoom Meetings " title="Company that Secretly Records and Publishes Zoom Meetings " url="https://webinartv.us/" htmlUrl="https://webinartv.us/" description="Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly records them, and publishes the recordings. It doesn’t use the Zoom record feature, so Zoom can’t do anything about it." created="Fri, 03 Apr 2026 12:04:26 GMT" category="zoom,eithics,meetings,opsec,publishing" />
       <outline type="link" text="alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X" title="alright here’s every practical security tip i have on agents: Elvis (@elvissun) on X" url="https://x.com/elvissun/status/2028483837496635809" htmlUrl="https://x.com/elvissun/status/2028483837496635809" description="lright here’s every practical security tip i have on agents:
 
@@ -6076,6 +6200,13 @@ safeguards to ensure that humans, not artificial intelligence, remain responsibl
 
 " created="Sun, 26 Apr 2026 11:05:50 GMT" category="ai,religon,pope,doctrine" />
     </outline>
+    <outline text="remote" title="remote">
+      <outline type="link" text="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" title="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" url="https://hannesweissteiner.com/pdfs/frost.pdf" htmlUrl="https://hannesweissteiner.com/pdfs/frost.pdf" description="Abstract. Prior work showed that variations in SSD access time can be
+used to leak information about user activity, e.g., the websites a user accesses, and for covert data transmission. To achieve this, SSD contention
+side channels require accurate high-resolution timing measurements of
+I/O operations, e.g., through the io_uring kernel API. However, the
+impact of these attacks is limited in" created="Mon, 01 Jun 2026 11:47:12 GMT" category="fingerprinting,remote,ssd,storage" />
+    </outline>
     <outline text="report" title="report">
       <outline type="link" text="The state of AI in 2025: Agents, innovation, and transformation" title="The state of AI in 2025: Agents, innovation, and transformation" url="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/" htmlUrl="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/" description="Key findings
 
@@ -6612,6 +6743,13 @@ Unfortunately, there isn’t a currently a way to prevent AI-generated &quot;mus
       <outline type="link" text="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" title="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban" url="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" htmlUrl="https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/" description="Fedware: 13 Government Apps That Spy Harder Than the Apps They Ban
 The White House app ships with a sanctioned Chinese tracking SDK, the FBI app serves ads, and FEMA wants 28 permissions to show you weather alerts." created="Mon, 30 Mar 2026 20:45:10 GMT" category="fedware,government,apps,spy,ai,ethics,surveillance,privacy" />
     </outline>
+    <outline text="ssd" title="ssd">
+      <outline type="link" text="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" title="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" url="https://hannesweissteiner.com/pdfs/frost.pdf" htmlUrl="https://hannesweissteiner.com/pdfs/frost.pdf" description="Abstract. Prior work showed that variations in SSD access time can be
+used to leak information about user activity, e.g., the websites a user accesses, and for covert data transmission. To achieve this, SSD contention
+side channels require accurate high-resolution timing measurements of
+I/O operations, e.g., through the io_uring kernel API. However, the
+impact of these attacks is limited in" created="Mon, 01 Jun 2026 11:47:12 GMT" category="fingerprinting,remote,ssd,storage" />
+    </outline>
     <outline text="standards" title="standards">
       <outline type="link" text="Statement from Dario Amodei on our discussions with the Department of War" title="Statement from Dario Amodei on our discussions with the Department of War" url="https://www.anthropic.com/news/statement-department-of-war" htmlUrl="https://www.anthropic.com/news/statement-department-of-war" description="Regardless, these threats do not change our position: we cannot in good conscience accede to their request." created="Fri, 27 Feb 2026 12:08:09 GMT" category="statement,anthropic,government,state-deptment,democracy,standards" />
       <outline type="link" text="Claude’s new constitution" title="Claude’s new constitution" url="https://www.anthropic.com/news/claude-new-constitution" htmlUrl="https://www.anthropic.com/news/claude-new-constitution" description="A brief summary of the new constitution
@@ -6651,6 +6789,13 @@ The setup for this framing appears here:
     </outline>
     <outline text="stephen_miller" title="stephen_miller">
       <outline type="link" text="What happens to the art market when humanity stops mattering?" title="What happens to the art market when humanity stops mattering?" url="https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering" htmlUrl="https://www.theartnewspaper.com/2026/01/30/what-happens-to-art-when-humanity-stops-mattering" description="Loudest Voices on the Left, recently pointed out in an interview with the Nobel Prize-winning economist Paul Krugman that today’s technogarchs, unlike the Robber Barons of America’s Gilded Age, who built museums, libraries and concert halls for the wider community, “don’t think that they owe anybody anything”. Higgins added: “They don’t appreciate that they live in a society, and they don’t think that they have any obligation to the rest of society, or the rest of the country.”" created="Sun, 01 Feb 2026 00:29:23 GMT" category="humanity,culture,art,stephen_miller" />
+    </outline>
+    <outline text="storage" title="storage">
+      <outline type="link" text="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" title="FROST: Fingerprinting Remotely using OPFS-based SSD Timing" url="https://hannesweissteiner.com/pdfs/frost.pdf" htmlUrl="https://hannesweissteiner.com/pdfs/frost.pdf" description="Abstract. Prior work showed that variations in SSD access time can be
+used to leak information about user activity, e.g., the websites a user accesses, and for covert data transmission. To achieve this, SSD contention
+side channels require accurate high-resolution timing measurements of
+I/O operations, e.g., through the io_uring kernel API. However, the
+impact of these attacks is limited in" created="Mon, 01 Jun 2026 11:47:12 GMT" category="fingerprinting,remote,ssd,storage" />
     </outline>
     <outline text="stories" title="stories">
       <outline type="link" text="IFComp 2025" title="IFComp 2025" url="https://ifcomp.org/comp/2025" htmlUrl="https://ifcomp.org/comp/2025" description="Winners of The Interactive Fiction Competition - An annual celebration of new, text-driven digital games and stories from independent creators." created="Sat, 01 Nov 2025 16:22:01 GMT" category="list,fiction,stories,competition" />
@@ -6886,6 +7031,11 @@ Financial news channels have been removed to focus on breaking news." created="T
     </outline>
     <outline text="test" title="test">
       <outline type="link" text="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" title="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" url="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" htmlUrl="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" description="“Anthropic calls this an “uncomfortable implication:” when agents of different strengths meet in real markets, people could end up on the losing side without ever knowing it. The company admits the experiment wasn’t built to dig into these dynamics in detail and says more research is needed.”" created="Sun, 26 Apr 2026 11:09:04 GMT" category="anthropic,internal,test,agents,ai,trust" />
+    </outline>
+    <outline text="tether" title="tether">
+      <outline type="link" text="In northern Ukraine, it was boy vs. Russian drone. The boy won." title="In northern Ukraine, it was boy vs. Russian drone. The boy won." url="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" htmlUrl="https://www.washingtonpost.com/world/2026/05/15/russian-drones-hunt-ukrainians-human-safari-boy-fought-back/" description="Anatolii and his father, Volodymyr Poltoratskyi, 49, had started noticing the glinting gossamer threads a few months earlier. 
+
+“In winter, it’s actually beautiful in its own way,” Poltoratskyi said. “They hang across the road and on the trees like garlands, and frost forms on them.”" created="Mon, 01 Jun 2026 11:42:54 GMT" category="drone,defense,method,tether" />
     </outline>
     <outline text="texans" title="texans">
       <outline type="link" text="Samsung TVs to stop collecting Texans’ data without express consent" title="Samsung TVs to stop collecting Texans’ data without express consent" url="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" htmlUrl="https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/" description="As part of the agreement, the TV manufacturer will revise its privacy disclosures to clearly explain its data collection and processing practices to consumers." created="Tue, 03 Mar 2026 11:08:44 GMT" category="samsung,texans,surveillance,privacy,television,tv" />
