@@ -3,7 +3,7 @@
     {
       "id": 1780662162546,
       "url": "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501",
-      "source": "ajph.aphapublications.org",
+      "source": "Ultra-Processed Foods in the Global Food System: The Role of US Tobacco Companies",
       "pullQuote": "Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal",
       "tags": [
         "ajph",
@@ -15,7 +15,7 @@
       ],
       "isPinned": false,
       "timestamp": "2026-06-05T12:22:42.546Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1780662006626,
@@ -7495,5 +7495,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-05T12:22:42.593Z"
+  "lastUpdated": "2026-06-05T12:36:35.226Z"
 }
