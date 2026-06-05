@@ -1,54 +1,6 @@
 {
   "links": [
     {
-      "id": 1780662162546,
-      "url": "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501",
-      "source": "ajph.aphapublications.org",
-      "pullQuote": "Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal",
-      "tags": [
-        "ajph",
-        "aphapublications",
-        "health",
-        "tobacco",
-        "public-health",
-        "addiction"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-06-05T12:22:42.546Z",
-      "visits": 0
-    },
-    {
-      "id": 1780662006626,
-      "url": "https://committees.parliament.uk/publications/53352/documents/298462/default/",
-      "source": "Rewiring the state: Delivering digital government",
-      "pullQuote": "Our inquiry identified four building blocks for successful digital\ntransformation, and four barriers to realising its benefits. The building\nblocks are:\n• Money: Money is undoubtedly being spent on digital initiatives but\ninadequate data on digital spend prevents the government from\nmaking informed decisions or holding those responsible to account.\n• People: The public sector needs more of the right people to deliver\ndigital transformation of the state, and cultural change to ensure skills\nare valued and embedded in leadership levels.\n• Information and data security: The current government is not holding\nitself to the standards of information security needed to secure public\ntrust, or to prevent massive data breaches from happening again.\n• Delivery: The government has a vision but needs a plan to deliver\nit. There is still time to turn things around but without a detailed,\nmeasurable plan, this digital transformation agenda may not succe",
-      "tags": [
-        "uk",
-        "government",
-        "science",
-        "technology",
-        "pdf"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-06-05T12:20:06.626Z",
-      "visits": 0
-    },
-    {
-      "id": 1780661934843,
-      "url": "https://arxiv.org/pdf/2606.03811",
-      "source": "AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811",
-      "pullQuote": "A computer worm is malware that spreads on a network by replicating itself from one machine to\nanother. Traditional worms, like WannaCry, exploited predetermined vulnerabilities, and their spread\ncan be halted by patching those vulnerabilities. Here we show that artificial intelligence (AI) agents\nenable a fundamentally new threat: a worm that generates tailored attack strategies to each target\nit encounters. The worm parasitically uses compromised machines to run open-weight large language\nmodels (LLMs) to sustain its reasoning, or extend its reach for further attacks. Deployed on a network\nof machines spanning Linux, Windows, and IoT (Internet of Things) devices, the worm propagated\nby exploiting common, real-world corporate network vulnerabilities. Since the worm is powered\nby stolen compute, the attacker’s marginal cost per new infection is zero. This creates a destabilizing\neconomic asymmetry between attackers and defenders. Moreover, because the worm requires no\ncommercial AI platform, centralized safety controls, such as service refusals or rate limiting, are\nstructurally irrelevant. Our results demonstrate that self-sustaining AI-driven cyber-threats are no\nlonger theoretical. We must prepare for autonomous generative adversaries: malware systems that\npropagate without human operators and are defined not by fixed exploit code, but by the capacity\nto reason about targets, adapt to observations, and synthesize attack logic in real time.",
-      "tags": [
-        "agents",
-        "adaptive",
-        "worms",
-        "viri"
-      ],
-      "isPinned": false,
-      "timestamp": "2026-06-05T12:18:54.843Z",
-      "visits": 0
-    },
-    {
       "id": 1780661704431,
       "url": "https://github.com/anthropics/defending-code-reference-harness",
       "source": "GitHub - anthropics/defending-code-reference-harness: Skills for threat modeling, scanning, triage, patching, plus an au",
@@ -7495,5 +7447,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-05T12:22:42.593Z"
+  "lastUpdated": "2026-06-05T12:15:04.482Z"
 }
