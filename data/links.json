@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1780661704431,
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "source": "GitHub - anthropics/defending-code-reference-harness: Skills for threat modeling, scanning, triage, patching, plus an au",
+      "pullQuote": "Defending Code Reference Harness\nA reference implementation for autonomous vulnerability discovery and remediation with Claude, based on our learnings from partnering with security teams at several organizations since launching Claude Mythos Preview. For a write up of these learnings along with best practices, see the accompanying blog post (also available in blog-post.md). For a lightweight SDK-only walkthrough of the same recon → find → triage → report → patch loop, see the companion cookbook.",
+      "tags": [
+        "anthropics",
+        "threat",
+        "ai",
+        "opsec",
+        "code"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-05T12:15:04.431Z",
+      "visits": 0
+    },
+    {
       "id": 1780314432223,
       "url": "https://hannesweissteiner.com/pdfs/frost.pdf",
       "source": "FROST: Fingerprinting Remotely using OPFS-based SSD Timing",
@@ -7431,5 +7447,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-01T11:51:24.842Z"
+  "lastUpdated": "2026-06-05T12:15:04.482Z"
 }
