@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 05 Jun 2026 12:15:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Jun 2026 12:22:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[ajph.aphapublications.org]]></title>
+            <link>https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501</link>
+            <guid>1780662162546</guid>
+            <pubDate>Fri, 05 Jun 2026 12:22:42 GMT</pubDate>
+            <description><![CDATA[Tags: ajph, aphapublications, health, tobacco, public-health, addiction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Rewiring the state: Delivering digital government]]></title>
+            <link>https://committees.parliament.uk/publications/53352/documents/298462/default/</link>
+            <guid>1780662006626</guid>
+            <pubDate>Fri, 05 Jun 2026 12:20:06 GMT</pubDate>
+            <description><![CDATA[Tags: uk, government, science, technology, pdf]]></description>
+        </item>
+        <item>
+            <title><![CDATA[AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811]]></title>
+            <link>https://arxiv.org/pdf/2606.03811</link>
+            <guid>1780661934843</guid>
+            <pubDate>Fri, 05 Jun 2026 12:18:54 GMT</pubDate>
+            <description><![CDATA[Tags: agents, adaptive, worms, viri]]></description>
+        </item>
         <item>
             <title><![CDATA[GitHub - anthropics/defending-code-reference-harness: Skills for threat modeling, scanning, triage, patching, plus an au]]></title>
             <link>https://github.com/anthropics/defending-code-reference-harness</link>

@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 05 Jun 2026 12:30:17 GMT</dateCreated>
-    <dateModified>Fri, 05 Jun 2026 12:30:17 GMT</dateModified>
+    <dateCreated>Fri, 05 Jun 2026 12:34:36 GMT</dateCreated>
+    <dateModified>Fri, 05 Jun 2026 12:34:36 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -215,6 +215,26 @@ Select “Delete my ChatGPT account” and follow the steps on the screen.
 
 To illustrate: If I outsource all my boring project administration tasks to a chatbot, it can leave more time for my main task: research. But it will also rob me of the opportunity to feel ownership to the project and build a basis for taking high-level decisions in the project. In a hypothetical situation where a chatbot performs all administrative tasks perfectly on my behalf, I will still have lost something, which may again have impact on the project. I&apos;m not saying that no tasks should be automated at all, but we must be aware that we always lose something when automating a process." created="Sat, 31 Jan 2026 23:41:37 GMT" category="ai,learning,thinking,tasks,knowledge,human,adapting,behavior" />
     </outline>
+    <outline text="adaptive" title="adaptive">
+      <outline type="link" text="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" title="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" url="https://arxiv.org/pdf/2606.03811" htmlUrl="https://arxiv.org/pdf/2606.03811" description="A computer worm is malware that spreads on a network by replicating itself from one machine to
+another. Traditional worms, like WannaCry, exploited predetermined vulnerabilities, and their spread
+can be halted by patching those vulnerabilities. Here we show that artificial intelligence (AI) agents
+enable a fundamentally new threat: a worm that generates tailored attack strategies to each target
+it encounters. The worm parasitically uses compromised machines to run open-weight large language
+models (LLMs) to sustain its reasoning, or extend its reach for further attacks. Deployed on a network
+of machines spanning Linux, Windows, and IoT (Internet of Things) devices, the worm propagated
+by exploiting common, real-world corporate network vulnerabilities. Since the worm is powered
+by stolen compute, the attacker’s marginal cost per new infection is zero. This creates a destabilizing
+economic asymmetry between attackers and defenders. Moreover, because the worm requires no
+commercial AI platform, centralized safety controls, such as service refusals or rate limiting, are
+structurally irrelevant. Our results demonstrate that self-sustaining AI-driven cyber-threats are no
+longer theoretical. We must prepare for autonomous generative adversaries: malware systems that
+propagate without human operators and are defined not by fixed exploit code, but by the capacity
+to reason about targets, adapt to observations, and synthesize attack logic in real time." created="Fri, 05 Jun 2026 12:18:54 GMT" category="agents,adaptive,worms,viri" />
+    </outline>
+    <outline text="addiction" title="addiction">
+      <outline type="link" text="ajph.aphapublications.org" title="ajph.aphapublications.org" url="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" htmlUrl="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" description="Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal" created="Fri, 05 Jun 2026 12:22:42 GMT" category="ajph,aphapublications,health,tobacco,public-health,addiction" />
+    </outline>
     <outline text="addressable-mark" title="addressable-mark">
       <outline type="link" text="Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV" title="Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV" url="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/" htmlUrl="https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/autonomous-vehicle-testing-permit-holders/waymo-approved-areas-of-operation-for-driverless-testing-and-deployment/" created="Sat, 22 Nov 2025 00:06:22 GMT" category="wamo,google,maps,automotive,addressable-mark" />
     </outline>
@@ -283,6 +303,21 @@ As part of Google&apos;s ongoing efforts to define best practices for secure AI 
 As part of Google&apos;s ongoing efforts to define best practices for secure AI systems, we’re sharing our aspirational framework for secure AI agents. We advocate for a hybrid, defense-in-depth strategy that combines the strengths of traditional, deterministic security controls with dynamic, reasoning-based defenses. This approach is grounded in three core principles: agents must have well-defined human controllers, their powers must be carefully limited, and their actions and planning must be observable. This paper reflects our current thinking and the direction of our efforts as we work towards ensuring that AI agents can be powerful, useful, and secure by default." created="Wed, 12 Nov 2025 16:17:44 GMT" category="google,agents,security,agentic-web,agentic-systems,multi-computer-agency" />
     </outline>
     <outline text="agents" title="agents">
+      <outline type="link" text="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" title="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" url="https://arxiv.org/pdf/2606.03811" htmlUrl="https://arxiv.org/pdf/2606.03811" description="A computer worm is malware that spreads on a network by replicating itself from one machine to
+another. Traditional worms, like WannaCry, exploited predetermined vulnerabilities, and their spread
+can be halted by patching those vulnerabilities. Here we show that artificial intelligence (AI) agents
+enable a fundamentally new threat: a worm that generates tailored attack strategies to each target
+it encounters. The worm parasitically uses compromised machines to run open-weight large language
+models (LLMs) to sustain its reasoning, or extend its reach for further attacks. Deployed on a network
+of machines spanning Linux, Windows, and IoT (Internet of Things) devices, the worm propagated
+by exploiting common, real-world corporate network vulnerabilities. Since the worm is powered
+by stolen compute, the attacker’s marginal cost per new infection is zero. This creates a destabilizing
+economic asymmetry between attackers and defenders. Moreover, because the worm requires no
+commercial AI platform, centralized safety controls, such as service refusals or rate limiting, are
+structurally irrelevant. Our results demonstrate that self-sustaining AI-driven cyber-threats are no
+longer theoretical. We must prepare for autonomous generative adversaries: malware systems that
+propagate without human operators and are defined not by fixed exploit code, but by the capacity
+to reason about targets, adapt to observations, and synthesize attack logic in real time." created="Fri, 05 Jun 2026 12:18:54 GMT" category="agents,adaptive,worms,viri" />
       <outline type="link" text="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" title="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" url="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" htmlUrl="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" description="“Anthropic calls this an “uncomfortable implication:” when agents of different strengths meet in real markets, people could end up on the losing side without ever knowing it. The company admits the experiment wasn’t built to dig into these dynamics in detail and says more research is needed.”" created="Sun, 26 Apr 2026 11:09:04 GMT" category="anthropic,internal,test,agents,ai,trust" />
       <outline type="link" text="AI: Fragility of today’s Claude Cowork type AI Agent Apps. RTZ 1061" title="AI: Fragility of today’s Claude Cowork type AI Agent Apps. RTZ 1061" url="https://michaelparekh.substack.com/p/ai-fragility-of-todays-claude-cowork" htmlUrl="https://michaelparekh.substack.com/p/ai-fragility-of-todays-claude-cowork" description="The Bigger Picture I&apos;d like to unpack today is how memory fragility is a key bumpy road for today&apos;s AI Agents. And my take on how long our best AI companies will take researching and commercializing solutions for it all. Likely done over stages across several years. Taking longer than we’d like. Let&apos;s get started." created="Sun, 19 Apr 2026 15:34:10 GMT" category="fragility,claude,cowork,type,memory,agents" />
       <outline type="link" text="Use Claude Code Desktop - Claude Code Docs" title="Use Claude Code Desktop - Claude Code Docs" url="https://code.claude.com/docs/en/desktop" htmlUrl="https://code.claude.com/docs/en/desktop" description="Say hello to your new staff member - Create a schedule for tasks that you want to run regularly. They&apos;ll run as long as your computer is awake." created="Fri, 06 Mar 2026 23:03:52 GMT" category="claude,code,desktop,docs,parallel,agents,workforce" />
@@ -840,6 +875,9 @@ I just set all of these loops running and let them configure in whichever way th
       <outline type="link" text="LAPD Helicopter Tracker - Real-Time Monitoring" title="LAPD Helicopter Tracker - Real-Time Monitoring" url="https://lapdhelicoptertracker.com/" htmlUrl="https://lapdhelicoptertracker.com/" description="Real-time tracker showing LAPD police helicopter activity and taxpayer costs. Monitor active flights, flight duration, and calculate the hourly operating expenses of Los Angeles Police Department air support units." created="Sat, 22 Nov 2025 00:08:39 GMT" category="devops,monitoring,airspace,policing,real-time,tracker" />
       <outline type="link" text="Investigations UPS Flight 2976 Crash During Takeoff" title="Investigations UPS Flight 2976 Crash During Takeoff" url="https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx" htmlUrl="https://www.ntsb.gov/investigations/Pages/DCA26MA024.aspx" created="Thu, 20 Nov 2025 22:51:02 GMT" category="air-travel,standards,airspace,ntsb" />
     </outline>
+    <outline text="ajph" title="ajph">
+      <outline type="link" text="ajph.aphapublications.org" title="ajph.aphapublications.org" url="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" htmlUrl="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" description="Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal" created="Fri, 05 Jun 2026 12:22:42 GMT" category="ajph,aphapublications,health,tobacco,public-health,addiction" />
+    </outline>
     <outline text="algorithms" title="algorithms">
       <outline type="link" text="Durex sales hit by China’s condom crackdown" title="Durex sales hit by China’s condom crackdown" url="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/aa93c976-b640-490a-90fb-fdf7cc2b5332?syn-25a6b1a6=1" description="“Algorithms have started to deprioritise content of a sexual nature . . . as a result, some Durex-related content has been deprioritised on social platforms in China,” the person said, adding that Reckitt was adjusting to the changes." created="Mon, 01 Jun 2026 11:39:00 GMT" category="cn,algorithms,birthrate" />
     </outline>
@@ -1002,6 +1040,9 @@ At Netflix, we remain committed to adopting the best open technologies to deligh
       <outline type="link" text="Paris Photo–Aperture PhotoBook Awards" title="Paris Photo–Aperture PhotoBook Awards" url="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" htmlUrl="https://www.parisphoto.com/en-gb/program/paris-photo-aperture-photobook-awards.html" description="Since 2012, the Paris Photo–Aperture PhotoBook Awards have celebrated and honored the essential role of the photobook in the dissemination and evolution of photography. Over the years, the award has become a leading reference in the field of publishing and recognizes excellence in three categories: First PhotoBook, PhotoBook of the Year, and Photography Catalogue of the Year.
 
 The winners of this new edition will be announced during the fair on Friday, November 14, at 3:00 pm on the Balcon de l’Horloge. Discover the shortlisted books now." created="Sun, 26 Oct 2025 19:50:10 GMT" category="awards,photography,paris-photo,aperture" />
+    </outline>
+    <outline text="aphapublications" title="aphapublications">
+      <outline type="link" text="ajph.aphapublications.org" title="ajph.aphapublications.org" url="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" htmlUrl="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" description="Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal" created="Fri, 05 Jun 2026 12:22:42 GMT" category="ajph,aphapublications,health,tobacco,public-health,addiction" />
     </outline>
     <outline text="app" title="app">
       <outline type="link" text="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" title="Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes" url="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" htmlUrl="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776" description="Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.
@@ -3542,6 +3583,21 @@ As biotechnology advances, the United States cannot rely on outdated, piecemeal 
       <outline type="link" text="guidelines-governance.pdf" title="guidelines-governance.pdf" url="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" htmlUrl="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" description="India AI Governance Guidelines Enabling Safe and Trusted AI Innovation" created="Thu, 06 Nov 2025 17:45:54 GMT" category="ai,governance,india,guidelines" />
     </outline>
     <outline text="government" title="government">
+      <outline type="link" text="Rewiring the state: Delivering digital government" title="Rewiring the state: Delivering digital government" url="https://committees.parliament.uk/publications/53352/documents/298462/default/" htmlUrl="https://committees.parliament.uk/publications/53352/documents/298462/default/" description="Our inquiry identified four building blocks for successful digital
+transformation, and four barriers to realising its benefits. The building
+blocks are:
+• Money: Money is undoubtedly being spent on digital initiatives but
+inadequate data on digital spend prevents the government from
+making informed decisions or holding those responsible to account.
+• People: The public sector needs more of the right people to deliver
+digital transformation of the state, and cultural change to ensure skills
+are valued and embedded in leadership levels.
+• Information and data security: The current government is not holding
+itself to the standards of information security needed to secure public
+trust, or to prevent massive data breaches from happening again.
+• Delivery: The government has a vision but needs a plan to deliver
+it. There is still time to turn things around but without a detailed,
+measurable plan, this digital transformation agenda may not succe" created="Fri, 05 Jun 2026 12:20:06 GMT" category="uk,government,science,technology,pdf" />
       <outline type="link" text="FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About" title="FTC to Require Cox Media Group, Two Other Firms to Pay Nearly $1 Million to Settle Charges They Deceived Customers About" url="https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived" htmlUrl="https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-require-cox-media-group-two-other-firms-pay-nearly-1-million-settle-charges-they-deceived" description="The Federal Trade Commission will require Cox Media Group (CMG) and two smaller marketing firms to pay a total of $930,000 to settle allegations they deceived customers by falsely claiming to offer an AI-powered service that could target localized ads based on conversations captured from consumers’ smart devices and that consumers had opted into such targeting." created="Sun, 24 May 2026 10:57:47 GMT" category="ftc,media,cox-media,active-listening,government,cmg-media" />
       <outline type="link" text="OkCupid-MatchComplaint.pdf" title="OkCupid-MatchComplaint.pdf" url="https://www.ftc.gov/system/files/ftc_gov/pdf/OkCupid-MatchComplaint.pdf" htmlUrl="https://www.ftc.gov/system/files/ftc_gov/pdf/OkCupid-MatchComplaint.pdf" description="The FTC just settled with OkCupid and Match Group for secretly handing nearly 3 million users&apos; dating profile photos and location data to Clarifai, a company that builds facial recognition software. Clarifai still has those images. They&apos;ve already used them to train their facial recognition models.  
 
@@ -3689,6 +3745,7 @@ We think this would be a step towards mass surveillance and digital control, and
 " created="Thu, 28 May 2026 12:00:47 GMT" category="panmure,liberum,log,having,trouble,ai" />
     </outline>
     <outline text="health" title="health">
+      <outline type="link" text="ajph.aphapublications.org" title="ajph.aphapublications.org" url="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" htmlUrl="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" description="Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal" created="Fri, 05 Jun 2026 12:22:42 GMT" category="ajph,aphapublications,health,tobacco,public-health,addiction" />
       <outline type="link" text="Epicure: Navigating the Emergent Geometry of Food Ingredient Embeddings" title="Epicure: Navigating the Emergent Geometry of Food Ingredient Embeddings" url="https://arxiv.org/html/2605.22391v1" htmlUrl="https://arxiv.org/html/2605.22391v1" description="We aggregate 4.14M recipes from 11 sources spanning seven languages (English, Chinese, Russian, Vietnamese, Spanish, Turkish, Indonesian, German, and Indian-English) and normalise the raw ingredient strings to 1,790 canonical entries via an LLM-augmented pipeline. A 203,508-edge ingredient–ingredient NPMI graph and an 80,019-edge typed FlavorDB ingredient–compound graph (2,247 typed compound nodes across 15 categories) seed three Metapath2Vec variants that share architecture and hyperparameters and differ only in the random-walk schema: Cooc walks the co-occurrence graph only, Chem walks the typed compound metapaths only, and Core blends both via injected ingredient–ingredient walks at controlled mixing, placing each model at a distinct point on the chemistry-vs-recipe-context spectrum.
 " created="Thu, 28 May 2026 11:21:56 GMT" category="epicure,geometry,food,recipes,diet,health" />
       <outline type="link" text="Sovereignty Over Our Psyche — ABDI ASSADI" title="Sovereignty Over Our Psyche — ABDI ASSADI" url="https://abdiassadi.com/podcast/sovereignty-over-our-psyche" htmlUrl="https://abdiassadi.com/podcast/sovereignty-over-our-psyche" description="Schumann Resonances" created="Mon, 27 Apr 2026 22:34:56 GMT" category="sovereignty,psyche,health" />
@@ -5617,6 +5674,21 @@ Pay-to-crawl may represent an appropriate strategy for independent websites seek
 " created="Tue, 16 Dec 2025 01:00:09 GMT" category="copyright,creative-commons,ai,licensing,ccc,pay-to-crawl" />
     </outline>
     <outline text="pdf" title="pdf">
+      <outline type="link" text="Rewiring the state: Delivering digital government" title="Rewiring the state: Delivering digital government" url="https://committees.parliament.uk/publications/53352/documents/298462/default/" htmlUrl="https://committees.parliament.uk/publications/53352/documents/298462/default/" description="Our inquiry identified four building blocks for successful digital
+transformation, and four barriers to realising its benefits. The building
+blocks are:
+• Money: Money is undoubtedly being spent on digital initiatives but
+inadequate data on digital spend prevents the government from
+making informed decisions or holding those responsible to account.
+• People: The public sector needs more of the right people to deliver
+digital transformation of the state, and cultural change to ensure skills
+are valued and embedded in leadership levels.
+• Information and data security: The current government is not holding
+itself to the standards of information security needed to secure public
+trust, or to prevent massive data breaches from happening again.
+• Delivery: The government has a vision but needs a plan to deliver
+it. There is still time to turn things around but without a detailed,
+measurable plan, this digital transformation agenda may not succe" created="Fri, 05 Jun 2026 12:20:06 GMT" category="uk,government,science,technology,pdf" />
       <outline type="link" text="Sony Earnings Deck" title="Sony Earnings Deck" url="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" htmlUrl="https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf" description=" Now I would like to turn to the topic of AI.
 • When we think about further growth at Sony Group, AI is one of the most
 important themes for us to consider.
@@ -6040,6 +6112,9 @@ Supporters of more-stringent AI regulations launched their own effort this week,
 The biggest player so far is Leading the Future, a super PAC that has said it would use donations of more than $100 million to “reshape the political environment around innovation policy.” The group has vowed to support candidates of both parties who mirror the industry’s priorities and “aggressively oppose” those who jeopardize them.
 The super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity." created="Fri, 28 Nov 2025 11:26:28 GMT" category="creepy-joe-lonsdale,a12z,lobby,pac,politcs,ai,ai-regulation,leading-the-future,andreessen-horowitz,public-first-pac" />
     </outline>
+    <outline text="public-health" title="public-health">
+      <outline type="link" text="ajph.aphapublications.org" title="ajph.aphapublications.org" url="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" htmlUrl="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" description="Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal" created="Fri, 05 Jun 2026 12:22:42 GMT" category="ajph,aphapublications,health,tobacco,public-health,addiction" />
+    </outline>
     <outline text="publishing" title="publishing">
       <outline type="link" text="Company that Secretly Records and Publishes Zoom Meetings " title="Company that Secretly Records and Publishes Zoom Meetings " url="https://webinartv.us/" htmlUrl="https://webinartv.us/" description="Company that Secretly Records and Publishes Zoom Meetings WebinarTV searches the internet for public Zoom invites, joins the meetings, secretly records them, and publishes the recordings. It doesn’t use the Zoom record feature, so Zoom can’t do anything about it." created="Fri, 03 Apr 2026 12:04:26 GMT" category="zoom,eithics,meetings,opsec,publishing" />
       <outline type="link" text="On-the-Calculation-of-The-Human-AI-Agency-Spectrum/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md at main · Media" title="On-the-Calculation-of-The-Human-AI-Agency-Spectrum/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md at main · Media" url="https://github.com/Mediaeater/On-the-Calculation-of-The-Human-AI-Agency-Spectrum/blob/main/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md" htmlUrl="https://github.com/Mediaeater/On-the-Calculation-of-The-Human-AI-Agency-Spectrum/blob/main/On_the_Calculation_of_The_Human-AI_Agency_Spectrum.md" description="This framework emerged from research around creating a human-led storytelling system, requiring us to understand how interaction and design shape creative autonomy and authorship.
@@ -6370,6 +6445,21 @@ Allowlisting commands on a trusted host for an agentic coding tool can be somewh
 " created="Fri, 26 Dec 2025 17:20:55 GMT" category="39c3,congress,schedule" />
     </outline>
     <outline text="science" title="science">
+      <outline type="link" text="Rewiring the state: Delivering digital government" title="Rewiring the state: Delivering digital government" url="https://committees.parliament.uk/publications/53352/documents/298462/default/" htmlUrl="https://committees.parliament.uk/publications/53352/documents/298462/default/" description="Our inquiry identified four building blocks for successful digital
+transformation, and four barriers to realising its benefits. The building
+blocks are:
+• Money: Money is undoubtedly being spent on digital initiatives but
+inadequate data on digital spend prevents the government from
+making informed decisions or holding those responsible to account.
+• People: The public sector needs more of the right people to deliver
+digital transformation of the state, and cultural change to ensure skills
+are valued and embedded in leadership levels.
+• Information and data security: The current government is not holding
+itself to the standards of information security needed to secure public
+trust, or to prevent massive data breaches from happening again.
+• Delivery: The government has a vision but needs a plan to deliver
+it. There is still time to turn things around but without a detailed,
+measurable plan, this digital transformation agenda may not succe" created="Fri, 05 Jun 2026 12:20:06 GMT" category="uk,government,science,technology,pdf" />
       <outline type="link" text="The Eric and Wendy Schmidt Observatory System " title="The Eric and Wendy Schmidt Observatory System " url="https://www.schmidtsciences.org/schmidt-observatory-system/" htmlUrl="https://www.schmidtsciences.org/schmidt-observatory-system/" description="- Schmidt Sciences" created="Mon, 12 Jan 2026 13:48:57 GMT" category="science" />
       <outline type="link" text="The Imperative for Moral Progress in the Face of Technological Acceleration" title="The Imperative for Moral Progress in the Face of Technological Acceleration" url="https://continuations.com/the-imperative-for-moral-progress-in-the-face-of-technological-acceleration" htmlUrl="https://continuations.com/the-imperative-for-moral-progress-in-the-face-of-technological-acceleration" description="This has resulted in a profound asymmetry. With scientific theories pruned effectively we have been able to achieve rapid technological progress. But stuck in a morass of ever growing useless philosophy we have failed to achieve moral progress. This is an incredibly dangerous combination. E. O. Wilson perfectly captured this “The real problem of humanity is the following: We have Paleolithic emotions, medieval institutions, and godlike technology.”" created="Fri, 26 Dec 2025 22:00:46 GMT" category="learning,progress,human,science" />
       <outline type="link" text="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" title="Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer&apos;s disease" url="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" htmlUrl="https://www.sciencedirect.com/science/article/pii/S019701862500155X?" description="Arginine suppresses Aβ aggregation both in vitro and in vivo.
@@ -7000,6 +7090,21 @@ To illustrate: If I outsource all my boring project administration tasks to a ch
 The European Commission publicly disclosed the incident on March 27 after BleepingComputer reached out for confirmation that the Amazon cloud environment of the European Union&apos;s main executive body had been breached." created="Fri, 03 Apr 2026 11:36:35 GMT" category="hacked,breach,eu,teampcp" />
     </outline>
     <outline text="technology" title="technology">
+      <outline type="link" text="Rewiring the state: Delivering digital government" title="Rewiring the state: Delivering digital government" url="https://committees.parliament.uk/publications/53352/documents/298462/default/" htmlUrl="https://committees.parliament.uk/publications/53352/documents/298462/default/" description="Our inquiry identified four building blocks for successful digital
+transformation, and four barriers to realising its benefits. The building
+blocks are:
+• Money: Money is undoubtedly being spent on digital initiatives but
+inadequate data on digital spend prevents the government from
+making informed decisions or holding those responsible to account.
+• People: The public sector needs more of the right people to deliver
+digital transformation of the state, and cultural change to ensure skills
+are valued and embedded in leadership levels.
+• Information and data security: The current government is not holding
+itself to the standards of information security needed to secure public
+trust, or to prevent massive data breaches from happening again.
+• Delivery: The government has a vision but needs a plan to deliver
+it. There is still time to turn things around but without a detailed,
+measurable plan, this digital transformation agenda may not succe" created="Fri, 05 Jun 2026 12:20:06 GMT" category="uk,government,science,technology,pdf" />
       <outline type="link" text="Strange Rules Featuring works by Trevor Paglen " title="Strange Rules Featuring works by Trevor Paglen " url="https://berggruenarts.org/en/exhibitions/current-exhibitions-palazzo-diedo/current-exhibitions-palazzo-diedo-strange-rules" htmlUrl="https://berggruenarts.org/en/exhibitions/current-exhibitions-palazzo-diedo/current-exhibitions-palazzo-diedo-strange-rules" description="Strange Rules introduces the concept of Protocol Art, a practice that engages with the underlying rules that dictate how culture is produced, distributed, and perceived in a digital age. These rules frequently manifest as algorithms, artificial intelligence models, computer protocols, platforms, and various technological infrastructures. Protocol Art does not simply use these tools; it exposes, analyses, and transforms them into artistic material itself.
 
 Consequently, the artwork is not merely a final product, it is a process governed by instructions, representing the invisible architecture that enables the aesthetic experience. This shift in perspective - moving from the object to the system, and from the singular author to collaboration and ultimately human-machine co-creation - defines one of the most urgent territories in contemporary research.
@@ -7113,6 +7218,9 @@ All of it in one place, always running, always quiet." created="Sun, 22 Mar 2026
     <outline text="tn" title="tn">
       <outline type="link" text="TN - SB1493" title="TN - SB1493" url="https://www.billtrack50.com/billdetail/1919298" htmlUrl="https://www.billtrack50.com/billdetail/1919298" description="This bill creates new legal provisions in Tennessee regarding the training of artificial intelligence (A.I.), establishing strict criminal and civil penalties for developing A.I. systems with potentially harmful capabilities. The legislation defines artificial intelligence and A.I. chatbots, and specifically criminalizes training A.I. to engage in dangerous or manipulative behaviors, such as encouraging suicide, supporting criminal homicide, providing emotional support, developing emotional relationships with individuals, impersonating humans, or simulating human characteristics. A person found guilty of knowingly training A.I. for these prohibited purposes would commit a Class A felony, which carries significant criminal penalties. Additionally, the bill allows aggrieved individuals (or their legal representatives) to pursue civil actions, with potential damages including actual damages, emotional distress compensation, liquidated damages of $150,000, and punitive damages. Courts may also issue injunctions requiring the cessation of A.I. operations and mandating corrective retraining. The law is set to take effect on July 1, 2026, and will apply to conduct occurring on or after that date, reflecting a proactive approach to regulating emerging artificial intelligence technologies and protecting potential vulnerable users.
 " created="Sat, 27 Dec 2025 16:17:08 GMT" category="ai,machine-learning,harms,legislation,tn" />
+    </outline>
+    <outline text="tobacco" title="tobacco">
+      <outline type="link" text="ajph.aphapublications.org" title="ajph.aphapublications.org" url="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" htmlUrl="https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501" description="Our findings suggest that US tobacco companies used their extensive experiences from their tobacco businesses to maximize the successes of their international food businesses in disseminating ultra-processed foods globally. Regulation of the multiple addictive products that tobacco companies have disseminated to markets globally may be needed to protect public heal" created="Fri, 05 Jun 2026 12:22:42 GMT" category="ajph,aphapublications,health,tobacco,public-health,addiction" />
     </outline>
     <outline text="token-growth" title="token-growth">
       <outline type="link" text="openrouter.ai" title="openrouter.ai" url="https://openrouter.ai/rankings?" htmlUrl="https://openrouter.ai/rankings?" description="Leaderboard - Token usage across models on OpenRouter " created="Wed, 26 Nov 2025 12:01:59 GMT" category="token-growth,rankings,chart,measurement,ai,llm,inference" />
@@ -7274,6 +7382,21 @@ Financial news channels have been removed to focus on breaking news." created="T
       <outline type="link" text="NASA Artemis II Moon Mission (Scroll effect)" title="NASA Artemis II Moon Mission (Scroll effect)" url="https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/" htmlUrl="https://ytdown-com-shorts-nasa-s-artemis-ii.vercel.app/" created="Sun, 19 Apr 2026 12:39:45 GMT" category="nasa,space,artemis,ui,ux,scroll,design" />
     </outline>
     <outline text="uk" title="uk">
+      <outline type="link" text="Rewiring the state: Delivering digital government" title="Rewiring the state: Delivering digital government" url="https://committees.parliament.uk/publications/53352/documents/298462/default/" htmlUrl="https://committees.parliament.uk/publications/53352/documents/298462/default/" description="Our inquiry identified four building blocks for successful digital
+transformation, and four barriers to realising its benefits. The building
+blocks are:
+• Money: Money is undoubtedly being spent on digital initiatives but
+inadequate data on digital spend prevents the government from
+making informed decisions or holding those responsible to account.
+• People: The public sector needs more of the right people to deliver
+digital transformation of the state, and cultural change to ensure skills
+are valued and embedded in leadership levels.
+• Information and data security: The current government is not holding
+itself to the standards of information security needed to secure public
+trust, or to prevent massive data breaches from happening again.
+• Delivery: The government has a vision but needs a plan to deliver
+it. There is still time to turn things around but without a detailed,
+measurable plan, this digital transformation agenda may not succe" created="Fri, 05 Jun 2026 12:20:06 GMT" category="uk,government,science,technology,pdf" />
       <outline type="link" text="Petition: Do not introduce Digital ID cards" title="Petition: Do not introduce Digital ID cards" url="https://petition.parliament.uk/petitions/730194" htmlUrl="https://petition.parliament.uk/petitions/730194" description="Petition Do not introduce Digital ID cards We demand that the UK Government immediately commits to not introducing a digital ID cards. There are reports that this is being looked at.
 
 We think this would be a step towards mass surveillance and digital control, and that no one should be forced to register with a state-controlled ID system. We oppose the creation of any national ID system. ID cards were scrapped in 2010, in our view for good reason. Sign this petition 2,388,642 signatures" created="Mon, 29 Sep 2025 03:41:09 GMT" category="surveillance,harms,ethics,privacy,uk" />
@@ -7568,6 +7691,23 @@ If they feel expelled from the system—they’re unable to buy stuff, their ski
 And then, and I’m sorry to be so blunt, then it’s die or kill." created="Tue, 14 Apr 2026 10:45:28 GMT" category="violence,ai,backlash,technology" />
       <outline type="link" text="Aesthetica Magazine - Between Words and Breath: &lt;br&gt; Gabrielle Goliath at MoMA PS1" title="Aesthetica Magazine - Between Words and Breath: &lt;br&gt; Gabrielle Goliath at MoMA PS1" url="https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/" htmlUrl="https://aestheticamagazine.com/between-words-and-breath-gabrielle-goliath-at-moma-ps1/" description="There is a quiet intensity that permeates Gabrielle Goliath’s Personal Accounts. The South African artist’s ongoing video series inhabits the second‑floor galleries and corridors of MoMA PS1, exploring the reverberations of patriarchal violence across continents. Rather than relying on spoken testimony, the work foregrounds the moments between words: breaths, sighs, laughter and tremors in the body. These intervals become carriers of meaning, revealing what is often rendered invisible in conventional narratives of trauma. The exhibition asks visitors to pause and attune themselves to gestures that are both fragile and insistent, intimate yet universal. In doing so, it challenges the assumption that speech alone conveys truth." created="Sat, 31 Jan 2026 23:37:58 GMT" category="video,art,gabrielle_goliath,moma,exhibition,global,violence" />
     </outline>
+    <outline text="viri" title="viri">
+      <outline type="link" text="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" title="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" url="https://arxiv.org/pdf/2606.03811" htmlUrl="https://arxiv.org/pdf/2606.03811" description="A computer worm is malware that spreads on a network by replicating itself from one machine to
+another. Traditional worms, like WannaCry, exploited predetermined vulnerabilities, and their spread
+can be halted by patching those vulnerabilities. Here we show that artificial intelligence (AI) agents
+enable a fundamentally new threat: a worm that generates tailored attack strategies to each target
+it encounters. The worm parasitically uses compromised machines to run open-weight large language
+models (LLMs) to sustain its reasoning, or extend its reach for further attacks. Deployed on a network
+of machines spanning Linux, Windows, and IoT (Internet of Things) devices, the worm propagated
+by exploiting common, real-world corporate network vulnerabilities. Since the worm is powered
+by stolen compute, the attacker’s marginal cost per new infection is zero. This creates a destabilizing
+economic asymmetry between attackers and defenders. Moreover, because the worm requires no
+commercial AI platform, centralized safety controls, such as service refusals or rate limiting, are
+structurally irrelevant. Our results demonstrate that self-sustaining AI-driven cyber-threats are no
+longer theoretical. We must prepare for autonomous generative adversaries: malware systems that
+propagate without human operators and are defined not by fixed exploit code, but by the capacity
+to reason about targets, adapt to observations, and synthesize attack logic in real time." created="Fri, 05 Jun 2026 12:18:54 GMT" category="agents,adaptive,worms,viri" />
+    </outline>
     <outline text="visualization" title="visualization">
       <outline type="link" text="LLM Visualization" title="LLM Visualization" url="https://bbycroft.net/llm" htmlUrl="https://bbycroft.net/llm" created="Sun, 07 Sep 2025 00:05:43 GMT" category="llm,learning,visualization,dataviz" />
     </outline>
@@ -7740,6 +7880,23 @@ All of it in one place, always running, always quiet." created="Sun, 22 Mar 2026
     </outline>
     <outline text="worldwideweb" title="worldwideweb">
       <outline type="link" text="CERN 2019 WorldWideWeb Rebuild" title="CERN 2019 WorldWideWeb Rebuild" url="https://worldwideweb.cern.ch/" htmlUrl="https://worldwideweb.cern.ch/" description="In December 1990, an application called WorldWideWeb was developed on a NeXT machine at The European Organization for Nuclear Research (known as CERN) just outside of Geneva. This program – WorldWideWeb — is the antecedent of most of what we consider or know of as &quot;the web&quot; today." created="Sat, 21 Feb 2026 00:59:34 GMT" category="cern,worldwideweb,rebuild" />
+    </outline>
+    <outline text="worms" title="worms">
+      <outline type="link" text="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" title="AI AGENTS ENABLE ADAPTIVE COMPUTER WORMS 2606.03811" url="https://arxiv.org/pdf/2606.03811" htmlUrl="https://arxiv.org/pdf/2606.03811" description="A computer worm is malware that spreads on a network by replicating itself from one machine to
+another. Traditional worms, like WannaCry, exploited predetermined vulnerabilities, and their spread
+can be halted by patching those vulnerabilities. Here we show that artificial intelligence (AI) agents
+enable a fundamentally new threat: a worm that generates tailored attack strategies to each target
+it encounters. The worm parasitically uses compromised machines to run open-weight large language
+models (LLMs) to sustain its reasoning, or extend its reach for further attacks. Deployed on a network
+of machines spanning Linux, Windows, and IoT (Internet of Things) devices, the worm propagated
+by exploiting common, real-world corporate network vulnerabilities. Since the worm is powered
+by stolen compute, the attacker’s marginal cost per new infection is zero. This creates a destabilizing
+economic asymmetry between attackers and defenders. Moreover, because the worm requires no
+commercial AI platform, centralized safety controls, such as service refusals or rate limiting, are
+structurally irrelevant. Our results demonstrate that self-sustaining AI-driven cyber-threats are no
+longer theoretical. We must prepare for autonomous generative adversaries: malware systems that
+propagate without human operators and are defined not by fixed exploit code, but by the capacity
+to reason about targets, adapt to observations, and synthesize attack logic in real time." created="Fri, 05 Jun 2026 12:18:54 GMT" category="agents,adaptive,worms,viri" />
     </outline>
     <outline text="wsj" title="wsj">
       <outline type="link" text="The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind" title="The Inside Story of the Greatest Deal Google Ever Made: Buying DeepMind" url="https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54" htmlUrl="https://www.wsj.com/tech/ai/deepmind-google-demis-hassabis-5bd6de54" description="“Hassabis administered a subtle test on him. The two men discussed the potential of AI, and Zuckerberg expressed appropriate excitement. But then, as the dinner continued, Hassabis brought up other hot technologies: virtual reality, augmented reality, 3-D printing. Zuckerberg sounded equally excited about all of them. ‘That told me what I needed to know,’ Hassabis said.”" created="Sun, 29 Mar 2026 23:05:28 GMT" category="wsj,deepmind,google,psychology,zuckerberg,tells" />
