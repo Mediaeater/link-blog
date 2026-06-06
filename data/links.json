@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1780752067098,
+      "url": "https://engelsbergideas.com/notebook/the-new-bibliomaniacs/",
+      "source": "The new bibliomaniacs",
+      "pullQuote": "One of the fair’s female ambassadors, for instance, is Meredith Graves, MTV correspondent and former lead singer of the punk band Perfect Pussy. Graves studies and practices occult traditions while collecting books on demonology, folklore, and magic. At the same time, she collects textile manuals, sewing patterns, and historical knitting guides. ‘I collect things I can use,’ she explains. ‘My books live. They get used… They’re living objects.’\n\nThe internet has also transformed the trade. Online marketplaces and databases allow first-time buyers to trace and research materials that once required years of accumulated expertise. Social media, meanwhile, has introduced younger audiences to books, archives, and objects they might otherwise never encounter.\n\n",
+      "tags": [
+        "bibliomaniacs",
+        "collecting",
+        "analogue",
+        "books",
+        "fair"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-06T13:21:07.098Z",
+      "visits": 0
+    },
+    {
+      "id": 1780751403188,
+      "url": "https://yalereview.org/article/sheila-liming-the-end-of-books",
+      "source": "Sheila Liming: “The End of Books”",
+      "pullQuote": " That’s how a library becomes a final and crucial step on a chain of accessibility that permits contact with the text. There are, of course, other ways to gain access to the text: bookstores and classrooms and PDF files that can be downloaded, legally or not, from the internet. But those other ways place barriers—often financial, sometimes technical, sometimes physical—between the reader and the text. They introduce friction. Reading a bootleg PDF isn’t the same as reading a print book. Twenty years ago, UX researchers were already noting that in online reading, large sections of a text are skipped or scanned in accordance with digital scrolling habits. The eye, for example, tends to follow an F-shaped pattern across the screen. In 2023, researchers at the University of Valencia published the results of a study showing that print reading over sustained periods can yield a six- to eightfold increase in comprehension. From these examples, and countless others like them, we know that reading digital texts does not simply replicate the experience of reading print ones. Yet we still discount the tools that deepen comprehension in favor of those that are more convenient.",
+      "tags": [
+        "books",
+        "university",
+        "yale",
+        "library",
+        "media"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-06T13:10:03.188Z",
+      "visits": 0
+    },
+    {
       "id": 1780662162546,
       "url": "https://ajph.aphapublications.org/doi/10.2105/AJPH.2026.308501",
       "source": "Ultra-Processed Foods in the Global Food System: The Role of US Tobacco Companies",
@@ -7495,5 +7527,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-05T12:36:35.226Z"
+  "lastUpdated": "2026-06-06T13:21:07.125Z"
 }
