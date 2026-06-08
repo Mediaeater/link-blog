@@ -15,9 +15,130 @@
   ],
   "items": [
     {
+      "id": "1780927467732",
+      "url": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+      "title": "US judge finds Israel's NSO Group liable for hacking in WhatsApp lawsuit",
+      "date_published": "2026-06-08T14:04:27.732Z",
+      "tags": [
+        "op-sec",
+        "natsec",
+        "privacy",
+        "whatsapp",
+        "nsogroup"
+      ],
+      "content_text": "Will Cathcart, the head of WhatsApp, said the ruling is a win for privacy.\n\"We spent five years presenting our case because we firmly believe that spyware companies could not hide behind immunity or avoid accountability for their unlawful actions,\" Cathcart said in a social media post.\n\"Surveillance companies should be on notice that illegal spying will not be tolerated.\"\nA WhatsApp spokesperson said they were grateful for the decision.\n\"We’re proud to have stood up against NSO and thankful to the many organizations that were supportive of this case. WhatsApp will never stop working to protect people’s private communication\", he said.",
+      "summary": "Will Cathcart, the head of WhatsApp, said the ruling is a win for privacy.\n\"We spent five years presenting our case because we firmly believe that spy...",
+      "content_html": "<blockquote>Will Cathcart, the head of WhatsApp, said the ruling is a win for privacy.\n&quot;We spent five years presenting our case because we firmly believe that spyware companies could not hide behind immunity or avoid accountability for their unlawful actions,&quot; Cathcart said in a social media post.\n&quot;Surveillance companies should be on notice that illegal spying will not be tolerated.&quot;\nA WhatsApp spokesperson said they were grateful for the decision.\n&quot;We’re proud to have stood up against NSO and thankful to the many organizations that were supportive of this case. WhatsApp will never stop working to protect people’s private communication&quot;, he said.</blockquote>\n<p><strong>Tags:</strong> op-sec, natsec, privacy, whatsapp, nsogroup</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780927420198",
+      "url": "https://web.ntsc.rs/",
+      "title": "ntsc-rs | Online VHS effect",
+      "date_published": "2026-06-08T14:03:40.198Z",
+      "tags": [
+        "ntsc-rs",
+        "online",
+        "vhs",
+        "effect",
+        "apply"
+      ],
+      "content_html": "<p><strong>Tags:</strong> ntsc-rs, online, vhs, effect, apply</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780922595367",
+      "url": "https://pdimagearchive.org/",
+      "title": "Public Domain Image Archive",
+      "date_published": "2026-06-08T12:43:15.367Z",
+      "tags": [
+        "archive",
+        "public-domain",
+        "images"
+      ],
+      "content_text": "Explore our hand-picked collection of 11,082 out-of-copyright works, free for all to browse, download, and reuse. This is a living database with new images added every week.",
+      "summary": "Explore our hand-picked collection of 11,082 out-of-copyright works, free for all to browse, download, and reuse. This is a living database with new i...",
+      "content_html": "<blockquote>Explore our hand-picked collection of 11,082 out-of-copyright works, free for all to browse, download, and reuse. This is a living database with new images added every week.</blockquote>\n<p><strong>Tags:</strong> archive, public-domain, images</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780922562586",
+      "url": "https://www.science.org/doi/10.1126/science.aei2409",
+      "title": "The architecture of the internet creates risks for democracy",
+      "date_published": "2026-06-08T12:42:42.586Z",
+      "tags": [
+        "democracy",
+        "society",
+        "social-contract",
+        "internet",
+        "architecture"
+      ],
+      "content_text": "Will democracy survive the internet? Do we need to choose between Facebook’s surveillance capitalism or democracy? Layered lines of evidence can inform questions like these. When considered together, the evidence gives rise to a concerning picture, as summarized in a recent report for the European Commission that I co-led.\nThe first line of evidence comes from naturalistic quasi-experiments from which we can infer the causal impact of the rollout of internet hardware on relevant outcome measures. For example, the rollout of broadband in the US 20 years ago was affected by state “right-of-way” laws, which govern how easy it is for telecommunications companies to lay cables along public roads and land corridors. Some states imposed far more onerous conditions than others before digging could commence. Using this variation in regulation as an independent variable, one study showed that broadband availability increased affective political polarization.",
+      "summary": "Will democracy survive the internet? Do we need to choose between Facebook’s surveillance capitalism or democracy? Layered lines of evidence can infor...",
+      "content_html": "<blockquote>Will democracy survive the internet? Do we need to choose between Facebook’s surveillance capitalism or democracy? Layered lines of evidence can inform questions like these. When considered together, the evidence gives rise to a concerning picture, as summarized in a recent report for the European Commission that I co-led.\nThe first line of evidence comes from naturalistic quasi-experiments from which we can infer the causal impact of the rollout of internet hardware on relevant outcome measures. For example, the rollout of broadband in the US 20 years ago was affected by state “right-of-way” laws, which govern how easy it is for telecommunications companies to lay cables along public roads and land corridors. Some states imposed far more onerous conditions than others before digging could commence. Using this variation in regulation as an independent variable, one study showed that broadband availability increased affective political polarization.</blockquote>\n<p><strong>Tags:</strong> democracy, society, social-contract, internet, architecture</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780922476698",
+      "url": "https://www.wired.com/story/meta-smart-glasses-face-recognition-nametag-connections/",
+      "title": "Meta quietly added facial recognition code for smart glasses to its app",
+      "date_published": "2026-06-08T12:41:16.698Z",
+      "tags": [
+        "meta",
+        "creepy-zuck",
+        "facebook",
+        "frt",
+        "facial-recognition",
+        "glasses",
+        "privacy",
+        "social-contract"
+      ],
+      "content_text": "Meta Silently Added Face-Recognition Code for Its Smart Glasses to Millions of Phones\nCode reviewed by WIRED uncovered an unreleased face-recognition system embedded in Meta’s smart glasses platform. It’s designed to identify people via biometric data stored on users’ phones.",
+      "summary": "Meta Silently Added Face-Recognition Code for Its Smart Glasses to Millions of Phones\nCode reviewed by WIRED uncovered an unreleased face-recognition ...",
+      "content_html": "<blockquote>Meta Silently Added Face-Recognition Code for Its Smart Glasses to Millions of Phones\nCode reviewed by WIRED uncovered an unreleased face-recognition system embedded in Meta’s smart glasses platform. It’s designed to identify people via biometric data stored on users’ phones.</blockquote>\n<p><strong>Tags:</strong> meta, creepy-zuck, facebook, frt, facial-recognition, glasses, privacy, social-contract</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1780922260735",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+      "title": "S1 Space Exploration Technologies Corp.",
+      "date_published": "2026-06-08T12:37:40.735Z",
+      "tags": [
+        "space-x",
+        "ipo",
+        "space",
+        "sci-fi",
+        "creepy-elon-musk",
+        "financial",
+        "stockmarket"
+      ],
+      "content_text": "pure sci-fi.  -ed",
+      "summary": "pure sci-fi.  -ed",
+      "content_html": "<blockquote>pure sci-fi.  -ed</blockquote>\n<p><strong>Tags:</strong> space-x, ipo, space, sci-fi, creepy-elon-musk, financial, stockmarket</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1780918529430",
       "url": "https://www.techpolicy.press/trump-signs-previously-shelved-ai-executive-order/",
-      "title": "Trump Signs Previously Shelved AI Executive Order",
+      "title": "Previously Shelved AI Executive Order Signed",
       "date_published": "2026-06-08T11:35:29.430Z",
       "tags": [
         "ai",

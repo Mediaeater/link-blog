@@ -1,9 +1,108 @@
 {
   "links": [
     {
+      "id": 1780927467732,
+      "url": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
+      "source": "US judge finds Israel's NSO Group liable for hacking in WhatsApp lawsuit",
+      "pullQuote": "Will Cathcart, the head of WhatsApp, said the ruling is a win for privacy.\n\"We spent five years presenting our case because we firmly believe that spyware companies could not hide behind immunity or avoid accountability for their unlawful actions,\" Cathcart said in a social media post.\n\"Surveillance companies should be on notice that illegal spying will not be tolerated.\"\nA WhatsApp spokesperson said they were grateful for the decision.\n\"We’re proud to have stood up against NSO and thankful to the many organizations that were supportive of this case. WhatsApp will never stop working to protect people’s private communication\", he said.",
+      "tags": [
+        "op-sec",
+        "natsec",
+        "privacy",
+        "whatsapp",
+        "nsogroup"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-08T14:04:27.732Z",
+      "visits": 0
+    },
+    {
+      "id": 1780927420198,
+      "url": "https://web.ntsc.rs/",
+      "source": "ntsc-rs | Online VHS effect",
+      "pullQuote": "",
+      "tags": [
+        "ntsc-rs",
+        "online",
+        "vhs",
+        "effect",
+        "apply"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-08T14:03:40.198Z",
+      "visits": 0
+    },
+    {
+      "id": 1780922595367,
+      "url": "https://pdimagearchive.org/",
+      "source": "Public Domain Image Archive",
+      "pullQuote": "Explore our hand-picked collection of 11,082 out-of-copyright works, free for all to browse, download, and reuse. This is a living database with new images added every week.",
+      "tags": [
+        "archive",
+        "public-domain",
+        "images"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-08T12:43:15.367Z",
+      "visits": 0
+    },
+    {
+      "id": 1780922562586,
+      "url": "https://www.science.org/doi/10.1126/science.aei2409",
+      "source": "The architecture of the internet creates risks for democracy",
+      "pullQuote": "Will democracy survive the internet? Do we need to choose between Facebook’s surveillance capitalism or democracy? Layered lines of evidence can inform questions like these. When considered together, the evidence gives rise to a concerning picture, as summarized in a recent report for the European Commission that I co-led.\nThe first line of evidence comes from naturalistic quasi-experiments from which we can infer the causal impact of the rollout of internet hardware on relevant outcome measures. For example, the rollout of broadband in the US 20 years ago was affected by state “right-of-way” laws, which govern how easy it is for telecommunications companies to lay cables along public roads and land corridors. Some states imposed far more onerous conditions than others before digging could commence. Using this variation in regulation as an independent variable, one study showed that broadband availability increased affective political polarization.",
+      "tags": [
+        "democracy",
+        "society",
+        "social-contract",
+        "internet",
+        "architecture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-08T12:42:42.586Z",
+      "visits": 0
+    },
+    {
+      "id": 1780922476698,
+      "url": "https://www.wired.com/story/meta-smart-glasses-face-recognition-nametag-connections/",
+      "source": "Meta quietly added facial recognition code for smart glasses to its app",
+      "pullQuote": "Meta Silently Added Face-Recognition Code for Its Smart Glasses to Millions of Phones\nCode reviewed by WIRED uncovered an unreleased face-recognition system embedded in Meta’s smart glasses platform. It’s designed to identify people via biometric data stored on users’ phones.",
+      "tags": [
+        "meta",
+        "creepy-zuck",
+        "facebook",
+        "frt",
+        "facial-recognition",
+        "glasses",
+        "privacy",
+        "social-contract"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-08T12:41:16.698Z",
+      "visits": 0
+    },
+    {
+      "id": 1780922260735,
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+      "source": "S1 Space Exploration Technologies Corp.",
+      "pullQuote": "pure sci-fi.  -ed",
+      "tags": [
+        "space-x",
+        "ipo",
+        "space",
+        "sci-fi",
+        "creepy-elon-musk",
+        "financial",
+        "stockmarket"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-08T12:37:40.735Z",
+      "visits": 0
+    },
+    {
       "id": 1780918529430,
       "url": "https://www.techpolicy.press/trump-signs-previously-shelved-ai-executive-order/",
-      "source": "Trump Signs Previously Shelved AI Executive Order",
+      "source": "Previously Shelved AI Executive Order Signed",
       "pullQuote": "One change to the May draft is the timeline for review. That text stated that developers would be able to \"provide the Federal Government with access to covered frontier models... for a period of up to 90 days before they plan to release such models to other trusted partners.\" In the final June order, that window was reduced to 30 days.\n\nProtecting against criminal actors: Section 4 directs the Attorney General to “prioritize the enforcement of… all applicable Federal criminal laws against anyone who utilizes AI to illegally access or damage a computer without authorization, or who utilizes AI while engaged in such illegal access to further any other crime.\" This includes \"employing AI agents to unlawfully access data or information that is subsequently used for a criminal or unlawful purp",
       "tags": [
         "ai",
@@ -7613,5 +7712,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-08T11:59:32.156Z"
+  "lastUpdated": "2026-06-08T14:04:27.754Z"
 }

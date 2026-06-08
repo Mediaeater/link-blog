@@ -4,12 +4,54 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 08 Jun 2026 11:59:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jun 2026 14:04:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Trump Signs Previously Shelved AI Executive Order]]></title>
+            <title><![CDATA[US judge finds Israel's NSO Group liable for hacking in WhatsApp lawsuit]]></title>
+            <link>https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/</link>
+            <guid>1780927467732</guid>
+            <pubDate>Mon, 08 Jun 2026 14:04:27 GMT</pubDate>
+            <description><![CDATA[Tags: op-sec, natsec, privacy, whatsapp, nsogroup]]></description>
+        </item>
+        <item>
+            <title><![CDATA[ntsc-rs | Online VHS effect]]></title>
+            <link>https://web.ntsc.rs/</link>
+            <guid>1780927420198</guid>
+            <pubDate>Mon, 08 Jun 2026 14:03:40 GMT</pubDate>
+            <description><![CDATA[Tags: ntsc-rs, online, vhs, effect, apply]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Public Domain Image Archive]]></title>
+            <link>https://pdimagearchive.org/</link>
+            <guid>1780922595367</guid>
+            <pubDate>Mon, 08 Jun 2026 12:43:15 GMT</pubDate>
+            <description><![CDATA[Tags: archive, public-domain, images]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The architecture of the internet creates risks for democracy]]></title>
+            <link>https://www.science.org/doi/10.1126/science.aei2409</link>
+            <guid>1780922562586</guid>
+            <pubDate>Mon, 08 Jun 2026 12:42:42 GMT</pubDate>
+            <description><![CDATA[Tags: democracy, society, social-contract, internet, architecture]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Meta quietly added facial recognition code for smart glasses to its app]]></title>
+            <link>https://www.wired.com/story/meta-smart-glasses-face-recognition-nametag-connections/</link>
+            <guid>1780922476698</guid>
+            <pubDate>Mon, 08 Jun 2026 12:41:16 GMT</pubDate>
+            <description><![CDATA[Tags: meta, creepy-zuck, facebook, frt, facial-recognition, glasses, privacy, social-contract]]></description>
+        </item>
+        <item>
+            <title><![CDATA[S1 Space Exploration Technologies Corp.]]></title>
+            <link>https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm</link>
+            <guid>1780922260735</guid>
+            <pubDate>Mon, 08 Jun 2026 12:37:40 GMT</pubDate>
+            <description><![CDATA[Tags: space-x, ipo, space, sci-fi, creepy-elon-musk, financial, stockmarket]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Previously Shelved AI Executive Order Signed]]></title>
             <link>https://www.techpolicy.press/trump-signs-previously-shelved-ai-executive-order/</link>
             <guid>1780918529430</guid>
             <pubDate>Mon, 08 Jun 2026 11:35:29 GMT</pubDate>
