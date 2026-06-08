@@ -17,7 +17,7 @@
     {
       "id": 1780918450353,
       "url": "https://objection.ai/",
-      "source": "https://objection.ai/",
+      "source": "Objection AI",
       "pullQuote": "Maybe the most creepy site on the internet - the worst humans \n\nDue to feedback we're rebuilding for an epistemic and primary sourced future.\nStay tuned for updates.",
       "tags": [
         "ai",
@@ -35,7 +35,7 @@
     {
       "id": 1780918296844,
       "url": "https://novaramedia.com/2026/06/02/a-new-startup-lets-rich-people-use-ai-to-target-journalists/",
-      "source": "A New Startup Lets Rich People Use AI to Target Journalists It’s funded by Palantir co-founder Peter Thiel.",
+      "source": "A New Startup Lets Rich People Use AI to Target Journalists",
       "pullQuote": "This AI ‘tribunal’ would then publish a supposedly independent ‘verdict’ on how truthful a story is and even rank individual journalists on metrics like truth-telling, corrections and engagement. \n\nThe platform’s creator has confirmed to Novara Media that it’s being rebuilt and relaunched with “significant retooling” after customer feedback, but there are no details available at the time of writing on the changes that will be made. ",
       "tags": [
         "creepy-peter-thiel",
@@ -72,7 +72,7 @@
     {
       "id": 1780758500186,
       "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
-      "source": "The Smart TV in Your LivingRoom Is a Node in the AIScraping EconomyChecking your browser...",
+      "source": "The Smart TV in Your Living Room Is a Node in the AI Scraping Economy",
       "pullQuote": "Defense Approaches\nThe traffic leaves clear fingerprints at the network boundary, and the SDK leaves identifiable symbols in the app binary. The approaches below let you detect and block the peer tunnel — at the network level or on the device itself. Three approaches, ordered by ease of deployment:\n\nApproach 1: DNS block (trivial, effective for network-routed devices):\n\nproxyjs.brdtnet.com\nproxyjs.luminatinet.com\nproxyjs.bright-sdk.com\nclientsdk.bright-sdk.com\nclientsdk.brdtnet.com\n\nBlocking proxyjs.* kills the peer tunnel without affecting any customer who legitimately uses Bright Data’s customer-facing proxy service on a different domain.\n\nApproach 2: TLS SNI filtering: Drop or alert on TLS handshakes where server_name matches *.brdtnet.com, *.luminatinet.com, or *.luminati.io. Works at the network boundary without TLS inspection.\n\nApproach 3: TLS certificate fingerprint:\n\n.brdtnet.com → SHA256 313ce4ec7d5a51e5…\n.luminatinet.com → SHA256 5028612e625befea…\nStable until Sectigo cert rotation (current certs valid through mid-2026).\n\nThe use_netifs caveat: All three layers only work on traffic that crosses your network boundary. The SDK’s use_netifs binding means that on iOS, when the device is on cellular, peer traffic bypasses corporate WiFi entirely. For managed fleets, the complementary control is MDM-based app binary scanning: search installed apps for the Swift symbols BrdWebSocketFacade and BrdNetwork.DNSResolver, and prohibit apps containing them on corporate-issued devices.\n\nFor household users concerned about a specific smart TV or mobile app: block the hostnames above at your router’s DNS settings (Pi-hole, NextDNS, Cloudflare Gateway, your ISP’s equivalent).\n",
       "tags": [
         "scraper",
@@ -7613,5 +7613,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-08T11:35:29.484Z"
+  "lastUpdated": "2026-06-08T11:59:32.156Z"
 }
