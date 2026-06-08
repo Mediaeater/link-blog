@@ -681,6 +681,41 @@
       "weekEnd": "2026-05-28",
       "title": "May 24-28, 2026",
       "writeup": "This issue circles a single tension: who gets to hold power as machine intelligence saturates everything. The lead argues cybersecurity is quietly absorbing the whole of digital policy, while Pope Leo's Magnifica humanitas makes the moral version of the same case — AI should serve humanity rather than concentrate control. From there the thread runs in two directions. One is the impulse to wrest the stack back into human hands: tools to strip the guardrails off language models, a tour of internets that predate and sidestep HTTPS, and a hands-on dispatch from the mesh-networking underground where Meshtastic and Reticulum promise infrastructure no platform owns. The other is the frontier of agents that train themselves — reinforcement learning you steer by talking, and Microsoft's own entry into the field. Around the edges, the usual pleasures: an in-browser audio editor, a perpetually-current Rothko, the strange geometry hiding inside food-ingredient embeddings, and a couple of market dispatches on why the DoJ picked one prediction-market insider to make an example of.\n"
+    },
+    {
+      "id": 17,
+      "timestamp": "2026-06-08T11:40:33.716Z",
+      "linkIds": [
+        1780152329548,
+        1780162946032,
+        1780227836616,
+        1780227861135,
+        1780227903268,
+        1780227921535,
+        1780313688160,
+        1780313780926,
+        1780313862994,
+        1780313940427,
+        1780314174491,
+        1780314432223,
+        1780661704431,
+        1780661934843,
+        1780662006626,
+        1780662162546,
+        1780751403188,
+        1780752067098,
+        1780758500186,
+        1780918182027,
+        1780918296844,
+        1780918450353,
+        1780918529430
+      ],
+      "count": 23,
+      "filename": "digest-017-2026-06-08.html",
+      "weekStart": "2026-05-30",
+      "weekEnd": "2026-06-08",
+      "title": "May 30 - Jun 8, 2026",
+      "writeup": "This digest sits at the collision of AI, surveillance, and culture in mid-2026. Anthropic closes a $65B Series H at near-trillion valuation; a Trump AI executive order lands; and Anthropic releases a defensive security toolkit. The threat research is dense: AI-powered computer worms, ChatGPT plugin data exfiltration, remote SSD fingerprinting, and smart TVs exposed as AI scraping nodes. Data rights darken further with the 23andMe breach following the company into new ownership and Peter Thiel's Objection.ai funding AI-targeted harassment of journalists. Quieter threads cover books and bibliophilia, a security envelope pattern archive, digital government reform, tobacco industry influence on ultra-processed food, and whether domain expertise remains the only real moat in an AI-saturated market."
     }
   ],
   "cadence": "weekly"
