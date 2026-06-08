@@ -364,7 +364,7 @@ export default function LinkBlogClean() {
     const link = {
       id: Date.now(),
       url: newLink.url,
-      source: newLink.source,
+      source: newLink.source.trim(),
       pullQuote: newLink.pullQuote || '',
       tags: finalTags,
       isPinned: newLink.isPinned || false,
@@ -401,7 +401,7 @@ export default function LinkBlogClean() {
     const updatedLinkData = {
       id: editingLink.id,
       url: newLink.url,
-      source: newLink.source,
+      source: newLink.source.trim(),
       pullQuote: newLink.pullQuote || '',
       tags: finalTags,
       isPinned: newLink.isPinned || false,
@@ -412,6 +412,7 @@ export default function LinkBlogClean() {
     const updatedLinks = links.map(link =>
       link.id === editingLink.id ? updatedLinkData : link
     );
+    setLinks(updatedLinks);  // Update UI immediately
 
     try {
       await saveToFile(updatedLinks);
