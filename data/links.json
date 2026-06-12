@@ -1,6 +1,42 @@
 {
   "links": [
     {
+      "id": 1781269903773,
+      "url": "https://www.musicbusinessworldwide.com/google-moves-to-dismiss-indie-artists-lawsuit-over-lyria-3-ai-training-arguing-they-licensed-their-music-to-youtube/",
+      "source": "Google moves to dismiss indie artists’ lawsuit over Lyria 3 AI training, arguing they licensed their music to YouTube",
+      "pullQuote": "The company’s central argument is that the artists licensed their music to YouTube when they uploaded it – and that the license covers the conduct they are now suing over.",
+      "tags": [
+        "google",
+        "indie",
+        "artists",
+        "music",
+        "rights",
+        "copyright",
+        "copyfight",
+        "transcoding"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-12T13:11:43.773Z",
+      "visits": 0
+    },
+    {
+      "id": 1781269814770,
+      "url": "https://www.nytimes.com/2026/06/11/opinion/silicon-valley-ai-politics.html",
+      "source": "We Can’t Let My Former V.C. Colleagues Buy Off Our Democracy",
+      "pullQuote": "I believe this attempted political infiltration by the A.I. industry will fail. It misreads the public mood entirely. Americans believe the system is rigged by the wealthy and powerful. They’re also deeply concerned about A.I. — a backlash is building, and it will become fiercer when voters learn that a handful of billionaires are altogether spending nine figures, apparently in an effort to try to stop debates about regulation from further developing.",
+      "tags": [
+        "nytimes",
+        "ai",
+        "ethics",
+        "a12z",
+        "vc",
+        "politics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-12T13:10:14.770Z",
+      "visits": 0
+    },
+    {
       "id": 1780927467732,
       "url": "https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/",
       "source": "US judge finds Israel's NSO Group liable for hacking in WhatsApp lawsuit",
@@ -7712,5 +7748,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-08T14:04:27.754Z"
+  "lastUpdated": "2026-06-12T13:11:43.809Z"
 }
