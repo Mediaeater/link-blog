@@ -716,6 +716,29 @@
       "weekEnd": "2026-06-08",
       "title": "May 30 - Jun 8, 2026",
       "writeup": "This digest sits at the collision of AI, surveillance, and culture in mid-2026. Anthropic closes a $65B Series H at near-trillion valuation; a Trump AI executive order lands; and Anthropic releases a defensive security toolkit. The threat research is dense: AI-powered computer worms, ChatGPT plugin data exfiltration, remote SSD fingerprinting, and smart TVs exposed as AI scraping nodes. Data rights darken further with the 23andMe breach following the company into new ownership and Peter Thiel's Objection.ai funding AI-targeted harassment of journalists. Quieter threads cover books and bibliophilia, a security envelope pattern archive, digital government reform, tobacco industry influence on ultra-processed food, and whether domain expertise remains the only real moat in an AI-saturated market."
+    },
+    {
+      "id": 18,
+      "timestamp": "2026-06-14T10:29:52.852Z",
+      "linkIds": [
+        1780922260735,
+        1780922476698,
+        1780922562586,
+        1780922595367,
+        1780927420198,
+        1780927467732,
+        1781269814770,
+        1781269903773,
+        1781343664939,
+        1781343739947,
+        1781432057803
+      ],
+      "count": 11,
+      "filename": "digest-018-2026-06-14.html",
+      "weekStart": "2026-06-08",
+      "weekEnd": "2026-06-14",
+      "title": "Jun 8-14, 2026",
+      "writeup": "This issue tracks power consolidating around surveillance, capital, and the state. Meta is caught quietly shipping facial-recognition code for its smart glasses to millions of phones; a US judge holds NSO Group liable for hacking WhatsApp; and Palantir loses its bid to muzzle a Swiss magazine, earning a Streisand effect for the trouble.\n\nThe political thread sharpens: a Science report argues the internet's architecture itself corrodes democracy, while a former VC warns his old colleagues against buying the AI industry's way into politics. The state leans on the labs too — Anthropic posts its statement on a US government directive to suspend access to Fable 5 and Mythos 5.\n\nMoney and rights run underneath: SpaceX files its S-1, and Google moves to dismiss indie artists' Lyria 3 suit by arguing their YouTube uploads already licensed the training. A piece on sparseness draws the line between how brains and AI both learn from the statistics of natural scenes.\n\nAround the edges, the usual pleasures: an 11,000-image public-domain archive and an in-browser NTSC/VHS effect."
     }
   ],
   "cadence": "weekly"
