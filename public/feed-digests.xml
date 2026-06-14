@@ -4,11 +4,95 @@
         <title>newsfeeds.net - Weekly Digests</title>
         <link>https://newsfeeds.net</link>
         <description>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</description>
-        <lastBuildDate>Mon, 08 Jun 2026 11:40:33 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 10:29:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <atom:link href="https://newsfeeds.net/feed-digests.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Jun 8-14, 2026]]></title>
+            <link>https://newsfeeds.net/digests/digest-018-2026-06-14.html</link>
+            <guid>https://newsfeeds.net/digests/digest-018-2026-06-14.html</guid>
+            <pubDate>Sun, 14 Jun 2026 10:29:52 GMT</pubDate>
+            <description><![CDATA[11 curated links]]></description>
+            <content:encoded><![CDATA[<blockquote><p>This issue tracks power consolidating around surveillance, capital, and the state. Meta is caught quietly shipping facial-recognition code for its smart glasses to millions of phones; a US judge holds NSO Group liable for hacking WhatsApp; and Palantir loses its bid to muzzle a Swiss magazine, earning a Streisand effect for the trouble.
+
+The political thread sharpens: a Science report argues the internet's architecture itself corrodes democracy, while a former VC warns his old colleagues against buying the AI industry's way into politics. The state leans on the labs too — Anthropic posts its statement on a US government directive to suspend access to Fable 5 and Mythos 5.
+
+Money and rights run underneath: SpaceX files its S-1, and Google moves to dismiss indie artists' Lyria 3 suit by arguing their YouTube uploads already licensed the training. A piece on sparseness draws the line between how brains and AI both learn from the statistics of natural scenes.
+
+Around the edges, the usual pleasures: an 11,000-image public-domain archive and an in-browser NTSC/VHS effect.</p></blockquote><!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>newsfeeds.net - Jun 8-14, 2026</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #fff; color: #333;">
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Jun 8-14, 2026 &middot; 11 links</p>
+  </header>
+
+<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;"><p style="margin: 0 0 12px 0;">This issue tracks power consolidating around surveillance, capital, and the state. Meta is caught quietly shipping facial-recognition code for its smart glasses to millions of phones; a US judge holds NSO Group liable for hacking WhatsApp; and Palantir loses its bid to muzzle a Swiss magazine, earning a Streisand effect for the trouble.</p><p style="margin: 0 0 12px 0;">The political thread sharpens: a Science report argues the internet&#39;s architecture itself corrodes democracy, while a former VC warns his old colleagues against buying the AI industry&#39;s way into politics. The state leans on the labs too — Anthropic posts its statement on a US government directive to suspend access to Fable 5 and Mythos 5.</p><p style="margin: 0 0 12px 0;">Money and rights run underneath: SpaceX files its S-1, and Google moves to dismiss indie artists&#39; Lyria 3 suit by arguing their YouTube uploads already licensed the training. A piece on sparseness draws the line between how brains and AI both learn from the statistics of natural scenes.</p><p style="margin: 0 0 12px 0;">Around the edges, the usual pleasures: an 11,000-image public-domain archive and an in-browser NTSC/VHS effect.</p></div>
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">S1 Space Exploration Technologies Corp.</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">sec.gov</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">pure sci-fi.  -ed</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.wired.com/story/meta-smart-glasses-face-recognition-nametag-connections/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Meta quietly added facial recognition code for smart glasses to its app</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">wired.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Meta Silently Added Face-Recognition Code for Its Smart Glasses to Millions of Phones Code reviewed by WIRED uncovered an unreleased face-recognition system embedded in Meta’s smart glasses platform. It’s designed to identify people via biometric data stored on users’ phones.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.science.org/doi/10.1126/science.aei2409" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The architecture of the internet creates risks for democracy</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">science.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Will democracy survive the internet? Do we need to choose between Facebook’s surveillance capitalism or democracy? Layered lines of evidence can inform questions like these. When considered together, the evidence gives rise to a concerning picture, as summarized in a recent report for the European Commission that I co-led. The first line of evidence comes from naturalistic quasi-experiments from which we can infer the causal impact of the rollout of internet hardware on relevant outcome measures. For example, the rollout of broadband in the US 20 years ago was affected by state “right-of-way” laws, which govern how easy it is for telecommunications companies to lay cables along public roads and land corridors. Some states imposed far more onerous conditions than others before digging could commence. Using this variation in regulation as an independent variable, one study showed that broadband availability increased affective political polarization.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://pdimagearchive.org/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Public Domain Image Archive</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">pdimagearchive.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Explore our hand-picked collection of 11,082 out-of-copyright works, free for all to browse, download, and reuse. This is a living database with new images added every week.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://web.ntsc.rs/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">ntsc-rs | Online VHS effect</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">web.ntsc.rs</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.reuters.com/technology/cybersecurity/us-judge-finds-israels-nso-group-liable-hacking-whatsapp-lawsuit-2024-12-21/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">US judge finds Israel&#39;s NSO Group liable for hacking in WhatsApp lawsuit</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">reuters.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Will Cathcart, the head of WhatsApp, said the ruling is a win for privacy. &quot;We spent five years presenting our case because we firmly believe that spyware companies could not hide behind immunity or avoid accountability for their unlawful actions,&quot; Cathcart said in a social media post. &quot;Surveillance companies should be on notice that illegal spying will not be tolerated.&quot; A WhatsApp spokesperson said they were grateful for the decision. &quot;We’re proud to have stood up against NSO and thankful to the many organizations that were supportive of this case. WhatsApp will never stop working to protect people’s private communication&quot;, he said.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.nytimes.com/2026/06/11/opinion/silicon-valley-ai-politics.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">We Can’t Let My Former V.C. Colleagues Buy Off Our Democracy</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">nytimes.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">I believe this attempted political infiltration by the A.I. industry will fail. It misreads the public mood entirely. Americans believe the system is rigged by the wealthy and powerful. They’re also deeply concerned about A.I. — a backlash is building, and it will become fiercer when voters learn that a handful of billionaires are altogether spending nine figures, apparently in an effort to try to stop debates about regulation from further developing.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.musicbusinessworldwide.com/google-moves-to-dismiss-indie-artists-lawsuit-over-lyria-3-ai-training-arguing-they-licensed-their-music-to-youtube/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Google moves to dismiss indie artists’ lawsuit over Lyria 3 AI training, arguing they licensed their music to YouTube</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">musicbusinessworldwide.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The company’s central argument is that the artists licensed their music to YouTube when they uploaded it – and that the license covers the conduct they are now suing over.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">What Sparseness Means for Brains, AI, and Learning</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">thatbuild.substack.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Palantir loses legal challenge against Swiss investigative magazine</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">ft.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business with Swiss federal authorities.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The lawsuit has had a “Streisand effect”, drawing wider attention to Republik’s reporting and the Swiss government documents detailing repeated official concerns about adopting Palantir’s technology.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">It attracted attention beyond Switzerland because it touched on broader European concerns about reliance on US technology providers for sensitive state functions.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.anthropic.com/news/fable-mythos-access" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Statement on the US government directive to suspend access to Fable 5 and Mythos 5</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">anthropic.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total. These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.</p><p style="margin: 12px 0 0 0; color: #666; font-style: italic; font-size: 14px;">No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities.</p>
+</div>
+  </main>
+
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; privacy &middot; social-contract &middot; a12z &middot; access &middot; anthropic &middot; apply &middot; architecture &middot; archive &middot; artists &middot; brain &middot; claude &middot; copyfight &middot; copyright &middot; creepy-elon-musk &middot; creepy-peter-thiel &middot; creepy-zuck &middot; democracy &middot; directive &middot; effect &middot; ethics &middot; fable5 &middot; facebook &middot; facial-recognition &middot; financial &middot; frt &middot; glasses &middot; google &middot; government &middot; images &middot; indie &middot; internet &middot; ipo &middot; learning &middot; legal &middot; llm &middot; meta &middot; mind &middot; music &middot; mythos &middot; natsec &middot; nsogroup &middot; ntsc-rs &middot; nytimes &middot; online &middot; op-sec &middot; palantir &middot; politics &middot; public-domain &middot; regulation &middot; rights &middot; sci-fi &middot; society &middot; space &middot; space-x &middot; sparseness &middot; statement &middot; stockmarket &middot; suspend &middot; swiss &middot; system &middot; transcoding &middot; vc &middot; vhs &middot; whatsapp</p>
+  </div>
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+  </footer>
+</body>
+</html>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[May 30 - Jun 8, 2026]]></title>
             <link>https://newsfeeds.net/digests/digest-017-2026-06-08.html</link>
@@ -124,6 +208,10 @@
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; creepy-peter-thiel &middot; data &middot; first-admendment &middot; journalism &middot; justice &middot; opsec &middot; press &middot; books &middot; gawker &middot; 23andme &middot; access &middot; adaptive &middot; addiction &middot; agents &middot; ajph &middot; algorithms &middot; analogue &middot; anthropic &middot; anthropics &middot; aphapublications &middot; archive &middot; art &middot; attack &middot; av2 &middot; bibliomaniacs &middot; biometics &middot; birthrate &middot; chatgpt &middot; cn &middot; code &middot; coding &middot; collecting &middot; collection &middot; death &middot; defense &middot; digital &middot; digital-afterlife &middot; dna &middot; drone &middot; envelope &middot; ethics &middot; everymuseum &middot; exfiltrate &middot; expertise &middot; fair &middot; financial &middot; fingerprinting &middot; funding &middot; genetics &middot; government &middot; health &middot; infosec &middot; ipo &middot; joy &middot; lawsuit &middot; legislation &middot; library &middot; media &middot; meta &middot; method &middot; ml &middot; moat &middot; museum &middot; nat-sec &middot; next-generation &middot; paliantir &middot; patents &middot; pattern &middot; pdf &middot; performance &middot; privacy &middot; public-health &middot; remote &middot; science &middot; scraper &middot; security &middot; smart-tv &middot; specification &middot; ssd &middot; storage &middot; surveillance &middot; technology &middot; tether &middot; threat &middot; tobacco &middot; training &middot; tv &middot; uk &middot; university &middot; video &middot; viri &middot; worms &middot; yale</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -206,6 +294,10 @@
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; networks &middot; abliteration &middot; agent &middot; alliteration &middot; art &middot; audio &middot; audiomass &middot; betting &middot; binary &middot; brennan &middot; code &middot; color &middot; community &middot; cybersecurity &middot; diet &middot; doj &middot; echo-rl &middot; epicure &middot; essay &middot; ethics &middot; food &middot; free &middot; geometry &middot; github &middot; having &middot; health &middot; heretic &middot; internet &middot; jailbreak &middot; language &middot; liberum &middot; llms &middot; log &middot; magnifica-humanitas &middot; market &middot; mashup &middot; mesh &middot; mesh-networks &middot; meshcore &middot; meshtastic &middot; microsoft &middot; open-source &middot; openclaw-rl &middot; panmure &middot; policy &middot; pope &middot; prediction &middot; prediction-markets &middot; protocol &middot; recipes &middot; regulation &middot; religon &middot; reticulum &middot; rights &middot; rothko &middot; smallweb &middot; surveillance &middot; training &middot; trends &middot; trouble &middot; voice &middot; weather &middot; web-based</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -276,6 +368,10 @@
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; design &middot; active-listening &middot; cmg-media &middot; cox-media &middot; ftc &middot; media &middot; reference &middot; archive &middot; archive-practice &middot; art &middot; binary &middot; color &middot; dance &middot; data &middot; data-visualization &middot; dataviz &middot; dreams &middot; government &middot; imagination &middot; internet &middot; list &middot; listening &middot; mindset &middot; pitch-deck &middot; politics &middot; problem-solution &middot; resist &middot; skill &middot; spikejonze &middot; utopias &middot; video &middot; zendaya</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -366,6 +462,10 @@
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; surveillance &middot; chatgpt &middot; claude &middot; ethics &middot; privacy &middot; ai-hollywood &middot; anthropic &middot; anthropology &middot; application &middot; art &middot; automotive &middot; backlash &middot; best-practices &middot; brain &middot; cameras &middot; canada &middot; cognitive-debt &middot; dms &middot; electronics &middot; encryption &middot; event &middot; experiment &middot; flock &middot; guide &middot; hollywood &middot; industry &middot; instagram &middot; labor &middot; legal &middot; malta &middot; media &middot; meta &middot; mit &middot; nyc &middot; openai &middot; palantir &middot; pdf &middot; prompting &middot; radio &middot; robots &middot; sony &middot; study &middot; transformation &middot; video &middot; youtube</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -454,6 +554,10 @@ La Biennale di Venezia</p></blockquote><!DOCTYPE html>
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> venice &middot; art &middot; labiennale &middot; 2026 &middot; venice-biennale &middot; biennale &middot; majamaloulyse &middot; artists &middot; technology &middot; 2-26 &middot; arthur-jafa &middot; artist &middot; australia &middot; barryxball &middot; bluetooth &middot; digital &middot; disco &middot; diversity &middot; environment &middot; folder &middot; gay &middot; identity &middot; images &middot; international &middot; looks &middot; martinwong &middot; morning &middot; press-kit &middot; richard-prince &middot; seaworld &middot; six &middot; veinice-biennale &middot; water</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -554,6 +658,10 @@ On the other side, Justices Samuel A. Alito Jr. and Brett M. Kavanaugh seemed mo
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> privacy &middot; agents &middot; ai &middot; art &middot; surveillance &middot; 2026 &middot; adobe &middot; anthropic &middot; biometics &middot; claude &middot; cowork &middot; creepy-alex-karp &middot; creepy-elon-musk &middot; creepy-sam-altman &middot; culture &middot; dna &middot; doctrine &middot; fragility &middot; genetic-optimization &middot; genetics &middot; geo-fence &middot; guide &middot; health &middot; identity &middot; internal &middot; law-enforcement &middot; memory &middot; music &middot; open-source &middot; openai &middot; palantir &middot; pope &middot; post-christian &middot; pricing &middot; psyche &middot; pysdr &middot; python &middot; radio &middot; recoil &middot; religon &middot; rf &middot; sam-altman &middot; scorched-earth-strategy &middot; scotus &middot; sdr &middot; security &middot; software &middot; sovereignty &middot; spectacle &middot; test &middot; thom-yorke &middot; trust &middot; turner-prize &middot; type &middot; veinice-biennale &middot; wordcoin</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -734,6 +842,10 @@ Article 2 This regulation applies to the provision of continuous emotional inter
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; art &middot; music &middot; nyc &middot; culture &middot; identity &middot; llm &middot; netflix &middot; open-source &middot; privacy &middot; surveillance &middot; video &middot; wired &middot; afrika-bambaataa &middot; age &middot; anthropic &middot; anthropomorphism &middot; ariel &middot; artemis &middot; backlash &middot; browser &middot; career-ops &middot; checking &middot; claude &middot; closed &middot; cn &middot; color &middot; concert &middot; contribute &middot; creepy-jim-dolan &middot; design &middot; dye-transfer &middot; environment &middot; facial-recognition &middot; frt &middot; github &middot; hai &middot; hip-hop &middot; hr &middot; huggingface &middot; inpainting &middot; job &middot; josh-klien &middot; law &middot; legislation &middot; live &middot; llms &middot; merch &middot; meta &middot; muse-spark &middot; nasa &middot; obit &middot; openai &middot; photography &middot; physics &middot; pioneer &middot; printing &middot; real-estate &middot; recordings &middot; research &middot; safety &middot; sam-altman &middot; scroll &middot; search &middot; seconds &middot; segmentation &middot; space &middot; stanford &middot; subway &middot; surveillance-ai &middot; technology &middot; the-worst-humans &middot; transportation &middot; trust &middot; ui &middot; urban-hack &middot; ux &middot; video-editing &middot; video-production &middot; violence &middot; void-model &middot; worldcoin</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -847,6 +959,10 @@ The European Commission publicly disclosed the incident on March 27 after Bleepi
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; deepmind &middot; google &middot; government &middot; internet &middot; privacy &middot; 92ny &middot; 92y &middot; afrl &middot; air-force &middot; apps &middot; archive &middot; art &middot; backbone &middot; blogging &middot; books &middot; breach &middot; chatgpt &middot; colaboration &middot; commercial &middot; cracking &middot; creative-process &middot; creativity &middot; cryptography &middot; display &middot; eithics &middot; emdash &middot; ethics &middot; eu &middot; facial-recognition &middot; fedware &middot; ftc &middot; gemma &middot; hacked &middot; harms &middot; infrastructure &middot; intelligence &middot; knowledge &middot; learning &middot; llm &middot; map &middot; meetings &middot; music &middot; network-effects &middot; nyc &middot; okcupid-matchcomplaint &middot; open-source &middot; open-web &middot; opsec &middot; oration &middot; pretext &middot; psychology &middot; publishing &middot; ransomware &middot; regulation &middot; security &middot; spreadsheet &middot; spy &middot; surveillance &middot; talks &middot; teampcp &middot; tells &middot; text &middot; usaf &middot; vulns &middot; wordpress &middot; wsj &middot; wtf &middot; zoom &middot; zuckerberg</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1072,6 +1188,10 @@ and scalable pathway towards ultra-efficient language models.</p>
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; claude &middot; code &middot; cryptography &middot; infosec &middot; llm &middot; m&amp;a &middot; time &middot; acquisition &middot; agency &middot; agents &middot; ai-hollywood &middot; ai-music &middot; anthropic &middot; anthropology &middot; antitrust &middot; app &middot; apple &middot; authorship &middot; autoregressive-prediction &middot; bandwidth &middot; benchmarks &middot; brand &middot; broken &middot; business &middot; calculation &middot; calm &middot; cheat-sheet &middot; clock &middot; coding &middot; compliance &middot; coms &middot; consumerism &middot; content &middot; continuous-vector &middot; coruna &middot; cowork &middot; cracking &middot; css &middot; custom &middot; delve &middot; desktop &middot; digital-war &middot; docs &middot; document &middot; doordash &middot; drm &middot; dvds &middot; encryption &middot; entanglement &middot; entertainment &middot; error &middot; ethics &middot; experience &middot; fake &middot; gen-z &middot; gender &middot; github &middot; glasses &middot; hacked &middot; hp &middot; human &middot; human-ai &middot; ibm &middot; imperfection &middot; implementation &middot; index &middot; information &middot; ios &middot; law &middot; life &middot; live &middot; luxury &middot; mentalhealth &middot; meta &middot; music &middot; netflix &middot; news &middot; nist &middot; official &middot; on-the-calculation-of-the-human-ai-agency-spectrum &middot; paper &middot; parallel &middot; preprint &middot; privacy &middot; publishing &middot; quantum &middot; quantum-cryptography &middot; robots &middot; scrambling &middot; semantic &middot; signaling &middot; skills &middot; soc2 &middot; societal-norms &middot; society &middot; specification &middot; spectrum &middot; surveillance &middot; tasks &middot; television &middot; timer &middot; training &middot; transparency &middot; tv &middot; us-gov &middot; war &middot; warnerbros &middot; woman &middot; workforce &middot; world &middot; yc &middot; zero-day</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1193,6 +1313,10 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> privacy &middot; ai &middot; surveillance &middot; art &middot; foundation &middot; 2026 &middot; agents &middot; aging &middot; anonymous &middot; apple &middot; audio &middot; automotive &middot; benedict &middot; bio-hacking &middot; claude &middot; code &middot; coding_agents &middot; collecting &middot; compete &middot; credentials &middot; data &middot; degoogled &middot; denylist &middot; detection &middot; developer &middot; documentation &middot; earth &middot; engagement &middot; environment &middot; escapes &middot; evans &middot; finland &middot; foundation-models &middot; gaming &middot; garden &middot; health &middot; helsinki &middot; howto &middot; infosec &middot; jp &middot; living-better &middot; models &middot; mondrian &middot; openai &middot; openclaw &middot; operating &middot; opsec &middot; phone &middot; photography &middot; presentation &middot; public-domain &middot; questions &middot; reasoning &middot; safety &middot; samsung &middot; sandbox &middot; security &middot; smart-glasses &middot; smartphone &middot; television &middot; texans &middot; transportation &middot; tv &middot; ungoogled &middot; video</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1311,6 +1435,10 @@ These updates build on the framework we announced last week and we hope will hel
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; ethics &middot; agents &middot; anthropic &middot; github &middot; howto &middot; openai &middot; surveillance &middot; video &middot; account &middot; atrophy &middot; brain &middot; bytedance &middot; citadel &middot; climate &middot; clinical-trials &middot; coding &middot; computers &middot; css &middot; data &middot; delete &middot; democracy &middot; development &middot; drugs &middot; education &middot; effect &middot; flow &middot; gist &middot; global &middot; government &middot; health &middot; hostile-co &middot; identity &middot; intelligence &middot; knowledge &middot; learing &middot; llm &middot; metadata &middot; microgpt &middot; open-source &middot; paper &middot; poisoning &middot; polymarket &middot; polymarket-cli &middot; privacy &middot; programming &middot; python &middot; r&amp;d &middot; reasoning &middot; securities &middot; security &middot; seedance &middot; standards &middot; state-deptment &middot; statement &middot; video-gen &middot; weights</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1438,6 +1566,10 @@ Signed edition of 100</p>
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; art &middot; google &middot; opsec &middot; security &middot; verification &middot; 2026 &middot; anthropomorphism &middot; archival-pigment-print &middot; archive &middot; bauhaus &middot; bed &middot; bela-lugosi &middot; blacklist &middot; cern &middot; claude &middot; cn &middot; code &middot; cy-twombly &middot; cybersecurity &middot; dark-ux &middot; ddos &middot; fashion &middot; federal &middot; firebase &middot; gallery &middot; gemini &middot; generator &middot; green &middot; ice &middot; identity &middot; interpretability &middot; karma &middot; karpathy &middot; lamp &middot; legislation &middot; linkedin &middot; lyria &middot; mac &middot; mac-mini &middot; merch &middot; music &middot; musicvideo &middot; nikecraft &middot; passwords &middot; print &middot; private-prison &middot; pun &middot; real-estate &middot; rebuild &middot; song &middot; studio &middot; tomsachs &middot; tool &middot; trust &middot; unauthorized &middot; vaults &middot; video &middot; wef &middot; wikipedia &middot; worldwideweb &middot; wtf</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1549,6 +1681,10 @@ Communication should be available to everyone as a free and open, unencumbered, 
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> art &middot; ai &middot; ice &middot; networks &middot; opsec &middot; palantir &middot; protocol &middot; video &middot; adapting &middot; america &middot; anish_kapoor &middot; architecture &middot; behavior &middot; black-history &middot; blog &middot; censorship &middot; cmu &middot; communications &middot; computer-club &middot; copyright &middot; corporate-culture &middot; culture &middot; data &middot; decentralized &middot; democracy &middot; design &middot; digital-sovereignty &middot; elite-tool &middot; ethics &middot; exhibition &middot; ftp &middot; gabrielle_goliath &middot; global &middot; google &middot; hhs &middot; history &middot; human &middot; humanity &middot; information &middot; internet &middot; knowledge &middot; learning &middot; licensing &middot; map &middot; moma &middot; msft &middot; music &middot; nationstate &middot; opensource &middot; privacy &middot; publishing &middot; record-label &middot; recordings &middot; social-contract &middot; space &middot; stephen_miller &middot; strategy &middot; tasks &middot; technology &middot; thinking &middot; venice &middot; venice-biennale &middot; violence &middot; wiki &middot; youtube &middot; zoom</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1668,6 +1804,10 @@ Chatrie’s appeal challenges the constitutionality of geofence warrants, arguin
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; anthropic &middot; ethics &middot; learning &middot; agency &middot; agents &middot; constitution &middot; government &middot; machine-learning &middot; security &middot; surveillance &middot; analytics &middot; anti-american &middot; assitant &middot; automotive &middot; books &middot; chatgpt &middot; claude &middot; coding &middot; collective-culture &middot; community &middot; copyright &middot; culture &middot; data &middot; data-science &middot; disempowerment &middot; environment &middot; geo-fence &middot; harms &middot; human &middot; ip &middot; knowledge &middot; llms &middot; mobile &middot; models &middot; music &middot; norway &middot; openclaw &middot; opsec &middot; palantir &middot; platform &middot; privacy &middot; productivity &middot; protest &middot; python &middot; scotus &middot; society &middot; standards &middot; surveillance-ai &middot; transportation &middot; wapo</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1782,6 +1922,10 @@ How can humanity navigate the promises and perils of AI, and what values should 
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; 2026 &middot; wef &middot; video &middot; compute &middot; advertising &middot; agi &middot; anthropic &middot; audit &middot; bluetooth &middot; borders &middot; brain &middot; chatgpt &middot; cn &middot; data &middot; datacenters &middot; economics &middot; education &middot; energy &middot; ethics &middot; google &middot; harms &middot; humanity &middot; infrastructure &middot; intelligence &middot; interpretability &middot; learning &middot; llm &middot; llms &middot; mesh &middot; networking &middot; openai &middot; opensource &middot; opsec &middot; peer-to-peer &middot; politics &middot; polymarket &middot; proxies &middot; ruthless-adoption &middot; sandbox &middot; scale &middot; technology &middot; water &middot; weights &middot; workforce &middot; youtube</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
@@ -1911,6 +2055,10 @@ transmediale 2026 reimagines the festival as a living recursive carrier net – 
 </div>
   </main>
 
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; code &middot; media &middot; art &middot; capitalism &middot; consumption &middot; language &middot; aaron_swartz &middot; access &middot; agents &middot; agi &middot; christian-marclay &middot; civilization &middot; clock &middot; conference &middot; content &middot; copyright &middot; culture &middot; democracy &middot; duet &middot; economics &middot; global &middot; government &middot; history &middot; howto &middot; internal-agent &middot; iran &middot; knowledge &middot; learning &middot; lexicon &middot; list &middot; llm &middot; machine-learning &middot; markdown &middot; memes &middot; music &middot; networks &middot; open-mindset &middot; palantir &middot; pop-culture &middot; popular &middot; rockhall &middot; science &middot; time &middot; trade &middot; transmedia &middot; video &middot; youtube</p>
+  </div>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>

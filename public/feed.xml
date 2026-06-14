@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 12 Jun 2026 13:11:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 10:17:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Statement on the US government directive to suspend access to Fable 5 and Mythos 5]]></title>
+            <link>https://www.anthropic.com/news/fable-mythos-access</link>
+            <guid>1781432057803</guid>
+            <pubDate>Sun, 14 Jun 2026 10:14:17 GMT</pubDate>
+            <description><![CDATA[Tags: statement, government, directive, suspend, access, anthropic, ai, llm, regulation, claude, fable5, mythos]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Palantir loses legal challenge against Swiss investigative magazine]]></title>
+            <link>https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1</link>
+            <guid>1781343739947</guid>
+            <pubDate>Sat, 13 Jun 2026 09:42:19 GMT</pubDate>
+            <description><![CDATA[Tags: palantir, legal, swiss, creepy-peter-thiel]]></description>
+        </item>
+        <item>
+            <title><![CDATA[What Sparseness Means for Brains, AI, and Learning]]></title>
+            <link>https://thatbuild.substack.com/p/what-sparseness-means-for-brains</link>
+            <guid>1781343664939</guid>
+            <pubDate>Sat, 13 Jun 2026 09:41:04 GMT</pubDate>
+            <description><![CDATA[Tags: sparseness, learning, brain, mind, system]]></description>
+        </item>
         <item>
             <title><![CDATA[Google moves to dismiss indie artists’ lawsuit over Lyria 3 AI training, arguing they licensed their music to YouTube]]></title>
             <link>https://www.musicbusinessworldwide.com/google-moves-to-dismiss-indie-artists-lawsuit-over-lyria-3-ai-training-arguing-they-licensed-their-music-to-youtube/</link>

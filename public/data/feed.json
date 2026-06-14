@@ -15,6 +15,72 @@
   ],
   "items": [
     {
+      "id": "1781432057803",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "date_published": "2026-06-14T10:14:17.803Z",
+      "tags": [
+        "statement",
+        "government",
+        "directive",
+        "suspend",
+        "access",
+        "anthropic",
+        "ai",
+        "llm",
+        "regulation",
+        "claude",
+        "fable5",
+        "mythos"
+      ],
+      "content_text": "Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:\n\nWe have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.\n\nIn the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.\nThese tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.\n\nNo testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities.",
+      "summary": "Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:\n\nWe have instituted strong safeguards t...",
+      "content_html": "<blockquote>Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:\n\nWe have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.\n\nIn the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.\nThese tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.\n\nNo testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities.</blockquote>\n<p><strong>Tags:</strong> statement, government, directive, suspend, access, anthropic, ai, llm, regulation, claude, fable5, mythos</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1781343739947",
+      "url": "https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1",
+      "title": "Palantir loses legal challenge against Swiss investigative magazine",
+      "date_published": "2026-06-13T09:42:19.947Z",
+      "tags": [
+        "palantir",
+        "legal",
+        "swiss",
+        "creepy-peter-thiel"
+      ],
+      "content_text": "The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business with Swiss federal authorities.\n\nThe lawsuit has had a “Streisand effect”, drawing wider attention to Republik’s reporting and the Swiss government documents detailing repeated official concerns about adopting Palantir’s technology.\n\nIt attracted attention beyond Switzerland because it touched on broader European concerns about reliance on US technology providers for sensitive state functions.\n\n\n",
+      "summary": "The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business wit...",
+      "content_html": "<blockquote>The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business with Swiss federal authorities.\n\nThe lawsuit has had a “Streisand effect”, drawing wider attention to Republik’s reporting and the Swiss government documents detailing repeated official concerns about adopting Palantir’s technology.\n\nIt attracted attention beyond Switzerland because it touched on broader European concerns about reliance on US technology providers for sensitive state functions.\n\n\n</blockquote>\n<p><strong>Tags:</strong> palantir, legal, swiss, creepy-peter-thiel</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1781343664939",
+      "url": "https://thatbuild.substack.com/p/what-sparseness-means-for-brains",
+      "title": "What Sparseness Means for Brains, AI, and Learning",
+      "date_published": "2026-06-13T09:41:04.939Z",
+      "tags": [
+        "sparseness",
+        "learning",
+        "brain",
+        "mind",
+        "system"
+      ],
+      "content_text": "The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.\n\n",
+      "summary": "The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connecti...",
+      "content_html": "<blockquote>The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.\n\n</blockquote>\n<p><strong>Tags:</strong> sparseness, learning, brain, mind, system</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1781269903773",
       "url": "https://www.musicbusinessworldwide.com/google-moves-to-dismiss-indie-artists-lawsuit-over-lyria-3-ai-training-arguing-they-licensed-their-music-to-youtube/",
       "title": "Google moves to dismiss indie artists’ lawsuit over Lyria 3 AI training, arguing they licensed their music to YouTube",
