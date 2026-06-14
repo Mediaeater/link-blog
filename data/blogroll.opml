@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Fri, 12 Jun 2026 13:18:41 GMT</dateCreated>
-    <dateModified>Fri, 12 Jun 2026 13:18:41 GMT</dateModified>
+    <dateCreated>Sun, 14 Jun 2026 12:21:28 GMT</dateCreated>
+    <dateModified>Sun, 14 Jun 2026 12:21:28 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -173,6 +173,14 @@ The still-unresolved questions raised by his case have resurfaced in today’s d
       <outline type="link" text="Fully automatic censorship removal for language models" title="Fully automatic censorship removal for language models" url="https://github.com/p-e-w/heretic" htmlUrl="https://github.com/p-e-w/heretic" description="Heretic is a tool that removes censorship (aka &quot;safety alignment&quot;) from transformer-based language models without expensive post-training. It combines an advanced implementation of directional ablation, also known as &quot;abliteration&quot; (Arditi et al. 2024, Lai 2025 (1, 2)), with a TPE-based parameter optimizer powered by Optuna." created="Mon, 25 May 2026 10:16:15 GMT" category="heretic,abliteration,jailbreak,code,llms,open-source" />
     </outline>
     <outline text="access" title="access">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="everymuseum.org" title="everymuseum.org" url="https://everymuseum.org" htmlUrl="https://everymuseum.org" description=" EveryMuseum dot org
 - Tell AI: &quot;connect the EveryMuseum MCP&quot;
 
@@ -405,6 +413,14 @@ Asuka Mochida is a Yakult Lady from Gunma Prefecture. Nearly all her customers a
 &quot;Yakult Ladies are not just people who sell products,&quot; says the 47-year-old. &quot;We are watchers in a sense, people who look out for others. We notice small changes in health or lifestyle.&quot;" created="Thu, 05 Mar 2026 12:48:17 GMT" category="aging,health,jp,bio-hacking" />
     </outline>
     <outline text="ai" title="ai">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="We Can’t Let My Former V.C. Colleagues Buy Off Our Democracy" title="We Can’t Let My Former V.C. Colleagues Buy Off Our Democracy" url="https://www.nytimes.com/2026/06/11/opinion/silicon-valley-ai-politics.html" htmlUrl="https://www.nytimes.com/2026/06/11/opinion/silicon-valley-ai-politics.html" description="I believe this attempted political infiltration by the A.I. industry will fail. It misreads the public mood entirely. Americans believe the system is rigged by the wealthy and powerful. They’re also deeply concerned about A.I. — a backlash is building, and it will become fiercer when voters learn that a handful of billionaires are altogether spending nine figures, apparently in an effort to try to stop debates about regulation from further developing." created="Fri, 12 Jun 2026 13:10:14 GMT" category="nytimes,ai,ethics,a12z,vc,politics" />
       <outline type="link" text="Previously Shelved AI Executive Order Signed" title="Previously Shelved AI Executive Order Signed" url="https://www.techpolicy.press/trump-signs-previously-shelved-ai-executive-order/" htmlUrl="https://www.techpolicy.press/trump-signs-previously-shelved-ai-executive-order/" description="One change to the May draft is the timeline for review. That text stated that developers would be able to &quot;provide the Federal Government with access to covered frontier models... for a period of up to 90 days before they plan to release such models to other trusted partners.&quot; In the final June order, that window was reduced to 30 days.
 
@@ -991,6 +1007,14 @@ Whether such projects are realised or not is almost immaterial to Kapoor. His Ve
 " created="Tue, 03 Mar 2026 11:39:09 GMT" category="anonymous,credentials,surveillance,privacy,ai" />
     </outline>
     <outline text="anthropic" title="anthropic">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="Anthropic raises $65B in Series H funding at $965B post-money valuation" title="Anthropic raises $65B in Series H funding at $965B post-money valuation" url="https://www.anthropic.com/news/series-h" htmlUrl="https://www.anthropic.com/news/series-h" description="Since our Series G in February, adoption has continued to grow across global enterprise customers, and our run-rate revenue crossed $47 billion earlier this month." created="Sat, 30 May 2026 14:45:29 GMT" category="anthropic,funding,ai,ipo,financial" />
       <outline type="link" text="GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows" title="GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows" url=" https://github.com/anthropics/claude-for-legal" htmlUrl=" https://github.com/anthropics/claude-for-legal" created="Sat, 16 May 2026 01:32:31 GMT" category="ai,legal,claude,anthropic" />
       <outline type="link" text="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" title="AI: Anthropic’s ‘fascinating’ internal test of AI Agents Shopping. RTZ #1068" url="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" htmlUrl="https://michaelparekh.substack.com/p/ai-anthropics-fascinating-internal" description="“Anthropic calls this an “uncomfortable implication:” when agents of different strengths meet in real markets, people could end up on the losing side without ever knowing it. The company admits the experiment wasn’t built to dig into these dynamics in detail and says more research is needed.”" created="Sun, 26 Apr 2026 11:09:04 GMT" category="anthropic,internal,test,agents,ai,trust" />
@@ -1734,6 +1758,9 @@ The Digital Embassy Framework, spearheaded by the World Economic Forum and co-de
       <outline type="link" text="Root System Drawings" title="Root System Drawings" url="https://images.wur.nl/digital/collection/coll13/search" htmlUrl="https://images.wur.nl/digital/collection/coll13/search" description="Browsing items in: Root System Drawings" created="Sat, 18 Oct 2025 14:21:01 GMT" category="root,system,plants,botany,collection,drawing" />
     </outline>
     <outline text="brain" title="brain">
+      <outline type="link" text="What Sparseness Means for Brains, AI, and Learning" title="What Sparseness Means for Brains, AI, and Learning" url="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" htmlUrl="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" description="The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.
+
+" created="Sat, 13 Jun 2026 09:41:04 GMT" category="sparseness,learning,brain,mind,system" />
       <outline type="link" text="Project Overview ‹ Your Brain on ChatGPT – MIT Media Lab" title="Project Overview ‹ Your Brain on ChatGPT – MIT Media Lab" url="https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/" htmlUrl="https://www.media.mit.edu/projects/your-brain-on-chatgpt/overview/" description="As the educational impact of LLM use only begins to settle with the general population, in this study we demonstrate the pressing matter of exploring a possible decrease in learning skills based on the preliminary results of our study. The use of LLM had a measurable impact on our participants, and while the benefits were initially apparent, as we demonstrated over the course of 4 sessions, which took place over 4 months, the LLM group&apos;s participants performed worse than their counterparts in the Brain-only group at all levels: neural, linguistic, scoring.
 
 We hope this study serves as a preliminary guide to encourage better understanding of the cognitive and practical impacts of AI on learning environments." created="Mon, 11 May 2026 13:30:07 GMT" category="brain,chatgpt,mit,study,ai,cognitive-debt" />
@@ -2032,6 +2059,14 @@ The bill requires the biggest AI companies to publish safety protocols for serio
 Such reactions reduced their ability to adapt locally to changing circumstances. Severed trade routes eroded economic and technological capacity, and new orthodoxies choked off the flow of ideas and solutions that might have helped them manage the crisis. They lost that spirit of curiosity that had once made them great." created="Mon, 05 Jan 2026 13:58:16 GMT" category="capitalism,consumption,trade,global,civilization,open-mindset,history" />
     </outline>
     <outline text="claude" title="claude">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows" title="GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows" url=" https://github.com/anthropics/claude-for-legal" htmlUrl=" https://github.com/anthropics/claude-for-legal" created="Sat, 16 May 2026 01:32:31 GMT" category="ai,legal,claude,anthropic" />
       <outline type="link" text="Prompting best practices" title="Prompting best practices" url="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices" htmlUrl="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices" description="Prompting best practices
 
@@ -2527,6 +2562,14 @@ The biggest player so far is Leading the Future, a super PAC that has said it wo
 The super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity." created="Fri, 28 Nov 2025 11:26:28 GMT" category="creepy-joe-lonsdale,a12z,lobby,pac,politcs,ai,ai-regulation,leading-the-future,andreessen-horowitz,public-first-pac" />
     </outline>
     <outline text="creepy-peter-thiel" title="creepy-peter-thiel">
+      <outline type="link" text="Palantir loses legal challenge against Swiss investigative magazine" title="Palantir loses legal challenge against Swiss investigative magazine" url="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" description="The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business with Swiss federal authorities.
+
+The lawsuit has had a “Streisand effect”, drawing wider attention to Republik’s reporting and the Swiss government documents detailing repeated official concerns about adopting Palantir’s technology.
+
+It attracted attention beyond Switzerland because it touched on broader European concerns about reliance on US technology providers for sensitive state functions.
+
+
+" created="Sat, 13 Jun 2026 09:42:19 GMT" category="palantir,legal,swiss,creepy-peter-thiel" />
       <outline type="link" text="Objection AI" title="Objection AI" url="https://objection.ai/" htmlUrl="https://objection.ai/" description="Maybe the most creepy site on the internet - the worst humans 
 
 Due to feedback we&apos;re rebuilding for an epistemic and primary sourced future.
@@ -2877,6 +2920,16 @@ It happened so fast that this is most likely a government operation. I can easil
     </outline>
     <outline text="dignity" title="dignity">
       <outline type="link" text="AI surveillance should be banned while there is still time." title="AI surveillance should be banned while there is still time." url="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" htmlUrl="https://gabrielweinberg.com/p/ai-surveillance-should-be-banned" created="Sat, 06 Sep 2025 23:53:46 GMT" category="ai,surveillance,harms,ethics,dignity" />
+    </outline>
+    <outline text="directive" title="directive">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
     </outline>
     <outline text="disco" title="disco">
       <outline type="link" text="‘It looks like a gay disco at six in the morning’: at home with artist Andreas Angelidakis" title="‘It looks like a gay disco at six in the morning’: at home with artist Andreas Angelidakis" url="https://www.worldofinteriors.com/story/andreas-angelidakis-apartment-athens-greece" htmlUrl="https://www.worldofinteriors.com/story/andreas-angelidakis-apartment-athens-greece" description="Andreas Angelidakis’s apartment is in flux as the Athens-based artist explores, through his home environment, his next international show. Maquettes are being considered, juxtapositions judged and details fixed. The place is a whirlpool of ideas and experimentation, prototypes and aftermaths: somewhere between Scylla and Charybdis in the provocations that spin out, informed by keepsakes, memories and losses, the personal and political. The chaos is ruled over by an elderly Pomeranian called Lupo, little tongue lolling.
@@ -3364,6 +3417,16 @@ The first phase of the programme will launch in May, with the Malta Digital Inno
     <outline text="expertise" title="expertise">
       <outline type="link" text="Domain Expertise Has Always Been the Real Moat | Aaron Brethorst" title="Domain Expertise Has Always Been the Real Moat | Aaron Brethorst" url="https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/" htmlUrl="https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/" description="So the most valuable person in this new world is the one who has both skills because they can verify at both layers. They know the generated code is sound and they know the answers it produces are true. They can write the test that encodes “a driver can’t exceed eleven hours” because they know the rule, and they can tell that the test itself is meaningful because they know what they’re testing. The agent does the transcription. They do the judging, twice." created="Sun, 31 May 2026 11:45:03 GMT" category="expertise,moat" />
     </outline>
+    <outline text="fable5" title="fable5">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
+    </outline>
     <outline text="facebook" title="facebook">
       <outline type="link" text="Meta quietly added facial recognition code for smart glasses to its app" title="Meta quietly added facial recognition code for smart glasses to its app" url="https://www.wired.com/story/meta-smart-glasses-face-recognition-nametag-connections/" htmlUrl="https://www.wired.com/story/meta-smart-glasses-face-recognition-nametag-connections/" description="Meta Silently Added Face-Recognition Code for Its Smart Glasses to Millions of Phones
 Code reviewed by WIRED uncovered an unreleased face-recognition system embedded in Meta’s smart glasses platform. It’s designed to identify people via biometric data stored on users’ phones." created="Mon, 08 Jun 2026 12:41:16 GMT" category="meta,creepy-zuck,facebook,frt,facial-recognition,glasses,privacy,social-contract" />
@@ -3742,6 +3805,14 @@ As biotechnology advances, the United States cannot rely on outdated, piecemeal 
       <outline type="link" text="guidelines-governance.pdf" title="guidelines-governance.pdf" url="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" htmlUrl="https://indiaai.s3.ap-south-1.amazonaws.com/docs/guidelines-governance.pdf" description="India AI Governance Guidelines Enabling Safe and Trusted AI Innovation" created="Thu, 06 Nov 2025 17:45:54 GMT" category="ai,governance,india,guidelines" />
     </outline>
     <outline text="government" title="government">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="Rewiring the state: Delivering digital government" title="Rewiring the state: Delivering digital government" url="https://committees.parliament.uk/publications/53352/documents/298462/default/" htmlUrl="https://committees.parliament.uk/publications/53352/documents/298462/default/" description="Our inquiry identified four building blocks for successful digital
 transformation, and four barriers to realising its benefits. The building
 blocks are:
@@ -4552,6 +4623,9 @@ The super PAC said Andreessen Horowitz committed $25 million this year and $25 m
       <outline type="link" text="The Missing Semester of Your CS Education" title="The Missing Semester of Your CS Education" url="https://missing.csail.mit.edu/" htmlUrl="https://missing.csail.mit.edu/" description="hese days, many aspects of software engineering are also in flux through the introduction of AI-enabled and AI-enhanced tools and workflows. When used appropriately and with awareness of their shortcomings, these can often provide significant benefits to CS practitioners and are thus worth developing working knowledge of. Since AI is a cross-functional enabling technology, there is not a standalone AI lecture; we’ve instead folded the use of the latest applicable AI tools and techniques into each lecture directly." created="Fri, 27 Feb 2026 12:03:03 GMT" category="education,css,learing,knowledge,computers" />
     </outline>
     <outline text="learning" title="learning">
+      <outline type="link" text="What Sparseness Means for Brains, AI, and Learning" title="What Sparseness Means for Brains, AI, and Learning" url="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" htmlUrl="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" description="The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.
+
+" created="Sat, 13 Jun 2026 09:41:04 GMT" category="sparseness,learning,brain,mind,system" />
       <outline type="link" text="Why Swedish Schools Are Bringing Back Books" title="Why Swedish Schools Are Bringing Back Books" url="https://undark.org/2026/04/01/sweden-schools-books/" htmlUrl="https://undark.org/2026/04/01/sweden-schools-books/" description="Why Swedish Schools Are Bringing Back Books - amid declining test scores, the country has pivoted away from screens and invested in back-to-basics school materials." created="Fri, 03 Apr 2026 11:33:30 GMT" category="learning,books,knowledge" />
       <outline type="link" text="Outsourcing thinking – Erik Johannes Husom" title="Outsourcing thinking – Erik Johannes Husom" url="https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html" htmlUrl="https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html" description="Regarding the &quot;lump of cognition fallacy&quot;, I fully agree that we need not worry about &quot;draining a finite pool&quot; of thinking, leaving &quot;less thinking&quot; — whatever that means — for humans. There is, however, another fallacy at play here, which is that &quot;it does not matter what we think about, as long as we think about something&quot;. It is easy to be convinced that if a computer can do the simple, boring tasks for me, I can deal with more complex, exciting stuff myself. But we must be aware that certain mental tasks are important for us to do, even though a machine technically could do them for us.
 
@@ -4591,6 +4665,14 @@ The Outcome: Incumbents who use AI to &quot;do the old thing faster&quot; will l
       <outline type="link" text="Anthropic to pay $1.5 billion to authors in landmark AI settlement" title="Anthropic to pay $1.5 billion to authors in landmark AI settlement" url="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" htmlUrl="https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement" created="Sat, 06 Sep 2025 23:59:48 GMT" category="copyright,llm,anthropic,books,legacy_media" />
     </outline>
     <outline text="legal" title="legal">
+      <outline type="link" text="Palantir loses legal challenge against Swiss investigative magazine" title="Palantir loses legal challenge against Swiss investigative magazine" url="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" description="The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business with Swiss federal authorities.
+
+The lawsuit has had a “Streisand effect”, drawing wider attention to Republik’s reporting and the Swiss government documents detailing repeated official concerns about adopting Palantir’s technology.
+
+It attracted attention beyond Switzerland because it touched on broader European concerns about reliance on US technology providers for sensitive state functions.
+
+
+" created="Sat, 13 Jun 2026 09:42:19 GMT" category="palantir,legal,swiss,creepy-peter-thiel" />
       <outline type="link" text="GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows" title="GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows" url=" https://github.com/anthropics/claude-for-legal" htmlUrl=" https://github.com/anthropics/claude-for-legal" created="Sat, 16 May 2026 01:32:31 GMT" category="ai,legal,claude,anthropic" />
       <outline type="link" text="Archive.today: FBI Demands Data from Provider Tucows" title="Archive.today: FBI Demands Data from Provider Tucows" url="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" htmlUrl="https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html" description="It is one of the most mysterious and, at the same time, best-known websites on the internet. Archive.today has built up a user base over a period of more than ten years who use the service to access previous snapshots of a web page. So basically like the Wayback Machine of the Internet Archive, only largely free of rules and presumably therefore also anonymous. To the chagrin of the media industry, the service is also often used to bypass paywalls. This is also possible because the service does not adhere to common rules and laws and offers no opt-out option." created="Thu, 06 Nov 2025 17:44:45 GMT" category="archive,legal,fbi,hosting" />
       <outline type="link" text="Language Models are Injective and Hence Invertible" title="Language Models are Injective and Hence Invertible" url="https://arxiv.org/abs/2510.15511" htmlUrl="https://arxiv.org/abs/2510.15511" description="ED NOTE on this paper - So if models are injective—meaning they map every unique input sequence to a distinct internal representation that can be perfectly recovered. Rather than compressing information like a black box, these models function as reversible encoders, preserving the full structure of their inputs from initialization through training. 
@@ -4739,6 +4821,14 @@ Financial news channels have been removed to focus on breaking news." created="T
       <outline type="link" text="Helsinki just went a full year without a single traffic death" title="Helsinki just went a full year without a single traffic death" url="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" htmlUrl="https://www.politico.eu/article/helsinki-no-traffic-death-roads-eu-accident-finland-driving-transport/" description="Helsinki hasn’t registered a single traffic-related fatality in the past year. " created="Thu, 05 Mar 2026 12:49:37 GMT" category="helsinki,automotive,living-better,finland,transportation,safety" />
     </outline>
     <outline text="llm" title="llm">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="Qwen Studio" title="Qwen Studio" url="https://qwen.ai/blog?id=qwen3.6-35b-a3b" htmlUrl="https://qwen.ai/blog?id=qwen3.6-35b-a3b" description="open-source Qwen3.6-35B-A3B — a sparse yet remarkably capable mixture-of-experts (MoE) model with 35 billion total parameters and only 3 billion active parameters. Despite its efficiency, Qwen3.6-35B-A3B delivers outstanding agentic coding performance, surpassing its predecessor Qwen3.5-35B-A3B by a wide margin and rivaling much larger dense models such as Qwen3.5-27B and Gemma4-31B. Still supporting both multimodal thinking and non-thinking modes, Qwen3.6-35B-A3B works as one of the most versatile open-source models available today. " created="Sun, 19 Apr 2026 12:39:45 GMT" category="ai,llm,open-source" visits="1" />
       <outline type="link" text="Introducing Muse Spark: Scaling Towards Personal Superintelligence" title="Introducing Muse Spark: Scaling Towards Personal Superintelligence" url="https://ai.meta.com/blog/introducing-muse-spark-msl/" htmlUrl="https://ai.meta.com/blog/introducing-muse-spark-msl/" description="The model is closed to ensure Meta retains control over its &quot;Muse&quot; reasoning architecture and to monetize the technology via a private API and inference service. Unlike previous Llama iterations, Muse Spark weights cannot be downloaded or run locally, restricting usage to Meta’s internal portal.  the model represents a strategic hypocrisy, as Meta has moved from advocating for open-source as the &quot;path forward&quot; to joining the ranks of closed-model providers to justify a $135 billion R&amp;D expenditure." created="Thu, 09 Apr 2026 13:22:04 GMT" category="meta,closed,llm,muse-spark" />
       <outline type="link" text="Gemma 4" title="Gemma 4" url="https://deepmind.google/models/gemma/gemma-4/" htmlUrl="https://deepmind.google/models/gemma/gemma-4/" description="Our most intelligent open models, built from Gemini 3 research and technology to maximize intelligence-per-parameter" created="Fri, 03 Apr 2026 11:31:32 GMT" category="gemma,ai,llm,google,deepmind" />
@@ -5149,6 +5239,9 @@ ECHO is implemented as an extension on top of SkyRL: SkyRL provides the core RL 
 " created="Thu, 28 May 2026 11:25:13 GMT" category="github,microsoft,echo-rl,training" />
     </outline>
     <outline text="mind" title="mind">
+      <outline type="link" text="What Sparseness Means for Brains, AI, and Learning" title="What Sparseness Means for Brains, AI, and Learning" url="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" htmlUrl="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" description="The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.
+
+" created="Sat, 13 Jun 2026 09:41:04 GMT" category="sparseness,learning,brain,mind,system" />
       <outline type="link" text="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" title="Protecting the Developing Mind in a Digital Age: A Global Policy Imperative" url="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" htmlUrl="https://www.tandfonline.com/doi/full/10.1080/19452829.2025.2518313" description="d. Our analysis reveals that receiving a smartphone before age 13 is associated with poorer mind health outcomes in young adulthood, particularly among females, including suicidal thoughts, detachment from reality, poorer emotional regulation, and diminished self-worth. These correlations are mediated through several factors, including social media access, cyberbullying, disrupted sleep, and poor family relationships. This trend appears consistently across all global regions with the magnitude greatest in English-speaking nations" created="Sat, 22 Nov 2025 23:46:37 GMT" category="Smartphones,technology,mentalhealth,mind,health,wellbeing,childhood,youth,development" />
     </outline>
     <outline text="mind-body" title="mind-body">
@@ -5324,6 +5417,16 @@ Unfortunately, there isn’t a currently a way to prevent AI-generated &quot;mus
     </outline>
     <outline text="musicvideo" title="musicvideo">
       <outline type="link" text="Lyria — Gemini AI music &amp; song generator" title="Lyria — Gemini AI music &amp; song generator" url="https://gemini.google/overview/music-generation/" htmlUrl="https://gemini.google/overview/music-generation/" description="Lyria 3 Create custom tracks for any moment The new way to hit play. Lyria 3 is Gemini’s high-fidelity AI music generator that transforms your text or image prompts into 30-second tracks, complete with instrumentals, vocals and lyrics. Turn a funny moment, a specific feeling, or even a photo into a custom soundtrack." created="Mon, 23 Feb 2026 14:26:29 GMT" category="lyria,gemini,music,song,generator,musicvideo,google" />
+    </outline>
+    <outline text="mythos" title="mythos">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
     </outline>
     <outline text="narritive" title="narritive">
       <outline type="link" text="Anatomy of a Narrative Virus - How a story spreads" title="Anatomy of a Narrative Virus - How a story spreads" url="https://www.epsilontheory.com/anatomy-of-a-narrative-virus/" htmlUrl="https://www.epsilontheory.com/anatomy-of-a-narrative-virus/" description="And don&apos;t get caught up on Grok. All of this is happening every day with OpenAI, Anthropic, and Google models, too. As we look forward, the risk of model collapse - models training themselves into oblivion on their own slop - isn&apos;t that models become less useful but that they become even more fundamentally prone to support bifurcated constructed realities. All the while, for most of us, all of this is happening in a paralyzing field of uncertainty. We are faced with the choice between lacking all conviction and being full of passionate intensity. When I see a video or an image, I doubt it immediately. I feel completely ill-equipped to speak to its veracity and terrified to stake my credibility on its authenticity. More often than ever I find it necessary to ask myself what I need to be true and to challenge it. More than ever I find it hard to justify how I spend my time online against what I know that social networks are doing to the way that I think.
@@ -5853,6 +5956,14 @@ The biggest player so far is Leading the Future, a super PAC that has said it wo
 The super PAC said Andreessen Horowitz committed $25 million this year and $25 million next year, as have Brockman and his wife, Anna Brockman. Other supporters include the venture capitalist Joe Lonsdale, the investor Ron Conway and the AI company Perplexity." created="Fri, 28 Nov 2025 11:26:28 GMT" category="creepy-joe-lonsdale,a12z,lobby,pac,politcs,ai,ai-regulation,leading-the-future,andreessen-horowitz,public-first-pac" />
     </outline>
     <outline text="palantir" title="palantir">
+      <outline type="link" text="Palantir loses legal challenge against Swiss investigative magazine" title="Palantir loses legal challenge against Swiss investigative magazine" url="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" description="The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business with Swiss federal authorities.
+
+The lawsuit has had a “Streisand effect”, drawing wider attention to Republik’s reporting and the Swiss government documents detailing repeated official concerns about adopting Palantir’s technology.
+
+It attracted attention beyond Switzerland because it touched on broader European concerns about reliance on US technology providers for sensitive state functions.
+
+
+" created="Sat, 13 Jun 2026 09:42:19 GMT" category="palantir,legal,swiss,creepy-peter-thiel" />
       <outline type="link" text="UK saves ‘millions’ of pounds by ditching Palantir for refugee system" title="UK saves ‘millions’ of pounds by ditching Palantir for refugee system" url=" https://www.bbc.com/news/articles/c2l2j1lxdk5o" htmlUrl=" https://www.bbc.com/news/articles/c2l2j1lxdk5o" description="Millions of pounds have been saved by replacing a Palantir IT system which helps to find homes for Ukrainian refugees with one built by its own experts, a government department has said.
 
 The Homes for Ukraine scheme matched people fleeing the conflict with offers of accommodation - a complex task Palantir initially supported for free but which grew to cost millions." created="Fri, 15 May 2026 23:16:45 GMT" category="palantir,surveillance,ai,ethics" />
@@ -6532,6 +6643,14 @@ He eventually struck gold with the 1969 single Wonderful World, Beautiful People
 Its lyric tells the story of a young soldier who writes from the war, promising his mother he&apos;ll be home soon; only for her to receive a telegram the next day, informing her of his death." created="Mon, 24 Nov 2025 22:25:33 GMT" category="music,obit,reggae,dylan,quote,protest" />
     </outline>
     <outline text="regulation" title="regulation">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="What made the DoJ go after this particular prediction market insider?" title="What made the DoJ go after this particular prediction market insider?" url="https://www.ft.com/content/393182f4-26bf-437d-8e82-c9a4bd10ea65" htmlUrl="https://www.ft.com/content/393182f4-26bf-437d-8e82-c9a4bd10ea65" description="One could plausibly argue that insider trading isn’t just a bug of prediction markets, it is an essential feature in what insiders insist is a mechanism for “truth”. And evidence of the Trump administration’s support for prediction markets is . . . manifold.
 
 Even the head of the American Gaming Association has called Michael Selig — the Trump-appointed head of the CFTC and the self-appointed prediction market regulator — “quite frankly, a joke” for his championing of the industry. Not that the president gets the joke.
@@ -7149,6 +7268,11 @@ space and on Earth." created="Thu, 06 Nov 2025 18:07:07 GMT" category="space,thr
     <outline text="space-x" title="space-x">
       <outline type="link" text="S1 Space Exploration Technologies Corp." title="S1 Space Exploration Technologies Corp." url="https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm" htmlUrl="https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm" description="pure sci-fi.  -ed" created="Mon, 08 Jun 2026 12:37:40 GMT" category="space-x,ipo,space,sci-fi,creepy-elon-musk,financial,stockmarket" />
     </outline>
+    <outline text="sparseness" title="sparseness">
+      <outline type="link" text="What Sparseness Means for Brains, AI, and Learning" title="What Sparseness Means for Brains, AI, and Learning" url="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" htmlUrl="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" description="The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.
+
+" created="Sat, 13 Jun 2026 09:41:04 GMT" category="sparseness,learning,brain,mind,system" />
+    </outline>
     <outline text="specification" title="specification">
       <outline type="link" text="AV2 Specification" title="AV2 Specification" url="https://av2.aomedia.org/" htmlUrl="https://av2.aomedia.org/" description="AV2 is the next-generation video coding specification from the Alliance for Open Media (AOMedia). Building on the foundation of AV1, AV2 is engineered to provide superior compression efficiency, enabling high-quality video delivery at significantly lower bitrates. It is optimized for the evolving demands of streaming, broadcasting, and real-time video conferencing.
 
@@ -7223,6 +7347,14 @@ https://developers.openai.com/apps-sdk/app-developer-guidelines" created="Tue, 1
       <outline type="link" text="Statement from Dario Amodei on our discussions with the Department of War" title="Statement from Dario Amodei on our discussions with the Department of War" url="https://www.anthropic.com/news/statement-department-of-war" htmlUrl="https://www.anthropic.com/news/statement-department-of-war" description="Regardless, these threats do not change our position: we cannot in good conscience accede to their request." created="Fri, 27 Feb 2026 12:08:09 GMT" category="statement,anthropic,government,state-deptment,democracy,standards" />
     </outline>
     <outline text="statement" title="statement">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
       <outline type="link" text="Statement from Dario Amodei on our discussions with the Department of War" title="Statement from Dario Amodei on our discussions with the Department of War" url="https://www.anthropic.com/news/statement-department-of-war" htmlUrl="https://www.anthropic.com/news/statement-department-of-war" description="Regardless, these threats do not change our position: we cannot in good conscience accede to their request." created="Fri, 27 Feb 2026 12:08:09 GMT" category="statement,anthropic,government,state-deptment,democracy,standards" />
     </outline>
     <outline text="states-rights" title="states-rights">
@@ -7401,6 +7533,16 @@ Updates in real-time" created="Wed, 24 Sep 2025 01:20:14 GMT" category="surveill
       <outline type="link" text="Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti" title="Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti" url="https://www.wired.com/story/palantir-ice-dhs-alex-pretti-killing-workers-slack-minneapolis/" htmlUrl="https://www.wired.com/story/palantir-ice-dhs-alex-pretti-killing-workers-slack-minneapolis/" description="“In my opinion ICE are the bad guys. I am not proud that the company I enjoy so much working for is part of this,” one worker wrote on Slack.
 " created="Tue, 27 Jan 2026 11:53:27 GMT" category="surveillance,ethics,palantir,anti-american,surveillance-ai,government,data" />
     </outline>
+    <outline text="suspend" title="suspend">
+      <outline type="link" text="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" title="Statement on the US government directive to suspend access to Fable 5 and Mythos 5" url="https://www.anthropic.com/news/fable-mythos-access" htmlUrl="https://www.anthropic.com/news/fable-mythos-access" description="Anthropic’s posture with respect to Fable’s safeguards, as laid out in our launch blog post, is the following:
+
+We have instituted strong safeguards that greatly reduce the likelihood that Fable is misused for tasks related to cybersecurity (among others). In fact, our safeguards are so strong that many users have complained that they are overly broad.
+
+In the weeks leading up to the launch of Fable, Anthropic worked with the US government, the UK AISI, multiple private third-party organizations and internal teams to red-team Fable’s safeguards for thousands of hours in total.
+These tests showed that Fable’s safeguards are substantially more effective than those of any previously deployed model.
+
+No testers have yet been able to find a universal jailbreak—a jailbreak method that can very broadly bypass the model’s safeguards, unblocking a wide range of cyber capabilities." created="Sun, 14 Jun 2026 10:14:17 GMT" category="statement,government,directive,suspend,access,anthropic,ai,llm,regulation,claude,fable5,mythos" />
+    </outline>
     <outline text="svod" title="svod">
       <outline type="link" text="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" title="Communications Legislation Amendment (Australian Content Requirement for Subscription Video On Demand (Streaming) Servic" url="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" htmlUrl="https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7404" description="121FZL   Meaning of Australian content expenditure requirement
 
@@ -7416,6 +7558,16 @@ Note:          Revenue derived by a service from Australia may include, for exam
 
              (3)  The Australian content expenditure requirement for a regulated SVOD service that is not a major SVOD service for an SVOD reporting year is nil for that SVOD reporting year." created="Fri, 28 Nov 2025 13:23:15 GMT" category="legislation,au,content,production,svod" />
     </outline>
+    <outline text="swiss" title="swiss">
+      <outline type="link" text="Palantir loses legal challenge against Swiss investigative magazine" title="Palantir loses legal challenge against Swiss investigative magazine" url="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" htmlUrl="https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979?syn-25a6b1a6=1" description="The reports, published in December and based mainly on freedom of information requests, examined Palantir’s years-long attempts to secure business with Swiss federal authorities.
+
+The lawsuit has had a “Streisand effect”, drawing wider attention to Republik’s reporting and the Swiss government documents detailing repeated official concerns about adopting Palantir’s technology.
+
+It attracted attention beyond Switzerland because it touched on broader European concerns about reliance on US technology providers for sensitive state functions.
+
+
+" created="Sat, 13 Jun 2026 09:42:19 GMT" category="palantir,legal,swiss,creepy-peter-thiel" />
+    </outline>
     <outline text="synchronization study" title="synchronization study">
       <outline type="link" text="Eye blinks synchronize with musical beats during music listening" title="Eye blinks synchronize with musical beats during music listening" url="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003456&amp;utm_source=pr&amp;utm_medium=email&amp;utm_campaign=plos006" htmlUrl="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003456&amp;utm_source=pr&amp;utm_medium=email&amp;utm_campaign=plos006" description="ditory-motor synchronization, the alignment of body movements with rhythmic patterns in music, is a universal human behavior, yet its full scope remains incompletely understood. Through four experiments with 123 young nonmusicians, integrating eye-tracking, neurophysiological recordings, white matter structural imaging, and behavioral analysis, we reveal a previously unrecognized form of synchronization: spontaneous eye blinks synchronize with musical beats. Blinks robustly synchronized with beats across a range of tempi and independently of melodic cues. Electroencephalogram recordings revealed a dynamic correspondence between blink timing and neural beat tracking. Blink synchronization performance was linked to white matter microstructure variation in the left superior longitudinal fasciculus, a key sensorimotor pathway. Additionally, the strength of blink synchronization reflected the modulation of dynamic auditory attention. " created="Sat, 22 Nov 2025 23:58:50 GMT" category="mind-body,brain,music,synchronization study" />
     </outline>
@@ -7426,6 +7578,9 @@ Note:          Revenue derived by a service from Australia may include, for exam
       <outline type="link" text="Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)" title="Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond)" url="https://arxiv.org/abs/2510.22954" htmlUrl="https://arxiv.org/abs/2510.22954" description="We introduce the first comprehensive taxonomy for characterizing the full spectrum of open-ended prompts posed to LMs, comprising 6 top-level categories (e.g., brainstorm &amp; ideation) that further breaks down to 17 subcategories. Using Infinity-Chat, we present a large-scale study of mode collapse in LMs, revealing a pronounced Artificial Hivemind effect in open-ended generation of LMs, characterized by (1) intra-model repetition, where a single model consistently generates similar responses, and more so (2) inter-model homogeneity, where different models produce strikingly similar outputs. Infinity-Chat also includes 31,250 human annotations, across absolute ratings and pairwise preferences, with 25 independent human annotations per example. " created="Thu, 04 Dec 2025 12:28:21 GMT" category="artificial-hivemind,synthetic,llms,ai,entropy,diversity,homogenization" />
     </outline>
     <outline text="system" title="system">
+      <outline type="link" text="What Sparseness Means for Brains, AI, and Learning" title="What Sparseness Means for Brains, AI, and Learning" url="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" htmlUrl="https://thatbuild.substack.com/p/what-sparseness-means-for-brains" description="The idea of sparseness was introduced by Horace Barlow in 1972 to describe something similar to population sparseness. But he didn’t make the connection to the nature of the inputs. This had to wait until the work of David Field. His 1987 paper on the basic statistics of natural scenes paper sparked the natural scenes movement in visual neuroscience, and led to our modern understanding of sparseness. In this paper, Field showed that natural scenes were regular in their basic spatial statistics. And he started using the term sparseness. In 1994, Field showed, using numerical simulations, that V1-like representations of natural scenes led to sparse patterns of activation.
+
+" created="Sat, 13 Jun 2026 09:41:04 GMT" category="sparseness,learning,brain,mind,system" />
       <outline type="link" text="Root System Drawings" title="Root System Drawings" url="https://images.wur.nl/digital/collection/coll13/search" htmlUrl="https://images.wur.nl/digital/collection/coll13/search" description="Browsing items in: Root System Drawings" created="Sat, 18 Oct 2025 14:21:01 GMT" category="root,system,plants,botany,collection,drawing" />
     </outline>
     <outline text="talks" title="talks">
