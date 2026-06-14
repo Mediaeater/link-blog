@@ -128,6 +128,8 @@ class DigestManager {
       ? `<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;">${this.escapeHtml(writeup).split(/\n\n+/).map(p => `<p style="margin: 0 0 12px 0;">${p.replace(/\n/g, '<br>')}</p>`).join('')}</div>`
       : '';
 
+    const tagsFooter = this.renderTagsFooter(links);
+
     return `<!DOCTYPE html>
 <html>
 <head>
@@ -146,7 +148,7 @@ ${writeupHtml}
 ${items}
   </main>
 
-  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+${tagsFooter}  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
     <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
   </footer>
@@ -169,6 +171,26 @@ ${items}
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
+  }
+
+  // All unique tags across a digest's links, deduped and sorted by frequency
+  // (then alphabetically). Rendered as a muted footer index on the standalone
+  // digest page only. Returns '' when there are no tags.
+  renderTagsFooter(links) {
+    const counts = {};
+    for (const link of links) {
+      if (link && Array.isArray(link.tags)) {
+        for (const tag of link.tags) counts[tag] = (counts[tag] || 0) + 1;
+      }
+    }
+    const tags = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+    if (tags.length === 0) return '';
+    const list = tags.map(t => this.escapeHtml(t)).join(' &middot; ');
+    return `  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ${list}</p>
+  </div>
+`;
   }
 
   async createDigest(writeup = '', markAsDigested = true) {
