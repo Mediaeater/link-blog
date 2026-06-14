@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 14 Jun 2026 10:17:08 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Jun 2026 13:03:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Chasing the Hallucinations: KPMG’s AI-Powered Attempt at “Redefining Excellence”]]></title>
+            <link>https://gptzero.me/news/investigations-kpmg/</link>
+            <guid>1781442196457</guid>
+            <pubDate>Sun, 14 Jun 2026 13:03:16 GMT</pubDate>
+            <description><![CDATA[Tags: hallucinations, kpmg, ai-powered, report, fail, proof-reading]]></description>
+        </item>
         <item>
             <title><![CDATA[Statement on the US government directive to suspend access to Fable 5 and Mythos 5]]></title>
             <link>https://www.anthropic.com/news/fable-mythos-access</link>

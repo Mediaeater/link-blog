@@ -1,6 +1,23 @@
 {
   "links": [
     {
+      "id": 1781442196457,
+      "url": "https://gptzero.me/news/investigations-kpmg/",
+      "source": "Chasing the Hallucinations: KPMG’s AI-Powered Attempt at “Redefining Excellence”",
+      "pullQuote": "This investigation analyzes a KPMG report from October 2025 on customer experience and agentic AI. The report, titled Total Experience: Redefining Excellence in the Age of Agentic AI, summarizes the results of an annual study on consumer experience around the world. Of the 45 citations in the report, only five accurately point to real sources. Another 28 citations provide paraphrased titles and/or fake components for a real source. The final 12 are too vague or flawed to accurately determine if a source exists. Additionally, around half of the claims evidenced by the 45 citations appear to be fake or misattributed — likely the result of an AI research tool over-complying with a request to find examples of “agentic AI” in the wild.",
+      "tags": [
+        "hallucinations",
+        "kpmg",
+        "ai-powered",
+        "report",
+        "fail",
+        "proof-reading"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-14T13:03:16.457Z",
+      "visits": 0
+    },
+    {
       "id": 1781432057803,
       "url": "https://www.anthropic.com/news/fable-mythos-access",
       "source": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
@@ -7802,5 +7819,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-14T10:17:08.144Z"
+  "lastUpdated": "2026-06-14T13:03:16.514Z"
 }
