@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 14 Jun 2026 13:03:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2026 10:45:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The World’s Leading Deepfake Expert No Longer Trusts His Own Eyes]]></title>
+            <link>https://www.nytimes.com/2026/06/14/us/ai-deepfake-hany-farid.html</link>
+            <guid>1781520313907</guid>
+            <pubDate>Mon, 15 Jun 2026 10:45:13 GMT</pubDate>
+            <description><![CDATA[Tags: nytimes, deepfake, synthetic]]></description>
+        </item>
+        <item>
+            <title><![CDATA[From AGI to ASI]]></title>
+            <link>https://arxiv.org/abs/2606.12683</link>
+            <guid>1781519686006</guid>
+            <pubDate>Mon, 15 Jun 2026 10:34:46 GMT</pubDate>
+            <description><![CDATA[Tags: agi, asi, human-level, google, paper]]></description>
+        </item>
+        <item>
+            <title><![CDATA[A frontier without an ecosystem is not stable]]></title>
+            <link>https://snscratchpad.com/posts/frontier-ecosystem/</link>
+            <guid>1781519644139</guid>
+            <pubDate>Mon, 15 Jun 2026 10:34:04 GMT</pubDate>
+            <description><![CDATA[Tags: frontier, ecosystem, open-source, msft, ai]]></description>
+        </item>
+        <item>
+            <title><![CDATA[GitHub - apple/coreai-models: Model export recipes, Python primitives, and Swift runtime utilities for on-device AI]]></title>
+            <link>https://github.com/apple/coreai-models</link>
+            <guid>1781519516333</guid>
+            <pubDate>Mon, 15 Jun 2026 10:31:56 GMT</pubDate>
+            <description><![CDATA[Tags: github, apple, coreai-models, model, export]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Audrey Wollen: “Is the Twenty-First Century a Cultural Void?”]]></title>
+            <link>https://yalereview.org/article/audrey-wollen-david-marx-blank-space</link>
+            <guid>1781519498250</guid>
+            <pubDate>Mon, 15 Jun 2026 10:31:38 GMT</pubDate>
+            <description><![CDATA[Tags: entertainment, culture, civilization, marx]]></description>
+        </item>
         <item>
             <title><![CDATA[Chasing the Hallucinations: KPMG’s AI-Powered Attempt at “Redefining Excellence”]]></title>
             <link>https://gptzero.me/news/investigations-kpmg/</link>
@@ -416,7 +451,7 @@
         </item>
         <item>
             <title><![CDATA[Americans Are Smashing Flock Cameras. The Surveillance State Has a Sabotage Problem. - State of Surveillance]]></title>
-            <link> https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/</link>
+            <link>https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/</link>
             <guid>1779047620731</guid>
             <pubDate>Sun, 17 May 2026 19:53:40 GMT</pubDate>
             <description><![CDATA[Tags: flock, cameras, surveillance, backlash]]></description>
@@ -458,14 +493,14 @@
         </item>
         <item>
             <title><![CDATA[GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows]]></title>
-            <link> https://github.com/anthropics/claude-for-legal</link>
+            <link>https://github.com/anthropics/claude-for-legal</link>
             <guid>1778895151401</guid>
             <pubDate>Sat, 16 May 2026 01:32:31 GMT</pubDate>
             <description><![CDATA[Tags: ai, legal, claude, anthropic]]></description>
         </item>
         <item>
             <title><![CDATA[UK saves ‘millions’ of pounds by ditching Palantir for refugee system]]></title>
-            <link> https://www.bbc.com/news/articles/c2l2j1lxdk5o</link>
+            <link>https://www.bbc.com/news/articles/c2l2j1lxdk5o</link>
             <guid>1778887005281</guid>
             <pubDate>Fri, 15 May 2026 23:16:45 GMT</pubDate>
             <description><![CDATA[Tags: palantir, surveillance, ai, ethics]]></description>
@@ -640,14 +675,14 @@
         </item>
         <item>
             <title><![CDATA[Creating Baby Geniuses to Thwart the AI Threat? (Yes, Really.)]]></title>
-            <link>https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/ </link>
+            <link>https://www.motherjones.com/politics/2026/04/gene-editing-optimization-thiel-altman-armstrong-andreessen-ai-iq/</link>
             <guid>1777329682288</guid>
             <pubDate>Mon, 27 Apr 2026 22:41:22 GMT</pubDate>
             <description><![CDATA[Tags: creepy-elon-musk, genetic-optimization, genetics, dna]]></description>
         </item>
         <item>
             <title><![CDATA[The Post-Christian Condition]]></title>
-            <link> https://critiqueanddigest.substack.com/p/the-post-christian-condition-and</link>
+            <link>https://critiqueanddigest.substack.com/p/the-post-christian-condition-and</link>
             <guid>1777329483925</guid>
             <pubDate>Mon, 27 Apr 2026 22:38:03 GMT</pubDate>
             <description><![CDATA[Tags: post-christian, spectacle, recoil]]></description>
@@ -1368,7 +1403,7 @@
         </item>
         <item>
             <title><![CDATA[GitHub - Polymarket/polymarket-cli]]></title>
-            <link>https://github.com/Polymarket/polymarket-cli </link>
+            <link>https://github.com/Polymarket/polymarket-cli</link>
             <guid>1772193970005</guid>
             <pubDate>Fri, 27 Feb 2026 12:06:10 GMT</pubDate>
             <description><![CDATA[Tags: github, polymarket, polymarket-cli, development, climate]]></description>
@@ -2370,7 +2405,7 @@
         </item>
         <item>
             <title><![CDATA[openrouter.ai]]></title>
-            <link>https://openrouter.ai/rankings?</link>
+            <link>https://openrouter.ai/rankings</link>
             <guid>1764158519702</guid>
             <pubDate>Wed, 26 Nov 2025 12:01:59 GMT</pubDate>
             <description><![CDATA[Tags: token-growth, rankings, chart, measurement, ai, llm, inference]]></description>
@@ -2384,21 +2419,21 @@
         </item>
         <item>
             <title><![CDATA[How Math Broke Media dougshapiro.substack ]]></title>
-            <link>https://dougshapiro.substack.com/p/how-math-broke-media?</link>
+            <link>https://dougshapiro.substack.com/p/how-math-broke-media</link>
             <guid>1764157370193</guid>
             <pubDate>Wed, 26 Nov 2025 11:42:50 GMT</pubDate>
             <description><![CDATA[Tags: media, technology, trend, legacy_media]]></description>
         </item>
         <item>
             <title><![CDATA[Oral administration of arginine suppresses Aβ pathology in animal models of Alzheimer's disease]]></title>
-            <link>https://www.sciencedirect.com/science/article/pii/S019701862500155X?</link>
+            <link>https://www.sciencedirect.com/science/article/pii/S019701862500155X</link>
             <guid>1764156288324</guid>
             <pubDate>Wed, 26 Nov 2025 11:24:48 GMT</pubDate>
             <description><![CDATA[Tags: health, medicine, science, brain, memory]]></description>
         </item>
         <item>
             <title><![CDATA[General principles for the use of AI at CER]]></title>
-            <link>https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern? </link>
+            <link>https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern</link>
             <guid>1764155801424</guid>
             <pubDate>Wed, 26 Nov 2025 11:16:41 GMT</pubDate>
             <description><![CDATA[Tags: cern, ai, principles, science]]></description>
@@ -2433,7 +2468,7 @@
         </item>
         <item>
             <title><![CDATA[bloodinthemachine.com]]></title>
-            <link>https://www.bloodinthemachine.com/p/the-slop-layer?</link>
+            <link>https://www.bloodinthemachine.com/p/the-slop-layer</link>
             <guid>1763982876630</guid>
             <pubDate>Mon, 24 Nov 2025 11:14:36 GMT</pubDate>
             <description><![CDATA[Tags: ai-slop, trends, ai, media]]></description>
@@ -2539,7 +2574,7 @@ nightmare of browser fingerprinting]]></title>
         </item>
         <item>
             <title><![CDATA[Who is OpenAI’s auditor? (Update: it’s Deloitte)]]></title>
-            <link>https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d?</link>
+            <link>https://www.ft.com/content/3cff198e-25e5-481a-bd34-e26941e1d12d</link>
             <guid>1763663700729</guid>
             <pubDate>Thu, 20 Nov 2025 18:35:00 GMT</pubDate>
             <description><![CDATA[Tags: ft, accounting, open-ai, financial]]></description>
@@ -3092,7 +3127,7 @@ nightmare of browser fingerprinting]]></title>
         </item>
         <item>
             <title><![CDATA[Introducing Agent Skills]]></title>
-            <link>https://www.anthropic.com/news/skills?</link>
+            <link>https://www.anthropic.com/news/skills</link>
             <guid>1760782666234</guid>
             <pubDate>Sat, 18 Oct 2025 10:17:46 GMT</pubDate>
             <description><![CDATA[Tags: claude, llm]]></description>
@@ -3246,7 +3281,7 @@ nightmare of browser fingerprinting]]></title>
         </item>
         <item>
             <title><![CDATA[CEO of Controversial Startup Vows to Keep Mass Publishing AI Podcasts Despite Backlash]]></title>
-            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash? </link>
+            <link>https://www.bloomberg.com/news/newsletters/2025-09-25/ceo-of-inception-point-ai-vows-to-keep-mass-publishing-podcasts-despite-backlash</link>
             <guid>1759117485587</guid>
             <pubDate>Mon, 29 Sep 2025 03:44:45 GMT</pubDate>
             <description><![CDATA[Tags: ethics, podcast, ai]]></description>
