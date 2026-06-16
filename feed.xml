@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 16 Jun 2026 10:35:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 10:44:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[DOJ Lawyers Argue xAI Is ‘Vital’ for National Security in NAACP Lawsuit]]></title>
+            <link>https://www.wired.com/story/doj-lawyers-argue-xai-vital-national-security-naacp-lawsuit/</link>
+            <guid>1781606674156</guid>
+            <pubDate>Tue, 16 Jun 2026 10:44:34 GMT</pubDate>
+            <description><![CDATA[Tags: doj, xai, infrastructure, gov, natsec, environment, business, tactic]]></description>
+        </item>
         <item>
             <title><![CDATA[Banned Book Library in a smart light bulb]]></title>
             <link>https://www.richardosgood.com/posts/banned-book-library/</link>
