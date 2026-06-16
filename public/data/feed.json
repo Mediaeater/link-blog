@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1781605247213",
+      "url": "https://www.richardosgood.com/posts/banned-book-library/",
+      "title": "Banned Book Library",
+      "date_published": "2026-06-16T10:20:47.213Z",
+      "tags": [
+        "banned",
+        "book",
+        "library",
+        "storage",
+        "hack"
+      ],
+      "content_text": "A long while back I had an idea to hack a WiFi smart light bulb to do something more useful to me. Actually, I had a few different ideas of things to do with them. One of these ideas was to modify the device to have an open WiFi access point and a web server hosting banned books. The idea was that if you lived somewhere that banned books you thought were important, you could theoretically stick a digital copy of the book on one of these light bulbs. Then you could go install it somewhere in your community. As long as the light bulb is switched on, then anyone in the vicinity can still access the banned material assuming they have an electronic device with WiFi. Since the device is a light bulb, it would be difficult to detect and likely to go unnoticed. A cyberpunk digital dead drop. These devices are also fairly inexpensive, so leaving them around town as is hopefully not very cost prohibitive.",
+      "summary": "A long while back I had an idea to hack a WiFi smart light bulb to do something more useful to me. Actually, I had a few different ideas of things to ...",
+      "content_html": "<blockquote>A long while back I had an idea to hack a WiFi smart light bulb to do something more useful to me. Actually, I had a few different ideas of things to do with them. One of these ideas was to modify the device to have an open WiFi access point and a web server hosting banned books. The idea was that if you lived somewhere that banned books you thought were important, you could theoretically stick a digital copy of the book on one of these light bulbs. Then you could go install it somewhere in your community. As long as the light bulb is switched on, then anyone in the vicinity can still access the banned material assuming they have an electronic device with WiFi. Since the device is a light bulb, it would be difficult to detect and likely to go unnoticed. A cyberpunk digital dead drop. These devices are also fairly inexpensive, so leaving them around town as is hopefully not very cost prohibitive.</blockquote>\n<p><strong>Tags:</strong> banned, book, library, storage, hack</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1781605128391",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+      "title": "Frontiers | Transient multidomain functional improvement in advanced Alzheimer’s disease following high-dose psilocybin-",
+      "date_published": "2026-06-16T10:18:48.391Z",
+      "tags": [
+        "frontiers",
+        "memory",
+        "health",
+        "neuroscience",
+        "brain"
+      ],
+      "content_text": "Conclusion: This case documents transient multidomain functional improvement in advanced Alzheimer’s disease following psilocybin administration. The findings do not imply disease reversal but suggest that residual functional capacity may persist in late-stage neurodegeneration and may become transiently accessible under specific neuromodulatory conditions.",
+      "summary": "Conclusion: This case documents transient multidomain functional improvement in advanced Alzheimer’s disease following psilocybin administration. The ...",
+      "content_html": "<blockquote>Conclusion: This case documents transient multidomain functional improvement in advanced Alzheimer’s disease following psilocybin administration. The findings do not imply disease reversal but suggest that residual functional capacity may persist in late-stage neurodegeneration and may become transiently accessible under specific neuromodulatory conditions.</blockquote>\n<p><strong>Tags:</strong> frontiers, memory, health, neuroscience, brain</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1781520313907",
       "url": "https://www.nytimes.com/2026/06/14/us/ai-deepfake-hany-farid.html",
       "title": "The World’s Leading Deepfake Expert No Longer Trusts His Own Eyes",

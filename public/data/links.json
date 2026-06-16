@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1781605247213,
+      "url": "https://www.richardosgood.com/posts/banned-book-library/",
+      "source": "Banned Book Library",
+      "pullQuote": "A long while back I had an idea to hack a WiFi smart light bulb to do something more useful to me. Actually, I had a few different ideas of things to do with them. One of these ideas was to modify the device to have an open WiFi access point and a web server hosting banned books. The idea was that if you lived somewhere that banned books you thought were important, you could theoretically stick a digital copy of the book on one of these light bulbs. Then you could go install it somewhere in your community. As long as the light bulb is switched on, then anyone in the vicinity can still access the banned material assuming they have an electronic device with WiFi. Since the device is a light bulb, it would be difficult to detect and likely to go unnoticed. A cyberpunk digital dead drop. These devices are also fairly inexpensive, so leaving them around town as is hopefully not very cost prohibitive.",
+      "tags": [
+        "banned",
+        "book",
+        "library",
+        "storage",
+        "hack"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-16T10:20:47.213Z",
+      "visits": 0
+    },
+    {
+      "id": 1781605128391,
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+      "source": "Frontiers | Transient multidomain functional improvement in advanced Alzheimer’s disease following high-dose psilocybin-",
+      "pullQuote": "Conclusion: This case documents transient multidomain functional improvement in advanced Alzheimer’s disease following psilocybin administration. The findings do not imply disease reversal but suggest that residual functional capacity may persist in late-stage neurodegeneration and may become transiently accessible under specific neuromodulatory conditions.",
+      "tags": [
+        "frontiers",
+        "memory",
+        "health",
+        "neuroscience",
+        "brain"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-16T10:18:48.391Z",
+      "visits": 0
+    },
+    {
       "id": 1781520313907,
       "url": "https://www.nytimes.com/2026/06/14/us/ai-deepfake-hany-farid.html",
       "source": "The World’s Leading Deepfake Expert No Longer Trusts His Own Eyes",
@@ -7896,5 +7928,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-15T10:45:13.931Z"
+  "lastUpdated": "2026-06-16T10:20:47.231Z"
 }
