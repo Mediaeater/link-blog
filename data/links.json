@@ -1,6 +1,25 @@
 {
   "links": [
     {
+      "id": 1781606674156,
+      "url": "https://www.wired.com/story/doj-lawyers-argue-xai-vital-national-security-naacp-lawsuit/",
+      "source": "DOJ Lawyers Argue xAI Is ‘Vital’ for National Security in NAACP Lawsuit",
+      "pullQuote": "The Department of Justice intervened in a lawsuit over xAI’s gas turbines on Monday. In a filing, the agency sided with Elon Musk’s company, saying attempts to stop xAI from running the natural gas turbines “threatens American national, economic, and energy security by seeking to shut off the power supply for artificial-intelligence innovation that supports the Department of War’s military operations.”\n\nThe DOJ, along with xAI and the state of Mississippi, asked the court to dismiss the suit, filed by the NAACP in April.\n\nThe NAACP alleges xAI isn’t following the Clean Air Act and is endangering public health by running unpermitted natural gas turbines at the site of its second data center in Southaven, Mississippi, dubbed Colossus 2. In May, the NAACP filed a request for a preliminary injunction to stop xAI from running the turbines, alleging that their continued use without a permit “increases risks of asthma attacks and heart disease” in communities with an already heavy pollution burden.\n\n",
+      "tags": [
+        "doj",
+        "xai",
+        "infrastructure",
+        "gov",
+        "natsec",
+        "environment",
+        "business",
+        "tactic"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-16T10:44:34.156Z",
+      "visits": 0
+    },
+    {
       "id": 1781605247213,
       "url": "https://www.richardosgood.com/posts/banned-book-library/",
       "source": "Banned Book Library in a smart light bulb",
@@ -7928,5 +7947,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-16T10:35:15.088Z"
+  "lastUpdated": "2026-06-16T10:44:34.176Z"
 }
