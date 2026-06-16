@@ -3,7 +3,7 @@
     {
       "id": 1781605247213,
       "url": "https://www.richardosgood.com/posts/banned-book-library/",
-      "source": "Banned Book Library",
+      "source": "Banned Book Library in a smart light bulb",
       "pullQuote": "A long while back I had an idea to hack a WiFi smart light bulb to do something more useful to me. Actually, I had a few different ideas of things to do with them. One of these ideas was to modify the device to have an open WiFi access point and a web server hosting banned books. The idea was that if you lived somewhere that banned books you thought were important, you could theoretically stick a digital copy of the book on one of these light bulbs. Then you could go install it somewhere in your community. As long as the light bulb is switched on, then anyone in the vicinity can still access the banned material assuming they have an electronic device with WiFi. Since the device is a light bulb, it would be difficult to detect and likely to go unnoticed. A cyberpunk digital dead drop. These devices are also fairly inexpensive, so leaving them around town as is hopefully not very cost prohibitive.",
       "tags": [
         "banned",
@@ -7928,5 +7928,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-16T10:20:47.231Z"
+  "lastUpdated": "2026-06-16T10:35:15.088Z"
 }
