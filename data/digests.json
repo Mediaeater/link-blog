@@ -739,6 +739,32 @@
       "weekEnd": "2026-06-14",
       "title": "Jun 8-14, 2026",
       "writeup": "This issue tracks power consolidating around surveillance, capital, and the state. Meta is caught quietly shipping facial-recognition code for its smart glasses to millions of phones; a US judge holds NSO Group liable for hacking WhatsApp; and Palantir loses its bid to muzzle a Swiss magazine, earning a Streisand effect for the trouble.\n\nThe political thread sharpens: a Science report argues the internet's architecture itself corrodes democracy, while a former VC warns his old colleagues against buying the AI industry's way into politics. The state leans on the labs too — Anthropic posts its statement on a US government directive to suspend access to Fable 5 and Mythos 5.\n\nMoney and rights run underneath: SpaceX files its S-1, and Google moves to dismiss indie artists' Lyria 3 suit by arguing their YouTube uploads already licensed the training. A piece on sparseness draws the line between how brains and AI both learn from the statistics of natural scenes.\n\nAround the edges, the usual pleasures: an 11,000-image public-domain archive and an in-browser NTSC/VHS effect."
+    },
+    {
+      "id": 19,
+      "timestamp": "2026-06-21T12:25:52.861Z",
+      "linkIds": [
+        1781442196457,
+        1781519498250,
+        1781519516333,
+        1781519644139,
+        1781519686006,
+        1781520313907,
+        1781605128391,
+        1781605247213,
+        1781606674156,
+        1782042206410,
+        1782042298052,
+        1782042447734,
+        1782042731132,
+        1782042877530
+      ],
+      "count": 14,
+      "filename": "digest-019-2026-06-21.html",
+      "weekStart": "2026-06-14",
+      "weekEnd": "2026-06-21",
+      "title": "Jun 14-21, 2026",
+      "writeup": "This issue worries at one nerve: once machines can manufacture any image, what's left to believe? The world's leading deepfake expert admits he no longer trusts his own eyes; Gideon Jacobs argues all images are now useless; and Congress reaches for the NO FAKES Act to put a fence around a person's likeness. A companion piece insists a chatbot conversation will never nourish anyone the way another human does.\n\nThe industry keeps selling the climb anyway. KPMG rebrands its hallucination-prone tooling as 'redefining excellence,' an essay maps the jump from AGI to ASI, and DOJ lawyers tell a NAACP court that xAI is 'vital' to national security — while a sharper argument warns that a frontier without an ecosystem under it won't hold. Apple ships the undramatic counterpoint: Core AI Models meant to run on your own device.\n\nUnderneath run the harder and stranger threads: a Frontiers paper reports transient, multidomain gains in advanced Alzheimer's, satellites expose GPS signal tampering at a scale nobody expected, and Audrey Wollen asks whether the twenty-first century is a cultural void. The week's small defiances close it out — a banned-book library hidden inside a smart light bulb, and SMPTE opening its standards library to everyone."
     }
   ],
   "cadence": "weekly"
