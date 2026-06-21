@@ -4,10 +4,45 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 16 Jun 2026 10:44:34 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 11:54:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[SMPTE Makes Its Standards Freely Accessible]]></title>
+            <link>https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community</link>
+            <guid>1782042877530</guid>
+            <pubDate>Sun, 21 Jun 2026 11:54:37 GMT</pubDate>
+            <description><![CDATA[Tags: smpte, standards, open, media, video, technology]]></description>
+        </item>
+        <item>
+            <title><![CDATA[S.1367 - NO FAKES]]></title>
+            <link>https://www.congress.gov/bill/119th-congress/senate-bill/1367</link>
+            <guid>1782042731132</guid>
+            <pubDate>Sun, 21 Jun 2026 11:52:11 GMT</pubDate>
+            <description><![CDATA[Tags: legislation, deepfake, ai, ethics]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Why are we not talking to one another? Conversations with a chatbot will never provide the same human nourishment]]></title>
+            <link>https://www.ft.com/content/471e1de6-3818-4b5f-8897-85bdb7eae905?syn-25a6b1a6=1</link>
+            <guid>1782042447734</guid>
+            <pubDate>Sun, 21 Jun 2026 11:47:27 GMT</pubDate>
+            <description><![CDATA[Tags: ft, humanity, culture, ai, art, interaction]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Essay: All Images Are Quite Useless Now by Gideon Jacobs]]></title>
+            <link>https://spikeartmagazine.com/articles/essay-all-images-are-quite-useless-now</link>
+            <guid>1782042298052</guid>
+            <pubDate>Sun, 21 Jun 2026 11:44:58 GMT</pubDate>
+            <description><![CDATA[Tags: essay, images, pictures, photography, photographs, media]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Satellite reveals immense scale of GPS signal tampering]]></title>
+            <link>https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering</link>
+            <guid>1782042206410</guid>
+            <pubDate>Sun, 21 Jun 2026 11:43:26 GMT</pubDate>
+            <description><![CDATA[Tags: satellite, geo, gps, space, maps]]></description>
+        </item>
         <item>
             <title><![CDATA[DOJ Lawyers Argue xAI Is ‘Vital’ for National Security in NAACP Lawsuit]]></title>
             <link>https://www.wired.com/story/doj-lawyers-argue-xai-vital-national-security-naacp-lawsuit/</link>
