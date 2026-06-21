@@ -12,7 +12,7 @@
  * 6. Print status report
  */
 
-import { execSync } from 'child_process';
+import { execSync, execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -47,19 +47,127 @@ function fileSize(filePath) {
   }
 }
 
-// Step 1: Git pull
+// Files settle itself regenerates or keeps in sync — safe to reset/restore around a pull.
+const DISPOSABLE_PATHS = new Set([
+  'data/links.json',
+  'public/data/links.json',
+  'public/data/digests.json',
+  'public/sitemap.xml',
+  'public/feed.xml',
+  'public/data/feed.json',
+  'public/data/blogroll.opml',
+  'public/feed-digests.xml',
+  'index.html',
+]);
+
+const normUrl = u => String(u).toLowerCase().replace(/\/$/, '').trim();
+
+function readLinks(filePath) {
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    return Array.isArray(data.links) ? data.links : [];
+  } catch {
+    return [];
+  }
+}
+
+// Parse `git status --porcelain` into { status, file } entries (rename target wins).
+function gitStatus() {
+  const raw = execSync('git status --porcelain', { cwd: projectRoot, encoding: 'utf-8' });
+  return raw.split('\n').filter(Boolean).map(line => {
+    let file = line.slice(3);
+    const arrow = file.indexOf(' -> ');
+    if (arrow !== -1) file = file.slice(arrow + 4);
+    return { status: line.slice(0, 2), file };
+  });
+}
+
+function ffPull() {
+  try {
+    const output = execSync('git pull --ff-only', { cwd: projectRoot, encoding: 'utf-8' }).trim();
+    log(`   ${output}`, output === 'Already up to date.' ? 'dim' : 'green');
+    return true;
+  } catch (error) {
+    log('   git pull --ff-only failed — continuing on local HEAD', 'yellow');
+    log(`   ${error.message.split('\n').find(l => l.trim()) || ''}`, 'dim');
+    return false;
+  }
+}
+
+// Re-union local-only links (captured before the reset) into the freshly pulled file,
+// so a pull never drops a link that was added locally but isn't upstream yet.
+function restoreLocalLinks(localByUrl) {
+  if (localByUrl.size === 0) return;
+  const primaryPath = path.join(projectRoot, 'data', 'links.json');
+  let data;
+  try {
+    data = JSON.parse(fs.readFileSync(primaryPath, 'utf-8'));
+  } catch {
+    return;
+  }
+  const links = Array.isArray(data.links) ? data.links : [];
+  const have = new Set(links.map(l => normUrl(l.url)));
+  const restored = [];
+  for (const [url, link] of localByUrl) {
+    if (!have.has(url)) restored.push(link);
+  }
+  if (restored.length === 0) {
+    log('   Local link edits already covered by remote', 'dim');
+    return;
+  }
+  const merged = [...links, ...restored].sort(
+    (a, b) => new Date(b.timestamp) - new Date(a.timestamp)
+  );
+  fs.writeFileSync(primaryPath, JSON.stringify({ links: merged, lastUpdated: new Date().toISOString() }, null, 2));
+  log(`   Preserved ${restored.length} local link(s) not yet on remote`, 'green');
+}
+
+// Step 1: Git pull (fast-forward only; never builds on a stale base silently).
+// Returns 'blocked' when uncommitted non-generated edits exist — caller should stop.
 function gitPull() {
   log('\n1. Pulling latest from remote...', 'blue');
+
+  let entries;
   try {
-    const output = execSync('git pull', {
-      cwd: projectRoot,
-      encoding: 'utf-8',
-    }).trim();
-    log(`   ${output}`, output === 'Already up to date.' ? 'dim' : 'green');
-  } catch (error) {
-    log('   Failed to git pull — continuing anyway', 'yellow');
-    log(`   ${error.message.split('\n')[0]}`, 'dim');
+    entries = gitStatus();
+  } catch {
+    log('   Not a git repo / git unavailable — skipping pull', 'yellow');
+    return 'skipped';
   }
+
+  const tracked = entries.filter(e => e.status !== '??');
+  if (tracked.length === 0) {
+    ffPull();
+    return 'ok';
+  }
+
+  // Anything dirty that settle doesn't itself regenerate is real work — don't clobber it.
+  const foreign = tracked.filter(e => !DISPOSABLE_PATHS.has(e.file));
+  if (foreign.length > 0) {
+    log('   Uncommitted changes that settle does not generate:', 'red');
+    foreign.forEach(e => log(`     ${e.file}`, 'red'));
+    log('   Commit or stash them first — refusing to pull onto a stale base.', 'red');
+    return 'blocked';
+  }
+
+  // Only regenerable artifacts + link data are dirty: capture local links, reset, pull, restore.
+  const localByUrl = new Map();
+  for (const f of ['data/links.json', 'public/data/links.json']) {
+    for (const link of readLinks(path.join(projectRoot, f))) {
+      if (link && link.url) localByUrl.set(normUrl(link.url), link);
+    }
+  }
+
+  try {
+    execFileSync('git', ['checkout', 'HEAD', '--', ...tracked.map(e => e.file)], { cwd: projectRoot });
+  } catch (error) {
+    log('   Could not reset generated files — skipping pull', 'yellow');
+    log(`   ${error.message.split('\n')[0]}`, 'dim');
+    return 'ok';
+  }
+
+  if (ffPull()) restoreLocalLinks(localByUrl);
+  return 'ok';
 }
 
 // Step 2: Fetch + merge from newsfeeds.net
@@ -316,7 +424,12 @@ function printReport(newsfeedsResult, syncResult) {
 async function main() {
   log('\n Settling link-blog...', 'bright');
 
-  gitPull();
+  if (gitPull() === 'blocked') {
+    log('\n Settle stopped before syncing. Resolve the changes above and re-run.\n', 'red');
+    process.exitCode = 1;
+    return;
+  }
+
   const newsfeedsResult = await syncNewsfeeds();
   const syncResult = syncJson();
   runPrebuild();
