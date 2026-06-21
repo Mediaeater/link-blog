@@ -4,10 +4,38 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 21 Jun 2026 11:54:37 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 12:39:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[When a Robot Kicks a Child: What Humanoid AI Can Teach Us About Liability and Safety-by-Design - CiTiP blog]]></title>
+            <link>https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/</link>
+            <guid>1782045563544</guid>
+            <pubDate>Sun, 21 Jun 2026 12:39:23 GMT</pubDate>
+            <description><![CDATA[Tags: robot, ethics, health, healthcare, robotics, hrim, liability, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The AirPods Effect]]></title>
+            <link>https://www.theescapenewsletter.com/p/the-airpods-effect</link>
+            <guid>1782045461105</guid>
+            <pubDate>Sun, 21 Jun 2026 12:37:41 GMT</pubDate>
+            <description><![CDATA[Tags: airpods, effect, earbuds, influence, beliefs, thinking, mental-space]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Not just books - how renting a sewing machine from the library can improve democracy]]></title>
+            <link>https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland</link>
+            <guid>1782044920655</guid>
+            <pubDate>Sun, 21 Jun 2026 12:28:40 GMT</pubDate>
+            <description><![CDATA[Tags: books, library, knowledge, libraries, bbc]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States]]></title>
+            <link>https://arxiv.org/abs/2606.19334</link>
+            <guid>1782044823152</guid>
+            <pubDate>Sun, 21 Jun 2026 12:27:03 GMT</pubDate>
+            <description><![CDATA[Tags: law, local, ordinance, database, research, corpus, legal, metadata]]></description>
+        </item>
         <item>
             <title><![CDATA[SMPTE Makes Its Standards Freely Accessible]]></title>
             <link>https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community</link>
