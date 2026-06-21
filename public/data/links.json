@@ -1,6 +1,78 @@
 {
   "links": [
     {
+      "id": 1782045563544,
+      "url": "https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/",
+      "source": "When a Robot Kicks a Child: What Humanoid AI Can Teach Us About Liability and Safety-by-Design - CiTiP blog",
+      "pullQuote": "A recent study examining the regulatory and liability implications of AI-powered medical robots in the European Union revealed significant uncertainty regarding the legal frameworks governing these technologies. Drawing on surveys of 50 medical professionals across 20 countries and 19 specialties, expert interviews, and normative legal analysis, the study found that more than half of respondents were unaware of the legal frameworks applicable to AI and robotics in healthcare, while only 1.7% considered themselves well informed. The findings also revealed considerable uncertainty regarding liability. Nearly 60% of respondents questioned whether existing EU liability rules adequately address harms caused by AI-powered robots, while almost 80% called for clearer regulatory guidance before such systems are more widely deployed.",
+      "tags": [
+        "robot",
+        "ethics",
+        "health",
+        "healthcare",
+        "robotics",
+        "hrim",
+        "liability",
+        "legal"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-21T12:39:23.544Z",
+      "visits": 0
+    },
+    {
+      "id": 1782045461105,
+      "url": "https://www.theescapenewsletter.com/p/the-airpods-effect",
+      "source": "The AirPods Effect",
+      "pullQuote": "While all these consequences are concerning, I think the greatest problem our earphones pose to us — and the one that led me, several years ago, to cut back my own use — is the way audio content can crowd out time we should properly spend with our own thoughts.",
+      "tags": [
+        "airpods",
+        "effect",
+        "earbuds",
+        "influence",
+        "beliefs",
+        "thinking",
+        "mental-space"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-21T12:37:41.105Z",
+      "visits": 0
+    },
+    {
+      "id": 1782044920655,
+      "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "source": "Not just books - how renting a sewing machine from the library can improve democracy",
+      "pullQuote": "Between 2008 and 2019, 766 public libraries closed across the United States, while in the United Kingdom, between 2016 and 2023, more than 180 council-run libraries were either closed or handed over to volunteer groups. Finland, instead, is expanding its libraries and transforming them into publicly funded community service centres where people can borrow much more than just books.\n\nResearch emerging from these initiatives – not just in Finland, but also in Norway, Sweden, Denmark and Canada – already suggests that libraries play a significant role in promoting social inclusion, making a poignant argument: what if the value of libraries is not in how many books they lend, but more in how they help societies function? And what can the world learn from this Finnish model?",
+      "tags": [
+        "books",
+        "library",
+        "knowledge",
+        "libraries",
+        "bbc"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-21T12:28:40.655Z",
+      "visits": 0
+    },
+    {
+      "id": 1782044823152,
+      "url": "https://arxiv.org/abs/2606.19334",
+      "source": "Freeing the Law with LOCUS: A Local Ordinance Corpus for the United States",
+      "pullQuote": "Progress in legal AI increasingly depends on access to authoritative legal text at scale. Yet one of the most consequential layers of American law remains largely absent from existing machine-readable corpora: local ordinances. Local codes govern zoning, housing, business licensing, public health, noise, animal control, and many other domains of everyday regulation, but they are fragmented across vendor platforms designed for human browsing rather than bulk research access. \n\nWe introduce LOCUS - the Local Ordinance Corpus for the United States - a comprehensive corpus and county-harmonized access layer for U.S. municipal and county ordinance codes. The raw corpus, available for release to researchers, represents nearly all publicly available municipal and county ordinance codes. The resulting raw corpus contains codes from 9,239 cities and counties. A smaller county-harmonized LOCUS access layer provides coverage for the largest 2,309 of 3,144 U.S. counties, accounting for a majority of the population. We use OCR to handle the myriad of document formats that have kept the law from being a public resource. \n\nWe release the corpus with coverage metadata to support reproducibility, downstream legal AI research, and the incremental expansion of machine-readable access to local law. We train a collection of ModernBERT-based classifiers and scorers to facilitate analyzing U.S. local law among several dimensions, such as opacity and paternalism, that have not previously been studied at this scale. LOCUS-v1 and its derivative models are available at:  https://huggingface.co/datasets/LocalLaws/LOCUS-v1",
+      "tags": [
+        "law",
+        "local",
+        "ordinance",
+        "database",
+        "research",
+        "corpus",
+        "legal",
+        "metadata"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-21T12:27:03.152Z",
+      "visits": 0
+    },
+    {
       "id": 1782042877530,
       "url": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
       "source": "SMPTE Makes Its Standards Freely Accessible",
@@ -8029,5 +8101,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-21T11:54:37.559Z"
+  "lastUpdated": "2026-06-21T12:39:23.565Z"
 }
