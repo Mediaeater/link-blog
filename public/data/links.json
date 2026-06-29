@@ -1,6 +1,118 @@
 {
   "links": [
     {
+      "id": 1782729731984,
+      "url": "https://www.nytimes.com/2026/06/26/technology/om-malik-dead.html?ref=spyglass.org",
+      "source": "nytimes.com",
+      "pullQuote": "By the late 2010s, he had established himself as a singular figure in the tech industry: an investor, an adviser, a writer and, above all, a moral compass on issues like privacy and the power of big tech.\n\n“I kind of joke about this, but I think Silicon Valley has become the Babylon of the 21st century,” he told Techies. “I think we have a moral responsibility now I don’t think tech ever had to think about it before.”\n\nOm Prakesh Malik was born on Sept. 29, 1966, in New Delhi, into what he later described as a solidly middle-class Indian family. His father was an Army officer and his mother taught high-school Sanskrit.",
+      "tags": [
+        "nytimes",
+        "obit",
+        "om-malik"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-29T10:42:11.984Z",
+      "visits": 0
+    },
+    {
+      "id": 1782729614558,
+      "url": "https://spyglass.org/om/",
+      "source": "Natural Born Bloggers",
+      "pullQuote": "It was an exhilarating time to be blogging and Om was the linchpin of it all. As my inbox from back then confirms, he was the one behind the scenes pulling it along and holding it all together. Those of us more junior at the time – in tenure, if not in age – looked to him as a sort of Yoda. Blogging Yoda.",
+      "tags": [
+        "obit",
+        "om-malik",
+        "socialmedia"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-29T10:40:14.558Z",
+      "visits": 0
+    },
+    {
+      "id": 1782729358851,
+      "url": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
+      "source": "The KIDS Act Would Require Age Checks To Get Online",
+      "pullQuote": "The KIDS Act never answers an obvious question: how exactly is a platform supposed to address those activities if they’re inside encrypted communications that it can’t read? That will create pressure for providers to weaken private communications or limit features on encrypted private services. \n\nThat approach is especially troubling when it comes to ephemeral messaging. Disappearing messages are not a “loophole” or a dangerous design trick. They are a useful privacy feature that allows online conversations to function more like ordinary real-world conversations, which are not preserved forever in a permanent database.",
+      "tags": [
+        "kids",
+        "age",
+        "verification",
+        "kyc",
+        "identity",
+        "privacy",
+        "legislation"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-29T10:35:58.851Z",
+      "visits": 0
+    },
+    {
+      "id": 1782729267019,
+      "url": "https://dam.stanford.edu/memory-prices.html",
+      "source": "Memory Prices",
+      "pullQuote": "Historic and current memory and storage prices, collected in the spirit of John C. McCallum's classic memory-price dataset — interactive, with the raw data downloadable. Hover for details, click the legend to toggle series, drag or use the slider to zoom, and use the camera icon to export an image.",
+      "tags": [
+        "memory",
+        "prices",
+        "historical",
+        "dram",
+        "chips"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-29T10:34:27.019Z",
+      "visits": 0
+    },
+    {
+      "id": 1782729143784,
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "source": "Professor denounces mass AI fraud on an exam at Brown University: ‘Academic integrity is at risk’",
+      "pullQuote": "When he reported the case to high-ranking officials at Brown, he got a cold reaction. The response from the president, he said, was absolute silence. The dean did not comment either until Serrano took the case before the Academic Code Committee. At that point, he received a note acknowledging that what had happened in his classroom was “a wake-up call.” Serrano, a Madrid-born economist who has been at Brown for 34 years, believes this is not enough. “That cannot be the university’s position before an incident of this magnitude. Academic integrity is a value worth defending. The faculty cannot be left on its own in a battle that is decisive if we want to preserve the future of higher education,” explains the 61-year-old professor in a telephone conversation from Providence, Rhode Island. To prevent AI from ending the prestige and utility of teaching, he feels, it is necessary to adopt a different approach: “We need to publicly admit the seriousness of the situation and open up a broad debate about the real extent of the problem.” ",
+      "tags": [
+        "professor",
+        "exam",
+        "ai",
+        "education",
+        "ethics",
+        "learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-29T10:32:23.784Z",
+      "visits": 0
+    },
+    {
+      "id": 1782729094700,
+      "url": "https://mediaeater.github.io/mediaeater-zines-2026/",
+      "source": "Mediaeater Zines 2026",
+      "pullQuote": "Testing out zine formats and collaging techniques ",
+      "tags": [
+        "mediaeater",
+        "zines",
+        "ongoing",
+        "wordless",
+        "image-zine"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-29T10:31:34.700Z",
+      "visits": 0
+    },
+    {
+      "id": 1782729049163,
+      "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
+      "source": "Age verification is just a precursor to attribution of speech",
+      "pullQuote": "Anyways, I have no doubts that this will become automated once enough of the population has verified their identities. Post an inconvenient message about a politician, or get a little too rowdy in a group chat, and you'll get a letter in the mail or a knock at the door. Similar to the \"love letters\" sent by ISPs on behalf of the RIAA and MPAA when you enjoy a DRM-free media file.",
+      "tags": [
+        "age",
+        "verification",
+        "attribution",
+        "speech",
+        "social-contract",
+        "kyc"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-06-29T10:30:49.163Z",
+      "visits": 0
+    },
+    {
       "id": 1782045563544,
       "url": "https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/",
       "source": "When a Robot Kicks a Child: What Humanoid AI Can Teach Us About Liability and Safety-by-Design - CiTiP blog",
@@ -8101,5 +8213,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-21T12:39:23.565Z"
+  "lastUpdated": "2026-06-29T10:42:12.023Z"
 }
