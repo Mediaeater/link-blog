@@ -3,7 +3,7 @@
     {
       "id": 1782729731984,
       "url": "https://www.nytimes.com/2026/06/26/technology/om-malik-dead.html?ref=spyglass.org",
-      "source": "nytimes.com",
+      "source": "Om Malik, Whose Blog Shaped How Silicon Valley Saw Itself, Dies at 59",
       "pullQuote": "By the late 2010s, he had established himself as a singular figure in the tech industry: an investor, an adviser, a writer and, above all, a moral compass on issues like privacy and the power of big tech.\n\n“I kind of joke about this, but I think Silicon Valley has become the Babylon of the 21st century,” he told Techies. “I think we have a moral responsibility now I don’t think tech ever had to think about it before.”\n\nOm Prakesh Malik was born on Sept. 29, 1966, in New Delhi, into what he later described as a solidly middle-class Indian family. His father was an Army officer and his mother taught high-school Sanskrit.",
       "tags": [
         "nytimes",
@@ -12,7 +12,7 @@
       ],
       "isPinned": false,
       "timestamp": "2026-06-29T10:42:11.984Z",
-      "visits": 0
+      "visits": 1
     },
     {
       "id": 1782729614558,
@@ -8213,5 +8213,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-06-29T10:42:12.023Z"
+  "lastUpdated": "2026-06-29T13:20:59.517Z"
 }
