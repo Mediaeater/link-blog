@@ -4,10 +4,59 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sun, 21 Jun 2026 12:39:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Jun 2026 10:42:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[nytimes.com]]></title>
+            <link>https://www.nytimes.com/2026/06/26/technology/om-malik-dead.html?ref=spyglass.org</link>
+            <guid>1782729731984</guid>
+            <pubDate>Mon, 29 Jun 2026 10:42:11 GMT</pubDate>
+            <description><![CDATA[Tags: nytimes, obit, om-malik]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Natural Born Bloggers]]></title>
+            <link>https://spyglass.org/om/</link>
+            <guid>1782729614558</guid>
+            <pubDate>Mon, 29 Jun 2026 10:40:14 GMT</pubDate>
+            <description><![CDATA[Tags: obit, om-malik, socialmedia]]></description>
+        </item>
+        <item>
+            <title><![CDATA[The KIDS Act Would Require Age Checks To Get Online]]></title>
+            <link>https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online</link>
+            <guid>1782729358851</guid>
+            <pubDate>Mon, 29 Jun 2026 10:35:58 GMT</pubDate>
+            <description><![CDATA[Tags: kids, age, verification, kyc, identity, privacy, legislation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Memory Prices]]></title>
+            <link>https://dam.stanford.edu/memory-prices.html</link>
+            <guid>1782729267019</guid>
+            <pubDate>Mon, 29 Jun 2026 10:34:27 GMT</pubDate>
+            <description><![CDATA[Tags: memory, prices, historical, dram, chips]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Professor denounces mass AI fraud on an exam at Brown University: ‘Academic integrity is at risk’]]></title>
+            <link>https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html</link>
+            <guid>1782729143784</guid>
+            <pubDate>Mon, 29 Jun 2026 10:32:23 GMT</pubDate>
+            <description><![CDATA[Tags: professor, exam, ai, education, ethics, learning]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Mediaeater Zines 2026]]></title>
+            <link>https://mediaeater.github.io/mediaeater-zines-2026/</link>
+            <guid>1782729094700</guid>
+            <pubDate>Mon, 29 Jun 2026 10:31:34 GMT</pubDate>
+            <description><![CDATA[Tags: mediaeater, zines, ongoing, wordless, image-zine]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Age verification is just a precursor to attribution of speech]]></title>
+            <link>https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</link>
+            <guid>1782729049163</guid>
+            <pubDate>Mon, 29 Jun 2026 10:30:49 GMT</pubDate>
+            <description><![CDATA[Tags: age, verification, attribution, speech, social-contract, kyc]]></description>
+        </item>
         <item>
             <title><![CDATA[When a Robot Kicks a Child: What Humanoid AI Can Teach Us About Liability and Safety-by-Design - CiTiP blog]]></title>
             <link>https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/</link>
