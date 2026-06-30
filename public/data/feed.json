@@ -15,6 +15,47 @@
   ],
   "items": [
     {
+      "id": "1782818522053",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/white-paper-ai-regulation/",
+      "title": "Read our white paper on a pragmatic approach to AI governance in America.",
+      "date_published": "2026-06-30T11:22:02.053Z",
+      "tags": [
+        "ai",
+        "ethics",
+        "fair-use",
+        "copyright",
+        "training",
+        "legal",
+        "whitepaper"
+      ],
+      "content_text": "The debate over AI governance is stuck in a false choice between over-regulation and no regulation. There is a middle way: A pragmatic, evidence-based approach that recognizes the unique challenges and opportunities of both frontier AI and widely-deployed AI applications.\n\nFor the most advanced frontier AI models, an independent, federally overseen, industry-backed organization could set safety standards and verify independent, voluntary audits, similar to how other critical sectors are managed. This creates a nimble way to keep people safe without impacting progress.\nFor widely-used AI applications, we can adapt existing laws to address specific social and economic impacts. This means using and updating current laws to tackle challenges in areas like child safety, copyright, and workforce transitions.",
+      "summary": "The debate over AI governance is stuck in a false choice between over-regulation and no regulation. There is a middle way: A pragmatic, evidence-based...",
+      "content_html": "<blockquote>The debate over AI governance is stuck in a false choice between over-regulation and no regulation. There is a middle way: A pragmatic, evidence-based approach that recognizes the unique challenges and opportunities of both frontier AI and widely-deployed AI applications.\n\nFor the most advanced frontier AI models, an independent, federally overseen, industry-backed organization could set safety standards and verify independent, voluntary audits, similar to how other critical sectors are managed. This creates a nimble way to keep people safe without impacting progress.\nFor widely-used AI applications, we can adapt existing laws to address specific social and economic impacts. This means using and updating current laws to tackle challenges in areas like child safety, copyright, and workforce transitions.</blockquote>\n<p><strong>Tags:</strong> ai, ethics, fair-use, copyright, training, legal, whitepaper</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1782818449146",
+      "url": "https://kunyuan.substack.com/p/ai-does-not-have-to-kill-humans-to",
+      "title": "10｜Theoretical Teardown｜AI Does Not Have to Kill Humans to End the Human Future",
+      "date_published": "2026-06-30T11:20:49.146Z",
+      "tags": [
+        "humans",
+        "civilization",
+        "ai",
+        "humanity"
+      ],
+      "content_text": "The blind spot created by this dimensional slippage is more dangerous than getting a probability estimate wrong. It can make us feel that we have already built the deepest safety defenses before we have even reached the core risk.\n\nI do not deny the seriousness of extinction risk. Biological annihilation is the strictest risk baseline; that is not in dispute. But a baseline is not the whole picture. If humanity is merely the biological population of Homo sapiens, then as long as human bodies continue to exist, the risk does not seem to have reached its deepest level. But what if what we mean by humanity also includes the human capacity, under civilizational conditions, to form judgment, calibrate against reality, take responsibility, create meaning, and shape the future?",
+      "summary": "The blind spot created by this dimensional slippage is more dangerous than getting a probability estimate wrong. It can make us feel that we have alre...",
+      "content_html": "<blockquote>The blind spot created by this dimensional slippage is more dangerous than getting a probability estimate wrong. It can make us feel that we have already built the deepest safety defenses before we have even reached the core risk.\n\nI do not deny the seriousness of extinction risk. Biological annihilation is the strictest risk baseline; that is not in dispute. But a baseline is not the whole picture. If humanity is merely the biological population of Homo sapiens, then as long as human bodies continue to exist, the risk does not seem to have reached its deepest level. But what if what we mean by humanity also includes the human capacity, under civilizational conditions, to form judgment, calibrate against reality, take responsibility, create meaning, and shape the future?</blockquote>\n<p><strong>Tags:</strong> humans, civilization, ai, humanity</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1782729731984",
       "url": "https://www.nytimes.com/2026/06/26/technology/om-malik-dead.html?ref=spyglass.org",
       "title": "Om Malik, Whose Blog Shaped How Silicon Valley Saw Itself, Dies at 59",
