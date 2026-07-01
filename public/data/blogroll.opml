@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Tue, 30 Jun 2026 11:24:12 GMT</dateCreated>
-    <dateModified>Tue, 30 Jun 2026 11:24:12 GMT</dateModified>
+    <dateCreated>Wed, 01 Jul 2026 22:29:44 GMT</dateCreated>
+    <dateModified>Wed, 01 Jul 2026 22:29:44 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -4350,6 +4350,15 @@ It scans multiple company career pages, rewrites your CV per job, and even fills
       <outline type="link" text="When a Robot Kicks a Child: What Humanoid AI Can Teach Us About Liability and Safety-by-Design - CiTiP blog" title="When a Robot Kicks a Child: What Humanoid AI Can Teach Us About Liability and Safety-by-Design - CiTiP blog" url="https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/" htmlUrl="https://www.law.kuleuven.be/citip/blog/when-a-robot-kicks-a-child-what-humanoid-ai-can-teach-us-about-liability-and-safety-by-design/" description="A recent study examining the regulatory and liability implications of AI-powered medical robots in the European Union revealed significant uncertainty regarding the legal frameworks governing these technologies. Drawing on surveys of 50 medical professionals across 20 countries and 19 specialties, expert interviews, and normative legal analysis, the study found that more than half of respondents were unaware of the legal frameworks applicable to AI and robotics in healthcare, while only 1.7% considered themselves well informed. The findings also revealed considerable uncertainty regarding liability. Nearly 60% of respondents questioned whether existing EU liability rules adequately address harms caused by AI-powered robots, while almost 80% called for clearer regulatory guidance before such systems are more widely deployed." created="Sun, 21 Jun 2026 12:39:23 GMT" category="robot,ethics,health,healthcare,robotics,hrim,liability,legal" />
     </outline>
     <outline text="html" title="html">
+      <outline type="link" text="tools.simonwillison.net" title="tools.simonwillison.net" url="https://tools.simonwillison.net/" htmlUrl="https://tools.simonwillison.net/" description="
+12 results available.
+Miscellaneous HTML+JavaScript tools built mostly with the help of LLMs. See also /python/ for tools written using Python.
+
+This collection is an experiment in prompt-driven development with very low stakes.
+
+The colophon lists commit messages and transcripts for every tool.
+
+The code lives in simonw/tools and many tools used the Claude custom instructions described here." created="Wed, 01 Jul 2026 13:24:19 GMT" category="tools,html,simonwilson" />
       <outline type="link" text="Useful patterns for building HTML tools" title="Useful patterns for building HTML tools" url="https://simonwillison.net/2025/Dec/10/html-tools/" htmlUrl="https://simonwillison.net/2025/Dec/10/html-tools/" description="the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way." created="Thu, 11 Dec 2025 19:46:38 GMT" category="css,html,tools,useful,styling" />
     </outline>
     <outline text="huggingface" title="huggingface">
@@ -7524,6 +7533,17 @@ Experiments show that CALM significantly improves the performance-compute trade-
 
 " created="Thu, 05 Mar 2026 21:06:14 GMT" category="brand,consumerism,luxury,signaling" />
     </outline>
+    <outline text="simonwilson" title="simonwilson">
+      <outline type="link" text="tools.simonwillison.net" title="tools.simonwillison.net" url="https://tools.simonwillison.net/" htmlUrl="https://tools.simonwillison.net/" description="
+12 results available.
+Miscellaneous HTML+JavaScript tools built mostly with the help of LLMs. See also /python/ for tools written using Python.
+
+This collection is an experiment in prompt-driven development with very low stakes.
+
+The colophon lists commit messages and transcripts for every tool.
+
+The code lives in simonw/tools and many tools used the Claude custom instructions described here." created="Wed, 01 Jul 2026 13:24:19 GMT" category="tools,html,simonwilson" />
+    </outline>
     <outline text="six" title="six">
       <outline type="link" text="‘It looks like a gay disco at six in the morning’: at home with artist Andreas Angelidakis" title="‘It looks like a gay disco at six in the morning’: at home with artist Andreas Angelidakis" url="https://www.worldofinteriors.com/story/andreas-angelidakis-apartment-athens-greece" htmlUrl="https://www.worldofinteriors.com/story/andreas-angelidakis-apartment-athens-greece" description="Andreas Angelidakis’s apartment is in flux as the Athens-based artist explores, through his home environment, his next international show. Maquettes are being considered, juxtapositions judged and details fixed. The place is a whirlpool of ideas and experimentation, prototypes and aftermaths: somewhere between Scylla and Charybdis in the provocations that spin out, informed by keepsakes, memories and losses, the personal and political. The chaos is ruled over by an elderly Pomeranian called Lupo, little tongue lolling.
 
@@ -8220,6 +8240,15 @@ All of it in one place, always running, always quiet." created="Sun, 22 Mar 2026
       <outline type="link" text="Air pollution" title="Air pollution" url="https://climatetrace.org/air-pollution" htmlUrl="https://climatetrace.org/air-pollution" description="Facilities that create climate pollution also release harmful air pollution. See for yourself" created="Sun, 19 Oct 2025 10:00:50 GMT" category="map. aqi,tool" visits="1" />
     </outline>
     <outline text="tools" title="tools">
+      <outline type="link" text="tools.simonwillison.net" title="tools.simonwillison.net" url="https://tools.simonwillison.net/" htmlUrl="https://tools.simonwillison.net/" description="
+12 results available.
+Miscellaneous HTML+JavaScript tools built mostly with the help of LLMs. See also /python/ for tools written using Python.
+
+This collection is an experiment in prompt-driven development with very low stakes.
+
+The colophon lists commit messages and transcripts for every tool.
+
+The code lives in simonw/tools and many tools used the Claude custom instructions described here." created="Wed, 01 Jul 2026 13:24:19 GMT" category="tools,html,simonwilson" />
       <outline type="link" text="Useful patterns for building HTML tools" title="Useful patterns for building HTML tools" url="https://simonwillison.net/2025/Dec/10/html-tools/" htmlUrl="https://simonwillison.net/2025/Dec/10/html-tools/" description="the term HTML tools to refer to HTML applications that I’ve been building which combine HTML, JavaScript, and CSS in a single file and use them to provide useful functionality. I have built over 150 of these in the past two years, almost all of them written by LLMs. This article presents a collection of useful patterns I’ve discovered along the way." created="Thu, 11 Dec 2025 19:46:38 GMT" category="css,html,tools,useful,styling" />
     </outline>
     <outline text="tracker" title="tracker">

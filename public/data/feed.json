@@ -15,6 +15,24 @@
   ],
   "items": [
     {
+      "id": "1782912259632",
+      "url": "https://tools.simonwillison.net/",
+      "title": "tools.simonwillison.net",
+      "date_published": "2026-07-01T13:24:19.632Z",
+      "tags": [
+        "tools",
+        "html",
+        "simonwilson"
+      ],
+      "content_text": "\n12 results available.\nMiscellaneous HTML+JavaScript tools built mostly with the help of LLMs. See also /python/ for tools written using Python.\n\nThis collection is an experiment in prompt-driven development with very low stakes.\n\nThe colophon lists commit messages and transcripts for every tool.\n\nThe code lives in simonw/tools and many tools used the Claude custom instructions described here.",
+      "summary": "\n12 results available.\nMiscellaneous HTML+JavaScript tools built mostly with the help of LLMs. See also /python/ for tools written using Python.\n\nThis...",
+      "content_html": "<blockquote>\n12 results available.\nMiscellaneous HTML+JavaScript tools built mostly with the help of LLMs. See also /python/ for tools written using Python.\n\nThis collection is an experiment in prompt-driven development with very low stakes.\n\nThe colophon lists commit messages and transcripts for every tool.\n\nThe code lives in simonw/tools and many tools used the Claude custom instructions described here.</blockquote>\n<p><strong>Tags:</strong> tools, html, simonwilson</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1782818522053",
       "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/white-paper-ai-regulation/",
       "title": "Read our white paper on a pragmatic approach to AI governance in America.",
