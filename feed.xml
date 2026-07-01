@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Tue, 30 Jun 2026 11:22:02 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 13:24:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[tools.simonwillison.net]]></title>
+            <link>https://tools.simonwillison.net/</link>
+            <guid>1782912259632</guid>
+            <pubDate>Wed, 01 Jul 2026 13:24:19 GMT</pubDate>
+            <description><![CDATA[Tags: tools, html, simonwilson]]></description>
+        </item>
         <item>
             <title><![CDATA[Read our white paper on a pragmatic approach to AI governance in America.]]></title>
             <link>https://blog.google/company-news/outreach-and-initiatives/public-policy/white-paper-ai-regulation/</link>
