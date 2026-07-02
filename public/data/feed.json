@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1782956965465",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "title": "For the First Time, a Cell Built From Scratch Grows and Divides",
+      "date_published": "2026-07-02T01:49:25.465Z",
+      "tags": [
+        "science",
+        "biology",
+        "synthetic-biology",
+        "cells"
+      ],
+      "content_text": "For the very first time, biologists packed nonliving components into a cell-like membrane, piece by piece, and witnessed the bag of molecules start to behave like life.",
+      "summary": "For the very first time, biologists packed nonliving components into a cell-like membrane, piece by piece, and witnessed the bag of molecules start to...",
+      "content_html": "<blockquote>For the very first time, biologists packed nonliving components into a cell-like membrane, piece by piece, and witnessed the bag of molecules start to behave like life.</blockquote>\n<p><strong>Tags:</strong> science, biology, synthetic-biology, cells</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1782912259632",
       "url": "https://tools.simonwillison.net/",
       "title": "tools.simonwillison.net",
