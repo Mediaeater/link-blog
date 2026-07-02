@@ -282,11 +282,15 @@ When the user pastes a URL to add to the blog, do this — do NOT rely on the br
 otherwise stranded in localStorage):
 
 1. **Fetch** the URL (WebFetch) → a clean title and one *verbatim* pull quote (2–4 sentences).
-2. **Tag** with 3–5 tags. Prefer established tags from `data/tag-vocabulary.json` (the
-   `established` list = tags used on 3+ links). Only coin a new tag when nothing fits.
-   Keep them lowercase-hyphenated. This is the fix for headline-derived tag sprawl — do NOT
-   just pull keywords from the headline. Run `npm run tag-vocab` first if the file looks stale.
-3. **Add**: `npm run add:link -- --url "..." --title "..." --quote "..." --tags "a,b,c"`
+2. **Propose tags — then PAUSE for approval.** Suggest 3–5 tags, preferring established tags
+   from `data/tag-vocabulary.json` (the `established` list = tags used on 3+ links). Only coin
+   a new tag when nothing fits. Keep them lowercase-hyphenated. This is the fix for
+   headline-derived tag sprawl — do NOT just pull keywords from the headline. Run
+   `npm run tag-vocab` first if the file looks stale. **Show the proposed tags and WAIT** for
+   the user to approve or append/edit before running `add:link`. Tags are the one explicit
+   exception to the otherwise-autonomous task loop — never auto-commit tags.
+3. **Add** (only after tag approval):
+   `npm run add:link -- --url "..." --title "..." --quote "..." --tags "a,b,c"`
    (dedupes on normalized URL, writes both `data/` and `public/data/` copies, inserts at top).
 4. **Deploy**: `npm run deploy`, then verify the link is live.
 5. **Commit** the changed `links.json` + regenerated feeds.
