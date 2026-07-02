@@ -247,6 +247,12 @@ npm run deploy
 # Sync browser data
 npm run sync
 
+# Add a single link (browser-free; no dev server needed)
+npm run add:link -- --url "https://..." --title "..." --quote "..." --tags "ai,ethics"
+
+# Regenerate the tag vocabulary from the corpus (data/tag-vocabulary.json)
+npm run tag-vocab
+
 # Pull links from newsfeeds.net (full workflow)
 npm run pull:newsfeeds
 
@@ -268,6 +274,26 @@ npm run patch:page -- digests/digest-016-2026-05-30.html
 > `gh-pages` via a throwaway worktree — fast, no `vite build`. Use it ONLY for static-HTML
 > changes. Anything read by the React app or RSS feeds (`links.json`, `digests.json`, feeds)
 > needs the full `npm run deploy`.
+
+### 🔗 Paste-a-URL add workflow (Claude procedure)
+
+When the user pastes a URL to add to the blog, do this — do NOT rely on the browser
+(links added in-browser only reach `links.json` if the API/dev server was running, and are
+otherwise stranded in localStorage):
+
+1. **Fetch** the URL (WebFetch) → a clean title and one *verbatim* pull quote (2–4 sentences).
+2. **Tag** with 3–5 tags. Prefer established tags from `data/tag-vocabulary.json` (the
+   `established` list = tags used on 3+ links). Only coin a new tag when nothing fits.
+   Keep them lowercase-hyphenated. This is the fix for headline-derived tag sprawl — do NOT
+   just pull keywords from the headline. Run `npm run tag-vocab` first if the file looks stale.
+3. **Add**: `npm run add:link -- --url "..." --title "..." --quote "..." --tags "a,b,c"`
+   (dedupes on normalized URL, writes both `data/` and `public/data/` copies, inserts at top).
+4. **Deploy**: `npm run deploy`, then verify the link is live.
+5. **Commit** the changed `links.json` + regenerated feeds.
+
+> **Serialization note**: always write `links.json` with a JS/node serializer (as `add:link`
+> does) or `JSON.stringify` — never Python's `json.dump` default, which ASCII-escapes every
+> smart quote/em-dash to `\uXXXX` and churns the whole file diff.
 
 ### ⚠️ Critical Notes for Claude Code
 

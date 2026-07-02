@@ -18,6 +18,8 @@
     "test": "vitest",
     "serve": "serve -s dist",
     "sync": "node scripts/sync-from-browser.cjs",
+    "add:link": "node scripts/add-link.cjs",
+    "tag-vocab": "node scripts/generate-tag-vocab.cjs",
     "fetch:newsfeeds": "node scripts/fetch-from-newsfeeds.cjs",
     "merge:newsfeeds": "node scripts/merge-newsfeeds.cjs",
     "pull:newsfeeds": "npm run fetch:newsfeeds && npm run merge:newsfeeds && npm run sitemap && npm run feeds",
