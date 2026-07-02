@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 01 Jul 2026 13:24:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Jul 2026 01:49:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[For the First Time, a Cell Built From Scratch Grows and Divides]]></title>
+            <link>https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/</link>
+            <guid>1782956965465</guid>
+            <pubDate>Thu, 02 Jul 2026 01:49:25 GMT</pubDate>
+            <description><![CDATA[Tags: science, biology, synthetic-biology, cells]]></description>
+        </item>
         <item>
             <title><![CDATA[tools.simonwillison.net]]></title>
             <link>https://tools.simonwillison.net/</link>
