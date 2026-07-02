@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1782959355377,
+      "url": "https://news.cuanschutz.edu/news-stories/healthy-but-sedentary-individuals-show-early-decline-in-cellular-energy-production",
+      "source": "Healthy but Sedentary Individuals Show Early Decline in Cellular Energy Production",
+      "pullQuote": "If you are 40, healthy and sedentary, it is likely that you already have something going on inside your cells that will likely come back to haunt you in 10 or 15 years.",
+      "tags": [
+        "health",
+        "science",
+        "aging",
+        "exercise",
+        "mitochondria"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-02T02:29:15.377Z",
+      "visits": 0
+    },
+    {
       "id": 1782956965465,
       "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
       "source": "For the First Time, a Cell Built From Scratch Grows and Divides",
@@ -8275,5 +8291,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-02T01:49:25.465Z"
+  "lastUpdated": "2026-07-02T02:29:15.377Z"
 }
