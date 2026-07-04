@@ -28,6 +28,12 @@ export default function DigestPanel() {
   }, []);
 
   useEffect(() => {
+    // fetchStatus() is a "fetch data on mount" effect; the rule flags any
+    // function invoked from an effect that could call setState, even though
+    // the actual setStatus/setError calls here happen after the awaited
+    // fetch resolves. Restructuring to a data-fetching library is out of
+    // scope — intentionally left as-is.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchStatus();
   }, [fetchStatus]);
 

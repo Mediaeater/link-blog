@@ -1,7 +1,7 @@
 import { prepare, layout } from '@chenglou/pretext'
 
 // Fonts matching the actual CSS
-const BODY_FONT = '500 17px Inter, -apple-system, BlinkMacSystemFont, sans-serif'
+// (title height is a fixed constant below — only the pull quote is measured with pretext)
 const PULL_QUOTE_FONT = 'italic 14px Inter, -apple-system, BlinkMacSystemFont, sans-serif'
 
 // Line heights from Tailwind/CSS

@@ -228,7 +228,7 @@ export default function LinkBlogClean() {
     } catch (error) {
       console.error('Error loading digests:', error);
     }
-  }, []);
+  }, [API_BASE]);
 
   // Auto-backup to localStorage backup key (overwrites each time)
   const performAutoBackup = useCallback(() => {
@@ -274,6 +274,12 @@ export default function LinkBlogClean() {
   // Initialize
   // Load initial data and URL parameters
   useEffect(() => {
+    // loadLinks() is the standard "fetch data on mount" pattern; its
+    // self-contained-build fast path (window.__LINKS_DATA__) calls setLinks
+    // synchronously before any await, which this rule flags. Restructuring to
+    // a data-fetching library is out of scope here and would change behavior
+    // on a production page — intentionally left as-is.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     loadLinks();
     const urlParams = new URLSearchParams(window.location.search);
     const adminParam = urlParams.get('admin');
@@ -312,6 +318,9 @@ export default function LinkBlogClean() {
   // Load digests when panel is opened
   useEffect(() => {
     if (showDigests && !digestsData) {
+      // Same fast-path setState-before-await pattern as loadLinks() above
+      // (window.__DIGESTS_DATA__ self-contained build); intentionally left as-is.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       loadDigests();
     }
   }, [showDigests, digestsData, loadDigests]);

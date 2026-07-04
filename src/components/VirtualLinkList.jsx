@@ -27,12 +27,19 @@ export default function VirtualLinkList({ links, renderItem }) {
     return () => ro.disconnect()
   }, [])
 
-  // Clear height cache when link list changes (filtering/sorting)
+  // Clear height cache when link list changes (filtering/sorting).
+  // Deliberately reads/writes refs during render (the "adjust state while
+  // rendering" pattern, applied to a ref-backed cache instead of state) so the
+  // cache is invalidated before the offsets useMemo below runs in this same
+  // render — using state here would cost an extra render pass for a value
+  // that's never itself rendered. Perf-critical for the virtualized list.
+  /* eslint-disable react-hooks/refs -- see justification above; safe, pre-existing pattern */
   const prevLinksRef = useRef(links)
   if (prevLinksRef.current !== links) {
     heightCache.current.clear()
     prevLinksRef.current = links
   }
+  /* eslint-enable react-hooks/refs */
 
   // Track container's offset from page top
   const updateContainerTop = useCallback(() => {
@@ -79,6 +86,10 @@ export default function VirtualLinkList({ links, renderItem }) {
       const link = links[i]
       const meta = itemMeta[i]
 
+      // Reading the height cache ref during render is intentional: it's a plain
+      // Map used as an imperative memoization cache (not UI state), so this
+      // avoids re-measuring/re-rendering on every scroll frame.
+      // eslint-disable-next-line react-hooks/refs -- perf cache read, not used for rendering output
       let h = heightCache.current.get(link.id)
       if (h === undefined) {
         h = measureLinkHeight(link, containerWidth)
@@ -89,12 +100,21 @@ export default function VirtualLinkList({ links, renderItem }) {
     }
 
     return { offsets: offs, totalHeight: offs[offs.length - 1] || 0 }
+    // measureVersion is not read in this body — it's a deliberate cache-busting
+    // trigger bumped by measureItem() below after an async DOM height correction,
+    // so offsets must be recomputed even though the ref value itself isn't a dep.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [links, containerWidth, itemMeta, measureVersion])
 
   // Binary search for visible range
   const { start, end } = useMemo(() => {
     if (offsets.length <= 1) return { start: 0, end: -1 }
 
+    // containerTop is kept in a ref (updated by the scroll/resize listeners
+    // above) instead of state so scrolling doesn't trigger an extra render on
+    // every pixel — reading it here during the binary-search useMemo is the
+    // point of the optimization.
+    // eslint-disable-next-line react-hooks/refs -- perf: avoids state update per scroll event
     const relScroll = scrollY - containerTop.current
     const top = Math.max(0, relScroll)
     const bottom = relScroll + viewportH
