@@ -273,42 +273,38 @@ describe('API endpoints', () => {
   });
 
   describe('GET /api/archive/:year', () => {
-    test('rejects non-numeric year with 400', async () => {
+    // The archive API (and its year validation) was removed in favor of
+    // weekly digests (commit d744721, "Replace Archive with weekly
+    // Digests, remove Ticker"). No /api/archive/:year route exists
+    // anymore, so every request 404s regardless of the year given.
+    test('404s for a non-numeric year', async () => {
       app = getApp();
-      const res = await request(app)
+      await request(app)
         .get('/api/archive/abc')
-        .expect(400);
-
-      expect(res.body.error).toMatch(/Invalid year/);
+        .expect(404);
     });
 
-    test('rejects year before 2000 with 400', async () => {
+    test('404s for a year before 2000', async () => {
       app = getApp();
-      const res = await request(app)
+      await request(app)
         .get('/api/archive/1999')
-        .expect(400);
-
-      expect(res.body.error).toMatch(/Invalid year/);
+        .expect(404);
     });
 
-    test('rejects year too far in the future with 400', async () => {
+    test('404s for a year too far in the future', async () => {
       app = getApp();
       const futureYear = new Date().getFullYear() + 2;
-      const res = await request(app)
+      await request(app)
         .get(`/api/archive/${futureYear}`)
-        .expect(400);
-
-      expect(res.body.error).toMatch(/Invalid year/);
+        .expect(404);
     });
 
-    test('accepts current year', async () => {
+    test('404s for the current year too', async () => {
       app = getApp();
       const currentYear = new Date().getFullYear();
-      // This might 500 if archive doesn't exist, but should not 400
-      const res = await request(app)
-        .get(`/api/archive/${currentYear}`);
-
-      expect(res.status).not.toBe(400);
+      await request(app)
+        .get(`/api/archive/${currentYear}`)
+        .expect(404);
     });
   });
 });

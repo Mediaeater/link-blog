@@ -25,18 +25,21 @@ describe('suggestTagsFromUrl', () => {
   });
 
   describe('path analysis', () => {
+    // Path-segment tagging was removed when tag suggestion switched to
+    // headline-keyword extraction (commit e48610b). A URL with no
+    // title/description and no domain mapping now yields no tags.
     test.each([
-      ['https://example.com/blog/my-post', 'blog'],
-      ['https://example.com/tutorial/react', 'tutorial'],
-      ['https://example.com/docs/api', 'documentation'],
-      ['https://example.com/documentation/ref', 'documentation'],
-      ['https://example.com/api/v2/users', 'api'],
-      ['https://example.com/guide/setup', 'guide'],
-      ['https://example.com/demo/widget', 'demo'],
-      ['https://example.com/reference/classes', 'reference'],
-    ])('detects %s -> %s', (url, expectedTag) => {
+      'https://example.com/blog/my-post',
+      'https://example.com/tutorial/react',
+      'https://example.com/docs/api',
+      'https://example.com/documentation/ref',
+      'https://example.com/api/v2/users',
+      'https://example.com/guide/setup',
+      'https://example.com/demo/widget',
+      'https://example.com/reference/classes',
+    ])('does not tag %s from the path alone', (url) => {
       const result = suggestTagsFromUrl(url);
-      expect(result).toContain(expectedTag);
+      expect(result).toEqual([]);
     });
   });
 
@@ -50,42 +53,46 @@ describe('suggestTagsFromUrl', () => {
       expect(result).toContain('typescript');
     });
 
-    test('detects tutorial phrases', () => {
+    test('extracts literal keywords instead of a "tutorial" classification', () => {
+      // There's no phrase-based classifier anymore; headline words are
+      // extracted as-is once stop words are filtered out.
       const result = suggestTagsFromUrl(
         'https://example.com/post',
         'How to deploy a Node app',
       );
-      expect(result).toContain('tutorial');
+      expect(result).toEqual(['deploy', 'node', 'app']);
     });
 
-    test('detects news phrases', () => {
+    test('extracts literal keywords instead of a "news" classification', () => {
       const result = suggestTagsFromUrl(
         'https://example.com/post',
         'Breaking: Major announcement from tech company',
       );
-      expect(result).toContain('news');
+      expect(result).toEqual(['breaking', 'major', 'announcement', 'tech', 'company']);
     });
   });
 
   describe('file extension detection', () => {
+    // File-extension-based tagging was removed in the same refactor; an
+    // extension alone (no title) produces no tags.
     test.each([
-      ['https://example.com/file.pdf', 'pdf'],
-      ['https://example.com/clip.mp4', 'video'],
-      ['https://example.com/song.mp3', 'audio'],
-      ['https://example.com/archive.zip', 'download'],
-    ])('detects %s -> %s', (url, expectedTag) => {
+      'https://example.com/file.pdf',
+      'https://example.com/clip.mp4',
+      'https://example.com/song.mp3',
+      'https://example.com/archive.zip',
+    ])('does not tag %s from its extension alone', (url) => {
       const result = suggestTagsFromUrl(url);
-      expect(result).toContain(expectedTag);
+      expect(result).toEqual([]);
     });
   });
 
   describe('content pattern matching', () => {
-    test('detects tips/best practices', () => {
+    test('extracts literal keywords instead of a "tips" classification', () => {
       const result = suggestTagsFromUrl(
         'https://example.com',
         '10 best practices for writing clean code',
       );
-      expect(result).toContain('tips');
+      expect(result).toEqual(['best', 'practices', 'writing', 'clean', 'code']);
     });
 
     test('detects free/open source', () => {
