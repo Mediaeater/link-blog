@@ -1,6 +1,39 @@
 {
   "links": [
     {
+      "id": 1783197563022,
+      "url": "https://www.youtube.com/watch?v=0XMg1CWcLR4",
+      "source": "Penser le Présent avec Wolfgang Tillmans",
+      "pullQuote": "Wolfgang Tillmans est professeur invité aux Beaux-Arts de Paris pour l'année 2025–2026. En complément des quelque 160 séances de tutorat individuel qu'il a conduites, il a conçu une série de séminaires à destination des étudiants, intitulée On My Mind. À chaque séance, organisée autour d'une entrée spécifique, Tillmans a invité étudiantes et étudiants à explorer un ensemble d'images, le plus souvent distinctes de son travail artistique, constituant une forme de bloc-notes visuel.",
+      "tags": [
+        "artist-talk",
+        "wolfgang-tillmans",
+        "photography",
+        "education"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-04T20:39:23.022Z",
+      "visits": 0
+    },
+    {
+      "id": 1783197392373,
+      "url": "https://101ads.org/",
+      "source": "101 Ads — Highway 101 Billboard Map",
+      "pullQuote": "For locals, they're just life as usual in the Bay Area, but for visitors from around the world, they are mind bending artifacts of the tech domain — often striking, unintelligible, absurd, vague and dissonant. They're dedicated to very small groups of decision makers who commute daily on the main highway that connects it all: US Route 101. They're also breadcrumbs of the state of the art of Silicon Valley. They are culture.",
+      "tags": [
+        "advertising",
+        "billboard",
+        "silicon-valley",
+        "maps",
+        "culture",
+        "business",
+        "market"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-04T20:36:32.373Z",
+      "visits": 0
+    },
+    {
       "id": 1782959355377,
       "url": "https://news.cuanschutz.edu/news-stories/healthy-but-sedentary-individuals-show-early-decline-in-cellular-energy-production",
       "source": "Healthy but Sedentary Individuals Show Early Decline in Cellular Energy Production",
@@ -8291,5 +8324,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-02T02:29:15.377Z"
+  "lastUpdated": "2026-07-04T20:39:23.022Z"
 }
