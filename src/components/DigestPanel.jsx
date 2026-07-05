@@ -113,14 +113,14 @@ export default function DigestPanel() {
           disabled={generating || !status || status.undigestedCount === 0}
           className={`px-3 py-1.5 rounded text-sm font-medium flex items-center gap-2 ${
             status?.undigestedCount > 0
-              ? 'bg-amber-500 hover:bg-amber-600 text-white'
+              ? 'bg-neutral-900 hover:bg-neutral-700 text-white'
               : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
           } disabled:opacity-50 disabled:cursor-not-allowed`}
         >
           {generating ? 'Working...' : 'Digest'}
           {status && (
             <span className={`px-1.5 py-0.5 rounded text-xs ${
-              status.undigestedCount > 0 ? 'bg-amber-600' : 'bg-gray-400'
+              status.undigestedCount > 0 ? 'bg-neutral-700 text-white' : 'bg-gray-400'
             }`}>
               {status.undigestedCount}
             </span>
@@ -177,8 +177,8 @@ export default function DigestPanel() {
                 onClick={handleCopy}
                 className={`px-4 py-2 rounded ${
                   copied
-                    ? 'bg-green-500 text-white'
-                    : 'bg-blue-500 hover:bg-blue-600 text-white'
+                    ? 'bg-green-700 text-white'
+                    : 'border border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-100'
                 }`}
               >
                 {copied ? 'Copied!' : 'Copy HTML'}
@@ -186,7 +186,7 @@ export default function DigestPanel() {
               <button
                 onClick={handlePublish}
                 disabled={generating}
-                className="px-4 py-2 rounded bg-amber-500 hover:bg-amber-600 text-white disabled:opacity-50"
+                className="px-4 py-2 rounded bg-neutral-900 hover:bg-neutral-700 text-white disabled:opacity-50"
               >
                 {generating ? 'Publishing...' : 'Publish Digest'}
               </button>
@@ -196,7 +196,7 @@ export default function DigestPanel() {
       )}
 
       {error && (
-        <div className="fixed bottom-4 right-4 bg-red-500 text-white px-4 py-2 rounded shadow-lg">
+        <div className="fixed bottom-4 right-4 bg-red-700 text-white px-4 py-2 rounded shadow-lg">
           {error}
           <button onClick={() => setError(null)} className="ml-2">✕</button>
         </div>

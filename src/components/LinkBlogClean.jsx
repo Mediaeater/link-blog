@@ -708,7 +708,7 @@ export default function LinkBlogClean() {
               <AlertTriangle className="w-5 h-5 flex-shrink-0" />
               <div>
                 <p className="font-medium">{saveError.message}</p>
-                <p className="text-sm text-red-100">{saveError.details}</p>
+                <p className="text-sm text-white">{saveError.details}</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -760,9 +760,9 @@ export default function LinkBlogClean() {
           {/* Top Utility Bar */}
           <div className="bg-neutral-100 border-b border-neutral-200">
             <div className="container-width flex justify-between items-center py-1">
-              <span className="text-[11px] text-neutral-500 uppercase tracking-wide">Est. 1994</span>
+              <span className="text-[11px] text-neutral-600 uppercase tracking-wide">Est. 1994</span>
               <time
-                className="text-[11px] text-neutral-500 uppercase tracking-wide"
+                className="text-[11px] text-neutral-600 uppercase tracking-wide"
                 dateTime={new Date().toISOString()}
               >
                 {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
