@@ -146,7 +146,6 @@ async function main() {
 
   checks.forEach(check => {
     const icon = check.status ? '✓' : '✗';
-    const color = check.status ? '' : '';
     console.log(`   ${icon} ${check.name}`);
   });
 

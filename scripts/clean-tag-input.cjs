@@ -58,7 +58,7 @@ function cleanDataFile(filePath) {
       }
 
       // Return clean link object with explicit field selection
-      const { tagInput, ...cleanLink } = link;
+      const { ...cleanLink } = link;
 
       return {
         id: cleanLink.id,

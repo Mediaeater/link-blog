@@ -40,4 +40,15 @@ export default [
     files: ['scripts/**/*.js', 'tests/**/*.js', '*.config.js'],
     languageOptions: { globals: { ...globals.node } },
   },
+  {
+    files: ['**/*.cjs'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'commonjs',
+      globals: { ...globals.node },
+    },
+    rules: {
+      ...js.configs.recommended.rules,
+    },
+  },
 ]

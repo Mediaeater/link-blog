@@ -13,10 +13,8 @@ const {
 } = require('../services/activitypub.cjs');
 const {
   fetchActor,
-  sendAccept,
-  sendReject
+  sendAccept
 } = require('../services/delivery.cjs');
-const { verifySignature } = require('../services/crypto.cjs');
 
 const router = express.Router();
 
