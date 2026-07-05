@@ -39,6 +39,7 @@ export default function LinkBlogClean() {
   const [showQuickAdd, setShowQuickAdd] = useState(false);
   const [quickAddUrls, setQuickAddUrls] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
   const [copiedLinkId, setCopiedLinkId] = useState(null);
   const [focusedLinkIndex] = useState(-1);
   const [showAutocomplete, setShowAutocomplete] = useState(false);
@@ -363,6 +364,8 @@ export default function LinkBlogClean() {
       return;
     }
 
+    setIsSaving(true);
+
     // Use tags array directly (from chip system), plus any pending input
     const pendingTag = currentTagInput.trim().toLowerCase();
     const finalTags = pendingTag && !newLink.tags?.includes(pendingTag)
@@ -393,12 +396,16 @@ export default function LinkBlogClean() {
       }
     } catch (error) {
       console.error('Failed to add link:', error);
+    } finally {
+      setIsSaving(false);
     }
   };
 
   // Update link
   const updateLink = async () => {
     if (!editingLink || !isAdmin) return;
+
+    setIsSaving(true);
 
     // Use tags array directly (from chip system), plus any pending input
     const pendingTag = currentTagInput.trim().toLowerCase();
@@ -430,6 +437,8 @@ export default function LinkBlogClean() {
       setCurrentTagInput('');
     } catch (error) {
       console.error('Failed to update link:', error);
+    } finally {
+      setIsSaving(false);
     }
   };
 
@@ -542,14 +551,18 @@ export default function LinkBlogClean() {
             setLinks(mergedLinks);
             await saveToFile(mergedLinks);
 
-            const successMsg = `✅ Successfully imported ${validNewLinks.length} links!`;
+            const successMsg = `Successfully imported ${validNewLinks.length} links!`;
             console.log(successMsg);
             alert(successMsg);
 
           } catch (error) {
             console.error('❌ Failed to save imported links:', error);
             setLinks(mergedLinks);
-            alert(`⚠️ Imported ${validNewLinks.length} links to UI, but save failed. Check if API server is running.`);
+            setSaveError({
+              message: `Imported ${validNewLinks.length} links to UI, but save failed.`,
+              details: 'Check if API server is running.',
+              timestamp: new Date().toLocaleTimeString()
+            });
           }
         }
 
@@ -806,7 +819,7 @@ export default function LinkBlogClean() {
               {/* Tagline - always below title */}
               <div
                 className="text-[10px] md:text-[11px] uppercase text-amber-700 mt-0.5"
-                style={{ letterSpacing: '0.2em', fontFamily: "'Inter', sans-serif" }}
+                style={{ letterSpacing: '0.2em' }}
               >
                 Human Edited & Curated
               </div>
@@ -817,7 +830,7 @@ export default function LinkBlogClean() {
           <nav className="border-t border-neutral-200">
             <div className="container-width">
               {/* Desktop Navigation */}
-              <ul className="hidden md:flex items-center justify-center py-2 text-sm text-neutral-600" style={{ fontFamily: "'Inter', sans-serif" }}>
+              <ul className="hidden md:flex items-center justify-center py-2 text-sm text-neutral-600">
                 <li>
                   <button
                     onClick={() => setIsMinimalView(!isMinimalView)}
@@ -897,7 +910,7 @@ export default function LinkBlogClean() {
 
               {/* Mobile Navigation - Horizontal scroll */}
               <div className="md:hidden overflow-x-auto scrollbar-hide">
-                <ul className="flex items-center py-2 text-sm text-neutral-600 whitespace-nowrap" style={{ fontFamily: "'Inter', sans-serif" }}>
+                <ul className="flex items-center py-2 text-sm text-neutral-600 whitespace-nowrap">
                   <li>
                     <button
                       onClick={() => setIsMinimalView(!isMinimalView)}
@@ -1010,14 +1023,14 @@ export default function LinkBlogClean() {
                 Export ({links.length})
               </button>
 
-              <label className="btn btn-sm btn-outline cursor-pointer">
+              <label className="btn btn-sm btn-outline cursor-pointer focus-within:ring-2 focus-within:ring-neutral-500 focus-within:ring-offset-2">
                 <Upload className="w-4 h-4 mr-2" />
                 Import
                 <input
                   type="file"
                   accept=".json"
                   onChange={importLinks}
-                  className="hidden"
+                  className="sr-only"
                   title="Import links from JSON file"
                 />
               </label>
@@ -1347,7 +1360,7 @@ export default function LinkBlogClean() {
                     )}
                     <button
                       onClick={editingLink ? updateLink : addLink}
-                      disabled={!newLink.url || !newLink.source}
+                      disabled={!newLink.url || !newLink.source || isSaving}
                       className="btn btn-primary"
                     >
                       {editingLink ? 'Update Link' : 'Add Link'}
@@ -1430,6 +1443,7 @@ export default function LinkBlogClean() {
               <DigestView
                 digests={digestsData.digests}
                 links={links}
+                selectedTags={selectedTags}
                 onTagClick={(tag) => {
                   setShowDigests(false);
                   setSelectedTags(prev =>
@@ -1513,21 +1527,25 @@ export default function LinkBlogClean() {
                         )}
                         {link.tags && link.tags.length > 0 && (
                           <div className="mt-3 flex flex-wrap gap-1">
-                            {link.tags.map((tag) => (
-                              <button
-                                key={tag}
-                                onClick={() => {
-                                  if (selectedTags.includes(tag)) {
-                                    setSelectedTags(selectedTags.filter(t => t !== tag));
-                                  } else {
-                                    setSelectedTags([...selectedTags, tag]);
-                                  }
-                                }}
-                                className="tag"
-                              >
-                                {tag}
-                              </button>
-                            ))}
+                            {link.tags.map((tag) => {
+                              const isTagSelected = selectedTags.includes(tag);
+                              return (
+                                <button
+                                  key={tag}
+                                  onClick={() => {
+                                    if (selectedTags.includes(tag)) {
+                                      setSelectedTags(selectedTags.filter(t => t !== tag));
+                                    } else {
+                                      setSelectedTags([...selectedTags, tag]);
+                                    }
+                                  }}
+                                  aria-pressed={isTagSelected}
+                                  className={`tag ${isTagSelected ? 'bg-neutral-900 text-white border-neutral-900' : ''}`}
+                                >
+                                  {tag}
+                                </button>
+                              );
+                            })}
                           </div>
                         )}
                         <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">

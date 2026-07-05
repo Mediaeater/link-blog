@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 
 const API_BASE = import.meta.env.DEV ? 'http://127.0.0.1:3001' : '';
 
@@ -11,6 +11,8 @@ export default function DigestPanel() {
   const [writeup, setWriteup] = useState('');
   const [copied, setCopied] = useState(false);
   const [error, setError] = useState(null);
+  const modalRef = useRef(null);
+  const previousFocusRef = useRef(null);
 
   const fetchStatus = useCallback(async () => {
     try {
@@ -36,6 +38,25 @@ export default function DigestPanel() {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     fetchStatus();
   }, [fetchStatus]);
+
+  useEffect(() => {
+    if (!showModal) return;
+
+    previousFocusRef.current = document.activeElement;
+    modalRef.current?.focus();
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setShowModal(false);
+      }
+    };
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+      previousFocusRef.current?.focus();
+    };
+  }, [showModal]);
 
   const handlePreview = async () => {
     setGenerating(true);
@@ -130,9 +151,16 @@ export default function DigestPanel() {
 
       {showModal && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] flex flex-col">
+          <div
+            ref={modalRef}
+            tabIndex={-1}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="digest-modal-title"
+            className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] flex flex-col"
+          >
             <div className="p-4 border-b flex justify-between items-center">
-              <h2 className="text-lg font-semibold">
+              <h2 id="digest-modal-title" className="text-lg font-semibold">
                 Publish Digest ({status?.undigestedCount} links, {dateRange})
               </h2>
               <button

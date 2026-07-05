@@ -16,7 +16,7 @@ function getTopTags(digestLinks, max = 5) {
     .map(([tag]) => tag);
 }
 
-export default function DigestView({ digests, links, onTagClick }) {
+export default function DigestView({ digests, links, selectedTags = [], onTagClick }) {
   // Latest digest expanded by default, older ones collapsed
   const [expandedId, setExpandedId] = useState(null);
 
@@ -154,15 +154,19 @@ export default function DigestView({ digests, links, onTagClick }) {
                         )}
                         {link.tags && link.tags.length > 0 && (
                           <div className="mt-3 flex flex-wrap gap-1">
-                            {link.tags.map(tag => (
-                              <button
-                                key={tag}
-                                onClick={() => onTagClick?.(tag)}
-                                className="tag"
-                              >
-                                {tag}
-                              </button>
-                            ))}
+                            {link.tags.map(tag => {
+                              const isTagSelected = selectedTags.includes(tag);
+                              return (
+                                <button
+                                  key={tag}
+                                  onClick={() => onTagClick?.(tag)}
+                                  aria-pressed={isTagSelected}
+                                  className={`tag ${isTagSelected ? 'bg-neutral-900 text-white border-neutral-900' : ''}`}
+                                >
+                                  {tag}
+                                </button>
+                              );
+                            })}
                           </div>
                         )}
                         <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">
