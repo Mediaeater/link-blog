@@ -138,28 +138,31 @@ export default function DigestPanel() {
               <button
                 onClick={() => setShowModal(false)}
                 className="text-gray-500 hover:text-gray-700"
+                aria-label="Close"
               >
                 ✕
               </button>
             </div>
 
             <div className="p-4 flex-1 overflow-auto">
-              <label className="block text-sm font-medium mb-2">Editorial writeup (optional):</label>
+              <label htmlFor="digest-writeup" className="block text-sm font-medium mb-2">Editorial writeup (optional):</label>
               <textarea
+                id="digest-writeup"
                 value={writeup}
                 onChange={(e) => setWriteup(e.target.value)}
                 placeholder="A short paragraph about this week's links..."
                 className="w-full h-24 p-2 text-sm border rounded mb-4"
               />
 
-              <label className="block text-sm font-medium mb-2">HTML Output:</label>
+              <label htmlFor="digest-html-output" className="block text-sm font-medium mb-2">HTML Output:</label>
               <textarea
+                id="digest-html-output"
                 readOnly
                 value={generatedHtml}
                 className="w-full h-32 p-2 font-mono text-sm border rounded"
               />
 
-              <label className="block text-sm font-medium mt-4 mb-2">Preview:</label>
+              <h3 className="block text-sm font-medium mt-4 mb-2">Preview:</h3>
               <div
                 className="p-3 border rounded bg-gray-50 prose max-w-none"
                 dangerouslySetInnerHTML={{ __html: generatedHtml }}
@@ -196,9 +199,9 @@ export default function DigestPanel() {
       )}
 
       {error && (
-        <div className="fixed bottom-4 right-4 bg-red-700 text-white px-4 py-2 rounded shadow-lg">
+        <div className="fixed bottom-4 right-4 bg-red-700 text-white px-4 py-2 rounded shadow-lg" role="alert">
           {error}
-          <button onClick={() => setError(null)} className="ml-2">✕</button>
+          <button onClick={() => setError(null)} className="ml-2" aria-label="Dismiss error">✕</button>
         </div>
       )}
     </>

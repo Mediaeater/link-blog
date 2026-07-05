@@ -702,7 +702,7 @@ export default function LinkBlogClean() {
     <div className="min-h-screen bg-neutral-50">
       {/* Save Error Banner */}
       {saveError && (
-        <div className="sticky top-0 z-50 bg-red-600 text-white px-4 py-3 shadow-lg">
+        <div className="sticky top-0 z-50 bg-red-600 text-white px-4 py-3 shadow-lg" role="alert">
           <div className="container-width flex items-center justify-between">
             <div className="flex items-center gap-3">
               <AlertTriangle className="w-5 h-5 flex-shrink-0" />
@@ -717,6 +717,7 @@ export default function LinkBlogClean() {
                 onClick={() => setSaveError(null)}
                 className="p-1 hover:bg-red-700 rounded"
                 title="Dismiss"
+                aria-label="Dismiss"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -727,7 +728,7 @@ export default function LinkBlogClean() {
 
       {/* Data Warning Banner */}
       {dataWarning && (
-        <div className="sticky top-0 z-50 bg-amber-500 text-amber-950 px-4 py-3 shadow-lg">
+        <div className="sticky top-0 z-50 bg-amber-500 text-amber-950 px-4 py-3 shadow-lg" role="alert">
           <div className="container-width flex items-center justify-between">
             <div className="flex items-center gap-3">
               <AlertTriangle className="w-5 h-5 flex-shrink-0" />
@@ -746,6 +747,7 @@ export default function LinkBlogClean() {
                 onClick={() => setDataWarning(null)}
                 className="p-1 hover:bg-amber-600 rounded"
                 title="Dismiss"
+                aria-label="Dismiss"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -820,7 +822,8 @@ export default function LinkBlogClean() {
                   <button
                     onClick={() => setIsMinimalView(!isMinimalView)}
                     className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
-                    title={isMinimalView ? "Show full view" : "Show minimal view"}
+                    title={isMinimalView ? 'Show full view' : 'Show minimal view'}
+                    aria-label={isMinimalView ? 'Show full view' : 'Show minimal view'}
                   >
                     {filteredAndSortedLinks.length}:{links.length}
                   </button>
@@ -899,6 +902,8 @@ export default function LinkBlogClean() {
                     <button
                       onClick={() => setIsMinimalView(!isMinimalView)}
                       className="px-3 hover:text-neutral-900 transition-colors"
+                      title={isMinimalView ? 'Show full view' : 'Show minimal view'}
+                      aria-label={isMinimalView ? 'Show full view' : 'Show minimal view'}
                     >
                       {filteredAndSortedLinks.length}:{links.length}
                     </button>
@@ -1025,8 +1030,9 @@ export default function LinkBlogClean() {
               <div className="space-y-4">
                 <div className="grid gap-4 md:grid-cols-2">
                   <div>
-                    <label className="block text-sm font-medium mb-1">URL</label>
+                    <label htmlFor="link-url" className="block text-sm font-medium mb-1">URL</label>
                     <input
+                      id="link-url"
                       type="url"
                       placeholder="https://example.com"
                       value={newLink.url}
@@ -1036,10 +1042,11 @@ export default function LinkBlogClean() {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-medium mb-1">
+                    <label htmlFor="link-title" className="block text-sm font-medium mb-1">
                       Title ({newLink.source.length}/{MAX_TITLE_LENGTH})
                     </label>
                     <input
+                      id="link-title"
                       type="text"
                       placeholder="Link title or description"
                       value={newLink.source}
@@ -1073,10 +1080,11 @@ export default function LinkBlogClean() {
                 )}
 
                 <div>
-                  <label className="block text-sm font-medium mb-1">
+                  <label htmlFor="link-pull-quote" className="block text-sm font-medium mb-1">
                     Pull Quote (optional)
                   </label>
                   <textarea
+                    id="link-pull-quote"
                     placeholder="Interesting quote or note about this link..."
                     value={newLink.pullQuote || ''}
                     onChange={(e) => setNewLink({ ...newLink, pullQuote: e.target.value })}
@@ -1085,7 +1093,7 @@ export default function LinkBlogClean() {
                 </div>
 
                 <div className="relative">
-                  <label className="block text-sm font-medium mb-1">
+                  <label htmlFor="link-tags" className="block text-sm font-medium mb-1">
                     Tags <span className="text-neutral-400 font-normal">(Tab to add suggestion)</span>
                   </label>
 
@@ -1118,6 +1126,7 @@ export default function LinkBlogClean() {
 
                   {/* Tag input */}
                   <input
+                    id="link-tags"
                     ref={tagInputRef}
                     type="text"
                     placeholder={newLink.tags?.length ? "Add another tag..." : "Type to add tags..."}
@@ -1352,10 +1361,11 @@ export default function LinkBlogClean() {
             {showQuickAdd && (
               <div className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium mb-2">
+                  <label htmlFor="bulk-add-urls" className="block text-sm font-medium mb-2">
                     Add Multiple URLs (one per line)
                   </label>
                   <textarea
+                    id="bulk-add-urls"
                     ref={quickPasteRef}
                     value={quickAddUrls}
                     onChange={(e) => setQuickAddUrls(e.target.value)}
@@ -1528,7 +1538,7 @@ export default function LinkBlogClean() {
                         </div>
                       </div>
                       <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity">
-                        <button onClick={() => copyLink(link)} className="btn-ghost p-2" title="Copy link">
+                        <button onClick={() => copyLink(link)} className="btn-ghost p-2" title="Copy link" aria-label="Copy link">
                           {copiedLinkId === link.id ? (
                             <Check className="w-4 h-4 text-success" />
                           ) : (
@@ -1537,13 +1547,18 @@ export default function LinkBlogClean() {
                         </button>
                         {isAdmin && (
                           <>
-                            <button onClick={() => editLink(link)} className="btn-ghost p-2" title="Edit link">
+                            <button onClick={() => editLink(link)} className="btn-ghost p-2" title="Edit link" aria-label="Edit link">
                               <Edit2 className="w-4 h-4" />
                             </button>
-                            <button onClick={() => togglePin(link.id)} className="btn-ghost p-2" title="Pin link">
+                            <button
+                              onClick={() => togglePin(link.id)}
+                              className="btn-ghost p-2"
+                              title={link.isPinned ? 'Unpin link' : 'Pin link'}
+                              aria-label={link.isPinned ? 'Unpin link' : 'Pin link'}
+                            >
                               <Pin className={`w-4 h-4 ${link.isPinned ? 'fill-current' : ''}`} />
                             </button>
-                            <button onClick={() => deleteLink(link.id)} className="btn-ghost p-2 text-error" title="Delete link">
+                            <button onClick={() => deleteLink(link.id)} className="btn-ghost p-2 text-error" title="Delete link" aria-label="Delete link">
                               <Trash2 className="w-4 h-4" />
                             </button>
                           </>

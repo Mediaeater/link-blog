@@ -176,6 +176,7 @@ export default function DigestView({ digests, links, onTagClick }) {
                           rel="noopener noreferrer"
                           className="btn-ghost p-2"
                           title="Open link"
+                          aria-label="Open link"
                         >
                           <ExternalLink className="w-4 h-4" />
                         </a>
