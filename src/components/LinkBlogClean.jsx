@@ -1539,7 +1539,7 @@ export default function LinkBlogClean() {
                                     }
                                   }}
                                   aria-pressed={isTagSelected}
-                                  className={`tag ${isTagSelected ? 'bg-neutral-900 text-white border-neutral-900' : ''}`}
+                                  className={`tag ${isTagSelected ? 'tag-selected' : ''}`}
                                 >
                                   {tag}
                                 </button>

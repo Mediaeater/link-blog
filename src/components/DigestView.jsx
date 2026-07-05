@@ -161,7 +161,7 @@ export default function DigestView({ digests, links, selectedTags = [], onTagCli
                                   key={tag}
                                   onClick={() => onTagClick?.(tag)}
                                   aria-pressed={isTagSelected}
-                                  className={`tag ${isTagSelected ? 'bg-neutral-900 text-white border-neutral-900' : ''}`}
+                                  className={`tag ${isTagSelected ? 'tag-selected' : ''}`}
                                 >
                                   {tag}
                                 </button>

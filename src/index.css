@@ -271,6 +271,11 @@ body {
     font-size: var(--text-xs);
   }
 
+  /* Active filter state — must follow .tag to win the cascade */
+  .tag-selected {
+    @apply bg-neutral-900 text-white border-neutral-900 hover:bg-neutral-800 hover:border-neutral-800 hover:text-white;
+  }
+
   /* Link card styles (spacious and elegant) */
   .link-card {
     @apply block rounded-lg border-b border-neutral-200 py-6 transition-all duration-[180ms];
