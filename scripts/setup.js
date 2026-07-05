@@ -68,7 +68,6 @@ async function installDependencies() {
 
 async function setupEnvFile() {
   const envPath = path.join(projectRoot, '.env');
-  const envExamplePath = path.join(projectRoot, '.env.example');
 
   log('\n🔐 Setting up environment file...', 'blue');
 

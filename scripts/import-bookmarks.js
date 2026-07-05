@@ -203,7 +203,6 @@ export function importFilteredBookmarks(html, selectedFolders, options = {}) {
   const parsed = parseBookmarkHTML(html);
   const {
     excludePrivateUrls = true,
-    mergeDuplicates = true,
     maxBatchSize = 1000
   } = options;
   

@@ -13,7 +13,7 @@
     "build": "vite build",
     "build:single": "vite build --mode singlefile",
     "preview": "vite preview",
-    "lint": "eslint ./src",
+    "lint": "eslint .",
     "format": "prettier --write .",
     "test": "vitest",
     "serve": "serve -s dist",

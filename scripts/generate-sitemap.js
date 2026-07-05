@@ -25,38 +25,6 @@ const CONFIG = {
 };
 
 /**
- * Priority calculation based on visit count and recency
- * Maps visits to priority values (0.0-1.0)
- */
-function calculatePriority(visits, timestamp) {
-  const daysSincePost = (Date.now() - new Date(timestamp).getTime()) / (1000 * 60 * 60 * 24);
-
-  // Boost priority for recent posts (within 7 days)
-  const recencyBoost = daysSincePost < 7 ? 0.1 : 0;
-
-  let basePriority = 0.5;
-  if (visits === 0) basePriority = 0.5;
-  else if (visits < 5) basePriority = 0.6;
-  else if (visits < 10) basePriority = 0.7;
-  else if (visits < 25) basePriority = 0.8;
-  else basePriority = 0.9;
-
-  return Math.min(1.0, basePriority + recencyBoost).toFixed(1);
-}
-
-/**
- * Change frequency based on visit patterns
- * More visited = more frequent changes possible
- */
-function getChangeFrequency(visits) {
-  if (visits === 0) return 'weekly';
-  if (visits < 5) return 'weekly';
-  if (visits < 10) return 'weekly';
-  if (visits < 25) return 'weekly';
-  return 'weekly'; // All set to weekly as default
-}
-
-/**
  * Format ISO timestamp to W3C datetime format
  * Example: 2025-10-18T14:54:00Z
  */
