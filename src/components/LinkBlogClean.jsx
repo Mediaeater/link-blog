@@ -41,7 +41,6 @@ export default function LinkBlogClean() {
   const [isLoading, setIsLoading] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [copiedLinkId, setCopiedLinkId] = useState(null);
-  const [focusedLinkIndex] = useState(-1);
   const [showAutocomplete, setShowAutocomplete] = useState(false);
   const [currentTagInput, setCurrentTagInput] = useState('');
   const [autocompleteIndex, setAutocompleteIndex] = useState(-1);
@@ -1472,7 +1471,7 @@ export default function LinkBlogClean() {
                   )}
                   <article
                     ref={(el) => linkRefs.current[index] = el}
-                    className={`link-card group ${focusedLinkIndex === index ? 'ring-2 ring-primary-500 ring-offset-2' : ''}`}
+                    className="link-card group"
                   >
                     <div className="flex gap-4">
                       <div className="flex-1 min-w-0">

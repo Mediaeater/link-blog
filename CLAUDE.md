@@ -18,8 +18,6 @@
   - Real-time search and filtering
   - Tag-based filtering with multi-select
   - Sorting options (date, alphabetical)
-  - Keyboard navigation (J/K for up/down, Cmd+K for search)
-  - Dark/Light theme toggle
   - Pinned links feature
   - Visit counter for links
   - Expanded/collapsed link details view
@@ -308,7 +306,7 @@ otherwise stranded in localStorage):
 5. **Import system is privacy-focused**: Whitelist approach is intentional
 6. **All UI components exist**: Check `src/components/ui/` before creating new ones
 7. **Tag suggestions are intelligent**: Algorithm in `tagSuggestions.js`
-8. **Keyboard shortcuts work**: J/K navigation, Cmd+K search, etc.
+8. **No dark mode by design**: the site is light-only (removed 2026-07-05); don't add `dark:` classes
 
 ### 📊 Current Data Statistics
 
@@ -321,6 +319,7 @@ otherwise stranded in localStorage):
 ### 🚀 Next Potential Improvements
 
 These are suggestions only - do not implement unless specifically requested:
+- Keyboard navigation (J/K link traversal, Cmd+K search focus) — documented here historically but never implemented
 - TypeScript migration for type safety
 - Unit tests with Vitest
 - Performance monitoring
