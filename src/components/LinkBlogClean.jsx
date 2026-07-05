@@ -1527,7 +1527,7 @@ export default function LinkBlogClean() {
                           </span>
                         </div>
                       </div>
-                      <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity">
                         <button onClick={() => copyLink(link)} className="btn-ghost p-2" title="Copy link">
                           {copiedLinkId === link.id ? (
                             <Check className="w-4 h-4 text-success" />

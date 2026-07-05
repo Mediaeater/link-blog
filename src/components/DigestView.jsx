@@ -169,7 +169,7 @@ export default function DigestView({ digests, links, onTagClick }) {
                           <span>{new Date(link.timestamp).toLocaleDateString()}</span>
                         </div>
                       </div>
-                      <div className="flex items-center opacity-0 group-hover:opacity-100 transition-opacity">
+                      <div className="flex items-center opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity">
                         <a
                           href={link.url}
                           target="_blank"
