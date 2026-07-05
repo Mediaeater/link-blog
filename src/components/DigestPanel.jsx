@@ -114,13 +114,13 @@ export default function DigestPanel() {
           className={`px-3 py-1.5 rounded text-sm font-medium flex items-center gap-2 ${
             status?.undigestedCount > 0
               ? 'bg-amber-500 hover:bg-amber-600 text-white'
-              : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
           } disabled:opacity-50 disabled:cursor-not-allowed`}
         >
           {generating ? 'Working...' : 'Digest'}
           {status && (
             <span className={`px-1.5 py-0.5 rounded text-xs ${
-              status.undigestedCount > 0 ? 'bg-amber-600' : 'bg-gray-400 dark:bg-gray-600'
+              status.undigestedCount > 0 ? 'bg-amber-600' : 'bg-gray-400'
             }`}>
               {status.undigestedCount}
             </span>
@@ -130,14 +130,14 @@ export default function DigestPanel() {
 
       {showModal && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] flex flex-col">
-            <div className="p-4 border-b dark:border-gray-700 flex justify-between items-center">
+          <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] flex flex-col">
+            <div className="p-4 border-b flex justify-between items-center">
               <h2 className="text-lg font-semibold">
                 Publish Digest ({status?.undigestedCount} links, {dateRange})
               </h2>
               <button
                 onClick={() => setShowModal(false)}
-                className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300"
+                className="text-gray-500 hover:text-gray-700"
               >
                 ✕
               </button>
@@ -149,27 +149,27 @@ export default function DigestPanel() {
                 value={writeup}
                 onChange={(e) => setWriteup(e.target.value)}
                 placeholder="A short paragraph about this week's links..."
-                className="w-full h-24 p-2 text-sm border rounded dark:bg-gray-900 dark:border-gray-600 mb-4"
+                className="w-full h-24 p-2 text-sm border rounded mb-4"
               />
 
               <label className="block text-sm font-medium mb-2">HTML Output:</label>
               <textarea
                 readOnly
                 value={generatedHtml}
-                className="w-full h-32 p-2 font-mono text-sm border rounded dark:bg-gray-900 dark:border-gray-600"
+                className="w-full h-32 p-2 font-mono text-sm border rounded"
               />
 
               <label className="block text-sm font-medium mt-4 mb-2">Preview:</label>
               <div
-                className="p-3 border rounded bg-gray-50 dark:bg-gray-900 dark:border-gray-600 prose dark:prose-invert max-w-none"
+                className="p-3 border rounded bg-gray-50 prose max-w-none"
                 dangerouslySetInnerHTML={{ __html: generatedHtml }}
               />
             </div>
 
-            <div className="p-4 border-t dark:border-gray-700 flex gap-2 justify-end">
+            <div className="p-4 border-t flex gap-2 justify-end">
               <button
                 onClick={() => setShowModal(false)}
-                className="px-4 py-2 rounded border dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="px-4 py-2 rounded border hover:bg-gray-100"
               >
                 Cancel
               </button>

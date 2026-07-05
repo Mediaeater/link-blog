@@ -156,10 +156,10 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
     );
     
     return (
-      <div key={path} className="border-l-2 border-gray-200 dark:border-gray-700 ml-2">
+      <div key={path} className="border-l-2 border-gray-200 ml-2">
         <div className={`
-          flex items-center gap-2 p-2 hover:bg-gray-50 dark:hover:bg-gray-800 rounded
-          ${isSelected ? 'bg-blue-50 dark:bg-blue-900/20' : ''}
+          flex items-center gap-2 p-2 hover:bg-gray-50 rounded
+          ${isSelected ? 'bg-blue-50' : ''}
         `}>
           {hasSubfolders && (
             <button
@@ -235,7 +235,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
 
         <CardContent className="p-6 overflow-y-auto max-h-[calc(90vh-200px)]">
           {error && (
-            <div className="mb-4 p-3 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400 rounded-lg flex items-center gap-2">
+            <div className="mb-4 p-3 bg-red-50 text-red-700 rounded-lg flex items-center gap-2">
               <AlertTriangle className="w-4 h-4" />
               {error}
             </div>
@@ -244,10 +244,10 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
           {/* Upload Stage */}
           {stage === 'upload' && (
             <div className="space-y-4">
-              <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-8 text-center">
+              <div className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center">
                 <FileText className="w-12 h-12 mx-auto mb-4 text-gray-400" />
                 <h3 className="font-medium mb-2">Upload Bookmark File</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                <p className="text-sm text-gray-600 mb-4">
                   Export bookmarks from your browser as HTML and upload here
                 </p>
                 <input
@@ -264,12 +264,12 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
                 </label>
               </div>
               
-              <div className="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-lg">
+              <div className="bg-blue-50 p-4 rounded-lg">
                 <h4 className="font-medium mb-2 flex items-center gap-2">
                   <Info className="w-4 h-4" />
                   How to export bookmarks
                 </h4>
-                <ul className="text-sm space-y-1 text-gray-700 dark:text-gray-300">
+                <ul className="text-sm space-y-1 text-gray-700">
                   <li>• <strong>Chrome/Edge:</strong> Bookmarks → Bookmark Manager → ⋮ → Export bookmarks</li>
                   <li>• <strong>Firefox:</strong> Bookmarks → Show All Bookmarks → Import and Backup → Export Bookmarks to HTML</li>
                   <li>• <strong>Safari:</strong> File → Export → Bookmarks</li>
@@ -281,7 +281,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
           {/* Preview Stage */}
           {stage === 'preview' && preview && (
             <div className="space-y-4">
-              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+              <div className="bg-gray-50 p-4 rounded-lg">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-medium">Select Folders to Import</h3>
                   <div className="flex gap-2">
@@ -301,16 +301,16 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
                     </Button>
                   </div>
                 </div>
-                <p className="text-sm text-gray-600 dark:text-gray-400">
+                <p className="text-sm text-gray-600">
                   Choose which folders to import. Folders with public content are pre-selected.
                 </p>
               </div>
 
               {preview.warningFolders.length > 0 && (
-                <div className="bg-yellow-50 dark:bg-yellow-900/20 p-3 rounded-lg">
+                <div className="bg-yellow-50 p-3 rounded-lg">
                   <button
                     onClick={() => setShowWarnings(!showWarnings)}
-                    className="flex items-center gap-2 text-sm font-medium text-yellow-700 dark:text-yellow-400"
+                    className="flex items-center gap-2 text-sm font-medium text-yellow-700"
                   >
                     <FileWarning className="w-4 h-4" />
                     {preview.warningFolders.length} folders contain private URLs
@@ -334,7 +334,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
                   .map(([path, folder]) => renderFolderItem(path, folder))}
               </div>
 
-              <div className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+              <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                 <div className="text-sm">
                   <span className="font-medium">{getSelectedCount()}</span> links selected from{' '}
                   <span className="font-medium">{selectedFolders.size}</span> folders
@@ -360,7 +360,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
             <div className="text-center py-12">
               <Package className="w-12 h-12 mx-auto mb-4 text-blue-500 animate-pulse" />
               <h3 className="font-medium mb-2">Importing Bookmarks...</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600">
                 Processing {getSelectedCount()} links from {selectedFolders.size} folders
               </p>
             </div>
@@ -378,7 +378,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
                     <span><strong>{importStats.duplicates}</strong> duplicates merged</span>
                   )}
                 </div>
-                <div className="text-gray-600 dark:text-gray-400">
+                <div className="text-gray-600">
                   From {importStats.folders} folders
                 </div>
               </div>

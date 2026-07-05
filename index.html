@@ -7,8 +7,7 @@
   <meta name="author" content="Mediaeater">
   <meta name="keywords" content="media criticism, technology, AI, copyright, digital culture, link blog, curation, commentary">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#1a202c" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://newsfeeds.net/">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   <link rel="alternate" type="application/rss+xml" title="newsfeeds.net RSS Feed" href="/feed.xml">
@@ -95,15 +94,6 @@
     if (location.protocol === 'http:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
       location.replace('https:' + window.location.href.substring(window.location.protocol.length));
     }
-
-    // Early theme detection to prevent flash
-    (function() {
-      const theme = localStorage.getItem('theme') ||
-                    (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      if (theme === 'dark') {
-        document.documentElement.classList.add('dark');
-      }
-    })();
   </script>
 <!-- ITEMLIST_START -->
 <script type="application/ld+json">
