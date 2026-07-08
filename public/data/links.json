@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1783522022413,
+      "url": "https://fnl.mit.edu/lament-for-the-mit-libraries/",
+      "source": "Lament for the MIT Libraries",
+      "pullQuote": "For universities across time, the library was the heart, research center, and substance of knowledge… When texts are accessed solely by digitized means, the learner is cut off from the process.",
+      "tags": [
+        "library",
+        "education",
+        "knowledge",
+        "books"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-08T14:47:02.413Z",
+      "visits": 0
+    },
+    {
       "id": 1783197563022,
       "url": "https://www.youtube.com/watch?v=0XMg1CWcLR4",
       "source": "Penser le Présent avec Wolfgang Tillmans",
@@ -8324,5 +8339,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-04T20:39:23.022Z"
+  "lastUpdated": "2026-07-08T14:47:02.413Z"
 }

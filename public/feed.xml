@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 04 Jul 2026 20:39:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 14:47:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Lament for the MIT Libraries]]></title>
+            <link>https://fnl.mit.edu/lament-for-the-mit-libraries/</link>
+            <guid>1783522022413</guid>
+            <pubDate>Wed, 08 Jul 2026 14:47:02 GMT</pubDate>
+            <description><![CDATA[Tags: library, education, knowledge, books]]></description>
+        </item>
         <item>
             <title><![CDATA[Penser le Présent avec Wolfgang Tillmans]]></title>
             <link>https://www.youtube.com/watch?v=0XMg1CWcLR4</link>
