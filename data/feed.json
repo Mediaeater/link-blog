@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1783567469837",
+      "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
+      "title": "The End of Reading Is Here",
+      "date_published": "2026-07-09T03:24:29.837Z",
+      "tags": [
+        "books",
+        "culture",
+        "society",
+        "education"
+      ],
+      "content_text": "Some 2,000 years later, under very different circumstances, the darkness is gathering again. Americans, once members of a proudly literate society, read much less than they used to. The decline in reading cuts across age groups, gender, and education levels.",
+      "summary": "Some 2,000 years later, under very different circumstances, the darkness is gathering again. Americans, once members of a proudly literate society, re...",
+      "content_html": "<blockquote>Some 2,000 years later, under very different circumstances, the darkness is gathering again. Americans, once members of a proudly literate society, read much less than they used to. The decline in reading cuts across age groups, gender, and education levels.</blockquote>\n<p><strong>Tags:</strong> books, culture, society, education</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1783522022413",
       "url": "https://fnl.mit.edu/lament-for-the-mit-libraries/",
       "title": "Lament for the MIT Libraries",
