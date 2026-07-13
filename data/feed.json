@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1783946329367",
+      "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
+      "title": "Meta pulls new AI image feature after days of backlash",
+      "date_published": "2026-07-13T12:38:49.367Z",
+      "tags": [
+        "ai",
+        "meta",
+        "privacy",
+        "harms"
+      ],
+      "content_text": "Muse Image was the tech firm's first foray into AI image generation but faced backlash as Instagram users were opted in by default. It meant that anyone with a public account could have their likeness used without their knowledge or permission.",
+      "summary": "Muse Image was the tech firm's first foray into AI image generation but faced backlash as Instagram users were opted in by default. It meant that anyo...",
+      "content_html": "<blockquote>Muse Image was the tech firm&#039;s first foray into AI image generation but faced backlash as Instagram users were opted in by default. It meant that anyone with a public account could have their likeness used without their knowledge or permission.</blockquote>\n<p><strong>Tags:</strong> ai, meta, privacy, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1783941976335",
       "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
       "title": "The Graph That Should Be Front-Page News",
