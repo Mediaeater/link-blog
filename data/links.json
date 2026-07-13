@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1783904326198,
+      "url": "https://github.com/pashov/skills",
+      "source": "Pashov Audit Group Skills",
+      "pullQuote": "AI-powered Solidity security skills — built by Pashov Audit Group. Solidity AI security audit - hundreds of Critical/High vulnerabilities found. Pre-audit scan with threat model, invariants, entry points, and git analysis.",
+      "tags": [
+        "security",
+        "ai",
+        "agents",
+        "audit",
+        "solidity"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-13T00:58:46.198Z",
+      "visits": 0
+    },
+    {
       "id": 1783567469837,
       "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
       "source": "The End of Reading Is Here",
@@ -8354,5 +8370,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-09T03:24:29.837Z"
+  "lastUpdated": "2026-07-13T00:58:46.198Z"
 }
