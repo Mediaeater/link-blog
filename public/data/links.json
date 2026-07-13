@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1783906681087,
+      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "source": "The 'Father of the Internet' is finally retiring",
+      "pullQuote": "Vinton Cerf will step down from his role as Google's chief internet evangelist next week, marking the conclusion of one of the most influential careers in technology history. Cerf, 83, and collaborator Robert Kahn are credited as being the architects of the networking protocols that became the internet we know today. His work developing and popularizing TCP/IP — the basic set of rules that lets different computer networks talk to each other — beginning in the 1970s has been recognized with numerous honorary degrees, the Presidential Medal of Freedom, and a Turing Award, among other honors.",
+      "tags": [
+        "internet",
+        "google",
+        "networks",
+        "protocol"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-13T01:38:01.087Z",
+      "visits": 0
+    },
+    {
       "id": 1783904326198,
       "url": "https://github.com/pashov/skills",
       "source": "Pashov Audit Group Skills",
@@ -8370,5 +8385,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-13T00:58:46.198Z"
+  "lastUpdated": "2026-07-13T01:38:01.087Z"
 }
