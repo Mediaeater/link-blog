@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 09 Jul 2026 03:24:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jul 2026 00:58:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Pashov Audit Group Skills]]></title>
+            <link>https://github.com/pashov/skills</link>
+            <guid>1783904326198</guid>
+            <pubDate>Mon, 13 Jul 2026 00:58:46 GMT</pubDate>
+            <description><![CDATA[Tags: security, ai, agents, audit, solidity]]></description>
+        </item>
         <item>
             <title><![CDATA[The End of Reading Is Here]]></title>
             <link>https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/</link>

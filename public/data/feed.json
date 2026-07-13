@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1783904326198",
+      "url": "https://github.com/pashov/skills",
+      "title": "Pashov Audit Group Skills",
+      "date_published": "2026-07-13T00:58:46.198Z",
+      "tags": [
+        "security",
+        "ai",
+        "agents",
+        "audit",
+        "solidity"
+      ],
+      "content_text": "AI-powered Solidity security skills — built by Pashov Audit Group. Solidity AI security audit - hundreds of Critical/High vulnerabilities found. Pre-audit scan with threat model, invariants, entry points, and git analysis.",
+      "summary": "AI-powered Solidity security skills — built by Pashov Audit Group. Solidity AI security audit - hundreds of Critical/High vulnerabilities found. Pre-a...",
+      "content_html": "<blockquote>AI-powered Solidity security skills — built by Pashov Audit Group. Solidity AI security audit - hundreds of Critical/High vulnerabilities found. Pre-audit scan with threat model, invariants, entry points, and git analysis.</blockquote>\n<p><strong>Tags:</strong> security, ai, agents, audit, solidity</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1783567469837",
       "url": "https://www.theatlantic.com/magazine/2026/08/reading-crisis-postliterate-age/687618/",
       "title": "The End of Reading Is Here",
