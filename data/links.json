@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1783941976335,
+      "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
+      "source": "The Graph That Should Be Front-Page News",
+      "pullQuote": "It doesn't just set a new record. It has departed entirely from the range of previous observations. … The tropical Pacific is thus no longer oscillating around a climate that existed a century ago. It's oscillating around a much warmer baseline.",
+      "tags": [
+        "environment",
+        "science",
+        "climate",
+        "media"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-13T11:26:16.335Z",
+      "visits": 0
+    },
+    {
       "id": 1783906681087,
       "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
       "source": "The 'Father of the Internet' is finally retiring",
@@ -8385,5 +8400,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-13T01:38:01.087Z"
+  "lastUpdated": "2026-07-13T11:26:16.335Z"
 }
