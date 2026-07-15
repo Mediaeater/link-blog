@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784115921502,
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/15/openai-hides-codex-agent-instructions-behind-encryption-leaving-developers-in-the-dark/5271484",
+      "source": "OpenAI hides Codex agent instructions behind encryption, leaving developers in the dark",
+      "pullQuote": "The encrypted delivery path is understandable as privacy hardening, but it also removes the human-readable task/message text from local rollout history, trace reduction, and parent-side audit/debug surfaces. ... Guys, we don't want to build Skynet and then be unable to audit what it's doing.",
+      "tags": [
+        "ai",
+        "openai",
+        "agents",
+        "encryption",
+        "audit"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-15T11:45:21.502Z",
+      "visits": 0
+    },
+    {
       "id": 1784110967597,
       "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
       "source": "The Tower Keeps Rising",
@@ -8446,5 +8462,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-15T10:22:47.635Z"
+  "lastUpdated": "2026-07-15T11:45:21.502Z"
 }
