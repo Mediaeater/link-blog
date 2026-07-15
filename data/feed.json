@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784122847342",
+      "url": "https://www.originhq.com/research/the-mole-in-the-model",
+      "title": "The Mole in the Model - You've Hired an Adversary",
+      "date_published": "2026-07-15T13:40:47.342Z",
+      "tags": [
+        "ai",
+        "security",
+        "agents",
+        "open-source",
+        "trust"
+      ],
+      "content_text": "A trusted inference provider doesn't save you: the provider is faithfully, dutifully running a model that is itself disloyal. Local deployment doesn't save you either, same reason. So here's the sad truth: an agent built on weights you didn't train and can't read is a person you hired, handed your data and your tools, and have no way to background-check. It's the insider-threat problem, except this insider runs at clock speed and never goes home.",
+      "summary": "A trusted inference provider doesn't save you: the provider is faithfully, dutifully running a model that is itself disloyal. Local deployment doesn't...",
+      "content_html": "<blockquote>A trusted inference provider doesn&#039;t save you: the provider is faithfully, dutifully running a model that is itself disloyal. Local deployment doesn&#039;t save you either, same reason. So here&#039;s the sad truth: an agent built on weights you didn&#039;t train and can&#039;t read is a person you hired, handed your data and your tools, and have no way to background-check. It&#039;s the insider-threat problem, except this insider runs at clock speed and never goes home.</blockquote>\n<p><strong>Tags:</strong> ai, security, agents, open-source, trust</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784118163672",
       "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
       "title": "AI, Surveillance, and Social Progress",
