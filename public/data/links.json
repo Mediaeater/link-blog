@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784136357911,
+      "url": "https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/",
+      "source": "Meta used AI to target workers with medical conditions for layoffs, lawsuit claims",
+      "pullQuote": "According to the complaint, Meta used a number of internal AI-assisted systems to score and rank employees on a termination list. Those included “Metamate,” a large language model assistant; an employee-trained “second brain” that tracked workers’ communications and documents; and a productivity score drawn from scanning keystrokes, screen content, emails and browser history, according to the lawsuit.",
+      "tags": [
+        "ai",
+        "meta",
+        "workforce",
+        "legal",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-15T17:25:57.911Z",
+      "visits": 0
+    },
+    {
       "id": 1784123851090,
       "url": "https://www.thenewatlantis.com/publications/byung-chul-han-what-happened-to-freedom",
       "source": "Why Is Digital Freedom Making Us Exhausted and Sad?",
@@ -8526,5 +8542,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-15T13:57:31.090Z"
+  "lastUpdated": "2026-07-15T17:25:57.911Z"
 }

@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784136357911",
+      "url": "https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/",
+      "title": "Meta used AI to target workers with medical conditions for layoffs, lawsuit claims",
+      "date_published": "2026-07-15T17:25:57.911Z",
+      "tags": [
+        "ai",
+        "meta",
+        "workforce",
+        "legal",
+        "harms"
+      ],
+      "content_text": "According to the complaint, Meta used a number of internal AI-assisted systems to score and rank employees on a termination list. Those included “Metamate,” a large language model assistant; an employee-trained “second brain” that tracked workers’ communications and documents; and a productivity score drawn from scanning keystrokes, screen content, emails and browser history, according to the lawsuit.",
+      "summary": "According to the complaint, Meta used a number of internal AI-assisted systems to score and rank employees on a termination list. Those included “Meta...",
+      "content_html": "<blockquote>According to the complaint, Meta used a number of internal AI-assisted systems to score and rank employees on a termination list. Those included “Metamate,” a large language model assistant; an employee-trained “second brain” that tracked workers’ communications and documents; and a productivity score drawn from scanning keystrokes, screen content, emails and browser history, according to the lawsuit.</blockquote>\n<p><strong>Tags:</strong> ai, meta, workforce, legal, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784123851090",
       "url": "https://www.thenewatlantis.com/publications/byung-chul-han-what-happened-to-freedom",
       "title": "Why Is Digital Freedom Making Us Exhausted and Sad?",
