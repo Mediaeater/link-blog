@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 15 Jul 2026 10:21:05 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jul 2026 10:22:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Tower Keeps Rising]]></title>
+            <link>https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</link>
+            <guid>1784110967597</guid>
+            <pubDate>Wed, 15 Jul 2026 10:22:47 GMT</pubDate>
+            <description><![CDATA[Tags: vibecoding, language, abstraction, understanding]]></description>
+        </item>
         <item>
             <title><![CDATA[Simulating everything, sort of: The promise and limits of world models]]></title>
             <link>https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/</link>

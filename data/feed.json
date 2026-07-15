@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1784110967597",
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "title": "The Tower Keeps Rising",
+      "date_published": "2026-07-15T10:22:47.597Z",
+      "tags": [
+        "vibecoding",
+        "language",
+        "abstraction",
+        "understanding"
+      ],
+      "content_text": "When I look at some vibecoded scaled-up projects the codebases become Babel not because nobody can communicate, but because nobody needs to. Every developer has a tireless translator that can explain a corner of the tower and make whatever local alteration they ask of it. The changes keep landing, even as the architectural language that would let the humans reason about them together disappears.\n\nBut it’s not the biblical story. At Babel, the loss of common language stops construction whereas in AI-assisted engineering, construction can continue after shared understanding has already collapsed. The lack of an immediate failure is what makes it curious and a bit disorienting. The tower does not fall, and so we do not notice what was lost. It just keeps rising.",
+      "summary": "When I look at some vibecoded scaled-up projects the codebases become Babel not because nobody can communicate, but because nobody needs to. Every dev...",
+      "content_html": "<blockquote>When I look at some vibecoded scaled-up projects the codebases become Babel not because nobody can communicate, but because nobody needs to. Every developer has a tireless translator that can explain a corner of the tower and make whatever local alteration they ask of it. The changes keep landing, even as the architectural language that would let the humans reason about them together disappears.\n\nBut it’s not the biblical story. At Babel, the loss of common language stops construction whereas in AI-assisted engineering, construction can continue after shared understanding has already collapsed. The lack of an immediate failure is what makes it curious and a bit disorienting. The tower does not fall, and so we do not notice what was lost. It just keeps rising.</blockquote>\n<p><strong>Tags:</strong> vibecoding, language, abstraction, understanding</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784110865479",
       "url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
       "title": "Simulating everything, sort of: The promise and limits of world models",
