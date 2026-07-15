@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784115921502",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/15/openai-hides-codex-agent-instructions-behind-encryption-leaving-developers-in-the-dark/5271484",
+      "title": "OpenAI hides Codex agent instructions behind encryption, leaving developers in the dark",
+      "date_published": "2026-07-15T11:45:21.502Z",
+      "tags": [
+        "ai",
+        "openai",
+        "agents",
+        "encryption",
+        "audit"
+      ],
+      "content_text": "The encrypted delivery path is understandable as privacy hardening, but it also removes the human-readable task/message text from local rollout history, trace reduction, and parent-side audit/debug surfaces. ... Guys, we don't want to build Skynet and then be unable to audit what it's doing.",
+      "summary": "The encrypted delivery path is understandable as privacy hardening, but it also removes the human-readable task/message text from local rollout histor...",
+      "content_html": "<blockquote>The encrypted delivery path is understandable as privacy hardening, but it also removes the human-readable task/message text from local rollout history, trace reduction, and parent-side audit/debug surfaces. ... Guys, we don&#039;t want to build Skynet and then be unable to audit what it&#039;s doing.</blockquote>\n<p><strong>Tags:</strong> ai, openai, agents, encryption, audit</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784110967597",
       "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
       "title": "The Tower Keeps Rising",
