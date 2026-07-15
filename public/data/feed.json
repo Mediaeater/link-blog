@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784118163672",
+      "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+      "title": "AI, Surveillance, and Social Progress",
+      "date_published": "2026-07-15T12:22:43.672Z",
+      "tags": [
+        "ai",
+        "surveillance",
+        "privacy",
+        "democracy",
+        "harms"
+      ],
+      "content_text": "Consider the relatively recent societal normalization of same-sex relationships and the recreational use of marijuana. Over the decades, those ideas slowly progressed from being both immoral and illegal, to moral but still illegal, and finally to both moral and legal. But in order for any of that to happen, there had to be a counterculture that was able to experiment and eventually demonstrate to the world that morality could change over time. To the extent that AI surveillance chills this sort of experimentation in public or in private, social progress becomes impossible.",
+      "summary": "Consider the relatively recent societal normalization of same-sex relationships and the recreational use of marijuana. Over the decades, those ideas s...",
+      "content_html": "<blockquote>Consider the relatively recent societal normalization of same-sex relationships and the recreational use of marijuana. Over the decades, those ideas slowly progressed from being both immoral and illegal, to moral but still illegal, and finally to both moral and legal. But in order for any of that to happen, there had to be a counterculture that was able to experiment and eventually demonstrate to the world that morality could change over time. To the extent that AI surveillance chills this sort of experimentation in public or in private, social progress becomes impossible.</blockquote>\n<p><strong>Tags:</strong> ai, surveillance, privacy, democracy, harms</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784117304088",
       "url": "https://natlawreview.com/article/turning-workers-influencers-key-employment-issues-employers-starting",
       "title": "Turning Workers Into Influencers? Key Employment Issues for Employers Before Starting",
