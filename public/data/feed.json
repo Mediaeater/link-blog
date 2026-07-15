@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784110865479",
+      "url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
+      "title": "Simulating everything, sort of: The promise and limits of world models",
+      "date_published": "2026-07-15T10:21:05.479Z",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "world-models",
+        "robots",
+        "video-gen"
+      ],
+      "content_text": "While we're still in the early days of this field, a growing body of research suggests that video and world models can already be useful for synthetic data generation, policy evaluation, and some robot-planning tasks. There's enough to justify cautious optimism about these models, though it's worth noting that their reliability as general-purpose physical simulators remains unproven.",
+      "summary": "While we're still in the early days of this field, a growing body of research suggests that video and world models can already be useful for synthetic...",
+      "content_html": "<blockquote>While we&#039;re still in the early days of this field, a growing body of research suggests that video and world models can already be useful for synthetic data generation, policy evaluation, and some robot-planning tasks. There&#039;s enough to justify cautious optimism about these models, though it&#039;s worth noting that their reliability as general-purpose physical simulators remains unproven.</blockquote>\n<p><strong>Tags:</strong> ai, machine-learning, world-models, robots, video-gen</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1783946329367",
       "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
       "title": "Meta pulls new AI image feature after days of backlash",

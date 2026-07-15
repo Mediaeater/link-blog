@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 13 Jul 2026 12:38:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jul 2026 10:21:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Simulating everything, sort of: The promise and limits of world models]]></title>
+            <link>https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/</link>
+            <guid>1784110865479</guid>
+            <pubDate>Wed, 15 Jul 2026 10:21:05 GMT</pubDate>
+            <description><![CDATA[Tags: ai, machine-learning, world-models, robots, video-gen]]></description>
+        </item>
         <item>
             <title><![CDATA[Meta pulls new AI image feature after days of backlash]]></title>
             <link>https://www.bbc.com/news/articles/c2dy6e8klw0o</link>

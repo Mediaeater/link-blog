@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "id": 1784110967597,
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "source": "The Tower Keeps Rising",
+      "pullQuote": "When I look at some vibecoded scaled-up projects the codebases become Babel not because nobody can communicate, but because nobody needs to. Every developer has a tireless translator that can explain a corner of the tower and make whatever local alteration they ask of it. The changes keep landing, even as the architectural language that would let the humans reason about them together disappears.\n\nBut it’s not the biblical story. At Babel, the loss of common language stops construction whereas in AI-assisted engineering, construction can continue after shared understanding has already collapsed. The lack of an immediate failure is what makes it curious and a bit disorienting. The tower does not fall, and so we do not notice what was lost. It just keeps rising.",
+      "tags": [
+        "vibecoding",
+        "language",
+        "abstraction",
+        "understanding"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-15T10:22:47.597Z",
+      "visits": 0
+    },
+    {
+      "id": 1784110865479,
+      "url": "https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/",
+      "source": "Simulating everything, sort of: The promise and limits of world models",
+      "pullQuote": "While we're still in the early days of this field, a growing body of research suggests that video and world models can already be useful for synthetic data generation, policy evaluation, and some robot-planning tasks. There's enough to justify cautious optimism about these models, though it's worth noting that their reliability as general-purpose physical simulators remains unproven.",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "world-models",
+        "robots",
+        "video-gen"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-15T10:21:05.479Z",
+      "visits": 0
+    },
+    {
       "id": 1783946329367,
       "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
       "source": "Meta pulls new AI image feature after days of backlash",
@@ -8415,5 +8446,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-13T12:38:49.367Z"
+  "lastUpdated": "2026-07-15T10:22:47.635Z"
 }
