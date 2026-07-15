@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 15 Jul 2026 13:57:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jul 2026 17:25:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Meta used AI to target workers with medical conditions for layoffs, lawsuit claims]]></title>
+            <link>https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/</link>
+            <guid>1784136357911</guid>
+            <pubDate>Wed, 15 Jul 2026 17:25:57 GMT</pubDate>
+            <description><![CDATA[Tags: ai, meta, workforce, legal, harms]]></description>
+        </item>
         <item>
             <title><![CDATA[Why Is Digital Freedom Making Us Exhausted and Sad?]]></title>
             <link>https://www.thenewatlantis.com/publications/byung-chul-han-what-happened-to-freedom</link>
