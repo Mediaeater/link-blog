@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784123851090,
+      "url": "https://www.thenewatlantis.com/publications/byung-chul-han-what-happened-to-freedom",
+      "source": "Why Is Digital Freedom Making Us Exhausted and Sad?",
+      "pullQuote": "Burnout, depression, anxiety: these are the maladies of our time. No one denies their spread, but their wider significance is a matter of debate. For Han, they are not signs that the new order is breaking down. They are signs of its success. We are free — and the result is not liberation but exhaustion.",
+      "tags": [
+        "books",
+        "thinking",
+        "society",
+        "socialmedia",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-15T13:57:31.090Z",
+      "visits": 0
+    },
+    {
       "id": 1784122847342,
       "url": "https://www.originhq.com/research/the-mole-in-the-model",
       "source": "The Mole in the Model - You've Hired an Adversary",
@@ -8510,5 +8526,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-15T13:40:47.342Z"
+  "lastUpdated": "2026-07-15T13:57:31.090Z"
 }
