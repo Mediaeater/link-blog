@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784117304088,
+      "url": "https://natlawreview.com/article/turning-workers-influencers-key-employment-issues-employers-starting",
+      "source": "Turning Workers Into Influencers? Key Employment Issues for Employers Before Starting",
+      "pullQuote": "What starts as a branding opportunity can evolve from a marketing strategy into an employment law issue when employers encourage, direct, compensate, promote, or monetize employee-created content. Employee-creator programs can give rise to a range of legal issues, including wage-and-hour, labor relations, privacy, intellectual property, and equal opportunity.",
+      "tags": [
+        "socialmedia",
+        "advertising",
+        "workforce",
+        "legal",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-15T12:08:24.088Z",
+      "visits": 0
+    },
+    {
       "id": 1784115921502,
       "url": "https://www.theregister.com/ai-and-ml/2026/07/15/openai-hides-codex-agent-instructions-behind-encryption-leaving-developers-in-the-dark/5271484",
       "source": "OpenAI hides Codex agent instructions behind encryption, leaving developers in the dark",
@@ -8462,5 +8478,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-15T11:45:21.502Z"
+  "lastUpdated": "2026-07-15T12:08:24.088Z"
 }
