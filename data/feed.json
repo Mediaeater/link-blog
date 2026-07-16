@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784202105771",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "title": "Inkling: Our open-weights model — Thinking Machines Lab",
+      "date_published": "2026-07-16T11:41:45.771Z",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "machine-learning",
+        "open-weights"
+      ],
+      "content_text": "Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning.",
+      "summary": "Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for ...",
+      "content_html": "<blockquote>Inkling is not the strongest overall model available today, open or closed. Instead, a combination of qualities makes it a good open-weights base for customization: multimodal capabilities, efficient thinking, and availability on Tinker for fine-tuning.</blockquote>\n<p><strong>Tags:</strong> ai, llm, open-source, machine-learning, open-weights</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784136357911",
       "url": "https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/",
       "title": "Meta used AI to target workers with medical conditions for layoffs, lawsuit claims",
