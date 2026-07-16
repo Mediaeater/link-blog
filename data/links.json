@@ -1,6 +1,24 @@
 {
   "links": [
     {
+      "id": 1784207746733,
+      "url": "https://www.nature.com/articles/s41586-026-10681-7",
+      "source": "Fourier pixels for bidirectional light control — Nature",
+      "pullQuote": "However, no pixel exists that both senses and generates optical wavefronts with full control over amplitude, phase and polarization, limiting bidirectional control and feedback of sophisticated light fields. Here we present a route to such pixels by demonstrating a versatile platform of miniaturized diffractive elements based on Fourier optics. We use plasmonic surface waves, which propagate coherently and efficiently across metallic surfaces.",
+      "tags": [
+        "science",
+        "research",
+        "technology",
+        "physics",
+        "optics",
+        "surveillance",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-16T13:15:46.733Z",
+      "visits": 0
+    },
+    {
       "id": 1784202105771,
       "url": "https://thinkingmachines.ai/news/introducing-inkling/",
       "source": "Inkling: Our open-weights model — Thinking Machines Lab",
@@ -8558,5 +8576,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-16T11:41:45.771Z"
+  "lastUpdated": "2026-07-16T13:15:46.733Z"
 }
