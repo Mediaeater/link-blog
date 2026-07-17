@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784314674870,
+      "url": "https://www.chinatalk.media/p/why-america-builds-ai-girlfriends",
+      "source": "Why America Builds AI Girlfriends and China Makes AI Boyfriends",
+      "pullQuote": "Made-in-America AI girlfriends and made-in-China AI boyfriends are strikingly different, and so are the social contexts and regulatory environments in which they exist. Yet one thing both markets share is the tension with real-life relationships. Whether healthy or not, frustrations with human interaction and broadly polarized gender dynamics are leading many men and women, regardless of nationality, to turn to AI.",
+      "tags": [
+        "ai",
+        "cn",
+        "culture",
+        "society",
+        "regulation"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-17T18:57:54.870Z",
+      "visits": 0
+    },
+    {
       "id": 1784207746733,
       "url": "https://www.nature.com/articles/s41586-026-10681-7",
       "source": "Fourier pixels for bidirectional light control — Nature",
@@ -8576,5 +8592,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-16T13:15:46.733Z"
+  "lastUpdated": "2026-07-17T18:57:54.870Z"
 }
