@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1784411910570",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "title": "Goodbye, and Thanks for All the Bikesheds! — ACM Queue",
+      "date_published": "2026-07-18T21:58:30.570Z",
+      "tags": [
+        "privacy",
+        "regulation",
+        "identity",
+        "government",
+        "surveillance",
+        "kyc"
+      ],
+      "content_text": "Right now, there is a LOT of shrill propaganda from the tech bros, who call themselves \"privacy advocates,\" about how mandatory age checking is the gateway drug to comprehensive identity checks on the entire Internet, and ridiculing the valid civic concerns governments are trying to address as merely \"think of the children\" strawman arguments.\n\nIn comparison, tech sisters advocating for an absolute right to privacy seem to be a very rare, and maybe mythical, species.",
+      "summary": "Right now, there is a LOT of shrill propaganda from the tech bros, who call themselves \"privacy advocates,\" about how mandatory age checking is the ga...",
+      "content_html": "<blockquote>Right now, there is a LOT of shrill propaganda from the tech bros, who call themselves &quot;privacy advocates,&quot; about how mandatory age checking is the gateway drug to comprehensive identity checks on the entire Internet, and ridiculing the valid civic concerns governments are trying to address as merely &quot;think of the children&quot; strawman arguments.\n\nIn comparison, tech sisters advocating for an absolute right to privacy seem to be a very rare, and maybe mythical, species.</blockquote>\n<p><strong>Tags:</strong> privacy, regulation, identity, government, surveillance, kyc</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784314674870",
       "url": "https://www.chinatalk.media/p/why-america-builds-ai-girlfriends",
       "title": "Why America Builds AI Girlfriends and China Makes AI Boyfriends",
