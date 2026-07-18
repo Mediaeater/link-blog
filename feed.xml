@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 17 Jul 2026 18:57:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2026 21:58:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Goodbye, and Thanks for All the Bikesheds! — ACM Queue]]></title>
+            <link>https://queue.acm.org/detail.cfm?id=3818307</link>
+            <guid>1784411910570</guid>
+            <pubDate>Sat, 18 Jul 2026 21:58:30 GMT</pubDate>
+            <description><![CDATA[Tags: privacy, regulation, identity, government, surveillance, kyc]]></description>
+        </item>
         <item>
             <title><![CDATA[Why America Builds AI Girlfriends and China Makes AI Boyfriends]]></title>
             <link>https://www.chinatalk.media/p/why-america-builds-ai-girlfriends</link>

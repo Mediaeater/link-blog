@@ -1,6 +1,23 @@
 {
   "links": [
     {
+      "id": 1784411910570,
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "source": "Goodbye, and Thanks for All the Bikesheds! — ACM Queue",
+      "pullQuote": "Right now, there is a LOT of shrill propaganda from the tech bros, who call themselves \"privacy advocates,\" about how mandatory age checking is the gateway drug to comprehensive identity checks on the entire Internet, and ridiculing the valid civic concerns governments are trying to address as merely \"think of the children\" strawman arguments.\n\nIn comparison, tech sisters advocating for an absolute right to privacy seem to be a very rare, and maybe mythical, species.",
+      "tags": [
+        "privacy",
+        "regulation",
+        "identity",
+        "government",
+        "surveillance",
+        "kyc"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-18T21:58:30.570Z",
+      "visits": 0
+    },
+    {
       "id": 1784314674870,
       "url": "https://www.chinatalk.media/p/why-america-builds-ai-girlfriends",
       "source": "Why America Builds AI Girlfriends and China Makes AI Boyfriends",
@@ -8592,5 +8609,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-17T18:57:54.870Z"
+  "lastUpdated": "2026-07-18T21:58:30.570Z"
 }
