@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784476669567,
+      "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+      "source": "I joined the IndieWeb, here's what I learned",
+      "pullQuote": "The IndieWeb's conclusion is not \"don't use social networks\". It is more subtle: use whatever you want, but make sure the canonical copy of your content lives on a domain you control.",
+      "tags": [
+        "indieweb",
+        "internet",
+        "standards",
+        "identity",
+        "socialmedia"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-19T15:57:49.567Z",
+      "visits": 0
+    },
+    {
       "id": 1784463685640,
       "url": "https://ollama.com/blog/all-aboard-open-models",
       "source": "Ollama: all aboard open models",
@@ -8627,5 +8643,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-19T12:21:25.640Z"
+  "lastUpdated": "2026-07-19T15:57:49.567Z"
 }

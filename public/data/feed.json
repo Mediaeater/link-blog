@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784476669567",
+      "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+      "title": "I joined the IndieWeb, here's what I learned",
+      "date_published": "2026-07-19T15:57:49.567Z",
+      "tags": [
+        "indieweb",
+        "internet",
+        "standards",
+        "identity",
+        "socialmedia"
+      ],
+      "content_text": "The IndieWeb's conclusion is not \"don't use social networks\". It is more subtle: use whatever you want, but make sure the canonical copy of your content lives on a domain you control.",
+      "summary": "The IndieWeb's conclusion is not \"don't use social networks\". It is more subtle: use whatever you want, but make sure the canonical copy of your conte...",
+      "content_html": "<blockquote>The IndieWeb&#039;s conclusion is not &quot;don&#039;t use social networks&quot;. It is more subtle: use whatever you want, but make sure the canonical copy of your content lives on a domain you control.</blockquote>\n<p><strong>Tags:</strong> indieweb, internet, standards, identity, socialmedia</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784463685640",
       "url": "https://ollama.com/blog/all-aboard-open-models",
       "title": "Ollama: all aboard open models",
