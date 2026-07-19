@@ -15,6 +15,28 @@
   ],
   "items": [
     {
+      "id": "1784463685640",
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "title": "Ollama: all aboard open models",
+      "date_published": "2026-07-19T12:21:25.640Z",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "privacy",
+        "infrastructure",
+        "funding",
+        "ollama"
+      ],
+      "content_text": "Computing has been here before: the personal computer took the machine out of the mainframe room and put it on your desk — yours to own, customize, and build with. Open models are now enabling that moment for AI.",
+      "summary": "Computing has been here before: the personal computer took the machine out of the mainframe room and put it on your desk — yours to own, customize, an...",
+      "content_html": "<blockquote>Computing has been here before: the personal computer took the machine out of the mainframe room and put it on your desk — yours to own, customize, and build with. Open models are now enabling that moment for AI.</blockquote>\n<p><strong>Tags:</strong> ai, llm, open-source, privacy, infrastructure, funding, ollama</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784411910570",
       "url": "https://queue.acm.org/detail.cfm?id=3818307",
       "title": "Goodbye, and Thanks for All the Bikesheds! — ACM Queue",
