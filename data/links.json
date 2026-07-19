@@ -1,6 +1,24 @@
 {
   "links": [
     {
+      "id": 1784463685640,
+      "url": "https://ollama.com/blog/all-aboard-open-models",
+      "source": "Ollama: all aboard open models",
+      "pullQuote": "Computing has been here before: the personal computer took the machine out of the mainframe room and put it on your desk — yours to own, customize, and build with. Open models are now enabling that moment for AI.",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "privacy",
+        "infrastructure",
+        "funding",
+        "ollama"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-19T12:21:25.640Z",
+      "visits": 0
+    },
+    {
       "id": 1784411910570,
       "url": "https://queue.acm.org/detail.cfm?id=3818307",
       "source": "Goodbye, and Thanks for All the Bikesheds! — ACM Queue",
@@ -8609,5 +8627,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-18T21:58:30.570Z"
+  "lastUpdated": "2026-07-19T12:21:25.640Z"
 }

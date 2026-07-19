@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 18 Jul 2026 21:58:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jul 2026 12:21:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Ollama: all aboard open models]]></title>
+            <link>https://ollama.com/blog/all-aboard-open-models</link>
+            <guid>1784463685640</guid>
+            <pubDate>Sun, 19 Jul 2026 12:21:25 GMT</pubDate>
+            <description><![CDATA[Tags: ai, llm, open-source, privacy, infrastructure, funding, ollama]]></description>
+        </item>
         <item>
             <title><![CDATA[Goodbye, and Thanks for All the Bikesheds! — ACM Queue]]></title>
             <link>https://queue.acm.org/detail.cfm?id=3818307</link>
