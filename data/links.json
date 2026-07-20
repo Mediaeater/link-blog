@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1784558065122,
+      "url": "https://www.11971.com/",
+      "source": "They Call It Flock Because You Are the Sheep (11971.com, Southold NY)",
+      "pullQuote": "They call it Flock because you are the sheep",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "flock",
+        "alpr",
+        "policing"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-20T14:34:25.122Z",
+      "visits": 0
+    },
+    {
+      "id": 1784557986284,
+      "url": "https://hidden-phenomena.com/",
+      "source": "Hidden Phenomena",
+      "pullQuote": "These articles describe various interesting Diophantine equations. If you're not sure where to start, we recommend Why study Diophantine equations? to see why this is our goal, or to read What is √−1 modulo 5? to see a particularly striking example.",
+      "tags": [
+        "mathematics",
+        "number-theory",
+        "science",
+        "education",
+        "learning"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-20T14:33:06.284Z",
+      "visits": 0
+    },
+    {
       "id": 1784547699059,
       "url": "https://keenancrane.github.io/siggraph-papers-schedule/",
       "source": "SIGGRAPH 2026 Technical Papers — Keenan Crane",
@@ -8659,5 +8691,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-20T11:41:39.059Z"
+  "lastUpdated": "2026-07-20T14:34:25.122Z"
 }
