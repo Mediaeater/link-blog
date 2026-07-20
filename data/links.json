@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784562914536,
+      "url": "https://www.beautifulpublicdata.com/the-footprints-of-every-building-in-nyc/",
+      "source": "The footprints of every building in NYC",
+      "pullQuote": "The pace of change is so rapid in fact, that the New York City Office of Technology and Innovation publishes weekly updates to one of its most fascinating datasets – the footprints of every building in New York City.",
+      "tags": [
+        "data",
+        "nyc",
+        "maps",
+        "government",
+        "dataviz"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-20T15:55:14.536Z",
+      "visits": 0
+    },
+    {
       "id": 1784558065122,
       "url": "https://www.11971.com/",
       "source": "They Call It Flock Because You Are the Sheep (11971.com, Southold NY)",
@@ -8691,5 +8707,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-20T14:34:25.122Z"
+  "lastUpdated": "2026-07-20T15:55:14.536Z"
 }
