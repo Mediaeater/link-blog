@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784547699059",
+      "url": "https://keenancrane.github.io/siggraph-papers-schedule/",
+      "title": "SIGGRAPH 2026 Technical Papers — Keenan Crane",
+      "date_published": "2026-07-20T11:41:39.059Z",
+      "tags": [
+        "computer-graphics",
+        "siggraph",
+        "research",
+        "tool",
+        "science"
+      ],
+      "content_text": "An interactive browser for all 345 SIGGRAPH 2026 technical papers (July 20–23). Enable filters to search by string, keyword, or room number; save either individual talks or the selected schedule to your calendar.",
+      "summary": "An interactive browser for all 345 SIGGRAPH 2026 technical papers (July 20–23). Enable filters to search by string, keyword, or room number; save eith...",
+      "content_html": "<blockquote>An interactive browser for all 345 SIGGRAPH 2026 technical papers (July 20–23). Enable filters to search by string, keyword, or room number; save either individual talks or the selected schedule to your calendar.</blockquote>\n<p><strong>Tags:</strong> computer-graphics, siggraph, research, tool, science</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784476669567",
       "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
       "title": "I joined the IndieWeb, here's what I learned",
