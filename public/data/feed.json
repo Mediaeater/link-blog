@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1784558065122",
+      "url": "https://www.11971.com/",
+      "title": "They Call It Flock Because You Are the Sheep (11971.com, Southold NY)",
+      "date_published": "2026-07-20T14:34:25.122Z",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "flock",
+        "alpr",
+        "policing"
+      ],
+      "content_text": "They call it Flock because you are the sheep",
+      "summary": "They call it Flock because you are the sheep",
+      "content_html": "<blockquote>They call it Flock because you are the sheep</blockquote>\n<p><strong>Tags:</strong> surveillance, privacy, flock, alpr, policing</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1784557986284",
+      "url": "https://hidden-phenomena.com/",
+      "title": "Hidden Phenomena",
+      "date_published": "2026-07-20T14:33:06.284Z",
+      "tags": [
+        "mathematics",
+        "number-theory",
+        "science",
+        "education",
+        "learning"
+      ],
+      "content_text": "These articles describe various interesting Diophantine equations. If you're not sure where to start, we recommend Why study Diophantine equations? to see why this is our goal, or to read What is √−1 modulo 5? to see a particularly striking example.",
+      "summary": "These articles describe various interesting Diophantine equations. If you're not sure where to start, we recommend Why study Diophantine equations? to...",
+      "content_html": "<blockquote>These articles describe various interesting Diophantine equations. If you&#039;re not sure where to start, we recommend Why study Diophantine equations? to see why this is our goal, or to read What is √−1 modulo 5? to see a particularly striking example.</blockquote>\n<p><strong>Tags:</strong> mathematics, number-theory, science, education, learning</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784547699059",
       "url": "https://keenancrane.github.io/siggraph-papers-schedule/",
       "title": "SIGGRAPH 2026 Technical Papers — Keenan Crane",
