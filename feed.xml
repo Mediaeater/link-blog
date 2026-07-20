@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 20 Jul 2026 14:34:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jul 2026 15:55:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The footprints of every building in NYC]]></title>
+            <link>https://www.beautifulpublicdata.com/the-footprints-of-every-building-in-nyc/</link>
+            <guid>1784562914536</guid>
+            <pubDate>Mon, 20 Jul 2026 15:55:14 GMT</pubDate>
+            <description><![CDATA[Tags: data, nyc, maps, government, dataviz]]></description>
+        </item>
         <item>
             <title><![CDATA[They Call It Flock Because You Are the Sheep (11971.com, Southold NY)]]></title>
             <link>https://www.11971.com/</link>
