@@ -33,23 +33,31 @@ User-agent: Slurp
 Allow: /
 Crawl-delay: 1
 
-# Block AI scrapers that don't respect content
-User-agent: CCBot
-Disallow: /
+# --- Generative engines (GEO): ALLOW live-answer / citation crawlers ---
+# These fetch a page only to cite it in an AI answer, so the site can be surfaced.
+User-agent: OAI-SearchBot
+Allow: /
 
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# --- BLOCK bulk AI training crawlers (no citation value) ---
 User-agent: GPTBot
 Disallow: /
 
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: Google-Extended
+User-agent: CCBot
 Disallow: /
 
 User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Claude-Web
 Disallow: /
 
 User-agent: cohere-ai
