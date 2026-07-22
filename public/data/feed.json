@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1784713399032",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "title": "Judge approves a $1.5B Anthropic settlement over pirated books used to train the Claude chatbot",
+      "date_published": "2026-07-22T09:43:19.032Z",
+      "tags": [
+        "copyright",
+        "anthropic",
+        "claude",
+        "books",
+        "legal"
+      ],
+      "content_text": "About 91% of the more than 482,000 books covered by the ruling have been claimed by authors or publishers who are now due payment.",
+      "summary": "About 91% of the more than 482,000 books covered by the ruling have been claimed by authors or publishers who are now due payment.",
+      "content_html": "<blockquote>About 91% of the more than 482,000 books covered by the ruling have been claimed by authors or publishers who are now due payment.</blockquote>\n<p><strong>Tags:</strong> copyright, anthropic, claude, books, legal</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784713087618",
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",

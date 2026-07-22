@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 22 Jul 2026 09:38:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 09:43:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Judge approves a $1.5B Anthropic settlement over pirated books used to train the Claude chatbot]]></title>
+            <link>https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63</link>
+            <guid>1784713399032</guid>
+            <pubDate>Wed, 22 Jul 2026 09:43:19 GMT</pubDate>
+            <description><![CDATA[Tags: copyright, anthropic, claude, books, legal]]></description>
+        </item>
         <item>
             <title><![CDATA[OpenAI and Hugging Face partner to address security incident during model evaluation]]></title>
             <link>https://openai.com/index/hugging-face-model-evaluation-security-incident/</link>

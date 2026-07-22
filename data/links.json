@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784713399032,
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "source": "Judge approves a $1.5B Anthropic settlement over pirated books used to train the Claude chatbot",
+      "pullQuote": "About 91% of the more than 482,000 books covered by the ruling have been claimed by authors or publishers who are now due payment.",
+      "tags": [
+        "copyright",
+        "anthropic",
+        "claude",
+        "books",
+        "legal"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-22T09:43:19.032Z",
+      "visits": 0
+    },
+    {
       "id": 1784713087618,
       "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "source": "OpenAI and Hugging Face partner to address security incident during model evaluation",
@@ -8724,5 +8740,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-22T09:38:07.618Z"
+  "lastUpdated": "2026-07-22T09:43:19.032Z"
 }
