@@ -1,6 +1,54 @@
 {
   "links": [
     {
+      "id": 1784720512613,
+      "url": "https://www.nytimes.com/2026/07/21/nyregion/msg-dolan-fine-liquor-authority.html",
+      "source": "James Dolan quietly wins his war against the N.Y. State Liquor Authority over MSG facial recognition",
+      "pullQuote": "Now Mr. Dolan has quietly won another protracted war, this one against the New York State Liquor Authority. Three years ago, Mr. Dolan courted public condemnation by deploying facial recognition to bar scores of people he deemed enemies from Madison Square Garden. At that time, the liquor authority also took exception, saying that the Garden's exclusionary biometric surveillance violated state beverage laws that require establishments to admit the general public.",
+      "tags": [
+        "facial-recognition",
+        "surveillance",
+        "nyc",
+        "privacy",
+        "legal"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-22T11:41:52.613Z",
+      "visits": 0
+    },
+    {
+      "id": 1784720512478,
+      "url": "https://blaizzy.github.io/nativ/",
+      "source": "Nativ — Run AI locally on your Mac",
+      "pullQuote": "Nativ puts frontier intelligence on your desk. Download and run open models on Apple Silicon — no accounts, no subscriptions, no cloud.",
+      "tags": [
+        "tool",
+        "local",
+        "mac",
+        "llm",
+        "open-source"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-22T11:41:52.478Z",
+      "visits": 0
+    },
+    {
+      "id": 1784714494040,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0788",
+      "source": "CJEU: geo-blocking satisfies copyright, and VPN providers aren't liable (Case C-788/24, Anne Frank Fonds)",
+      "pullQuote": "the provider of a VPN or similar services that are used in order to circumvent an ineffective geo-blocking measure and are lawful technical tools which users may legitimately use cannot be regarded as also having communicated the work to the public",
+      "tags": [
+        "copyright",
+        "eu",
+        "privacy",
+        "legal",
+        "vpn"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-22T10:01:34.040Z",
+      "visits": 0
+    },
+    {
       "id": 1784713399032,
       "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
       "source": "Judge approves a $1.5B Anthropic settlement over pirated books used to train the Claude chatbot",
@@ -8740,5 +8788,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-22T09:43:19.032Z"
+  "lastUpdated": "2026-07-22T11:41:52.613Z"
 }

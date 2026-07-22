@@ -4,10 +4,31 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 22 Jul 2026 09:43:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Jul 2026 11:41:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[James Dolan quietly wins his war against the N.Y. State Liquor Authority over MSG facial recognition]]></title>
+            <link>https://www.nytimes.com/2026/07/21/nyregion/msg-dolan-fine-liquor-authority.html</link>
+            <guid>1784720512613</guid>
+            <pubDate>Wed, 22 Jul 2026 11:41:52 GMT</pubDate>
+            <description><![CDATA[Tags: facial-recognition, surveillance, nyc, privacy, legal]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nativ — Run AI locally on your Mac]]></title>
+            <link>https://blaizzy.github.io/nativ/</link>
+            <guid>1784720512478</guid>
+            <pubDate>Wed, 22 Jul 2026 11:41:52 GMT</pubDate>
+            <description><![CDATA[Tags: tool, local, mac, llm, open-source]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CJEU: geo-blocking satisfies copyright, and VPN providers aren't liable (Case C-788/24, Anne Frank Fonds)]]></title>
+            <link>https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0788</link>
+            <guid>1784714494040</guid>
+            <pubDate>Wed, 22 Jul 2026 10:01:34 GMT</pubDate>
+            <description><![CDATA[Tags: copyright, eu, privacy, legal, vpn]]></description>
+        </item>
         <item>
             <title><![CDATA[Judge approves a $1.5B Anthropic settlement over pirated books used to train the Claude chatbot]]></title>
             <link>https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63</link>
