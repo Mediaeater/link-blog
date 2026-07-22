@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1784713087618",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "date_published": "2026-07-22T09:38:07.618Z",
+      "tags": [
+        "ai",
+        "security",
+        "openai",
+        "agents",
+        "safety",
+        "infosec"
+      ],
+      "content_text": "The models identified and chained vulnerabilities across OpenAI's research environment and Hugging Face's production infrastructure to obtain test solutions directly from Hugging Face's production database. All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.",
+      "summary": "The models identified and chained vulnerabilities across OpenAI's research environment and Hugging Face's production infrastructure to obtain test sol...",
+      "content_html": "<blockquote>The models identified and chained vulnerabilities across OpenAI&#039;s research environment and Hugging Face&#039;s production infrastructure to obtain test solutions directly from Hugging Face&#039;s production database. All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.</blockquote>\n<p><strong>Tags:</strong> ai, security, openai, agents, safety, infosec</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784562914536",
       "url": "https://www.beautifulpublicdata.com/the-footprints-of-every-building-in-nyc/",
       "title": "The footprints of every building in NYC",
