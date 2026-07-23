@@ -66,8 +66,9 @@ Disallow: /
 User-agent: Omgilibot
 Disallow: /
 
+# --- Social link-preview crawler: ALLOW (rich share cards, not AI training) ---
 User-agent: FacebookBot
-Disallow: /
+Allow: /
 
 # Reference to sitemaps
 Sitemap: https://newsfeeds.net/sitemap.xml
