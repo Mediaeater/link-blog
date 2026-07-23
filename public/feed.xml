@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Wed, 22 Jul 2026 13:11:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jul 2026 16:23:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Writing by Hand is Good for your Brain — Here's how to do it]]></title>
+            <link>https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your</link>
+            <guid>1784823819011</guid>
+            <pubDate>Thu, 23 Jul 2026 16:23:39 GMT</pubDate>
+            <description><![CDATA[Tags: brain, thinking, learning, howto, handwriting]]></description>
+        </item>
         <item>
             <title><![CDATA[Carbon dioxide overload, detected in human blood, suggests a potentially toxic atmosphere within 50 years]]></title>
             <link>https://link.springer.com/article/10.1007/s11869-026-01918-5</link>

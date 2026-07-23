@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1784823819011,
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "source": "Writing by Hand is Good for your Brain — Here's how to do it",
+      "pullQuote": "When you write things down by hand you're recruiting more of your brain, which is a good thing.",
+      "tags": [
+        "brain",
+        "thinking",
+        "learning",
+        "howto",
+        "handwriting"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-23T16:23:39.011Z",
+      "visits": 0
+    },
+    {
       "id": 1784725877220,
       "url": "https://link.springer.com/article/10.1007/s11869-026-01918-5",
       "source": "Carbon dioxide overload, detected in human blood, suggests a potentially toxic atmosphere within 50 years",
@@ -8834,5 +8850,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-22T13:11:17.482Z"
+  "lastUpdated": "2026-07-23T16:23:39.011Z"
 }
