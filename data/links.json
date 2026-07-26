@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1785105843599,
+      "url": "https://vectoral.com/blog/token-relay-market",
+      "source": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "pullQuote": "A relay — or 'transfer station' — is essentially a service that proxies traffic to U.S. models, often at a deep discount. The ecosystem runs four layers deep, from the merchants sourcing raw accounts down to the developers buying cheap tokens. As Anthropic and others roll out KYC controls and identity verification, the abuse won't disappear, it will just move somewhere else.",
+      "tags": [
+        "ai",
+        "security",
+        "llm",
+        "fraud",
+        "tokens"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-26T22:44:03.599Z",
+      "visits": 0
+    },
+    {
       "id": 1785100448482,
       "url": "https://github.com/essej/paulxstretch",
       "source": "PaulXStretch — plugin for extreme time stretching and spectral processing of audio",
@@ -8882,5 +8898,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-26T21:14:08.482Z"
+  "lastUpdated": "2026-07-26T22:44:03.599Z"
 }
