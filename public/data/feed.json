@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1785096894451",
+      "url": "https://www.gema.de/de/w/plai-by-gema-musikdatensatz",
+      "title": "PLAI by GEMA: first fully licensed music dataset for AI training",
+      "date_published": "2026-07-26T20:14:54.451Z",
+      "tags": [
+        "ai-music",
+        "training",
+        "copyright",
+        "rights",
+        "music"
+      ],
+      "content_text": "PLAI by GEMA ist das erste Angebot dieser Art in Europa, das Soundfiles, umfassende Metadaten sowie Urheber- und Masterrechte skalierbar aus einer Hand bündelt. Das Produkt richtet sich an Anbieter von KI-Musiktools, die Musikschaffende im Produktionsprozess unterstützen und deren Ergebnisse nicht mit den verwendeten Trainingswerken konkurrieren.",
+      "summary": "PLAI by GEMA ist das erste Angebot dieser Art in Europa, das Soundfiles, umfassende Metadaten sowie Urheber- und Masterrechte skalierbar aus einer Han...",
+      "content_html": "<blockquote>PLAI by GEMA ist das erste Angebot dieser Art in Europa, das Soundfiles, umfassende Metadaten sowie Urheber- und Masterrechte skalierbar aus einer Hand bündelt. Das Produkt richtet sich an Anbieter von KI-Musiktools, die Musikschaffende im Produktionsprozess unterstützen und deren Ergebnisse nicht mit den verwendeten Trainingswerken konkurrieren.</blockquote>\n<p><strong>Tags:</strong> ai-music, training, copyright, rights, music</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1784823819011",
       "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
       "title": "Writing by Hand is Good for your Brain — Here's how to do it",
