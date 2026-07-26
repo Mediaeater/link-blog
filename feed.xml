@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 23 Jul 2026 16:23:39 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jul 2026 20:14:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[PLAI by GEMA: first fully licensed music dataset for AI training]]></title>
+            <link>https://www.gema.de/de/w/plai-by-gema-musikdatensatz</link>
+            <guid>1785096894451</guid>
+            <pubDate>Sun, 26 Jul 2026 20:14:54 GMT</pubDate>
+            <description><![CDATA[Tags: ai-music, training, copyright, rights, music]]></description>
+        </item>
         <item>
             <title><![CDATA[Writing by Hand is Good for your Brain — Here's how to do it]]></title>
             <link>https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your</link>
