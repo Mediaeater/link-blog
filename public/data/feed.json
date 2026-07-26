@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1785100448482",
+      "url": "https://github.com/essej/paulxstretch",
+      "title": "PaulXStretch — plugin for extreme time stretching and spectral processing of audio",
+      "date_published": "2026-07-26T21:14:08.482Z",
+      "tags": [
+        "audio",
+        "music",
+        "open-source",
+        "tool",
+        "production"
+      ],
+      "content_text": "This application/plugin is based on the PaulStretch algorithm. (Paul's Extreme Time Stretch, originally developed by Nasca Octavian Paul), and specifically the PaulXStretch version from Xenakios. It can turn any short audio into an hours long ambient soundscape without batting an eye!",
+      "summary": "This application/plugin is based on the PaulStretch algorithm. (Paul's Extreme Time Stretch, originally developed by Nasca Octavian Paul), and specifi...",
+      "content_html": "<blockquote>This application/plugin is based on the PaulStretch algorithm. (Paul&#039;s Extreme Time Stretch, originally developed by Nasca Octavian Paul), and specifically the PaulXStretch version from Xenakios. It can turn any short audio into an hours long ambient soundscape without batting an eye!</blockquote>\n<p><strong>Tags:</strong> audio, music, open-source, tool, production</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785096894451",
       "url": "https://www.gema.de/de/w/plai-by-gema-musikdatensatz",
       "title": "PLAI by GEMA: first fully licensed music dataset for AI training",
