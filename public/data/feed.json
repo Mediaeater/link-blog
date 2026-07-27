@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1785147215233",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "title": "Kimi-K3 — Moonshot AI's open 3T-class frontier model",
+      "date_published": "2026-07-27T10:13:35.233Z",
+      "tags": [
+        "ai",
+        "llm",
+        "open-source",
+        "opensource",
+        "agents",
+        "cn"
+      ],
+      "content_text": "K3 is the next generation of open frontier models from Moonshot AI. It is the world's first open 3T-class model, designed for frontier intelligence across long-horizon coding, knowledge work, and reasoning.",
+      "summary": "K3 is the next generation of open frontier models from Moonshot AI. It is the world's first open 3T-class model, designed for frontier intelligence ac...",
+      "content_html": "<blockquote>K3 is the next generation of open frontier models from Moonshot AI. It is the world&#039;s first open 3T-class model, designed for frontier intelligence across long-horizon coding, knowledge work, and reasoning.</blockquote>\n<p><strong>Tags:</strong> ai, llm, open-source, opensource, agents, cn</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785105843599",
       "url": "https://vectoral.com/blog/token-relay-market",
       "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
