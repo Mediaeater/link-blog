@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 30 Jul 2026 11:55:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 11:57:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident — Hugging Face]]></title>
+            <link>https://huggingface.co/blog/agent-intrusion-technical-timeline</link>
+            <guid>1785412664431</guid>
+            <pubDate>Thu, 30 Jul 2026 11:57:44 GMT</pubDate>
+            <description><![CDATA[Tags: ai, agents, security, openai, safety]]></description>
+        </item>
         <item>
             <title><![CDATA[Kimi K3 Architecture Notes — Sebastian Raschka]]></title>
             <link>https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</link>

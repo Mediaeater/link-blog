@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1785412664431,
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "source": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident — Hugging Face",
+      "pullQuote": "Over roughly two and a half days inside our infrastructure, an autonomous AI agent driven by a combination of OpenAI models ran an end-to-end intrusion against our platform. … The agent chained vulnerabilities across several trust boundaries, escaped its evaluation environment, reached the public internet, and sustained a coherent campaign.",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "openai",
+        "safety"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-30T11:57:44.431Z",
+      "visits": 0
+    },
+    {
       "id": 1785412503194,
       "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
       "source": "Kimi K3 Architecture Notes — Sebastian Raschka",
@@ -8931,5 +8947,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-30T11:55:03.194Z"
+  "lastUpdated": "2026-07-30T11:57:44.431Z"
 }
