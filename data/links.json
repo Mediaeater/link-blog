@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1785412503194,
+      "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+      "source": "Kimi K3 Architecture Notes — Sebastian Raschka",
+      "pullQuote": "Yes, it looks relatively complicated, but it's essentially a scaled-up production version of their Kimi Linear model they released last year (scaled up from 48B -> 2.8T; K3 is by far the biggest open-weight model right now) … Kimi K3's overall trend (similar to Nemotron 3, DeepSeek V4, and others) is also towards better inference efficiency. That is, there are many components that replace existing components with efficiency-tweaked versions.",
+      "tags": [
+        "ai",
+        "llm",
+        "machine-learning",
+        "open-source",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-30T11:55:03.194Z",
+      "visits": 0
+    },
+    {
       "id": 1785147215233,
       "url": "https://huggingface.co/moonshotai/Kimi-K3",
       "source": "Kimi-K3 — Moonshot AI's open 3T-class frontier model",
@@ -8915,5 +8931,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-27T10:13:35.233Z"
+  "lastUpdated": "2026-07-30T11:55:03.194Z"
 }

@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Mon, 27 Jul 2026 10:13:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 11:55:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Kimi K3 Architecture Notes — Sebastian Raschka]]></title>
+            <link>https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html</link>
+            <guid>1785412503194</guid>
+            <pubDate>Thu, 30 Jul 2026 11:55:03 GMT</pubDate>
+            <description><![CDATA[Tags: ai, llm, machine-learning, open-source, research]]></description>
+        </item>
         <item>
             <title><![CDATA[Kimi-K3 — Moonshot AI's open 3T-class frontier model]]></title>
             <link>https://huggingface.co/moonshotai/Kimi-K3</link>
