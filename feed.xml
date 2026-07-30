@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Thu, 30 Jul 2026 11:57:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 12:05:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Pacing the Frontier — statement from 1,293 frontier AI lab employees]]></title>
+            <link>https://www.pacingthefrontier.com/</link>
+            <guid>1785413118081</guid>
+            <pubDate>Thu, 30 Jul 2026 12:05:18 GMT</pubDate>
+            <description><![CDATA[Tags: ai, agi, safety, government, regulation]]></description>
+        </item>
         <item>
             <title><![CDATA[Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident — Hugging Face]]></title>
             <link>https://huggingface.co/blog/agent-intrusion-technical-timeline</link>
