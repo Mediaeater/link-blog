@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1785413118081",
+      "url": "https://www.pacingthefrontier.com/",
+      "title": "Pacing the Frontier — statement from 1,293 frontier AI lab employees",
+      "date_published": "2026-07-30T12:05:18.081Z",
+      "tags": [
+        "ai",
+        "agi",
+        "safety",
+        "government",
+        "regulation"
+      ],
+      "content_text": "Today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. … We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.",
+      "summary": "Today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. … We request that the U.S. government support a...",
+      "content_html": "<blockquote>Today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress. … We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.</blockquote>\n<p><strong>Tags:</strong> ai, agi, safety, government, regulation</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785412664431",
       "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident — Hugging Face",
