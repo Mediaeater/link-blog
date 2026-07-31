@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1785494784803",
+      "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
+      "title": "Open Weights and American AI Leadership",
+      "date_published": "2026-07-31T10:46:24.803Z",
+      "tags": [
+        "open-source",
+        "government",
+        "regulation",
+        "open-weights",
+        "nvidia"
+      ],
+      "content_text": "Our AI leadership will be judged not by one frontier AI model, but by whether the United States builds a strong, open ecosystem that diffuses into every sector. This is essential for creating opportunities for innovation and prosperity across the country. It requires expanding access to AI, encouraging competition, robust application layers, and giving Americans greater control over the technology they rely on. Open weight models—AI models that anyone can download, inspect, modify, and run on their own infrastructure—are an important part of that foundation because they make advanced AI more accessible, adaptable, and widely available.",
+      "summary": "Our AI leadership will be judged not by one frontier AI model, but by whether the United States builds a strong, open ecosystem that diffuses into eve...",
+      "content_html": "<blockquote>Our AI leadership will be judged not by one frontier AI model, but by whether the United States builds a strong, open ecosystem that diffuses into every sector. This is essential for creating opportunities for innovation and prosperity across the country. It requires expanding access to AI, encouraging competition, robust application layers, and giving Americans greater control over the technology they rely on. Open weight models—AI models that anyone can download, inspect, modify, and run on their own infrastructure—are an important part of that foundation because they make advanced AI more accessible, adaptable, and widely available.</blockquote>\n<p><strong>Tags:</strong> open-source, government, regulation, open-weights, nvidia</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785457694030",
       "url": "https://thenerdstash.com/cartoonishly-evil-indiana-residents-furious-after-data-center-project-cuts-power-to-tornado-warning-sirens/",
       "title": "‘Cartoonishly Evil’: Indiana Residents Furious After Data Center Project Cuts Power to Tornado Warning Sirens",
