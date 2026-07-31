@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Fri, 31 Jul 2026 10:46:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Jul 2026 16:34:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[German court rules AI music firm Suno broke copyright rules]]></title>
+            <link>https://www.reuters.com/world/german-court-rules-ai-music-firm-suno-broke-copyright-rules-2026-07-31/</link>
+            <guid>1785515640212</guid>
+            <pubDate>Fri, 31 Jul 2026 16:34:00 GMT</pubDate>
+            <description><![CDATA[Tags: copyright, ai-music, music, legal, eu]]></description>
+        </item>
         <item>
             <title><![CDATA[Open Weights and American AI Leadership]]></title>
             <link>https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf</link>

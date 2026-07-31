@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1785515640212",
+      "url": "https://www.reuters.com/world/german-court-rules-ai-music-firm-suno-broke-copyright-rules-2026-07-31/",
+      "title": "German court rules AI music firm Suno broke copyright rules",
+      "date_published": "2026-07-31T16:34:00.212Z",
+      "tags": [
+        "copyright",
+        "ai-music",
+        "music",
+        "legal",
+        "eu"
+      ],
+      "content_text": "A German court ruled on Friday that AI music firm Suno violated copyrights and has to disclose illicit revenue, part of a wider legal battle by artists and publishers against technology firms. The Munich-based regional court said Suno did not have the right to process songs by artists represented by Germany's state-mandated licensing agency Gema.",
+      "summary": "A German court ruled on Friday that AI music firm Suno violated copyrights and has to disclose illicit revenue, part of a wider legal battle by artist...",
+      "content_html": "<blockquote>A German court ruled on Friday that AI music firm Suno violated copyrights and has to disclose illicit revenue, part of a wider legal battle by artists and publishers against technology firms. The Munich-based regional court said Suno did not have the right to process songs by artists represented by Germany&#039;s state-mandated licensing agency Gema.</blockquote>\n<p><strong>Tags:</strong> copyright, ai-music, music, legal, eu</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785494784803",
       "url": "https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf",
       "title": "Open Weights and American AI Leadership",
