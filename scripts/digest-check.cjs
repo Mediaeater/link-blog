@@ -8,10 +8,14 @@ async function main() {
   try {
     const status = await digestManager.getStatus();
 
-    console.log('\nWordPress Digest Status');
-    console.log('=======================');
-    console.log(`Threshold:        ${status.threshold} links`);
-    console.log(`Ready for digest: ${status.undigestedCount} links ${status.ready ? '✓' : ''}`);
+    console.log('\nDigest Status');
+    console.log('=============');
+    console.log(`Undigested links: ${status.undigestedCount}`);
+
+    if (status.weekStart && status.weekEnd) {
+      console.log(`Date range:       ${status.weekStart} to ${status.weekEnd}`);
+    }
+
     console.log(`Total digests:    ${status.totalDigests}`);
 
     if (status.lastDigest) {
@@ -20,11 +24,8 @@ async function main() {
 
     console.log('');
 
-    if (status.ready) {
-      console.log('Ready to generate! Run: npm run digest:generate');
-    } else {
-      const remaining = status.threshold - status.undigestedCount;
-      console.log(`Need ${remaining} more links to reach threshold.`);
+    if (status.undigestedCount > 0) {
+      console.log('Run: npm run digest:generate -- --dry-run to preview');
     }
 
     console.log('');

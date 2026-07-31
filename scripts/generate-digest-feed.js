@@ -20,6 +20,15 @@ const CONFIG = {
   siteUrl: process.env.SITE_URL || 'https://newsfeeds.net',
 };
 
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function generate() {
   if (!fs.existsSync(CONFIG.digestsJsonPath)) {
     console.error(`Error: ${CONFIG.digestsJsonPath} not found`);
@@ -52,15 +61,22 @@ function generate() {
 
     let content = '';
     if (fs.existsSync(htmlPath)) {
-      content = fs.readFileSync(htmlPath, 'utf8');
+      const html = fs.readFileSync(htmlPath, 'utf8');
+      const bodyMatch = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+      content = bodyMatch ? bodyMatch[1] : html;
     } else {
       console.warn(`  Warning: ${digest.filename} not found, skipping content`);
     }
 
-    // Prepend writeup to content if present
+    // Prepend writeup to content, unless the digest HTML already includes it
+    // (newer digest pages render the writeup inline; older ones don't).
     if (digest.writeup) {
-      const writeupHtml = `<blockquote><p>${digest.writeup.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p></blockquote>`;
-      content = writeupHtml + content;
+      const escapedWriteup = escapeHtml(digest.writeup);
+      const probe = escapedWriteup.slice(0, 60);
+      if (!content.includes(probe)) {
+        const writeupHtml = `<blockquote>${escapedWriteup.split(/\n\n+/).map(p => `<p>${p}</p>`).join('')}</blockquote>`;
+        content = writeupHtml + content;
+      }
     }
 
     const title = digest.title || `Digest #${digest.id}`;

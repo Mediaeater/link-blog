@@ -14,7 +14,10 @@ class DigestManager {
       const content = await fs.readFile(this.digestsPath, 'utf8');
       return JSON.parse(content);
     } catch (error) {
-      return { version: '2.0.0', cadence: 'weekly', digests: [] };
+      if (error.code === 'ENOENT') {
+        return { version: '2.0.0', cadence: 'weekly', digests: [] };
+      }
+      throw error;
     }
   }
 
@@ -27,7 +30,10 @@ class DigestManager {
       const content = await fs.readFile(this.linksPath, 'utf8');
       return JSON.parse(content).links || [];
     } catch (error) {
-      return [];
+      if (error.code === 'ENOENT') {
+        return [];
+      }
+      throw error;
     }
   }
 
@@ -41,13 +47,14 @@ class DigestManager {
     return ids;
   }
 
-  async getUndigestedLinks() {
+  async getUndigestedLinks(cutoff) {
     const digestsData = await this.loadDigests();
     const links = await this.loadLinks();
     const digestedIds = this.getDigestedLinkIds(digestsData);
 
     return links
       .filter(link => !digestedIds.has(link.id))
+      .filter(link => !cutoff || new Date(link.timestamp) <= new Date(cutoff))
       .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
   }
 
@@ -68,9 +75,9 @@ class DigestManager {
   formatDigestTitle(weekStart, weekEnd) {
     const start = new Date(weekStart + 'T12:00:00Z');
     const end = new Date(weekEnd + 'T12:00:00Z');
-    const opts = { month: 'short', day: 'numeric' };
+    const opts = { month: 'short', day: 'numeric', timeZone: 'UTC' };
     const startStr = start.toLocaleDateString('en-US', opts);
-    const sameMonth = start.getMonth() === end.getMonth() && start.getFullYear() === end.getFullYear();
+    const sameMonth = start.getUTCMonth() === end.getUTCMonth() && start.getUTCFullYear() === end.getUTCFullYear();
 
     if (sameMonth) {
       return `${startStr}-${end.getUTCDate()}, ${end.getUTCFullYear()}`;
@@ -149,8 +156,7 @@ ${items}
   </main>
 
 ${tagsFooter}  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
-    <p>You're receiving this because you subscribed to newsfeeds.net digests.</p>
-    <p><a href="https://newsfeeds.net" style="color: #666;">Visit newsfeeds.net</a> &middot; <a href="{{unsubscribe_url}}" style="color: #666;">Unsubscribe</a></p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">newsfeeds.net</a> &middot; <a href="https://newsfeeds.net/feed-digests.xml" style="color: #666;">Subscribe via RSS</a></p>
   </footer>
 </body>
 </html>`;
@@ -193,8 +199,8 @@ ${tagsFooter}  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1
 `;
   }
 
-  async createDigest(writeup = '', markAsDigested = true) {
-    const undigestedLinks = await this.getUndigestedLinks();
+  async createDigest(writeup = '', markAsDigested = true, options = {}) {
+    const undigestedLinks = await this.getUndigestedLinks(options.cutoff);
 
     if (undigestedLinks.length === 0) {
       return { success: false, error: 'No undigested links', html: '' };
@@ -218,7 +224,7 @@ ${tagsFooter}  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1
 
     if (markAsDigested) {
       const digestsData = await this.loadDigests();
-      const digestNumber = digestsData.digests.length + 1;
+      const digestNumber = digestsData.digests.reduce((m, d) => Math.max(m, d.id), 0) + 1;
 
       // Save HTML file
       const { filename } = await this.saveDigestToFile(dedupedLinks, digestNumber, title, writeup);
@@ -258,7 +264,8 @@ ${tagsFooter}  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1
   }
 
   async saveDigestToFile(links, digestNumber, title, writeup) {
-    const dateStr = new Date().toISOString().split('T')[0];
+    const now = new Date();
+    const dateStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
     const paddedNum = String(digestNumber).padStart(3, '0');
     const filename = `digest-${paddedNum}-${dateStr}.html`;
     const filepath = path.join(this.digestsDir, filename);

@@ -2,10 +2,16 @@
 
 const DigestManager = require('../utils/digest-manager.cjs');
 
+function getArgValue(args, flag) {
+  const i = args.indexOf(flag);
+  return i === -1 ? undefined : args[i + 1];
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run') || args.includes('-n');
-  const markAsDigested = !dryRun;
+  const writeup = getArgValue(args, '--writeup');
+  const cutoff = getArgValue(args, '--cutoff');
 
   const digestManager = new DigestManager();
 
@@ -17,13 +23,22 @@ async function main() {
       process.exit(1);
     }
 
+    if (!dryRun && !writeup) {
+      console.error('Error: --writeup "text" is required to generate a digest.');
+      console.error('A digest needs an approved writeup before it can be published.');
+      console.error('Run with --dry-run to preview without a writeup.\n');
+      process.exit(1);
+    }
+
     if (dryRun) {
       console.error(`\nPreview (${status.undigestedCount} links):\n`);
     } else {
       console.error(`\nGenerating digest #${status.totalDigests + 1} with ${status.undigestedCount} links...\n`);
     }
 
-    const result = await digestManager.createDigest(markAsDigested);
+    const result = dryRun
+      ? await digestManager.createDigest('', false, { cutoff })
+      : await digestManager.createDigest(writeup, true, { cutoff });
 
     if (!result.success) {
       console.error('Error:', result.error);
