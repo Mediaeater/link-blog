@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1785457694030,
+      "url": "https://thenerdstash.com/cartoonishly-evil-indiana-residents-furious-after-data-center-project-cuts-power-to-tornado-warning-sirens/",
+      "source": "‘Cartoonishly Evil’: Indiana Residents Furious After Data Center Project Cuts Power to Tornado Warning Sirens",
+      "pullQuote": "An Indiana community has been left stunned after a local news alert warned residents that a data center construction project had accidentally cut power lines supplying tornado warning sirens, sparking a wave of outrage online as critics claimed the incident perfectly summed up America’s increasingly controversial data center boom. The warning, shared by local Indiana news website Linton News via its Facebook page, then later on Reddit’s r/Indiana community, quickly spread across social media after users learned that crews working on the project had disabled power feeding the county’s outdoor warning system just as severe weather rolled through the area.",
+      "tags": [
+        "infrastructure",
+        "safety",
+        "community",
+        "datacenters",
+        "ai-backlash"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-07-31T00:28:14.030Z",
+      "visits": 0
+    },
+    {
       "id": 1785413118081,
       "url": "https://www.pacingthefrontier.com/",
       "source": "Pacing the Frontier — statement from 1,293 frontier AI lab employees",
@@ -8963,5 +8979,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-07-30T12:05:18.081Z"
+  "lastUpdated": "2026-07-31T00:28:14.030Z"
 }
