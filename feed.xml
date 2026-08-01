@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 01 Aug 2026 11:02:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 15:46:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[The Four Horsemen of the AI Bubble Apocalypse]]></title>
+            <link>https://www.derekthompson.org/p/the-four-horsemen-of-the-ai-bubble</link>
+            <guid>1785599214898</guid>
+            <pubDate>Sat, 01 Aug 2026 15:46:54 GMT</pubDate>
+            <description><![CDATA[Tags: ai, financial, business, ai-bubble]]></description>
+        </item>
         <item>
             <title><![CDATA[How a Stranger Used One Text Message to Steal My Entire Digital Life]]></title>
             <link>https://time.com/article/2026/07/07/how-a-stranger-used-one-text-message-to-steal-my-entire-digital-life/</link>
