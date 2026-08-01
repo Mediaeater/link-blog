@@ -809,7 +809,6 @@ export default function LinkBlogClean() {
                 <a
                   href="/"
                   className="text-xl md:text-2xl font-medium text-neutral-900 hover:text-neutral-600 transition-colors"
-                  style={{ fontFamily: "'JetBrains Mono', monospace" }}
                 >
                   newsfeeds.net
                 </a>
