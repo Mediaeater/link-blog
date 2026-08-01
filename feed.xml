@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 01 Aug 2026 10:32:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 10:39:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[BMW Spider-Man in-car advertising]]></title>
+            <link>https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising</link>
+            <guid>1785580767105</guid>
+            <pubDate>Sat, 01 Aug 2026 10:39:27 GMT</pubDate>
+            <description><![CDATA[Tags: advertising, privacy, car-privacy]]></description>
+        </item>
         <item>
             <title><![CDATA[DeepSeek V4 Flash 0731 – Intelligence, Performance & Price Analysis]]></title>
             <link>https://artificialanalysis.ai/models/deepseek-v4-flash#intelligence-comparison-tabs</link>
