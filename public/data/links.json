@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785599214898,
+      "url": "https://www.derekthompson.org/p/the-four-horsemen-of-the-ai-bubble",
+      "source": "The Four Horsemen of the AI Bubble Apocalypse",
+      "pullQuote": "The capabilities of AI are becoming more powerful, while the economic underpinnings of the AI buildout—and, as we'll discuss, the political support for AI—are becoming more vulnerable. Beyond the headlines, I see four main categories of risk facing AI, or four horsemen of the potential AI bubble apocalypse. They include spending risk, revenue risk, political risk, and technological risk.",
+      "tags": [
+        "ai",
+        "financial",
+        "business",
+        "ai-bubble"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-01T15:46:54.898Z",
+      "visits": 0
+    },
+    {
       "id": 1785582177421,
       "url": "https://time.com/article/2026/07/07/how-a-stranger-used-one-text-message-to-steal-my-entire-digital-life/",
       "source": "How a Stranger Used One Text Message to Steal My Entire Digital Life",
@@ -9055,5 +9070,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-01T11:02:57.421Z"
+  "lastUpdated": "2026-08-01T15:46:54.898Z"
 }
