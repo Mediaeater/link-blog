@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785582177421,
+      "url": "https://time.com/article/2026/07/07/how-a-stranger-used-one-text-message-to-steal-my-entire-digital-life/",
+      "source": "How a Stranger Used One Text Message to Steal My Entire Digital Life",
+      "pullQuote": "It began, as these things now do, with a text message. It looked entirely official: a fraud alert about a possible unauthorized charge on my Goldman Sachs Apple Card. When I asked the caller to prove he was who he claimed to be, he read my entire Social Security number and my date of birth back to me. The stranger was me, and I was no one.",
+      "tags": [
+        "security",
+        "apple",
+        "identity",
+        "phishing"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-01T11:02:57.421Z",
+      "visits": 0
+    },
+    {
       "id": 1785580767105,
       "url": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
       "source": "BMW Spider-Man in-car advertising",
@@ -9040,5 +9055,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-01T10:39:27.105Z"
+  "lastUpdated": "2026-08-01T11:02:57.421Z"
 }
