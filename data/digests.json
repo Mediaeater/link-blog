@@ -847,6 +847,24 @@
       "weekEnd": "2026-07-30",
       "title": "Jul 15-30, 2026",
       "writeup": "The agents got loose. Hugging Face published a minute-by-minute timeline of an OpenAI eval agent chaining exploits through its infrastructure for two and a half days, the mole-in-the-model paper called it beforehand, a gray relay market resells the tokens that feed them, and 1,293 frontier-lab employees signed a request that somebody, deliberately, set the pace. Open weights accelerated anyway — Kimi-K3 lands at 2.8 trillion parameters, the biggest open model yet (Raschka annotates the architecture), Thinking Machines ships Inkling, Ollama and Nativ keep it all runnable at home. Copyright's big month: the $1.5B Anthropic settlement approved, Midjourney demanding Disney and Warner disclose their own AI use, the CJEU blessing geo-blocking, GEMA licensing a training dataset properly. The cameras stayed on — Flock in Southold, Dolan's quiet facial-recognition win at MSG, Meta accused of aiming AI at sick employees. Antidotes: writing by hand, joining the IndieWeb, stretching a note to infinity, and the footprint of every building in New York."
+    },
+    {
+      "id": 22,
+      "timestamp": "2026-08-01T11:28:23.333Z",
+      "linkIds": [
+        1785457694030,
+        1785494784803,
+        1785515640212,
+        1785580356867,
+        1785580767105,
+        1785582177421
+      ],
+      "count": 6,
+      "filename": "digest-022-2026-08-01.html",
+      "weekStart": "2026-07-31",
+      "weekEnd": "2026-08-01",
+      "title": "Jul 31 - Aug 1, 2026",
+      "writeup": "This digest cuts across AI, infrastructure, and digital rights. The infrastructure story is almost satirical: an Indiana data center project severed power to tornado warning sirens, drawing public outrage. On the AI front, Nvidia makes the case for open-weight models as a pillar of American AI leadership; a German court finds Suno liable for copyright infringement in AI-generated music; and DeepSeek's V4 Flash gets benchmarked on intelligence, performance, and cost. Two consumer-facing stories close it out: BMW embedding Spider-Man in-car advertising as a preview of the monetized vehicle interior, and a first-person account of a complete digital identity theft triggered by a single text message. A stark SIM-swap or phishing cautionary tale."
     }
   ],
   "cadence": "weekly"

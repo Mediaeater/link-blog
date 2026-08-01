@@ -4,11 +4,60 @@
         <title>newsfeeds.net - Weekly Digests</title>
         <link>https://newsfeeds.net</link>
         <description>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</description>
-        <lastBuildDate>Thu, 30 Jul 2026 13:34:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Aug 2026 11:28:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <atom:link href="https://newsfeeds.net/feed-digests.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Jul 31 - Aug 1, 2026]]></title>
+            <link>https://newsfeeds.net/digests/digest-022-2026-08-01.html</link>
+            <guid>https://newsfeeds.net/digests/digest-022-2026-08-01.html</guid>
+            <pubDate>Sat, 01 Aug 2026 11:28:23 GMT</pubDate>
+            <description><![CDATA[6 curated links]]></description>
+            <content:encoded><![CDATA[
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Jul 31 - Aug 1, 2026 &middot; 6 links</p>
+  </header>
+
+<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;"><p style="margin: 0 0 12px 0;">This digest cuts across AI, infrastructure, and digital rights. The infrastructure story is almost satirical: an Indiana data center project severed power to tornado warning sirens, drawing public outrage. On the AI front, Nvidia makes the case for open-weight models as a pillar of American AI leadership; a German court finds Suno liable for copyright infringement in AI-generated music; and DeepSeek&#39;s V4 Flash gets benchmarked on intelligence, performance, and cost. Two consumer-facing stories close it out: BMW embedding Spider-Man in-car advertising as a preview of the monetized vehicle interior, and a first-person account of a complete digital identity theft triggered by a single text message. A stark SIM-swap or phishing cautionary tale.</p></div>
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://thenerdstash.com/cartoonishly-evil-indiana-residents-furious-after-data-center-project-cuts-power-to-tornado-warning-sirens/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">‘Cartoonishly Evil’: Indiana Residents Furious After Data Center Project Cuts Power to Tornado Warning Sirens</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">thenerdstash.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">An Indiana community has been left stunned after a local news alert warned residents that a data center construction project had accidentally cut power lines supplying tornado warning sirens, sparking a wave of outrage online as critics claimed the incident perfectly summed up America’s increasingly controversial data center boom. The warning, shared by local Indiana news website Linton News via its Facebook page, then later on Reddit’s r/Indiana community, quickly spread across social media after users learned that crews working on the project had disabled power feeding the county’s outdoor warning system just as severe weather rolled through the area.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Open Weights and American AI Leadership</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">images.nvidia.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Our AI leadership will be judged not by one frontier AI model, but by whether the United States builds a strong, open ecosystem that diffuses into every sector. This is essential for creating opportunities for innovation and prosperity across the country. It requires expanding access to AI, encouraging competition, robust application layers, and giving Americans greater control over the technology they rely on. Open weight models—AI models that anyone can download, inspect, modify, and run on their own infrastructure—are an important part of that foundation because they make advanced AI more accessible, adaptable, and widely available.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.reuters.com/world/german-court-rules-ai-music-firm-suno-broke-copyright-rules-2026-07-31/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">German court rules AI music firm Suno broke copyright rules</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">reuters.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">A German court ruled on Friday that AI music firm Suno violated copyrights and has to disclose illicit revenue, part of a wider legal battle by artists and publishers against technology firms. The Munich-based regional court said Suno did not have the right to process songs by artists represented by Germany&#39;s state-mandated licensing agency Gema.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://artificialanalysis.ai/models/deepseek-v4-flash#intelligence-comparison-tabs" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">DeepSeek V4 Flash 0731 – Intelligence, Performance &amp; Price Analysis</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">artificialanalysis.ai</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">DeepSeek V4 Flash 0731 (Reasoning, Max Effort) is amongst the leading models in intelligence and well priced when comparing to other open weight models of similar size. The model supports text input, outputs text, and has a 1M tokens context window. DeepSeek V4 Flash 0731 (Reasoning, Max Effort) scores 50 on the Artificial Analysis Intelligence Index, placing it well above average among comparable models (median: 25).</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">BMW Spider-Man in-car advertising</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">consumerrights.wiki</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">On July 27, 2026, BMW began delivering a full-screen Spider-Man: Brand New Day movie advertisement to the dashboard Control Display (the car&#39;s main center screen) of customer BMW vehicles, placing a branded third-party advertisement in cars their owners had already bought. As recently as December 2023, BMW&#39;s connected-company senior vice president Stephan Durach had stated on record that the company would not sell in-car screen space to play a commercial, calling the car a private space.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://time.com/article/2026/07/07/how-a-stranger-used-one-text-message-to-steal-my-entire-digital-life/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">How a Stranger Used One Text Message to Steal My Entire Digital Life</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">time.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">It began, as these things now do, with a text message. It looked entirely official: a fraud alert about a possible unauthorized charge on my Goldman Sachs Apple Card. When I asked the caller to prove he was who he claimed to be, he read my entire Social Security number and my date of birth back to me. The stranger was me, and I was no one.</p>
+</div>
+  </main>
+
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> open-source &middot; advertising &middot; ai-backlash &middot; ai-music &middot; apple &middot; car-privacy &middot; community &middot; copyright &middot; datacenters &middot; deepseek &middot; eu &middot; government &middot; identity &middot; infrastructure &middot; intelligence &middot; legal &middot; llm &middot; music &middot; nvidia &middot; open-weights &middot; phishing &middot; privacy &middot; regulation &middot; safety &middot; security</p>
+  </div>
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p><a href="https://newsfeeds.net" style="color: #666;">newsfeeds.net</a> &middot; <a href="https://newsfeeds.net/feed-digests.xml" style="color: #666;">Subscribe via RSS</a></p>
+  </footer>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Jul 15-30, 2026]]></title>
             <link>https://newsfeeds.net/digests/digest-021-2026-07-30.html</link>
