@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785632752562,
+      "url": "https://dreamina.capcut.com/seedance/seedance-model",
+      "source": "Seedance AI Model by Dreamina: Advanced Text-to-Video & Image Animation",
+      "pullQuote": "Official Seedance 2.5 is built for longer, more controllable AI video creation, with support for up to 30-second continuous scenes, richer multimodal references, and more precise editing workflows. If you want to turn prompts, images, product shots, or story ideas into cinematic videos for social media, ads, ecommerce, or creative storytelling, explore the official Dreamina Seedance 2.5.",
+      "tags": [
+        "ai",
+        "video",
+        "bytedance",
+        "ai-video"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-02T01:05:52.562Z",
+      "visits": 0
+    },
+    {
       "id": 1785599214898,
       "url": "https://www.derekthompson.org/p/the-four-horsemen-of-the-ai-bubble",
       "source": "The Four Horsemen of the AI Bubble Apocalypse",
@@ -9070,5 +9085,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-01T15:46:54.898Z"
+  "lastUpdated": "2026-08-02T01:05:52.562Z"
 }
