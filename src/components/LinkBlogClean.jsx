@@ -850,12 +850,12 @@ export default function LinkBlogClean() {
                 </li>
                 <li>
                   <a
-                    href="/feed.xml"
+                    href="/feed.atom"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-3 hover:text-neutral-900 hover:underline underline-offset-4 transition-colors"
                   >
-                    RSS
+                    Atom
                   </a>
                 </li>
                 <li>
@@ -928,8 +928,8 @@ export default function LinkBlogClean() {
                     </button>
                   </li>
                   <li>
-                    <a href="/feed.xml" target="_blank" rel="noopener noreferrer" className="px-3 hover:text-neutral-900 transition-colors">
-                      RSS
+                    <a href="/feed.atom" target="_blank" rel="noopener noreferrer" className="px-3 hover:text-neutral-900 transition-colors">
+                      Atom
                     </a>
                   </li>
                   <li>

@@ -4,7 +4,7 @@ const path = require('path');
 const crypto = require('crypto');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
-const { generateRSS } = require('./utils/rss-generator.cjs');
+const { generateFeeds } = require('./utils/feed-generator.cjs');
 const activityPubRoutes = require('./routes/activitypub.cjs');
 const DigestManager = require('./utils/digest-manager.cjs');
 
@@ -238,20 +238,11 @@ function sendWithCache(res, body, contentType, maxAge) {
   res.send(body);
 }
 
-// RSS Feed endpoints
-app.get('/feed.xml', async (req, res) => {
+// Atom feed endpoints. /feed.xml and /atom.xml are legacy subscriber URLs and
+// serve the same Atom document as the canonical /feed.atom.
+app.get(['/feed.atom', '/feed.xml', '/atom.xml'], async (req, res) => {
   try {
-    const feeds = await generateRSS();
-    sendWithCache(res, feeds.rss, 'application/rss+xml; charset=utf-8', 3600);
-  } catch (error) {
-    console.error('Error generating RSS feed:', error);
-    res.status(500).send('Error generating RSS feed');
-  }
-});
-
-app.get('/atom.xml', async (req, res) => {
-  try {
-    const feeds = await generateRSS();
+    const feeds = await generateFeeds();
     sendWithCache(res, feeds.atom, 'application/atom+xml; charset=utf-8', 3600);
   } catch (error) {
     console.error('Error generating Atom feed:', error);
@@ -261,7 +252,7 @@ app.get('/atom.xml', async (req, res) => {
 
 app.get('/feed.json', async (req, res) => {
   try {
-    const feeds = await generateRSS();
+    const feeds = await generateFeeds();
     sendWithCache(res, feeds.json, 'application/feed+json; charset=utf-8', 3600);
   } catch (error) {
     console.error('Error generating JSON feed:', error);
@@ -295,9 +286,10 @@ if (require.main === module) {
    - GET  /api/digests    - Get digests data
    - POST /api/digest/generate - Generate a new digest
 
-   RSS Feed Endpoints:
-   - GET  /feed.xml       - RSS 2.0 feed
-   - GET  /atom.xml       - Atom feed
+   Feed Endpoints:
+   - GET  /feed.atom      - Atom 1.0 feed
+   - GET  /feed.xml       - Atom 1.0 feed (legacy subscriber URL)
+   - GET  /atom.xml       - Atom 1.0 feed (legacy subscriber URL)
    - GET  /feed.json      - JSON feed
 
    ActivityPub Endpoints:

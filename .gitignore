@@ -71,6 +71,8 @@ scripts/migrate-to-archive.cjs
 
 # Generated public assets (auto-generated during build)
 public/feed.xml
+public/feed.atom
+public/feed-digests.atom
 public/sitemap.xml
 public/data/feed.json
 public/data/blogroll.opml

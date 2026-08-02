@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 
 /**
- * Digest RSS feed generator
- * Reads data/digests.json + digest HTML files, generates RSS 2.0 feed
- * at public/feed-digests.xml using the `feed` package.
+ * Digest Atom feed generator
+ * Reads data/digests.json + digest HTML files, generates an Atom 1.0 feed
+ * at public/feed-digests.xml and public/feed-digests.atom using the `feed`
+ * package.
+ *
+ * Both paths carry identical Atom documents: feed-digests.xml is the existing
+ * subscriber URL and must keep resolving, .atom is the canonical name.
  */
 
 import fs from 'fs';
@@ -17,6 +21,7 @@ const CONFIG = {
   digestsJsonPath: path.join(__dirname, '../data/digests.json'),
   digestsDir: path.join(__dirname, '../data/digests'),
   outputPath: path.join(__dirname, '../public/feed-digests.xml'),
+  atomOutputPath: path.join(__dirname, '../public/feed-digests.atom'),
   siteUrl: process.env.SITE_URL || 'https://newsfeeds.net',
 };
 
@@ -43,12 +48,12 @@ function generate() {
   const feed = new Feed({
     title: 'newsfeeds.net - Weekly Digests',
     description: 'Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.',
-    id: `${CONFIG.siteUrl}/feed-digests.xml`,
+    id: `${CONFIG.siteUrl}/feed-digests.atom`,
     link: CONFIG.siteUrl,
     language: 'en',
     updated: digests.length > 0 ? new Date(digests[0].timestamp) : new Date(),
     feedLinks: {
-      rss: `${CONFIG.siteUrl}/feed-digests.xml`,
+      atom: `${CONFIG.siteUrl}/feed-digests.atom`,
     },
     author: {
       name: 'Mediaeater',
@@ -98,9 +103,11 @@ function generate() {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  fs.writeFileSync(CONFIG.outputPath, feed.rss2(), 'utf8');
+  const atom = feed.atom1();
+  fs.writeFileSync(CONFIG.outputPath, atom, 'utf8');
+  fs.writeFileSync(CONFIG.atomOutputPath, atom, 'utf8');
 
-  console.log(`\u2713 Digest feed generated: ${digests.length} digests → ${CONFIG.outputPath}`);
+  console.log(`\u2713 Digest Atom feed generated: ${digests.length} digests → feed-digests.xml + feed-digests.atom`);
 }
 
 generate();

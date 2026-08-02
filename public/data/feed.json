@@ -1,16 +1,16 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Mediaeater Digest",
-  "home_page_url": "https://mediaeater.github.io/link-blog/",
-  "feed_url": "https://mediaeater.github.io/link-blog/data/feed.json",
+  "home_page_url": "https://newsfeeds.net/",
+  "feed_url": "https://newsfeeds.net/data/feed.json",
   "description": "Latest links and resources - mediaeater - dispute the text",
-  "icon": "https://mediaeater.github.io/link-blog/favicon.ico",
-  "favicon": "https://mediaeater.github.io/link-blog/favicon.ico",
+  "icon": "https://newsfeeds.net/favicon.png",
+  "favicon": "https://newsfeeds.net/favicon.ico",
   "language": "en",
   "authors": [
     {
       "name": "Mediaeater",
-      "url": "https://mediaeater.github.io/link-blog/"
+      "url": "https://newsfeeds.net/"
     }
   ],
   "items": [

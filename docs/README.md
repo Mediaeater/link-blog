@@ -9,7 +9,7 @@ Welcome to the Link Blog documentation!
 ## Features
 
 - [ActivityPub & Fediverse](features/activitypub.md) - Federated social features
-- [Feeds & Syndication](features/feeds.md) - RSS, JSON Feed, OPML, Sitemap
+- [Feeds & Syndication](features/feeds.md) - Atom, JSON Feed, OPML, Sitemap
 - [SEO Optimization](SEO.md) - Search engine optimization features
 
 ## Reference

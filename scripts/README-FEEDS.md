@@ -4,11 +4,11 @@ This directory contains scripts for generating syndication feeds for the link bl
 
 ## Available Feeds
 
-### RSS Feed (`generate-rss.js`)
-- **Format**: RSS 2.0
-- **Output**: `/public/feed.xml`
-- **Standard**: Traditional RSS format widely supported by feed readers
-- **Command**: `npm run rss`
+### Atom Feed (`generate-atom.js`)
+- **Format**: Atom 1.0
+- **Output**: `/public/feed.atom` (canonical) and `/public/feed.xml` (legacy subscriber URL, identical document)
+- **Standard**: Widely supported by feed readers
+- **Command**: `npm run atom`
 
 ### JSON Feed (`generate-json-feed.js`)
 - **Format**: JSON Feed 1.1
@@ -23,9 +23,9 @@ This directory contains scripts for generating syndication feeds for the link bl
 - **Command**: `npm run opml`
 
 ### Digest Feed (`generate-digest-feed.js`)
-- **Format**: RSS 2.0
-- **Output**: `/public/feed-digests.xml`
-- **Standard**: Weekly digest roundups as RSS
+- **Format**: Atom 1.0
+- **Output**: `/public/feed-digests.atom` (canonical) and `/public/feed-digests.xml` (legacy subscriber URL, identical document)
+- **Standard**: Weekly digest roundups as Atom
 - **Command**: `npm run digest-feed`
 
 ### Sitemap (`generate-sitemap.js`)
@@ -38,8 +38,8 @@ This directory contains scripts for generating syndication feeds for the link bl
 ### Generate Individual Feeds
 
 ```bash
-# Generate RSS feed only
-npm run rss
+# Generate Atom feed only
+npm run atom
 
 # Generate JSON feed only
 npm run json-feed
@@ -95,15 +95,15 @@ Link blog specific metadata under `_link_blog`:
 Both feeds are discoverable via HTML `<link>` tags in `/index.html`:
 
 ```html
-<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.atom">
 <link rel="alternate" type="application/feed+json" title="JSON Feed" href="/data/feed.json">
 ```
 
 ## Feed URLs
 
-When deployed to GitHub Pages:
-- **RSS**: https://mediaeater.github.io/link-blog/feed.xml
-- **JSON Feed**: https://mediaeater.github.io/link-blog/data/feed.json
+Production (newsfeeds.net):
+- **Atom**: https://newsfeeds.net/feed.atom
+- **JSON Feed**: https://newsfeeds.net/data/feed.json
 
 ## Validation
 
@@ -111,8 +111,8 @@ When deployed to GitHub Pages:
 You can validate the generated JSON Feed at:
 - https://validator.jsonfeed.org/
 
-### RSS Validation
-You can validate the RSS feed at:
+### Atom Validation
+You can validate the Atom feed at:
 - https://validator.w3.org/feed/
 
 ## Data Source

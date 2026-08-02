@@ -1,6 +1,6 @@
 # Link Blog
 
-> A sophisticated bookmark management system with intelligent tagging, RSS/JSON feeds, and ActivityPub integration.
+> A sophisticated bookmark management system with intelligent tagging, Atom/JSON feeds, and ActivityPub integration.
 
 ## Quick Start
 
@@ -23,7 +23,7 @@ Open **http://localhost:5174** and add `?admin=YourPassword` for admin access.
 
 - 📚 **Link Management** - Full CRUD with intelligent tag suggestions
 - 🔍 **Search & Filter** - Real-time search, tag filtering with URL parameters
-- 📡 **Syndication** - RSS, JSON Feed, OPML, Digest Feed, XML Sitemap
+- 📡 **Syndication** - Atom Feed, JSON Feed, OPML, Digest Feed, XML Sitemap
 - 🌐 **ActivityPub** - Fediverse integration (Mastodon-compatible)
 - 🎨 **Clean UI** - Trust blue branding, human-curated tagline
 - ⚡ **Fast** - Vite-powered dev experience, optimized production builds
@@ -333,7 +333,7 @@ npm run dev:save  # Starts both Vite and API server
 | `npm run build` | Production build (auto-generates feeds) | Before deployment |
 | `npm run deploy` | Build + deploy to GitHub Pages | Publish to production |
 | `npm run pull:newsfeeds` | Fetch + merge from newsfeeds.net | Sync remote links |
-| `npm run feeds` | Generate all feeds (RSS, JSON, OPML, Digest) | After link changes |
+| `npm run feeds` | Generate all feeds (Atom, JSON, OPML, Digest) | After link changes |
 | `npm run sitemap` | Generate sitemap.xml | After link changes |
 | `npm run prerender` | Inject crawler HTML | Build-time SEO |
 | `npm run lint` | Run ESLint | Before committing |
@@ -494,10 +494,10 @@ link-blog/
 │   └── index.css                # Global styles
 ├── scripts/                     # ~40 automation scripts
 │   ├── settle.js                # Pull + sync + rebuild
-│   ├── generate-rss.js          # RSS feed generation
+│   ├── generate-atom.js         # Atom feed generation
 │   ├── generate-json-feed.js    # JSON Feed generation
 │   ├── generate-opml.js         # OPML blogroll generation
-│   ├── generate-digest-feed.js  # Digest RSS feed
+│   ├── generate-digest-feed.js  # Digest Atom feed
 │   ├── generate-prerender.js    # <noscript> HTML for crawlers
 │   ├── generate-itemlist.js     # Schema.org ItemList JSON-LD
 │   ├── generate-sitemap.js      # XML sitemap
@@ -507,14 +507,16 @@ link-blog/
 ├── routes/
 │   └── activitypub.cjs          # ActivityPub endpoints
 ├── services/                    # ActivityPub services
-├── utils/                       # Digest & RSS helpers
+├── utils/                       # Digest & Atom helpers
 ├── public/
 │   ├── data/
 │   │   ├── links.json           # Public data store
 │   │   ├── feed.json            # JSON Feed (generated)
 │   │   └── blogroll.opml        # OPML blogroll (generated)
-│   ├── feed.xml                 # RSS feed (generated)
-│   ├── feed-digests.xml         # Digest RSS (generated)
+│   ├── feed.atom                # Atom feed (generated, canonical)
+│   ├── feed.xml                 # Atom feed (generated, legacy URL)
+│   ├── feed-digests.atom        # Digest Atom feed (generated, canonical)
+│   ├── feed-digests.xml         # Digest Atom feed (generated, legacy URL)
 │   ├── sitemap.xml              # Sitemap (generated)
 │   └── robots.txt               # Bot rules
 ├── data/
@@ -565,18 +567,19 @@ useEffect(() => {
 
 ## Advanced Features
 
-### RSS Feed Generation
+### Atom Feed Generation
 
-**Implementation (scripts/generate-rss.js):**
+**Implementation (scripts/generate-atom.js):**
 ```javascript
-// Generates RSS feed from links.json
+// Generates an Atom 1.0 feed from links.json
 const feed = new Feed({
   title: "Link Blog Feed",
   description: "Latest links and resources",
   link: "https://your-domain.com"
 });
 
-// Outputs to public/feed.xml
+// Outputs to public/feed.atom (canonical) and public/feed.xml (legacy URL)
+const atom = feed.atom1();
 ```
 
 ### OPML Export (Blogroll)
@@ -589,8 +592,8 @@ const feed = new Feed({
 
 // Usage:
 npm run opml                    // Generate OPML only
-npm run digest-feed             // Generate Digest RSS feed
-npm run feeds                   // Generate RSS, JSON Feed, OPML, and Digest feed
+npm run digest-feed             // Generate Digest Atom feed
+npm run feeds                   // Generate Atom, JSON Feed, OPML, and Digest feed
 npm run prerender               // Inject <noscript> HTML for crawlers
 npm run itemlist                // Inject Schema.org ItemList JSON-LD
 npm run build                   // Auto-generates all feeds + prerender + itemlist
@@ -602,9 +605,9 @@ npm run build                   // Auto-generates all feeds + prerender + itemli
 - Multi-tagged links appear under each tag
 - Includes full metadata (title, url, description, dates)
 - 353 links across all categories
-- Compatible with all major RSS readers and blogroll tools
+- Compatible with all major feed readers and blogroll tools
 
-**File:** `https://mediaeater.github.io/link-blog/data/blogroll.opml`
+**File:** `https://newsfeeds.net/data/blogroll.opml`
 
 **Documentation:** See `scripts/README-OPML.md` for technical details.
 

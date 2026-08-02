@@ -8,6 +8,7 @@ Allow: /feed.atom
 Allow: /data/feed.json
 Allow: /data/blogroll.opml
 Allow: /feed-digests.xml
+Allow: /feed-digests.atom
 Disallow: /admin
 Disallow: /data/links.json
 Disallow: /dist/

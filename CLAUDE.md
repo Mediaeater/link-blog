@@ -39,14 +39,14 @@ npm run deploy        # build + publish to GitHub Pages
 npm run add:link -- --url "https://..." --title "..." --quote "..." --tags "a,b,c"
 npm run tag-vocab     # regenerate data/tag-vocabulary.json from the corpus
 npm run pull:newsfeeds  # fetch + merge links from newsfeeds.net
-npm run feeds         # regenerate RSS/JSON/OPML/digest feeds
+npm run feeds         # regenerate Atom/JSON/OPML/digest feeds
 npm run sitemap       # regenerate sitemap
 npm run patch:page -- digests/digest-016-2026-05-30.html   # push ONE static page to gh-pages
 ```
 
 > **patch:page vs deploy**: `patch:page` pushes a single file from `public/` straight to
 > `gh-pages` via a throwaway worktree — fast, no `vite build`. Use it ONLY for static-HTML
-> changes. Anything read by the React app or RSS feeds (`links.json`, `digests.json`, feeds)
+> changes. Anything read by the React app or the Atom feeds (`links.json`, `digests.json`, feeds)
 > needs the full `npm run deploy`.
 
 ## Paste-a-URL add workflow (Claude procedure)

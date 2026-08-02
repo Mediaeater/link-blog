@@ -61,15 +61,15 @@ npm run sync                # Manual localStorage sync utility
 
 ### Generate All Feeds
 ```bash
-npm run feeds               # Generate RSS, JSON Feed, OPML, and Digest feed
+npm run feeds               # Generate Atom, JSON Feed, OPML, and Digest feed
 ```
 
 ### Individual Feed Generators
 ```bash
-npm run rss                 # Generate RSS 2.0 feed (feed.xml)
+npm run atom                # Generate Atom 1.0 feed (feed.atom, feed.xml)
 npm run json-feed           # Generate JSON Feed (data/feed.json)
 npm run opml                # Generate OPML blogroll (data/blogroll.opml)
-npm run digest-feed         # Generate Digest RSS feed (feed-digests.xml)
+npm run digest-feed         # Generate Digest Atom feed (feed-digests.atom, feed-digests.xml)
 ```
 
 ---
@@ -152,7 +152,7 @@ npm run deploy              # Deploy to GitHub Pages
 ### After Adding Many Links
 ```bash
 npm run sitemap             # Update sitemap
-npm run feeds               # Update RSS/JSON/OPML
+npm run feeds               # Update Atom/JSON/OPML
 git commit -am "Update links"
 git push
 ```
@@ -176,10 +176,10 @@ git push
 | `sync` | Browser localStorage sync | Alternative sync method |
 | `sitemap` | Generate sitemap.xml | After link changes |
 | `feeds` | Generate all feeds | After link changes |
-| `rss` | Generate RSS feed | Individual feed update |
+| `atom` | Generate Atom feed | Individual feed update |
 | `json-feed` | Generate JSON Feed | Individual feed update |
 | `opml` | Generate OPML blogroll | Individual feed update |
-| `digest-feed` | Generate Digest RSS feed | Individual feed update |
+| `digest-feed` | Generate Digest Atom feed | Individual feed update |
 | `prerender` | Inject crawler HTML into index.html | Build-time SEO |
 | `itemlist` | Inject ItemList JSON-LD | Build-time SEO |
 | `lint` | Check code quality | Before committing |
@@ -206,7 +206,7 @@ npm run build
   ↳ prebuild hook
     ↳ npm run sitemap
     ↳ npm run feeds
-      ↳ npm run rss
+      ↳ npm run atom
       ↳ npm run json-feed
       ↳ npm run opml
       ↳ npm run digest-feed

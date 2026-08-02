@@ -47,11 +47,11 @@ Deploy to GitHub Pages.
 
 #### `npm run feeds`
 Generate all syndication feeds.
-Runs: RSS, JSON Feed, OPML, Sitemap
+Runs: Atom, JSON Feed, OPML, Digest Feed
 
-#### `npm run rss`
-Generate RSS 2.0 feed only.
-Output: `public/feed.xml`
+#### `npm run atom`
+Generate Atom 1.0 feed only.
+Output: `public/feed.atom` and `public/feed.xml` (legacy, identical document)
 
 #### `npm run json-feed`
 Generate JSON Feed 1.1.
@@ -121,7 +121,7 @@ Sync and auto-commit to git.
 ### Feed Generators
 
 All in `/scripts`:
-- `generate-rss.js`
+- `generate-atom.js`
 - `generate-json-feed.js`
 - `generate-opml.js`
 - `generate-sitemap.js`

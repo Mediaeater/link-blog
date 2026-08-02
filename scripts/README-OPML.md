@@ -2,18 +2,18 @@
 
 ## Overview
 
-The OPML (Outline Processor Markup Language) export feature generates a standardized blogroll file from your link blog data. This allows you to share your curated links with RSS readers, blog roll aggregators, and other OPML-compatible tools.
+The OPML (Outline Processor Markup Language) export feature generates a standardized blogroll file from your link blog data. This allows you to share your curated links with feed readers, blog roll aggregators, and other OPML-compatible tools.
 
 ## What is OPML?
 
-OPML 2.0 is an XML format used to exchange lists of web feeds and bookmarks. It's widely supported by RSS readers and blog platforms for importing/exporting subscription lists and blogrolls.
+OPML 2.0 is an XML format used to exchange lists of web feeds and bookmarks. It's widely supported by feed readers and blog platforms for importing/exporting subscription lists and blogrolls.
 
 ## Generated File
 
 - **Location**: `/public/data/blogroll.opml`
 - **Format**: OPML 2.0 XML
 - **Structure**: Links organized by tags as outline categories
-- **Public URL**: `https://mediaeater.github.io/link-blog/data/blogroll.opml`
+- **Public URL**: `https://newsfeeds.net/data/blogroll.opml`
 
 ## Usage
 
@@ -34,7 +34,7 @@ This command:
 The OPML generation is automatically included in the build process via the `feeds` script:
 
 ```bash
-npm run feeds    # Generates RSS, JSON Feed, and OPML
+npm run feeds    # Generates Atom, JSON Feed, and OPML
 npm run build    # Includes feeds generation via prebuild hook
 ```
 
@@ -87,7 +87,7 @@ Each link entry includes:
 
 The generated OPML file can be imported into:
 
-### RSS Readers
+### Feed Readers
 - Feedly
 - Inoreader
 - NewsBlur
@@ -115,13 +115,13 @@ The generated OPML file can be imported into:
 </a>
 ```
 
-### RSS Reader Auto-Discovery
+### Feed Reader Auto-Discovery
 ```html
 <link
   rel="outline"
   type="text/x-opml"
   title="Blogroll"
-  href="https://mediaeater.github.io/link-blog/data/blogroll.opml"
+  href="https://newsfeeds.net/data/blogroll.opml"
 />
 ```
 

@@ -168,7 +168,7 @@ Run before each build (automatically via `prebuild` script).
 
 ### Allow List
 - Main content (`/`)
-- RSS feeds (`/feed.xml`, `/feed-digests.xml`)
+- Atom feeds (`/feed.xml`, `/feed.atom`)
 - JSON feed (`/data/feed.json`)
 - OPML blogroll (`/data/blogroll.opml`)
 - Digest feed (`/feed-digests.xml`)
@@ -221,20 +221,20 @@ Blocked user-agents (to protect curated content):
 ## Feed Discovery
 
 ### Available Feeds
-1. **RSS 2.0** - `/feed.xml`
+1. **Atom 1.0** - `/feed.atom` (canonical), also served at `/feed.xml`
 2. **JSON Feed** - `/data/feed.json`
 4. **OPML Blogroll** - `/data/blogroll.opml`
-5. **Digest Feed** - `/feed-digests.xml`
+5. **Digest Feed** - `/feed-digests.atom` (canonical), also served at `/feed-digests.xml`
 
 ### Link Tags
 ```html
-<link rel="alternate" type="application/rss+xml" title="mediaeater RSS Feed" href="/feed.xml">
-<link rel="alternate" type="application/feed+json" title="mediaeater JSON Feed" href="/data/feed.json">
-<link rel="alternate" type="application/rss+xml" title="mediaeater Digests Feed" href="/feed-digests.xml">
+<link rel="alternate" type="application/atom+xml" title="newsfeeds.net Atom Feed" href="/feed.atom">
+<link rel="alternate" type="application/feed+json" title="newsfeeds.net JSON Feed" href="/data/feed.json">
+<link rel="alternate" type="application/atom+xml" title="newsfeeds.net Digests Feed" href="/feed-digests.atom">
 ```
 
 **Benefits:**
-- RSS reader auto-discovery
+- Feed reader auto-discovery
 - Feed aggregator compatibility
 - Enhanced content distribution
 
@@ -310,7 +310,7 @@ Standard security contact information:
 
 ### Before Each Deployment
 - [ ] Run `npm run sitemap` to regenerate sitemap
-- [ ] Run `npm run feeds` to update RSS/Atom/JSON feeds
+- [ ] Run `npm run feeds` to update Atom/JSON feeds
 - [ ] Verify canonical URLs are correct
 - [ ] Check meta descriptions are current
 - [ ] Test Open Graph tags with validators
@@ -438,7 +438,7 @@ This is a Single Page Application, which presents unique SEO challenges:
 ```bash
 # Regenerate all SEO-related files
 npm run sitemap          # Generate sitemap.xml
-npm run feeds            # Generate RSS, Atom, JSON, Digest feeds
+npm run feeds            # Generate Atom, JSON, Digest feeds
 npm run prerender        # Inject <noscript> HTML for crawlers
 npm run itemlist         # Inject Schema.org ItemList JSON-LD
 npm run prebuild         # Run all pre-build tasks (sitemap + feeds + prerender + itemlist)
@@ -484,7 +484,7 @@ npm run deploy           # Build + deploy to GitHub Pages
 ✅ **Ready for:**
 - Search engine submission
 - Social media sharing
-- RSS aggregation
+- Atom aggregation
 - Developer community engagement
 
 📈 **Expected Benefits:**

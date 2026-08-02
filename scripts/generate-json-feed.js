@@ -4,6 +4,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+const SITE_URL = process.env.SITE_URL || 'https://newsfeeds.net';
+
 const generateJSONFeed = async () => {
   // Read links.json
   const linksPath = path.join(__dirname, '../public/data/links.json');
@@ -13,16 +15,16 @@ const generateJSONFeed = async () => {
   const feed = {
     version: 'https://jsonfeed.org/version/1.1',
     title: 'Mediaeater Digest',
-    home_page_url: 'https://mediaeater.github.io/link-blog/',
-    feed_url: 'https://mediaeater.github.io/link-blog/data/feed.json',
+    home_page_url: `${SITE_URL}/`,
+    feed_url: `${SITE_URL}/data/feed.json`,
     description: 'Latest links and resources - mediaeater - dispute the text',
-    icon: 'https://mediaeater.github.io/link-blog/favicon.ico',
-    favicon: 'https://mediaeater.github.io/link-blog/favicon.ico',
+    icon: `${SITE_URL}/favicon.png`,
+    favicon: `${SITE_URL}/favicon.ico`,
     language: 'en',
     authors: [
       {
         name: 'Mediaeater',
-        url: 'https://mediaeater.github.io/link-blog/'
+        url: `${SITE_URL}/`
       }
     ],
     items: []

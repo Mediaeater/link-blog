@@ -6,11 +6,11 @@ The link blog provides multiple syndication formats for maximum compatibility wi
 
 ## Available Formats
 
-### 1. RSS Feed (feed.xml)
+### 1. Atom Feed (feed.atom, feed.xml)
 
-**Standard**: RSS 2.0
-**URL**: `/feed.xml`
-**Use Case**: Traditional feed readers
+**Standard**: Atom 1.0
+**URL**: `/feed.atom` (canonical), also served at `/feed.xml` (legacy subscriber URL, identical document)
+**Use Case**: Feed readers
 
 Generated automatically on build using the `feed` npm package.
 
@@ -21,7 +21,7 @@ Generated automatically on build using the `feed` npm package.
 - Author information
 
 **Access**:
-- Direct: `https://mediaeater.github.io/link-blog/feed.xml`
+- Direct: `https://newsfeeds.net/feed.atom`
 - Auto-discovery via `<link>` tag in HTML
 
 ### 2. JSON Feed (feed.json)
@@ -41,8 +41,8 @@ Generated automatically on build using the `feed` npm package.
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Mediaeater Digest",
-  "home_page_url": "https://mediaeater.github.io/link-blog/",
-  "feed_url": "https://mediaeater.github.io/link-blog/data/feed.json",
+  "home_page_url": "https://newsfeeds.net/",
+  "feed_url": "https://newsfeeds.net/data/feed.json",
   "items": [
     {
       "id": "1234567890",
@@ -78,10 +78,10 @@ Generated automatically on build using the `feed` npm package.
 1. File → Import Subscriptions
 2. Select `blogroll.opml`
 
-### 4. Digest Feed (feed-digests.xml)
+### 4. Digest Feed (feed-digests.atom, feed-digests.xml)
 
-**Standard**: RSS 2.0
-**URL**: `/feed-digests.xml`
+**Standard**: Atom 1.0
+**URL**: `/feed-digests.atom` (canonical), also served at `/feed-digests.xml` (legacy, identical document)
 **Use Case**: Subscribe to periodic digest roundups
 
 **Features**:
@@ -115,11 +115,11 @@ npm run build    # Generates all feeds + builds
 
 Individual generation:
 ```bash
-npm run feeds        # Generate all feeds (RSS, JSON, OPML, Digest)
-npm run rss          # RSS only
+npm run feeds        # Generate all feeds (Atom, JSON, OPML, Digest)
+npm run atom         # Atom only
 npm run json-feed    # JSON Feed only
 npm run opml         # OPML only
-npm run digest-feed  # Digest RSS only
+npm run digest-feed  # Digest Atom only
 npm run sitemap      # Sitemap only
 npm run prerender    # Inject <noscript> HTML for crawlers
 npm run itemlist     # Inject Schema.org ItemList JSON-LD
@@ -141,7 +141,7 @@ Feeds, prerender content, and structured data regenerate automatically on every 
 ## Validation
 
 Validate your feeds using online validators or the individual scripts:
-- RSS: https://validator.w3.org/feed/
+- Atom: https://validator.w3.org/feed/
 - JSON Feed: https://validator.jsonfeed.org/
 - Sitemap: https://www.xml-sitemaps.com/validate-xml-sitemap.html
 
@@ -150,12 +150,12 @@ Validate your feeds using online validators or the individual scripts:
 Feeds are discoverable via HTML `<link>` tags in `index.html`:
 
 ```html
-<link rel="alternate" type="application/rss+xml"
-      title="RSS Feed" href="/feed.xml">
+<link rel="alternate" type="application/atom+xml"
+      title="Atom Feed" href="/feed.atom">
 <link rel="alternate" type="application/feed+json"
       title="JSON Feed" href="/data/feed.json">
-<link rel="alternate" type="application/rss+xml"
-      title="Digests Feed" href="/feed-digests.xml">
+<link rel="alternate" type="application/atom+xml"
+      title="Digests Feed" href="/feed-digests.atom">
 <link rel="sitemap" type="application/xml"
       href="/sitemap.xml">
 ```
@@ -174,7 +174,7 @@ Current feed content (as of last build):
 
 Edit the generator scripts in `/scripts`:
 
-**RSS** (`scripts/generate-rss.js`):
+**Atom** (`scripts/generate-atom.js`):
 ```javascript
 const feed = new Feed({
   title: "Mediaeater Digest",        // Change here
@@ -232,8 +232,8 @@ feed.items.forEach(item => {
 ```python
 import feedparser
 
-# Parse RSS
-feed = feedparser.parse('https://mediaeater.github.io/link-blog/feed.xml')
+# Parse Atom
+feed = feedparser.parse('https://newsfeeds.net/feed.atom')
 
 for entry in feed.entries:
     print(entry.title, entry.link)
@@ -242,7 +242,7 @@ for entry in feed.entries:
 ## SEO Benefits
 
 - **Sitemaps**: Help search engines discover all links
-- **RSS/JSON**: Enable content syndication
+- **Atom/JSON**: Enable content syndication
 - **OPML**: Builds link authority through aggregation
 - **Faster indexing**: Search engines crawl feeds regularly
 

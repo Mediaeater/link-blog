@@ -136,8 +136,8 @@ node scripts/shutdown.cjs
 
 ## Feed & SEO Generation Scripts
 
-### `generate-rss.js`
-Generates RSS 2.0 feed from links data.
+### `generate-atom.js`
+Generates Atom 1.0 feed from links data, written to `public/feed.atom` and `public/feed.xml`.
 
 ### `generate-json-feed.js`
 Generates JSON Feed 1.1 from links data.
@@ -146,7 +146,7 @@ Generates JSON Feed 1.1 from links data.
 Generates OPML blogroll organized by tags.
 
 ### `generate-digest-feed.js`
-Generates RSS 2.0 feed for digest roundups from `data/digests.json` and digest HTML files.
+Generates Atom 1.0 feed for digest roundups from `data/digests.json` and digest HTML files, written to `public/feed-digests.atom` and `public/feed-digests.xml`.
 
 ### `generate-prerender.js`
 Injects semantic HTML (100 most recent links as `<article>` elements) wrapped in `<noscript>` into `index.html` at build time. Crawlers index this content; React hydration is unaffected. Uses marker comments for idempotent re-runs.
