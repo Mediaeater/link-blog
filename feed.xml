@@ -4,10 +4,17 @@
         <title>Mediaeater Digest</title>
         <link>https://mediaeater.github.io/link-blog/</link>
         <description>Latest links and resources</description>
-        <lastBuildDate>Sat, 01 Aug 2026 15:46:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Aug 2026 01:05:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Seedance AI Model by Dreamina: Advanced Text-to-Video & Image Animation]]></title>
+            <link>https://dreamina.capcut.com/seedance/seedance-model</link>
+            <guid>1785632752562</guid>
+            <pubDate>Sun, 02 Aug 2026 01:05:52 GMT</pubDate>
+            <description><![CDATA[Tags: ai, video, bytedance, ai-video]]></description>
+        </item>
         <item>
             <title><![CDATA[The Four Horsemen of the AI Bubble Apocalypse]]></title>
             <link>https://www.derekthompson.org/p/the-four-horsemen-of-the-ai-bubble</link>
