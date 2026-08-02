@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785668181326,
+      "url": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
+      "source": "Unraveling the mysteries of habit formation",
+      "pullQuote": "The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from the anterior cingulate cortex to the retrosplenial cortex, determines whether a behavior becomes a habit, with its connections weakening during the transition. Crucially, the second circuit, from the lateral orbitofrontal cortex to the central striatum, controls how much the habit is executed, explaining individual differences.",
+      "tags": [
+        "brain",
+        "science",
+        "research",
+        "neuroscience"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-02T10:56:21.326Z",
+      "visits": 0
+    },
+    {
       "id": 1785632752562,
       "url": "https://dreamina.capcut.com/seedance/seedance-model",
       "source": "Seedance AI Model by Dreamina: Advanced Text-to-Video & Image Animation",
@@ -9085,5 +9100,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-02T01:05:52.562Z"
+  "lastUpdated": "2026-08-02T10:56:21.326Z"
 }
