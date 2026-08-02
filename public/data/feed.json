@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1785668181326",
+      "url": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
+      "title": "Unraveling the mysteries of habit formation",
+      "date_published": "2026-08-02T10:56:21.326Z",
+      "tags": [
+        "brain",
+        "science",
+        "research",
+        "neuroscience"
+      ],
+      "content_text": "The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from the anterior cingulate cortex to the retrosplenial cortex, determines whether a behavior becomes a habit, with its connections weakening during the transition. Crucially, the second circuit, from the lateral orbitofrontal cortex to the central striatum, controls how much the habit is executed, explaining individual differences.",
+      "summary": "The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from t...",
+      "content_html": "<blockquote>The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from the anterior cingulate cortex to the retrosplenial cortex, determines whether a behavior becomes a habit, with its connections weakening during the transition. Crucially, the second circuit, from the lateral orbitofrontal cortex to the central striatum, controls how much the habit is executed, explaining individual differences.</blockquote>\n<p><strong>Tags:</strong> brain, science, research, neuroscience</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785632752562",
       "url": "https://dreamina.capcut.com/seedance/seedance-model",
       "title": "Seedance AI Model by Dreamina: Advanced Text-to-Video & Image Animation",
