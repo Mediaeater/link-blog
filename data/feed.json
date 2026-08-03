@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1785752401691",
+      "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html",
+      "title": "How China Keeps Tabs on Foreigners",
+      "date_published": "2026-08-03T10:20:01.691Z",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "nytimes",
+        "china"
+      ],
+      "content_text": "The database Mr. Hofer found offered a rare window into how extensively the Chinese authorities also surveil foreigners, displaying entries about people categorized by nationality, with their birth date, sex, marital status, address and occupation, and sometimes their religion. It also included instances when they were captured on camera at traffic intersections, markets, shopping malls or other locations, including a mosque.",
+      "summary": "The database Mr. Hofer found offered a rare window into how extensively the Chinese authorities also surveil foreigners, displaying entries about peop...",
+      "content_html": "<blockquote>The database Mr. Hofer found offered a rare window into how extensively the Chinese authorities also surveil foreigners, displaying entries about people categorized by nationality, with their birth date, sex, marital status, address and occupation, and sometimes their religion. It also included instances when they were captured on camera at traffic intersections, markets, shopping malls or other locations, including a mosque.</blockquote>\n<p><strong>Tags:</strong> surveillance, privacy, nytimes, china</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785751862621",
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "title": "The reporters at this news site are AI bots. OpenAI’s super PAC appears to be funding it.",
