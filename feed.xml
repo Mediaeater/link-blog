@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-03T10:20:01.691Z</updated>
+    <updated>2026-08-03T11:38:17.648Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[IFPI Rolls Out Global Principles for the Eligibility of Recordings Developed Using AI in Official Music Charts Worldwide]]></title>
+        <id>tag:newsfeeds.net,2026:link/1785757097648</id>
+        <link href="https://www.ifpi.org/ifpi-rolls-out-global-principles-for-the-eligibility-of-recordings-developed-using-ai-in-official-music-charts-worldwide/"/>
+        <updated>2026-08-03T11:38:17.648Z</updated>
+        <summary type="html"><![CDATA[Tags: music, ai-music, copyright, ai]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How China Keeps Tabs on Foreigners]]></title>
         <id>tag:newsfeeds.net,2026:link/1785752401691</id>
