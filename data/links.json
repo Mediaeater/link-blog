@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785752401691,
+      "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html",
+      "source": "How China Keeps Tabs on Foreigners",
+      "pullQuote": "The database Mr. Hofer found offered a rare window into how extensively the Chinese authorities also surveil foreigners, displaying entries about people categorized by nationality, with their birth date, sex, marital status, address and occupation, and sometimes their religion. It also included instances when they were captured on camera at traffic intersections, markets, shopping malls or other locations, including a mosque.",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "nytimes",
+        "china"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-03T10:20:01.691Z",
+      "visits": 0
+    },
+    {
       "id": 1785751862621,
       "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
       "source": "The reporters at this news site are AI bots. OpenAI’s super PAC appears to be funding it.",
@@ -9115,5 +9130,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-03T10:11:02.621Z"
+  "lastUpdated": "2026-08-03T10:20:01.691Z"
 }
