@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-02T10:56:21.326Z</updated>
+    <updated>2026-08-03T10:11:02.621Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[The reporters at this news site are AI bots. OpenAI’s super PAC appears to be funding it.]]></title>
+        <id>tag:newsfeeds.net,2026:link/1785751862621</id>
+        <link href="https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda"/>
+        <updated>2026-08-03T10:11:02.621Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, openai, journalism, politics]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unraveling the mysteries of habit formation]]></title>
         <id>tag:newsfeeds.net,2026:link/1785668181326</id>

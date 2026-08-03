@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785751862621,
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "source": "The reporters at this news site are AI bots. OpenAI’s super PAC appears to be funding it.",
+      "pullQuote": "An interview request from a bot posing as a reporter revealed an AI-generated news site with articles attacking AI industry critics. For the second time this month, we found links to Targeted Victory, the firm at the center of OpenAI's $125 million political operation.",
+      "tags": [
+        "ai",
+        "openai",
+        "journalism",
+        "politics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-03T10:11:02.621Z",
+      "visits": 0
+    },
+    {
       "id": 1785668181326,
       "url": "https://www.kyoto-u.ac.jp/en/research-news/2026-07-28",
       "source": "Unraveling the mysteries of habit formation",
@@ -9100,5 +9115,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-02T10:56:21.326Z"
+  "lastUpdated": "2026-08-03T10:11:02.621Z"
 }
