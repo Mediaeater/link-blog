@@ -80,11 +80,12 @@
         "brain",
         "science",
         "research",
-        "neuroscience"
+        "neuroscience",
+        "health"
       ],
       "content_text": "The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from the anterior cingulate cortex to the retrosplenial cortex, determines whether a behavior becomes a habit, with its connections weakening during the transition. Crucially, the second circuit, from the lateral orbitofrontal cortex to the central striatum, controls how much the habit is executed, explaining individual differences.",
       "summary": "The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from t...",
-      "content_html": "<blockquote>The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from the anterior cingulate cortex to the retrosplenial cortex, determines whether a behavior becomes a habit, with its connections weakening during the transition. Crucially, the second circuit, from the lateral orbitofrontal cortex to the central striatum, controls how much the habit is executed, explaining individual differences.</blockquote>\n<p><strong>Tags:</strong> brain, science, research, neuroscience</p>",
+      "content_html": "<blockquote>The team discovered that two distinct neural circuits manage completely different aspects of habits. The first circuit, with neurons projecting from the anterior cingulate cortex to the retrosplenial cortex, determines whether a behavior becomes a habit, with its connections weakening during the transition. Crucially, the second circuit, from the lateral orbitofrontal cortex to the central striatum, controls how much the habit is executed, explaining individual differences.</blockquote>\n<p><strong>Tags:</strong> brain, science, research, neuroscience, health</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
