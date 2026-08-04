@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785838605827,
+      "url": "https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/cultural-evolution-of-the-arts/018C2418F37CC343CDAC5528D8DB20CB",
+      "source": "Cultural evolution – of the arts",
+      "pullQuote": "In this paper, we chart an emerging academic terrain: cultural evolution of the arts, which is a theory-driven exploration of artistic dynamics, often done with large datasets of music, literature, movies, paintings, or games. This field has grown at the intersection of cultural evolution theory and several academic fields: computational humanities, anthropology, network science, and others, and poses interesting challenges for each of them.",
+      "tags": [
+        "art",
+        "culture",
+        "research",
+        "science"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-04T10:16:45.827Z",
+      "visits": 0
+    },
+    {
       "id": 1785802887848,
       "url": "https://www.theguardian.com/lifeandstyle/2026/mar/26/ai-chatbot-users-lives-wrecked-by-delusion",
       "source": "Marriage over, €100,000 down the drain: the AI users whose lives were wrecked by delusion",
@@ -9162,5 +9177,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-04T00:21:27.848Z"
+  "lastUpdated": "2026-08-04T10:16:45.827Z"
 }
