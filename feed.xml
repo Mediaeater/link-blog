@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-04T00:21:27.848Z</updated>
+    <updated>2026-08-04T10:16:45.827Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Cultural evolution – of the arts]]></title>
+        <id>tag:newsfeeds.net,2026:link/1785838605827</id>
+        <link href="https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/cultural-evolution-of-the-arts/018C2418F37CC343CDAC5528D8DB20CB"/>
+        <updated>2026-08-04T10:16:45.827Z</updated>
+        <summary type="html"><![CDATA[Tags: art, culture, research, science]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Marriage over, €100,000 down the drain: the AI users whose lives were wrecked by delusion]]></title>
         <id>tag:newsfeeds.net,2026:link/1785802887848</id>
