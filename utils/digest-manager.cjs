@@ -156,7 +156,7 @@ ${items}
   </main>
 
 ${tagsFooter}  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
-    <p><a href="https://newsfeeds.net" style="color: #666;">newsfeeds.net</a> &middot; <a href="https://newsfeeds.net/feed-digests.xml" style="color: #666;">Subscribe via RSS</a></p>
+    <p><a href="https://newsfeeds.net" style="color: #666;">newsfeeds.net</a> &middot; <a href="https://newsfeeds.net/feed-digests.atom" style="color: #666;">Subscribe via Atom</a></p>
   </footer>
 </body>
 </html>`;
