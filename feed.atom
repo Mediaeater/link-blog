@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-05T14:11:34.767Z</updated>
+    <updated>2026-08-05T22:06:18.580Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Paramount-Warner Bros. Trial to Start in March 2027 in Blow to David Ellison's Team]]></title>
+        <id>tag:newsfeeds.net,2026:link/1785967578580</id>
+        <link href="https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-trial-march-2027-1236664236/"/>
+        <updated>2026-08-05T22:06:18.580Z</updated>
+        <summary type="html"><![CDATA[Tags: media, hollywood, business, legal, film]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Security Incident INC-2026-07-28-01 (UK AI Security Institute)]]></title>
         <id>tag:newsfeeds.net,2026:link/1785939094767</id>
