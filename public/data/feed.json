@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1785939094767",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+      "title": "Security Incident INC-2026-07-28-01 (UK AI Security Institute)",
+      "date_published": "2026-08-05T14:11:34.767Z",
+      "tags": [
+        "agents",
+        "security",
+        "safety",
+        "government",
+        "ai"
+      ],
+      "content_text": "This is the first time AISI has seen deception of this severity that was targeted at a real person, unprompted, in the real world. It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack. As a result, the AI agent created a GitHub account and then tried to convince an open-source repository maintainer to accept a malicious GitHub pull request (PR), including by creating a second account masquerading as another human user endorsing the PR.",
+      "summary": "This is the first time AISI has seen deception of this severity that was targeted at a real person, unprompted, in the real world. It is uncertain to ...",
+      "content_html": "<blockquote>This is the first time AISI has seen deception of this severity that was targeted at a real person, unprompted, in the real world. It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack. As a result, the AI agent created a GitHub account and then tried to convince an open-source repository maintainer to accept a malicious GitHub pull request (PR), including by creating a second account masquerading as another human user endorsing the PR.</blockquote>\n<p><strong>Tags:</strong> agents, security, safety, government, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1785938975318",
+      "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "date_published": "2026-08-05T14:09:35.318Z",
+      "tags": [
+        "agents",
+        "security",
+        "safety",
+        "government",
+        "ai"
+      ],
+      "content_text": "In 10 of the 122 runs, an AI agent took autonomous, unsanctioned action on the live internet, targeting real people and organisations. In total, we catalogued 19 such actions.",
+      "summary": "In 10 of the 122 runs, an AI agent took autonomous, unsanctioned action on the live internet, targeting real people and organisations. In total, we ca...",
+      "content_html": "<blockquote>In 10 of the 122 runs, an AI agent took autonomous, unsanctioned action on the live internet, targeting real people and organisations. In total, we catalogued 19 such actions.</blockquote>\n<p><strong>Tags:</strong> agents, security, safety, government, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1785838605827",
       "url": "https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/cultural-evolution-of-the-arts/018C2418F37CC343CDAC5528D8DB20CB",
       "title": "Cultural evolution – of the arts",
@@ -7135,25 +7175,6 @@
       "content_text": "I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun to see what we’re doing to banish the LLM demons. Most of us are incor­po­rating a lot of hand­writing into our teaching: sev­eral col­leagues have been doing blue-book exams, a couple have bought their stu­dents cheap com­po­si­tion books from Wal­mart and are making them create com­mon­place books, and I am reg­u­larly handing out pas­sages from the texts we’re reading, printed out with very wide margins, and asking stu­dents to anno­tate them. I tell them I want their pages to look like Balzac’s galley proofs.",
       "summary": "I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun...",
       "content_html": "<blockquote>I don’t know what’s hap­pening elsewhere, but in the Honors Col­lege here at Baylor—or rather among those of us who teach the humanities—it’s been fun to see what we’re doing to banish the LLM demons. Most of us are incor­po­rating a lot of hand­writing into our teaching: sev­eral col­leagues have been doing blue-book exams, a couple have bought their stu­dents cheap com­po­si­tion books from Wal­mart and are making them create com­mon­place books, and I am reg­u­larly handing out pas­sages from the texts we’re reading, printed out with very wide margins, and asking stu­dents to anno­tate them. I tell them I want their pages to look like Balzac’s galley proofs.</blockquote>\n<p><strong>Tags:</strong> learning, knowledge, ai, motion</p>",
-      "_link_blog": {
-        "visits": 0,
-        "is_pinned": false
-      }
-    },
-    {
-      "id": "1766871354647",
-      "url": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
-      "title": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story",
-      "date_published": "2025-12-27T21:35:54.647Z",
-      "tags": [
-        "technology",
-        "film",
-        "motion",
-        "machine"
-      ],
-      "content_text": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.",
-      "summary": "The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ met...",
-      "content_html": "<blockquote>The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware.</blockquote>\n<p><strong>Tags:</strong> technology, film, motion, machine</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false

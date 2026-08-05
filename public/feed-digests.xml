@@ -6,9 +6,9 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
-        <uri>https://newsfeeds.net</uri>
+        <uri>https://newsfeeds.net/</uri>
     </author>
-    <link rel="alternate" href="https://newsfeeds.net"/>
+    <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed-digests.atom"/>
     <subtitle>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</subtitle>
     <entry>

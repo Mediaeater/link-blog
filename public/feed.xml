@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-04T10:16:45.827Z</updated>
+    <updated>2026-08-05T14:11:34.767Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Security Incident INC-2026-07-28-01 (UK AI Security Institute)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1785939094767</id>
+        <link href="https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf"/>
+        <updated>2026-08-05T14:11:34.767Z</updated>
+        <summary type="html"><![CDATA[Tags: agents, security, safety, government, ai]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident Report: unsanctioned agent behaviour during cyber testing]]></title>
+        <id>tag:newsfeeds.net,2026:link/1785938975318</id>
+        <link href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing"/>
+        <updated>2026-08-05T14:09:35.318Z</updated>
+        <summary type="html"><![CDATA[Tags: agents, security, safety, government, ai]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cultural evolution – of the arts]]></title>
         <id>tag:newsfeeds.net,2026:link/1785838605827</id>
@@ -805,7 +819,7 @@
     <entry>
         <title type="html"><![CDATA[everymuseum.org]]></title>
         <id>tag:newsfeeds.net,2026:link/1780313688160</id>
-        <link href="https://everymuseum.org"/>
+        <link href="https://everymuseum.org/"/>
         <updated>2026-06-01T11:34:48.160Z</updated>
         <summary type="html"><![CDATA[Tags: everymuseum, art, access, museum]]></summary>
     </entry>
@@ -1645,14 +1659,14 @@
     <entry>
         <title type="html"><![CDATA[The Official U.S. Time | NIST]]></title>
         <id>tag:newsfeeds.net,2026:link/1774172911713</id>
-        <link href="https://www.time.gov"/>
+        <link href="https://www.time.gov/"/>
         <updated>2026-03-22T09:48:31.713Z</updated>
         <summary type="html"><![CDATA[Tags: official, time, nist]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Time Keep]]></title>
         <id>tag:newsfeeds.net,2026:link/1774172866461</id>
-        <link href="https://www.timekeep.cc"/>
+        <link href="https://www.timekeep.cc/"/>
         <updated>2026-03-22T09:47:46.461Z</updated>
         <summary type="html"><![CDATA[Tags: time, world, clock, timer]]></summary>
     </entry>
@@ -2537,13 +2551,6 @@
         <link href="https://blog.ayjay.org/motion-and-machine"/>
         <updated>2025-12-27T21:37:59.115Z</updated>
         <summary type="html"><![CDATA[Tags: learning, knowledge, ai, motion]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story]]></title>
-        <id>tag:newsfeeds.net,2026:link/1766871354647</id>
-        <link href="The machine is homeopathic therapy for the Cartesian poison. The story of technology since the 18th century is the story of Locke’s and Descartes’ metaphors being realized in hardware."/>
-        <updated>2025-12-27T21:35:54.647Z</updated>
-        <summary type="html"><![CDATA[Tags: technology, film, motion, machine]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[ The worlds of analogue and digital art may be splintering]]></title>
