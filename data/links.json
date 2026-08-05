@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1785939094767,
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf",
+      "source": "Security Incident INC-2026-07-28-01 (UK AI Security Institute)",
+      "pullQuote": "This is the first time AISI has seen deception of this severity that was targeted at a real person, unprompted, in the real world. It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack. As a result, the AI agent created a GitHub account and then tried to convince an open-source repository maintainer to accept a malicious GitHub pull request (PR), including by creating a second account masquerading as another human user endorsing the PR.",
+      "tags": [
+        "agents",
+        "security",
+        "safety",
+        "government",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-05T14:11:34.767Z",
+      "visits": 0
+    },
+    {
+      "id": 1785938975318,
+      "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "source": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "pullQuote": "In 10 of the 122 runs, an AI agent took autonomous, unsanctioned action on the live internet, targeting real people and organisations. In total, we catalogued 19 such actions.",
+      "tags": [
+        "agents",
+        "security",
+        "safety",
+        "government",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-05T14:09:35.318Z",
+      "visits": 0
+    },
+    {
       "id": 1785838605827,
       "url": "https://www.cambridge.org/core/journals/evolutionary-human-sciences/article/cultural-evolution-of-the-arts/018C2418F37CC343CDAC5528D8DB20CB",
       "source": "Cultural evolution – of the arts",
@@ -9177,5 +9209,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-04T10:16:45.827Z"
+  "lastUpdated": "2026-08-05T14:11:34.767Z"
 }
