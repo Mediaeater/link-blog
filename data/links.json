@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1785979125865,
+      "url": "https://www.discoveryloop.com/",
+      "source": "Discovery Loop — Continuous Exploration",
+      "pullQuote": "At Discovery Loop, we are building systems to automate these entire experimental loops. By utilizing frontier AI models and large-scale computational infrastructure, our systems will be able to rapidly propose, run, and learn from evaluations.\n\nSee also: https://www.nae.edu/20782/grand-challenges-project\n\nNAE Grand Challenges for Engineering: 1. Make Solar Energy Economical · 2. Provide Energy from Fusion · 3. Develop Carbon Sequestration Methods · 4. Manage the Nitrogen Cycle · 5. Provide Access to Clean Water · 6. Restore and Improve Urban Infrastructure · 7. Advance Health Informatics · 8. Engineer Better Medicines · 9. Reverse Engineer the Brain · 10. Prevent Nuclear Terror · 11. Secure Cyberspace · 12. Enhance Virtual Reality · 13. Advance Personalized Learning · 14. Engineer the Tools of Scientific Discovery",
+      "tags": [
+        "science",
+        "research",
+        "ai",
+        "agents"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-06T01:18:45.865Z",
+      "visits": 0
+    },
+    {
       "id": 1785967578580,
       "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-trial-march-2027-1236664236/",
       "source": "Paramount-Warner Bros. Trial to Start in March 2027 in Blow to David Ellison's Team",
@@ -9210,5 +9225,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-05T22:06:18.580Z"
+  "lastUpdated": "2026-08-06T01:18:45.865Z"
 }
