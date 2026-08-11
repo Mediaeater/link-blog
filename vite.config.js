@@ -60,8 +60,11 @@ export default defineConfig(({ mode }) => {
         ? {}
         : {
             output: {
-              manualChunks: {
-                vendor: ['react', 'react-dom'], // Code-splitting for vendor files
+              // Function form required: vite 8's rolldown rejects the object form
+              manualChunks(id) {
+                if (id.includes('node_modules/react') || id.includes('node_modules/scheduler')) {
+                  return 'vendor'; // Code-splitting for vendor files
+                }
               },
             },
           },
