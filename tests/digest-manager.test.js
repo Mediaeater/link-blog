@@ -63,6 +63,46 @@ describe('createDigest numbering', () => {
   });
 });
 
+describe('createDigest linkIds subset', () => {
+  test('digests only the selected ids and leaves the rest undigested', async () => {
+    writeDigests([]);
+    writeLinks([
+      { id: 'infosec1', url: 'https://example.com/1', source: 'One', pullQuote: '', tags: [], timestamp: '2026-01-01T00:00:00.000Z' },
+      { id: 'arts1', url: 'https://example.com/2', source: 'Two', pullQuote: '', tags: [], timestamp: '2026-01-02T00:00:00.000Z' },
+      { id: 'infosec2', url: 'https://example.com/3', source: 'Three', pullQuote: '', tags: [], timestamp: '2026-01-03T00:00:00.000Z' },
+    ]);
+
+    const manager = new DigestManager(tmpDir);
+    const result = await manager.createDigest('writeup', true, { linkIds: ['infosec1', 'infosec2'] });
+
+    expect(result.success).toBe(true);
+    expect(result.count).toBe(2);
+
+    const remaining = await manager.getUndigestedLinks();
+    expect(remaining.map(l => l.id)).toEqual(['arts1']);
+  });
+
+  test('errors when a requested id is unknown or already digested', async () => {
+    writeDigests([
+      { id: 1, timestamp: '2026-01-05T00:00:00.000Z', linkIds: ['done'], count: 1, filename: 'digest-001.html', weekStart: '2026-01-01', weekEnd: '2026-01-01', title: 'Jan', writeup: '' },
+    ]);
+    writeLinks([
+      { id: 'done', url: 'https://example.com/done', source: 'Done', pullQuote: '', tags: [], timestamp: '2026-01-01T00:00:00.000Z' },
+      { id: 'fresh', url: 'https://example.com/fresh', source: 'Fresh', pullQuote: '', tags: [], timestamp: '2026-01-02T00:00:00.000Z' },
+    ]);
+
+    const manager = new DigestManager(tmpDir);
+    const result = await manager.createDigest('writeup', true, { linkIds: ['fresh', 'done', 'ghost'] });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('done');
+    expect(result.error).toContain('ghost');
+
+    const remaining = await manager.getUndigestedLinks();
+    expect(remaining.map(l => l.id)).toEqual(['fresh']);
+  });
+});
+
 describe('getUndigestedLinks cutoff', () => {
   test('excludes links with timestamp after cutoff', async () => {
     writeDigests([]);

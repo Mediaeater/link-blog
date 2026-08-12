@@ -12,6 +12,8 @@ async function main() {
   const dryRun = args.includes('--dry-run') || args.includes('-n');
   const writeup = getArgValue(args, '--writeup');
   const cutoff = getArgValue(args, '--cutoff');
+  const idsArg = getArgValue(args, '--ids');
+  const linkIds = idsArg ? idsArg.split(',').map(s => s.trim()).filter(Boolean) : undefined;
 
   const digestManager = new DigestManager();
 
@@ -30,15 +32,16 @@ async function main() {
       process.exit(1);
     }
 
+    const selectedCount = linkIds ? linkIds.length : status.undigestedCount;
     if (dryRun) {
-      console.error(`\nPreview (${status.undigestedCount} links):\n`);
+      console.error(`\nPreview (${selectedCount} links):\n`);
     } else {
-      console.error(`\nGenerating digest #${status.totalDigests + 1} with ${status.undigestedCount} links...\n`);
+      console.error(`\nGenerating digest #${status.totalDigests + 1} with ${selectedCount} links...\n`);
     }
 
     const result = dryRun
-      ? await digestManager.createDigest('', false, { cutoff })
-      : await digestManager.createDigest(writeup, true, { cutoff });
+      ? await digestManager.createDigest('', false, { cutoff, linkIds })
+      : await digestManager.createDigest(writeup, true, { cutoff, linkIds });
 
     if (!result.success) {
       console.error('Error:', result.error);

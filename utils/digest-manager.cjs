@@ -200,7 +200,19 @@ ${tagsFooter}  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1
   }
 
   async createDigest(writeup = '', markAsDigested = true, options = {}) {
-    const undigestedLinks = await this.getUndigestedLinks(options.cutoff);
+    let undigestedLinks = await this.getUndigestedLinks(options.cutoff);
+
+    // Optional subset selection (themed digests). Strict: a requested id
+    // that is unknown or already digested is an error, not a silent drop.
+    if (options.linkIds) {
+      const wanted = new Set(options.linkIds.map(String));
+      undigestedLinks = undigestedLinks.filter(link => wanted.has(String(link.id)));
+      if (undigestedLinks.length !== wanted.size) {
+        const found = new Set(undigestedLinks.map(link => String(link.id)));
+        const missing = [...wanted].filter(id => !found.has(id));
+        return { success: false, error: `linkIds not undigested or not found: ${missing.join(', ')}`, html: '' };
+      }
+    }
 
     if (undigestedLinks.length === 0) {
       return { success: false, error: 'No undigested links', html: '' };
