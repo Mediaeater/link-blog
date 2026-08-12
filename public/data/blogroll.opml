@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>Mediaeater Digest - Blogroll</title>
-    <dateCreated>Wed, 12 Aug 2026 00:01:57 GMT</dateCreated>
-    <dateModified>Wed, 12 Aug 2026 00:01:57 GMT</dateModified>
+    <dateCreated>Wed, 12 Aug 2026 18:34:45 GMT</dateCreated>
+    <dateModified>Wed, 12 Aug 2026 18:34:45 GMT</dateModified>
     <ownerName>Mediaeater</ownerName>
     <ownerEmail>mediaeater@example.com</ownerEmail>
     <docs>http://opml.org/spec2.opml</docs>
@@ -5061,7 +5061,6 @@ Maja Malou Lyse (b. 1993, Denmark) is a multidisciplinary artist whose bold and 
 Her work situates itself within the very platforms that dominate our visual environment—television, magazines, tabloids, billboards, and social media. By appropriating and reconfiguring these familiar spaces, she performs incisive interventions that unravel the symbiotic relationship between art and media reality. In doing so, she exposes the spectacle that defines contemporary culture: one that seduces as much as it subjugates, embedding itself deep within our collective consciousness." created="Sun, 03 May 2026 01:24:14 GMT" category="artist,majamaloulyse,venice,2026,labiennale" />
     </outline>
     <outline text="labor" title="labor">
-      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
     </outline>
     <outline text="lamp" title="lamp">
@@ -7571,7 +7570,6 @@ A local mesh in Minneapolis could interconnect with a local mesh in Chicago over
     </outline>
     <outline text="robots" title="robots">
       <outline type="link" text="Simulating everything, sort of: The promise and limits of world models" title="Simulating everything, sort of: The promise and limits of world models" url="https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/" htmlUrl="https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/" description="While we&apos;re still in the early days of this field, a growing body of research suggests that video and world models can already be useful for synthetic data generation, policy evaluation, and some robot-planning tasks. There&apos;s enough to justify cautious optimism about these models, though it&apos;s worth noting that their reliability as general-purpose physical simulators remains unproven." created="Wed, 15 Jul 2026 10:21:05 GMT" category="ai,machine-learning,world-models,robots,video-gen" />
-      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="Introducing DoorDash Tasks" title="Introducing DoorDash Tasks" url="https://about.doordash.com/en-us/news/introducing-doordash-tasks" htmlUrl="https://about.doordash.com/en-us/news/introducing-doordash-tasks" description="DoorDash&apos;s new app pays delivery drivers to strap on body cameras and film themselves doing household chores to train AI robots... 
 
@@ -9072,7 +9070,6 @@ This specification serves as the definitive technical reference for AV2 implemen
 
 AV2 provides enhanced support for AR/VR applications, split-screen delivery of multiple programs, improved handling of screen content, and an ability to operate over a wider visual quality range." created="Sun, 31 May 2026 11:45:21 GMT" category="av2,specification,next-generation,video,coding" />
       <outline type="link" text="Shape of Dreams, starring Zendaya." title="Shape of Dreams, starring Zendaya." url="https://www.youtube.com/watch?v=6NVAzWEgTXo" htmlUrl="https://www.youtube.com/watch?v=6NVAzWEgTXo" description="Welcome to Zendaya’s Dream Lab - Film written and directed by Spike Jonze." created="Sun, 24 May 2026 11:35:04 GMT" category="video,imagination,dreams,zendaya,spikejonze,dance" />
-      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="BLKNWS: TERMS &amp; CONDITIONS | TRACK 01. THE ENCYCLOPEDIA" title="BLKNWS: TERMS &amp; CONDITIONS | TRACK 01. THE ENCYCLOPEDIA" url="https://www.youtube.com/watch?v=d2Zrj6DL8aw" htmlUrl="https://www.youtube.com/watch?v=d2Zrj6DL8aw" description="Kahlil Joseph’s debut feature film, BLKNWS: Terms &amp; Conditions. 
 " created="Sun, 19 Apr 2026 12:39:45 GMT" category="video,music,culture,art" visits="1" />
@@ -9455,7 +9452,6 @@ The NAACP alleges xAI isn’t following the Clean Air Act and is endangering pub
     </outline>
     <outline text="youtube" title="youtube">
       <outline type="link" text="How Blackwing Pencils Are Made | Behind the Process" title="How Blackwing Pencils Are Made | Behind the Process" url="https://www.youtube.com/watch?v=fow-LsdaH2E" htmlUrl="https://www.youtube.com/watch?v=fow-LsdaH2E" description="How Blackwing Pencils Are Made | Behind the Process" created="Wed, 12 Aug 2026 00:01:47 GMT" category="design,video,youtube,tool" />
-      <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/@figureai" htmlUrl="https://www.youtube.com/@figureai" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text="F.03 Livestream - Day 3" title="F.03 Livestream - Day 3" url="https://www.youtube.com/live/luU57hMhkak" htmlUrl="https://www.youtube.com/live/luU57hMhkak" description="Robot at work " created="Sat, 16 May 2026 01:33:59 GMT" category="youtube,video,robots,labor" />
       <outline type="link" text=" I. The Architecture of “We the People”  National Gallery of Art" title=" I. The Architecture of “We the People”  National Gallery of Art" url="https://www.youtube.com/watch?v=NQ15amJm2PI" htmlUrl="https://www.youtube.com/watch?v=NQ15amJm2PI" description="This is the first of four lectures in America’s Architecture of Freedom and Unfreedom, the 74th A. W. Mellon Lectures in the Fine Arts presented by Mabel O. Wilson of Columbia University.
 
