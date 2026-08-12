@@ -1,6 +1,203 @@
 {
   "links": [
     {
+      "id": 1786492908516,
+      "url": "https://www.techradar.com/tech/london-underground-is-trialing-live-face-scanning-from-today-as-privacy-groups-say-it-treats-the-public-like-suspects-heres-how-to-avoid-it",
+      "source": "London Underground is trialing live face scanning as privacy groups say it 'treats the public like suspects'",
+      "pullQuote": "However, as the BBC points out, scans of some 530,000 faces across UK railway stations since February have resulted in zero matches, zero arrests, and one false identification. That's based on the BTP's own deployment logs, suggesting that to date the technology isn't helping much. Big Brother Watch director Silkie Carlo suggests that the tech \"treats the public like suspects\" and is a \"disturbing and dystopian expansion\" of facial recognition systems.",
+      "tags": [
+        "facial-recognition",
+        "frt",
+        "surveillance",
+        "policing",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:48.516Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492908380,
+      "url": "https://www.404media.co/ice-to-pay-lexisnexis-millions-for-data-to-feed-to-palantir/",
+      "source": "ICE to Pay LexisNexis Millions for Data to Feed to Palantir",
+      "pullQuote": "The documents provide some more insight into the sort of information ICE intends to use Palantir to process. In January, 404 Media revealed the existence of ELITE, a system Palantir made for ICE that helps the agency find which neighborhoods to target by bringing together data from private suppliers and government agencies.",
+      "tags": [
+        "ice",
+        "palantir",
+        "surveillance",
+        "data",
+        "government"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:48.380Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492908243,
+      "url": "https://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html",
+      "source": "Flock Cameras Can Track Every Car in America. Police Love Them. Citizens Don't.",
+      "pullQuote": "Officers across the country have abused their access to Flock's cameras, including to track romantic partners, resulting in discipline and termination. Los Angeles and Dayton, Ohio, among other cities, recently suspended their contracts with Flock to prevent immigration authorities from accessing data from the cameras.",
+      "tags": [
+        "flock",
+        "surveillance",
+        "policing",
+        "privacy",
+        "nytimes"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:48.243Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492908108,
+      "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
+      "source": "Everything You Do Is Being Recorded",
+      "pullQuote": "In March, the tech start-up Deveillance announced the development of Spectre I, a hockey-puck-shaped device that purports to prevent others from recording you (no strip search required). The company was founded by Aida Baradari, a recent college graduate who was worried by the surge in people wearing AI-enabled recorders. These wearables can be used as a silent notetaker, a personal assistant, or even a therapist of sorts.",
+      "tags": [
+        "ai",
+        "surveillance",
+        "privacy",
+        "opsec"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:48.108Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907971,
+      "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+      "source": "The Sound Went Quiet: How New Zealand Lost Its Music Media",
+      "pullQuote": "There is no one left whose job is to tell you what happened at the show last night, which local producer just signed to an overseas label, or why a 34-year-old venue went under owing $692,000. When nobody documents a scene, the scene becomes invisible. Invisible artists do not get streamed, booked, or paid.",
+      "tags": [
+        "music",
+        "media",
+        "journalism",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.971Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907838,
+      "url": "https://www.nybooks.com/articles/2026/08/20/a-taste-of-infinity-dylan-mattingly/",
+      "source": "A Taste of Infinity — Dylan Mattingly",
+      "pullQuote": "He has summoned into being a region of musical experience that's all his own, a welcoming, abundant, sun-drenched landscape that teems with tinkling, deliriously retuned pianos and raucous grooves that last long enough to offer a taste of infinity. A new album called The Wild Heart offers a slice—though admittedly only a small, frustratingly incomplete sampling—of this Whitmanic artist's fertile, dazzling world within the world.",
+      "tags": [
+        "music",
+        "artists",
+        "art",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.838Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907707,
+      "url": "https://greg.org/archive/2026/08/07/how-does-it-feel-peter-savilles-color-code.html",
+      "source": "How Does It Feel? Peter Saville's Color Code",
+      "pullQuote": "The outer two rows of the color wheel on the back of Power, Corruption & Lies is the key to deciphering the one- or tw0-color blocks that represent both the numbers 1-9 and the alphabet. It's clearer, perhaps, in the cover for the 12″ release of Blue Monday, that the design is based on a 5 1/4-inch floppy disk, but this reference is already lost in some design discussions.",
+      "tags": [
+        "design",
+        "color",
+        "art",
+        "music"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.707Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907572,
+      "url": "https://www.youtube.com/watch?v=fow-LsdaH2E",
+      "source": "How Blackwing Pencils Are Made | Behind the Process",
+      "pullQuote": "How Blackwing Pencils Are Made | Behind the Process",
+      "tags": [
+        "design",
+        "video",
+        "youtube",
+        "tool"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.572Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907438,
+      "url": "https://politicalphilosophyjournal.org/article/id/30192/",
+      "source": "Debate: Paternalism and Autonomy",
+      "pullQuote": "The conflict between libertarian paternalism and autonomy often disappears on reflection and after engagement with particulars. So long as coercion is avoided, it is reasonable to insist that educative and architectural nudges preserve autonomy.",
+      "tags": [
+        "paper",
+        "ethics",
+        "politics",
+        "agency"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.438Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907303,
+      "url": "https://danielmiessler.com/blog/creativity-vs-consumption",
+      "source": "Creativity vs. Consumption",
+      "pullQuote": "If you feel completely empty and like nothing matters, ask yourself how much time you have spent watching what other people are doing or watching shortform video or YouTube or TV. And compare that to how much time you have spent building something, or improving the life of someone else. It's not the only metric that matters, but I would argue it's the biggest one.",
+      "tags": [
+        "psychology",
+        "thinking",
+        "society"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.303Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907166,
+      "url": "https://jonnymiller.co/terra-incognita",
+      "source": "Terra Incognita: a star atlas of what we do not know",
+      "pullQuote": "225 questions that nobody on Earth can answer, drawn as a night sky. Each constellation is a discipline. Each star is a problem that has survived every attempt on it, some for decades, some for millennia. Brightness tracks fame rather than importance: several of the dimmest stars may matter most.",
+      "tags": [
+        "science",
+        "knowledge",
+        "map",
+        "mind"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.166Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492907025,
+      "url": "https://brutalist.report/",
+      "source": "The Brutalist Report",
+      "pullQuote": "Do you feel it too? There's something wrong with the web. The Brutalist Network is a response to that feeling. It's for people who want a simple, reliable, and performant online experience.",
+      "tags": [
+        "internet",
+        "media",
+        "design",
+        "list"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:47.025Z",
+      "visits": 0
+    },
+    {
+      "id": 1786492906888,
+      "url": "https://www.hope.net/",
+      "source": "HOPE 26 — Hackers On Planet Earth",
+      "pullQuote": "The 17th Hackers On Planet Earth (HOPE) conference will be held from August 14-16, 2026 at the New Yorker Hotel in Midtown Manhattan. The HOPE conferences are known for their creativity and diversity, not to mention a whole lot of hacker fun. We've been at this for over three decades now – the first HOPE conference was in 1994.",
+      "tags": [
+        "infosec",
+        "community",
+        "nyc",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-12T00:01:46.888Z",
+      "visits": 0
+    },
+    {
       "id": 1785979125865,
       "url": "https://www.discoveryloop.com/",
       "source": "Discovery Loop — Continuous Exploration",
@@ -9225,5 +9422,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-06T01:18:45.865Z"
+  "lastUpdated": "2026-08-12T00:01:48.516Z"
 }
