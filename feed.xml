@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-06T01:18:45.865Z</updated>
+    <updated>2026-08-12T00:01:48.516Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,97 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[London Underground is trialing live face scanning as privacy groups say it 'treats the public like suspects']]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492908516</id>
+        <link href="https://www.techradar.com/tech/london-underground-is-trialing-live-face-scanning-from-today-as-privacy-groups-say-it-treats-the-public-like-suspects-heres-how-to-avoid-it"/>
+        <updated>2026-08-12T00:01:48.516Z</updated>
+        <summary type="html"><![CDATA[Tags: facial-recognition, frt, surveillance, policing, privacy]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ICE to Pay LexisNexis Millions for Data to Feed to Palantir]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492908380</id>
+        <link href="https://www.404media.co/ice-to-pay-lexisnexis-millions-for-data-to-feed-to-palantir/"/>
+        <updated>2026-08-12T00:01:48.380Z</updated>
+        <summary type="html"><![CDATA[Tags: ice, palantir, surveillance, data, government]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flock Cameras Can Track Every Car in America. Police Love Them. Citizens Don't.]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492908243</id>
+        <link href="https://www.nytimes.com/2026/08/10/us/flock-cameras-can-track-every-car-in-america-police-love-them-citizens-dont.html"/>
+        <updated>2026-08-12T00:01:48.243Z</updated>
+        <summary type="html"><![CDATA[Tags: flock, surveillance, policing, privacy, nytimes]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything You Do Is Being Recorded]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492908108</id>
+        <link href="https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/"/>
+        <updated>2026-08-12T00:01:48.108Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, surveillance, privacy, opsec]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Sound Went Quiet: How New Zealand Lost Its Music Media]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907971</id>
+        <link href="https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media"/>
+        <updated>2026-08-12T00:01:47.971Z</updated>
+        <summary type="html"><![CDATA[Tags: music, media, journalism, culture]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Taste of Infinity — Dylan Mattingly]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907838</id>
+        <link href="https://www.nybooks.com/articles/2026/08/20/a-taste-of-infinity-dylan-mattingly/"/>
+        <updated>2026-08-12T00:01:47.838Z</updated>
+        <summary type="html"><![CDATA[Tags: music, artists, art, culture]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Does It Feel? Peter Saville's Color Code]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907707</id>
+        <link href="https://greg.org/archive/2026/08/07/how-does-it-feel-peter-savilles-color-code.html"/>
+        <updated>2026-08-12T00:01:47.707Z</updated>
+        <summary type="html"><![CDATA[Tags: design, color, art, music]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Blackwing Pencils Are Made | Behind the Process]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907572</id>
+        <link href="https://www.youtube.com/watch?v=fow-LsdaH2E"/>
+        <updated>2026-08-12T00:01:47.572Z</updated>
+        <summary type="html"><![CDATA[Tags: design, video, youtube, tool]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debate: Paternalism and Autonomy]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907438</id>
+        <link href="https://politicalphilosophyjournal.org/article/id/30192/"/>
+        <updated>2026-08-12T00:01:47.438Z</updated>
+        <summary type="html"><![CDATA[Tags: paper, ethics, politics, agency]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creativity vs. Consumption]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907303</id>
+        <link href="https://danielmiessler.com/blog/creativity-vs-consumption"/>
+        <updated>2026-08-12T00:01:47.303Z</updated>
+        <summary type="html"><![CDATA[Tags: psychology, thinking, society]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Terra Incognita: a star atlas of what we do not know]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907166</id>
+        <link href="https://jonnymiller.co/terra-incognita"/>
+        <updated>2026-08-12T00:01:47.166Z</updated>
+        <summary type="html"><![CDATA[Tags: science, knowledge, map, mind]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Brutalist Report]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492907025</id>
+        <link href="https://brutalist.report/"/>
+        <updated>2026-08-12T00:01:47.025Z</updated>
+        <summary type="html"><![CDATA[Tags: internet, media, design, list]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HOPE 26 — Hackers On Planet Earth]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786492906888</id>
+        <link href="https://www.hope.net/"/>
+        <updated>2026-08-12T00:01:46.888Z</updated>
+        <summary type="html"><![CDATA[Tags: infosec, community, nyc, culture]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Discovery Loop — Continuous Exploration]]></title>
         <id>tag:newsfeeds.net,2026:link/1785979125865</id>
