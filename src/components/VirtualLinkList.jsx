@@ -12,6 +12,9 @@ export default function VirtualLinkList({ links, renderItem }) {
   const heightCache = useRef(new Map())
   const [measureVersion, setMeasureVersion] = useState(0)
   const pendingUpdate = useRef(false)
+  // Mirror of containerWidth for measureItem, which needs the width the
+  // current layout was computed with but must stay referentially stable.
+  const widthRef = useRef(0)
 
   // Observe container width for responsive re-measurement
   useEffect(() => {
@@ -20,6 +23,13 @@ export default function VirtualLinkList({ links, renderItem }) {
 
     const ro = new ResizeObserver((entries) => {
       const width = entries[0].contentRect.width
+      // The observer also fires when the container's HEIGHT changes — which
+      // happens on every offsets recompute. Wiping the cache then re-triggers
+      // corrections, whose height changes fire the observer again: a
+      // self-sustaining wipe/correct loop (the scroll-jitter bug). Only a
+      // real width change invalidates cached heights.
+      if (width === widthRef.current) return
+      widthRef.current = width
       setContainerWidth(width)
       heightCache.current.clear()
     })
@@ -66,14 +76,19 @@ export default function VirtualLinkList({ links, renderItem }) {
     }
   }, [updateContainerTop])
 
-  // Precompute item metadata
+  // Precompute item metadata. `key` is collision-safe: duplicate link ids
+  // (e.g. from an admin-UI double-submit) get an index suffix so React keys
+  // stay unique and the height cache never flip-flops between two nodes.
   const itemMeta = useMemo(() => {
+    const seenIds = new Set()
     return links.map((link, index) => {
       const prevLink = links[index - 1]
       const linkYear = new Date(link.timestamp).getFullYear()
       const prevYear = prevLink ? new Date(prevLink.timestamp).getFullYear() : null
       const showYearHeader = prevYear !== null && linkYear !== prevYear
-      return { link, index, showYearHeader, year: linkYear }
+      const key = seenIds.has(link.id) ? `${link.id}:${index}` : link.id
+      seenIds.add(link.id)
+      return { link, index, showYearHeader, year: linkYear, key }
     })
   }, [links])
 
@@ -90,7 +105,7 @@ export default function VirtualLinkList({ links, renderItem }) {
       // Map used as an imperative memoization cache (not UI state), so this
       // avoids re-measuring/re-rendering on every scroll frame.
       // eslint-disable-next-line react-hooks/refs -- perf cache read, not used for rendering output
-      let h = heightCache.current.get(link.id)
+      let h = heightCache.current.get(meta.key)
       if (h === undefined) {
         h = measureLinkHeight(link, containerWidth)
         if (meta.showYearHeader) h += YEAR_HEADER_HEIGHT
@@ -138,20 +153,42 @@ export default function VirtualLinkList({ links, renderItem }) {
     return { start: startIdx, end: endIdx }
   }, [scrollY, viewportH, offsets, links.length])
 
-  // Measure actual DOM heights and correct
-  const measureItem = useCallback((el, linkId) => {
+  // Measure actual DOM heights and correct. Runs as a ref callback during
+  // React's commit — i.e. BEFORE the browser paints — so scroll compensation
+  // applied here is invisible: no frame ever shows the shifted layout.
+  const measureItem = useCallback((el, meta) => {
     if (!el) return
-    const actual = el.getBoundingClientRect().height
-    const cached = heightCache.current.get(linkId)
-    if (cached === undefined || Math.abs(actual - cached) > 1) {
-      heightCache.current.set(linkId, actual)
-      if (!pendingUpdate.current) {
-        pendingUpdate.current = true
-        requestAnimationFrame(() => {
-          pendingUpdate.current = false
-          setMeasureVersion(v => v + 1)
-        })
-      }
+    const rect = el.getBoundingClientRect()
+    const actual = rect.height
+    const cached = heightCache.current.get(meta.key)
+    if (cached !== undefined && Math.abs(actual - cached) <= 1) return
+
+    // Height the current layout assumed for this slot (cached measurement,
+    // or the same estimate the offsets memo used on cache miss).
+    let assumed = cached
+    if (assumed === undefined) {
+      assumed = measureLinkHeight(meta.link, widthRef.current)
+      if (meta.showYearHeader) assumed += YEAR_HEADER_HEIGHT
+    }
+    heightCache.current.set(meta.key, actual)
+
+    // If the corrected item starts above the viewport top (fully above or
+    // straddling the top edge — where items mount during upward scrolls),
+    // its true height has just displaced the content the user is reading.
+    // Scroll by the delta now, pre-paint, so the visible content stays put.
+    // Items starting in or below the viewport don't displace the reading
+    // position, so no compensation is needed for them.
+    const delta = actual - assumed
+    if (rect.top < 0 && Math.abs(delta) > 0.5) {
+      window.scrollBy(0, delta)
+    }
+
+    if (!pendingUpdate.current) {
+      pendingUpdate.current = true
+      requestAnimationFrame(() => {
+        pendingUpdate.current = false
+        setMeasureVersion(v => v + 1)
+      })
     }
   }, [])
 
@@ -163,10 +200,12 @@ export default function VirtualLinkList({ links, renderItem }) {
   const bottomSpacerH = totalHeight - (offsets[end + 1] || totalHeight)
 
   return (
-    <div ref={containerRef}>
+    // overflow-anchor off: we compensate scroll manually in the layout effect
+    // above; the browser's native scroll anchoring would double-correct.
+    <div ref={containerRef} style={{ overflowAnchor: 'none' }}>
       {topSpacerH > 0 && <div style={{ height: topSpacerH }} />}
       {itemMeta.slice(start, end + 1).map((meta) => (
-        <div key={meta.link.id} ref={(el) => measureItem(el, meta.link.id)}>
+        <div key={meta.key} ref={(el) => measureItem(el, meta)}>
           {renderItem(meta.link, meta.index, meta.showYearHeader, meta.year)}
         </div>
       ))}

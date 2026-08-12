@@ -1,8 +1,14 @@
 import { prepare, layout } from '@chenglou/pretext'
 
-// Fonts matching the actual CSS
-// (title height is a fixed constant below — only the pull quote is measured with pretext)
-const PULL_QUOTE_FONT = 'italic 14px Inter, -apple-system, BlinkMacSystemFont, sans-serif'
+// Fonts matching the actual CSS (body font-family in index.css) —
+// (title height is a fixed constant below — only the pull quote is measured
+// with pretext). Keep this in sync with the body font stack: measuring with
+// the wrong family miscounts wrapped lines and causes scroll-jitter churn.
+const PULL_QUOTE_FONT = "italic 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+
+// The quote paragraph is narrower than the virtual-list container
+// (flex gap + icon column): measured 1056px inside a 1104px container.
+const QUOTE_TEXT_INSET = 48
 
 // Line heights from Tailwind/CSS
 const BODY_LINE_HEIGHT = 27.2    // 17px * 1.6
@@ -53,10 +59,10 @@ export function measureLinkHeight(link, containerWidth) {
 
   // Pull quote (variable height — this is where pretext shines)
   if (link.pullQuote) {
-    h += QUOTE_MARGIN_TOP + measurePullQuote(link.pullQuote, containerWidth)
+    h += QUOTE_MARGIN_TOP + measurePullQuote(link.pullQuote, containerWidth - QUOTE_TEXT_INSET)
   }
 
-  // Tags: estimate row wrapping
+  // Tags: estimate row wrapping (7.5px/char ≈ 14px system sans average)
   if (link.tags?.length > 0) {
     const tagWidths = link.tags.map(t => t.length * 7.5 + 24)
     let rows = 1
@@ -77,6 +83,11 @@ export function measureLinkHeight(link, containerWidth) {
 
   // Bottom padding + border
   h += CARD_PAD_BOTTOM + CARD_BORDER
+
+  // Residual fixed chrome measured against the live DOM (2026-08-12 probe):
+  // sub-pixel line-height rounding across the title/domain/date lines adds a
+  // constant 2.8px per card regardless of content.
+  h += 2.8
 
   return h
 }
