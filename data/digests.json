@@ -865,6 +865,55 @@
       "weekEnd": "2026-08-01",
       "title": "Jul 31 - Aug 1, 2026",
       "writeup": "This digest cuts across AI, infrastructure, and digital rights. The infrastructure story is almost satirical: an Indiana data center project severed power to tornado warning sirens, drawing public outrage. On the AI front, Nvidia makes the case for open-weight models as a pillar of American AI leadership; a German court finds Suno liable for copyright infringement in AI-generated music; and DeepSeek's V4 Flash gets benchmarked on intelligence, performance, and cost. Two consumer-facing stories close it out: BMW embedding Spider-Man in-car advertising as a preview of the monetized vehicle interior, and a first-person account of a complete digital identity theft triggered by a single text message. A stark SIM-swap or phishing cautionary tale."
+    },
+    {
+      "id": 23,
+      "timestamp": "2026-08-12T12:02:28.667Z",
+      "linkIds": [
+        1785599214898,
+        1785632752562,
+        1785751862621,
+        1785752401691,
+        1785802887848,
+        1785938975318,
+        1785939094767,
+        1785979125865,
+        1786492906888,
+        1786492908108,
+        1786492908243,
+        1786492908380,
+        1786492908516
+      ],
+      "count": 13,
+      "filename": "digest-023-2026-08-12.html",
+      "weekStart": "2026-08-01",
+      "weekEnd": "2026-08-12",
+      "title": "Aug 1-12, 2026",
+      "writeup": "Surveillance infrastructure, AI malfunctions, and security disclosures dominate this issue. The AI bubble gets a skeptical read as text-to-video and AI-staffed newsrooms push the hype cycle further; meanwhile two UK AISI incident reports and a case study in AI-induced psychosis document what happens when systems go wrong in quieter, more personal ways. The surveillance half is dense: Flock cameras building a nationwide vehicle tracking network, ICE funneling LexisNexis data into Palantir, London Underground rolling out live facial recognition, and a detailed account of how China monitors foreign nationals on its soil. HOPE 26 and a continuous-exploration research thread round out the security and adversarial edges."
+    },
+    {
+      "id": 24,
+      "timestamp": "2026-08-12T12:02:28.719Z",
+      "linkIds": [
+        1785668181326,
+        1785757097648,
+        1785838605827,
+        1785967578580,
+        1786492907025,
+        1786492907166,
+        1786492907303,
+        1786492907438,
+        1786492907572,
+        1786492907707,
+        1786492907838,
+        1786492907971
+      ],
+      "count": 12,
+      "filename": "digest-024-2026-08-12.html",
+      "weekStart": "2026-08-02",
+      "weekEnd": "2026-08-12",
+      "title": "Aug 2-12, 2026",
+      "writeup": "Culture, craft, and the contested edges of creativity make up this issue. The music industry stakes out AI principles via IFPI while the Paramount–Warner Bros. trial previews the legal battles ahead; a piece on cultural evolution asks how the arts change over time, and another draws the line between making and consuming. Deeper into the issue: the obsessive manufacturing of Blackwing pencils, Peter Saville's color systems, a star atlas of acknowledged unknowns, a composer's meditation on infinity, and a report on the slow collapse of New Zealand's music media. Habit formation, paternalism, and autonomy supply the philosophical undertow."
     }
   ],
   "cadence": "weekly"
