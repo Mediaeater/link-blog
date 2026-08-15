@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1786791968932,
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "source": "Everything is about to \"go dark\"",
+      "pullQuote": "Over the next two years, major pieces of software are likely to run out of remotely-exploitable bugs. Obviously I think this is great. But for law enforcement and offensive intelligence agencies, it's going to be a nightmare.",
+      "tags": [
+        "cryptography",
+        "security",
+        "surveillance",
+        "ai",
+        "government"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-15T11:06:08.932Z",
+      "visits": 0
+    },
+    {
       "id": 1786789713172,
       "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
       "source": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct",
@@ -9423,5 +9439,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-15T10:28:33.172Z"
+  "lastUpdated": "2026-08-15T11:06:08.932Z"
 }
