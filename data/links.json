@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1786836316005,
+      "url": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/",
+      "source": "The Government is Monitoring Anti-Flock TikTok and Instagram Accounts",
+      "pullQuote": "In sum, the documents show that local, state, and federal law enforcement are monitoring anti-Flock activists and are trying to tie together people who politically oppose mass surveillance with vigilantes who destroy Flock cameras. 404 Media obtained the documents through a public records act request.",
+      "tags": [
+        "flock",
+        "surveillance",
+        "policing",
+        "socialmedia",
+        "alpr"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-15T23:25:16.005Z",
+      "visits": 0
+    },
+    {
       "id": 1786800562059,
       "url": "https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
       "source": "Anthropic says text watermarking scheme relies on inconsequential words",
@@ -9471,5 +9487,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-15T13:29:22.059Z"
+  "lastUpdated": "2026-08-15T23:25:16.005Z"
 }
