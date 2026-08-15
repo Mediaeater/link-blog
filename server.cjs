@@ -12,6 +12,15 @@ const app = express();
 const digestManager = new DigestManager();
 const PORT = 3001;
 
+// Root the links.json pair under an overridable directory so tests can point at
+// a throwaway copy. They used to back up and restore the real files, which
+// raced any parallel reader and left fixture data behind if a run died midway.
+// Resolved per call, not at require time: vi.resetModules() does not
+// re-evaluate this module, so a cached copy would keep the stale root.
+const dataRoot = () => process.env.LINK_BLOG_DATA_ROOT || __dirname;
+const publicLinksPath = () => path.join(dataRoot(), 'public', 'data', 'links.json');
+const dataLinksPath = () => path.join(dataRoot(), 'data', 'links.json');
+
 // Rate limiting - prevent abuse
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -144,11 +153,8 @@ app.post('/api/save-links', writeLimiter, async (req, res) => {
     const jsonContent = JSON.stringify(saveData, null, 2);
 
     // Save to both locations
-    const publicPath = path.join(__dirname, 'public', 'data', 'links.json');
-    const dataPath = path.join(__dirname, 'data', 'links.json');
-
-    await fs.writeFile(publicPath, jsonContent);
-    await fs.writeFile(dataPath, jsonContent);
+    await fs.writeFile(publicLinksPath(), jsonContent);
+    await fs.writeFile(dataLinksPath(), jsonContent);
 
     console.log(`✅ Saved ${data.links.length} links at ${new Date().toLocaleTimeString()}`);
 
@@ -167,8 +173,7 @@ app.post('/api/save-links', writeLimiter, async (req, res) => {
 // Endpoint to get links (optional, for consistency)
 app.get('/api/links', async (req, res) => {
   try {
-    const dataPath = path.join(__dirname, 'public', 'data', 'links.json');
-    const content = await fs.readFile(dataPath, 'utf8');
+    const content = await fs.readFile(publicLinksPath(), 'utf8');
     res.json(JSON.parse(content));
   } catch (error) {
     console.error('Error reading links:', error);
@@ -179,8 +184,7 @@ app.get('/api/links', async (req, res) => {
 // Sync status - shows current state for debugging multi-location workflow
 app.get('/api/sync-status', async (req, res) => {
   try {
-    const dataPath = path.join(__dirname, 'public', 'data', 'links.json');
-    const content = await fs.readFile(dataPath, 'utf8');
+    const content = await fs.readFile(publicLinksPath(), 'utf8');
     const data = JSON.parse(content);
     const currentYear = new Date().getFullYear();
     const thisYearLinks = data.links.filter(l =>

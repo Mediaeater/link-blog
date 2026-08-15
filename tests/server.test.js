@@ -106,42 +106,34 @@ describe('validateLinksPayload', () => {
 
 import request from 'supertest';
 import fs from 'fs/promises';
+import os from 'os';
 import path from 'path';
 
 describe('API endpoints', () => {
   let app;
-  const projectRoot = path.resolve(import.meta.dirname, '..');
-  const publicDataDir = path.join(projectRoot, 'public', 'data');
-  const dataDir = path.join(projectRoot, 'data');
 
-  // Back up original files before tests, restore after
-  let originalPublicLinks;
-  let originalDataLinks;
+  // These tests write links.json. Point the server at a scratch data root so
+  // they never touch the repo's real copies: vitest runs files in parallel
+  // workers, and data-integrity.test.js reads those same files from disk.
+  let dataRoot;
+  let publicDataDir;
+  let dataDir;
 
   beforeEach(async () => {
-    // Save original files
-    try {
-      originalPublicLinks = await fs.readFile(path.join(publicDataDir, 'links.json'), 'utf8');
-    } catch {
-      originalPublicLinks = null;
-    }
-    try {
-      originalDataLinks = await fs.readFile(path.join(dataDir, 'links.json'), 'utf8');
-    } catch {
-      originalDataLinks = null;
-    }
+    dataRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'link-blog-test-'));
+    publicDataDir = path.join(dataRoot, 'public', 'data');
+    dataDir = path.join(dataRoot, 'data');
+    await fs.mkdir(publicDataDir, { recursive: true });
+    await fs.mkdir(dataDir, { recursive: true });
+    process.env.LINK_BLOG_DATA_ROOT = dataRoot;
+
+    // server.cjs reads the env var at require time, so drop the cached module.
+    vi.resetModules();
   });
 
   afterEach(async () => {
-    // Restore original files
-    if (originalPublicLinks !== null) {
-      await fs.writeFile(path.join(publicDataDir, 'links.json'), originalPublicLinks);
-    }
-    if (originalDataLinks !== null) {
-      await fs.writeFile(path.join(dataDir, 'links.json'), originalDataLinks);
-    }
-
-    // Reset module cache so each test gets a fresh app
+    delete process.env.LINK_BLOG_DATA_ROOT;
+    await fs.rm(dataRoot, { recursive: true, force: true });
     vi.resetModules();
   });
 
