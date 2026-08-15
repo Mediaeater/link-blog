@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-15T12:46:41.171Z</updated>
+    <updated>2026-08-15T13:29:22.059Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Anthropic says text watermarking scheme relies on inconsequential words]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786800562059</id>
+        <link href="https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156"/>
+        <updated>2026-08-15T13:29:22.059Z</updated>
+        <summary type="html"><![CDATA[Tags: anthropic, ai, llm, watermarking, claude]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears]]></title>
         <id>tag:newsfeeds.net,2026:link/1786798001171</id>
