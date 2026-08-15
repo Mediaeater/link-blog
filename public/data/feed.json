@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1786789713172",
+      "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
+      "title": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct",
+      "date_published": "2026-08-15T10:28:33.172Z",
+      "tags": [
+        "archive",
+        "infrastructure",
+        "data",
+        "legal",
+        "media"
+      ],
+      "content_text": "The channel's attorney also reached out to Iron Mountain to inform the company of the pending case in Colorado; Iron Mountain finally admitted to holding the data. Iron Mountain initially agreed to turn over Nine PBS' data, but it eventually backtracked and claimed that OSS owned the data it stored. Because of this, Nine PBS now has no choice but to sue Iron Mountain, too, to ensure the data is not deleted.",
+      "summary": "The channel's attorney also reached out to Iron Mountain to inform the company of the pending case in Colorado; Iron Mountain finally admitted to hold...",
+      "content_html": "<blockquote>The channel&#039;s attorney also reached out to Iron Mountain to inform the company of the pending case in Colorado; Iron Mountain finally admitted to holding the data. Iron Mountain initially agreed to turn over Nine PBS&#039; data, but it eventually backtracked and claimed that OSS owned the data it stored. Because of this, Nine PBS now has no choice but to sue Iron Mountain, too, to ensure the data is not deleted.</blockquote>\n<p><strong>Tags:</strong> archive, infrastructure, data, legal, media</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1786492908516",
       "url": "https://www.techradar.com/tech/london-underground-is-trialing-live-face-scanning-from-today-as-privacy-groups-say-it-treats-the-public-like-suspects-heres-how-to-avoid-it",
       "title": "London Underground is trialing live face scanning as privacy groups say it 'treats the public like suspects'",

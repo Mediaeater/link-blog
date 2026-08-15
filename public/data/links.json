@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1786789713172,
+      "url": "https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation",
+      "source": "PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct",
+      "pullQuote": "The channel's attorney also reached out to Iron Mountain to inform the company of the pending case in Colorado; Iron Mountain finally admitted to holding the data. Iron Mountain initially agreed to turn over Nine PBS' data, but it eventually backtracked and claimed that OSS owned the data it stored. Because of this, Nine PBS now has no choice but to sue Iron Mountain, too, to ensure the data is not deleted.",
+      "tags": [
+        "archive",
+        "infrastructure",
+        "data",
+        "legal",
+        "media"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-15T10:28:33.172Z",
+      "visits": 0
+    },
+    {
       "id": 1786492908516,
       "url": "https://www.techradar.com/tech/london-underground-is-trialing-live-face-scanning-from-today-as-privacy-groups-say-it-treats-the-public-like-suspects-heres-how-to-avoid-it",
       "source": "London Underground is trialing live face scanning as privacy groups say it 'treats the public like suspects'",
@@ -9407,5 +9423,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-12T00:01:48.516Z"
+  "lastUpdated": "2026-08-15T10:28:33.172Z"
 }
