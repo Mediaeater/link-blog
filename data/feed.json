@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1786798001171",
+      "url": "https://www.theguardian.com/technology/2026/aug/06/restaurants-pubs-and-theatres-ban-metas-spy-glasses-over-privacy-fears",
+      "title": "Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears",
+      "date_published": "2026-08-15T12:46:41.171Z",
+      "tags": [
+        "meta",
+        "smart-glasses",
+        "privacy",
+        "surveillance",
+        "social-contract"
+      ],
+      "content_text": "But those plans have hit a snag in the UK, where venues from elite restaurants to popular pub chains have banned the £359 glasses in order to preserve the privacy of customers and staff. Celebrated restaurateur Jeremy King, owner of London venues including Simpsons in the Strand, Arlington and The Park, said guests should not wear the recording glasses. He told the Guardian: “I would never knowingly allow any invasion of guest privacy other than with the eyes we were born with.”",
+      "summary": "But those plans have hit a snag in the UK, where venues from elite restaurants to popular pub chains have banned the £359 glasses in order to preserve...",
+      "content_html": "<blockquote>But those plans have hit a snag in the UK, where venues from elite restaurants to popular pub chains have banned the £359 glasses in order to preserve the privacy of customers and staff. Celebrated restaurateur Jeremy King, owner of London venues including Simpsons in the Strand, Arlington and The Park, said guests should not wear the recording glasses. He told the Guardian: “I would never knowingly allow any invasion of guest privacy other than with the eyes we were born with.”</blockquote>\n<p><strong>Tags:</strong> meta, smart-glasses, privacy, surveillance, social-contract</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1786791968932",
       "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
       "title": "Everything is about to \"go dark\"",

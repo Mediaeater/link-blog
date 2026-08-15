@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1786798001171,
+      "url": "https://www.theguardian.com/technology/2026/aug/06/restaurants-pubs-and-theatres-ban-metas-spy-glasses-over-privacy-fears",
+      "source": "Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears",
+      "pullQuote": "But those plans have hit a snag in the UK, where venues from elite restaurants to popular pub chains have banned the £359 glasses in order to preserve the privacy of customers and staff. Celebrated restaurateur Jeremy King, owner of London venues including Simpsons in the Strand, Arlington and The Park, said guests should not wear the recording glasses. He told the Guardian: “I would never knowingly allow any invasion of guest privacy other than with the eyes we were born with.”",
+      "tags": [
+        "meta",
+        "smart-glasses",
+        "privacy",
+        "surveillance",
+        "social-contract"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-15T12:46:41.171Z",
+      "visits": 0
+    },
+    {
       "id": 1786791968932,
       "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
       "source": "Everything is about to \"go dark\"",
@@ -9439,5 +9455,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-15T11:06:08.932Z"
+  "lastUpdated": "2026-08-15T12:46:41.171Z"
 }
