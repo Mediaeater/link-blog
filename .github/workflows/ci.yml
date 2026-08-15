@@ -6,51 +6,109 @@ on:
   pull_request:
     branches: [ main ]
 
+# A second push supersedes the first; the older run's verdict is already stale.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  build:
+  # Link additions only touch the JSON stores and generated feeds, which cannot
+  # break the bundle. Those pushes skip `build` and get `data` alone.
+  changes:
     runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        node-version: [22.x, 24.x]
-    
+    outputs:
+      code: ${{ steps.filter.outputs.code }}
     steps:
     - uses: actions/checkout@v7
-    
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v7
       with:
-        node-version: ${{ matrix.node-version }}
+        fetch-depth: 0
+
+    - name: Detect non-data changes
+      id: filter
+      env:
+        BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+        HEAD: ${{ github.sha }}
+      run: |
+        # New branch, force push, or a base we no longer have: assume code changed.
+        if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ] \
+           || ! git cat-file -e "$BASE^{commit}" 2>/dev/null; then
+          echo "base unavailable - running full build"
+          echo "code=true" >> "$GITHUB_OUTPUT"
+          exit 0
+        fi
+        changed=$(git diff --name-only "$BASE" "$HEAD")
+        echo "$changed"
+        # grep -qv succeeds when any line is NOT a data path. An empty diff
+        # yields one empty line, which also fails the pattern, so it fails safe.
+        if echo "$changed" | grep -qvE '^(data/|public/data/|public/feed)'; then
+          echo "code=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "data-only push - skipping build"
+          echo "code=false" >> "$GITHUB_OUTPUT"
+        fi
+
+  # Cheap and unconditional: links.json is the source of truth, so it gets
+  # checked on every push including the data-only ones that skip `build`.
+  data:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+
+    - uses: actions/setup-node@v7
+      with:
+        node-version: '24'
         cache: 'npm'
-    
+
     - name: Install dependencies
       run: npm ci
-    
+
+    - name: Validate data files
+      run: npx vitest run tests/data-integrity.test.js
+
+  build:
+    needs: changes
+    if: needs.changes.outputs.code == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v7
+
+    - uses: actions/setup-node@v7
+      with:
+        node-version: '24'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run tests
+      run: npx vitest run
+
     - name: Run build
       run: npm run build
-    
+
     - name: Check for lint issues
       run: npm run lint || true
       continue-on-error: true
-    
+
     # Bookmark parser test removed - uses browser-specific DOMParser not available in Node
-    
+
     - name: Upload build artifacts
       uses: actions/upload-artifact@v7
       if: success()
       with:
-        name: dist-${{ matrix.node-version }}
+        name: dist
         path: dist
 
   security:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
-    
+
     - name: Run security audit
       run: npm audit --audit-level=high
       continue-on-error: true
-    
+
     - name: Check for secrets
       uses: trufflesecurity/trufflehog@main
       with:
