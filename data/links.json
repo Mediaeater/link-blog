@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1786905506802,
+      "url": "https://www.unpopularfront.news/p/this-is-your-brain-on-x",
+      "source": "This Is Your Brain on X",
+      "pullQuote": "The shittiness of X is the point, so to speak. It’s a slag heap, a mental waste dump, a sewer. Currency exchange was the wrong metaphor; It’s some kind of industrial waste product recycling process. Instead of writers and intellectuals coming up with ideas that filter into the culture, they are totally dominated by the conditions of discourse of social media.",
+      "tags": [
+        "socialmedia",
+        "media",
+        "politics",
+        "creepy-elon-musk"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-16T18:38:26.802Z",
+      "visits": 0
+    },
+    {
       "id": 1786836316005,
       "url": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/",
       "source": "The Government is Monitoring Anti-Flock TikTok and Instagram Accounts",
@@ -9487,5 +9502,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-15T23:25:16.005Z"
+  "lastUpdated": "2026-08-16T18:38:26.802Z"
 }
