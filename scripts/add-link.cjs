@@ -69,11 +69,19 @@ function main() {
   }
 
   const title = (args.title || '').trim() || hostname;
-  const tags = (args.tags || '')
-    .split(',')
+  const requestedTags = (args.tags || '').split(',').filter(t => t.trim());
+  const tags = requestedTags
     .map(cleanTag)
     .filter(Boolean)
     .filter((t, i, arr) => arr.indexOf(t) === i);
+
+  // cleanTag silently returns null for anything under 2 chars or over 30, so a
+  // tag asked for on the command line could vanish without a word. Say so.
+  const dropped = requestedTags.filter((t, i) => cleanTag(requestedTags[i]) === null);
+  if (dropped.length) {
+    console.warn(`⚠️  Dropped ${dropped.length} invalid tag(s): ${dropped.map(t => t.trim()).join(', ')}`);
+    console.warn('   Tags must be 2-30 chars after cleaning (a-z, 0-9, dash, underscore).');
+  }
 
   const data = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
   const links = data.links || [];
