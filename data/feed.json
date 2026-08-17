@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1786997601757",
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "date_published": "2026-08-17T20:13:21.757Z",
+      "tags": [
+        "books",
+        "training",
+        "archive",
+        "ai"
+      ],
+      "content_text": "Amazon is buying massive quantities of books, scanning them for AI training data, and destroying them in the process. A 404 Media investigation was able to reveal Amazon’s book buying operation, which hasn’t been previously reported, by placing a tracking device in a rare book we suspected would be acquired by an AI company for training data, and following it around the country to its final destination.",
+      "summary": "Amazon is buying massive quantities of books, scanning them for AI training data, and destroying them in the process. A 404 Media investigation was ab...",
+      "content_html": "<blockquote>Amazon is buying massive quantities of books, scanning them for AI training data, and destroying them in the process. A 404 Media investigation was able to reveal Amazon’s book buying operation, which hasn’t been previously reported, by placing a tracking device in a rare book we suspected would be acquired by an AI company for training data, and following it around the country to its final destination.</blockquote>\n<p><strong>Tags:</strong> books, training, archive, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1786926463017",
       "url": "https://community.wolfram.com/groups/-/m/t/122095",
       "title": "Dancing with friends and enemies: boids' swarm intelligence",
