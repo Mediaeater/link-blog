@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "id": 1787001000372,
+      "url": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
+      "source": "Judge sets framework for Nine PBS to retrieve archival data",
+      "pullQuote": "The attorney noted that the data could potentially be stored in physical form, such as tapes that could be easily retrieved. But if the materials are on a server, Nine PBS could lose the materials forever if Iron Mountain shuts it down.",
+      "tags": [
+        "archive",
+        "infrastructure",
+        "data",
+        "legal",
+        "media"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-17T21:10:00.372Z",
+      "visits": 0
+    },
+    {
+      "id": 1787000995149,
+      "url": "https://a.security/blog/asecurity-zoomsday",
+      "source": "ZOOMSDAY: How A Security Found a Nation-State Vulnerability in Zoom in One Day",
+      "pullQuote": "But the real finding isn't the bug. It's the speed. The barrier to producing this class of weapon has collapsed, and it won't come back.",
+      "tags": [
+        "security",
+        "agents",
+        "ai",
+        "zoom"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-17T21:09:55.149Z",
+      "visits": 0
+    },
+    {
       "id": 1786998272828,
       "url": "https://rebeccawilliams.info/unwinding-the-great-tech-power-grab/",
       "source": "Unwinding the Great Tech Power Grab",
@@ -9562,5 +9593,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-17T20:24:32.828Z"
+  "lastUpdated": "2026-08-17T21:10:00.372Z"
 }

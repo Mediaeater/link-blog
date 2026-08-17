@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-17T20:24:32.828Z</updated>
+    <updated>2026-08-17T21:10:00.372Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Judge sets framework for Nine PBS to retrieve archival data]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787001000372</id>
+        <link href="https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/"/>
+        <updated>2026-08-17T21:10:00.372Z</updated>
+        <summary type="html"><![CDATA[Tags: archive, infrastructure, data, legal, media]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZOOMSDAY: How A Security Found a Nation-State Vulnerability in Zoom in One Day]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787000995149</id>
+        <link href="https://a.security/blog/asecurity-zoomsday"/>
+        <updated>2026-08-17T21:09:55.149Z</updated>
+        <summary type="html"><![CDATA[Tags: security, agents, ai, zoom]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Unwinding the Great Tech Power Grab]]></title>
         <id>tag:newsfeeds.net,2026:link/1786998272828</id>
