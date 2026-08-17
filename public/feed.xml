@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-17T20:13:21.757Z</updated>
+    <updated>2026-08-17T20:24:32.828Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Unwinding the Great Tech Power Grab]]></title>
+        <id>tag:newsfeeds.net,2026:link/1786998272828</id>
+        <link href="https://rebeccawilliams.info/unwinding-the-great-tech-power-grab/"/>
+        <updated>2026-08-17T20:24:32.828Z</updated>
+        <summary type="html"><![CDATA[Tags: democracy, technology, social-contract, ai-backlash]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility]]></title>
         <id>tag:newsfeeds.net,2026:link/1786997601757</id>

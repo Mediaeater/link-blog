@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1786998272828,
+      "url": "https://rebeccawilliams.info/unwinding-the-great-tech-power-grab/",
+      "source": "Unwinding the Great Tech Power Grab",
+      "pullQuote": "If tech seeks to replace democratic governance itself, then the response has to be more democracy, not less.",
+      "tags": [
+        "democracy",
+        "technology",
+        "social-contract",
+        "ai-backlash"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-17T20:24:32.828Z",
+      "visits": 0
+    },
+    {
       "id": 1786997601757,
       "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
       "source": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
@@ -9547,5 +9562,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-17T20:13:21.757Z"
+  "lastUpdated": "2026-08-17T20:24:32.828Z"
 }
