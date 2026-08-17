@@ -15,6 +15,44 @@
   ],
   "items": [
     {
+      "id": "1786926463017",
+      "url": "https://community.wolfram.com/groups/-/m/t/122095",
+      "title": "Dancing with friends and enemies: boids' swarm intelligence",
+      "date_published": "2026-08-17T00:27:43.017Z",
+      "tags": [
+        "code",
+        "science",
+        "dataviz",
+        "emergence"
+      ],
+      "content_text": "I had read somewhere that macro-scale behaviour of animal swarms (think of flocks of starlings or shoals of herring) is explained by each individual following very simple rules local to their vicinity, essentially 1) try to keep up and 2) try not to collide. I started trying to play with this idea in Mathematica, but it was rather slow to identify the nearest neighbours of each particle. So I wondered what would happen if each particle acted according to the locations of two other particles, regardless of their proximity. The rule was simply to move away from one and towards the other.",
+      "summary": "I had read somewhere that macro-scale behaviour of animal swarms (think of flocks of starlings or shoals of herring) is explained by each individual f...",
+      "content_html": "<blockquote>I had read somewhere that macro-scale behaviour of animal swarms (think of flocks of starlings or shoals of herring) is explained by each individual following very simple rules local to their vicinity, essentially 1) try to keep up and 2) try not to collide. I started trying to play with this idea in Mathematica, but it was rather slow to identify the nearest neighbours of each particle. So I wondered what would happen if each particle acted according to the locations of two other particles, regardless of their proximity. The rule was simply to move away from one and towards the other.</blockquote>\n<p><strong>Tags:</strong> code, science, dataviz, emergence</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1786926456335",
+      "url": "https://bernsteinbear.com/blog/zkp/",
+      "title": "A quick look at zero-knowledge proofs",
+      "date_published": "2026-08-17T00:27:36.335Z",
+      "tags": [
+        "cryptography",
+        "code",
+        "python",
+        "paper"
+      ],
+      "content_text": "The idea of a zero-knowledge proof (ZKP) is that there are two parties: the prover and the verifier. The prover asserts that it has a solution to a (generally NP-complete) problem. The prover can convince the verifier of this without sharing the actual solution to the problem.",
+      "summary": "The idea of a zero-knowledge proof (ZKP) is that there are two parties: the prover and the verifier. The prover asserts that it has a solution to a (g...",
+      "content_html": "<blockquote>The idea of a zero-knowledge proof (ZKP) is that there are two parties: the prover and the verifier. The prover asserts that it has a solution to a (generally NP-complete) problem. The prover can convince the verifier of this without sharing the actual solution to the problem.</blockquote>\n<p><strong>Tags:</strong> cryptography, code, python, paper</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1786905506802",
       "url": "https://www.unpopularfront.news/p/this-is-your-brain-on-x",
       "title": "This Is Your Brain on X",
