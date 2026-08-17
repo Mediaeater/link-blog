@@ -15,6 +15,45 @@
   ],
   "items": [
     {
+      "id": "1787001000372",
+      "url": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
+      "title": "Judge sets framework for Nine PBS to retrieve archival data",
+      "date_published": "2026-08-17T21:10:00.372Z",
+      "tags": [
+        "archive",
+        "infrastructure",
+        "data",
+        "legal",
+        "media"
+      ],
+      "content_text": "The attorney noted that the data could potentially be stored in physical form, such as tapes that could be easily retrieved. But if the materials are on a server, Nine PBS could lose the materials forever if Iron Mountain shuts it down.",
+      "summary": "The attorney noted that the data could potentially be stored in physical form, such as tapes that could be easily retrieved. But if the materials are ...",
+      "content_html": "<blockquote>The attorney noted that the data could potentially be stored in physical form, such as tapes that could be easily retrieved. But if the materials are on a server, Nine PBS could lose the materials forever if Iron Mountain shuts it down.</blockquote>\n<p><strong>Tags:</strong> archive, infrastructure, data, legal, media</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1787000995149",
+      "url": "https://a.security/blog/asecurity-zoomsday",
+      "title": "ZOOMSDAY: How A Security Found a Nation-State Vulnerability in Zoom in One Day",
+      "date_published": "2026-08-17T21:09:55.149Z",
+      "tags": [
+        "security",
+        "agents",
+        "ai",
+        "zoom"
+      ],
+      "content_text": "But the real finding isn't the bug. It's the speed. The barrier to producing this class of weapon has collapsed, and it won't come back.",
+      "summary": "But the real finding isn't the bug. It's the speed. The barrier to producing this class of weapon has collapsed, and it won't come back.",
+      "content_html": "<blockquote>But the real finding isn&#039;t the bug. It&#039;s the speed. The barrier to producing this class of weapon has collapsed, and it won&#039;t come back.</blockquote>\n<p><strong>Tags:</strong> security, agents, ai, zoom</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1786998272828",
       "url": "https://rebeccawilliams.info/unwinding-the-great-tech-power-grab/",
       "title": "Unwinding the Great Tech Power Grab",
