@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787227180853,
+      "url": "https://grime-square.com/2026/08/18/kim-gordon-exhibition-amant-gallery/",
+      "source": "Girl in a Bland – grime square",
+      "pullQuote": "In the spirit of punk, it's limpid, like seeing 2/4ths of the original Ramones end a set at the county fair with a cover of \"Surfin' Safari.\" Baked into the exhibition's premise is the glaring question: \"Can Kim Gordon—or for that matter, any aged, rich artist—still be subversive?\" In a way, the answer is yes and no. Richard Prince still feels dangerous, even if his gimmick has been largely accepted by the art establishment. But as Porter said, the art is either breathing or it's dead, and if Kim Gordon's art isn't dead, it sure smells funny.",
+      "tags": [
+        "art",
+        "music",
+        "nyc",
+        "exhibition",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-20T11:59:40.853Z",
+      "visits": 0
+    },
+    {
       "id": 1787224885443,
       "url": "https://grayarea.org/cybersentics-little-library/",
       "source": "Cybersentics Little Library — Gray Area",
@@ -9623,5 +9639,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-20T11:21:25.443Z"
+  "lastUpdated": "2026-08-20T11:59:40.853Z"
 }
