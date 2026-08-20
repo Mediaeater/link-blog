@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1787247469669",
+      "url": "https://tomarigi.me/",
+      "title": "とまり木 (Tomarigi) — 各地のカメラから、日本のいま。",
+      "date_published": "2026-08-20T17:37:49.669Z",
+      "tags": [
+        "japan",
+        "maps",
+        "video",
+        "cameras",
+        "ambient"
+      ],
+      "content_text": "日本各地のYouTubeライブカメラを地図から探して、その場で視聴できるサービス。",
+      "summary": "日本各地のYouTubeライブカメラを地図から探して、その場で視聴できるサービス。",
+      "content_html": "<blockquote>日本各地のYouTubeライブカメラを地図から探して、その場で視聴できるサービス。</blockquote>\n<p><strong>Tags:</strong> japan, maps, video, cameras, ambient</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1787246251198",
+      "url": "https://www.wired.com/story/flock-safety-os-investigate/",
+      "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code | WIRED",
+      "date_published": "2026-08-20T17:17:31.198Z",
+      "tags": [
+        "flock",
+        "surveillance",
+        "policing",
+        "alpr",
+        "ai"
+      ],
+      "content_text": "Vehicle surveillance giant Flock Safety has told the public for years that its technology 'cannot recognize, identify, or track individuals.' It has now built a system that does both, an artificial intelligence tool for police that can identify drivers and track vehicles by their patterns of movement alone, WIRED has learned. Drawing on a network of cameras that logs the movements of drivers in more than 6,000 communities, the tool can pick out potential witnesses by how often their cars pass through a neighborhood, or surface a driver's 'associates' from the cameras they pass together.",
+      "summary": "Vehicle surveillance giant Flock Safety has told the public for years that its technology 'cannot recognize, identify, or track individuals.' It has n...",
+      "content_html": "<blockquote>Vehicle surveillance giant Flock Safety has told the public for years that its technology &#039;cannot recognize, identify, or track individuals.&#039; It has now built a system that does both, an artificial intelligence tool for police that can identify drivers and track vehicles by their patterns of movement alone, WIRED has learned. Drawing on a network of cameras that logs the movements of drivers in more than 6,000 communities, the tool can pick out potential witnesses by how often their cars pass through a neighborhood, or surface a driver&#039;s &#039;associates&#039; from the cameras they pass together.</blockquote>\n<p><strong>Tags:</strong> flock, surveillance, policing, alpr, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1787227180853",
       "url": "https://grime-square.com/2026/08/18/kim-gordon-exhibition-amant-gallery/",
       "title": "Girl in a Bland – grime square",

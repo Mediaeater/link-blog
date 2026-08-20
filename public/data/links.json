@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1787247469669,
+      "url": "https://tomarigi.me/",
+      "source": "とまり木 (Tomarigi) — 各地のカメラから、日本のいま。",
+      "pullQuote": "日本各地のYouTubeライブカメラを地図から探して、その場で視聴できるサービス。",
+      "tags": [
+        "japan",
+        "maps",
+        "video",
+        "cameras",
+        "ambient"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-20T17:37:49.669Z",
+      "visits": 0
+    },
+    {
+      "id": 1787246251198,
+      "url": "https://www.wired.com/story/flock-safety-os-investigate/",
+      "source": "Flock Has a Powerful New AI Tool for Police. We Got Its Code | WIRED",
+      "pullQuote": "Vehicle surveillance giant Flock Safety has told the public for years that its technology 'cannot recognize, identify, or track individuals.' It has now built a system that does both, an artificial intelligence tool for police that can identify drivers and track vehicles by their patterns of movement alone, WIRED has learned. Drawing on a network of cameras that logs the movements of drivers in more than 6,000 communities, the tool can pick out potential witnesses by how often their cars pass through a neighborhood, or surface a driver's 'associates' from the cameras they pass together.",
+      "tags": [
+        "flock",
+        "surveillance",
+        "policing",
+        "alpr",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-20T17:17:31.198Z",
+      "visits": 0
+    },
+    {
       "id": 1787227180853,
       "url": "https://grime-square.com/2026/08/18/kim-gordon-exhibition-amant-gallery/",
       "source": "Girl in a Bland – grime square",
@@ -9639,5 +9671,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-20T11:59:40.853Z"
+  "lastUpdated": "2026-08-20T17:37:49.669Z"
 }
