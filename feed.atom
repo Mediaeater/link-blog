@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-20T11:59:40.853Z</updated>
+    <updated>2026-08-20T17:37:49.669Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[とまり木 (Tomarigi) — 各地のカメラから、日本のいま。]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787247469669</id>
+        <link href="https://tomarigi.me/"/>
+        <updated>2026-08-20T17:37:49.669Z</updated>
+        <summary type="html"><![CDATA[Tags: japan, maps, video, cameras, ambient]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flock Has a Powerful New AI Tool for Police. We Got Its Code | WIRED]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787246251198</id>
+        <link href="https://www.wired.com/story/flock-safety-os-investigate/"/>
+        <updated>2026-08-20T17:17:31.198Z</updated>
+        <summary type="html"><![CDATA[Tags: flock, surveillance, policing, alpr, ai]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Girl in a Bland – grime square]]></title>
         <id>tag:newsfeeds.net,2026:link/1787227180853</id>
