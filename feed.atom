@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-17T21:10:00.372Z</updated>
+    <updated>2026-08-20T11:21:25.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Cybersentics Little Library — Gray Area]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787224885443</id>
+        <link href="https://grayarea.org/cybersentics-little-library/"/>
+        <updated>2026-08-20T11:21:25.443Z</updated>
+        <summary type="html"><![CDATA[Tags: library, books, community, cybernetics]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Amazon tax | Seth's Blog]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787224880773</id>
+        <link href="https://seths.blog/2026/08/the-amazon-tax/"/>
+        <updated>2026-08-20T11:21:20.773Z</updated>
+        <summary type="html"><![CDATA[Tags: amazon, advertising, trust, platform]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Judge sets framework for Nine PBS to retrieve archival data]]></title>
         <id>tag:newsfeeds.net,2026:link/1787001000372</id>

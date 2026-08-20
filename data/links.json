@@ -1,6 +1,36 @@
 {
   "links": [
     {
+      "id": 1787224885443,
+      "url": "https://grayarea.org/cybersentics-little-library/",
+      "source": "Cybersentics Little Library — Gray Area",
+      "pullQuote": "Cybersentics Little Library is a curated collection of books on art, science, technology, and society, available free to the general public. Gray Area invites artists, educators, researchers, and others to visit our Cultural Incubator and access these specialized research materials.",
+      "tags": [
+        "library",
+        "books",
+        "community",
+        "cybernetics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-20T11:21:25.443Z",
+      "visits": 0
+    },
+    {
+      "id": 1787224880773,
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "source": "The Amazon tax | Seth's Blog",
+      "pullQuote": "For decades, Amazon created value for consumers by lowering the price of just about everything. And they opened the doors to merchants who didn't have sufficient distribution. They claimed to be customer-centric, and they were. I don't think they can claim this any longer. The ad system they built isn't illegal, but it's pretty clear who it's for. Amazon is stealing from the customers they said they were here to serve.",
+      "tags": [
+        "amazon",
+        "advertising",
+        "trust",
+        "platform"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-20T11:21:20.773Z",
+      "visits": 0
+    },
+    {
       "id": 1787001000372,
       "url": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
       "source": "Judge sets framework for Nine PBS to retrieve archival data",
@@ -9593,5 +9623,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-17T21:10:00.372Z"
+  "lastUpdated": "2026-08-20T11:21:25.443Z"
 }
