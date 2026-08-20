@@ -15,6 +15,44 @@
   ],
   "items": [
     {
+      "id": "1787224885443",
+      "url": "https://grayarea.org/cybersentics-little-library/",
+      "title": "Cybersentics Little Library — Gray Area",
+      "date_published": "2026-08-20T11:21:25.443Z",
+      "tags": [
+        "library",
+        "books",
+        "community",
+        "cybernetics"
+      ],
+      "content_text": "Cybersentics Little Library is a curated collection of books on art, science, technology, and society, available free to the general public. Gray Area invites artists, educators, researchers, and others to visit our Cultural Incubator and access these specialized research materials.",
+      "summary": "Cybersentics Little Library is a curated collection of books on art, science, technology, and society, available free to the general public. Gray Area...",
+      "content_html": "<blockquote>Cybersentics Little Library is a curated collection of books on art, science, technology, and society, available free to the general public. Gray Area invites artists, educators, researchers, and others to visit our Cultural Incubator and access these specialized research materials.</blockquote>\n<p><strong>Tags:</strong> library, books, community, cybernetics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1787224880773",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "title": "The Amazon tax | Seth's Blog",
+      "date_published": "2026-08-20T11:21:20.773Z",
+      "tags": [
+        "amazon",
+        "advertising",
+        "trust",
+        "platform"
+      ],
+      "content_text": "For decades, Amazon created value for consumers by lowering the price of just about everything. And they opened the doors to merchants who didn't have sufficient distribution. They claimed to be customer-centric, and they were. I don't think they can claim this any longer. The ad system they built isn't illegal, but it's pretty clear who it's for. Amazon is stealing from the customers they said they were here to serve.",
+      "summary": "For decades, Amazon created value for consumers by lowering the price of just about everything. And they opened the doors to merchants who didn't have...",
+      "content_html": "<blockquote>For decades, Amazon created value for consumers by lowering the price of just about everything. And they opened the doors to merchants who didn&#039;t have sufficient distribution. They claimed to be customer-centric, and they were. I don&#039;t think they can claim this any longer. The ad system they built isn&#039;t illegal, but it&#039;s pretty clear who it&#039;s for. Amazon is stealing from the customers they said they were here to serve.</blockquote>\n<p><strong>Tags:</strong> amazon, advertising, trust, platform</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1787001000372",
       "url": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
       "title": "Judge sets framework for Nine PBS to retrieve archival data",
