@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787421369983,
+      "url": "https://www.washingtonpost.com/technology/2026/08/22/how-palantir-co-founders-once-fringe-crusade-spread-across-trumps-america/",
+      "source": "How a Palantir co-founder’s once-fringe crusade spread across Trump’s America",
+      "pullQuote": "Long before Silicon Valley embraced Trump, Joe Lonsdale wanted to remake government and shift the nation’s approach to homelessness. Now, his friends in the White House are listening.",
+      "tags": [
+        "palantir",
+        "politics",
+        "government",
+        "homelessness",
+        "policy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-22T17:56:09.983Z",
+      "visits": 0
+    },
+    {
       "id": 1787416838462,
       "url": "https://www.abc.net.au/news/2026-08-07/ai-models-design-viruses-not-found-in-nature-for-first-time/107007854",
       "source": "AI models design viruses not found in nature for first time",
@@ -9788,5 +9804,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-22T16:40:38.462Z"
+  "lastUpdated": "2026-08-22T17:56:09.983Z"
 }
