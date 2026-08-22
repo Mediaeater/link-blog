@@ -1,6 +1,23 @@
 {
   "links": [
     {
+      "id": 1787426450052,
+      "url": "https://www.nytimes.com/2026/08/22/us/politics/homelessness-lonsdale-billionaire-trump.html",
+      "source": "How HUD moved two-thirds of homelessness funding away from permanent housing",
+      "pullQuote": "A few months after the executive order, HUD issued an annual document called a Notice of Funding Opportunity. It had long been the lifeblood of Housing First, directing about 90 percent of homelessness aid to long-term housing. Following the principles in Mr. Trump’s order, HUD sought to move two-thirds of the money to time-limited programs with work rules or treatment mandates. Mr. Lonsdale exulted. “A lot of the permanent bureaucracy is in the hard left,” he said in an interview soon after. “We’re stopping them from doing it their way and forcing them to do it a different way.”",
+      "tags": [
+        "palantir",
+        "politics",
+        "government",
+        "homelessness",
+        "policy",
+        "creepy-joelonsdale"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-22T19:20:50.052Z",
+      "visits": 0
+    },
+    {
       "id": 1787421369983,
       "url": "https://www.washingtonpost.com/technology/2026/08/22/how-palantir-co-founders-once-fringe-crusade-spread-across-trumps-america/",
       "source": "How a Palantir co-founder’s once-fringe crusade spread across Trump’s America",
@@ -9805,5 +9822,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-22T17:56:09.983Z"
+  "lastUpdated": "2026-08-22T19:20:50.052Z"
 }
