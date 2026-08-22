@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-22T16:26:30.329Z</updated>
+    <updated>2026-08-22T16:33:08.140Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Brussels Flower Carpet]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787416388140</id>
+        <link href="https://www.flowercarpet.brussels/en"/>
+        <updated>2026-08-22T16:33:08.140Z</updated>
+        <summary type="html"><![CDATA[Tags: art, design, culture, architecture, ephemeral-art]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ElevenLabs, TwelveLabs, ThirteenLabs, …]]></title>
         <id>tag:newsfeeds.net,2026:link/1787415990329</id>
