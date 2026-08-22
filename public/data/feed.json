@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1787416388140",
+      "url": "https://www.flowercarpet.brussels/en",
+      "title": "Brussels Flower Carpet",
+      "date_published": "2026-08-22T16:33:08.140Z",
+      "tags": [
+        "art",
+        "design",
+        "culture",
+        "architecture",
+        "ephemeral-art"
+      ],
+      "content_text": "The flower carpet on the Grand-Place in Brussels is the ultimate expression of ephemeral art, as the work is destined to disappear after just four days on show. Every two years, on the weekend of 15 August, the most beautiful Grand-Place in the world is transformed into an immense showcase of colours, to the delight of visitors aged 7 to 77.",
+      "summary": "The flower carpet on the Grand-Place in Brussels is the ultimate expression of ephemeral art, as the work is destined to disappear after just four day...",
+      "content_html": "<blockquote>The flower carpet on the Grand-Place in Brussels is the ultimate expression of ephemeral art, as the work is destined to disappear after just four days on show. Every two years, on the weekend of 15 August, the most beautiful Grand-Place in the world is transformed into an immense showcase of colours, to the delight of visitors aged 7 to 77.</blockquote>\n<p><strong>Tags:</strong> art, design, culture, architecture, ephemeral-art</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1787415990329",
       "url": "https://quantumi.sh/public/labs.html",
       "title": "ElevenLabs, TwelveLabs, ThirteenLabs, …",

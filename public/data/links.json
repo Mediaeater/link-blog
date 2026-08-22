@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787416388140,
+      "url": "https://www.flowercarpet.brussels/en",
+      "source": "Brussels Flower Carpet",
+      "pullQuote": "The flower carpet on the Grand-Place in Brussels is the ultimate expression of ephemeral art, as the work is destined to disappear after just four days on show. Every two years, on the weekend of 15 August, the most beautiful Grand-Place in the world is transformed into an immense showcase of colours, to the delight of visitors aged 7 to 77.",
+      "tags": [
+        "art",
+        "design",
+        "culture",
+        "architecture",
+        "ephemeral-art"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-22T16:33:08.140Z",
+      "visits": 0
+    },
+    {
       "id": 1787415990329,
       "url": "https://quantumi.sh/public/labs.html",
       "source": "ElevenLabs, TwelveLabs, ThirteenLabs, …",
@@ -9756,5 +9772,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-22T16:26:30.329Z"
+  "lastUpdated": "2026-08-22T16:33:08.140Z"
 }
