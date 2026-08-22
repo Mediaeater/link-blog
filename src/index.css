@@ -267,13 +267,13 @@ body {
 
   /* Tag styles (much more subtle) */
   .tag {
-    @apply inline-flex items-center rounded px-2 py-1 font-normal text-neutral-600 transition-all duration-[120ms] border border-neutral-300 bg-transparent hover:bg-neutral-100 hover:border-neutral-400;
+    @apply inline-flex items-center rounded px-2 py-1 font-normal text-neutral-600 transition-all duration-[120ms] bg-transparent hover:bg-neutral-100 hover:text-neutral-900;
     font-size: var(--text-xs);
   }
 
   /* Active filter state — must follow .tag to win the cascade */
   .tag-selected {
-    @apply bg-neutral-900 text-white border-neutral-900 hover:bg-neutral-800 hover:border-neutral-800 hover:text-white;
+    @apply bg-neutral-900 text-white hover:bg-neutral-800 hover:text-white;
   }
 
   /* Link card styles (spacious and elegant) */
