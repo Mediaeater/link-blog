@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/feed-digests.atom</id>
     <title>newsfeeds.net - Weekly Digests</title>
-    <updated>2026-08-12T12:02:28.719Z</updated>
+    <updated>2026-08-22T14:30:38.269Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,103 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed-digests.atom"/>
     <subtitle>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Aug 15-22, 2026]]></title>
+        <id>https://newsfeeds.net/digests/digest-025-2026-08-22.html</id>
+        <link href="https://newsfeeds.net/digests/digest-025-2026-08-22.html"/>
+        <updated>2026-08-22T14:30:38.269Z</updated>
+        <summary type="html"><![CDATA[18 curated links]]></summary>
+        <content type="html"><![CDATA[
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Aug 15-22, 2026 &middot; 18 links</p>
+  </header>
+
+<div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;"><p style="margin: 0 0 12px 0;">Custody of the record runs through this issue. A PBS station lost 50TB and seventy years of television when its cloud storage vendor went defunct, and a Colorado judge has set the terms for retrieving what survives. 404 Media tracked a shipment of rare books to an Amazon facility that scans them for AI training and destroys them in the process, and Gray Area&#39;s Cybersentics Little Library sits on the other side of that ledger. Flock spent years telling the public its cameras could not identify individuals and has now built a system that does. Law enforcement is monitoring the accounts of people who organize against it, and UK restaurants and pubs have started banning Meta&#39;s £359 glasses to keep their rooms private. Matthew Green argues software is about to run out of remotely exploitable bugs and that this is a nightmare for the agencies that depend on them, and a researcher found a nation-state class vulnerability in Zoom in a day. Seth Godin totals the Amazon tax, John Ganz reads X as industrial waste recycling, Rebecca Williams argues the answer to tech displacing democratic governance is more democracy, and Anthropic says text watermarking rests on inconsequential words. Plus zero-knowledge proofs from first principles, boids as emergent choreography, Japan&#39;s live cameras on one map, Kim Gordon at Amant, and the CIPM leaving the moon without a time scale.</p></div>
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.tomshardware.com/software/cloud-storage/nine-pbs-loses-access-to-70-years-of-data-after-contracted-cloud-storage-vendor-goes-defunct-public-tv-channel-sues-iron-mountain-data-center-which-hosts-archival-materials-to-ensure-preservation" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">PBS broadcaster loses access to 50TB of data comprising 70 years of TV history after contracted cloud storage vendor goes defunct</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">tomshardware.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The channel&#39;s attorney also reached out to Iron Mountain to inform the company of the pending case in Colorado; Iron Mountain finally admitted to holding the data. Iron Mountain initially agreed to turn over Nine PBS&#39; data, but it eventually backtracked and claimed that OSS owned the data it stored. Because of this, Nine PBS now has no choice but to sue Iron Mountain, too, to ensure the data is not deleted.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Everything is about to &quot;go dark&quot;</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">blog.cryptographyengineering.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Over the next two years, major pieces of software are likely to run out of remotely-exploitable bugs. Obviously I think this is great. But for law enforcement and offensive intelligence agencies, it&#39;s going to be a nightmare.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.theguardian.com/technology/2026/aug/06/restaurants-pubs-and-theatres-ban-metas-spy-glasses-over-privacy-fears" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">theguardian.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">But those plans have hit a snag in the UK, where venues from elite restaurants to popular pub chains have banned the £359 glasses in order to preserve the privacy of customers and staff. Celebrated restaurateur Jeremy King, owner of London venues including Simpsons in the Strand, Arlington and The Park, said guests should not wear the recording glasses. He told the Guardian: “I would never knowingly allow any invasion of guest privacy other than with the eyes we were born with.”</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Anthropic says text watermarking scheme relies on inconsequential words</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">theregister.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">But remove whatever training has been applied to promote engagement and simulate literary style, and that&#39;s basically what Claude is doing here – predicting the next word in a sequence. Anthropic asserts that in most cases, the example sentence could be completed by either &quot;cold&quot; or &quot;gray&quot; and &quot;the meaning of the sentence is largely the same either way.&quot; The watermark gets generated by deviating from the predicted word to something else. A different source of randomness is used and that can be detected with a digital key.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Government is Monitoring Anti-Flock TikTok and Instagram Accounts</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">404media.co</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In sum, the documents show that local, state, and federal law enforcement are monitoring anti-Flock activists and are trying to tie together people who politically oppose mass surveillance with vigilantes who destroy Flock cameras. 404 Media obtained the documents through a public records act request.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.unpopularfront.news/p/this-is-your-brain-on-x" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">This Is Your Brain on X</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">unpopularfront.news</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The shittiness of X is the point, so to speak. It’s a slag heap, a mental waste dump, a sewer. Currency exchange was the wrong metaphor; It’s some kind of industrial waste product recycling process. Instead of writers and intellectuals coming up with ideas that filter into the culture, they are totally dominated by the conditions of discourse of social media.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://bernsteinbear.com/blog/zkp/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">A quick look at zero-knowledge proofs</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bernsteinbear.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The idea of a zero-knowledge proof (ZKP) is that there are two parties: the prover and the verifier. The prover asserts that it has a solution to a (generally NP-complete) problem. The prover can convince the verifier of this without sharing the actual solution to the problem.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://community.wolfram.com/groups/-/m/t/122095" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Dancing with friends and enemies: boids&#39; swarm intelligence</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">community.wolfram.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">I had read somewhere that macro-scale behaviour of animal swarms (think of flocks of starlings or shoals of herring) is explained by each individual following very simple rules local to their vicinity, essentially 1) try to keep up and 2) try not to collide. I started trying to play with this idea in Mathematica, but it was rather slow to identify the nearest neighbours of each particle. So I wondered what would happen if each particle acted according to the locations of two other particles, regardless of their proximity. The rule was simply to move away from one and towards the other.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">404media.co</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Amazon is buying massive quantities of books, scanning them for AI training data, and destroying them in the process. A 404 Media investigation was able to reveal Amazon’s book buying operation, which hasn’t been previously reported, by placing a tracking device in a rare book we suspected would be acquired by an AI company for training data, and following it around the country to its final destination.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://rebeccawilliams.info/unwinding-the-great-tech-power-grab/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Unwinding the Great Tech Power Grab</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">rebeccawilliams.info</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">If tech seeks to replace democratic governance itself, then the response has to be more democracy, not less.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://a.security/blog/asecurity-zoomsday" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">ZOOMSDAY: How A Security Found a Nation-State Vulnerability in Zoom in One Day</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">a.security</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">But the real finding isn&#39;t the bug. It&#39;s the speed. The barrier to producing this class of weapon has collapsed, and it won&#39;t come back.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Judge sets framework for Nine PBS to retrieve archival data</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">current.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The attorney noted that the data could potentially be stored in physical form, such as tapes that could be easily retrieved. But if the materials are on a server, Nine PBS could lose the materials forever if Iron Mountain shuts it down.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://seths.blog/2026/08/the-amazon-tax/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">The Amazon tax | Seth&#39;s Blog</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">seths.blog</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">For decades, Amazon created value for consumers by lowering the price of just about everything. And they opened the doors to merchants who didn&#39;t have sufficient distribution. They claimed to be customer-centric, and they were. I don&#39;t think they can claim this any longer. The ad system they built isn&#39;t illegal, but it&#39;s pretty clear who it&#39;s for. Amazon is stealing from the customers they said they were here to serve.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://grayarea.org/cybersentics-little-library/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Cybersentics Little Library — Gray Area</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">grayarea.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Cybersentics Little Library is a curated collection of books on art, science, technology, and society, available free to the general public. Gray Area invites artists, educators, researchers, and others to visit our Cultural Incubator and access these specialized research materials.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://grime-square.com/2026/08/18/kim-gordon-exhibition-amant-gallery/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Girl in a Bland – grime square</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">grime-square.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">In the spirit of punk, it&#39;s limpid, like seeing 2/4ths of the original Ramones end a set at the county fair with a cover of &quot;Surfin&#39; Safari.&quot; Baked into the exhibition&#39;s premise is the glaring question: &quot;Can Kim Gordon—or for that matter, any aged, rich artist—still be subversive?&quot; In a way, the answer is yes and no. Richard Prince still feels dangerous, even if his gimmick has been largely accepted by the art establishment. But as Porter said, the art is either breathing or it&#39;s dead, and if Kim Gordon&#39;s art isn&#39;t dead, it sure smells funny.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.wired.com/story/flock-safety-os-investigate/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Flock Has a Powerful New AI Tool for Police. We Got Its Code | WIRED</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">wired.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Vehicle surveillance giant Flock Safety has told the public for years that its technology &#39;cannot recognize, identify, or track individuals.&#39; It has now built a system that does both, an artificial intelligence tool for police that can identify drivers and track vehicles by their patterns of movement alone, WIRED has learned. Drawing on a network of cameras that logs the movements of drivers in more than 6,000 communities, the tool can pick out potential witnesses by how often their cars pass through a neighborhood, or surface a driver&#39;s &#39;associates&#39; from the cameras they pass together.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://tomarigi.me/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">とまり木 (Tomarigi) — 各地のカメラから、日本のいま。</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">tomarigi.me</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">日本各地のYouTubeライブカメラを地図から探して、その場で視聴できるサービス。</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.bipm.org/en/search?p_p_id=search_portlet&amp;p_p_lifecycle=2&amp;p_p_resource_id=%2Fdownload%2Fpublication&amp;_search_portlet_dlFileId=292665759" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">CIPM, Session I of the 115th meeting (17–19 March 2026)</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bipm.org</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">N. Dimarcq gave an update on Draft Resolution D “On the definition of an international lunar reference time scale and its traceability to UTC.” He recalled that the initial objective had been to recommend a lunar reference time scale and ensure its metrological traceability to UTC. The work on Draft Resolution D began in September 2025 with possibilities for a Lunar reference time scale being presented to the CCTF. The CCTF set up a dedicated Task Group on Moon Timing (CCTF-TGMT), which met with many relevant bodies, including the International Committee on Global Navigation Satellite Systems (ICG) and space agencies, between September and December 2025. The conclusion was that a decision on a single Lunar time scale was not mature or possible at that time. In January 2026 Draft Resolution D was published without a recommendation for a unique time scale, with an unresolved choice between either a timescale at the surface (TL) or centre (TCL) of the moon.</p>
+</div>
+  </main>
+
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> ai &middot; surveillance &middot; archive &middot; infrastructure &middot; media &middot; alpr &middot; books &middot; code &middot; cryptography &middot; data &middot; flock &middot; government &middot; legal &middot; policing &middot; science &middot; security &middot; social-contract &middot; socialmedia &middot; advertising &middot; agents &middot; ai-backlash &middot; amazon &middot; ambient &middot; anthropic &middot; art &middot; cameras &middot; claude &middot; clock &middot; community &middot; creepy-elon-musk &middot; culture &middot; cybernetics &middot; dataviz &middot; democracy &middot; emergence &middot; exhibition &middot; japan &middot; library &middot; llm &middot; maps &middot; meta &middot; music &middot; nyc &middot; paper &middot; platform &middot; politics &middot; privacy &middot; python &middot; smart-glasses &middot; space &middot; standards &middot; technology &middot; time &middot; training &middot; trust &middot; video &middot; watermarking &middot; zoom</p>
+  </div>
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p><a href="https://newsfeeds.net" style="color: #666;">newsfeeds.net</a> &middot; <a href="https://newsfeeds.net/feed-digests.atom" style="color: #666;">Subscribe via Atom</a></p>
+  </footer>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Aug 2-12, 2026]]></title>
         <id>https://newsfeeds.net/digests/digest-024-2026-08-12.html</id>
