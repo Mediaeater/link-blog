@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787442903235,
+      "url": "https://www.bloombergconnects.org/guides/",
+      "source": "Bloomberg Connects: Available Guides",
+      "pullQuote": "Explore interactive guides to over 1000 museums, cultural spaces, and more from around the world - all in one free app.",
+      "tags": [
+        "art",
+        "culture",
+        "museums",
+        "archive",
+        "accessibility"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-22T23:55:03.235Z",
+      "visits": 0
+    },
+    {
       "id": 1787426450052,
       "url": "https://www.nytimes.com/2026/08/22/us/politics/homelessness-lonsdale-billionaire-trump.html",
       "source": "How a Billionaire Shaped Trump’s Homelessness Policy",
@@ -9822,5 +9838,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-22T19:20:50.052Z"
+  "lastUpdated": "2026-08-22T23:55:03.235Z"
 }
