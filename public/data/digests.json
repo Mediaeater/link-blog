@@ -914,6 +914,36 @@
       "weekEnd": "2026-08-12",
       "title": "Aug 2-12, 2026",
       "writeup": "Culture, craft, and the contested edges of creativity make up this issue. The music industry stakes out AI principles via IFPI while the Paramount–Warner Bros. trial previews the legal battles ahead; a piece on cultural evolution asks how the arts change over time, and another draws the line between making and consuming. Deeper into the issue: the obsessive manufacturing of Blackwing pencils, Peter Saville's color systems, a star atlas of acknowledged unknowns, a composer's meditation on infinity, and a report on the slow collapse of New Zealand's music media. Habit formation, paternalism, and autonomy supply the philosophical undertow."
+    },
+    {
+      "id": 25,
+      "timestamp": "2026-08-22T14:30:38.269Z",
+      "linkIds": [
+        1786789713172,
+        1786791968932,
+        1786798001171,
+        1786800562059,
+        1786836316005,
+        1786905506802,
+        1786926456335,
+        1786926463017,
+        1786997601757,
+        1786998272828,
+        1787000995149,
+        1787001000372,
+        1787224880773,
+        1787224885443,
+        1787227180853,
+        1787246251198,
+        1787247469669,
+        1787407942578
+      ],
+      "count": 18,
+      "filename": "digest-025-2026-08-22.html",
+      "weekStart": "2026-08-15",
+      "weekEnd": "2026-08-22",
+      "title": "Aug 15-22, 2026",
+      "writeup": "Custody of the record runs through this issue. A PBS station lost 50TB and seventy years of television when its cloud storage vendor went defunct, and a Colorado judge has set the terms for retrieving what survives. 404 Media tracked a shipment of rare books to an Amazon facility that scans them for AI training and destroys them in the process, and Gray Area's Cybersentics Little Library sits on the other side of that ledger. Flock spent years telling the public its cameras could not identify individuals and has now built a system that does. Law enforcement is monitoring the accounts of people who organize against it, and UK restaurants and pubs have started banning Meta's £359 glasses to keep their rooms private. Matthew Green argues software is about to run out of remotely exploitable bugs and that this is a nightmare for the agencies that depend on them, and a researcher found a nation-state class vulnerability in Zoom in a day. Seth Godin totals the Amazon tax, John Ganz reads X as industrial waste recycling, Rebecca Williams argues the answer to tech displacing democratic governance is more democracy, and Anthropic says text watermarking rests on inconsequential words. Plus zero-knowledge proofs from first principles, boids as emergent choreography, Japan's live cameras on one map, Kim Gordon at Amant, and the CIPM leaving the moon without a time scale."
     }
   ],
   "cadence": "weekly"
