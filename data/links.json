@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787416838462,
+      "url": "https://www.abc.net.au/news/2026-08-07/ai-models-design-viruses-not-found-in-nature-for-first-time/107007854",
+      "source": "AI models design viruses not found in nature for first time",
+      "pullQuote": "The pair, who work at Johns Hopkins University's Center for Health Security in Baltimore, were not involved in the Stanford research, but provided an accompanying commentary in Science. \"The ability to compose viral genomes using generative AI now exists; the governance to safely steer it does not,\" they said.",
+      "tags": [
+        "ai",
+        "science",
+        "synthetic-biology",
+        "biosecurity",
+        "governance"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-22T16:40:38.462Z",
+      "visits": 0
+    },
+    {
       "id": 1787416388140,
       "url": "https://www.flowercarpet.brussels/en",
       "source": "Brussels Flower Carpet",
@@ -9772,5 +9788,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-22T16:33:08.140Z"
+  "lastUpdated": "2026-08-22T16:40:38.462Z"
 }

@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1787416838462",
+      "url": "https://www.abc.net.au/news/2026-08-07/ai-models-design-viruses-not-found-in-nature-for-first-time/107007854",
+      "title": "AI models design viruses not found in nature for first time",
+      "date_published": "2026-08-22T16:40:38.462Z",
+      "tags": [
+        "ai",
+        "science",
+        "synthetic-biology",
+        "biosecurity",
+        "governance"
+      ],
+      "content_text": "The pair, who work at Johns Hopkins University's Center for Health Security in Baltimore, were not involved in the Stanford research, but provided an accompanying commentary in Science. \"The ability to compose viral genomes using generative AI now exists; the governance to safely steer it does not,\" they said.",
+      "summary": "The pair, who work at Johns Hopkins University's Center for Health Security in Baltimore, were not involved in the Stanford research, but provided an ...",
+      "content_html": "<blockquote>The pair, who work at Johns Hopkins University&#039;s Center for Health Security in Baltimore, were not involved in the Stanford research, but provided an accompanying commentary in Science. &quot;The ability to compose viral genomes using generative AI now exists; the governance to safely steer it does not,&quot; they said.</blockquote>\n<p><strong>Tags:</strong> ai, science, synthetic-biology, biosecurity, governance</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1787416388140",
       "url": "https://www.flowercarpet.brussels/en",
       "title": "Brussels Flower Carpet",
