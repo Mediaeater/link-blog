@@ -164,6 +164,20 @@ function generateSitemap() {
       priority: '1.0',
     }));
 
+    // Digest index hub — a real crawlable page linking every digest, so the
+    // archive isn't reachable from the sitemap alone.
+    const newestDigest = digests.length
+      ? [...digests].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))[0]
+      : null;
+    if (newestDigest) {
+      xmlEntries.push(urlEntry({
+        loc: `${CONFIG.baseUrl}/digests/`,
+        lastMod: formatLastMod(newestDigest.timestamp),
+        changeFreq: 'weekly', // gains an entry with every new digest
+        priority: '0.9',
+      }));
+    }
+
     // One entry per digest page (real URLs, not fragments)
     digests.forEach(d => {
       xmlEntries.push(urlEntry({
@@ -193,7 +207,8 @@ function generateSitemap() {
     console.log('✓ Sitemap generated successfully');
     console.log(`  Location: ${CONFIG.outputPath}`);
     console.log(`  Base URL: ${CONFIG.baseUrl}`);
-    console.log(`  Total URLs: ${1 + digests.length} (1 homepage + ${digests.length} digests)`);
+    const hubCount = newestDigest ? 1 : 0;
+    console.log(`  Total URLs: ${1 + hubCount + digests.length} (1 homepage + ${hubCount} digest index + ${digests.length} digests)`);
     console.log(`  File size: ${fileSize} KB`);
     console.log(`  Timestamp: ${new Date().toISOString()}`);
 

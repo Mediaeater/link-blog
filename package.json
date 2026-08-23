@@ -32,7 +32,7 @@
     "itemlist": "node scripts/generate-itemlist.js",
     "digest-feed": "node scripts/generate-digest-feed.js",
     "copy-digests": "node scripts/copy-digests.js",
-    "prebuild": "cp data/digests.json public/data/digests.json && npm run copy-digests && npm run sitemap && npm run feeds && npm run prerender && npm run itemlist",
+    "prebuild": "cp data/digests.json public/data/digests.json && npm run digest:pages && npm run copy-digests && npm run sitemap && npm run feeds && npm run prerender && npm run itemlist",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "patch:page": "node scripts/patch-page.cjs",
@@ -41,7 +41,10 @@
     "activitypub:deliver": "node scripts/deliver-links.cjs",
     "digest:check": "node scripts/digest-check.cjs",
     "digest:generate": "node scripts/generate-digest.cjs",
-    "digest:summaries": "node scripts/generate-digest-summaries.js"
+    "digest:summaries": "node scripts/generate-digest-summaries.js",
+    "digest:index": "node scripts/generate-digest-index.cjs",
+    "digest:seo": "node scripts/backfill-digest-seo.cjs",
+    "digest:pages": "npm run digest:index && npm run digest:seo"
   },
   "dependencies": {
     "@chenglou/pretext": "^0.0.7",
