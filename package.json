@@ -44,7 +44,8 @@
     "digest:summaries": "node scripts/generate-digest-summaries.js",
     "digest:index": "node scripts/generate-digest-index.cjs",
     "digest:seo": "node scripts/backfill-digest-seo.cjs",
-    "digest:pages": "npm run digest:index && npm run digest:seo"
+    "digest:validate": "node scripts/validate-digests.cjs",
+    "digest:pages": "npm run digest:validate && npm run digest:index && npm run digest:seo"
   },
   "dependencies": {
     "@chenglou/pretext": "^0.0.7",
