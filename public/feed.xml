@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-22T23:55:03.235Z</updated>
+    <updated>2026-08-23T13:26:30.538Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[And Grail Holy Monty Python The]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787491590538</id>
+        <link href="https://vimeo.com/1215576459"/>
+        <updated>2026-08-23T13:26:30.538Z</updated>
+        <summary type="html"><![CDATA[Tags: video, art, film, remix, supercut]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bloomberg Connects: Available Guides]]></title>
         <id>tag:newsfeeds.net,2026:link/1787442903235</id>
