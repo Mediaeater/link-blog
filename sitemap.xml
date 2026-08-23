@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://newsfeeds.net/digests/</loc>
+    <lastmod>2026-08-22T14:30:38Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://newsfeeds.net/digests/digest-002-2026-01-18.html</loc>
     <lastmod>2026-01-18T14:26:57Z</lastmod>
     <changefreq>monthly</changefreq>

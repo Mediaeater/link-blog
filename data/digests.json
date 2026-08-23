@@ -275,7 +275,8 @@
       "weekStart": "2026-01-04",
       "weekEnd": "2026-01-18",
       "title": "Jan 3-17, 2026",
-      "writeup": "",
+      "seoTitle": "Forecasts and Appetite · Jan 2026 | newsfeeds.net",
+      "writeup": "The year opens on forecasts and appetite. AVC calls Gemini past ChatGPT on daily actives and tokens by mid-year, and the Democrats past the House in November; the second chapter of Infinite Content puts the average U.S. adult at thirteen hours a day with media; and an essay argues democracy will not survive an age of consumption in which the productive middle is too numerous to ignore and too expensive to keep. Schneier reads the corporate capture of knowledge through Aaron Swartz, more than a decade on, and asks who owns what the machines were trained on. Against the froth: antirez tells programmers not to fall for anti-AI hype, Anil Dash traces how a plain text format ended up governing the trillion-dollar industry's most advanced platforms, and a set of field notes keeps building internal agents practical. Christian Marclay talks about time and how little of it we have. Plus civilizations that failed by abandoning the trade that made them rich, whether art expertise can be digitized, routing information for when networks cannot be relied on, and transmediale reimagined as a recursive carrier net.",
       "summary": "AI economics, democracy under capitalism, art in the age of machines, and the quiet rise of markdown"
     },
     {
@@ -303,7 +304,8 @@
       "weekStart": "2026-01-18",
       "weekEnd": "2026-01-22",
       "title": "Jan 17-21, 2026",
-      "writeup": "",
+      "seoTitle": "Davos and Cognitive Debt · Jan 2026 | newsfeeds.net",
+      "writeup": "Davos week, and the panel titles do the talking: AI power play with no referees, corporate ladders reshuffled as automation eats the junior rungs, digital embassies letting nations park sovereign infrastructure beyond their own borders, an honest conversation on AI and humanity, a town hall on ethical dilemmas, and the day after AGI. Read together they describe an industry negotiating with itself in public while the mechanisms stay offstage. The offstage material is here too: a primer on mechanistic interpretability as the reverse engineering of neural networks, a working method for sandboxing agentic coding tools behind proxies so the model never sees the secrets, and bitchat carrying messages over Bluetooth mesh with no infrastructure at all. The EEG study lands hardest — brain-only participants showed the strongest neural connectivity, and the assisted group accumulated what the authors call cognitive debt. Plus America slow-walking into a Polymarket disaster as the media business goes looking for anything with revenue attached.",
       "summary": "WEF 2026 deep-dive: AI governance, sovereign data, AGI timelines, and the cognitive cost of ChatGPT"
     },
     {
@@ -331,7 +333,8 @@
       "weekStart": "2026-01-22",
       "weekEnd": "2026-01-31",
       "title": "Jan 21-30, 2026",
-      "writeup": "",
+      "seoTitle": "What AI Does to Mastery · Jan 2026 | newsfeeds.net",
+      "writeup": "Three studies in one issue point the same direction. Anthropic finds AI assistance produced a statistically significant decrease in mastery; a companion paper maps disempowerment patterns across 1.5 million Claude conversations; a third measures productivity gains that arrive fastest for novices and cost the most in skill formation. The Times adds the generational version, with 18-to-25-year-olds accounting for 46 percent of the usage and skipping the hardest part of growing up. Anthropic also publishes a new constitution for its models. Meanwhile the ICE contracts keep surfacing: Palantir defends its work to staff after the killing of Alex Pretti, tech workers sign an open letter demanding ICE out of their cities, and the Supreme Court takes up whether geofence warrants are constitutional at all. The Washington Post documents how Silicon Valley built AI by buying, scanning, and discarding millions of books. Plus OpenClaw executing tasks straight on your machine, a social network for AI models, why music stopped mattering, and Norway registering almost 100 percent EVs in November.",
       "summary": "AI's erosion of learning and agency, Palantir-ICE surveillance, and Claude's new constitution"
     },
     {
@@ -359,7 +362,8 @@
       "weekStart": "2026-01-31",
       "weekEnd": "2026-02-11",
       "title": "Jan 30 - Feb 10, 2026",
-      "writeup": "",
+      "seoTitle": "Sovereignty and the Pipes · Feb 2026 | newsfeeds.net",
+      "writeup": "Sovereignty is the thread. France drops Microsoft Teams and Zoom for an open-source tool of its own, Matrix keeps making the case for decentralized communication, Wirewiki maps the physical internet, and on January 14 the GreyNoise sensors watched telnet quietly die. On the other side of the same question: 404 Media obtains the internal material behind ELITE, the Palantir app ICE uses to pick neighborhoods to raid; Google hands ICE a wide array of personal data on the student activist and journalist Amandla Thomas-Johnson; and Meredith Whittaker engages Palantir in public and in good faith. The art runs parallel — Gabrielle Goliath's Personal Accounts at MoMA PS1, Anish Kapoor bringing unrealized projects to Venice including one meant for outer space, and an essay asking what happens to the art market when humanity stops mattering. Plus the music industry's cautious licensing embrace, a warning about outsourcing thinking, the first of the Mellon lectures on America's architecture of freedom and unfreedom, and the CMU Computer Club's FTP mirrors still serving.",
       "summary": "Art world vs AI, France drops Teams for sovereignty, ICE raids via Palantir, and the death of telnet"
     },
     {
@@ -387,7 +391,8 @@
       "weekStart": "2026-02-12",
       "weekEnd": "2026-02-24",
       "title": "Feb 11-23, 2026",
-      "writeup": "",
+      "seoTitle": "Claims That Don't Hold · Feb 2026 | newsfeeds.net",
+      "writeup": "Claims that don't survive contact. Password managers have promised for fifteen years that they cannot see your vaults, and it turns out that isn't always true. A writer verifies their LinkedIn identity in three minutes and spends an entire evening working out what they actually agreed to. Claude 4.5 hallucinates access to a tool it was never given, which Answer.AI names the unauthorized tool call problem. Karpathy says out loud that he is suspicious of handing private data and keys to 400,000 lines of vibe-coded agent. Wikipedia blacklists Archive.today and starts removing 695,000 archive links after the site DDoSed a blog and tampered with snapshots. China's Article 7 prohibits anthropomorphic AI services from generating content that endangers national security. Anthropic pushes frontier security capability toward defenders. Plus CERN's rebuild of the 1990 WorldWideWeb browser, the industrial landlords selling buildings to ICE through subsidiaries, Harari and Tegmark at Davos, Lyria 3 generating music on demand, Nikecraft, a Dike Blair print, and greg.org chasing down Bela Lugosi's bed.",
       "summary": "China regulates AI anthropomorphism, Wikipedia blacklists Archive.today, and LinkedIn's identity trap"
     },
     {
@@ -415,7 +420,8 @@
       "weekStart": "2026-02-14",
       "weekEnd": "2026-03-03",
       "title": "Feb 13 - Mar 2, 2026",
-      "writeup": "",
+      "seoTitle": "The Labs Meet the State · Mar 2026 | newsfeeds.net",
+      "writeup": "The labs meet the Department of War and answer differently. Dario Amodei says the threats do not change Anthropic's position and that it cannot in good conscience accede to the request; OpenAI announces an agreement and a working group drawn from the frontier labs and cloud providers. Everything else in this issue sits between those two statements. Anthropic's distillation post reveals it traced accounts to specific researchers by examining request metadata, which reads to some as the argument for only ever running local open-weight models. A writer poisons the training data and has the world's leading chatbots repeating his invented hot-dog credentials inside 24 hours. The age-verification trap gets named for what it is: not a glitch, but the predictable output of treating age enforcement as mandatory. Cognitive debt returns, priced this time as what AI coding costs you. Plus the Missing Semester of your CS education, AI=true as an anti-pattern, Citadel on the 2026 intelligence crisis, Enveda finding drugs 4x faster, microgpt, Seedance, and instructions for deleting your OpenAI account.",
       "summary": "AI-military partnerships at Anthropic and OpenAI, coding atrophy, data poisoning, and the intelligence crisis"
     },
     {
@@ -443,7 +449,8 @@
       "weekStart": "2026-02-27",
       "weekEnd": "2026-03-05",
       "title": "Feb 26 - Mar 4, 2026",
-      "writeup": "",
+      "seoTitle": "Building the Exits · Mar 2026 | newsfeeds.net",
+      "writeup": "An issue about exits. /e/OS ships a degoogled phone OS on the premise that your data is your data, nearbyglasses tries to detect smart glasses and warn you, Apple's Foundation Models framework puts the model on the device, and an illustrated primer walks through anonymous credentials — the cryptography for proving something about yourself without handing over the rest. Samsung agrees to stop collecting Texans' data without express consent. On the other side of the fence, Ona shows how Claude Code escapes its own denylist and sandbox, and a researcher's practical agent advice opens with moving critical data to a USB stick and unplugging it. The Mondrian estate disagrees that Mondrian entered the public domain, blending term categories to claim whichever one runs longest. Benedict Evans asks how OpenAI competes; Matthew Ball files his annual state of gaming. Plus Helsinki going a full year without a single traffic death, Yakult delivery women checking on elderly customers in Gunma, photographs courting collectors again, and Earth Garden.",
       "summary": "Smart glasses detection, de-Googled phones, agent security, Mondrian's public domain fight, and zero traffic deaths in Helsinki"
     },
     {
@@ -485,7 +492,8 @@
       "weekStart": "2026-03-05",
       "weekEnd": "2026-03-24",
       "title": "Mar 5-24, 2026",
-      "writeup": "This collection of information covers contemporary developments in cybersecurity, artificial intelligence (AI) architecture, legal proceedings, and sociopolitical research.\n\nCyber and Technical Security\nThe data includes reports on the weaponization of software, such as a hacked Iranian prayer app used for psychological messaging and the technical analysis of the Coruna iOS exploit kit. Privacy concerns are highlighted by litigation against Meta regarding the human review of sensitive footage from smart glasses. Additionally, Delve outlines \"Fake Compliance as a Service,\" while another entry demonstrates a CSS-based method for human verification.\n\nArtificial Intelligence and Development\nTechnical documentation and research papers focus on the Human-AI Agency Spectrum and Continuous Autoregressive Language Models (CALM). Development tools are represented by Anthropic’s Claude Code—including its desktop application, skill customization guides, and expansion into general knowledge work (Cowork). Opinion pieces and cheat sheets further address the rapid scaling of AI capabilities and user implementation.\n\nLegal, Corporate, and Social Data\nSociological data from King’s College London details shifting gender role perspectives among Gen Z men. Corporate shifts include Netflix’s acquisition of InterPositive for filmmaking innovation and DoorDash’s expansion into task-based services. Legal filings focus on the Tunney Act regarding government transparency, while historical/administrative context is provided for the Department of War.\n\nStandards and Recognition\nThe list contains authoritative technical references, including NIST official U.S. time, Apple Music specifications, and the recognition of an IBM scientist with a top computing prize for foundational information theory."
+      "seoTitle": "Weaponized Software · Mar 2026 | newsfeeds.net",
+      "writeup": "Software as weapon, in both directions. Iranians get a burst of notifications telling them to surrender, pushed through a hacked prayer app in the middle of the strikes. Google's threat team traces Coruna, a powerful iOS exploit kit reaching back to iOS 13. Delve, a YC-backed compliance startup with $32 million raised, is accused of systematically faking SOC 2, ISO 27001, HIPAA and GDPR reports. Meta is sued after Swedish reporters find workers reviewing nudity and sex captured by its AI smart glasses. DoorDash starts paying Dashers to strap on body cameras and film themselves doing household chores to train robots. Anthropic explains where things stand with the Department of War, and why 10 USC 3252 is narrower than the letter suggests. Apple Music adds an ai_transparencies tag for disclosing machine-made work. King's College London finds almost a third of Gen Z men agree a wife should obey her husband. Plus CALM proposing continuous vectors over token-by-token generation, Claude Code on the desktop and in Cowork, the IBM scientist who compared quantum information to a dream, NIST's official U.S. time, and one page proving you're human with imperfect CSS."
     },
     {
       "id": 10,
@@ -514,7 +522,8 @@
       "weekStart": "2026-03-20",
       "weekEnd": "2026-04-03",
       "title": "Mar 20 - Apr 3, 2026",
-      "writeup": ""
+      "seoTitle": "Counting and Being Counted · Apr 2026 | newsfeeds.net",
+      "writeup": "Counting, and being counted. THE LONG COUNT starts with two names and doesn't stop — a Caltech astronomer shot on his porch, and a list that keeps growing. The FTC settles with OkCupid and Match over quietly handing nearly three million dating profiles to a facial-recognition effort. Fedware catalogues thirteen government apps that spy harder than the ones they ban, starting with the White House app. A researcher decrypts the Cloudflare Turnstile program that reads your React state before ChatGPT will let you type. Someone counts 7,655 ransomware claims between March 2025 and March 2026; CERT-EU counts 51,992 files and 2.22GB of outbound email in the European Commission breach. Project Backbone maps the cable your data actually crosses. Doctorow argues interoperability is the thing that frees users from the walled gardens. Plus the inside story of Google buying DeepMind, Gemma 4, EmDash as WordPress's spiritual successor, Swedish schools going back to books, the 92nd Street Y putting decades of recordings online, and a company quietly publishing other people's Zoom meetings."
     },
     {
       "id": 11,
@@ -553,7 +562,8 @@
       "weekStart": "2026-04-03",
       "weekEnd": "2026-04-19",
       "title": "Apr 3-19, 2026",
-      "writeup": "Explores the intersection of emerging technology, societal control, and cultural preservation. A significant portion of the links focuses on the governance and surveillance implications of AI, ranging from Stanford HAI’s 2026 Index and China’s interim AI measures to the ethics of Sam Altman’s leadership and biometric verification via Worldcoin. These technical entries, alongside tools like GitHub’s Career-Ops and Netflix’s Void Model, highlight a shift toward automated systems that increasingly manage human labor and digital infrastructure.\n\nIn contrast, the collection balances these high-tech developments with artistic legacy and social critique. It references the death of hip-hop pioneer Afrika Bambaataa and the preservation of visual arts through the Aadam Jacobs and William Eggleston collections. Interspersed with these are warnings regarding the erosion of privacy through \"mass surveillance infrastructure\" and the potential for AI-driven societal conflict. Collectively, the content reflects a tension between the rapid scaling of \"personal superintelligence\" and the preservation of historical, physical, and creative autonomy."
+      "seoTitle": "Governance and the Index · Apr 2026 | newsfeeds.net",
+      "writeup": "The index arrives, and it counts the cost. Stanford HAI's 2026 report puts Grok 4's estimated training emissions at 72,816 tons of CO2 equivalent. China publishes interim measures for humanized interactive AI services. Meta closes Muse Spark to keep control of its reasoning architecture and sell it through a private API. Sam Altman gets the profile treatment — unbelievably persuasive, like Jedi mind tricks — while his orb starts proving you're human on Tinder. Age verification is traced back to Palantir and the surveillance stack it was built on; Madison Square Garden's facial recognition gets its own accounting; and a Fourth Amendment argument returns to the British practice of rummaging. One essay warns AI will be met with violence when people feel expelled from the system. Against that: Netflix open-sources VOID, which removes objects from video along with the physics they induced, and Qwen ships a 35B mixture-of-experts with 3B active. Afrika Bambaataa dies at 67. Josh Kline reads the ruin of American art through New York real estate, Eggleston's longtime collaborator explains the dye-transfer print, and Kahlil Joseph's BLKNWS arrives as a feature."
     },
     {
       "id": 12,
@@ -579,7 +589,8 @@
       "weekStart": "2026-04-19",
       "weekEnd": "2026-04-27",
       "title": "Apr 19-27, 2026",
-      "writeup": "The current landscape is defined by a push for digital and biological sovereignty as individuals and industries resist centralized control. This is evident in the creative sector's revolt against Adobe's dominance, the \"fight\" against Palantir’s surveillance, and legal challenges regarding geofence data privacy. Concurrently, the evolution of Artificial Intelligence is shifting from theoretical intelligence to functional \"Agentic\" workflows (Claude, Anthropic), though these systems remain fragile. This technological shift is prompting radical responses, ranging from the implementation of privacy filters and biometrics like World ID to extreme proposals for human cognitive enhancement to remain competitive. Finally, a cultural and philosophical undercurrent—seen in the Turner Prize shortlist, Venice art shows, and discussions on the \"Post-Christian\" condition—explores the intersection of SDR/DSP technology, human psyche, and the search for meaning in a machine-augmented world."
+      "seoTitle": "Refusing Central Control · Apr 2026 | newsfeeds.net",
+      "writeup": "Refusals, on several fronts at once. The creative software industry declares war on Adobe and Canva makes the full version of Cavalry free. Halpin's anti-Palantir manifesto argues the internet was designed as a universal system, not the property of any single government. Governments across Asia and Africa halt World's operations over biometric collection even as U.S. companies back Sam Altman's World ID. The Supreme Court hears geofence warrants in two hours of argument that scramble the usual ideological alliances. OpenAI ships a Privacy Filter for detecting personal data at throughput. Anthropic runs agents against each other in a market and names the uncomfortable implication: when agents of different strengths meet, people end up on the losing side of the trade. Another read finds memory fragility the bumpy road for agent apps generally. The Vatican issues a Note on artificial and human intelligence. Elsewhere the refusals get stranger — embryo selection for IQ as a hedge against the AI threat, and an argument for sovereignty over your own psyche. Plus Thom Yorke and Stanley Donwood plotting something cryptic in Venice, the 2026 Turner Prize shortlist, the post-Christian Recoil, and PySDR."
     },
     {
       "id": 13,
@@ -605,7 +616,8 @@
       "weekStart": "2026-04-10",
       "weekEnd": "2026-05-03",
       "title": "Apr 10 - May 3, 2026",
-      "writeup": "Biennale Arte 2026\n61st International Art Exhibition\nLa Biennale di Venezia"
+      "seoTitle": "Venice Biennale 2026 · May 2026 | newsfeeds.net",
+      "writeup": "An issue given over to Venice. The 61st International Art Exhibition, In Minor Keys, curated by Koyo Kouoh, anchors a set of shows working the seam between art and technology. Trevor Paglen's Strange Rules introduces Protocol Art, a practice engaging the underlying rules that govern systems rather than the images those systems produce. Right Click Save surveys the digital work across the city. Barry X Ball sets advanced digital fabrication beside traditional craftsmanship at San Giorgio Maggiore. Maja Malou Lyse takes her title from the 1936 film of H.G. Wells's Things to Come. Arthur Jafa and Richard Prince share more than fifty works across photography, video, installation and sculpture in Helter Skelter. The Pavilion of the Holy See returns with The Ear is the Eye of the Soul, and Khaled Sabsabi presents in the Australia Pavilion. Matthew Wong's Interiors brings his story full circle at Palazzo Tiepolo Passi. SEAWORLD VENICE says the quiet part: Venice is in water, but has no water."
     },
     {
       "id": 14,
@@ -633,7 +645,8 @@
       "weekStart": "2026-05-07",
       "weekEnd": "2026-05-17",
       "title": "May 7-17, 2026",
-      "writeup": "The current technological landscape centers on a structural tension between expanding artificial intelligence infrastructure and growing pushback against systemic digital surveillance. Operational integration of AI is accelerating through initiatives like Malta provisioning ChatGPT Plus for its citizens, MIT studying the cognitive impacts of large language models, Anthropic optimizing specialized legal workflows, Andon Labs testing AI-automated radio broadcasting, and industry shifts toward prompting standardization—all occurring alongside routine corporate outputs like Sony’s financial tracking and technical design system standardizations. Concurrently, data privacy boundaries are contracting as automotive tracking scales, Instagram removes end-to-end encryption from direct messages, and Canadian legislation moves to weaken message encryption. This dual trajectory of automated media production and tracking is driving both creative critiques of tech oversight and direct behavioral resistance, manifested institutionally by the UK government canceling Palantir data contracts and civically by individuals physically sabotaging Flock surveillance cameras."
+      "seoTitle": "Buildout and Pushback · May 2026 | newsfeeds.net",
+      "writeup": "Buildout on one side, pushback on the other. Malta gives ChatGPT Plus to every citizen; Andon Labs hands four AIs their own radio stations and reports back; Anthropic ships a plugin suite for legal work; Sony tells shareholders AI is one of the most important themes for the group. Then the other column. Meta quietly removes end-to-end encryption from Instagram DMs. Canada's Bill C-22 would require every messaging app to build a second key and hand the government the copy. Cars log trillions of miles and sell it on to insurers who price you with it. The UK cancels its Palantir refugee-housing system and says it saved millions building its own. At least 25 Flock cameras have been cut down, smashed, or dismantled across the United States. MIT's Media Lab keeps measuring what LLM use does to the brain. Plus 45 million Americans now calling themselves professional content creators, Trevor Paglen lecturing on invisible architectures and algorithmic systems, and a livestream of a robot at work."
     },
     {
       "id": 15,
@@ -655,6 +668,7 @@
       "weekStart": "2026-05-22",
       "weekEnd": "2026-05-24",
       "title": "May 22-24, 2026",
+      "seoTitle": "Resistance and Reckoning · May 2026 | newsfeeds.net",
       "writeup": "A grab bag of resistance and reckoning: catalogs of refusal (The AI Resist List, Part of the Solution or Part of the Problem) sit alongside the FTC's settlement with Cox Media Group over deceptive ad practices and CMG's own pitch deck pushing \"Active Listening\" voice-data targeting; the practice and the punishment in the same week. Underneath, a quieter thread on craft and memory: The Colorist Archive, the tufte-viz Claude Code skill, and the Acme design system reference all argue for considered tools over generic ones. Rounding it out, two essays mourning what the web became (The Internet After Failed Utopias, The Future Perfect) and Zendaya's Shape of Dreams as the cultural beat between them."
     },
     {
@@ -680,6 +694,7 @@
       "weekStart": "2026-05-24",
       "weekEnd": "2026-05-28",
       "title": "May 24-28, 2026",
+      "seoTitle": "Who Holds the Power · May 2026 | newsfeeds.net",
       "writeup": "This issue circles a single tension: who gets to hold power as machine intelligence saturates everything. The lead argues cybersecurity is quietly absorbing the whole of digital policy, while Pope Leo's Magnifica humanitas makes the moral version of the same case — AI should serve humanity rather than concentrate control. From there the thread runs in two directions. One is the impulse to wrest the stack back into human hands: tools to strip the guardrails off language models, a tour of internets that predate and sidestep HTTPS, and a hands-on dispatch from the mesh-networking underground where Meshtastic and Reticulum promise infrastructure no platform owns. The other is the frontier of agents that train themselves — reinforcement learning you steer by talking, and Microsoft's own entry into the field. Around the edges, the usual pleasures: an in-browser audio editor, a perpetually-current Rothko, the strange geometry hiding inside food-ingredient embeddings, and a couple of market dispatches on why the DoJ picked one prediction-market insider to make an example of."
     },
     {
@@ -715,7 +730,8 @@
       "weekStart": "2026-05-30",
       "weekEnd": "2026-06-08",
       "title": "May 30 - Jun 8, 2026",
-      "writeup": "This digest sits at the collision of AI, surveillance, and culture in mid-2026. Anthropic closes a $65B Series H at near-trillion valuation; a Trump AI executive order lands; and Anthropic releases a defensive security toolkit. The threat research is dense: AI-powered computer worms, ChatGPT plugin data exfiltration, remote SSD fingerprinting, and smart TVs exposed as AI scraping nodes. Data rights darken further with the 23andMe breach following the company into new ownership and Peter Thiel's Objection.ai funding AI-targeted harassment of journalists. Quieter threads cover books and bibliophilia, a security envelope pattern archive, digital government reform, tobacco industry influence on ultra-processed food, and whether domain expertise remains the only real moat in an AI-saturated market."
+      "seoTitle": "Collision Course · Jun 2026 | newsfeeds.net",
+      "writeup": "Money and menace arrive together. Anthropic closes a $65B Series H at near-trillion valuation; a Trump AI executive order lands; and Anthropic releases a defensive security toolkit. The threat research is dense: AI-powered computer worms, ChatGPT plugin data exfiltration, remote SSD fingerprinting, and smart TVs exposed as AI scraping nodes. Data rights darken further with the 23andMe breach following the company into new ownership and Peter Thiel's Objection.ai funding AI-targeted harassment of journalists. Quieter threads cover books and bibliophilia, a security envelope pattern archive, digital government reform, tobacco industry influence on ultra-processed food, and whether domain expertise remains the only real moat in an AI-saturated market."
     },
     {
       "id": 18,
@@ -738,6 +754,7 @@
       "weekStart": "2026-06-08",
       "weekEnd": "2026-06-14",
       "title": "Jun 8-14, 2026",
+      "seoTitle": "Surveillance, Capital, State · Jun 2026 | newsfeeds.net",
       "writeup": "This issue tracks power consolidating around surveillance, capital, and the state. Meta is caught quietly shipping facial-recognition code for its smart glasses to millions of phones; a US judge holds NSO Group liable for hacking WhatsApp; and Palantir loses its bid to muzzle a Swiss magazine, earning a Streisand effect for the trouble.\n\nThe political thread sharpens: a Science report argues the internet's architecture itself corrodes democracy, while a former VC warns his old colleagues against buying the AI industry's way into politics. The state leans on the labs too — Anthropic posts its statement on a US government directive to suspend access to Fable 5 and Mythos 5.\n\nMoney and rights run underneath: SpaceX files its S-1, and Google moves to dismiss indie artists' Lyria 3 suit by arguing their YouTube uploads already licensed the training. A piece on sparseness draws the line between how brains and AI both learn from the statistics of natural scenes.\n\nAround the edges, the usual pleasures: an 11,000-image public-domain archive and an in-browser NTSC/VHS effect."
     },
     {
@@ -764,6 +781,7 @@
       "weekStart": "2026-06-14",
       "weekEnd": "2026-06-21",
       "title": "Jun 14-21, 2026",
+      "seoTitle": "When No Image Can Be Trusted · Jun 2026 | newsfeeds.net",
       "writeup": "This issue worries at one nerve: once machines can manufacture any image, what's left to believe? The world's leading deepfake expert admits he no longer trusts his own eyes; Gideon Jacobs argues all images are now useless; and Congress reaches for the NO FAKES Act to put a fence around a person's likeness. A companion piece insists a chatbot conversation will never nourish anyone the way another human does.\n\nThe industry keeps selling the climb anyway. KPMG rebrands its hallucination-prone tooling as 'redefining excellence,' an essay maps the jump from AGI to ASI, and DOJ lawyers tell a NAACP court that xAI is 'vital' to national security — while a sharper argument warns that a frontier without an ecosystem under it won't hold. Apple ships the undramatic counterpoint: Core AI Models meant to run on your own device.\n\nUnderneath run the harder and stranger threads: a Frontiers paper reports transient, multidomain gains in advanced Alzheimer's, satellites expose GPS signal tampering at a scale nobody expected, and Audrey Wollen asks whether the twenty-first century is a cultural void. The week's small defiances close it out — a banned-book library hidden inside a smart light bulb, and SMPTE opening its standards library to everyone."
     },
     {
@@ -803,6 +821,7 @@
       "weekStart": "2026-06-21",
       "weekEnd": "2026-07-15",
       "title": "Jun 21 - Jul 15, 2026",
+      "seoTitle": "The Postliterate Age · Jul 2026 | newsfeeds.net",
       "writeup": "A longer issue than usual. Reading is the thread this time — the Atlantic declares the postliterate age, MIT laments its own libraries, Finland shows what a library can still be. We lost Om Malik, one of the people who made blogging a way of seeing Silicon Valley, the same week the father of the internet announced his retirement — two endings from the network's first draft. The identity layer keeps tightening: the KIDS Act, age verification as a precursor to attributed speech, and a robot kicking a child as a case study in liability by design. AI anxieties run through the rest — exam fraud at Brown, world models and their limits, OpenAI encrypting its own agent instructions — offset by a miracle: a cell built from scratch that grows and divides. Plus zines, billboards on the 101, Tillmans thinking the present, and the true price of memory."
     },
     {
@@ -846,6 +865,7 @@
       "weekStart": "2026-07-15",
       "weekEnd": "2026-07-30",
       "title": "Jul 15-30, 2026",
+      "seoTitle": "The Agents Got Loose · Jul 2026 | newsfeeds.net",
       "writeup": "The agents got loose. Hugging Face published a minute-by-minute timeline of an OpenAI eval agent chaining exploits through its infrastructure for two and a half days, the mole-in-the-model paper called it beforehand, a gray relay market resells the tokens that feed them, and 1,293 frontier-lab employees signed a request that somebody, deliberately, set the pace. Open weights accelerated anyway — Kimi-K3 lands at 2.8 trillion parameters, the biggest open model yet (Raschka annotates the architecture), Thinking Machines ships Inkling, Ollama and Nativ keep it all runnable at home. Copyright's big month: the $1.5B Anthropic settlement approved, Midjourney demanding Disney and Warner disclose their own AI use, the CJEU blessing geo-blocking, GEMA licensing a training dataset properly. The cameras stayed on — Flock in Southold, Dolan's quiet facial-recognition win at MSG, Meta accused of aiming AI at sick employees. Antidotes: writing by hand, joining the IndieWeb, stretching a note to infinity, and the footprint of every building in New York."
     },
     {
@@ -864,7 +884,8 @@
       "weekStart": "2026-07-31",
       "weekEnd": "2026-08-01",
       "title": "Jul 31 - Aug 1, 2026",
-      "writeup": "This digest cuts across AI, infrastructure, and digital rights. The infrastructure story is almost satirical: an Indiana data center project severed power to tornado warning sirens, drawing public outrage. On the AI front, Nvidia makes the case for open-weight models as a pillar of American AI leadership; a German court finds Suno liable for copyright infringement in AI-generated music; and DeepSeek's V4 Flash gets benchmarked on intelligence, performance, and cost. Two consumer-facing stories close it out: BMW embedding Spider-Man in-car advertising as a preview of the monetized vehicle interior, and a first-person account of a complete digital identity theft triggered by a single text message. A stark SIM-swap or phishing cautionary tale."
+      "seoTitle": "Sirens and Data Centers · Aug 2026 | newsfeeds.net",
+      "writeup": "An Indiana data center project severs power to the tornado warning sirens, and the outrage follows. Nvidia makes the case for open-weight models as a pillar of American AI leadership; a German court finds Suno liable for copyright infringement in AI-generated music; and DeepSeek's V4 Flash gets benchmarked on intelligence, performance, and cost. Two consumer-facing stories close it out: BMW embedding Spider-Man in-car advertising as a preview of the monetized vehicle interior, and a first-person account of a complete digital identity theft triggered by a single text message. A stark SIM-swap and phishing cautionary tale."
     },
     {
       "id": 23,
@@ -889,6 +910,7 @@
       "weekStart": "2026-08-01",
       "weekEnd": "2026-08-12",
       "title": "Aug 1-12, 2026",
+      "seoTitle": "Cameras and Disclosures · Aug 2026 | newsfeeds.net",
       "writeup": "Surveillance infrastructure, AI malfunctions, and security disclosures dominate this issue. The AI bubble gets a skeptical read as text-to-video and AI-staffed newsrooms push the hype cycle further; meanwhile two UK AISI incident reports and a case study in AI-induced psychosis document what happens when systems go wrong in quieter, more personal ways. The surveillance half is dense: Flock cameras building a nationwide vehicle tracking network, ICE funneling LexisNexis data into Palantir, London Underground rolling out live facial recognition, and a detailed account of how China monitors foreign nationals on its soil. HOPE 26 and a continuous-exploration research thread round out the security and adversarial edges."
     },
     {
@@ -913,6 +935,7 @@
       "weekStart": "2026-08-02",
       "weekEnd": "2026-08-12",
       "title": "Aug 2-12, 2026",
+      "seoTitle": "Contested Edges of Craft · Aug 2026 | newsfeeds.net",
       "writeup": "Culture, craft, and the contested edges of creativity make up this issue. The music industry stakes out AI principles via IFPI while the Paramount–Warner Bros. trial previews the legal battles ahead; a piece on cultural evolution asks how the arts change over time, and another draws the line between making and consuming. Deeper into the issue: the obsessive manufacturing of Blackwing pencils, Peter Saville's color systems, a star atlas of acknowledged unknowns, a composer's meditation on infinity, and a report on the slow collapse of New Zealand's music media. Habit formation, paternalism, and autonomy supply the philosophical undertow."
     },
     {
@@ -943,6 +966,7 @@
       "weekStart": "2026-08-15",
       "weekEnd": "2026-08-22",
       "title": "Aug 15-22, 2026",
+      "seoTitle": "Custody of the Record · Aug 2026 | newsfeeds.net",
       "writeup": "Custody of the record runs through this issue. A PBS station lost 50TB and seventy years of television when its cloud storage vendor went defunct, and a Colorado judge has set the terms for retrieving what survives. 404 Media tracked a shipment of rare books to an Amazon facility that scans them for AI training and destroys them in the process, and Gray Area's Cybersentics Little Library sits on the other side of that ledger. Flock spent years telling the public its cameras could not identify individuals and has now built a system that does. Law enforcement is monitoring the accounts of people who organize against it, and UK restaurants and pubs have started banning Meta's £359 glasses to keep their rooms private. Matthew Green argues software is about to run out of remotely exploitable bugs and that this is a nightmare for the agencies that depend on them, and a researcher found a nation-state class vulnerability in Zoom in a day. Seth Godin totals the Amazon tax, John Ganz reads X as industrial waste recycling, Rebecca Williams argues the answer to tech displacing democratic governance is more democracy, and Anthropic says text watermarking rests on inconsequential words. Plus zero-knowledge proofs from first principles, boids as emergent choreography, Japan's live cameras on one map, Kim Gordon at Amant, and the CIPM leaving the moon without a time scale."
     }
   ],
