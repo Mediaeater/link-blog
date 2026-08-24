@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787574777882,
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "source": "Everything I own, owned",
+      "pullQuote": "It’s only a tiny leap to imagine that someone could make a self-replicating piece of malware that probes its environment, relaying reconnaissance back to a smart command-and-control that actively works to push itself into accessories and IoT devices and industrial equipment found adjacent to an infected target. Two things have kept this from happening: every device model needs its own reverse engineering, and validating any of it needs the hardware in hand. The first is the labor I just handed to an agent. The second is free to malware already sitting on an infected host.",
+      "tags": [
+        "security",
+        "agents",
+        "opsec",
+        "hardware",
+        "firmware"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-24T12:32:57.882Z",
+      "visits": 0
+    },
+    {
       "id": 1787491590538,
       "url": "https://vimeo.com/1215576459",
       "source": "And Grail Holy Monty Python The",
@@ -9854,5 +9870,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-23T13:26:30.538Z"
+  "lastUpdated": "2026-08-24T12:32:57.882Z"
 }
