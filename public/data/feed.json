@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1787654580621",
+      "url": "https://www.aria.com.au/charts/news/aria-charts-set-eligibility-rules-for-recordings-made-with-ai",
+      "title": "ARIA Charts set eligibility rules for recordings made with AI",
+      "date_published": "2026-08-25T10:43:00.621Z",
+      "tags": [
+        "ai-music",
+        "copyright",
+        "authorship",
+        "policy",
+        "music"
+      ],
+      "content_text": "Wholly AI-generated tracks will not be eligible for the ARIA Charts. Recordings that use generative AI in a supporting role remain eligible. The ARIA Charts Code of Practice has been updated and changes will take effect from the ARIA Chart dated Monday, 31 August 2026, published Friday, 28 August.",
+      "summary": "Wholly AI-generated tracks will not be eligible for the ARIA Charts. Recordings that use generative AI in a supporting role remain eligible. The ARIA ...",
+      "content_html": "<blockquote>Wholly AI-generated tracks will not be eligible for the ARIA Charts. Recordings that use generative AI in a supporting role remain eligible. The ARIA Charts Code of Practice has been updated and changes will take effect from the ARIA Chart dated Monday, 31 August 2026, published Friday, 28 August.</blockquote>\n<p><strong>Tags:</strong> ai-music, copyright, authorship, policy, music</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1787654391943",
       "url": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
       "title": "Screen viewing time from age 1 to 8 years and subsequent academic performance and working memory",
