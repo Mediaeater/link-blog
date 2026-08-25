@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-25T10:39:51.943Z</updated>
+    <updated>2026-08-25T10:43:00.621Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[ARIA Charts set eligibility rules for recordings made with AI]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787654580621</id>
+        <link href="https://www.aria.com.au/charts/news/aria-charts-set-eligibility-rules-for-recordings-made-with-ai"/>
+        <updated>2026-08-25T10:43:00.621Z</updated>
+        <summary type="html"><![CDATA[Tags: ai-music, copyright, authorship, policy, music]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Screen viewing time from age 1 to 8 years and subsequent academic performance and working memory]]></title>
         <id>tag:newsfeeds.net,2026:link/1787654391943</id>
