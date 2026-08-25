@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1787690862128",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+      "title": "Ordinary WiFi can now identify you with near-perfect accuracy",
+      "date_published": "2026-08-25T20:47:42.128Z",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "security",
+        "networks",
+        "identity"
+      ],
+      "content_text": "You don't necessarily need to connect to the Wi-Fi network.\n\nYou don't necessarily need to carry a Wi-Fi device.\n\nIt may be sufficient for OTHER Wi-Fi devices in the environment to be communicating.\n\nThis raises the possibility that existing wireless infrastructure in homes, offices, cafés and public spaces could eventually become a largely invisible sensing and surveillance layer.",
+      "summary": "You don't necessarily need to connect to the Wi-Fi network.\n\nYou don't necessarily need to carry a Wi-Fi device.\n\nIt may be sufficient for OTHER Wi-Fi...",
+      "content_html": "<blockquote>You don&#039;t necessarily need to connect to the Wi-Fi network.\n\nYou don&#039;t necessarily need to carry a Wi-Fi device.\n\nIt may be sufficient for OTHER Wi-Fi devices in the environment to be communicating.\n\nThis raises the possibility that existing wireless infrastructure in homes, offices, cafés and public spaces could eventually become a largely invisible sensing and surveillance layer.</blockquote>\n<p><strong>Tags:</strong> surveillance, privacy, security, networks, identity</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1787654580621",
       "url": "https://www.aria.com.au/charts/news/aria-charts-set-eligibility-rules-for-recordings-made-with-ai",
       "title": "ARIA Charts set eligibility rules for recordings made with AI",
