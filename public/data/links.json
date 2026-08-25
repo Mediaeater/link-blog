@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787654391943,
+      "url": "https://link.springer.com/article/10.1007/s12519-026-01046-1",
+      "source": "Screen viewing time from age 1 to 8 years and subsequent academic performance and working memory",
+      "pullQuote": "Mean (standard deviation) screen viewing time ranged from 2.1 (2.0) hours/day at age 1 year, to 3.0 (2.2) hours/day at 8 years. In this longitudinal study, cumulative average screen viewing time was associated with lower academic performance but not working memory, with the strongest effect sizes seen for single screen viewing time occurring in early infancy.",
+      "tags": [
+        "screen-time",
+        "childhood",
+        "education",
+        "psychology",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-25T10:39:51.943Z",
+      "visits": 0
+    },
+    {
       "id": 1787574777882,
       "url": "https://schlarp.com/posts/everything-i-own-owned/",
       "source": "Everything I own, owned",
@@ -9870,5 +9886,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-24T12:32:57.882Z"
+  "lastUpdated": "2026-08-25T10:39:51.943Z"
 }
