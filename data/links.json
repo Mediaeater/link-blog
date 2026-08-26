@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1787744333492,
+      "url": "https://www.theguardian.com/world/2026/aug/17/top-album-releases-linked-to-rise-in-fatal-crashes-as-distracted-drivers-access-music",
+      "source": "Top album releases linked to rise in fatal crashes as ‘distracted’ drivers access music",
+      "pullQuote": "After taking into account the day of the week upon which the album was released, as well as federal holidays, and time of year, the researchers found the number of US traffic fatalities showed a relative increase of 15.1% on the date of major album releases, compared with similar days either side. “This is equivalent to approximately 182 fatalities in the US attributable to the release days of the 10 included albums,” the team writes.",
+      "tags": [
+        "music",
+        "research",
+        "automotive",
+        "spotify",
+        "health"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-26T11:38:53.492Z",
+      "visits": 0
+    },
+    {
       "id": 1787743451594,
       "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
       "source": "The choices we make about AI now are critical",
@@ -9934,5 +9950,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-26T11:24:11.594Z"
+  "lastUpdated": "2026-08-26T11:38:53.492Z"
 }
