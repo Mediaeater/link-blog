@@ -14,6 +14,7 @@ import {
   AlertTriangle
 } from 'lucide-react';
 import { suggestTagsFromUrl } from '../utils/tagSuggestions';
+import { formatLinkDate } from '../utils/formatDate';
 import DigestPanel from './DigestPanel';
 import DigestView from './DigestView';
 import VirtualLinkList from './VirtualLinkList';
@@ -1548,7 +1549,7 @@ export default function LinkBlogClean() {
                         )}
                         <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">
                           <span>
-                            {new Date(link.timestamp).toLocaleDateString()}
+                            {formatLinkDate(link.timestamp)}
                             {link.visits > 0 && ` [${link.visits}]`}
                           </span>
                         </div>

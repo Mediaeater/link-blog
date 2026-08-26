@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ExternalLink } from 'lucide-react';
+import { formatLinkDate } from '../utils/formatDate';
 
 function getTopTags(digestLinks, max = 5) {
   const counts = {};
@@ -170,7 +171,7 @@ export default function DigestView({ digests, links, selectedTags = [], onTagCli
                           </div>
                         )}
                         <div className="mt-3 flex items-center gap-4 text-xs text-neutral-400">
-                          <span>{new Date(link.timestamp).toLocaleDateString()}</span>
+                          <span>{formatLinkDate(link.timestamp)}</span>
                         </div>
                       </div>
                       <div className="flex items-center opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity">
