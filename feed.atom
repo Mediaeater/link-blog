@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-26T11:24:11.594Z</updated>
+    <updated>2026-08-26T11:38:53.492Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Top album releases linked to rise in fatal crashes as ‘distracted’ drivers access music]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787744333492</id>
+        <link href="https://www.theguardian.com/world/2026/aug/17/top-album-releases-linked-to-rise-in-fatal-crashes-as-distracted-drivers-access-music"/>
+        <updated>2026-08-26T11:38:53.492Z</updated>
+        <summary type="html"><![CDATA[Tags: music, research, automotive, spotify, health]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The choices we make about AI now are critical]]></title>
         <id>tag:newsfeeds.net,2026:link/1787743451594</id>
