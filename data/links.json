@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "id": 1787827896208,
+      "url": "https://www.theartnewspaper.com/2026/08/27/yayoi-kusama-polka-dots-mirror-rooms-has-died-aged-97",
+      "source": "Yayoi Kusama, Japanese artist who enthralled people worldwide with her polka dots and mirror rooms, has died aged 97",
+      "pullQuote": "By the late 1960s, Kusama had expanded her practice into provocative happenings, often involving nude participants painted with polka dots and combining sexual liberation with anti-war messages. In 1966, she appeared uninvited at the Venice Biennale with Narcissus Garden, installing 1,500 reflective silver spheres outside the Italian pavilion and offering them to visitors for $2 each under a sign reading “Your Narcissism for Sale”. Biennale organisers eventually stopped the sale.",
+      "tags": [
+        "obit",
+        "art",
+        "artists",
+        "venice-biennale"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-27T10:51:36.208Z",
+      "visits": 0
+    },
+    {
+      "id": 1787827896071,
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation/",
+      "source": "Disrupting a Criminal Scam Operation",
+      "pullQuote": "The network simultaneously conducted multiple types of scams, often blending elements from different schemes. For instance, operators used dating personas to build trust before introducing fraudulent investment opportunities involving cryptocurrencies and spot gold trading. Other users engaged in lengthy romantic conversations with targets using fictitious identities, posed as representatives of online gambling platforms offering fake bonuses and winnings, or impersonated law enforcement agencies to tell targets they needed to pay fines for committing serious criminal offenses.",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "fraud",
+        "security",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-27T10:51:36.071Z",
+      "visits": 0
+    },
+    {
       "id": 1787826714746,
       "url": "https://gist.github.com/MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa",
       "source": "YouTube Format IDs",
@@ -9965,5 +9996,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-27T10:31:54.746Z"
+  "lastUpdated": "2026-08-27T10:51:36.208Z"
 }

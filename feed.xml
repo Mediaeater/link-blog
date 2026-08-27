@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-27T10:31:54.746Z</updated>
+    <updated>2026-08-27T10:51:36.208Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Yayoi Kusama, Japanese artist who enthralled people worldwide with her polka dots and mirror rooms, has died aged 97]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787827896208</id>
+        <link href="https://www.theartnewspaper.com/2026/08/27/yayoi-kusama-polka-dots-mirror-rooms-has-died-aged-97"/>
+        <updated>2026-08-27T10:51:36.208Z</updated>
+        <summary type="html"><![CDATA[Tags: obit, art, artists, venice-biennale]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disrupting a Criminal Scam Operation]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787827896071</id>
+        <link href="https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation/"/>
+        <updated>2026-08-27T10:51:36.071Z</updated>
+        <summary type="html"><![CDATA[Tags: openai, chatgpt, fraud, security, harms]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[YouTube Format IDs]]></title>
         <id>tag:newsfeeds.net,2026:link/1787826714746</id>
