@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-26T11:38:53.492Z</updated>
+    <updated>2026-08-27T10:31:54.746Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[YouTube Format IDs]]></title>
+        <id>tag:newsfeeds.net,2026:link/1787826714746</id>
+        <link href="https://gist.github.com/MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa"/>
+        <updated>2026-08-27T10:31:54.746Z</updated>
+        <summary type="html"><![CDATA[Tags: video, reference, tool, youtube]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Top album releases linked to rise in fatal crashes as ‘distracted’ drivers access music]]></title>
         <id>tag:newsfeeds.net,2026:link/1787744333492</id>
