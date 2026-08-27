@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1787826714746",
+      "url": "https://gist.github.com/MartinEesmaa/2f4b261cb90a47e9c41ba115a011a4aa",
+      "title": "YouTube Format IDs",
+      "date_published": "2026-08-27T10:31:54.746Z",
+      "tags": [
+        "video",
+        "reference",
+        "tool",
+        "youtube"
+      ],
+      "content_text": "Also known as itag or format codes and way back they could be specified with the fmt parameter (e.g. &fmt=22) used to be on website address bar after YouTube Video ID, (deprecated?). Depending on the age and/or popularity of the video, not all formats will be available.",
+      "summary": "Also known as itag or format codes and way back they could be specified with the fmt parameter (e.g. &fmt=22) used to be on website address bar after ...",
+      "content_html": "<blockquote>Also known as itag or format codes and way back they could be specified with the fmt parameter (e.g. &amp;fmt=22) used to be on website address bar after YouTube Video ID, (deprecated?). Depending on the age and/or popularity of the video, not all formats will be available.</blockquote>\n<p><strong>Tags:</strong> video, reference, tool, youtube</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1787744333492",
       "url": "https://www.theguardian.com/world/2026/aug/17/top-album-releases-linked-to-rise-in-fatal-crashes-as-distracted-drivers-access-music",
       "title": "Top album releases linked to rise in fatal crashes as ‘distracted’ drivers access music",
