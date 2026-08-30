@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1788091744256,
+      "url": "https://www.programmablemutter.com/p/the-acemoglu-wars-are-all-about-ai",
+      "source": "The Acemoglu Wars Are All About AI",
+      "pullQuote": "The problem is that \"technological progress\" is not the undifferentiated force that Andreessen, the Economist writer and others take it to be. The question is not whether or not it ought to be steered, but which course will be taken and who ought be entrusted with doing the steering.",
+      "tags": [
+        "ai",
+        "politics",
+        "policy",
+        "society",
+        "ai-backlash"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-30T12:09:04.256Z",
+      "visits": 0
+    },
+    {
       "id": 1787828960635,
       "url": "https://www.theartnewspaper.com/2026/08/24/pussy-riot-rita-flores-margarita-konovalova-fsb-spying-pressure",
       "source": "Former Pussy Riot member says she was recruited by Russian security service to spy on dissident artists",
@@ -10012,5 +10028,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-27T11:09:20.635Z"
+  "lastUpdated": "2026-08-30T12:09:04.256Z"
 }
