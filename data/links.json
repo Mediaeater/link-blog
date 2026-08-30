@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1788126609335,
+      "url": "https://pollen-robotics.com/microduck/",
+      "source": "Microduck — A tiny biped robot you can teach new tricks",
+      "pullQuote": "(Remi Fabre: \"We sold over $2,500,000 worth of Microducks in the first 24 hours\" -ed) Microduck is a 25 cm biped robot with 15 motors, a camera, LiDAR and a grasping beak. Playable out of the box, and its open-source stack lets you train new behaviours in simulation and run them on the robot. Pre-order at $399.",
+      "tags": [
+        "robots",
+        "open-source",
+        "hardware",
+        "machine-learning",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-30T21:50:09.335Z",
+      "visits": 0
+    },
+    {
       "id": 1788093061767,
       "url": "https://inteltechniques.com/blog/",
       "source": "IntelTechniques Blog",
@@ -10046,5 +10062,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-30T12:31:01.767Z"
+  "lastUpdated": "2026-08-30T21:50:09.335Z"
 }
