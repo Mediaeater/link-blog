@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-27T11:09:20.635Z</updated>
+    <updated>2026-08-30T12:09:04.256Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[The Acemoglu Wars Are All About AI]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788091744256</id>
+        <link href="https://www.programmablemutter.com/p/the-acemoglu-wars-are-all-about-ai"/>
+        <updated>2026-08-30T12:09:04.256Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, politics, policy, society, ai-backlash]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Former Pussy Riot member says she was recruited by Russian security service to spy on dissident artists]]></title>
         <id>tag:newsfeeds.net,2026:link/1787828960635</id>
