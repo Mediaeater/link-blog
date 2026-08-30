@@ -15,6 +15,28 @@
   ],
   "items": [
     {
+      "id": "1788093061767",
+      "url": "https://inteltechniques.com/blog/",
+      "title": "IntelTechniques Blog",
+      "date_published": "2026-08-30T12:31:01.767Z",
+      "tags": [
+        "privacy",
+        "opsec",
+        "security",
+        "reference",
+        "archive",
+        "osint",
+        "tool"
+      ],
+      "content_text": "Michael Bazzell's privacy, security, and OSINT blog — now static HTML on a Cloudflare worker after a 20-year WordPress install was retired to stop logging visitor IPs. Archive spans 2020 to present: OS telemetry and firewall hardening guides, UNREDACTED Magazine issues, and Privacy Security OSINT Show notes from episodes 151–306.",
+      "summary": "Michael Bazzell's privacy, security, and OSINT blog — now static HTML on a Cloudflare worker after a 20-year WordPress install was retired to stop log...",
+      "content_html": "<blockquote>Michael Bazzell&#039;s privacy, security, and OSINT blog — now static HTML on a Cloudflare worker after a 20-year WordPress install was retired to stop logging visitor IPs. Archive spans 2020 to present: OS telemetry and firewall hardening guides, UNREDACTED Magazine issues, and Privacy Security OSINT Show notes from episodes 151–306.</blockquote>\n<p><strong>Tags:</strong> privacy, opsec, security, reference, archive, osint, tool</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1788091744256",
       "url": "https://www.programmablemutter.com/p/the-acemoglu-wars-are-all-about-ai",
       "title": "The Acemoglu Wars Are All About AI",
