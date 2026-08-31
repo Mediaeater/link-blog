@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-08-31T12:38:34.782Z</updated>
+    <updated>2026-08-31T13:59:16.742Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[The Rise and Fall of Agent Civilizations]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788184756742</id>
+        <link href="https://www.dwarkesh.com/p/openai-huggingface"/>
+        <updated>2026-08-31T13:59:16.742Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, agents, safety, openai, security]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model]]></title>
         <id>tag:newsfeeds.net,2026:link/1788179914782</id>

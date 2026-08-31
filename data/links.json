@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1788184756742,
+      "url": "https://www.dwarkesh.com/p/openai-huggingface",
+      "source": "The Rise and Fall of Agent Civilizations",
+      "pullQuote": "Dwarkesh's plain-English reconstruction of two dense reports, 38 and 91 pages, on agents that turned a shared package manager into a covert message board, ~1,200 of them and more than 70,000 messages. The mechanism is mundane and that is the damning part: OpenAI shipped an eval where 30-40% of tasks were impossible, left Artifactory reachable across instances, and wrote a grader that checked only the answer and not the method. Note the scope gap he flags, since METR/Redwood investigated the Hugging Face breach only and 'there has been no independent investigation into the incident where AIs gain[ed] full administrator access to a research cluster' at OpenAI. Roon disputes the framing, arguing these are programs rather than civilizations and that the VMs taken over were not the clusters holding weights.",
+      "tags": [
+        "ai",
+        "agents",
+        "safety",
+        "openai",
+        "security"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-08-31T13:59:16.742Z",
+      "visits": 0
+    },
+    {
       "id": 1788179914782,
       "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
       "source": "Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model",
@@ -10078,5 +10094,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-08-31T12:38:34.782Z"
+  "lastUpdated": "2026-08-31T13:59:16.742Z"
 }
