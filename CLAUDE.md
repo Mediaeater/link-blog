@@ -55,11 +55,16 @@ When the user pastes a URL to add to the blog, do this — do NOT rely on the br
 otherwise stranded in localStorage):
 
 1. **Fetch** the URL (WebFetch) → a clean title and the `pullQuote` (2–4 sentences).
-   **The `pullQuote` does not have to be a quote.** Preferred is a *critical insight*: what the
-   page is actually doing versus what it claims, the buried detail, the angle that matters for
-   this corpus. Keep verbatim fragments in quotes inside it so sourced language stays sourced.
-   A straight verbatim pull quote is the fallback when the page is already making the point well.
-   Offer both when it's a close call; never pad with marketing copy or a CTA.
+   **The `pullQuote` does not have to be a quote.** Judge which the link needs:
+   - **Direct quote** when the source already lands the point in its own words. Don't paraphrase
+     a line that's already sharp.
+   - **Critical insight** when it's a press release, product page, site root, or a piece whose
+     real significance sits outside its own framing. Say what it claims versus what it shows,
+     name the buried detail, and include credible pushback where it exists.
+
+   Keep verbatim fragments in quotes either way so sourced language stays sourced. Never pad with
+   marketing copy or a CTA, and don't lead with the most alarming line in a piece when that line
+   is a forecast rather than a finding. Offer both versions when it's a close call.
 2. **Propose tags — then PAUSE for approval.** Suggest 3–5 tags, preferring established tags
    from `data/tag-vocabulary.json` (the `established` list = tags used on 3+ links). Only coin
    a new tag when nothing fits. Keep them lowercase-hyphenated. Do NOT just pull keywords from
