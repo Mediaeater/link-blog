@@ -54,7 +54,12 @@ When the user pastes a URL to add to the blog, do this — do NOT rely on the br
 (links added in-browser only reach `links.json` if the API/dev server was running, and are
 otherwise stranded in localStorage):
 
-1. **Fetch** the URL (WebFetch) → a clean title and one *verbatim* pull quote (2–4 sentences).
+1. **Fetch** the URL (WebFetch) → a clean title and the `pullQuote` (2–4 sentences).
+   **The `pullQuote` does not have to be a quote.** Preferred is a *critical insight*: what the
+   page is actually doing versus what it claims, the buried detail, the angle that matters for
+   this corpus. Keep verbatim fragments in quotes inside it so sourced language stays sourced.
+   A straight verbatim pull quote is the fallback when the page is already making the point well.
+   Offer both when it's a close call; never pad with marketing copy or a CTA.
 2. **Propose tags — then PAUSE for approval.** Suggest 3–5 tags, preferring established tags
    from `data/tag-vocabulary.json` (the `established` list = tags used on 3+ links). Only coin
    a new tag when nothing fits. Keep them lowercase-hyphenated. Do NOT just pull keywords from
