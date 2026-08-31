@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1788179914782",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+      "title": "Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model",
+      "date_published": "2026-08-31T12:38:34.782Z",
+      "tags": [
+        "ai",
+        "llm",
+        "legal",
+        "open-source",
+        "media"
+      ],
+      "content_text": "Frontier labs have typically spent billions of dollars on compute and years of infrastructure investment to reach the frontier. Thomson Reuters took a different path: starting from a strong open-source foundation and investing $40 million to train Thomson into the right intelligence for the jobs that matter most, covering talent and compute. The result is a model Thomson Reuters fully controls, without the heavy inference costs of typical frontier models.",
+      "summary": "Frontier labs have typically spent billions of dollars on compute and years of infrastructure investment to reach the frontier. Thomson Reuters took a...",
+      "content_html": "<blockquote>Frontier labs have typically spent billions of dollars on compute and years of infrastructure investment to reach the frontier. Thomson Reuters took a different path: starting from a strong open-source foundation and investing $40 million to train Thomson into the right intelligence for the jobs that matter most, covering talent and compute. The result is a model Thomson Reuters fully controls, without the heavy inference costs of typical frontier models.</blockquote>\n<p><strong>Tags:</strong> ai, llm, legal, open-source, media</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1788126609335",
       "url": "https://pollen-robotics.com/microduck/",
       "title": "Microduck — A tiny biped robot you can teach new tricks",
