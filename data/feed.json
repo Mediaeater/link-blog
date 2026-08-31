@@ -26,9 +26,9 @@
         "open-source",
         "media"
       ],
-      "content_text": "Frontier labs have typically spent billions of dollars on compute and years of infrastructure investment to reach the frontier. Thomson Reuters took a different path: starting from a strong open-source foundation and investing $40 million to train Thomson into the right intelligence for the jobs that matter most, covering talent and compute. The result is a model Thomson Reuters fully controls, without the heavy inference costs of typical frontier models.",
-      "summary": "Frontier labs have typically spent billions of dollars on compute and years of infrastructure investment to reach the frontier. Thomson Reuters took a...",
-      "content_html": "<blockquote>Frontier labs have typically spent billions of dollars on compute and years of infrastructure investment to reach the frontier. Thomson Reuters took a different path: starting from a strong open-source foundation and investing $40 million to train Thomson into the right intelligence for the jobs that matter most, covering talent and compute. The result is a model Thomson Reuters fully controls, without the heavy inference costs of typical frontier models.</blockquote>\n<p><strong>Tags:</strong> ai, llm, legal, open-source, media</p>",
+      "content_text": "Billed as a 'frontier model' but it's a fine-tune. The release says 'starting from a strong open-source foundation' and never names the base model, and the $40M is post-training money, not pretraining. The headline and the method don't match. Note what fed it: Westlaw, Practical Law, Checkpoint and Reuters, at 'less than 10% of Thomson Reuters content so far.' Reuters journalism is now training data for a legal AI product.",
+      "summary": "Billed as a 'frontier model' but it's a fine-tune. The release says 'starting from a strong open-source foundation' and never names the base model, an...",
+      "content_html": "<blockquote>Billed as a &#039;frontier model&#039; but it&#039;s a fine-tune. The release says &#039;starting from a strong open-source foundation&#039; and never names the base model, and the $40M is post-training money, not pretraining. The headline and the method don&#039;t match. Note what fed it: Westlaw, Practical Law, Checkpoint and Reuters, at &#039;less than 10% of Thomson Reuters content so far.&#039; Reuters journalism is now training data for a legal AI product.</blockquote>\n<p><strong>Tags:</strong> ai, llm, legal, open-source, media</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false
