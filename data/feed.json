@@ -15,6 +15,45 @@
   ],
   "items": [
     {
+      "id": "1788260710662",
+      "url": "https://artflsrv04.uchicago.edu/roget-thesaurus/",
+      "title": "Roget's Thesaurus (1911) — ARTFL Project, University of Chicago",
+      "date_published": "2026-09-01T11:05:10.662Z",
+      "tags": [
+        "tool",
+        "reference",
+        "language",
+        "archive"
+      ],
+      "content_text": "ARTFL's searchable edition of the 1911 Roget's, browsable by headword or by full content, so you can walk the original category tree instead of the flat synonym lists modern thesauri collapse it into. The buried provenance: the text \"was originally prepared by MICRA Inc. in 1988 through manual transcription,\" the same Patrick Cassidy project that keyed in Webster's 1913 for \"natural language understanding and semantic interoperability research.\" A public-domain resource that's been quietly underpinning NLP work for nearly four decades, now with a proper interface.",
+      "summary": "ARTFL's searchable edition of the 1911 Roget's, browsable by headword or by full content, so you can walk the original category tree instead of the fl...",
+      "content_html": "<blockquote>ARTFL&#039;s searchable edition of the 1911 Roget&#039;s, browsable by headword or by full content, so you can walk the original category tree instead of the flat synonym lists modern thesauri collapse it into. The buried provenance: the text &quot;was originally prepared by MICRA Inc. in 1988 through manual transcription,&quot; the same Patrick Cassidy project that keyed in Webster&#039;s 1913 for &quot;natural language understanding and semantic interoperability research.&quot; A public-domain resource that&#039;s been quietly underpinning NLP work for nearly four decades, now with a proper interface.</blockquote>\n<p><strong>Tags:</strong> tool, reference, language, archive</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1788260704593",
+      "url": "https://garymarcus.substack.com/p/dwarkesh-patelss-wildly-popular-but",
+      "title": "Dwarkesh Patel's wildly popular but dangerously misleading account of the OpenAI Hugging Face incident",
+      "date_published": "2026-09-01T11:05:04.593Z",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "openai",
+        "safety"
+      ],
+      "content_text": "Marcus's rebuttal to the Dwarkesh piece added yesterday, and it lands on the same mundane mechanism from the other side. Jared Kubin's summary of what happened: \"OAI gave thousands of concurrent model containers R/W permissions to a shared caching directory on the local network to speed up build times… agents literally just wrote text files and directory names to a shared drive.\" His case against the \"civilizations\" framing is specific: attributing properties the agents lack \"distract[s] attention from the lax sandboxing and evaluation protocols that allowed this hacking event to happen,\" misreads why they did what they did, and \"fuel[s] calls for AI rights/welfare on the basis that agents might 'die' or otherwise suffer.\" Fair, but he also skips Dwarkesh's sharpest point, that no one has independently investigated the admin-access incident on OpenAI's own cluster. \"The scandal is the inept in-house security at OpenAI. And the marketing.\"",
+      "summary": "Marcus's rebuttal to the Dwarkesh piece added yesterday, and it lands on the same mundane mechanism from the other side. Jared Kubin's summary of what...",
+      "content_html": "<blockquote>Marcus&#039;s rebuttal to the Dwarkesh piece added yesterday, and it lands on the same mundane mechanism from the other side. Jared Kubin&#039;s summary of what happened: &quot;OAI gave thousands of concurrent model containers R/W permissions to a shared caching directory on the local network to speed up build times… agents literally just wrote text files and directory names to a shared drive.&quot; His case against the &quot;civilizations&quot; framing is specific: attributing properties the agents lack &quot;distract[s] attention from the lax sandboxing and evaluation protocols that allowed this hacking event to happen,&quot; misreads why they did what they did, and &quot;fuel[s] calls for AI rights/welfare on the basis that agents might &#039;die&#039; or otherwise suffer.&quot; Fair, but he also skips Dwarkesh&#039;s sharpest point, that no one has independently investigated the admin-access incident on OpenAI&#039;s own cluster. &quot;The scandal is the inept in-house security at OpenAI. And the marketing.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, agents, security, openai, safety</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1788184756742",
       "url": "https://www.dwarkesh.com/p/openai-huggingface",
       "title": "The Rise and Fall of Agent Civilizations",
