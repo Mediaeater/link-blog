@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1788261512395,
+      "url": "https://www.democracyrenovator.com/p/rewiring-democracy-now",
+      "source": "Rewiring Democracy Now: A new kind of political engagement emerges in Japan",
+      "pullQuote": "First installment of a Schneier and Sanders series pulling real-world cases from their book Rewiring Democracy (MIT Press), here on Takahiro Anno's Team Mirai in Japan. The numbers carry it: an AI avatar trained on his manifesto answered 8,600 voter questions across a seventeen-day continuous livestream, the Idobata chatbot produced 9,700 policy suggestions of which 348 were accepted, the campaign merged 87 pull requests on GitHub, and the party took 1.5 million votes nationally in 2025 on an estimated 100-200 million yen a year. Read it against the authors' own caveats rather than the headline count: they note Anno \"realizes these broad listening tools can be systematically biased,\" and that \"any digital democracy products Team Mirai produces must be able to function sustainably without a charismatic leader.\" That is the unresolved question underneath the whole case, whether the tooling did the work or the founder did.",
+      "tags": [
+        "series",
+        "technology",
+        "ai",
+        "democracy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-01T11:18:32.395Z",
+      "visits": 0
+    },
+    {
       "id": 1788260710662,
       "url": "https://artflsrv04.uchicago.edu/roget-thesaurus/",
       "source": "Roget's Thesaurus (1911) — ARTFL Project, University of Chicago",
@@ -10125,5 +10140,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-01T11:05:10.662Z"
+  "lastUpdated": "2026-09-01T11:18:32.395Z"
 }
