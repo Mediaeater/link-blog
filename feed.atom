@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-02T11:17:02.373Z</updated>
+    <updated>2026-09-02T11:58:56.373Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[The Singularity Is Not What It Seems]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788350336373</id>
+        <link href="https://www.theatlantic.com/technology/2026/09/ai-future-reckoning-singularity/688487/"/>
+        <updated>2026-09-02T11:58:56.373Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, agents, safety, ai-backlash, openai]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA['If you build something vastly smarter than you, it better be on your side': can we stop AI from deceiving us?]]></title>
         <id>tag:newsfeeds.net,2026:link/1788347822373</id>
