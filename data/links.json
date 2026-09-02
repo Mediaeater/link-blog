@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1788343417900,
+      "url": "https://blog.coredump.cx/p/fluorescent-lamps-dont-have-ears",
+      "source": "Fluorescent lamps (don't) have ears",
+      "pullQuote": "lcamtuf, once a technical surveillance countermeasures sweeper, finally tested the long-circulating claim that a fluorescent tube works as a passive microphone: a 9-inch tube on DC, a 200 W speaker cranked through a frequency sweep beside it, high-speed photos at 1/8000 s on a 14-bit camera. No visible artifacts. The physics was against it from the start, since the gas sits at \"about 1/200th of atmospheric pressure,\" which is \"nearly vacuum,\" and the phosphor coating's afterglow masks momentary luminosity changes. Laser pickup off a window still works. The lamp itself is a dead end. \"In terms of a practical attack, I think the myth is busted.\"",
+      "tags": [
+        "surveillance",
+        "opsec",
+        "hardware",
+        "audio",
+        "security"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-02T10:03:37.900Z",
+      "visits": 0
+    },
+    {
       "id": 1788261512395,
       "url": "https://www.democracyrenovator.com/p/rewiring-democracy-now",
       "source": "Rewiring Democracy Now: A new kind of political engagement emerges in Japan",
@@ -10140,5 +10156,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-01T11:18:32.395Z"
+  "lastUpdated": "2026-09-02T10:03:37.900Z"
 }

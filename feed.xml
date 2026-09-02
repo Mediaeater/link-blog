@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-01T11:18:32.395Z</updated>
+    <updated>2026-09-02T10:03:37.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Fluorescent lamps (don't) have ears]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788343417900</id>
+        <link href="https://blog.coredump.cx/p/fluorescent-lamps-dont-have-ears"/>
+        <updated>2026-09-02T10:03:37.900Z</updated>
+        <summary type="html"><![CDATA[Tags: surveillance, opsec, hardware, audio, security]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rewiring Democracy Now: A new kind of political engagement emerges in Japan]]></title>
         <id>tag:newsfeeds.net,2026:link/1788261512395</id>

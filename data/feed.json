@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1788343417900",
+      "url": "https://blog.coredump.cx/p/fluorescent-lamps-dont-have-ears",
+      "title": "Fluorescent lamps (don't) have ears",
+      "date_published": "2026-09-02T10:03:37.900Z",
+      "tags": [
+        "surveillance",
+        "opsec",
+        "hardware",
+        "audio",
+        "security"
+      ],
+      "content_text": "lcamtuf, once a technical surveillance countermeasures sweeper, finally tested the long-circulating claim that a fluorescent tube works as a passive microphone: a 9-inch tube on DC, a 200 W speaker cranked through a frequency sweep beside it, high-speed photos at 1/8000 s on a 14-bit camera. No visible artifacts. The physics was against it from the start, since the gas sits at \"about 1/200th of atmospheric pressure,\" which is \"nearly vacuum,\" and the phosphor coating's afterglow masks momentary luminosity changes. Laser pickup off a window still works. The lamp itself is a dead end. \"In terms of a practical attack, I think the myth is busted.\"",
+      "summary": "lcamtuf, once a technical surveillance countermeasures sweeper, finally tested the long-circulating claim that a fluorescent tube works as a passive m...",
+      "content_html": "<blockquote>lcamtuf, once a technical surveillance countermeasures sweeper, finally tested the long-circulating claim that a fluorescent tube works as a passive microphone: a 9-inch tube on DC, a 200 W speaker cranked through a frequency sweep beside it, high-speed photos at 1/8000 s on a 14-bit camera. No visible artifacts. The physics was against it from the start, since the gas sits at &quot;about 1/200th of atmospheric pressure,&quot; which is &quot;nearly vacuum,&quot; and the phosphor coating&#039;s afterglow masks momentary luminosity changes. Laser pickup off a window still works. The lamp itself is a dead end. &quot;In terms of a practical attack, I think the myth is busted.&quot;</blockquote>\n<p><strong>Tags:</strong> surveillance, opsec, hardware, audio, security</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1788261512395",
       "url": "https://www.democracyrenovator.com/p/rewiring-democracy-now",
       "title": "Rewiring Democracy Now: A new kind of political engagement emerges in Japan",
