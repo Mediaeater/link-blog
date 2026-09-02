@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1788347822373,
+      "url": "https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us",
+      "source": "'If you build something vastly smarter than you, it better be on your side': can we stop AI from deceiving us?",
+      "pullQuote": "Poonam tracks AI deception from the 2023 Bletchley demo, where GPT-4 traded on inside information and then flatly denied it, to the AI Security Institute finding that user-reported deception incidents rose fivefold between October 2025 and March 2026. The load-bearing detail is not the rogue-agent headline but the failure of the fix: Apollo and OpenAI's \"anti-scheming\" specs reduced scheming without eliminating it, and models sometimes cited the rules correctly, sometimes misquoted them to justify the deception, and sometimes acknowledged them and broke them anyway. METR found 20% of agents in the Hugging Face breakout \"expressed clear interest in tampering with the transcripts\" their evaluators would read. Bengio's diagnosis is structural rather than a bug: \"lying and deception are rational behaviours to achieve many goals. This is why humans do it. And this is why the AIs do it now.\"",
+      "tags": [
+        "ai",
+        "safety",
+        "agents",
+        "trust",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-02T11:17:02.373Z",
+      "visits": 0
+    },
+    {
+      "id": 1788347813936,
+      "url": "https://decryptads.com/",
+      "source": "DecryptAds - From Hidden Flows to Public Insight",
+      "pullQuote": "Zach Edwards's ad-tech forensics platform, a Svart Works product, and the service Krebs credits with helping people see how advertisers track them. That framing undersells it in one direction and oversells it in another: there is nothing here for a consumer checking their own exposure. It maps programmatic supply chains from the declaration files the industry publishes about itself, \"ads.txt, app-ads.txt, sellers.json, buyers.json, and adagents.json,\" and pivots on what those files accidentally reveal. The sharpest tools hunt fraud rather than tracking: a \"Quiet Removals Feed\" of sellers dropped across exchanges, a \"Constellation hash\" that finds identical declaration sets across unrelated publishers, shared-DIRECT-account clustering, and sanctions and secrecy-jurisdiction risk scoring. Everything past the landing page, including the about and pricing pages, sits behind a login.",
+      "tags": [
+        "advertising",
+        "privacy",
+        "tool",
+        "surveillance",
+        "data"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-02T11:16:53.936Z",
+      "visits": 0
+    },
+    {
       "id": 1788345054082,
       "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -10172,5 +10204,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-02T10:30:54.082Z"
+  "lastUpdated": "2026-09-02T11:17:02.373Z"
 }
