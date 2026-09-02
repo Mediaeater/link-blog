@@ -392,7 +392,10 @@ ${jsonLdText}
       const digestNumber = digestsData.digests.reduce((m, d) => Math.max(m, d.id), 0) + 1;
 
       // Save HTML file
-      const { filename } = await this.saveDigestToFile(dedupedLinks, digestNumber, title, writeup);
+      const { filename } = await this.saveDigestToFile(dedupedLinks, digestNumber, title, writeup, {
+        seoTitle: options.seoTitle,
+        seoDescription: options.seoDescription
+      });
 
       const newDigest = {
         id: digestNumber,
@@ -405,6 +408,10 @@ ${jsonLdText}
         title,
         writeup
       };
+      // Optional, but every published digest carries a themed seoTitle; omit
+      // the keys entirely rather than storing undefined.
+      if (options.seoTitle) newDigest.seoTitle = options.seoTitle;
+      if (options.seoDescription) newDigest.seoDescription = options.seoDescription;
       digestsData.digests.push(newDigest);
       await this.saveDigests(digestsData);
 
@@ -428,7 +435,7 @@ ${jsonLdText}
     };
   }
 
-  async saveDigestToFile(links, digestNumber, title, writeup) {
+  async saveDigestToFile(links, digestNumber, title, writeup, seo = {}) {
     const now = new Date();
     const dateStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
     const paddedNum = String(digestNumber).padStart(3, '0');
@@ -442,7 +449,9 @@ ${jsonLdText}
     // "next" link, so nav is a whole-set operation, not a per-page one.
     const emailHtml = this.generateEmailHtml(links, digestNumber, title, writeup, {
       filename,
-      publishedTime: now.toISOString()
+      publishedTime: now.toISOString(),
+      seoTitle: seo.seoTitle,
+      seoDescription: seo.seoDescription
     });
     await fs.writeFile(filepath, emailHtml, 'utf8');
 

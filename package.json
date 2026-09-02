@@ -45,7 +45,8 @@
     "digest:index": "node scripts/generate-digest-index.cjs",
     "digest:seo": "node scripts/backfill-digest-seo.cjs",
     "digest:validate": "node scripts/validate-digests.cjs",
-    "digest:pages": "npm run digest:validate && npm run digest:index && npm run digest:seo"
+    "digest:pages": "npm run digest:validate && npm run digest:index && npm run digest:seo",
+    "digest:sync": "cp data/digests.json public/data/digests.json && npm run digest:pages && npm run copy-digests && npm run sitemap && npm run digest-feed"
   },
   "dependencies": {
     "@chenglou/pretext": "^0.0.7",

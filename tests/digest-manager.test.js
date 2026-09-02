@@ -103,6 +103,40 @@ describe('createDigest linkIds subset', () => {
   });
 });
 
+describe('createDigest seoTitle', () => {
+  test('persists seoTitle and stamps it into the page head', async () => {
+    writeDigests([]);
+    writeLinks([
+      { id: 'a', url: 'https://example.com', source: 'Example', pullQuote: '', tags: [], timestamp: '2026-01-01T00:00:00.000Z' },
+    ]);
+
+    const manager = new DigestManager(tmpDir);
+    const seoTitle = 'Custody of the Record · Jan 2026 | newsfeeds.net';
+    const result = await manager.createDigest('writeup', true, { seoTitle });
+
+    expect(result.success).toBe(true);
+
+    const saved = JSON.parse(fs.readFileSync(path.join(tmpDir, 'data', 'digests.json'), 'utf8'));
+    expect(saved.digests[0].seoTitle).toBe(seoTitle);
+
+    const html = fs.readFileSync(path.join(tmpDir, 'data', 'digests', result.filename), 'utf8');
+    expect(html).toContain(`<title>${seoTitle}</title>`);
+  });
+
+  test('omits the key entirely when no seoTitle is given', async () => {
+    writeDigests([]);
+    writeLinks([
+      { id: 'a', url: 'https://example.com', source: 'Example', pullQuote: '', tags: [], timestamp: '2026-01-01T00:00:00.000Z' },
+    ]);
+
+    const manager = new DigestManager(tmpDir);
+    await manager.createDigest('writeup', true);
+
+    const saved = JSON.parse(fs.readFileSync(path.join(tmpDir, 'data', 'digests.json'), 'utf8'));
+    expect('seoTitle' in saved.digests[0]).toBe(false);
+  });
+});
+
 describe('getUndigestedLinks cutoff', () => {
   test('excludes links with timestamp after cutoff', async () => {
     writeDigests([]);
