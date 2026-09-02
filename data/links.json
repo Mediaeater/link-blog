@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1788345054082,
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "pullQuote": "Krebs found his own Virginia license offered as a free sample on a new dark-web service, then traced the source by asking friends and family for permission to search: nine matches, every timestamp landing on a travel date, and his mother's scan stamped seconds from his own because they handed their licenses to the same Hertz counter at the same moment. The trail points to idscan.net, which verifies IDs for Hertz, Target, FedEx and 1,000+ dispensaries at 20,000 locations, and whose own documentation describes scanning with infrared and ultraviolet light, exactly the image set in each stolen record. The seller says it has \"been continuously exfiltrating new data for over a year,\" and the count grew by 400,000 licenses in 24 hours. Zach Edwards names the real cost: \"These systems are putting sensitive data into more and more 3rd party vendors, and we don't have nearly the oversight to ensure they are safe.\"",
+      "tags": [
+        "privacy",
+        "identity",
+        "kyc",
+        "security",
+        "age"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-02T10:30:54.082Z",
+      "visits": 0
+    },
+    {
       "id": 1788343417900,
       "url": "https://blog.coredump.cx/p/fluorescent-lamps-dont-have-ears",
       "source": "Fluorescent lamps (don't) have ears",
@@ -10156,5 +10172,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-02T10:03:37.900Z"
+  "lastUpdated": "2026-09-02T10:30:54.082Z"
 }
