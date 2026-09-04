@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-04T14:10:44.807Z</updated>
+    <updated>2026-09-04T14:50:58.444Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA Personal AI Router (PAIR)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788533458444</id>
+        <link href="https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/"/>
+        <updated>2026-09-04T14:50:58.444Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, hardware, llm, nvidia, tool]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GPS Glitched Across The US by as Much as 33 Feet. Scientists Have Never Seen This Before]]></title>
         <id>tag:newsfeeds.net,2026:link/1788531044807</id>
