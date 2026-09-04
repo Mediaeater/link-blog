@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1788533458444",
+      "url": "https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/",
+      "title": "NVIDIA Personal AI Router (PAIR)",
+      "date_published": "2026-09-04T14:50:58.444Z",
+      "tags": [
+        "ai",
+        "hardware",
+        "llm",
+        "nvidia",
+        "tool"
+      ],
+      "content_text": "Nvidia's free beta of a local inference router: it discovers RTX, DGX Spark and Mac M4-or-newer machines on a home network and proxies requests to whichever is idle, behind one endpoint, with Ollama and LM Studio as the backends. The FAQ carries the line that deflates the \"personal AI cluster\" framing: \"The devices remain separate systems that handle parallel tasks; PAIR doesn't combine them into one virtual GPU.\" It buys throughput for concurrent agent calls, not a model bigger than your largest single box already holds. Two things worth noting. Nvidia now ships software that treats Apple silicon as a peer compute node, on a page filed under ai-on-rtx. And the checkable privacy claim is the spec line \"Internet: None required for operation,\" while the data handling itself gets only \"designed for private local inference,\" with no statement about telemetry. The listed platform requirement is \"Ubuntu 14.04,\" a 2014 release that hit end of life in 2019.",
+      "summary": "Nvidia's free beta of a local inference router: it discovers RTX, DGX Spark and Mac M4-or-newer machines on a home network and proxies requests to whi...",
+      "content_html": "<blockquote>Nvidia&#039;s free beta of a local inference router: it discovers RTX, DGX Spark and Mac M4-or-newer machines on a home network and proxies requests to whichever is idle, behind one endpoint, with Ollama and LM Studio as the backends. The FAQ carries the line that deflates the &quot;personal AI cluster&quot; framing: &quot;The devices remain separate systems that handle parallel tasks; PAIR doesn&#039;t combine them into one virtual GPU.&quot; It buys throughput for concurrent agent calls, not a model bigger than your largest single box already holds. Two things worth noting. Nvidia now ships software that treats Apple silicon as a peer compute node, on a page filed under ai-on-rtx. And the checkable privacy claim is the spec line &quot;Internet: None required for operation,&quot; while the data handling itself gets only &quot;designed for private local inference,&quot; with no statement about telemetry. The listed platform requirement is &quot;Ubuntu 14.04,&quot; a 2014 release that hit end of life in 2019.</blockquote>\n<p><strong>Tags:</strong> ai, hardware, llm, nvidia, tool</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1788531044807",
       "url": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
       "title": "GPS Glitched Across The US by as Much as 33 Feet. Scientists Have Never Seen This Before",
