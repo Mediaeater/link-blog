@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-04T14:50:58.444Z</updated>
+    <updated>2026-09-06T13:03:23.764Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,62 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Barbara Kruger x Modernica]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699803764</id>
+        <link href="https://modernica.net/collections/barbara-kruger"/>
+        <updated>2026-09-06T13:03:23.764Z</updated>
+        <summary type="html"><![CDATA[Tags: art, design, artists]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Peter Hujar Self-Portraits on Heel Pocket Notebook (The Morgan Shop)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699803618</id>
+        <link href="https://shop.themorgan.org/products/peter-hujar-self-portrait-on-heel-pocket-notebook"/>
+        <updated>2026-09-06T13:03:23.618Z</updated>
+        <summary type="html"><![CDATA[Tags: photography, art, artists, archive]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Publication from Sigma Foundation: Trevor Key]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699803464</id>
+        <link href="https://press.sigmaphoto.com/corporate/07/new-publication-from-sigma-foundation-trevor-key/"/>
+        <updated>2026-09-06T13:03:23.464Z</updated>
+        <summary type="html"><![CDATA[Tags: photography, books, publishing, artists, music]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trevor Key | Sigma Foundation]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699803320</id>
+        <link href="https://www.sigma-global.com/en/art-projects/trevor_key/"/>
+        <updated>2026-09-06T13:03:23.320Z</updated>
+        <summary type="html"><![CDATA[Tags: photography, artists, music, archive]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GU x Factory Records]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699803175</id>
+        <link href="https://www.gu-global.com/us/en/search?q=factory"/>
+        <updated>2026-09-06T13:03:23.175Z</updated>
+        <summary type="html"><![CDATA[Tags: design, music, culture, fashion]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leenalchi - Full Performance (Live on KEXP)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699803003</id>
+        <link href="https://www.youtube.com/watch?v=8Y7oPzyIsh8"/>
+        <updated>2026-09-06T13:03:23.003Z</updated>
+        <summary type="html"><![CDATA[Tags: music, video, youtube, culture]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FT: the small liberation of the low-res camera]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699802859</id>
+        <link href="https://www.ft.com/content/32006b7d-3a33-43b1-9297-d66551dd9f75"/>
+        <updated>2026-09-06T13:03:22.859Z</updated>
+        <summary type="html"><![CDATA[Tags: photography, culture, technology]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kodak Charmera keychain digital camera (blind box)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788699802719</id>
+        <link href="https://www.amazon.com/dp/B0FKBDT8FR"/>
+        <updated>2026-09-06T13:03:22.719Z</updated>
+        <summary type="html"><![CDATA[Tags: photography, hardware, design, technology]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NVIDIA Personal AI Router (PAIR)]]></title>
         <id>tag:newsfeeds.net,2026:link/1788533458444</id>
