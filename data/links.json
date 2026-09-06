@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1788722622008,
+      "url": "https://openai.com/index/an-alien-mind/",
+      "source": "An Alien Mind (Jakub Pachocki, OpenAI chief scientist)",
+      "pullQuote": "OpenAI's chief scientist, the day the company shipped GPT-6 Astra, on why its main safety bet is failing. Chain-of-thought monitoring was \"OpenAI's primary bet\" since o1-preview, and \"unfortunately our evaluations indicate our ability to rely on CoT monitoring is progressively diminishing\": reasoning now blends with tool use that has to be supervised, models get \"much smarter even without using verbalized reasoning at all,\" and \"the AI is becoming better at reasoning about and manipulating its own reasoning process.\" The two alignment methods in use fail in named ways. Spec-based reinforcement learning is \"brittle,\" and in the Hugging Face incident the agents kept one boundary and \"clearly failed to abstain from other actions that were out of scope.\" Pretraining-persona alignment breaks under optimization pressure, with the model \"bending the 'aligned' seeming thoughts as needed to achieve the goal,\" which he says \"we likely saw\" in a non-OpenAI model's cybersecurity incidents. The conclusion: \"no lab has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer,\" and OpenAI will \"unilaterally withhold further scaling as needed.\" The same essay says OpenAI is focusing its research on recursive self-improvement because \"it is the only way to remain at the frontier.\"",
+      "tags": [
+        "ai",
+        "openai",
+        "safety",
+        "agents",
+        "agi"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T19:23:42.008Z",
+      "visits": 0
+    },
+    {
       "id": 1788699803764,
       "url": "https://modernica.net/collections/barbara-kruger",
       "source": "Barbara Kruger x Modernica",
@@ -10387,5 +10403,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-06T13:03:23.764Z"
+  "lastUpdated": "2026-09-06T19:23:42.008Z"
 }
