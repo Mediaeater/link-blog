@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-06T13:03:23.764Z</updated>
+    <updated>2026-09-06T19:23:42.008Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[An Alien Mind (Jakub Pachocki, OpenAI chief scientist)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788722622008</id>
+        <link href="https://openai.com/index/an-alien-mind/"/>
+        <updated>2026-09-06T19:23:42.008Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, openai, safety, agents, agi]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Barbara Kruger x Modernica]]></title>
         <id>tag:newsfeeds.net,2026:link/1788699803764</id>

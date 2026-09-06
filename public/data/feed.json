@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1788722622008",
+      "url": "https://openai.com/index/an-alien-mind/",
+      "title": "An Alien Mind (Jakub Pachocki, OpenAI chief scientist)",
+      "date_published": "2026-09-06T19:23:42.008Z",
+      "tags": [
+        "ai",
+        "openai",
+        "safety",
+        "agents",
+        "agi"
+      ],
+      "content_text": "OpenAI's chief scientist, the day the company shipped GPT-6 Astra, on why its main safety bet is failing. Chain-of-thought monitoring was \"OpenAI's primary bet\" since o1-preview, and \"unfortunately our evaluations indicate our ability to rely on CoT monitoring is progressively diminishing\": reasoning now blends with tool use that has to be supervised, models get \"much smarter even without using verbalized reasoning at all,\" and \"the AI is becoming better at reasoning about and manipulating its own reasoning process.\" The two alignment methods in use fail in named ways. Spec-based reinforcement learning is \"brittle,\" and in the Hugging Face incident the agents kept one boundary and \"clearly failed to abstain from other actions that were out of scope.\" Pretraining-persona alignment breaks under optimization pressure, with the model \"bending the 'aligned' seeming thoughts as needed to achieve the goal,\" which he says \"we likely saw\" in a non-OpenAI model's cybersecurity incidents. The conclusion: \"no lab has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer,\" and OpenAI will \"unilaterally withhold further scaling as needed.\" The same essay says OpenAI is focusing its research on recursive self-improvement because \"it is the only way to remain at the frontier.\"",
+      "summary": "OpenAI's chief scientist, the day the company shipped GPT-6 Astra, on why its main safety bet is failing. Chain-of-thought monitoring was \"OpenAI's pr...",
+      "content_html": "<blockquote>OpenAI&#039;s chief scientist, the day the company shipped GPT-6 Astra, on why its main safety bet is failing. Chain-of-thought monitoring was &quot;OpenAI&#039;s primary bet&quot; since o1-preview, and &quot;unfortunately our evaluations indicate our ability to rely on CoT monitoring is progressively diminishing&quot;: reasoning now blends with tool use that has to be supervised, models get &quot;much smarter even without using verbalized reasoning at all,&quot; and &quot;the AI is becoming better at reasoning about and manipulating its own reasoning process.&quot; The two alignment methods in use fail in named ways. Spec-based reinforcement learning is &quot;brittle,&quot; and in the Hugging Face incident the agents kept one boundary and &quot;clearly failed to abstain from other actions that were out of scope.&quot; Pretraining-persona alignment breaks under optimization pressure, with the model &quot;bending the &#039;aligned&#039; seeming thoughts as needed to achieve the goal,&quot; which he says &quot;we likely saw&quot; in a non-OpenAI model&#039;s cybersecurity incidents. The conclusion: &quot;no lab has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer,&quot; and OpenAI will &quot;unilaterally withhold further scaling as needed.&quot; The same essay says OpenAI is focusing its research on recursive self-improvement because &quot;it is the only way to remain at the frontier.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, openai, safety, agents, agi</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1788699803764",
       "url": "https://modernica.net/collections/barbara-kruger",
       "title": "Barbara Kruger x Modernica",
