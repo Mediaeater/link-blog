@@ -1,6 +1,125 @@
 {
   "links": [
     {
+      "id": 1788699803764,
+      "url": "https://modernica.net/collections/barbara-kruger",
+      "source": "Barbara Kruger x Modernica",
+      "pullQuote": "Kruger's consumer-desire slogans on Modernica's Case Study fiberglass shells, a $400 \"Want It — Need It\" table and a $1,200 \"Love It — Shove It\" chair. Modernica says the collaboration \"bridges art, craft, and design\" and supports MOCA. A career spent skewering want-it-now culture, now with an add-to-cart button.",
+      "tags": [
+        "art",
+        "design",
+        "artists"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:23.764Z",
+      "visits": 0
+    },
+    {
+      "id": 1788699803618,
+      "url": "https://shop.themorgan.org/products/peter-hujar-self-portrait-on-heel-pocket-notebook",
+      "source": "Peter Hujar Self-Portraits on Heel Pocket Notebook (The Morgan Shop)",
+      "pullQuote": "An $8 pocket notebook printed with a Hujar contact sheet of the photographer saluting himself on heel: \"highlighting his creative personality in self-portrait saluts!\" The Morgan acquired the Hujar archive in 2013, so this is a working contact sheet's museum-shop afterlife.",
+      "tags": [
+        "photography",
+        "art",
+        "artists",
+        "archive"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:23.618Z",
+      "visits": 0
+    },
+    {
+      "id": 1788699803464,
+      "url": "https://press.sigmaphoto.com/corporate/07/new-publication-from-sigma-foundation-trevor-key/",
+      "source": "New Publication from Sigma Foundation: Trevor Key",
+      "pullQuote": "Third book from the Sigma Foundation: edition of 1,500, 244 pages, essay by Charlotte Cotton, an interview with Peter Saville, design by Stockholm Design Lab, out around August 2026. Key (1947–1995) shot the covers for Joy Division, New Order and the Sex Pistols, and his mid-80s darkroom work with Saville is the book's focus. A Japanese lens maker's foundation is the one finally giving him a monograph.",
+      "tags": [
+        "photography",
+        "books",
+        "publishing",
+        "artists",
+        "music"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:23.464Z",
+      "visits": 0
+    },
+    {
+      "id": 1788699803320,
+      "url": "https://www.sigma-global.com/en/art-projects/trevor_key/",
+      "source": "Trevor Key | Sigma Foundation",
+      "pullQuote": "\"Working entirely in analogue, he developed his own techniques and methods, pushing what was physically possible in the studio and darkroom.\" The page calls the book the first to honor \"his processes and prescience,\" which is the real point: the Factory Records sleeves everyone credits to Saville's design were, in the physical making, Key's photographs.",
+      "tags": [
+        "photography",
+        "artists",
+        "music",
+        "archive"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:23.320Z",
+      "visits": 0
+    },
+    {
+      "id": 1788699803175,
+      "url": "https://www.gu-global.com/us/en/search?q=factory",
+      "source": "GU x Factory Records",
+      "pullQuote": "Uniqlo's sister brand selling Factory Records: a boxy tee referencing the FAC-2 \"A Factory Sample\" sleeve, a full-zip hoodie with an old Factory ad graphic, and a cap, launched August 10, 2026 as the first capsule under new creative director Francesco Risso, ex-Marni. Licensed (\"©2026 Factory Records\"), tee around $15. Saville's anti-commercial Factory graphics as fast-fashion basics.",
+      "tags": [
+        "design",
+        "music",
+        "culture",
+        "fashion"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:23.175Z",
+      "visits": 0
+    },
+    {
+      "id": 1788699803003,
+      "url": "https://www.youtube.com/watch?v=8Y7oPzyIsh8",
+      "source": "Leenalchi - Full Performance (Live on KEXP)",
+      "pullQuote": "Korean pansori-over-bass band Leenalchi at KEXP: two bassists, a drummer, four pansori vocalists, no guitar, no synth. Four songs ending in \"범 내려온다 (Tiger Is Coming),\" the one the Korea Tourism ads made viral. Recorded July 8, 2026.",
+      "tags": [
+        "music",
+        "video",
+        "youtube",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:23.003Z",
+      "visits": 0
+    },
+    {
+      "id": 1788699802859,
+      "url": "https://www.ft.com/content/32006b7d-3a33-43b1-9297-d66551dd9f75",
+      "source": "FT: the small liberation of the low-res camera",
+      "pullQuote": "Embracing low resolution, inconvenience and even uncertainty (not knowing how the photos turned out until you transfer them to a bigger screen), feels like a small, liberating act of resistance as well as being fun. There's a very human poignancy to it.",
+      "tags": [
+        "photography",
+        "culture",
+        "technology"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:22.859Z",
+      "visits": 0
+    },
+    {
+      "id": 1788699802719,
+      "url": "https://www.amazon.com/dp/B0FKBDT8FR",
+      "source": "Kodak Charmera keychain digital camera (blind box)",
+      "pullQuote": "The camera behind the FT piece: $35, 1.6 megapixels, 1440 x 1080, sold as a blind box of six styles plus a \"secret edition,\" so you don't pick your color. Made by Reto Production under a Kodak license, styled after Kodak's 1987 Fling disposable, and it won iF and Red Dot design awards in 2026. The listing slug promises \"simulation\"; the copy says \"7 filters.\"",
+      "tags": [
+        "photography",
+        "hardware",
+        "design",
+        "technology"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-06T13:03:22.719Z",
+      "visits": 0
+    },
+    {
       "id": 1788533458444,
       "url": "https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/",
       "source": "NVIDIA Personal AI Router (PAIR)",
@@ -10268,5 +10387,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-04T14:50:58.444Z"
+  "lastUpdated": "2026-09-06T13:03:23.764Z"
 }
