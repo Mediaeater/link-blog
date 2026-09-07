@@ -137,6 +137,15 @@ describe('createDigest seoTitle', () => {
   });
 });
 
+describe('formatDigestTitle', () => {
+  test('formats same-month, cross-month, and single-day ranges', () => {
+    const manager = new DigestManager(tmpDir);
+    expect(manager.formatDigestTitle('2026-03-03', '2026-03-09')).toBe('Mar 3-9, 2026');
+    expect(manager.formatDigestTitle('2026-02-24', '2026-03-02')).toBe('Feb 24 - Mar 2, 2026');
+    expect(manager.formatDigestTitle('2026-09-07', '2026-09-07')).toBe('Sep 7, 2026');
+  });
+});
+
 describe('getUndigestedLinks cutoff', () => {
   test('excludes links with timestamp after cutoff', async () => {
     writeDigests([]);

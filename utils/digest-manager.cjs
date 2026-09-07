@@ -71,7 +71,7 @@ class DigestManager {
   }
 
   /**
-   * Format a date range title: "Mar 3-9, 2026" or "Feb 24 - Mar 2, 2026"
+   * Format a date range title: "Mar 3-9, 2026", "Feb 24 - Mar 2, 2026", or "Sep 7, 2026" for a single day
    */
   formatDigestTitle(weekStart, weekEnd) {
     const start = new Date(weekStart + 'T12:00:00Z');
@@ -80,6 +80,9 @@ class DigestManager {
     const startStr = start.toLocaleDateString('en-US', opts);
     const sameMonth = start.getUTCMonth() === end.getUTCMonth() && start.getUTCFullYear() === end.getUTCFullYear();
 
+    if (weekStart === weekEnd) {
+      return `${startStr}, ${end.getUTCFullYear()}`;
+    }
     if (sameMonth) {
       return `${startStr}-${end.getUTCDate()}, ${end.getUTCFullYear()}`;
     }
