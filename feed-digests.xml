@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/feed-digests.atom</id>
     <title>newsfeeds.net - Weekly Digests</title>
-    <updated>2026-09-06T19:01:30.036Z</updated>
+    <updated>2026-09-07T10:30:42.172Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,83 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed-digests.atom"/>
     <subtitle>Weekly digest roundups of curated links on media, technology, AI, copyright, and digital culture.</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Sep 7, 2026]]></title>
+        <id>https://newsfeeds.net/digests/digest-028-2026-09-07.html</id>
+        <link href="https://newsfeeds.net/digests/digest-028-2026-09-07.html"/>
+        <updated>2026-09-07T10:30:42.172Z</updated>
+        <summary type="html"><![CDATA[12 curated links]]></summary>
+        <content type="html"><![CDATA[
+  <header style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #333;">
+    <h1 style="margin: 0 0 8px 0; font-size: 24px;">newsfeeds.net</h1>
+    <p style="margin: 0; color: #666; font-size: 14px;">Sep 7, 2026 &middot; 12 links</p>
+  </header>
+
+<!-- digest-writeup --><div style="margin-bottom: 30px; padding: 20px; background: #f9f9f9; border-left: 3px solid #333; font-size: 15px; line-height: 1.6; color: #444;"><p style="margin: 0 0 12px 0;">The television is the subject of this issue. LG Ad Solutions executives say on camera that LG &quot;owns the glass,&quot; and Gamers Nexus spends two hours on what that means in practice: automatic content recognition on every input plus unpatched holes that turn the set into a listening device. RTINGS put the opt-outs under Wireshark and found they were not fake, but the same feature shows up as a legal agreement on one brand, a picture setting on another, and a menu item you find after setup on a third; declining on a Vizio leaves you with HDMI and coaxial. Spur unpacked 6,038 LG and Samsung apps and found 2,058 renting out the owner&#39;s IP address through Bright Data, Massive and Honeygain SDKs, often in shovelware published by the proxy companies themselves. Krebs has LG&#39;s ban, TechCrunch has Samsung&#39;s, arriving after a Samsung &quot;Editor&#39;s Choice&quot; Pac-Man was found carrying the code. Xe Iaso and ansuz report from the servers on the receiving end, where the scraper traffic comes from clean residential IPs and the only defense is banning your neighbors, and Include Security&#39;s June piece named the domains to block. Software Freedom Conservancy&#39;s GPL suit against Vizio went to a jury in August with ACR named as the thing owners would switch off if they had the source. Plus an EDID blocker for the HDMI cable, a solo developer&#39;s ad-free launcher that replaces the Google TV home screen, and Linus buying a 75-inch Sceptre with no operating system at all.</p></div>
+  <main>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=LJh72_O4pXE" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">I bought a TV with NO &#39;Smart&#39; Features (Linus Tech Tips)</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">&quot;I don&#39;t need my TV to be yet another computer to serve ads to me and steal my data. I already got a bunch of those!&quot; The test unit is a 75-inch Sceptre, close to the only current brand still shipping a large 4K panel with no OS. The review is the trade-off made concrete: what a set costs in picture and features when nobody is subsidizing the hardware with your viewing data.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Yearslong fight over users&#39; right to tweak smart TV software heads to trial</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">arstechnica.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Software Freedom Conservancy bought seven Vizio TVs, sued in 2021, and asks a California jury to rule that any Vizio owner is a third-party beneficiary of GPLv2 and can demand the complete, buildable source of Vizio OS. &quot;Access to the full code would allow users to make meaningful changes to how their TVs work, including limiting ads or deactivating automatic content recognition.&quot; Vizio&#39;s defense is that &quot;SFC is not an intended third-party beneficiary.&quot; webOS, Tizen and Roku OS are all Linux-based, so the ruling reaches past Vizio. Trial was set for August 10.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://spur.us/blog/smart-tv-apps-residential-proxy-sdks" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Nearly half of LG smart TV apps contain residential proxy SDKs</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">spur.us</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">&quot;We scanned 6,038 of them across LG and Samsung; 2,058 were selling your IP address.&quot; Not store descriptions, the unpacked webOS and Tizen packages, fingerprinted for Bright Data, Massive and Honeygain/Oxylabs SDK files. Bright Data-named publishers account for 367 apps on their own: &quot;The app is the wrapper. The residential IP is the product.&quot; The SDK ships a blocklist for private ranges, which proves the point: &quot;The boundary is not technical; it is enforced by the proxy company&#39;s customer vetting.&quot; Amazon bans the category and Roku blocks it. LG and Samsung had not, until this report.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://bitflinger.net/tv.html" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Bitflinger TV: an ad-free smart aggregator and TV launcher</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">bitflinger.net</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">A solo developer&#39;s replacement for the Google TV home screen. &quot;Replaces your launcher and starts on boot (Android TV only) — your content first, ad-free,&quot; with one catalog across your subscriptions showing where a title streams and what it costs. Free tier, or $2.99 a month. &quot;We never sell subscriber data.&quot; The limit is structural: it sits on top of Android TV, so it removes the ads you see, not the telemetry underneath. The Show HN drew two points and no comments.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://xeiaso.net/notes/2026/check-your-smart-tv/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Probably check on your smart appliances</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">xeiaso.net</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The Anubis author looks at who is hitting the honeypot. &quot;80-90% of the hits created by the honeypot feature are from IP addresses that do not belong to any existing threat monitoring lists.&quot; Over 2.6 million unique IPs across 229 countries, and 89.3% clean by every reputation database. &quot;If I had to guess where most of this traffic is coming from, it&#39;s from compromised smart appliances contributing traffic to proxy networks.&quot; That is why IP reputation stopped working as a scraper defense.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.rtings.com/tv/learn/research/smart-tv-tracking" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Smart TV Tracking: we tested whether ACR opt-outs work (RTINGS)</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">rtings.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">&quot;We found that ACR opt-outs were not fake. When we could clearly identify ACR-related traffic, turning the setting off generally stopped it. But on many TVs, ACR-related data was hard to separate from other background communication, and the path to saying no was inconsistent, confusing, or tied to feature trade-offs.&quot; Samsung, Sony and LG showed a clean before-and-after in Wireshark. TCL did not. &quot;Privacy shouldn&#39;t require turning a smart TV into a weekend networking project.&quot;</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://gts.cryptography.dog/@ansuz/statuses/01KY20YH74D2QD3FJMQFMGY4FY" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">ansuz: Bright Data and the smart-TV botnet</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">gts.cryptography.dog</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">A self-hoster&#39;s view from the receiving end. &quot;Consumers buy these appliances, and then have to choose between watching ads or agreeing to some terms of service... their &#39;Smart TV&#39; becomes a part of a bot-net which is leased out to Bright Data&#39;s customers.&quot; The only viable defense is long-lived IP bans, and since IPs are shared, &quot;people might find that their ability to access the web is negatively affected by something like their roommates&#39; choice of TV brand.&quot; The demand, as he reads it, &quot;seems to be coming almost entirely from people collecting data to train various types of &#39;AI&#39;.&quot;</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">LG to ban residential proxies from smart TV apps</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">krebsonsecurity.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">LG: &quot;A residential proxy network is not an intended use for LG smart TVs... If this option is not removed, these apps will be suspended.&quot; Bright Data&#39;s defense is that &quot;Every peer opts in through a dedicated screen and receives value in return; every customer is vetted.&quot; Spur&#39;s answer: &quot;A one-time consent prompt buried in a TV app is not a substitute for meaningful transparency, ongoing control, and platform oversight,&quot; and the person tapping accept may be a minor.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Samsung bans smart TV apps that share users&#39; internet connections with strangers</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">techcrunch.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">A Pac-Man game Samsung itself featured as an &quot;Editor&#39;s Choice&quot; carried Bright Data proxy code that switched on once a user accepted a consent screen. Mnemonic&#39;s Harrison Sand: &quot;What was reviewed is not necessarily what is running,&quot; and &quot;A simple code change on a web server could instantly activate hundreds of millions of smart TVs into a potentially malicious botnet.&quot; Traffic analysis pointed to &quot;large-scale scraping of LinkedIn profiles, and for collecting AI training data.&quot;</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Stopping the smart TV from being used against you</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">s-config.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">The vector most guides skip is the HDMI cable. Through EDID, the TV identifies itself to a connected laptop and can trigger driver and companion-software installs on the PC that never asked for them: &quot;Malware, by definition, is software you never asked for and was installed without your permission.&quot; The fixes run from never giving the set a network connection, to DNS blocking at the router, to an EDID blocker on the cable so the laptop never learns what brand it&#39;s plugged into.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.rtings.com/tv/learn/research/smart-tv-data-privacy" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">Why Smart TVs Track What You Watch: And Why It&#39;s So Hard To Stop Them</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">rtings.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">&quot;Across the TVs we tested, essentially the same technology could appear as a legal agreement, a smart TV service, a picture-enhancement feature, or a setting available only after setup.&quot; Vizio was the starkest case: decline data sharing and the set is left with &quot;only HDMI and coaxial inputs,&quot; and withdrawing consent later &quot;required fully resetting the TV.&quot; Fire TV and TCL hid the controls under &quot;Device Usage Data&quot; and &quot;Interactive Service,&quot; on by default.</p>
+</div>
+<div style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+  <a href="https://www.youtube.com/watch?v=6IFVTcM28KA" style="color: #1a0dab; text-decoration: none; font-size: 16px; font-weight: 500;">216,000,000 Spy TVs | The LG Smart TV Problem (Gamers Nexus)</a>
+  <p style="margin: 4px 0 0 0; color: #006621; font-size: 13px;">youtube.com</p><p style="margin: 8px 0 0 0; color: #666; font-style: italic; font-size: 14px;">Two-hour Gamers Nexus investigation into LG&#39;s webOS sets. The first-party ACR (automatic content recognition) &quot;can pry into your personal life with greater precision than you might realize,&quot; and LG Ad Solutions executives say on camera, in their B2B pitches, that LG &quot;owns the glass.&quot; Not the buyer. The back half documents unpatched vulnerabilities that can turn the TVs into &quot;covert listening devices,&quot; so the ad platform and the attack surface are the same product.</p>
+</div>
+  </main>
+
+  <!-- tags-footer -->
+  <div style="margin-bottom: 20px; padding-top: 20px; border-top: 1px solid #eee;">
+    <p style="margin: 0; color: #999; font-size: 12px; line-height: 1.9;"><span style="color: #666; font-weight: 500;">Tags:</span> smart-tv &middot; tv &middot; proxies &middot; advertising &middot; research &middot; scraper &middot; security &middot; hardware &middot; privacy &middot; video &middot; ai &middot; howto &middot; infosec &middot; infrastructure &middot; legal &middot; open-source &middot; opsec &middot; rights &middot; surveillance &middot; tool &middot; tracking</p>
+  </div>
+  <!-- digest-nav -->
+  <nav style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; font-size: 13px; line-height: 1.9;">
+    <p style="margin: 0;"><a href="/digests/digest-027-2026-09-06.html" style="color: #666; text-decoration: none;">&larr; Sep 2-6, 2026</a> &middot; <a href="/digests/" style="color: #666; text-decoration: none;">All digests</a></p>
+  </nav>
+  <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
+    <p><a href="https://newsfeeds.net" style="color: #666;">newsfeeds.net</a> &middot; <a href="https://newsfeeds.net/feed-digests.atom" style="color: #666;">Subscribe via Atom</a></p>
+  </footer>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sep 2-6, 2026]]></title>
         <id>https://newsfeeds.net/digests/digest-027-2026-09-06.html</id>
@@ -81,7 +158,7 @@
   </div>
   <!-- digest-nav -->
   <nav style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; font-size: 13px; line-height: 1.9;">
-    <p style="margin: 0;"><a href="/digests/digest-026-2026-09-02.html" style="color: #666; text-decoration: none;">&larr; Aug 22 - Sep 2, 2026</a> &middot; <a href="/digests/" style="color: #666; text-decoration: none;">All digests</a></p>
+    <p style="margin: 0;"><a href="/digests/digest-026-2026-09-02.html" style="color: #666; text-decoration: none;">&larr; Aug 22 - Sep 2, 2026</a> &middot; <a href="/digests/" style="color: #666; text-decoration: none;">All digests</a> &middot; <a href="/digests/digest-028-2026-09-07.html" style="color: #666; text-decoration: none;">Sep 7, 2026 &rarr;</a></p>
   </nav>
   <footer style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; color: #999; font-size: 12px;">
     <p><a href="https://newsfeeds.net" style="color: #666;">newsfeeds.net</a> &middot; <a href="https://newsfeeds.net/feed-digests.atom" style="color: #666;">Subscribe via Atom</a></p>

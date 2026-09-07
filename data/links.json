@@ -1,6 +1,197 @@
 {
   "links": [
     {
+      "id": 1788777011782,
+      "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+      "source": "216,000,000 Spy TVs | The LG Smart TV Problem (Gamers Nexus)",
+      "pullQuote": "Two-hour Gamers Nexus investigation into LG's webOS sets. The first-party ACR (automatic content recognition) \"can pry into your personal life with greater precision than you might realize,\" and LG Ad Solutions executives say on camera, in their B2B pitches, that LG \"owns the glass.\" Not the buyer. The back half documents unpatched vulnerabilities that can turn the TVs into \"covert listening devices,\" so the ad platform and the attack surface are the same product.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "surveillance",
+        "advertising",
+        "video"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:11.782Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777011645,
+      "url": "https://www.rtings.com/tv/learn/research/smart-tv-data-privacy",
+      "source": "Why Smart TVs Track What You Watch: And Why It's So Hard To Stop Them",
+      "pullQuote": "\"Across the TVs we tested, essentially the same technology could appear as a legal agreement, a smart TV service, a picture-enhancement feature, or a setting available only after setup.\" Vizio was the starkest case: decline data sharing and the set is left with \"only HDMI and coaxial inputs,\" and withdrawing consent later \"required fully resetting the TV.\" Fire TV and TCL hid the controls under \"Device Usage Data\" and \"Interactive Service,\" on by default.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "privacy",
+        "advertising",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:11.645Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777011507,
+      "url": "https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/",
+      "source": "Stopping the smart TV from being used against you",
+      "pullQuote": "The vector most guides skip is the HDMI cable. Through EDID, the TV identifies itself to a connected laptop and can trigger driver and companion-software installs on the PC that never asked for them: \"Malware, by definition, is software you never asked for and was installed without your permission.\" The fixes run from never giving the set a network connection, to DNS blocking at the router, to an EDID blocker on the cable so the laptop never learns what brand it's plugged into.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "opsec",
+        "howto",
+        "hardware"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:11.507Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777011370,
+      "url": "https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers/",
+      "source": "Samsung bans smart TV apps that share users' internet connections with strangers",
+      "pullQuote": "A Pac-Man game Samsung itself featured as an \"Editor's Choice\" carried Bright Data proxy code that switched on once a user accepted a consent screen. Mnemonic's Harrison Sand: \"What was reviewed is not necessarily what is running,\" and \"A simple code change on a web server could instantly activate hundreds of millions of smart TVs into a potentially malicious botnet.\" Traffic analysis pointed to \"large-scale scraping of LinkedIn profiles, and for collecting AI training data.\"",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "proxies",
+        "security",
+        "scraper"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:11.370Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777011226,
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "LG to ban residential proxies from smart TV apps",
+      "pullQuote": "LG: \"A residential proxy network is not an intended use for LG smart TVs... If this option is not removed, these apps will be suspended.\" Bright Data's defense is that \"Every peer opts in through a dedicated screen and receives value in return; every customer is vetted.\" Spur's answer: \"A one-time consent prompt buried in a TV app is not a substitute for meaningful transparency, ongoing control, and platform oversight,\" and the person tapping accept may be a minor.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "proxies",
+        "security",
+        "infosec"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:11.226Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777011089,
+      "url": "https://gts.cryptography.dog/@ansuz/statuses/01KY20YH74D2QD3FJMQFMGY4FY",
+      "source": "ansuz: Bright Data and the smart-TV botnet",
+      "pullQuote": "A self-hoster's view from the receiving end. \"Consumers buy these appliances, and then have to choose between watching ads or agreeing to some terms of service... their 'Smart TV' becomes a part of a bot-net which is leased out to Bright Data's customers.\" The only viable defense is long-lived IP bans, and since IPs are shared, \"people might find that their ability to access the web is negatively affected by something like their roommates' choice of TV brand.\" The demand, as he reads it, \"seems to be coming almost entirely from people collecting data to train various types of 'AI'.\"",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "proxies",
+        "scraper",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:11.089Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777010944,
+      "url": "https://www.rtings.com/tv/learn/research/smart-tv-tracking",
+      "source": "Smart TV Tracking: we tested whether ACR opt-outs work (RTINGS)",
+      "pullQuote": "\"We found that ACR opt-outs were not fake. When we could clearly identify ACR-related traffic, turning the setting off generally stopped it. But on many TVs, ACR-related data was hard to separate from other background communication, and the path to saying no was inconsistent, confusing, or tied to feature trade-offs.\" Samsung, Sony and LG showed a clean before-and-after in Wireshark. TCL did not. \"Privacy shouldn't require turning a smart TV into a weekend networking project.\"",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "privacy",
+        "tracking",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:10.944Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777010797,
+      "url": "https://xeiaso.net/notes/2026/check-your-smart-tv/",
+      "source": "Probably check on your smart appliances",
+      "pullQuote": "The Anubis author looks at who is hitting the honeypot. \"80-90% of the hits created by the honeypot feature are from IP addresses that do not belong to any existing threat monitoring lists.\" Over 2.6 million unique IPs across 229 countries, and 89.3% clean by every reputation database. \"If I had to guess where most of this traffic is coming from, it's from compromised smart appliances contributing traffic to proxy networks.\" That is why IP reputation stopped working as a scraper defense.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "proxies",
+        "scraper",
+        "infrastructure"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:10.797Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777010658,
+      "url": "https://bitflinger.net/tv.html",
+      "source": "Bitflinger TV: an ad-free smart aggregator and TV launcher",
+      "pullQuote": "A solo developer's replacement for the Google TV home screen. \"Replaces your launcher and starts on boot (Android TV only) — your content first, ad-free,\" with one catalog across your subscriptions showing where a title streams and what it costs. Free tier, or $2.99 a month. \"We never sell subscriber data.\" The limit is structural: it sits on top of Android TV, so it removes the ads you see, not the telemetry underneath. The Show HN drew two points and no comments.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "tool",
+        "advertising"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:10.658Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777010520,
+      "url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+      "source": "Nearly half of LG smart TV apps contain residential proxy SDKs",
+      "pullQuote": "\"We scanned 6,038 of them across LG and Samsung; 2,058 were selling your IP address.\" Not store descriptions, the unpacked webOS and Tizen packages, fingerprinted for Bright Data, Massive and Honeygain/Oxylabs SDK files. Bright Data-named publishers account for 367 apps on their own: \"The app is the wrapper. The residential IP is the product.\" The SDK ships a blocklist for private ranges, which proves the point: \"The boundary is not technical; it is enforced by the proxy company's customer vetting.\" Amazon bans the category and Roku blocks it. LG and Samsung had not, until this report.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "proxies",
+        "security",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:10.520Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777010384,
+      "url": "https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os/",
+      "source": "Yearslong fight over users' right to tweak smart TV software heads to trial",
+      "pullQuote": "Software Freedom Conservancy bought seven Vizio TVs, sued in 2021, and asks a California jury to rule that any Vizio owner is a third-party beneficiary of GPLv2 and can demand the complete, buildable source of Vizio OS. \"Access to the full code would allow users to make meaningful changes to how their TVs work, including limiting ads or deactivating automatic content recognition.\" Vizio's defense is that \"SFC is not an intended third-party beneficiary.\" webOS, Tizen and Roku OS are all Linux-based, so the ruling reaches past Vizio. Trial was set for August 10.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "open-source",
+        "legal",
+        "rights"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:10.384Z",
+      "visits": 0
+    },
+    {
+      "id": 1788777010243,
+      "url": "https://www.youtube.com/watch?v=LJh72_O4pXE",
+      "source": "I bought a TV with NO 'Smart' Features (Linus Tech Tips)",
+      "pullQuote": "\"I don't need my TV to be yet another computer to serve ads to me and steal my data. I already got a bunch of those!\" The test unit is a 75-inch Sceptre, close to the only current brand still shipping a large 4K panel with no OS. The review is the trade-off made concrete: what a set costs in picture and features when nobody is subsidizing the hardware with your viewing data.",
+      "tags": [
+        "smart-tv",
+        "tv",
+        "hardware",
+        "advertising",
+        "video"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-07T10:30:10.243Z",
+      "visits": 0
+    },
+    {
       "id": 1788722622008,
       "url": "https://openai.com/index/an-alien-mind/",
       "source": "An Alien Mind (Jakub Pachocki, OpenAI chief scientist)",
@@ -10403,5 +10594,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-06T19:23:42.008Z"
+  "lastUpdated": "2026-09-07T10:30:11.782Z"
 }

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-06T19:23:42.008Z</updated>
+    <updated>2026-09-07T10:30:11.782Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,90 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[216,000,000 Spy TVs | The LG Smart TV Problem (Gamers Nexus)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777011782</id>
+        <link href="https://www.youtube.com/watch?v=6IFVTcM28KA"/>
+        <updated>2026-09-07T10:30:11.782Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, surveillance, advertising, video]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Smart TVs Track What You Watch: And Why It's So Hard To Stop Them]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777011645</id>
+        <link href="https://www.rtings.com/tv/learn/research/smart-tv-data-privacy"/>
+        <updated>2026-09-07T10:30:11.645Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, privacy, advertising, research]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stopping the smart TV from being used against you]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777011507</id>
+        <link href="https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/"/>
+        <updated>2026-09-07T10:30:11.507Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, opsec, howto, hardware]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Samsung bans smart TV apps that share users' internet connections with strangers]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777011370</id>
+        <link href="https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers/"/>
+        <updated>2026-09-07T10:30:11.370Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, proxies, security, scraper]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LG to ban residential proxies from smart TV apps]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777011226</id>
+        <link href="https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/"/>
+        <updated>2026-09-07T10:30:11.226Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, proxies, security, infosec]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ansuz: Bright Data and the smart-TV botnet]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777011089</id>
+        <link href="https://gts.cryptography.dog/@ansuz/statuses/01KY20YH74D2QD3FJMQFMGY4FY"/>
+        <updated>2026-09-07T10:30:11.089Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, proxies, scraper, ai]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smart TV Tracking: we tested whether ACR opt-outs work (RTINGS)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777010944</id>
+        <link href="https://www.rtings.com/tv/learn/research/smart-tv-tracking"/>
+        <updated>2026-09-07T10:30:10.944Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, privacy, tracking, research]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Probably check on your smart appliances]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777010797</id>
+        <link href="https://xeiaso.net/notes/2026/check-your-smart-tv/"/>
+        <updated>2026-09-07T10:30:10.797Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, proxies, scraper, infrastructure]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bitflinger TV: an ad-free smart aggregator and TV launcher]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777010658</id>
+        <link href="https://bitflinger.net/tv.html"/>
+        <updated>2026-09-07T10:30:10.658Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, tool, advertising]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nearly half of LG smart TV apps contain residential proxy SDKs]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777010520</id>
+        <link href="https://spur.us/blog/smart-tv-apps-residential-proxy-sdks"/>
+        <updated>2026-09-07T10:30:10.520Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, proxies, security, research]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yearslong fight over users' right to tweak smart TV software heads to trial]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777010384</id>
+        <link href="https://arstechnica.com/gadgets/2026/05/inside-the-fight-to-force-vizio-to-share-linux-based-source-code-for-its-tvs-os/"/>
+        <updated>2026-09-07T10:30:10.384Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, open-source, legal, rights]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I bought a TV with NO 'Smart' Features (Linus Tech Tips)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1788777010243</id>
+        <link href="https://www.youtube.com/watch?v=LJh72_O4pXE"/>
+        <updated>2026-09-07T10:30:10.243Z</updated>
+        <summary type="html"><![CDATA[Tags: smart-tv, tv, hardware, advertising, video]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An Alien Mind (Jakub Pachocki, OpenAI chief scientist)]]></title>
         <id>tag:newsfeeds.net,2026:link/1788722622008</id>
