@@ -5,9 +5,10 @@ React + Vite bookmark manager, production at https://newsfeeds.net (GitHub Pages
 Express API (`server.cjs`, port 3001) persists saves during local dev. Fully functional
 and in production — do NOT recreate existing components or regenerate the README.
 
-**Current data**: ~545 links in `data/links.json` (primary) + `public/data/links.json`
-(public copy). 18 published digests (`digests.json` id 0 is a bootstrap marker with no
-HTML page, by design). localStorage key: `linkBlogData`.
+**Current data** (as of 2026-09-12): ~684 links in `data/links.json` (primary) +
+`public/data/links.json` (public copy). 27 published digests, ids 2–28 (`digests.json` id 0
+is a bootstrap marker with no HTML page, by design). Digest pages live in `data/digests/`;
+`public/digests/` is a gitignored build copy. localStorage key: `linkBlogData`.
 
 ## Where things live
 - `src/components/LinkBlogClean.jsx` — main app (CRUD, admin mode, search, tags, pinning)
