@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1789248690940",
+      "url": "https://www.latimes.com/california/story/2026-09-12/juveniles-riding-in-waymo-arrested-after-police-find-ghost-gun",
+      "title": "Waymo pulls over, calls cops on juvenile riders who had 'ghost gun,' authorities say",
+      "date_published": "2026-09-12T21:31:30.940Z",
+      "tags": [
+        "waymo",
+        "surveillance",
+        "policing",
+        "privacy",
+        "automotive"
+      ],
+      "content_text": "Reads as a crime brief, but the news is the car as informant. Waymo says it pulled over after detecting a \"violation of our terms of service involving a firearm,\" then called police, who ran a \"high-risk vehicle stop\" on two juveniles. The piece never says how the gun was detected: cabin camera, remote operator, or a rider report. It's the second time since July that Waymo has reported teen riders to police, the first over toy guns and alcohol.",
+      "summary": "Reads as a crime brief, but the news is the car as informant. Waymo says it pulled over after detecting a \"violation of our terms of service involving...",
+      "content_html": "<blockquote>Reads as a crime brief, but the news is the car as informant. Waymo says it pulled over after detecting a &quot;violation of our terms of service involving a firearm,&quot; then called police, who ran a &quot;high-risk vehicle stop&quot; on two juveniles. The piece never says how the gun was detected: cabin camera, remote operator, or a rider report. It&#039;s the second time since July that Waymo has reported teen riders to police, the first over toy guns and alcohol.</blockquote>\n<p><strong>Tags:</strong> waymo, surveillance, policing, privacy, automotive</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1788777011782",
       "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
       "title": "216,000,000 Spy TVs | The LG Smart TV Problem (Gamers Nexus)",
@@ -10489,13 +10509,13 @@
       "title": "Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV",
       "date_published": "2025-11-22T00:06:22.908Z",
       "tags": [
-        "wamo",
+        "waymo",
         "google",
         "maps",
         "automotive",
         "addressable-mark"
       ],
-      "content_html": "<p><strong>Tags:</strong> wamo, google, maps, automotive, addressable-mark</p>",
+      "content_html": "<p><strong>Tags:</strong> waymo, google, maps, automotive, addressable-mark</p>",
       "_link_blog": {
         "visits": 0,
         "is_pinned": false

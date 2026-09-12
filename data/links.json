@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1789248690940,
+      "url": "https://www.latimes.com/california/story/2026-09-12/juveniles-riding-in-waymo-arrested-after-police-find-ghost-gun",
+      "source": "Waymo pulls over, calls cops on juvenile riders who had 'ghost gun,' authorities say",
+      "pullQuote": "Reads as a crime brief, but the news is the car as informant. Waymo says it pulled over after detecting a \"violation of our terms of service involving a firearm,\" then called police, who ran a \"high-risk vehicle stop\" on two juveniles. The piece never says how the gun was detected: cabin camera, remote operator, or a rider report. It's the second time since July that Waymo has reported teen riders to police, the first over toy guns and alcohol.",
+      "tags": [
+        "waymo",
+        "surveillance",
+        "policing",
+        "privacy",
+        "automotive"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-12T21:31:30.940Z",
+      "visits": 0
+    },
+    {
       "id": 1788777011782,
       "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
       "source": "216,000,000 Spy TVs | The LG Smart TV Problem (Gamers Nexus)",
@@ -8378,7 +8394,7 @@
       "source": "Waymo Approved Areas of Operation for Driverless Testing and Deployment - California DMV",
       "pullQuote": "",
       "tags": [
-        "wamo",
+        "waymo",
         "google",
         "maps",
         "automotive",
@@ -10594,5 +10610,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-07T10:30:11.782Z"
+  "lastUpdated": "2026-09-12T21:31:30.940Z"
 }
