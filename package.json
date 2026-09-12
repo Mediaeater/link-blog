@@ -59,7 +59,7 @@
     "express-rate-limit": "^8.7.0",
     "lucide-react": "^1.23.0",
     "react": "^19.3.0",
-    "react-dom": "^19.2.7",
+    "react-dom": "^19.3.0",
     "tailwind-merge": "^2.6.1"
   },
   "devDependencies": {
