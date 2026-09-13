@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1789268257327,
+      "url": "https://lewisstein.com/site/surveillance/",
+      "source": "Lewis Stein: Surveillance Series (1983–84)",
+      "pullQuote": "The series consists of twelve, 40\"x 40\", black and white photographs of different closed circuit cameras. All of the cameras were shot frontally, the \"gaze\" of the camera implying that the viewer is simultaneously being looked at by the image. Besides drawing attention to the omnipresent imposition of surveillance systems into contemporary life, these photographs reveal the multiple levels of the looking process and the relativity of \"subject-object\" relations.",
+      "tags": [
+        "art",
+        "surveillance",
+        "photography",
+        "nyc"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-13T02:57:37.327Z",
+      "visits": 0
+    },
+    {
       "id": 1789267288848,
       "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
       "source": "Local Qwen isn't a worse Opus, it's a different tool",
@@ -10642,5 +10657,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-13T02:41:28.848Z"
+  "lastUpdated": "2026-09-13T02:57:37.327Z"
 }
