@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1789309527331",
+      "url": "https://shkspr.mobi/blog/2026/09/the-expectations-of-privacy-in-driverless-cars/",
+      "title": "The expectations of privacy in driverless cars",
+      "date_published": "2026-09-13T14:25:27.331Z",
+      "tags": [
+        "waymo",
+        "privacy",
+        "surveillance",
+        "automotive",
+        "policing"
+      ],
+      "content_text": "Terence Eden asks what privacy you can expect in a car with no driver. Waymo's own policy says in-car cameras check \"that in-car rules are being followed\" and that Support \"may access live video during a trip,\" while microphones are only on during Rider Support calls or when riders enable them. In San Mateo a remote Waymo employee faked a mechanical fault to stop a car of teens and called the police, and Eden notes Waymo hasn't said how it spotted the problem in either case. \"I guess when you ride alone, you ride with a snitch.\"",
+      "summary": "Terence Eden asks what privacy you can expect in a car with no driver. Waymo's own policy says in-car cameras check \"that in-car rules are being follo...",
+      "content_html": "<blockquote>Terence Eden asks what privacy you can expect in a car with no driver. Waymo&#039;s own policy says in-car cameras check &quot;that in-car rules are being followed&quot; and that Support &quot;may access live video during a trip,&quot; while microphones are only on during Rider Support calls or when riders enable them. In San Mateo a remote Waymo employee faked a mechanical fault to stop a car of teens and called the police, and Eden notes Waymo hasn&#039;t said how it spotted the problem in either case. &quot;I guess when you ride alone, you ride with a snitch.&quot;</blockquote>\n<p><strong>Tags:</strong> waymo, privacy, surveillance, automotive, policing</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789268442451",
       "url": "https://welcometolace.org/lace/surveillance/",
       "title": "LACE: Surveillance (1987)",
