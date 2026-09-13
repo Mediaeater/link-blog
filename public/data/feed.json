@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1789267288848",
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "title": "Local Qwen isn't a worse Opus, it's a different tool",
+      "date_published": "2026-09-13T02:41:28.848Z",
+      "tags": [
+        "llm",
+        "open-weights",
+        "local",
+        "privacy",
+        "hardware"
+      ],
+      "content_text": "Receipts on the \"near-Opus level\" claim from someone running Qwen 3.6 27B on an almost $15k GPU. On private data it paid off (\"That revenue recovery alone paid for the card\"), but \"I'd never leave a blade tempering unattended, just like I'd never leave Qwen 3.6 27B working on a long horizon task.\" It loops, misreads numbers (\"27.3K counted as 273,000\"), and won't ask for help. Ellis sells privacy-first infrastructure and says so: \"I have skin in the game.\"",
+      "summary": "Receipts on the \"near-Opus level\" claim from someone running Qwen 3.6 27B on an almost $15k GPU. On private data it paid off (\"That revenue recovery a...",
+      "content_html": "<blockquote>Receipts on the &quot;near-Opus level&quot; claim from someone running Qwen 3.6 27B on an almost $15k GPU. On private data it paid off (&quot;That revenue recovery alone paid for the card&quot;), but &quot;I&#039;d never leave a blade tempering unattended, just like I&#039;d never leave Qwen 3.6 27B working on a long horizon task.&quot; It loops, misreads numbers (&quot;27.3K counted as 273,000&quot;), and won&#039;t ask for help. Ellis sells privacy-first infrastructure and says so: &quot;I have skin in the game.&quot;</blockquote>\n<p><strong>Tags:</strong> llm, open-weights, local, privacy, hardware</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789266683987",
       "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
       "title": "Introducing the Third Generation of Apple’s Foundation Models",
