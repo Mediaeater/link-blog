@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1789266683987,
+      "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+      "source": "Introducing the Third Generation of Apple’s Foundation Models",
+      "pullQuote": "Apple says the five models were \"custom-built in collaboration with Google,\" and that changes the privacy pitch. The models \"run exclusively on-device and on Private Cloud Compute,\" but for AFM 3 Cloud Pro, Private Cloud Compute now extends \"to NVIDIA GPUs in Google Cloud.\" The headline gain, preferred on \"64.7 percent of prompts compared to only 8.7 percent,\" is measured against Apple's own 2025 model. The post cites no third-party benchmarks; those wait for \"a technical report later this summer.\"",
+      "tags": [
+        "apple",
+        "foundation-models",
+        "google",
+        "privacy",
+        "llm"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-13T02:31:23.987Z",
+      "visits": 0
+    },
+    {
       "id": 1789248690940,
       "url": "https://www.latimes.com/california/story/2026-09-12/juveniles-riding-in-waymo-arrested-after-police-find-ghost-gun",
       "source": "Waymo pulls over, calls cops on juvenile riders who had 'ghost gun,' authorities say",
@@ -10610,5 +10626,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-12T21:31:30.940Z"
+  "lastUpdated": "2026-09-13T02:31:23.987Z"
 }
