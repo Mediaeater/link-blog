@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1789267288848,
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "source": "Local Qwen isn't a worse Opus, it's a different tool",
+      "pullQuote": "Receipts on the \"near-Opus level\" claim from someone running Qwen 3.6 27B on an almost $15k GPU. On private data it paid off (\"That revenue recovery alone paid for the card\"), but \"I'd never leave a blade tempering unattended, just like I'd never leave Qwen 3.6 27B working on a long horizon task.\" It loops, misreads numbers (\"27.3K counted as 273,000\"), and won't ask for help. Ellis sells privacy-first infrastructure and says so: \"I have skin in the game.\"",
+      "tags": [
+        "llm",
+        "open-weights",
+        "local",
+        "privacy",
+        "hardware"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-13T02:41:28.848Z",
+      "visits": 0
+    },
+    {
       "id": 1789266683987,
       "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
       "source": "Introducing the Third Generation of Apple’s Foundation Models",
@@ -10626,5 +10642,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-13T02:31:23.987Z"
+  "lastUpdated": "2026-09-13T02:41:28.848Z"
 }
