@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1789268442451,
+      "url": "https://welcometolace.org/lace/surveillance/",
+      "source": "LACE: Surveillance (1987)",
+      "pullQuote": "LACE's 1987 show gathered artists who \"usurped surveillance procedures employed by spies, private investigators and security companies\" and used them as material. The roster spans conceptual art, video collectives and archivists: John Baldessari, Martha Rosler, Julia Scher, Paper Tiger TV, Richard Prelinger and Lewis Stein, whose frontal photographs of CCTV cameras made the viewer the one being watched.",
+      "tags": [
+        "art",
+        "surveillance",
+        "exhibition",
+        "video"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-13T03:00:42.451Z",
+      "visits": 0
+    },
+    {
       "id": 1789268257327,
       "url": "https://lewisstein.com/site/surveillance/",
       "source": "Lewis Stein: Surveillance Series (1983–84)",
@@ -10657,5 +10672,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-13T02:57:37.327Z"
+  "lastUpdated": "2026-09-13T03:00:42.451Z"
 }
