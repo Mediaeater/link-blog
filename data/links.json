@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1789383064236,
+      "url": "https://aiandeducation.mit.edu/report/",
+      "source": "MIT Ad Hoc Committee report on AI in teaching, learning, and research training",
+      "pullQuote": "\"Many uses of AI deprive students of the opportunity to learn.\" The committee finds the damage is already visible on campus: emptier office hours, fewer study groups, undermined mastery. \"A student who uses an AI tool to brainstorm an approach, debug a function, tighten a paragraph, or generate a full draft is not 'copying' in any traditional sense.\" Its sharpest worry is social rather than academic: \"not only that students would have fewer opportunities to conduct research, but fewer opportunities to become participants in research communities.\"",
+      "tags": [
+        "ai",
+        "education",
+        "learning",
+        "report",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-14T10:51:04.236Z",
+      "visits": 0
+    },
+    {
       "id": 1789309527331,
       "url": "https://shkspr.mobi/blog/2026/09/the-expectations-of-privacy-in-driverless-cars/",
       "source": "The expectations of privacy in driverless cars",
@@ -10688,5 +10704,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-13T14:25:27.331Z"
+  "lastUpdated": "2026-09-14T10:51:04.236Z"
 }
