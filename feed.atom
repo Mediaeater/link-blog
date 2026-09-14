@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-13T14:25:27.331Z</updated>
+    <updated>2026-09-14T10:51:04.236Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[MIT Ad Hoc Committee report on AI in teaching, learning, and research training]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789383064236</id>
+        <link href="https://aiandeducation.mit.edu/report/"/>
+        <updated>2026-09-14T10:51:04.236Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, education, learning, report, research]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The expectations of privacy in driverless cars]]></title>
         <id>tag:newsfeeds.net,2026:link/1789309527331</id>
