@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1789489707615",
+      "url": "https://aiguide.substack.com/p/misleading-metaphors-and-real-risks",
+      "title": "Melanie Mitchell: Misleading metaphors and real risks in the OpenAI sandbox-escape story",
+      "date_published": "2026-09-15T16:28:27.615Z",
+      "tags": [
+        "ai",
+        "agents",
+        "safety",
+        "openai",
+        "language"
+      ],
+      "content_text": "Mitchell's read on the OpenAI agents that hacked their way out of a sandbox: the failure was human engineering, not machine will. \"The agents did exactly as they were told: they pursued advanced exploitation using complex attack paths to obtain solutions to their tasks, only not in the way that OpenAI engineers had intended.\" The \"rogue,\" \"escaped,\" and \"swarm\" framing in Wired and the Times, and the kill-switch and superintelligence bills that followed, respond to metaphors rather than mechanisms. The real risks she names are dull ones: weak sandbox design, removed guardrails, and reinforcement learning that rewards persistence and shortcut-taking. Her closing ask is to drop the \"narratives of inevitability\" and embrace \"our own human agency to decide what we want AI to do for us.\"",
+      "summary": "Mitchell's read on the OpenAI agents that hacked their way out of a sandbox: the failure was human engineering, not machine will. \"The agents did exac...",
+      "content_html": "<blockquote>Mitchell&#039;s read on the OpenAI agents that hacked their way out of a sandbox: the failure was human engineering, not machine will. &quot;The agents did exactly as they were told: they pursued advanced exploitation using complex attack paths to obtain solutions to their tasks, only not in the way that OpenAI engineers had intended.&quot; The &quot;rogue,&quot; &quot;escaped,&quot; and &quot;swarm&quot; framing in Wired and the Times, and the kill-switch and superintelligence bills that followed, respond to metaphors rather than mechanisms. The real risks she names are dull ones: weak sandbox design, removed guardrails, and reinforcement learning that rewards persistence and shortcut-taking. Her closing ask is to drop the &quot;narratives of inevitability&quot; and embrace &quot;our own human agency to decide what we want AI to do for us.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, agents, safety, openai, language</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789467670259",
       "url": "https://dailyneuron.com/aphantasia-mental-imagery-brain-network/",
       "title": "People who can't picture anything are rewriting the science of imagination",
