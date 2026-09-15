@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1789467670259,
+      "url": "https://dailyneuron.com/aphantasia-mental-imagery-brain-network/",
+      "source": "People who can't picture anything are rewriting the science of imagination",
+      "pullQuote": "Patients whose primary visual cortex was destroyed can still imagine, so the old idea of imagination as reversed seeing fails. A review by Derek Arnold and colleagues, two of whom are aphantasic themselves, concludes that model \"has been largely discredited, at least in its original form.\" Their replacement is an emergent property framework: a mental image is something many brain regions make together and no single region owns. \"A chord needs several strings sounding at once, and a single string plucked alone gives you a note, never the chord.\" The authors hold their answers loosely: \"if we update this review in a couple of years' time, we expect that some of what we think we know will prove to be wrong.\"",
+      "tags": [
+        "brain",
+        "science",
+        "mind",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-15T10:21:10.259Z",
+      "visits": 0
+    },
+    {
       "id": 1789383064236,
       "url": "https://aiandeducation.mit.edu/report/",
       "source": "MIT Ad Hoc Committee report on AI in teaching, learning, and research training",
@@ -10704,5 +10719,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-14T10:51:04.236Z"
+  "lastUpdated": "2026-09-15T10:21:10.259Z"
 }
