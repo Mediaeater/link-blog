@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1789558308861",
+      "url": "https://security.apple.com/blog/apple-reference-image/",
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "date_published": "2026-09-16T11:31:48.861Z",
+      "tags": [
+        "apple",
+        "photography",
+        "verification",
+        "cryptography",
+        "privacy"
+      ],
+      "content_text": "Apple's answer to AI fakes is an opt-in iPhone 18 Pro mode where the camera sensor signs pixels at capture and Private Cloud Compute (Apple's cloud servers) develops and signs the final image. Apple pitches it against C2PA, the industry provenance standard, whose after-the-fact metadata is \"vulnerable to compromise at any point in the editing chain.\" The trust ends up with Apple: it signs every image, keeps \"a private record of photo GUIDs and associated sensors\" for revocation, and scores authenticity with \"a neural network with hidden weights.\" The post describes checking only on Apple's own clients. The guarantee covers \"a real photograph, captured by a real sensor in an iPhone camera, at a specific time,\" not whether the scene in front of the lens was staged.",
+      "summary": "Apple's answer to AI fakes is an opt-in iPhone 18 Pro mode where the camera sensor signs pixels at capture and Private Cloud Compute (Apple's cloud se...",
+      "content_html": "<blockquote>Apple&#039;s answer to AI fakes is an opt-in iPhone 18 Pro mode where the camera sensor signs pixels at capture and Private Cloud Compute (Apple&#039;s cloud servers) develops and signs the final image. Apple pitches it against C2PA, the industry provenance standard, whose after-the-fact metadata is &quot;vulnerable to compromise at any point in the editing chain.&quot; The trust ends up with Apple: it signs every image, keeps &quot;a private record of photo GUIDs and associated sensors&quot; for revocation, and scores authenticity with &quot;a neural network with hidden weights.&quot; The post describes checking only on Apple&#039;s own clients. The guarantee covers &quot;a real photograph, captured by a real sensor in an iPhone camera, at a specific time,&quot; not whether the scene in front of the lens was staged.</blockquote>\n<p><strong>Tags:</strong> apple, photography, verification, cryptography, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789489707615",
       "url": "https://aiguide.substack.com/p/misleading-metaphors-and-real-risks",
       "title": "Melanie Mitchell: Misleading metaphors and real risks in the OpenAI sandbox-escape story",
