@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1789558308861,
+      "url": "https://security.apple.com/blog/apple-reference-image/",
+      "source": "Apple Reference Image: A New Approach for Verified Photography",
+      "pullQuote": "Apple's answer to AI fakes is an opt-in iPhone 18 Pro mode where the camera sensor signs pixels at capture and Private Cloud Compute (Apple's cloud servers) develops and signs the final image. Apple pitches it against C2PA, the industry provenance standard, whose after-the-fact metadata is \"vulnerable to compromise at any point in the editing chain.\" The trust ends up with Apple: it signs every image, keeps \"a private record of photo GUIDs and associated sensors\" for revocation, and scores authenticity with \"a neural network with hidden weights.\" The post describes checking only on Apple's own clients. The guarantee covers \"a real photograph, captured by a real sensor in an iPhone camera, at a specific time,\" not whether the scene in front of the lens was staged.",
+      "tags": [
+        "apple",
+        "photography",
+        "verification",
+        "cryptography",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-16T11:31:48.861Z",
+      "visits": 0
+    },
+    {
       "id": 1789489707615,
       "url": "https://aiguide.substack.com/p/misleading-metaphors-and-real-risks",
       "source": "Melanie Mitchell: Misleading metaphors and real risks in the OpenAI sandbox-escape story",
@@ -10735,5 +10751,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-15T16:28:27.615Z"
+  "lastUpdated": "2026-09-16T11:31:48.861Z"
 }

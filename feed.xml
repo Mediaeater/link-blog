@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-15T16:28:27.615Z</updated>
+    <updated>2026-09-16T11:31:48.861Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Apple Reference Image: A New Approach for Verified Photography]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789558308861</id>
+        <link href="https://security.apple.com/blog/apple-reference-image/"/>
+        <updated>2026-09-16T11:31:48.861Z</updated>
+        <summary type="html"><![CDATA[Tags: apple, photography, verification, cryptography, privacy]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Melanie Mitchell: Misleading metaphors and real risks in the OpenAI sandbox-escape story]]></title>
         <id>tag:newsfeeds.net,2026:link/1789489707615</id>
