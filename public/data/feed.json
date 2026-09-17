@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1789661761929",
+      "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
+      "title": "CCC invites all model citizens to 40C3",
+      "date_published": "2026-09-17T16:16:01.929Z",
+      "tags": [
+        "40c3",
+        "ccc",
+        "hacking",
+        "community",
+        "democracy",
+        "society"
+      ],
+      "content_text": "40C3 runs 27–30 December 2026 in the Hamburg Exhibition halls, under the motto \"Model Citizens.\" The CCC wants to \"find new models for society, now that the 'Model Citizens' of the past have left the planet in a precarious state.\" It sets the Congress against a slide toward \"the model of an authoritarian state, in which the stronger impose their views on the weaker\": \"the Congress was and remains the model for how things can be different.\" Calls for talks, art, music and punk opened 12 September.",
+      "summary": "40C3 runs 27–30 December 2026 in the Hamburg Exhibition halls, under the motto \"Model Citizens.\" The CCC wants to \"find new models for society, now th...",
+      "content_html": "<blockquote>40C3 runs 27–30 December 2026 in the Hamburg Exhibition halls, under the motto &quot;Model Citizens.&quot; The CCC wants to &quot;find new models for society, now that the &#039;Model Citizens&#039; of the past have left the planet in a precarious state.&quot; It sets the Congress against a slide toward &quot;the model of an authoritarian state, in which the stronger impose their views on the weaker&quot;: &quot;the Congress was and remains the model for how things can be different.&quot; Calls for talks, art, music and punk opened 12 September.</blockquote>\n<p><strong>Tags:</strong> 40c3, ccc, hacking, community, democracy, society</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789558308861",
       "url": "https://security.apple.com/blog/apple-reference-image/",
       "title": "Apple Reference Image: A New Approach for Verified Photography",
