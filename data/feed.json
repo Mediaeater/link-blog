@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1789764056949",
+      "url": "https://lawandcrime.com/high-profile/the-government-was-entitled-trumps-border-agents-can-now-search-cellphones-without-a-warrant-probable-cause-or-reasonable-suspicion-2nd-circuit-rules/",
+      "title": "Border agents can search cellphones without a warrant or reasonable suspicion: 2nd Circuit",
+      "date_published": "2026-09-18T20:40:56.949Z",
+      "tags": [
+        "legal",
+        "privacy",
+        "surveillance",
+        "border",
+        "fourth-amendment"
+      ],
+      "content_text": "United States v. Alisigwe (2d Cir., 17 Sept 2026) holds that a manual search of a traveler's phone at the border is a routine property search, so it needs no warrant, no probable cause and no suspicion. The panel went further than the district court, which had required reasonable suspicion: \"Contrary to the district court's reasoning, however, reasonable suspicion was not required.\" It overrides district rulings in Smith and Sultanov that demanded a warrant, and tracks a Fourth Circuit decision from July. Despite the headline, this is not a Trump policy — Alisigwe was prosecuted for bank fraud under the prior administration, and the holding rests on the border-search exception. Orin Kerr's objection is the sharp one: agents were hunting evidence of fraud, \"a law-enforcement evidence interest, not a keep-it-out contraband interest,\" which is not what the exception was for. Forensic searches were left undecided.",
+      "summary": "United States v. Alisigwe (2d Cir., 17 Sept 2026) holds that a manual search of a traveler's phone at the border is a routine property search, so it n...",
+      "content_html": "<blockquote>United States v. Alisigwe (2d Cir., 17 Sept 2026) holds that a manual search of a traveler&#039;s phone at the border is a routine property search, so it needs no warrant, no probable cause and no suspicion. The panel went further than the district court, which had required reasonable suspicion: &quot;Contrary to the district court&#039;s reasoning, however, reasonable suspicion was not required.&quot; It overrides district rulings in Smith and Sultanov that demanded a warrant, and tracks a Fourth Circuit decision from July. Despite the headline, this is not a Trump policy — Alisigwe was prosecuted for bank fraud under the prior administration, and the holding rests on the border-search exception. Orin Kerr&#039;s objection is the sharp one: agents were hunting evidence of fraud, &quot;a law-enforcement evidence interest, not a keep-it-out contraband interest,&quot; which is not what the exception was for. Forensic searches were left undecided.</blockquote>\n<p><strong>Tags:</strong> legal, privacy, surveillance, border, fourth-amendment</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789757745280",
       "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
       "title": "How To Write With An LLM",
