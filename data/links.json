@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1789757745280,
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "source": "How To Write With An LLM",
+      "pullQuote": "\"Readers can detect LLM words in the parts per trillion. However much work you put into scuffing up and humanizing it, an LLM paragraph will register to much of your audience not as writing but as output.\" The fix is to use a model as a copyeditor, never a ghostwriter, under two rules: \"You may not use a single word an LLM suggests to you,\" because frontier models are \"wedged in a mode where everything they write is a magazine headline\"; and forbid encouragement, since praise makes you double down on first-draft impulses instead of rethinking, and \"those rethinks are load-bearing parts of your voice.\"",
+      "tags": [
+        "llm",
+        "writing",
+        "authorship",
+        "howto"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-18T18:55:45.280Z",
+      "visits": 0
+    },
+    {
       "id": 1789661761929,
       "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
       "source": "CCC invites all model citizens to 40C3",
@@ -10768,5 +10783,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-17T16:16:01.929Z"
+  "lastUpdated": "2026-09-18T18:55:45.280Z"
 }
