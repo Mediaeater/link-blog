@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1789757745280",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "title": "How To Write With An LLM",
+      "date_published": "2026-09-18T18:55:45.280Z",
+      "tags": [
+        "llm",
+        "writing",
+        "authorship",
+        "howto"
+      ],
+      "content_text": "\"Readers can detect LLM words in the parts per trillion. However much work you put into scuffing up and humanizing it, an LLM paragraph will register to much of your audience not as writing but as output.\" The fix is to use a model as a copyeditor, never a ghostwriter, under two rules: \"You may not use a single word an LLM suggests to you,\" because frontier models are \"wedged in a mode where everything they write is a magazine headline\"; and forbid encouragement, since praise makes you double down on first-draft impulses instead of rethinking, and \"those rethinks are load-bearing parts of your voice.\"",
+      "summary": "\"Readers can detect LLM words in the parts per trillion. However much work you put into scuffing up and humanizing it, an LLM paragraph will register ...",
+      "content_html": "<blockquote>&quot;Readers can detect LLM words in the parts per trillion. However much work you put into scuffing up and humanizing it, an LLM paragraph will register to much of your audience not as writing but as output.&quot; The fix is to use a model as a copyeditor, never a ghostwriter, under two rules: &quot;You may not use a single word an LLM suggests to you,&quot; because frontier models are &quot;wedged in a mode where everything they write is a magazine headline&quot;; and forbid encouragement, since praise makes you double down on first-draft impulses instead of rethinking, and &quot;those rethinks are load-bearing parts of your voice.&quot;</blockquote>\n<p><strong>Tags:</strong> llm, writing, authorship, howto</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789661761929",
       "url": "https://events.ccc.de/en/2026/09/12/40c3-model-citizens/",
       "title": "CCC invites all model citizens to 40C3",
