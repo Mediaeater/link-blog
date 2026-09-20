@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "id": 1789901980542,
+      "url": "https://arxiv.org/abs/2608.16753",
+      "source": "Mathematics in the age of AI",
+      "pullQuote": "\"Rather than debating the capabilities of such tools, we condition on the hypothesis that these capabilities will arrive, and examine instead a question that is orthogonal to it: what the goals and values of mathematical research actually are.\" Tao splits problem-solving into generation, verification and digestion, argues that optimizing for solved problems is Goodhart's law waiting to happen, and proposes a talk test: \"If the authors cannot convincingly demonstrate that they are able to give a clear, expert-level talk on their results, one that is correct and properly attributed, then the result should not be published.\"",
+      "tags": [
+        "ai",
+        "mathematics",
+        "paper",
+        "research",
+        "thinking"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-20T10:59:40.542Z",
+      "visits": 0
+    },
+    {
+      "id": 1789901974929,
+      "url": "https://www.lemonde.fr/sciences/article/2026/09/18/les-avancees-de-l-ia-provoquent-une-crise-inedite-chez-les-mathematiciens_6776810_1650684.html",
+      "source": "Les avancées de l'IA provoquent une crise inédite chez les mathématiciens",
+      "pullQuote": "Le Monde's science desk on the upheaval AI has set off in mathematics. The piece is paywalled and blocks automated readers, but the debate it covers is in the open: Terence Tao's ICM 2026 essay comparing the moment to the 1900–1930 foundational crisis, the Leiden Declaration of June 2026 backed by the International Mathematical Union, and the First Proof project finding that frontier models earned passing grades on seven of ten novel research-level problems at tens to hundreds of dollars each. The fight is not over whether the tools work. It is over what counts as having done the mathematics.",
+      "tags": [
+        "ai",
+        "science",
+        "mathematics",
+        "research"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-20T10:59:34.929Z",
+      "visits": 0
+    },
+    {
       "id": 1789899707130,
       "url": "https://www.joanmitchellfoundation.org/creating-future-memory-report",
       "source": "Creating Future Memory: Building the Field of Artist Legacy Stewardship",
@@ -10815,5 +10846,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-20T10:21:47.130Z"
+  "lastUpdated": "2026-09-20T10:59:40.542Z"
 }
