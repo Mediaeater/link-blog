@@ -293,9 +293,17 @@ export default function LinkBlogClean() {
     if (tagParam) {
       setSelectedTags([tagParam]);
     }
+
+    // Load search from URL. The SearchAction in index.html advertises
+    // /?search={search_term_string} to Google, so the param has to actually work.
+    const searchParam = urlParams.get('search');
+    if (searchParam) {
+      setSearchTerm(searchParam);
+      setSearchExpanded(true);
+    }
   }, [loadLinks]);
 
-  // Update URL when tags change
+  // Update URL when tags or search change
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
 
@@ -311,10 +319,16 @@ export default function LinkBlogClean() {
       newParams.set('tag', selectedTags[0]);
     }
 
+    // Keyed off the deferred value, not searchTerm, so typing doesn't write
+    // to history on every keystroke.
+    if (deferredSearchTerm.trim()) {
+      newParams.set('search', deferredSearchTerm.trim());
+    }
+
     // Update URL without reload
     const newUrl = newParams.toString() ? `?${newParams.toString()}` : window.location.pathname;
     window.history.replaceState({}, '', newUrl);
-  }, [selectedTags]);
+  }, [selectedTags, deferredSearchTerm]);
 
   // Load digests when panel is opened
   useEffect(() => {
