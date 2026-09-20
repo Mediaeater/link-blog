@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1789909256955,
+      "url": "https://www.musicbusinessworldwide.com/files/2026/09/26-cv-14275-Dkt.-1-Complaint.pdf",
+      "source": "UMG & Sony v. Suno — Complaint (D. Mass., 18 Sept 2026)",
+      "pullQuote": "The second suit by Universal and Sony against Suno, filed in Massachusetts on 18 September 2026 over 60,202 sound recordings — works identified by forensic analysis of Suno's training corpus, which the court declined to fold into the 2024 case on schedule grounds. The new claim is the sharp one: not just training, but acquisition. Suno allegedly used YT-DLP \"to circumvent YouTube's encryption and scrape copyrighted recordings,\" pleaded as a §1201 anti-circumvention violation alongside infringement. On fair use: \"A product built by copying expressive works to produce audio files designed to occupy the same place in listeners' lives and in the marketplace as genuine human recordings is the antithesis of fair use.\" The market evidence cited: Deezer reported in July 2026 that AI tracks passed half of all daily new uploads, roughly 90,000 a day, and Suno told investors its users generate a Spotify catalog's worth of output every two weeks.",
+      "tags": [
+        "music",
+        "ai-music",
+        "copyright",
+        "legal",
+        "pdf"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-20T13:00:56.955Z",
+      "visits": 0
+    },
+    {
       "id": 1789908126537,
       "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
       "source": "AI and the Destruction of the Creative Commons",
@@ -10893,5 +10909,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-20T12:42:06.537Z"
+  "lastUpdated": "2026-09-20T13:00:56.955Z"
 }
