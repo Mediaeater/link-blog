@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-20T13:00:56.955Z</updated>
+    <updated>2026-09-20T15:11:52.339Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Teen Social Media Bans Miss the Point]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789917112339</id>
+        <link href="https://thereader.mitpress.mit.edu/teen-social-media-bans-miss-the-point/"/>
+        <updated>2026-09-20T15:11:52.339Z</updated>
+        <summary type="html"><![CDATA[Tags: socialmedia, policy, harms, research, legislation]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[UMG & Sony v. Suno — Complaint (D. Mass., 18 Sept 2026)]]></title>
         <id>tag:newsfeeds.net,2026:link/1789909256955</id>
