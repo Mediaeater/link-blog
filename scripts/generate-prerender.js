@@ -122,11 +122,22 @@ function generateDigestNav() {
   ].join('\n');
 }
 
+// Exact inverse of the insertions below, which each write '\n' + block. Taking
+// the leading newline back with the block is what keeps re-runs byte-stable:
+// dropping a trailing newline instead left the leading one behind, so every
+// build added one more blank line (221 of them had piled up by 2026-09-20).
 function stripBlock(html, startMarker, endMarker) {
   const startIdx = html.indexOf(startMarker);
   const endIdx = html.indexOf(endMarker);
-  if (startIdx === -1 || endIdx === -1) return html;
-  return html.slice(0, startIdx) + html.slice(endIdx + endMarker.length + 1);
+  if (startIdx === -1 || endIdx === -1 || endIdx < startIdx) return html;
+
+  // Walk back over any indentation an older build left in front of the marker,
+  // then take the newline too, so no whitespace-only line is stranded.
+  let from = startIdx;
+  while (from > 0 && (html[from - 1] === ' ' || html[from - 1] === '\t')) from--;
+  if (from > 0 && html[from - 1] === '\n') from--;
+
+  return html.slice(0, from) + html.slice(endIdx + endMarker.length);
 }
 
 function generate() {
@@ -159,6 +170,10 @@ function generate() {
   indexHtml = stripBlock(indexHtml, CONFIG.startMarker, CONFIG.endMarker);
   indexHtml = stripBlock(indexHtml, CONFIG.digestNavStart, CONFIG.digestNavEnd);
 
+  // One-time cleanup of the blank lines the old asymmetric strip left behind.
+  // A no-op once the tree is clean, since nothing writes blank lines here now.
+  indexHtml = indexHtml.replace(/(<div id="root">)\n{2,}/, '$1\n');
+
   // Insert after <div id="root">
   const rootTag = '<div id="root">';
   const rootIdx = indexHtml.indexOf(rootTag);
@@ -168,7 +183,7 @@ function generate() {
   }
 
   const insertPos = rootIdx + rootTag.length;
-  indexHtml = indexHtml.slice(0, insertPos) + '\n' + noscriptBlock + '\n' + indexHtml.slice(insertPos);
+  indexHtml = indexHtml.slice(0, insertPos) + '\n' + noscriptBlock + indexHtml.slice(insertPos);
 
   // Insert the digest nav outside #root, before the module script, so React
   // hydration leaves it alone and it survives into the rendered DOM.
@@ -179,7 +194,11 @@ function generate() {
       console.error('Error: module <script> not found in index.html');
       process.exit(1);
     }
-    indexHtml = indexHtml.slice(0, scriptIdx) + digestNav + '\n  ' + indexHtml.slice(scriptIdx);
+    // Insert at the start of the script's own line and hand the line's
+    // indentation back to it, rather than emitting a fixed indent that
+    // compounded with the old one on every run.
+    const lineStart = indexHtml.lastIndexOf('\n', scriptIdx) + 1;
+    indexHtml = indexHtml.slice(0, lineStart) + digestNav + '\n' + indexHtml.slice(lineStart);
   }
 
   const digestCount = digestNav ? (digestNav.match(/<li>/g) || []).length : 0;
