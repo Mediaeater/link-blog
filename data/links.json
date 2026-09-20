@@ -10,7 +10,8 @@
         "ai-music",
         "copyright",
         "legal",
-        "pdf"
+        "pdf",
+        "suno"
       ],
       "isPinned": false,
       "timestamp": "2026-09-20T13:00:56.955Z",
@@ -1938,7 +1939,8 @@
         "ai-music",
         "music",
         "legal",
-        "eu"
+        "eu",
+        "suno"
       ],
       "isPinned": false,
       "timestamp": "2026-07-31T16:34:00.212Z",
@@ -10348,7 +10350,8 @@
       "pullQuote": "web-based generative audio workstation that combines traditional DAW functionality with AI-powered music creation. ",
       "tags": [
         "music",
-        "ai"
+        "ai",
+        "suno"
       ],
       "isPinned": false,
       "timestamp": "2025-09-27T12:20:19.268Z",
