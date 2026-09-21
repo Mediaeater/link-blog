@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790002197248",
+      "url": "https://benchmarkheaven.com/",
+      "title": "Benchmark Heaven — Model benchmarks & costs",
+      "date_published": "2026-09-21T14:49:57.248Z",
+      "tags": [
+        "ai",
+        "llm",
+        "models",
+        "rankings",
+        "tool"
+      ],
+      "content_text": "A one-person hobby project, marked \"BETA — Work in progress,\" that pulls 17,462 results across 180 benchmarks and 844 models into one table, updated 2026-09-21. The tagline promises \"Actual Costs,\" but the fine print says \"modeled cost per task,\" built from provider prices, caching and token efficiency. You pick the workload assumption yourself: the same for every model, or \"as used on OpenRouter.\" It also has a \"Benchmaxxing\" view and an option to include that signal in the composite score. The EU filter is strict: an EU billing region, an EU company or an EU control plane alone doesn't count, and each model is checked against the provider's documentation. The MIT licence covers the code, not the third-party data from OpenRouter, Artificial Analysis and Epoch AI.",
+      "summary": "A one-person hobby project, marked \"BETA — Work in progress,\" that pulls 17,462 results across 180 benchmarks and 844 models into one table, updated 2...",
+      "content_html": "<blockquote>A one-person hobby project, marked &quot;BETA — Work in progress,&quot; that pulls 17,462 results across 180 benchmarks and 844 models into one table, updated 2026-09-21. The tagline promises &quot;Actual Costs,&quot; but the fine print says &quot;modeled cost per task,&quot; built from provider prices, caching and token efficiency. You pick the workload assumption yourself: the same for every model, or &quot;as used on OpenRouter.&quot; It also has a &quot;Benchmaxxing&quot; view and an option to include that signal in the composite score. The EU filter is strict: an EU billing region, an EU company or an EU control plane alone doesn&#039;t count, and each model is checked against the provider&#039;s documentation. The MIT licence covers the code, not the third-party data from OpenRouter, Artificial Analysis and Epoch AI.</blockquote>\n<p><strong>Tags:</strong> ai, llm, models, rankings, tool</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1789949704255",
       "url": "https://www.wired.com/story/zuckoff-app-sees-meta-glasses-before-they-see-you/",
       "title": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
