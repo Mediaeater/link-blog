@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-20T15:11:52.339Z</updated>
+    <updated>2026-09-21T00:15:04.255Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[ZuckOff Is a Free App That Sees Meta Glasses Before They See You]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789949704255</id>
+        <link href="https://www.wired.com/story/zuckoff-app-sees-meta-glasses-before-they-see-you/"/>
+        <updated>2026-09-21T00:15:04.255Z</updated>
+        <summary type="html"><![CDATA[Tags: privacy, surveillance, smart-glasses, meta, harms]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZuckOff | Camera glasses detector]]></title>
+        <id>tag:newsfeeds.net,2026:link/1789949537728</id>
+        <link href="https://zuckoff.app/"/>
+        <updated>2026-09-21T00:12:17.728Z</updated>
+        <summary type="html"><![CDATA[Tags: privacy, surveillance, smart-glasses, meta, tool]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Teen Social Media Bans Miss the Point]]></title>
         <id>tag:newsfeeds.net,2026:link/1789917112339</id>
