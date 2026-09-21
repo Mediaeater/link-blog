@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1789949704255,
+      "url": "https://www.wired.com/story/zuckoff-app-sees-meta-glasses-before-they-see-you/",
+      "source": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
+      "pullQuote": "The headline promises to see the glasses first, but the article shows a narrower thing. The app reads Bluetooth fingerprints and signal strength, so it can't tell you whether anyone is recording or who is wearing them. The useful details sit beside that. Meta's recording LED \"has proven fairly easy to defeat\" with simple hardware hacks, roughly 7 million pairs sold in 2025, and Meta's answer is a July update meant to catch a tampered LED. The app is also hard for Meta to take down because it only listens to signals the glasses already broadcast. \"Free\" covers basic scanning. Background monitoring, history and CSV export are behind a $25 Pro tier. The download counts are \"reportedly\" 5,000+ on iOS, per the article.",
+      "tags": [
+        "privacy",
+        "surveillance",
+        "smart-glasses",
+        "meta",
+        "harms"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-21T00:15:04.255Z",
+      "visits": 0
+    },
+    {
+      "id": 1789949537728,
+      "url": "https://zuckoff.app/",
+      "source": "ZuckOff | Camera glasses detector",
+      "pullQuote": "An iOS app that listens for Bluetooth advertisements from Ray-Ban Meta, Oakley Meta and Snap Spectacles and flags them by manufacturer signature. The catch is in its own fine print: glasses are \"loudest when they power on, pair or leave the case,\" and \"a few standalone models stay silent.\" Every detection rule comes from a captured real device, and the developer says \"we own only a few pairs,\" so coverage is only as wide as the hardware they've been able to test. \"Quiet is not proof that nobody is recording, and a detection is not proof that anyone is.\"",
+      "tags": [
+        "privacy",
+        "surveillance",
+        "smart-glasses",
+        "meta",
+        "tool"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-21T00:12:17.728Z",
+      "visits": 0
+    },
+    {
       "id": 1789917112339,
       "url": "https://thereader.mitpress.mit.edu/teen-social-media-bans-miss-the-point/",
       "source": "Teen Social Media Bans Miss the Point",
@@ -10928,5 +10960,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-20T15:11:52.339Z"
+  "lastUpdated": "2026-09-21T00:15:04.255Z"
 }
