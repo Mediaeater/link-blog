@@ -4,7 +4,7 @@
       "id": 1789949704255,
       "url": "https://www.wired.com/story/zuckoff-app-sees-meta-glasses-before-they-see-you/",
       "source": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
-      "pullQuote": "The headline promises to see the glasses first, but the article shows a narrower thing. The app reads Bluetooth fingerprints and signal strength, so it can't tell you whether anyone is recording or who is wearing them. The useful details sit beside that. Meta's recording LED \"has proven fairly easy to defeat\" with simple hardware hacks, roughly 7 million pairs sold in 2025, and Meta's answer is a July update meant to catch a tampered LED. The app is also hard for Meta to take down because it only listens to signals the glasses already broadcast. \"Free\" covers basic scanning. Background monitoring, history and CSV export are behind a $25 Pro tier. The download counts are \"reportedly\" 5,000+ on iOS, per the article.",
+      "pullQuote": "The headline promises to see the glasses first, but the article shows a narrower thing. The app reads Bluetooth fingerprints and signal strength, so it can't tell you whether anyone is recording or who is wearing them. Roughly 7 million pairs sold in 2025, and Meta's recording LED \"has proven fairly easy to defeat\" with simple hardware hacks. Meta's answer is a July update meant to catch a tampered LED. The app is also hard for Meta to take down because it only listens to signals the glasses already broadcast. \"Free\" covers basic scanning. Background monitoring, history and CSV export are behind a $25 Pro tier. The download counts are \"reportedly\" 5,000+ on iOS, per the article.",
       "tags": [
         "privacy",
         "surveillance",
