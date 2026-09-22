@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790079655968,
+      "url": "https://brand.io/article/spymarks/",
+      "source": "Spymarks, not Watermarks",
+      "pullQuote": "Brandon Thomas coins \"spymark\" for a watermark that carries a hidden tracking payload. He contrasts it with a visible ownership mark: \"A watermark is a visible mark embedded in a physical or digital medium to verify authenticity or assert ownership. A spymark is a hidden signal that makes your work traceable without your knowledge or consent.\" The piece documents payload capacity, then speculates past it. Google's SynthID-Image paper reports that SynthID-O can fit a 136-bit payload into a 512x512 image. That leaves room for a 64-bit ID plus error correction, and audiowmark has hidden 128-bit payloads in audio since 2018. What that ID maps to is a different claim. \"Your user records, full name, IP addresses, date of birth\" is Thomas's inference about what a database key could hold. It isn't something SynthID's documentation says it stores today. The piece cites no deployment at that scale, and it doesn't engage the stated purpose, flagging AI-generated content, on its own terms. One distinction survives the overreach. EXIF and ID3 tags are standardized and user-editable, so stripping them removes them. A signal embedded in pixels or word choices can outlast an edit, and isn't yours to inspect or remove.",
+      "tags": [
+        "privacy",
+        "surveillance",
+        "google",
+        "tracking",
+        "identity"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-22T12:20:55.968Z",
+      "visits": 0
+    },
+    {
       "id": 1790073999118,
       "url": "https://spectrum.ieee.org/apple-reference-image",
       "source": "Apple Takes on Deepfakes With New iPhone Pro",
@@ -11008,5 +11024,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-22T10:46:39.118Z"
+  "lastUpdated": "2026-09-22T12:20:55.968Z"
 }

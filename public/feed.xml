@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-22T10:46:39.118Z</updated>
+    <updated>2026-09-22T12:20:55.968Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Spymarks, not Watermarks]]></title>
+        <id>tag:newsfeeds.net,2026:link/1790079655968</id>
+        <link href="https://brand.io/article/spymarks/"/>
+        <updated>2026-09-22T12:20:55.968Z</updated>
+        <summary type="html"><![CDATA[Tags: privacy, surveillance, google, tracking, identity]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple Takes on Deepfakes With New iPhone Pro]]></title>
         <id>tag:newsfeeds.net,2026:link/1790073999118</id>
