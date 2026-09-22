@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790041822141,
+      "url": "https://ngcc.dev/reports/index.html",
+      "source": "ngcc.dev: Independent attack reports on China's NGCC cryptography candidates",
+      "pullQuote": "An independent test of the candidates in China's Next Generation Commercial Cryptographic (NGCC) algorithms program, \"not affiliated with NICCS.\" Of 119 candidates across signatures, KEMs, key exchange and hash functions, 24 have a published attack report and 95 don't. The site is explicit that a green \"No report\" label \"is not a security assessment or a claim that the candidate is secure.\" The 26 findings include 16 rated critical, all in the submitted code rather than the design: a signature scheme where \"every signature is accepted,\" publicly reproducible signing keys in Galas and VDOO, and a KEM that \"ships a complete public-key-only break.\" Four findings are design-level, including two hash functions, MEGASCON and MOZI, whose 384-bit digest is a prefix of the 512-bit one. Every finding links to reproduction steps.",
+      "tags": [
+        "cryptography",
+        "security",
+        "cn",
+        "standards",
+        "audit"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-22T01:50:22.141Z",
+      "visits": 0
+    },
+    {
       "id": 1790002197248,
       "url": "https://benchmarkheaven.com/",
       "source": "Benchmark Heaven — Model benchmarks & costs",
@@ -10976,5 +10992,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-21T14:49:57.248Z"
+  "lastUpdated": "2026-09-22T01:50:22.141Z"
 }

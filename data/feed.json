@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790041822141",
+      "url": "https://ngcc.dev/reports/index.html",
+      "title": "ngcc.dev: Independent attack reports on China's NGCC cryptography candidates",
+      "date_published": "2026-09-22T01:50:22.141Z",
+      "tags": [
+        "cryptography",
+        "security",
+        "cn",
+        "standards",
+        "audit"
+      ],
+      "content_text": "An independent test of the candidates in China's Next Generation Commercial Cryptographic (NGCC) algorithms program, \"not affiliated with NICCS.\" Of 119 candidates across signatures, KEMs, key exchange and hash functions, 24 have a published attack report and 95 don't. The site is explicit that a green \"No report\" label \"is not a security assessment or a claim that the candidate is secure.\" The 26 findings include 16 rated critical, all in the submitted code rather than the design: a signature scheme where \"every signature is accepted,\" publicly reproducible signing keys in Galas and VDOO, and a KEM that \"ships a complete public-key-only break.\" Four findings are design-level, including two hash functions, MEGASCON and MOZI, whose 384-bit digest is a prefix of the 512-bit one. Every finding links to reproduction steps.",
+      "summary": "An independent test of the candidates in China's Next Generation Commercial Cryptographic (NGCC) algorithms program, \"not affiliated with NICCS.\" Of 1...",
+      "content_html": "<blockquote>An independent test of the candidates in China&#039;s Next Generation Commercial Cryptographic (NGCC) algorithms program, &quot;not affiliated with NICCS.&quot; Of 119 candidates across signatures, KEMs, key exchange and hash functions, 24 have a published attack report and 95 don&#039;t. The site is explicit that a green &quot;No report&quot; label &quot;is not a security assessment or a claim that the candidate is secure.&quot; The 26 findings include 16 rated critical, all in the submitted code rather than the design: a signature scheme where &quot;every signature is accepted,&quot; publicly reproducible signing keys in Galas and VDOO, and a KEM that &quot;ships a complete public-key-only break.&quot; Four findings are design-level, including two hash functions, MEGASCON and MOZI, whose 384-bit digest is a prefix of the 512-bit one. Every finding links to reproduction steps.</blockquote>\n<p><strong>Tags:</strong> cryptography, security, cn, standards, audit</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790002197248",
       "url": "https://benchmarkheaven.com/",
       "title": "Benchmark Heaven — Model benchmarks & costs",
