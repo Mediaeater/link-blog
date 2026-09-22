@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790073999118",
+      "url": "https://spectrum.ieee.org/apple-reference-image",
+      "title": "Apple Takes on Deepfakes With New iPhone Pro",
+      "date_published": "2026-09-22T10:46:39.118Z",
+      "tags": [
+        "apple",
+        "verification",
+        "cryptography",
+        "privacy",
+        "photography"
+      ],
+      "content_text": "IEEE Spectrum brings the outside voices Apple's own announcement didn't include. Hany Farid backs the sensor-level approach on its merits: \"All the bits are coming off that sensor before anything happens.\" Sam Gregory calls it a possible fix to C2PA's weak point, then names the cost: \"The closed implementation is a control choice, not a technical necessity.\" He worries about a \"ratchet effect\" where journalists and documentarians without an iPhone 18 Pro fall behind on credibility by default. Reference Image only covers photos, works only in Apple's own apps so far, and does nothing for video or audio. Farid's summary: \"It's not like we can all pack it up and go home now.\"",
+      "summary": "IEEE Spectrum brings the outside voices Apple's own announcement didn't include. Hany Farid backs the sensor-level approach on its merits: \"All the bi...",
+      "content_html": "<blockquote>IEEE Spectrum brings the outside voices Apple&#039;s own announcement didn&#039;t include. Hany Farid backs the sensor-level approach on its merits: &quot;All the bits are coming off that sensor before anything happens.&quot; Sam Gregory calls it a possible fix to C2PA&#039;s weak point, then names the cost: &quot;The closed implementation is a control choice, not a technical necessity.&quot; He worries about a &quot;ratchet effect&quot; where journalists and documentarians without an iPhone 18 Pro fall behind on credibility by default. Reference Image only covers photos, works only in Apple&#039;s own apps so far, and does nothing for video or audio. Farid&#039;s summary: &quot;It&#039;s not like we can all pack it up and go home now.&quot;</blockquote>\n<p><strong>Tags:</strong> apple, verification, cryptography, privacy, photography</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790041822141",
       "url": "https://ngcc.dev/reports/index.html",
       "title": "ngcc.dev: Independent attack reports on China's NGCC cryptography candidates",
