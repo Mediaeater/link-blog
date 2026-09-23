@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790190900688",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "date_published": "2026-09-23T19:15:00.688Z",
+      "tags": [
+        "meta",
+        "security",
+        "privacy",
+        "agents",
+        "opsec"
+      ],
+      "content_text": "Muse is Meta's macOS AI assistant, granted a broad set of Apple's protected permissions: writing files to disk, the mic and camera, location, calendars. Patrick Wardle, the researcher who found the flaw, says any locally installed app or terminal command can rewrite Muse's undocumented settings, including the server address where dictation gets transcribed. Pointing that endpoint at an attacker's own server hands over the token that controls the whole account. \"We can manipulate the agent and leverage its privileges to do whatever we want. So instead of us having to write a very comprehensive Mac malware stealer, we can just leverage the AI assistant itself.\" His proof-of-concept attacks wrote files to disk and took pictures with no indication to an alert user. The root cause is a design choice: Muse sends dictation to Meta's cloud rather than transcribing on-device, the safer path macOS already supports. Wardle's verdict: \"it's like they didn't, in my opinion, think about security.\" Meta shipped a hotfix more than 12 hours after the post went live. Separately, and roughly 12 hours before disclosure, Amazon started blocking Muse from shopping on its site as an \"unauthorized AI agent.\"",
+      "summary": "Muse is Meta's macOS AI assistant, granted a broad set of Apple's protected permissions: writing files to disk, the mic and camera, location, calendar...",
+      "content_html": "<blockquote>Muse is Meta&#039;s macOS AI assistant, granted a broad set of Apple&#039;s protected permissions: writing files to disk, the mic and camera, location, calendars. Patrick Wardle, the researcher who found the flaw, says any locally installed app or terminal command can rewrite Muse&#039;s undocumented settings, including the server address where dictation gets transcribed. Pointing that endpoint at an attacker&#039;s own server hands over the token that controls the whole account. &quot;We can manipulate the agent and leverage its privileges to do whatever we want. So instead of us having to write a very comprehensive Mac malware stealer, we can just leverage the AI assistant itself.&quot; His proof-of-concept attacks wrote files to disk and took pictures with no indication to an alert user. The root cause is a design choice: Muse sends dictation to Meta&#039;s cloud rather than transcribing on-device, the safer path macOS already supports. Wardle&#039;s verdict: &quot;it&#039;s like they didn&#039;t, in my opinion, think about security.&quot; Meta shipped a hotfix more than 12 hours after the post went live. Separately, and roughly 12 hours before disclosure, Amazon started blocking Muse from shopping on its site as an &quot;unauthorized AI agent.&quot;</blockquote>\n<p><strong>Tags:</strong> meta, security, privacy, agents, opsec</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790079655968",
       "url": "https://brand.io/article/spymarks/",
       "title": "Spymarks, not Watermarks",
