@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-23T19:15:00.688Z</updated>
+    <updated>2026-09-24T11:01:43.055Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Woman Arrested, Dragged Away After Quietly Speaking About Flock at City Council Meeting]]></title>
+        <id>tag:newsfeeds.net,2026:link/1790247703055</id>
+        <link href="https://www.404media.co/woman-arrested-after-city-council-denies-residents-right-to-speak-on-flock-cameras/"/>
+        <updated>2026-09-24T11:01:43.055Z</updated>
+        <summary type="html"><![CDATA[Tags: surveillance, flock, alpr, policing, local]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day]]></title>
         <id>tag:newsfeeds.net,2026:link/1790190900688</id>
