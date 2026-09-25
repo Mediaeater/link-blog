@@ -82,5 +82,8 @@
     "vite": "^8.3.1",
     "vite-plugin-singlefile": "^2.3.3",
     "vitest": "^5.0.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.10.0": true
   }
 }
