@@ -1339,7 +1339,7 @@ export default function LinkBlogClean() {
                             }
                           }}
                           disabled={newLink.tags?.includes(tag)}
-                          className={`tag text-xs ${newLink.tags?.includes(tag) ? 'opacity-40 cursor-not-allowed' : ''}`}
+                          className={`tag text-xs leading-4 ${newLink.tags?.includes(tag) ? 'opacity-40 cursor-not-allowed' : ''}`}
                         >
                           {tag}
                         </button>
@@ -1396,7 +1396,7 @@ export default function LinkBlogClean() {
                     value={quickAddUrls}
                     onChange={(e) => setQuickAddUrls(e.target.value)}
                     placeholder="Paste URLs here..."
-                    className="input w-full h-32 font-mono text-sm"
+                    className="input w-full h-32 font-mono text-sm leading-5"
                   />
                 </div>
                 <div className="flex gap-2">
