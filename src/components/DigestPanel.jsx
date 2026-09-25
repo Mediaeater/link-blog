@@ -132,7 +132,7 @@ export default function DigestPanel() {
         <button
           onClick={handlePreview}
           disabled={generating || !status || status.undigestedCount === 0}
-          className={`px-3 py-1.5 rounded text-sm font-medium flex items-center gap-2 ${
+          className={`px-3 py-1.5 rounded-sm text-sm font-medium flex items-center gap-2 ${
             status?.undigestedCount > 0
               ? 'bg-neutral-900 hover:bg-neutral-700 text-white'
               : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
@@ -140,7 +140,7 @@ export default function DigestPanel() {
         >
           {generating ? 'Working...' : 'Digest'}
           {status && (
-            <span className={`px-1.5 py-0.5 rounded text-xs ${
+            <span className={`px-1.5 py-0.5 rounded-sm text-xs ${
               status.undigestedCount > 0 ? 'bg-neutral-700 text-white' : 'bg-gray-400'
             }`}>
               {status.undigestedCount}
@@ -179,7 +179,7 @@ export default function DigestPanel() {
                 value={writeup}
                 onChange={(e) => setWriteup(e.target.value)}
                 placeholder="A short paragraph about this week's links..."
-                className="w-full h-24 p-2 text-sm border rounded mb-4"
+                className="w-full h-24 p-2 text-sm border rounded-sm mb-4"
               />
 
               <label htmlFor="digest-html-output" className="block text-sm font-medium mb-2">HTML Output:</label>
@@ -187,12 +187,12 @@ export default function DigestPanel() {
                 id="digest-html-output"
                 readOnly
                 value={generatedHtml}
-                className="w-full h-32 p-2 font-mono text-sm border rounded"
+                className="w-full h-32 p-2 font-mono text-sm border rounded-sm"
               />
 
               <h3 className="block text-sm font-medium mt-4 mb-2">Preview:</h3>
               <div
-                className="p-3 border rounded bg-gray-50 prose max-w-none"
+                className="p-3 border rounded-sm bg-gray-50 prose max-w-none"
                 dangerouslySetInnerHTML={{ __html: generatedHtml }}
               />
             </div>
@@ -200,13 +200,13 @@ export default function DigestPanel() {
             <div className="p-4 border-t flex gap-2 justify-end">
               <button
                 onClick={() => setShowModal(false)}
-                className="px-4 py-2 rounded border hover:bg-gray-100"
+                className="px-4 py-2 rounded-sm border hover:bg-gray-100"
               >
                 Cancel
               </button>
               <button
                 onClick={handleCopy}
-                className={`px-4 py-2 rounded ${
+                className={`px-4 py-2 rounded-sm ${
                   copied
                     ? 'bg-green-700 text-white'
                     : 'border border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-100'
@@ -217,7 +217,7 @@ export default function DigestPanel() {
               <button
                 onClick={handlePublish}
                 disabled={generating}
-                className="px-4 py-2 rounded bg-neutral-900 hover:bg-neutral-700 text-white disabled:opacity-50"
+                className="px-4 py-2 rounded-sm bg-neutral-900 hover:bg-neutral-700 text-white disabled:opacity-50"
               >
                 {generating ? 'Publishing...' : 'Publish Digest'}
               </button>
@@ -227,7 +227,7 @@ export default function DigestPanel() {
       )}
 
       {error && (
-        <div className="fixed bottom-4 right-4 bg-red-700 text-white px-4 py-2 rounded shadow-lg" role="alert">
+        <div className="fixed bottom-4 right-4 bg-red-700 text-white px-4 py-2 rounded-sm shadow-lg" role="alert">
           {error}
           <button onClick={() => setError(null)} className="ml-2" aria-label="Dismiss error">✕</button>
         </div>

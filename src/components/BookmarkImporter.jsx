@@ -158,7 +158,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
     return (
       <div key={path} className="border-l-2 border-gray-200 ml-2">
         <div className={`
-          flex items-center gap-2 p-2 hover:bg-gray-50 rounded
+          flex items-center gap-2 p-2 hover:bg-gray-50 rounded-sm
           ${isSelected ? 'bg-blue-50' : ''}
         `}>
           {hasSubfolders && (
@@ -184,7 +184,7 @@ const BookmarkImporter = ({ onImport, existingLinks = [], onClose }) => {
             type="checkbox"
             checked={isSelected}
             onChange={() => toggleFolder(path)}
-            className="rounded border-gray-300"
+            className="rounded-sm border-gray-300"
           />
           
           <Folder className={`w-4 h-4 ${folder.isLikelyPublic ? 'text-green-600' : 'text-gray-500'}`} />

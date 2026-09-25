@@ -1,6 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss" source(none);
+
+@source "../index.html";
+@source "./**/*.{js,jsx,ts,tsx}";
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+/* Custom color tokens (formerly tailwind.config.js theme.extend.colors).
+   v4 applies opacity modifiers (e.g. bg-primary/50) automatically via
+   color-mix(), so the v3 `<alpha-value>` placeholder is no longer needed. */
+@theme {
+  --color-primary: rgb(var(--primary-500));
+  --color-primary-400: rgb(var(--primary-400));
+  --color-primary-500: rgb(var(--primary-500));
+  --color-primary-600: rgb(var(--primary-600));
+  --color-success: rgb(var(--success));
+  --color-error: rgb(var(--error));
+  --color-secondary: #14171a;
+}
 
 @layer base {
   :root {
@@ -143,6 +160,37 @@
   }
 }
 
+/* Tailwind v4 preflight compat.
+   v4 changed three defaults that this app was relying on:
+   - border color: currentColor (was gray-200) — several bare `border`
+     utilities in the app (no explicit border-* color) depended on the
+     old light-gray default.
+   - placeholder color: text color at reduced opacity (was gray-400) —
+     restored for the one textarea that doesn't use the shared .input
+     class (which already sets its own placeholder color).
+   - buttons: cursor: default (was cursor: pointer, a v3 Preflight
+     addition) — most buttons in the app have no explicit cursor-pointer
+     class and relied on that default. */
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: rgb(var(--neutral-200));
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: rgb(var(--neutral-400));
+  }
+
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -229,7 +277,7 @@ body {
   }
 
   .card-hover {
-    @apply transition-all duration-[180ms] hover:shadow-sm;
+    @apply transition-all duration-[180ms] hover:shadow-xs;
   }
 
   /* Button styles (refined and elegant) */
@@ -261,13 +309,13 @@ body {
 
   /* Input styles (cleaner) */
   .input {
-    @apply rounded-lg border border-neutral-300 bg-white px-4 py-2 transition-all duration-[180ms] placeholder:text-neutral-400 focus:border-neutral-500 focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:ring-offset-0;
+    @apply rounded-lg border border-neutral-300 bg-white px-4 py-2 transition-all duration-[180ms] placeholder:text-neutral-400 focus:border-neutral-500 focus:outline-hidden focus:ring-2 focus:ring-neutral-500 focus:ring-offset-0;
     font-size: var(--text-base);
   }
 
   /* Tag styles (much more subtle) */
   .tag {
-    @apply inline-flex items-center rounded px-2 py-1 font-normal text-neutral-600 transition-all duration-[120ms] bg-transparent hover:bg-neutral-100 hover:text-neutral-900;
+    @apply inline-flex items-center rounded-sm px-2 py-1 font-normal text-neutral-600 transition-all duration-[120ms] bg-transparent hover:bg-neutral-100 hover:text-neutral-900;
     font-size: var(--text-xs);
   }
 
@@ -361,7 +409,7 @@ body {
 
   /* Search input (clean) */
   .search-input {
-    @apply w-full border border-neutral-300 bg-white rounded-lg pl-10 pr-4 py-2 transition-all duration-[180ms] placeholder:text-neutral-400 focus:border-neutral-500 focus:outline-none focus:ring-2 focus:ring-neutral-400/10;
+    @apply w-full border border-neutral-300 bg-white rounded-lg pl-10 pr-4 py-2 transition-all duration-[180ms] placeholder:text-neutral-400 focus:border-neutral-500 focus:outline-hidden focus:ring-2 focus:ring-neutral-400/10;
     font-size: var(--text-base);
   }
 

@@ -742,7 +742,7 @@ export default function LinkBlogClean() {
               <span className="text-xs text-red-200">{saveError.timestamp}</span>
               <button
                 onClick={() => setSaveError(null)}
-                className="p-1 hover:bg-red-700 rounded"
+                className="p-1 hover:bg-red-700 rounded-sm"
                 title="Dismiss"
                 aria-label="Dismiss"
               >
@@ -766,13 +766,13 @@ export default function LinkBlogClean() {
                 onClick={() => {
                   saveToFile(links);
                 }}
-                className="px-3 py-1 bg-amber-700 text-white rounded text-sm font-medium hover:bg-amber-800"
+                className="px-3 py-1 bg-amber-700 text-white rounded-sm text-sm font-medium hover:bg-amber-800"
               >
                 Sync Now
               </button>
               <button
                 onClick={() => setDataWarning(null)}
-                className="p-1 hover:bg-amber-600 rounded"
+                className="p-1 hover:bg-amber-600 rounded-sm"
                 title="Dismiss"
                 aria-label="Dismiss"
               >
@@ -904,7 +904,7 @@ export default function LinkBlogClean() {
                         }
                       }}
                       placeholder="Search..."
-                      className={`w-32 px-2 py-1 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500 ${isSearchPending ? 'opacity-70' : ''}`}
+                      className={`w-32 px-2 py-1 text-sm border border-neutral-300 rounded-sm focus:outline-hidden focus:border-neutral-500 ${isSearchPending ? 'opacity-70' : ''}`}
                       aria-label="Search links"
                       autoFocus
                     />
@@ -988,7 +988,7 @@ export default function LinkBlogClean() {
                         }
                       }}
                       placeholder="Search links..."
-                      className="w-full pl-10 pr-4 py-2 text-sm border border-neutral-300 rounded focus:outline-none focus:border-neutral-500"
+                      className="w-full pl-10 pr-4 py-2 text-sm border border-neutral-300 rounded-sm focus:outline-hidden focus:border-neutral-500"
                       aria-label="Search links"
                       autoFocus
                     />
@@ -1354,7 +1354,7 @@ export default function LinkBlogClean() {
                       type="checkbox"
                       checked={newLink.isPinned || false}
                       onChange={(e) => setNewLink({ ...newLink, isPinned: e.target.checked })}
-                      className="rounded border-neutral-300"
+                      className="rounded-sm border-neutral-300"
                     />
                     <span className="text-sm">Pin to top</span>
                   </label>
