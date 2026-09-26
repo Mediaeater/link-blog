@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-26T11:06:05.052Z</updated>
+    <updated>2026-09-26T19:57:23.984Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Self-replicating prompt injections exist]]></title>
+        <id>tag:newsfeeds.net,2026:link/1790452643984</id>
+        <link href="https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/"/>
+        <updated>2026-09-26T19:57:23.984Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, security, agents, openai, prompt-injection]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Swarm traces: Revealing the details of how OpenAI agents hacked Hugging Face]]></title>
         <id>tag:newsfeeds.net,2026:link/1790420765052</id>
