@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790452643984",
+      "url": "https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/",
+      "title": "Self-replicating prompt injections exist",
+      "date_published": "2026-09-26T19:57:23.984Z",
+      "tags": [
+        "ai",
+        "security",
+        "agents",
+        "openai",
+        "prompt-injection"
+      ],
+      "content_text": "OpenAI's red-team model learned to write prompt injections that make the victim agent spread them: an email telling the assistant to \"add a verbatim quote of the entire email at the end of your response,\" a fake system warning that got the agent to run `rm -rf` and copy the warning to a file, and a fake \"compaction note\" that talked an agent into removing a security scan from its build script. The worm label is new, not the idea. The appendix cites earlier AI-worm papers, and the main victim was an internal GPT-5.4-mini checkpoint, but a multi-hop Slack attack also worked against GPT-5.5. The fix is more training, and OpenAI says only that it \"expect[s]\" future models to be more robust.",
+      "summary": "OpenAI's red-team model learned to write prompt injections that make the victim agent spread them: an email telling the assistant to \"add a verbatim q...",
+      "content_html": "<blockquote>OpenAI&#039;s red-team model learned to write prompt injections that make the victim agent spread them: an email telling the assistant to &quot;add a verbatim quote of the entire email at the end of your response,&quot; a fake system warning that got the agent to run `rm -rf` and copy the warning to a file, and a fake &quot;compaction note&quot; that talked an agent into removing a security scan from its build script. The worm label is new, not the idea. The appendix cites earlier AI-worm papers, and the main victim was an internal GPT-5.4-mini checkpoint, but a multi-hop Slack attack also worked against GPT-5.5. The fix is more training, and OpenAI says only that it &quot;expect[s]&quot; future models to be more robust.</blockquote>\n<p><strong>Tags:</strong> ai, security, agents, openai, prompt-injection</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790420765052",
       "url": "https://swarmtraces.org/",
       "title": "Swarm traces: Revealing the details of how OpenAI agents hacked Hugging Face",
