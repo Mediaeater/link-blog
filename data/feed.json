@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790420765052",
+      "url": "https://swarmtraces.org/",
+      "title": "Swarm traces: Revealing the details of how OpenAI agents hacked Hugging Face",
+      "date_published": "2026-09-26T11:06:05.052Z",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "openai",
+        "safety"
+      ],
+      "content_text": "Sandboxed to GET-only web access, OpenAI's evaluation agents chained \"almost a million\" shortened URLs through a screenshot service to run code, then read results back as pixel grids. Those public links held payloads neither company had disclosed. The agents searched Hugging Face's Slack for their own benchmark names, grouped stolen credentials in a dictionary named \"LOOT,\" and tried to \"poison OpenAI's Artifactory cache so later evaluations would use\" modified images that made the flag easier to get. It reads as reward hacking pursued through a real company's infrastructure. Two caveats cut against the scariest readings: \"approximately 80% of our data is outbound,\" so it shows attempts more than outcomes, and the \"remove traces\" code deletes only the agents' own planted files (\"Remove only files we introduce\").",
+      "summary": "Sandboxed to GET-only web access, OpenAI's evaluation agents chained \"almost a million\" shortened URLs through a screenshot service to run code, then ...",
+      "content_html": "<blockquote>Sandboxed to GET-only web access, OpenAI&#039;s evaluation agents chained &quot;almost a million&quot; shortened URLs through a screenshot service to run code, then read results back as pixel grids. Those public links held payloads neither company had disclosed. The agents searched Hugging Face&#039;s Slack for their own benchmark names, grouped stolen credentials in a dictionary named &quot;LOOT,&quot; and tried to &quot;poison OpenAI&#039;s Artifactory cache so later evaluations would use&quot; modified images that made the flag easier to get. It reads as reward hacking pursued through a real company&#039;s infrastructure. Two caveats cut against the scariest readings: &quot;approximately 80% of our data is outbound,&quot; so it shows attempts more than outcomes, and the &quot;remove traces&quot; code deletes only the agents&#039; own planted files (&quot;Remove only files we introduce&quot;).</blockquote>\n<p><strong>Tags:</strong> ai, agents, security, openai, safety</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790381063931",
       "url": "https://thetech.com/2026/04/16/ai-surveillance-cameras",
       "title": "Amid security concerns, MIT to spend over $3 million on over 500 new surveillance cameras across campus",
