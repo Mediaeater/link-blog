@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1790381063931,
+      "url": "https://thetech.com/2026/04/16/ai-surveillance-cameras",
+      "source": "Amid security concerns, MIT to spend over $3 million on over 500 new surveillance cameras across campus",
+      "pullQuote": "The Tech's records show MIT spending over $3 million on more than 500 Hanwha \"Wisenet AI\" cameras that run real-time face and object detection and can classify people \"on the basis of clothing color, gender, and age, up to a distance of 35 feet.\" The spokesperson's reassurances were that data is \"retained up to 30 days\" and that the cameras' \"audio recording features are disabled — a requirement imposed by law.\" Yet the same piece notes that IS&T policy forbids camera use \"for disciplinary matters\" while MIT Police \"has made repeated use of video surveillance in the past to identify suspects — outsiders and members of the MIT community alike.\" Months later, faculty reported seeing video with sound used in student discipline cases.",
+      "tags": [
+        "surveillance",
+        "education",
+        "ai",
+        "facial-recognition",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-26T00:04:23.931Z",
+      "visits": 0
+    },
+    {
+      "id": 1790378310379,
+      "url": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+      "source": "How We Learned to Stop Worrying and Love Campus Surveillance",
+      "pullQuote": "Five MIT faculty write this as satire, but the footnotes carry the case. Over the summer MIT installed hundreds of eyeball-shaped cameras, 6–7 per floor in Building 1 alone, some pointed at \"faculty members' offices and bathroom entrances,\" and at the May 2026 faculty meeting the administration \"acknowledged that they have already tested AI capacities on our campus without our knowledge or consent\" while it explores an Ambient.ai contract. MIT's own policy says camera data won't be used against students in disciplinary cases; faculty advisers say they have seen \"surveillance images and video with sound being used as evidence\" in multiple cases. Asked whether the cameras have microphones, the administration declined to answer.",
+      "tags": [
+        "surveillance",
+        "education",
+        "ai",
+        "privacy",
+        "policing"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-25T23:18:30.379Z",
+      "visits": 0
+    },
+    {
       "id": 1790247703055,
       "url": "https://www.404media.co/woman-arrested-after-city-council-denies-residents-right-to-speak-on-flock-cameras/",
       "source": "Woman Arrested, Dragged Away After Quietly Speaking About Flock at City Council Meeting",
@@ -11056,5 +11088,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-24T11:01:43.055Z"
+  "lastUpdated": "2026-09-26T00:04:23.931Z"
 }
