@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790509778869",
+      "url": "https://oxfordchinapolicylab.org/research/china-s-ai-ecosystem-a-background-explainer",
+      "title": "China’s AI Ecosystem: A Background Explainer (Oxford China Policy Lab)",
+      "date_published": "2026-09-27T11:49:38.869Z",
+      "tags": [
+        "ai",
+        "cn",
+        "policy",
+        "regulation",
+        "open-weights"
+      ],
+      "content_text": "\"The state promotes and restrains AI simultaneously. The state treats AI as both a strategic technology to develop and a source of political, economic, and social risks to manage.\" \"AI companies are not prominent political actors. Chinese labs or big AI companies do not fund think tanks or run public campaigns.\" \"Instead of strictly divided ideological groups, China’s AI politics are better understood as clusters of tensions.\"",
+      "summary": "\"The state promotes and restrains AI simultaneously. The state treats AI as both a strategic technology to develop and a source of political, economic...",
+      "content_html": "<blockquote>&quot;The state promotes and restrains AI simultaneously. The state treats AI as both a strategic technology to develop and a source of political, economic, and social risks to manage.&quot; &quot;AI companies are not prominent political actors. Chinese labs or big AI companies do not fund think tanks or run public campaigns.&quot; &quot;Instead of strictly divided ideological groups, China’s AI politics are better understood as clusters of tensions.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, cn, policy, regulation, open-weights</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790509358813",
       "url": "https://arxiv.org/pdf/2401.10899",
       "title": "Concrete Problems in AI Safety, Revisited (Raji & Dobbe, AI Now)",
