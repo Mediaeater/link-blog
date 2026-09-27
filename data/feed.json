@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790551573074",
+      "url": "https://daringfireball.net/linked/2026/09/25/aten-muse",
+      "title": "Muse Looks Cute, but Looks Are Deceiving (Daring Fireball)",
+      "date_published": "2026-09-27T23:26:13.074Z",
+      "tags": [
+        "meta",
+        "agents",
+        "privacy",
+        "ux",
+        "trust"
+      ],
+      "content_text": "Jason Aten, quoted by Gruber: \"If your primary audience does not understand what Full Disk Access means, you should not surprise them with 'I'm reading your text messages.'\" Gruber: \"If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers... I don't think people realize how powerful — and thus dangerous — Muse is, especially if it's running on your Mac.\"",
+      "summary": "Jason Aten, quoted by Gruber: \"If your primary audience does not understand what Full Disk Access means, you should not surprise them with 'I'm readin...",
+      "content_html": "<blockquote>Jason Aten, quoted by Gruber: &quot;If your primary audience does not understand what Full Disk Access means, you should not surprise them with &#039;I&#039;m reading your text messages.&#039;&quot; Gruber: &quot;If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers... I don&#039;t think people realize how powerful — and thus dangerous — Muse is, especially if it&#039;s running on your Mac.&quot;</blockquote>\n<p><strong>Tags:</strong> meta, agents, privacy, ux, trust</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790550821606",
       "url": "https://arxiv.org/abs/2604.10288",
       "title": "Dead Cognitions: A Census of Misattributed Insights (arXiv)",

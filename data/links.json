@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790551573074,
+      "url": "https://daringfireball.net/linked/2026/09/25/aten-muse",
+      "source": "Muse Looks Cute, but Looks Are Deceiving (Daring Fireball)",
+      "pullQuote": "Jason Aten, quoted by Gruber: \"If your primary audience does not understand what Full Disk Access means, you should not surprise them with 'I'm reading your text messages.'\" Gruber: \"If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers... I don't think people realize how powerful — and thus dangerous — Muse is, especially if it's running on your Mac.\"",
+      "tags": [
+        "meta",
+        "agents",
+        "privacy",
+        "ux",
+        "trust"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-27T23:26:13.074Z",
+      "visits": 0
+    },
+    {
       "id": 1790550821606,
       "url": "https://arxiv.org/abs/2604.10288",
       "source": "Dead Cognitions: A Census of Misattributed Insights (arXiv)",
@@ -11184,5 +11200,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-27T23:13:41.606Z"
+  "lastUpdated": "2026-09-27T23:26:13.074Z"
 }
