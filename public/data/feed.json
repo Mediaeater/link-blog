@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790509358813",
+      "url": "https://arxiv.org/pdf/2401.10899",
+      "title": "Concrete Problems in AI Safety, Revisited (Raji & Dobbe, AI Now)",
+      "date_published": "2026-09-27T11:42:38.813Z",
+      "tags": [
+        "ai",
+        "safety",
+        "harms",
+        "paper",
+        "governance"
+      ],
+      "content_text": "Raji and Dobbe check the 2016 AI safety taxonomy against real accidents and find the safety mechanisms existed and went unused. Uber managers could monitor test drivers but \"rarely did so,\" and the NTSB blamed an \"inadequate safety culture.\" The Tesla driver could interrupt Autopilot and didn't. MD Anderson spent $62 million on IBM Watson's oncology tool, which shut down before any physician trusted it on patients. Failures are \"inherently systematic rather than contained within any technological artifact.\"",
+      "summary": "Raji and Dobbe check the 2016 AI safety taxonomy against real accidents and find the safety mechanisms existed and went unused. Uber managers could mo...",
+      "content_html": "<blockquote>Raji and Dobbe check the 2016 AI safety taxonomy against real accidents and find the safety mechanisms existed and went unused. Uber managers could monitor test drivers but &quot;rarely did so,&quot; and the NTSB blamed an &quot;inadequate safety culture.&quot; The Tesla driver could interrupt Autopilot and didn&#039;t. MD Anderson spent $62 million on IBM Watson&#039;s oncology tool, which shut down before any physician trusted it on patients. Failures are &quot;inherently systematic rather than contained within any technological artifact.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, safety, harms, paper, governance</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790469743240",
       "url": "https://www.movingimagearchive.com/",
       "title": "Moving Image Archive",

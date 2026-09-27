@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790509358813,
+      "url": "https://arxiv.org/pdf/2401.10899",
+      "source": "Concrete Problems in AI Safety, Revisited (Raji & Dobbe, AI Now)",
+      "pullQuote": "Raji and Dobbe check the 2016 AI safety taxonomy against real accidents and find the safety mechanisms existed and went unused. Uber managers could monitor test drivers but \"rarely did so,\" and the NTSB blamed an \"inadequate safety culture.\" The Tesla driver could interrupt Autopilot and didn't. MD Anderson spent $62 million on IBM Watson's oncology tool, which shut down before any physician trusted it on patients. Failures are \"inherently systematic rather than contained within any technological artifact.\"",
+      "tags": [
+        "ai",
+        "safety",
+        "harms",
+        "paper",
+        "governance"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-27T11:42:38.813Z",
+      "visits": 0
+    },
+    {
       "id": 1790469743240,
       "url": "https://www.movingimagearchive.com/",
       "source": "Moving Image Archive",
@@ -11136,5 +11152,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-27T00:42:23.240Z"
+  "lastUpdated": "2026-09-27T11:42:38.813Z"
 }
