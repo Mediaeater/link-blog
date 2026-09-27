@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790469743240",
+      "url": "https://www.movingimagearchive.com/",
+      "title": "Moving Image Archive",
+      "date_published": "2026-09-27T00:42:23.240Z",
+      "tags": [
+        "archive",
+        "film",
+        "video",
+        "search",
+        "free"
+      ],
+      "content_text": "A shot-level search engine for public-domain film: type a description, get a clip a few seconds long, download it. The footage on the front page runs from 1915 to 2008, mostly industrial films, newsreels, and home movies from the 1930s to 1970s. The about page says the material is \"drawn from public-domain collections and is free to reuse\" and that \"preserving verifiable history matters more than ever before,\" but it names no source collections, gives no per-clip rights information, and doesn't say how the shots were cut or described. For an archive pitched on verifiability, provenance is the missing piece.",
+      "summary": "A shot-level search engine for public-domain film: type a description, get a clip a few seconds long, download it. The footage on the front page runs ...",
+      "content_html": "<blockquote>A shot-level search engine for public-domain film: type a description, get a clip a few seconds long, download it. The footage on the front page runs from 1915 to 2008, mostly industrial films, newsreels, and home movies from the 1930s to 1970s. The about page says the material is &quot;drawn from public-domain collections and is free to reuse&quot; and that &quot;preserving verifiable history matters more than ever before,&quot; but it names no source collections, gives no per-clip rights information, and doesn&#039;t say how the shots were cut or described. For an archive pitched on verifiability, provenance is the missing piece.</blockquote>\n<p><strong>Tags:</strong> archive, film, video, search, free</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790452643984",
       "url": "https://alignment.openai.com/misalignment-reports/self-replicating-prompt-injections-exist/",
       "title": "Self-replicating prompt injections exist",
