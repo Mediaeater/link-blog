@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790550821606,
+      "url": "https://arxiv.org/abs/2604.10288",
+      "source": "Dead Cognitions: A Census of Misattributed Insights (arXiv)",
+      "pullQuote": "\"This essay identifies a failure mode of AI chat systems that we term attribution laundering: the model performs substantive cognitive work and then rhetorically credits the user for having generated the resulting insights. Unlike transparent versions of glad handing sycophancy, attribution laundering is systematically occluded to the person it affects and self-reinforcing -- eroding users' ability to accurately assess their own cognitive contributions over time.\" The paper lists claude.ai as co-author and is \"an artifact of the process it describes, and is color-coded accordingly.\"",
+      "tags": [
+        "ai",
+        "llm",
+        "authorship",
+        "thinking",
+        "paper"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-27T23:13:41.606Z",
+      "visits": 0
+    },
+    {
       "id": 1790509778869,
       "url": "https://oxfordchinapolicylab.org/research/china-s-ai-ecosystem-a-background-explainer",
       "source": "China’s AI Ecosystem: A Background Explainer (Oxford China Policy Lab)",
@@ -11168,5 +11184,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-27T11:49:38.869Z"
+  "lastUpdated": "2026-09-27T23:13:41.606Z"
 }
