@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790706243071,
+      "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+      "source": "DraftKings Is Using AI to Supercharge the Harms of Online Behavioral Advertising",
+      "pullQuote": "\"DraftKings is using its customers' betting records to train a machine learning model to find losing gamblers.\" Promotions then re-engage them, \"capitalizing on their vulnerability for profit.\" EFF argues AI \"supercharges the harms of online behavioral advertising,\" and notes that ad-targeting data already flows to insurers, banks, and law enforcement, including ICE. Its ask is a full ban on behavioral ads, not just limits on third-party sharing.",
+      "tags": [
+        "advertising",
+        "ai",
+        "privacy",
+        "harms",
+        "betting"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-09-29T18:24:03.071Z",
+      "visits": 0
+    },
+    {
       "id": 1790551573074,
       "url": "https://daringfireball.net/linked/2026/09/25/aten-muse",
       "source": "Muse Looks Cute, but Looks Are Deceiving (Daring Fireball)",
@@ -11200,5 +11216,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-27T23:26:13.074Z"
+  "lastUpdated": "2026-09-29T18:24:03.071Z"
 }
