@@ -75,7 +75,7 @@
     "globals": "^17.12.0",
     "postcss": "^8.5.28",
     "prettier": "^3.9.9",
-    "puppeteer": "^25.10.0",
+    "puppeteer": "^25.12.0",
     "serve": "^14.2.5",
     "supertest": "^7.2.2",
     "tailwindcss": "^4.3.3",
