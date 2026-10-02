@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790945816871,
+      "url": "https://github.com/kvoltmer/Audionaut",
+      "source": "Audionaut: open-source multitrack audio editor that AI agents can drive over MCP",
+      "pullQuote": "\"A free, open-source multitrack audio editor that AI agents can drive over MCP.\" JUCE/C++, cross-platform, with a headless audionaut-cli that \"gives scripts, CI and AI agents headless access\" to projects, plus stem separation via demucs.cpp. The interesting part is the shape, not the scale (one maintainer, 55 stars): a DAW-lite built so the agent is a first-class user, with the same cut/arrange/export verbs exposed to Claude as to the person at the keyboard. GPL v3 with a commercial dual license.",
+      "tags": [
+        "audio",
+        "open-source",
+        "agents",
+        "tool",
+        "github"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-02T12:56:56.871Z",
+      "visits": 0
+    },
+    {
       "id": 1790945680557,
       "url": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
       "source": "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
@@ -11280,5 +11296,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-02T12:54:40.557Z"
+  "lastUpdated": "2026-10-02T12:56:56.871Z"
 }

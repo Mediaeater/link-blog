@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-02T12:54:40.557Z</updated>
+    <updated>2026-10-02T12:56:56.871Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Audionaut: open-source multitrack audio editor that AI agents can drive over MCP]]></title>
+        <id>tag:newsfeeds.net,2026:link/1790945816871</id>
+        <link href="https://github.com/kvoltmer/Audionaut"/>
+        <updated>2026-10-02T12:56:56.871Z</updated>
+        <summary type="html"><![CDATA[Tags: audio, open-source, agents, tool, github]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How American Political Campaigns Are Using AI—and What They're Spending on the Tools]]></title>
         <id>tag:newsfeeds.net,2026:link/1790945680557</id>
