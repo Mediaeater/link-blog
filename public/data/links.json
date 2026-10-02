@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1790944717579,
+      "url": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
+      "source": "'If you can't hold it, you don't own it': why media fans want to escape algorithms with CDs, DVDs and vinyl",
+      "pullQuote": "\"HBO removed about 200 episodes of Sesame Street in 2022, so we realised any media we wanted to continue to watch or listen to could be gone, and we'd have no way to get it back. As the saying goes, if you can't hold it, you don't own it.\" Another reader: \"I enjoy watching DVDs and listening to CDs because nobody sees what I'm doing and they're not analysing it... I also feel less controlled.\" And: \"No algorithm is as creative as a well-stocked human brain alive to its actual surroundings.\"",
+      "tags": [
+        "media",
+        "culture",
+        "music",
+        "privacy",
+        "archive"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-02T12:38:37.579Z",
+      "visits": 0
+    },
+    {
+      "id": 1790944717430,
+      "url": "https://www.deepseek.com/en/harness/",
+      "source": "DeepSeek Harness",
+      "pullQuote": "DeepSeek's open-source agent runtime, MIT-licensed, \"everything-is-a-plugin\": model adapters, tool registries, sandboxing, and UI all load as swappable extensions over an append-only event log you can resume, fork, and replay. The config is YAML, so you can point it at a local model instead of DeepSeek's API. That's the real move: Claude Code and Codex sell the harness as the moat, and DeepSeek is giving the harness away to commoditize it. Still a \"developer preview\" with no security audit and \"THERE WILL BE COMPATIBILITY-BREAKING CHANGES.\"",
+      "tags": [
+        "ai",
+        "agents",
+        "open-source",
+        "deepseek",
+        "code"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-02T12:38:37.430Z",
+      "visits": 0
+    },
+    {
       "id": 1790706243071,
       "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
       "source": "DraftKings Is Using AI to Supercharge the Harms of Online Behavioral Advertising",
@@ -11216,5 +11248,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-09-29T18:24:03.071Z"
+  "lastUpdated": "2026-10-02T12:38:37.579Z"
 }
