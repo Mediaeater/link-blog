@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790945680557,
+      "url": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+      "source": "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
+      "pullQuote": "FEC filings show \"at least $17m in disclosed spending on AI technology vendors across 523 federal candidates.\" The money isn't going to deepfakes: ElevenLabs and Midjourney total about $3,000 combined. It goes to AI texting (Daisychain for Democrats, Parscale's Campaign Nucleus for Republicans) and ChatGPT/Claude subscriptions, \"rarely both,\" with Anthropic skewing Democratic \"nearly two-to-one.\" The real finding is the hole: \"at least 164 political ads in this cycle have included AI-generated media, supported by at least $80m in ad spending,\" none of it in candidate disclosures, because consultants, media firms and PACs \"aren't required to disclose detailed expenditure reports, and are very likely where the bulk of campaign AI usage is happening.\"",
+      "tags": [
+        "ai",
+        "politics",
+        "democracy",
+        "advertising",
+        "usa"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-02T12:54:40.557Z",
+      "visits": 0
+    },
+    {
       "id": 1790944925841,
       "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
       "source": "Is sandboxing sufficient to contain rogue agents?",
@@ -11264,5 +11280,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-02T12:42:05.841Z"
+  "lastUpdated": "2026-10-02T12:54:40.557Z"
 }
