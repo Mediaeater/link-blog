@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790944925841",
+      "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+      "title": "Is sandboxing sufficient to contain rogue agents?",
+      "date_published": "2026-10-02T12:42:05.841Z",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "safety",
+        "cryptography"
+      ],
+      "content_text": "Matthew Green on why the sandbox isn't the hard part. Agents \"will do what they're told by whoever manages to get text in front of them,\" so the threat isn't a misaligned escapee but \"a swarm of perfectly amenable agents that never leave their sandboxes, each doing exactly what it's told to do, by a human being who wasn't supposed to be giving it orders.\" Watching for that means a \"warden\" model reading all the agent's traffic, which just relocates the problem: \"all you've done is to change the nature of the security problem.\"",
+      "summary": "Matthew Green on why the sandbox isn't the hard part. Agents \"will do what they're told by whoever manages to get text in front of them,\" so the threa...",
+      "content_html": "<blockquote>Matthew Green on why the sandbox isn&#039;t the hard part. Agents &quot;will do what they&#039;re told by whoever manages to get text in front of them,&quot; so the threat isn&#039;t a misaligned escapee but &quot;a swarm of perfectly amenable agents that never leave their sandboxes, each doing exactly what it&#039;s told to do, by a human being who wasn&#039;t supposed to be giving it orders.&quot; Watching for that means a &quot;warden&quot; model reading all the agent&#039;s traffic, which just relocates the problem: &quot;all you&#039;ve done is to change the nature of the security problem.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, agents, security, safety, cryptography</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790944717579",
       "url": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
       "title": "'If you can't hold it, you don't own it': why media fans want to escape algorithms with CDs, DVDs and vinyl",

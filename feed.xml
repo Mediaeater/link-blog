@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-02T12:38:37.579Z</updated>
+    <updated>2026-10-02T12:42:05.841Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Is sandboxing sufficient to contain rogue agents?]]></title>
+        <id>tag:newsfeeds.net,2026:link/1790944925841</id>
+        <link href="https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/"/>
+        <updated>2026-10-02T12:42:05.841Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, agents, security, safety, cryptography]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA['If you can't hold it, you don't own it': why media fans want to escape algorithms with CDs, DVDs and vinyl]]></title>
         <id>tag:newsfeeds.net,2026:link/1790944717579</id>

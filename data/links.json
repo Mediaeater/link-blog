@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1790944925841,
+      "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+      "source": "Is sandboxing sufficient to contain rogue agents?",
+      "pullQuote": "Matthew Green on why the sandbox isn't the hard part. Agents \"will do what they're told by whoever manages to get text in front of them,\" so the threat isn't a misaligned escapee but \"a swarm of perfectly amenable agents that never leave their sandboxes, each doing exactly what it's told to do, by a human being who wasn't supposed to be giving it orders.\" Watching for that means a \"warden\" model reading all the agent's traffic, which just relocates the problem: \"all you've done is to change the nature of the security problem.\"",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "safety",
+        "cryptography"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-02T12:42:05.841Z",
+      "visits": 0
+    },
+    {
       "id": 1790944717579,
       "url": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
       "source": "'If you can't hold it, you don't own it': why media fans want to escape algorithms with CDs, DVDs and vinyl",
@@ -11248,5 +11264,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-02T12:38:37.579Z"
+  "lastUpdated": "2026-10-02T12:42:05.841Z"
 }
