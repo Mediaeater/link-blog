@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1790945816871",
+      "url": "https://github.com/kvoltmer/Audionaut",
+      "title": "Audionaut: open-source multitrack audio editor that AI agents can drive over MCP",
+      "date_published": "2026-10-02T12:56:56.871Z",
+      "tags": [
+        "audio",
+        "open-source",
+        "agents",
+        "tool",
+        "github"
+      ],
+      "content_text": "\"A free, open-source multitrack audio editor that AI agents can drive over MCP.\" JUCE/C++, cross-platform, with a headless audionaut-cli that \"gives scripts, CI and AI agents headless access\" to projects, plus stem separation via demucs.cpp. The interesting part is the shape, not the scale (one maintainer, 55 stars): a DAW-lite built so the agent is a first-class user, with the same cut/arrange/export verbs exposed to Claude as to the person at the keyboard. GPL v3 with a commercial dual license.",
+      "summary": "\"A free, open-source multitrack audio editor that AI agents can drive over MCP.\" JUCE/C++, cross-platform, with a headless audionaut-cli that \"gives s...",
+      "content_html": "<blockquote>&quot;A free, open-source multitrack audio editor that AI agents can drive over MCP.&quot; JUCE/C++, cross-platform, with a headless audionaut-cli that &quot;gives scripts, CI and AI agents headless access&quot; to projects, plus stem separation via demucs.cpp. The interesting part is the shape, not the scale (one maintainer, 55 stars): a DAW-lite built so the agent is a first-class user, with the same cut/arrange/export verbs exposed to Claude as to the person at the keyboard. GPL v3 with a commercial dual license.</blockquote>\n<p><strong>Tags:</strong> audio, open-source, agents, tool, github</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790945680557",
       "url": "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
       "title": "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
