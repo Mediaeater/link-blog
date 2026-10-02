@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-09-29T18:24:03.071Z</updated>
+    <updated>2026-10-02T12:38:37.579Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA['If you can't hold it, you don't own it': why media fans want to escape algorithms with CDs, DVDs and vinyl]]></title>
+        <id>tag:newsfeeds.net,2026:link/1790944717579</id>
+        <link href="https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl"/>
+        <updated>2026-10-02T12:38:37.579Z</updated>
+        <summary type="html"><![CDATA[Tags: media, culture, music, privacy, archive]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DeepSeek Harness]]></title>
+        <id>tag:newsfeeds.net,2026:link/1790944717430</id>
+        <link href="https://www.deepseek.com/en/harness/"/>
+        <updated>2026-10-02T12:38:37.430Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, agents, open-source, deepseek, code]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DraftKings Is Using AI to Supercharge the Harms of Online Behavioral Advertising]]></title>
         <id>tag:newsfeeds.net,2026:link/1790706243071</id>
