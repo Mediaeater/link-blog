@@ -1,6 +1,37 @@
 {
   "links": [
     {
+      "id": 1791055405112,
+      "url": "https://bicamerallabs.org/",
+      "source": "Bicameral Labs: a nonprofit to \"solve consciousness scientifically\"",
+      "pullQuote": "Erik Hoel's new nonprofit, pitched as \"LIGO for gravitational waves or the Human Genome Project\" for consciousness. The diagnosis is sharper than the plan: \"the past decades have produced hundreds of neuroscientific theories of consciousness, empirical testing has ruled out none of them,\" so the field \"does not yet create falsifiable theories.\" Bicameral's answer is \"meta-scientific no-go theorems\" and experiments built \"not to promote or test individual theories, but to narrow down the state space.\" Hoel predicts \"a consciousness revolution in the 2030s or even earlier.\" What's on the page so far: one founder, a Cambridge address, and a call for scientists and donors.",
+      "tags": [
+        "science",
+        "brain",
+        "mind",
+        "research",
+        "ai"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-03T19:23:25.112Z",
+      "visits": 0
+    },
+    {
+      "id": 1791048163348,
+      "url": "https://plato.stanford.edu/entries/holes/",
+      "source": "Holes (Stanford Encyclopedia of Philosophy)",
+      "pullQuote": "\"Holes appear to be immaterial: every hole has a material 'host' (the stuff around it, such as the edible part of a donut) and it may have a material 'guest' (such as the liquid filling a cavity), but the hole itself does not seem to be made of matter. Indeed, holes seem to be made of nothing, if anything is.\" Then the card: \"Take a card and punch a hole in it. You have made one hole. Now punch again next to it. Have you made another hole?... what prevents us from saying that we still have one hole, though a hole that comes in two disconnected parts? After all, material objects can be disconnected: a bikini, your copy of the Recherche, a token of the lowercase letter 'i'.\"",
+      "tags": [
+        "thinking",
+        "reference",
+        "knowledge",
+        "language"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-03T17:22:43.348Z",
+      "visits": 0
+    },
+    {
       "id": 1791027785004,
       "url": "https://stillwet.art/",
       "source": "stillwet: paintings by AI models, run through a simulation of oil paint",
@@ -11312,5 +11343,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-03T11:43:05.004Z"
+  "lastUpdated": "2026-10-03T19:23:25.112Z"
 }
