@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791027785004",
+      "url": "https://stillwet.art/",
+      "title": "stillwet: paintings by AI models, run through a simulation of oil paint",
+      "date_published": "2026-10-03T11:43:05.004Z",
+      "tags": [
+        "art",
+        "ai",
+        "llm",
+        "code",
+        "artists"
+      ],
+      "content_text": "AI models paint by writing code against a simulated oil-paint canvas with bristle brushes, wet paint, drying and glazes. \"No image generator.\" Most work after Caspar David Friedrich \"from written research alone; they never see a picture of his work.\" The site's own observations are the find: given a free subject, Claude Opus chose a jug with lemons six times out of six, two painters six hours apart with no shared context both chose a Baltic shore with a woman at the water, fishing poles, a boulder and a ship, and 31 of 65 titled paintings contain Evening, Dusk, Twilight or Sunset \"though Friedrich also painted daylight.\" Two round-19 canvases are unfinished because the painter ran out of API credits.",
+      "summary": "AI models paint by writing code against a simulated oil-paint canvas with bristle brushes, wet paint, drying and glazes. \"No image generator.\" Most wo...",
+      "content_html": "<blockquote>AI models paint by writing code against a simulated oil-paint canvas with bristle brushes, wet paint, drying and glazes. &quot;No image generator.&quot; Most work after Caspar David Friedrich &quot;from written research alone; they never see a picture of his work.&quot; The site&#039;s own observations are the find: given a free subject, Claude Opus chose a jug with lemons six times out of six, two painters six hours apart with no shared context both chose a Baltic shore with a woman at the water, fishing poles, a boulder and a ship, and 31 of 65 titled paintings contain Evening, Dusk, Twilight or Sunset &quot;though Friedrich also painted daylight.&quot; Two round-19 canvases are unfinished because the painter ran out of API credits.</blockquote>\n<p><strong>Tags:</strong> art, ai, llm, code, artists</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1790945816871",
       "url": "https://github.com/kvoltmer/Audionaut",
       "title": "Audionaut: open-source multitrack audio editor that AI agents can drive over MCP",
