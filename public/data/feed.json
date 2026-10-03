@@ -15,6 +15,45 @@
   ],
   "items": [
     {
+      "id": "1791055405112",
+      "url": "https://bicamerallabs.org/",
+      "title": "Bicameral Labs: a nonprofit to \"solve consciousness scientifically\"",
+      "date_published": "2026-10-03T19:23:25.112Z",
+      "tags": [
+        "science",
+        "brain",
+        "mind",
+        "research",
+        "ai"
+      ],
+      "content_text": "Erik Hoel's new nonprofit, pitched as \"LIGO for gravitational waves or the Human Genome Project\" for consciousness. The diagnosis is sharper than the plan: \"the past decades have produced hundreds of neuroscientific theories of consciousness, empirical testing has ruled out none of them,\" so the field \"does not yet create falsifiable theories.\" Bicameral's answer is \"meta-scientific no-go theorems\" and experiments built \"not to promote or test individual theories, but to narrow down the state space.\" Hoel predicts \"a consciousness revolution in the 2030s or even earlier.\" What's on the page so far: one founder, a Cambridge address, and a call for scientists and donors.",
+      "summary": "Erik Hoel's new nonprofit, pitched as \"LIGO for gravitational waves or the Human Genome Project\" for consciousness. The diagnosis is sharper than the ...",
+      "content_html": "<blockquote>Erik Hoel&#039;s new nonprofit, pitched as &quot;LIGO for gravitational waves or the Human Genome Project&quot; for consciousness. The diagnosis is sharper than the plan: &quot;the past decades have produced hundreds of neuroscientific theories of consciousness, empirical testing has ruled out none of them,&quot; so the field &quot;does not yet create falsifiable theories.&quot; Bicameral&#039;s answer is &quot;meta-scientific no-go theorems&quot; and experiments built &quot;not to promote or test individual theories, but to narrow down the state space.&quot; Hoel predicts &quot;a consciousness revolution in the 2030s or even earlier.&quot; What&#039;s on the page so far: one founder, a Cambridge address, and a call for scientists and donors.</blockquote>\n<p><strong>Tags:</strong> science, brain, mind, research, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1791048163348",
+      "url": "https://plato.stanford.edu/entries/holes/",
+      "title": "Holes (Stanford Encyclopedia of Philosophy)",
+      "date_published": "2026-10-03T17:22:43.348Z",
+      "tags": [
+        "thinking",
+        "reference",
+        "knowledge",
+        "language"
+      ],
+      "content_text": "\"Holes appear to be immaterial: every hole has a material 'host' (the stuff around it, such as the edible part of a donut) and it may have a material 'guest' (such as the liquid filling a cavity), but the hole itself does not seem to be made of matter. Indeed, holes seem to be made of nothing, if anything is.\" Then the card: \"Take a card and punch a hole in it. You have made one hole. Now punch again next to it. Have you made another hole?... what prevents us from saying that we still have one hole, though a hole that comes in two disconnected parts? After all, material objects can be disconnected: a bikini, your copy of the Recherche, a token of the lowercase letter 'i'.\"",
+      "summary": "\"Holes appear to be immaterial: every hole has a material 'host' (the stuff around it, such as the edible part of a donut) and it may have a material ...",
+      "content_html": "<blockquote>&quot;Holes appear to be immaterial: every hole has a material &#039;host&#039; (the stuff around it, such as the edible part of a donut) and it may have a material &#039;guest&#039; (such as the liquid filling a cavity), but the hole itself does not seem to be made of matter. Indeed, holes seem to be made of nothing, if anything is.&quot; Then the card: &quot;Take a card and punch a hole in it. You have made one hole. Now punch again next to it. Have you made another hole?... what prevents us from saying that we still have one hole, though a hole that comes in two disconnected parts? After all, material objects can be disconnected: a bikini, your copy of the Recherche, a token of the lowercase letter &#039;i&#039;.&quot;</blockquote>\n<p><strong>Tags:</strong> thinking, reference, knowledge, language</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791027785004",
       "url": "https://stillwet.art/",
       "title": "stillwet: paintings by AI models, run through a simulation of oil paint",
