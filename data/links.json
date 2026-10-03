@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791027785004,
+      "url": "https://stillwet.art/",
+      "source": "stillwet: paintings by AI models, run through a simulation of oil paint",
+      "pullQuote": "AI models paint by writing code against a simulated oil-paint canvas with bristle brushes, wet paint, drying and glazes. \"No image generator.\" Most work after Caspar David Friedrich \"from written research alone; they never see a picture of his work.\" The site's own observations are the find: given a free subject, Claude Opus chose a jug with lemons six times out of six, two painters six hours apart with no shared context both chose a Baltic shore with a woman at the water, fishing poles, a boulder and a ship, and 31 of 65 titled paintings contain Evening, Dusk, Twilight or Sunset \"though Friedrich also painted daylight.\" Two round-19 canvases are unfinished because the painter ran out of API credits.",
+      "tags": [
+        "art",
+        "ai",
+        "llm",
+        "code",
+        "artists"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-03T11:43:05.004Z",
+      "visits": 0
+    },
+    {
       "id": 1790945816871,
       "url": "https://github.com/kvoltmer/Audionaut",
       "source": "Audionaut: open-source multitrack audio editor that AI agents can drive over MCP",
@@ -11296,5 +11312,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-02T12:56:56.871Z"
+  "lastUpdated": "2026-10-03T11:43:05.004Z"
 }
