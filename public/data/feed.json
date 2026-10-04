@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791118553869",
+      "url": "https://natlawreview.com/article/californias-new-workplace-surveillance-law",
+      "title": "California's New Workplace Surveillance Law",
+      "date_published": "2026-10-04T12:55:53.869Z",
+      "tags": [
+        "surveillance",
+        "legislation",
+        "workforce",
+        "neurotechnology",
+        "privacy"
+      ],
+      "content_text": "California's AB 1883 bars employers from using AI surveillance tools \"capable of recognizing, or making inferences or predictions about, an individual's emotional state, or that collect neural data,\" which puts emotion recognition and attention-tracking headsets \"off-limits in California workplaces.\" The ban is narrower than the headline: it covers only those two uses, penalties are $500 per violation, and enforcement sits with the Labor Commissioner and public prosecutors. Aircraft developers and national security, military, space and defense employers are exempt where surveillance is \"reasonably necessary\" for federal compliance. The analysis is by Jackson Lewis, a firm that advises employers.",
+      "summary": "California's AB 1883 bars employers from using AI surveillance tools \"capable of recognizing, or making inferences or predictions about, an individual...",
+      "content_html": "<blockquote>California&#039;s AB 1883 bars employers from using AI surveillance tools &quot;capable of recognizing, or making inferences or predictions about, an individual&#039;s emotional state, or that collect neural data,&quot; which puts emotion recognition and attention-tracking headsets &quot;off-limits in California workplaces.&quot; The ban is narrower than the headline: it covers only those two uses, penalties are $500 per violation, and enforcement sits with the Labor Commissioner and public prosecutors. Aircraft developers and national security, military, space and defense employers are exempt where surveillance is &quot;reasonably necessary&quot; for federal compliance. The analysis is by Jackson Lewis, a firm that advises employers.</blockquote>\n<p><strong>Tags:</strong> surveillance, legislation, workforce, neurotechnology, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791118373607",
       "url": "https://github.com/allenv0/SCM",
       "title": "SCM (Screen Memories): local AI search for every photo and video frame on macOS",
