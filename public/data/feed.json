@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791115312479",
+      "url": "https://airisk.mit.edu/risks",
+      "title": "MIT AI Risk Repository",
+      "date_published": "2026-10-04T12:01:52.479Z",
+      "tags": [
+        "ai",
+        "safety",
+        "harms",
+        "research",
+        "reference"
+      ],
+      "content_text": "A \"living database\" of 1700+ AI risks extracted from 74 existing frameworks, each linked back to its source paper with supporting quotes and page numbers. Two taxonomies organize it: a causal one that classifies \"how, when, and why\" a risk occurs (human or AI, intentional or not, before or after deployment), and a domain one with 7 domains and 24 subdomains. What it shows is less the risks themselves than how fragmented the field's own risk frameworks are. It catalogs what others have claimed, and does not rank risks by likelihood or severity.",
+      "summary": "A \"living database\" of 1700+ AI risks extracted from 74 existing frameworks, each linked back to its source paper with supporting quotes and page numb...",
+      "content_html": "<blockquote>A &quot;living database&quot; of 1700+ AI risks extracted from 74 existing frameworks, each linked back to its source paper with supporting quotes and page numbers. Two taxonomies organize it: a causal one that classifies &quot;how, when, and why&quot; a risk occurs (human or AI, intentional or not, before or after deployment), and a domain one with 7 domains and 24 subdomains. What it shows is less the risks themselves than how fragmented the field&#039;s own risk frameworks are. It catalogs what others have claimed, and does not rank risks by likelihood or severity.</blockquote>\n<p><strong>Tags:</strong> ai, safety, harms, research, reference</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791112279176",
       "url": "https://thycotic-19928113.hs-sites.com/hubfs/Delinea/whitepapers/delinea-2026-identity-security-report-fall-edition.pdf",
       "title": "The AI Enforcement Gap: Delinea 2026 Identity Security Report, Fall Edition",

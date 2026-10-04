@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791115312479,
+      "url": "https://airisk.mit.edu/risks",
+      "source": "MIT AI Risk Repository",
+      "pullQuote": "A \"living database\" of 1700+ AI risks extracted from 74 existing frameworks, each linked back to its source paper with supporting quotes and page numbers. Two taxonomies organize it: a causal one that classifies \"how, when, and why\" a risk occurs (human or AI, intentional or not, before or after deployment), and a domain one with 7 domains and 24 subdomains. What it shows is less the risks themselves than how fragmented the field's own risk frameworks are. It catalogs what others have claimed, and does not rank risks by likelihood or severity.",
+      "tags": [
+        "ai",
+        "safety",
+        "harms",
+        "research",
+        "reference"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-04T12:01:52.479Z",
+      "visits": 0
+    },
+    {
       "id": 1791112279176,
       "url": "https://thycotic-19928113.hs-sites.com/hubfs/Delinea/whitepapers/delinea-2026-identity-security-report-fall-edition.pdf",
       "source": "The AI Enforcement Gap: Delinea 2026 Identity Security Report, Fall Edition",
@@ -11359,5 +11375,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-04T11:11:19.176Z"
+  "lastUpdated": "2026-10-04T12:01:52.479Z"
 }
