@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791118373607,
+      "url": "https://github.com/allenv0/SCM",
+      "source": "SCM (Screen Memories): local AI search for every photo and video frame on macOS",
+      "pullQuote": "An Electron app that indexes any folder of photos and videos and searches it five ways: by meaning (CLIP), by scene inside a video, by on-screen text (Tesseract OCR), by \"exact spoken words\" (Whisper), and through an opt-in local chat model that answers with citations. The pitch is \"no accounts, no cloud, no uploads,\" with weights downloaded once and everything offline after. Worth knowing before installing: the repo is one day old with 22 stars, and the Homebrew cask \"clears the macOS quarantine flag automatically,\" which skips Gatekeeper's check.",
+      "tags": [
+        "tool",
+        "open-source",
+        "search",
+        "video",
+        "photography"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-04T12:52:53.607Z",
+      "visits": 0
+    },
+    {
       "id": 1791115623800,
       "url": "https://www.easthamptonstar.com/police-courts/2026101/surveillance-state-jitters",
       "source": "On Surveillance State Jitters",
@@ -11391,5 +11407,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-04T12:07:03.800Z"
+  "lastUpdated": "2026-10-04T12:52:53.607Z"
 }

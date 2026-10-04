@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791118373607",
+      "url": "https://github.com/allenv0/SCM",
+      "title": "SCM (Screen Memories): local AI search for every photo and video frame on macOS",
+      "date_published": "2026-10-04T12:52:53.607Z",
+      "tags": [
+        "tool",
+        "open-source",
+        "search",
+        "video",
+        "photography"
+      ],
+      "content_text": "An Electron app that indexes any folder of photos and videos and searches it five ways: by meaning (CLIP), by scene inside a video, by on-screen text (Tesseract OCR), by \"exact spoken words\" (Whisper), and through an opt-in local chat model that answers with citations. The pitch is \"no accounts, no cloud, no uploads,\" with weights downloaded once and everything offline after. Worth knowing before installing: the repo is one day old with 22 stars, and the Homebrew cask \"clears the macOS quarantine flag automatically,\" which skips Gatekeeper's check.",
+      "summary": "An Electron app that indexes any folder of photos and videos and searches it five ways: by meaning (CLIP), by scene inside a video, by on-screen text ...",
+      "content_html": "<blockquote>An Electron app that indexes any folder of photos and videos and searches it five ways: by meaning (CLIP), by scene inside a video, by on-screen text (Tesseract OCR), by &quot;exact spoken words&quot; (Whisper), and through an opt-in local chat model that answers with citations. The pitch is &quot;no accounts, no cloud, no uploads,&quot; with weights downloaded once and everything offline after. Worth knowing before installing: the repo is one day old with 22 stars, and the Homebrew cask &quot;clears the macOS quarantine flag automatically,&quot; which skips Gatekeeper&#039;s check.</blockquote>\n<p><strong>Tags:</strong> tool, open-source, search, video, photography</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791115623800",
       "url": "https://www.easthamptonstar.com/police-courts/2026101/surveillance-state-jitters",
       "title": "On Surveillance State Jitters",
