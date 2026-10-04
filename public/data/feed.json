@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791115623800",
+      "url": "https://www.easthamptonstar.com/police-courts/2026101/surveillance-state-jitters",
+      "title": "On Surveillance State Jitters",
+      "date_published": "2026-10-04T12:07:03.800Z",
+      "tags": [
+        "surveillance",
+        "flock",
+        "alpr",
+        "policing",
+        "local"
+      ],
+      "content_text": "At a Wainscott panel on the Flock license plate readers now in East Hampton, Michelle Dahl of the Surveillance Technology Oversight Project: \"The infrastructure, when it's built, is incredibly hard to take down. That's why it's really important to get on the front end of this and keep these technologies from being entrenched in the first place.\" Journalist Ali Winston said two decades of studies of cameras and A.L.P.R.s \"show no discernible impact on violent crime, and a slight decrease in property crime,\" and that surveillance \"has the logic of cancer. There's no natural limit, it's metastatic.\"",
+      "summary": "At a Wainscott panel on the Flock license plate readers now in East Hampton, Michelle Dahl of the Surveillance Technology Oversight Project: \"The infr...",
+      "content_html": "<blockquote>At a Wainscott panel on the Flock license plate readers now in East Hampton, Michelle Dahl of the Surveillance Technology Oversight Project: &quot;The infrastructure, when it&#039;s built, is incredibly hard to take down. That&#039;s why it&#039;s really important to get on the front end of this and keep these technologies from being entrenched in the first place.&quot; Journalist Ali Winston said two decades of studies of cameras and A.L.P.R.s &quot;show no discernible impact on violent crime, and a slight decrease in property crime,&quot; and that surveillance &quot;has the logic of cancer. There&#039;s no natural limit, it&#039;s metastatic.&quot;</blockquote>\n<p><strong>Tags:</strong> surveillance, flock, alpr, policing, local</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791115312479",
       "url": "https://airisk.mit.edu/risks",
       "title": "MIT AI Risk Repository",

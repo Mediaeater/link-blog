@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791115623800,
+      "url": "https://www.easthamptonstar.com/police-courts/2026101/surveillance-state-jitters",
+      "source": "On Surveillance State Jitters",
+      "pullQuote": "At a Wainscott panel on the Flock license plate readers now in East Hampton, Michelle Dahl of the Surveillance Technology Oversight Project: \"The infrastructure, when it's built, is incredibly hard to take down. That's why it's really important to get on the front end of this and keep these technologies from being entrenched in the first place.\" Journalist Ali Winston said two decades of studies of cameras and A.L.P.R.s \"show no discernible impact on violent crime, and a slight decrease in property crime,\" and that surveillance \"has the logic of cancer. There's no natural limit, it's metastatic.\"",
+      "tags": [
+        "surveillance",
+        "flock",
+        "alpr",
+        "policing",
+        "local"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-04T12:07:03.800Z",
+      "visits": 0
+    },
+    {
       "id": 1791115312479,
       "url": "https://airisk.mit.edu/risks",
       "source": "MIT AI Risk Repository",
@@ -11375,5 +11391,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-04T12:01:52.479Z"
+  "lastUpdated": "2026-10-04T12:07:03.800Z"
 }
