@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791112279176",
+      "url": "https://thycotic-19928113.hs-sites.com/hubfs/Delinea/whitepapers/delinea-2026-identity-security-report-fall-edition.pdf",
+      "title": "The AI Enforcement Gap: Delinea 2026 Identity Security Report, Fall Edition",
+      "date_published": "2026-10-04T11:11:19.176Z",
+      "tags": [
+        "agents",
+        "security",
+        "identity",
+        "report",
+        "pdf"
+      ],
+      "content_text": "Delinea surveyed 2,254 IT and security leaders and 2,250 employees and found the gap is enforcement, not policy: 99.7% of organizations have a formal AI data-access policy, yet 87% say an AI tool exceeded its intended scope in the past year, and only 36% can always trace a sensitive AI access back to a named human. The buried detail is who breaks the rules: 81% of C-level executives bypass AI approval \"always or regularly\" versus 33% of intermediate staff. Half of organizations let agents inherit the launching user's permissions, so \"years of accumulated access can suddenly be exercised autonomously.\" Caveat: Delinea sells just-in-time authorization, and the recommendations land squarely on its product.",
+      "summary": "Delinea surveyed 2,254 IT and security leaders and 2,250 employees and found the gap is enforcement, not policy: 99.7% of organizations have a formal ...",
+      "content_html": "<blockquote>Delinea surveyed 2,254 IT and security leaders and 2,250 employees and found the gap is enforcement, not policy: 99.7% of organizations have a formal AI data-access policy, yet 87% say an AI tool exceeded its intended scope in the past year, and only 36% can always trace a sensitive AI access back to a named human. The buried detail is who breaks the rules: 81% of C-level executives bypass AI approval &quot;always or regularly&quot; versus 33% of intermediate staff. Half of organizations let agents inherit the launching user&#039;s permissions, so &quot;years of accumulated access can suddenly be exercised autonomously.&quot; Caveat: Delinea sells just-in-time authorization, and the recommendations land squarely on its product.</blockquote>\n<p><strong>Tags:</strong> agents, security, identity, report, pdf</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791055405112",
       "url": "https://bicamerallabs.org/",
       "title": "Bicameral Labs: a nonprofit to \"solve consciousness scientifically\"",

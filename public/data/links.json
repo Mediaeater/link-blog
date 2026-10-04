@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791112279176,
+      "url": "https://thycotic-19928113.hs-sites.com/hubfs/Delinea/whitepapers/delinea-2026-identity-security-report-fall-edition.pdf",
+      "source": "The AI Enforcement Gap: Delinea 2026 Identity Security Report, Fall Edition",
+      "pullQuote": "Delinea surveyed 2,254 IT and security leaders and 2,250 employees and found the gap is enforcement, not policy: 99.7% of organizations have a formal AI data-access policy, yet 87% say an AI tool exceeded its intended scope in the past year, and only 36% can always trace a sensitive AI access back to a named human. The buried detail is who breaks the rules: 81% of C-level executives bypass AI approval \"always or regularly\" versus 33% of intermediate staff. Half of organizations let agents inherit the launching user's permissions, so \"years of accumulated access can suddenly be exercised autonomously.\" Caveat: Delinea sells just-in-time authorization, and the recommendations land squarely on its product.",
+      "tags": [
+        "agents",
+        "security",
+        "identity",
+        "report",
+        "pdf"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-04T11:11:19.176Z",
+      "visits": 0
+    },
+    {
       "id": 1791055405112,
       "url": "https://bicamerallabs.org/",
       "source": "Bicameral Labs: a nonprofit to \"solve consciousness scientifically\"",
@@ -11343,5 +11359,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-03T19:23:25.112Z"
+  "lastUpdated": "2026-10-04T11:11:19.176Z"
 }

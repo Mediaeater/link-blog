@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-03T19:23:25.112Z</updated>
+    <updated>2026-10-04T11:11:19.176Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[The AI Enforcement Gap: Delinea 2026 Identity Security Report, Fall Edition]]></title>
+        <id>tag:newsfeeds.net,2026:link/1791112279176</id>
+        <link href="https://thycotic-19928113.hs-sites.com/hubfs/Delinea/whitepapers/delinea-2026-identity-security-report-fall-edition.pdf"/>
+        <updated>2026-10-04T11:11:19.176Z</updated>
+        <summary type="html"><![CDATA[Tags: agents, security, identity, report, pdf]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bicameral Labs: a nonprofit to "solve consciousness scientifically"]]></title>
         <id>tag:newsfeeds.net,2026:link/1791055405112</id>
