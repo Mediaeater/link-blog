@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791118553869,
+      "url": "https://natlawreview.com/article/californias-new-workplace-surveillance-law",
+      "source": "California's New Workplace Surveillance Law",
+      "pullQuote": "California's AB 1883 bars employers from using AI surveillance tools \"capable of recognizing, or making inferences or predictions about, an individual's emotional state, or that collect neural data,\" which puts emotion recognition and attention-tracking headsets \"off-limits in California workplaces.\" The ban is narrower than the headline: it covers only those two uses, penalties are $500 per violation, and enforcement sits with the Labor Commissioner and public prosecutors. Aircraft developers and national security, military, space and defense employers are exempt where surveillance is \"reasonably necessary\" for federal compliance. The analysis is by Jackson Lewis, a firm that advises employers.",
+      "tags": [
+        "surveillance",
+        "legislation",
+        "workforce",
+        "neurotechnology",
+        "privacy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-04T12:55:53.869Z",
+      "visits": 0
+    },
+    {
       "id": 1791118373607,
       "url": "https://github.com/allenv0/SCM",
       "source": "SCM (Screen Memories): local AI search for every photo and video frame on macOS",
@@ -11407,5 +11423,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-04T12:52:53.607Z"
+  "lastUpdated": "2026-10-04T12:55:53.869Z"
 }
