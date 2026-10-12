@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791846586545,
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "source": "'Unprecedented' cyberattack cripples supermarket fridges across Europe as hackers activate automatic defrosting",
+      "pullQuote": "The headline fuses two incidents the article itself says may be unrelated. In France, attackers reportedly got into Danfoss refrigeration controls used by Intermarché, Leclerc and Coopérative U and turned a protective function into the weapon: defrost, normally two hours a day, was set to run \"forced\" and \"continuous\" at 50°C overnight. Around 150 Intermarché stores are reportedly affected, two Alsace stores alone report €270,000 in losses, and Metro stores and independent butchers run the same controllers. The \"unprecedented\" comes from Coopérative U's president, not investigators. The Dutch Albert Heijn outage is a separate \"cybersecurity incident\" with a preventive shutdown, and NOS reports shelf labels showing last week's promo prices, not labels that were \"compromised.\"",
+      "tags": [
+        "security",
+        "infrastructure",
+        "hardware",
+        "food",
+        "eu"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-12T23:09:46.545Z",
+      "visits": 0
+    },
+    {
       "id": 1791839302144,
       "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
       "source": "Fingerprints are the new cookies",
@@ -11454,5 +11470,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-12T21:08:22.144Z"
+  "lastUpdated": "2026-10-12T23:09:46.545Z"
 }
