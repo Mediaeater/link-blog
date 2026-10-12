@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1791812244434",
+      "url": "https://status.yandex.cloud/en/incidents/2136",
+      "title": "Yandex Cloud status: Vladimir data center down after drone strike",
+      "date_published": "2026-10-12T13:37:24.434Z",
+      "tags": [
+        "infrastructure",
+        "datacenters",
+        "war",
+        "cloud"
+      ],
+      "content_text": "Yandex Cloud's own status board is the primary record here: \"As a result of the UAV attack, the infrastructure of Yandex's data center in Vladimir was damaged. The data center's operation has been completely suspended.\" The buried detail is what the provider tells its own customers. It says \"we consider the remaining resource configuration to be unstable,\" has suspended quotas for new resources, and keeps recommending \"alternative platforms\" for hosting and redundancy. Press reports say Vladimir is the third Yandex site hit in four days, after Sasovo and Kaluga. The board's entry the night Sasovo was hit reads only \"Power failure in the ru-central-b availability zone,\" marked resolved with no end time. 82 services are listed as affected, from Compute to the YandexGPT API.",
+      "summary": "Yandex Cloud's own status board is the primary record here: \"As a result of the UAV attack, the infrastructure of Yandex's data center in Vladimir was...",
+      "content_html": "<blockquote>Yandex Cloud&#039;s own status board is the primary record here: &quot;As a result of the UAV attack, the infrastructure of Yandex&#039;s data center in Vladimir was damaged. The data center&#039;s operation has been completely suspended.&quot; The buried detail is what the provider tells its own customers. It says &quot;we consider the remaining resource configuration to be unstable,&quot; has suspended quotas for new resources, and keeps recommending &quot;alternative platforms&quot; for hosting and redundancy. Press reports say Vladimir is the third Yandex site hit in four days, after Sasovo and Kaluga. The board&#039;s entry the night Sasovo was hit reads only &quot;Power failure in the ru-central-b availability zone,&quot; marked resolved with no end time. 82 services are listed as affected, from Compute to the YandexGPT API.</blockquote>\n<p><strong>Tags:</strong> infrastructure, datacenters, war, cloud</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791118553869",
       "url": "https://natlawreview.com/article/californias-new-workplace-surveillance-law",
       "title": "California's New Workplace Surveillance Law",
