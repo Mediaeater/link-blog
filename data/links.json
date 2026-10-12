@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791839302144,
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "source": "Fingerprints are the new cookies",
+      "pullQuote": "The page fingerprints you while you read it. It hashes audio, WebGL, canvas, time zone and core count into a nickname that survives a refresh, cleared cookies and a VPN, because \"a VPN changes your IP location, but not your time zone.\" The history is the point: Google pledged in 2020 to kill third-party cookies, kept them, and in 2025 began allowing device fingerprinting in its ad products. A fingerprint \"doesn't need to be truly, globally unique - it just needs to be unique enough to tell people apart in your sample size.\" The fix has to live in the browser engine (Brave, Tor, Mullvad), not an extension, since \"privacy extensions make you more unique, since fewer people have them.\" The author notes his demo is a simple hash that changes when any one input changes, while commercial trackers keep identifying you through such changes.",
+      "tags": [
+        "privacy",
+        "fingerprinting",
+        "tracking",
+        "advertising",
+        "google"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-12T21:08:22.144Z",
+      "visits": 0
+    },
+    {
       "id": 1791812244434,
       "url": "https://status.yandex.cloud/en/incidents/2136",
       "source": "Yandex Cloud status: Vladimir data center down after drone strike",
@@ -11438,5 +11454,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-12T13:37:24.434Z"
+  "lastUpdated": "2026-10-12T21:08:22.144Z"
 }
