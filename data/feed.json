@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791846586545",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "title": "'Unprecedented' cyberattack cripples supermarket fridges across Europe as hackers activate automatic defrosting",
+      "date_published": "2026-10-12T23:09:46.545Z",
+      "tags": [
+        "security",
+        "infrastructure",
+        "hardware",
+        "food",
+        "eu"
+      ],
+      "content_text": "The headline fuses two incidents the article itself says may be unrelated. In France, attackers reportedly got into Danfoss refrigeration controls used by Intermarché, Leclerc and Coopérative U and turned a protective function into the weapon: defrost, normally two hours a day, was set to run \"forced\" and \"continuous\" at 50°C overnight. Around 150 Intermarché stores are reportedly affected, two Alsace stores alone report €270,000 in losses, and Metro stores and independent butchers run the same controllers. The \"unprecedented\" comes from Coopérative U's president, not investigators. The Dutch Albert Heijn outage is a separate \"cybersecurity incident\" with a preventive shutdown, and NOS reports shelf labels showing last week's promo prices, not labels that were \"compromised.\"",
+      "summary": "The headline fuses two incidents the article itself says may be unrelated. In France, attackers reportedly got into Danfoss refrigeration controls use...",
+      "content_html": "<blockquote>The headline fuses two incidents the article itself says may be unrelated. In France, attackers reportedly got into Danfoss refrigeration controls used by Intermarché, Leclerc and Coopérative U and turned a protective function into the weapon: defrost, normally two hours a day, was set to run &quot;forced&quot; and &quot;continuous&quot; at 50°C overnight. Around 150 Intermarché stores are reportedly affected, two Alsace stores alone report €270,000 in losses, and Metro stores and independent butchers run the same controllers. The &quot;unprecedented&quot; comes from Coopérative U&#039;s president, not investigators. The Dutch Albert Heijn outage is a separate &quot;cybersecurity incident&quot; with a preventive shutdown, and NOS reports shelf labels showing last week&#039;s promo prices, not labels that were &quot;compromised.&quot;</blockquote>\n<p><strong>Tags:</strong> security, infrastructure, hardware, food, eu</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791839302144",
       "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
       "title": "Fingerprints are the new cookies",

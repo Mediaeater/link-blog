@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-12T21:08:22.144Z</updated>
+    <updated>2026-10-12T23:09:46.545Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA['Unprecedented' cyberattack cripples supermarket fridges across Europe as hackers activate automatic defrosting]]></title>
+        <id>tag:newsfeeds.net,2026:link/1791846586545</id>
+        <link href="https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"/>
+        <updated>2026-10-12T23:09:46.545Z</updated>
+        <summary type="html"><![CDATA[Tags: security, infrastructure, hardware, food, eu]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fingerprints are the new cookies]]></title>
         <id>tag:newsfeeds.net,2026:link/1791839302144</id>
