@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791894545687",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "title": "AI models may be capable of self-replicating without access to a datacenter",
+      "date_published": "2026-10-13T12:29:05.687Z",
+      "tags": [
+        "ai",
+        "safety",
+        "security",
+        "smart-tv",
+        "anthropic"
+      ],
+      "content_text": "Anthropic's Frontier Red Team ran Gemma4-26B-A4B across 15 off-brand Android TV boxes (about $55 each) at 0.39 tokens per second, and a 9B model got inference running on 8 of 9 hardware types. The end-to-end result is narrower than the headline: only GLM-5.2 spread across a fleet of emulated Android nodes, through an ADB port with no authentication, while its own model ran on a separate server and it stood up Llama3.1-8B rather than itself. The authors call that \"an upper bound on real-world success,\" and the \"months away\" timing comes from a trend line on a general capability index they call \"only a proxy metric.\" The buried findings are stranger: notes passed between generations raised setup success from 45% to as high as 84%, while advice from Opus 4.8 didn't measurably help because small models \"tend to not know the right questions to ask.\" Every replicator tested is open-weight. The closed-weight \"frontier replicator\" case is named and set aside.",
+      "summary": "Anthropic's Frontier Red Team ran Gemma4-26B-A4B across 15 off-brand Android TV boxes (about $55 each) at 0.39 tokens per second, and a 9B model got i...",
+      "content_html": "<blockquote>Anthropic&#039;s Frontier Red Team ran Gemma4-26B-A4B across 15 off-brand Android TV boxes (about $55 each) at 0.39 tokens per second, and a 9B model got inference running on 8 of 9 hardware types. The end-to-end result is narrower than the headline: only GLM-5.2 spread across a fleet of emulated Android nodes, through an ADB port with no authentication, while its own model ran on a separate server and it stood up Llama3.1-8B rather than itself. The authors call that &quot;an upper bound on real-world success,&quot; and the &quot;months away&quot; timing comes from a trend line on a general capability index they call &quot;only a proxy metric.&quot; The buried findings are stranger: notes passed between generations raised setup success from 45% to as high as 84%, while advice from Opus 4.8 didn&#039;t measurably help because small models &quot;tend to not know the right questions to ask.&quot; Every replicator tested is open-weight. The closed-weight &quot;frontier replicator&quot; case is named and set aside.</blockquote>\n<p><strong>Tags:</strong> ai, safety, security, smart-tv, anthropic</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791890739504",
       "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
       "title": "Solar Panels That Plug Into Your Wall Are About to Be Everywhere",
