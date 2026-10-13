@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-13T11:12:15.005Z</updated>
+    <updated>2026-10-13T11:25:39.504Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Solar Panels That Plug Into Your Wall Are About to Be Everywhere]]></title>
+        <id>tag:newsfeeds.net,2026:link/1791890739504</id>
+        <link href="https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy"/>
+        <updated>2026-10-13T11:25:39.504Z</updated>
+        <summary type="html"><![CDATA[Tags: energy, climate, environment, legislation]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kevin Kelly's 2016 AI Predictions, 10 Years Later]]></title>
         <id>tag:newsfeeds.net,2026:link/1791889935005</id>

@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1791890739504,
+      "url": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
+      "source": "Solar Panels That Plug Into Your Wall Are About to Be Everywhere",
+      "pullQuote": "Plug-in \"balcony\" solar is now legal in ten states, starting with Utah in spring 2025 and most recently California, and the pitch is solar for renters: one to three panels and an inverter plugged into a wall outlet. Germany already has more than a million units installed. The \"about to be everywhere\" headline rests on Joshua Pearce, who has championed plug-in solar for a decade, and the $13 billion a year in national savings comes from his own 2017 paper. The household numbers are smaller. A Utah couple saved \"nearly $100 total\" in five months, and a Colorado renter's estimate of more than $300 since August from one panel is more than a single panel's output would be worth in a full year at Colorado rates. On safety, a UK government test found no direct electrical hazard, though some units were slow to trip the breaker under stress.",
+      "tags": [
+        "energy",
+        "climate",
+        "environment",
+        "legislation"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-13T11:25:39.504Z",
+      "visits": 0
+    },
+    {
       "id": 1791889935005,
       "url": "https://taylor.town/kk-ai-2026",
       "source": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
@@ -11486,5 +11501,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-13T11:12:15.005Z"
+  "lastUpdated": "2026-10-13T11:25:39.504Z"
 }
