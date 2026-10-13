@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1791889935005,
+      "url": "https://taylor.town/kk-ai-2026",
+      "source": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "pullQuote": "Taylor Troesh sets Kevin Kelly's 2016 book The Inevitable against 2026 and mostly lets the excerpts speak. The hits are structural: an \"oligarchy of two or three large, general-purpose cloud-based commercial intelligences,\" AI as a utility \"almost invisible except when it blinks off,\" and asking the cloud \"in conversational tones, any question at all.\" The sharpest line is the mechanism: \"Rather than use AI to make its search better, Google is using search to make its AI better.\" The miss teaches as much: Kelly expected \"nerdly narrow, supersmart specialists\" to make up 99 percent of the AI we'd use, and general models won instead. His hope that AI would be \"not just cheap, but free,\" like the web's commons, sits uneasily beside the oligarchy he predicted.",
+      "tags": [
+        "ai",
+        "books",
+        "google",
+        "search",
+        "open-weights"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-13T11:12:15.005Z",
+      "visits": 0
+    },
+    {
       "id": 1791846586545,
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "source": "'Unprecedented' cyberattack cripples supermarket fridges across Europe as hackers activate automatic defrosting",
@@ -11470,5 +11486,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-12T23:09:46.545Z"
+  "lastUpdated": "2026-10-13T11:12:15.005Z"
 }

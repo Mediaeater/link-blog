@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1791889935005",
+      "url": "https://taylor.town/kk-ai-2026",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "date_published": "2026-10-13T11:12:15.005Z",
+      "tags": [
+        "ai",
+        "books",
+        "google",
+        "search",
+        "open-weights"
+      ],
+      "content_text": "Taylor Troesh sets Kevin Kelly's 2016 book The Inevitable against 2026 and mostly lets the excerpts speak. The hits are structural: an \"oligarchy of two or three large, general-purpose cloud-based commercial intelligences,\" AI as a utility \"almost invisible except when it blinks off,\" and asking the cloud \"in conversational tones, any question at all.\" The sharpest line is the mechanism: \"Rather than use AI to make its search better, Google is using search to make its AI better.\" The miss teaches as much: Kelly expected \"nerdly narrow, supersmart specialists\" to make up 99 percent of the AI we'd use, and general models won instead. His hope that AI would be \"not just cheap, but free,\" like the web's commons, sits uneasily beside the oligarchy he predicted.",
+      "summary": "Taylor Troesh sets Kevin Kelly's 2016 book The Inevitable against 2026 and mostly lets the excerpts speak. The hits are structural: an \"oligarchy of t...",
+      "content_html": "<blockquote>Taylor Troesh sets Kevin Kelly&#039;s 2016 book The Inevitable against 2026 and mostly lets the excerpts speak. The hits are structural: an &quot;oligarchy of two or three large, general-purpose cloud-based commercial intelligences,&quot; AI as a utility &quot;almost invisible except when it blinks off,&quot; and asking the cloud &quot;in conversational tones, any question at all.&quot; The sharpest line is the mechanism: &quot;Rather than use AI to make its search better, Google is using search to make its AI better.&quot; The miss teaches as much: Kelly expected &quot;nerdly narrow, supersmart specialists&quot; to make up 99 percent of the AI we&#039;d use, and general models won instead. His hope that AI would be &quot;not just cheap, but free,&quot; like the web&#039;s commons, sits uneasily beside the oligarchy he predicted.</blockquote>\n<p><strong>Tags:</strong> ai, books, google, search, open-weights</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791846586545",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
       "title": "'Unprecedented' cyberattack cripples supermarket fridges across Europe as hackers activate automatic defrosting",
