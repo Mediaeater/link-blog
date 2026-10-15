@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1792062388789",
+      "url": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit",
+      "title": "XBOW Built a Chrome Full-Chain Exploit Affecting a Billion Users in Six Days",
+      "date_published": "2026-10-15T11:06:28.789Z",
+      "tags": [
+        "security",
+        "ai",
+        "agents",
+        "google",
+        "openai"
+      ],
+      "content_text": "XBOW's headline says it built the Chrome chain, but the post credits four named researchers who \"set the strategy, chose where to look, checked the agents' work\" while GPT-5.6 Sol searched source, built proofs of concept and \"wrote the earliest drafts of the exploit.\" The economics are the real story: $40,000 in compute over six days for a chain that earned a $250,000 Google bounty. That six-day window leaves out earlier prep, and the first chain was disqualified because Google already knew one of the bugs. The claim that each bug \"could be found by agents working on their own\" within a year is a forecast, not a result.",
+      "summary": "XBOW's headline says it built the Chrome chain, but the post credits four named researchers who \"set the strategy, chose where to look, checked the ag...",
+      "content_html": "<blockquote>XBOW&#039;s headline says it built the Chrome chain, but the post credits four named researchers who &quot;set the strategy, chose where to look, checked the agents&#039; work&quot; while GPT-5.6 Sol searched source, built proofs of concept and &quot;wrote the earliest drafts of the exploit.&quot; The economics are the real story: $40,000 in compute over six days for a chain that earned a $250,000 Google bounty. That six-day window leaves out earlier prep, and the first chain was disqualified because Google already knew one of the bugs. The claim that each bug &quot;could be found by agents working on their own&quot; within a year is a forecast, not a result.</blockquote>\n<p><strong>Tags:</strong> security, ai, agents, google, openai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1791894545687",
       "url": "https://www.anthropic.com/research/self-replicating-ai",
       "title": "AI models may be capable of self-replicating without access to a datacenter",
