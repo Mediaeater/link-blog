@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-13T12:29:05.687Z</updated>
+    <updated>2026-10-15T11:03:18.423Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -12,137 +12,11 @@
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
     <entry>
-        <title type="html"><![CDATA[AI models may be capable of self-replicating without access to a datacenter]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791894545687</id>
-        <link href="https://www.anthropic.com/research/self-replicating-ai"/>
-        <updated>2026-10-13T12:29:05.687Z</updated>
-        <summary type="html"><![CDATA[Tags: ai, safety, security, smart-tv, anthropic]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solar Panels That Plug Into Your Wall Are About to Be Everywhere]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791890739504</id>
-        <link href="https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy"/>
-        <updated>2026-10-13T11:25:39.504Z</updated>
-        <summary type="html"><![CDATA[Tags: energy, climate, environment, legislation]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kevin Kelly's 2016 AI Predictions, 10 Years Later]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791889935005</id>
-        <link href="https://taylor.town/kk-ai-2026"/>
-        <updated>2026-10-13T11:12:15.005Z</updated>
-        <summary type="html"><![CDATA[Tags: ai, books, google, search, open-weights]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Unprecedented' cyberattack cripples supermarket fridges across Europe as hackers activate automatic defrosting]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791846586545</id>
-        <link href="https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident"/>
-        <updated>2026-10-12T23:09:46.545Z</updated>
-        <summary type="html"><![CDATA[Tags: security, infrastructure, hardware, food, eu]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fingerprints are the new cookies]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791839302144</id>
-        <link href="https://royfish.dev/fingerprints-are-the-new-cookies"/>
-        <updated>2026-10-12T21:08:22.144Z</updated>
-        <summary type="html"><![CDATA[Tags: privacy, fingerprinting, tracking, advertising, google]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Yandex Cloud status: Vladimir data center down after drone strike]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791812244434</id>
-        <link href="https://status.yandex.cloud/en/incidents/2136"/>
-        <updated>2026-10-12T13:37:24.434Z</updated>
-        <summary type="html"><![CDATA[Tags: infrastructure, datacenters, war, cloud]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[California's New Workplace Surveillance Law]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791118553869</id>
-        <link href="https://natlawreview.com/article/californias-new-workplace-surveillance-law"/>
-        <updated>2026-10-04T12:55:53.869Z</updated>
-        <summary type="html"><![CDATA[Tags: surveillance, legislation, workforce, neurotechnology, privacy]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SCM (Screen Memories): local AI search for every photo and video frame on macOS]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791118373607</id>
-        <link href="https://github.com/allenv0/SCM"/>
-        <updated>2026-10-04T12:52:53.607Z</updated>
-        <summary type="html"><![CDATA[Tags: tool, open-source, search, video, photography]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Surveillance State Jitters]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791115623800</id>
-        <link href="https://www.easthamptonstar.com/police-courts/2026101/surveillance-state-jitters"/>
-        <updated>2026-10-04T12:07:03.800Z</updated>
-        <summary type="html"><![CDATA[Tags: surveillance, flock, alpr, policing, local]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MIT AI Risk Repository]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791115312479</id>
-        <link href="https://airisk.mit.edu/risks"/>
-        <updated>2026-10-04T12:01:52.479Z</updated>
-        <summary type="html"><![CDATA[Tags: ai, safety, harms, research, reference]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The AI Enforcement Gap: Delinea 2026 Identity Security Report, Fall Edition]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791112279176</id>
-        <link href="https://thycotic-19928113.hs-sites.com/hubfs/Delinea/whitepapers/delinea-2026-identity-security-report-fall-edition.pdf"/>
-        <updated>2026-10-04T11:11:19.176Z</updated>
-        <summary type="html"><![CDATA[Tags: agents, security, identity, report, pdf]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bicameral Labs: a nonprofit to "solve consciousness scientifically"]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791055405112</id>
-        <link href="https://bicamerallabs.org/"/>
-        <updated>2026-10-03T19:23:25.112Z</updated>
-        <summary type="html"><![CDATA[Tags: science, brain, mind, research, ai]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Holes (Stanford Encyclopedia of Philosophy)]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791048163348</id>
-        <link href="https://plato.stanford.edu/entries/holes/"/>
-        <updated>2026-10-03T17:22:43.348Z</updated>
-        <summary type="html"><![CDATA[Tags: thinking, reference, knowledge, language]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[stillwet: paintings by AI models, run through a simulation of oil paint]]></title>
-        <id>tag:newsfeeds.net,2026:link/1791027785004</id>
-        <link href="https://stillwet.art/"/>
-        <updated>2026-10-03T11:43:05.004Z</updated>
-        <summary type="html"><![CDATA[Tags: art, ai, llm, code, artists]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Audionaut: open-source multitrack audio editor that AI agents can drive over MCP]]></title>
-        <id>tag:newsfeeds.net,2026:link/1790945816871</id>
-        <link href="https://github.com/kvoltmer/Audionaut"/>
-        <updated>2026-10-02T12:56:56.871Z</updated>
-        <summary type="html"><![CDATA[Tags: audio, open-source, agents, tool, github]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How American Political Campaigns Are Using AI—and What They're Spending on the Tools]]></title>
-        <id>tag:newsfeeds.net,2026:link/1790945680557</id>
-        <link href="https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html"/>
-        <updated>2026-10-02T12:54:40.557Z</updated>
-        <summary type="html"><![CDATA[Tags: ai, politics, democracy, advertising, usa]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is sandboxing sufficient to contain rogue agents?]]></title>
-        <id>tag:newsfeeds.net,2026:link/1790944925841</id>
-        <link href="https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/"/>
-        <updated>2026-10-02T12:42:05.841Z</updated>
-        <summary type="html"><![CDATA[Tags: ai, agents, security, safety, cryptography]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['If you can't hold it, you don't own it': why media fans want to escape algorithms with CDs, DVDs and vinyl]]></title>
-        <id>tag:newsfeeds.net,2026:link/1790944717579</id>
-        <link href="https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl"/>
-        <updated>2026-10-02T12:38:37.579Z</updated>
-        <summary type="html"><![CDATA[Tags: media, culture, music, privacy, archive]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek Harness]]></title>
-        <id>tag:newsfeeds.net,2026:link/1790944717430</id>
-        <link href="https://www.deepseek.com/en/harness/"/>
-        <updated>2026-10-02T12:38:37.430Z</updated>
-        <summary type="html"><![CDATA[Tags: ai, agents, open-source, deepseek, code]]></summary>
+        <title type="html"><![CDATA[XBOW Built a Chrome Full-Chain Exploit Affecting a Billion Users in Six Days]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792062198423</id>
+        <link href="https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit"/>
+        <updated>2026-10-15T11:03:18.423Z</updated>
+        <summary type="html"><![CDATA[Tags: security, ai, agents, google, openai]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[DraftKings Is Using AI to Supercharge the Harms of Online Behavioral Advertising]]></title>
