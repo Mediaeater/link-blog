@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-15T11:06:28.789Z</updated>
+    <updated>2026-10-17T20:50:44.957Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,41 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Awesome REA Cases]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792270244957</id>
+        <link href="https://github.com/songshikang0111/awesome-REA-cases"/>
+        <updated>2026-10-17T20:50:44.957Z</updated>
+        <summary type="html"><![CDATA[Tags: agents, reverse-engineering, github, list, security]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s Complicated: Facebook’s History of Tracking You]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792270244806</id>
+        <link href="https://www.propublica.org/article/its-complicated-facebooks-history-of-tracking-you"/>
+        <updated>2026-10-17T20:50:44.806Z</updated>
+        <summary type="html"><![CDATA[Tags: meta, tracking, privacy, advertising, archive]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Furifont: furigana built into the font]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792270244667</id>
+        <link href="https://furifont.antfu.me/"/>
+        <updated>2026-10-17T20:50:44.667Z</updated>
+        <summary type="html"><![CDATA[Tags: design, language, open-source, tool, typography]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Battles Boil Over in Frankfurt: “Walk Toward The Fire”]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792270244523</id>
+        <link href="https://sustainablemedia.substack.com/p/ai-battles-boil-over-in-frankfurt"/>
+        <updated>2026-10-17T20:50:44.523Z</updated>
+        <summary type="html"><![CDATA[Tags: publishing, ai, books, authorship, ethics]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Online ads weaponised to deliver ‘zero-click’ spyware, researchers say]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792270244367</id>
+        <link href="https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say"/>
+        <updated>2026-10-17T20:50:44.367Z</updated>
+        <summary type="html"><![CDATA[Tags: surveillance, advertising, spyware, security, privacy]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[XBOW Built a Chrome Full-Chain Exploit Affecting a Billion Users in Six Days]]></title>
         <id>tag:newsfeeds.net,2026:link/1792062388789</id>
