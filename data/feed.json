@@ -15,6 +15,106 @@
   ],
   "items": [
     {
+      "id": "1792270244957",
+      "url": "https://github.com/songshikang0111/awesome-REA-cases",
+      "title": "Awesome REA Cases",
+      "date_published": "2026-10-17T20:50:44.957Z",
+      "tags": [
+        "agents",
+        "reverse-engineering",
+        "github",
+        "list",
+        "security"
+      ],
+      "content_text": "A curated collection of REA and AI-assisted reverse engineering cases, projects, and ideas, updated every four hours: 401 entries across games and preservation, hardware and interoperability, applications and clients, and algorithm recovery. REA (github.com/morluto/rea) “connects coding agents to local reverse-engineering tools through CLI and MCP.” Worth noting the fine print: “Based on author and project reports; not independently reproduced here.”",
+      "summary": "A curated collection of REA and AI-assisted reverse engineering cases, projects, and ideas, updated every four hours: 401 entries across games and pre...",
+      "content_html": "<blockquote>A curated collection of REA and AI-assisted reverse engineering cases, projects, and ideas, updated every four hours: 401 entries across games and preservation, hardware and interoperability, applications and clients, and algorithm recovery. REA (github.com/morluto/rea) “connects coding agents to local reverse-engineering tools through CLI and MCP.” Worth noting the fine print: “Based on author and project reports; not independently reproduced here.”</blockquote>\n<p><strong>Tags:</strong> agents, reverse-engineering, github, list, security</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792270244806",
+      "url": "https://www.propublica.org/article/its-complicated-facebooks-history-of-tracking-you",
+      "title": "It’s Complicated: Facebook’s History of Tracking You",
+      "date_published": "2026-10-17T20:50:44.806Z",
+      "tags": [
+        "meta",
+        "tracking",
+        "privacy",
+        "advertising",
+        "archive"
+      ],
+      "content_text": "A 2014 timeline that reads like a prequel. For years Facebook insisted the Like button wasn’t for tracking (“we don’t use them for tracking and they’re not intended for tracking,” per its CTO in 2011), then in June 2014 told Ad Age it would start tracking users across the web through those same widgets, with no opt-out in privacy settings. Every denial-then-reversal pattern in today’s ad-tech stories was already here.",
+      "summary": "A 2014 timeline that reads like a prequel. For years Facebook insisted the Like button wasn’t for tracking (“we don’t use them for tracking and they’r...",
+      "content_html": "<blockquote>A 2014 timeline that reads like a prequel. For years Facebook insisted the Like button wasn’t for tracking (“we don’t use them for tracking and they’re not intended for tracking,” per its CTO in 2011), then in June 2014 told Ad Age it would start tracking users across the web through those same widgets, with no opt-out in privacy settings. Every denial-then-reversal pattern in today’s ad-tech stories was already here.</blockquote>\n<p><strong>Tags:</strong> meta, tracking, privacy, advertising, archive</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792270244667",
+      "url": "https://furifont.antfu.me/",
+      "title": "Furifont: furigana built into the font",
+      "date_published": "2026-10-17T20:50:44.667Z",
+      "tags": [
+        "design",
+        "language",
+        "open-source",
+        "tool",
+        "typography"
+      ],
+      "content_text": "A Japanese font that shows furigana by itself. The text stays plain: no <ruby> markup, no JavaScript, no plugin. Compiled from Source Han Sans or Serif, a build step reads a dictionary of thousands of words and draws the reading into new glyphs as OpenType ligatures, so 今日 becomes one glyph with きょう above it. The catch is structural: “a font sees one run of kanji at a time, not the sentence around it,” so readings can be wrong.",
+      "summary": "A Japanese font that shows furigana by itself. The text stays plain: no <ruby> markup, no JavaScript, no plugin. Compiled from Source Han Sans or Seri...",
+      "content_html": "<blockquote>A Japanese font that shows furigana by itself. The text stays plain: no &lt;ruby&gt; markup, no JavaScript, no plugin. Compiled from Source Han Sans or Serif, a build step reads a dictionary of thousands of words and draws the reading into new glyphs as OpenType ligatures, so 今日 becomes one glyph with きょう above it. The catch is structural: “a font sees one run of kanji at a time, not the sentence around it,” so readings can be wrong.</blockquote>\n<p><strong>Tags:</strong> design, language, open-source, tool, typography</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792270244523",
+      "url": "https://sustainablemedia.substack.com/p/ai-battles-boil-over-in-frankfurt",
+      "title": "AI Battles Boil Over in Frankfurt: “Walk Toward The Fire”",
+      "date_published": "2026-10-17T20:50:44.523Z",
+      "tags": [
+        "publishing",
+        "ai",
+        "books",
+        "authorship",
+        "ethics"
+      ],
+      "content_text": "Publishers are embracing AI. Authors are being warned about it. … Why is AI an exciting business opportunity when publishers use it, but a potential ethical scandal when authors do? … What cannot be justified is demanding accountability from authors without demonstrating it inside publishing companies.",
+      "summary": "Publishers are embracing AI. Authors are being warned about it. … Why is AI an exciting business opportunity when publishers use it, but a potential e...",
+      "content_html": "<blockquote>Publishers are embracing AI. Authors are being warned about it. … Why is AI an exciting business opportunity when publishers use it, but a potential ethical scandal when authors do? … What cannot be justified is demanding accountability from authors without demonstrating it inside publishing companies.</blockquote>\n<p><strong>Tags:</strong> publishing, ai, books, authorship, ethics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792270244367",
+      "url": "https://www.theguardian.com/technology/2026/oct/15/israeli-firm-digital-ads-enabling-installation-of-zero-click-spyware-researchers-say",
+      "title": "Online ads weaponised to deliver ‘zero-click’ spyware, researchers say",
+      "date_published": "2026-10-17T20:50:44.367Z",
+      "tags": [
+        "surveillance",
+        "advertising",
+        "spyware",
+        "security",
+        "privacy"
+      ],
+      "content_text": "Citizen Lab says Israeli ad agency Discover-Tech runs a platform called Controlium that lets clients “mass-profile and deanonymise” internet users through ordinary programmatic ads, then hands selected targets to third-party spyware firms for zero-click infection. Dozens of devices at Al Jazeera were allegedly compromised, and Confiant found the ads served inside government, UN, Nato and ICC networks. Bill Marczak: “There has been a lot of buzz that online ads can be used to identify and automatically hack targets with pinpoint precision, but now for the first time, we have concrete technical evidence showing this process in action.”",
+      "summary": "Citizen Lab says Israeli ad agency Discover-Tech runs a platform called Controlium that lets clients “mass-profile and deanonymise” internet users thr...",
+      "content_html": "<blockquote>Citizen Lab says Israeli ad agency Discover-Tech runs a platform called Controlium that lets clients “mass-profile and deanonymise” internet users through ordinary programmatic ads, then hands selected targets to third-party spyware firms for zero-click infection. Dozens of devices at Al Jazeera were allegedly compromised, and Confiant found the ads served inside government, UN, Nato and ICC networks. Bill Marczak: “There has been a lot of buzz that online ads can be used to identify and automatically hack targets with pinpoint precision, but now for the first time, we have concrete technical evidence showing this process in action.”</blockquote>\n<p><strong>Tags:</strong> surveillance, advertising, spyware, security, privacy</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1792062388789",
       "url": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit",
       "title": "XBOW Built a Chrome Full-Chain Exploit Affecting a Billion Users in Six Days",
