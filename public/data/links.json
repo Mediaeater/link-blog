@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1792347761536,
+      "url": "https://www.fondazionepaolini.it/",
+      "source": "Fondazione Giulio e Anna Paolini",
+      "pullQuote": "Founded in 2004 by Giulio Paolini and his wife Anna Piva, the Turin foundation holds the artist’s archives from the early 1960s on (“catalogues, books, periodicals, press releases, invitations, photographs, letters”) and publishes the catalogue raisonné of every work from 1960 to the present as open access online, after the print edition stopped at two volumes in 2008. Paolini, born in Genoa in 1940 and a fixture of Arte Povera and four Documentas, is currently in a Saffo group show at the Colosseum’s Uccelliere Farnesiane through January 2027.",
+      "tags": [
+        "art",
+        "artists",
+        "archive",
+        "exhibition",
+        "italy"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-18T18:22:41.536Z",
+      "visits": 0
+    },
+    {
       "id": 1792270244957,
       "url": "https://github.com/songshikang0111/awesome-REA-cases",
       "source": "Awesome REA Cases",
@@ -11613,5 +11629,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-17T20:50:44.957Z"
+  "lastUpdated": "2026-10-18T18:22:41.536Z"
 }
