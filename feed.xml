@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-17T20:50:44.957Z</updated>
+    <updated>2026-10-18T18:22:41.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Fondazione Giulio e Anna Paolini]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792347761536</id>
+        <link href="https://www.fondazionepaolini.it/"/>
+        <updated>2026-10-18T18:22:41.536Z</updated>
+        <summary type="html"><![CDATA[Tags: art, artists, archive, exhibition, italy]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Awesome REA Cases]]></title>
         <id>tag:newsfeeds.net,2026:link/1792270244957</id>
