@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1792454382384,
+      "url": "https://www.reuters.com/legal/government/us-supreme-court-rejects-music-labels-challenge-copyright-termination-ruling-2026-10-19/",
+      "source": "US Supreme Court rejects music labels' challenge to copyright termination ruling",
+      "pullQuote": "Four justices recused without explanation. That left the Court one short of a quorum, so the 5th Circuit's ruling stands by default. Songwriter Cyril Vetter used US termination rights to take back \"Double Shot (Of My Baby's Love)\" and is now \"sole owner of all right, title and interest throughout the world.\" BMG, Sony, Universal and Warner, which bought into the song after losing in the appeals court, say the ruling \"unsettled 50 years of industry practice.\" It sets no national precedent, but it gives artists in the 5th Circuit a path to reclaim foreign rights as well as US ones.",
+      "tags": [
+        "copyright",
+        "music",
+        "legal",
+        "artists",
+        "rights"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-19T23:59:42.384Z",
+      "visits": 0
+    },
+    {
       "id": 1792347761536,
       "url": "https://www.fondazionepaolini.it/",
       "source": "Fondazione Giulio e Anna Paolini",
@@ -11629,5 +11645,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-18T18:22:41.536Z"
+  "lastUpdated": "2026-10-19T23:59:42.384Z"
 }

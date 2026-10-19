@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-18T18:22:41.536Z</updated>
+    <updated>2026-10-19T23:59:42.384Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[US Supreme Court rejects music labels' challenge to copyright termination ruling]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792454382384</id>
+        <link href="https://www.reuters.com/legal/government/us-supreme-court-rejects-music-labels-challenge-copyright-termination-ruling-2026-10-19/"/>
+        <updated>2026-10-19T23:59:42.384Z</updated>
+        <summary type="html"><![CDATA[Tags: copyright, music, legal, artists, rights]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fondazione Giulio e Anna Paolini]]></title>
         <id>tag:newsfeeds.net,2026:link/1792347761536</id>
