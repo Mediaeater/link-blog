@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-20T01:53:51.512Z</updated>
+    <updated>2026-10-20T10:42:44.591Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[France's Supermarket Fridges Were Vulnerable Online for Months]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792492964591</id>
+        <link href="https://ipinfo.io/blog/france-fridges-hack"/>
+        <updated>2026-10-20T10:42:44.591Z</updated>
+        <summary type="html"><![CDATA[Tags: security, infosec, infrastructure, data]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Funding for Artists – NYC Department of Cultural Affairs]]></title>
         <id>tag:newsfeeds.net,2026:link/1792461231512</id>
