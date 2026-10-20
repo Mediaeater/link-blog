@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1792492964591",
+      "url": "https://ipinfo.io/blog/france-fridges-hack",
+      "title": "France's Supermarket Fridges Were Vulnerable Online for Months",
+      "date_published": "2026-10-20T10:42:44.591Z",
+      "tags": [
+        "security",
+        "infosec",
+        "infrastructure",
+        "data"
+      ],
+      "content_text": "On the night of Oct 11–12, attackers switched refrigeration controllers in hundreds of French supermarkets into defrost mode. Some units hit 50°C and some caught fire. IPinfo's internet scans found that a week earlier, \"France had more exposed fridge dashboards than the rest of the world combined\": 1,331 open Danfoss dashboards, against 1,197 across 72 other countries. 1,019 of those were already at the same address in March. Patching wasn't the difference (\"85% ran software with known security flaws,\" about the same as elsewhere). The difference was that \"anyone who typed in the address could open it.\" IPinfo itself says reachable isn't the same as breached, and \"nobody has said who did it or how they got in.\"",
+      "summary": "On the night of Oct 11–12, attackers switched refrigeration controllers in hundreds of French supermarkets into defrost mode. Some units hit 50°C and ...",
+      "content_html": "<blockquote>On the night of Oct 11–12, attackers switched refrigeration controllers in hundreds of French supermarkets into defrost mode. Some units hit 50°C and some caught fire. IPinfo&#039;s internet scans found that a week earlier, &quot;France had more exposed fridge dashboards than the rest of the world combined&quot;: 1,331 open Danfoss dashboards, against 1,197 across 72 other countries. 1,019 of those were already at the same address in March. Patching wasn&#039;t the difference (&quot;85% ran software with known security flaws,&quot; about the same as elsewhere). The difference was that &quot;anyone who typed in the address could open it.&quot; IPinfo itself says reachable isn&#039;t the same as breached, and &quot;nobody has said who did it or how they got in.&quot;</blockquote>\n<p><strong>Tags:</strong> security, infosec, infrastructure, data</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1792461231512",
       "url": "https://www.nyc.gov/site/dcla/cultural-funding/funding-for-artists.page",
       "title": "Funding for Artists – NYC Department of Cultural Affairs",

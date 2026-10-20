@@ -1,6 +1,21 @@
 {
   "links": [
     {
+      "id": 1792492964591,
+      "url": "https://ipinfo.io/blog/france-fridges-hack",
+      "source": "France's Supermarket Fridges Were Vulnerable Online for Months",
+      "pullQuote": "On the night of Oct 11–12, attackers switched refrigeration controllers in hundreds of French supermarkets into defrost mode. Some units hit 50°C and some caught fire. IPinfo's internet scans found that a week earlier, \"France had more exposed fridge dashboards than the rest of the world combined\": 1,331 open Danfoss dashboards, against 1,197 across 72 other countries. 1,019 of those were already at the same address in March. Patching wasn't the difference (\"85% ran software with known security flaws,\" about the same as elsewhere). The difference was that \"anyone who typed in the address could open it.\" IPinfo itself says reachable isn't the same as breached, and \"nobody has said who did it or how they got in.\"",
+      "tags": [
+        "security",
+        "infosec",
+        "infrastructure",
+        "data"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-20T10:42:44.591Z",
+      "visits": 0
+    },
+    {
       "id": 1792461231512,
       "url": "https://www.nyc.gov/site/dcla/cultural-funding/funding-for-artists.page",
       "source": "Funding for Artists – NYC Department of Cultural Affairs",
@@ -11660,5 +11675,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-20T01:53:51.512Z"
+  "lastUpdated": "2026-10-20T10:42:44.591Z"
 }
