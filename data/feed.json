@@ -15,6 +15,183 @@
   ],
   "items": [
     {
+      "id": "1792867045864",
+      "url": "https://x.com/Acyn/status/2113074113128607868",
+      "title": "CNN montage of Trump talking about other men",
+      "date_published": "2026-10-24T18:37:25.864Z",
+      "tags": [
+        "politics",
+        "media",
+        "video",
+        "tv"
+      ],
+      "content_text": "Acyn's whole caption: 'CNN montage of Trump talking about other men.' A two-minute clip posted Oct. 21, at 2.8 million views within days.",
+      "summary": "Acyn's whole caption: 'CNN montage of Trump talking about other men.' A two-minute clip posted Oct. 21, at 2.8 million views within days.",
+      "content_html": "<blockquote>Acyn&#039;s whole caption: &#039;CNN montage of Trump talking about other men.&#039; A two-minute clip posted Oct. 21, at 2.8 million views within days.</blockquote>\n<p><strong>Tags:</strong> politics, media, video, tv</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045825",
+      "url": "https://www.questdiagnostics.com/links/quanum-notice",
+      "title": "Quest Diagnostics discloses breach of its Quanum lab-ordering system",
+      "date_published": "2026-10-24T18:37:25.825Z",
+      "tags": [
+        "health",
+        "privacy",
+        "security",
+        "data",
+        "breach"
+      ],
+      "content_text": "Quest says 'some patient data within Quanum LSM was accessed.' LSM is the system clinicians use to order tests and view results, and health and personal information may be involved. Quest says it has 'remediated' the incident but gives no count of affected patients, no breach window and no point of entry. This time it was Quest's own system. The 2019 breach that exposed about 11.9 million Quest patients went through a billing vendor, AMCA.",
+      "summary": "Quest says 'some patient data within Quanum LSM was accessed.' LSM is the system clinicians use to order tests and view results, and health and person...",
+      "content_html": "<blockquote>Quest says &#039;some patient data within Quanum LSM was accessed.&#039; LSM is the system clinicians use to order tests and view results, and health and personal information may be involved. Quest says it has &#039;remediated&#039; the incident but gives no count of affected patients, no breach window and no point of entry. This time it was Quest&#039;s own system. The 2019 breach that exposed about 11.9 million Quest patients went through a billing vendor, AMCA.</blockquote>\n<p><strong>Tags:</strong> health, privacy, security, data, breach</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045787",
+      "url": "https://developer.apple.com/videos/play/wwdc2026/334/",
+      "title": "Apple WWDC26: Build AI-powered scripts with the fm CLI and Python SDK",
+      "date_published": "2026-10-24T18:37:25.787Z",
+      "tags": [
+        "apple",
+        "ai",
+        "llm",
+        "python",
+        "tool"
+      ],
+      "content_text": "Apple's on-device Foundation Models become scriptable: an fm command-line tool preinstalled in macOS 27, and a Python SDK for Apple Silicon Macs. The default model runs locally. The larger Private Cloud Compute model is one flag away, 'with usage limits' the session never quantifies. The demos (sorting drafts from finals, scoring grocery-cart prompts in Jupyter) show the pitch: local automation and eval pipelines, not frontier work.",
+      "summary": "Apple's on-device Foundation Models become scriptable: an fm command-line tool preinstalled in macOS 27, and a Python SDK for Apple Silicon Macs. The ...",
+      "content_html": "<blockquote>Apple&#039;s on-device Foundation Models become scriptable: an fm command-line tool preinstalled in macOS 27, and a Python SDK for Apple Silicon Macs. The default model runs locally. The larger Private Cloud Compute model is one flag away, &#039;with usage limits&#039; the session never quantifies. The demos (sorting drafts from finals, scoring grocery-cart prompts in Jupyter) show the pitch: local automation and eval pipelines, not frontier work.</blockquote>\n<p><strong>Tags:</strong> apple, ai, llm, python, tool</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045749",
+      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+      "title": "How does Fable 5.1 hide messages in images?",
+      "date_published": "2026-10-24T18:37:25.749Z",
+      "tags": [
+        "ai",
+        "safety",
+        "research",
+        "anthropic",
+        "steganography"
+      ],
+      "content_text": "Told to hide a message in an SVG, with no scheme agreed, Fable 5.1 invented its own. Most often it mapped each letter to the height of an element: skyline buildings, grass blades. A fresh Fable instance shown only the screenshot recovered 78% of 50 messages, and GPT-6 Astra decoded Fable's images at 88%, so the code reads across models. The hiding was instructed, not spontaneous, and for now the decoder's tool calls give it away. The authors call it 'a precursor to steganography in images.'",
+      "summary": "Told to hide a message in an SVG, with no scheme agreed, Fable 5.1 invented its own. Most often it mapped each letter to the height of an element: sky...",
+      "content_html": "<blockquote>Told to hide a message in an SVG, with no scheme agreed, Fable 5.1 invented its own. Most often it mapped each letter to the height of an element: skyline buildings, grass blades. A fresh Fable instance shown only the screenshot recovered 78% of 50 messages, and GPT-6 Astra decoded Fable&#039;s images at 88%, so the code reads across models. The hiding was instructed, not spontaneous, and for now the decoder&#039;s tool calls give it away. The authors call it &#039;a precursor to steganography in images.&#039;</blockquote>\n<p><strong>Tags:</strong> ai, safety, research, anthropic, steganography</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045711",
+      "url": "https://webdev.teknium.io/",
+      "title": "Uncommon Web: a field guide to stylistically unusual web libraries",
+      "date_published": "2026-10-24T18:37:25.711Z",
+      "tags": [
+        "design",
+        "code",
+        "css",
+        "open-source",
+        "collection"
+      ],
+      "content_text": "'425 web libraries and components with a strong point of view: dithered shaders, text laid out without the DOM, Windows 98 as a stylesheet, hand-drawn charts, live-coded synths.' Every card runs the real library live, with zero CDN requests. It's a side project from Teknium, cofounder of Nous Research. It's a catalogue, not a review, so it says nothing about which libraries are maintained.",
+      "summary": "'425 web libraries and components with a strong point of view: dithered shaders, text laid out without the DOM, Windows 98 as a stylesheet, hand-drawn...",
+      "content_html": "<blockquote>&#039;425 web libraries and components with a strong point of view: dithered shaders, text laid out without the DOM, Windows 98 as a stylesheet, hand-drawn charts, live-coded synths.&#039; Every card runs the real library live, with zero CDN requests. It&#039;s a side project from Teknium, cofounder of Nous Research. It&#039;s a catalogue, not a review, so it says nothing about which libraries are maintained.</blockquote>\n<p><strong>Tags:</strong> design, code, css, open-source, collection</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045672",
+      "url": "https://www.warren.senate.gov/wp-content/uploads/2026/10/Settling-for-Less-Warren-10.20.26.pdf",
+      "title": "Settling for Less: Warren report on Trump antitrust settlements",
+      "date_published": "2026-10-24T18:37:25.672Z",
+      "tags": [
+        "politics",
+        "government",
+        "legal",
+        "report",
+        "antitrust"
+      ],
+      "content_text": "Sen. Elizabeth Warren's report argues that DOJ and the FTC waved through large mergers over career-staff objections. It also says they settled cases for small fines and behavioral promises, with no admission of wrongdoing. Its pay-to-play charge rests on merger beneficiaries giving millions to Trump political committees. That shows a pattern in the timing, not proof of a trade. The best-documented case is HPE-Juniper, where senior officials reportedly overruled antitrust chief Gail Slater.",
+      "summary": "Sen. Elizabeth Warren's report argues that DOJ and the FTC waved through large mergers over career-staff objections. It also says they settled cases f...",
+      "content_html": "<blockquote>Sen. Elizabeth Warren&#039;s report argues that DOJ and the FTC waved through large mergers over career-staff objections. It also says they settled cases for small fines and behavioral promises, with no admission of wrongdoing. Its pay-to-play charge rests on merger beneficiaries giving millions to Trump political committees. That shows a pattern in the timing, not proof of a trade. The best-documented case is HPE-Juniper, where senior officials reportedly overruled antitrust chief Gail Slater.</blockquote>\n<p><strong>Tags:</strong> politics, government, legal, report, antitrust</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045632",
+      "url": "https://freedns.afraid.org/",
+      "title": "FreeDNS (afraid.org)",
+      "date_published": "2026-10-24T18:37:25.632Z",
+      "tags": [
+        "infrastructure",
+        "internet",
+        "networks",
+        "free",
+        "tool"
+      ],
+      "content_text": "Free dynamic DNS and shared subdomains, run by one person, Joshua Anderson, since 2001. The homepage counts 7.16 million members and 13.8 million DNS records, funded by 5,593 premium accounts at $5 a month. The shared-domain pool that makes it handy for home servers has also made it a long-standing abuse vector.",
+      "summary": "Free dynamic DNS and shared subdomains, run by one person, Joshua Anderson, since 2001. The homepage counts 7.16 million members and 13.8 million DNS ...",
+      "content_html": "<blockquote>Free dynamic DNS and shared subdomains, run by one person, Joshua Anderson, since 2001. The homepage counts 7.16 million members and 13.8 million DNS records, funded by 5,593 premium accounts at $5 a month. The shared-domain pool that makes it handy for home servers has also made it a long-standing abuse vector.</blockquote>\n<p><strong>Tags:</strong> infrastructure, internet, networks, free, tool</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045592",
+      "url": "https://mili.dev/writing/black-october/",
+      "title": "Black October",
+      "date_published": "2026-10-24T18:37:25.592Z",
+      "tags": [
+        "ai",
+        "security",
+        "infosec",
+        "open-weights"
+      ],
+      "content_text": "A self-described tech optimist, two days in: 'We're 48 hours into what is being called Black October.' The documented core is real. CNBC reports that Wiz and Calif found major PHP flaws in August using OpenAI and Google models, and the scramble started when the findings leaked online. Security press says many of the attacks had been running for months, so the surge is partly a wave of disclosures. The essay's claims of 'fast takeoff' and a Chinese plan are unsourced.",
+      "summary": "A self-described tech optimist, two days in: 'We're 48 hours into what is being called Black October.' The documented core is real. CNBC reports that ...",
+      "content_html": "<blockquote>A self-described tech optimist, two days in: &#039;We&#039;re 48 hours into what is being called Black October.&#039; The documented core is real. CNBC reports that Wiz and Calif found major PHP flaws in August using OpenAI and Google models, and the scramble started when the findings leaked online. Security press says many of the attacks had been running for months, so the surge is partly a wave of disclosures. The essay&#039;s claims of &#039;fast takeoff&#039; and a Chinese plan are unsourced.</blockquote>\n<p><strong>Tags:</strong> ai, security, infosec, open-weights</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1792867045544",
+      "url": "https://www.cdc.gov/fluview/surveillance/2026-week-41.html",
+      "title": "CDC FluView: Week 41 (ending Oct. 17, 2026)",
+      "date_published": "2026-10-24T18:37:25.544Z",
+      "tags": [
+        "health",
+        "science",
+        "government",
+        "data"
+      ],
+      "content_text": "CDC's summary says flu activity is 'increasing in many parts of the country but remains low,' yet hospitalizations hit 'the highest weekly rate for Week 41 since the 2010-2011 season.' Clinical-lab positivity is 5.7%, while outpatient flu-like illness is 2.2%, under the 2.9% baseline. The signal is in labs and hospitals, not clinics. Nearly all subtyped A viruses are H1N1, a subclade CDC says is 'dividing into different groups.' Also in the report: one human H5N1 case, and eight H1N1 viruses with reduced susceptibility to oseltamivir (Tamiflu).",
+      "summary": "CDC's summary says flu activity is 'increasing in many parts of the country but remains low,' yet hospitalizations hit 'the highest weekly rate for We...",
+      "content_html": "<blockquote>CDC&#039;s summary says flu activity is &#039;increasing in many parts of the country but remains low,&#039; yet hospitalizations hit &#039;the highest weekly rate for Week 41 since the 2010-2011 season.&#039; Clinical-lab positivity is 5.7%, while outpatient flu-like illness is 2.2%, under the 2.9% baseline. The signal is in labs and hospitals, not clinics. Nearly all subtyped A viruses are H1N1, a subclade CDC says is &#039;dividing into different groups.&#039; Also in the report: one human H5N1 case, and eight H1N1 viruses with reduced susceptibility to oseltamivir (Tamiflu).</blockquote>\n<p><strong>Tags:</strong> health, science, government, data</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1792492964591",
       "url": "https://ipinfo.io/blog/france-fridges-hack",
       "title": "France's Supermarket Fridges Were Vulnerable Online for Months",

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-20T10:42:44.591Z</updated>
+    <updated>2026-10-24T18:37:25.864Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,69 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[CNN montage of Trump talking about other men]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045864</id>
+        <link href="https://x.com/Acyn/status/2113074113128607868"/>
+        <updated>2026-10-24T18:37:25.864Z</updated>
+        <summary type="html"><![CDATA[Tags: politics, media, video, tv]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quest Diagnostics discloses breach of its Quanum lab-ordering system]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045825</id>
+        <link href="https://www.questdiagnostics.com/links/quanum-notice"/>
+        <updated>2026-10-24T18:37:25.825Z</updated>
+        <summary type="html"><![CDATA[Tags: health, privacy, security, data, breach]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple WWDC26: Build AI-powered scripts with the fm CLI and Python SDK]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045787</id>
+        <link href="https://developer.apple.com/videos/play/wwdc2026/334/"/>
+        <updated>2026-10-24T18:37:25.787Z</updated>
+        <summary type="html"><![CDATA[Tags: apple, ai, llm, python, tool]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How does Fable 5.1 hide messages in images?]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045749</id>
+        <link href="https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images"/>
+        <updated>2026-10-24T18:37:25.749Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, safety, research, anthropic, steganography]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uncommon Web: a field guide to stylistically unusual web libraries]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045711</id>
+        <link href="https://webdev.teknium.io/"/>
+        <updated>2026-10-24T18:37:25.711Z</updated>
+        <summary type="html"><![CDATA[Tags: design, code, css, open-source, collection]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Settling for Less: Warren report on Trump antitrust settlements]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045672</id>
+        <link href="https://www.warren.senate.gov/wp-content/uploads/2026/10/Settling-for-Less-Warren-10.20.26.pdf"/>
+        <updated>2026-10-24T18:37:25.672Z</updated>
+        <summary type="html"><![CDATA[Tags: politics, government, legal, report, antitrust]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FreeDNS (afraid.org)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045632</id>
+        <link href="https://freedns.afraid.org/"/>
+        <updated>2026-10-24T18:37:25.632Z</updated>
+        <summary type="html"><![CDATA[Tags: infrastructure, internet, networks, free, tool]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black October]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045592</id>
+        <link href="https://mili.dev/writing/black-october/"/>
+        <updated>2026-10-24T18:37:25.592Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, security, infosec, open-weights]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CDC FluView: Week 41 (ending Oct. 17, 2026)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1792867045544</id>
+        <link href="https://www.cdc.gov/fluview/surveillance/2026-week-41.html"/>
+        <updated>2026-10-24T18:37:25.544Z</updated>
+        <summary type="html"><![CDATA[Tags: health, science, government, data]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[France's Supermarket Fridges Were Vulnerable Online for Months]]></title>
         <id>tag:newsfeeds.net,2026:link/1792492964591</id>
