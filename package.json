@@ -85,5 +85,9 @@
   },
   "allowScripts": {
     "puppeteer@25.10.0": true
+  },
+  "overrides": {
+    "postcss-selector-parser": "^7.1.7",
+    "compression": "^1.8.2"
   }
 }
