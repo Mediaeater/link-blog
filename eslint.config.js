@@ -28,6 +28,8 @@ export default [
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
+      // eslint 9 started flagging unused catch bindings; keep eslint 8's behaviour
+      'no-unused-vars': ['error', { caughtErrors: 'none' }],
       'react/jsx-no-target-blank': 'off',
       'react/prop-types': 'off',
       'react-refresh/only-export-components': [
@@ -49,6 +51,8 @@ export default [
     },
     rules: {
       ...js.configs.recommended.rules,
+      // eslint 9 started flagging unused catch bindings; keep eslint 8's behaviour
+      'no-unused-vars': ['error', { caughtErrors: 'none' }],
     },
   },
 ]
