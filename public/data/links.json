@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1793016970550,
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "source": "AI and the Fall? of the Creative Class",
+      "pullQuote": "Politano counts \"more than 200k jobs\" lost in US creative industries over four years, with movie and TV \"losing more than 100k jobs, nearly one-third of the sector's total,\" and \"all subsectors of the digital arts industry are losing jobs, while in-person entertainment is still growing.\" The honest part is the hedge: proving AI's share is \"extremely difficult\" because studios won't disclose AI use, partly to protect their copyrights, and Hollywood consolidation, offshoring, and the creator-economy shift were already biting. His analogy is newspapers, whose payrolls are \"down nearly 85% and still dropping,\" offered as a worst case, not a forecast.",
+      "tags": [
+        "ai",
+        "workforce",
+        "hollywood",
+        "media",
+        "labor-economics"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-26T12:16:10.550Z",
+      "visits": 0
+    },
+    {
+      "id": 1793016970408,
+      "url": "https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK",
+      "source": "FRED: Generative AI Adoption Rate for Work, Employed Adults",
+      "pullQuote": "The St. Louis Fed's Real-Time Population Survey tracker puts generative AI use at work at 40.5% of employed US adults aged 18 to 64 as of Q3 2026, from a single survey question: \"Do you use Generative AI for your job?\" Quarterly, not seasonally adjusted, and self-reported, so it measures touching the tools, not dependence on them. It's the cleanest public series for the adoption curve, and a useful counterweight to vendor-reported usage numbers.",
+      "tags": [
+        "ai",
+        "data",
+        "workforce",
+        "research",
+        "report"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-10-26T12:16:10.408Z",
+      "visits": 0
+    },
+    {
       "id": 1792867045825,
       "url": "https://www.questdiagnostics.com/links/quanum-notice",
       "source": "Quest Diagnostics discloses breach of its Quanum lab-ordering system",
@@ -11801,5 +11833,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-10-24T18:37:25.864Z"
+  "lastUpdated": "2026-10-26T12:16:10.550Z"
 }

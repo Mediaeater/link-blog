@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1793016970550",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "title": "AI and the Fall? of the Creative Class",
+      "date_published": "2026-10-26T12:16:10.550Z",
+      "tags": [
+        "ai",
+        "workforce",
+        "hollywood",
+        "media",
+        "labor-economics"
+      ],
+      "content_text": "Politano counts \"more than 200k jobs\" lost in US creative industries over four years, with movie and TV \"losing more than 100k jobs, nearly one-third of the sector's total,\" and \"all subsectors of the digital arts industry are losing jobs, while in-person entertainment is still growing.\" The honest part is the hedge: proving AI's share is \"extremely difficult\" because studios won't disclose AI use, partly to protect their copyrights, and Hollywood consolidation, offshoring, and the creator-economy shift were already biting. His analogy is newspapers, whose payrolls are \"down nearly 85% and still dropping,\" offered as a worst case, not a forecast.",
+      "summary": "Politano counts \"more than 200k jobs\" lost in US creative industries over four years, with movie and TV \"losing more than 100k jobs, nearly one-third ...",
+      "content_html": "<blockquote>Politano counts &quot;more than 200k jobs&quot; lost in US creative industries over four years, with movie and TV &quot;losing more than 100k jobs, nearly one-third of the sector&#039;s total,&quot; and &quot;all subsectors of the digital arts industry are losing jobs, while in-person entertainment is still growing.&quot; The honest part is the hedge: proving AI&#039;s share is &quot;extremely difficult&quot; because studios won&#039;t disclose AI use, partly to protect their copyrights, and Hollywood consolidation, offshoring, and the creator-economy shift were already biting. His analogy is newspapers, whose payrolls are &quot;down nearly 85% and still dropping,&quot; offered as a worst case, not a forecast.</blockquote>\n<p><strong>Tags:</strong> ai, workforce, hollywood, media, labor-economics</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1793016970408",
+      "url": "https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK",
+      "title": "FRED: Generative AI Adoption Rate for Work, Employed Adults",
+      "date_published": "2026-10-26T12:16:10.408Z",
+      "tags": [
+        "ai",
+        "data",
+        "workforce",
+        "research",
+        "report"
+      ],
+      "content_text": "The St. Louis Fed's Real-Time Population Survey tracker puts generative AI use at work at 40.5% of employed US adults aged 18 to 64 as of Q3 2026, from a single survey question: \"Do you use Generative AI for your job?\" Quarterly, not seasonally adjusted, and self-reported, so it measures touching the tools, not dependence on them. It's the cleanest public series for the adoption curve, and a useful counterweight to vendor-reported usage numbers.",
+      "summary": "The St. Louis Fed's Real-Time Population Survey tracker puts generative AI use at work at 40.5% of employed US adults aged 18 to 64 as of Q3 2026, fro...",
+      "content_html": "<blockquote>The St. Louis Fed&#039;s Real-Time Population Survey tracker puts generative AI use at work at 40.5% of employed US adults aged 18 to 64 as of Q3 2026, from a single survey question: &quot;Do you use Generative AI for your job?&quot; Quarterly, not seasonally adjusted, and self-reported, so it measures touching the tools, not dependence on them. It&#039;s the cleanest public series for the adoption curve, and a useful counterweight to vendor-reported usage numbers.</blockquote>\n<p><strong>Tags:</strong> ai, data, workforce, research, report</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1792867045825",
       "url": "https://www.questdiagnostics.com/links/quanum-notice",
       "title": "Quest Diagnostics discloses breach of its Quanum lab-ordering system",

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-10-24T18:37:25.864Z</updated>
+    <updated>2026-10-26T12:16:10.550Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[AI and the Fall? of the Creative Class]]></title>
+        <id>tag:newsfeeds.net,2026:link/1793016970550</id>
+        <link href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"/>
+        <updated>2026-10-26T12:16:10.550Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, workforce, hollywood, media, labor-economics]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FRED: Generative AI Adoption Rate for Work, Employed Adults]]></title>
+        <id>tag:newsfeeds.net,2026:link/1793016970408</id>
+        <link href="https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK"/>
+        <updated>2026-10-26T12:16:10.408Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, data, workforce, research, report]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Quest Diagnostics discloses breach of its Quanum lab-ordering system]]></title>
         <id>tag:newsfeeds.net,2026:link/1792867045825</id>
