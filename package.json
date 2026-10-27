@@ -58,7 +58,7 @@
     "express": "^5.2.1",
     "express-rate-limit": "^8.7.0",
     "lucide-react": "^1.61.0",
-    "react": "^19.3.0",
+    "react": "^19.3.1",
     "react-dom": "^19.3.0",
     "tailwind-merge": "^2.6.1"
   },
