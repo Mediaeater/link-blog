@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1793637664345",
+      "url": "https://www.washingtonpost.com/opinions/2026/11/02/facial-recognition-is-valuable-easy-police-misuse/",
+      "title": "Let's face it: This valuable technology is easy for police to misuse",
+      "date_published": "2026-11-02T16:41:04.345Z",
+      "tags": [
+        "facial-recognition",
+        "policing",
+        "surveillance",
+        "justice",
+        "ai"
+      ],
+      "content_text": "Op-ed by a director at the James Madison Institute, a free-market Florida think tank, which is what makes it notable: this isn't the ACLU talking. Two Jacksonville cases: Robert Dillon, arrested 300 miles from a McDonald's he'd never visited, and Jalil Richardson, who spent nearly three months in jail on an \"85 percent match\" and lost his job, home, and custody of two children before time cards showed he was at work in North Carolina. \"In both cases described above, the technology worked as intended … The problems began when law enforcement treated that response as evidence, rather than a lead.\" The buried detail: in Dillon's case a license plate reader search showed no sign of his car near the restaurant. \"The evidence that could have cleared him was there but was ignored.\" The fix Longe wants is Detroit's 2024 Williams settlement and Maryland's law: a match can never be the sole basis for probable cause.",
+      "summary": "Op-ed by a director at the James Madison Institute, a free-market Florida think tank, which is what makes it notable: this isn't the ACLU talking. Two...",
+      "content_html": "<blockquote>Op-ed by a director at the James Madison Institute, a free-market Florida think tank, which is what makes it notable: this isn&#039;t the ACLU talking. Two Jacksonville cases: Robert Dillon, arrested 300 miles from a McDonald&#039;s he&#039;d never visited, and Jalil Richardson, who spent nearly three months in jail on an &quot;85 percent match&quot; and lost his job, home, and custody of two children before time cards showed he was at work in North Carolina. &quot;In both cases described above, the technology worked as intended … The problems began when law enforcement treated that response as evidence, rather than a lead.&quot; The buried detail: in Dillon&#039;s case a license plate reader search showed no sign of his car near the restaurant. &quot;The evidence that could have cleared him was there but was ignored.&quot; The fix Longe wants is Detroit&#039;s 2024 Williams settlement and Maryland&#039;s law: a match can never be the sole basis for probable cause.</blockquote>\n<p><strong>Tags:</strong> facial-recognition, policing, surveillance, justice, ai</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1793019188812",
       "url": "https://ai.google/economy/atlas/",
       "title": "ATLAS: Mapping AI's impact on work and daily life",
