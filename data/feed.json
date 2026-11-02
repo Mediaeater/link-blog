@@ -15,6 +15,63 @@
   ],
   "items": [
     {
+      "id": "1793648919319",
+      "url": "https://eva.ac/blog/llms/",
+      "title": "so i guess everyone uses llms to think now",
+      "date_published": "2026-11-02T19:48:39.319Z",
+      "tags": [
+        "security",
+        "infosec",
+        "llm",
+        "research"
+      ],
+      "content_text": "A security researcher on why their published research has never touched an LLM: \"if you threw an llm at the linux kernel and told it to find an rce without any other guidance, it probably couldn't.\" The sharper half is about disclosure-as-marketing. The \"tailworm\" Tailscale bug was real but narrow (needed existing ACL access and Tailscale SSH on), was never disclosed to Tailscale, and was rolled out as a hash, then teasers, then a vibe-coded site: \"it was to advertise the company, not to help make the world better.\" Contrast: the eMudhra CA private-key exposure was found by a human running Google's paranoid_crypto. \"That's what's beautiful about it in my opinion, the biggest thing of them all was missed by all these ais.\" Mostly opinion, no sources for the motive claims.",
+      "summary": "A security researcher on why their published research has never touched an LLM: \"if you threw an llm at the linux kernel and told it to find an rce wi...",
+      "content_html": "<blockquote>A security researcher on why their published research has never touched an LLM: &quot;if you threw an llm at the linux kernel and told it to find an rce without any other guidance, it probably couldn&#039;t.&quot; The sharper half is about disclosure-as-marketing. The &quot;tailworm&quot; Tailscale bug was real but narrow (needed existing ACL access and Tailscale SSH on), was never disclosed to Tailscale, and was rolled out as a hash, then teasers, then a vibe-coded site: &quot;it was to advertise the company, not to help make the world better.&quot; Contrast: the eMudhra CA private-key exposure was found by a human running Google&#039;s paranoid_crypto. &quot;That&#039;s what&#039;s beautiful about it in my opinion, the biggest thing of them all was missed by all these ais.&quot; Mostly opinion, no sources for the motive claims.</blockquote>\n<p><strong>Tags:</strong> security, infosec, llm, research</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1793648919179",
+      "url": "https://pluralistic.net/2026/10/31/burn-berne/#unvictored",
+      "title": "Pluralistic: Formalities (31 Oct 2026)",
+      "date_published": "2026-11-02T19:48:39.179Z",
+      "tags": [
+        "copyright",
+        "ai",
+        "legal",
+        "artists"
+      ],
+      "content_text": "Doctorow, who usually fights the Copyright Office, backs its AI position: copyright \"exists to incentivize human acts of creative expression,\" not to protect investment. The monkey-selfie rule applies, and \"an algorithm is even less human than a monkey.\" The practical consequence is the interesting part: \"If a firm uses some AI in its work, it's going to need to document that very carefully. Basically, we're about to recreate formalities, but managed by the private sector.\" Berne abolished registration, deposit, and notice, which \"created a universe of orphan works.\" AI-era copyright brings formalities back through the side door, with the record-keeping burden landing on the companies that use AI, not on artists.",
+      "summary": "Doctorow, who usually fights the Copyright Office, backs its AI position: copyright \"exists to incentivize human acts of creative expression,\" not to ...",
+      "content_html": "<blockquote>Doctorow, who usually fights the Copyright Office, backs its AI position: copyright &quot;exists to incentivize human acts of creative expression,&quot; not to protect investment. The monkey-selfie rule applies, and &quot;an algorithm is even less human than a monkey.&quot; The practical consequence is the interesting part: &quot;If a firm uses some AI in its work, it&#039;s going to need to document that very carefully. Basically, we&#039;re about to recreate formalities, but managed by the private sector.&quot; Berne abolished registration, deposit, and notice, which &quot;created a universe of orphan works.&quot; AI-era copyright brings formalities back through the side door, with the record-keeping burden landing on the companies that use AI, not on artists.</blockquote>\n<p><strong>Tags:</strong> copyright, ai, legal, artists</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1793648919026",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "title": "AI text watermarking and quality loss",
+      "date_published": "2026-11-02T19:48:39.026Z",
+      "tags": [
+        "ai",
+        "llm",
+        "watermarking",
+        "regulation"
+      ],
+      "content_text": "Labs say watermarking costs nothing in quality. Keyvan's point: \"their no-quality-impact claim, which they tested with humans, is based on single responses.\" The SynthID-Text supplement itself concedes a diversity/detectability trade-off: the watermark \"does not necessarily preserve diversity across multiple responses\" and \"could lower the overall quality of a system which generates many responses then selects the best one.\" That's exactly how people use these things: regenerate, retry, sample for consensus. In a small test on an open reproduction, four of five watermarked answers opened with nearly the same sentence. \"Like throwing a loaded die, you'll see similar responses more than you would with an unwatermarked model.\" A SynthID co-author's answer was that there are \"a lot of easy fixes,\" which shifts the burden to users. Caveat: five samples, not Claude or Gemini.",
+      "summary": "Labs say watermarking costs nothing in quality. Keyvan's point: \"their no-quality-impact claim, which they tested with humans, is based on single resp...",
+      "content_html": "<blockquote>Labs say watermarking costs nothing in quality. Keyvan&#039;s point: &quot;their no-quality-impact claim, which they tested with humans, is based on single responses.&quot; The SynthID-Text supplement itself concedes a diversity/detectability trade-off: the watermark &quot;does not necessarily preserve diversity across multiple responses&quot; and &quot;could lower the overall quality of a system which generates many responses then selects the best one.&quot; That&#039;s exactly how people use these things: regenerate, retry, sample for consensus. In a small test on an open reproduction, four of five watermarked answers opened with nearly the same sentence. &quot;Like throwing a loaded die, you&#039;ll see similar responses more than you would with an unwatermarked model.&quot; A SynthID co-author&#039;s answer was that there are &quot;a lot of easy fixes,&quot; which shifts the burden to users. Caveat: five samples, not Claude or Gemini.</blockquote>\n<p><strong>Tags:</strong> ai, llm, watermarking, regulation</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1793637664345",
       "url": "https://www.washingtonpost.com/opinions/2026/11/02/facial-recognition-is-valuable-easy-police-misuse/",
       "title": "Let's face it: This valuable technology is easy for police to misuse",
