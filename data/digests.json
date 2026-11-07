@@ -1186,6 +1186,64 @@
       "writeup": "The ad is the payload. Citizen Lab says an Israeli agency, Discover-Tech, runs a platform called Controlium that uses ordinary programmatic ads to \"mass-profile and deanonymise\" users, then hands chosen targets to mercenary spyware firms for zero-click infection. Dozens of devices at Al Jazeera were allegedly compromised, and Confiant found the same ads served inside government, UN, Nato and ICC networks. Bill Marczak: \"now for the first time, we have concrete technical evidence showing this process in action.\" Discover-Tech has been approached for comment. The prequel is a 2014 ProPublica timeline. Facebook's CTO in 2011 said Like buttons \"are not intended for tracking.\" In June 2014 the company told Ad Age it would track users across the web through those same widgets, with no opt-out in privacy settings.\n\nWho gets to use the machine. At Frankfurt, Bloomsbury's Nigel Newton talked up AI for productivity while authors got warnings. Steve Rosenbaum: \"Why is AI an exciting business opportunity when publishers use it, but a potential ethical scandal when authors do?\" Elisabeth Jaquette's answer is one rule for both: \"We're holding writers and translators to the same rules that we're holding ourselves to.\" Meanwhile a GitHub list tallies 401 AI-assisted reverse-engineering cases, updated every four hours: 87 in game preservation, 90 hardware, 184 apps and clients, 40 algorithm recoveries, all \"based on author and project reports; not independently reproduced here.\"\n\nReading built in. Anthony Fu's Furifont compiles Source Han Sans with the furigana drawn into OpenType ligatures, so 今日 is one glyph with きょう above it and no ruby markup. The limit is the format: \"a font sees one run of kanji at a time, not the sentence around it.\"",
       "seoTitle": "Served, Not Clicked · Oct 2026 | newsfeeds.net",
       "seoDescription": "Citizen Lab finds programmatic ads delivering zero-click spyware, publishers hold authors to AI rules they skip themselves, and a Japanese font draws its own furigana."
+    },
+    {
+      "id": 34,
+      "timestamp": "2026-11-07T14:40:55.040Z",
+      "linkIds": [
+        1792492964591,
+        1792867045592,
+        1792867045632,
+        1792867045825,
+        1793637664345,
+        1793648919319
+      ],
+      "count": 6,
+      "filename": "digest-034-2026-11-07.html",
+      "weekStart": "2026-10-20",
+      "weekEnd": "2026-11-02",
+      "title": "Oct 20 - Nov 2, 2026",
+      "writeup": "Open to anyone. On the night of Oct 11–12, attackers switched refrigeration controllers in hundreds of French supermarkets into defrost mode, and some units caught fire. IPinfo's scans a week earlier counted 1,331 open Danfoss dashboards in France against 1,197 across 72 other countries. 1,019 of them had been at the same address in March. Patching was no worse than elsewhere, with 85% running software with known flaws. The difference was that \"anyone who typed in the address could open it.\" IPinfo says reachable isn't breached, and nobody has said who did it. One person, Joshua Anderson, has run FreeDNS since 2001: 7.16 million members and 13.8 million records, paid for by 5,593 premium accounts at $5 a month. The shared subdomains that make it handy for home servers have also made it a long-standing abuse vector. Quest says \"some patient data within Quanum LSM was accessed,\" the system clinicians use to order tests and read results. It gives no patient count, no breach window and no point of entry. Quest's 2019 breach of about 11.9 million patients went through a billing vendor. This one was its own system.\n\nWho found the bug. A self-described tech optimist writes from 48 hours into \"what is being called Black October.\" CNBC reports that Wiz and Calif found major PHP flaws in August using OpenAI and Google models, and the scramble began when the findings leaked. Security press says many of the attacks had been running for months, so part of the surge is disclosure. The essay's \"fast takeoff\" and Chinese-plan claims carry no sources. A security researcher explains why their published work has never touched an LLM. \"If you threw an llm at the linux kernel and told it to find an rce without any other guidance, it probably couldn't.\" The \"tailworm\" Tailscale bug needed existing ACL access and Tailscale SSH to work. It was never disclosed to Tailscale and launched as a hash, then teasers, then a vibe-coded site, \"to advertise the company.\" A human running Google's paranoid_crypto found the eMudhra CA private-key exposure.\n\nA lead, treated as evidence. The Washington Post op-ed against police misuse of facial recognition comes from a director at the James Madison Institute, a free-market Florida think tank. In Jacksonville, Robert Dillon was arrested over a McDonald's 300 miles away that he'd never visited, though a license plate reader search showed no sign of his car there. Jalil Richardson spent nearly three months in jail on an \"85 percent match.\" He lost his job, his home and custody of two children before time cards placed him at work in North Carolina. \"The technology worked as intended … The problems began when law enforcement treated that response as evidence, rather than a lead.\" The fix it wants is Detroit's 2024 Williams settlement and Maryland's law: a match can never be the sole basis for probable cause.",
+      "seoTitle": "Open to Anyone · Nov 2026 | newsfeeds.net"
+    },
+    {
+      "id": 35,
+      "timestamp": "2026-11-07T14:41:16.808Z",
+      "linkIds": [
+        1792867045544,
+        1792867045749,
+        1792867045787,
+        1793016970408,
+        1793016970550,
+        1793019188812,
+        1793648919026
+      ],
+      "count": 7,
+      "filename": "digest-035-2026-11-07.html",
+      "weekStart": "2026-10-24",
+      "weekEnd": "2026-11-02",
+      "title": "Oct 24 - Nov 2, 2026",
+      "writeup": "Counting AI at work. The St. Louis Fed's Real-Time Population Survey puts generative AI use at work at 40.5% of employed US adults aged 18 to 64 in Q3 2026. It rests on one self-reported question, \"Do you use Generative AI for your job?\", so it counts anyone who touches the tools. Google's ATLAS maps about 15 million de-identified Gemini interactions from two weeks in April onto \"800 occupations, 4000 tasks, 300 household activities, 150 countries.\" AI shows up in 68% of occupations and about 21% of a typical job's tasks, and \"fewer than 10%\" of work interactions fully automate a task. That last number measures user intent, and outcomes aren't in the data. The sample leaves out Workspace, AI Overviews and enterprise Gemini, and it measures activity on Google products, not employment, wages or hours. Politano at Apricitas counts \"more than 200k jobs\" lost in US creative industries over four years, with movie and TV down \"nearly one-third of the sector's total\" while in-person entertainment grows. He calls proving AI's share \"extremely difficult,\" because studios won't disclose AI use and consolidation, offshoring and the creator economy were already biting. He offers newspapers, with payrolls \"down nearly 85%,\" as the worst case.\n\nThe fine print. Labs say watermarking costs nothing in quality. Keyvan points out that the claim \"is based on single responses,\" and the SynthID-Text supplement concedes the watermark \"does not necessarily preserve diversity across multiple responses.\" People regenerate, retry and sample for consensus. In a five-sample test on an open reproduction, four of five watermarked answers opened with nearly the same sentence, and a SynthID co-author says there are \"a lot of easy fixes.\" Apple ships an fm command-line tool in macOS 27 and a Python SDK for its on-device Foundation Models. The default model runs locally, and the larger Private Cloud Compute model is one flag away, \"with usage limits\" the session never quantifies. CDC's Week 41 summary says flu activity \"remains low,\" and hospitalizations hit \"the highest weekly rate for Week 41 since the 2010-2011 season.\" Lab positivity is 5.7% and outpatient flu-like illness is 2.2%, under the 2.9% baseline, so the signal is in labs and hospitals. The report also logs one human H5N1 case and eight H1N1 viruses with reduced susceptibility to Tamiflu.\n\nA code nobody agreed on. Told to hide a message in an SVG with no scheme agreed, Fable 5.1 invented one, most often mapping each letter to the height of an element: skyline buildings, grass blades. A fresh Fable instance shown only the screenshot recovered 78% of 50 messages, and GPT-6 Astra decoded the images at 88%. The hiding was instructed, and for now the decoder's tool calls give it away. The authors call it \"a precursor to steganography in images.\"",
+      "seoTitle": "Fine Print · Nov 2026 | newsfeeds.net"
+    },
+    {
+      "id": 36,
+      "timestamp": "2026-11-07T14:41:29.902Z",
+      "linkIds": [
+        1792347761536,
+        1792454382384,
+        1792461231512,
+        1792867045672,
+        1792867045711,
+        1793648919179
+      ],
+      "count": 6,
+      "filename": "digest-036-2026-11-07.html",
+      "weekStart": "2026-10-18",
+      "weekEnd": "2026-11-02",
+      "title": "Oct 18 - Nov 2, 2026",
+      "writeup": "Taking it back. Four Supreme Court justices recused without explanation, leaving the Court one short of a quorum, so the 5th Circuit's ruling stands. Songwriter Cyril Vetter used US termination rights to reclaim \"Double Shot (Of My Baby's Love)\" and is now \"sole owner of all right, title and interest throughout the world.\" BMG, Sony, Universal and Warner say the ruling \"unsettled 50 years of industry practice.\" It sets no national precedent, but artists in the 5th Circuit now have a path to reclaim foreign rights as well as US ones. Doctorow, who usually fights the Copyright Office, backs its AI position that copyright \"exists to incentivize human acts of creative expression,\" and \"an algorithm is even less human than a monkey.\" Berne abolished registration, deposit and notice, which \"created a universe of orphan works.\" Firms that use AI will have to document it carefully: \"we're about to recreate formalities, but managed by the private sector.\"\n\nWho pays. New York City is raising its artist grants from a $5,000 maximum to $10,000, the first raise in nearly two decades. The money goes out through five borough partners with their own rules. Brooklyn's Oct 11 and the Bronx's Oct 30 deadlines have passed. Lower Manhattan closes Nov 12, Queens Nov 17, and Staten Island opens in November. Sen. Elizabeth Warren's report says DOJ and the FTC waved through large mergers over career-staff objections and settled cases for small fines and behavioral promises, with no admission of wrongdoing. Its pay-to-play charge rests on merger beneficiaries giving millions to Trump political committees, a pattern in the timing that doesn't prove a trade. The best-documented case is HPE-Juniper, where senior officials reportedly overruled antitrust chief Gail Slater.\n\nKeeping the record. The Fondazione Giulio e Anna Paolini in Turin holds the artist's archives from the early 1960s on and publishes the catalogue raisonné of every work since 1960 as open access. The print edition stopped at two volumes in 2008. Paolini, born in Genoa in 1940 and a fixture of Arte Povera, is in a Saffo group show at the Colosseum's Uccelliere Farnesiane through January 2027. Uncommon Web catalogs \"425 web libraries and components with a strong point of view,\" from dithered shaders to Windows 98 as a stylesheet. Every card runs the real library live, with zero CDN requests. It's a catalogue and says nothing about which libraries are maintained.",
+      "seoTitle": "Taking It Back · Nov 2026 | newsfeeds.net"
     }
   ],
   "cadence": "weekly"
