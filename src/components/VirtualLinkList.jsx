@@ -204,8 +204,12 @@ export default function VirtualLinkList({ links, renderItem }) {
     // above; the browser's native scroll anchoring would double-correct.
     <div ref={containerRef} style={{ overflowAnchor: 'none' }}>
       {topSpacerH > 0 && <div style={{ height: topSpacerH }} />}
+      {/* flow-root keeps child margins (the year header's mt-6) inside each
+          wrapper, so getBoundingClientRect measures the space the item really
+          takes. Without it the margin collapses out, the cached height comes
+          up short, and content jumps when the item leaves the rendered range. */}
       {itemMeta.slice(start, end + 1).map((meta) => (
-        <div key={meta.key} ref={(el) => measureItem(el, meta)}>
+        <div key={meta.key} ref={(el) => measureItem(el, meta)} style={{ display: 'flow-root' }}>
           {renderItem(meta.link, meta.index, meta.showYearHeader, meta.year)}
         </div>
       ))}

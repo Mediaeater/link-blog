@@ -1,32 +1,43 @@
-import { prepare, layout } from '@chenglou/pretext'
+import { prepare, layout, measureNaturalWidth } from '@chenglou/pretext'
 
-// Fonts matching the actual CSS (body font-family in index.css) —
-// (title height is a fixed constant below — only the pull quote is measured
-// with pretext). Keep this in sync with the body font stack: measuring with
-// the wrong family miscounts wrapped lines and causes scroll-jitter churn.
-const PULL_QUOTE_FONT = "italic 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+// Fonts matching the actual CSS (body font-family in index.css). Title and
+// domain are fixed one-line constants; the pull quote and tag widths are
+// measured with pretext. Keep these in sync with the body font stack:
+// measuring with the wrong family miscounts wrapped lines and causes
+// scroll-jitter churn.
+const FONT_STACK = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+const PULL_QUOTE_FONT = `italic 14px ${FONT_STACK}` // text-sm italic
+const TAG_FONT = `13px ${FONT_STACK}`               // .tag: var(--fs-xs)
 
-// The quote paragraph is narrower than the virtual-list container
-// (flex gap + icon column): measured 1056px inside a 1104px container.
-const QUOTE_TEXT_INSET = 48
+// The content column (quote, tags) is narrower than the virtual-list
+// container: flex gap-4 (16px) + the hover action column (32px button).
+const CONTENT_INSET = 48
 
 // Line heights from Tailwind/CSS
 const BODY_LINE_HEIGHT = 27.2    // 17px * 1.6
 const PULL_QUOTE_LINE_HEIGHT = 20 // text-sm: 14px / 20px
 
-// Fixed card chrome (from CSS inspection)
+// Fixed card chrome. Calibrated against the live DOM 2026-11-07
+// (Tailwind 4, system sans): every term below matches its element's
+// getBoundingClientRect height, so there is no residual fudge term.
 const CARD_PAD_TOP = 24          // py-6
 const CARD_PAD_BOTTOM = 24       // py-6
 const CARD_BORDER = 1            // border-b
 const DOMAIN_LINE = 20           // text-sm truncate, 1 line
 const QUOTE_MARGIN_TOP = 8       // mt-2
+const PARAGRAPH_GAP = 8          // space-y-2
 const TAGS_MARGIN_TOP = 12       // mt-3
-const TAG_ROW_HEIGHT = 28        // tag button height + flex gap
+const TAG_LINE_HEIGHT = 20.8     // 13px * 1.6
+const TAG_HEIGHT = 28.8          // py-1 + one line
+const TAG_PAD_X = 16             // px-2
+const TAG_GAP = 4                // gap-1, both axes
 const DATE_MARGIN_TOP = 12       // mt-3
 const DATE_LINE = 16             // text-xs, 1 line
-const PARAGRAPH_GAP = 8          // space-y-2
 
-const YEAR_HEADER_HEIGHT = 72    // py-4 mt-6 mb-2 border-t-2 + h2
+// Year divider: mt-6 (24) + border-t-2 (2) + py-4 (32) + text-xl h2 (28)
+// + mb-2 (8). Includes the top margin because VirtualLinkList wraps each
+// item in a flow-root div, so the margin is inside the measured box.
+const YEAR_HEADER_HEIGHT = 94
 
 // Cache prepared texts to avoid re-measuring
 const preparedCache = new Map()
@@ -39,55 +50,82 @@ function getPrepared(text, font, options) {
   return p
 }
 
-function measurePullQuote(text, width) {
-  const paragraphs = text.split('\n\n')
-  let height = 0
+// Rewrite one quote paragraph the way the card renders it: white-space is
+// normal (spaces collapse, edges trim) and each '\n' becomes a <br>. A
+// segment followed by a <br> always makes a line box; a trailing
+// whitespace-only segment makes none, so an empty paragraph is 0px tall.
+function renderedLines(paragraph) {
+  const segs = paragraph.split('\n').map(s => s.replace(/\s+/g, ' ').trim())
+  if (segs[segs.length - 1] === '') segs.pop()
+  return segs
+}
 
-  for (let i = 0; i < paragraphs.length; i++) {
-    if (i > 0) height += PARAGRAPH_GAP
-    const prepared = getPrepared(paragraphs[i], PULL_QUOTE_FONT, { whiteSpace: 'pre-wrap' })
-    const result = layout(prepared, width, PULL_QUOTE_LINE_HEIGHT)
-    height += result.height
+function measurePullQuote(text, width) {
+  let height = 0
+  let visible = 0
+
+  for (const paragraph of text.split('\n\n')) {
+    let ph = 0
+    for (const line of renderedLines(paragraph)) {
+      if (line === '') { ph += PULL_QUOTE_LINE_HEIGHT; continue }
+      const prepared = getPrepared(line, PULL_QUOTE_FONT)
+      ph += layout(prepared, width, PULL_QUOTE_LINE_HEIGHT).height
+    }
+    // A 0px paragraph lets the space-y-2 margins on either side collapse
+    // through it, and a trailing gap collapses into the tags/date mt-3. So
+    // gaps only separate paragraphs that actually render.
+    if (ph > 0) {
+      if (visible > 0) height += PARAGRAPH_GAP
+      height += ph
+      visible++
+    }
   }
 
   return height
 }
 
+function measureTags(tags, width) {
+  let height = 0
+  let rowHeight = 0
+  let rowWidth = 0
+  for (const tag of tags) {
+    const prepared = getPrepared(tag, TAG_FONT)
+    let tw = measureNaturalWidth(prepared) + TAG_PAD_X
+    let th = TAG_HEIGHT
+    // A tag wider than the column (a long slug) wraps its own text.
+    if (tw > width) {
+      tw = width
+      th = TAG_HEIGHT - TAG_LINE_HEIGHT +
+        layout(prepared, width - TAG_PAD_X, TAG_LINE_HEIGHT).height
+    }
+    if (rowWidth > 0 && rowWidth + TAG_GAP + tw > width) {
+      height += rowHeight + TAG_GAP
+      rowWidth = tw
+      rowHeight = th
+    } else {
+      rowWidth += (rowWidth > 0 ? TAG_GAP : 0) + tw
+      rowHeight = Math.max(rowHeight, th)
+    }
+  }
+  return height + rowHeight
+}
+
 export function measureLinkHeight(link, containerWidth) {
-  // Title: always 1 line (truncated)
+  const contentWidth = containerWidth - CONTENT_INSET
+
+  // Title + domain: always 1 line each (truncated)
   let h = CARD_PAD_TOP + BODY_LINE_HEIGHT + DOMAIN_LINE
 
-  // Pull quote (variable height — this is where pretext shines)
   if (link.pullQuote) {
-    h += QUOTE_MARGIN_TOP + measurePullQuote(link.pullQuote, containerWidth - QUOTE_TEXT_INSET)
+    h += QUOTE_MARGIN_TOP + measurePullQuote(link.pullQuote, contentWidth)
   }
 
-  // Tags: estimate row wrapping (7.5px/char ≈ 14px system sans average)
   if (link.tags?.length > 0) {
-    const tagWidths = link.tags.map(t => t.length * 7.5 + 24)
-    let rows = 1
-    let rowWidth = 0
-    for (const tw of tagWidths) {
-      if (rowWidth > 0 && rowWidth + tw + 4 > containerWidth) {
-        rows++
-        rowWidth = tw
-      } else {
-        rowWidth += tw + 4
-      }
-    }
-    h += TAGS_MARGIN_TOP + rows * TAG_ROW_HEIGHT
+    h += TAGS_MARGIN_TOP + measureTags(link.tags, contentWidth)
   }
 
-  // Date line
   h += DATE_MARGIN_TOP + DATE_LINE
-
-  // Bottom padding + border
   h += CARD_PAD_BOTTOM + CARD_BORDER
-
-  // Residual fixed chrome measured against the live DOM (2026-08-12 probe):
-  // sub-pixel line-height rounding across the title/domain/date lines adds a
-  // constant 2.8px per card regardless of content.
-  h += 2.8
 
   return h
 }
