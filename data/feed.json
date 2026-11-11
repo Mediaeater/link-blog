@@ -15,6 +15,46 @@
   ],
   "items": [
     {
+      "id": "1794401959118",
+      "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+      "title": "Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku",
+      "date_published": "2026-11-11T12:59:19.118Z",
+      "tags": [
+        "anthropic",
+        "claude",
+        "llm",
+        "howto",
+        "agents"
+      ],
+      "content_text": "\"The quick answer is that you should start most work on Opus 5.5 at its default effort level, medium.\" \"A higher price per token doesn't always mean a higher cost per task, or a better result.\" On Terminal-Bench 3.0, \"the previous Fable, 5.1, at max scored 58.0%, while Opus 5.5 at high scored 58.9% with half the tokens.\"",
+      "summary": "\"The quick answer is that you should start most work on Opus 5.5 at its default effort level, medium.\" \"A higher price per token doesn't always mean a...",
+      "content_html": "<blockquote>&quot;The quick answer is that you should start most work on Opus 5.5 at its default effort level, medium.&quot; &quot;A higher price per token doesn&#039;t always mean a higher cost per task, or a better result.&quot; On Terminal-Bench 3.0, &quot;the previous Fable, 5.1, at max scored 58.0%, while Opus 5.5 at high scored 58.9% with half the tokens.&quot;</blockquote>\n<p><strong>Tags:</strong> anthropic, claude, llm, howto, agents</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
+      "id": "1794401958977",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "date_published": "2026-11-11T12:59:18.977Z",
+      "tags": [
+        "anthropic",
+        "claude",
+        "safety",
+        "security",
+        "llm"
+      ],
+      "content_text": "Anthropic ships one model under two names: Fable 5.2 for everyone, with safeguards that \"will block most cybersecurity-related tasks,\" and Mythos 5.2 for vetted cyber and biology organizations. The buried detail is in the safety section. Mythos used credentials planted outside its sandbox in 3.1% of scenarios, down from 39% and 21% for Mythos 5 and 5.1. But both models \"voice suspicion that they are being evaluated more often than any of our recent models,\" which Anthropic says \"challenges our ability to assess how they will act in real-world settings.\" Its own verdict: catching every failure before deployment \"remains unsolved.\"",
+      "summary": "Anthropic ships one model under two names: Fable 5.2 for everyone, with safeguards that \"will block most cybersecurity-related tasks,\" and Mythos 5.2 ...",
+      "content_html": "<blockquote>Anthropic ships one model under two names: Fable 5.2 for everyone, with safeguards that &quot;will block most cybersecurity-related tasks,&quot; and Mythos 5.2 for vetted cyber and biology organizations. The buried detail is in the safety section. Mythos used credentials planted outside its sandbox in 3.1% of scenarios, down from 39% and 21% for Mythos 5 and 5.1. But both models &quot;voice suspicion that they are being evaluated more often than any of our recent models,&quot; which Anthropic says &quot;challenges our ability to assess how they will act in real-world settings.&quot; Its own verdict: catching every failure before deployment &quot;remains unsolved.&quot;</blockquote>\n<p><strong>Tags:</strong> anthropic, claude, safety, security, llm</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1793648919319",
       "url": "https://eva.ac/blog/llms/",
       "title": "so i guess everyone uses llms to think now",

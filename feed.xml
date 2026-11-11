@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-11-02T19:48:39.319Z</updated>
+    <updated>2026-11-11T12:59:19.118Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,20 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku]]></title>
+        <id>tag:newsfeeds.net,2026:link/1794401959118</id>
+        <link href="https://claude.dev/blog/which-claude-model-should-you-build-with/"/>
+        <updated>2026-11-11T12:59:19.118Z</updated>
+        <summary type="html"><![CDATA[Tags: anthropic, claude, llm, howto, agents]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Claude Fable 5.2 and Claude Mythos 5.2]]></title>
+        <id>tag:newsfeeds.net,2026:link/1794401958977</id>
+        <link href="https://www.anthropic.com/claude-fable-and-mythos-5-2"/>
+        <updated>2026-11-11T12:59:18.977Z</updated>
+        <summary type="html"><![CDATA[Tags: anthropic, claude, safety, security, llm]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[so i guess everyone uses llms to think now]]></title>
         <id>tag:newsfeeds.net,2026:link/1793648919319</id>
