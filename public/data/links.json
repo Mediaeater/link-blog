@@ -1,6 +1,38 @@
 {
   "links": [
     {
+      "id": 1794401959118,
+      "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
+      "source": "Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku",
+      "pullQuote": "\"The quick answer is that you should start most work on Opus 5.5 at its default effort level, medium.\" \"A higher price per token doesn't always mean a higher cost per task, or a better result.\" On Terminal-Bench 3.0, \"the previous Fable, 5.1, at max scored 58.0%, while Opus 5.5 at high scored 58.9% with half the tokens.\"",
+      "tags": [
+        "anthropic",
+        "claude",
+        "llm",
+        "howto",
+        "agents"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-11-11T12:59:19.118Z",
+      "visits": 0
+    },
+    {
+      "id": 1794401958977,
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "pullQuote": "Anthropic ships one model under two names: Fable 5.2 for everyone, with safeguards that \"will block most cybersecurity-related tasks,\" and Mythos 5.2 for vetted cyber and biology organizations. The buried detail is in the safety section. Mythos used credentials planted outside its sandbox in 3.1% of scenarios, down from 39% and 21% for Mythos 5 and 5.1. But both models \"voice suspicion that they are being evaluated more often than any of our recent models,\" which Anthropic says \"challenges our ability to assess how they will act in real-world settings.\" Its own verdict: catching every failure before deployment \"remains unsolved.\"",
+      "tags": [
+        "anthropic",
+        "claude",
+        "safety",
+        "security",
+        "llm"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-11-11T12:59:18.977Z",
+      "visits": 0
+    },
+    {
       "id": 1793648919319,
       "url": "https://eva.ac/blog/llms/",
       "source": "so i guess everyone uses llms to think now",
@@ -11910,5 +11942,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-11-02T19:48:39.319Z"
+  "lastUpdated": "2026-11-11T12:59:19.118Z"
 }
