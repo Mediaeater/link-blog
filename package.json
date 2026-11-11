@@ -78,7 +78,7 @@
     "puppeteer": "^25.10.0",
     "serve": "^14.2.5",
     "supertest": "^7.3.1",
-    "tailwindcss": "^4.3.3",
+    "tailwindcss": "^4.3.5",
     "vite": "^8.3.1",
     "vite-plugin-singlefile": "^2.3.4",
     "vitest": "^5.0.0"
