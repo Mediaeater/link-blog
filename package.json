@@ -81,7 +81,7 @@
     "tailwindcss": "^4.3.5",
     "vite": "^8.3.6",
     "vite-plugin-singlefile": "^2.3.4",
-    "vitest": "^5.0.0"
+    "vitest": "^5.1.0"
   },
   "allowScripts": {
     "puppeteer@25.10.0": true
