@@ -125,3 +125,21 @@ jobs:
       with:
         path: ./
         extra_args: --debug --only-verified
+
+  # Static analysis of .github/ itself: unpinned actions, persisted checkout
+  # tokens, broad permissions, template injection. The tree was brought to
+  # zero findings on 2026-11-12; this keeps new workflows there. The binary
+  # is pinned by hand - Dependabot does not track the download URL.
+  workflow-lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        persist-credentials: false
+
+    - name: Run zizmor
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        curl -sSfL "https://github.com/zizmorcore/zizmor/releases/download/v1.32.0/zizmor-x86_64-unknown-linux-gnu.tar.gz" | tar -xz zizmor
+        ./zizmor --no-progress .
