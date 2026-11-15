@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1794773648419,
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "source": "All AI-generated code should be Open Source (Jakub T. Jankiewicz)",
+      "pullQuote": "\"AI models were trained on a massive corpus of Open Source code written since RMS announced the GNU Project and the Free Software Movement. That code was simply scraped from the internet and used without permission or proper attribution.\" \"Turning this collective knowledge into proprietary, closed-source code feels like license laundering.\" \"Purely AI-generated code is not written by a human, meaning it should not be copyrightable.\"",
+      "tags": [
+        "ai",
+        "open-source",
+        "copyright",
+        "code",
+        "authorship"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-11-15T20:14:08.419Z",
+      "visits": 0
+    },
+    {
       "id": 1794401959118,
       "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
       "source": "Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku",
@@ -11942,5 +11958,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-11-11T12:59:19.118Z"
+  "lastUpdated": "2026-11-15T20:14:08.419Z"
 }

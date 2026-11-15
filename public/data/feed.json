@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1794773648419",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "title": "All AI-generated code should be Open Source (Jakub T. Jankiewicz)",
+      "date_published": "2026-11-15T20:14:08.419Z",
+      "tags": [
+        "ai",
+        "open-source",
+        "copyright",
+        "code",
+        "authorship"
+      ],
+      "content_text": "\"AI models were trained on a massive corpus of Open Source code written since RMS announced the GNU Project and the Free Software Movement. That code was simply scraped from the internet and used without permission or proper attribution.\" \"Turning this collective knowledge into proprietary, closed-source code feels like license laundering.\" \"Purely AI-generated code is not written by a human, meaning it should not be copyrightable.\"",
+      "summary": "\"AI models were trained on a massive corpus of Open Source code written since RMS announced the GNU Project and the Free Software Movement. That code ...",
+      "content_html": "<blockquote>&quot;AI models were trained on a massive corpus of Open Source code written since RMS announced the GNU Project and the Free Software Movement. That code was simply scraped from the internet and used without permission or proper attribution.&quot; &quot;Turning this collective knowledge into proprietary, closed-source code feels like license laundering.&quot; &quot;Purely AI-generated code is not written by a human, meaning it should not be copyrightable.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, open-source, copyright, code, authorship</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1794401959118",
       "url": "https://claude.dev/blog/which-claude-model-should-you-build-with/",
       "title": "Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku",
