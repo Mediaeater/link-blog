@@ -1,0 +1,16 @@
+# zizmor configuration - https://docs.zizmor.sh/configuration/
+# Picked up automatically by `zizmor .` (CI job: workflow-lint in ci.yml).
+rules:
+  unpinned-uses:
+    config:
+      policies:
+        # Every action is pinned to a full commit SHA, first-party included.
+        # The default lets actions/* and github/* use tag refs.
+        "*": hash-pin
+
+# To silence a finding, prefer an inline `# zizmor: ignore[rule-name]` comment
+# with a reason next to the line. Use a block like this only for whole files:
+#
+#   some-rule:
+#     ignore:
+#       - ci.yml:123
