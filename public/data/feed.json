@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1795697329786",
+      "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc7/cogentic_research_papers",
+      "title": "Cogentic Research Papers (google-research)",
+      "date_published": "2026-11-26T12:48:49.786Z",
+      "tags": [
+        "ai",
+        "mathematics",
+        "google",
+        "research",
+        "cryptography"
+      ],
+      "content_text": "Ten papers Google says were produced by Cogentic, its multi-agent proof harness, six of them dropped Nov 25 on Gemini 4 with \"no human interaction other than the initial prompt.\" The headline claims are unconditional integer factoring in L_N[1/3] time and sub-quasi-polynomial discrete logs in small-characteristic fields. Read the constants before the headlines: the factoring bound is L_N[1/3, 105], a rigorous proof of the complexity class the number field sieve already reaches heuristically with a far smaller constant, not a faster attack on RSA. Each paper says a complete Lean 4 formalization exists and \"will be released in a companion submission,\" so for now the proofs are PDFs nobody outside Google can machine-check.",
+      "summary": "Ten papers Google says were produced by Cogentic, its multi-agent proof harness, six of them dropped Nov 25 on Gemini 4 with \"no human interaction oth...",
+      "content_html": "<blockquote>Ten papers Google says were produced by Cogentic, its multi-agent proof harness, six of them dropped Nov 25 on Gemini 4 with &quot;no human interaction other than the initial prompt.&quot; The headline claims are unconditional integer factoring in L_N[1/3] time and sub-quasi-polynomial discrete logs in small-characteristic fields. Read the constants before the headlines: the factoring bound is L_N[1/3, 105], a rigorous proof of the complexity class the number field sieve already reaches heuristically with a far smaller constant, not a faster attack on RSA. Each paper says a complete Lean 4 formalization exists and &quot;will be released in a companion submission,&quot; so for now the proofs are PDFs nobody outside Google can machine-check.</blockquote>\n<p><strong>Tags:</strong> ai, mathematics, google, research, cryptography</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1795697050649",
       "url": "https://www.youtube.com/watch?v=JVuSYB9iqwo",
       "title": "Are we Creating Alien Beings? - Geoffrey Hinton",
