@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1795714655075,
+      "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act/",
+      "source": "Curiosity Is No Solo Act",
+      "pullQuote": "Perry Zurn and Dani S. Bassett, adapting their book \"Curious Minds,\" argue against two millennia of treating curiosity as one person's appetite for information. \"Imagine a curiosity that aims less to know and more to make connections, build constellations, find links, and follow threads, functioning within a webbed network of relations between knowers, methods of knowing, and knowledges.\" Their test case is the cabinet-of-curiosities collector Ole Worm: \"Curiosity and curios are never in fact solitary.\"",
+      "tags": [
+        "thinking",
+        "knowledge",
+        "learning",
+        "books",
+        "culture"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-11-26T17:37:35.075Z",
+      "visits": 0
+    },
+    {
       "id": 1795712832132,
       "url": "https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude",
       "source": "Spitting in the Face of Glaude",
@@ -12007,5 +12023,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-11-26T17:07:12.132Z"
+  "lastUpdated": "2026-11-26T17:37:35.075Z"
 }
