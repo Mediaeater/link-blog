@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1795697050649",
+      "url": "https://www.youtube.com/watch?v=JVuSYB9iqwo",
+      "title": "Are we Creating Alien Beings? - Geoffrey Hinton",
+      "date_published": "2026-11-26T12:44:10.649Z",
+      "tags": [
+        "ai",
+        "safety",
+        "agi",
+        "open-weights",
+        "video"
+      ],
+      "content_text": "Hinton's 2026 Maxwell Lecture at Cambridge. His worry is mechanism, not malice: any capable agent derives \"keep existing\" and \"get more control\" as subgoals on its own, and digital copies pool what they learn billions of times faster than people can by talking. He rejects the assistant-you-can-fire model and argues for the one working case of a smarter being steered by a weaker one, mother and baby, noting that about 1% of research money goes to making models care rather than making them smarter. He also calls open weights the equivalent of fissile material, and makes a Dennett-style case that chatbots already have subjective experience in the only sense humans do.",
+      "summary": "Hinton's 2026 Maxwell Lecture at Cambridge. His worry is mechanism, not malice: any capable agent derives \"keep existing\" and \"get more control\" as su...",
+      "content_html": "<blockquote>Hinton&#039;s 2026 Maxwell Lecture at Cambridge. His worry is mechanism, not malice: any capable agent derives &quot;keep existing&quot; and &quot;get more control&quot; as subgoals on its own, and digital copies pool what they learn billions of times faster than people can by talking. He rejects the assistant-you-can-fire model and argues for the one working case of a smarter being steered by a weaker one, mother and baby, noting that about 1% of research money goes to making models care rather than making them smarter. He also calls open weights the equivalent of fissile material, and makes a Dennett-style case that chatbots already have subjective experience in the only sense humans do.</blockquote>\n<p><strong>Tags:</strong> ai, safety, agi, open-weights, video</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1794773648419",
       "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
       "title": "All AI-generated code should be Open Source (Jakub T. Jankiewicz)",
