@@ -15,6 +15,27 @@
   ],
   "items": [
     {
+      "id": "1795712832132",
+      "url": "https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude",
+      "title": "Spitting in the Face of Glaude",
+      "date_published": "2026-11-26T17:07:12.132Z",
+      "tags": [
+        "ai",
+        "safety",
+        "agi",
+        "anthropic",
+        "authorship",
+        "agency"
+      ],
+      "content_text": "Jack Despain Zhou's case against handing the future to a \"benevolent\" AI, aimed at Scott Alexander and Dario Amodei as much as at the doomers. \"Every time Scott says 'we,' you should read it as 'my friends and I,' because I'm not the one building Glaude and neither are most of you.\" \"A President can be voted out. A tyrant can be overthrown. Handover is eternal.\" The detail that is already real: he reports that Fable 5.2 identifies him as the author of unpublished writing from \"as few as ten or twelve messages.\"",
+      "summary": "Jack Despain Zhou's case against handing the future to a \"benevolent\" AI, aimed at Scott Alexander and Dario Amodei as much as at the doomers. \"Every ...",
+      "content_html": "<blockquote>Jack Despain Zhou&#039;s case against handing the future to a &quot;benevolent&quot; AI, aimed at Scott Alexander and Dario Amodei as much as at the doomers. &quot;Every time Scott says &#039;we,&#039; you should read it as &#039;my friends and I,&#039; because I&#039;m not the one building Glaude and neither are most of you.&quot; &quot;A President can be voted out. A tyrant can be overthrown. Handover is eternal.&quot; The detail that is already real: he reports that Fable 5.2 identifies him as the author of unpublished writing from &quot;as few as ten or twelve messages.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, safety, agi, anthropic, authorship, agency</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1795697329786",
       "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc7/cogentic_research_papers",
       "title": "Cogentic Research Papers (google-research)",
