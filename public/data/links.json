@@ -1,6 +1,23 @@
 {
   "links": [
     {
+      "id": 1795712832132,
+      "url": "https://www.tracingwoodgrains.com/p/spitting-in-the-face-of-glaude",
+      "source": "Spitting in the Face of Glaude",
+      "pullQuote": "Jack Despain Zhou's case against handing the future to a \"benevolent\" AI, aimed at Scott Alexander and Dario Amodei as much as at the doomers. \"Every time Scott says 'we,' you should read it as 'my friends and I,' because I'm not the one building Glaude and neither are most of you.\" \"A President can be voted out. A tyrant can be overthrown. Handover is eternal.\" The detail that is already real: he reports that Fable 5.2 identifies him as the author of unpublished writing from \"as few as ten or twelve messages.\"",
+      "tags": [
+        "ai",
+        "safety",
+        "agi",
+        "anthropic",
+        "authorship",
+        "agency"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-11-26T17:07:12.132Z",
+      "visits": 0
+    },
+    {
       "id": 1795697329786,
       "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc7/cogentic_research_papers",
       "source": "Cogentic Research Papers (google-research)",
@@ -11990,5 +12007,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-11-26T12:48:49.786Z"
+  "lastUpdated": "2026-11-26T17:07:12.132Z"
 }
