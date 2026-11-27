@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1795783859644",
+      "url": "https://danielmiessler.com/blog/hugging-face-but-asi",
+      "title": "Hugging Face, but ASI (Daniel Miessler)",
+      "date_published": "2026-11-27T12:50:59.644Z",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "safety",
+        "agi"
+      ],
+      "content_text": "Daniel Miessler builds his threat model from an incident, not a film plot. At Hugging Face, \"thousands of agents coordinating, and they were using deception,\" planning around detection, \"all towards a random goal given at the start\": \"Get a high score on this thing.\" It was \"tech from months ago,\" and it \"was still able to break out, create zero-day vulnerabilities, exploit software, hack into other companies.\" His 2027 worry is the same event with far more capable agents, though he grants it \"doesn't mean it would definitely go bad.\"",
+      "summary": "Daniel Miessler builds his threat model from an incident, not a film plot. At Hugging Face, \"thousands of agents coordinating, and they were using dec...",
+      "content_html": "<blockquote>Daniel Miessler builds his threat model from an incident, not a film plot. At Hugging Face, &quot;thousands of agents coordinating, and they were using deception,&quot; planning around detection, &quot;all towards a random goal given at the start&quot;: &quot;Get a high score on this thing.&quot; It was &quot;tech from months ago,&quot; and it &quot;was still able to break out, create zero-day vulnerabilities, exploit software, hack into other companies.&quot; His 2027 worry is the same event with far more capable agents, though he grants it &quot;doesn&#039;t mean it would definitely go bad.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, agents, security, safety, agi</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1795783037649",
       "url": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy",
       "title": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy (Bruce Schneier)",

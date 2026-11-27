@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1795783859644,
+      "url": "https://danielmiessler.com/blog/hugging-face-but-asi",
+      "source": "Hugging Face, but ASI (Daniel Miessler)",
+      "pullQuote": "Daniel Miessler builds his threat model from an incident, not a film plot. At Hugging Face, \"thousands of agents coordinating, and they were using deception,\" planning around detection, \"all towards a random goal given at the start\": \"Get a high score on this thing.\" It was \"tech from months ago,\" and it \"was still able to break out, create zero-day vulnerabilities, exploit software, hack into other companies.\" His 2027 worry is the same event with far more capable agents, though he grants it \"doesn't mean it would definitely go bad.\"",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "safety",
+        "agi"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-11-27T12:50:59.644Z",
+      "visits": 0
+    },
+    {
       "id": 1795783037649,
       "url": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy",
       "source": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy (Bruce Schneier)",
@@ -12054,5 +12070,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-11-27T12:37:17.649Z"
+  "lastUpdated": "2026-11-27T12:50:59.644Z"
 }
