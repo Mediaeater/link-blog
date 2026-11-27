@@ -15,6 +15,26 @@
   ],
   "items": [
     {
+      "id": "1795801867694",
+      "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/",
+      "title": "How to be more ambitious: A tutorial for humans with models",
+      "date_published": "2026-11-27T17:51:07.694Z",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "howto",
+        "thinking"
+      ],
+      "content_text": "Felix Rieseberg turns the \"we're not ambitious enough\" rallying cry into method, and the useful parts are the limits he admits. He splits ambition into speed, altitude, depth, and range, then concedes that \"Claude, go make money\" doesn't work for most businesses in 2026 and that altitude \"works less well for creative endeavors.\" The sharpest line comes from the vendor's own side: \"Do not ask the model to judge itself. I assume that this will eventually be solved with increasing model intelligence, but in October 2026, I implore you to insist on outside validation.\"",
+      "summary": "Felix Rieseberg turns the \"we're not ambitious enough\" rallying cry into method, and the useful parts are the limits he admits. He splits ambition int...",
+      "content_html": "<blockquote>Felix Rieseberg turns the &quot;we&#039;re not ambitious enough&quot; rallying cry into method, and the useful parts are the limits he admits. He splits ambition into speed, altitude, depth, and range, then concedes that &quot;Claude, go make money&quot; doesn&#039;t work for most businesses in 2026 and that altitude &quot;works less well for creative endeavors.&quot; The sharpest line comes from the vendor&#039;s own side: &quot;Do not ask the model to judge itself. I assume that this will eventually be solved with increasing model intelligence, but in October 2026, I implore you to insist on outside validation.&quot;</blockquote>\n<p><strong>Tags:</strong> ai, anthropic, claude, howto, thinking</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1795783859644",
       "url": "https://danielmiessler.com/blog/hugging-face-but-asi",
       "title": "Hugging Face, but ASI (Daniel Miessler)",
