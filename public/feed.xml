@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-11-27T12:50:59.644Z</updated>
+    <updated>2026-11-27T17:51:07.694Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[How to be more ambitious: A tutorial for humans with models]]></title>
+        <id>tag:newsfeeds.net,2026:link/1795801867694</id>
+        <link href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/"/>
+        <updated>2026-11-27T17:51:07.694Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, anthropic, claude, howto, thinking]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hugging Face, but ASI (Daniel Miessler)]]></title>
         <id>tag:newsfeeds.net,2026:link/1795783859644</id>
