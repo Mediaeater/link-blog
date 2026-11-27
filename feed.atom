@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-11-26T17:37:35.075Z</updated>
+    <updated>2026-11-27T12:31:20.311Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[HOLY SHIT HOLY SHIT HOLY SHIT HOLY SHIT (Scott Aaronson)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1795782680311</id>
+        <link href="https://scottaaronson.blog/?p=10379"/>
+        <updated>2026-11-27T12:31:20.311Z</updated>
+        <summary type="html"><![CDATA[Tags: ai, mathematics, openai, anthropic, cryptography]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Curiosity Is No Solo Act]]></title>
         <id>tag:newsfeeds.net,2026:link/1795714655075</id>
