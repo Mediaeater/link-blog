@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://newsfeeds.net/</id>
     <title>Mediaeater Digest</title>
-    <updated>2026-11-27T12:31:20.311Z</updated>
+    <updated>2026-11-27T12:37:17.649Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Mediaeater</name>
@@ -11,6 +11,13 @@
     <link rel="alternate" href="https://newsfeeds.net/"/>
     <link rel="self" href="https://newsfeeds.net/feed.atom"/>
     <subtitle>Latest links and resources</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Don’t blame cyber-attacks for recent outages. The real villain is the US economy (Bruce Schneier)]]></title>
+        <id>tag:newsfeeds.net,2026:link/1795783037649</id>
+        <link href="https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy"/>
+        <updated>2026-11-27T12:37:17.649Z</updated>
+        <summary type="html"><![CDATA[Tags: security, infrastructure, regulation, business]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[HOLY SHIT HOLY SHIT HOLY SHIT HOLY SHIT (Scott Aaronson)]]></title>
         <id>tag:newsfeeds.net,2026:link/1795782680311</id>

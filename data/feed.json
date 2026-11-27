@@ -15,6 +15,25 @@
   ],
   "items": [
     {
+      "id": "1795783037649",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy",
+      "title": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy (Bruce Schneier)",
+      "date_published": "2026-11-27T12:37:17.649Z",
+      "tags": [
+        "security",
+        "infrastructure",
+        "regulation",
+        "business"
+      ],
+      "content_text": "Bruce Schneier on a week of outages at Microsoft, the FAA, United, Apple, several banks and a classified NSA network: unrelated, not an attack, and apparently not AI either. \"Security, safety, resilience, redundancy and recoverability are all essential parts of reliable technology, but they are all costs. More importantly, they are costs that don’t generate near-term profits.\" \"The more we allow unregulated capitalism to privatize gains while socializing risks, the more we should expect these sorts of failures.\"",
+      "summary": "Bruce Schneier on a week of outages at Microsoft, the FAA, United, Apple, several banks and a classified NSA network: unrelated, not an attack, and ap...",
+      "content_html": "<blockquote>Bruce Schneier on a week of outages at Microsoft, the FAA, United, Apple, several banks and a classified NSA network: unrelated, not an attack, and apparently not AI either. &quot;Security, safety, resilience, redundancy and recoverability are all essential parts of reliable technology, but they are all costs. More importantly, they are costs that don’t generate near-term profits.&quot; &quot;The more we allow unregulated capitalism to privatize gains while socializing risks, the more we should expect these sorts of failures.&quot;</blockquote>\n<p><strong>Tags:</strong> security, infrastructure, regulation, business</p>",
+      "_link_blog": {
+        "visits": 0,
+        "is_pinned": false
+      }
+    },
+    {
       "id": "1795782680311",
       "url": "https://scottaaronson.blog/?p=10379",
       "title": "HOLY SHIT HOLY SHIT HOLY SHIT HOLY SHIT (Scott Aaronson)",
