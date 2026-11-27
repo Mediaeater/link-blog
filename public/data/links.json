@@ -1,6 +1,22 @@
 {
   "links": [
     {
+      "id": 1795782680311,
+      "url": "https://scottaaronson.blog/?p=10379",
+      "source": "HOLY SHIT HOLY SHIT HOLY SHIT HOLY SHIT (Scott Aaronson)",
+      "pullQuote": "Scott Aaronson on a week in which OpenAI and Anthropic posted claimed proofs of VP ≠ VNP and of the matrix multiplication exponent ω = 9/4 straight to GitHub: \"they don't even bother to issue press releases anymore, they just upload papers.\" His rule now is that \"any proof that comes directly from OpenAI or Anthropic is correct barring information to the contrary,\" because the labs \"back up their claims with Lean certificates.\" He is also \"virtually certain\" the labs are sitting on results that break deployed cryptosystems, and declines to repeat the unverified specifics.",
+      "tags": [
+        "ai",
+        "mathematics",
+        "openai",
+        "anthropic",
+        "cryptography"
+      ],
+      "isPinned": false,
+      "timestamp": "2026-11-27T12:31:20.311Z",
+      "visits": 0
+    },
+    {
       "id": 1795714655075,
       "url": "https://thereader.mitpress.mit.edu/curiosity-is-no-solo-act/",
       "source": "Curiosity Is No Solo Act",
@@ -12023,5 +12039,5 @@
     }
   ],
   "version": "1.1.0",
-  "lastUpdated": "2026-11-26T17:37:35.075Z"
+  "lastUpdated": "2026-11-27T12:31:20.311Z"
 }
